@@ -1,0 +1,3008 @@
+{
+  "id": "34331a39-5655-4e42-ab31-7a8b636915e1",
+  "language_model": "assemblyai_default",
+  "acoustic_model": "assemblyai_default",
+  "language_code": "en_us",
+  "status": "completed",
+  "audio_url": "https://datastori.es/podlove/file/5524/s/feed/c/mp3/Datastories-133.mp3",
+  "utterances": [
+    {
+      "end": 35346,
+      "speaker": "Various",
+      "start": 200,
+      "text": "First question is, can you automate design? I don't think so. Hi, everyone. Welcome to a new episode of Data stories. My name is Moritz Stefaner, and I'm an independent designer of data visualizations. Actually, I work as a self employed truth and beauty of a out of my office here in the countryside in the north of Germany.",
+      "id": "ep_133_ut_0"
+    },
+    {
+      "end": 43310,
+      "speaker": "B",
+      "start": 35418,
+      "text": "And I am Enrico Bertini. I am a professor at New York University, New York City, where I teach and do research in data visualization.",
+      "id": "ep_133_ut_1"
+    },
+    {
+      "end": 56506,
+      "speaker": "Various",
+      "start": 43650,
+      "text": "That's right. And on this podcast together, we talk about data visualization, data analysis, and generally the role data plays in our lives. And usually we do that with a guest or two or three that we invite on the show.",
+      "id": "ep_133_ut_2"
+    },
+    {
+      "end": 79318,
+      "speaker": "B",
+      "start": 56578,
+      "text": "But before we start, a quick note, our podcast is now listener supported, so there's no ads. If you enjoy the show, please consider supporting us with recurring payments on patreon.com Datastories. Or if you prefer, you can also send us one time donations on PayPal. Just going to PayPal me Datastories.",
+      "id": "ep_133_ut_3"
+    },
+    {
+      "end": 112144,
+      "speaker": "Various",
+      "start": 79454,
+      "text": "That's right. And today we have a very special episode. It's the time of the year again, where we record the annual yearly review. What has been happening in data visualization, and what are we hoping for for the next year? And in the past, we did sometimes invite individual guests, or we did around the world episodes. These are also worth checking out from the last few years. And this year, we have a special meeting of the top database podcasters. So we're really happy to have Alli Torbett here. Hi, Alli.",
+      "id": "ep_133_ut_4"
+    },
+    {
+      "end": 112824,
+      "speaker": "B",
+      "start": 112192,
+      "text": "Hi, Alli.",
+      "id": "ep_133_ut_5"
+    },
+    {
+      "end": 114792,
+      "speaker": "C",
+      "start": 112912,
+      "text": "Hi. Thank you so much for having me.",
+      "id": "ep_133_ut_6"
+    },
+    {
+      "end": 119352,
+      "speaker": "Various",
+      "start": 114896,
+      "text": "Thanks for coming. And we have Cole no sponge. Hi, Cole.",
+      "id": "ep_133_ut_7"
+    },
+    {
+      "end": 119984,
+      "speaker": "D",
+      "start": 119416,
+      "text": "Hello.",
+      "id": "ep_133_ut_8"
+    },
+    {
+      "end": 120768,
+      "speaker": "B",
+      "start": 120112,
+      "text": "Hi, Cole.",
+      "id": "ep_133_ut_9"
+    },
+    {
+      "end": 121320,
+      "speaker": "D",
+      "start": 120824,
+      "text": "Hi.",
+      "id": "ep_133_ut_10"
+    },
+    {
+      "end": 123332,
+      "speaker": "Various",
+      "start": 121440,
+      "text": "And finally, Jon Schwabish.",
+      "id": "ep_133_ut_11"
+    },
+    {
+      "end": 123892,
+      "speaker": "B",
+      "start": 123396,
+      "text": "Hey, John.",
+      "id": "ep_133_ut_12"
+    },
+    {
+      "end": 125460,
+      "speaker": "E",
+      "start": 123956,
+      "text": "Hey, guys. How are you?",
+      "id": "ep_133_ut_13"
+    },
+    {
+      "end": 140060,
+      "speaker": "Various",
+      "start": 125580,
+      "text": "Yeah. So we looked at all the different database podcasters out there and assembled this selected group. Can we briefly make a quick round? Can you tell us a bit about your database podcast and where people can find it?",
+      "id": "ep_133_ut_14"
+    },
+    {
+      "end": 169824,
+      "speaker": "C",
+      "start": 140140,
+      "text": "Alli yeah, I'm Alli Torban, and I'm a data visualization designer at the American Enterprise Institute in Washington, DC. And I'm also the host of the podcast Dataviz today. And you can find it at dataviztoday.com and my episodes are pretty short. I take one Dataviz that I really like, and I talk to the designer about their whole process and just quick learnings about Dataviz that I find in the wild that I really like.",
+      "id": "ep_133_ut_15"
+    },
+    {
+      "end": 172112,
+      "speaker": "Various",
+      "start": 169912,
+      "text": "Yeah. And you just started this year, I think, right?",
+      "id": "ep_133_ut_16"
+    },
+    {
+      "end": 175832,
+      "speaker": "C",
+      "start": 172176,
+      "text": "Yes, yes. March 2018 was my first episode.",
+      "id": "ep_133_ut_17"
+    },
+    {
+      "end": 176860,
+      "speaker": "Various",
+      "start": 175896,
+      "text": "Fantastic.",
+      "id": "ep_133_ut_18"
+    },
+    {
+      "end": 180216,
+      "speaker": "B",
+      "start": 177360,
+      "text": "So that's part of the great developments of 2018.",
+      "id": "ep_133_ut_19"
+    },
+    {
+      "end": 180616,
+      "speaker": "Various",
+      "start": 180288,
+      "text": "Yeah.",
+      "id": "ep_133_ut_20"
+    },
+    {
+      "end": 181380,
+      "speaker": "D",
+      "start": 180688,
+      "text": "Yes.",
+      "id": "ep_133_ut_21"
+    },
+    {
+      "end": 188948,
+      "speaker": "C",
+      "start": 182040,
+      "text": "But I thought that I should start a podcast about Dataviz, being a Dataviz newbie myself. Yeah, it's been really great.",
+      "id": "ep_133_ut_22"
+    },
+    {
+      "end": 190788,
+      "speaker": "Various",
+      "start": 189044,
+      "text": "Cool. How about you, Cole?",
+      "id": "ep_133_ut_23"
+    },
+    {
+      "end": 220384,
+      "speaker": "D",
+      "start": 190964,
+      "text": "I'm Cole Noswebbern Affleck from storytelling with data, where we try to teach people how to make graphs that make sense. Book, blog, and podcast, which we just had our first year anniversary of the podcast, which is the storytelling with data podcast. You can find it on the website storytellingwithdata.com, where roughly monthly I take a topic and talk about it, something related to data visualization, like designing within construction or giving good feedback.",
+      "id": "ep_133_ut_24"
+    },
+    {
+      "end": 221696,
+      "speaker": "B",
+      "start": 220512,
+      "text": "Great. John?",
+      "id": "ep_133_ut_25"
+    },
+    {
+      "end": 254450,
+      "speaker": "E",
+      "start": 221808,
+      "text": "Hi. I'm Jon Schwabish. I'm a senior fellow at the Urban Institute nonprofit Research Institution in Washington, DC. I'm also the host of the Policyviz podcast, where I talk to interesting people in the world. I refer to my podcast as lazy man's blogging. It's just easy and fun to talk to cool people doing cool work. So I publish now every other week or every week, talking about Dataviz, presentation skills, tools, all the good stuff.",
+      "id": "ep_133_ut_26"
+    },
+    {
+      "end": 286796,
+      "speaker": "B",
+      "start": 254610,
+      "text": "Okay, great. So I think what we want to do in this episode is to do a little bit of a review of major trends, interesting visualizations that people developed, talk about new blogs, new books, and so on. Right? So let's start from major trends. Right. So I think it would be nice if each of you can start with what do you think were the major developments and trends in 2018? So, Cole, maybe you want to start.",
+      "id": "ep_133_ut_27"
+    },
+    {
+      "end": 316384,
+      "speaker": "D",
+      "start": 286908,
+      "text": "Sure. So one of the things, and this isn't new, but I feel like, and this is probably more anecdotal than anything, but I feel like there's just many more people putting their work out there than we've had historically. You know, we see a lot through regular things like makeover Monday or there's a storytelling with data challenge that we run on our site. But I think just more blogs and just people putting work that they're doing out there. I don't know if other people are feeling this as well.",
+      "id": "ep_133_ut_28"
+    },
+    {
+      "end": 372160,
+      "speaker": "C",
+      "start": 316552,
+      "text": "Yeah, I'm definitely feeling this. I mean, I think it's anecdotal as well, because I've only seen the Dataviz community in 2018, so I can't really talk to how it's changed. But just from the beginning of the year to right now, it does feel like there's this explosion of blogs. You see a Dataviz somebody shares on Twitter, and there seems to be almost always a blog post that goes along with it, like how I did this what tools I used, and I think it's been really great because it started a lot of great conversations around Dataviz. And I started my podcast in 2018, and it's been a great way for me to learn from other people as well. And I think it's been a really, almost like a democratization of Dataviz opinions. At the beginning, when I first started, it seemed like there were some people that everyone looked to for opinions, and now it seems like it's more of a conversation.",
+      "id": "ep_133_ut_29"
+    },
+    {
+      "end": 401886,
+      "speaker": "B",
+      "start": 372810,
+      "text": "That's great. Do you think it's getting easier? I think in the past there was this idea that there was too much criticism and people was really afraid to put their stuff out there. And maybe initiatives like, I don't know, makeover Monday and even calls storytelling with data challenge makes it easier for people to even, to send out probably even half baked kind of solutions and look for feedback. Right.",
+      "id": "ep_133_ut_30"
+    },
+    {
+      "end": 429126,
+      "speaker": "C",
+      "start": 401998,
+      "text": "Yeah. I personally have felt like that as well. I was really afraid to put my work out at the beginning as a beginner because I was like, oh, my gosh, am I going to do one of those bad things like truncating an axis and everyone's going to tear me apart? But now it does feel a bit more friendly. Maybe that's just part of naturally, when you join a community, at first you're going to be a little bit, you know, scared of sharing your words.",
+      "id": "ep_133_ut_31"
+    },
+    {
+      "end": 434166,
+      "speaker": "D",
+      "start": 429158,
+      "text": "I don't know. I still think there's not enough criticism out there. I think this is one of the things that we'll talk about more.",
+      "id": "ep_133_ut_32"
+    },
+    {
+      "end": 440690,
+      "speaker": "Various",
+      "start": 434238,
+      "text": "It's one of the big discussions. We need more or less criticism. Yeah. Yeah.",
+      "id": "ep_133_ut_33"
+    },
+    {
+      "end": 443210,
+      "speaker": "B",
+      "start": 441070,
+      "text": "When it's too much and when it's too few.",
+      "id": "ep_133_ut_34"
+    },
+    {
+      "end": 519580,
+      "speaker": "E",
+      "start": 443590,
+      "text": "I wonder if part of it is the, is the evolution of the social media channels, too. Like, people seem to get a little bit tired of Twitter and these sharp, you know, tweet lengthen critiques, and, I don't know, people sort of got tired of that and said, let's just be a little bit nicer. And so the field is evolving in different ways, and maybe we've evolved where we were. The field was kind of a little nasty in some ways, or maybe not nasty, but snarky. Right. And the snark seems to have declined, but maybe we've gone sort of too far the other way where there's not enough criticism and maybe there's not enough places to have constructive feedback and critique. I think people are also just, you know, in general, are apprehensive to put out stuff that they're not done with. Which I, which I totally get right to put out a draft of something. But I think, like Moritz, for example, you used to put up stuff all the time. That was like, this was my thought process. Here are all the visualizations I made. You did this, I remember a few years ago, I still share this with people. You did this chord diagram on muesli. Right, for this German startup, and you had, like, all the iterations that you went through. Like, why did I end up in this, in this, in this final version? So, you know, I think there's obviously space to have some more of that going on, but we'll see.",
+      "id": "ep_133_ut_35"
+    },
+    {
+      "end": 590660,
+      "speaker": "Various",
+      "start": 520000,
+      "text": "Yeah. Yeah. Maybe it hasn't been so much more, but I think what people are mostly tired with is this drive by criticism on Twitter, where you just, you know, it's just this immediate, like, unfriendly takedown of something you don't like to see. And I think that's actually quite harmful. And by now, I'm really, really opposed to just quickly dismissing somebody else's word work in a few, like, characters. And when I'm. I try, when I write about something in a critical way, I try to frame it now more as a question, like, in terms of why did they go with that? Or why did you go with that? You know, was there a specific reason? Because I might not be aware of the idea that went behind it. And often I get much more interesting feedback from everybody if I put it out as a question. So I think that's, that's something. Even if you don't agree with something, just try and phrase it, like, more as a question than a dismissive statement. But I do agree that, that there's not enough place for in depth criticism, like real, like, as you would talk about a really good musical album or a really good movie, you know, where you would, like, sort of weigh the pros and cons and talk about the cultural context or something. We don't have that. John, you used to run a site called help-me-viz, which was, like, practically oriented, but it's.",
+      "id": "ep_133_ut_36"
+    },
+    {
+      "end": 591884,
+      "speaker": "E",
+      "start": 590700,
+      "text": "Yeah, I still have it.",
+      "id": "ep_133_ut_37"
+    },
+    {
+      "end": 594692,
+      "speaker": "B",
+      "start": 591972,
+      "text": "Yeah, I love that. Why did you stop, John?",
+      "id": "ep_133_ut_38"
+    },
+    {
+      "end": 650078,
+      "speaker": "E",
+      "start": 594796,
+      "text": "Yeah, yeah, I still have it. Just no one uses it. You know, it's like any sort of social platform. You know, it only works if people do it. And I think, and I think one of the reasons, help me Viz never really did what I was hoping it would do is because people are apprehensive to put up drafts of things, either because they're worried about the drive by criticism or because, you know, the data are not something they can put out until it's totally done or, you know, because part of the goal, part of the thing about help me vis is I ask people to post the data. So when you're asking for advice, someone would have to, you know, give it a shot and not just critique, you know, they would actually have to try their own hand at it. So, you know, there's some Reddit feeds out there in forums, but they seem to be, they're not drive by critiques, but they're just sort of drive by conversations. They don't seem to very often be in depth. Right. They're just kind of casual.",
+      "id": "ep_133_ut_39"
+    },
+    {
+      "end": 670620,
+      "speaker": "Various",
+      "start": 650134,
+      "text": "So, yeah, it's always the question and I think in blogging you have the same problem. It's like, it's so much work to really do a really good blog post and it's so much work to write a really good critique. And then do you get so much out of it that it's worth the effort? I think in many cases is the problem. Right. But I would certainly appreciate it if there was more of it.",
+      "id": "ep_133_ut_40"
+    },
+    {
+      "end": 673660,
+      "speaker": "D",
+      "start": 671040,
+      "text": "Right. That's our problem to solve in 2019, folks.",
+      "id": "ep_133_ut_41"
+    },
+    {
+      "end": 679940,
+      "speaker": "Various",
+      "start": 674560,
+      "text": "We can work on that. Other trends Enrico, what stood out to you?",
+      "id": "ep_133_ut_42"
+    },
+    {
+      "end": 705690,
+      "speaker": "B",
+      "start": 680330,
+      "text": "Well, you know, I am always looking at the academic side of things and my sense is that we are slowly but more steadily getting into a situation where there is much more communication between academics and practitioners. I think this has been a long term trend and it's going on and I really like it. I think it was a good choice.",
+      "id": "ep_133_ut_43"
+    },
+    {
+      "end": 707554,
+      "speaker": "Various",
+      "start": 705730,
+      "text": "To do viz at Berlin for sure.",
+      "id": "ep_133_ut_44"
+    },
+    {
+      "end": 768978,
+      "speaker": "B",
+      "start": 707682,
+      "text": "Exactly right. So I think viz in Berlin was a really good example and there were lots of practitioners around. So if you don't know, IEEE VIS is the main academic conference and it used to be this place where only academics go, they publish and present their papers. It's very serious. Right. And now it's much more casual and there are many more practitioners around and that's great. And the other, the opposite is also happening. Right. So you have more academics going to conferences that are not explicitly made for academics. So we have, have seen more and more people going to open this conference and presenting their research in a way that is much more accessible and I think that's great. So I think there have been a few academics that open this, I can remember for sure. Steve Franconeri, I think that was his first time there and many others. Right. So that's great. I love that. I absolutely love that.",
+      "id": "ep_133_ut_45"
+    },
+    {
+      "end": 788872,
+      "speaker": "E",
+      "start": 769114,
+      "text": "Although I will say it was entertaining to me during the Viz conference because the Tableau conference you know, sort of like the other side of the, of the, the spectrum with practitioners. Those were sort of those, those conferences were going on at the same time. Yeah, I'm watching my Twitter feed, unfortunately. Yeah, yeah, my Twitter stream was going in parallel.",
+      "id": "ep_133_ut_46"
+    },
+    {
+      "end": 789280,
+      "speaker": "B",
+      "start": 788976,
+      "text": "Yeah.",
+      "id": "ep_133_ut_47"
+    },
+    {
+      "end": 807370,
+      "speaker": "E",
+      "start": 789320,
+      "text": "So it was like, it was just the, you know, there was not a lot of cross, cross overlap and there was, you know, there was even a couple of tweets. I think, Enrico, you may put out a tweet like, oh, we should pay, you know, we advis should pay attention to more dashboards or pay more attention to dashboards. And I'm like, there's 15,000 people in New Orleans.",
+      "id": "ep_133_ut_48"
+    },
+    {
+      "end": 820326,
+      "speaker": "B",
+      "start": 808390,
+      "text": "Yeah, yeah, it takes time. It takes time. I think people have to be patient, right. These things don't change in one day. But I think the long term trend is good and it should be incentivized.",
+      "id": "ep_133_ut_49"
+    },
+    {
+      "end": 851986,
+      "speaker": "D",
+      "start": 820398,
+      "text": "And part of the gap, I think, is because the. Enrico, I love hearing what you're talking about between, you know, maybe a closing gap or more information sharing across academics and data visuals practitioners. I think it takes a while though for that then to flow through to like your typical business user, because that's one of the questions that I get again and again. Is there a study that would show me this or is there backup for that? So figuring out what are the ways that we can take all the great research that's being done and make that accessible for people to be using in their everyday visualizations.",
+      "id": "ep_133_ut_50"
+    },
+    {
+      "end": 863830,
+      "speaker": "B",
+      "start": 852098,
+      "text": "And it's not just that, Cole, I think it's also the opposite. Right. So people like you who talk with business people, we want to hear from you and say, hey, I couldn't find anything about that answer. And I would tell you most of.",
+      "id": "ep_133_ut_51"
+    },
+    {
+      "end": 866678,
+      "speaker": "D",
+      "start": 863830,
+      "text": "The time later today to have just that conversation.",
+      "id": "ep_133_ut_52"
+    },
+    {
+      "end": 870210,
+      "speaker": "B",
+      "start": 866854,
+      "text": "It's like, no, we never thought about it. Right.",
+      "id": "ep_133_ut_53"
+    },
+    {
+      "end": 871766,
+      "speaker": "D",
+      "start": 870630,
+      "text": "But then you can, right?",
+      "id": "ep_133_ut_54"
+    },
+    {
+      "end": 873530,
+      "speaker": "B",
+      "start": 871798,
+      "text": "Oh, yeah, absolutely. That's our job.",
+      "id": "ep_133_ut_55"
+    },
+    {
+      "end": 876982,
+      "speaker": "D",
+      "start": 875790,
+      "text": "Yeah. So both ways.",
+      "id": "ep_133_ut_56"
+    },
+    {
+      "end": 879570,
+      "speaker": "B",
+      "start": 877086,
+      "text": "Yeah. Any other trends?",
+      "id": "ep_133_ut_57"
+    },
+    {
+      "end": 954342,
+      "speaker": "Various",
+      "start": 880030,
+      "text": "Yeah. So when I was thinking back, one thing that stood out to me this year is that I feel people are much more sort of self aware in terms of what data can do at all or how flawed and how biased and how problematic data is. Many cases, and I think that's great. I think we had a fair share probably, of banging that drum. I'm almost thinking maybe by now everybody's so aware of the limitations that people have problems just putting out like a quick database because they are thinking like, ah, does it really show this the right thing? Or can I, can I put it like that? Or would I now need to add a lot of, like, remarks and asterisks. So my feeling is almost some people might be too self aware by now and not just quickly do a visualization of all meteor strikes or something like this, which in the past led to really cool, at least visuals, even though the data was flawed. So I think it's an interesting, interesting trend. But in general, of course, a very important one that we now understand just a publishing dataset and b, just visualizing it is not by any means direct way to truth and can even lead to untruths in some points, some cases.",
+      "id": "ep_133_ut_58"
+    },
+    {
+      "end": 990098,
+      "speaker": "B",
+      "start": 954406,
+      "text": "So, yeah, it's so much more complicated. This reminds me. So during the last few days, for some reason, I've been looking into climate science, trying to see through reports and papers and data and trying to really look why for every single thing, right, you have one person saying one thing, another person saying another thing. It's so complicated. Once you look at the details, it's like, oh my God, I can't believe that. So I think that's true for many. I mean, reasoning with data is so much more complex than we think, right?",
+      "id": "ep_133_ut_59"
+    },
+    {
+      "end": 995470,
+      "speaker": "Various",
+      "start": 990154,
+      "text": "Yeah, yeah. And I think we lost our naivety there in both good and bad.",
+      "id": "ep_133_ut_60"
+    },
+    {
+      "end": 996866,
+      "speaker": "B",
+      "start": 995890,
+      "text": "Yeah, exactly.",
+      "id": "ep_133_ut_61"
+    },
+    {
+      "end": 1051236,
+      "speaker": "E",
+      "start": 996938,
+      "text": "Yeah. And this sort of spans multiple fields, obviously, especially in the states. There's been this big discussion over the census because there's sort of a perceived politicization of the census and whether different questions are being added. And then there's a whole, in the economics field, there's a whole thread of research on the quality of data that we've been using for a long time that is now sort of under attack. And then there's a whole other stream of thought about implicit bias in data and whether the information we're collecting at its core is really representative and whether people are answering questions. So it's certainly, I mean, it's a little sort of meta above the Dataviz field, but it's capturing a lot of different fields and places about how do we think about the data that we sort of just assumed are capturing things that maybe they're not?",
+      "id": "ep_133_ut_62"
+    },
+    {
+      "end": 1072758,
+      "speaker": "B",
+      "start": 1051308,
+      "text": "Well, and this whole idea, I mean, we could record the whole podcast on that. Let me stop here. But, yeah, I think another big trend is that we have so many podcasts now. Right? That's great. It looks like less blogs and more podcasts.",
+      "id": "ep_133_ut_63"
+    },
+    {
+      "end": 1094818,
+      "speaker": "Various",
+      "start": 1072844,
+      "text": "And I think it's never been a better time to learn data visualization. Right. Like just getting started. I mean, there's so many, like online courses. Enrico, you were part of a coursera course, or you designed one, there's like loads of online resources, there's great books, there's the new podcast, everything. So I think getting started in Dataviz, it's the best thread now. It's really cool.",
+      "id": "ep_133_ut_64"
+    },
+    {
+      "end": 1103646,
+      "speaker": "D",
+      "start": 1094874,
+      "text": "Well, it's. That's a double edged sword, though, right? Because there are all these resources out there, but then it's like, which do you turn to as someone who's ready to do this? That becomes more difficult.",
+      "id": "ep_133_ut_65"
+    },
+    {
+      "end": 1104406,
+      "speaker": "B",
+      "start": 1103778,
+      "text": "That's true.",
+      "id": "ep_133_ut_66"
+    },
+    {
+      "end": 1116566,
+      "speaker": "Various",
+      "start": 1104478,
+      "text": "And I would also argue there's a lot of beginner's material, but not much like that takes you to the next step, that something to the next level that I would hope for in the future is like more advanced, you know, masterclass type things.",
+      "id": "ep_133_ut_67"
+    },
+    {
+      "end": 1120170,
+      "speaker": "B",
+      "start": 1116638,
+      "text": "Yeah, yeah. Maybe somebody should do that.",
+      "id": "ep_133_ut_68"
+    },
+    {
+      "end": 1129598,
+      "speaker": "Various",
+      "start": 1120830,
+      "text": "Somebody with time. Shall we move to the next section? Unless there's something to do that. Yeah.",
+      "id": "ep_133_ut_69"
+    },
+    {
+      "end": 1145034,
+      "speaker": "B",
+      "start": 1129654,
+      "text": "Yeah. So I think we want to do a few great popular new visualizations, but only in very rapid fire mode because it's very hard to describe them. Right. So maybe each of us can mention a few of their favorite visualizations, right?",
+      "id": "ep_133_ut_70"
+    },
+    {
+      "end": 1145790,
+      "speaker": "E",
+      "start": 1145122,
+      "text": "Yeah.",
+      "id": "ep_133_ut_71"
+    },
+    {
+      "end": 1147386,
+      "speaker": "B",
+      "start": 1146290,
+      "text": "John, you want to start?",
+      "id": "ep_133_ut_72"
+    },
+    {
+      "end": 1187560,
+      "speaker": "E",
+      "start": 1147458,
+      "text": "Sure. Yeah. I feel like 2018 was the year of the Beeswarm chart. There were just like a ton of Beeswarm charts, you know, flowing data. Nathan Yau, flowingdata.com had a couple of good ones that he did. The New York times had a really good one on sort of meme that made its way through the twitterverse. I think it also leads back to a thing that we didn't talk about, of reflections of the last year, which is this concept of uncertainty and how we present uncertainty and think about uncertainty. And the Beesworm plot is like, I'm going to give you all the data. I'm going to show you all the plots. Here you go. And I think that lends itself well to be swarms.",
+      "id": "ep_133_ut_73"
+    },
+    {
+      "end": 1190612,
+      "speaker": "Various",
+      "start": 1188100,
+      "text": "Can you briefly describe how they look for people who don't know?",
+      "id": "ep_133_ut_74"
+    },
+    {
+      "end": 1216740,
+      "speaker": "E",
+      "start": 1190636,
+      "text": "Yeah. So think of, instead of plotinous, a histogram where you have bins that show the number of observations in each bin. So you have dollar amounts. You go from zero to 10,000, 10,000 to 20,000, 20,000, 30,000. You have these bins. Instead, you just show all of the observations. Right. And depending on how you lay them out, they kind of look like a swarm of bees.",
+      "id": "ep_133_ut_75"
+    },
+    {
+      "end": 1218744,
+      "speaker": "Various",
+      "start": 1217040,
+      "text": "And they stack up. Sort of.",
+      "id": "ep_133_ut_76"
+    },
+    {
+      "end": 1268452,
+      "speaker": "E",
+      "start": 1218872,
+      "text": "Yeah. And they sort of stack up like the one from the New York Times that had this meme was there are all these dots and it's going vertical down the page. So it's also a timeline but it's laid out vertically, sort of this first tweet at the beginning, and then you can see it picked up, and then it's sort of over at some point. There's just a lot of tweets. And so that's the widest part of the swarm. And then it eventually sort of disappears. And as you go further and further down the page, you get further, you know, fewer and fewer tweets and sorts of sort of tails off a little bit. So you get this nice, you get a view of the distribution because you can see where the more the observations are. But it's not just in these aggregate groups. You're seeing all of the points together. Yeah.",
+      "id": "ep_133_ut_77"
+    },
+    {
+      "end": 1343406,
+      "speaker": "Various",
+      "start": 1268476,
+      "text": "You show the individual and the overall pattern, which is the holy grail, of course, of data visualization. That's why they work so well. Yeah, yeah, we've seen a lot of them. I think there has also been an r package or ggplot package. So I think some scientific papers now also use this. And I think that's, again, mostly do what's available in tools plays a big role. Big project for me personally, I think for many others, was the simulated dendrochronology of us immigration. I call it the immigration Tree Rings project because that's how I always remember it. And it's a beautiful project, and it has a really strong visual metaphor. So the idea is to visualize the immigration into the US based on particles and depending on from which direction people came, they sort of stick to this tree trunk, and at the end it looks like a cross section through a tree. And it's this beautiful metaphor for immigration. So it's one of these cases where visual metaphor and design and overall topic come together so beautifully. And I think it's one of the really, really outstanding projects from petrocous and John Voibe and others. And I think it's really fantastic.",
+      "id": "ep_133_ut_78"
+    },
+    {
+      "end": 1357350,
+      "speaker": "D",
+      "start": 1343478,
+      "text": "Cole, I guess, back on the uncertainty topic that John mentioned, and I don't know if this is new, but it was the first time I'd really given any thought to it. Jittering of this idea of showing motion as a way to depict uncertainty.",
+      "id": "ep_133_ut_79"
+    },
+    {
+      "end": 1359742,
+      "speaker": "B",
+      "start": 1357510,
+      "text": "That's what Jessica Hullman's.",
+      "id": "ep_133_ut_80"
+    },
+    {
+      "end": 1360230,
+      "speaker": "D",
+      "start": 1359846,
+      "text": "Okay.",
+      "id": "ep_133_ut_81"
+    },
+    {
+      "end": 1360486,
+      "speaker": "E",
+      "start": 1360270,
+      "text": "Yeah.",
+      "id": "ep_133_ut_82"
+    },
+    {
+      "end": 1395986,
+      "speaker": "D",
+      "start": 1360518,
+      "text": "Matt Kay talked about it in his tapestry presentation and showed the example where you've got your speedometer like graph and the, the arrow or the marker bouncing around. And he talked about how it actually came under a lot of flak, that it made people nervous. Right. And they ended up taking it away. And his point was two things there. One, that when it's something you care about. It should make you nervous. Right. These were like Democrat, Republican. But then also the point that it actually wasn't jittering enough to represent the true uncertainty. It was like, sort of slowed down from that, which I thought was interesting.",
+      "id": "ep_133_ut_83"
+    },
+    {
+      "end": 1406394,
+      "speaker": "Various",
+      "start": 1396178,
+      "text": "Yeah, yeah. And motion and, like, behavior is not really exploited that much in visualization. There's so much you could do there. So it's an interesting direction. Yeah.",
+      "id": "ep_133_ut_84"
+    },
+    {
+      "end": 1408850,
+      "speaker": "B",
+      "start": 1406562,
+      "text": "Yeah. Ali, do you have a favorite?",
+      "id": "ep_133_ut_85"
+    },
+    {
+      "end": 1458550,
+      "speaker": "C",
+      "start": 1408970,
+      "text": "Yeah. My favorite this year was this one by Jeff Boeing. It was called comparing US city street orientations. And it has. Yeah. The radar chart. And they're in small multiples, which, you know, the circles and the small multiples. I'm kind of a sucker for those. So suck me in, everybody. But the idea was that he created these radar charts of 100 cities, and it showed their street orientations, like street grids. Like, are they mostly running north south or east west? And it was really cool because it's kind of like the fingerprint of a city, but it also gave you information because it kinda of showed you how easy it would be for, like, a newcomer to navigate those streets, you know? So I. I felt like it was really engaging and beautiful and interesting.",
+      "id": "ep_133_ut_86"
+    },
+    {
+      "end": 1468130,
+      "speaker": "Various",
+      "start": 1458670,
+      "text": "Yeah. As you say, interesting topic, perfect representations. One of these, it just hits all the. Yeah, it's exactly what you want to see. Yeah. Really cool.",
+      "id": "ep_133_ut_87"
+    },
+    {
+      "end": 1469570,
+      "speaker": "B",
+      "start": 1468470,
+      "text": "Anything else?",
+      "id": "ep_133_ut_88"
+    },
+    {
+      "end": 1567922,
+      "speaker": "E",
+      "start": 1469990,
+      "text": "Well, it was an election year, so can we have more cartograms and histograms and simulations? I mean, there was a. There was the New York Times, you know, as usual, had a great cartogram where they. They did a cartogram where they had a square for every representative in every state, and then they sort of separated the states. So there was white space between all the states. So you had, you know, Wyoming was only. Whatever it is like. Right. It was just really a clever. A clever use. And the other one I wanted to mention was the. Again, I just keep coming back to the Times, which they should be banned from databases. Right. Yeah. Not even a talk about them. All right, fine. I'm not gonna talk about them. So second one, my favorite was the pockets piece from the pudding, where they compared the size of pockets between men's pants and women's pants. And two of the folks from pitting gave a workshop at Info plus conference in Potsdam earlier this year. And, you know, they talked about how they actually went to stores and had to physically measure the size of the database that has that information. So that's the other thing is like hearing about the background of how people go and collect the data and do the, do the work and what they found. Like that. That's really, that's something I really, I really like. But, yeah, that was, I mean, basically all the projects from the pudding I really like, but that one, that one stood out to me.",
+      "id": "ep_133_ut_89"
+    },
+    {
+      "end": 1569226,
+      "speaker": "Various",
+      "start": 1568066,
+      "text": "Yeah, yeah.",
+      "id": "ep_133_ut_90"
+    },
+    {
+      "end": 1570550,
+      "speaker": "B",
+      "start": 1569378,
+      "text": "Let's move on.",
+      "id": "ep_133_ut_91"
+    },
+    {
+      "end": 1575770,
+      "speaker": "E",
+      "start": 1572090,
+      "text": "Keeping it. We're keeping it tight here, Enrico. Yeah, that's good.",
+      "id": "ep_133_ut_92"
+    },
+    {
+      "end": 1577698,
+      "speaker": "Various",
+      "start": 1575850,
+      "text": "Not everybody's rambling forever.",
+      "id": "ep_133_ut_93"
+    },
+    {
+      "end": 1584070,
+      "speaker": "E",
+      "start": 1577834,
+      "text": "I know. Talk about the New York Times over and over and over again.",
+      "id": "ep_133_ut_94"
+    },
+    {
+      "end": 1585530,
+      "speaker": "B",
+      "start": 1585010,
+      "text": "Yeah.",
+      "id": "ep_133_ut_95"
+    },
+    {
+      "end": 1632780,
+      "speaker": "E",
+      "start": 1585610,
+      "text": "Okay, so wait, wait, before, before we go on, so let me just make a mention about the Times. Like, obviously they do great work, but I also feel like, like a lot of the major newspapers have. The Dataviz has gotten, I'd say, exponentially better over the last year. And I'd have to think hard about whether it's just 2018. But I feel like the Financial Times, the Economist, the Washington Post, the Guardian, I mean, I know they're all major news organizations, so they have an advantage over sort of smaller news groups, but I think the Dataviz work that's been coming out is just been extraordinary. And even some of the ones that are, like, not us based, that I don't read as frequently, like the Berlin or Morgan Post.",
+      "id": "ep_133_ut_96"
+    },
+    {
+      "end": 1633404,
+      "speaker": "B",
+      "start": 1632900,
+      "text": "Oh, yeah.",
+      "id": "ep_133_ut_97"
+    },
+    {
+      "end": 1641364,
+      "speaker": "E",
+      "start": 1633452,
+      "text": "And the Hindustan Times, like, just, and there's one in the south. What is it? The South China Morning Post is doing great.",
+      "id": "ep_133_ut_98"
+    },
+    {
+      "end": 1643564,
+      "speaker": "Various",
+      "start": 1641452,
+      "text": "Consistently doing great work. Yeah, yeah.",
+      "id": "ep_133_ut_99"
+    },
+    {
+      "end": 1645120,
+      "speaker": "E",
+      "start": 1643612,
+      "text": "And I don't know if that's because.",
+      "id": "ep_133_ut_100"
+    },
+    {
+      "end": 1647920,
+      "speaker": "Various",
+      "start": 1645740,
+      "text": "You know, I don't know, National Geographic, obviously.",
+      "id": "ep_133_ut_101"
+    },
+    {
+      "end": 1660920,
+      "speaker": "E",
+      "start": 1648500,
+      "text": "Yeah, yeah, yeah. I don't know if that's because the teams are gotten bigger or the tools have gotten better or what, but I just, I think the work has just gotten really, really good across the board.",
+      "id": "ep_133_ut_102"
+    },
+    {
+      "end": 1715586,
+      "speaker": "Various",
+      "start": 1661540,
+      "text": "I agree. And I think, yeah, as you say, it's really, really solid work, especially from the top 1020 outlets there. At the same time, I think maybe the phase of where the biggest innovation in Datavis comes from journalism, maybe it was like that in the past few years. Maybe that's going to change in the future. My feeling is a lot of interesting innovation will come maybe from technology, thinking about VR AR, new display techniques, things like this, or maybe generally user interface design, UX design, when we think more in the tools direction. So that's something maybe for later we discuss future trends. I could imagine that data journalism as the innovation powerhouse of data visualization might hand that over now. And maybe because they have sort of perfected that already, maybe now it's time for Dataviz to seek new inspiration elsewhere, potentially.",
+      "id": "ep_133_ut_103"
+    },
+    {
+      "end": 1766354,
+      "speaker": "E",
+      "start": 1715618,
+      "text": "It'll also be interesting with some of these new tools like Flourish and Google data studio. And I mean, you talked about them on the show with Andy Kirk. There's a whole bunch of them, but a lot of them especially flourish, for example, seems targeted to the smaller organizations, particularly news organizations. And so it'll be interesting to see over the next year whether those groups take advantage of those tools and are able to create even better visualizations, because there are certainly people in those places that can do great work. They're probably managing 900 different tasks at the same time, and with better tools that are easier to use that maybe they'll be able to spend more time on the creating creative content. So that'll be an interesting evolution in the tool space, too.",
+      "id": "ep_133_ut_104"
+    },
+    {
+      "end": 1852678,
+      "speaker": "B",
+      "start": 1766482,
+      "text": "So since we're talking about tools, maybe we can go quickly through what happened in terms of tools in 2018. Yeah, so I think from my side, I'm really happy to, I really enjoyed seeing Altair taking shape. Right. So that's basically the evolution of, what is that Vega then? Vega Litega light and all the ecosystem. I think Altair is a version of Vega Lite for Python. And I think one of the reason why this is exciting is because since this, since Python is basically one of the main, or the main language for data scientists, I can see how this is going to lead data scientists to adopt many more, more of the visualizations that we create and also introduce some interactions. So I think a very interesting aspect of Altair is that it's based on the grammar of graphics, but it's also an extension of the grammar of graphics to interaction. So I expect to see many more interactive graphics coming from the data science area. So I think that's really, really exciting. But yeah, there were a few more tools out there. Right. So for instance, I don't know, what is that, DacGl and Kepler GL from Uber? I think that was one of the major developments as well. Right, Moritz?",
+      "id": "ep_133_ut_105"
+    },
+    {
+      "end": 1882440,
+      "speaker": "Various",
+      "start": 1852814,
+      "text": "Yeah, I mean, these are really substantial tools that allow you to plot like hundreds of thousands of points in the browser, mostly maps, and it's something. Yeah, that was very, very hard to do beforehand. Uber has been doing great open source work there, and I think this will show also in the future. There's also map box with MapboxGl, which allows you to do very similar things. And now suddenly it's very easy to make really good looking maps with like millions of hundreds of thousands of data points. It's kind of insane.",
+      "id": "ep_133_ut_106"
+    },
+    {
+      "end": 1904280,
+      "speaker": "C",
+      "start": 1882520,
+      "text": "Completely customize the base map with Mapbox. They have just had such amazing progress this year, and you can integrate it with a lot of different things. Like, I know the Tableau community is using it a lot because, you know, you can, they're very familiar with Tableau, and then you can just layer all, all your data on these custom maps and have something beautiful. So it's a lot of great mapping things this year.",
+      "id": "ep_133_ut_107"
+    },
+    {
+      "end": 1909020,
+      "speaker": "Various",
+      "start": 1904440,
+      "text": "Yeah, yeah. And technology has developed crazy way in that space.",
+      "id": "ep_133_ut_108"
+    },
+    {
+      "end": 1920136,
+      "speaker": "B",
+      "start": 1910480,
+      "text": "I just wanted to ask Cole. Cole, what is happening in the business world? Right. Is people mostly working with Tableau and Excel?",
+      "id": "ep_133_ut_109"
+    },
+    {
+      "end": 1943276,
+      "speaker": "D",
+      "start": 1920288,
+      "text": "Yeah. So on the business side, it's still. So excel remains pervasive. It's everywhere. There are definitely more and more groups. Tableau has a huge following where a lot of groups, once they put Tableau in place, it becomes their sort of one stop shop for everything. Dataviz Power Bi is another one for.",
+      "id": "ep_133_ut_110"
+    },
+    {
+      "end": 1944324,
+      "speaker": "B",
+      "start": 1943468,
+      "text": "Oh, yeah.",
+      "id": "ep_133_ut_111"
+    },
+    {
+      "end": 1952800,
+      "speaker": "D",
+      "start": 1944452,
+      "text": "But I haven't seen, so we talk about these new tools coming out. I haven't seen them on the business side.",
+      "id": "ep_133_ut_112"
+    },
+    {
+      "end": 1964430,
+      "speaker": "Various",
+      "start": 1953940,
+      "text": "I mean, on the web you're quick to, to try something new every half year, but if you have bought licenses for six figures or something, you don't swap them out every two months.",
+      "id": "ep_133_ut_113"
+    },
+    {
+      "end": 1974106,
+      "speaker": "E",
+      "start": 1965210,
+      "text": "I've seen a few more of these browser based charting libraries like Vizlo and Venngage and Infogram. I'm not sold on the name.",
+      "id": "ep_133_ut_114"
+    },
+    {
+      "end": 1975386,
+      "speaker": "Various",
+      "start": 1974138,
+      "text": "You're making up these words there.",
+      "id": "ep_133_ut_115"
+    },
+    {
+      "end": 1980722,
+      "speaker": "E",
+      "start": 1975418,
+      "text": "Right. I've seen a little, I've seen a.",
+      "id": "ep_133_ut_116"
+    },
+    {
+      "end": 1982596,
+      "speaker": "Various",
+      "start": 1980746,
+      "text": "Little bit more of that.",
+      "id": "ep_133_ut_117"
+    },
+    {
+      "end": 2039448,
+      "speaker": "E",
+      "start": 1982658,
+      "text": "So you can, you know, you can, you can make relatively simple charts and graphs pretty quickly and easily. But, but also they, they tend, a lot of them, some of them tend to lead you down paths that I think most people in the field would, you know, caution you against going down. Right. Like a lot of circles, you know, that bendy bar chart thing or wraps around the circle. You know, I think most people would caution against that, but that, you know, those are really easy to make, but they're pretty good. And I'd say they're also fairly easy to customize. I mean, not maybe to scale, but you can drop in your branding for your organization for some of these pretty quickly. And then the other one is the charticulator project, Lincoln Data illustrator group, which I know you guys talked about with Andy Kirk last time on the show.",
+      "id": "ep_133_ut_118"
+    },
+    {
+      "end": 2039768,
+      "speaker": "Various",
+      "start": 2039504,
+      "text": "Right?",
+      "id": "ep_133_ut_119"
+    },
+    {
+      "end": 2076437,
+      "speaker": "E",
+      "start": 2039824,
+      "text": "Yeah. I like this, this trend of, or these tools where they're sort of blending the data work onto a canvas, like an Adobe illustrator canvas. I've played with charticulator a bunch and I really like it. The thing is that it's in some ways limited. It's not, they'll hopefully continue to develop it, but it is a different framework and a way of thinking. When you are sort of dragging and dropping, but using the encodings as opposed to drop down menus, you have to think in a kind of a different way.",
+      "id": "ep_133_ut_120"
+    },
+    {
+      "end": 2113620,
+      "speaker": "Various",
+      "start": 2076613,
+      "text": "Yeah. And I really appreciate this whole direction of this sort of crafty database becoming much more available to wider groups of folks and also beginners, that in the beginning you don't just start out by learning all the chart types by heart, but really playing a bit with data and seeing what different encoding can achieve or cannot achieve, and really, really work much, much more freely. And if this trend continues, which I really hope, I think we will see a lot of, as you say, maybe also a lot of bad charts, let's say air quotes, but also lots of really interesting developments. And so in doubt I'm always for more diversity.",
+      "id": "ep_133_ut_121"
+    },
+    {
+      "end": 2175536,
+      "speaker": "E",
+      "start": 2115520,
+      "text": "I just like the way you can move. It feels like you can move a little bit more freely between the different graph types in some of these tools, where you could create a chord diagram where you have the observations around the outside of the circle and the lines are connecting the ones that are correlated, and you can move between that and say, an arc chart where it's stretched out on a single horizontal line, and you could create a matrix where it's a grid using circles or squares, you can move almost seamlessly between those different representations, which is a really nice way to be able to think about how do I want to present my data to this particular audience? Where the core diagram might be great for a food company, but the matrix might be the right representation for an academic paper. It seems a little bit more seamless and a little bit more. I don't know, there's a little bit more movement where you can see how they transition from one, one approach to another. I don't know.",
+      "id": "ep_133_ut_122"
+    },
+    {
+      "end": 2187048,
+      "speaker": "B",
+      "start": 2175608,
+      "text": "Yeah, yeah, I agree. That's exciting. Yeah. I think what is impressive of charticulator is that basically an academic prototype, and it looks like a product, right?",
+      "id": "ep_133_ut_123"
+    },
+    {
+      "end": 2187512,
+      "speaker": "E",
+      "start": 2187144,
+      "text": "Yeah.",
+      "id": "ep_133_ut_124"
+    },
+    {
+      "end": 2411918,
+      "speaker": "B",
+      "start": 2187576,
+      "text": "So, yeah, I think that's been a trend in academia. I have seen more and more people doing, creating prototypes that look as close as possible to final products. That's exciting. That's really, really exciting. And so maybe I can briefly touch upon academic developments, even if we have done that in our review of this conference. But I think so a few major trends that I've noticed there, I think we are going towards a little bit more automation. People are exploring, trying to figure out what are clever ways to introduce more automation visualization without making it crazy. Right. So more automation in a way that it's helping you rather than hindering you or forcing you to go in a specific direction. So there are some, some of these developments, and I'm always a little cautious because it can very easily go a wire where they pretend to give you, like, you push one button and there's a solution, right. That's never gonna work. But when I talk about automation, if you think about how Tableau works, for instance, there is a little bit of automation there because it tries to infer what is the best graph for the fields that you selected, right. And it gives you a first, best approximation, and then you can change it. And I think there are people in the academic world who are exploring this idea further, I think especially from the IdL lab and Jeff Herr's group, but he's not the only one who's doing that. So I think that's interesting, and I think it's definitely worth exploring. I think another trend that I find really, really exciting. I have seen more and more people from the area of cognitive science and perception science to do a lot of work in the academic world. So I think this conference used to be mostly people from computer science, right, and a few geographers, and now we see more and more people from cognitive science. And I think that's a really good development. We need their help. We need to understand better how humans think with data and visualization. There are lots of open issues there, and I think that's great. Right? And so there are people like Stephen Franconeri, who I mentioned earlier, Steve Haroz. They are both very, very active on Twitter. That's great, right? And other people like Karen Schloss, we had her on the show. She's an expert on color lace Padilla, she's doing, she published a couple of really, really interesting papers on visualization and decision making and mental models. And there are even more people. Right. They also have a group that is called, I think, vis for vision or something like that. And it's really exciting. I hope we're gonna see more and more of interesting developments in this direction. And finally, I think another trend is, of course, the intersection of AI and visualization, and this idea of using visualization as a way to understand better how AI systems works. There is this old space of explainable AI that intersects with visualization, and there's no way maybe AI and machine learning and deep learning is not going to have an impact on visualization technologies, for better or worse. Right? We don't know, but this is already happening. And I'm pretty sure we're going to see more of these kind of developments in the future.",
+      "id": "ep_133_ut_125"
+    },
+    {
+      "end": 2433336,
+      "speaker": "Various",
+      "start": 2412054,
+      "text": "Yeah. And I think we will also always have to relate to machine learning and AI and say, like, what's our role there? What's our position there? Are we all being made obsolete by machines, especially the data visualizers? Who knows? And so I think we'll have to find a position there or find our niche in that new space.",
+      "id": "ep_133_ut_126"
+    },
+    {
+      "end": 2434760,
+      "speaker": "B",
+      "start": 2433408,
+      "text": "Oh, yeah, absolutely, absolutely.",
+      "id": "ep_133_ut_127"
+    },
+    {
+      "end": 2447672,
+      "speaker": "E",
+      "start": 2434800,
+      "text": "You think that that's going to impact the visualization side or more on the data side of things like constructing simulations and being able to pull more data sets together?",
+      "id": "ep_133_ut_128"
+    },
+    {
+      "end": 2479350,
+      "speaker": "B",
+      "start": 2447736,
+      "text": "Well, there are already people who are trying to do crazy things with AI. Things like figuring out a, well, figuring out what's the best plot for a given problem and trying to give you a solution. Right. Sifting through millions of plots that people created for a given problem. And so there are all sorts of crazy things happening right now, and I don't know what the outcome is going to be, but I don't know. I think we have to let people free to explore and see what happens.",
+      "id": "ep_133_ut_129"
+    },
+    {
+      "end": 2490594,
+      "speaker": "D",
+      "start": 2479430,
+      "text": "And then, interesting, if you think about if automation happens in that way, what sort of skills people are going to need the future. Right. Then is it more the translator communicator?",
+      "id": "ep_133_ut_130"
+    },
+    {
+      "end": 2490906,
+      "speaker": "E",
+      "start": 2490682,
+      "text": "Right.",
+      "id": "ep_133_ut_131"
+    },
+    {
+      "end": 2494154,
+      "speaker": "D",
+      "start": 2490938,
+      "text": "If the analysis and graphing pieces are.",
+      "id": "ep_133_ut_132"
+    },
+    {
+      "end": 2495550,
+      "speaker": "B",
+      "start": 2494202,
+      "text": "We don't know. Right.",
+      "id": "ep_133_ut_133"
+    },
+    {
+      "end": 2497242,
+      "speaker": "D",
+      "start": 2496770,
+      "text": "Interesting.",
+      "id": "ep_133_ut_134"
+    },
+    {
+      "end": 2499018,
+      "speaker": "B",
+      "start": 2497266,
+      "text": "Yeah, yeah, exactly.",
+      "id": "ep_133_ut_135"
+    },
+    {
+      "end": 2503226,
+      "speaker": "Various",
+      "start": 2499074,
+      "text": "Yeah. But also, I mean, first question is, can you automate design? I don't think so.",
+      "id": "ep_133_ut_136"
+    },
+    {
+      "end": 2503602,
+      "speaker": "B",
+      "start": 2503298,
+      "text": "Yeah.",
+      "id": "ep_133_ut_137"
+    },
+    {
+      "end": 2580790,
+      "speaker": "Various",
+      "start": 2503666,
+      "text": "Designer skeptical. But, but I think, yeah, there will be much more powerful tools who do like a first approximation, maybe give you ten good options, and then you as a designer pick among these ten options and start to refine them. And I think that's an interesting, and also like a very exciting perspective. I think the other thing is, of course, a lot of the projects where we might now be booked as data visualization experts to help could also be maybe next year people book an AI expert, say we can skip the data visualization part. I don't think it's a wise idea, but I think it's gonna, might be sign of the times, even though, and in many ways I think a good corporate data visualization project might in the next step lead to better automation. In many cases, because you have a better grasp on the data, you have a better understanding of the patterns in the data, and you might be able to identify a rule or a statistical correlation you hadn't seen before and build that into an automated system. And so I think we have to also think about how do we like that we are sort of enabling AI and machine learning and being complicit in some cases with automated decisions, of course. And so we have to think about what our role is there.",
+      "id": "ep_133_ut_138"
+    },
+    {
+      "end": 2613000,
+      "speaker": "B",
+      "start": 2580830,
+      "text": "Yeah. But I think what I want to say is that on the positive side, there is this whole area of how do you use this to help people understand what these AI systems do. I forgot to mention, I think Google is doing, is doing great in this direction. They have this new pair. I don't remember exactly what pair stands for. People in AI. People in AI, something. Right. I think Fernanda Viegas and Martin Wattenberg are the main. These people behind this project.",
+      "id": "ep_133_ut_139"
+    },
+    {
+      "end": 2620114,
+      "speaker": "Various",
+      "start": 2613120,
+      "text": "That's awesome. Fantastic online publication. Dissecting, like machine learning in a beautiful way.",
+      "id": "ep_133_ut_140"
+    },
+    {
+      "end": 2645236,
+      "speaker": "B",
+      "start": 2620202,
+      "text": "Yeah. And there's Hendrick Strobelt from IBM. He's been publishing great work on using visualization to look into deep learning, very complex, deep learning problems. So that's an exciting, very exciting area. Right. How do we use visualization to look into models, complex models and systems rather than data? Right.",
+      "id": "ep_133_ut_141"
+    },
+    {
+      "end": 2645652,
+      "speaker": "E",
+      "start": 2645308,
+      "text": "Yeah.",
+      "id": "ep_133_ut_142"
+    },
+    {
+      "end": 2649964,
+      "speaker": "B",
+      "start": 2645716,
+      "text": "So I expect this to be even, even bigger next year.",
+      "id": "ep_133_ut_143"
+    },
+    {
+      "end": 2674066,
+      "speaker": "Various",
+      "start": 2650092,
+      "text": "Moving on. I think we touched a bit on it already. So what are the most notable people, company studios like, folks putting out interesting work. Enrico, you mentioned a few academics already you found interesting. Les Padilla, Karen Schloss, Steve Harris, Steven Franklin, and so on. How about the others, Alli, who stood out to you this year?",
+      "id": "ep_133_ut_144"
+    },
+    {
+      "end": 2721450,
+      "speaker": "C",
+      "start": 2674258,
+      "text": "I think the person that I find the most interesting right now to follow is Topi Tjukanov. He's actually a geographer in Finland. And he does a lot of these fun, quirky mappings that he shares on Twitter. And it's not his day job, but he does a lot of experimentations, like doing isochrones for different cities and animating them so they look like hearth heartbeats. And you know, maybe, I mean, necessarily, it doesn't need to solve a problem, or maybe it's not, you know, 100%, you know, the best viz for that particular data set or whatever. But I just love that he experiments and he puts it out there and he's just like, love it or hate it, I'm. I'm doing what I love and I really love watching it. I love watching what he makes and people's responses to it.",
+      "id": "ep_133_ut_145"
+    },
+    {
+      "end": 2724908,
+      "speaker": "B",
+      "start": 2721530,
+      "text": "Yeah, great. Cole, do you have a favorite of.",
+      "id": "ep_133_ut_146"
+    },
+    {
+      "end": 2737096,
+      "speaker": "D",
+      "start": 2724914,
+      "text": "So one that's been coming up a lot lately? Elijah Meeks. So Elijah gave the closing keynote at Tapestry conference a couple of weeks ago. And I don't necessarily agree with everything. I don't agree with everything he says.",
+      "id": "ep_133_ut_147"
+    },
+    {
+      "end": 2740128,
+      "speaker": "B",
+      "start": 2737128,
+      "text": "I should say, but he's been really good at generating.",
+      "id": "ep_133_ut_148"
+    },
+    {
+      "end": 2771036,
+      "speaker": "D",
+      "start": 2740184,
+      "text": "It's this food discussion of, like, well, but what if he's right? And what does that mean? And so his talk was the, he called it the third wave of data visualization, which is where he thinks we are in terms of no longer should we be looking at a single graph or a single type that really, it's these modes and different pieces that we should be putting together. And it kind of blows my mind when I step back and think about it a little bit, because it's like, how do we talk about that? And how do we give each other feedback in this new world?",
+      "id": "ep_133_ut_149"
+    },
+    {
+      "end": 2801126,
+      "speaker": "E",
+      "start": 2771188,
+      "text": "I was gonna say Elijah's Twitter Persona also relates back to our discussion earlier about critique. Right. He sort of, I think he's written about how he sort of comes off surly sometimes and how that is received as critique of a critique of the project versus critique of the person. And again, mostly it usually is. It's how you say it. It's not always the contents, how you say it. Right.",
+      "id": "ep_133_ut_150"
+    },
+    {
+      "end": 2854346,
+      "speaker": "C",
+      "start": 2801278,
+      "text": "Well, Cole, in his interview with you, he said he didn't have that gene, right. But I feel like maybe I got his gene because I feel like I have two. My work and, you know, my personality, my. I don't want to say self worth, but, like, I feel like that's all in one. And to me, when somebody critiques my work, I do feel like it's a critique on me, and I am trying to get better at that. But I do still seek out critiques. But it is when somebody, you know, just says something really off the cuff. If they don't experience it that way, I can see how that they might assume other people don't experience it that way either. So I feel like I am trying to get better at that, at receiving critiques. But I do feel like some people are more sensitive than others, and that can make it difficult as well to give and receive it, and we haven't.",
+      "id": "ep_133_ut_151"
+    },
+    {
+      "end": 2864970,
+      "speaker": "D",
+      "start": 2854378,
+      "text": "Found the right forum for it. Right. Because it's different when you sit down one on one with a person and talk through things totally different. This anonymous, you shoot off your mouth and, yeah, don't think about the person, on the other hand.",
+      "id": "ep_133_ut_152"
+    },
+    {
+      "end": 2895752,
+      "speaker": "B",
+      "start": 2865090,
+      "text": "And Twitter seems to be engineered in a way that it pushes people to use this inflammatory. It's like this narcissist short message, and then you feel like tension in your body. It's like, I'm gonna fight back. Right. I can tell you. I mean, it took me so many years. I think I improved a lot. Right. But maybe somebody should write a guide on how to resist this tension and say, hey, okay, let me see what's the best way to have a productive conversation.",
+      "id": "ep_133_ut_153"
+    },
+    {
+      "end": 2911324,
+      "speaker": "D",
+      "start": 2895816,
+      "text": "But I think this is where we can borrow from other fields, right? Where I mean, everything's borrowed from fields. But in design, critique is part of what you learn and part of what you seek out. And we just need to figure out how to, how to build in places to do that and the right language for that in the Dataviz community.",
+      "id": "ep_133_ut_154"
+    },
+    {
+      "end": 2968430,
+      "speaker": "Various",
+      "start": 2911412,
+      "text": "But in design, the design crit is in a totally different setting. You know, then in a stadium of, you have to imagine Twitter, we all have tens of thousands of followers, so it's basically we all have a microphone yelling into a foot stadium. Right. And this is not a good space to like blur out your ideas of how you think that project you looked at for 10 seconds, you know, how you would have done that. And in a design grid, you have a shared context, so you know the challenge of the project, you know the objectives, you know the constraints, you have a mutual relationship, so you have trust, you know, and, and then you can be brutally honest. And people who work with me know that it's not fun, you know, it's like I have strong opinions on the qualities of different solutions, but that happens in a different space, this type of critique. And I think that's very important to understand these spaces and act accordingly. Just my take on it.",
+      "id": "ep_133_ut_155"
+    },
+    {
+      "end": 3030344,
+      "speaker": "E",
+      "start": 2968770,
+      "text": "It's also the case that the Dataviz field may be unlike a lot of fields, people come to it from lots of different backgrounds. So what the culture might be in economics, that's fair game for critique may sound completely foreign or harsh or friendly or overly friendly or whatever it is in the design field or in the UI field. So you have all these different backgrounds and fields and cultures coming together. There's not that sort of shared experience of where we've come from so that we know what the atmosphere is and what the attitudes are. They just were all from different places, I don't think, you know, I've had any two people on my show from the same background yet. Right? So, you know, what a journalist may, what a journalist may, how a journalist may critique may seem fine, but listening to an economist critique someone that may seem completely, you know, harsh, but it may be fine in that different field.",
+      "id": "ep_133_ut_156"
+    },
+    {
+      "end": 3040252,
+      "speaker": "Various",
+      "start": 3030392,
+      "text": "So yeah, anyways, talking about also productive ways of like pushing the field, I think Lisa Charlotte Muth (formerly Lisa Rost) with her data replica did an amazing job.",
+      "id": "ep_133_ut_157"
+    },
+    {
+      "end": 3041732,
+      "speaker": "B",
+      "start": 3040316,
+      "text": "That's an eye line for me.",
+      "id": "ep_133_ut_158"
+    },
+    {
+      "end": 3066272,
+      "speaker": "Various",
+      "start": 3041836,
+      "text": "Yeah, it's like just being super educational, fun and really also moving things forward on, let's say, the basic level, the ground level, but in a very fun and very productive way, I think. So. I love her style that she has established there. I was really skeptical when she told me she would join data wrapper. I was like, why would you join a tools company? And now it all makes sense. Sense. So I'm super happy how this one turned out. So.",
+      "id": "ep_133_ut_159"
+    },
+    {
+      "end": 3068584,
+      "speaker": "B",
+      "start": 3066336,
+      "text": "Yeah. And the book club as well, right?",
+      "id": "ep_133_ut_160"
+    },
+    {
+      "end": 3070168,
+      "speaker": "Various",
+      "start": 3068752,
+      "text": "She did the book club as well.",
+      "id": "ep_133_ut_161"
+    },
+    {
+      "end": 3071216,
+      "speaker": "D",
+      "start": 3070264,
+      "text": "And the way they do the book.",
+      "id": "ep_133_ut_162"
+    },
+    {
+      "end": 3076208,
+      "speaker": "Various",
+      "start": 3071248,
+      "text": "Club is these are all very inclusive, welcoming things. I think that that also help improve the quality.",
+      "id": "ep_133_ut_163"
+    },
+    {
+      "end": 3082900,
+      "speaker": "D",
+      "start": 3076304,
+      "text": "I'd never seen a book club done like this, where they do it on a notebook. So it's actually everybody's typing at the same time. It's really fun to watch.",
+      "id": "ep_133_ut_164"
+    },
+    {
+      "end": 3100094,
+      "speaker": "E",
+      "start": 3085520,
+      "text": "I was gonna mention Neil Richards, who's a Tableau. Tableau Zen master. I was gonna say Tableau guy, but Zen Master sounds better. Tableau Zen master, who's just been doing. I think he's been doing great work this year. He's been writing a lot more, I think.",
+      "id": "ep_133_ut_165"
+    },
+    {
+      "end": 3102822,
+      "speaker": "D",
+      "start": 3100142,
+      "text": "I think he started his blog this year. Right. Questions and data this year.",
+      "id": "ep_133_ut_166"
+    },
+    {
+      "end": 3104570,
+      "speaker": "E",
+      "start": 3102886,
+      "text": "Yeah, he may have started this year, yeah.",
+      "id": "ep_133_ut_167"
+    },
+    {
+      "end": 3115824,
+      "speaker": "D",
+      "start": 3105110,
+      "text": "And I also blog, again, questions in Dataviz. And so each time he posts a question and then the blog is, you know, illustrations of responses to that.",
+      "id": "ep_133_ut_168"
+    },
+    {
+      "end": 3116788,
+      "speaker": "B",
+      "start": 3116022,
+      "text": "Great.",
+      "id": "ep_133_ut_169"
+    },
+    {
+      "end": 3121240,
+      "speaker": "E",
+      "start": 3116964,
+      "text": "And I think he's done some really creative things with Tableau.",
+      "id": "ep_133_ut_170"
+    },
+    {
+      "end": 3123812,
+      "speaker": "D",
+      "start": 3121940,
+      "text": "He doesn't use it in the typical way.",
+      "id": "ep_133_ut_171"
+    },
+    {
+      "end": 3125324,
+      "speaker": "E",
+      "start": 3123996,
+      "text": "Yeah, exactly. Yeah.",
+      "id": "ep_133_ut_172"
+    },
+    {
+      "end": 3125860,
+      "speaker": "B",
+      "start": 3125412,
+      "text": "That's cool.",
+      "id": "ep_133_ut_173"
+    },
+    {
+      "end": 3143874,
+      "speaker": "D",
+      "start": 3125900,
+      "text": "There was one that he did recently, how do we visualize music? And he did this really beautiful. It was inspired by somebody else's visualization of Pachelbel's canon, but visualizes in an animated fashion. Handles water music. And so you're listening to the music and seeing it and it just. Beautifully done.",
+      "id": "ep_133_ut_174"
+    },
+    {
+      "end": 3144514,
+      "speaker": "Various",
+      "start": 3143962,
+      "text": "Nice.",
+      "id": "ep_133_ut_175"
+    },
+    {
+      "end": 3185702,
+      "speaker": "D",
+      "start": 3144642,
+      "text": "And then he writes about how he does everything too, which I think is a nice way of making it feel really accessible. Another person that I'd like to mention just before we move on, Kat Greenbrook. I think she's probably a little bit less known. She works out of New Zealand. Rogue Penguin is her site. But she does these really beautiful. Yeah. Does these beautiful scrolling stories where it's a really nice blend of story and words and data visualization and hand drawn images. So she did one on the green sea turtle. And so you're scrolling through and seeing how the warming climate is contributing to the population decline and all these different pieces and how they fit together that are. Nicely done.",
+      "id": "ep_133_ut_176"
+    },
+    {
+      "end": 3225716,
+      "speaker": "Various",
+      "start": 3185806,
+      "text": "Nice. Before we move on, I want to get two mentions in if that's okay. So one, I think we mentioned them before, but we should mention the pudding again. This year has been amazing for them. They really found their voice fully now, and they always, it's also the years before cutting edge projects, but now they just have this constant rhythm of putting out high quality work. I love the human terrain project where they show population density in three D. And I was like, first I was like, why do they do three D? And then it was like, ah, now I know why they did 3d, because it works and it's beautiful. So. And I think, yeah, just fantastic work. The pockets piece and many others that.",
+      "id": "ep_133_ut_177"
+    },
+    {
+      "end": 3241552,
+      "speaker": "E",
+      "start": 3225748,
+      "text": "Were really, I also love the way that piece especially, I mean, I know lots of places do this, but it knew where you were, so that when you loaded, you loaded in the browser, it brought you to New York or brought you to Chicago or brought you to wherever you were in the world. It's just really well done, nailing all.",
+      "id": "ep_133_ut_178"
+    },
+    {
+      "end": 3245544,
+      "speaker": "Various",
+      "start": 3241576,
+      "text": "These details, and it's just masterful work this year. So, yeah, great stuff.",
+      "id": "ep_133_ut_179"
+    },
+    {
+      "end": 3262940,
+      "speaker": "B",
+      "start": 3245592,
+      "text": "I think what is really interesting and innovative in some way, there is also the kind of business model that they are using. Right. So they're trying to make the community kind of connect in some way, and I really admire them for what they're doing in this sense.",
+      "id": "ep_133_ut_180"
+    },
+    {
+      "end": 3282260,
+      "speaker": "Various",
+      "start": 3263920,
+      "text": "They also have a patreon running, they have a slack where they share previews of their project. They do Q and a's behind the scenes material. So it's this whole gesamtkunstwerk, basically, that comes together. Got a German word in love.",
+      "id": "ep_133_ut_181"
+    },
+    {
+      "end": 3287780,
+      "speaker": "B",
+      "start": 3286960,
+      "text": "Check.",
+      "id": "ep_133_ut_182"
+    },
+    {
+      "end": 3329310,
+      "speaker": "Various",
+      "start": 3290320,
+      "text": "And finally, last shout out to Valentina d\u2019Efilippo. I knew her work already from last year, of course, and the years before. We know her from Space Oddity, which was fantastic last year. This year, she had another couple of really great projects, the me too mentum visualization of tweets around the me too movement fantastic sound visualization project, where they measured sound in a soccer stadium, like, very precisely. And she had a beautiful talk at info plus about her workshops where she asks people to draw world maps. All these great ideas and just such a high level of execution. So she's been on my map this year for sure.",
+      "id": "ep_133_ut_183"
+    },
+    {
+      "end": 3376260,
+      "speaker": "E",
+      "start": 3329390,
+      "text": "Yeah, she just, on that last part about the maps. So at Info plus, she did this talk on how she would have her workshop participants draw a map of the world from memory and how different people coming from different places would center the map in different spots. Is great. And she, I had to teach my son's fourth grade class, and so she, she helped me develop a similar idea. So she's done this for schools. And the idea was instead of drawing a map, you have the kids draw a floor in their house, and so they have to draw all the rooms, and then they could add data on top of it. So they draw circles, you know, size circles, where it's the most fun or where they watch tv or something. So, yeah, so she. I think that, that the development of those teaching and learning skills are really impressive. I like what she's been doing.",
+      "id": "ep_133_ut_184"
+    },
+    {
+      "end": 3389108,
+      "speaker": "Various",
+      "start": 3376340,
+      "text": "Yeah, maybe. Let's talk about conferences. There have been a few good ones, so I think that seems like a good sequel here. So I think we heard about Openvizconf already, about information plus Tapestry, the Visconfin.",
+      "id": "ep_133_ut_185"
+    },
+    {
+      "end": 3390196,
+      "speaker": "B",
+      "start": 3389124,
+      "text": "Just that pen. Yeah.",
+      "id": "ep_133_ut_186"
+    },
+    {
+      "end": 3400256,
+      "speaker": "Various",
+      "start": 3390308,
+      "text": "Yeah. So I think there have been a few real conference highlights this year. Were there any talks that stood out to you in particular? Anything people should definitely watch?",
+      "id": "ep_133_ut_187"
+    },
+    {
+      "end": 3418140,
+      "speaker": "E",
+      "start": 3400368,
+      "text": "Yeah, for me. I mean, there are a few for me. At Info Plus, Catherine D'Ignazio did this talk on data feminism. She and Lauren Klein have a book coming out. Well, probably not coming out for a while, but it's open that you can submit comments.",
+      "id": "ep_133_ut_188"
+    },
+    {
+      "end": 3427558,
+      "speaker": "Various",
+      "start": 3418640,
+      "text": "Yeah, it's a public review, which is also a fantastic model. So you can read the whole book and start to comment on it already, although it's not even printed yet, so that's great.",
+      "id": "ep_133_ut_189"
+    },
+    {
+      "end": 3470376,
+      "speaker": "E",
+      "start": 3427614,
+      "text": "Yeah, I thought she gave a great talk. And then Aaron Williams at Openviz gave a talk about the piece he did at the Washington Post on segregation in America. In both the process that he went through, but also the content, what I thought was really interesting. And also I think he gave the favorite answer to a question where the, you know, the question was, why was it a dark background instead of, you know, sort of the standard white, you know, black text, white background? The whole thing sort of had its own page was a dark background. And his answer was, honestly, because I think it looks whack. And I was like, yeah, that's. You're right. You're right, man. It does. It's great.",
+      "id": "ep_133_ut_190"
+    },
+    {
+      "end": 3472380,
+      "speaker": "Various",
+      "start": 3470488,
+      "text": "It's a very valid reason.",
+      "id": "ep_133_ut_191"
+    },
+    {
+      "end": 3476248,
+      "speaker": "B",
+      "start": 3475360,
+      "text": "What else?",
+      "id": "ep_133_ut_192"
+    },
+    {
+      "end": 3526656,
+      "speaker": "Various",
+      "start": 3476384,
+      "text": "Openviz was great. Info plus was great, too. I really also enjoyed Ron Morrison at Info plus. Fantastic talk. It's like one big arc and really beautiful how he connected all the pieces. And basically his whole narrative at the end ends with one project that brings all this together that we were talking about. Really beautiful overall arc. And at Openvisconv, I also really enjoyed Sean Carter. And this is more along the visualizing AI and distillpop lines. And he made really good points about how I loved his idea of, of a data visualization, interactive data visualization, basically being an interface for an idea. So basically what you encode or what you make accessible is an idea of how you can think about something, which is just a tremendous way of thinking about these things. And, yeah, really beautiful talk as well.",
+      "id": "ep_133_ut_193"
+    },
+    {
+      "end": 3566758,
+      "speaker": "D",
+      "start": 3526688,
+      "text": "There are a lot of good ones from Tapestry as well. And they actually posted all of the videos from those this past weekend, so those are available. Amanda Malcolm. They did these series of really short talks. It was like five minutes each. John did one of these, but one that stood out. Amanda Malkalex. So she stood up and talked about being on the receiving end of data visualization. It was medical genetic testing, data that was shared by her doctor with her. And basically what an awful experience that was, even for someone who considers themselves to be very data literate and how that shift has helped her think about how she designs from an empathetic standpoint for the consumers, depending on what the topic, I guess.",
+      "id": "ep_133_ut_194"
+    },
+    {
+      "end": 3575390,
+      "speaker": "B",
+      "start": 3566854,
+      "text": "Yeah, that's very important. Yeah. The whole idea of visualizing personal medical data. I would love to see more of that. Yeah.",
+      "id": "ep_133_ut_195"
+    },
+    {
+      "end": 3623728,
+      "speaker": "E",
+      "start": 3575550,
+      "text": "What's interesting, though, if you think about 2019, is there looks to be sort of a lack of conferences. So, like, Openviz is gonna take a year off info, plus is the year off tapestry. Maintaining tapestry is sort of up in the air. So we need more conferences. But I just, I want to also say, like, there's a ton of meetup groups and Tableau user groups and Dataviz meetup groups, and every once in a while, there's a gem that shows up on YouTube somewhere of someone giving a really good talk. And maybe that's the hole that needs to be filled in 2019, especially where some of those local user groups, the content needs to be. I mean, it's hard to do. It's not like you can necessarily easily set up a. I think a lot.",
+      "id": "ep_133_ut_196"
+    },
+    {
+      "end": 3626074,
+      "speaker": "D",
+      "start": 3623744,
+      "text": "Of them do record, get a recording.",
+      "id": "ep_133_ut_197"
+    },
+    {
+      "end": 3635978,
+      "speaker": "E",
+      "start": 3626242,
+      "text": "Yeah. And it's just something that, you know, that may be, you know, next year talking, you know, the end of 2019 talking about this. We may be looking back on the year of presentations from smaller meetup groups. I don't know.",
+      "id": "ep_133_ut_198"
+    },
+    {
+      "end": 3638550,
+      "speaker": "Various",
+      "start": 3636034,
+      "text": "Or maybe, Alli, you need to start data with today. Conf.",
+      "id": "ep_133_ut_199"
+    },
+    {
+      "end": 3640738,
+      "speaker": "B",
+      "start": 3639250,
+      "text": "Yeah, yeah.",
+      "id": "ep_133_ut_200"
+    },
+    {
+      "end": 3698102,
+      "speaker": "C",
+      "start": 3640754,
+      "text": "Well, I actually went to a conference this past weekend in DC, and it was similar what John was just talking about. It's the local r stats meetup. They did their own conference in DC. And one presentation that stood out to me was with Tyler Morgan Wall. He's local to DC and he created this package in our stats this year called Rayshader that lets you easily create a hill shaded map just with elevation data. And there was just audible gasps from the crowd seeing these almost like 3d maps. But it's bringing up this big thing on Twitter and elsewhere for him about should he even be creating this? Because, you know, 3d is bad. And his talk, he was like, 3d is not bad. It just depends when you don't have a third dimension, don't do 3d. But a lot of times it aids in your understanding a lot. So that was a really great talk that I heard just this past weekend.",
+      "id": "ep_133_ut_201"
+    },
+    {
+      "end": 3709714,
+      "speaker": "Various",
+      "start": 3698286,
+      "text": "And it's true, the meetups and local events are quite substantial and maybe not as much on the radar, like globally, but in some can have a huge impact and can be such a great thing.",
+      "id": "ep_133_ut_202"
+    },
+    {
+      "end": 3718190,
+      "speaker": "B",
+      "start": 3709782,
+      "text": "Yeah, it used to be much more lively here in New York and, yeah, maybe we have to.",
+      "id": "ep_133_ut_203"
+    },
+    {
+      "end": 3724110,
+      "speaker": "E",
+      "start": 3722730,
+      "text": "Blame you, Enrico.",
+      "id": "ep_133_ut_204"
+    },
+    {
+      "end": 3728498,
+      "speaker": "B",
+      "start": 3726170,
+      "text": "As if I need one more thing.",
+      "id": "ep_133_ut_205"
+    },
+    {
+      "end": 3732906,
+      "speaker": "E",
+      "start": 3728634,
+      "text": "Right, well, Cole, I mean, Cole, did, you did a talk at the West.",
+      "id": "ep_133_ut_206"
+    },
+    {
+      "end": 3734290,
+      "speaker": "D",
+      "start": 3732938,
+      "text": "Chester table and in London.",
+      "id": "ep_133_ut_207"
+    },
+    {
+      "end": 3735852,
+      "speaker": "E",
+      "start": 3734330,
+      "text": "Right? This year.",
+      "id": "ep_133_ut_208"
+    },
+    {
+      "end": 3736304,
+      "speaker": "D",
+      "start": 3735906,
+      "text": "Yeah.",
+      "id": "ep_133_ut_209"
+    },
+    {
+      "end": 3737660,
+      "speaker": "E",
+      "start": 3736392,
+      "text": "And in London. Right.",
+      "id": "ep_133_ut_210"
+    },
+    {
+      "end": 3747568,
+      "speaker": "B",
+      "start": 3737960,
+      "text": "Okay. So should we talk about books? It's incredible. Yeah. We have lots of books coming up or published in 2018. Right?",
+      "id": "ep_133_ut_211"
+    },
+    {
+      "end": 3748080,
+      "speaker": "E",
+      "start": 3747664,
+      "text": "Yeah.",
+      "id": "ep_133_ut_212"
+    },
+    {
+      "end": 3749272,
+      "speaker": "B",
+      "start": 3748160,
+      "text": "John, you want to start?",
+      "id": "ep_133_ut_213"
+    },
+    {
+      "end": 3796196,
+      "speaker": "E",
+      "start": 3749416,
+      "text": "Yeah, I mean, there was a lot of books that came out in 2018, and then there's a whole slate scheduled, I think, for 2019. So in 2018, I mean, we don't need to walk through all of them. But, you know, the ones that stuck out to me was the makeover Monday book from Andy Kriebel and Ava Murray. Right. That one stuck out to me. There was a cartography book by Kenneth Field, who gave a great talk at Tapestry. That book is becoming that book. And Mark Monmonier's book how to lie with maps, which was re released this year in a new edition. Those are like my go to books for maps. What else? There was the Minard system just came out.",
+      "id": "ep_133_ut_214"
+    },
+    {
+      "end": 3797324,
+      "speaker": "Various",
+      "start": 3796308,
+      "text": "Ah, really good.",
+      "id": "ep_133_ut_215"
+    },
+    {
+      "end": 3799916,
+      "speaker": "E",
+      "start": 3797412,
+      "text": "Yeah. And then the.",
+      "id": "ep_133_ut_216"
+    },
+    {
+      "end": 3804100,
+      "speaker": "B",
+      "start": 3799988,
+      "text": "What is it about the Minard system? It's all about Minard's maps, reproduction of.",
+      "id": "ep_133_ut_217"
+    },
+    {
+      "end": 3884592,
+      "speaker": "Various",
+      "start": 3804140,
+      "text": "All of Minard's maps and graphics, I think 50 or so, and a really, like, longer introduction to his life. His work is like a commentary on his work. Really good, really well, research and I mean, we're all familiar with the Napoleon's march, which was called by Tufte the best infographic of all time. So it has become this sort of staple in data visualization. But, for instance, what you can learn from the book is that it's not really representative of the rest of his work, and he just did it towards the end of his life, basically. And really just more as a little fun exercise. And it doesn't have the rigor and the annotation that all his other works have. So it's actually quite untypical, which is interesting. And yeah, it's an amazing book. So definitely take a look. And what we mentioned already is the data feminism book, which I'm really psyched about, too, which really is a great survey of this whole idea of data feminism and what it's connected to, ideas of power and objectivity and whatnot. And just super well researched. I love the process with the open review and, yeah. And Catherine D'Ignazio and Lauren Klein just do a great job of explaining that really complex topic in such an accessible way.",
+      "id": "ep_133_ut_218"
+    },
+    {
+      "end": 3896144,
+      "speaker": "D",
+      "start": 3884656,
+      "text": "There have been a couple of workbooks come out this year, too. Right. Scott Berinato did one that accompanies his good charts book. Then there's the dear data. Observe, collect, draw.",
+      "id": "ep_133_ut_219"
+    },
+    {
+      "end": 3896744,
+      "speaker": "Various",
+      "start": 3896272,
+      "text": "Yeah.",
+      "id": "ep_133_ut_220"
+    },
+    {
+      "end": 3902496,
+      "speaker": "D",
+      "start": 3896832,
+      "text": "It's an interesting way of getting people low tech. Right, right.",
+      "id": "ep_133_ut_221"
+    },
+    {
+      "end": 3903220,
+      "speaker": "E",
+      "start": 3902568,
+      "text": "Yeah.",
+      "id": "ep_133_ut_222"
+    },
+    {
+      "end": 3916952,
+      "speaker": "Various",
+      "start": 3903920,
+      "text": "And it's not really a book to read, but a book to do. So it's like you go through the book and you have these little tasks and there's these empty spots on the page where you can try out stuff. And it's, I love this one. It's really good.",
+      "id": "ep_133_ut_223"
+    },
+    {
+      "end": 3917400,
+      "speaker": "E",
+      "start": 3917016,
+      "text": "Yeah.",
+      "id": "ep_133_ut_224"
+    },
+    {
+      "end": 3925340,
+      "speaker": "B",
+      "start": 3917480,
+      "text": "Yeah. And there are a few coming up in 2019. I think Alberto Cairo's book is probably coming up, right?",
+      "id": "ep_133_ut_225"
+    },
+    {
+      "end": 3928220,
+      "speaker": "Various",
+      "start": 3925760,
+      "text": "Doesn't he have a book every year, or am I wrong?",
+      "id": "ep_133_ut_226"
+    },
+    {
+      "end": 3939630,
+      "speaker": "D",
+      "start": 3929990,
+      "text": "That's supposed to be very different. This one's for the non Dataviz person. Right. For consumers of data. He says, this isn't a book for you. It's a book for your families and everybody else, you know.",
+      "id": "ep_133_ut_227"
+    },
+    {
+      "end": 3943014,
+      "speaker": "B",
+      "start": 3939710,
+      "text": "Yeah. I think it's called why charts lie. Something like that.",
+      "id": "ep_133_ut_228"
+    },
+    {
+      "end": 3945210,
+      "speaker": "Various",
+      "start": 3943102,
+      "text": "Ooh, provocative title.",
+      "id": "ep_133_ut_229"
+    },
+    {
+      "end": 3973468,
+      "speaker": "B",
+      "start": 3947310,
+      "text": "It's a good title. And I'm also really curious about info we trust. Ali, I think you had RJ Andrews on the show and I, I really enjoyed listening to him and it made me really curious about his book. If I understand correctly, it's been a real labor of love. I don't know how much time he spent on it. And he has manually. Right. He did a lot of, he drew.",
+      "id": "ep_133_ut_230"
+    },
+    {
+      "end": 3978252,
+      "speaker": "D",
+      "start": 3973484,
+      "text": "A lot of illustrations. Fantastic. With like a lightboard where he draws and all of the.",
+      "id": "ep_133_ut_231"
+    },
+    {
+      "end": 4005682,
+      "speaker": "C",
+      "start": 3978316,
+      "text": "Yeah, he's put a, yeah, a lot of tracing and. Yeah, it, it was a labor of love. And it's just, I think it's going to be a great book to read. A, you know, it's just more about the craft of data storytelling, which I find really interesting because I never really. I haven't really thought of it like that. You know, I have learning. I've kind of just been absorbed in tools, and this is, I feel like will help me kind of get out more into the process and just feeling like it's more of a craft.",
+      "id": "ep_133_ut_232"
+    },
+    {
+      "end": 4037254,
+      "speaker": "B",
+      "start": 4005786,
+      "text": "Yeah. And I also feel there is not enough books out there that really teach you how to do visual storytelling with data. Right. It's like we all. There is a lot of information about how to create good charts, but not how to create the good narrative and how to interlace individual, individual plots together to make a story out of it. Right. And I don't know if that's what it's info we trust, but it sounds like it goes in this direction.",
+      "id": "ep_133_ut_233"
+    },
+    {
+      "end": 4087572,
+      "speaker": "E",
+      "start": 4037302,
+      "text": "From your description, there's also, Kieran Healy has a book coming out on data visualization. I think everything's in R. So he has it's how to create good data visualizations in R. So it has the sort of conceptual, theoretical stuff and then the application with all the code and everything like that. So that looks good. I think that's early 2019. And then the 28 other 2018 book that I really like is the W. E. B. Du Bois book. And there's been a bunch of talk about his work, but this one looks really good. I've just started it about the data portraits that Du Bois did of visualizing the demographics of the US around that time of the year, in the early 19 hundreds.",
+      "id": "ep_133_ut_234"
+    },
+    {
+      "end": 4090080,
+      "speaker": "B",
+      "start": 4087636,
+      "text": "So any books planned on your site, guys?",
+      "id": "ep_133_ut_235"
+    },
+    {
+      "end": 4093800,
+      "speaker": "E",
+      "start": 4092620,
+      "text": "Owen Rico.",
+      "id": "ep_133_ut_236"
+    },
+    {
+      "end": 4098394,
+      "speaker": "B",
+      "start": 4095650,
+      "text": "Let me ask you, call when is the next one?",
+      "id": "ep_133_ut_237"
+    },
+    {
+      "end": 4103350,
+      "speaker": "D",
+      "start": 4098562,
+      "text": "I hope there will be something in 2019. There will be something in 2019.",
+      "id": "ep_133_ut_238"
+    },
+    {
+      "end": 4109298,
+      "speaker": "B",
+      "start": 4104050,
+      "text": "I couldn't resist. I had to ask John, anything in the back burner?",
+      "id": "ep_133_ut_239"
+    },
+    {
+      "end": 4117234,
+      "speaker": "E",
+      "start": 4109474,
+      "text": "Yeah, I've got one scheduled for early 2020, which seems too far away.",
+      "id": "ep_133_ut_240"
+    },
+    {
+      "end": 4118914,
+      "speaker": "D",
+      "start": 4117282,
+      "text": "It'll come fast. It always does.",
+      "id": "ep_133_ut_241"
+    },
+    {
+      "end": 4121970,
+      "speaker": "E",
+      "start": 4119042,
+      "text": "2020. Really? It always does.",
+      "id": "ep_133_ut_242"
+    },
+    {
+      "end": 4122282,
+      "speaker": "Various",
+      "start": 4122010,
+      "text": "Yeah.",
+      "id": "ep_133_ut_243"
+    },
+    {
+      "end": 4126482,
+      "speaker": "B",
+      "start": 4122346,
+      "text": "Ali, are you already planning to turn your podcast into a book?",
+      "id": "ep_133_ut_244"
+    },
+    {
+      "end": 4133449,
+      "speaker": "C",
+      "start": 4126546,
+      "text": "Yeah, I think maybe. Maybe I might need a little bit more material first, but that would be a dream.",
+      "id": "ep_133_ut_245"
+    },
+    {
+      "end": 4138765,
+      "speaker": "Various",
+      "start": 4133749,
+      "text": "Do you have extensive show notes already? So that's, you know, you're halfway there.",
+      "id": "ep_133_ut_246"
+    },
+    {
+      "end": 4139125,
+      "speaker": "B",
+      "start": 4138797,
+      "text": "Maybe.",
+      "id": "ep_133_ut_247"
+    },
+    {
+      "end": 4142969,
+      "speaker": "C",
+      "start": 4139197,
+      "text": "Yeah. I could just print it out myself. And there you go.",
+      "id": "ep_133_ut_248"
+    },
+    {
+      "end": 4148725,
+      "speaker": "E",
+      "start": 4144189,
+      "text": "Well, there was the Marc Maron book where he basically just like, oh, yeah.",
+      "id": "ep_133_ut_249"
+    },
+    {
+      "end": 4149765,
+      "speaker": "C",
+      "start": 4148757,
+      "text": "Just publish show notes.",
+      "id": "ep_133_ut_250"
+    },
+    {
+      "end": 4151781,
+      "speaker": "E",
+      "start": 4149797,
+      "text": "Publishes that. Publish show notes and just be done.",
+      "id": "ep_133_ut_251"
+    },
+    {
+      "end": 4154289,
+      "speaker": "C",
+      "start": 4151805,
+      "text": "And go, that's the lazy man's book, right?",
+      "id": "ep_133_ut_252"
+    },
+    {
+      "end": 4155649,
+      "speaker": "E",
+      "start": 4154949,
+      "text": "I.",
+      "id": "ep_133_ut_253"
+    },
+    {
+      "end": 4159799,
+      "speaker": "Various",
+      "start": 4157419,
+      "text": "Famous podcast, a blogger and author.",
+      "id": "ep_133_ut_254"
+    },
+    {
+      "end": 4171959,
+      "speaker": "B",
+      "start": 4163979,
+      "text": "Good. What else? It's going blogs, website, blogs, blogs before blogs.",
+      "id": "ep_133_ut_255"
+    },
+    {
+      "end": 4177187,
+      "speaker": "D",
+      "start": 4172419,
+      "text": "We haven't talked about the multiple views one yet. I thought that would come up by now.",
+      "id": "ep_133_ut_256"
+    },
+    {
+      "end": 4177907,
+      "speaker": "B",
+      "start": 4177363,
+      "text": "Yes.",
+      "id": "ep_133_ut_257"
+    },
+    {
+      "end": 4178875,
+      "speaker": "E",
+      "start": 4178003,
+      "text": "Oh yeah.",
+      "id": "ep_133_ut_258"
+    },
+    {
+      "end": 4186630,
+      "speaker": "B",
+      "start": 4179067,
+      "text": "So let me talk about this. So we decided to start a new blog, even if blogs don't seem to be be fashionable anymore.",
+      "id": "ep_133_ut_259"
+    },
+    {
+      "end": 4191250,
+      "speaker": "Various",
+      "start": 4187330,
+      "text": "Old people, old people, old people.",
+      "id": "ep_133_ut_260"
+    },
+    {
+      "end": 4281540,
+      "speaker": "B",
+      "start": 4191410,
+      "text": "So it's called multiple views, research explained. So I think it's pretty much self explanatory. And so that's me and a bunch of other people from research. So it's Jessica Hullman, Danyel Zafir and Robert Kosara. We've been talking for a long time about how do we make make research more accessible to people who just don't have time to go to see through papers or they just don't feel like because it's honestly boring. It's not just boring, it's even hard to find papers. It's not clear where to look for something. And so we thought maybe a blog could be helpful there. So we started this experiment. So multiple views tries to so we are actually not the main writers behind the blog. The idea is that we act as editors and we encourage people from the academic community to write blog posts on specific topics they are interested in. Right. So this can go from just explaining the content of a recent paper that they published as well as, I don't know, talking about the state of the art of on a specific topic as well as anything that is much more general but is rooted, grounded on research. Right. And we had a few blog posts out already and I personally really enjoyed reading them.",
+      "id": "ep_133_ut_261"
+    },
+    {
+      "end": 4283896,
+      "speaker": "E",
+      "start": 4283480,
+      "text": "Yeah.",
+      "id": "ep_133_ut_262"
+    },
+    {
+      "end": 4301060,
+      "speaker": "B",
+      "start": 4283928,
+      "text": "So I encourage everyone to go to multiple views, research explained. We're gonna put the link here in the show notes that's hosted on Mediaev and yeah, and we would love to get some feedback and if there's anything you want us to publish there, let us know.",
+      "id": "ep_133_ut_263"
+    },
+    {
+      "end": 4366988,
+      "speaker": "Various",
+      "start": 4301480,
+      "text": "Yeah, you're definitely off to a great start. And I love this trend that researchers think about. Okay, what's the concise way I can put out this research? That I can get more people excited about it or understand why it matters. So I think that's really great. Yeah. What else? I really enjoyed Maarten Lambrechts's collection of xeno graphics. I think everybody this year was drooling over all these crazy graphics that he collected there and at the same time. So in a way it's fun. It's like this curiosity show off the insane world of very specific graphic forms. But at the same time he also demonstrates, I think, that sometimes are very to a purpose crafted visual forum can deliver something no other forum can give. And so it also plays into this design and crafting real advanced, also complex data experiences, which is actually like a really serious trend. So it's both fun and substantial, which is, of course, the best. So I enjoyed that one. What else?",
+      "id": "ep_133_ut_264"
+    },
+    {
+      "end": 4377142,
+      "speaker": "D",
+      "start": 4367124,
+      "text": "Maybe at the other end of the spectrum would be print. Right. The economists announced that they've started to do a graphic detail section in the print version of the Economist, which I think was new this year.",
+      "id": "ep_133_ut_265"
+    },
+    {
+      "end": 4378086,
+      "speaker": "B",
+      "start": 4377206,
+      "text": "Oh, yes.",
+      "id": "ep_133_ut_266"
+    },
+    {
+      "end": 4397570,
+      "speaker": "Various",
+      "start": 4378238,
+      "text": "Oh, yeah. That's big, actually, if you think about it. Yeah. Yeah. And graphic detail is great. So it's always worth checking out. Yeah. We mentioned the pudding, of course, the data wrapper blog, the book club from lisa roster. Anything else that you found interesting to read or where you found good resources on the web?",
+      "id": "ep_133_ut_267"
+    },
+    {
+      "end": 4473730,
+      "speaker": "E",
+      "start": 4398530,
+      "text": "Yeah. So Urban Institute, where I work, we have a new blog on medium called Data at Urban, which is sort of behind the scenes of how we do data and Dataviz and research more generally. So it's, you know, and there's a few of these now, like the Pew Research center has one that's similar like that. I think Brookings is, Brookings Institution is trying to pull one together. They're all, they're geared towards the research, nonprofit sector of how do you leverage all these new technologies and tools so you don't have to rely necessarily, if you want to use social media data, for example, or you want to try to use machine learning. How would you do that? And so we have our various communications and technology and research teams writing blog posts. So I think that space will evolve over the next year as well, to share all these lessons learned on how researchers can do a better job. So it's akin in some ways to the blog you were just talking about, Enrico. But it's a little bit more of the how do you actually do research using all these different technologies and tools and platforms? So it's an interesting space to see how that will evolve.",
+      "id": "ep_133_ut_268"
+    },
+    {
+      "end": 4474426,
+      "speaker": "B",
+      "start": 4473810,
+      "text": "Okay.",
+      "id": "ep_133_ut_269"
+    },
+    {
+      "end": 4503652,
+      "speaker": "E",
+      "start": 4474538,
+      "text": "And then there's the blog. The other one I'll mention is the blog on flourish, the flourish tool. They've written a couple of really nice things that I, that I've really liked. They did a really neat one on getting rid of your legend and coloring the title. They had this little dot plot of two people who were running for office, and they just colored the names and the title to correspond to the data values. I just thought that was a clever blog post. And of course, link to the tool, which is nice, too.",
+      "id": "ep_133_ut_270"
+    },
+    {
+      "end": 4520540,
+      "speaker": "C",
+      "start": 4503716,
+      "text": "Also, sorry, John, I don't want to make you blush, but I use your policy viz blog a lot. Also, a lot of times you know, just. I follow it, but then also just, like, googling stuff, it pops up a lot. And so you're. You're solving a lot of Dataviz problems. So.",
+      "id": "ep_133_ut_271"
+    },
+    {
+      "end": 4538284,
+      "speaker": "E",
+      "start": 4521560,
+      "text": "Thanks, Ali. Well, if we're passing around compliments, then Cole deserves a shout out for the. For the challenges. Right, because. And also back to us. Right. The critique and the community. Like, I mean, so you've done, what, like four or five of them every month?",
+      "id": "ep_133_ut_272"
+    },
+    {
+      "end": 4539260,
+      "speaker": "D",
+      "start": 4538332,
+      "text": "So twelve months every month.",
+      "id": "ep_133_ut_273"
+    },
+    {
+      "end": 4542400,
+      "speaker": "E",
+      "start": 4539340,
+      "text": "Okay. So that would be. Let's see if I can do the math. No, just kidding.",
+      "id": "ep_133_ut_274"
+    },
+    {
+      "end": 4544200,
+      "speaker": "D",
+      "start": 4543340,
+      "text": "No, it's.",
+      "id": "ep_133_ut_275"
+    },
+    {
+      "end": 4546788,
+      "speaker": "E",
+      "start": 4544780,
+      "text": "Some of them had, like, hundreds of.",
+      "id": "ep_133_ut_276"
+    },
+    {
+      "end": 4600772,
+      "speaker": "D",
+      "start": 4546924,
+      "text": "Yeah, well, I think for me, it's twofold. One, it was just, you know, wanting there to be sort of a safe, fun place where if people are wanting to try out something new, whether it's a graph type they haven't used before or a tool they haven't used before, that no one's gonna attack. Right. That it's, you know, friendly critique. And then. And I'm always impressed at how many people iterate, because I'll try to comment on Twitter of, like, hey, you know, using, I think, Moritz, you were the one that asked it as a question. Like, you know, have you thought about this, or did you think about that? And then a lot of times people will iterate. But then it also creates this really fun archive of, you know, if you want to go see 188 annotated line graphs, you can go and browse through the archives and see just a lot of visuals and try to figure out where do some things work. What might I want to emulate from other people's designs, and where do they not? What do I want to avoid? So it's been really fun. It's way more manual, probably, thandemethere should be, because we pull together and share back all of the examples that people create each month. But it's.",
+      "id": "ep_133_ut_277"
+    },
+    {
+      "end": 4606252,
+      "speaker": "E",
+      "start": 4600836,
+      "text": "Yeah, that was. That was my question. Are you. Are you asking your husband to take all those screenshots and piece them together?",
+      "id": "ep_133_ut_278"
+    },
+    {
+      "end": 4608892,
+      "speaker": "D",
+      "start": 4606356,
+      "text": "No, I mean, that's. I mean, I love enhancing.",
+      "id": "ep_133_ut_279"
+    },
+    {
+      "end": 4610924,
+      "speaker": "E",
+      "start": 4608916,
+      "text": "That's gotta put pressure on a marriage, Cole.",
+      "id": "ep_133_ut_280"
+    },
+    {
+      "end": 4612988,
+      "speaker": "D",
+      "start": 4611052,
+      "text": "No, no. It's a ton of work.",
+      "id": "ep_133_ut_281"
+    },
+    {
+      "end": 4613260,
+      "speaker": "C",
+      "start": 4613044,
+      "text": "Right.",
+      "id": "ep_133_ut_282"
+    },
+    {
+      "end": 4620498,
+      "speaker": "D",
+      "start": 4613300,
+      "text": "But I love seeing all of them, and people share what they're thinking a lot of times. And so, I don't know. It's fun. It's a lot of work.",
+      "id": "ep_133_ut_283"
+    },
+    {
+      "end": 4620662,
+      "speaker": "Various",
+      "start": 4620524,
+      "text": "Work.",
+      "id": "ep_133_ut_284"
+    },
+    {
+      "end": 4621094,
+      "speaker": "D",
+      "start": 4620686,
+      "text": "But it's fun.",
+      "id": "ep_133_ut_285"
+    },
+    {
+      "end": 4629086,
+      "speaker": "Various",
+      "start": 4621142,
+      "text": "And that really speaks, again, to this point from the very beginning, that so many people are, like, moving into the feeling and putting their work out there, which is both great. Yeah.",
+      "id": "ep_133_ut_286"
+    },
+    {
+      "end": 4662632,
+      "speaker": "B",
+      "start": 4629118,
+      "text": "Yeah, yeah. Ali, you just reminded me I wanted to ask something else to John, I think. No, seriously. On a serious note, John, you've been really good at creating little database products, right? So you have the graphic continuum. You have the cards that you created, the playing cards. Maybe you want to briefly talk about, like, you've been consistently able to create little products out there. And I think it's a great way of making progress in visualization in general.",
+      "id": "ep_133_ut_287"
+    },
+    {
+      "end": 4726980,
+      "speaker": "E",
+      "start": 4662776,
+      "text": "Yeah. So. Well, so, okay, so first off, so I have this graphic continuum project, which is essentially a library of 90 some odd graphs, which, to sort of head off the criticism, like, I don't view it as an answer key. Like, it's not an answer key. There is no answer key to this question. Right. And I think it's great for beginners as well as, like, I use it all the time. Like, I have the sheet sitting on my desk, and I'm sort of, when I'm frustrated and I'm saying, oh, I've got this part to hold data. Like I need to, you know, get out of whatever box. Like, can I go to look at that? So Severino, Ribecca, who runs the Dataviz catalog, and I created the first couple things. And then we created a game. And the game, we just wanted to create something fun. And so the game was fun, but where it really sort of, for me, crystallizes. When I brought it to my son's fourth grade class and I gave them out, we did a little tournament, and it's really fascinating to see nine and ten year olds looking at a waffle chart and a sankey diagram saying, like, okay, I get this, but what is it? And then you have to sit down and draw and show it. And show it.",
+      "id": "ep_133_ut_288"
+    },
+    {
+      "end": 4730968,
+      "speaker": "B",
+      "start": 4727400,
+      "text": "John, can you briefly explain how the game works for those who haven't seen it?",
+      "id": "ep_133_ut_289"
+    },
+    {
+      "end": 4794700,
+      "speaker": "E",
+      "start": 4731064,
+      "text": "Okay, so there are 31 cards. They're all circles. There's 31 cards in the deck. And each card has eight graph, eight graphs on them, these little drawn icons. And they vary. They're all the same color, but they vary in size. So that's just to mess up your brain a little bit. So the core way the game is played is everybody gets a cardinal card face up, and then you put the deck in, the remaining cards in the middle face up. And then what you do, there's one graph, there's one exact match between each card. So as an individual, you look at your card and you try to find the graph on the deck in the middle. And then you take that card, and then you continue until the deck is gone. So you look for a waffle chart, Sankey diagram, whatever. So the fourth graders were great. I played it at info plus with a bunch of people over too much beers. And Andy Kirk, of course, had to record it because he just wants to try to get more on data stories just as many times as he can.",
+      "id": "ep_133_ut_290"
+    },
+    {
+      "end": 4798576,
+      "speaker": "B",
+      "start": 4796400,
+      "text": "I want one. I want one.",
+      "id": "ep_133_ut_291"
+    },
+    {
+      "end": 4832594,
+      "speaker": "E",
+      "start": 4798728,
+      "text": "Yeah, I'll bring one to you, Enrico. I'll come right up there. Again, it's not an answer key. It's not intended to be an answer key, but it's intended for kids, at least. It's a learning device. It's a little bit more fun. I. When I did this thing with my kids class, you know, they all got a little deck, and I figured, okay, well, they'll go home and just toss it in their pile of stuff in their room. And it turns out that I talked to a few of the parents that later that week, and they were like, yeah, I had to play this card game that you made with my kid. Like, what are these graphs? And I'm like, this is great. This is exactly the whole, this is.",
+      "id": "ep_133_ut_292"
+    },
+    {
+      "end": 4834350,
+      "speaker": "D",
+      "start": 4832602,
+      "text": "How we'll solve the data literacy problem.",
+      "id": "ep_133_ut_293"
+    },
+    {
+      "end": 4835670,
+      "speaker": "B",
+      "start": 4834650,
+      "text": "Yeah, this is.",
+      "id": "ep_133_ut_294"
+    },
+    {
+      "end": 4858240,
+      "speaker": "E",
+      "start": 4837760,
+      "text": "One cart, one kid taunting a parent at a time. They know what a waffle chart is, and the parent doesn't. So, yeah, you know, there's a few of these out there. You know, there's a sort of the classic Andrew Abela chart chooser, and there's a few of those out there. I think Steve Franconeri had one, actually, that came out this year.",
+      "id": "ep_133_ut_295"
+    },
+    {
+      "end": 4866676,
+      "speaker": "Various",
+      "start": 4858280,
+      "text": "Yeah, those are really nice, good chart catalogs. It's in the past, I was always like, oh, it's kind of difficult to, like, find definite catalog. And now we have five, which is great.",
+      "id": "ep_133_ut_296"
+    },
+    {
+      "end": 4871680,
+      "speaker": "E",
+      "start": 4866788,
+      "text": "Yeah. So it's great. It's all fun and games until someone gets a paper cut.",
+      "id": "ep_133_ut_297"
+    },
+    {
+      "end": 4883700,
+      "speaker": "B",
+      "start": 4874300,
+      "text": "Okay, I think we should try to wrap up. Maybe we should briefly mention what didn't happen. I think after all these good news.",
+      "id": "ep_133_ut_298"
+    },
+    {
+      "end": 4901862,
+      "speaker": "Various",
+      "start": 4883740,
+      "text": "We need a good donor. I mean, one thing I was missing is interesting VR and AR work, which is, I was like, at the beginning of the year, I was like, ah, should I get into this? Should I get an iPhone X? I was like, ah, let's sit this one out and just see what, you know, what the other people do. And then nothing interesting came, so I'm bummed.",
+      "id": "ep_133_ut_299"
+    },
+    {
+      "end": 4901998,
+      "speaker": "E",
+      "start": 4901886,
+      "text": "Yeah.",
+      "id": "ep_133_ut_300"
+    },
+    {
+      "end": 4906606,
+      "speaker": "B",
+      "start": 4902014,
+      "text": "Even though I have to say at this, there have been a couple of really, really good demos. Yeah.",
+      "id": "ep_133_ut_301"
+    },
+    {
+      "end": 4906886,
+      "speaker": "Various",
+      "start": 4906638,
+      "text": "Okay.",
+      "id": "ep_133_ut_302"
+    },
+    {
+      "end": 4909118,
+      "speaker": "B",
+      "start": 4906918,
+      "text": "Did you see the one from Christoph Herter?",
+      "id": "ep_133_ut_303"
+    },
+    {
+      "end": 4910094,
+      "speaker": "Various",
+      "start": 4909294,
+      "text": "I don't think so.",
+      "id": "ep_133_ut_304"
+    },
+    {
+      "end": 4910422,
+      "speaker": "E",
+      "start": 4910142,
+      "text": "No.",
+      "id": "ep_133_ut_305"
+    },
+    {
+      "end": 4915046,
+      "speaker": "Various",
+      "start": 4910486,
+      "text": "But I saw an image of him wearing the headset. It looked like it was spaced out.",
+      "id": "ep_133_ut_306"
+    },
+    {
+      "end": 4923142,
+      "speaker": "B",
+      "start": 4915078,
+      "text": "So it's the first time I saw something, some database on VR. That was really something. You should see it.",
+      "id": "ep_133_ut_307"
+    },
+    {
+      "end": 4925222,
+      "speaker": "Various",
+      "start": 4923206,
+      "text": "Okay, I might check this one out.",
+      "id": "ep_133_ut_308"
+    },
+    {
+      "end": 4932486,
+      "speaker": "B",
+      "start": 4925366,
+      "text": "At the end of the session, I went to him. I was like, can I try it? Please tell me. And I was really, really impressed.",
+      "id": "ep_133_ut_309"
+    },
+    {
+      "end": 4933502,
+      "speaker": "Various",
+      "start": 4932558,
+      "text": "Okay, cool. Yeah.",
+      "id": "ep_133_ut_310"
+    },
+    {
+      "end": 4936062,
+      "speaker": "B",
+      "start": 4933526,
+      "text": "So the first time, it just hasn't reached me.",
+      "id": "ep_133_ut_311"
+    },
+    {
+      "end": 4939270,
+      "speaker": "Various",
+      "start": 4936086,
+      "text": "Then I'll be open to that. Yeah.",
+      "id": "ep_133_ut_312"
+    },
+    {
+      "end": 4953298,
+      "speaker": "E",
+      "start": 4939350,
+      "text": "There was that augmented reality one on the Weather channel. Oh, yes. Right. Where I, the broadcaster, she was talking about the amount of water from the hurricane or whatever it was, and they had a sort of like, behind her.",
+      "id": "ep_133_ut_313"
+    },
+    {
+      "end": 4957906,
+      "speaker": "Various",
+      "start": 4953314,
+      "text": "The water, like a video composite. Right. It's like green screen.",
+      "id": "ep_133_ut_314"
+    },
+    {
+      "end": 4961818,
+      "speaker": "E",
+      "start": 4958058,
+      "text": "Yeah, yeah, yeah, yeah.",
+      "id": "ep_133_ut_315"
+    },
+    {
+      "end": 4966042,
+      "speaker": "B",
+      "start": 4961874,
+      "text": "It was terrifying. Yeah. No, seriously.",
+      "id": "ep_133_ut_316"
+    },
+    {
+      "end": 4970010,
+      "speaker": "E",
+      "start": 4966066,
+      "text": "Yeah, it was. Yeah. And I think they're putting a lot of money into that. Into that approach.",
+      "id": "ep_133_ut_317"
+    },
+    {
+      "end": 4978014,
+      "speaker": "B",
+      "start": 4970170,
+      "text": "Yeah, I read an article about it. I think they built a whole studio and they plan to do it for more. Yeah, more.",
+      "id": "ep_133_ut_318"
+    },
+    {
+      "end": 5024700,
+      "speaker": "Various",
+      "start": 4978062,
+      "text": "I mean, that is something where we should maybe talk more to people who do professional 3d illustration, let's say, for scientific concepts and so on. So these are some of the scenes that are not well connected. And there could be a lot of really interesting work coming out of collaborations there. I know National Geographic does a bit of 3d stuff, obviously, but. Yeah, that was a good one. That's true. Okay. Some things are happening anyways. Yeah. It's like thinking more about. Okay, what would you like to see? Are there any things that you're hoping for for the next year or what you think will be logical? Like what will happen next year? Logically, as an extrapolation of this year, where do you see things headed? Or where would you like to see them headed? Any thoughts?",
+      "id": "ep_133_ut_319"
+    },
+    {
+      "end": 5026028,
+      "speaker": "B",
+      "start": 5024820,
+      "text": "Ali, you want to start?",
+      "id": "ep_133_ut_320"
+    },
+    {
+      "end": 5064160,
+      "speaker": "C",
+      "start": 5026164,
+      "text": "Oh, yeah. Well, I think that something I would love to see in 2019 is more work in different mediums, like Amy Cecil's dado vis, where she's making visualizations out of play Doh. I would love to see people do more. Yeah. Experimenting visualizations with different mediums. You know, things like play Doh or. I don't even know what. You know. I think that experimentations like that lead to advancements in the field and also, you know, people's creative ideas. You know, one idea leads you to another idea. So that kind of stuff fascinates me. So that's kind of what I'm hoping for in 2019. More visualizations in different mediums.",
+      "id": "ep_133_ut_321"
+    },
+    {
+      "end": 5065772,
+      "speaker": "Various",
+      "start": 5064660,
+      "text": "Yeah. Cool.",
+      "id": "ep_133_ut_322"
+    },
+    {
+      "end": 5067532,
+      "speaker": "B",
+      "start": 5065916,
+      "text": "What else, Cole?",
+      "id": "ep_133_ut_323"
+    },
+    {
+      "end": 5096624,
+      "speaker": "D",
+      "start": 5067636,
+      "text": "Well, we talked about this at the onset but more criticism, but more productive criticism, I think figuring out what's the right forum for this. What are the sort of rules of engagement? You know, Ally, to your point earlier on, you sort of wrap up your identity with your work. And so it feels like this personal attack. How do we make it not feel like that? Because I think that's one of the ways that we continue to advance, is bye by having good conversations about what works and what doesn't and where can we push and where does it not make sense to.",
+      "id": "ep_133_ut_324"
+    },
+    {
+      "end": 5111576,
+      "speaker": "Various",
+      "start": 5096792,
+      "text": "Yeah, yeah. And I think, again, that's very much connected to this fractal nature of the field that, you know, everything's happening in parallel. Everybody has a slightly different spin on things. And there's the corporate world, there's the art world, there's the scientists, there's the graphic design.",
+      "id": "ep_133_ut_325"
+    },
+    {
+      "end": 5113376,
+      "speaker": "D",
+      "start": 5111608,
+      "text": "Yeah, maybe that's it. Right. How do we get more connections?",
+      "id": "ep_133_ut_326"
+    },
+    {
+      "end": 5146708,
+      "speaker": "Various",
+      "start": 5113408,
+      "text": "And I see our evolution, like, not in a sequence, but more branching out in all directions at once. And so I think we need to come together sometimes, say, like, okay, regardless of all these different backgrounds, what is the shared values that we all have? And what can we also say about somebody else's work in a different subfield, let's say. But again, as you say, how do we also say that? And how do we also understand that all of our approaches and goals and methods might be totally different and might not be all that comparable in the end?",
+      "id": "ep_133_ut_327"
+    },
+    {
+      "end": 5177776,
+      "speaker": "B",
+      "start": 5146844,
+      "text": "Yeah, I think part of it's not easy. Right. Because you can do that with many different formats. And I think used to be that blogs, a one, one person blog used to be the format that we use to give criticism. Right. So you either go from snarky short messages on Twitter, or we used to have blog. I think Robert Kosara used to do that with eager eyes to some extent. I really, I used to enjoy a lot the y axis.",
+      "id": "ep_133_ut_328"
+    },
+    {
+      "end": 5178536,
+      "speaker": "E",
+      "start": 5177928,
+      "text": "Oh, yeah.",
+      "id": "ep_133_ut_329"
+    },
+    {
+      "end": 5234354,
+      "speaker": "B",
+      "start": 5178608,
+      "text": "Which unfortunately is no longer there, but it seemed to be the closest thing to giving good criticism. Right. So nobody has taken that role anymore. Maybe. Probably one problem there is that it takes a lot of time to do it well. Right. And most of these projects are just side projects. And yeah, it takes a lot of effort. One thing I'm wondering, I've never seen anything substantial on, say, anyone having a YouTube channel of some sort or anything that is more video oriented, which may actually make it easier to write. You just turn the camera on, you show the graphics you want to talk about. Maybe you don't have to spend so much time writing and having everything super polished I don't know. I'm wondering if this could be an interesting format that people didn't explore yet.",
+      "id": "ep_133_ut_330"
+    },
+    {
+      "end": 5247002,
+      "speaker": "D",
+      "start": 5234442,
+      "text": "Andy and Eva do that with makeover Monday. People can volunteer and then they host this live if they give feedback, and then the expectation is the person goes and then iterates based on that feedback, which is sort of interesting.",
+      "id": "ep_133_ut_331"
+    },
+    {
+      "end": 5248874,
+      "speaker": "B",
+      "start": 5247066,
+      "text": "Oh, wow, I was not aware of that. Yeah.",
+      "id": "ep_133_ut_332"
+    },
+    {
+      "end": 5294030,
+      "speaker": "E",
+      "start": 5248922,
+      "text": "And Annemarie has a pretty live YouTube channel, but it's more on how to create visualizations as opposed to critiques. But it's one of the YouTube channels that is, I think, I mean, yeah, one of the better ones in Dataviz, sort of general Dataviz. I mean, there are other great YouTube course or video courses for all the tools, but I think Ann does a good job of talking about Datavis sort of generally. And she has this, it's probably another back to the courses thing that we were talking about earlier. She has this year long course that she's doing where it's sort of, it's a group, I think it's ten different people teaching a different segment. And so people sign up for the course and every week I think they get a new video, but it's from a different person.",
+      "id": "ep_133_ut_333"
+    },
+    {
+      "end": 5296910,
+      "speaker": "B",
+      "start": 5295050,
+      "text": "Anything else for the future?",
+      "id": "ep_133_ut_334"
+    },
+    {
+      "end": 5355924,
+      "speaker": "Various",
+      "start": 5297210,
+      "text": "Yeah, I mean, one thing I'm thinking about is a bit like, it's a lot of like, now again, data visualization people talking to data visualization people, obviously. And so we always like evaluate what other database people do. But I mean, in our day jobs, we of course talk to stakeholders and like, people external to the field and what expectations they have and what experiences they have. And I'm wondering if as a field, we do a good job of being in touch with outside communities on the one hand, and our, let's say clients in many ways as a whole field. Right. And do we explain well our methodology, again, this shared value system or any shared processes? And my feeling is a bit that we all do that individually in our personal relationships, but that the field as a whole maybe doesn't do a great job of selling itself or presenting itself, at least in these bigger contexts. What's your take on all this?",
+      "id": "ep_133_ut_335"
+    },
+    {
+      "end": 5390114,
+      "speaker": "E",
+      "start": 5356092,
+      "text": "I think the field, because it's so segmented and so diverse and where people are coming from, it's hard to do that. I think that's part of my, my challenge of thinking about the evolution of the field rooted in tools. The way people are sort of currently talking about is like, there are these tools and then there's these tools and now there's a new set of tools and the people I work with, and probably similar to the people that Cole talks to and maybe even you, Moritz, is that's not what's driving their thought process about visualizing data. It's not about how tools are evolving.",
+      "id": "ep_133_ut_336"
+    },
+    {
+      "end": 5393484,
+      "speaker": "D",
+      "start": 5390162,
+      "text": "It's about how business problems, what you're trying to solve for.",
+      "id": "ep_133_ut_337"
+    },
+    {
+      "end": 5416244,
+      "speaker": "E",
+      "start": 5393572,
+      "text": "And yeah, it's the culture of the organization and how do we make it clearer, and how do we put visualizations on a social media page? It's not about which library or which tool we use. I mean, that's important. So, to me, thinking about the evolution of the field is really hard because it's so different and diverse and segmented.",
+      "id": "ep_133_ut_338"
+    },
+    {
+      "end": 5454328,
+      "speaker": "D",
+      "start": 5416292,
+      "text": "I do think one of the trends that I've seen this year, specifically on the business side, is because before there was very much this focus on, well, how do we visualize? How do we do, what are best practices? How do you make a graph? And it's moved beyond that in a lot of ways to, people are really recognizing, we've got a lot of data out there. We have a ton of tools that we can use or a ton of ways we can visualize. But how do we not just show the data, but actually tell a story with it and get people to understand and pay attention? Because people are just inundated by more and more dataviz. And so figuring out how do you make yours the one that people gravitate towards and pay attention to and use it to solve something? The conversations on that side, on the business side, have seemed very different in the past year than in the past.",
+      "id": "ep_133_ut_339"
+    },
+    {
+      "end": 5490926,
+      "speaker": "Various",
+      "start": 5454464,
+      "text": "Yeah, that's my experience, too, that once you do a data visualization project in a larger organization, it's always tied to question of digitization in general, and like the data revolution. And you become this sort of stand in, you know, or this hook where everybody can put their expectations, but also fears and reservations about this whole topic. And so suddenly, then you become part of this much bigger conversation, actually, and then it's much less about, well, do we use a tree map or a bubble chart? Because that really doesn't matter at this point anymore. Right.",
+      "id": "ep_133_ut_340"
+    },
+    {
+      "end": 5502870,
+      "speaker": "E",
+      "start": 5491038,
+      "text": "And we seem to have moved from asking people who in the past were just data analysts and their job was to work with the data and then spit out an 80 page PDF with tables. We're now asking them to make graphs and to make them, and to be.",
+      "id": "ep_133_ut_341"
+    },
+    {
+      "end": 5503838,
+      "speaker": "D",
+      "start": 5502870,
+      "text": "Able to explain them to someone else.",
+      "id": "ep_133_ut_342"
+    },
+    {
+      "end": 5527386,
+      "speaker": "E",
+      "start": 5503854,
+      "text": "And then asking them maybe to make interactives. And now we're asking them to tell stories with data. How do you do that? And what's the right way. You know, now you have all these new requirements as part of your job, all these new skill sets that you need to collect or perfect. And the pressure is maybe on for people to figure out the better ways to do this.",
+      "id": "ep_133_ut_343"
+    },
+    {
+      "end": 5531250,
+      "speaker": "D",
+      "start": 5527418,
+      "text": "And of course, opportunity. Right. For the people who choose to develop in those ways.",
+      "id": "ep_133_ut_344"
+    },
+    {
+      "end": 5596510,
+      "speaker": "E",
+      "start": 5531290,
+      "text": "Yeah. To choose to develop it. Yeah, absolutely. Yeah. The last thing I'll say about developments for 2019 is diversity and a lot of things, I think, that we've been talking about society wide in the past years is diversity and inclusion and implicit bias. I think we've all talked about trying to get diverse set of guests on all of our shows, especially outside the US, a little bit more and to some of the places where it's harder to find guests for whatever reason. And there was a little kerfuffle early in the year about the lineup at info plus that it seemed very, very white. Right. And so I think that's another part, and maybe that's just a continuing of the evolution of the field, is more people create more things and they go out there more that you just widen the circle and it'll just be a natural evolution of things, that you will find a more diverse group of people creating visualizations and commenting and blogging and making podcasts. Podcasts, yeah.",
+      "id": "ep_133_ut_345"
+    },
+    {
+      "end": 5642982,
+      "speaker": "B",
+      "start": 5599170,
+      "text": "That's a huge topic. It's a huge topic. I think part of it I am aware. I mean, again, we could record the whole episode on that. Right. But I am aware of existing research of people who are trying to look into. So that's another problem that the segment of the population that is actually looking at these visualizations and that we refer to is very small. It's normally just highly educated, pretty rich people. Right. And that's a very small proportion of the population, so we typically don't talk to people to the rest. Right. So that's another issue there. Yeah, there are so many. So many.",
+      "id": "ep_133_ut_346"
+    },
+    {
+      "end": 5670384,
+      "speaker": "Various",
+      "start": 5643086,
+      "text": "Yeah, sort of both. I think we have this automatic bias there and this automatic, like, as you say, like skewed selection. At the same time, I think a lot of people moving into data visualization, the hope is to make all these super complex technological things more accessible also to different sets of people. And so I think we have a critical role to play there. But at the same time, we shouldn't just assume everything's fine or things will sort out themselves, because they won't.",
+      "id": "ep_133_ut_347"
+    },
+    {
+      "end": 5713082,
+      "speaker": "C",
+      "start": 5670552,
+      "text": "Yeah. For me, trying to find guests for my show phys to feature, it has, I have specifically tried to get a wide range of people, but it has been hard because I feel like some groups are more used to promoting their work than others. And so, you know, when you're looking for visualizations, sometimes you find ones, you know, you find the ones on the top, and then you got to dig a little further. The people who aren't, you know, promoting their work as much because maybe they don't either have the resources or they're just, you know, they're not used to it. That's not how they were raised or they don't know how. So I think that just digging a little bit further past the initial layer and also encouraging and enabling people to promote their work is a helpful way towards diversity.",
+      "id": "ep_133_ut_348"
+    },
+    {
+      "end": 5755050,
+      "speaker": "B",
+      "start": 5713186,
+      "text": "Yeah, I think another interesting issue that Elijah raised the other day on Twitter is this idea that we don't seem to have a lot of intellectual diversity. Right. So the database world and the media world tend to be pretty progressive. Right. And we don't know what the other people think or other people can do. Right. And so I think that's another very interesting, interesting problem there. I think there has been a lot of people talking about the problem of intellectual diversity. And, yeah, we don't talk about this, and it's part of the problem is that all.",
+      "id": "ep_133_ut_349"
+    },
+    {
+      "end": 5760878,
+      "speaker": "D",
+      "start": 5756870,
+      "text": "So much happened this year? That seems like a low point to end on, folks.",
+      "id": "ep_133_ut_350"
+    },
+    {
+      "end": 5778622,
+      "speaker": "Various",
+      "start": 5761054,
+      "text": "Yeah, we just stretched the surface and it's like 2 hours. No, I think as a whole, we can say the feel is like, yeah, still so much going on. There's no way this is gonna stop anytime soon. It's getting more and more interesting stuff.",
+      "id": "ep_133_ut_351"
+    },
+    {
+      "end": 5822778,
+      "speaker": "E",
+      "start": 5778646,
+      "text": "Happens and a lot, I guess. I guess to Cole's point of not ending on a downer, I think the great thing about the field is that a lot of the action seems to be, and Ali mentioned this earlier, I think a lot of the action is taking place at, you know, sort of the analyst, whatever you want to call that level of people who are just creating and working and, you know, even just making things either for fun or because they want to answer an interesting question or they find some interesting data. And if that's, you know, I don't want to think of it like a hierarchy, but it seems like, you know, that's where a lot of the fun, innovative things are starting to come from, is people who are just like hobbyists. Right. It seems like the hobbyists are driving.",
+      "id": "ep_133_ut_352"
+    },
+    {
+      "end": 5826554,
+      "speaker": "D",
+      "start": 5822834,
+      "text": "Things when it allows a lot more voices into the conversation in a way that's productive.",
+      "id": "ep_133_ut_353"
+    },
+    {
+      "end": 5826850,
+      "speaker": "E",
+      "start": 5826602,
+      "text": "Yeah.",
+      "id": "ep_133_ut_354"
+    },
+    {
+      "end": 5827226,
+      "speaker": "B",
+      "start": 5826890,
+      "text": "Yes.",
+      "id": "ep_133_ut_355"
+    },
+    {
+      "end": 5827690,
+      "speaker": "E",
+      "start": 5827298,
+      "text": "Yeah.",
+      "id": "ep_133_ut_356"
+    },
+    {
+      "end": 5834666,
+      "speaker": "B",
+      "start": 5827770,
+      "text": "Okay, folks, I think we had enough. Right? That's a beefy.",
+      "id": "ep_133_ut_357"
+    },
+    {
+      "end": 5836898,
+      "speaker": "E",
+      "start": 5834858,
+      "text": "You gave Dastri and Florian a lot to do.",
+      "id": "ep_133_ut_358"
+    },
+    {
+      "end": 5872280,
+      "speaker": "B",
+      "start": 5836994,
+      "text": "Yeah, exactly. So, yeah. Which reminds me, I would like to conclude by thanking Destry and Florian, who are behind the curtains doing so much work for data stories. Yeah, the show just couldn't happen without their help. So thanks so much, destrion, Florian, and thanks to all of you for agreeing on coming on the show to talk about what happened in 2017, 2018. I'm really excited about this episode. It's been lots of fun and I guess very informative.",
+      "id": "ep_133_ut_359"
+    },
+    {
+      "end": 5873296,
+      "speaker": "C",
+      "start": 5872400,
+      "text": "Thanks for having me.",
+      "id": "ep_133_ut_360"
+    },
+    {
+      "end": 5876420,
+      "speaker": "B",
+      "start": 5873368,
+      "text": "People have enough to listen during the.",
+      "id": "ep_133_ut_361"
+    },
+    {
+      "end": 5882020,
+      "speaker": "Various",
+      "start": 5876920,
+      "text": "Holidays are now filled with lots of talks and articles and projects to look at.",
+      "id": "ep_133_ut_362"
+    },
+    {
+      "end": 5886792,
+      "speaker": "B",
+      "start": 5885040,
+      "text": "Happy holidays to everyone.",
+      "id": "ep_133_ut_363"
+    },
+    {
+      "end": 5895714,
+      "speaker": "Various",
+      "start": 5886896,
+      "text": "And also thanks to you, our listeners and our supporters, everybody who supports us on Patreon, thanks so much. And we'll for sure keep going the next year, right, Enrico?",
+      "id": "ep_133_ut_364"
+    },
+    {
+      "end": 5897030,
+      "speaker": "B",
+      "start": 5895882,
+      "text": "I guess so.",
+      "id": "ep_133_ut_365"
+    },
+    {
+      "end": 5910350,
+      "speaker": "Various",
+      "start": 5898010,
+      "text": "And I hope all of you, too, Alli, Cole, John, very good. That's fantastic. And yeah, maybe we can have another gathering of the podcast giants next year.",
+      "id": "ep_133_ut_366"
+    },
+    {
+      "end": 5911590,
+      "speaker": "E",
+      "start": 5910690,
+      "text": "Definitely.",
+      "id": "ep_133_ut_367"
+    },
+    {
+      "end": 5914498,
+      "speaker": "Various",
+      "start": 5913050,
+      "text": "Thanks so much for joining us.",
+      "id": "ep_133_ut_368"
+    },
+    {
+      "end": 5914994,
+      "speaker": "C",
+      "start": 5914554,
+      "text": "Thank you.",
+      "id": "ep_133_ut_369"
+    },
+    {
+      "end": 5915426,
+      "speaker": "E",
+      "start": 5915042,
+      "text": "Thanks all.",
+      "id": "ep_133_ut_370"
+    },
+    {
+      "end": 5941630,
+      "speaker": "B",
+      "start": 5915458,
+      "text": "Bye bye bye. Hey, folks, thanks for listening to data stories again. Before you leave a few last notes, this show is now completely crowdfunded, so you can support us by going on Patreon. That's patreon.com Datastories. And if you can spend a couple of minutes reading us on iTunes, that would be extremely helpful for the show.",
+      "id": "ep_133_ut_371"
+    },
+    {
+      "end": 5967512,
+      "speaker": "Various",
+      "start": 5941750,
+      "text": "And here's also some information on the many ways you can get news directly from us. We are, of course, on twitter@twitter.com, david stories. We have a Facebook page@Facebook.com, datastoriespodcast all in one word. And we also have a slack channel where you can chat with us directly. And to sign up you can go to our homepage, datastory eas. And there is a button at the bottom of the page.",
+      "id": "ep_133_ut_372"
+    },
+    {
+      "end": 5983378,
+      "speaker": "B",
+      "start": 5967656,
+      "text": "And we also have an email newsletter. So if you want to get news directly into your inbox and be notified whenever we publish an episode, you can go to our home page Datastories es and look for the link you find at the bottom in the footer.",
+      "id": "ep_133_ut_373"
+    },
+    {
+      "end": 5995514,
+      "speaker": "Various",
+      "start": 5983474,
+      "text": "So one last thing we want to tell you is that we love to get in touch with our listeners, especially if you want to suggest a way to improve the show or amazing people you want us to invite or even projects you want us to talk about.",
+      "id": "ep_133_ut_374"
+    },
+    {
+      "end": 6004710,
+      "speaker": "B",
+      "start": 5995602,
+      "text": "Yeah, absolutely. And don't hesitate to get in touch with us. It's always a great thing for to hear from you. So see you next time and thanks for listening to data stories.",
+      "id": "ep_133_ut_375"
+    }
+  ],
+  "confidence": 0.923868382488468,
+  "audio_duration": 6015,
+  "punctuate": true,
+  "format_text": true,
+  "dual_channel": false,
+  "webhook_url": null,
+  "webhook_status_code": null,
+  "webhook_auth": false,
+  "webhook_auth_header_name": null,
+  "speed_boost": false,
+  "auto_highlights_result": null,
+  "auto_highlights": false,
+  "audio_start_from": null,
+  "audio_end_at": null,
+  "word_boost": [],
+  "boost_param": null,
+  "filter_profanity": false,
+  "redact_pii": false,
+  "redact_pii_audio": false,
+  "redact_pii_audio_quality": null,
+  "redact_pii_policies": null,
+  "redact_pii_sub": null,
+  "speaker_labels": true,
+  "content_safety": false,
+  "iab_categories": true,
+  "content_safety_labels": {
+    "status": "unavailable",
+    "results": [],
+    "summary": {}
+  },
+  "language_detection": false,
+  "language_detection_threshold": null,
+  "language_confidence": null,
+  "custom_spelling": null,
+  "throttled": false,
+  "auto_chapters": true,
+  "summarization": false,
+  "summary_type": null,
+  "summary_model": null,
+  "custom_topics": false,
+  "topics": [],
+  "speech_threshold": null,
+  "speech_model": "best",
+  "chapters": [
+    {
+      "summary": "Moritz Stefaner is an independent designer of data visualizations. Enrico Bertini is a professor at New York University, New York City. We talk about data visualization, data analysis, and the role data plays in our lives. Our podcast is now listener supported, so there's no ads.",
+      "gist": "Data Stories",
+      "headline": "Data stories podcast is now listener supported, so there's no ads",
+      "start": 200,
+      "end": 80326,
+      "id": "ep_133_ch_0"
+    },
+    {
+      "summary": "We record the annual yearly review of data visualization. This year, we have a special meeting of the top database podcasters. What has been happening in data visualization, and what are we hoping for for the next year?",
+      "gist": "2016 Annual Review",
+      "headline": "This is our annual yearly review of the top database podcasters",
+      "start": 80478,
+      "end": 125460,
+      "id": "ep_133_ch_1"
+    },
+    {
+      "summary": "Alli Torban is a data visualization designer at the American Enterprise Institute. Cole Noswebbern Affleck is from storytelling with data. Jon Schwabish is a senior fellow at the Urban Institute nonprofit Research Institution. They talk about new blogs, new books, and so on.",
+      "gist": "The Dataviz Podcast",
+      "headline": "We looked at all the different database podcasters out there",
+      "start": 125580,
+      "end": 271418,
+      "id": "ep_133_ch_2"
+    },
+    {
+      "summary": "There's just many more people putting their work out there than we've had historically. From the beginning of the year to right now, it does feel like there's this explosion of blogs. I still think there's not enough criticism out there. We need more or less criticism.",
+      "gist": "Dataviz: Major Developments in 2018",
+      "headline": "I feel like there are more blogs putting Dataviz work out there",
+      "start": 271474,
+      "end": 675900,
+      "id": "ep_133_ch_3"
+    },
+    {
+      "summary": "There is much more communication between academics and practitioners. More academics going to conferences that are not explicitly made for academics. It takes a while though for that then to flow through to like your typical business user.",
+      "gist": "More communication between academics and data visualizations practitioners",
+      "headline": "There is more communication between academics and practitioners, Enrico says",
+      "start": 676880,
+      "end": 877810,
+      "id": "ep_133_ch_4"
+    },
+    {
+      "summary": "People are much more self aware in terms of what data can do at all or how flawed and how biased and how problematic data is. Another big trend is that we have so many podcasts now. It's never been a better time to learn data visualization.",
+      "gist": "One year in the life of data visualization",
+      "headline": "Enrico: I think people are becoming more aware of data limitations",
+      "start": 878270,
+      "end": 1145034,
+      "id": "ep_133_ch_5"
+    },
+    {
+      "summary": " 2018 was the year of the Beeswarm chart. There were just like a ton of Beeswarm charts, you know, flowing data. The New York times had a really good one on sort of meme that made its way through the twitterverse.",
+      "gist": "2018 Was The Year of the Beeswarm Chart",
+      "headline": "I feel like 2018 was the year of the Beeswarm chart",
+      "start": 1145122,
+      "end": 1166280,
+      "id": "ep_133_ch_6"
+    },
+    {
+      "summary": "The Beesworm plot is like a histogram where you have bins that show the number of observations in each bin. Depending on how you lay them out, they kind of look like a swarm of bees. What's available in tools plays a big role in data visualization.",
+      "gist": "The Facebook and Twitter Swarms",
+      "headline": "Beesworm plots are a great way to visualize Twitter data",
+      "start": 1166860,
+      "end": 1288450,
+      "id": "ep_133_ch_7"
+    },
+    {
+      "summary": "Big project for me personally, I think for many others, was the simulated dendrochronology of us immigration. I call it the immigration Tree Rings project because that's how I always remember it. It's a beautiful project, and it has a really strong visual metaphor.",
+      "gist": "The Immigrant Tree Rings",
+      "headline": "The immigration Tree Rings project is a beautiful visual metaphor for immigration",
+      "start": 1290470,
+      "end": 1343406,
+      "id": "ep_133_ch_8"
+    },
+    {
+      "summary": "Cole: The idea of showing motion as a way to depict uncertainty. And motion and behavior is not really exploited that much in visualization. Ali: My favorite this year was this one by Jeff Boeing. It was called comparing US city street orientations.",
+      "gist": "Visualizations of Uncertainty",
+      "headline": "Jittering of motion as a way to depict uncertainty is interesting",
+      "start": 1343478,
+      "end": 1468130,
+      "id": "ep_133_ch_9"
+    },
+    {
+      "summary": "Enrico: Can we have more cartograms and histograms and simulations? The New York Times should be banned from databases. My favorite was the pockets piece from the pudding, where they compared the size of pockets between men's pants and women's pants.",
+      "gist": "Pitting vs. the New York Times",
+      "headline": "There were some great cartograms from the pudding that stood out to me",
+      "start": 1468470,
+      "end": 1574162,
+      "id": "ep_133_ch_10"
+    },
+    {
+      "summary": "The Dataviz has gotten, I'd say, exponentially better over the last year. At the same time, the biggest innovation in Datavis comes from journalism. My feeling is a lot of interesting innovation will come maybe from technology.",
+      "gist": "Will Dataviz Keep Advancing Data Journalism?",
+      "headline": "I think Dataviz has gotten exponentially better over the last year",
+      "start": 1574226,
+      "end": 1766354,
+      "id": "ep_133_ch_11"
+    },
+    {
+      "summary": "Moritz: I really enjoyed seeing Altair taking shape. Altair is a version of Vega Lite for Python. I expect to see many more interactive graphics coming from the data science area. Technology has developed crazy way in that space.",
+      "gist": "Top 5 data science tools of 2018",
+      "headline": "So since we're talking about tools, what happened in terms of tools in 2018",
+      "start": 1766482,
+      "end": 1909020,
+      "id": "ep_133_ch_12"
+    },
+    {
+      "summary": "On the business side, it's still. so excel remains pervasive. I've seen a few more of these browser based charting libraries like Vizlo and Venngage and Infogram. Some of them tend to lead you down paths that most people in the field would caution you against going down.",
+      "gist": "Excel and Tableau: What's Happening?",
+      "headline": "Is people mostly working with Tableau and Excel in the business world",
+      "start": 1910480,
+      "end": 2027900,
+      "id": "ep_133_ch_13"
+    },
+    {
+      "summary": "The charticulator project, Lincoln Data illustrator group, which I know you guys talked about with Andy Kirk last time on the show. I like this trend of blending the data work onto a canvas, like an Adobe illustrator canvas. If this trend continues, I think we will see a lot of interesting developments.",
+      "gist": "Data Illustrator and Charticulator",
+      "headline": "I like this trend of blending data work onto a canvas",
+      "start": 2028480,
+      "end": 2203020,
+      "id": "ep_133_ch_14"
+    },
+    {
+      "summary": "I think we are going towards a little bit more automation. People are exploring, trying to figure out what are clever ways to introduce more automation visualization without making it crazy. I have seen more and more people from the area of cognitive science and perception science to do a lot of work in the academic world.",
+      "gist": "Recent developments in data and visualization",
+      "headline": "I think we are going towards a little bit more automation in visualization",
+      "start": 2203800,
+      "end": 2373160,
+      "id": "ep_133_ch_15"
+    },
+    {
+      "summary": "The intersection of AI and visualization. Using visualization to understand better how AI systems works. Are we all being made obsolete by machines, especially the data visualizers? Who knows?",
+      "gist": "The intersection of AI and data visualization",
+      "headline": "One trend is the intersection of AI and visualization",
+      "start": 2374060,
+      "end": 2656252,
+      "id": "ep_133_ch_16"
+    },
+    {
+      "summary": "The person that I find the most interesting right now to follow is Topi Tjukanov, a geographer in Finland. He does a lot of these fun, quirky mappings that he shares on Twitter. I love watching what he makes and people's responses to it.",
+      "gist": "A Year in the Life",
+      "headline": "So what are the most notable people, company studios like, putting out interesting work",
+      "start": 2656316,
+      "end": 2722226,
+      "id": "ep_133_ch_17"
+    },
+    {
+      "summary": "Cole: How do we give each other feedback in this new world? Cole: When somebody critiques my work, I do feel like it's a critique on me. But in design, the design crit is in a totally different setting. Cole: We need to figure out how to, how to build in places to do that.",
+      "gist": "The Art of Critique",
+      "headline": "Cole: When someone critiques your work, it's a critique on you",
+      "start": 2722338,
+      "end": 3030344,
+      "id": "ep_133_ch_18"
+    },
+    {
+      "summary": "Lisa Charlotte Muth (formerly Lisa Rost) with her data replica did an amazing job. She did the book club as well. These are all very inclusive, welcoming things. I think that that also help improve the quality.",
+      "gist": "Both the Data Lounge and Book Club",
+      "headline": "Lisa Charlotte Muth (formerly Lisa Rost) with her data replica did an amazing job",
+      "start": 3030392,
+      "end": 3082900,
+      "id": "ep_133_ch_19"
+    },
+    {
+      "summary": "Tableau Zen master Neil Richards started his blog this year. He's done some really creative things with Tableau. He doesn't use it in the typical way. And then he writes about how he does everything too, which is a nice way of making it feel really accessible.",
+      "gist": "Top 10 Tableau Users of 2017",
+      "headline": "Tableau Zen master has been doing great work with Tableau this year",
+      "start": 3085520,
+      "end": 3149630,
+      "id": "ep_133_ch_20"
+    },
+    {
+      "summary": "Another person that I'd like to mention just before we move on, Kat Greenbrook. She works out of New Zealand. Does these beautiful scrolling stories where it's a really nice blend of story and words and data visualization. Nicely done.",
+      "gist": "A few of the visual thinkers behind the stories",
+      "headline": "Kat Greenbrook does beautiful scrolling stories about sea turtles affected by climate change",
+      "start": 3150810,
+      "end": 3186278,
+      "id": "ep_133_ch_21"
+    },
+    {
+      "summary": "This year has been amazing for them. They really found their voice fully now. I love the human terrain project where they show population density in three D. What is really interesting and innovative in some way is the kind of business model that they are using.",
+      "gist": "Fooled by Design: The Year in Love",
+      "headline": "This year has been amazing for them. They really found their voice now",
+      "start": 3186374,
+      "end": 3287780,
+      "id": "ep_133_ch_22"
+    },
+    {
+      "summary": "Last shout out to Valentina d\u2019Efilippo. She had a beautiful talk about her workshops where she asks people to draw world maps. All these great ideas and just such a high level of execution. So she's been on my map this year for sure.",
+      "gist": "A shout out to Valentina d\u2019Efilippo",
+      "headline": "Last shout out to Valentina d\u2019Efilippo. I like what she's been doing",
+      "start": 3290320,
+      "end": 3376716,
+      "id": "ep_133_ch_23"
+    },
+    {
+      "summary": "There have been a few real conference highlights this year. What's interesting about 2019, though, is there looks to be sort of a lack of conferences. And maybe that's the that needs to be filled in 2019.",
+      "gist": "2018's top conferences",
+      "headline": "Let's talk about conferences. There have been a few good ones this year",
+      "start": 3376748,
+      "end": 3738576,
+      "id": "ep_133_ch_24"
+    },
+    {
+      "summary": "There were a lot of books that came out in 2018, and then there's a whole slate scheduled for 2019. John: The ones that stuck out to me was the makeover Monday book from Andy Kriebel and Ava Murray. And there are a few coming up in 2019, too.",
+      "gist": "2018's top data visualization books",
+      "headline": "We have lots of books coming up or published in 2018. And there are a few coming up in 2019",
+      "start": 3738648,
+      "end": 3952990,
+      "id": "ep_133_ch_25"
+    },
+    {
+      "summary": "RJ Andrews' new book is more about the craft of data storytelling. Kieran Healy has a book coming out on data visualization in R. W. E. B. Du Bois has another coming out in early 2019.",
+      "gist": "Data Storytelling: A Craft Book",
+      "headline": "Ali: RJ Andrews has a new book coming out on data visualization",
+      "start": 3953150,
+      "end": 4087572,
+      "id": "ep_133_ch_26"
+    },
+    {
+      "summary": "Ali: Are you already planning to turn your podcast into a book? John: I've got one scheduled for early 2020, which seems too far away. Owen Rico: I hope there will be something in 2019.",
+      "gist": "PODCAST: Turn Your Podcast Into a Book",
+      "headline": "Ali: Are you already planning to turn your podcast into a book",
+      "start": 4087636,
+      "end": 4164651,
+      "id": "ep_133_ch_27"
+    },
+    {
+      "summary": "Research explained has started a new blog called multiple views, research explained. The idea is to make research more accessible to people who don't have time to go to see through papers. What else? I really enjoyed Maarten Lambrechts's collection of xeno graphics.",
+      "gist": "A New Blog for Research:",
+      "headline": "Multiple views, research explained is a blog aimed at making research more accessible",
+      "start": 4164795,
+      "end": 4393270,
+      "id": "ep_133_ch_28"
+    },
+    {
+      "summary": "Enrico: Urban Institute has a blog on medium called Data at Urban. How do you leverage all these new technologies and tools? It's an interesting space to see how that will evolve. Cole deserves a shout out for the challenges.",
+      "gist": "What's the Data blog?",
+      "headline": "Urban Institute has a blog on medium called Data at Urban",
+      "start": 4393390,
+      "end": 4630062,
+      "id": "ep_133_ch_29"
+    },
+    {
+      "summary": "John: I have this graphic continuum project, which is essentially a library of 90 some odd graphs. He says it's not an answer key, but it's intended for kids, at least. It's a learning device. And it's a little bit more fun.",
+      "gist": "Dataviz: The Graphic Continuum",
+      "headline": "John, you've been really good at creating little database products",
+      "start": 4630126,
+      "end": 4871680,
+      "id": "ep_133_ch_30"
+    },
+    {
+      "summary": "One thing I was missing is interesting VR and AR work. There have been a couple of really, really good demos. We should maybe talk more to people who do professional 3d illustration. There could be a lot of really interesting work coming out of collaborations.",
+      "gist": "Vineland and AR",
+      "headline": "One thing I was missing is interesting VR and AR work",
+      "start": 4874300,
+      "end": 5006940,
+      "id": "ep_133_ch_31"
+    },
+    {
+      "summary": "Ali: I would love to see more work in different mediums, like Amy Cecil's dado vis, where she's making visualizations out of play Doh. Logically, as an extrapolation of this year, where do you see things headed?",
+      "gist": "What Are You Hoping For In 2019?",
+      "headline": "What would you like to see in 2019 from visual artists",
+      "start": 5006980,
+      "end": 5065772,
+      "id": "ep_133_ch_32"
+    },
+    {
+      "summary": "Cole: I think figuring out what's the right forum for this. What are the sort of rules of engagement? Everybody has a slightly different spin on things. How do we get more connections? And I see our evolution, like, more branching out in all directions at once.",
+      "gist": "Criticism in a Fractal World",
+      "headline": "Cole: Finding the right forum for constructive criticism can be difficult",
+      "start": 5065916,
+      "end": 5204060,
+      "id": "ep_133_ch_33"
+    },
+    {
+      "summary": "One thing I'm wondering, I've never seen anything substantial on, say, anyone having a YouTube channel of some sort or anything that is more video oriented. The field as a whole maybe doesn't do a great job of selling itself or presenting itself, at least in these bigger contexts.",
+      "gist": "Videos in the Visualization Field",
+      "headline": "One thing I'm wondering, I've never seen anything substantial on YouTube channel",
+      "start": 5204400,
+      "end": 5533830,
+      "id": "ep_133_ch_34"
+    },
+    {
+      "summary": "The last thing I'll say about developments for 2019 is diversity. I think we've all talked about trying to get diverse set of guests on all of our shows. At the same time, I think a lot of people moving into data visualization, the hope is to make all these super complex technological things more accessible to different sets of people.",
+      "gist": "Data Visualization and Diversity in 2019",
+      "headline": "The last thing I'll say about developments for 2019 is diversity",
+      "start": 5535170,
+      "end": 5755050,
+      "id": "ep_133_ch_35"
+    },
+    {
+      "summary": "So much happened this year? That seems like a low point to end on, folks. But as a whole, we can say the feel is like, yeah, still so much going on. It's getting more and more interesting stuff.",
+      "gist": "Hobbyists and the Future",
+      "headline": "So much happened this year? That seems like a low point to end on",
+      "start": 5756870,
+      "end": 5840212,
+      "id": "ep_133_ch_36"
+    },
+    {
+      "summary": "Enrico: Thanks for listening to data stories again. This show is now completely crowdfunded, so you can support us by going on Patreon. Here's some information on the many ways you can get news directly from us.",
+      "gist": "A Year in the Life of Data Stories",
+      "headline": "This show is now completely crowdfunded, so you can support us on Patreon",
+      "start": 5840316,
+      "end": 6004710,
+      "id": "ep_133_ch_37"
+    }
+  ],
+  "disfluencies": false,
+  "entity_detection": false,
+  "sentiment_analysis": false,
+  "sentiment_analysis_results": null,
+  "entities": null,
+  "speakers_expected": null,
+  "summary": null,
+  "custom_topics_results": null,
+  "episode_num": 133,
+  "episode_metadata": {
+    "speakers": [
+      "Various"
+    ],
+    "WPid": "1302",
+    "url": "https://datastori.es/podlove/file/5524/s/feed/c/mp3/datastories-133.mp3",
+    "episode_title": "Year Review 2018"
+  }
+}

@@ -1,0 +1,836 @@
+{
+  "id": "3a27ee68-927c-4ff2-888c-361b5a7713db",
+  "language_model": "assemblyai_default",
+  "acoustic_model": "assemblyai_default",
+  "language_code": "en_us",
+  "status": "completed",
+  "audio_url": "https://datastori.es/podlove/file/6576/s/feed/c/mp3/156-fairness-in-machine-learning-with-yongsu-ahn-and-alex-cabrera.mp3",
+  "utterances": [
+    {
+      "end": 14130,
+      "speaker": "Yongsu Ahn",
+      "start": 200,
+      "text": "What the machine learning system can help is to help users with going over the multiple iterations to see what's the best kind of spot that both utility and fairness looks fine.",
+      "id": "ep_156_ut_0"
+    },
+    {
+      "end": 44218,
+      "speaker": "Enrico Bertini",
+      "start": 33650,
+      "text": "Hi, everyone. Welcome to a new episode of Data stories. My name is Enrico Bertini, and I am a professor at NYU in New York City, where I do research and teach data visualization.",
+      "id": "ep_156_ut_1"
+    },
+    {
+      "end": 54834,
+      "speaker": "Moritz Stefaner",
+      "start": 44394,
+      "text": "Yeah, and I'm Moritz Stefaner, and I'm an independent designer of data visualizations. In fact, I work as a self employed truth in beauty operator out of my office here in the countryside in the north of Germany.",
+      "id": "ep_156_ut_2"
+    },
+    {
+      "end": 66342,
+      "speaker": "Enrico Bertini",
+      "start": 54962,
+      "text": "Yes. And in this podcast, we talk about data visualization, analysis, and more generally, the role data plays in our lives. And usually we do that together with a guest we invite on the show.",
+      "id": "ep_156_ut_3"
+    },
+    {
+      "end": 87206,
+      "speaker": "Moritz Stefaner",
+      "start": 66486,
+      "text": "That's right. But before we start, just a quick note. Our podcast is listener supported. That means there are no ads. That also means if you do enjoy the show, you could consider supporting us. You can either do that with recurring payments on patreon.com Datastories, or you can also send us a one time donation on Paypal me Datastories.",
+      "id": "ep_156_ut_4"
+    },
+    {
+      "end": 143938,
+      "speaker": "Enrico Bertini",
+      "start": 87318,
+      "text": "And thanks to all those of you who have already donated some amounts or are part of our patrons, thanks so much. Thanks to you. The show can go on. So let's get started with the topic of today. So today we talk about a really, really relevant topic, and it's particularly hot right now. We're going to talk about bias and fairness in machine learning. And if you don't know what this is, we're going to describe and explain what this is about in a moment. And more specifically, what is the role that visualization can play in this specific domain, to, say, mitigate problems that can arise in terms of bias and fairness in machine learning. So, to talk about this topic, we have not one, but two guests. We have Alex Cabrera, who is a PhD student from Carnegie Mellon University. Hi, Alex.",
+      "id": "ep_156_ut_5"
+    },
+    {
+      "end": 146258,
+      "speaker": "Alex Cabrera",
+      "start": 144114,
+      "text": "Hi. How's it going? Thank you guys so much for having me.",
+      "id": "ep_156_ut_6"
+    },
+    {
+      "end": 154648,
+      "speaker": "Enrico Bertini",
+      "start": 146354,
+      "text": "And then we have young Yongsu Ahn, who is also a PhD student at the University of Pittsburgh. Hi, Yongsu. Welcome to the show.",
+      "id": "ep_156_ut_7"
+    },
+    {
+      "end": 156580,
+      "speaker": "Yongsu Ahn",
+      "start": 154784,
+      "text": "Hello. Nice to talk to you.",
+      "id": "ep_156_ut_8"
+    },
+    {
+      "end": 168580,
+      "speaker": "Enrico Bertini",
+      "start": 156880,
+      "text": "So, Alex and Yongsu, can you briefly introduce yourself, tell us a little bit about what is your background, what is your main research topic, and just give a brief introduction.",
+      "id": "ep_156_ut_9"
+    },
+    {
+      "end": 192238,
+      "speaker": "Alex Cabrera",
+      "start": 168880,
+      "text": "Yeah, so, I'm Alex. I'm a PhD student at the Human Computer Interaction Institute at Carnegie Mellon. So generally, I do research into creating a interactive systems and visualization systems that help people both develop better machine learning models so more accurate, more equitable and understanding. These models. So understanding potential issues or how they work.",
+      "id": "ep_156_ut_10"
+    },
+    {
+      "end": 193830,
+      "speaker": "Enrico Bertini",
+      "start": 192374,
+      "text": "Okay, Yongsu.",
+      "id": "ep_156_ut_11"
+    },
+    {
+      "end": 232212,
+      "speaker": "Yongsu Ahn",
+      "start": 193990,
+      "text": "My name is Yongsu Ahn and I'm a third year PhD students at University of Pittsburgh. My research interest lies at the intersection of visualization and very unexplainable AI and interactive machine learning. So my primary research question is to build a system to help users with making the machine learning results more fair and explainable and help them to interact with machines so that their opinions and feedbacks can be incorporated into the system.",
+      "id": "ep_156_ut_12"
+    },
+    {
+      "end": 264200,
+      "speaker": "Enrico Bertini",
+      "start": 232356,
+      "text": "Okay, thanks so much. So I was thinking maybe we should start with defining a little bit this terminology to the extent that this is possible, but maybe there are probably many of our listeners who have never heard of that. And of course, fairness and bias, and there's a very overloaded terminology here. So I'm wondering if we can start by defining a little bit what we mean by fairness and maybe even bias in machine learning, and also what kind of problems exist there.",
+      "id": "ep_156_ut_13"
+    },
+    {
+      "end": 381630,
+      "speaker": "Yongsu Ahn",
+      "start": 264340,
+      "text": "Yeah, so probably I can start by talking about a little bit of background on why the problem. This fairness problem has been actively discussed, especially in machine learning research. So as we may have seen, the data driven decision is kind of increasingly used in important decisions. So especially such as job recruiting of college admission or predictive policy, those kind of important decisions which have kind of huge impact on individuals. Machine learning has been more and more used in those kind of important decisions. Then some of cases have been reported that these machine learning turned out to be biased towards certain groups or certain individuals. So here, what I mean by bias is certain decisions are kind of favored to certain groups or individuals, such as men over women or white people over African American people. This is because the machine learning model is trained from the historical data set. And this historical data set could possibly include inherited bias. Then the model is kind of trained by those data sets and then have kind of inherited biases. The problem of machine learning here is that whatever trained model can kind of systematically discriminate against certain individuals or groups, especially in machine learning system, because many decision makers may use those systems in their decision making, then kind of making these machine system more fair is kind of the important problem.",
+      "id": "ep_156_ut_14"
+    },
+    {
+      "end": 403220,
+      "speaker": "Moritz Stefaner",
+      "start": 382210,
+      "text": "So basically, the type of fairness you talk about is mostly related to not being discriminatory or not using features that have nothing to do with the essential decision you're making, but are more superficial, like maybe the race or the gender or other features of a person. Right? So it's about combating discrimination.",
+      "id": "ep_156_ut_15"
+    },
+    {
+      "end": 421224,
+      "speaker": "Alex Cabrera",
+      "start": 403370,
+      "text": "Yeah, I think that's the main idea. Actually, it gets even more complicated because even if you don't include some of these protected features. So if you say you're trying to give someone a loan, you don't really want to decide that based off of their gender or their race. Those are actually, can be almost perfectly predicted by the other features.",
+      "id": "ep_156_ut_16"
+    },
+    {
+      "end": 421744,
+      "speaker": "Moritz Stefaner",
+      "start": 421312,
+      "text": "Exactly.",
+      "id": "ep_156_ut_17"
+    },
+    {
+      "end": 439190,
+      "speaker": "Alex Cabrera",
+      "start": 421792,
+      "text": "So you can actually reconstruct that. So actually a lot of machine learning people suggest you actually add those features in because they're going to be used anyway. And then you can apply some resolutions afterwards to try to address the problem. So it's very much embedded in the data that you're using to train the model, this historical data that you've collected.",
+      "id": "ep_156_ut_18"
+    },
+    {
+      "end": 444950,
+      "speaker": "Moritz Stefaner",
+      "start": 439230,
+      "text": "So it's not just as easy as leaving out that column with race or gender and not saying you're blind.",
+      "id": "ep_156_ut_19"
+    },
+    {
+      "end": 463156,
+      "speaker": "Alex Cabrera",
+      "start": 444990,
+      "text": "If only they were that easy, we wouldn't have had to do the research that's happening now. Yeah, it's a little bit more complicated. Just the complex relationships between the variables ends up that you can actually recreate the biases, even having no idea the algorithm, not being aware of these protected attributes.",
+      "id": "ep_156_ut_20"
+    },
+    {
+      "end": 473140,
+      "speaker": "Moritz Stefaner",
+      "start": 463228,
+      "text": "Okay. But just to understand that. So the evaluation you do, and a fair evaluation is one that only takes the features into account that you're supposed to take into account.",
+      "id": "ep_156_ut_21"
+    },
+    {
+      "end": 509306,
+      "speaker": "Alex Cabrera",
+      "start": 473260,
+      "text": "So usually the way we try to define fairness or quantify it is in the output. So if you're trying to give loans or a very popular example is trying to decide, they have algorithms to decide how likely someone is to recommit a crime if they're let go. So whether or not you should give someone bail, we usually, it doesn't, we don't really look at what features are used, we look at what the output is. So if, for example, the recidivism prediction case for African American males, you're more likely to be given a higher risk score, even though you're just as likely to recommit a crime. That is discrimination. That is the bias that we're trying to discover and trying to combat.",
+      "id": "ep_156_ut_22"
+    },
+    {
+      "end": 509898,
+      "speaker": "Moritz Stefaner",
+      "start": 509378,
+      "text": "Right.",
+      "id": "ep_156_ut_23"
+    },
+    {
+      "end": 525693,
+      "speaker": "Alex Cabrera",
+      "start": 510034,
+      "text": "So it doesn't really, these like black box models, it's really hard to know what parts of the data are being used to make the decision, but we really care about whether these decisions we're making, the outputs we're making that are really societally impactful, whether those are equitable and fair.",
+      "id": "ep_156_ut_24"
+    },
+    {
+      "end": 526405,
+      "speaker": "Yongsu Ahn",
+      "start": 525861,
+      "text": "Okay.",
+      "id": "ep_156_ut_25"
+    },
+    {
+      "end": 565802,
+      "speaker": "Enrico Bertini",
+      "start": 526477,
+      "text": "Yeah, yeah, I'm wondering if we can, can you guys maybe describe one or two specific examples where these kind of problems can arise? I think what is interesting is that right now, I mean, we live in a society where these AI systems are already making decisions, or some decisions for us, right? Or providing indications for experts that have to make decisions based on, on what the AI system suggests or recommends. So I think, I'm wondering if, in order to make it a little bit more concrete, if you can cite one or two examples where this kind of problem can arise.",
+      "id": "ep_156_ut_26"
+    },
+    {
+      "end": 693742,
+      "speaker": "Alex Cabrera",
+      "start": 565986,
+      "text": "Yeah, so sadly, there are quite a few examples. So one of the first investigations that looked into it was in facial recognition systems. So there were systems by, like, they had some by face plus plus IBM and Microsoft that they audited. And it tries to tell, given a picture of someone's face, whether they're male or female. And when they started looking into it, they found that when you start seeing how well they perform for, say, white men versus darker skinned women, there was almost 99% accuracy for the white males and close to 70% accuracy for the darker skinned females, which is pretty big disparity. A lot of that is due. Hey, if you look up general datasets of faces, a lot of the faces that come up are white males. The data that you're learning on is not representative. So that's, I mean, it's bad in and of itself, but now that these applications are being, the models are being used in real world applications, it gets scarier. So a newer study showed that in self driving cars, they have these models that predict where pedestrians are going to go and where pedestrians are. And those models actually perform worse if you have darker skin, controlling for the time of day, how light it is, all of that, than if you have lighter skin. So if you think that has some pretty serious implications if you have darker skin and cars aren't as good as detecting you. Another one that luckily didn't see the light of day but got a lot of press was Amazon was piloting a new hiring algorithm. So they want to see, hey, can we design an algorithm, given a resume, tries to predict whether or not we should hire them? And when they started looking into it, they found that if there was any mention in a resume of, say, like a women's CS club or any sort of female gendered verbs or nouns, it was automatically rejecting the resumes, basically because all the examples that they had fed them had been male resumes, most of their hires had been male. So I hadn't really learned that pattern, didn't know how to actually generalize to that, so luckily that wasn't deployed. Those are just two examples of how these more abstract concepts of learning bad models can have some serious implications for equity and fairness.",
+      "id": "ep_156_ut_27"
+    },
+    {
+      "end": 708318,
+      "speaker": "Moritz Stefaner",
+      "start": 693806,
+      "text": "Yeah, but the main problems seem to come from the training data, as it seems like what you supply as ground truth or as ground for learning. In the examples you gave, this was apparently the source of the.",
+      "id": "ep_156_ut_28"
+    },
+    {
+      "end": 748892,
+      "speaker": "Alex Cabrera",
+      "start": 708374,
+      "text": "That's definitely a big problem. There's also, there are problems in the model and things that you can address in the model. So you can do sort of, if you have bad data and you can't really gather more data, sometimes it's impossible. You don't know. There are some sort of changes you can make. I think Yongsu will mention some of them in their system that they apply. But sometimes if you have too simple of models, maybe they can't actually learn these complex relationships. Even if you have lots of diverse data, you can actually discriminate between these different classes and cases. It's a combination. This is a very complex problem where no matter where you are in the pipeline, defining the problem, gathering data, signing the model, this issue can.",
+      "id": "ep_156_ut_29"
+    },
+    {
+      "end": 751796,
+      "speaker": "Moritz Stefaner",
+      "start": 748996,
+      "text": "It's easy to screw up on all ends, is that what you say?",
+      "id": "ep_156_ut_30"
+    },
+    {
+      "end": 754988,
+      "speaker": "Alex Cabrera",
+      "start": 751868,
+      "text": "Yeah, unfortunately, yeah.",
+      "id": "ep_156_ut_31"
+    },
+    {
+      "end": 785378,
+      "speaker": "Enrico Bertini",
+      "start": 755004,
+      "text": "And maybe, I think it's also worth mentioning that one problem with these systems is that they tend to produce more errors if, say, for a given category, there's fewer data than for other categories. Right. So sometimes the problem is stems from the fact that, say, for a specific category, there are very, very few data points and there is not much to learn from too few data points. Right. And because of that, the system tends to have higher error rate.",
+      "id": "ep_156_ut_32"
+    },
+    {
+      "end": 791866,
+      "speaker": "Alex Cabrera",
+      "start": 785474,
+      "text": "Yep, exactly. It's easier to learn for the majority class and exclude the minority class, and you still get these good overall numbers.",
+      "id": "ep_156_ut_33"
+    },
+    {
+      "end": 792630,
+      "speaker": "Enrico Bertini",
+      "start": 791938,
+      "text": "Yeah.",
+      "id": "ep_156_ut_34"
+    },
+    {
+      "end": 807280,
+      "speaker": "Moritz Stefaner",
+      "start": 793650,
+      "text": "Okay. So, big problems. What are your solutions? I heard you're working on something we agree to. Can you tell us a bit about Fairsight and what your approach is?",
+      "id": "ep_156_ut_35"
+    },
+    {
+      "end": 894532,
+      "speaker": "Yongsu Ahn",
+      "start": 807400,
+      "text": "Yeah. So in the Fairsight paper, we primarily propose two things. So first one is called FairDM. So this is a fair decision making framework. So what we've observed is that in the area of machine learning system, there hasn't been much work on this fairness in machine learning problem. So we kind of wanted to propose a mind map of how decision makers can look at the problem for the purpose of the fairness, the combating bias. So we kind of propose a series of required actions to take, and then we also propose that these actions should be taken in all machine learning stages from data model and outcome. Then, on top of this fair DM framework, we also propose a system to fully control the biases. So the system supports visualization of individuals and groups, and also we support measuring the biases to quantify and make it comparable. And then we also support identifying the biases in each feature and to mitigate the bias. So the fair site is the combination of these, verity and I, which is fair decision making framework and fair sight, the visualization system.",
+      "id": "ep_156_ut_36"
+    },
+    {
+      "end": 913804,
+      "speaker": "Enrico Bertini",
+      "start": 894676,
+      "text": "Yeah. And you basically address many, many different steps. Right. As you. I think what you said is that, well, bias can be introduced at very different steps of the process. Right. And you may want to detect what's the actual source. Right.",
+      "id": "ep_156_ut_37"
+    },
+    {
+      "end": 915870,
+      "speaker": "Yongsu Ahn",
+      "start": 913852,
+      "text": "If possible, yes.",
+      "id": "ep_156_ut_38"
+    },
+    {
+      "end": 974570,
+      "speaker": "Enrico Bertini",
+      "start": 916060,
+      "text": "Right. And I think what is also interesting in your approach, if I understand correctly, is that you focus on, I would say on a subset of problems that is mostly about ranking, but it's a really important one. Right. So I think we should explain this in a moment. So I think what some of these machine learning models can do is to actually rank people according to some metric so that the top k can be selected for something. And there are lots of real world, real world scenarios where this happens. So the classic one is, say, hiring decisions, or whether you get admitted into a school or not, so many, many existing problems, real world problems are solved with the systems. Right. And so you try to be fair or at least to detect biases in ranking systems. Right?",
+      "id": "ep_156_ut_39"
+    },
+    {
+      "end": 1018810,
+      "speaker": "Yongsu Ahn",
+      "start": 975470,
+      "text": "Yeah. We also thought that this ranking decision hasn't been explored relatively compared to classification problem, but I think the importance of ranking decision is pretty much the same as the classification problem. And also, whatever classification problem could be kind of converted to the ranking problem if we just see the outcome as not as a binary decision, but just as a ranking decision. And also we saw that there were less proposed fairness measures in the ranking decision, then we kind of found the room to propose some ranking measures as well.",
+      "id": "ep_156_ut_40"
+    },
+    {
+      "end": 1022802,
+      "speaker": "Enrico Bertini",
+      "start": 1018970,
+      "text": "Okay. And Alex, maybe you want to describe Fairvis.",
+      "id": "ep_156_ut_41"
+    },
+    {
+      "end": 1232530,
+      "speaker": "Alex Cabrera",
+      "start": 1022906,
+      "text": "Yeah, sure. So we're trying to tackle a very similar problem, two kind of different strategies. So we were looking at, hey, there's a lot of research in the theoretical machine learning community about defining fairness. What is fairness? These different metrics, how we actually maybe apply algorithms to solve them. But there hasn't really been a lot of work in, hey, there are actual people making models that need to understand these biases. How do we actually transfer this knowledge and make it very easy for people to discover what types of biases are occurring in their models? So we tried to sort of tackle two of the main issues that we see in discovering fairness issues. One we sort of touched on a little bit earlier is that a lot of bias is present in what we call these intersectional subgroups. So maybe if you look at your model overall, there's like 95% accuracy, but then you look, okay, what if I split my dataset between males and females, then maybe there's a little bit of a difference in the accuracy or the performance of the model. And then, okay, what if I want to split from gender and race? All of a sudden you have like, maybe ten different groups of, like, Asian females, white males, all these different combinations. All of a sudden, if you start adding more attributes and you want to see how all these different groups are performing, you might have to look at hundreds, if not thousands of different groups and see, oh, how are they performing for all these metrics? So the problem kind of, I don't know, the complexity increases significantly. Then the other issue we're trying to tackle is the never ending question, what is fairness? What is equity? One of the very interesting results in the machine learning community is that there are many ways to define fairness, and a lot of the definitions are actually incompatible. An example of this is in this recidivism prediction task of ranking how risky someone is, how likely someone is to recommit a crime. They found one of the production systems had a high false positive rate for African American defendants. But the argument was that it was just as predictive for white defendants and African American defendants. So depending what you define as fairness, either one was, okay, either it was just as accurate for the two groups, or there were more false positive rates. It was more likely to rank the African American defendants as higher risk. So there are a lot of these different metrics that you kind of have to balance and see the trade offs between them. So, for Fairvis, we basically designed this interactive system that lets you upload your data and your models outputs and create these subgroups, and lets you visualize them according to all these different metrics. So you can see, hey, okay, this subgroup has this high false positive rate, but it has low calibration. So this, like, how accurate the model is for this group. And then the other thing we tried to add in is sometimes you don't really know what groups you want to look at. So maybe you know that there are these demographic dimensions that you care about, like sex and race, but maybe there are these small groups you didn't think of that are performing really badly. So we designed a little algorithm that kind of generates these groups automatically and gives you suggestions of, hey, you might want to look into this intersectional subgroup. It's not performing very well. So we tried to make this as approachable for machine learning practitioners as possible, where they can just basically upload their data and have at least a sense, an idea of what's going on in these models, how they're performing. So this first step of, hey, what is the problem? How are we going to address it?",
+      "id": "ep_156_ut_42"
+    },
+    {
+      "end": 1296882,
+      "speaker": "Enrico Bertini",
+      "start": 1233030,
+      "text": "Yeah, I think what is really interesting here that strikes me almost as paradoxical, is that we try to offload decisions to machines and then we realize, oh, but there are problems. Right. And now we have to get back to humans. But even there, I think, in both of your system, correct me if I'm wrong, they are not only to detect what the problems are, but also to fix them. Right. And now we are going back to the problem of how do we fix them? Because we don't even know. We didn't really agree on what is fair and what is not fair. So there's a big tension there. And I think finding a solution is really hard because it's not, quote unquote, just a technical solution. It's not just figuring out, as you just said, it's not just a mathematical formula or a parameter. Sooner or later, we have to go back to human decisions. Right. And, yeah, I think that's a big challenge there.",
+      "id": "ep_156_ut_43"
+    },
+    {
+      "end": 1382266,
+      "speaker": "Alex Cabrera",
+      "start": 1296906,
+      "text": "Yeah, yeah, I think it's a really interesting question to think about, is, yeah, at some point we have these automated algorithms make decisions for us. Hopefully they're perfect, realize they're not perfect, and now we have to make these decisions that don't have black or white answers. There's no, like, yes, this is objectively better. I think that where I think the community is going, especially in human computer interaction, more, these human centered areas, is how do we actually include people in the conversation? So now, instead of having maybe a machine learning person sitting at their computer and being like, hmm, the false positive rate, I think is more important than calibration. I'm going to choose that they're thinking of, hey, this should maybe be a more public process where we're including the community that affected, like, demographic groups into the conversation, having as more like a staging ground of what do we care about as a community? And integrating that back into the algorithms, which has its own challenges, for example, that there are, I think, a lot of interesting vis applications of how do you communicate these really complex trade offs between different definitions of fairness and accuracy and false positive rate and precision into easily understandable trade offs that people can actually reason about and make ethical decisions. I think that there's a very interesting space there that I think is just starting to be explored that I think has really interesting implications also.",
+      "id": "ep_156_ut_44"
+    },
+    {
+      "end": 1426442,
+      "speaker": "Moritz Stefaner",
+      "start": 1382378,
+      "text": "I could imagine, let's say you're a bank or an insurance, probably you would not publish the way you make certain decisions. Like who you give a credit to, which conditions. I guess a lot of corporations would say, oh, it's all a trade secret, and this is just how we do things, and it's all unbiased. We have, like a machine learning expert working on that, and that's it. Right. And so, yeah. And I think then we get into this area of accountability, and how can we actually control that? At least the process that led to these decisions is fair and sane. And maybe, you know, just.",
+      "id": "ep_156_ut_45"
+    },
+    {
+      "end": 1429150,
+      "speaker": "Alex Cabrera",
+      "start": 1426546,
+      "text": "That's a hard question as well.",
+      "id": "ep_156_ut_46"
+    },
+    {
+      "end": 1456058,
+      "speaker": "Enrico Bertini",
+      "start": 1430250,
+      "text": "Well, interestingly, some regulation always already exists for some specific markets. Right. So say, actually in finance, there is a lot of auditing machine learning models have to go through because they, they have to be compliant. So I think this happens mostly in regulated markets. Like, yeah, as I said, finance, or I suspect also healthcare. But I'm pretty sure that finance is like that.",
+      "id": "ep_156_ut_47"
+    },
+    {
+      "end": 1467324,
+      "speaker": "Alex Cabrera",
+      "start": 1456114,
+      "text": "Yeah. There's also the, there's one line in the, the new European privacy law, the GDPR, that states if you have algorithmic decisions, you have the right to explanation.",
+      "id": "ep_156_ut_48"
+    },
+    {
+      "end": 1468172,
+      "speaker": "Enrico Bertini",
+      "start": 1467492,
+      "text": "Yeah.",
+      "id": "ep_156_ut_49"
+    },
+    {
+      "end": 1469596,
+      "speaker": "Alex Cabrera",
+      "start": 1468316,
+      "text": "Which is this vague thing, to figure.",
+      "id": "ep_156_ut_50"
+    },
+    {
+      "end": 1471480,
+      "speaker": "Enrico Bertini",
+      "start": 1469628,
+      "text": "Out what it means. Right.",
+      "id": "ep_156_ut_51"
+    },
+    {
+      "end": 1520026,
+      "speaker": "Alex Cabrera",
+      "start": 1472020,
+      "text": "Vague thing. But I mean, in the end, does that mean, hey, I have the right to know whether or not my race or my demographic information was used to make this decision. Was it biased in some way? So that might put the impetus on these companies to actually have to do this sort of auditing for the algorithms. So it's still sort of the wild west on what we can expect. A lot of the machine learning people are like, that's not how it works. We can't just explain to you. It just is. So I think it'll be a very interesting interplay between, hey, these algorithms sometimes are objectively better. They're more consistent, less biased than humans, but at the same time, there's really, like, they're new. We don't know exactly how they work. We're just discovering that they can be biased. We really need to know what's going on there.",
+      "id": "ep_156_ut_52"
+    },
+    {
+      "end": 1589370,
+      "speaker": "Enrico Bertini",
+      "start": 1520098,
+      "text": "Yeah, yeah. So I think another interesting problem here is that there may be a tension between being fair and making the most optimal decision from, say, a company standpoint. Right. I don't know. A couple of examples that come to mind is maybe a company wants to hire what they think is the most qualified person. Why should they be fairer? Right. Or, I don't know, universities want to admit the most promising students. Right. So there might be a tension there. And I'm now thinking that once we actually, we have more transparent systems. Right. This is even more evident. Right. Because there are numbers there showing that if you say, if you admit this group of people rather than that group, your performance is going down. So paradoxically may even be worse, because now I know that my system is predicting that things are going to be worse if I am more fair. So it's a big problem.",
+      "id": "ep_156_ut_53"
+    },
+    {
+      "end": 1618876,
+      "speaker": "Yongsu Ahn",
+      "start": 1590110,
+      "text": "Yeah. So when you apply the fairness method, then, because this fairness method is kind of optimizing the decision for the sake of fairness and also the decisions, these optimal decisions itself together. So it's kind of inevitable to have a lower performance as well. So there is a tension between these performance, which is called utility, and also fairness.",
+      "id": "ep_156_ut_54"
+    },
+    {
+      "end": 1627130,
+      "speaker": "Enrico Bertini",
+      "start": 1618988,
+      "text": "I think in your system it's possible to actually quantify these two things and find a trade off. Right? Do I understand correctly?",
+      "id": "ep_156_ut_55"
+    },
+    {
+      "end": 1690910,
+      "speaker": "Yongsu Ahn",
+      "start": 1627250,
+      "text": "Yes. So actually what the machine learning system can help is to help users with going over the multiple iterations to see what's the best kind of spot that both utility and fairness looks fine. So it could be by selecting different set of features or by selecting different fairness methods, because along this pipeline there could be many, many factors, including data set or selection of models, and selection of fairness measures. Many different choices could affect these trade offs between two. So I would say the well designed machine learning system can help decision makers go over this process and ultimately select the best one that are most, the most fitted to the decisions in their domains.",
+      "id": "ep_156_ut_56"
+    },
+    {
+      "end": 1745610,
+      "speaker": "Moritz Stefaner",
+      "start": 1691770,
+      "text": "Yeah, I think that's like, the other question is obviously like what is optimal anyways? And I think often these automated decisions systems, they are very good at making a locally optimal decision. Like for one run, find the best thing. But then let's say you want to hire just one person, fine, but maybe if you want to hire a whole team over time, then you have to think about, okay, what's a good constellation of people actually? How does this all go together? How can we create synergies? And then you might have a lot of locally optimal decisions leading to a really crappy team composition. These things, what people who are good leaders or managers have a good intuition on. It's kind of hard to reproduce if you focus just on these locally optimal decisions in many ways. Right?",
+      "id": "ep_156_ut_57"
+    },
+    {
+      "end": 1777442,
+      "speaker": "Alex Cabrera",
+      "start": 1746350,
+      "text": "I think it also ties back to more an ongoing discussion around concepts like affirmative action, where, hey, we want to increase diversity, we want to accept more people, give more opportunities, but we also want to select the best people. So I think even abstracting away the algorithm itself, you can have an algorithm and you have to choose a point. But in these human decisions as well, we kind of have to come to a conclusion. Where is that balance between sort of these two sometimes competing concepts.",
+      "id": "ep_156_ut_58"
+    },
+    {
+      "end": 1794666,
+      "speaker": "Enrico Bertini",
+      "start": 1777586,
+      "text": "Yeah, yeah. It's true that people have to use some sort of algorithm anyway, right? It's like, I'm not thinking a college who has to make decisions, has to make decision based on some criteria. But then there is a problem with transparency as well. Yeah.",
+      "id": "ep_156_ut_59"
+    },
+    {
+      "end": 1871924,
+      "speaker": "Moritz Stefaner",
+      "start": 1794818,
+      "text": "Whenever we use machines that, okay, we have to use something measurable, like, I think that that's already, like, the first bias. So I don't know. You want to hire a programmer. Okay, what could we measure about the programmer, right. GitHub stars or, you know, number of lines of code written, and boom, there's your first bias. Because, you know, that's not really. Maybe not a complete picture of what makes a good, a good coder or a good developer. Right. And. And these things happen so fast, you don't even realize you're just happy you have a system running. I also wonder things like the credit scores, or in Germany we have the shufa, which is also like a financial risk evaluation system. I think they have rules, too, and they are sort of automated, too. I wonder what biases are built in there or if they are more fair because they're more explicitly defined, have been around longer, and have been, like, maybe have been questioned more. Do you know if these types of the credit score system, is it fairer than an average neural net or less fair? Do you have any comparison there?",
+      "id": "ep_156_ut_60"
+    },
+    {
+      "end": 1968670,
+      "speaker": "Alex Cabrera",
+      "start": 1872052,
+      "text": "I think there's some interesting research from the sixties and seventies where they were testing, for example, in psychiatry, they had people, okay, do you have neurosis or psychosis? So you could have a psychiatrist going and try to decide. Or they had this scale where you just add up ten numbers that you arbitrarily say, like binary yes or no. And if you're higher than this number, it's one. If you're lower, it's the other. And almost all these types of studies they did across the board, the simple, very dumb algorithm was always better, which has very interesting implications for something like, like credit scoring, where most likely we think humans have a little bit better judgment. But are all these cognitive biases from Kahneman and Tversky that we're aware of that are constantly clouding our judgment? So it's surprising how much better some of these very simple algorithms, for example, like a credit score that just gives you a number, how much better they can sometimes be than humans, even when we can ingest all sorts of different information and data. So I think sort of the way I think of it is that these algorithms can be better and have been shown to be better, but they can also be problematic. So can we actually develop better methods of understanding how they can be problematic? I think is a really interesting question. And then there's the bigger question. Are there some questions where we don't actually ever want algorithms to decide, but maybe we can help people actually make those decisions in a better way? Yeah, it's a. Yeah. Ongoing question as well.",
+      "id": "ep_156_ut_61"
+    },
+    {
+      "end": 2052880,
+      "speaker": "Enrico Bertini",
+      "start": 1970250,
+      "text": "Yeah. I think that's partly the beauty of this research area, because it's not, it's certainly not exclusively a computer science problem. Right. It's not exclusively a law problem. Right. Legal problem, and it's not exclusively a psychological problem. Right. So it's really you, you can't really forget any of these components, and I mentioned only three. There are probably more, or write philosophy and so on. So it's, and partly, I think it's the challenge because you really need expertise in all of these areas in order to make substantial progress, I guess. And I also have to say I'm always conflicted because I think in this space there is a tendency to focus a lot on problems. Right. How machine learning methods or AI systems introduce new problems. And of course that's really relevant. Right. On the other hand, humans are also problematic in some way. I think we almost need a science that describes or even predicts a little bit better. How do we actually juggle between human decisions and machine decisions? I think we don't have a good science of that. It's really complicated.",
+      "id": "ep_156_ut_62"
+    },
+    {
+      "end": 2211434,
+      "speaker": "Yongsu Ahn",
+      "start": 2054900,
+      "text": "The fact that societal decision makings have been more and more in a data driven way is because these machine driven decisions are better at finding the patterns and the answers in complex problems. So that's the definitely the advantage of machine driven decisions, where probably humans are kind of biased toward a very small set of cases or experiences versus the machine can be trained by enormous data set, which grabs more, a good amount of evidences in the given problem. But definitely not all the problems can be found by and solved by machines because some of them are very subjective to decide. So probably I can talk about the evaluation of the fair site system, which is more fair, is kind of a subjective matter. So to evaluate our system, we asked the users to find whatever the features to be removed to mitigate the biases when they do feature selection. And it turned out that all of them kind of removed different features, which means that just every person, even the domain experts, the individual domain experts, could have different view of the fairness, and especially it could be the domain specific, but even though it is in the same domain, it could be different. Depending on the situations or any given time. So what is fair and what to be fair, how can we make these decision? Fair is kind of another subject to mer. So especially the human computer interaction community. What they work on is to incorporate the humans feedbacks or knowledge or whatever subjective merits into the machine decisions so that machine and human can kind of cooperate with each other. So, yeah, there is a bit, definitely tension between machine driven decision and human driven decision. I think there is a role of machine and human, and then the best way is to kind of work together towards better decision, I think.",
+      "id": "ep_156_ut_63"
+    },
+    {
+      "end": 2279740,
+      "speaker": "Moritz Stefaner",
+      "start": 2211602,
+      "text": "Yeah, yeah, yeah. And what you also both mentioned at the beginning is something I keep thinking about now is, on the one hand, we have the decisions and people are categorized or ranked by machines. And that's obviously a huge, huge area. But the other part is also, if we build tools, is everybody involved in the same way that the tool works for them as well as for others, or reflects also their perspective or their worldview? I also have to think of VR goggles where many women actually have problems using them and nobody ever noticed because it was always dudes trying them out and all these things. I think that seems to me as almost the same size of problem, or maybe even bigger than the decision making and the decision making. Maybe there should always be people involved in the end, if a decision is so crucial that we even talk about fairness, or if we talk about a medical decision or going to jail or not, maybe there should be humans involved also in 100 years just to throw that out there. Crazy idea.",
+      "id": "ep_156_ut_64"
+    },
+    {
+      "end": 2310100,
+      "speaker": "Enrico Bertini",
+      "start": 2283880,
+      "text": "Yeah. Yeah. It seems related to participatory democracy and stuff like that. I think there is a whole branch of design called participatory design. Right. That is similar in spirit to that. So maybe we need some participatory machine learning design or something. I don't know if anyone wants to start this new thing.",
+      "id": "ep_156_ut_65"
+    },
+    {
+      "end": 2311280,
+      "speaker": "Alex Cabrera",
+      "start": 2310440,
+      "text": "Sign me up.",
+      "id": "ep_156_ut_66"
+    },
+    {
+      "end": 2311904,
+      "speaker": "Yongsu Ahn",
+      "start": 2311360,
+      "text": "Yeah.",
+      "id": "ep_156_ut_67"
+    },
+    {
+      "end": 2346360,
+      "speaker": "Enrico Bertini",
+      "start": 2312032,
+      "text": "Okay, guys, so we need to wrap it up soon, and I'm wondering if we can conclude by giving people a little. A little bit of a few pointers if they want to get started, either learning more about these problems and maybe even doing some work in this area. So is there anything specific they can take a look at? Maybe an article or something? I would say it would be nice to start with something that is not overly technical for our audience. And then if they want to dig deeper, they can read your papers and see what is referenced.",
+      "id": "ep_156_ut_68"
+    },
+    {
+      "end": 2359080,
+      "speaker": "Alex Cabrera",
+      "start": 2346400,
+      "text": "There's one. It is a paper, but it's in a law journal. That's really good. Called big data's disparate impact. That's a very good summary of all the ways bias happens, but it's pretty high level. It's not technical at all.",
+      "id": "ep_156_ut_69"
+    },
+    {
+      "end": 2359968,
+      "speaker": "Moritz Stefaner",
+      "start": 2359200,
+      "text": "That's great.",
+      "id": "ep_156_ut_70"
+    },
+    {
+      "end": 2366332,
+      "speaker": "Enrico Bertini",
+      "start": 2360104,
+      "text": "I think there was something from Moritz. There was something from Nikki case at some point.",
+      "id": "ep_156_ut_71"
+    },
+    {
+      "end": 2377228,
+      "speaker": "Moritz Stefaner",
+      "start": 2366436,
+      "text": "Yeah. So Nikki case we had on the show a while back, and there's one nice simulation game narrative called Parable of the Polygons, which I enjoyed a lot.",
+      "id": "ep_156_ut_72"
+    },
+    {
+      "end": 2378124,
+      "speaker": "Enrico Bertini",
+      "start": 2377284,
+      "text": "I love that one.",
+      "id": "ep_156_ut_73"
+    },
+    {
+      "end": 2380380,
+      "speaker": "Moritz Stefaner",
+      "start": 2378172,
+      "text": "Yeah, I've played it before.",
+      "id": "ep_156_ut_74"
+    },
+    {
+      "end": 2381692,
+      "speaker": "Alex Cabrera",
+      "start": 2380460,
+      "text": "It's really, really good.",
+      "id": "ep_156_ut_75"
+    },
+    {
+      "end": 2385684,
+      "speaker": "Moritz Stefaner",
+      "start": 2381756,
+      "text": "Playful way to explore these, like, the underlying topics.",
+      "id": "ep_156_ut_76"
+    },
+    {
+      "end": 2398916,
+      "speaker": "Enrico Bertini",
+      "start": 2385772,
+      "text": "Yeah. And then there's these interesting little visualizations from Google. There's this webpage called attacking discrimination with smarter machine learning. I think it's the web page.",
+      "id": "ep_156_ut_77"
+    },
+    {
+      "end": 2400092,
+      "speaker": "Alex Cabrera",
+      "start": 2398948,
+      "text": "Yeah, that one's really good, too.",
+      "id": "ep_156_ut_78"
+    },
+    {
+      "end": 2441140,
+      "speaker": "Enrico Bertini",
+      "start": 2400196,
+      "text": "Yeah. And I find it really, really revealing. I think when you go through this webpage, you can play with thresholds and see how things change, and it gives you really a sense of how bias and fairness can work and also how complicated it is to actually make a decision because there are competing, competing decisions. So I think it's very well done in this sense. So we will link all of these things in the show notes, and maybe we should conclude by saying, is it possible to try out your tools? Are they available online somewhere and maybe fiddle with the parameters and load some data?",
+      "id": "ep_156_ut_79"
+    },
+    {
+      "end": 2448350,
+      "speaker": "Alex Cabrera",
+      "start": 2442130,
+      "text": "Fairvis is online. I can send a link somewhere. It's only slightly buggy.",
+      "id": "ep_156_ut_80"
+    },
+    {
+      "end": 2451898,
+      "speaker": "Moritz Stefaner",
+      "start": 2450010,
+      "text": "How about Fairsight? Yongsu?",
+      "id": "ep_156_ut_81"
+    },
+    {
+      "end": 2463870,
+      "speaker": "Yongsu Ahn",
+      "start": 2452034,
+      "text": "Yeah, Fairsight has a GitHub webpage, so there is a brief introduction of the Fairsight, but currently it's not available for the system.",
+      "id": "ep_156_ut_82"
+    },
+    {
+      "end": 2476490,
+      "speaker": "Moritz Stefaner",
+      "start": 2464570,
+      "text": "Cool. But we'll link to the site and people can find out more. Great. Thanks so much for joining us. That was fascinating. I think it's a topic that will keep us busy for a few more.",
+      "id": "ep_156_ut_83"
+    },
+    {
+      "end": 2479070,
+      "speaker": "Enrico Bertini",
+      "start": 2476530,
+      "text": "Years, I guess so.",
+      "id": "ep_156_ut_84"
+    },
+    {
+      "end": 2484978,
+      "speaker": "Moritz Stefaner",
+      "start": 2479970,
+      "text": "Surely an important one at a minimum. Thanks so much.",
+      "id": "ep_156_ut_85"
+    },
+    {
+      "end": 2486234,
+      "speaker": "Alex Cabrera",
+      "start": 2485114,
+      "text": "Thank you guys so much for that.",
+      "id": "ep_156_ut_86"
+    },
+    {
+      "end": 2487794,
+      "speaker": "Yongsu Ahn",
+      "start": 2486322,
+      "text": "Thank you. Thank you for inviting.",
+      "id": "ep_156_ut_87"
+    },
+    {
+      "end": 2488630,
+      "speaker": "Enrico Bertini",
+      "start": 2487842,
+      "text": "Bye, guys.",
+      "id": "ep_156_ut_88"
+    },
+    {
+      "end": 2516460,
+      "speaker": "Moritz Stefaner",
+      "start": 2493570,
+      "text": "Hey, folks, thanks for listening to data stories again. Before you leave, a few last notes, this show is crowdfunded and you can support us on patreon@patreon.com Datastories, where we publish monthly previews of upcoming episodes for our supporters. Or you can also send us a one time donation via PayPal at PayPal dot me Datastories or as a free.",
+      "id": "ep_156_ut_89"
+    },
+    {
+      "end": 2544048,
+      "speaker": "Enrico Bertini",
+      "start": 2516500,
+      "text": "Way to support the show. If you can spend a couple of minutes rating us on iTunes, that would be very helpful as well. And here's some information on the many ways you can get news directly from us. We are on Twitter Facebook and Instagram, so follow us there for the latest updates. We have also a slack channel where you can chat with us directly. And to sign up, go to our homepage at Datastory ES and there you'll find a button at the bottom of the page.",
+      "id": "ep_156_ut_90"
+    },
+    {
+      "end": 2552076,
+      "speaker": "Moritz Stefaner",
+      "start": 2544184,
+      "text": "And there you can also subscribe to our email newsletter if you want to get news directly into your inbox and be notified whenever we publish a new episode.",
+      "id": "ep_156_ut_91"
+    },
+    {
+      "end": 2564708,
+      "speaker": "Enrico Bertini",
+      "start": 2552168,
+      "text": "That's right, and we love to get in touch with our listeners. So let us know if you want to suggest a way to improve the show or know any amazing people you want us to invite or even have any project you want us to talk about.",
+      "id": "ep_156_ut_92"
+    },
+    {
+      "end": 2571372,
+      "speaker": "Moritz Stefaner",
+      "start": 2564844,
+      "text": "Yeah, absolutely. Don't hesitate to get in touch. Just send us an email at mailatastory es.",
+      "id": "ep_156_ut_93"
+    },
+    {
+      "end": 2575680,
+      "speaker": "Enrico Bertini",
+      "start": 2571516,
+      "text": "That's all for now. Hear you next time, and thanks for listening to data stories.",
+      "id": "ep_156_ut_94"
+    }
+  ],
+  "confidence": 0.930800355011931,
+  "audio_duration": 2584,
+  "punctuate": true,
+  "format_text": true,
+  "dual_channel": false,
+  "webhook_url": null,
+  "webhook_status_code": null,
+  "webhook_auth": false,
+  "webhook_auth_header_name": null,
+  "speed_boost": false,
+  "auto_highlights_result": null,
+  "auto_highlights": false,
+  "audio_start_from": null,
+  "audio_end_at": null,
+  "word_boost": [],
+  "boost_param": null,
+  "filter_profanity": false,
+  "redact_pii": false,
+  "redact_pii_audio": false,
+  "redact_pii_audio_quality": null,
+  "redact_pii_policies": null,
+  "redact_pii_sub": null,
+  "speaker_labels": true,
+  "content_safety": false,
+  "iab_categories": true,
+  "content_safety_labels": {
+    "status": "unavailable",
+    "results": [],
+    "summary": {}
+  },
+  "language_detection": false,
+  "language_detection_threshold": null,
+  "language_confidence": null,
+  "custom_spelling": null,
+  "throttled": false,
+  "auto_chapters": true,
+  "summarization": false,
+  "summary_type": null,
+  "summary_model": null,
+  "custom_topics": false,
+  "topics": [],
+  "speech_threshold": null,
+  "speech_model": "best",
+  "chapters": [
+    {
+      "summary": "In this podcast, we talk about data visualization, analysis, and more generally, the role data plays in our lives. Our podcast is listener supported. If you do enjoy the show, you could consider supporting us.",
+      "gist": "Data Stories",
+      "headline": "This podcast is listener supported. That means there are no ads",
+      "start": 200,
+      "end": 98370,
+      "id": "ep_156_ch_0"
+    },
+    {
+      "summary": "We're going to talk about bias and fairness in machine learning. And more specifically, what is the role that visualization can play in this specific domain. To talk about this topic, we have not one, but two guests.",
+      "gist": "Bias and fairness in machine learning",
+      "headline": "Today we talk about bias and fairness in machine learning",
+      "start": 98530,
+      "end": 156580,
+      "id": "ep_156_ch_1"
+    },
+    {
+      "summary": "Alex is a PhD student at the Human Computer Interaction Institute at Carnegie Mellon. Yongsu Ahn is a third year PhD students at University of Pittsburgh. Their research interest lies at the intersection of visualization and very unexplainable AI and interactive machine learning.",
+      "gist": "Machine Learning Students: Introduction",
+      "headline": "Alex and Yongsu are PhD students at Carnegie Mellon studying machine learning",
+      "start": 156880,
+      "end": 233764,
+      "id": "ep_156_ch_2"
+    },
+    {
+      "summary": "The problem of machine learning is that whatever trained model can kind of systematically discriminate against certain individuals or groups. Making these machine system more fair is kind of the important problem.",
+      "gist": "Machine Learning's fairness and bias",
+      "headline": "Some machine learning models can systematically discriminate against certain groups or individuals",
+      "start": 233892,
+      "end": 525693,
+      "id": "ep_156_ch_3"
+    },
+    {
+      "summary": "The main problems seem to come from the training data, as it seems like what you supply as ground truth or as ground for learning. In self driving cars, models perform worse if you have darker skin. These more abstract concepts of learning bad models can have serious implications for equity and fairness.",
+      "gist": "AI Systems' Problems",
+      "headline": "Examples of bad AI models can have serious implications for equity and fairness",
+      "start": 525861,
+      "end": 794266,
+      "id": "ep_156_ch_4"
+    },
+    {
+      "summary": "In the area of machine learning system, there hasn't been much work on this fairness in machine learning problem. Fairside proposes a mind map of how decision makers can look at the problem for the purpose of the fairness. You focus on a subset of problems that is mostly about ranking.",
+      "gist": "Fairsight and the Problem of Machine Learning",
+      "headline": "Fairsight proposes a way to combat bias in machine learning decisions",
+      "start": 794338,
+      "end": 1018810,
+      "id": "ep_156_ch_5"
+    },
+    {
+      "summary": "A lot of bias is present in what we call these intersectional subgroups. Fairvis lets you upload your data and your models outputs and create these sub groups. It lets you visualize them according to all these different metrics. Finding a solution is really hard because it's not just a mathematical formula.",
+      "gist": "FairVays: How to Find Bias in Machine Learning",
+      "headline": "Fairvis aims to help machine learning practitioners discover bias in their models",
+      "start": 1018970,
+      "end": 1520834,
+      "id": "ep_156_ch_6"
+    },
+    {
+      "summary": "There may be a tension between being fair and making the most optimal decision from a company standpoint. Many different choices could affect these trade offs between two. A well designed machine learning system can help decision makers go over this process.",
+      "gist": "Is a machine learning system fair?",
+      "headline": "There may be a tension between being fair and making the most optimal decision",
+      "start": 1520962,
+      "end": 1984790,
+      "id": "ep_156_ch_7"
+    },
+    {
+      "summary": "How do we juggle between human decisions and machine decisions? It's really complicated. Not all the problems can be found by and solved by machines. We almost need a science that describes or even predicts a little bit better.",
+      "gist": "Between Human Decisions and Machine Decisions",
+      "headline": "How do we actually juggle between human decisions and machine decisions",
+      "start": 1985130,
+      "end": 2110014,
+      "id": "ep_156_ch_8"
+    },
+    {
+      "summary": "There is a bit of tension between machine driven decision and human driven decision. What is fair and what to be fair, how can we make these decision? Maybe we need some participatory machine learning design or something.",
+      "gist": "Machine-driven decision-making",
+      "headline": "So probably I can talk about the evaluation of the fair site system which is more fair",
+      "start": 2110182,
+      "end": 2311904,
+      "id": "ep_156_ch_9"
+    },
+    {
+      "summary": "We want to give people a few pointers if they want to get started in this area. Is it possible to try out your tools? Are they available online somewhere and maybe fiddle with the parameters. I think it's a topic that will keep us busy for a few more years.",
+      "gist": "A few tips for thinking about bias and fairness",
+      "headline": "We should conclude by giving people some pointers on tackling bias and fairness",
+      "start": 2312032,
+      "end": 2487794,
+      "id": "ep_156_ch_10"
+    },
+    {
+      "summary": "This show is crowdfunded and you can support us on patreon@patreon. com Datastories. You can also subscribe to our email newsletter to get news directly into your inbox. Let us know if you want to suggest a way to improve the show or know any amazing people you want us to invite.",
+      "gist": "Data Stories",
+      "headline": "This show is crowdfunded and you can support us on patreon",
+      "start": 2487842,
+      "end": 2575680,
+      "id": "ep_156_ch_11"
+    }
+  ],
+  "disfluencies": false,
+  "entity_detection": false,
+  "sentiment_analysis": false,
+  "sentiment_analysis_results": null,
+  "entities": null,
+  "speakers_expected": null,
+  "summary": null,
+  "custom_topics_results": null,
+  "episode_num": 156,
+  "episode_metadata": {
+    "speakers": [
+      "Yongsu Ahn",
+      "Enrico Bertini",
+      "Moritz Stefaner",
+      "Alex Cabrera"
+    ],
+    "WPid": "1569",
+    "url": "https://datastori.es/podlove/file/6576/s/feed/c/mp3/156-fairness-in-machine-learning-with-yongsu-ahn-and-alex-cabrera.mp3",
+    "episode_title": "Visualizing Fairness in Machine Learning with Yongsu Ahn and Alex Cabrera"
+  }
+}

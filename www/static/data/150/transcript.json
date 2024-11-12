@@ -1,0 +1,1064 @@
+{
+  "id": "62b4e4e8-8f0e-4949-901e-4dfd4d963b52",
+  "language_model": "assemblyai_default",
+  "acoustic_model": "assemblyai_default",
+  "language_code": "en_us",
+  "status": "completed",
+  "audio_url": "https://datastori.es/podlove/file/5876/s/feed/c/mp3/Datastories-150_48kHz.mp3",
+  "utterances": [
+    {
+      "end": 7170,
+      "speaker": "Tamara Munzner",
+      "start": 240,
+      "text": "Given that HCI exists, why do we need anything special in visualization? And often the answer comes down to data.",
+      "id": "ep_150_ut_0"
+    },
+    {
+      "end": 179576,
+      "speaker": "Enrico Bertini",
+      "start": 26790,
+      "text": "Hi everyone. Welcome to a new episode of Data stories. My name is Enrico Bertini and I am a professor at NYU in New York City, where I teach and do research in data visualization. And normally I host data stories together with Moritz Stefaner, who is an independent designer of data visualizations. But Moritz today is not here. He's busy in Paris working on data cuisine, which is perfect place for anything related to cuisine. And on this podcast we talk about data visualization, analysis, and more generally the role data plays in our lives. And usually we do that together with a guest we invite on the show. But before we start, just a quick note. Our podcast is listener supported, so there's no more ads. So if you enjoyed the show, please consider supporting us with recurring payments on patreon.com Datastories. Or if you prefer, you can also send one time donations. These are very much appreciated. To do that, you can go to PayPal me Datastories, or if you can contribute, that's fine, too. No problem at all. But maybe you might want to mention the show on Twitter or any other social media channel or leave a review, a nice review on iTunes that would be really, really useful. So before I start, I just want to say I am in Germany in a beautiful castle. It's called dutch tool for a research seminar about machine learning and visualization. So there's a bunch of people here. I'm going to spend the whole week here just talking about the role of machine learning in visualization and the role of visualization in machine learning. So I hope I can report back some information gathered from the seminar. And as I said, Moritz is in Paris dealing with data cuisine, and hopefully we're gonna hear from him what he's doing there. Anyways, today we have one of our recurring episodes. We are going to talk again about the IEEE VIS conference. I've been there two weeks ago in Vancouver, and we have two guests on the show to talk about it. They're going to help me out, giving a little bit of a recap or highlights of what happened there. And we have some previous guests actually coming back on the show. We have Tamara Munstner, who is a UBC professor. Hi, Tamara. Welcome to the show.",
+      "id": "ep_150_ut_1"
+    },
+    {
+      "end": 181700,
+      "speaker": "Tamara Munzner",
+      "start": 179738,
+      "text": "Hi there, Enrico. Thanks for having me.",
+      "id": "ep_150_ut_2"
+    },
+    {
+      "end": 189692,
+      "speaker": "Enrico Bertini",
+      "start": 181820,
+      "text": "And we have Robert Kosara, another great friend of data stories, senior research scientist from Tableau Research. Hi, Robert.",
+      "id": "ep_150_ut_3"
+    },
+    {
+      "end": 191108,
+      "speaker": "Robert Kosara",
+      "start": 189756,
+      "text": "Hey, Enrico, how are you doing?",
+      "id": "ep_150_ut_4"
+    },
+    {
+      "end": 211804,
+      "speaker": "Enrico Bertini",
+      "start": 191204,
+      "text": "Welcome on the show. Very good. Very happy to have both of you on the show. That's going to be a lot of fun. So, Tamara, Robert, as usual, we ask our guests to give a brief introduction. So can you briefly give a little bit of background about yourself? What is, what are your interests, your position, background, and so on?",
+      "id": "ep_150_ut_5"
+    },
+    {
+      "end": 263046,
+      "speaker": "Tamara Munzner",
+      "start": 211932,
+      "text": "Sure. I am a professor at the University of British Columbia in Vancouver, Canada, and my research area is visualization, fairly broadly construed. I'm a bit of a methods geek and also care a lot about graphs and high dimensional data and field studies and lab studies. And I, a lot of different things. I've been doing visualization. In fact, my first viz was 1991. That was one of my first big conferences. It was all very big and scary and intimidating. Now it's still big, just less scary. And my last time I was on data stories was when I was talking about my book that came out a few years ago in 2014. And I've been focused much more on the non spatial data side this last 20 or so years, although I actually started out doing very 3d stuff with mathematical visualization.",
+      "id": "ep_150_ut_6"
+    },
+    {
+      "end": 264846,
+      "speaker": "Enrico Bertini",
+      "start": 263178,
+      "text": "Very good, Robert.",
+      "id": "ep_150_ut_7"
+    },
+    {
+      "end": 281286,
+      "speaker": "Robert Kosara",
+      "start": 264998,
+      "text": "Yeah, I'm Robert. Actually, I just remembered when Tamara was talking about her time in the field that I think two years ago at VIS in Phoenix, I loudly proclaimed that this was my 17th viz, I think, at that point. And Tamara just rolled her eyes and she was saying, yeah, this is like my 26th or something like that.",
+      "id": "ep_150_ut_8"
+    },
+    {
+      "end": 284350,
+      "speaker": "Enrico Bertini",
+      "start": 281318,
+      "text": "So take that, put me in my place there.",
+      "id": "ep_150_ut_9"
+    },
+    {
+      "end": 321502,
+      "speaker": "Robert Kosara",
+      "start": 284470,
+      "text": "So I've been doing research for a while in this field, too. It's actually about 20 years now, my research interest. And so I'm now at Tableau. I've been at Tableau for almost eight years now and been doing all kinds of research there around what people like to call storytelling, which isn't my favorite term in the world. But I'm interested in how you present data, how you communicate with data, and how you use the things that you find in analysis and make those usable and interesting and understandable to people. So that's been my, it's not really a focus. It's kind of broad, broad interest for the last several years.",
+      "id": "ep_150_ut_10"
+    },
+    {
+      "end": 321974,
+      "speaker": "Enrico Bertini",
+      "start": 321566,
+      "text": "Yes.",
+      "id": "ep_150_ut_11"
+    },
+    {
+      "end": 336050,
+      "speaker": "Robert Kosara",
+      "start": 322062,
+      "text": "And I also run a little blog called eagereyes.org, and I recently started a YouTube channel. So it's like a podcast with pictures, like moving pictures, and it's called Eager Eyes TV. So I'm trying to talk about visualization there.",
+      "id": "ep_150_ut_12"
+    },
+    {
+      "end": 340862,
+      "speaker": "Enrico Bertini",
+      "start": 336790,
+      "text": "Yeah, we already actually mentioned eager eyes tv on the show at least once.",
+      "id": "ep_150_ut_13"
+    },
+    {
+      "end": 342090,
+      "speaker": "Robert Kosara",
+      "start": 340966,
+      "text": "Oh, I didn't mention.",
+      "id": "ep_150_ut_14"
+    },
+    {
+      "end": 516500,
+      "speaker": "Enrico Bertini",
+      "start": 343670,
+      "text": "Yes. And if you're listening to this, you should definitely, definitely take a look. It's beautiful. You have an amazing studio. I love it. Okay, so I feel like I want to briefly introduce, I try to leave this for anyone who is listening and is not necessarily familiar with the conference. So this is basically the main academic visualization conference out there. It happens every year, every year in a different place, most of the time in North America, but sometimes also in Europe or other places. And this is the annual gathering where people that are working, especially in academia, but not solely in academia, present their work, gather together and show their best stuff, basically. But this is not only about, say, technical papers or technical contributions. There's a lot going on. It lasts a whole week. So there are workshops, panels, events. We're going to talk about that as well. So it's a full week. Very, very, very full program. And there are also now quite a good number of practitioners. I think the number of practitioners attending this has been increasing a lot over the years, and now there are special sessions for practitioners, which is really, really nice. So the old thing is growing, and it's really exciting. As you've heard from Tamara and Robert, they go every year. I go every year. So it's one of the most exciting events out there. So let me give you a little bit of an overview of what is gonna happen on the show. We're going to briefly talk about events, then we want to co locate the events, then we want to talk about some technical papers, and then a little bit about major trends or great new stuff that we have seen happening this year at VIS. And before we start, just a little note, as I said, this is huge. So what we're going to cover here is a tiny, tiny portion of the old program. So the fact that we're mentioning something here doesn't necessarily mean that it's the best things that happen at this. It's just what we happen to put our lenses on. So I really encourage you to, if you're interested, to look at the program online this year, there are also lots of videos posted online. So yeah, just a little note is not necessarily the only interesting stuff that happened there. So let's start with events. I think Tamara wants to start with the first event that she attended about visualization and vision, or vis by vision. Tamara, sure.",
+      "id": "ep_150_ut_15"
+    },
+    {
+      "end": 653330,
+      "speaker": "Tamara Munzner",
+      "start": 516840,
+      "text": "So yeah, there's a whole bunch of associated events, and one of the ones I made it to was the Viscroche vision. And that's where a bunch of folks from vision science and visualization are trying to build bridges between those two communities. So they're doing stuff where they bring vision scientists into IEEE vis. And then conversely, they like to bring a bunch of vis people into vision science events. Both some of the big conferences like their annual thing in Florida, as well as some others. And so, as also, as Enrico said, unfortunately, VIS has got so much stuff going on that you can never see everything. So I managed to make it into just two of the talks, but really liked them at Viscross vision. And one, ironically enough, was from somebody in Vancouver, Darko Odick, who people have been telling me for years that I should meet and talk to. And I finally managed to do it at vis, if not before, even though in fact, we live not just in the same city, but are on the same campus. And he gave a talk about visual magnitudes, which it turns out he studies precisely a thing we care about deeply, which is when people look at something, how do they judge magnitude? A very, very central topic for vis people, surely. And so that was super interesting. And before that was also Timothy Brady on working memory. Again, another topic of great interest to visualization people. So one of the things I liked about the workshop was how it sort of brings a lot of the cutting edge in vision science into visualization. And I think that I, like a lot of other people in vis, are somewhat guilty of knowing what was cutting edge, say, 20 to 30 years ago. In the best case, sometimes where we think cutting edge, we're like. And then there was the work of Stevens in the early 20th century. And of course, there has been a lot of work since then. Not that I'm dissing on Stevens, who is great and glorious, but in fact, thousands of people have done work in the meantime. So I really like that they're trying to catch up both fields on the cutting edge of each other. I was very sad to miss Jeremy Wolfe's talk as well, who's another one of the big folks envisioned. So, a shout out to people like Madison Elliott and some of the others who really have worked hard on trying to build these bridges. I think it's super valuable to have these events that jump back and forth between fields.",
+      "id": "ep_150_ut_16"
+    },
+    {
+      "end": 667194,
+      "speaker": "Enrico Bertini",
+      "start": 653450,
+      "text": "Yes. And if I'm not mistaken, they've been organizing this event for at least two or three times already. Right. So that's, that's been growing and. Right. It's not the first time they organize it, right?",
+      "id": "ep_150_ut_17"
+    },
+    {
+      "end": 706926,
+      "speaker": "Tamara Munzner",
+      "start": 667322,
+      "text": "Well, yes and no. This was the first time they had a. This was their first workshop, but like last year they had a panel and the year before that they had a meetup. And so they've been sort of upping the game every time, which is maybe worth mentioning, as you talk about VIS, there's a bunch of different modalities for doing things which range all the way up from full on symposia that have happened for ten plus years, down to workshops that are submitted every year and then that change every year, and then things like panels and things like meetups, which can be super informal and can even be figured out on the fly that very day. So there's a lot of different ways to engage.",
+      "id": "ep_150_ut_18"
+    },
+    {
+      "end": 713224,
+      "speaker": "Enrico Bertini",
+      "start": 707078,
+      "text": "Very good. And Robert, you want to talk about this communication workshop?",
+      "id": "ep_150_ut_19"
+    },
+    {
+      "end": 833996,
+      "speaker": "Robert Kosara",
+      "start": 713342,
+      "text": "Yes. So the viscom workshop, this was the second time we ran this. This is Ben Watson, myself, Noeska Natasja Smit, and Steve Haroz. And we had a full house. So we were in a room that was, I think, supposed to seat about 50 people and was bursting at the scenes with 60 people in there. And to turn some people away, which is a good problem to have. But it was an interesting workshop. So the idea is that we want to talk about how you use visualization for communication. Like I was just saying earlier, that's sort of my interests, that's why I'm doing this. And we had a lot of very different talks. I'm not going to try and remember any names here, but we had people from healthcare, for example, talk about how you turn information about health risks and things like what you're supposed to eat and what you're supposed to do into information people can understand because you can't just give them numbers very often because of data literacy, because of just lack of interest. And so there were some interesting things they've been doing also with low, general, low literacy populations, that can be a big problem. People talking about how to reformat reports so that the numbers can be pulled out and turned into interesting interactive graphs, for example, and a whole lot of other stuff. So there was really interesting ideas and projects people were talking about. And we had a little bit of a different format. So it's still kind of a workshop in the way that people just present their things. But we have so full talks, we have visual case studies and we have posters, and they all get different amounts of time. But the visual case studies especially are interesting because they're not a typical sort of paper like an academic paper. And so we got people that were from outside the academic community to show us the kind of work that they're doing. So I think that was a pretty successful workshop in the end, and we got some interesting, interesting work to see there. Also, maybe one more thing to mention is practitioners. So we did have a good number of practitioners in this, in this workshop, both in the audience and speakers. So that was nice to see that.",
+      "id": "ep_150_ut_20"
+    },
+    {
+      "end": 838280,
+      "speaker": "Enrico Bertini",
+      "start": 834108,
+      "text": "Yes, very good. And Tamara, you want to talk about other events?",
+      "id": "ep_150_ut_21"
+    },
+    {
+      "end": 974744,
+      "speaker": "Tamara Munzner",
+      "start": 839380,
+      "text": "Yeah. So another one was Biovis. It used to be that they were actually a co located symposium along with viz these days, and they used to go back and forth between ISMB and IEEE vis these days, their main presence is at ISMB, where they're a full on track, but they want to keep ties. And so they've had this Biovis challenges workshop where they really try to get, again, the vis people and the biology people talking to each other. And so, again, I didn't make it to the whole thing, sadly enough, but the bit that I did make it to was cool. They literally had it called challenges because they wanted people from this domain biology, to say, hey, here are our hard problems vis people. If you solve these, you would help us. And it's really great to get that kind of framing when it works. Well, I have unfortunately been to many talks in the past where that did not quite work so well, but this was pretty exemplary where we actually had three people that all did that. There was Martin Karpefors from AstraZeneca, which is one of these big pharma companies where they were talking about drug development and the challenges there. And then Erin Pleasance from BC cancer on a bunch of personalized oncogenomics stuff. Again, super interesting. And again, wow. Someone in my old city that I need to talk to, which was great for me personally. And then Sean Hanlon from National Cancer Institute, talking about human tumor atlases and also a lot. He definitely gave a roadmap for a bunch of the NIH, that's National Institutes of Health funded work, both what's happened and what's going to happen, which gave a really nice way to try to onboard people. So I was pretty impressed by that session. It was organized by Anna Krissan, who used to work with me and is now at Tableau Research, has joined Robert's group. And there weren't that many people in the room, which was a bit sad, because it was one of those completely off in the distance things that was actually literally hard to find the room. But I strongly encourage people to see the videos once they're posted. It was particularly hard, I think, for a lot of events to be visible this year, because it was the first year we didn't have a printed program, which I find extremely tragic. It was terrible. Please, guys, please. Prank.",
+      "id": "ep_150_ut_22"
+    },
+    {
+      "end": 976032,
+      "speaker": "Enrico Bertini",
+      "start": 974872,
+      "text": "I couldn't write my notes.",
+      "id": "ep_150_ut_23"
+    },
+    {
+      "end": 976820,
+      "speaker": "Tamara Munzner",
+      "start": 976056,
+      "text": "Oh, God.",
+      "id": "ep_150_ut_24"
+    },
+    {
+      "end": 984380,
+      "speaker": "Enrico Bertini",
+      "start": 979220,
+      "text": "Yeah, I probably missed a lot of. A lot of sessions just because I couldn't mark them.",
+      "id": "ep_150_ut_25"
+    },
+    {
+      "end": 992140,
+      "speaker": "Tamara Munzner",
+      "start": 984540,
+      "text": "I literally missed a panel because I was like, I heard about it on Twitter after it happened. I'm like, what? I would have gone to empirical methods.",
+      "id": "ep_150_ut_26"
+    },
+    {
+      "end": 996988,
+      "speaker": "Enrico Bertini",
+      "start": 992180,
+      "text": "For research, but oh, well, hopefully that's going to change next year.",
+      "id": "ep_150_ut_27"
+    },
+    {
+      "end": 997964,
+      "speaker": "Tamara Munzner",
+      "start": 997124,
+      "text": "Hope so.",
+      "id": "ep_150_ut_28"
+    },
+    {
+      "end": 1018710,
+      "speaker": "Enrico Bertini",
+      "start": 998132,
+      "text": "Yeah. So why Tamara, why is Biovis? I think biology and visualization have a long history of doing things together. Why bayou? I think you've been working in this area as well, right? I don't know if you're still working in this area, but why Bayou is more than other scientific application areas.",
+      "id": "ep_150_ut_29"
+    },
+    {
+      "end": 1109600,
+      "speaker": "Tamara Munzner",
+      "start": 1019130,
+      "text": "I have been working it for a while. I was actually one of the founding steering committee members of Biovis, so we got that going several years ago. I think it's because I always think of what matters in another field when you want to do viz, and I think it's that you have a lot of data, you have hard, messy problems that can't be trivially solved, or you would just do it that way and not need vis. It helps if they have funding, which biology tends to have a lot of by computer science standards. And I think it helps to have this sort of open attitude of, we have hard problems, how can we make things better? And so I feel like, in particular, biology has a lot of extensive computational pipelines where you already have a computer in a loop and you already have humans doing things. And so the idea that you could actually get your larger process to go faster if you could see what the heck was going on, you know, if you set a threshold to 0.7, is that right? Should it have been 0.67? Should it have been 0.72? How do you know you got it right? They've got all of these papers where they do vast amounts of computation and then realize things like, oh, batch effects. Wow. What mattered was the physical room where we took the sample, not which intervention happened. So there's this, I think, acknowledgement that they are both surrounded by data and drowning in it and needing to make sure they get things right. I think there's some other areas where it's not quite so life critical. So it's this combination of big stakes and lots of data, maybe.",
+      "id": "ep_150_ut_30"
+    },
+    {
+      "end": 1116472,
+      "speaker": "Enrico Bertini",
+      "start": 1109720,
+      "text": "Yeah, yeah, yeah. And there is a lot of computation going on anyway, right? So, yeah, so is this all area of bioinformatics?",
+      "id": "ep_150_ut_31"
+    },
+    {
+      "end": 1119380,
+      "speaker": "Tamara Munzner",
+      "start": 1116536,
+      "text": "So, yeah, so I think there's clear intervention points.",
+      "id": "ep_150_ut_32"
+    },
+    {
+      "end": 1121900,
+      "speaker": "Enrico Bertini",
+      "start": 1119760,
+      "text": "Okay, and what's next?",
+      "id": "ep_150_ut_33"
+    },
+    {
+      "end": 1197478,
+      "speaker": "Tamara Munzner",
+      "start": 1122410,
+      "text": "Where we going to talk about vds? That's visualization and data science. That's another one of these co located symposia and one of the ways they've really made their name in a pretty small number of years is they tend to get these spectacular invited talks. One of the things about VIS is that there's a huge amount of paper presentations, and typically it's the first author on a paper presenting, which is usually not the senior faculty member who's given a zillion talks, but often someone, it's either their first talk or one of their first few talks, which is super important. But it means you don't get as many chances to really hear people who've given a lot, a lot of talks talk in the big picture about their work more broadly. And so vds gets these really great external speakers consistently. And so this year, the one I saw which was great was from Been Kim, who's at Google Brain, talking about a bunch of the interpretability work that they've been doing with machine learning. Super cool talk. I was quite sad to Miss Andrew Gelman, who has. I heard he is fond of being an iconoclast in many ways, up into and including his presentation style, which apparently had no slides, which is very rare out of his conference.",
+      "id": "ep_150_ut_34"
+    },
+    {
+      "end": 1202942,
+      "speaker": "Enrico Bertini",
+      "start": 1197654,
+      "text": "I think Robert had interesting exchanges in the past with, with German. Right.",
+      "id": "ep_150_ut_35"
+    },
+    {
+      "end": 1228120,
+      "speaker": "Robert Kosara",
+      "start": 1203086,
+      "text": "It's been a while. Yeah. A few years ago we had. I wrote a response to an article, but I've also seen him speak like that, where he just walks up and without notes, he just talks for an hour. And it's actually impressive. Like both in terms of him not having slides, there's nothing to look at. And in terms of his just having this structure really well laid out, I think he's always. So, to me at least, I always considered him a really interesting speaker.",
+      "id": "ep_150_ut_36"
+    },
+    {
+      "end": 1250800,
+      "speaker": "Tamara Munzner",
+      "start": 1228270,
+      "text": "Yeah. So I really want to hear that one. And I also miss Jenny Bryan's talk at the end of the day on data wrangling and data rectangling. And she often gives just fantastic talks and has been at the forefront of, in the trenches of real people actually using visualization, particularly in the context of r, to get stuff done. So. Can't wait to see that one on video too.",
+      "id": "ep_150_ut_37"
+    },
+    {
+      "end": 1268064,
+      "speaker": "Enrico Bertini",
+      "start": 1252060,
+      "text": "Yes. And of course, as we said, there are many other events happening there, right. We can mention some of them. I think there was what, the XAI workshop? Right. On explainable AI and visualization. And what else, Tamara?",
+      "id": "ep_150_ut_38"
+    },
+    {
+      "end": 1284246,
+      "speaker": "Tamara Munzner",
+      "start": 1268112,
+      "text": "And there was Eviva ML, which was about evaluation of machine learning and visualization. There was viz for digital humanities, visual analytics and healthcare. There's many others, multi layer graphs, sets, all kinds of stuff.",
+      "id": "ep_150_ut_39"
+    },
+    {
+      "end": 1326210,
+      "speaker": "Enrico Bertini",
+      "start": 1284368,
+      "text": "So let's now switch to the technical papers. Right. We're going to cover some of them. And I would like to start with what is called the test of Time award papers. These are papers that are mentioned for being highly cited after many years and being, like, landmark papers. And there are a couple that I really want to talk about. One is a super classic from calendar paper. And, Tamara, I would like you to talk about it, since I know it's one of your favorites. Right. And then we're going to talk about your paper afterwards.",
+      "id": "ep_150_ut_40"
+    },
+    {
+      "end": 1413122,
+      "speaker": "Tamara Munzner",
+      "start": 1327070,
+      "text": "Well, let me talk about Jarke van Wijk's paper, because this is one of my back before there was anything that anyone called a design study. I think of this as one of the first of them, which is to dive into a problem and actually figure out what is the right way to show this data. And he showed time series data in a way where instead of just doing in some sense, the obvious thing of let's extrude it into 3d, which at the time, everyone loved doing because everyone was very excited about the third dimension. It must be better if it's a whole extra dimension. And it was this great example of how doing the obvious thing, in fact, was not better. And then when he clustered the data and then had these two side by side views with a calendar view on one side, color coded according to the cluster on the other side, you could read off all kinds of high precision information in a way that was completely impossible in this extruded 3d view. And so I love this paper. I featured it in my book. I make everyone do a design exercise about it in the first day of my class, because it's just such a great example of what, if you think beyond the obvious first thing. So it's like a hymn to multiple alternatives being considered as part of a design process. I've loved his work for years, and I finally figured out, I think, the underlying reason why he was trained as an industrial designer. And so I'm like, aha. You learned this stuff, how to actually design.",
+      "id": "ep_150_ut_41"
+    },
+    {
+      "end": 1463160,
+      "speaker": "Enrico Bertini",
+      "start": 1413266,
+      "text": "Yeah. We had Jarke on the show some time ago. I don't remember exactly what episode number it is, but if you're interested, take a look at the episodes, and Jarke is there, and it's as fun and witty as usual. And I just wanted to say yes. I mean, I totally agree with you. That's a fantastic paper. And even after so many years, is still very useful and valid. And honestly, I don't see. I still don't see many papers that use a similar approach. Right. It's like, that's the problem. And there are. That's the obvious solution. And now let me show you many other ways, or at least one other way this could be done. I think we don't do enough of that. And it's one of the main.",
+      "id": "ep_150_ut_42"
+    },
+    {
+      "end": 1468480,
+      "speaker": "Tamara Munzner",
+      "start": 1463680,
+      "text": "I actually think people do a lot of that these days. Way more these days than in the old days.",
+      "id": "ep_150_ut_43"
+    },
+    {
+      "end": 1469600,
+      "speaker": "Enrico Bertini",
+      "start": 1468640,
+      "text": "In papers.",
+      "id": "ep_150_ut_44"
+    },
+    {
+      "end": 1495462,
+      "speaker": "Tamara Munzner",
+      "start": 1469680,
+      "text": "Yeah. They specifically talk about alternatives considered, like, through the years. Like Michael McGuffin had this paper on genealogical graphs, where he goes through this design space of, like, 19 different things you could do and why. Fractal is the wrong answer. And this and that. And I think these days people often talk about alternatives considered very specifically, at least in design study style.",
+      "id": "ep_150_ut_45"
+    },
+    {
+      "end": 1496774,
+      "speaker": "Enrico Bertini",
+      "start": 1495486,
+      "text": "Paper, papers, pictures.",
+      "id": "ep_150_ut_46"
+    },
+    {
+      "end": 1506398,
+      "speaker": "Tamara Munzner",
+      "start": 1496902,
+      "text": "Yep. Sometimes it's in supplemental materials instead of the main paper, because everyone's desperate for space. But I think people really do talk a lot about alternatives, which is great.",
+      "id": "ep_150_ut_47"
+    },
+    {
+      "end": 1550380,
+      "speaker": "Enrico Bertini",
+      "start": 1506494,
+      "text": "Yeah. Anyway, we agree that it's really important. So the more the better. And I was just about to say that it's one of the crucial aspects of the way I teach visualization in class. I really stress, I really spend a lot of time asking my students to design the obvious thing and then try many other things. So I think it's a crucial, really, really crucial skill in visualization. And then another test of time award is Tamara's paper from 2009, the super famous nested model of visualization, design and validation. And since we have Tamara here, I would love to hear the story of this paper. How did it happen?",
+      "id": "ep_150_ut_48"
+    },
+    {
+      "end": 1579188,
+      "speaker": "Tamara Munzner",
+      "start": 1551000,
+      "text": "It happened because I couldn't figure out the answer, and I had to think about it a lot. And the question was, how do you actually integrate validation in with design? Because when I taught my class, and when pretty much everyone else taught their class, they would go ranting about design and building things for the whole class. And then there'd be this lecture at the end called evaluation. And it very much felt like this sort of afterthought after thought.",
+      "id": "ep_150_ut_49"
+    },
+    {
+      "end": 1579484,
+      "speaker": "Enrico Bertini",
+      "start": 1579244,
+      "text": "Yeah.",
+      "id": "ep_150_ut_50"
+    },
+    {
+      "end": 1681306,
+      "speaker": "Tamara Munzner",
+      "start": 1579532,
+      "text": "And it was like, so could I do this in a way that wasn't just an afterthought? And so I was supposed to be writing my book, but I ended up spending six months on figuring out this way of thinking and wrote up this paper, which at the time felt like, oh, man, I can't believe I sidetracked so much. But it turned into, like, one of the most highly cited papers I've ever had. And it helped me think to the point where every time I give a talk, I, like, have to have this slide about the nested model at the beginning, because I'm like, well, you have to go from a domain situation to the abstraction level, and that can be separated out from the technique or the idiom level, where you figure out how to do it from a visual perception point of view, and then you separate that from the algorithm level, which is how you actually do it from a computational point of view. And so separating out this idea that you abstract from domain specific language to something independent, and then that that's a different part from a methodological point of view, from figuring out how to either visually encode it or interact with it. And then from the algorithm level, it helps because you use different methods. You steal methods from different fields for each one of these. And so for the algorithm level, it's CS methods, and for the technique idiom level, it's typically methods out of either psychology or human computer interaction or design. And then for that abstraction level, it's this super squishy stuff out of the social sciences with ethnography and anthropology and interviews and talking to humans who notoriously don't remember what they did. So I really like emphasizing not just, hey, we're interdisciplinary, but here's when to use what method. And so I think that's why this paper caught on is it really tried to emphasize when to use what method.",
+      "id": "ep_150_ut_51"
+    },
+    {
+      "end": 1723476,
+      "speaker": "Enrico Bertini",
+      "start": 1681458,
+      "text": "Yeah, yeah. It's interesting because at the same time, in a way, it's very abstract and very practical at the same time. I think you reach the really sweet spot between these two things there. Right. And I think you didn't mention this thing, but you also have a list of threats to validity, which is basically like a set of rule of thumb for what you should be aware of. Right. Check that you're not doing this, making this mistake, which I think is really useful, especially for I see students, kind of like my students, going through your nested model and making sure that they are not making that specific kind of mistake, which I think is really useful.",
+      "id": "ep_150_ut_52"
+    },
+    {
+      "end": 1725440,
+      "speaker": "Tamara Munzner",
+      "start": 1723548,
+      "text": "Cool. I'm glad you use it in class.",
+      "id": "ep_150_ut_53"
+    },
+    {
+      "end": 1741800,
+      "speaker": "Enrico Bertini",
+      "start": 1726260,
+      "text": "Okay, so I think we can move on to the first set of papers we want to talk about. We want to talk about papers on reflections and provocations. Tamara, I think you want to start with the first one.",
+      "id": "ep_150_ut_54"
+    },
+    {
+      "end": 1925578,
+      "speaker": "Tamara Munzner",
+      "start": 1742420,
+      "text": "Sure. There was this super interesting paper called criteria for rigor in visualization design studies by Mariah Meyer and Jason Dykes. And this is one where they took an ultra deep dive into the literature, far outside of visualization itself, and thinking a lot about things in the social sciences and humanities, as well as from a more engineering background. And they set up a contrast between what they called the positivist tradition, and what they called the interpretivist tradition. And so many people out of engineering are at least positivists, or perhaps post positivists, if you're feeling generous and have an attitude that there is truth at the capital t, which is observable and objective and can be replicated. And this attitude works really well for certain kinds of work. For example, low level visual perceptual experiments. It's a very nice match for, but it can be a really poor match, they argue. And I agree for some of the work that really involves much more higher level working with people in the context of real world activities. I've often seen this called constructivist in the past. They use the word interpretivist. For those who did catch the capstone by Johanna Drucker, she used the word hermeneutic where they used the word interpretivist, and the word empirical where they used the word positivist. And I think what was interesting about this is they took a somewhat stronger stance. This was in a session called provocations, which I appreciated, and they took quite a hard line stance of saying that positivism is misaligned with design study approaches. I personally don't feel as strongly about misaligned, but I do think that it is a if you don't come out of the background of having read at all about some of the traditions out of the social sciences and humanities that think about interpreting as a fundamental research method, not just attempting to do empirical work wrong, but an entirely different intellectual tradition where you do think that the scientist is an observer and a part of that process, not a disinterested third party, I think it gives you a lot more insight into the underlying motivations behind the methods. So even though I personally think you can do interesting design study work without being a full blown interpretivist, I think that once you start thinking about the underlying methodological issues, that you are ill equipped to wade into those waters deeply at the methodological discussion level if you don't think about this stuff at a pretty deep level. So I thought it was a great bringing of that intellectual tradition individualization, in a way that even people that come out of an empirical background or positives background could sort of get their feet wet and start diving into that literature. So I really appreciated it.",
+      "id": "ep_150_ut_55"
+    },
+    {
+      "end": 1945350,
+      "speaker": "Robert Kosara",
+      "start": 1925674,
+      "text": "It was also a fantastic talk. So that's one of the talks I think people should really watch the video of and take as inspiration for their presentations. It was insanely well done, very well delivered, very well structured, and was just really awesome design for the slides. It was really well done. The whole package was just really accept the.",
+      "id": "ep_150_ut_56"
+    },
+    {
+      "end": 1950910,
+      "speaker": "Enrico Bertini",
+      "start": 1945470,
+      "text": "Yeah, we're going to put the links in the, in the show notes. Okay, so what's next?",
+      "id": "ep_150_ut_57"
+    },
+    {
+      "end": 2048360,
+      "speaker": "Robert Kosara",
+      "start": 1951070,
+      "text": "So the next one is critical reflections of visualization authoring systems. This is by Arvind, Satyanarayan and colleagues. And this is an interesting paper for a number of reasons. So what they were doing is it's basically three groups, the people behind three systems that were published, I think. Well, last two of them were last year, and then one that's a bit older. So one is Lyra. This was Arvind's work from a few years ago. And then the data illustrator project from Adobe research and the charticulator project from Microsoft Research. Those were both last year, I believe. And what they did was they got together and wrote up their reflections on what worked, what didn't work, how the tools differ, how they do things differently, what they think are their better approaches, and so on. And this is interesting for a number of reasons. First of all, it's really hard to get people together from different organizations to actually work on a project like this together from industry. So in academia, this is more common, but in industry it's pretty rare. And the second part, and that's actually even the harder part, I think, is to reflect on existing systems, because we tend to like novelty and we tend to like proposing the next new awesome thing. But going back and saying, so this thing we did last year or two years ago or three years ago, we now compared that, and here are our honest thoughts. And I think they're actually quite honest and quite straightforward in what they're talking about. That's actually fairly rare. And so I really appreciate that paper for that.",
+      "id": "ep_150_ut_58"
+    },
+    {
+      "end": 2162400,
+      "speaker": "Tamara Munzner",
+      "start": 2048700,
+      "text": "Yeah. And this was one where I missed the talk, but then I went and read the paper last night, and the idea that they were trying to not just reflect on these papers themselves, but that they documented their process for doing it and argued for it as a kind of contribution that they want to see more of, I thought was quite interesting. And so it's one where they went, this is what I call a sort of classic modern paper, where they did a lot of work, much of which is documented in supplemental materials. And then in some ways the paper is like the tip of the iceberg, where they give you the high level bits, and then there's all of this analysis work they did, which they partially then get to you through the supplemental stuff. And so as someone who thinks a lot about the actual architectural system, building and implications of things like in each of these three systems here is the word they use, and sometimes they all use the same word, and sometimes they use different words, and sometimes they use the same word, but they mean a little bit different things by it. And let's actually go into this and talk about the implications of that. That level of analysis was super interesting, and necessarily, you couldn't possibly do this as part of any one of the original papers. It had to be this three way reflection with the authors afterwards. And looking back, and I feel like that kind of retrospective analysis would be fantastic for us as a field if we did more of, especially this really hard interface between. One of the things they pointed out is there's been a lot of work in systems for programmers, and then this question of authoring is this sort of gray middle ground in between a full on programming interface and something that's just absolutely point and click where you're completely boxed in with existing chart types? It's that middle ground.",
+      "id": "ep_150_ut_59"
+    },
+    {
+      "end": 2171790,
+      "speaker": "Enrico Bertini",
+      "start": 2162700,
+      "text": "Yeah. So the idea is that in the future, people could reuse this kind of methodology to create more critical reflections in other areas.",
+      "id": "ep_150_ut_60"
+    },
+    {
+      "end": 2174478,
+      "speaker": "Tamara Munzner",
+      "start": 2171870,
+      "text": "Yeah, and they definitely argued for that.",
+      "id": "ep_150_ut_61"
+    },
+    {
+      "end": 2185630,
+      "speaker": "Enrico Bertini",
+      "start": 2174574,
+      "text": "Yeah. And so we had more papers in this session. Right. So there's another one on data changes everything, which I think is also a best paper award or something.",
+      "id": "ep_150_ut_62"
+    },
+    {
+      "end": 2295396,
+      "speaker": "Tamara Munzner",
+      "start": 2185790,
+      "text": "Yeah. So that was from Jagoda Walny et al. And that did get the info of his best paper. And what I thought was interesting about this one, again, I'm going to wear my methods geek hat, is it's part of a number of papers that basically say, so, given that HCI exists, why do we need anything special in visualization? And often the answer comes down to data. And so I actually feel like data changes everything, colon, blah, blah, blah, blah, blah. You could actually use that title for a whole bunch of papers, possibly including the next one about interaction for data visualization by Evanthia Dimara and Charles Perin, which I also wanted to talk about, which I could exactly have that as a subtitle as well. And so in the Walney paper, they did this big, big project with the National Energy Board, I believe, and did a whole lot of visualization where they had a mix of people and they had the vis researchers and then developers. Developers. It's sort of rare in the research community that you get a project with enough funding that you actually have paid developers instead of grad students. And what this surfaced was in a project where there's like this one grad student doing it all. They're doing the design, they're doing the development and they've got these super tight loops and iterative design. Great when that's all in one person's head. And then what about when you've got these big teams and a bunch of the places where existing tools fall short of being able to bridge those gaps? And it's not because there's a lack of tools for multi person design and dev teams. That's the bread and butter of many, many companies. So it's not that nobody has thought about this problem before, but I think they surfaced the ways in which, as they say, data changes everything in a pretty interesting and thoughtful way. So I like that paper quite a bit.",
+      "id": "ep_150_ut_63"
+    },
+    {
+      "end": 2311078,
+      "speaker": "Enrico Bertini",
+      "start": 2295468,
+      "text": "Yeah, yeah. And if I remember correctly, they also mentioned this idea that in industry over the years, there's been this figure of the user experience designer that has been growing, but we don't have an equivalent in visualization. Right?",
+      "id": "ep_150_ut_64"
+    },
+    {
+      "end": 2320350,
+      "speaker": "Tamara Munzner",
+      "start": 2311254,
+      "text": "Yeah. And I think maybe they argue the equivalent could be something like a data characterization designer, you know, a data designer. And that ties into the theme of their paper.",
+      "id": "ep_150_ut_65"
+    },
+    {
+      "end": 2321254,
+      "speaker": "Enrico Bertini",
+      "start": 2320510,
+      "text": "Yeah.",
+      "id": "ep_150_ut_66"
+    },
+    {
+      "end": 2374970,
+      "speaker": "Tamara Munzner",
+      "start": 2321422,
+      "text": "Then the other one that was actually in the very same, actually, it wasn't in the same session, it was in the provocation section as opposed to the best paper session was this, what is interaction for data visualization by Dimara and Perin. And what was interesting about that one, from my point of view, from a methods point of view, they went in and did one of these, let's dig deep and read a bunch of papers about how people define interaction and how visualization does something different. And they came up with a nuanced and many flavored definition, which did include data as one of the central parts. And they, from a methods point of view, they did this sort of snowball thing of not just relying on themselves to find the set of papers, but querying a bunch of people in the field on what they thought the central papers were and using those as seed papers. So it was sort of methodologically interesting as well as for the results themselves.",
+      "id": "ep_150_ut_67"
+    },
+    {
+      "end": 2404370,
+      "speaker": "Enrico Bertini",
+      "start": 2375270,
+      "text": "Okay, very good. Lots of reflections this year. I think there's even more than that, if I remember correctly, but it's nice to have these kind of papers. So let's move on to. I think we want to talk about a few ones on visual perception and cognition. So I think the first one is Robert's paper. So Robert, maybe you want to talk about it more. More pie charts coming in your direction, dear listeners.",
+      "id": "ep_150_ut_68"
+    },
+    {
+      "end": 2435188,
+      "speaker": "Robert Kosara",
+      "start": 2404910,
+      "text": "So there was a new track this year at VIS called the short papers track. And this is something that's been around at Euroviz for a few years now, but that hasn't existed in this form at this. There used to be applications, papers and things like that, but short papers are a new thing, and they got, I think they got a lot of submissions this year. And it was an interesting program for sure. And I'm seeing this now. I'm realizing that I'm talking about my own paper here. But anyway, so it was a good set of papers, whether you like mine or not.",
+      "id": "ep_150_ut_69"
+    },
+    {
+      "end": 2435388,
+      "speaker": "Enrico Bertini",
+      "start": 2435244,
+      "text": "But.",
+      "id": "ep_150_ut_70"
+    },
+    {
+      "end": 2690362,
+      "speaker": "Robert Kosara",
+      "start": 2435404,
+      "text": "So my paper was a short paper on pie charts, and the idea was us to figure out how we read pie charts. This has been my mission for the last several years, and using 3d pie charts. And the idea is that when you use a 3d pie chart and you use orthographic, or what I call parallel projection, you get a certain type of distortion of angle and arc in a slice or on a pie, but not area. So the area stays the same as a fraction of the pie as you rotate to slice around the pie chart. And I'm using that in a study to ask people to read those values and then compare what they tell me, which should be, according to these different models, whether it's angle, arc lengths, or area should be distorted in certain ways. And then I'm comparing that to my predictions based on these models, to figure out which one is the best match. And that would then be the best explanation. And to kind of keep this short, the best model was the area model. So it seems that people are reading these charts by area. There still are some complications because it's 3d. So with 3d, you get a few other things that, because we look at these things as objects, we might actually be reading them differently than we think. But at least that was one part of this. There were also some other good perception papers, I think, that we wanted to look at. So one of them is Jessica Hollman's paper that is called why authors don't visualize uncertainty. And this is part of, of Jessica's program, together with Mat K and others, to work more on uncertainty in visualization. And so I really like this paper because she looked at, and she asked a lot of people why they don't use or why they don't express or represent the uncertainty in the data or in the models when they build visualizations, either for use in industry or for data journalism, for data storage story pieces. And she got some interesting responses, like people saying that the people that they built them for can't deal with the uncertainty, or that if you take all the uncertainty into account, you don't actually have a signal anymore. You can't talk about anything because it all gets lost in the uncertainty, which is an interesting problem, because maybe that's the thing that you might not want to actually talk about if you can't even tell, given the uncertainty and so on. So there are interesting problems or interesting, I guess, factors and reasons why people do this. And he has a very nice summary, or not just summary, but, like, overview of all those different reasons and a very good survey of different people from different backgrounds doing this kind of work, and what their reasons are for not representing uncertainty as well as they might. And speaking of uncertainty, I'm just going to keep going here. So there's another paper that is called biased average position estimates in line and bar graphs. This is by Cindy Xiong and folks from northwestern. And it's a very interesting, very nicely done study where they looked at basically two different chart types, bar charts and line charts, and they asked people to estimate. So they showed them a chart, line or bar, with some made up data, and they asked them to estimate the average of that data. And they found that people underestimate line charts, the average of line charts, and overestimate the averages of bar charts, which, and there's the relatively small effects, but they're consistent. And so what's interesting about that is that we like to show bars and lines at the same time, to show busy, basically, dual axis charts sometimes. And that's actually a very bad idea, because you get one effect going one way and the other effect going the other way. And so the actual comparison or the perception of this data is actually probably fairly poor. But that was an interesting paper, and it ties into some of her other work, trying to figure out, first of all, what we can do to improve visualizations, but also how it even works, sort of how we perceive certain things and certain chart types and what we can and learn about the underlying mechanisms behind that.",
+      "id": "ep_150_ut_71"
+    },
+    {
+      "end": 2706666,
+      "speaker": "Enrico Bertini",
+      "start": 2690506,
+      "text": "Yeah. And I think one of the main features of this year's vis has been a lot of, a lot more paper on visual perception and cognition. So I've been really glad to see, I mean, these are just few of the many that have been presented.",
+      "id": "ep_150_ut_72"
+    },
+    {
+      "end": 2707754,
+      "speaker": "Robert Kosara",
+      "start": 2706698,
+      "text": "There are quite a few, yeah, I.",
+      "id": "ep_150_ut_73"
+    },
+    {
+      "end": 2732702,
+      "speaker": "Enrico Bertini",
+      "start": 2707762,
+      "text": "Think it's a great trend. I always wanted to see more of that, and I think it's happening. And there also more people whose background is actually, I don't know, cognitive science and visual perception that are coming to this, doing work and presented to this. I think that's a great trend and another great trend that is going. Oh, Tamara, you want to say something?",
+      "id": "ep_150_ut_74"
+    },
+    {
+      "end": 2739998,
+      "speaker": "Tamara Munzner",
+      "start": 2732806,
+      "text": "Oh, just speaking up to say, yeah, your last data stories actually was on lace. Padilla's work is another one that comes out of that tradition.",
+      "id": "ep_150_ut_75"
+    },
+    {
+      "end": 2923940,
+      "speaker": "Enrico Bertini",
+      "start": 2740174,
+      "text": "There are lots of great people doing work in this space right now, and I think Steve Franconeri is kind of like leading, leading, I think, I don't know how many papers he added this year. So this is, this is really happening, and. But it's not holly him. There are a bunch of really, really good people whose background is not necessarily computer science, which I think tends to be the background of people presenting at this. And I think that's a, that's a great trend. It's much more diverse than it used to be. And another great trend that has been going on for a while is visualization for machine learning. Again, we don't really have time to mention much, but I just want to go over a couple of papers. So there is this what if tool that has been presented by James Wexler and his colleagues from Google. I think this tool has become already really popular, is mostly machine learning interpretability tool that I think it's part of the Tensorflow framework, and it's really nicely designed and nothing too fancy, but it does the job. And this whole idea of experimenting with an existing model and treating it as a black box, and I think the names derive from the fact that you can really do this kind of what if analysis. What happens if I change this variable this way? How does the model respond? So this whole idea of probing a machine learning model, I think it's a really powerful and very practical one. Lots of people have the need to inspect models in this way, so I think it's a great piece of work. And another one that I want to mention is we had a couple of papers on fairness in machine learning. So how to use visualization as a way to gauge understand fairness in visualization. Interestingly, I think there's one paper is called Fairvis and another paper that is called fairsight. In a way, they're very similar, and I'm really happy to see this happening. And this is also a very, very, very interesting line of research. And it's mostly about trying to understand where, whether there is bias in the model, detect bias, and also trying to correct it. And there is one thing that I really liked in one of the two papers I believe is fair vis. It's this idea that, that there's no single best measure of bias. So what they've been trying to do is to visualize several measures and trying to let the actual expert who is using the system to figure out how to find the right balance between contrasting needs in trying to deal with bias, which I think is really powerful, I think. Tamara, you wanted to conclude with another mentioning a few visualization techniques. We didn't really talk about new visualization techniques, so maybe you want to mention some of them.",
+      "id": "ep_150_ut_76"
+    },
+    {
+      "end": 3011130,
+      "speaker": "Tamara Munzner",
+      "start": 2924280,
+      "text": "Sure. I'll just mention a couple that stood out to me. As people have mentioned, there was this new short papers track, and I quite liked the best paper award for that one, which went to the work on periphery plots. That was from Bryce Morrow and colleagues. And that was this. You know what's nice about the short papers? It's sort of a specific idea where you don't go into as much length as in one of the full papers, but we don't see as much focus context things these days. But this, I thought was quite a nice application of it, of saying what happens if you actually want to see not just the zoomed in bit, but a little bit around the edge. And it was just a very nice specific technique. I thought it was well presented. And another one that stood out to me was the Origraph paper on interactive network wrangling from Alex Bigelow et al. And most of the data wrangling papers that people have done so far have been about tabular data. So it was just very nice to see one that focused on this analogous but different problem when you're trying to wrangle networks. There was, of course, a whole bunch of other technique flavored papers as well. My own group had one on aggregated dentrograms. So in general, there was probably another hundred papers that we could have talked about that we didn't, because I know we're getting low on time. So there was lots of papers and everybody should go read them all. So go to the TVCG site. You could download the preprints today.",
+      "id": "ep_150_ut_77"
+    },
+    {
+      "end": 3040430,
+      "speaker": "Enrico Bertini",
+      "start": 3011590,
+      "text": "Yeah, it's actually painful having to decide what to talk about because there are so many more great, great papers. But anyway, so I think we have to close it here. In terms of what talking about specific papers, I would just like to conclude talking about major trends and great new stuff that happened at viz. Right? So what has been new and remarkable at VIS this year? Robert, maybe you want to start?",
+      "id": "ep_150_ut_78"
+    },
+    {
+      "end": 3069954,
+      "speaker": "Robert Kosara",
+      "start": 3040770,
+      "text": "Sure. Yeah. So since I've already mentioned the short papers, I guess that's certainly one of my favorites. I guess I liked the efficiency when you go to a paper session and you see a lot of those talks, and I think a lot of them are actually quite good papers, just in general, not even just because they were short papers. So that was really good. That's also been something I saw at Euroviz, that those short papers are actually quite good. So that was one of my, my main new things, I think.",
+      "id": "ep_150_ut_79"
+    },
+    {
+      "end": 3100120,
+      "speaker": "Enrico Bertini",
+      "start": 3070042,
+      "text": "Yeah. And I have to say that I was really skeptical about short papers initially, and then I started attending the sessions. I was like, wow, this is so, so nice. It's like, it's good contributions, it's really interesting, it's not shallow at all, and it's pleasurable attending these shorter sessions. It's really nice. I completely changed my mind 180 degrees.",
+      "id": "ep_150_ut_80"
+    },
+    {
+      "end": 3181822,
+      "speaker": "Tamara Munzner",
+      "start": 3101260,
+      "text": "Another interesting trend was the number of preprints that went out on archive. There's definitely been a sea change in terms of open access sweeping over the field in the last several years. More with materials on OSF. There continues to be a whole lot of preprints being shared on individual paper sites or, sorry, individual personal pages or lab websites. But the sheer number of preprints on archive, one of the things I'm personally hoping we can make some forward progress on is getting a vis category in archive. And I've been talking with many people and part of the efforts in surveying the community and I think we are clearly at a tipping point where it makes sense. And I think then it could become the norm, the same way it is in machine learning, that as a matter of course you do that. And I think it was important that the open access chairs worked with TVCG and viz to make sure that there could be a statement saying yes, you can have preprints and it will not mess up the reviewing process, which is another key thing. It's crucial for that, that you don't have mandatory double blind reviewing because especially if you're doing serious deployment of code on GitHub or sharing a preprint, then that I think it's more crucial for open science and open access to have that happen than to have double blind reviewing. So I'm glad that VIS has that optional, not mandatory.",
+      "id": "ep_150_ut_81"
+    },
+    {
+      "end": 3186730,
+      "speaker": "Enrico Bertini",
+      "start": 3182006,
+      "text": "Yeah, that's a fantastic development. And also pre registration.",
+      "id": "ep_150_ut_82"
+    },
+    {
+      "end": 3209928,
+      "speaker": "Robert Kosara",
+      "start": 3187230,
+      "text": "So in addition to the availability of the papers, there's also more materials I think that people share. So I certainly saw a lot more QR codes and URL's at the end of talks where people had materials like their study materials or their software. So it's much easier to build on these things when you can use the materials that are already out there.",
+      "id": "ep_150_ut_83"
+    },
+    {
+      "end": 3222100,
+      "speaker": "Tamara Munzner",
+      "start": 3210104,
+      "text": "The new trend this year was a little QR code thing on the actual final slide. People have been for years, including paper landing pages. But the QR code was like, oh, well, that's just next level.",
+      "id": "ep_150_ut_84"
+    },
+    {
+      "end": 3225208,
+      "speaker": "Robert Kosara",
+      "start": 3224200,
+      "text": "It's a lot more efficient.",
+      "id": "ep_150_ut_85"
+    },
+    {
+      "end": 3237368,
+      "speaker": "Enrico Bertini",
+      "start": 3225264,
+      "text": "Yeah, yeah. And a lot of, of pre registrations compared to before, which was basically zero. Right. Robert, I know you did that. You pre registered your study.",
+      "id": "ep_150_ut_86"
+    },
+    {
+      "end": 3240208,
+      "speaker": "Robert Kosara",
+      "start": 3237544,
+      "text": "Yes. And so there were three this year.",
+      "id": "ep_150_ut_87"
+    },
+    {
+      "end": 3241032,
+      "speaker": "Enrico Bertini",
+      "start": 3240304,
+      "text": "Yeah, yeah.",
+      "id": "ep_150_ut_88"
+    },
+    {
+      "end": 3242256,
+      "speaker": "Tamara Munzner",
+      "start": 3241096,
+      "text": "Niklas Elmqvist.",
+      "id": "ep_150_ut_89"
+    },
+    {
+      "end": 3251096,
+      "speaker": "Enrico Bertini",
+      "start": 3242408,
+      "text": "Yeah, I think there were more probably. I saw more probably, yeah. Anyway, it's a trend, right? It's happening, which I think it's really good.",
+      "id": "ep_150_ut_90"
+    },
+    {
+      "end": 3252808,
+      "speaker": "Robert Kosara",
+      "start": 3251128,
+      "text": "Certainly better than nothing. So that's for sure.",
+      "id": "ep_150_ut_91"
+    },
+    {
+      "end": 3283650,
+      "speaker": "Enrico Bertini",
+      "start": 3252864,
+      "text": "It is better than nothing, right? Yes. And I think another major change this year was that the three traditional conferences that were within viz, there were infovis vast and SCIVIS now have been basically completely merged in the sessions. So we only add sessions with session names and no mentioning, as far as I can tell, of these three conferences. Right.",
+      "id": "ep_150_ut_92"
+    },
+    {
+      "end": 3383798,
+      "speaker": "Tamara Munzner",
+      "start": 3284490,
+      "text": "Yeah, that was the first step that they took this year as part of the larger restructuring effort that I've been heavily involved in. So I was super excited that after, depending on how you count it, a year of work or three years of work, or at some level 15 years of work or more, we are now in a place where we're going to actually tear down these walls that have been siloed between what has been historically called information visualization and visual analytics and scientific visualization and actually have a unified viz starting in not 2020, because these things take a lot of time to put into practice on the governance front. But starting in viz, 2021, there has been a vote that we will have something integrated across all of them. There will be areas where there's going to be area papers, chairs for the individual areas into six areas, but we're nothing just building new walls with the bricks that we tore down the old ones with. But there's going to be a whole process where the areas shift and change dynamically over time with sort of a mix of dynamism and also stability. So I'm super excited that there's both a new governance structure and a new way of submitting content that I think will be a lot more dynamic. So that was what the revised committee did, and I am both happy to have been a part of that process for the last three years and happy to be signing off and handing it off to others as part of term limits and rotations, which is something I believe in strongly. And I'm excited from a governance point of view that there's going to be direct elections to the governance steering and executive committees for the first time. So there will be elections at upcoming visits.",
+      "id": "ep_150_ut_93"
+    },
+    {
+      "end": 3414190,
+      "speaker": "Enrico Bertini",
+      "start": 3383894,
+      "text": "That's great. I think it's a great development. I always felt that these walls didn't make much sense. And even as an old timer, just flipping through the program without having to figure out which conference this is and just saying, what am I interested in? I think it's been a great experience, and I have a hunch that for a newcomer, that would be even better. Right. Not having to figure out what these three conferences are and just focus on what am I interested in. I think it's a much, much better experience.",
+      "id": "ep_150_ut_94"
+    },
+    {
+      "end": 3460140,
+      "speaker": "Tamara Munzner",
+      "start": 3414890,
+      "text": "Yeah. Because I think there's so much interesting work that happens on the margins and machine learning is getting to be. It's not just visual analytics that has machine learning, it's all over the place. The best paper from SCIVIS involved machine learning. People are using the methods historically associated with one to do super great and interesting work in the other. And so I think we've now actually come to a place where that cross pollination has hit the intellectual tipping point, where it really is, depending on whether you call it visualization or visual analytics, this larger set of things that have historically had these different names really is, I think, happening in a much more unified way, even while it keeps the vibrancy of these different traditions. So this sort of unification, yet diversity, I think, is the sweet spot.",
+      "id": "ep_150_ut_95"
+    },
+    {
+      "end": 3467700,
+      "speaker": "Enrico Bertini",
+      "start": 3460480,
+      "text": "Yeah, I like this slogan. What else should we mention? Anything else before we conclude?",
+      "id": "ep_150_ut_96"
+    },
+    {
+      "end": 3489800,
+      "speaker": "Tamara Munzner",
+      "start": 3468320,
+      "text": "I was super excited that the videos were posted promptly for some, even that very day. There's already a bunch of the stuff we talked about. We're going to have links to the talk videos in the show, notes that you can watch the moment that you are hearing this podcast, and that hopefully the rest will get posted within a month or six weeks, is definitely a huge step forward compared to the time like it's been in the past.",
+      "id": "ep_150_ut_97"
+    },
+    {
+      "end": 3535900,
+      "speaker": "Enrico Bertini",
+      "start": 3490300,
+      "text": "Yes. Perfect. So I just want to encourage our listeners, if you're not familiar with the conference at all, go to the website is IEEE VIS.org.org and familiarize with the conference and come next year. It's a very welcoming event and people seem to have a lot of fun. We certainly have a lot of fun every time we go. And I've heard actually really good feedback from newcomers. This year on Twitter, we had multiple people saying, it's been the first time for me, it's very welcoming, lots of fun. So it's been. I've been very happy to hear this kind of feedback. I think that's what we want to see.",
+      "id": "ep_150_ut_98"
+    },
+    {
+      "end": 3578924,
+      "speaker": "Tamara Munzner",
+      "start": 3536210,
+      "text": "One thing that might be worth mentioning, that we didn't even have time to get to is even for those that are not academics but practitioners, there's a whole track that the vis in practice folks have put together both specific events where they bring practitioners in to talk, which included people from the data Visualization Society and a bunch of industrial places, both small companies like clear that are local to Vancouver and of course, big companies like Microsoft and so on. On and so vis in practice is definitely a way to try to get a lot more practitioners involved at the forefront of VIS. So next year in Utah, hope to see a mix of academics and practitioners.",
+      "id": "ep_150_ut_99"
+    },
+    {
+      "end": 3582276,
+      "speaker": "Enrico Bertini",
+      "start": 3579092,
+      "text": "Yeah, Salt Lake city and the year.",
+      "id": "ep_150_ut_100"
+    },
+    {
+      "end": 3583600,
+      "speaker": "Tamara Munzner",
+      "start": 3582308,
+      "text": "After that, New Orleans.",
+      "id": "ep_150_ut_101"
+    },
+    {
+      "end": 3612982,
+      "speaker": "Enrico Bertini",
+      "start": 3585900,
+      "text": "And of course, we're going to put all the links, the links about all the things we mentioned in the show notes. So if you're listening to this and you're desperate trying to take notes, don't worry, just go on the blog post and you'll find everything. So thanks so, so much, Tamara and Robert, for coming on the show again and helping me out go through all these things. And it's been great to talk to you again.",
+      "id": "ep_150_ut_102"
+    },
+    {
+      "end": 3614510,
+      "speaker": "Robert Kosara",
+      "start": 3613126,
+      "text": "It's been my pleasure, of course.",
+      "id": "ep_150_ut_103"
+    },
+    {
+      "end": 3616366,
+      "speaker": "Tamara Munzner",
+      "start": 3614590,
+      "text": "Thanks so much for having me back.",
+      "id": "ep_150_ut_104"
+    },
+    {
+      "end": 3624596,
+      "speaker": "Enrico Bertini",
+      "start": 3616558,
+      "text": "And I'm looking forward to having you on the show again to talk about some of your work. Cool. Thank you very much. Bye bye.",
+      "id": "ep_150_ut_105"
+    },
+    {
+      "end": 3625196,
+      "speaker": "Tamara Munzner",
+      "start": 3624668,
+      "text": "Bye bye.",
+      "id": "ep_150_ut_106"
+    },
+    {
+      "end": 3626120,
+      "speaker": "Robert Kosara",
+      "start": 3625268,
+      "text": "Goodbye.",
+      "id": "ep_150_ut_107"
+    },
+    {
+      "end": 3653956,
+      "speaker": "D",
+      "start": 3630860,
+      "text": "Hey folks, thanks for listening to data stories again. Before you leave a few last notes, this show is crowdfunded and you can support us on patreon@patreon.com Datastories, where we publish monthly previews of upcoming episodes for our supporters. Or you can also send us a one time donation via PayPal at PayPal me Datastories or as a free way.",
+      "id": "ep_150_ut_108"
+    },
+    {
+      "end": 3681332,
+      "speaker": "Enrico Bertini",
+      "start": 3653988,
+      "text": "To support the show. If you can spend a couple of minutes rating us on iTunes, that would be very helpful as well. And here's some information on the many ways you can get news directly from us. We are on Twitter, Facebook and Instagram, so follow us there for the latest updates. We have also a slack channel where you can chat with us directly. And to sign up, go to our homepage at Datastory esdeme and there you'll find a button at the bottom of the page.",
+      "id": "ep_150_ut_109"
+    },
+    {
+      "end": 3689364,
+      "speaker": "D",
+      "start": 3681476,
+      "text": "And there you can also subscribe to our email newsletter if you want to get news directly into your inbox and be notified whenever we publish a new episode.",
+      "id": "ep_150_ut_110"
+    },
+    {
+      "end": 3702012,
+      "speaker": "Enrico Bertini",
+      "start": 3689452,
+      "text": "That's right, and we love to get in touch with our listeners. So let us know if you want to suggest a way to improve the show or know any amazing people you want us to invite or even have any project you want us to talk about?",
+      "id": "ep_150_ut_111"
+    },
+    {
+      "end": 3708668,
+      "speaker": "D",
+      "start": 3702156,
+      "text": "Yeah, absolutely. Don't hesitate to get in touch. Just send us an email at mail at Datastory es.",
+      "id": "ep_150_ut_112"
+    },
+    {
+      "end": 3712500,
+      "speaker": "Enrico Bertini",
+      "start": 3708804,
+      "text": "That's all for now. Hear you next time, and thanks for listening to data stories.",
+      "id": "ep_150_ut_113"
+    }
+  ],
+  "confidence": 0.935593886499625,
+  "audio_duration": 3721,
+  "punctuate": true,
+  "format_text": true,
+  "dual_channel": false,
+  "webhook_url": null,
+  "webhook_status_code": null,
+  "webhook_auth": false,
+  "webhook_auth_header_name": null,
+  "speed_boost": false,
+  "auto_highlights_result": null,
+  "auto_highlights": false,
+  "audio_start_from": null,
+  "audio_end_at": null,
+  "word_boost": [],
+  "boost_param": null,
+  "filter_profanity": false,
+  "redact_pii": false,
+  "redact_pii_audio": false,
+  "redact_pii_audio_quality": null,
+  "redact_pii_policies": null,
+  "redact_pii_sub": null,
+  "speaker_labels": true,
+  "content_safety": false,
+  "iab_categories": true,
+  "content_safety_labels": {
+    "status": "unavailable",
+    "results": [],
+    "summary": {}
+  },
+  "language_detection": false,
+  "language_detection_threshold": null,
+  "language_confidence": null,
+  "custom_spelling": null,
+  "throttled": false,
+  "auto_chapters": true,
+  "summarization": false,
+  "summary_type": null,
+  "summary_model": null,
+  "custom_topics": false,
+  "topics": [],
+  "speech_threshold": null,
+  "speech_model": "best",
+  "chapters": [
+    {
+      "summary": "Enrico Bertini hosts Data stories with Moritz Stefaner. They talk about data visualization, analysis, and the role data plays in our lives. Moritz is in Paris working on data cuisine. If you enjoyed the show, please consider supporting us with recurring payments or one time donations.",
+      "gist": "Data Stories: The role of machine learning in visualization",
+      "headline": "This podcast is listener supported, so there's no more ads",
+      "start": 240,
+      "end": 145258,
+      "id": "ep_150_ch_0"
+    },
+    {
+      "summary": "Today we have one of our recurring episodes. We are going to talk again about the IEEE VIS conference. We have two guests on the show to talk about it. And we have some previous guests actually coming back.",
+      "gist": "Tableau Research Vancouver Conference Recap & Interview",
+      "headline": "We are going to talk again about the IEEE VIS conference",
+      "start": 145434,
+      "end": 197028,
+      "id": "ep_150_ch_1"
+    },
+    {
+      "summary": "Robert: I am a professor at the University of British Columbia in Vancouver, Canada. My research area is visualization, fairly broadly construed. I'm interested in how you present data, how you communicate with data. Recently started a YouTube channel called Eager Eyes TV.",
+      "gist": "Before the Interview,",
+      "headline": "Robert Kessel is a professor of visualization at the University of British Columbia",
+      "start": 197164,
+      "end": 353470,
+      "id": "ep_150_ch_2"
+    },
+    {
+      "summary": "This is basically the main academic visualization conference out there. It lasts a whole week. There are workshops, panels, events. And there are also now quite a good number of practitioners. So the old thing is growing, and it's really exciting.",
+      "gist": "VIS.conf 2014",
+      "headline": "VIS. org is the main academic visualization conference out there",
+      "start": 356610,
+      "end": 502950,
+      "id": "ep_150_ch_3"
+    },
+    {
+      "summary": "A bunch of folks from vision science and visualization are trying to build bridges between those two communities. Viscross vision brings a lot of the cutting edge in vision science into visualization. I think it's super valuable to have these events that jump back and forth between fields.",
+      "gist": "IEEE Viscross: Visualization and Visibility",
+      "headline": "Viscroche vision brings together vision science and visualization",
+      "start": 503400,
+      "end": 708010,
+      "id": "ep_150_ch_4"
+    },
+    {
+      "summary": "This was the second time we ran the viscom workshop. The idea is that we want to talk about how you use visualization for communication. We had a lot of very different talks. Also, maybe one more thing to mention is practitioners. We did have a good number of practitioners in this workshop.",
+      "gist": "Viscence for Communication workshop",
+      "headline": "The viscom workshop focused on how you use visualization for communication",
+      "start": 708430,
+      "end": 835404,
+      "id": "ep_150_ch_5"
+    },
+    {
+      "summary": "The first year we didn't have a printed program, which I find extremely tragic. I probably missed a lot of sessions just because I couldn't mark them. But I strongly encourage people to see the videos once they're posted.",
+      "gist": "Immunology and the challenges of VI",
+      "headline": "Biovis challenges workshop aimed at getting vis and biology people together",
+      "start": 835532,
+      "end": 998900,
+      "id": "ep_150_ch_6"
+    },
+    {
+      "summary": "Why Bayou is more than other scientific application areas? I think biology and visualization have a long history of doing things together. It's this combination of big stakes and lots of data, maybe.",
+      "gist": "Why Bayou: Biovis and Visualization",
+      "headline": "Why Bayou is more important than other scientific application areas",
+      "start": 999060,
+      "end": 1119380,
+      "id": "ep_150_ch_7"
+    },
+    {
+      "summary": "Vds gets these great external speakers consistently. One of the things about VIS is that there's a huge amount of paper presentations. It means you don't get as many chances to hear people who've given a lot. There are many other events happening there, right.",
+      "gist": "Visions of Data & Machine Learning",
+      "headline": "Visions tends to get spectacular invited talks consistently",
+      "start": 1119760,
+      "end": 1284246,
+      "id": "ep_150_ch_8"
+    },
+    {
+      "summary": "So let's now switch to the technical papers. And I would like to start with what is called the test of Time award papers. These are papers that are mentioned for being highly cited after many years. One is a super classic from calendar paper. And then we're going to talk about your paper afterwards.",
+      "gist": "Technical Papers: The Test of Time",
+      "headline": "Let's now switch to the technical papers. And I would like to start with what is called the test of Time award papers",
+      "start": 1284368,
+      "end": 1326210,
+      "id": "ep_150_ch_9"
+    },
+    {
+      "summary": "Jarke van Wijk's paper is a great example of what, if you think beyond the obvious first thing. It's like a hymn to multiple alternatives being considered as part of a design process. I think it's a crucial, really, really crucial skill in visualization.",
+      "gist": "Jarke van Wijk's Paper on Data and Visualization",
+      "headline": "Jarke van Wijk's paper is a great example of multiple alternatives",
+      "start": 1327070,
+      "end": 1531690,
+      "id": "ep_150_ch_10"
+    },
+    {
+      "summary": "Tamara's paper from 2009 is the super famous nested model of visualization, design and validation. It really tried to emphasize when to use what method. Every time I give a talk, I have to have this slide about the nested model.",
+      "gist": "Nested Model of Data Visualization and Validation",
+      "headline": "Tamara's nested model of visualization, design and validation is hugely influential",
+      "start": 1532470,
+      "end": 1725440,
+      "id": "ep_150_ch_11"
+    },
+    {
+      "summary": "Tamara: We want to talk about papers on reflections and provocations. They set up a contrast between the positivist tradition and the interpretivist tradition. Said that positivism is misaligned with design study approaches. One of the talks people should really watch the video of and take as inspiration for their presentations.",
+      "gist": "Reflections and Provocations",
+      "headline": "There was a paper saying that positivism is misaligned with design study approaches",
+      "start": 1726260,
+      "end": 1948734,
+      "id": "ep_150_ch_12"
+    },
+    {
+      "summary": "Next one is critical reflections of visualization authoring systems. Three groups got together and wrote up their reflections on what worked, what didn't work. That kind of retrospective analysis would be fantastic for us as a field if we did more of it.",
+      "gist": "Critical Reviews of Visualization Systems",
+      "headline": "Next paper is critical reflections of visualization authoring systems",
+      "start": 1948902,
+      "end": 2385810,
+      "id": "ep_150_ch_13"
+    },
+    {
+      "summary": "There was a new track this year at VIS called the short papers track. The idea was us to figure out how we read pie charts. The best model was the area model. There still are some complications because it's 3d.",
+      "gist": "Euroviz 2013: Short Papers",
+      "headline": "There was a new track this year at VIS called the short papers track",
+      "start": 2386510,
+      "end": 2511490,
+      "id": "ep_150_ch_14"
+    },
+    {
+      "summary": "There were also some other good perception papers, I think, that we wanted to look at. Jessica Hollman's paper called why authors don't visualize uncertainty. This is part of, of Jessica's program, together with Mat K and others, to work more on uncertainty in visualization.",
+      "gist": "Five reasons why authors don't visualize uncertainty",
+      "headline": "Jessica Hollman's paper explores why authors don't visualize uncertainty in visualization",
+      "start": 2511790,
+      "end": 2602810,
+      "id": "ep_150_ch_15"
+    },
+    {
+      "summary": "One of the main features of this year's vis has been a lot of, a lot more paper on visual perception and cognition. Think it's a great trend. There are lots of great people doing work in this space right now.",
+      "gist": "Visual Perception at VISC 2017",
+      "headline": "There's been a lot more research on visual perception and cognition this year",
+      "start": 2603590,
+      "end": 2770590,
+      "id": "ep_150_ch_16"
+    },
+    {
+      "summary": "Another great trend that has been going on for a while is visualization for machine learning. We had a couple of papers on fairness in machine learning, how to use visualization as a way to gauge understand fairness in visualization.",
+      "gist": "Machine Learning: Data visualization and fairness",
+      "headline": "Another trend that has been going on for a while is visualization for machine learning",
+      "start": 2771250,
+      "end": 2913356,
+      "id": "ep_150_ch_17"
+    },
+    {
+      "summary": "Tamara, you wanted to conclude with another mentioning a few visualization techniques. We didn't really talk about new visualization techniques, so maybe you want to mention some of them. There was lots of papers and everybody should go read them all.",
+      "gist": "Visualization at the Conference",
+      "headline": "Tamara: We didn't really talk about new visualization techniques",
+      "start": 2913388,
+      "end": 3033878,
+      "id": "ep_150_ch_18"
+    },
+    {
+      "summary": "So what has been new and remarkable at VIS this year? Robert, maybe you want to start? Yeah. The short papers are actually quite good. I completely changed my mind 180 degrees. It's pleasurable attending these shorter sessions.",
+      "gist": "What has been new and remarkable at Euroviz 2017? Short",
+      "headline": "Robert: Short papers are one of my favorites at VIS this year",
+      "start": 3033974,
+      "end": 3100120,
+      "id": "ep_150_ch_19"
+    },
+    {
+      "summary": "Another interesting trend was the number of preprints that went out on archive. There's definitely been a sea change in terms of open access sweeping over the field. One of the things I'm personally hoping we can make some forward progress on is getting a vis category in archive.",
+      "gist": "2017 Open Access Conference: Preprints and more",
+      "headline": "Another interesting trend was the number of preprints that went out on archive",
+      "start": 3101260,
+      "end": 3254574,
+      "id": "ep_150_ch_20"
+    },
+    {
+      "summary": "The three traditional conferences that were within viz have been basically completely merged in the sessions. Starting in 2021, there has been a vote that we will have something integrated across all of them. There will also be direct elections to the governance steering and executive committees for the first time.",
+      "gist": "VIS: Unifying the Data, Analytics, and Science",
+      "headline": "The three traditional conferences within viz have been completely merged in the sessions",
+      "start": 3254622,
+      "end": 3462420,
+      "id": "ep_150_ch_21"
+    },
+    {
+      "summary": "Robert: We're going to have links to the talk videos in the show, notes that you can watch the moment that you are hearing this podcast. One thing that might be worth mentioning is even for those that are not academics but practitioners. Next year, hope to see a mix of academics and practitioners.",
+      "gist": "Vip in Practice 2017",
+      "headline": "The videos were posted promptly for some, even that very day",
+      "start": 3464080,
+      "end": 3626120,
+      "id": "ep_150_ch_22"
+    },
+    {
+      "summary": "This show is crowdfunded and you can support us on patreon@patreon. com Datastories. You can also subscribe to our email newsletter to get news directly into your inbox. Let us know if you want to suggest a way to improve the show.",
+      "gist": "Data Stories",
+      "headline": "This show is crowdfunded and you can support us on patreon",
+      "start": 3630860,
+      "end": 3712500,
+      "id": "ep_150_ch_23"
+    }
+  ],
+  "disfluencies": false,
+  "entity_detection": false,
+  "sentiment_analysis": false,
+  "sentiment_analysis_results": null,
+  "entities": null,
+  "speakers_expected": null,
+  "summary": null,
+  "custom_topics_results": null,
+  "episode_num": 150,
+  "episode_metadata": {
+    "speakers": [
+      "Tamara Munzner",
+      "Enrico Bertini",
+      "Robert Kosara"
+    ],
+    "WPid": "1391",
+    "url": "https://datastori.es/podlove/file/5876/s/feed/c/mp3/datastories-150_48kHz.mp3",
+    "episode_title": "Highlights from IEEE VIS'19 with Tamara Munzner and Robert Kosara"
+  }
+}

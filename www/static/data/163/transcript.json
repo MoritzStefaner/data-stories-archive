@@ -1,0 +1,1122 @@
+{
+  "id": "9d1703f3-a7cd-4fb9-aac3-856bf447c27f",
+  "language_model": "assemblyai_default",
+  "acoustic_model": "assemblyai_default",
+  "language_code": "en_us",
+  "status": "completed",
+  "audio_url": "https://datastori.es/podlove/file/6808/s/feed/c/mp3/163-svelte-js-for-web-based-dataviz-with-amelia-wattenberger.mp3",
+  "utterances": [
+    {
+      "end": 12330,
+      "speaker": "Amelia Wattenberger",
+      "start": 160,
+      "text": "Asphalt is like this scrappy newcomer. All you need to know is it's gonna do this kind of reactive programming for you. And it's especially nice, in my opinion, for smaller applications and things like data visualization.",
+      "id": "ep_163_ut_0"
+    },
+    {
+      "end": 46270,
+      "speaker": "Moritz Stefaner",
+      "start": 31890,
+      "text": "Hi everyone. Welcome to a new episode of data stories. My name is Moritz Stefaner, and I'm an independent designer of data visualizations. In fact, I work as a self employed truth in beauty operator out of my office here in the countryside in the north of Germany.",
+      "id": "ep_163_ut_1"
+    },
+    {
+      "end": 54870,
+      "speaker": "Enrico Bertini",
+      "start": 46650,
+      "text": "And I am Enrico Bertini. I am a professor at New York University in New York City, and I do research and teach data visualization.",
+      "id": "ep_163_ut_2"
+    },
+    {
+      "end": 66930,
+      "speaker": "Moritz Stefaner",
+      "start": 55250,
+      "text": "That's right. And on this podcast, we talk about data visualization, data analysis, and generally the role data plays in our lives. Usually we do that together with the guests we invite on the show.",
+      "id": "ep_163_ut_3"
+    },
+    {
+      "end": 92572,
+      "speaker": "Enrico Bertini",
+      "start": 67470,
+      "text": "That's right. But before we start, just a quick note. Our podcast is listener supported, so there's no ads. So if you enjoyed the show, please consider supporting us with recurring payments on patreon.com Datastories, or if you prefer one time donations. That's very much appreciated as well. And you can go to PayPal Datastories.",
+      "id": "ep_163_ut_4"
+    },
+    {
+      "end": 111160,
+      "speaker": "Moritz Stefaner",
+      "start": 92756,
+      "text": "Yeah, we're always super happy whenever a donation arrives, no matter the size, the gestures is really appreciated. Keeps us going. As you know, we had a hard time putting out episodes this year, so any love you send across the ether will maybe keep us going better.",
+      "id": "ep_163_ut_5"
+    },
+    {
+      "end": 114140,
+      "speaker": "Enrico Bertini",
+      "start": 113500,
+      "text": "Yes.",
+      "id": "ep_163_ut_6"
+    },
+    {
+      "end": 145120,
+      "speaker": "Moritz Stefaner",
+      "start": 114260,
+      "text": "Cool. But let's dive in. In today's episode, the topic today is one that's very close and dear to my heart because I do a lot of like front end development and I like to code my visualizations and do interactive visualizations. And there's always the big, big question about the what's the best framework to do that? What's the best tooling, what's the hip new thing? And to discuss that and one specific framework called Sveltejs, we invited a real expert, Amelia Wattenberger. Hi, Amelia.",
+      "id": "ep_163_ut_7"
+    },
+    {
+      "end": 145974,
+      "speaker": "Enrico Bertini",
+      "start": 145160,
+      "text": "Hi, Amelia.",
+      "id": "ep_163_ut_8"
+    },
+    {
+      "end": 147354,
+      "speaker": "Amelia Wattenberger",
+      "start": 146152,
+      "text": "Thanks for having me.",
+      "id": "ep_163_ut_9"
+    },
+    {
+      "end": 152810,
+      "speaker": "Moritz Stefaner",
+      "start": 147482,
+      "text": "Yeah, thanks so much for joining us. Can you tell us a bit about yourself, your background, what you're doing now?",
+      "id": "ep_163_ut_10"
+    },
+    {
+      "end": 174870,
+      "speaker": "Amelia Wattenberger",
+      "start": 152970,
+      "text": "Yeah, my job title is journalist, engineer. I'm working at the pudding. We do data driven essays online. I mostly do client projects, and my background is I have almost a decade working in web development, more specifically as developer and designer on fairly large web dashboards.",
+      "id": "ep_163_ut_11"
+    },
+    {
+      "end": 181664,
+      "speaker": "Moritz Stefaner",
+      "start": 175920,
+      "text": "And you wrote a big book on data visualization with D3, I think, specifically, right?",
+      "id": "ep_163_ut_12"
+    },
+    {
+      "end": 188020,
+      "speaker": "Amelia Wattenberger",
+      "start": 181832,
+      "text": "Yeah, yeah, it's full stack D3 and data visualization a full mouthful.",
+      "id": "ep_163_ut_13"
+    },
+    {
+      "end": 192380,
+      "speaker": "Enrico Bertini",
+      "start": 189840,
+      "text": "It's a great book. I love it.",
+      "id": "ep_163_ut_14"
+    },
+    {
+      "end": 211382,
+      "speaker": "Amelia Wattenberger",
+      "start": 192920,
+      "text": "Thanks. Enrico. Yeah. It's trying to take you from not knowing D3 to creating complicated web data visualizations using D3. For even people who aren't familiar with programming, which as we were talking about before, it's a large book because it's.",
+      "id": "ep_163_ut_15"
+    },
+    {
+      "end": 298724,
+      "speaker": "Moritz Stefaner",
+      "start": 211406,
+      "text": "A large topic, there's a lot you have to know these days. And here we are with our today's topic because so many people know D3 and often people say like, yeah, interactive data visualization, you use D3 to do that. But the reality is actually a bit more complicated and by now people almost always use some extra application or development framework to build the complex websites that interactive visualizations often are. Right. And we could have a whole other episode about how crazy the complexity has spun out of control in this field. It seems really hard to just quickly build a website these days and I think there's a big barrier to entry because it seems so complex and intimidating. Right. And there's so many different frameworks out there and one framework toolkit we want to look at today is called Svelte J's. And I like it a lot. Like all my projects, like all the interactive projects this year have been built with Svelte and I've been very, very happy with it. So I'm super excited to talk about it and sort of compare it to other approaches, maybe like react or vue. These are all other frameworks you could use and I think the first question probably would be, yeah, what are these most common frameworks, how are they the same or different? Like what's the current landscape of tools, Amelia, that we have at our disposal there?",
+      "id": "ep_163_ut_16"
+    },
+    {
+      "end": 405284,
+      "speaker": "Amelia Wattenberger",
+      "start": 298892,
+      "text": "Yeah. So for this I wanted to give a little bit of a background for people who aren't familiar with JavaScript frameworks and hopefully I can do it justice. So back in the day we used to hard code our websites. Everything on the website we wrote by hand, back in the artisanal days of web development. And we would write everything that you see on the web page and this code would be very declarative, as in it would describe every single thing that's on the page. And over time we wanted websites to be more interactive and we wanted them to change based on data or based on interactions with the page. So we started using things like jquery and D3. And these libraries are there so that once the web page loads you can change it. So you can say delete everything in this part of the webpage and then draw a circle in this place and then go over here and draw a circle over here. This is kind of how D3 will work a lot of the time where you say here's the data, now do all these things. And that code is a little bit more imperative, as in you would describe every step that the computer has to do in order to populate the web page. And imperative code is a little bit less fun to write because you have to, there's like five steps for every line of declarative code. So in order to draw a circle, you'd say go over here, draw an arc, that kind of thing, step by step. And then where JavaScript brings, it's a.",
+      "id": "ep_163_ut_17"
+    },
+    {
+      "end": 415036,
+      "speaker": "Moritz Stefaner",
+      "start": 405292,
+      "text": "Lot of commands that are executed in order. Basically you'd have to tell the computer every single thing, whatever needs to be done when the user clicks a button or whatever.",
+      "id": "ep_163_ut_18"
+    },
+    {
+      "end": 472576,
+      "speaker": "Amelia Wattenberger",
+      "start": 415228,
+      "text": "Yeah, exactly. And it can be really painful to maintain and write, especially for the large web applications that we have today, like the dashboards I was working on. So then nowadays we have all these JavaScript frameworks which allow you to write declarative code. So you're kind of writing HTML, but you're writing it in JavaScript so that when data changes you can say add this HTML to the page, but you're not writing out each step. And there's tons of ways these JavaScript frameworks help. You're basically not going to find a complicated web application that's not using a JavaScript framework because it's that much easier. And these frameworks are things like React JS, Vue JS, Angularjs, those are the really big ones, and svelte js, which we're going to talk about today.",
+      "id": "ep_163_ut_19"
+    },
+    {
+      "end": 525262,
+      "speaker": "Moritz Stefaner",
+      "start": 472768,
+      "text": "Yeah, and that's been a big change. I still remember I was building websites with coffeescript and backbone, and we always had these problems, like these bug descriptions, like when I first click here and then I click there, but then when I go back, then the chart disappears and we were like, now we have to reproduce all these steps to find the bug. And in these new frameworks it's more like you have an abstract description of the state of the web application, and whenever you draw that state, it just looks the same, it's always the same abstract state will result in the same application state for the user. That's such a huge difference. There was a huge game changer, I think, 20 1516 around, and now that came with react, and now we have much more frameworks that use the same idea, basically.",
+      "id": "ep_163_ut_20"
+    },
+    {
+      "end": 525878,
+      "speaker": "Amelia Wattenberger",
+      "start": 525446,
+      "text": "Yeah.",
+      "id": "ep_163_ut_21"
+    },
+    {
+      "end": 540142,
+      "speaker": "Moritz Stefaner",
+      "start": 525934,
+      "text": "And so how is that called? Like when you render the state, it's like isomorphic, or there's a technical term, I don't know but it's so much sharper. Yeah, it's cool, it just works. Game changer, right?",
+      "id": "ep_163_ut_22"
+    },
+    {
+      "end": 540910,
+      "speaker": "Amelia Wattenberger",
+      "start": 540166,
+      "text": "Yeah, it's called magic.",
+      "id": "ep_163_ut_23"
+    },
+    {
+      "end": 549748,
+      "speaker": "Moritz Stefaner",
+      "start": 540950,
+      "text": "And now on top of that, now we have reactive programming, right? I, so, and this is where react and svelte come in.",
+      "id": "ep_163_ut_24"
+    },
+    {
+      "end": 558348,
+      "speaker": "Amelia Wattenberger",
+      "start": 549924,
+      "text": "Yeah. So reactive programming and react is kind of a misnomer here where it's not super reactive, not so reactive. That's true.",
+      "id": "ep_163_ut_25"
+    },
+    {
+      "end": 560180,
+      "speaker": "Moritz Stefaner",
+      "start": 558444,
+      "text": "It's only semi reactive.",
+      "id": "ep_163_ut_26"
+    },
+    {
+      "end": 639284,
+      "speaker": "Amelia Wattenberger",
+      "start": 560300,
+      "text": "It's semi reactive. So reactive programming is like, so there's kind of a natural flow of data for every bit of JavaScript that is written. So an example I use is say in our code variable a ten. And then after that somewhere we have a new variable, b equals a plus five. So now b is 15, but say that later we change a to be 20. We don't automatically rewrite or re execute the code above saying b is a plus five. So then b is still 15. And it can be really frustrating knowing which parts of the code you have to manually update as opposed to our code, just knowing what variables depend on other variables. So reactive programming will tag like what variables depend on other ones and keep track of the natural flow of the data within that JavaScript so that you could define B to OSB a five so that you don't have to go back and re execute any code that updates B. So it can be really nice for writing your code. So you're not always manually updating certain variables.",
+      "id": "ep_163_ut_27"
+    },
+    {
+      "end": 654756,
+      "speaker": "Moritz Stefaner",
+      "start": 639452,
+      "text": "Yeah, and you don't have to tell the machine every single little step, but you just define on, okay, this is how things depend on each other and you figure out the order of updates or if something needs to be updated, which is of course much nicer.",
+      "id": "ep_163_ut_28"
+    },
+    {
+      "end": 658426,
+      "speaker": "Amelia Wattenberger",
+      "start": 654908,
+      "text": "Yeah. Computers are smarter than, than us anyway. Let them do it.",
+      "id": "ep_163_ut_29"
+    },
+    {
+      "end": 692580,
+      "speaker": "Moritz Stefaner",
+      "start": 658458,
+      "text": "They should be good with numbers. Let them do this part exactly. In a visualization you can already see how that's great because maybe you have a chart and you have a year slider and you change the year, then of course you want to show the data just for that year. And if you have a function that just pulls out of a bigger data set, just the data that corresponds to the year slider's value and put that into a chart, boom, the thing updates. And that's also, I think, how it's fun to think about these things and not so much about how exactly it needs to be done.",
+      "id": "ep_163_ut_30"
+    },
+    {
+      "end": 693480,
+      "speaker": "Amelia Wattenberger",
+      "start": 692740,
+      "text": "Yeah.",
+      "id": "ep_163_ut_31"
+    },
+    {
+      "end": 706580,
+      "speaker": "Enrico Bertini",
+      "start": 693900,
+      "text": "A useful metaphor that I've seen, I think probably in observable is that it's very similar to the way spreadsheets work. Right. I think that's something that most people can relate to.",
+      "id": "ep_163_ut_32"
+    },
+    {
+      "end": 726620,
+      "speaker": "Moritz Stefaner",
+      "start": 706620,
+      "text": "If you change Excel was the future all along. Some people will be very happy that Excel is actually, it's been right for decades already, but that's the same. You have a formula and you change the inputs of the formula, it will automatically update. It makes sense, you know?",
+      "id": "ep_163_ut_33"
+    },
+    {
+      "end": 740320,
+      "speaker": "Amelia Wattenberger",
+      "start": 728640,
+      "text": "Yeah. Excel is interesting because it doesn't have an order. So when you're writing JavaScript, you have like, this is on line two, this is on line three. But Excel's like, we're going to do all of it at once. Yeah, it's kind of crazy.",
+      "id": "ep_163_ut_34"
+    },
+    {
+      "end": 758228,
+      "speaker": "Moritz Stefaner",
+      "start": 740440,
+      "text": "Yeah, and it's kind of crazy how they came up with that in the eighties. I think Visicalc probably had it already, so probably, yeah, yeah. Anyways, back to present day. So now we have that background. So can you tell us more about Svelte js and what it is and how it works?",
+      "id": "ep_163_ut_35"
+    },
+    {
+      "end": 780580,
+      "speaker": "Amelia Wattenberger",
+      "start": 758364,
+      "text": "Yeah, so Svelte js is it's kind of a newcomer. It's, I think it's about four years old. But the last big release, Svelte three, came out last year in 2019. The creator of it is Rich Harris, who is a graphics editor at the New York Times. Kind of a similar job that Mike Bostock, the creator of D3, had for a while.",
+      "id": "ep_163_ut_36"
+    },
+    {
+      "end": 787568,
+      "speaker": "Moritz Stefaner",
+      "start": 781680,
+      "text": "And so we have to thank New York Times again, I think, for enabling such cool tools.",
+      "id": "ep_163_ut_37"
+    },
+    {
+      "end": 926936,
+      "speaker": "Amelia Wattenberger",
+      "start": 787624,
+      "text": "Yeah, yeah, yeah. I have a pet theory for why they have such great tools, but we can save that for another time. And Svelte three is it was when Svelte went to a more reactive paradigm. So it was kind of like the birth of svelte as we know it. So it's really only a year old, which is why it's a lot smaller user base. Usually you're going to see big web applications using react or angular. And svelte is kind of like this scrappy newcomer, and it's especially nice, in my opinion, for smaller applications and things like data visualization. And svelte is reactive. So basically the way it works is it has this event loop, and if you change a variable, it'll keep track of the variables that are changed in this changed object. It'll just add it, and then at the end of the event loop it'll call an invalidate function so that it knows all of the things that it needs to update, that rely on that one variable. A little bit complicated, but all you need to know is it's going to do this kind of reactive programming for you so that you can say, filter a list and say this filtered list is this list with these things filtered out, and you never have to worry about updating that it'll update itself. So things like that can be really, really nice. One other thing is this is the case with all JavaScript frameworks, but it's kind of really the big difference between coding data visualizations with and without a JavaScript framework is that things are very component based. So instead of writing this long piece of JavaScript, you can break it out into four data visualizations. Like I'll have a line component, so the line itself is its own component and then an axis is its own component, and then these things are all reusable. So I can use a line component that I used in one project and pull it to another project or even have it multiple times in the same chart. So it really changes the way you think about your charts. And again, it's that imperative to declarative shift. That's really nice.",
+      "id": "ep_163_ut_38"
+    },
+    {
+      "end": 983780,
+      "speaker": "Moritz Stefaner",
+      "start": 927128,
+      "text": "And I think a lot of frameworks come with that promise that you can reuse stuff across projects. But for me it only worked with svelte because for instance, in react, in theory that's the same, but then so you have style sheets that define how things are styled and look. And in react, by default they're not coupled with the components might have them externally, so these things might break when you just copy the source code over. And also you use so many advanced ways to connect your react components that it's never the same in any given project. And for me it only worked in svelte that it would just take or have that thought, like oh, I programmed that selection list already, or that year slider, I just copied over it, it actually works. And I was like oh, this is great, because it sort of svelte forces you to put everything you need for one component into one file. So it's just one file, not multiple files, and you clearly define what are the inputs and what are the outputs. There you go.",
+      "id": "ep_163_ut_39"
+    },
+    {
+      "end": 1035050,
+      "speaker": "Amelia Wattenberger",
+      "start": 984520,
+      "text": "Yeah, I totally agree. And one of the biggest differences is svelte feels very respectful of the web and like the native languages that we use on the web, where if you look at a svelte component, it has a script tag for the JavaScript and then it has pretty much raw HTML and then it has the style tag, whereas in react the styles are usually in a different file and then the HTML that you're rendering is, it's just another syntax for basically JavaScript. And in a lot of ways feels like you're writing JavaScript, but then in svelte it's like you're really just writing the HTML that'll be on the page and it's, it's kind of subtle, but it feels very different, at least to me.",
+      "id": "ep_163_ut_40"
+    },
+    {
+      "end": 1046930,
+      "speaker": "Moritz Stefaner",
+      "start": 1035590,
+      "text": "That's a great point. Yeah, I think react tries to make everything JavaScript also styles should be JavaScript, objects and everything JavaScript. And that's also where it sort of breaks sometimes. Yeah, yeah, yeah.",
+      "id": "ep_163_ut_41"
+    },
+    {
+      "end": 1060070,
+      "speaker": "Amelia Wattenberger",
+      "start": 1047230,
+      "text": "And for newcomers, like people who are new to the web or new to a project, it can be really confusing when you're like, okay, CSS, but it's actually JavaScript. I don't know what either of these things.",
+      "id": "ep_163_ut_42"
+    },
+    {
+      "end": 1063530,
+      "speaker": "Moritz Stefaner",
+      "start": 1060110,
+      "text": "How many brackets? How many brackets? Just tell me how many brackets.",
+      "id": "ep_163_ut_43"
+    },
+    {
+      "end": 1064970,
+      "speaker": "Amelia Wattenberger",
+      "start": 1063950,
+      "text": "Yeah, exactly.",
+      "id": "ep_163_ut_44"
+    },
+    {
+      "end": 1081446,
+      "speaker": "Moritz Stefaner",
+      "start": 1068510,
+      "text": "It's tough. And so let's say, how about a typical structure of a data visualization project in Svelte look like, can you describe how you would set it up? Like let's say a little line chart or some map or whatever?",
+      "id": "ep_163_ut_45"
+    },
+    {
+      "end": 1148962,
+      "speaker": "Amelia Wattenberger",
+      "start": 1081518,
+      "text": "Yeah, that's a great question. So I'll usually sketch the chart and then I'll separate it into separate parts. So the axis will be one part, an x axis will be another part, the line will be one part, there's like a legend or there's filters and toggles, and these are each different parts. So that the main svelte component is just piecing these things together and passing the data to each of these components. So a chart will look a lot like HTML, but then you'll have these custom slot components that just look like custom HTML tags that are like axis and axis and line in line or something like that. And then the biggest thing I think people, the biggest problem people run into is combining JavaScript frameworks with D3 j's, because they'll see these d through js examples online, say it's a line chart, and they'll say, how do I copy paste this into my code? I just want a line chart.",
+      "id": "ep_163_ut_46"
+    },
+    {
+      "end": 1150110,
+      "speaker": "Moritz Stefaner",
+      "start": 1149106,
+      "text": "Exactly.",
+      "id": "ep_163_ut_47"
+    },
+    {
+      "end": 1222156,
+      "speaker": "Amelia Wattenberger",
+      "start": 1151490,
+      "text": "But the problem is that D3 and svelte both want to change the layout of the webpage, or what's called the dom. And with D3, the examples, you'll see they'll have an svg element, and then D3 will use JavaScript to update what's within that svg element, whereas in svelte you would be writing that declaratively. So there's all kinds of roundabout ways that feel kind of hacky, where you can kind of switch off to let D3 change what's in the web page. But my favorite way is to just use D3 as kind of a utility library. It's great for all kinds of things, like manipulating data and I turning data into shapes on the dom, that kind of thing, and then just letting svelte render the entire chart. It just makes things a lot easier to handle as opposed to like, oh, inside this weird container, D3 is going to do some stuff, but maybe figure that out later.",
+      "id": "ep_163_ut_48"
+    },
+    {
+      "end": 1277200,
+      "speaker": "Moritz Stefaner",
+      "start": 1222308,
+      "text": "Yeah, that's been a tough decision for many years, like, who's in the driver's seat? Can D3 change? Or do you just use the scales and the colors of whatever, but then you lose all the interesting, like the nice animations and transitions, which are really cool in D3. And that was always a big issue with react, because again, this idea that the same application state would result in the same basic doms, like the Dom and the same image, that's sort of totally opposed to cool, smooth game, like, you know, real time graphics and animations and transitions, that's a bit difficult to deal with. And I think by now it's clear. Yeah, people want to have that nice component structure and this really nice way to structure applications. And we have to think about other ways to do the animations and the transitions then to change everything on the fly all the time.",
+      "id": "ep_163_ut_49"
+    },
+    {
+      "end": 1358990,
+      "speaker": "Amelia Wattenberger",
+      "start": 1280060,
+      "text": "Yeah. This is one thing actually svelte is really good at, is it has built in animations and transitions. Like, you can just import it from Svelte and then throw it on one of your elements and it'll fade it in or move it really smoothly. And it's a lot nicer than the experience in react where those aren't built in. And this is partially because a large part of the philosophy behind Svelte is it'll, the way react works is it'll ship a large bundle of JavaScript to the browser for any react app. They call this the runtime. And it's basically just, these are the things that are react, and we need to ship them with your project in order to make it interactive. Svelte, I think, used to call itself the magical disappearing framework or something, which I think they've dropped, but it's basically they'll take out any parts of the framework that you aren't using in your app, and then it'll be a much smaller bundle size, so they can afford to build in things like interactions and animations in the library that a lot of websites might not use, but then they don't need to include those in the JavaScript bundle.",
+      "id": "ep_163_ut_50"
+    },
+    {
+      "end": 1386790,
+      "speaker": "Moritz Stefaner",
+      "start": 1359070,
+      "text": "Yeah, it actually changes all of your code, basically. So it just adds all the reactiveness to wherever it's necessary right. And there's no extra library you need to load to run it, and that makes it very small. Also, like a typical svelte project is maybe 100k or 200k in source code, and a typical react project, I would say often a megabyte actually, which is ten times that. Yeah.",
+      "id": "ep_163_ut_51"
+    },
+    {
+      "end": 1400790,
+      "speaker": "Enrico Bertini",
+      "start": 1388490,
+      "text": "So what would be your criteria to decide whether to go with Svelte or react? Are there any guidance people can use?",
+      "id": "ep_163_ut_52"
+    },
+    {
+      "end": 1491672,
+      "speaker": "Amelia Wattenberger",
+      "start": 1401310,
+      "text": "Yeah, it can be really confusing too, when you're deciding between them. For the work I've been doing at the pudding, Svelte is perfect for a lot of reasons. One is that you might be working with a freelancer who is not as familiar with JavaScript, so it's really easy for them to onboard and code with you on a project. Another reason is like smaller web apps, kind of like the pudding does, where they're usually one page or a few pages. You really want that JavaScript bundle to be pretty small, and Svelte lends itself really nicely to that kind of project. I think still, if I were to start a really large, complicated web application, I would probably reach for React. There's kind of this trade off for different frameworks between having a lot of magic, where it's doing a lot of things for you, like the reactivity, and on the other side giving the user total control, and they're not that different. But svelte falls further towards the magic end and react falls further towards the user control end. And it can be a little bit confusing if a lot of things are changing a variable and you have a bug and you're like, I don't even know, I have no idea who is changing this. Yeah, that's totally true.",
+      "id": "ep_163_ut_53"
+    },
+    {
+      "end": 1492448,
+      "speaker": "Moritz Stefaner",
+      "start": 1491736,
+      "text": "Yeah, yeah.",
+      "id": "ep_163_ut_54"
+    },
+    {
+      "end": 1506620,
+      "speaker": "Amelia Wattenberger",
+      "start": 1492544,
+      "text": "And I've definitely run into that, even with smaller applications. So it can be really confusing with something that's doing a lot more for you, but it's harder to figure out what is going on.",
+      "id": "ep_163_ut_55"
+    },
+    {
+      "end": 1595610,
+      "speaker": "Moritz Stefaner",
+      "start": 1507360,
+      "text": "I would also say, let's say you build a big internal tool, like an internal dashboard, and it's going to be maintained for years, and it really takes a lot of data. React is still the best choice. It's just a bit. That's the funny thing, react has actually become Java in a way that's react native. It's really like testing is super supported, it has had x major versions already, everybody relies on it, so it's this big ship, and Svelte is more the fun speedboat for the smaller projects. Go wild and just add code and it all still works and you add more stuff and you just try things out. And I think Svelte is super cool for that. And we had projects also where we said we just take the svelte prototype just to develop the design, and then we see what to do with it. Because you're so agile and so quick, you can still copy the logic over to some other framework once you have figured out what to do. The tricky part is often figuring out what to do. And that works so well if you just drop in a few components, a few sliders and a button, and see what happens when you do these things. And so for prototyping, I think it's perfect. And just one of websites also, it's like, yeah, super cool. Other drawbacks, we are both super positive about svelte, but do we have to admit, do we have to admit, begrudgingly, that there are some drawbacks?",
+      "id": "ep_163_ut_56"
+    },
+    {
+      "end": 1630494,
+      "speaker": "Amelia Wattenberger",
+      "start": 1597240,
+      "text": "I love the boat analogy because they're kind of inherent trade offs between, you know, a large cruiser, I don't know what boats are called, and a speedboat, where with react, you have this really large community that's creating third party components you can use. There's examples, there's blog posts and tutorials. People have opinions. If you look on stack overflow, you're going to find an answer for pretty much any problem you have. Whereas with svelte, it's newer and the community's smaller, so it's really zippy.",
+      "id": "ep_163_ut_57"
+    },
+    {
+      "end": 1632262,
+      "speaker": "Moritz Stefaner",
+      "start": 1630582,
+      "text": "It's the hipster choice, you know?",
+      "id": "ep_163_ut_58"
+    },
+    {
+      "end": 1640966,
+      "speaker": "Amelia Wattenberger",
+      "start": 1632326,
+      "text": "Yeah, yeah, exactly. But react started as the hipster choice, so it's just this life cycle of frameworks.",
+      "id": "ep_163_ut_59"
+    },
+    {
+      "end": 1693940,
+      "speaker": "Moritz Stefaner",
+      "start": 1641158,
+      "text": "True, true, yeah. Until the gentrification kicks in, we have to move again. Yeah, that's true. I mean, the plugin landscape and so on, it's really, it's different for react on the other, I think maybe that's also, again, like a positive that you don't get hung up in all these extra plugins and add even more code and more dependencies. But you just maybe try, you know, if there is no carousel component, you think, like, maybe it doesn't have to be a carousel, we can just do a grid, you know? And I think it can be helpful to just have simple tools, straightforward tools, and just work with those and not. That's the kid in the candy store effect. Sometimes if you're just like, oh, I need a tooltip, and I need a drop down, and I need a. And then you add all the stuff and you have these huge sluggish apps. Right.",
+      "id": "ep_163_ut_60"
+    },
+    {
+      "end": 1696128,
+      "speaker": "Amelia Wattenberger",
+      "start": 1695080,
+      "text": "Too much game.",
+      "id": "ep_163_ut_61"
+    },
+    {
+      "end": 1744740,
+      "speaker": "Moritz Stefaner",
+      "start": 1696304,
+      "text": "Yeah, yeah, yeah. So that's, I think, why, yeah, I hope we have some overview by now, like how that works. It's always hard to talk about these practical programming things in a podcast without like really, really doing it. But we hope you have some idea. You might wonder, why make things so complicated? And I think that's a complaint. I hear often that it has become so hard to just simply build a website or simply quickly program something in JavaScript. Why are things so complicated, Amelia? Does it have to be like that? Do you think it's going to change again? Or where do you see this whole development landscape headed?",
+      "id": "ep_163_ut_62"
+    },
+    {
+      "end": 1820554,
+      "speaker": "Amelia Wattenberger",
+      "start": 1745520,
+      "text": "Yeah, you see a lot of people lamenting on Twitter for, oh, the web is so complicated. I can't just make a simple web app, but I think it's a little bit misguided. You can still create the websites that we made in the nineties and it's easier now, it's just nobody wants to, it just maybe won't look like all of the other websites. And I don't know, there's a nice spectrum of like. So at the pudding, I think about half of the projects will just be vanilla JavaScript using D3, and they're really bare bones and they're being hand coded and they come out as really great projects. And then the other half are using Svelte and you just have these trade offs of like, I want tooltips, and if you're using svelte, you can just drag in this tooltip component. But if you're using this vanilla JavaScript app or HTML app, you're going to have to figure out that code and it's going to be a little bit messier. So if you want just this bare bones website, you can do that and it's going to be easier than ever to create that.",
+      "id": "ep_163_ut_63"
+    },
+    {
+      "end": 1827406,
+      "speaker": "Moritz Stefaner",
+      "start": 1820722,
+      "text": "That has also become easier, just for the record, because there's so many tools where just write markdown or something and publish it. There you go.",
+      "id": "ep_163_ut_64"
+    },
+    {
+      "end": 1888194,
+      "speaker": "Amelia Wattenberger",
+      "start": 1827558,
+      "text": "Yeah, yeah, exactly. But like, I personally get really excited. One of the reasons I really like working at the pudding is I feel like we had newspapers and they were printed and then we put them online and we're like, all right, these are news sites, this is great. Now we have newspapers that anyone can look at, but it's like there's so much you can do with the web browser. Like we have all these sensors, like location sensors and we have cameras, and maybe a new site isn't appropriate for that kind of thing, but even if you're not using those sensors, there's so much we can do with web browsers. I feel like just putting articles online isn't really doing it justice. So I think it's really exciting that there are these tools like svelte that really make the easier bits easier and then leave you space to kind of innovate on format of articles and database.",
+      "id": "ep_163_ut_65"
+    },
+    {
+      "end": 1899282,
+      "speaker": "Moritz Stefaner",
+      "start": 1888242,
+      "text": "Yeah. And you can put it the other way around, say, like, it has never been easier to actually build complex applications because this is what we do. Right. And that part has actually always been tough. And I think by now it's actually easier.",
+      "id": "ep_163_ut_66"
+    },
+    {
+      "end": 1900874,
+      "speaker": "Amelia Wattenberger",
+      "start": 1899426,
+      "text": "So, yeah, yeah.",
+      "id": "ep_163_ut_67"
+    },
+    {
+      "end": 1917242,
+      "speaker": "Moritz Stefaner",
+      "start": 1901042,
+      "text": "People just expect so much. You know, we have all these devices, there's responsiveness. People want to share websites, I don't know, they want to bookmark states in the website. You know, everything's interactive, everything should be animated, accessible. You know, accessibility is huge.",
+      "id": "ep_163_ut_68"
+    },
+    {
+      "end": 1917578,
+      "speaker": "Amelia Wattenberger",
+      "start": 1917306,
+      "text": "No?",
+      "id": "ep_163_ut_69"
+    },
+    {
+      "end": 1924350,
+      "speaker": "Moritz Stefaner",
+      "start": 1917634,
+      "text": "And it's like the expectations are also just huge by now in terms of how rich these experiences should be.",
+      "id": "ep_163_ut_70"
+    },
+    {
+      "end": 1927874,
+      "speaker": "Enrico Bertini",
+      "start": 1925130,
+      "text": "And you have lots of different devices, by the way, right?",
+      "id": "ep_163_ut_71"
+    },
+    {
+      "end": 1928202,
+      "speaker": "Moritz Stefaner",
+      "start": 1927922,
+      "text": "Oh, yeah.",
+      "id": "ep_163_ut_72"
+    },
+    {
+      "end": 1930002,
+      "speaker": "Enrico Bertini",
+      "start": 1928226,
+      "text": "You also have to take care of that, right?",
+      "id": "ep_163_ut_73"
+    },
+    {
+      "end": 1931030,
+      "speaker": "Moritz Stefaner",
+      "start": 1930066,
+      "text": "Absolutely.",
+      "id": "ep_163_ut_74"
+    },
+    {
+      "end": 1960000,
+      "speaker": "Amelia Wattenberger",
+      "start": 1932010,
+      "text": "Yeah. It's kind of funny, the different expectations people have for websites is like, I'll work on a project for a few weeks and then some people will be like, okay, that took you a few weeks, and then other people will be like, I can't believe you made that all yourself. And so, like, you can make a website that has like filters, sharing, bookmarks, and like, this is still a lot of work, but like, yeah, like people either really expect it or they're really impressed.",
+      "id": "ep_163_ut_75"
+    },
+    {
+      "end": 1968040,
+      "speaker": "Moritz Stefaner",
+      "start": 1961420,
+      "text": "It's funny, we still have a lot of explaining to do about what we actually do all day.",
+      "id": "ep_163_ut_76"
+    },
+    {
+      "end": 1983380,
+      "speaker": "Enrico Bertini",
+      "start": 1971640,
+      "text": "So Amelia, if somebody wants to now is excited, wants to try it out and never did it before, what would be the best way to give it a try?",
+      "id": "ep_163_ut_77"
+    },
+    {
+      "end": 1996616,
+      "speaker": "Amelia Wattenberger",
+      "start": 1983720,
+      "text": "Yeah, for svelte, because it's so new, there aren't too many resources. But on the flip side, the tutorial on their official website is really, really good.",
+      "id": "ep_163_ut_78"
+    },
+    {
+      "end": 1998272,
+      "speaker": "Moritz Stefaner",
+      "start": 1996688,
+      "text": "It's really good, yeah, yeah.",
+      "id": "ep_163_ut_79"
+    },
+    {
+      "end": 2019612,
+      "speaker": "Amelia Wattenberger",
+      "start": 1998296,
+      "text": "It's interactive. You can code in the browser, it'll teach you different concepts step by step, and it'll get you started right away. It definitely has one of the best new developer learning experiences. So on svelte dot de v, just go to the tutorial. It's really great, Mart. It sounds like you've gone through it.",
+      "id": "ep_163_ut_80"
+    },
+    {
+      "end": 2072048,
+      "speaker": "Moritz Stefaner",
+      "start": 2019716,
+      "text": "Yeah, I love it. And also the fact that you can just change the code in the browser and see the result immediately, and it's sort of, you always get a little lesson about this is how things work as well. Now try it out on the right hand side. Make this slide, and now work or something like this, and it's seamless. And within a few hours, you have a really, really good idea of how working with svelte feels like. And we should mention that there's this repl, like the repl. So that's like an online or in browser runtime for svelte, where you can just change code. And so it is very close then to platforms like Codepen or codesandbox or observable, where you can, can just, in the browser quickly try out stuff and send people also a link to that and say, like, why does it work? I don't know. You know, and that, again, is so simple and straightforward that it's really enjoyable to fix problems with that.",
+      "id": "ep_163_ut_81"
+    },
+    {
+      "end": 2119280,
+      "speaker": "Amelia Wattenberger",
+      "start": 2072104,
+      "text": "Yeah, yeah, it really is. And then the next step is how do I make a larger, like, how do I glue together different components? How do I structure a web application? I have this website, svelte recipes. It doesn't have too many recipes, but I plan on building it out. And it has the base I would use for creating a chart where you're grabbing the data, you're creating your scales, you're splitting it into separate components when you're rendering it. There is also an icon component that I use for all of my projects. Icons are great. You should use them, but you often don't because they're hard to deal with.",
+      "id": "ep_163_ut_82"
+    },
+    {
+      "end": 2125076,
+      "speaker": "Moritz Stefaner",
+      "start": 2120940,
+      "text": "No, I found that really helpful. Also the recipes website. So definitely check it out.",
+      "id": "ep_163_ut_83"
+    },
+    {
+      "end": 2131452,
+      "speaker": "Enrico Bertini",
+      "start": 2125148,
+      "text": "Yeah, I have a project for the weekend. It's really cool.",
+      "id": "ep_163_ut_84"
+    },
+    {
+      "end": 2143410,
+      "speaker": "Moritz Stefaner",
+      "start": 2131516,
+      "text": "Yeah, there's a svelte podcast called Svelte Radio. So if you. Yeah, if you're into podcasts about data visualization and coding. I don't know. Of course.",
+      "id": "ep_163_ut_85"
+    },
+    {
+      "end": 2150610,
+      "speaker": "Amelia Wattenberger",
+      "start": 2145150,
+      "text": "Yeah, they do a good job, and they have rich on. So if you want to hear from the creator himself.",
+      "id": "ep_163_ut_86"
+    },
+    {
+      "end": 2188990,
+      "speaker": "Moritz Stefaner",
+      "start": 2151230,
+      "text": "True, true. Yeah. There's one talk I also enjoyed by Matthias Stahl. He's on Twitter, and he has, like a 40 something minutes talk about how he built a whole complex data visualization site in svelte. And I found that very interesting because so rarely you see how a whole project is set up, and, you know, and he published also all the code. So for me, it was super helpful to understand how somebody would structure a whole application, how they handle the tooltips and whatnot and the cookie banner and, you know, all these nitty gritty things that need to come together. And I found that really helpful as well.",
+      "id": "ep_163_ut_87"
+    },
+    {
+      "end": 2201454,
+      "speaker": "Amelia Wattenberger",
+      "start": 2189330,
+      "text": "Yeah, I really like this one, too, because there's other talks that I've seen where they do the more hacky way of combining the D3 and svelte. And I really like the way Mathias does it in this video.",
+      "id": "ep_163_ut_88"
+    },
+    {
+      "end": 2239118,
+      "speaker": "Moritz Stefaner",
+      "start": 2201622,
+      "text": "Yeah, it's well done. Finally. I really also enjoyed working with layer cake. So it's a little framework for what Amelia described before. So every chart, most charts have some axes and some legends and some tooltips and whatnot, and it's really just a simple way to structure all these things and to share some information between them. Like when the size of a container changes. Oh, yeah, that's very easy to detect in Svelte, by the way. When the size of a container changes. It's a huge pain to do that in JavaScript normally, and you just get that for free, then you would then change the words, right?",
+      "id": "ep_163_ut_89"
+    },
+    {
+      "end": 2240890,
+      "speaker": "Amelia Wattenberger",
+      "start": 2239214,
+      "text": "Yeah, that's so nice, that's so nice.",
+      "id": "ep_163_ut_90"
+    },
+    {
+      "end": 2252172,
+      "speaker": "Moritz Stefaner",
+      "start": 2242710,
+      "text": "And so it's all these little helpers that you find along the way that you really feel like, okay, that's a. I'll add that to my workbench and play with it somewhere.",
+      "id": "ep_163_ut_91"
+    },
+    {
+      "end": 2271500,
+      "speaker": "Amelia Wattenberger",
+      "start": 2252316,
+      "text": "Yeah. I feel like a lot of it comes from the fact that Rich Harris is doing data visualization, is he's really sympathetic to the struggles that we go with with visualizing data on the web, so he adds these really fun things like animations and figuring out the size of components on the webpage. It's so nice.",
+      "id": "ep_163_ut_92"
+    },
+    {
+      "end": 2303618,
+      "speaker": "Moritz Stefaner",
+      "start": 2271660,
+      "text": "Yeah, see, but that's really funny because I think D3 was explicitly also branded as a data visualization toolkit. And incidentally, it also could be used to manipulate the whole Dom and everything, but it was always clear it's for Dataviz and svelte seems actually much more suited, but they market it more like, oh, it's a generic, whatever you want to do framework, but I also feel it ticks all the boxes for what Datavis folks are looking for. Right?",
+      "id": "ep_163_ut_93"
+    },
+    {
+      "end": 2309628,
+      "speaker": "Amelia Wattenberger",
+      "start": 2303794,
+      "text": "Yeah, yeah, for sure, yeah, yeah. Also D3 is like ten years old now, so.",
+      "id": "ep_163_ut_94"
+    },
+    {
+      "end": 2313204,
+      "speaker": "Moritz Stefaner",
+      "start": 2309764,
+      "text": "Oh yeah, what? Old?",
+      "id": "ep_163_ut_95"
+    },
+    {
+      "end": 2314440,
+      "speaker": "Amelia Wattenberger",
+      "start": 2313372,
+      "text": "Yeah, I know.",
+      "id": "ep_163_ut_96"
+    },
+    {
+      "end": 2318028,
+      "speaker": "Moritz Stefaner",
+      "start": 2316380,
+      "text": "I thought it's the cool new thing.",
+      "id": "ep_163_ut_97"
+    },
+    {
+      "end": 2323708,
+      "speaker": "Amelia Wattenberger",
+      "start": 2318124,
+      "text": "Damn it. It's still cool though. Like you don't, it is, you don't see how many things lasting.",
+      "id": "ep_163_ut_98"
+    },
+    {
+      "end": 2359600,
+      "speaker": "Moritz Stefaner",
+      "start": 2323764,
+      "text": "Yeah, yeah, yeah, yeah, yeah. And it's developed further and everything, so internally also a lot has changed. Right. So it adopts all the new JavaScript stuff, but I think what didn't hold up so well, it's like to use it for a whole application and do everything in these three, because that just drives you bonkers. And I think everybody agrees it's just the coolest toolkit library or. Yeah, like where you pick and choose the color functions and the projections and the scales and whatnot. Whatever you need, but you combine it somewhere else. Maybe that's the big learning.",
+      "id": "ep_163_ut_99"
+    },
+    {
+      "end": 2370106,
+      "speaker": "Amelia Wattenberger",
+      "start": 2359720,
+      "text": "I think even any chart library you'll find for web dataviz, it's going to have D3 under the hood. You need to learn it if you're going to do data visualization online.",
+      "id": "ep_163_ut_100"
+    },
+    {
+      "end": 2398210,
+      "speaker": "Moritz Stefaner",
+      "start": 2370178,
+      "text": "Yeah, it's true. Cool. Nice. Yeah. So I hope you'll all check out svelte dot de v and just dive into this beautiful world of code that reacts. We said, with the holiday season coming up, I mean, we don't know when you listen to the podcast, but our assumption is straight after it comes out. So if the holiday season is still coming up, we have a few database present ideas we wanted to share with you.",
+      "id": "ep_163_ut_101"
+    },
+    {
+      "end": 2418370,
+      "speaker": "Enrico Bertini",
+      "start": 2400270,
+      "text": "Well, so we have a classic. We have the new Tufte book. I think it's called seeing with fresh eyes. Right. So if you have the whole series, you can't really. What is that, the fifth?",
+      "id": "ep_163_ut_102"
+    },
+    {
+      "end": 2423896,
+      "speaker": "Moritz Stefaner",
+      "start": 2419840,
+      "text": "Probably from the big ones. Yeah. The fifth book from the big ones.",
+      "id": "ep_163_ut_103"
+    },
+    {
+      "end": 2424820,
+      "speaker": "Amelia Wattenberger",
+      "start": 2424048,
+      "text": "Yeah.",
+      "id": "ep_163_ut_104"
+    },
+    {
+      "end": 2426260,
+      "speaker": "Enrico Bertini",
+      "start": 2425160,
+      "text": "So that's.",
+      "id": "ep_163_ut_105"
+    },
+    {
+      "end": 2427456,
+      "speaker": "Moritz Stefaner",
+      "start": 2426600,
+      "text": "It's like D3.",
+      "id": "ep_163_ut_106"
+    },
+    {
+      "end": 2435504,
+      "speaker": "Enrico Bertini",
+      "start": 2427488,
+      "text": "It's a classic. You have to have it even if you don't read it. Just put it exactly right.",
+      "id": "ep_163_ut_107"
+    },
+    {
+      "end": 2439864,
+      "speaker": "Moritz Stefaner",
+      "start": 2435672,
+      "text": "Yeah, no, I'm super curious to check it out. I mean, it's a Tufte. How could you not check?",
+      "id": "ep_163_ut_108"
+    },
+    {
+      "end": 2440600,
+      "speaker": "Enrico Bertini",
+      "start": 2439912,
+      "text": "You have to wear it.",
+      "id": "ep_163_ut_109"
+    },
+    {
+      "end": 2443780,
+      "speaker": "Moritz Stefaner",
+      "start": 2440640,
+      "text": "Yeah. It's a professional obligation.",
+      "id": "ep_163_ut_110"
+    },
+    {
+      "end": 2468032,
+      "speaker": "Enrico Bertini",
+      "start": 2444240,
+      "text": "Exactly. And what else that's a little expensive is I was thinking about the axi draw. It's a little robot. Programmable. Programmable robot for. For drawing with pens. It's a really cool toy. I was actually. I don't have one, but I always thought about buying one and do something with the kids. I think it's. I don't know. Morris, do you have one?",
+      "id": "ep_163_ut_111"
+    },
+    {
+      "end": 2515578,
+      "speaker": "Moritz Stefaner",
+      "start": 2468216,
+      "text": "Yeah. And I've been using it on and off. Like, I never was really serious about, like, doing fine art plots with it or whatever, but we've been playing a lot, and especially with. With the kids. Like, they. They download pokemons and, like, trace bitmap command and, like, different pens. And. And I enjoy it a lot. And it really makes you think about, like, the affordances of a medium. Like, different things work well on a plot than on screen. And you can do, like, overprinting, like, you know, use multiple colors and mix them basically on the paper, like, drawing and painting. And some things just look super cool on screen, and they just look not so great on plot. And other things that look super simple on screen but are just magical as a plot. So it's really fun to explore. Yeah.",
+      "id": "ep_163_ut_112"
+    },
+    {
+      "end": 2525770,
+      "speaker": "Amelia Wattenberger",
+      "start": 2515714,
+      "text": "I also think we're so used to doing things online that it's so satisfying to see your work in person. You can touch it, and it actually.",
+      "id": "ep_163_ut_113"
+    },
+    {
+      "end": 2567240,
+      "speaker": "Moritz Stefaner",
+      "start": 2525810,
+      "text": "Also takes a while. It's slow. It can take 20 minutes sometimes to do a map or so, and that makes it more valuable somehow. Or, like, it's always like you're watching it. It's like, how will it work? You know? Or will it, like, will the pen lose its ink, like, you know, five minutes before the end? Or will somebody, like, you know, bump into the table? So it's. It's a. It's a very analog process. I enjoy it a lot. Yeah. Yeah. Best pens for the. For the axi draw are the pilot Gtech C four. That's another recommendation. I just love these pens. They're super fine. They never run out of ink. I don't know how that's possible even.",
+      "id": "ep_163_ut_114"
+    },
+    {
+      "end": 2568732,
+      "speaker": "Enrico Bertini",
+      "start": 2568140,
+      "text": "Is it German?",
+      "id": "ep_163_ut_115"
+    },
+    {
+      "end": 2570852,
+      "speaker": "Moritz Stefaner",
+      "start": 2568756,
+      "text": "It's awesome. I'm not sure.",
+      "id": "ep_163_ut_116"
+    },
+    {
+      "end": 2571788,
+      "speaker": "Enrico Bertini",
+      "start": 2570916,
+      "text": "German brand.",
+      "id": "ep_163_ut_117"
+    },
+    {
+      "end": 2641060,
+      "speaker": "Moritz Stefaner",
+      "start": 2571924,
+      "text": "It's Germany inspired, I would say. They might be UK, but it's really, really good stuff. The other thing I wanted to recommend is the book by Stephanie Posavec and Miriam Quick. It's called I am a book. I'm a. A portal to the universe. So you can see it's a very humble book, and the book actually has a personality. So the book is tweeting also. So if you check it out on Twitter, you'll see it has a very cheeky Persona. And the book is awesome because in a way, it's a data visualization book, and in a way, it's really also not, or it just goes beyond what traditionally is seen as data visualization. It's really a book that uses itself as sort of the reference frame and the medium itself. And I don't want to spoil it, so I don't want to talk more about it. But I think it's really one of the best new book ideas I've seen in the last few years. It's just really, really novel and cool and just so nicely executed. So great present for anybody who has a heart.",
+      "id": "ep_163_ut_118"
+    },
+    {
+      "end": 2684708,
+      "speaker": "Amelia Wattenberger",
+      "start": 2645660,
+      "text": "My recommendation is, I guess, going back to our online world, where this is really nice, too, as a last minute gift idea, which I usually need every year, is front end. Masters is a collection of educational videos for web development. And there's two courses that could be really relevant to this podcast. Shirley Wu has a D3 fundamentals course, and also rich Harris has a course on svelte. I listened to both of them. They're both great. Would recommend.",
+      "id": "ep_163_ut_119"
+    },
+    {
+      "end": 2688520,
+      "speaker": "Moritz Stefaner",
+      "start": 2684844,
+      "text": "Cool. How long are they like, how many hours is it?",
+      "id": "ep_163_ut_120"
+    },
+    {
+      "end": 2699834,
+      "speaker": "Amelia Wattenberger",
+      "start": 2689300,
+      "text": "The way they do them is they give one or two full day workshops and then they split it up into videos, I think. I don't know, I guess 8 hours.",
+      "id": "ep_163_ut_121"
+    },
+    {
+      "end": 2710558,
+      "speaker": "Moritz Stefaner",
+      "start": 2699972,
+      "text": "Yeah. But that's in depth and that's great. Yeah, yeah. That's a good time to learn maybe now new techniques and really dive into one of these online like sessions.",
+      "id": "ep_163_ut_122"
+    },
+    {
+      "end": 2711382,
+      "speaker": "Amelia Wattenberger",
+      "start": 2710694,
+      "text": "Yeah.",
+      "id": "ep_163_ut_123"
+    },
+    {
+      "end": 2729826,
+      "speaker": "Moritz Stefaner",
+      "start": 2711526,
+      "text": "Cool. That sounds great. Yeah, I think that's it. Thanks so much for joining us to talk about this wonderful development toolkit and all the best for you and your work at the pudding. I hope we can see some of it, maybe also publicly soon, who knows? Keep us posted.",
+      "id": "ep_163_ut_124"
+    },
+    {
+      "end": 2735546,
+      "speaker": "Amelia Wattenberger",
+      "start": 2730018,
+      "text": "Yeah, it's been a string of private projects, but hopefully, hopefully Wednesday at some.",
+      "id": "ep_163_ut_125"
+    },
+    {
+      "end": 2741746,
+      "speaker": "Moritz Stefaner",
+      "start": 2735578,
+      "text": "Point you'll be able to share. So thanks so much and talk to you soon. Bye bye.",
+      "id": "ep_163_ut_126"
+    },
+    {
+      "end": 2742506,
+      "speaker": "Enrico Bertini",
+      "start": 2741778,
+      "text": "Thanks, Amelia.",
+      "id": "ep_163_ut_127"
+    },
+    {
+      "end": 2743378,
+      "speaker": "Amelia Wattenberger",
+      "start": 2742578,
+      "text": "Thanks for having me.",
+      "id": "ep_163_ut_128"
+    },
+    {
+      "end": 2744230,
+      "speaker": "Enrico Bertini",
+      "start": 2743434,
+      "text": "Bye bye.",
+      "id": "ep_163_ut_129"
+    },
+    {
+      "end": 2771690,
+      "speaker": "Moritz Stefaner",
+      "start": 2748770,
+      "text": "Hey folks, thanks for listening to data stories again. Before you leave a few last notes. This show is crowdfunded and you can support us on patreon@patreon.com Datastories, where we publish monthly previews of upcoming episodes for our supporters. Or you can also send us a one time donation via PayPal at PayPal dot me Datastories or as a free.",
+      "id": "ep_163_ut_130"
+    },
+    {
+      "end": 2798528,
+      "speaker": "Enrico Bertini",
+      "start": 2771730,
+      "text": "Way to support the show. If you can spend a couple of minutes reading us on iTunes, that would be very helpful as well. And here's some information on the many ways you can get news directly from us. We are on Twitter, Facebook and Instagram, so follow us there for the latest updates. We have also a slack channel where you can chat with us directly and to sign up, go to our home page at Datastory ES and there you'll find a button at the bottom of.",
+      "id": "ep_163_ut_131"
+    },
+    {
+      "end": 2807278,
+      "speaker": "Moritz Stefaner",
+      "start": 2798544,
+      "text": "The page and there you can also subscribe to our email newsletter if you want to get news directly into your inbox and be notified whenever we publish a new episode.",
+      "id": "ep_163_ut_132"
+    },
+    {
+      "end": 2819938,
+      "speaker": "Enrico Bertini",
+      "start": 2807384,
+      "text": "That's right, and we love to get in touch with our listeners. So let us know if you want to suggest a way to improve the show or know any amazing people you want us to invite or even have any project you want us to talk about.",
+      "id": "ep_163_ut_133"
+    },
+    {
+      "end": 2826602,
+      "speaker": "Moritz Stefaner",
+      "start": 2820074,
+      "text": "Yeah, absolutely. Don't hesitate to get in touch. Just send us an email at mailatastory es.",
+      "id": "ep_163_ut_134"
+    },
+    {
+      "end": 2830910,
+      "speaker": "Enrico Bertini",
+      "start": 2826746,
+      "text": "That's all for now. See you next time, and thanks for listening to data stories.",
+      "id": "ep_163_ut_135"
+    }
+  ],
+  "confidence": 0.920924984729783,
+  "audio_duration": 2839,
+  "punctuate": true,
+  "format_text": true,
+  "dual_channel": false,
+  "webhook_url": null,
+  "webhook_status_code": null,
+  "webhook_auth": false,
+  "webhook_auth_header_name": null,
+  "speed_boost": false,
+  "auto_highlights_result": null,
+  "auto_highlights": false,
+  "audio_start_from": null,
+  "audio_end_at": null,
+  "word_boost": [],
+  "boost_param": null,
+  "filter_profanity": false,
+  "redact_pii": false,
+  "redact_pii_audio": false,
+  "redact_pii_audio_quality": null,
+  "redact_pii_policies": null,
+  "redact_pii_sub": null,
+  "speaker_labels": true,
+  "content_safety": false,
+  "iab_categories": true,
+  "content_safety_labels": {
+    "status": "unavailable",
+    "results": [],
+    "summary": {}
+  },
+  "language_detection": false,
+  "language_detection_threshold": null,
+  "language_confidence": null,
+  "custom_spelling": null,
+  "throttled": false,
+  "auto_chapters": true,
+  "summarization": false,
+  "summary_type": null,
+  "summary_model": null,
+  "custom_topics": false,
+  "topics": [],
+  "speech_threshold": null,
+  "speech_model": "best",
+  "chapters": [
+    {
+      "summary": "On this podcast, we talk about data visualization, data analysis, and generally the role data plays in our lives. Our podcast is listener supported, so there's no ads. If you enjoyed the show, please consider supporting us with recurring payments on patreon. com or if you prefer one time donations.",
+      "gist": "Data Stories",
+      "headline": "If you enjoyed the show, please consider supporting us with recurring payments",
+      "start": 160,
+      "end": 114140,
+      "id": "ep_163_ch_0"
+    },
+    {
+      "summary": "Enrico: In today's episode, we talk about data visualization with D3. What's the best framework to do that? And to discuss that and one specific framework called Sveltejs, we invited a real expert.",
+      "gist": "The Best Framework for Data Visualization",
+      "headline": "Enrico: Amelia Wattenberger discusses data visualization using Sveltejs",
+      "start": 114260,
+      "end": 215370,
+      "id": "ep_163_ch_1"
+    },
+    {
+      "summary": "People almost always use some extra application or development framework to build the complex websites that interactive visualizations often are. One framework toolkit we want to look at today is called Svelte J's. It seems really hard to just quickly build a website these days.",
+      "gist": "How to build a website with interactive data visualization in 2019",
+      "headline": "People almost always use some extra framework to build interactive visualizations",
+      "start": 216110,
+      "end": 299620,
+      "id": "ep_163_ch_2"
+    },
+    {
+      "summary": "Back in the day we used to hard code our websites. Today we have all these JavaScript frameworks which allow you to write declarative code. You're basically not going to find a complicated web application that's not using a JavaScript framework.",
+      "gist": "What are the JavaScript Frameworks?",
+      "headline": "Nowadays we have all these JavaScript frameworks which allow you to write declarative code",
+      "start": 299780,
+      "end": 540910,
+      "id": "ep_163_ch_3"
+    },
+    {
+      "summary": " reactive programming is like, so there's kind of a natural flow of data for every bit of JavaScript that is written. It can be really nice for writing your code. It's similar to the way spreadsheets work. Computers are smarter than, than us anyway. Let them do it.",
+      "gist": "JavaScript: Reactive Programming vs Svelte Programming",
+      "headline": "Svelte programming allows you to write code that automatically updates variables",
+      "start": 540950,
+      "end": 748036,
+      "id": "ep_163_ch_4"
+    },
+    {
+      "summary": "Svelte is a new JavaScript framework for data visualization. It's especially nice for smaller applications and things like data visualizations. The big difference between svelte and other frameworks is that things are very component based.",
+      "gist": "What is Svelte JS?",
+      "headline": "Svelte js is a new JavaScript framework for data visualization",
+      "start": 748228,
+      "end": 1069530,
+      "id": "ep_163_ch_5"
+    },
+    {
+      "summary": "The biggest problem people run into is combining JavaScript frameworks with D3 j's. My favorite way is to just use D3 as kind of a utility library. It just makes things a lot easier to handle. What would be your criteria to decide whether to go with Svelte or react?",
+      "gist": "D3 vs Svelte: How Do They Compare?",
+      "headline": "Svelte has built in animations and transitions which are nicer than react",
+      "start": 1069910,
+      "end": 1585050,
+      "id": "ep_163_ch_6"
+    },
+    {
+      "summary": "With react, you have this really large community that's creating third party components you can use. With svelte, it's newer and the community's smaller, so it's really zippy. Why are things so complicated, Amelia? Do you think it's going to change again?",
+      "gist": "Other drawbacks to Svelte vs. VELTTE",
+      "headline": "Amelia: There are some drawbacks to using react over svelte",
+      "start": 1586750,
+      "end": 2073980,
+      "id": "ep_163_ch_7"
+    },
+    {
+      "summary": "Svelte is a framework for creating data visualizations on the web. There's a podcast called Svelte Radio about data visualization and coding. I think any data visualization library you'll find for the web will work for svelte.",
+      "gist": "D3 and Svelte: Learning the Basics",
+      "headline": "Svelte is a great framework for visualizing data on the web",
+      "start": 2074400,
+      "end": 2390462,
+      "id": "ep_163_ch_8"
+    },
+    {
+      "summary": "The new Tufte book is a classic. The axi draw is a little robot for drawing with pens. Different things work well on a plot than on screen. It's so satisfying to see your work in person.",
+      "gist": "Tufi Book and Draw with a Pen",
+      "headline": "So if the holiday season is still coming up, we have some database present ideas",
+      "start": 2390586,
+      "end": 2580560,
+      "id": "ep_163_ch_9"
+    },
+    {
+      "summary": "The other thing I wanted to recommend is the book by Stephanie Posavec and Miriam Quick. Masters is a collection of educational videos for web development. Great present for anybody who has a heart.",
+      "gist": "Masters of Web Development",
+      "headline": "Amelia: Masters is a collection of educational videos for web development",
+      "start": 2584180,
+      "end": 2744230,
+      "id": "ep_163_ch_10"
+    },
+    {
+      "summary": "This show is crowdfunded and you can support us on patreon@patreon. com Datastories. We are on Twitter, Facebook and Instagram, so follow us there for the latest updates. Let us know if you want to suggest a way to improve the show.",
+      "gist": "How to support Datastories",
+      "headline": "This show is crowdfunded and you can support us on patreon",
+      "start": 2748770,
+      "end": 2830910,
+      "id": "ep_163_ch_11"
+    }
+  ],
+  "disfluencies": false,
+  "entity_detection": false,
+  "sentiment_analysis": false,
+  "sentiment_analysis_results": null,
+  "entities": null,
+  "speakers_expected": null,
+  "summary": null,
+  "custom_topics_results": null,
+  "episode_num": 163,
+  "episode_metadata": {
+    "speakers": [
+      "Amelia Wattenberger",
+      "Moritz Stefaner",
+      "Enrico Bertini"
+    ],
+    "WPid": "1626",
+    "url": "https://datastori.es/podlove/file/6808/s/feed/c/mp3/163-svelte-js-for-web-based-dataviz-with-amelia-wattenberger.mp3",
+    "episode_title": "svelte.js for web-based dataviz with Amelia Wattenberger"
+  }
+}

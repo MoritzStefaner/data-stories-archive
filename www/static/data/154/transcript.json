@@ -1,0 +1,1080 @@
+{
+  "id": "1fdafc9a-3752-403f-b0cc-221581d86efd",
+  "language_model": "assemblyai_default",
+  "acoustic_model": "assemblyai_default",
+  "language_code": "en_us",
+  "status": "completed",
+  "audio_url": "https://datastori.es/podlove/file/6463/s/feed/c/mp3/154-visualizing-global-warming-with-ipcc-with-angela-morelli-and-tom-gabriel-johansen.mp3",
+  "utterances": [
+    {
+      "end": 11210,
+      "speaker": "Tom Gabriel Johansen",
+      "start": 160,
+      "text": "We're all with the same mission, but we just have to work together. So the co design process never becomes an order and delivery process. It's always starts where everybody's pitching in and everybody's owning the process.",
+      "id": "ep_154_ut_0"
+    },
+    {
+      "end": 40922,
+      "speaker": "Moritz Stefaner",
+      "start": 30590,
+      "text": "Hi everyone. Welcome. Welcome to a new episode of data stories. My name is Enrico Bertini. I am a professor at NYU in New York City, where I do research and teach data visualization.",
+      "id": "ep_154_ut_1"
+    },
+    {
+      "end": 51778,
+      "speaker": "Enrico Bertini",
+      "start": 41106,
+      "text": "And I'm Moritz Stefaner and I'm an independent designer of data visualizations. In fact, I work as a self employed truth and beauty operator out of my office here in the countryside in the north of Germany.",
+      "id": "ep_154_ut_2"
+    },
+    {
+      "end": 62752,
+      "speaker": "Moritz Stefaner",
+      "start": 51874,
+      "text": "Exactly. And on this podcast we talk about data visualization, analysis, and more generally the role data plays in our lives. And usually we do that together with a guest we invite on the show.",
+      "id": "ep_154_ut_3"
+    },
+    {
+      "end": 86412,
+      "speaker": "Enrico Bertini",
+      "start": 62896,
+      "text": "That's right. But just before we start, a quick note. Our podcast is listener supported. That also means there are no ads, which is great. But if you do enjoy the show, you could also consider supporting us. You can do that either with recurring payments on patreon.com Datastories, or you could send us a one time donation via PayPal. On Paypal dot me Datastories.",
+      "id": "ep_154_ut_4"
+    },
+    {
+      "end": 138912,
+      "speaker": "Moritz Stefaner",
+      "start": 86496,
+      "text": "Yes. And I just want to add thanks to all those of you who are already signed up to Patreon or send us one time donations. This is so useful and makes us really, really happy every time we receive a new email with a notification. Yeah, it's great. Thanks so much. So, the topic for today is a really, really interesting one. Both me and Moritz are really fascinated by this topic. We are going to talk about climate, and as you can imagine, that's a really important topic. We are going to talk about data visualization in climate and more specifically about visualizing data for the IPCC. And if you don't know what IPCC is, you're going to discover it in a moment. And to talk about this, we have Angela Morelli and Tom Gabriel Johansen. Hi, Angela and Tom. Welcome to the show.",
+      "id": "ep_154_ut_5"
+    },
+    {
+      "end": 141192,
+      "speaker": "Angela Morelli",
+      "start": 139016,
+      "text": "Hi guys. Hey, thanks for having us.",
+      "id": "ep_154_ut_6"
+    },
+    {
+      "end": 162620,
+      "speaker": "Moritz Stefaner",
+      "start": 141296,
+      "text": "So, Angela and Tom, I'm really looking forward to hearing from you the stories about visualizing climate data for IPCC. Maybe you can start by introducing yourself. Maybe. Angela, you want to start? And then Tom, can you tell us a little bit about your background and also your business?",
+      "id": "ep_154_ut_7"
+    },
+    {
+      "end": 216058,
+      "speaker": "Angela Morelli",
+      "start": 162780,
+      "text": "Yeah, sure. So, hello everybody. My name is Angela Morelli. I am an engineer by background actually, and I changed my path and re educated myself as an information designer. I have a profound passion for the environment. I am really interested in science communication. I've been freelancing most of my career for research organizations before Tom and me started info Design lab. We design with research organizations, with scientists, with activists, with journalists, and we basically try to come up with solutions that can help audiences understand complex topics or support evidence based decision making.",
+      "id": "ep_154_ut_8"
+    },
+    {
+      "end": 217450,
+      "speaker": "Moritz Stefaner",
+      "start": 216234,
+      "text": "Great, Tom.",
+      "id": "ep_154_ut_9"
+    },
+    {
+      "end": 267870,
+      "speaker": "Tom Gabriel Johansen",
+      "start": 217610,
+      "text": "So, hello guys, my name is Tom Gabriel Johansen. I started out this journey when I was an interaction designer, early 2000, and trying to figure out how I could spend my time with more useful to the world, basically. So I started designing board games for three years, which is a nice start. And then I forced myself into statistics Norway to learn more about data, statistics and visualization. And at that time, I tried to find other people that did the same, which was extremely hard. Early 2000. So I was making this conference in Norway where I invited people from all over the world, including Moritz. That's true, that's true. No, this is true.",
+      "id": "ep_154_ut_10"
+    },
+    {
+      "end": 270726,
+      "speaker": "Enrico Bertini",
+      "start": 268010,
+      "text": "It was a great conference. Garfield, edit.",
+      "id": "ep_154_ut_11"
+    },
+    {
+      "end": 342360,
+      "speaker": "Tom Gabriel Johansen",
+      "start": 270838,
+      "text": "Yes, yes. Also in the high mountains of Norway, very close to where Star wars was recorded, we invited people from all over the world, and I specifically intentionally invited people within data visualization. So even McCandless was there before he did his TED talk and all that stuff. So, very, very interesting group of people. And then Angelas also was a speaker there. And after that, I ventured into the Norwegian Broadcast Corporation and I established a visualization team on the news floor. So within that period, I also took the exam in journalists, just to figure out how the journalist was actually thinking. And I got very interested in the impact side of visualization. So I was really hunting for. So what does this lead to? What's the effect of this? What's the impact afterwards and stuff? Very hard to do that on the news floor, which is very fast paced, fast moving. So starting in for design lab with Angela Morelli was a really saver. Now we're just like following this passion where we're really trying to see where this can lead us, basically.",
+      "id": "ep_154_ut_12"
+    },
+    {
+      "end": 362424,
+      "speaker": "Moritz Stefaner",
+      "start": 342820,
+      "text": "Thanks so much for the introduction. So, I think we want to focus mostly on the work that you've done for IPCC. And I thought maybe the best way to start is to describe briefly what IPCC is, in case some of our listeners don't really know the acronym. So what is IPCC?",
+      "id": "ep_154_ut_13"
+    },
+    {
+      "end": 493358,
+      "speaker": "Angela Morelli",
+      "start": 362592,
+      "text": "So, you know, IPCC is basically an acronym. It's one of those times where acronyms are actually very useful because it stands for intergovernmental panel of climate Change. It was basically created by the United nations and the World Meteorological Organization about 30 years ago. It has 195 members, and it does not conduct its own research, but basically produces reports to assess the scientific literature about the drivers of climate change, the impacts, the future risks, adaptation and mitigation. So how adaptation and mitigation can actually reduce those risks. And the reports the IPCC produces are for the world's policymakers. They are drafted by scientists over many months, sometimes years, and they are like those big, thick books, hundreds of pages long, and sometimes they include summaries, so called summaries for policymakers. And a summary for policymakers is basically where the interface between science and policy happens, and they can be like 30, 40 pages long. And we have worked on the key visualizations of the summary for policymakers for basically three reports. The special report on a global warming of 1.5 degrees and the special report on climate change and land. And now we have actually started just today with a new one, which is the report for the 6th assessment, ar six, on the physical science basis, that is going to be hopefully approved in 2021. Yeah, yeah. So that's in, I hope, in summary, what IPCC is and what we have been involved in so far with them.",
+      "id": "ep_154_ut_14"
+    },
+    {
+      "end": 507814,
+      "speaker": "Moritz Stefaner",
+      "start": 493454,
+      "text": "Yeah. And that's, I guess, basically is the report that is supposed to be read by people in all the governments in the world. Right. If they want to learn about but climate science, they can't really go through a super thick book. They need the gist of it.",
+      "id": "ep_154_ut_15"
+    },
+    {
+      "end": 508702,
+      "speaker": "Angela Morelli",
+      "start": 507942,
+      "text": "Exactly.",
+      "id": "ep_154_ut_16"
+    },
+    {
+      "end": 513894,
+      "speaker": "Moritz Stefaner",
+      "start": 508806,
+      "text": "And so every government around the globe is basically reading that.",
+      "id": "ep_154_ut_17"
+    },
+    {
+      "end": 542260,
+      "speaker": "Angela Morelli",
+      "start": 513982,
+      "text": "Right, exactly. So that's basically where the science meet the policymakers or the scientists meet the policymakers. And the IPCC is actually the highest body releasing the best evidence about climate change. The most reliable evidence about climate change. Yeah. So you cannot miss it. If you want to make good decisions about climate, you cannot miss those reports.",
+      "id": "ep_154_ut_18"
+    },
+    {
+      "end": 543640,
+      "speaker": "Enrico Bertini",
+      "start": 543000,
+      "text": "Yeah.",
+      "id": "ep_154_ut_19"
+    },
+    {
+      "end": 556782,
+      "speaker": "Moritz Stefaner",
+      "start": 543760,
+      "text": "And I think it's designed in a way not to be prescriptive. Right. It doesn't tell you what you are supposed to do. No. It describes the state of the art. Right. And what is the, I guess the consensus.",
+      "id": "ep_154_ut_20"
+    },
+    {
+      "end": 594744,
+      "speaker": "Angela Morelli",
+      "start": 556886,
+      "text": "Right, exactly. So these reports are about communicating the best evidence and of course providing what type of quality there is behind this evidence. But they are not telling you what to do or they are not telling policymakers what to do, they are just providing the evidence on which they can base basically their decisions. So it's a lot about relevance and clarity and completeness, in a way. So that's the gist.",
+      "id": "ep_154_ut_21"
+    },
+    {
+      "end": 603024,
+      "speaker": "Moritz Stefaner",
+      "start": 594912,
+      "text": "Yeah. And I think an interesting aspect is that, as you were saying, is that every number basically comes with a level of confidence. Right.",
+      "id": "ep_154_ut_22"
+    },
+    {
+      "end": 603660,
+      "speaker": "Angela Morelli",
+      "start": 603072,
+      "text": "Yeah.",
+      "id": "ep_154_ut_23"
+    },
+    {
+      "end": 615036,
+      "speaker": "Moritz Stefaner",
+      "start": 604360,
+      "text": "Which I think it has interesting implications when you have to figure out how to visualize it. Right. Because it's not just a number, it's a number plus. How confident are we that that number is accurate?",
+      "id": "ep_154_ut_24"
+    },
+    {
+      "end": 661430,
+      "speaker": "Angela Morelli",
+      "start": 615108,
+      "text": "Absolutely. And the IPCC confidence is kind of like it's kind of a matrix because you have on one side you have the type of, or you have the type of evidence, on the other side you have the type of consensus. So if you imagine you have like four level of confidence linked to these two variables and then you have a language that is about the likelihood of. Of something to happen until like virtually certain, which is 99%. I love virtually certain. So virtually certain became part of our daily language for Tom and me. Yeah. So that's.",
+      "id": "ep_154_ut_25"
+    },
+    {
+      "end": 662642,
+      "speaker": "Tom Gabriel Johansen",
+      "start": 662170,
+      "text": "But it's.",
+      "id": "ep_154_ut_26"
+    },
+    {
+      "end": 672276,
+      "speaker": "Enrico Bertini",
+      "start": 662666,
+      "text": "So. I think that's already so interesting because if I hear virtually certain, I might imagine a totally different number, you know, in terms of probability then than Enrico or Tom.",
+      "id": "ep_154_ut_27"
+    },
+    {
+      "end": 672556,
+      "speaker": "Tom Gabriel Johansen",
+      "start": 672348,
+      "text": "Right.",
+      "id": "ep_154_ut_28"
+    },
+    {
+      "end": 674492,
+      "speaker": "Enrico Bertini",
+      "start": 672588,
+      "text": "I mean, what is virtually certain?",
+      "id": "ep_154_ut_29"
+    },
+    {
+      "end": 675800,
+      "speaker": "Angela Morelli",
+      "start": 674676,
+      "text": "Absolutely.",
+      "id": "ep_154_ut_30"
+    },
+    {
+      "end": 707620,
+      "speaker": "Enrico Bertini",
+      "start": 677540,
+      "text": "Yeah. But you've been working on the visual part of things, right? So can you tell us a bit about some of the visualizations and infographics you produced? Yeah, maybe we can go in one or two, even a bit in detail so people get a sense of what went into producing them. Just a quick note for the listeners. Maybe it's a good idea to also pause and check out the blog post where we link the graphics and embed the graphics, because obviously it will be hard to understand just from listening.",
+      "id": "ep_154_ut_31"
+    },
+    {
+      "end": 744570,
+      "speaker": "Angela Morelli",
+      "start": 708080,
+      "text": "Yeah. So we have worked on several reports. I think one of the most important reports, which is the first one we have worked on, is the 1.5 report. It's been defined as the most important climate report of the 21st century. And the gist of that report is that we can limit warming to 1.5 degrees. But basically political will is key and every action matters, every bit of warming matters, every ear matters, every choice matters. It sounds like a prayer. And we have repeated that so many times that it's. That. So that's the gist of the report.",
+      "id": "ep_154_ut_32"
+    },
+    {
+      "end": 753310,
+      "speaker": "Enrico Bertini",
+      "start": 745590,
+      "text": "Also the idea of a carbon budget, that there's a fixed amount of carbon we can use and it doesn't matter when we use it.",
+      "id": "ep_154_ut_33"
+    },
+    {
+      "end": 754062,
+      "speaker": "Angela Morelli",
+      "start": 753390,
+      "text": "Exactly.",
+      "id": "ep_154_ut_34"
+    },
+    {
+      "end": 757850,
+      "speaker": "Enrico Bertini",
+      "start": 754166,
+      "text": "If we use it up, it's going beyond 1.5 and trouble.",
+      "id": "ep_154_ut_35"
+    },
+    {
+      "end": 845330,
+      "speaker": "Angela Morelli",
+      "start": 758930,
+      "text": "And the visualizations for both report, the number of visualizations we have co designed with the IPCC and the scientists are. For the 1.5 report is five visualizations and for the lan report is six visualizations. The number of visualization actually changes along the co design process. And for example, for the 1.5 report, just the gist across the figures is that the figure one visualizes where we are now and how far we are from reaching 1.5 degrees of warming. The figure two visualizes the risks of different level of warming for the people, for economies, for ecosystems. And then there is a figure, which is three, that is about the future scenarios. And figure four is about the links between the mitigation options and the sustainable development goals. And the same for the land report. I mean, the interesting thing about this figure is that they have to work as a standalone. So there is a narrative, of course, within the figure, but it's extremely important to take care of the narrative across the figures. So they have to mirror the overall narrative of the report.",
+      "id": "ep_154_ut_36"
+    },
+    {
+      "end": 854274,
+      "speaker": "Enrico Bertini",
+      "start": 845890,
+      "text": "So they also presented in some specific place in the report. They're not an appendix or a front matter, it's. They are part of the text.",
+      "id": "ep_154_ut_37"
+    },
+    {
+      "end": 968150,
+      "speaker": "Angela Morelli",
+      "start": 854402,
+      "text": "Absolutely. Yes, absolutely. So they are. The report is structured in sections and within each section you have headline statements. And of course the figures are connected and linked to these headline statements. The thing is that sometimes the figures can also visualizes some of the findings that are in the underlying report, which is the big book. So the idea is that of course the figures should not just repeat what the headline statements are saying, but they should complete. So they become quite complex because. Because that's in a way, it's a lot about deconstructing complexity, right? It's not just about simplifying. We have to be able to just create a narrative across elements. And everything is based on the evolution of the drafting report, which is based on the reviews from all the policymakers from all over the world, all the governments, all the expert reviewers that are involved in the process. And like, it's thousands of comments. So it's not just us designing or the TSU technical support unit of the IPCC coming to us and say, hey guys, so here the data, here's the report. Just come up with some cool stuff. We cannot do that. So we start from, from a point where we really have to, we have to dig into the gist and the intent of the graphic and we have to study the research and try to master the content. Really.",
+      "id": "ep_154_ut_38"
+    },
+    {
+      "end": 992436,
+      "speaker": "Enrico Bertini",
+      "start": 968930,
+      "text": "Is there a briefing for each individual graphic at the beginning? Is there like a main editor or something who says, like here we need this graphic explaining the reasons for concern or whatnot? Or do you first basically read the text draft and then develop this idea? We need five graphics and they should cover these areas together with the authors. How does that work? Where do you start? Basically?",
+      "id": "ep_154_ut_39"
+    },
+    {
+      "end": 1041120,
+      "speaker": "Angela Morelli",
+      "start": 992548,
+      "text": "So what we usually do first, we read all the thousand pages of the report. So that's our starting point as one does. That's the thing that we have to do. So that's the starting point. So we have to really familiarize with the content because we don't know where this is going to go. So when the first draft of this report goes into the review, it's going to receive 10,000, 12,000 comments. And the comments will not be on the figures in the sense that the comments are always on the content. So the figures, of course, will be impacted by the comments and by how the content changes. So we have to be absolutely up to date on everything that is done, content wise. So what happens next?",
+      "id": "ep_154_ut_40"
+    },
+    {
+      "end": 1042752,
+      "speaker": "Enrico Bertini",
+      "start": 1041200,
+      "text": "That sounds like a full time job already.",
+      "id": "ep_154_ut_41"
+    },
+    {
+      "end": 1142770,
+      "speaker": "Angela Morelli",
+      "start": 1042816,
+      "text": "It does, it does. It's actually super interesting because we get to know some of this absolutely genius behind the carbon budget is fabulous. It's a fabulous group of people, really. We are absolutely overwhelmed by the creativity also of the scientists. And very often I try to find a metaphor to describe this type of work because one could think that is kind of, you know, I have the scientist that asks us something, that's got something, and then we get back to an answer. So we build in a kind of like, on each other, but it's not like that. It's like being in a labyrinth altogether. And we kind of like, use each other and we climb on each other's shoulders so we can see the labyrinth from above, how we progress until we really find a solution. So we don't have a brief for each figure, simply because in the beginning, we don't know which figures will be elevated from the underlying summary to the technical summary, and then to the policymaker to the summary for policymakers. So we have to follow the entire evolution. There is an idea because, of course, the SPM as an overall narrative, but then the number of figures and the type of figures can change.",
+      "id": "ep_154_ut_42"
+    },
+    {
+      "end": 1154070,
+      "speaker": "Moritz Stefaner",
+      "start": 1143590,
+      "text": "And the figures are supposed to come from the big report, or. I'm just curious to. Is it a translation process or. I'm just confused.",
+      "id": "ep_154_ut_43"
+    },
+    {
+      "end": 1207202,
+      "speaker": "Angela Morelli",
+      "start": 1154150,
+      "text": "No, no, it's not a translation process. So basically, very often you can have some figures that are interesting, and the scientists and the chairs and all the people involved in the process think that this data should definitely end up with a figure in the summary for policymakers. But sometimes they come with nothing. Sometimes they come with three, four figures and loads of data. Sometimes there is a figure that might be very close to the final, but is not actually close to the final. So it's very different starting points.",
+      "id": "ep_154_ut_44"
+    },
+    {
+      "end": 1237974,
+      "speaker": "Moritz Stefaner",
+      "start": 1207346,
+      "text": "Okay, so I imagine that behind that, then that there's probably a very complex process. And I think what is fascinating about your case is that there are so many stakeholders and so many moving parts. I mean, I have a headache just thinking about how this thing worked. Can you describe a little bit how the process actually works? What do you receive as an input? What do you produce as an output? And all the, I guess the mess that happens in between.",
+      "id": "ep_154_ut_45"
+    },
+    {
+      "end": 1308562,
+      "speaker": "Tom Gabriel Johansen",
+      "start": 1238142,
+      "text": "So when we're talking about how it starts, it starts basically with the scientists, and it starts with the scientists within different fields of science. And there are a lot of them and they don't necessarily use to talk to each other. So our issue starts there, basically. So we really have to facilitate that discussion between the different fields of science and different characters and personalities. And when we do that, it tends to end up in a visualization together with them and things become very clear. So every unsolved discussion, argument, disagreement becomes extremely visible when you're visualizing and it sticks you in the eye, basically. So you cannot, in the next round, you cannot avoid the discussion anymore. So you really, you really have to facilitate that process also with the scientist and the ambition of IPCC. And then, as Angela said, that result has to be sent to 195 countries for reviews.",
+      "id": "ep_154_ut_46"
+    },
+    {
+      "end": 1312762,
+      "speaker": "Moritz Stefaner",
+      "start": 1308746,
+      "text": "So basically the countries themselves are reviewing.",
+      "id": "ep_154_ut_47"
+    },
+    {
+      "end": 1335370,
+      "speaker": "Tom Gabriel Johansen",
+      "start": 1312866,
+      "text": "Yes, absolutely. Other people. So anybody can apply to become a reviewer of an IPCC report. But of course, every country is behind IPCC. They are of course also receiving this. And then you receive comments for that. In the 1.5 report, in total, we had like 42,000 comments.",
+      "id": "ep_154_ut_48"
+    },
+    {
+      "end": 1338850,
+      "speaker": "Moritz Stefaner",
+      "start": 1336230,
+      "text": "That's a data visualization project in itself.",
+      "id": "ep_154_ut_49"
+    },
+    {
+      "end": 1340766,
+      "speaker": "Tom Gabriel Johansen",
+      "start": 1339390,
+      "text": "I can believe you. That's excellent.",
+      "id": "ep_154_ut_50"
+    },
+    {
+      "end": 1345700,
+      "speaker": "Enrico Bertini",
+      "start": 1340798,
+      "text": "So you did some text mining first assume. Yeah, that's what I would have done.",
+      "id": "ep_154_ut_51"
+    },
+    {
+      "end": 1396400,
+      "speaker": "Tom Gabriel Johansen",
+      "start": 1345860,
+      "text": "I did actually text mining like Angela, we have to read every comment. No, no, I'm just gonna text mine. No, no, I'm just kidding. So, and many of these comments are directly on the visuals. And many of these comments come from countries with different needs and different agendas and stuff. So basically, I know that you will come back back probably wanting to more about user testing and stuff, but this is one of the parts where we're actually testing the contents on all the visualizations. Because the point is, and this is extremely important to stress, is that every word, comma, dot and line and color and visualization in that policymaker report is approved by every country, word by word. It's insane.",
+      "id": "ep_154_ut_52"
+    },
+    {
+      "end": 1402830,
+      "speaker": "Moritz Stefaner",
+      "start": 1396900,
+      "text": "It doesn't move forward until everyone agrees and gives an okay, basically, yeah.",
+      "id": "ep_154_ut_53"
+    },
+    {
+      "end": 1460868,
+      "speaker": "Tom Gabriel Johansen",
+      "start": 1403770,
+      "text": "If not everybody agrees on something, it's taken out, basically. And that's the new thing for the 1.5 report we made, was the new ambition of actually making the milestone visualizations in the report also for negotiation. So we really had to figure out how to negotiate figures, which was never done before, basically, yeah. So to prepare that ground, you need to make sure that all the scientists, different field of science own the figures. It's nothing that we produced and gave to them. Everybody there owns the figures and result, and then every country has to add, remove, edit, and as long as it's within the scientific borders, of course. So that's the complexity of it and it's quite an extreme process that few will encounter, but the extreme.",
+      "id": "ep_154_ut_54"
+    },
+    {
+      "end": 1473520,
+      "speaker": "Enrico Bertini",
+      "start": 1460924,
+      "text": "And how do you resolve it if you have like five people wanting a change towards, I don't know, leaving out something and other five feel very strongly about keeping it in, how do you resolve that situation?",
+      "id": "ep_154_ut_55"
+    },
+    {
+      "end": 1523340,
+      "speaker": "Tom Gabriel Johansen",
+      "start": 1474500,
+      "text": "It depends on what level you're at. If you're in the making together with the scientists, you have a hierarchy there to lean on. So leadership for us to enter is extremely important. We would never ever survive in this process if it didn't have fantastic leadership from the technical support units. They gave us trust, they promoted us, they trusted in the process and they really made that contribute towards the scientists. So when everybody, it doesn't turn into an argument, it turns into a process process that everybody is buying into and it doesn't feel like we are selling them something. Everybody's trying to build and agree and stuff. So that's the core of the co design process, basically.",
+      "id": "ep_154_ut_56"
+    },
+    {
+      "end": 1545260,
+      "speaker": "Enrico Bertini",
+      "start": 1524000,
+      "text": "And I find it interesting, like when you say co design, like do what different people also sketch actually different alternative solutions, like visually or in terms of organization, or maybe even in visual encoding, or would the feedback be mostly verbal and you are the medium basically, or the translators of that verbal feedback.",
+      "id": "ep_154_ut_57"
+    },
+    {
+      "end": 1611700,
+      "speaker": "Tom Gabriel Johansen",
+      "start": 1545560,
+      "text": "So it very often starts verbally in the very early hours of the process, but it very quickly turns into visual language. And when we're working on this, our working environment looks like what you're seeing in front of you now we're talking about scientists from Australia talking to the west coast of us, east coast together in a weird hours. You have people holding up sketches in front of Skype telling you this is maybe a solution and they're sending you lots of stuff and you sort of just have to abide. But it's fantastic. Some of the scientists are extremely savvy and they're so smart and they're so aware of the communication problem they're encountering. You've had scientists on your podcast earlier that are just like saints in this and these guys are in the group. So we're all with the same mission, but we just have to work together. So the co design process never becomes an order and delivery process. It's always starts where everybody is pitching in and everybody's owning the process.",
+      "id": "ep_154_ut_58"
+    },
+    {
+      "end": 1625668,
+      "speaker": "Angela Morelli",
+      "start": 1612200,
+      "text": "So you almost like never know where content ends and design begins. You know, it's an absolutely. It's kind of like a loop where there are no borders anymore.",
+      "id": "ep_154_ut_59"
+    },
+    {
+      "end": 1661830,
+      "speaker": "Enrico Bertini",
+      "start": 1625864,
+      "text": "Yeah. That's also something I noticed is the graphics are fairly text heavy. They're almost like half text, half graphic, which makes sense, as you explained, that they need to work in standalone and cannot be misinterpreted just because a necessary label was missing, obviously. On the other hand, I felt when I first saw them, I was like, oh, wow, that's a lot to take in. The second graphic has like a three line heading, a paragraph as a heading, basically.",
+      "id": "ep_154_ut_60"
+    },
+    {
+      "end": 1662854,
+      "speaker": "Angela Morelli",
+      "start": 1661990,
+      "text": "Absolutely.",
+      "id": "ep_154_ut_61"
+    },
+    {
+      "end": 1697954,
+      "speaker": "Enrico Bertini",
+      "start": 1662942,
+      "text": "And lots of like legends and extra explanations and a little asterisk here and the caption, you know, and so it's a lot of stuff to take in before you can get to the gist of it. And I think graphically they're really clearly designed and very like beautiful and on point. But do you also feel like it was hard to integrate all these extra text contents around it? Have you tried presenting more, boiled down more graphical versions? Or is it something that just won't fly in that context? As a designer, of course, I'm super curious here.",
+      "id": "ep_154_ut_62"
+    },
+    {
+      "end": 1828120,
+      "speaker": "Tom Gabriel Johansen",
+      "start": 1698002,
+      "text": "Yeah, no, I think you're pointing to one of our dilemmas in this. We are very aware of the importance of text in visualization. We're really fighting for. But the visualization we're looking at here meant to be tools for policymakers, so they're not meant to sort of be propaganda for climate change is man made or temperature is rising. It's not like single messages not made for social media. No, no, not in the same sense. I would love them to be more social media friendly than they are. So that's something that IPCC is constantly fighting for and we are constantly fighting. So I think we will be getting better and better in that. But I can tell you something in 1.5 report. So when we're discussing figures in the plenary session, where all the countries are gathered in ancient South Korea, all the delegates, all the scientists, and we have to approve line by line and visualization by visualization. One of the visualization was sort of like loaded by the countries. They're saying that we want this in. And this in. And this in. And I felt like, my God, this is turning from a visualization into a table. And then I went to eat lunch with some of the delegates from another country. And there was this lady telling me that when I saw this figure now with the table, I suddenly understand it was a table called three b. It's about projection in the future, what mitigation and adaptation we have to do for the different scenarios. And she lean over, I'm working in agriculture, in my government, and suddenly I understood what this meant for my profession. And she was on fire. And the thing is that she partly made this figure. We didn't, but she did. And as a result of all this collaborative effort with the country delegates, with the scientists and stuff, there are some. It turns into tools. It doesn't turn into beautiful, award winning, single messaging graphs, for sure, but for tools making, they're quite powerful.",
+      "id": "ep_154_ut_63"
+    },
+    {
+      "end": 1855350,
+      "speaker": "Angela Morelli",
+      "start": 1828420,
+      "text": "Yeah. And I think that that's probably a very good point, is the co design process, during all the drafts, you really feel that the scientists own the figures, but by the end of the approval, actually, the policymakers are owning the figures as well, the report. So there is this sense of ownership that is quite impressive at the end of the process.",
+      "id": "ep_154_ut_64"
+    },
+    {
+      "end": 1870070,
+      "speaker": "Enrico Bertini",
+      "start": 1856010,
+      "text": "And that could, in the end, even lead them to be much more used, because they are. Yeah. If you. If you identify strongly with something because you were part of the creation, you'll give it more value than maybe when it comes from the outside.",
+      "id": "ep_154_ut_65"
+    },
+    {
+      "end": 1920140,
+      "speaker": "Angela Morelli",
+      "start": 1870970,
+      "text": "And today, I thought it was very interesting what Moritz asked about. You know, what happens if there are number of people saying this and saying that? I mean, if that happens in the context of the approval, you basically sit two, 3510, 1214 hours until you reach a final agreement. And we have spent, especially the last days of the approval up for 48 hours, ready to jump in, redesigning figures that take in a normal kind of like day when you are present 8910 hours to redesign, of course, but you have to do it with lack of sleep. But still, there is a drive there. There is an energy that is quite incredible.",
+      "id": "ep_154_ut_66"
+    },
+    {
+      "end": 1937312,
+      "speaker": "Moritz Stefaner",
+      "start": 1920880,
+      "text": "Angela, I'm just wondering what level of detail you get feedback on. So do you get to, say, scientists raising his or her hand and saying, I think this thing should be red, or, I don't know, some really, really specific detail, or it's more like. I don't know.",
+      "id": "ep_154_ut_67"
+    },
+    {
+      "end": 1941180,
+      "speaker": "Angela Morelli",
+      "start": 1937336,
+      "text": "Yeah, it's really, really, really specific details.",
+      "id": "ep_154_ut_68"
+    },
+    {
+      "end": 1944660,
+      "speaker": "Moritz Stefaner",
+      "start": 1942200,
+      "text": "To the point that it can become pointless.",
+      "id": "ep_154_ut_69"
+    },
+    {
+      "end": 2041200,
+      "speaker": "Angela Morelli",
+      "start": 1946780,
+      "text": "I tell you, I've never experienced the feeling of. I've never witnessed a pointless discussion in the land report. So what's up? One of the very nice thing that is happening with this process that we have started with the 1.5 report and we are refining it. So when we have done it and repeated it in the land report, of course we have, we have implemented new things and these new things can kind of like sometimes can backfire in a way, but they are always, they are always supportive for the negotiations. For example, now when we go into the approval of a figure, sometimes from this plenary session where you have 500 delegates, you create, these contact groups are called, where two member countries are chairing the discussion and there is any other country can join in. And actually all the text that is in the figure is typed in a document and it has to be approved word by word and every label, every color, every dimension. So yes, you get comment even on, on textures, you know, on the font, so on every little detail. But it's never pointless until the approval. Of course, you have gone through many, many, many rounds. So there are things that you have chewed on already.",
+      "id": "ep_154_ut_70"
+    },
+    {
+      "end": 2120594,
+      "speaker": "Moritz Stefaner",
+      "start": 2043700,
+      "text": "Yeah, yeah. And I certainly sympathize with what Tom said. I had some projects in the past with scientists and with climate scientists, and I think it's been an incredible experience for me because you can go to this project and say, oh, I'm the visualization expert, and whatever we say about visualization is gonna, I'm gonna have the final word. And you would very, very soon realize that there's a really clever scientist that comes up and says something. It's like, oh, my God, this guy has a really, really good point I never thought about. Right. So you have to be very humble. And I think it's very important in relation to that. I'm really curious about. I think you mentioned that you've done extensive user testing, and user testing is kind of like, we don't talk a lot about how to do user testing in visualization. And of course, your case study, your case is one of those cases where you just can't get away without proper user testing. So I'm really curious to hear how, how did you, yeah, how did you go about it, especially in such a complex situation where there are so many stakeholders and so many competing needs.",
+      "id": "ep_154_ut_71"
+    },
+    {
+      "end": 2232220,
+      "speaker": "Tom Gabriel Johansen",
+      "start": 2120762,
+      "text": "So we had the scientist from the Tyndall center in the UK, which was expert on cognition and perception, so he was working in parallel with us. So even before we got in, he was already on track with the issues with certain visualization. And constantly we're user testing almost in parallel session with us. What was there? So you had a scientific mandate to say that this work, this doesn't, this is what happened. So it led the discussion a lot easier with scientists because we had the proof in a way. And then, then I think we can get a little because user testing is extremely important. But when we're talking about visualization on this level, to actually have user inclusion early is extremely important. So not testing stuff on users, but including them in depth, interviewing them about the subject, about the needs, about the context and all that stuff. So you're nothing designing from your assumptions, but you're designing from the lesson you learn by doing in depth interviews with policymakers, with scientists and stuff. So this is all very difficult in the IPCC context because it's confidential. So we cannot go out on town and showing people stuff and asking for feedback. It has to happen within very strict boundary boundaries of this. So the review session was very useful for us. The Jordan that was from the Tyndall center following us was extremely important. And of course, drawing on all the experience we have.",
+      "id": "ep_154_ut_72"
+    },
+    {
+      "end": 2316800,
+      "speaker": "Angela Morelli",
+      "start": 2232260,
+      "text": "But, yeah, that's true. I was thinking that, I mean, what you say, Tom, is very true, that we really try to avoid designing based on our own assumptions. And we know, like from the, from the work that Jordan Harold has done at the Tyndall center for Climate Change Research is that like, visual attention is dynamic and varies between people. And it depends on your prior knowledge, it depends on your cultural background. And when you are designing for all the policymakers around the world, the only thing you can do is really just waiting for the comments on the review drafts. And then there are some basic things that we know based on the research that they've done at the Tyndall center, that of course they want to have understandable language and terminology, they want to have layering of the messages, etc. Etc. So that's why also we ended up creating multi panel figures. Sometimes just try to create some, you know, info bytes that could, you know, try to kind of like chunk the information down as much as possible, though they are still complex. Of course.",
+      "id": "ep_154_ut_73"
+    },
+    {
+      "end": 2332834,
+      "speaker": "Moritz Stefaner",
+      "start": 2317580,
+      "text": "I'm wondering if I understand it correctly. So the, the process that you described earlier where you received a lot of feedback and comments from the stakeholders, is that the output of user testing or there's a separate thing going on? Sorry, I'm confused.",
+      "id": "ep_154_ut_74"
+    },
+    {
+      "end": 2408928,
+      "speaker": "Tom Gabriel Johansen",
+      "start": 2332922,
+      "text": "No. So, yeah, no worries. Anybody would be confused of this. So there is a, but it's a very rigid structure. So you sort of send out for review the policymaker report to all the countries and all the other experts subscribe to that and they feed back on the report, and then you are at the end of the process, you are making a final version that goes into negotiation. And during the gatherings leading up to the negotiations, we are having scientists and some observers gathered and we are using those sessions that is within the group for user testing as best we can because it's a compromise here because of the confidentiality of the process as well. So the review process is a lot about countries feedbacking on what they think is about the content and also about the visualizations. And the user testing sessions can be in between, in plenary sessions. That is not necessarily, of course, at the plenary session at the end. So there are meetings throughout all the process that we're using actively, basically.",
+      "id": "ep_154_ut_75"
+    },
+    {
+      "end": 2424248,
+      "speaker": "Moritz Stefaner",
+      "start": 2409024,
+      "text": "So, because I think one challenge here is that for user testing, you have to, I guess you have to use, quote unquote, use people who didn't see these graphics before. Right. So I guess you have to see what's their reaction the first time they read it.",
+      "id": "ep_154_ut_76"
+    },
+    {
+      "end": 2451550,
+      "speaker": "Tom Gabriel Johansen",
+      "start": 2424304,
+      "text": "Absolutely. So that's a compromise in this process, basically. So we are actually discussing in the document that we're making with the IPCC in the lesson learned, we are actually discussing this extensively on how to solve that confidentiality issue and how to actually test stuff. Not by colored people in that sense, I mean by people that are inside, basically.",
+      "id": "ep_154_ut_77"
+    },
+    {
+      "end": 2489944,
+      "speaker": "Moritz Stefaner",
+      "start": 2452250,
+      "text": "Yeah. And I think in a way this makes me think back to, to one of the things we discussed earlier, that these things have to work without additional explanation from a person, let's say. So you have to be able to read it and learn not only about the content, but also how to read what it's there. So in a way that the role of annotations and text and all the rest is not only explanatory in terms of explaining to you what the data is about, but also how to read it, which makes it even harder. Right?",
+      "id": "ep_154_ut_78"
+    },
+    {
+      "end": 2490656,
+      "speaker": "Angela Morelli",
+      "start": 2489992,
+      "text": "Yeah.",
+      "id": "ep_154_ut_79"
+    },
+    {
+      "end": 2560052,
+      "speaker": "Tom Gabriel Johansen",
+      "start": 2490848,
+      "text": "And also the annotation, when you're committed to the negotiation process and you're having 195 countries that are gathered that have different contexts, different needs, different starting points, some will not survive 1.5 degree increase. Somebody, I feel threatened about keeping it below 1.5. And they will, of course, have an impact on the annotation not being misunderstood. So they want to make it really clear in the annotation. That's why annotations are not just explaining the figures, but they're also catering for all the needs of all the 195 countries because everybody has to agree on it. But when they do agree on it, you have a long, but you have a graph that everybody agrees upon and you cannot get away. So just by having that agreement in itself, it's so valuable because potentially you could lose it if you made it too graphic, too simple. You're also running the risk of actually losing it in the planning sessions.",
+      "id": "ep_154_ut_80"
+    },
+    {
+      "end": 2569598,
+      "speaker": "Enrico Bertini",
+      "start": 2560236,
+      "text": "No, and I totally see that. And I mean, the whole phrase design by comedy is a very, it's an easy way to get rid of a designer, is just to say, like, there.",
+      "id": "ep_154_ut_81"
+    },
+    {
+      "end": 2571890,
+      "speaker": "Moritz Stefaner",
+      "start": 2569614,
+      "text": "Will be a comedy Cody signing with you.",
+      "id": "ep_154_ut_82"
+    },
+    {
+      "end": 2585606,
+      "speaker": "Enrico Bertini",
+      "start": 2573790,
+      "text": "But now, I think now understanding, like, how, what the value of this is, I see this in a totally different light now. So. And I really think that this is the way to go here. Absolutely.",
+      "id": "ep_154_ut_83"
+    },
+    {
+      "end": 2586558,
+      "speaker": "Angela Morelli",
+      "start": 2585678,
+      "text": "It's very powerful.",
+      "id": "ep_154_ut_84"
+    },
+    {
+      "end": 2641402,
+      "speaker": "Enrico Bertini",
+      "start": 2586614,
+      "text": "Yeah, yeah, yeah, exactly. I have one. We have to wrap it up soon. I have one wife question, because it's something I'm thinking about a lot as well, because I work with large organizations and so everybody's putting out these reports, and this idea of a report is a lot like, it's a big document, right? And it has like a timestamp, then it's published, and then you do the next report and IPCC does like two or three reports a year, I guess so. And I was thinking, what do you think about this whole format of a report? Are you also discussing in general, like, how could it look like if the whole thing was a communication platform or an evolving thing, or if maybe even people would see the process more? Like, is there like a meta discussion also about how to design the publishing format? I mean, that's probably a whole separate podcast.",
+      "id": "ep_154_ut_85"
+    },
+    {
+      "end": 2643818,
+      "speaker": "Angela Morelli",
+      "start": 2641466,
+      "text": "But I was wondering, I think it's.",
+      "id": "ep_154_ut_86"
+    },
+    {
+      "end": 2648294,
+      "speaker": "Enrico Bertini",
+      "start": 2643834,
+      "text": "A very, like what your take is on this, because you must have thought about that a lot as well, right?",
+      "id": "ep_154_ut_87"
+    },
+    {
+      "end": 2691722,
+      "speaker": "Angela Morelli",
+      "start": 2648422,
+      "text": "I think it's a very, it's an extremely good point. I mean, I think that the evolution is underway, but of course it's not going to be from one day to the other. I think that at least for the AR six that we have started working with just right today with the startup meeting, there is really a need of not just designing for the report, but start looking at what happens when the report is published. Meaning that you don't. Oh, you should not just think about the key figures for the report. You should think what's happening afterwards on social media or on the radio if you think that the 1.5 report continue.",
+      "id": "ep_154_ut_88"
+    },
+    {
+      "end": 2695050,
+      "speaker": "Enrico Bertini",
+      "start": 2691786,
+      "text": "The process actually, because the exciting stuff happens once it's out.",
+      "id": "ep_154_ut_89"
+    },
+    {
+      "end": 2732490,
+      "speaker": "Angela Morelli",
+      "start": 2695130,
+      "text": "Exactly. If you think that the 1.5 report, when was published, there were in just two days, 2 million hits on the IPCC website and over 4000 pieces broadcasted and 10,000 articles published. So in the AR six, we will be designing the key figures. But there is a deliverable that is specifically for what's going to happen afterwards to reach the broader audience. So the report maybe in its format is going to be there, but they start thinking different time and a different type of audiences as well, which I think is fantastic.",
+      "id": "ep_154_ut_90"
+    },
+    {
+      "end": 2733318,
+      "speaker": "Moritz Stefaner",
+      "start": 2733030,
+      "text": "Yeah.",
+      "id": "ep_154_ut_91"
+    },
+    {
+      "end": 2753418,
+      "speaker": "Enrico Bertini",
+      "start": 2733334,
+      "text": "And I think that's a general theme. Like just as you think beyond the individual figure about the narrative arc and the process leading up to that figure, in the same way you can think about, okay, there's the report, but what's the social process around the report? Can we design that too? Or, you know, how can we make sure we learn? We keep learning all the time. Right?",
+      "id": "ep_154_ut_92"
+    },
+    {
+      "end": 2764138,
+      "speaker": "Tom Gabriel Johansen",
+      "start": 2753514,
+      "text": "Yes, there is a great focus on that now, basically. And it's sort of like we're stretching it and everybody tries to stretch it out into that context, basically.",
+      "id": "ep_154_ut_93"
+    },
+    {
+      "end": 2773710,
+      "speaker": "Enrico Bertini",
+      "start": 2764314,
+      "text": "Wow. So you just said you started work on another one. Is this your main profession? By now I could imagine. Do you even have fine time for different things?",
+      "id": "ep_154_ut_94"
+    },
+    {
+      "end": 2780244,
+      "speaker": "Tom Gabriel Johansen",
+      "start": 2776820,
+      "text": "We say it's a beautiful way of killing yourself. Yes.",
+      "id": "ep_154_ut_95"
+    },
+    {
+      "end": 2781740,
+      "speaker": "Enrico Bertini",
+      "start": 2780412,
+      "text": "And a meaningful one. Right.",
+      "id": "ep_154_ut_96"
+    },
+    {
+      "end": 2787720,
+      "speaker": "Tom Gabriel Johansen",
+      "start": 2781780,
+      "text": "Or a meaningful way of killing yourself. Yes.",
+      "id": "ep_154_ut_97"
+    },
+    {
+      "end": 2796080,
+      "speaker": "Enrico Bertini",
+      "start": 2791380,
+      "text": "We're grateful. The planet is grateful.",
+      "id": "ep_154_ut_98"
+    },
+    {
+      "end": 2798000,
+      "speaker": "Angela Morelli",
+      "start": 2796900,
+      "text": "We hope so.",
+      "id": "ep_154_ut_99"
+    },
+    {
+      "end": 2800162,
+      "speaker": "Tom Gabriel Johansen",
+      "start": 2799810,
+      "text": "Yeah.",
+      "id": "ep_154_ut_100"
+    },
+    {
+      "end": 2803610,
+      "speaker": "Enrico Bertini",
+      "start": 2800186,
+      "text": "So it does probably dominate most of your waking hours.",
+      "id": "ep_154_ut_101"
+    },
+    {
+      "end": 2832550,
+      "speaker": "Angela Morelli",
+      "start": 2803690,
+      "text": "Yeah, yeah, it does. It does. But we are becoming kind of like, you know, because of the review draft process. There are period of like one and a half months that are silent because of course the review is on. So we, of course we are working on other projects and so we are killing ourselves on, on other scientific projects, but yeah.",
+      "id": "ep_154_ut_102"
+    },
+    {
+      "end": 2858866,
+      "speaker": "Tom Gabriel Johansen",
+      "start": 2835370,
+      "text": "And we're teaching and we're running a lot of trying to spread this word as much as possible. The learning points from this we're also trying to do through keynote speaking and workshops we do with everything from designers to non designers and stuff. So it takes a lot of time, but you really have to also have the other one or you will completely die if you were only doing this.",
+      "id": "ep_154_ut_103"
+    },
+    {
+      "end": 2875262,
+      "speaker": "Moritz Stefaner",
+      "start": 2858898,
+      "text": "Basically. Also kind of like collecting some very specific kind of knowledge. I think you work in a very specific kind of process and there are probably lessons that you learn there that it's very hard to be exposed to unless you work on this specific kind of project.",
+      "id": "ep_154_ut_104"
+    },
+    {
+      "end": 2876250,
+      "speaker": "Angela Morelli",
+      "start": 2875366,
+      "text": "Absolutely.",
+      "id": "ep_154_ut_105"
+    },
+    {
+      "end": 2878290,
+      "speaker": "Moritz Stefaner",
+      "start": 2876990,
+      "text": "It's fascinating.",
+      "id": "ep_154_ut_106"
+    },
+    {
+      "end": 2902050,
+      "speaker": "Tom Gabriel Johansen",
+      "start": 2879390,
+      "text": "So working as a designer, a live designer on the floor in this level of international negotiation where there breathing down your neck and you really have to act by minutes and minutes, it's a lesson learned that really how to share as much as possible and all the learning points. We really try to share it as much as possible, basically.",
+      "id": "ep_154_ut_107"
+    },
+    {
+      "end": 2914610,
+      "speaker": "Enrico Bertini",
+      "start": 2902950,
+      "text": "Yeah, that would be great if you can document this process and sort of scale it, or that other people can apply the same process because it seems like a fantastic way to tackle this impossible challenge.",
+      "id": "ep_154_ut_108"
+    },
+    {
+      "end": 2942430,
+      "speaker": "Angela Morelli",
+      "start": 2915190,
+      "text": "And it's actually fantastic because we have put together, we are building lessons learned, document that the IPCC is using and it's in constant, it's a work in progress because of course we keep building on it. But I think it's kind of like changing things in the organizations as well. That's a huge legacy in a way. It's not just designing the visualizations, but it's also changing the processes.",
+      "id": "ep_154_ut_109"
+    },
+    {
+      "end": 2957872,
+      "speaker": "Enrico Bertini",
+      "start": 2943050,
+      "text": "Are there any resources if somebody's now interested in participatory design co designing, especially in a scientific context, would you, off the top of your mind, already have a good starting point for folks like where they could learn the basics or get inspired?",
+      "id": "ep_154_ut_110"
+    },
+    {
+      "end": 3004190,
+      "speaker": "Angela Morelli",
+      "start": 2957976,
+      "text": "No, I was. I mean, we are, we are always talking about system design and participatory design, and we use that a lot in the, in every project we do. Inspired by, you know, almost like design thinking methods. We have been working with this in the past 15 years. We don't look at resources, I guess, not because we know everything on how to do it, but just like we keep improving specifically in the scientific community. It's quite a special environment. But yeah, we think a lot about participatory design approaches and systemic thinking and we have a lot of discussions with other designers in the field.",
+      "id": "ep_154_ut_111"
+    },
+    {
+      "end": 3007194,
+      "speaker": "Moritz Stefaner",
+      "start": 3004490,
+      "text": "Tom, you wanted to add something about it?",
+      "id": "ep_154_ut_112"
+    },
+    {
+      "end": 3021514,
+      "speaker": "Tom Gabriel Johansen",
+      "start": 3007362,
+      "text": "Yeah, no, I think it's that we are looking at ourselves as hardcore information designers, but we're really borrowing so much from other fields that we don't find in the field of visualization at the moment. So we don't find.",
+      "id": "ep_154_ut_113"
+    },
+    {
+      "end": 3032740,
+      "speaker": "Enrico Bertini",
+      "start": 3021562,
+      "text": "That's why I was asking, because I wouldn't, I couldn't point people to say a good source for co designing data visualizations, which sounds, if you think about it, that sounds weird, actually. Yeah.",
+      "id": "ep_154_ut_114"
+    },
+    {
+      "end": 3037120,
+      "speaker": "Moritz Stefaner",
+      "start": 3033680,
+      "text": "You should write a book on the Wikipedia.",
+      "id": "ep_154_ut_115"
+    },
+    {
+      "end": 3077270,
+      "speaker": "Tom Gabriel Johansen",
+      "start": 3037160,
+      "text": "Yeah, no, I thought about that. Thank you. We have available time on Sunday, Angela, but we're teaching a lot, and the courses that we built is actually not about learning software or stuff. It's about how you approach this co design process and as an information designer. So we try to teach it and we run this now for, I, I think ten years, but we're still teaching it on the side, a little bit of the mainstream database community, as we are extremely focused on what happens on Tuesday after you deliver the work on Monday, basically.",
+      "id": "ep_154_ut_116"
+    },
+    {
+      "end": 3094650,
+      "speaker": "Angela Morelli",
+      "start": 3077730,
+      "text": "And we ask, when we run workshops, the first thing that we ask students when we assign briefs or participants is to adopt a user. And that's probably a new podcast because the stories are so fascinating about adopting users for data visualization projects.",
+      "id": "ep_154_ut_117"
+    },
+    {
+      "end": 3116410,
+      "speaker": "Moritz Stefaner",
+      "start": 3095870,
+      "text": "Yes. Well, thanks so much. I guess that's another one of those episodes. We could go on forever. At times. I felt so. Watching your presentations online, I felt like you could almost create a documentary out of your experience. So maybe that's a good pitch for Netflix or something similar.",
+      "id": "ep_154_ut_118"
+    },
+    {
+      "end": 3120130,
+      "speaker": "Tom Gabriel Johansen",
+      "start": 3116990,
+      "text": "Yeah, it doesn't have to be a documentary. It can be a trailer.",
+      "id": "ep_154_ut_119"
+    },
+    {
+      "end": 3134496,
+      "speaker": "Moritz Stefaner",
+      "start": 3122880,
+      "text": "Well, thanks so much. I think the world is grateful for your work and it's super fascinating, and I think we're looking forward to seeing what's next. Thanks so much.",
+      "id": "ep_154_ut_120"
+    },
+    {
+      "end": 3135320,
+      "speaker": "Angela Morelli",
+      "start": 3134608,
+      "text": "Thanks, guys.",
+      "id": "ep_154_ut_121"
+    },
+    {
+      "end": 3136024,
+      "speaker": "Tom Gabriel Johansen",
+      "start": 3135400,
+      "text": "Thank you for having us.",
+      "id": "ep_154_ut_122"
+    },
+    {
+      "end": 3137568,
+      "speaker": "Enrico Bertini",
+      "start": 3136032,
+      "text": "Thanks for joining us. Bye bye.",
+      "id": "ep_154_ut_123"
+    },
+    {
+      "end": 3139140,
+      "speaker": "Angela Morelli",
+      "start": 3137624,
+      "text": "Bye bye bye bye.",
+      "id": "ep_154_ut_124"
+    },
+    {
+      "end": 3165524,
+      "speaker": "Enrico Bertini",
+      "start": 3143680,
+      "text": "Hey folks, thanks for listening to data stories again. Before you leave a few last notes, this show is crowdfunded and you can support us on patreon@patreon.com Datastories, where we publish monthly previews of upcoming episodes for our supporters. Or you can also send us a one time donation via Paypalaypal me Datastories.",
+      "id": "ep_154_ut_125"
+    },
+    {
+      "end": 3193266,
+      "speaker": "Moritz Stefaner",
+      "start": 3165692,
+      "text": "Or as a free way to support the show. If you can spend a couple of minutes rating us on iTunes, that would be very helpful as well. And here is some information on the many ways you can get news directly from us. We are on Twitter, Facebook and Instagram, so follow us there for the latest updates. We have also a slack channel where you can chat with us directly. And to sign up, go to our home page at datastory ES and there you'll find a button at the bottom.",
+      "id": "ep_154_ut_126"
+    },
+    {
+      "end": 3202194,
+      "speaker": "Enrico Bertini",
+      "start": 3193298,
+      "text": "Of the page and there you can also subscribe to our email newsletter if you want to get news directly into your inbox and be notified whenever we publish a new episode.",
+      "id": "ep_154_ut_127"
+    },
+    {
+      "end": 3214818,
+      "speaker": "Moritz Stefaner",
+      "start": 3202282,
+      "text": "That's right, and we love to get in touch with our listeners. So let us know if you want to suggest a way to improve the show or know any amazing people you want us to invite or even have any project you want us to talk about.",
+      "id": "ep_154_ut_128"
+    },
+    {
+      "end": 3221506,
+      "speaker": "Enrico Bertini",
+      "start": 3214954,
+      "text": "Yeah, absolutely. Don't hesitate to get in touch. Just send us an email at mailatastory es.",
+      "id": "ep_154_ut_129"
+    },
+    {
+      "end": 3225330,
+      "speaker": "Moritz Stefaner",
+      "start": 3221658,
+      "text": "That's all for now. See you next time, and thanks for listening to data stories.",
+      "id": "ep_154_ut_130"
+    }
+  ],
+  "confidence": 0.92428680956621,
+  "audio_duration": 3234,
+  "punctuate": true,
+  "format_text": true,
+  "dual_channel": false,
+  "webhook_url": null,
+  "webhook_status_code": null,
+  "webhook_auth": false,
+  "webhook_auth_header_name": null,
+  "speed_boost": false,
+  "auto_highlights_result": null,
+  "auto_highlights": false,
+  "audio_start_from": null,
+  "audio_end_at": null,
+  "word_boost": [],
+  "boost_param": null,
+  "filter_profanity": false,
+  "redact_pii": false,
+  "redact_pii_audio": false,
+  "redact_pii_audio_quality": null,
+  "redact_pii_policies": null,
+  "redact_pii_sub": null,
+  "speaker_labels": true,
+  "content_safety": false,
+  "iab_categories": true,
+  "content_safety_labels": {
+    "status": "unavailable",
+    "results": [],
+    "summary": {}
+  },
+  "language_detection": false,
+  "language_detection_threshold": null,
+  "language_confidence": null,
+  "custom_spelling": null,
+  "throttled": false,
+  "auto_chapters": true,
+  "summarization": false,
+  "summary_type": null,
+  "summary_model": null,
+  "custom_topics": false,
+  "topics": [],
+  "speech_threshold": null,
+  "speech_model": "best",
+  "chapters": [
+    {
+      "summary": "On this podcast we talk about data visualization, analysis, and more generally the role data plays in our lives. The topic for today is a really, really interesting one: climate. We are going to talk about visualizing data for the IPCC. If you do enjoy the show, you could also consider supporting us.",
+      "gist": "Data Stories: Climate visualization",
+      "headline": "Our podcast is listener supported, which means there are no ads",
+      "start": 160,
+      "end": 136896,
+      "id": "ep_154_ch_0"
+    },
+    {
+      "summary": "Angela Morelli and Tom Gabriel Johansen are the founders of info Design lab. They work on solutions that can help audiences understand complex topics or support evidence based decision making. Hear their stories about visualizing climate data for IPCC.",
+      "gist": "Immersive: Visualizing climate data",
+      "headline": "Angela Morelli and Tom Gabriel Johansen discuss climate visualization for IPCC",
+      "start": 136968,
+      "end": 342360,
+      "id": "ep_154_ch_1"
+    },
+    {
+      "summary": "IPCC stands for intergovernmental panel of climate Change. The reports the IPCC produces are for the world's policymakers. And we have worked on the key visualizations of the summary for policymakers for basically three reports. And now we have actually started just today with a new one, which is the report for the 6th assessment.",
+      "gist": "Explaining the Intergovernmental Panel on Climate Change (IPCC)",
+      "headline": "Enrico: I want to focus on the work that you've done for IPCC",
+      "start": 342820,
+      "end": 677940,
+      "id": "ep_154_ch_2"
+    },
+    {
+      "summary": "TSU has worked on several climate reports. Can you tell us a bit about some of the visualizations and infographics you produced? It's a lot about deconstructing complexity, right? We have to be able to create a narrative across elements.",
+      "gist": "The Visualization of the IPCC Report",
+      "headline": "You've been working on several climate reports, including the 1.5 report",
+      "start": 677980,
+      "end": 1207202,
+      "id": "ep_154_ch_3"
+    },
+    {
+      "summary": "Every word, comma, dot and line and visualization in that policymaker report is approved by every country, word by word. In the 1.5 report, in total, we had like 42,000 comments. It doesn't move forward until everyone agrees and gives an okay.",
+      "gist": "IPCC Report: The Process",
+      "headline": "An IPCC report has to be approved by 195 countries for reviews",
+      "start": 1207346,
+      "end": 1625668,
+      "id": "ep_154_ch_4"
+    },
+    {
+      "summary": "The graphics are fairly text heavy. They're almost like half text, half graphic. Do you feel like it was hard to integrate all these extra text contents around it? IPCC is constantly fighting for and we are constantly fighting.",
+      "gist": "The 1.5 report's graphics",
+      "headline": "The graphics in IPCC 1.5 report are fairly text heavy",
+      "start": 1625864,
+      "end": 1920140,
+      "id": "ep_154_ch_5"
+    },
+    {
+      "summary": "Scientists raise their hand and say, I think this thing should be red. But it's never pointless until the approval. One of the very nice thing that is happening with this process is refining it. New things can kind of like sometimes can backfire in a way.",
+      "gist": "What level of detail do scientists get involved in the IPCC report?",
+      "headline": "Angela: Scientists give very specific feedback on graphics in land report",
+      "start": 1920880,
+      "end": 2085008,
+      "id": "ep_154_ch_6"
+    },
+    {
+      "summary": "To have user inclusion early is extremely important. You're nothing designing from your assumptions, but you're designing from the lesson you learn by doing in depth interviews with policymakers, with scientists and stuff. This is all very difficult in the IPCC context because it's confidential.",
+      "gist": "IPCC 6, User Testing in Visualizations",
+      "headline": "You mentioned that you've done extensive user testing for climate change visualization",
+      "start": 2085144,
+      "end": 2590126,
+      "id": "ep_154_ch_7"
+    },
+    {
+      "summary": " IPCC does like two or three reports a year. What do you think about this whole format of a report? Are you also discussing in general, how could it look like if the whole thing was a communication platform or an evolving thing?",
+      "gist": "The Report as a Communication Platform",
+      "headline": "I have one question about how to design a climate report",
+      "start": 2590158,
+      "end": 2764138,
+      "id": "ep_154_ch_8"
+    },
+    {
+      "summary": "We say it's a beautiful way of killing yourself. And a meaningful one. The learning points from this we're also trying to do through keynote speaking and workshops we do with everything from designers to non designers. We really try to share it as much as possible.",
+      "gist": "The design of the IPCC report",
+      "headline": "Is this your main profession? By now I could imagine. It does probably dominate most of your waking hours",
+      "start": 2764314,
+      "end": 2942430,
+      "id": "ep_154_ch_9"
+    },
+    {
+      "summary": "Are there any resources if somebody's now interested in participatory design co designing, especially in a scientific context? The first thing that we ask students when we assign briefs or participants is to adopt a user. This is probably a new podcast because the stories are so fascinating.",
+      "gist": "Several resources for co-designing data visualizations",
+      "headline": "Are there any resources if somebody's now interested in participatory design co designing",
+      "start": 2943050,
+      "end": 3225330,
+      "id": "ep_154_ch_10"
+    }
+  ],
+  "disfluencies": false,
+  "entity_detection": false,
+  "sentiment_analysis": false,
+  "sentiment_analysis_results": null,
+  "entities": null,
+  "speakers_expected": null,
+  "summary": null,
+  "custom_topics_results": null,
+  "episode_num": 154,
+  "episode_metadata": {
+    "speakers": [
+      "Tom Gabriel Johansen",
+      "Moritz Stefaner",
+      "Enrico Bertini",
+      "Angela Morelli"
+    ],
+    "WPid": "1540",
+    "url": "https://datastori.es/podlove/file/6463/s/feed/c/mp3/154-visualizing-global-warming-with-ipcc-with-angela-morelli-and-tom-gabriel-johansen.mp3",
+    "episode_title": "Visualizing Global Warming with IPCC with Angela Morelli and Tom Gabriel Johansen"
+  }
+}

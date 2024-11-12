@@ -1,0 +1,694 @@
+{
+  "id": "ce087bf0-cb9a-4cc2-bc46-f8564e61949d",
+  "language_model": "assemblyai_default",
+  "acoustic_model": "assemblyai_default",
+  "language_code": "en_us",
+  "status": "completed",
+  "audio_url": "https://datastori.es/podlove/file/2364/s/feed/c/mp3/73-kim-albrecht.mp3",
+  "utterances": [
+    {
+      "end": 14234,
+      "speaker": "Kim Albrecht",
+      "start": 200,
+      "text": "In the beginning, I arrived and people came to me and they were like, oh, it's so great that you're here because we have got such a hard time doing this 3d visualizations. And it was really, they thought, okay, I'm here now and I'm the 3d guy.",
+      "id": "ep_73_ut_0"
+    },
+    {
+      "end": 54092,
+      "speaker": "Moritz Stefaner",
+      "start": 16534,
+      "text": "Data stories is brought to you by Qlik, who allows you to explore the hidden relationships within your data that lead to meaningful insights. Let your instincts lead the way to create personalized visualizations and dynamic dashboards with Qlik sense, which you can download for free at Qlik deries. That's q l I K deries. Hey, everyone, welcome to data stories. Hi, Enrico. How are you doing?",
+      "id": "ep_73_ut_1"
+    },
+    {
+      "end": 55236,
+      "speaker": "Enrico Bertini",
+      "start": 54188,
+      "text": "I'm doing great.",
+      "id": "ep_73_ut_2"
+    },
+    {
+      "end": 73054,
+      "speaker": "Moritz Stefaner",
+      "start": 55380,
+      "text": "That's great. So today we have a project episode with Kim Albrecht and he designed an amazing data visualization project about success in tennis and also another one on the cosmic web. And we really love talking to Kim about science, communication and how to make sense of messy networks.",
+      "id": "ep_73_ut_3"
+    },
+    {
+      "end": 88214,
+      "speaker": "Enrico Bertini",
+      "start": 73674,
+      "text": "I really love talking to Kim. He's one of my favorite designers. You guys should check his website and see what kind of amazing projects he has. And in this episode, I really like the way he describes how it works with scientists. It's a very unique situation.",
+      "id": "ep_73_ut_4"
+    },
+    {
+      "end": 96892,
+      "speaker": "Moritz Stefaner",
+      "start": 88524,
+      "text": "Yeah, he's a great guy. So let's bring him on. Here's Kim and enjoy the show. So today we have Kim Albrecht on the show. Hi, Kim.",
+      "id": "ep_73_ut_5"
+    },
+    {
+      "end": 99044,
+      "speaker": "Kim Albrecht",
+      "start": 97028,
+      "text": "Hi. Thanks for having me. You too.",
+      "id": "ep_73_ut_6"
+    },
+    {
+      "end": 106944,
+      "speaker": "Moritz Stefaner",
+      "start": 99164,
+      "text": "Yeah, good to have you. Kim, can you briefly introduce yourself, tell us what you have been doing in the past, what you're doing now, where you're working?",
+      "id": "ep_73_ut_7"
+    },
+    {
+      "end": 134134,
+      "speaker": "Kim Albrecht",
+      "start": 107444,
+      "text": "Yeah, so I've got a background in design and graphic design and interaction design. And currently I'm in Boston working at the complex, at the center for Complex Network Research. And, yeah, we're a lab with about 30 researchers and most of my colleagues are physicists and mathematicians. And I'm the art guy, I'm the designer in the team.",
+      "id": "ep_73_ut_8"
+    },
+    {
+      "end": 134598,
+      "speaker": "Enrico Bertini",
+      "start": 134214,
+      "text": "And.",
+      "id": "ep_73_ut_9"
+    },
+    {
+      "end": 135798,
+      "speaker": "Kim Albrecht",
+      "start": 134686,
+      "text": "Yeah, it's exciting.",
+      "id": "ep_73_ut_10"
+    },
+    {
+      "end": 139914,
+      "speaker": "Moritz Stefaner",
+      "start": 135886,
+      "text": "Yeah, that's a great role to have. Right? You're like the artist among the nerds.",
+      "id": "ep_73_ut_11"
+    },
+    {
+      "end": 145006,
+      "speaker": "Enrico Bertini",
+      "start": 140814,
+      "text": "Designer within a group of physicists. That's great.",
+      "id": "ep_73_ut_12"
+    },
+    {
+      "end": 146374,
+      "speaker": "Moritz Stefaner",
+      "start": 145110,
+      "text": "It's the best. It's the best.",
+      "id": "ep_73_ut_13"
+    },
+    {
+      "end": 147214,
+      "speaker": "Enrico Bertini",
+      "start": 146414,
+      "text": "It's the best.",
+      "id": "ep_73_ut_14"
+    },
+    {
+      "end": 155260,
+      "speaker": "Kim Albrecht",
+      "start": 147334,
+      "text": "I think it's very uncommon. Uncommon. I think there are not many positions like that, so it's very interesting.",
+      "id": "ep_73_ut_15"
+    },
+    {
+      "end": 160756,
+      "speaker": "Moritz Stefaner",
+      "start": 155452,
+      "text": "And we actually share some background. So we both studied at FH Potsdam in Germany, right?",
+      "id": "ep_73_ut_16"
+    },
+    {
+      "end": 162180,
+      "speaker": "Kim Albrecht",
+      "start": 160860,
+      "text": "Exactly. Yes.",
+      "id": "ep_73_ut_17"
+    },
+    {
+      "end": 170620,
+      "speaker": "Moritz Stefaner",
+      "start": 162332,
+      "text": "Greetings to Boris Muller, who brought us on the database track, I guess, and Marian, D\u00f6rk and many other great people.",
+      "id": "ep_73_ut_18"
+    },
+    {
+      "end": 172236,
+      "speaker": "Enrico Bertini",
+      "start": 170732,
+      "text": "Yeah, there are so many great people.",
+      "id": "ep_73_ut_19"
+    },
+    {
+      "end": 175344,
+      "speaker": "Kim Albrecht",
+      "start": 172300,
+      "text": "Yeah, many other great. Yeah, it's really a hot hut.",
+      "id": "ep_73_ut_20"
+    },
+    {
+      "end": 213974,
+      "speaker": "Moritz Stefaner",
+      "start": 176404,
+      "text": "So the project we want to talk about today is called untangling tennis. And the subtitle is it's a visual and data analytic exploration of success in tennis, uncovering the relationship between performance and popularity. So that seems like an interesting topic. And the project is also super interesting. So we thought, yeah, let's talk about it. So can you first describe roughly what the project is about? So I heard it's about tennis and popularity, but maybe you can fill in a bit more detail and also let us know how it all started. Like how did it come about, this whole project, for sure.",
+      "id": "ep_73_ut_21"
+    },
+    {
+      "end": 303278,
+      "speaker": "Kim Albrecht",
+      "start": 214474,
+      "text": "So the project is part of a bigger project in the lab, which is about success and trying to understand success and trying to use data to understand success. And we had to come up with some kind of definition how to frame success. And in our eyes there are two components to this. So one is the performance. So you need to do something good, so you need to do a good podcast, you need to be very good at writing, you need to do great data visualizations, but this also needs to be reflected from the society. So there's some kind of component that needs to reflect that if you're like an amazing writer but nobody knows about this and you're not really successful. So it's these two components and how do they play together to create this kind of success? And yeah, the tennis project is the first time that we actually looked at success in sport. And it started I think like two years before I came. So it's a very long project. It's going on since like three years. And when I came in, they already had had the data and had the analysis. And my colleague, she's a physicist, it's her project, it's her main project, and she already did a lot of analysis and went through the data and she actually created a model. So that was a point when I.",
+      "id": "ep_73_ut_22"
+    },
+    {
+      "end": 323276,
+      "speaker": "Moritz Stefaner",
+      "start": 303326,
+      "text": "Joined the team and she already had a few hypotheses or findings. And was your role more to take these ready insights and illustrate them, or was your role also to help with the exploratory data analysis and finding out what, what can be said with the data?",
+      "id": "ep_73_ut_23"
+    },
+    {
+      "end": 377254,
+      "speaker": "Kim Albrecht",
+      "start": 323460,
+      "text": "So it was purely exploratory. So the idea was she had like, she had visualizations that were very, on a very high level. So like scatter plots of like all the players. And my role when I came in was actually first of all to find outliers, to find things that don't match. Where's the model? So this model is predicting Wikipedia page views based on your performance data. So she used different measurements of performance to predict how many page views you're going to have tomorrow. So that's the idea. And I joined the team to find people where this was not fitting. And then we used the visualizations to understand why this is not fitting. So that was my big role in this project.",
+      "id": "ep_73_ut_24"
+    },
+    {
+      "end": 390154,
+      "speaker": "Moritz Stefaner",
+      "start": 378034,
+      "text": "So it was actually helping the scientists, while everything was still unclear, to get a sharper view of the phenomenon and tune the model and figure things out. Yeah, very nice.",
+      "id": "ep_73_ut_25"
+    },
+    {
+      "end": 392306,
+      "speaker": "Kim Albrecht",
+      "start": 390314,
+      "text": "So it was a lot of back and forth.",
+      "id": "ep_73_ut_26"
+    },
+    {
+      "end": 417356,
+      "speaker": "Enrico Bertini",
+      "start": 392450,
+      "text": "So, Kim, can you describe how the design process go? So, I guess so. You already said you started by creating some exploratory charts to find outliers. But what I really like of the project is that it's very well polished and beautiful and insightful. So can you describe how you went from, say, one single scatter plot to the final beautiful product?",
+      "id": "ep_73_ut_27"
+    },
+    {
+      "end": 490584,
+      "speaker": "Kim Albrecht",
+      "start": 417500,
+      "text": "Yeah, so, I mean, it's a big project. All the projects here in the lab run for very long. So Lazlo aims to have, like, projects with land, which run like two to three years. And so there's a lot of time. And we did a lot of charts. Like, there were like, I've got like 100 different things that we did, and we threw out a lot of different charts. One way this came about was like that we created first, like a bar chart kind of thing, where we compared the model and the actual page views. And then it was like, okay, but this is like, overall this is from 2009 to 2015, aggregated data. So what if we look at that per year, and then this created this little, like different charts? And then it was like, okay, but then now we've got like this visualizations that show us how it goes by year. But what about a closer view and like that? So we worked. The design process was very much like doing a simple visualization and then adding more and more data into it. So, yeah, it was nice.",
+      "id": "ep_73_ut_28"
+    },
+    {
+      "end": 506888,
+      "speaker": "Enrico Bertini",
+      "start": 490664,
+      "text": "So, can you describe? I know that the final product is made of quite a few different charts. I think it would be useful for the listeners to understand a little bit of how the charts look like. I know it's hard to describe, but I think it would be useful just to get a sense of what we are talking about.",
+      "id": "ep_73_ut_29"
+    },
+    {
+      "end": 556674,
+      "speaker": "Kim Albrecht",
+      "start": 507056,
+      "text": "So it's always small multiples. So we've got this view where we can arrange these icons which always display one player, and we've got 500 of them in different arrangements. So we can put them on like a grid structure, or we can do scatter plots with them. And then each player has different symbols. So we can either show the performance of a player of his entire career, or we can show his Wikipedia page views from 2009 to 2015, or we can compare the model with the actual page views. And then there's a second step in the visualization which always shows you close ups of individual people. So if you click on them, you get a close up view with the Wikipedia article.",
+      "id": "ep_73_ut_30"
+    },
+    {
+      "end": 597250,
+      "speaker": "Moritz Stefaner",
+      "start": 558094,
+      "text": "And what I really like about the presentation is also it's a long website, basically there's a video on top that tells the story in two minutes. It's sort of the quick executive version, and then there's this sort of series of different charts with short text annotations. And it's sort of in between a project summary, a very short paper, or an annotated chart collection. You know, it's sort of this, you know, it's sort of this mixed format. And I think this is very interesting. So I invite all the listeners to check out this collection. Untangling tennis.net dot yeah, and there is also be in the show notes.",
+      "id": "ep_73_ut_31"
+    },
+    {
+      "end": 611614,
+      "speaker": "Enrico Bertini",
+      "start": 597282,
+      "text": "It also has a very nice scientific flavor. You have some equations here and there. I really like, I really like that. And you are using a lot of icons. I love icons. It's under estimated, underused.",
+      "id": "ep_73_ut_32"
+    },
+    {
+      "end": 632914,
+      "speaker": "Kim Albrecht",
+      "start": 612274,
+      "text": "Yeah. So what we're trying there is like to open up this kind of scientific processes and normally it's like very hidden and in this dense papers. So we try to try to take this visualization so a couple of them and publicize them and make this project more open to the public and more accessible.",
+      "id": "ep_73_ut_33"
+    },
+    {
+      "end": 660304,
+      "speaker": "Moritz Stefaner",
+      "start": 633774,
+      "text": "And now if you look at the whole product, and also now it's been published already for half a year or so. What were the lessons you learned like when you published it? I guess you had some ideas of what would be the most successful part or what people will cling on. And is this also what happened? Or were there surprises in terms of the reception, which were the parts that people referred to the most? Like what's the bigger picture in terms of reception?",
+      "id": "ep_73_ut_34"
+    },
+    {
+      "end": 713774,
+      "speaker": "Kim Albrecht",
+      "start": 661484,
+      "text": "The reception was not that good, I have to say. Like, so I liked it. I liked it. It was very interesting. It was very interesting. And I'm trying to figure out what the problem is. So what's going on here? And I think like, it's not really something where you can easily, what you can easily digest. So you have to go there and you have to spend some time to understand what's going on. And it's very, there are a lot of different charts that interact and that play around it. I mean, I'm now preparing a talk for this and just to explain what's going on. I need like ten minutes, so. And I think that's in the digital age itself too long. So I'm very. Yeah, I'm interested to see what could we change to make this more running? I think.",
+      "id": "ep_73_ut_35"
+    },
+    {
+      "end": 723158,
+      "speaker": "Moritz Stefaner",
+      "start": 713854,
+      "text": "But that's a typical problem in science communication. No, you always have something way too complicated and, you know, somehow you need to think about what do we do?",
+      "id": "ep_73_ut_36"
+    },
+    {
+      "end": 766070,
+      "speaker": "Kim Albrecht",
+      "start": 723286,
+      "text": "Yeah, yeah, exactly. And we've got a lot of projects, like, coming up or going on. So I'm trying to figure out, okay, how can we make this? I would love to give people the access to the entire project. I mean, this is like a reflection on the entire project, but how can we make it that it's also accessible and that you've got this. I think what we need is this first aha. Moment, which might be missing a little bit. So we tried this with this long page and trying to tell the story and then also have this experience exploratory tool that you can use, but it didn't nailed it completely in that project.",
+      "id": "ep_73_ut_37"
+    },
+    {
+      "end": 774686,
+      "speaker": "Moritz Stefaner",
+      "start": 766182,
+      "text": "Yeah. So maybe it was lacking a good, like, surprising, shocking finding that everybody can relate to.",
+      "id": "ep_73_ut_38"
+    },
+    {
+      "end": 775126,
+      "speaker": "Kim Albrecht",
+      "start": 774790,
+      "text": "Yeah.",
+      "id": "ep_73_ut_39"
+    },
+    {
+      "end": 787374,
+      "speaker": "Moritz Stefaner",
+      "start": 775190,
+      "text": "But I mean, some, I mean, most of science research does not, is not shockingly surprising. Right? Yeah. So not every study can reveal, like, the big things. Right?",
+      "id": "ep_73_ut_40"
+    },
+    {
+      "end": 830084,
+      "speaker": "Kim Albrecht",
+      "start": 787534,
+      "text": "Yeah. The outcome of the project is a little bit. Yes. You need to perform well to have a lot of popularity. So that's also like, okay. Yep. So we found some outliers. There's some interesting people in there who are behaving very different, and they're this, like, things you can, you can do like this record stuff. So, for example, if you have the longest match, if you throw the hardest ball, if you do something very crazy on the court, then that gives you a lot of popularity, which is not reflected in the actual performance data. So there are some interesting things, but it's not this big, splashy finding.",
+      "id": "ep_73_ut_41"
+    },
+    {
+      "end": 842334,
+      "speaker": "Enrico Bertini",
+      "start": 830704,
+      "text": "So data stories listeners are excused. They can press pause and go to untangling. You can do it.net, read it through and come back.",
+      "id": "ep_73_ut_42"
+    },
+    {
+      "end": 844418,
+      "speaker": "Moritz Stefaner",
+      "start": 843074,
+      "text": "As long as you come back.",
+      "id": "ep_73_ut_43"
+    },
+    {
+      "end": 934726,
+      "speaker": "Enrico Bertini",
+      "start": 844546,
+      "text": "As long as you come back, they will. So this is a good time to take a little break and talk about our sponsor. Data stories is brought to you by Qlik, who allows you to explore the hidden relationships within your data that lead to meaningful insights. Let your instincts lead the way to create personalized visualizations and dynamic dashboards with Qlik sense, which you can download for free at www. Dot Clic dot de stories. On March 14, clic visualization advocate Patrik Lundblad authored a blog post identifying his favorite data visualization pioneers on PI Day. These are some of the true classics from the 18th and the 19th century, such as Charles Minard's Napoleon March, which has been largely popularized by Tufte. And the cholera map. The famous map physician John Snow, created to show the root cause of a cholera outbreak was coming actually from an infected pump. And also the splendid work of Florence Nightingale, such as her Costco visualization showing causes of mortality in the army in the east. You can find the link to the blog post in the show notes and in the transcripts, and you will see that there are many, many more fascinating examples. And now we can go back to the show. So Kim, you talk about some outliers. That's maybe some surprising facts that you found in the data. Can you maybe describe what kind of outliers you found?",
+      "id": "ep_73_ut_44"
+    },
+    {
+      "end": 955824,
+      "speaker": "Kim Albrecht",
+      "start": 934830,
+      "text": "Yeah, this is one guy. There's this one guy. He's very interesting. It looks a bit like a trumpet, like his Wikipedia page views against what the model is predicting. And he actually got married to a superstar actress. So that's something.",
+      "id": "ep_73_ut_45"
+    },
+    {
+      "end": 957404,
+      "speaker": "Enrico Bertini",
+      "start": 955904,
+      "text": "That's why he's so popular.",
+      "id": "ep_73_ut_46"
+    },
+    {
+      "end": 1001694,
+      "speaker": "Kim Albrecht",
+      "start": 958664,
+      "text": "That can make you super popular. And then there's this, like Markov Djokovic and his little brother. And yeah, it's like he got famous because he got this super famous big brother. And then they are like, it's also interesting, there are a few child actors, so they did first acting and like children, and then they became tennis players. And they're also like, like outliers. So there are this, like people who managed to have like, popularity in tennis without being very successful yet. But the overall trend is still there.",
+      "id": "ep_73_ut_47"
+    },
+    {
+      "end": 1027244,
+      "speaker": "Moritz Stefaner",
+      "start": 1003154,
+      "text": "But I think the point about the, like, the popularity was interesting. I know you have a second project that you just published. It's on the cosmic web. And when we talked about the episode before, you said it's sort of the opposite of this one in a sense, that it's totally different from the whole approach. And this one seems to strike much more accord with the web crowd. Can you tell us a bit more about the cosmic web project?",
+      "id": "ep_73_ut_48"
+    },
+    {
+      "end": 1044868,
+      "speaker": "Kim Albrecht",
+      "start": 1027364,
+      "text": "Yeah, so the cosmic web project actually started. It started a bit later than the tennis project, but it's also going on for about a year now. And it was about, a colleague came to me and was like, oh, so nice that you're here now. I need a 3d visualization.",
+      "id": "ep_73_ut_49"
+    },
+    {
+      "end": 1051744,
+      "speaker": "Enrico Bertini",
+      "start": 1045036,
+      "text": "And I was like, oh, no, I like 3d visualizations. I want to see more of them.",
+      "id": "ep_73_ut_50"
+    },
+    {
+      "end": 1128144,
+      "speaker": "Kim Albrecht",
+      "start": 1053924,
+      "text": "So I was like, okay, let's first try other things. And I did this, like, scatter plot, small multiples, and I did, like, parallel coordinates and try to avoid everything to not do a 3d visualization. And then nothing really worked. The data was, like, huge and very dense. And then I was like, okay, let's do a 3d version of this. And we plotted it and looked at it, and it was like, wow, okay, this is very nice. There's, like, so much structure in there. And from there on, we did a lot of refinements and changed the interface. But it's very simple. It's like the tennis stuff has all these multiple layers and these things you can click through. And in the universe visualization, you have this one cube where you have galaxies, and you've got different models how to create models out of this, to connect these galaxies to one another. But it's very simple. You've got, like, one filter that you can use, and that was interesting for the scientists, but it's rather a very simple interface in that sense. So it was very different.",
+      "id": "ep_73_ut_51"
+    },
+    {
+      "end": 1142964,
+      "speaker": "Moritz Stefaner",
+      "start": 1128224,
+      "text": "And visually, it's very striking. It's black and white, which is a nice touch. It's a very restrained visualization and lots of particles, lots of connections. So it's very rich in visual terms, right?",
+      "id": "ep_73_ut_52"
+    },
+    {
+      "end": 1208284,
+      "speaker": "Kim Albrecht",
+      "start": 1143024,
+      "text": "Yeah, yeah. It's 24,000 notes and, like, 200,000 links. So it's like, yeah, it's very big. It's a very big visualization. And we first had color in there, and we've got a lot of dimensions that we could map color onto. So there were a lot of things we could use color for. But in the end, it was not about that. It was about showing this connections. And the color, like, took so much away, away from this, from the actual insight here. And so I reduced it and said, okay, let's do black and white. And this is like, the important thing. So that's also maybe, maybe a big difference. Like, in the tennis project, we try to show the entire scientific process in visual form, and in that project, it's really reduced. It's a single, single thing that we're focusing on. So it's very different. And, yeah, the perception is amazing. I've got, like, this week, I had interviews every day. Like, it's madness, really. It's, yeah, it's going wild.",
+      "id": "ep_73_ut_53"
+    },
+    {
+      "end": 1239134,
+      "speaker": "Moritz Stefaner",
+      "start": 1209904,
+      "text": "Yeah, that's very interesting. And I think you're right. These are very different projects, in a sense, are very complimentary. Like the tennis one is very much about making sense out of a big mess of data and finding a good model to explain all the variables, you know, this type of thing. And the cosmic web is maybe more about having a certain thought and illustrating that thought or illustrating more of an essence of an idea, right. Than dealing with all the nitty gritty of the dataset.",
+      "id": "ep_73_ut_54"
+    },
+    {
+      "end": 1273254,
+      "speaker": "Kim Albrecht",
+      "start": 1239914,
+      "text": "Yeah, for sure. But what's also interesting is that the scientists in the cosmic web visualization found this so interesting and found this so insightful for their work and how this clustering is happening and how the components work with one another that they actually made me co author of the paper. So they decided to put me on this paper and then on the other side it's also this big success for the general public. So this is a very successful paper from my perspective.",
+      "id": "ep_73_ut_55"
+    },
+    {
+      "end": 1287598,
+      "speaker": "Enrico Bertini",
+      "start": 1274374,
+      "text": "So Kim, can you talk a little bit about your toolbox? What kind of software you use? Libraries, programming languages? I know our listeners love the geeky stuff.",
+      "id": "ep_73_ut_56"
+    },
+    {
+      "end": 1337756,
+      "speaker": "Kim Albrecht",
+      "start": 1287766,
+      "text": "So what I should say or mention is I'm a designer so all my coding skills are self taught and I'm most probably not the best person in that. But I'm using nowadays pretty much only JavaScript like I was using. I taught myself in the beginning processing and then I came to Potsdam and everybody was like, no, JavaScript is like, it's like the way to go. And it took me a long time, it was very hard, but now it's working very well. And I mean D3 is amazing and I love D3. And for the cosmic web I used three j's. So yeah, those are my, but it's very basic. I'm not using any node js or any, it's very simple. Most of the things I do.",
+      "id": "ep_73_ut_57"
+    },
+    {
+      "end": 1346196,
+      "speaker": "Enrico Bertini",
+      "start": 1337820,
+      "text": "Do you use anything to explore the data before generating any of your visualizations or you just go through just programming from the very beginning?",
+      "id": "ep_73_ut_58"
+    },
+    {
+      "end": 1431852,
+      "speaker": "Kim Albrecht",
+      "start": 1346340,
+      "text": "I mean I'm in a lab with like 30 people who are all like looking at the data all the time. So it doesn't really make sense that I start doing that. A lot of the data is huge and I mean these people spent like three years looking at this so talking to them for long and like makes more sense often than when I start, oh no, I'm doing now things. So when they come to me or when I'm doing things most of the time more complex than what they actually already can do. So I don't need to plot scatterplots. They already have scatterplots like all kinds of simple charts. But when I'm getting involved it's often like having a closer look at the data and then plotting a lot of dimensions into these things to discover things. Like, it's also mostly approaching deal with networks and they're hard to visualize. It's like it's a big problem to find really good, insightful ways. I'm just having a project, we worked on this for a year now and we had the first insightful visualizations after one year. It's like all these networks because it's so, yeah, it's very difficult, but then it becomes interesting for me. But I don't need to do like this. First steps, data analysis, that's pretty much sorted.",
+      "id": "ep_73_ut_59"
+    },
+    {
+      "end": 1454910,
+      "speaker": "Moritz Stefaner",
+      "start": 1432028,
+      "text": "That's a general question I have because obviously I'm also affected. Like how does the science and data analysis and design collaboration go? Is it, what were your experiences now in the lab? What type of things worked well? What type of things were difficult? Are there common misconceptions on both sides or. Yeah. What's your experience on this borderline?",
+      "id": "ep_73_ut_60"
+    },
+    {
+      "end": 1576496,
+      "speaker": "Kim Albrecht",
+      "start": 1455092,
+      "text": "Yeah, for sure. I mean, it's very interesting, I would say works very well now as I'm here for one and a half years, people know what I'm doing. But it was like in the beginning I arrived and people came to me and they were like, oh, it's so great that you're here because we got such a hard time doing this, like 3d visualizations. And it was really, they thought, okay, I'm here now and I'm the thing 3d guy. So I got a lot of like comments like that and was like, no, I'm not that. That's not what I'm doing. So we first had to get together and like figure out like what, what is actually what can be my role. And it's also like, I arrived here, nobody told me, hey, this is what you, what you need to do, or this is what, what I'm like, what I'm supposed to do. But it's like, okay, talk to everybody and figure out what you want to do. And so it's very open and I had to find my role in this. And, and one interesting thing is everybody is plotting here. Like, it's like everybody is doing charts. Yeah, like, I came here and Laszlo himself. So our professor, Laszlo Barabbasi, he's an extremely visual person, which is, I think that's why I'm here. And he's very much interested in art and he's very. So everybody, presentation anybody gives, it's like actually a series of charts where they try to explain their findings. So I really had to find my role in this. And I think one thing is that I can provide this, like, more complex arrangements. And the other thing is, like, interactivity. And I've got a different view of looking at the data. I'm often, like, making charts that more. Okay, let's. Let's go really deep down and look at one individual, but then at all the dimensions of that one individual and not at like millions, and then have, like, this highly aggregated scatter plot. So it's a different approach, and in some projects it can be very helpful.",
+      "id": "ep_73_ut_61"
+    },
+    {
+      "end": 1617964,
+      "speaker": "Enrico Bertini",
+      "start": 1576640,
+      "text": "Yeah, I just want to say that I think you should talk with Ben Shneiderman. I saw him yesterday. He's been giving. He gave a presentation at NYU on his new book. He's called the new ABC of research, and he's been advocating exactly for these kind of teams. It's kind of like very strongly having teams of scientists, engineers and designers. And the designers part is the one that is really not happening at a wider scale. And, yeah, I find this concept fascinating. And his argument is that in order to tackle today's problems, we need this kind of teams. Otherwise we won't be able to, or we won't do it fast enough. So I think it's an interesting argument.",
+      "id": "ep_73_ut_62"
+    },
+    {
+      "end": 1669224,
+      "speaker": "Kim Albrecht",
+      "start": 1618054,
+      "text": "But, yeah, we still, I think, need to figure out what this role of the designer in this process is. I mean, and I think there are a lot of projects in the lab that are going on that where I'm not helpful or where I'm not useful to join. But then there are sometimes things where it's really a good collaboration and where we can achieve, like, amazing things through this. But I haven't figured out what the best way is. I am really. Isabelle Marais introduced me to the thoughts of Peter Galison. I'm not sure if you know him. He's amazing. I think his readings or his writings about this, about this collaboration in art and science, it's great. So he's talking a lot about it, and I'm very inspired by that.",
+      "id": "ep_73_ut_63"
+    },
+    {
+      "end": 1693200,
+      "speaker": "Moritz Stefaner",
+      "start": 1669344,
+      "text": "Maybe we can put a few links in the show notes. Yeah, yeah, that sounds amazing. And I totally agree. It's not enough to just postulate that, you know, we need to work together more and put some people in the same room where we actually need to figure this out together, like how it actually works. And as you say, in some cases it works better, in others, you know, it doesn't work as well. And, yeah, it's a constant exploration.",
+      "id": "ep_73_ut_64"
+    },
+    {
+      "end": 1703564,
+      "speaker": "Enrico Bertini",
+      "start": 1693232,
+      "text": "It's an interesting process, I have to say. Visualization is an area where this is happening on a very interesting scale. There are people coming from very different backgrounds. So that's fascinating.",
+      "id": "ep_73_ut_65"
+    },
+    {
+      "end": 1710040,
+      "speaker": "Moritz Stefaner",
+      "start": 1703864,
+      "text": "Cool. Yeah, that's amazing. Thanks so much for coming on the show, Kim. We can't wait to see what you're up to next.",
+      "id": "ep_73_ut_66"
+    },
+    {
+      "end": 1711200,
+      "speaker": "Kim Albrecht",
+      "start": 1710152,
+      "text": "Thanks for having me.",
+      "id": "ep_73_ut_67"
+    },
+    {
+      "end": 1718488,
+      "speaker": "Moritz Stefaner",
+      "start": 1711272,
+      "text": "Communicate more science for us, please. It's always such a joy. And yeah, thanks for coming.",
+      "id": "ep_73_ut_68"
+    },
+    {
+      "end": 1719336,
+      "speaker": "Enrico Bertini",
+      "start": 1718576,
+      "text": "Thanks a lot, Kim.",
+      "id": "ep_73_ut_69"
+    },
+    {
+      "end": 1719984,
+      "speaker": "Kim Albrecht",
+      "start": 1719400,
+      "text": "Have a good day.",
+      "id": "ep_73_ut_70"
+    },
+    {
+      "end": 1735300,
+      "speaker": "Enrico Bertini",
+      "start": 1720024,
+      "text": "Yeah, thank you. Take care. Bye bye. Hey, guys, thanks for listening to data stories again. Before you leave, we have a request if you can spend a couple of minutes rating us on iTunes, that would be extremely helpful for the show.",
+      "id": "ep_73_ut_71"
+    },
+    {
+      "end": 1766048,
+      "speaker": "Moritz Stefaner",
+      "start": 1735412,
+      "text": "And here's also some information on the many ways you can get news directly from us. We're, of course, on twitter@twitter.com. Datastories. We have a Facebook page@Facebook.com. datastoriespodcast. All in one word. And we also have an email newsletter. So if you want to get news directly into your inbox and be notified whenever we publish an episode, you can go to our homepage datastory es and look for the link that you find on the bottom in the footer.",
+      "id": "ep_73_ut_72"
+    },
+    {
+      "end": 1778176,
+      "speaker": "Enrico Bertini",
+      "start": 1766136,
+      "text": "So one last thing that we want to tell you is that we love to get in touch with our listeners, especially if you want to suggest a way to improve the show or amazing people you want us to invite or even projects you want us to talk about.",
+      "id": "ep_73_ut_73"
+    },
+    {
+      "end": 1787524,
+      "speaker": "Moritz Stefaner",
+      "start": 1778280,
+      "text": "Yeah, absolutely. So don't hesitate to get in touch with us. It's always a great thing for us. And that's all for now. See you next time. And thanks for listening to data stories.",
+      "id": "ep_73_ut_74"
+    },
+    {
+      "end": 1808534,
+      "speaker": "Enrico Bertini",
+      "start": 1790254,
+      "text": "Data stories is brought to you by Qlik, who allows you to explore the hidden relationships within your data that lead to meaningful insights. Let your instincts lead the way to create personalized visualizations and dynamic dashboards with Qlik sense, which you can download for free at Qlik.de.",
+      "id": "ep_73_ut_75"
+    }
+  ],
+  "confidence": 0.921657960281336,
+  "audio_duration": 1810,
+  "punctuate": true,
+  "format_text": true,
+  "dual_channel": false,
+  "webhook_url": null,
+  "webhook_status_code": null,
+  "webhook_auth": false,
+  "webhook_auth_header_name": null,
+  "speed_boost": false,
+  "auto_highlights_result": null,
+  "auto_highlights": false,
+  "audio_start_from": null,
+  "audio_end_at": null,
+  "word_boost": [],
+  "boost_param": null,
+  "filter_profanity": false,
+  "redact_pii": false,
+  "redact_pii_audio": false,
+  "redact_pii_audio_quality": null,
+  "redact_pii_policies": null,
+  "redact_pii_sub": null,
+  "speaker_labels": true,
+  "content_safety": false,
+  "iab_categories": true,
+  "content_safety_labels": {
+    "status": "unavailable",
+    "results": [],
+    "summary": {}
+  },
+  "language_detection": false,
+  "language_detection_threshold": null,
+  "language_confidence": null,
+  "custom_spelling": null,
+  "throttled": false,
+  "auto_chapters": true,
+  "summarization": false,
+  "summary_type": null,
+  "summary_model": null,
+  "custom_topics": false,
+  "topics": [],
+  "speech_threshold": null,
+  "speech_model": "best",
+  "chapters": [
+    {
+      "summary": "Data stories is brought to you by Qlik who allows you to explore the hidden relationships within your data that lead to meaningful insights. Let your instincts lead the way to create personalized visualizations and dynamic dashboards with Qlik sense.",
+      "gist": "Data Stories: The Visualization Language",
+      "headline": "Data stories is brought to you by Qlik, who allows you to explore relationships",
+      "start": 200,
+      "end": 56060,
+      "id": "ep_73_ch_0"
+    },
+    {
+      "summary": "Kim Albrecht designed an amazing data visualization project about success in tennis and also another one on the cosmic web. We talk to Kim about science, communication and how to make sense of messy networks. Here's Kim and enjoy the show.",
+      "gist": "Project Episode 8",
+      "headline": "We talk to Kim Albrecht about science, communication and data visualization",
+      "start": 56132,
+      "end": 93516,
+      "id": "ep_73_ch_1"
+    },
+    {
+      "summary": "Kim Albrecht has a background in design and graphic design and interaction design. Currently she is in Boston working at the complex, at the center for Complex Network Research. Most of her colleagues are physicists and mathematicians. She is like the artist among the nerds.",
+      "gist": "Meet the Design Lead at MIT",
+      "headline": "Kim Albrecht is a designer within a group of physicists",
+      "start": 93620,
+      "end": 175344,
+      "id": "ep_73_ch_2"
+    },
+    {
+      "summary": "The project is called untangling tennis. It's a visual and data analytic exploration of success in tennis, uncovering the relationship between performance and popularity. It is the first time that we have looked at success in sport.",
+      "gist": "Tunneling tennis",
+      "headline": "The project is called untangling tennis and popularity",
+      "start": 176404,
+      "end": 392306,
+      "id": "ep_73_ch_3"
+    },
+    {
+      "summary": "Kim: Can you describe how you went from, say, one single scatter plot to the final beautiful product? What I really like of the project is that it's very well polished and beautiful and insightful. What were the lessons you learned like when you published it?",
+      "gist": "Untangling the web of page views",
+      "headline": "Kim: Can you describe how the design process go for Untangling Tennis",
+      "start": 392450,
+      "end": 797274,
+      "id": "ep_73_ch_4"
+    },
+    {
+      "summary": "So we found some outliers. There's some interesting people in there who are behaving very different. So there are some interesting things, but it's not this big, splashy finding. Data stories listeners are excused. You can do it. As long as you come back.",
+      "gist": "Outlining the Big Data Story",
+      "headline": "We found some outliers. So, for example, if you have the longest match",
+      "start": 797654,
+      "end": 846334,
+      "id": "ep_73_ch_5"
+    },
+    {
+      "summary": "On March 14, Patrik Lundblad identified his favorite data visualization pioneers on PI Day. These are some of the true classics from the 18th and the 19th century. Let your instincts lead the way to create personalized visualizations with Qlik sense.",
+      "gist": "Data Story Day",
+      "headline": "Data stories is brought to you by Qlik, which helps you visualize data",
+      "start": 849714,
+      "end": 924194,
+      "id": "ep_73_ch_6"
+    },
+    {
+      "summary": "Kim: Can you maybe describe what kind of outliers you found? There's this one guy. He actually got married to a superstar actress. And then there's this, like Markov Djokovic and his little brother. But the overall trend is still there.",
+      "gist": "Outliers in the popularity data",
+      "headline": "Kim: There are some outliers in the data that are surprising",
+      "start": 924614,
+      "end": 1006338,
+      "id": "ep_73_ch_7"
+    },
+    {
+      "summary": "The cosmic web project started a bit later than the tennis project. It's a very restrained visualization and lots of particles, lots of connections. visually, it's very striking. These are very different projects, in a sense, are very complimentary.",
+      "gist": "The cosmic web: The science visualization",
+      "headline": "You have a second project that you just published on the cosmic web",
+      "start": 1006426,
+      "end": 1273254,
+      "id": "ep_73_ch_8"
+    },
+    {
+      "summary": "Kim: All my coding skills are self taught. I'm using nowadays pretty much only JavaScript like I was using. Do you use anything to explore the data before generating any of your visualizations or you just go through just programming from the very beginning?",
+      "gist": "In the Know: Data visualizations",
+      "headline": "Kim says all his coding skills are self taught",
+      "start": 1274374,
+      "end": 1431852,
+      "id": "ep_73_ch_9"
+    },
+    {
+      "summary": "Kim: How does science and data analysis and design collaboration go? What were your experiences now in the lab? Are there common misconceptions on both sides? Kim: We still need to figure out what the role of the designer in this process is.",
+      "gist": "Working as a team in the lab",
+      "headline": "How does science and data analysis and design collaboration go in the lab",
+      "start": 1432028,
+      "end": 1808534,
+      "id": "ep_73_ch_10"
+    }
+  ],
+  "disfluencies": false,
+  "entity_detection": false,
+  "sentiment_analysis": false,
+  "sentiment_analysis_results": null,
+  "entities": null,
+  "speakers_expected": null,
+  "summary": null,
+  "custom_topics_results": null,
+  "episode_num": 73,
+  "episode_metadata": {
+    "speakers": [
+      "Kim Albrecht",
+      "Moritz Stefaner",
+      "Enrico Bertini"
+    ],
+    "WPid": "617",
+    "url": "https://datastori.es/podlove/file/2364/s/feed/c/mp3/73-kim-albrecht.mp3",
+    "episode_title": "Kim Albrecht on Untangling Tennis and the Cosmic Web"
+  }
+}

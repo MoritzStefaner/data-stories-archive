@@ -1,0 +1,764 @@
+{
+  "id": "4ac4163b-8d57-4fd9-9514-4cf4df1c7c3a",
+  "language_model": "assemblyai_default",
+  "acoustic_model": "assemblyai_default",
+  "language_code": "en_us",
+  "status": "completed",
+  "audio_url": "https://datastori.es/podlove/file/3105/s/feed/c/mp3/83-olympic-feathers-with-nadieh-bremer.mp3",
+  "utterances": [
+    {
+      "end": 5954,
+      "speaker": "Nadieh Bremer",
+      "start": 160,
+      "text": "You should always find a way to make sure that your data checks out, because otherwise you can have sort of a false security.",
+      "id": "ep_83_ut_0"
+    },
+    {
+      "end": 49384,
+      "speaker": "Enrico Bertini",
+      "start": 10614,
+      "text": "This episode of data stories is sponsored by Freshbooks, the small business accounting software that makes your accounting tasks easy, fast and secure. Freshbooks is offering a month of free and restricted use to all of our listeners. To claim your free month of freshbooks, go to freshbooks.com Datastories, where you can sign up for free and without the use of a credit card. Remember to enter data stories in the section titled I heard about freshbooks from at signup. Once again, the URL to claim your free month is freshbooks.com Datastories.",
+      "id": "ep_83_ut_1"
+    },
+    {
+      "end": 72042,
+      "speaker": "Moritz Stefaner",
+      "start": 69314,
+      "text": "Hey, everyone. It's a new data stories. Hi, Enrico.",
+      "id": "ep_83_ut_2"
+    },
+    {
+      "end": 73322,
+      "speaker": "Enrico Bertini",
+      "start": 72138,
+      "text": "Hey, Moritz.",
+      "id": "ep_83_ut_3"
+    },
+    {
+      "end": 74146,
+      "speaker": "Moritz Stefaner",
+      "start": 73418,
+      "text": "How you doing?",
+      "id": "ep_83_ut_4"
+    },
+    {
+      "end": 75634,
+      "speaker": "Enrico Bertini",
+      "start": 74250,
+      "text": "Yeah, what's up?",
+      "id": "ep_83_ut_5"
+    },
+    {
+      "end": 79034,
+      "speaker": "Moritz Stefaner",
+      "start": 75714,
+      "text": "Not much. Not much. Not much cruising along here. Yeah.",
+      "id": "ep_83_ut_6"
+    },
+    {
+      "end": 79774,
+      "speaker": "Enrico Bertini",
+      "start": 79114,
+      "text": "Yeah.",
+      "id": "ep_83_ut_7"
+    },
+    {
+      "end": 104084,
+      "speaker": "Moritz Stefaner",
+      "start": 80394,
+      "text": "So today we have another project episode. These are the short and on point ones. And we came across a really fascinating project that shows all the Olympic gold medal winners ever in one image. And it's a fascinating piece. And so we wanted to get Nadieh Bremer on the show who made it. Hi, Nadieh.",
+      "id": "ep_83_ut_8"
+    },
+    {
+      "end": 104988,
+      "speaker": "Enrico Bertini",
+      "start": 104204,
+      "text": "Hi, Nadieh.",
+      "id": "ep_83_ut_9"
+    },
+    {
+      "end": 105748,
+      "speaker": "Nadieh Bremer",
+      "start": 105076,
+      "text": "Hi.",
+      "id": "ep_83_ut_10"
+    },
+    {
+      "end": 107332,
+      "speaker": "Moritz Stefaner",
+      "start": 105916,
+      "text": "Hi. Great to have you on.",
+      "id": "ep_83_ut_11"
+    },
+    {
+      "end": 108428,
+      "speaker": "Nadieh Bremer",
+      "start": 107388,
+      "text": "Yeah, great to be here.",
+      "id": "ep_83_ut_12"
+    },
+    {
+      "end": 116486,
+      "speaker": "Moritz Stefaner",
+      "start": 108556,
+      "text": "So, Nadieh, can you introduce yourself a bit? Where do you come from? What do you do? And how did you end up making this piece?",
+      "id": "ep_83_ut_13"
+    },
+    {
+      "end": 159652,
+      "speaker": "Nadieh Bremer",
+      "start": 116660,
+      "text": "Sure. So I am from the Netherlands. I currently work in Amsterdam. And about five years ago, I graduated as an astronomer but didn't want to do a PhD, so I ended up being a data scientist, and I was working on different projects. And while we have clients, so we have to visualize the end results. And gradually, over the years, I found myself more interested in visualizing the results than doing the analysis itself. So at some point, it just flipped. And then I became, I really want to focus on data visualization. So now I work at Adyen, where I do data visualization full time, which.",
+      "id": "ep_83_ut_14"
+    },
+    {
+      "end": 170036,
+      "speaker": "Moritz Stefaner",
+      "start": 159668,
+      "text": "Is kind of neat. Yeah, that's a great background to come from astronomy and then specialize in data visualization. But I think it totally makes sense. So that's great.",
+      "id": "ep_83_ut_15"
+    },
+    {
+      "end": 175084,
+      "speaker": "Nadieh Bremer",
+      "start": 170140,
+      "text": "Yeah, for me, too. But still, people ask me questions like, how did you end up here? Then it makes sense to me.",
+      "id": "ep_83_ut_16"
+    },
+    {
+      "end": 227304,
+      "speaker": "Moritz Stefaner",
+      "start": 175124,
+      "text": "Yeah, why not? Exactly. So the project, I think it's a side project of yours, and I'll try to describe it briefly. So you will have. Definitely have to go to Nadieh's site and look at it yourself for a while because it's very full of content and very deep. But it shows all Olympic gold medal winners, the summer editions, actually, since 1896. So it's a lot of hundreds of gold medals plotted there and it's split up in different ways. So we have, of course, the year, we have the, the gender of the athletes, we have the disciplines. And you can see basically which gold medals went to which different continents, in which discipline, in which year. And so you can compare the disciplines against each other in terms of their, let's say, gold medal profile. Is that fair to say?",
+      "id": "ep_83_ut_17"
+    },
+    {
+      "end": 239082,
+      "speaker": "Nadieh Bremer",
+      "start": 227424,
+      "text": "Yes, yes, exactly. It's sort of displaying the raw data in a way without aggregating too much. Virtually no aggregation at all.",
+      "id": "ep_83_ut_18"
+    },
+    {
+      "end": 278576,
+      "speaker": "Moritz Stefaner",
+      "start": 239258,
+      "text": "Yeah, exactly. So it has a lot of detail, but then there's annotations around it, there's tooltips, so you can explore all the underlying data quite well. And, yeah, the most interesting points are also pointed out in little text annotations. And the way it's organized is it's five rings. So that's an obvious reference to the Olympic theme, I guess. And it goes inside out like year rings, basically. Like in a tree. You could say the oldest Olympic games are in the center, the most recent ones on the outside, and then you have the disciplines in the different angles and then left are the men and right the women. Or the other way around.",
+      "id": "ep_83_ut_19"
+    },
+    {
+      "end": 283736,
+      "speaker": "Nadieh Bremer",
+      "start": 278720,
+      "text": "I can never remember. It's like the blue background is men, the reddish background is women.",
+      "id": "ep_83_ut_20"
+    },
+    {
+      "end": 284804,
+      "speaker": "Moritz Stefaner",
+      "start": 283880,
+      "text": "Exactly.",
+      "id": "ep_83_ut_21"
+    },
+    {
+      "end": 286008,
+      "speaker": "Nadieh Bremer",
+      "start": 285464,
+      "text": "True.",
+      "id": "ep_83_ut_22"
+    },
+    {
+      "end": 297764,
+      "speaker": "Moritz Stefaner",
+      "start": 286096,
+      "text": "Yeah. So that's roughly it. So you just have a rough idea of what it is, but as I said, you need to go to the side and play with it yourself, otherwise it will be hard to describe how it looks. Exactly.",
+      "id": "ep_83_ut_23"
+    },
+    {
+      "end": 308470,
+      "speaker": "Enrico Bertini",
+      "start": 299894,
+      "text": "So, Nadieh, do you want to tell us why you started this project? What's the story behind it? What was the main impetus?",
+      "id": "ep_83_ut_24"
+    },
+    {
+      "end": 378430,
+      "speaker": "Nadieh Bremer",
+      "start": 308622,
+      "text": "Yeah, well, I guess the real reason is a bit farther away. So a few months ago, the information is beautiful. Wars came out again, saying that it's happening again. And so I started thinking, well, what if I created this last year and I came up with maybe one thing and I was like, how can I only done one project in the past year? I love creating projects, but I actually, when I look back, it was all based on tutorials like small examples or presentations and no projects. So I started discussing this with a friend that I met at Openviz, Shirley Wu. She's based in San Francisco, also data visualization designer. And we ended up actually then doing a twelve month collaboration where each month we pick a topic, both pick the same topic, and then we both create a data visualization around that topic and we give feedback to each other. So we're both each other's critics and such. And so for. So for August the theme is Olympics.",
+      "id": "ep_83_ut_25"
+    },
+    {
+      "end": 378758,
+      "speaker": "Moritz Stefaner",
+      "start": 378502,
+      "text": "Sure.",
+      "id": "ep_83_ut_26"
+    },
+    {
+      "end": 379230,
+      "speaker": "Enrico Bertini",
+      "start": 378806,
+      "text": "Oh, yeah.",
+      "id": "ep_83_ut_27"
+    },
+    {
+      "end": 385074,
+      "speaker": "Nadieh Bremer",
+      "start": 379262,
+      "text": "So that was really the real reason I had to create a project in August about the Olympics.",
+      "id": "ep_83_ut_28"
+    },
+    {
+      "end": 389874,
+      "speaker": "Moritz Stefaner",
+      "start": 386134,
+      "text": "So the reason is you wanted to win a prize and it was August?",
+      "id": "ep_83_ut_29"
+    },
+    {
+      "end": 393398,
+      "speaker": "Nadieh Bremer",
+      "start": 393014,
+      "text": "No.",
+      "id": "ep_83_ut_30"
+    },
+    {
+      "end": 393670,
+      "speaker": "Moritz Stefaner",
+      "start": 393446,
+      "text": "Yeah.",
+      "id": "ep_83_ut_31"
+    },
+    {
+      "end": 409822,
+      "speaker": "Nadieh Bremer",
+      "start": 393702,
+      "text": "No, no, no, it was just, it's, it was a way. This, this twelve months is like a way to force yourself to do something, even if otherwise you might say, nah, it's like, no, I have to do something because Shirley's also doing something. So I also have to do something.",
+      "id": "ep_83_ut_32"
+    },
+    {
+      "end": 434614,
+      "speaker": "Enrico Bertini",
+      "start": 409958,
+      "text": "Yeah, but it's always great to hear how some projects start. And I totally understand your feeling of having done no visualization during the last twelve months. So how did you actually get started? So what were the first steps? How do you work on a new project? Do you first sketch it or you go into coding directly? How did it work?",
+      "id": "ep_83_ut_33"
+    },
+    {
+      "end": 545234,
+      "speaker": "Nadieh Bremer",
+      "start": 435314,
+      "text": "Well, I either start from a question that I have, like why is this? Or how is that? And I try to find the data, but here it was. More generally, I just tried to find what data is out there, just googling for Olympics and data. And I found a really interesting dataset from the Guardian with all of the medal winners until the 2008 Olympics. And I thought that would be really interesting, such a rich data set. I wanted to do something with that. And around that same time I saw an image of a peacock feathers and I don't know why, but that stuck, that feather shape, I'm really intrigued by that, by how it sort of builds out. So I just started sketching then. Yeah, with feathers. So with pointy tips and thinking out, well, sort of like one feather could be one sporting discipline and then if you go outwards you get the years. And I thought it would be really interesting that, well, people remember the latest olympics most. So I thought the idea of having the emphasis more on the later sessions was an interesting idea. So when I sort of realized that I really stuck with this sort of feather shape idea, tried to build that out, there were some issues in terms of that that I didn't think of when it was still in my head. Like some years they have more medals or more events than other years and things change like that and that can really affect the feather shape. But by sketching it out a bit more, I finally sort of had something that I think could work once I plucked the data in. So really it's basic sketching. And then I dive into coding. There's not really an in between phase of making it, making a beautiful sketch.",
+      "id": "ep_83_ut_34"
+    },
+    {
+      "end": 553664,
+      "speaker": "Moritz Stefaner",
+      "start": 545894,
+      "text": "And the dataset, was it in good shape already, or did you have to put a lot of work into cleaning and processing and analyzing the data?",
+      "id": "ep_83_ut_35"
+    },
+    {
+      "end": 645104,
+      "speaker": "Nadieh Bremer",
+      "start": 553814,
+      "text": "Well, the funny thing is, actually, so this data set was until 2008, and I found another dataset that had 2012, and I added that. But in that 2012 dataset, which was actually also from the Guardian, there were a lot of missing medals, many sports were missing. When I did my check to see if the number of events matched the number of gold medals I had there, and it didn't. So I then manually really had to go through it 2012 and then figure out, oh, well, hockey's missing, some other sports are missing. So then actually, also my trust in the other data set, the really big data set sort of was broken. And I tried to figure out how can I check this data set to get my confidence back into the numbers without actually manually going through all of these people. So again, for each, I actually the same approach for each of the Olympic editions, I figured out how many events do I have called medals for? And then I looked it up on wikipedia to see how many they said there should be. And if there were discrepancies, that was a bit of manual search, like, where am I missing one? And that was also always explained. Either a match lasted more than a day and they just stopped it and gave out two silvers, small things like that. And one year, all of the horses were in the files were all winning gold medals. So you had like Princess Lulu one gold. So I took those out. They have great horse names.",
+      "id": "ep_83_ut_36"
+    },
+    {
+      "end": 646004,
+      "speaker": "Moritz Stefaner",
+      "start": 645144,
+      "text": "They did win.",
+      "id": "ep_83_ut_37"
+    },
+    {
+      "end": 677502,
+      "speaker": "Nadieh Bremer",
+      "start": 647704,
+      "text": "True. Yeah, true. Maybe I should just have let the horse names be there and then take the people out. So it was a bit of data processing, and also for the 2016, I could use 2012 as a base. And luckily there was a page that outlined the exact differences between these two Olympics that I could use. That I could use. But all in all, actually, I kept times, because I never do that. It took me about 12 hours to prepare the datasets.",
+      "id": "ep_83_ut_38"
+    },
+    {
+      "end": 687554,
+      "speaker": "Enrico Bertini",
+      "start": 677678,
+      "text": "Oh, nice. And how does it compare to the time it took to actually create the visualization part? You don't know?",
+      "id": "ep_83_ut_39"
+    },
+    {
+      "end": 705144,
+      "speaker": "Nadieh Bremer",
+      "start": 687854,
+      "text": "I think usually I would say that data preparation is like 80% of the analysis 20, but with visualization, I always end up with data preparation 20% and visualization 80% because I'm tweaking so much. I just never want to let it go.",
+      "id": "ep_83_ut_40"
+    },
+    {
+      "end": 718684,
+      "speaker": "Enrico Bertini",
+      "start": 707764,
+      "text": "So what did you learn from the data and the visualizations? What kind of information can you extract out of it? Is there any surprising facts? Any insights?",
+      "id": "ep_83_ut_41"
+    },
+    {
+      "end": 763684,
+      "speaker": "Nadieh Bremer",
+      "start": 718844,
+      "text": "I thought the first things I was very intrigued about was the fact that sometimes events disappeared, like tennis disappeared for quite some time, and then it reappeared at some point. And we saw that with rugby this year also, that women weren't allowed to compete in some very, like, normal sports for very long time. So I thought that was kind of odd as well. But it's being. It's more equal now. I think only greek roman wrestling doesn't have women, whereas I think rhythmic gymnastics, you can have men, which I would kind of find funny to see men just twirling around with those things. I think there would be men that were willing to do that, so why not?",
+      "id": "ep_83_ut_42"
+    },
+    {
+      "end": 782098,
+      "speaker": "Moritz Stefaner",
+      "start": 763724,
+      "text": "Sure. It's funny. So some of the feathers are perfectly symmetric, right? And then you can see, okay, that's like it has always been diving, for instance, perfect symmetry. And then boxing or something. You know, it's like. Or many have this where just the last five, six editions, the women came in. And I didn't know that either.",
+      "id": "ep_83_ut_43"
+    },
+    {
+      "end": 782402,
+      "speaker": "Nadieh Bremer",
+      "start": 782146,
+      "text": "Yes.",
+      "id": "ep_83_ut_44"
+    },
+    {
+      "end": 783934,
+      "speaker": "Moritz Stefaner",
+      "start": 782458,
+      "text": "That's insane, actually.",
+      "id": "ep_83_ut_45"
+    },
+    {
+      "end": 829804,
+      "speaker": "Nadieh Bremer",
+      "start": 784834,
+      "text": "Yeah. I never knew that. And then one thing we found also is that in 1920, they had lots of events in shooting and archery and sailing. And you can see that in the 1920 ring. But that means that the year with the most number of events defines the angle that the feather gets. So then you get a lot of sort of this white space around the medals, mainly because of the 1920 edition, which I found very frustrating. I was thinking about, is there one way that I can sort of delete 1920s only look at the last 100 years? Oh, no, that's. That still includes 1920s, but in the end, I just left it in because it was true to the data. I guess.",
+      "id": "ep_83_ut_46"
+    },
+    {
+      "end": 923564,
+      "speaker": "Enrico Bertini",
+      "start": 834664,
+      "text": "This is a good time to take a little break and talk about our sponsor for this week. This episode of Data stories is sponsored by Freshbooks. So it all starts with invoicing, but actually, Freshbooks has many features to help keep you organized and streamline the business side of being a freelancer. Freshbooks makes keeping track of your expenses extremely easy. You no longer need boxes full of receipts, and they also have a very nice mobile app. The app lets you take pictures of your receipts, and freshbooks organizes them for later. It can create expense reports for you and also makes claiming expenses at tax time a breeze. All the little details about cash flow are kept in one place. So freshbooks knows exactly what invoices you sent, when you send them, who's paid you, and who owes you what. Freshbooks will also handle your time tracking, so when it comes time to create that invoice, you'll know what you did and when you did it, the most important thing for everyone listening is that getting started on freshbooks is extremely simple, even if you're not a number person. Actually, especially if you're not a numbers person. To claim your free month of freshbooks, go to freshbooks.com Datastories, where you can sign up for free and without the use of a credit card. Please remember to enter data stories in the section titled I heard about fresh books from at signup. And now back to the show.",
+      "id": "ep_83_ut_47"
+    },
+    {
+      "end": 945814,
+      "speaker": "Moritz Stefaner",
+      "start": 927224,
+      "text": "You mentioned a bit already. So you start sketching, then you go into code, and then you basically tweak your way to the end result. Is that basically how your design process goes, or can you remember which steps this one took? Did you. Did you know already you want to do the five rings, for instance, or is that something that emerged later?",
+      "id": "ep_83_ut_48"
+    },
+    {
+      "end": 1105618,
+      "speaker": "Nadieh Bremer",
+      "start": 946394,
+      "text": "No, it already started out with five rings, and that was only because I actually wanted to have it in one ring. But when I was, I then calculated how many degrees I would need. So I thought, well, each discipline or sport has a maximum number of events they once had. And so I was counting all of these things for all of these disciplines. And then I thought, well, that means that each metal would have to be smaller than one degree if I fit it into one ring. So I knew that that wouldn't work. And then I thought, well, five is the logical next step. And five, it gave a nice number of arc degrees that one metal would get. So I already started out with five, and, well, the first thing I did was really just getting these one feather correct, I guess. But then, in a codewise way, if you get one feather correct, the rest follows because it's based on the same idea. So I had to figure out, first I create a feather. So a group for athletics, for example, and then I create groups within that for the additions. Then there's a group to the left for women, a group to the right for men, and then finally we have the separate medals. So it's really a very nested structure in there, and it was really about getting those groups in the right rotation and then placing the metals in the right place. And that actually went fairly quickly. I think I had the sort of the groups there and the medals in the right location within an hour or three or something, but then it didn't look very nice yet, so it still needed a lot of tweaking and extra additions and such. The abstract base was there pretty quickly, and that's sort of where my sketch also ended, just having these medals there. And then it's really about starting to tweak with the code. So adding legends or adding the timelines, adding interactions, or this background color for women or men, that was also something that wasn't there at the start. And actually all the way at the start, they were still feather shaped. So now they're truly circles. But I used to have them with tips at the end so that they would look more like feathers. And I was playing around with these SVG pads and cubic bezier curves and figuring out how to create these tips dynamically, which was a lot of fun. But then I showed it to a friend and he said, lose the tips. I had to swallow and think about it in an hour. But I lost tips. But that's why it's called olympic feathers.",
+      "id": "ep_83_ut_49"
+    },
+    {
+      "end": 1115044,
+      "speaker": "Moritz Stefaner",
+      "start": 1105666,
+      "text": "Still, I wouldn't think of feathers, right. It looks like maybe overall like metals or some, some tree rare structure. Yeah, but it makes sense.",
+      "id": "ep_83_ut_50"
+    },
+    {
+      "end": 1164230,
+      "speaker": "Enrico Bertini",
+      "start": 1118304,
+      "text": "So one thing that I really like is that you have this webpage on GitHub that shows the progression of your designs. That's amazing. I really, really like that. So we will link that on the show notes. I suggest all listeners to take a look. It's a really cool progression of ideas. And you can see the rings transform from their initial feathers to the final whole page. So how did you actually decide on the final format? Did you see that as a blog post, as a poster? What kind of medium did you have in mind? Did you have one in mind from the very beginning or the medium itself evolved over time? How did it go?",
+      "id": "ep_83_ut_51"
+    },
+    {
+      "end": 1207390,
+      "speaker": "Nadieh Bremer",
+      "start": 1164422,
+      "text": "Well, at the start I thought it might work nicely as a poster, but when I started building it and when I sort of wanted to investigate the data and the things that I saw emerging from the visual, I thought I really wanted to have interactivity. So I want to hover over a medal and then see who that was or which event that was. And that sort of made. Yeah, well, the poster wasn't, the static part wasn't possible anymore. So that is what turned it into a webpage, but just not really a blog post, but really like a standalone thing, because the, the circle should have as much room as possible on the screen. I thought otherwise they would really be too small. So that's actually how that turned out to be, just its own standalone website.",
+      "id": "ep_83_ut_52"
+    },
+    {
+      "end": 1218154,
+      "speaker": "Moritz Stefaner",
+      "start": 1207582,
+      "text": "And from a technical point of view, like did you implement it? Did you write it all yourself? Did you get some help? What's your tech approach?",
+      "id": "ep_83_ut_53"
+    },
+    {
+      "end": 1225894,
+      "speaker": "Nadieh Bremer",
+      "start": 1218974,
+      "text": "I wrote it all myself, although I'm sure I have many stack overflow people to thank for helping me.",
+      "id": "ep_83_ut_54"
+    },
+    {
+      "end": 1226734,
+      "speaker": "Moritz Stefaner",
+      "start": 1226014,
+      "text": "We all do.",
+      "id": "ep_83_ut_55"
+    },
+    {
+      "end": 1228874,
+      "speaker": "Enrico Bertini",
+      "start": 1226774,
+      "text": "We all do, yeah, exactly.",
+      "id": "ep_83_ut_56"
+    },
+    {
+      "end": 1266558,
+      "speaker": "Nadieh Bremer",
+      "start": 1230724,
+      "text": "But I did ask that designer friend for some input along the way to say what he thought about it, and then he would sometimes share a suggestion how he put it together. So it really is just HTML with D3 used to visualize it. But in essence it's actually a fairly simple site, which no extra things added except for D3. Let me see. No, yeah, that was it, really simple and lean.",
+      "id": "ep_83_ut_57"
+    },
+    {
+      "end": 1267670,
+      "speaker": "Moritz Stefaner",
+      "start": 1266606,
+      "text": "No, that's perfect.",
+      "id": "ep_83_ut_58"
+    },
+    {
+      "end": 1268794,
+      "speaker": "Nadieh Bremer",
+      "start": 1267742,
+      "text": "Yeah, yeah.",
+      "id": "ep_83_ut_59"
+    },
+    {
+      "end": 1278390,
+      "speaker": "Enrico Bertini",
+      "start": 1270454,
+      "text": "So, and I guess everything is available in your GitHub page, right? So if listeners want to take a look they can go there, right?",
+      "id": "ep_83_ut_60"
+    },
+    {
+      "end": 1290774,
+      "speaker": "Nadieh Bremer",
+      "start": 1278462,
+      "text": "Yes, yeah, yeah, it's all in GitHub, so also the code is all in GitHub. I always share everything I make because I get the group the best things back, like how to improve stuff. So I'm all pro sharing.",
+      "id": "ep_83_ut_61"
+    },
+    {
+      "end": 1304554,
+      "speaker": "Enrico Bertini",
+      "start": 1290854,
+      "text": "Yeah, that's great. So let's say that some of our listeners want to do a similar project. Are there any lessons learned that you, lessons that you learned during the process that you can share with our listeners?",
+      "id": "ep_83_ut_62"
+    },
+    {
+      "end": 1384272,
+      "speaker": "Nadieh Bremer",
+      "start": 1305174,
+      "text": "Well, I guess from the start in a data kind of way, is that even from such respectable websites or places like the Guardian, you should always find a way to make sure that your data checks out, that aggregated numbers coincide, and if they don't, that you understand why, because otherwise you can have sort of a false security. Because the data set is so large that it's difficult to test. Even if you just manually try out a few and see if they're correct. It's difficult to see if things are missing. It's not less difficult to see if things are incorrect. And especially the missing part I think was a learning for me here. And then I think what I also did here was that I structured the data set into a JSON beforehand with lots of things pre calculated. So the angle of rotation was pre calculated based on the metals and what came before. Because I find that I work in R for my data preparation and I find that so much easier to do in there instead of JavaScript. So in JavaScript it's really just reading out the right properties and then oh, rotation. Well I'll pick the rotation offset property that I already have in the dataset. So that made it much easier to set up the basic shapes pretty fast.",
+      "id": "ep_83_ut_63"
+    },
+    {
+      "end": 1396824,
+      "speaker": "Moritz Stefaner",
+      "start": 1384408,
+      "text": "And that makes much cleaner code if you separate the preparation and then just the visual mapping, if you have that in two parts, even if it's both, JavaScript, if you have two separate parts, makes much cleaner code. I totally agree.",
+      "id": "ep_83_ut_64"
+    },
+    {
+      "end": 1438254,
+      "speaker": "Nadieh Bremer",
+      "start": 1396904,
+      "text": "Yes, definitely. I was starting out in JavaScript at first and I thought, well, no, this is just getting way too complicated. I can do it much easier. And I guess in the visual design, well, just asking friends for feedback, I guess. Well, I guess most people do that, but this was really a project on my own. And you can sometimes really get stuck in certain ideas and then somebody who hasn't seen it and, well, it's not really a new thing, but they can have like a fresh look and say, well, that doesn't work. Or what about this that you just weren't thinking about anymore because you've already spent hours and hours looking at the same thing.",
+      "id": "ep_83_ut_65"
+    },
+    {
+      "end": 1468166,
+      "speaker": "Moritz Stefaner",
+      "start": 1438414,
+      "text": "Yeah, great tips. Really. I totally agree. So you put it out on the web and then what happened afterwards? Like, how was it received? Did a lot of people take notice? Did you get any comments back? I also saw you had a lot of, you made good use of Twitter in promoting it by publishing individual stories during the games with little screenshots and gifs and so on. So can you tell us a bit what happened after the launch?",
+      "id": "ep_83_ut_66"
+    },
+    {
+      "end": 1543802,
+      "speaker": "Nadieh Bremer",
+      "start": 1468350,
+      "text": "Yeah, so it was received really well, actually, I would say that I've only had one thing ever that I created that was received even better. So this one is really like the top, this number two in the social media sense, although I don't know how that compares to general. But for me personally, it was well received. And yeah, I tried to market it a bit more, I guess because every day I was updating 2016 data set because every day we had like 20 new medals. And when I was doing that, I would find these new interesting things, like, well, because I'm from the Netherlands, when finally won a gold medal in gymnastics, I was like, oh, did we ever win a medal before 1920? Oh, that's cool. So I just, I just made a snippet of that and shared that. So it was also a way to just share more interesting stories that with the things that you were able to find from the visual, but didn't do it every day, just like every other day or so for the last week of the Olympics. And people, they were really positive. I thought because it was a circular chart, I would get a lot of like division, like people either liking it or hating it because it was circular.",
+      "id": "ep_83_ut_67"
+    },
+    {
+      "end": 1545094,
+      "speaker": "Enrico Bertini",
+      "start": 1543898,
+      "text": "Don't do that.",
+      "id": "ep_83_ut_68"
+    },
+    {
+      "end": 1547454,
+      "speaker": "Moritz Stefaner",
+      "start": 1545834,
+      "text": "Don't do something around.",
+      "id": "ep_83_ut_69"
+    },
+    {
+      "end": 1562454,
+      "speaker": "Nadieh Bremer",
+      "start": 1548634,
+      "text": "Yes, I mean, they are in fact sort of donut charts morphed into radial bar stacked bar charts. But I only got one tweet that said, oh, wait, you can't read this because it's a donut.",
+      "id": "ep_83_ut_70"
+    },
+    {
+      "end": 1579604,
+      "speaker": "Moritz Stefaner",
+      "start": 1564474,
+      "text": "I have to admit, it was. My first reaction was also was that necessary? Do we need to make that round? But then I looked into it, I think it makes sense, you know, I think it totally works. But I have, I have to admit, my first reaction was exactly this.",
+      "id": "ep_83_ut_71"
+    },
+    {
+      "end": 1589408,
+      "speaker": "Nadieh Bremer",
+      "start": 1580264,
+      "text": "Yeah, we're so trained in that. Right. I always have to, because I love circular things and I have to, really have to hold myself back sometimes to not turn everything into a circle.",
+      "id": "ep_83_ut_72"
+    },
+    {
+      "end": 1653464,
+      "speaker": "Moritz Stefaner",
+      "start": 1589456,
+      "text": "Yeah. Ah, the circle people. Yes, one of the circle people. I think. No, I think it's fascinating and I think it's all these little stories, they really make the piece and all the little annotations and it's once again, one of these things that become the more fascinating, the more you look at it. So just yesterday I read an article and somebody was thinking about how unfair it actually is that there's only like a couple of gold medals for sprint, but, like, in swimming, you have like a hundred different disciplines and swimming styles and lengths. So Michael Phelps has it much easier than Usain bolt, you know, in terms of. But still they're being measured against each other in terms of gold medals, but Michael Phelps has much more chances to win gold medals and that's really unfair. And then you start to think about, wow, yeah, that's like, maybe swimming is totally overrepresented in all these statistics because, you know, it seems much more important than the other things. And so true. And all these really interesting questions that are tied to this data set and what are you actually counting? And so on.",
+      "id": "ep_83_ut_73"
+    },
+    {
+      "end": 1675018,
+      "speaker": "Nadieh Bremer",
+      "start": 1654314,
+      "text": "Yeah, yeah, I thought exactly the same thing when I was building this up. Also, because somebody like Simone Biles, she's so amazing and she won, except for that one that went to the Dutch, all the gold medals in the gymnastics, and she could have won way more if there were more things to medals in that area, I think. And, yeah, so I was thinking exactly the same thing when I saw that.",
+      "id": "ep_83_ut_74"
+    },
+    {
+      "end": 1715486,
+      "speaker": "Moritz Stefaner",
+      "start": 1675186,
+      "text": "And it seems so easy, like, yeah, we're counting the medals and it seems so straightforward and straight, but, yeah, and then you look at it in detail, you're like, ah, that doesn't make any sense. Yeah, it's interesting. Very nice. Great project. I think it's a great example of, yeah, how interesting things can happen if you just have a good visual idea and, like a deep data set and you really go all the way with it. And as I said, I love the annotations of the whole presentation and, yeah, make sure to check it out. We'll put the links in the show notes and. Yeah, thanks so much, Nadieh, for coming on the show. It's fascinating to follow your work and thank you. I hope you win a prize with it.",
+      "id": "ep_83_ut_75"
+    },
+    {
+      "end": 1723286,
+      "speaker": "Nadieh Bremer",
+      "start": 1715550,
+      "text": "That's why I didn't make it for that. It was the awards that reminded me that I hadn't created anything.",
+      "id": "ep_83_ut_76"
+    },
+    {
+      "end": 1732426,
+      "speaker": "Moritz Stefaner",
+      "start": 1723350,
+      "text": "But now you have to hand it in. Now you have to win. Thanks so much.",
+      "id": "ep_83_ut_77"
+    },
+    {
+      "end": 1733306,
+      "speaker": "Enrico Bertini",
+      "start": 1732570,
+      "text": "Thanks so much.",
+      "id": "ep_83_ut_78"
+    },
+    {
+      "end": 1734170,
+      "speaker": "Nadieh Bremer",
+      "start": 1733370,
+      "text": "Thank you for having me.",
+      "id": "ep_83_ut_79"
+    },
+    {
+      "end": 1736466,
+      "speaker": "Enrico Bertini",
+      "start": 1734242,
+      "text": "Yeah. Bye bye. Thank you.",
+      "id": "ep_83_ut_80"
+    },
+    {
+      "end": 1737254,
+      "speaker": "Nadieh Bremer",
+      "start": 1736570,
+      "text": "Bye.",
+      "id": "ep_83_ut_81"
+    },
+    {
+      "end": 1754026,
+      "speaker": "Enrico Bertini",
+      "start": 1744354,
+      "text": "Hey, guys, thanks for listening to data stories again. Before you leave, we have a request if you can spend a couple of minutes rating us on iTunes, that would be extremely helpful for the show.",
+      "id": "ep_83_ut_82"
+    },
+    {
+      "end": 1784812,
+      "speaker": "Moritz Stefaner",
+      "start": 1754130,
+      "text": "And here's also some information on the many ways you can get news directly from us. We're of course, on Twitter. Twitter. We have a Facebook page@Facebook.com, datastoriespodcast. All in one word. And we also have an email newsletter. So if you want to get news directly into your inbox and be notified whenever we publish an episode, you can go to our homepage datastory es and look for the link that you find on the bottom in the footer.",
+      "id": "ep_83_ut_83"
+    },
+    {
+      "end": 1796906,
+      "speaker": "Enrico Bertini",
+      "start": 1784908,
+      "text": "So one last thing that we want to tell you is that we love to get in touch with our listeners, especially if you want to suggest a way to improve the show or amazing people you want us to invite or even projects you want us to talk about.",
+      "id": "ep_83_ut_84"
+    },
+    {
+      "end": 1842354,
+      "speaker": "Moritz Stefaner",
+      "start": 1797010,
+      "text": "Yeah, absolutely. So don't hesitate to get in touch with us. It's always a great thing for us. And that's all for now. See you next time, and thanks for listening to data stories. This episode of data stories is sponsored by Freshbooks, the small business accounting software that makes accounting tasks easy, fast and secure. Freshbooks is offering a month of free, unrestricted use to all of our listeners. To claim your free month, go to freshbooks.com Datastories where you can sign up for free and without a credit card. Remember to enter data stories in the section titled I heard about freshbooks from at Signup. Once again, go to freshbooks.com Datastories to claim your free month.",
+      "id": "ep_83_ut_85"
+    }
+  ],
+  "confidence": 0.931190949279644,
+  "audio_duration": 1842,
+  "punctuate": true,
+  "format_text": true,
+  "dual_channel": false,
+  "webhook_url": null,
+  "webhook_status_code": null,
+  "webhook_auth": false,
+  "webhook_auth_header_name": null,
+  "speed_boost": false,
+  "auto_highlights_result": null,
+  "auto_highlights": false,
+  "audio_start_from": null,
+  "audio_end_at": null,
+  "word_boost": [],
+  "boost_param": null,
+  "filter_profanity": false,
+  "redact_pii": false,
+  "redact_pii_audio": false,
+  "redact_pii_audio_quality": null,
+  "redact_pii_policies": null,
+  "redact_pii_sub": null,
+  "speaker_labels": true,
+  "content_safety": false,
+  "iab_categories": true,
+  "content_safety_labels": {
+    "status": "unavailable",
+    "results": [],
+    "summary": {}
+  },
+  "language_detection": false,
+  "language_detection_threshold": null,
+  "language_confidence": null,
+  "custom_spelling": null,
+  "throttled": false,
+  "auto_chapters": true,
+  "summarization": false,
+  "summary_type": null,
+  "summary_model": null,
+  "custom_topics": false,
+  "topics": [],
+  "speech_threshold": null,
+  "speech_model": "best",
+  "chapters": [
+    {
+      "summary": "This episode of data stories is sponsored by Freshbooks, the small business accounting software. Freshbooks is offering a month of free and restricted use to all of our listeners. To claim your free month of freshbooks, go to freshbooks. com Datastories.",
+      "gist": "Data Stories",
+      "headline": "This episode of data stories is sponsored by Freshbooks",
+      "start": 160,
+      "end": 41988,
+      "id": "ep_83_ch_0"
+    },
+    {
+      "summary": "Once again, the URL to claim your free month is freshbooks. com Datastories. Hi, Enrico. How you doing? Not much. Not much cruising along here.",
+      "gist": "Free 30 day trial of freshbooks.com Datastories",
+      "headline": "Freshbooks. com Datastories. com is free for new subscribers",
+      "start": 42156,
+      "end": 79774,
+      "id": "ep_83_ch_1"
+    },
+    {
+      "summary": "A new project shows all the Olympic gold medal winners ever in one image. Nadieh Bremer is a data scientist who specializes in data visualization. The project is a side project of his, but it's very full of content and very deep.",
+      "gist": "This project shows all the Olympic gold medal winners ever in one image",
+      "headline": "Nadieh Bremer shows all Olympic gold medal winners ever in one image",
+      "start": 80394,
+      "end": 297764,
+      "id": "ep_83_ch_2"
+    },
+    {
+      "summary": "Nadieh started the project with a friend, Shirley Wu, also a data visualization designer. Each month they pick a topic, both pick the same topic, and both create a visualization around that topic. Do you first sketch it or go into coding directly?",
+      "gist": "Project Eternity",
+      "headline": "Nadieh Wars started working on a data visualization project about the Olympics",
+      "start": 299894,
+      "end": 705144,
+      "id": "ep_83_ch_3"
+    },
+    {
+      "summary": "In 1920, they had lots of events in shooting and archery and sailing. The year with the most number of events defines the angle that the feather gets. That still includes 1920s, but in the end, I just left it in because it was true to the data.",
+      "gist": "The Story of the Olympics",
+      "headline": "So what did you learn from the data and the visualizations",
+      "start": 707764,
+      "end": 829804,
+      "id": "ep_83_ch_4"
+    },
+    {
+      "summary": "This episode of Data stories is sponsored by Freshbooks. Freshbooks makes keeping track of your expenses extremely easy. To claim your free month of freshbooks, go to freshbooks. com Datastories.",
+      "gist": "Data Stories",
+      "headline": "This episode of Data stories is sponsored by Freshbooks",
+      "start": 834664,
+      "end": 921608,
+      "id": "ep_83_ch_5"
+    },
+    {
+      "summary": "You start sketching, then you go into code, and then you basically tweak your way to the end result. It's really a very nested structure in there, and it was really about getting those groups in the right rotation. Still needed a lot of tweaking and extra additions and such.",
+      "gist": "The Olympic medal design",
+      "headline": "You start sketching, then you go into code, and then you basically tweak",
+      "start": 921736,
+      "end": 1115044,
+      "id": "ep_83_ch_6"
+    },
+    {
+      "summary": "A webpage on GitHub shows the progression of your designs. You can see the rings transform from their initial feathers to the final whole page. Did you write it all yourself? Did you get some help? What's your tech approach?",
+      "gist": "The Procession of Designs",
+      "headline": "You have a webpage on GitHub that shows the progression of your designs",
+      "start": 1118304,
+      "end": 1291942,
+      "id": "ep_83_ch_7"
+    },
+    {
+      "summary": "The interactive chart was created using data from the 2016 Olympics. How was it received? Did a lot of people take notice? Did you get any comments back? What are some of the lessons learned that you learned?",
+      "gist": "The Olympics Charts",
+      "headline": "You created a circular chart based on the Olympics data set",
+      "start": 1292038,
+      "end": 1747186,
+      "id": "ep_83_ch_8"
+    },
+    {
+      "summary": "Before you leave, we have a request if you can spend a couple of minutes rating us on iTunes. Here's also some information on the many ways you can get news directly from us. We love to get in touch with our listeners, especially if you want to suggest a way to improve the show.",
+      "gist": "Data Stories Podcast",
+      "headline": "Before you leave, we have a request if you can spend a few minutes rating us on iTunes",
+      "start": 1747330,
+      "end": 1806254,
+      "id": "ep_83_ch_9"
+    },
+    {
+      "summary": "Freshbooks is offering a month of free, unrestricted use to all of our listeners. To claim your free month, go to freshbooks. com Datastories. Remember to enter data stories in the section titled I heard about freshbooks from at Signup.",
+      "gist": "Data Stories",
+      "headline": "Freshbooks is offering a month of free, unrestricted use to all our listeners",
+      "start": 1809834,
+      "end": 1842354,
+      "id": "ep_83_ch_10"
+    }
+  ],
+  "disfluencies": false,
+  "entity_detection": false,
+  "sentiment_analysis": false,
+  "sentiment_analysis_results": null,
+  "entities": null,
+  "speakers_expected": null,
+  "summary": null,
+  "custom_topics_results": null,
+  "episode_num": 83,
+  "episode_metadata": {
+    "speakers": [
+      "Nadieh Bremer",
+      "Enrico Bertini",
+      "Moritz Stefaner"
+    ],
+    "WPid": "771",
+    "url": "https://datastori.es/podlove/file/3105/s/feed/c/mp3/83-olympic-feathers-with-nadieh-bremer.mp3",
+    "episode_title": "Olympic Feathers with Nadieh Bremer"
+  }
+}

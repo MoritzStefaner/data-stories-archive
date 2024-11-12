@@ -1,0 +1,1380 @@
+{
+  "id": "caf29375-a1b5-49c7-b24c-47c27f06ad2d",
+  "language_model": "assemblyai_default",
+  "acoustic_model": "assemblyai_default",
+  "language_code": "en_us",
+  "status": "completed",
+  "audio_url": "https://datastori.es/podlove/file/5570/s/feed/c/mp3/134-visualizing-uncertainty.mp3",
+  "utterances": [
+    {
+      "end": 8010,
+      "speaker": "Jessica Hullman",
+      "start": 160,
+      "text": "I heard Lyndon B. Johnson was once given something with an interval, some information, and he was like, oh, ranges are for cattle. Give me a number.",
+      "id": "ep_134_ut_0"
+    },
+    {
+      "end": 37354,
+      "speaker": "Enrico Bertini",
+      "start": 27430,
+      "text": "Hi, everyone. Welcome to a new episode of data stories. My name is Enrico Bertini, and I am a professor at New York University, where I do research in data visualization.",
+      "id": "ep_134_ut_1"
+    },
+    {
+      "end": 49630,
+      "speaker": "Moritz Stefaner",
+      "start": 37522,
+      "text": "Yeah, and I'm Moritz Stefaner, and I'm an independent designer of data visualizations. And actually, I work as a self employed truth and beauty operator out of my office here at the countryside in the beautiful north of Germany.",
+      "id": "ep_134_ut_2"
+    },
+    {
+      "end": 63348,
+      "speaker": "Enrico Bertini",
+      "start": 50650,
+      "text": "Yes. And on this podcast, we typically talk about data visualization, analysis, and generally the role that data plays in our lives. And usually we do that together with a guest we invite on the show.",
+      "id": "ep_134_ut_3"
+    },
+    {
+      "end": 100576,
+      "speaker": "Moritz Stefaner",
+      "start": 63484,
+      "text": "Yeah. But before we start, just a quick note. As usual, our podcast is listener supported, so there are no ads. We used to have ads, but now the community actually finances this podcast. So if you find you enjoy the show or you're a frequent listener, please consider supporting us. You can do this with either recurring payments on patreon.com Datastories, so you can set up a certain amount that you will give us every time we publish a new episode, or you can also send us one time donations on Paypal me Datastories. And we always love when a new email comes in with a donation from somebody around the world. It's just fantastic.",
+      "id": "ep_134_ut_4"
+    },
+    {
+      "end": 133286,
+      "speaker": "Enrico Bertini",
+      "start": 100648,
+      "text": "Yeah, that's just perfect. And yeah, also thanks to everyone who is already participating and donating. That's great. Thanks so much. Before we start, I just wanted to briefly talk about the information is beautiful awards. I think that's been a lot of fun. So Moritz won another award, but he couldn't really attend. So me and Destry, our producer, went there because the event was organized in New York and that was a lot of fun. So first of all, congratulations, Moritz.",
+      "id": "ep_134_ut_5"
+    },
+    {
+      "end": 143050,
+      "speaker": "Moritz Stefaner",
+      "start": 133398,
+      "text": "Thanks. I was really happy to win. I just had one horse in the competition. This time it was my only project that would qualify, so I was.",
+      "id": "ep_134_ut_6"
+    },
+    {
+      "end": 147552,
+      "speaker": "Enrico Bertini",
+      "start": 143600,
+      "text": "So they created a specific type kind of award for. For you. Right?",
+      "id": "ep_134_ut_7"
+    },
+    {
+      "end": 162380,
+      "speaker": "Moritz Stefaner",
+      "start": 147616,
+      "text": "This year, the truth and beauty award. You mean what's it called? No, it's called unusual, which is like, ambiguous. For me to get an award in the unusual category, it sounds like could be a good thing or a bad thing, but I'll take it.",
+      "id": "ep_134_ut_8"
+    },
+    {
+      "end": 164264,
+      "speaker": "Enrico Bertini",
+      "start": 162720,
+      "text": "So. Yeah, yeah, yeah.",
+      "id": "ep_134_ut_9"
+    },
+    {
+      "end": 210210,
+      "speaker": "Moritz Stefaner",
+      "start": 164352,
+      "text": "But anyways, the awards, I think it's been the 7th or 8th year, and I think every year the quality has been rising of what is being handed in. And the long list is amazing already. The shortlist is actually all great works like 50, 60 maybe 100 different projects. Definitely. Go to the website and check out all the shortlisted items, not just the winners, because there's lots of great data visualization work there. I'm really happy these awards exist, even if I don't win. Of course I'm even happier when I win. But just to document what's happening in the field, it's a really great resource. So we'll put a link into the show notes. And you looked great on stage, like accepting my prize. So I think you did a good job of representing me.",
+      "id": "ep_134_ut_10"
+    },
+    {
+      "end": 251158,
+      "speaker": "Enrico Bertini",
+      "start": 210250,
+      "text": "So, yeah, that was a lot of fun. Okay, so let's start. Today we are talking about a very important general topic in visualization, which is uncertainty visualization. How do you visualize uncertainty? I know that a lot of people are interested in that and it's a very hard topic. And there are quite a few people out there who are trying to make some progress in this direction. And I think we today, we got some of the best people out there. We have not one, but two professors. We have Jessica Hullman and Matt UK. Hi, Jessica and Matt.",
+      "id": "ep_134_ut_11"
+    },
+    {
+      "end": 251614,
+      "speaker": "Jessica Hullman",
+      "start": 251214,
+      "text": "Hey.",
+      "id": "ep_134_ut_12"
+    },
+    {
+      "end": 252142,
+      "speaker": "Matthew Kay",
+      "start": 251702,
+      "text": "Hi.",
+      "id": "ep_134_ut_13"
+    },
+    {
+      "end": 266258,
+      "speaker": "Enrico Bertini",
+      "start": 252246,
+      "text": "So, as usual, we ask our guests to introduce themselves. So if you can briefly tell us about what is your background and interests, and then we can dive right in the topic of today.",
+      "id": "ep_134_ut_14"
+    },
+    {
+      "end": 340348,
+      "speaker": "Jessica Hullman",
+      "start": 266354,
+      "text": "Sure. Yeah. So I'll start. I'm Jessica. I'm an assistant professor in computer science, but also in journalism at Northwestern University. Before this, I was at University of Washington in an information school, but I was kind of drawn to be both in cs and journalism. I care a lot about how data is presented in the public as well as in science. And so my research is pretty focused on information visualization. But in the last few years, I've really spent most of my time thinking about how we can create visualizations and visualization tools that better support statistical reasoning. So things like how do we visualize uncertainty, but also things like, how do we help people kind of become better at forming rational beliefs when they see data? So how are people sort of bringing expectations to data? Can we elicit those? Can we make them sort of better at reasoning? So one thing I wanted to mention is that this past fall, Matt and I started a lab together called the Midwest Uncertainty collective, or MU collective. So it's a cross institution lab between northwestern and Michigan with us and our students, and we do a lot of collaborative work on uncertainty, visualization and closely related topics.",
+      "id": "ep_134_ut_15"
+    },
+    {
+      "end": 414436,
+      "speaker": "Matthew Kay",
+      "start": 340484,
+      "text": "I'm Matt Kay. So I'm an assistant professor in the School of information at the University of Michigan and I do work in human computer interaction and information visualization. And I actually kind of came to information visualization via human computer interaction. So I was doing work on personal health informatics. So trying to communicate things like sleep quality or possible factors that influence sleep quality to end users, and then realizing how difficult it was to do that. And that ended up involving a lot of things related to uncertainty and kind of then moved me in that direction. So now I do a fair amount of work in information visualization on communicating uncertainty and communicating statistical results in ways that people can understand. And now also kind of building tools to help people who are building models generate effective visualizations. And, yeah, so I did my PhD at the University of Washington, which is where I ended up doing some work with Jessica. And then now that I've moved here, we've started this cross institutional lab, as Jessica said, which has actually been a lot of fun putting together and seeing our students kind of also start to talk to each other and do things which I think is really exciting.",
+      "id": "ep_134_ut_16"
+    },
+    {
+      "end": 416960,
+      "speaker": "Enrico Bertini",
+      "start": 414548,
+      "text": "I like the fact that you called it a collective.",
+      "id": "ep_134_ut_17"
+    },
+    {
+      "end": 420164,
+      "speaker": "Jessica Hullman",
+      "start": 417460,
+      "text": "Yeah, I think that was Matt's suggestion, actually.",
+      "id": "ep_134_ut_18"
+    },
+    {
+      "end": 423836,
+      "speaker": "Matthew Kay",
+      "start": 420332,
+      "text": "Yeah. I don't know where that word came from.",
+      "id": "ep_134_ut_19"
+    },
+    {
+      "end": 427548,
+      "speaker": "Enrico Bertini",
+      "start": 423868,
+      "text": "Does it just sound. Sound good or it just sounds cool?",
+      "id": "ep_134_ut_20"
+    },
+    {
+      "end": 429780,
+      "speaker": "Jessica Hullman",
+      "start": 427604,
+      "text": "Yeah, it makes us sound more like artists.",
+      "id": "ep_134_ut_21"
+    },
+    {
+      "end": 429996,
+      "speaker": "Matthew Kay",
+      "start": 429820,
+      "text": "Yeah.",
+      "id": "ep_134_ut_22"
+    },
+    {
+      "end": 432760,
+      "speaker": "Enrico Bertini",
+      "start": 430028,
+      "text": "Well done. It does. It does sound cool.",
+      "id": "ep_134_ut_23"
+    },
+    {
+      "end": 451472,
+      "speaker": "Moritz Stefaner",
+      "start": 434060,
+      "text": "Yeah, it's great. So the topic today, why we invited you, is. Yeah, also, as you mentioned already, your main focus right now in research, it's about visualizing uncertainty. So just to get started, what do we talk about when we talk about uncertainty? Visualization, Jessica.",
+      "id": "ep_134_ut_24"
+    },
+    {
+      "end": 526654,
+      "speaker": "Jessica Hullman",
+      "start": 451576,
+      "text": "So I would say we talk about something pretty narrow when we talk about uncertainty, visualization among visualization researchers. So what we're usually talking about is visualizing error that's been calculated relative to some model. You could call it risk. A lot of people think of it as risk, but basically, you're making some sort of estimate. You're taking the average of something. You're predicting maybe average unemployment for next year. And you know that there's error. Most commonly measurement error, sampling error. So random error. And so that form of error, random error, is usually what we're talking about sometimes. I mean, I've seen work in uncertainty visualization that looks a little bit at more systematic forms of error, like bias. But I would say for the most part, it's measurement error. It's random. So this is just kind of one definition of uncertainty or one form of uncertainty. There's a lot of work outside visualization, I would say, that talks about uncertainty in broader terms. There's things like ambiguity, there's things like missing data that sometimes come into what we talk about, but more often than not, I think we're using a pretty narrow notion of error. But maybe, I don't know if Matt has a different view. That's my sense.",
+      "id": "ep_134_ut_25"
+    },
+    {
+      "end": 534566,
+      "speaker": "Matthew Kay",
+      "start": 526822,
+      "text": "Yeah, I think that's true. And I think it's also in some ways kind of unfortunate, but.",
+      "id": "ep_134_ut_26"
+    },
+    {
+      "end": 535730,
+      "speaker": "Jessica Hullman",
+      "start": 534758,
+      "text": "Yeah. Right.",
+      "id": "ep_134_ut_27"
+    },
+    {
+      "end": 550726,
+      "speaker": "Matthew Kay",
+      "start": 536750,
+      "text": "I would also say there's another slightly less narrow but also slightly less common framing, which is thinking about uncertainty in terms of probability. Right. So.",
+      "id": "ep_134_ut_28"
+    },
+    {
+      "end": 552678,
+      "speaker": "Jessica Hullman",
+      "start": 550838,
+      "text": "Yeah, that's what I meant by risk, basically.",
+      "id": "ep_134_ut_29"
+    },
+    {
+      "end": 579350,
+      "speaker": "Matthew Kay",
+      "start": 552774,
+      "text": "Right, exactly. And I think that it still ends up being narrow because you miss a lot of the more qualitative forms of uncertainty, but you take error and think about it instead as what, say, the sampling distribution or a posterior distribution from a bayesian model look like. But you're still essentially talking about the same idea as just with more fidelity.",
+      "id": "ep_134_ut_30"
+    },
+    {
+      "end": 601710,
+      "speaker": "Enrico Bertini",
+      "start": 580890,
+      "text": "But isn't there a difference also between, say, the uncertainty in how something is measured because the instrument is, doesn't really measure things precisely, and uncertainty coming from the fact that the reality itself is uncertain? I don't know if it makes a difference, but, yeah, I mean, I think.",
+      "id": "ep_134_ut_31"
+    },
+    {
+      "end": 650960,
+      "speaker": "Jessica Hullman",
+      "start": 601750,
+      "text": "One form that we don't often think about that me and Matt have been talking about with another collaborator, Les Padilla, is something like, you have a model, and your model has a way of estimating measurement error. So random kind of error from sampling, but instead, you know that your model doesn't even include all the relevant data. So there's like, maybe, you know, there's. Yeah, you're just. You don't have all the factors you need and you know it. And so I think of it sometimes as like, small world uncertainty. So my model is like the small world of my data set and what I know about it, whereas often there's these sort of bigger world uncertainties where, you know, we know our model probably itself is missing things. So. Yeah, that kind of thing we don't often talk about in visualization, which I kind of agree with Matt, it's kind of unfortunate.",
+      "id": "ep_134_ut_32"
+    },
+    {
+      "end": 661160,
+      "speaker": "Matthew Kay",
+      "start": 651500,
+      "text": "Yeah. It's this idea of, like, model uncertainty or model specification uncertainty. Right. Like, you don't know you have the right model.",
+      "id": "ep_134_ut_33"
+    },
+    {
+      "end": 689804,
+      "speaker": "Moritz Stefaner",
+      "start": 661780,
+      "text": "I mean, there's always this tension in visualization, I think because data visualization, we like our data to be crisp and factual. Right. And often, like any method evaluation of what works well for visualizing a certain type of data assumes sort of. Yeah, the data is crisp and factual, and then we just vary the different ways we can display it. But now, if the data starts to be fuzzy to begin with. And so it makes everybody a bit nervous.",
+      "id": "ep_134_ut_34"
+    },
+    {
+      "end": 711260,
+      "speaker": "Jessica Hullman",
+      "start": 689852,
+      "text": "Then I think it makes sense. Yeah. The reason we probably focus on things like measurement error is it's very easy to think about visualization once you have that set of errors or whatever that you want to show. Once you have that distribution, it's just a data visualization problem on some level. And so I think that has made us focus on what's easy to visualize.",
+      "id": "ep_134_ut_35"
+    },
+    {
+      "end": 735750,
+      "speaker": "Moritz Stefaner",
+      "start": 712840,
+      "text": "Maybe stepping back a bit, why should we visualize uncertainty at all? I mean, we could also say we just show the best estimate that we have and we show that in a nice and crisp way. Maybe put an asterisk there and say it's based on a model which might be true or not. Why is there value in showing the nature of the uncertainty itself?",
+      "id": "ep_134_ut_36"
+    },
+    {
+      "end": 815906,
+      "speaker": "Matthew Kay",
+      "start": 737850,
+      "text": "I think that at the base, simple answer to that question is just because you can allow people to make better decisions. I mean, so Jessica and I have done this work where we were looking at visualizing uncertainty in transit prediction. So this isn't like a huge high risk context, but we can at least say, okay, so you have, say, predictions for when a bus is going to show up at a bus stop. Well, we've run experiments showing that given better uncertainty visualizations, you can actually lead people to make better decisions. Right. So you set up these sort of incentivized experiments where you give people payoffs for different outcomes and then you can demonstrate that they actually make choices that lead to more optimal decisions. So I think that's the simplest one. And I think that when you look at the proliferation of predictions and kind of machine learning kind of going out into the world, giving people most of the times just that best estimate, it has error associated with it. It has uncertainty associated with it. And we should be communicating that to people because it allows them to make better decisions.",
+      "id": "ep_134_ut_37"
+    },
+    {
+      "end": 916256,
+      "speaker": "Jessica Hullman",
+      "start": 816098,
+      "text": "Yeah, yeah, I would. Yeah, I agree with that. And just to add a few other cases, you know, besides, like when you have model predictions, helping people make these like everyday choices, like, you know, what route do I take? There's also a lot kind of at the sort of societal level where, you know, for policies to be created, they're often relying on, you know, different types of estimates that these government agencies are putting out. So, you know, should we do anything about gun control? Maybe there's analyses about that. But, you know, if we're not really showing uncertainty, which people have written about how even these government organizations putting out, like GDP estimates, et cetera, often don't show uncertainty, we really like, we're just as a society making bad decisions. I think some of the other compelling use cases that include things like experimental science, which Matt and I have both thought about a lot. So, you know, if we're presenting results from experiments that we've runded, there's a lot of uncertainty there. But if we don't really emphasize that further or subsequent researchers might think, oh, I'm going to keep doing research on this thing, because this weird treatment, because they found an effect, when in reality, a lot of. I think what we're seeing with experimental results from certain fields not replicating is probably because we're not really emphasizing or visualizing the uncertainty in a way that people are getting it. And then there's other sort of. Of life and death situations, like, you know, whether, like, one of our collaborators here, lace Padilla, works a lot on things like disasters. So when people have to make these, like, really important life or death decisions, like, should I evacuate if a hurricane's coming?",
+      "id": "ep_134_ut_38"
+    },
+    {
+      "end": 916944,
+      "speaker": "Moritz Stefaner",
+      "start": 916448,
+      "text": "Sure.",
+      "id": "ep_134_ut_39"
+    },
+    {
+      "end": 927340,
+      "speaker": "Jessica Hullman",
+      "start": 917032,
+      "text": "You know, like, there's all sorts of reasons why you need the uncertainty there, but I think. Yeah, there's also lots of rationales for why, like, Moritz was bringing up that we don't need it.",
+      "id": "ep_134_ut_40"
+    },
+    {
+      "end": 930740,
+      "speaker": "Moritz Stefaner",
+      "start": 928060,
+      "text": "And I was playing devil's advice.",
+      "id": "ep_134_ut_41"
+    },
+    {
+      "end": 932204,
+      "speaker": "Jessica Hullman",
+      "start": 930780,
+      "text": "No, but I think that's the problem.",
+      "id": "ep_134_ut_42"
+    },
+    {
+      "end": 932580,
+      "speaker": "Enrico Bertini",
+      "start": 932292,
+      "text": "Yeah.",
+      "id": "ep_134_ut_43"
+    },
+    {
+      "end": 936228,
+      "speaker": "Jessica Hullman",
+      "start": 932620,
+      "text": "Maybe we can talk about that later or something, because I have lots of thoughts on that.",
+      "id": "ep_134_ut_44"
+    },
+    {
+      "end": 983496,
+      "speaker": "Enrico Bertini",
+      "start": 936364,
+      "text": "Yeah, I was wondering. I think maybe another aspect here is the fact that I think we already know from some experimental evidence that people tend to be persuaded quite a lot by numbers. Right. So if you present something and you have some numbers attached, people tend to think that this is more, I don't know, credible. Right. But then we have also the problem that most of the communication that you get from. From the media is that it's always without this uncertainty information. Right. There is always median of something. Right. And then people start debating about it as if that's the ultimate truth. Right, right. And I think that's. That's a much. Yeah, as a. I don't know, bro.",
+      "id": "ep_134_ut_45"
+    },
+    {
+      "end": 997456,
+      "speaker": "Moritz Stefaner",
+      "start": 983688,
+      "text": "They say the unemployment rate goes up 0.2%, right. But you never get the actual error rate, which is probably 0.5 or something. And then it's a meaningless statement. Who knows what's going on, right?",
+      "id": "ep_134_ut_46"
+    },
+    {
+      "end": 1036370,
+      "speaker": "Matthew Kay",
+      "start": 997488,
+      "text": "And you get these. I mean, as humans, we're kind of like aggressive dichotomizers, right? We love to put things into buckets and say, this. This went up, or it didn't go up, or there is an effect here, and I can publish it or there isn't an effect here, and I can't publish it. And I think a lot of what I think is important about uncertainty visualization, is that if you do it well, you can try to prevent that dichotomania and force people to confront uncertainty. And I think that's a lot of what we try to do.",
+      "id": "ep_134_ut_47"
+    },
+    {
+      "end": 1082890,
+      "speaker": "Jessica Hullman",
+      "start": 1036720,
+      "text": "Yeah, I have all sorts of thoughts about forcing people, because I think on some level, like people, it's just like, it's just really hard problem. It's cognitively complex to be trying to reason with two intervals rather than two points. It's just hard. I think I heard Lyndon B. Johnson was once given something with an interval, some information, and he was like, oh, ranges are for cattle. Give me a number. So I think that attitude is like, people just really don't want any sort of distribution because it's complicated. But so, yeah, Matt and I have done a lot of thinking about, you know, how do you kind of bring that information in in a way that they end up taking it into account?",
+      "id": "ep_134_ut_48"
+    },
+    {
+      "end": 1108822,
+      "speaker": "Enrico Bertini",
+      "start": 1083190,
+      "text": "Yeah, yeah, yeah. Okay. But so let's say that we do want to visualize uncertainty, right? So now, how do you do that? I think there is there's a very large space of solutions out there, and it's not totally clear to me what the state of the art is either. So I'm wondering if you can walk us through what exists already, what the options are.",
+      "id": "ep_134_ut_49"
+    },
+    {
+      "end": 1213720,
+      "speaker": "Jessica Hullman",
+      "start": 1109006,
+      "text": "Sure. Yeah, I guess I'll start and Matt can follow up. So that I think, the way I think about it, a little bit. Or one kind of distinction would be, um, you could show the entire distribution at once. So you have some sort of distribution, um, you know, showing or representing your error. You could show that all at once in something like an interval, um, which is kind of a summary of the distribution. Um, uh, or you could show, you know, something like, um, even a histogram or a probability density function. Um, uh, and then on the other hand, um, and then there are other sort of static plots you could use. But then, on the other hand, you could show people kind of a set of draws from that distribution that you're trying to show them. So kind of those two big buckets of techniques, I think, are very different. So, like, within the sort of first bucket, you're showing people the entire distribution at once. So that I mentioned things like intervals. Intervals themselves are complicated. So they could. I mean, Matt and I have talked a lot in our work about how things like confidence intervals. Intervals are not usually interpreted correctly by people. So confidence interval is describing the sampling distribution. So it's trying to give you a sense of the error and whatever you're estimating a mean or whatever. But the way in which it's constructed is just very difficult to describe. It's using kind of frequentist processes that make people want to think that the confidence interval is actually the interval that's going to contain the true population mean 95% of the time, when in reality, that's not the right interpretation.",
+      "id": "ep_134_ut_50"
+    },
+    {
+      "end": 1215016,
+      "speaker": "Moritz Stefaner",
+      "start": 1213840,
+      "text": "Oh, that's what I thought.",
+      "id": "ep_134_ut_51"
+    },
+    {
+      "end": 1215860,
+      "speaker": "Enrico Bertini",
+      "start": 1215128,
+      "text": "Damn.",
+      "id": "ep_134_ut_52"
+    },
+    {
+      "end": 1242362,
+      "speaker": "Jessica Hullman",
+      "start": 1218400,
+      "text": "It's not. It's actually the interval that if you constructed intervals in that way, 95% of the intervals would contain it. So it's, there's just weird misinterpretations. On the other hand, you could have intervals that just, you know, are kind of more like a coverage interval. So 95% of the data itself, the actual observations, will be in here. Yeah, Matt, go ahead.",
+      "id": "ep_134_ut_53"
+    },
+    {
+      "end": 1285952,
+      "speaker": "Matthew Kay",
+      "start": 1242466,
+      "text": "I think this is actually, it's worth mentioning that this is a spot where we're talking about uncertainty that isn't necessarily error. Right. When you start talking about coverage intervals or predictive intervals. Right. So it can be useful to distinguish between maybe predictive uncertainty, or sometimes we make this distinction between aleatory and epistemic uncertainty. But I don't like terms like that because they're, I don't know. I think statisticians often use words that are more complex than they need to be. Right. So you might think of error as something like the uncertainty in a parameter or a mean or some statistic you're estimating.",
+      "id": "ep_134_ut_54"
+    },
+    {
+      "end": 1295184,
+      "speaker": "Moritz Stefaner",
+      "start": 1286016,
+      "text": "If I have, like, a temperature forecast for tomorrow, is that like. And then we don't know if it's going to be 1213 or 14 degrees celsius, what type of uncertainty would that be?",
+      "id": "ep_134_ut_55"
+    },
+    {
+      "end": 1340992,
+      "speaker": "Matthew Kay",
+      "start": 1295272,
+      "text": "So I would think about that as predictive uncertainty. So you have a predicted, one way of setting it up is you have a model that gives you a predicted distribution of possible temperatures, and then you construct an interval by taking, say, the central 95% of that predicted distribution. And I would call that a predictive interval in contrast to. And so you call that allatory uncertainty. Aleatory comes from something latin about rolling dice or gambling or something like that. So you're taking another draw from some predicted distribution, and the model will already.",
+      "id": "ep_134_ut_56"
+    },
+    {
+      "end": 1352550,
+      "speaker": "Moritz Stefaner",
+      "start": 1341096,
+      "text": "Give you a full distribution, or maybe you let it run 1000 times, so you have a thousand results and so on, and. And then the challenge is more, how can I summarize or visually present now this distribution?",
+      "id": "ep_134_ut_57"
+    },
+    {
+      "end": 1373438,
+      "speaker": "Matthew Kay",
+      "start": 1352670,
+      "text": "Right, exactly. And this is where you also start getting into sort of philosophical debates. You know, are you fitting a bayesian model? Are you fitting a frequentist model. Are you doing something else? I tend to mostly just get annoyed by those philosophical debates, but they exist.",
+      "id": "ep_134_ut_58"
+    },
+    {
+      "end": 1436780,
+      "speaker": "Jessica Hullman",
+      "start": 1373574,
+      "text": "Yeah, I think that one important point. Well, I think one thing that I feel or have seen people not do so well, we actually have a paper on it with confidence intervals. I think in particular is people don't really understand the relationship between your sample and then the distribution. So your sample distribution, like your actual measurements, and then the distribution of whatever you're estimating, say, a mean, which is much lower variance. So I think there's a lot of confusion even about what's the underlying distribution. We're talking about the fact that we even have a model. Sometimes. I think people don't have a very clear sense of and intervals. I think part of the problem with them is they're used across the board for all these things, and they look the same in all of these cases, whether they're 95% confidence interval, or whether they're just showing you standardization deviation, or whether they're showing you, like, a coverage interval, which is just the underlying data distribution, not a sampling distribution.",
+      "id": "ep_134_ut_59"
+    },
+    {
+      "end": 1440776,
+      "speaker": "Enrico Bertini",
+      "start": 1437440,
+      "text": "Yeah, sure. So what are other options?",
+      "id": "ep_134_ut_60"
+    },
+    {
+      "end": 1631742,
+      "speaker": "Jessica Hullman",
+      "start": 1440888,
+      "text": "Right. Yeah. So we can talk about, I guess, what we've been doing. So we've been kind of focusing on a couple different, I would say, outcome oriented or sample based techniques. So rather than showing you some representation of your distribution, you're going to draw samples from it and show those. So the technique that I've been working on for a while is hypothetical outcome plots, where we're basically going to take the distribution and draw samples from it and then visualize those samples one at a time as frames in an animation, so that you're basically seeing the uncertainty kind of play out. You're not able to just focus on the whole distribution at once. So it's kind of a way of, I think of it as more of a way of sort of forcing people to take into consideration the variance, because you're actually, if you're not going to actually add the mean as a mark to it, then all they can see is kind of the, you know, draws from the distribution one at a time. They have to kind of use the visual system to kind of try to estimate, like, what the full distribution looks like. And so I think we've been doing some research on these, and there's certain reasons why, once you move to this sampling paradigm, where you're showing samples drawn from a distribution one at a time, there are some benefits. Like if you're trying to show any sort of joint probabilities or multivariate probabilities, it becomes a lot clearer, or you're able to basically estimate those much better. So if you imagine the typical thing would be, you could show two bars in a bar chart, like maybe somebody did a scientific experiment, and they have two bars. One is the control group and one is the treatment group in their study, and they put error bars on both of them. So you can see the mean whatever blood pressure in the control, the mean blood pressure in the treatment, and the error in both of those estimates. It can be hard to answer certain questions about that data from a visualization that's showing you both distributions like that. So if I wanted to know, for instance, if I ran this study again, what's the probability that I would still see a treatment effect that's larger than the control? It's really hard to answer, basically, from a static depiction, because that data is just not expressed. So if you were to show someone the same bar chart, but where the bars are changing height, each frame in an animation, you can begin to estimate some of these multivariate probabilities. So, like the hypothetical outcome plot stuff, I think there's been a few cases in the media that maybe people would recognize. So things like the New York Times has done various types of election predictions using where they're showing you actual animated samples, draws from a distribution. I think the most notorious one, which is kind of a conversation topic in itself, is the New York Times needle that they used on 2016 presidential election night.",
+      "id": "ep_134_ut_61"
+    },
+    {
+      "end": 1632918,
+      "speaker": "Moritz Stefaner",
+      "start": 1631766,
+      "text": "Or many people.",
+      "id": "ep_134_ut_62"
+    },
+    {
+      "end": 1635830,
+      "speaker": "Jessica Hullman",
+      "start": 1633054,
+      "text": "Right. Yeah, I know Matt has thoughts on this.",
+      "id": "ep_134_ut_63"
+    },
+    {
+      "end": 1669410,
+      "speaker": "Matthew Kay",
+      "start": 1635950,
+      "text": "So, I mean, I think that. So the thing about the needle is it forces people to confront uncertainty. And I think this actually goes back to that question of, why do we need to do uncertainty visualization in the first place. Well, a lot of people got anxious about the needle because they were forced to confront uncertainty in something that they actually cared about. And I think the thing about effective uncertainty visualization is when you do it well, you can make people anxious, but they should be anxious if it's something they care about.",
+      "id": "ep_134_ut_64"
+    },
+    {
+      "end": 1670566,
+      "speaker": "Jessica Hullman",
+      "start": 1669870,
+      "text": "Exactly.",
+      "id": "ep_134_ut_65"
+    },
+    {
+      "end": 1676566,
+      "speaker": "Moritz Stefaner",
+      "start": 1670638,
+      "text": "Maybe. Let's explain briefly what it did. So it was the prediction of who will win the election 2016.",
+      "id": "ep_134_ut_66"
+    },
+    {
+      "end": 1680522,
+      "speaker": "Jessica Hullman",
+      "start": 1676758,
+      "text": "It was a little confusing, actually. Yeah. Do you want to explain it?",
+      "id": "ep_134_ut_67"
+    },
+    {
+      "end": 1765908,
+      "speaker": "Matthew Kay",
+      "start": 1680626,
+      "text": "Yeah. So, I mean, I ended up. I talked to Kevin Queeley, who, when I was at Openviz, about how the thing worked, and also read a blog post that they wrote that I never saved the URL for, so I can never find it again. But basically, the way that the thing works, from my understanding, is. So this was a live prediction of the difference in the vote margin between Hillary and Trump as the returns were coming in. So as the returns are coming in, they're updating some model to predict this vote margin. The model generates a distribution describing their uncertainty in the margin. The margin is some number between negative 101 hundred, where zero means that they both get the same number of votes. What it's doing is every 30 seconds the model gets updated and it generates a new distribution describing the uncertainty. That is, I believe, just summarized as a mean and a standard error or standard deviation, because predictive distribution that's then being shoved into people's browsers and then some JavaScript in the background is drawing samples from this distribution, which makes a needle kind of jitter on this scale, from Hillary wins to Trump wins. Right.",
+      "id": "ep_134_ut_68"
+    },
+    {
+      "end": 1770172,
+      "speaker": "Moritz Stefaner",
+      "start": 1765964,
+      "text": "Right. But the needle was jumping much faster than the data was updating.",
+      "id": "ep_134_ut_69"
+    },
+    {
+      "end": 1770820,
+      "speaker": "Matthew Kay",
+      "start": 1770236,
+      "text": "Right.",
+      "id": "ep_134_ut_70"
+    },
+    {
+      "end": 1780276,
+      "speaker": "Moritz Stefaner",
+      "start": 1770980,
+      "text": "So the needle did not reflect the data updates, but it reflected, it reflected the uncertainty metaphor, more or less, or like a hypothetical, hypothetical outcome plot, basically.",
+      "id": "ep_134_ut_71"
+    },
+    {
+      "end": 1834640,
+      "speaker": "Matthew Kay",
+      "start": 1780348,
+      "text": "Right. It was a hypothetical outcome plot and it was being updated every 30 seconds and then also was jittering in between that to demonstrate the uncertainty. Although it was actually, the interesting thing about the needle is it wasn't jittering. It was actually not faithfully representing the uncertainty. It was actually not jittering enough. So it was only jittering in the central 50% interval. It should have actually been jittering a whole lot more. Which is one of the things that I think I don't particularly like about it. I do really like the needle, but I think there are things that I would have. One of them is that the other one is exactly this other problem, which is something that we call a deterministic construal error, which is uncertainty visualizations, where people misinterpret something that's representing uncertainty as something that's representing something deterministic, in this case, thinking that the jitter was representing real time updates.",
+      "id": "ep_134_ut_72"
+    },
+    {
+      "end": 1837060,
+      "speaker": "Jessica Hullman",
+      "start": 1835540,
+      "text": "Right. Yeah, that was a big part of.",
+      "id": "ep_134_ut_73"
+    },
+    {
+      "end": 1865160,
+      "speaker": "Moritz Stefaner",
+      "start": 1837060,
+      "text": "It, but you could also read it as sort of a faulty device. So I was thinking about, like, it's a sensor that doesn't quite work, or it's a machine that's under pressure and lots of steam, you know, and so, and I think in a way it gave a good metaphor to, okay, it's a very, like a vivid process that goes in all kinds of directions and we see like a shaky picture of that. So I think from that end, maybe it was a good metaphor overall, I.",
+      "id": "ep_134_ut_74"
+    },
+    {
+      "end": 1866592,
+      "speaker": "Jessica Hullman",
+      "start": 1865160,
+      "text": "Think it was a great metaphor. Yeah.",
+      "id": "ep_134_ut_75"
+    },
+    {
+      "end": 1872172,
+      "speaker": "Matthew Kay",
+      "start": 1866696,
+      "text": "Yeah. I think that's the metaphor they're trying for. But I think the problem is some people got that and some didn't.",
+      "id": "ep_134_ut_76"
+    },
+    {
+      "end": 1872708,
+      "speaker": "Jessica Hullman",
+      "start": 1872336,
+      "text": "Right?",
+      "id": "ep_134_ut_77"
+    },
+    {
+      "end": 1877556,
+      "speaker": "Moritz Stefaner",
+      "start": 1872764,
+      "text": "Right. Yeah. As it is with metaphors, I think.",
+      "id": "ep_134_ut_78"
+    },
+    {
+      "end": 1945650,
+      "speaker": "Jessica Hullman",
+      "start": 1877588,
+      "text": "That one is kind of perhaps a symptom or the way that was received is perhaps a symptom of the fact that even leading up to the election, we weren't seeing things like that. If we'd seen the dial all along and had been forced to think about the uncertainty in these predictions all along, maybe it wouldn't have been as big a deal. Pretty sure it wouldn't have been. But, you know, the fact that we rarely see uncertainty in a way that we have to take it into account, I think is also a big part of the problem. There's kind of a norm to not show it or to show it in a way that it's easy to just dichotomize. So for me, I think you would see these predictions leading up to the election. You could go to whatever it was, the upshot page, and it would say, you know, there's like a 75% chance that Clinton's gonna win or it was even higher than that for a while. But I think it's the very notion of probability is hard. So, you know, people just wanna round that up. You know, it was like, you know, looks like Hillary Clinton's gonna win because she has a reasonably higher than 50% chance.",
+      "id": "ep_134_ut_79"
+    },
+    {
+      "end": 1948430,
+      "speaker": "Moritz Stefaner",
+      "start": 1946150,
+      "text": "And so I think maybe percent in people's mind.",
+      "id": "ep_134_ut_80"
+    },
+    {
+      "end": 1984588,
+      "speaker": "Jessica Hullman",
+      "start": 1948470,
+      "text": "Exactly right. Yeah. And so I think that's why uncertainty visualization, it kind of needs to be a policy. But I think we're pretty far from that. So that people become better at just using it and more comfortable with it. So it's not like something like this gets rolled out and like, half the people don't even seem to get that. It's uncertainty, you know, like the deterministic constituent error. I think that was what you were talking about. Right, Matt? They don't even. They think that's the actual latest prediction based, like, poll results are coming in every second and. Or every, you know, 500 milliseconds.",
+      "id": "ep_134_ut_81"
+    },
+    {
+      "end": 1986420,
+      "speaker": "Matthew Kay",
+      "start": 1984644,
+      "text": "Yeah. Or whatever. Right? Yeah.",
+      "id": "ep_134_ut_82"
+    },
+    {
+      "end": 1987200,
+      "speaker": "Jessica Hullman",
+      "start": 1986540,
+      "text": "Right.",
+      "id": "ep_134_ut_83"
+    },
+    {
+      "end": 2003356,
+      "speaker": "Moritz Stefaner",
+      "start": 1988580,
+      "text": "But let's talk more about techniques because I think we all agree, okay, it should be visualized, but we also agree, okay. It depends a bit on the task. You need to be careful to hit the right metaphor. So what else is out there? What other things can people do to show uncertainty or make it accessible?",
+      "id": "ep_134_ut_84"
+    },
+    {
+      "end": 2004396,
+      "speaker": "Enrico Bertini",
+      "start": 2003468,
+      "text": "So I think that.",
+      "id": "ep_134_ut_85"
+    },
+    {
+      "end": 2017810,
+      "speaker": "Jessica Hullman",
+      "start": 2004468,
+      "text": "Yeah, Matt, maybe should talk about this, the counterpoint to hypothetical outcome plots. Like, if you don't want to use like, if you think animated uncertainty is too much, like people are going to freak out the way they did for the dial, then there are other discrete outcome techniques.",
+      "id": "ep_134_ut_86"
+    },
+    {
+      "end": 2022394,
+      "speaker": "Matthew Kay",
+      "start": 2017930,
+      "text": "Yeah. Or I mean, if you're in a situation where animation just isn't possible.",
+      "id": "ep_134_ut_87"
+    },
+    {
+      "end": 2023110,
+      "speaker": "Jessica Hullman",
+      "start": 2022482,
+      "text": "Right?",
+      "id": "ep_134_ut_88"
+    },
+    {
+      "end": 2136594,
+      "speaker": "Matthew Kay",
+      "start": 2024690,
+      "text": "So there's two that I think I would mention. So one actually follows right from the election prediction examples. There was an interesting example of what we normally call something like an icon array, which is often used in medical risk communication. And the idea there is like, you give a grid of, say like 1000 possible outcomes and you just color them or use little icons or something to indicate the different possible values. So maybe it's something like you're looking at a. Well, actually, I'll use the election example. So you might show a grid of 1000 possible outcomes and color them one color. Well, let's say blue if Hillary wins and red if Trump wins. Right? There was a nice example of this. There was a Washington Post article after the election showing probabilistic predictions from a couple of different poll aggregators, I think Huffington Post and the upshot. And 538 where they had predicted, 538 had predicted maybe 80% chance, or maybe it was a 75% chance that Hillary was going to win. A. And the other ones were more certain, so it was maybe like 90 and 95%. Right? Well, if you look at that as a grid, they were actually doing it in a fancier version called a risk communication theater. So you look at it as like a seat map to a theater where I color some of the seats one color if Hillary's gonna win, some of them another color if Trump's gonna win. And then I say, I've given you a random ticket to a seat in the theater. If you end up in a red seat, Trump wins the election. But when you look at that kind of visualization, the 85% is no longer easy to round up to 100%. It actually looks fairly clear that there's a decent chance Trump will win.",
+      "id": "ep_134_ut_89"
+    },
+    {
+      "end": 2137650,
+      "speaker": "Moritz Stefaner",
+      "start": 2136762,
+      "text": "That's interesting.",
+      "id": "ep_134_ut_90"
+    },
+    {
+      "end": 2143610,
+      "speaker": "Matthew Kay",
+      "start": 2137730,
+      "text": "Yeah. And I think just that re expression is one way of getting people to more easily understand uncertainty.",
+      "id": "ep_134_ut_91"
+    },
+    {
+      "end": 2144602,
+      "speaker": "Jessica Hullman",
+      "start": 2143690,
+      "text": "It's weird. Yeah.",
+      "id": "ep_134_ut_92"
+    },
+    {
+      "end": 2155970,
+      "speaker": "Moritz Stefaner",
+      "start": 2144666,
+      "text": "I have the same with false positives. So I always have this hard time to understand conditional probabilities unless I see it. It's hard.",
+      "id": "ep_134_ut_93"
+    },
+    {
+      "end": 2157614,
+      "speaker": "Enrico Bertini",
+      "start": 2156270,
+      "text": "Yeah, same for me.",
+      "id": "ep_134_ut_94"
+    },
+    {
+      "end": 2206094,
+      "speaker": "Matthew Kay",
+      "start": 2157742,
+      "text": "And that's where this idea comes from, really. This frequency framing or discrete outcome, or however you call it, there was this research on bayesian reasoning, so reasoning about conditional probability. And when you express things in this way, you can actually reason about conditional probability more easily. Right? So I give you an icon array of possible outcomes of this procedure you're going to undergo to treat some health problem you have. But then I can start doing things like coloring them differently, depending on if you get a complication or something. And then you can start reasoning about, well, how many of these dots where the procedure is successful still have some complication, which is a question of conditional probability that you could do with arithmetic, but is hard to do.",
+      "id": "ep_134_ut_95"
+    },
+    {
+      "end": 2276860,
+      "speaker": "Jessica Hullman",
+      "start": 2206282,
+      "text": "Yeah, I think also on the frequency framing, that's kind of the motivation behind the techniques we've been developing. Like hypothetical outcome plots and then some of the other discrete ones. This work in bayesian reasoning. But I would add that there's kind of another distinction between the animated versions where you're seeing one draw at a time and the ones that aggregate. So like an icon array is showing you everything at once. There's been work, I think it's. We still haven't really brought it into vis or talked about it explicitly. But there's work in JDM also talking about how there's a difference in experiencing distributional information yourself. Kind of actually experiencing it versus having it described to you. So people tend to make decisions a bit differently based on whether something like probabilities are described versus experienced. There's a few kind of these underlying differences with some of the outcome based stuff compared to the more traditional showing you a density plot, showing you error bars. So I think we're kind of still learning about them.",
+      "id": "ep_134_ut_96"
+    },
+    {
+      "end": 2283212,
+      "speaker": "Moritz Stefaner",
+      "start": 2276940,
+      "text": "I'd like to move the discussion to more methods because you don't have terribly much time left as well, I think.",
+      "id": "ep_134_ut_97"
+    },
+    {
+      "end": 2313482,
+      "speaker": "Matthew Kay",
+      "start": 2283356,
+      "text": "Well, I was going to mention one other static approach that we've been. We've developed this idea of a quantile dot plot, which is basically an icon array, but for a continuous variable. So you're taking these possible outcomes and you're stacking them up on say, a number line. And it allows you to do similar sorts of things as with an icon array. But you can estimate things like intervals kind of arbitrarily. But it's more perceptually effective than a density.",
+      "id": "ep_134_ut_98"
+    },
+    {
+      "end": 2321482,
+      "speaker": "Moritz Stefaner",
+      "start": 2313646,
+      "text": "So it's sort of a mixture of accountable, discrete representation and like a distribution.",
+      "id": "ep_134_ut_99"
+    },
+    {
+      "end": 2322522,
+      "speaker": "Matthew Kay",
+      "start": 2321586,
+      "text": "Yes, exactly.",
+      "id": "ep_134_ut_100"
+    },
+    {
+      "end": 2323466,
+      "speaker": "Jessica Hullman",
+      "start": 2322666,
+      "text": "Exactly.",
+      "id": "ep_134_ut_101"
+    },
+    {
+      "end": 2325842,
+      "speaker": "Moritz Stefaner",
+      "start": 2323618,
+      "text": "Oh, best of both worlds, potentially.",
+      "id": "ep_134_ut_102"
+    },
+    {
+      "end": 2364918,
+      "speaker": "Jessica Hullman",
+      "start": 2325906,
+      "text": "I think there's one other technique worth mentioning, that the like, along the same lines, is trying to force people to take into account the uncertainty. There are some interesting work on what's called value suppressing color palettes to show uncertainty. Matt might know the actual algorithm better than I do. I haven't read the paper in a while, but it's basically like you're using, you're trying to hide the colors. So if color is representing value in some heat map type style visualization, you're actually going to mix gray with the colors when they're more uncertain so that your eye actually has a harder time of reading the value back from the color.",
+      "id": "ep_134_ut_103"
+    },
+    {
+      "end": 2407376,
+      "speaker": "Moritz Stefaner",
+      "start": 2365094,
+      "text": "That's something I also did visualizing wind prediction data. And I had big debates with the scientists because they had 51 different models and they were like, you cannot summarize them in a meaningful way. We have to show the full distribution was fighting for showing the best guess and then using opacity to make it harder to read the ones that are more uncertain. And because we wanted to show a map. Right. And so there was a limit of how much you can do at once. Right. And it's maybe not really reflecting the full distributions that well, you know, as the other techniques, but just making the more uncertain stuff harder to read. It's a very basic technique, but also one, I think that's kind of smart. I think in some cases do exactly the right job.",
+      "id": "ep_134_ut_104"
+    },
+    {
+      "end": 2451150,
+      "speaker": "Matthew Kay",
+      "start": 2407458,
+      "text": "Right, right, exactly. I think it can be good. The issue I had with value suppressing uncertainty palettes is I think that you need a principled way of deciding how much to suppress, and that's actually a hard problem. I think you can go to these kind of models of how people perceive probabilities. There's this one model called the, the linear and log odds model. I'm not going to try to describe it right now, but basically there's some work in cognitive science that you might be able to take and say, oh, here's a principled way we could adjust probabilities. It's not something that anyone has done yet. It's something I'm interested in doing, but we haven't gotten there yet.",
+      "id": "ep_134_ut_105"
+    },
+    {
+      "end": 2465356,
+      "speaker": "Moritz Stefaner",
+      "start": 2451650,
+      "text": "Yeah, but maybe these techniques also like using blur or using sketchy rendering, which some people do to make something more sketchy, that is, more uncertainty, maybe more helpful for just indicating, oh, there's more uncertainty here and less over there.",
+      "id": "ep_134_ut_106"
+    },
+    {
+      "end": 2465948,
+      "speaker": "Jessica Hullman",
+      "start": 2465548,
+      "text": "Right.",
+      "id": "ep_134_ut_107"
+    },
+    {
+      "end": 2470060,
+      "speaker": "Moritz Stefaner",
+      "start": 2466004,
+      "text": "I think if you're really interested in the exact nature of the uncertainty, then.",
+      "id": "ep_134_ut_108"
+    },
+    {
+      "end": 2476948,
+      "speaker": "Jessica Hullman",
+      "start": 2470140,
+      "text": "Yeah, I think the task there matters a lot. Like sometimes maybe all you wanted to say is like, these are kind of uncertain.",
+      "id": "ep_134_ut_109"
+    },
+    {
+      "end": 2479244,
+      "speaker": "Moritz Stefaner",
+      "start": 2477124,
+      "text": "Yeah. And sometimes that's totally fine.",
+      "id": "ep_134_ut_110"
+    },
+    {
+      "end": 2516590,
+      "speaker": "Jessica Hullman",
+      "start": 2479292,
+      "text": "But I think we default in visualization to thinking that or the techniques we've used for a long time, you know, really only support that kind of task where you can kind of tell what's more uncertain and less uncertainty. But, like, when you're using these visual encodings that just aren't very effective, like hard to read. You know, you're kind of like throwing away information. Like if you have the full distribution and you're showing it in a way that people can only pick out three different levels of probability, then, you know, like, it's, I don't know. To me, it goes against the whole reason for visualizing things. You want to actually allow people to draw inferences on that data that you have.",
+      "id": "ep_134_ut_111"
+    },
+    {
+      "end": 2544760,
+      "speaker": "Enrico Bertini",
+      "start": 2518490,
+      "text": "We've been discussing about alternative techniques, but ultimately, if you want to say that one technique is better than another in a certain context, you have to figure out how to evaluate them, which sounds really complicated to me. So I'm wondering, I know that you've been doing some work in this space as well. So how do you actually know that one technique is better than another in one? What type of context?",
+      "id": "ep_134_ut_112"
+    },
+    {
+      "end": 2734510,
+      "speaker": "Jessica Hullman",
+      "start": 2545340,
+      "text": "I think, yeah, so we've been talking about this, and I mean, I think there's kind of a distinction between how do we currently say that we know which visualization techniques are better and how should we, like, what evidence should we be looking for? And so, I mean, for context, we did a study where we looked at like about 90 papers that had published uncertainty visualization techniques and then done some sort of study to figure out which ones worked better. And what we found was that the vast majority are either just asking people to basically read data back, so asking them to report some probabilities that they saw in the visualization and then scoring them on how accurate they are. How close are you to the true probability? So kind of like, how well do people read the data? And then there are also a number of others that were asking people basically for some sort of self reported kind of sense of how satisfied they were. So that might be like, how confident do you feel about your judgments looking at this visualization? Or, you know, how much do you like using this visualization? How helpful does this seem to you? So that was like, the vast majority of what we saw was doing that. And I think there's problems with both of those. So I think the real hard problem or the reasons why evaluation is so difficult with uncertainty visualization is that people do want to avoid it. So there's kind of an obvious moral reason to show uncertainty because it's giving people more information and they can make more informed decisions. But the fact that people try to just evade uncertainty so they try to round things up makes it, I think, really hard to know if uncertainty is helping unless you're actually looking at how they make some sort of action or how they make some sort of decision where there's actual kind of incentives. So a lot of, I think what we've seen in the study literature is just kind of looking at, well, when you ask people to read the data back, can they do it? And then do they like the feeling of this visualization? Like, does it. Does it seem helpful to them? And I think those are totally the wrong thing, and I guess not totally the wrong thing in that, like, uncertainty cognition is very complex. There are aspects of it that, of course, depend on whether you can read the probabilities. There are aspects of it that do depend on this kind of effective or emotional reaction you have. But I think the really core stuff that Matt and I have been working on, but still, we're still kind of early in it, too. It's just how do you actually set up experiments to test these things where you're looking at decision making under realistic conditions? So I think it's the uncertainty visualization evaluation is just fundamentally hard because uncertainty, comprehension, or cognition is fundamentally difficult even to understand, but also something that people avoid. So it's like, how do you tell when something's actually going to work in the real world, given that people might want to just look at the mean? And I feel like that's where we haven't evaluated much at all, so. I'm sure.",
+      "id": "ep_134_ut_113"
+    },
+    {
+      "end": 2757086,
+      "speaker": "Moritz Stefaner",
+      "start": 2734550,
+      "text": "But then it comes back to tasks. Right. And I think that's a very interesting perspective to not just say we need to visualize uncertainty, because I think, yeah, the term is very broad. As we have seen, there's many types of uncertainty, and then people will want to do different types of things with it. And this is hard to figure out exactly what people want to do, but it will make it easier, maybe.",
+      "id": "ep_134_ut_114"
+    },
+    {
+      "end": 2758210,
+      "speaker": "Jessica Hullman",
+      "start": 2757158,
+      "text": "Right. Yeah.",
+      "id": "ep_134_ut_115"
+    },
+    {
+      "end": 2760112,
+      "speaker": "Moritz Stefaner",
+      "start": 2759240,
+      "text": "End of the day.",
+      "id": "ep_134_ut_116"
+    },
+    {
+      "end": 2784860,
+      "speaker": "Matthew Kay",
+      "start": 2760176,
+      "text": "Yeah, yeah. I mean, I think I see all of those things, like perceptual aspects. They are, you know, necessary, but not sufficient. Right, exactly. And the other way I kind of try to usually put it is, you know, just because someone. Just because you can demonstrate that someone can pull the probability out of a visualization doesn't mean that they know how to use it to make the right decision.",
+      "id": "ep_134_ut_117"
+    },
+    {
+      "end": 2786522,
+      "speaker": "Moritz Stefaner",
+      "start": 2785370,
+      "text": "Right. Yeah.",
+      "id": "ep_134_ut_118"
+    },
+    {
+      "end": 2801482,
+      "speaker": "Matthew Kay",
+      "start": 2786626,
+      "text": "And that's really the hard. The hard problem. And so, yeah, as Jessica said, I mean, we've been doing some incentivized decision making experiments, and I think that's where a lot of our work is kind of heading. And I hope that a lot of other people's will as well.",
+      "id": "ep_134_ut_119"
+    },
+    {
+      "end": 2802714,
+      "speaker": "Jessica Hullman",
+      "start": 2801666,
+      "text": "Yeah, yeah.",
+      "id": "ep_134_ut_120"
+    },
+    {
+      "end": 2812762,
+      "speaker": "Moritz Stefaner",
+      "start": 2802842,
+      "text": "It's been a hot topic. I mean, we mentioned it last year as one of the review, as one of the hot topics of 2018, and that's, I have a feeling it's not going to go away. 2019?",
+      "id": "ep_134_ut_121"
+    },
+    {
+      "end": 2813346,
+      "speaker": "Enrico Bertini",
+      "start": 2812906,
+      "text": "Yeah.",
+      "id": "ep_134_ut_122"
+    },
+    {
+      "end": 2814738,
+      "speaker": "Jessica Hullman",
+      "start": 2813418,
+      "text": "I hope nothing.",
+      "id": "ep_134_ut_123"
+    },
+    {
+      "end": 2815490,
+      "speaker": "Matthew Kay",
+      "start": 2814824,
+      "text": "Yeah.",
+      "id": "ep_134_ut_124"
+    },
+    {
+      "end": 2863826,
+      "speaker": "Jessica Hullman",
+      "start": 2816550,
+      "text": "Yeah. I think sometimes it's hard to define the task. Like, as a designer, you're creating a visualization, and it's hard to know like or define what should people do if I show them the error information. And I think that's part of maybe why we don't see people using uncertainty or showing it as much as we might like. It's just that it's, you know, it's rare that there's a very clear decision to be made from a visualization. Like, I think there often is a decision, but it can be hard to define. And sometimes what people should do with uncertainty is not clear, and that's why you need these kind of formal decision frameworks to think about it. So I think it matters, but it's hard to sort of evaluate that way, or at least in practice, when you're designing something and you don't have the ability to run some controlled experiment.",
+      "id": "ep_134_ut_125"
+    },
+    {
+      "end": 2881246,
+      "speaker": "Enrico Bertini",
+      "start": 2863938,
+      "text": "I'm now curious about isn't another aspect whether how people feel certain about something according after seeing different representations. Right. I guess that's objective, but it's important. Right. I think there are some things that people shouldn't feel too certain about.",
+      "id": "ep_134_ut_126"
+    },
+    {
+      "end": 2881982,
+      "speaker": "Jessica Hullman",
+      "start": 2881438,
+      "text": "Right.",
+      "id": "ep_134_ut_127"
+    },
+    {
+      "end": 2889262,
+      "speaker": "Enrico Bertini",
+      "start": 2882086,
+      "text": "And maybe they may feel certain just because the way this is represented doesn't take into account uncertainty.",
+      "id": "ep_134_ut_128"
+    },
+    {
+      "end": 2901454,
+      "speaker": "Matthew Kay",
+      "start": 2889366,
+      "text": "Right, right. This is a sort of like, you might. You might do something like elicit subjective confidence in your decision or something, but if you don't show them the uncertainty, they might be really confident in a decision that is for.",
+      "id": "ep_134_ut_129"
+    },
+    {
+      "end": 2908342,
+      "speaker": "Jessica Hullman",
+      "start": 2901542,
+      "text": "Right. There's a weird relationship, I think, between what we like or like what makes us feel good and what's good for us.",
+      "id": "ep_134_ut_130"
+    },
+    {
+      "end": 2908662,
+      "speaker": "Matthew Kay",
+      "start": 2908366,
+      "text": "Yes.",
+      "id": "ep_134_ut_131"
+    },
+    {
+      "end": 2913490,
+      "speaker": "Enrico Bertini",
+      "start": 2908726,
+      "text": "Right. In this domain, we want to believe some things. Right. And.",
+      "id": "ep_134_ut_132"
+    },
+    {
+      "end": 2914862,
+      "speaker": "Jessica Hullman",
+      "start": 2914310,
+      "text": "Right.",
+      "id": "ep_134_ut_133"
+    },
+    {
+      "end": 2915850,
+      "speaker": "Enrico Bertini",
+      "start": 2914966,
+      "text": "It's hard.",
+      "id": "ep_134_ut_134"
+    },
+    {
+      "end": 2930740,
+      "speaker": "Matthew Kay",
+      "start": 2916150,
+      "text": "This is why I always get back to this idea of, you know, anxiety being proportional to uncertainty. Right. It's something you care about and. And you're uncertain about it. Sometimes you should feel bad.",
+      "id": "ep_134_ut_135"
+    },
+    {
+      "end": 2933740,
+      "speaker": "Jessica Hullman",
+      "start": 2931160,
+      "text": "Right. Which is weird for designers.",
+      "id": "ep_134_ut_136"
+    },
+    {
+      "end": 2934800,
+      "speaker": "Enrico Bertini",
+      "start": 2934280,
+      "text": "Yeah.",
+      "id": "ep_134_ut_137"
+    },
+    {
+      "end": 2937000,
+      "speaker": "Jessica Hullman",
+      "start": 2934880,
+      "text": "I think that's why there's this fundamental tension.",
+      "id": "ep_134_ut_138"
+    },
+    {
+      "end": 2975110,
+      "speaker": "Enrico Bertini",
+      "start": 2937120,
+      "text": "I'm wondering if we can conclude maybe by giving some practical advice to people who want to either learn more about visualizing uncertainty. As far as I can tell, there's no established, I would say, textbook or even the material is very scattered. So how do you actually learn all of these things? And then, similarly to practitioners, how do they get a better sense of which tools they can use, which methods? I think there's so much to do in this sense, in this space.",
+      "id": "ep_134_ut_139"
+    },
+    {
+      "end": 2982850,
+      "speaker": "Jessica Hullman",
+      "start": 2975650,
+      "text": "Yeah, that's a great question. I'm just trying to rack my brain. Yeah, yeah, go ahead, Matt. You can start.",
+      "id": "ep_134_ut_140"
+    },
+    {
+      "end": 2996098,
+      "speaker": "Matthew Kay",
+      "start": 2982930,
+      "text": "Yeah, I mean, one thing that has happened very recently, there's a visualization book that I'm going to mispronounce. Claus Wilke.",
+      "id": "ep_134_ut_141"
+    },
+    {
+      "end": 2997882,
+      "speaker": "Jessica Hullman",
+      "start": 2996154,
+      "text": "Yeah, that's what I was going to say.",
+      "id": "ep_134_ut_142"
+    },
+    {
+      "end": 3010960,
+      "speaker": "Matthew Kay",
+      "start": 2997946,
+      "text": "Yeah. So he wrote a chapter in a visualization book that he's currently writing on uncertainty visualization that talks about a lot of the more modern techniques that we've been talking about here.",
+      "id": "ep_134_ut_143"
+    },
+    {
+      "end": 3012188,
+      "speaker": "Enrico Bertini",
+      "start": 3011540,
+      "text": "Okay.",
+      "id": "ep_134_ut_144"
+    },
+    {
+      "end": 3027560,
+      "speaker": "Matthew Kay",
+      "start": 3012284,
+      "text": "And I think that's probably one of the better references that exists. I had this ambitious plan of starting to write a book on uncertainty visualization, which is probably at some point still going to happen in my copious free time. But, you know.",
+      "id": "ep_134_ut_145"
+    },
+    {
+      "end": 3070420,
+      "speaker": "Jessica Hullman",
+      "start": 3029740,
+      "text": "Actually the grammar of graphics, I mean, I really liked the chapter on uncertainty in that book, which is kind of like a classic visualization book. It's a little researchy or scholarly, but I feel like the way the treatment of uncertainty is very clear in that book on some level, just reviewing just basic stats on inferential stats is probably not what people want to do. But the notion of a sample and a population and how you. How you estimate and what sampling error is. I feel like if maybe someone needs to create an accessible resource, that's like three pages of what you should.",
+      "id": "ep_134_ut_146"
+    },
+    {
+      "end": 3108780,
+      "speaker": "Matthew Kay",
+      "start": 3071320,
+      "text": "There's that seeing theory, kind of animated stats textbook thing, which is pretty good if you want the frequentist perspective on it. And I think I kind of tend to end up usually working in a bayesian mode if you want the bayesian perspective on it. The first, I think two chapters of Richard McElreath's statistical rethinking is another good resource, or he has some online lectures because it's designed as a class. So that's another place to go for that kind of basic idea of probability.",
+      "id": "ep_134_ut_147"
+    },
+    {
+      "end": 3121368,
+      "speaker": "Jessica Hullman",
+      "start": 3109600,
+      "text": "Yeah. I was also going to say Howard Wainer has written a few books that are kind of almost Tufte esque. I don't know if he would appreciate that comparison, but they're kind of, they walk you through examples and I think.",
+      "id": "ep_134_ut_148"
+    },
+    {
+      "end": 3122912,
+      "speaker": "Enrico Bertini",
+      "start": 3121424,
+      "text": "Lots of case studies. Yeah.",
+      "id": "ep_134_ut_149"
+    },
+    {
+      "end": 3129088,
+      "speaker": "Jessica Hullman",
+      "start": 3122976,
+      "text": "Much more accessible than some of the other stuff we're suggesting. Although, like the McElreath book, I think is like really fun to read.",
+      "id": "ep_134_ut_150"
+    },
+    {
+      "end": 3129736,
+      "speaker": "Matthew Kay",
+      "start": 3129144,
+      "text": "Yeah.",
+      "id": "ep_134_ut_151"
+    },
+    {
+      "end": 3133860,
+      "speaker": "Jessica Hullman",
+      "start": 3129888,
+      "text": "I like to think that you don't have to care about stats, but I don't know for sure.",
+      "id": "ep_134_ut_152"
+    },
+    {
+      "end": 3178634,
+      "speaker": "Matthew Kay",
+      "start": 3134320,
+      "text": "Yeah, I guess another thing that I've been doing lately is I have a, I end up often answering uncertainty visualization questions on Twitter. My approach to that now has been to compile the various things that I've constructed into a repository on GitHub. So that's another possible resource for some of the, there's a lot of examples of like hops and some quantile dot plot stuff on there and a few other even weirder things I did one that was on uncertainty and correlation heat maps, which uses this kind of dithering technique for uncertainty, which is kind of cool and interesting.",
+      "id": "ep_134_ut_153"
+    },
+    {
+      "end": 3207988,
+      "speaker": "Enrico Bertini",
+      "start": 3178722,
+      "text": "Okay, so we're going to add all these links in our show notes. So yeah, make sure to go to our blog post and check all these useful links. Thanks so much for all these good tips and thanks so much for coming on the show. I think that's, again, we could go on forever, I guess. It's such a complex and interesting topic. Yeah. Thanks so much, Jessica and Matt, for coming on the show and explaining some of it.",
+      "id": "ep_134_ut_154"
+    },
+    {
+      "end": 3208532,
+      "speaker": "Jessica Hullman",
+      "start": 3208124,
+      "text": "Thank you.",
+      "id": "ep_134_ut_155"
+    },
+    {
+      "end": 3209360,
+      "speaker": "Matthew Kay",
+      "start": 3208556,
+      "text": "Thank you.",
+      "id": "ep_134_ut_156"
+    },
+    {
+      "end": 3211244,
+      "speaker": "Jessica Hullman",
+      "start": 3209700,
+      "text": "Yeah, anytime. Welcome back.",
+      "id": "ep_134_ut_157"
+    },
+    {
+      "end": 3213556,
+      "speaker": "Matthew Kay",
+      "start": 3211292,
+      "text": "Yeah, yeah. Love to be back for sure.",
+      "id": "ep_134_ut_158"
+    },
+    {
+      "end": 3214684,
+      "speaker": "Enrico Bertini",
+      "start": 3213668,
+      "text": "Yeah. Bye bye.",
+      "id": "ep_134_ut_159"
+    },
+    {
+      "end": 3215964,
+      "speaker": "Moritz Stefaner",
+      "start": 3214732,
+      "text": "Thank you. Bye bye.",
+      "id": "ep_134_ut_160"
+    },
+    {
+      "end": 3217280,
+      "speaker": "Jessica Hullman",
+      "start": 3216052,
+      "text": "Bye bye.",
+      "id": "ep_134_ut_161"
+    },
+    {
+      "end": 3242186,
+      "speaker": "Enrico Bertini",
+      "start": 3221780,
+      "text": "Hey, folks, thanks for listening to data stories again. Before you leave a few last notes, this show is now completely crowdfunded. So you can support us by going on Patreon. That's patreon.com Datastories. And if you can spend a couple of minutes rating us on iTunes, that would be extremely helpful for the show.",
+      "id": "ep_134_ut_162"
+    },
+    {
+      "end": 3268062,
+      "speaker": "Moritz Stefaner",
+      "start": 3242298,
+      "text": "And here's also some information on the many ways you can get news directly from us. We are, of course, on twitter@twitter.com. Datastories. We have a Facebook page@Facebook.com. data stories, podcast all in one word. And we also have a slack channel where you can chat with us directly. And to sign up you can go to our homepage, Datastory eas. And there is a button at the bottom of the page.",
+      "id": "ep_134_ut_163"
+    },
+    {
+      "end": 3283938,
+      "speaker": "Enrico Bertini",
+      "start": 3268206,
+      "text": "And we also have an email newsletter. So if you want to get news directly into your inbox and be notified whenever we publish an episode, you can go to our home page data store ready and look for the link you find at the bottom in the footer.",
+      "id": "ep_134_ut_164"
+    },
+    {
+      "end": 3296098,
+      "speaker": "Moritz Stefaner",
+      "start": 3284034,
+      "text": "So one last thing we want to tell you is that we love to get in touch with our listeners, especially if you want to suggest a way to improve the show or amazing people you want us to invite or even projects you want us to talk about.",
+      "id": "ep_134_ut_165"
+    },
+    {
+      "end": 3305320,
+      "speaker": "Enrico Bertini",
+      "start": 3296194,
+      "text": "Yeah, absolutely. And don't hesitate to get in touch with us. It's always a great thing to hear from you. So see you next time. And thanks for listening to data stuff stories.",
+      "id": "ep_134_ut_166"
+    }
+  ],
+  "confidence": 0.930323331875342,
+  "audio_duration": 3316,
+  "punctuate": true,
+  "format_text": true,
+  "dual_channel": false,
+  "webhook_url": null,
+  "webhook_status_code": null,
+  "webhook_auth": false,
+  "webhook_auth_header_name": null,
+  "speed_boost": false,
+  "auto_highlights_result": null,
+  "auto_highlights": false,
+  "audio_start_from": null,
+  "audio_end_at": null,
+  "word_boost": [],
+  "boost_param": null,
+  "filter_profanity": false,
+  "redact_pii": false,
+  "redact_pii_audio": false,
+  "redact_pii_audio_quality": null,
+  "redact_pii_policies": null,
+  "redact_pii_sub": null,
+  "speaker_labels": true,
+  "content_safety": false,
+  "iab_categories": true,
+  "content_safety_labels": {
+    "status": "unavailable",
+    "results": [],
+    "summary": {}
+  },
+  "language_detection": false,
+  "language_detection_threshold": null,
+  "language_confidence": null,
+  "custom_spelling": null,
+  "throttled": false,
+  "auto_chapters": true,
+  "summarization": false,
+  "summary_type": null,
+  "summary_model": null,
+  "custom_topics": false,
+  "topics": [],
+  "speech_threshold": null,
+  "speech_model": "best",
+  "chapters": [
+    {
+      "summary": "Enrico Bertini and Moritz Stefaner talk about data visualization, analysis, and the role that data plays in our lives. As usual, our podcast is listener supported, so there are no ads. If you find you enjoy the show or you're a frequent listener, please consider supporting us.",
+      "gist": "Data Stories",
+      "headline": "Our podcast is listener supported, so there are no ads",
+      "start": 160,
+      "end": 110500,
+      "id": "ep_134_ch_0"
+    },
+    {
+      "summary": "The information is beautiful awards take place every year. This year, Moritz won the truth and beauty award. Go to the website and check out all the shortlisted items. There's lots of great data visualization work there.",
+      "gist": "Information is Beautiful Awards 2013",
+      "headline": "Information is beautiful awards honor outstanding data visualization work",
+      "start": 111000,
+      "end": 213350,
+      "id": "ep_134_ch_1"
+    },
+    {
+      "summary": "Today we are talking about a very important general topic in visualization, which is uncertainty visualization. We have Jessica Hullman and Matt UK. This past fall, they started a lab together called the Midwest Uncertainty collective.",
+      "gist": "In the Elevator: Uncertainty visualization",
+      "headline": "Today we are talking about uncertainty visualization, which is a very hard topic",
+      "start": 214610,
+      "end": 435044,
+      "id": "ep_134_ch_2"
+    },
+    {
+      "summary": "What we're usually talking about is visualizing error that's been calculated relative to some model. But there's another less narrow framing, which is thinking about uncertainty in terms of probability. There's always this tension in visualization, we like our data to be crisp and factual.",
+      "gist": "Uncertainty in data visualization",
+      "headline": "Jessica: What do we talk about when we discuss uncertainty in visualization",
+      "start": 435092,
+      "end": 936228,
+      "id": "ep_134_ch_3"
+    },
+    {
+      "summary": "People tend to be persuaded quite a lot by numbers. And I think a lot of what is important about uncertainty visualization is to force people to confront uncertainty. It's cognitively complex to be trying to reason with two intervals rather than two points.",
+      "gist": "Economists on Uncertainty",
+      "headline": "People tend to be persuaded quite a lot by numbers, right",
+      "start": 936364,
+      "end": 1084822,
+      "id": "ep_134_ch_4"
+    },
+    {
+      "summary": "But so let's say that we do want to visualize uncertainty, right? So now, how do you do that? I think there is a very large space of solutions out there, and it's not totally clear to me what the state of the art is either.",
+      "gist": "How to visualize uncertainty in science",
+      "headline": "How do you visualize uncertainty using various visualization techniques",
+      "start": 1084846,
+      "end": 1170152,
+      "id": "ep_134_ch_5"
+    },
+    {
+      "summary": "Intervals are not usually interpreted correctly by people. It can be useful to distinguish between maybe predictive uncertainty and aleatory uncertainty. This is where you also start getting into sort of philosophical debates.",
+      "gist": "Confirmations intervals and epistemic uncertainty",
+      "headline": "Intervals are not usually interpreted correctly by people",
+      "start": 1170176,
+      "end": 1376170,
+      "id": "ep_134_ch_6"
+    },
+    {
+      "summary": "People don't really understand the relationship between your sample and then the distribution. There's a lot of confusion even about what's the underlying distribution. I think people don't have a very clear sense of and intervals.",
+      "gist": "Confidence intervals and sampling distribution",
+      "headline": "People often confuse sample and distribution when estimating confidence intervals",
+      "start": 1376770,
+      "end": 1441688,
+      "id": "ep_134_ch_7"
+    },
+    {
+      "summary": "The technique that I've been working on for a while is hypothetical outcome plots. Instead of showing you some representation of your distribution, you're going to draw samples from it and show those. The most notorious one is the New York Times needle that they used on 2016 presidential election night. It forces people to confront uncertainty.",
+      "gist": "Noise and Uncertainty: Political Analysis",
+      "headline": "Using uncertainty visualization can help you estimate multivariate probabilities better",
+      "start": 1441744,
+      "end": 1984588,
+      "id": "ep_134_ch_8"
+    },
+    {
+      "summary": "Yeah. You need to be careful to hit the right metaphor. But let's talk more about techniques because I think we all agree, okay, it should be visualized. It depends a bit on the task.",
+      "gist": "Post-processing techniques",
+      "headline": "You need to be careful to hit the right metaphor. It depends a bit on the task",
+      "start": 1984644,
+      "end": 1997404,
+      "id": "ep_134_ch_9"
+    },
+    {
+      "summary": "There are other discrete outcome techniques. Like an icon array, which is often used in medical risk communication. When you express things in this way, you can reason about conditional probability more easily. And I think just that re expression is one way of getting people to more easily understand uncertainty.",
+      "gist": "Other Ways to Show Uncertainty",
+      "headline": "What other techniques can people use to show uncertainty or make it accessible",
+      "start": 1997452,
+      "end": 2283212,
+      "id": "ep_134_ch_10"
+    },
+    {
+      "summary": "A quantile dot plot is basically an icon array, but for a continuous variable. It's more perceptually effective than a density. So it's sort of a mixture of accountable, discrete representation and like a distribution.",
+      "gist": "Quantile Dot Plot",
+      "headline": "Quantile dot plot is more perceptually effective than a density",
+      "start": 2283356,
+      "end": 2325842,
+      "id": "ep_134_ch_11"
+    },
+    {
+      "summary": "There are some interesting work on what's called value suppressing color palettes to show uncertainty. You need a principled way of deciding how much to suppress, and that's actually a hard problem. We've been discussing about alternative techniques.",
+      "gist": "Visualization with Value suppressing uncertainty palettes",
+      "headline": "There are some interesting techniques for suppressing uncertainty in visualization",
+      "start": 2325906,
+      "end": 2533754,
+      "id": "ep_134_ch_12"
+    },
+    {
+      "summary": "How do you know which visualization techniques are better? The real hard problem or the reasons why evaluation is so difficult with uncertainty visualization is that people do want to avoid it. How do you actually set up experiments to test these things under realistic conditions?",
+      "gist": "Is Uncertainty Visualization Better Than Others?",
+      "headline": "Jessica: Evaluation of uncertainty visualization techniques is difficult because uncertainty is complex",
+      "start": 2533882,
+      "end": 2863826,
+      "id": "ep_134_ch_13"
+    },
+    {
+      "summary": "I think there are some things that people shouldn't feel too certain about. Maybe they may feel certain just because the way this is represented doesn't take into account uncertainty. There's a weird relationship, I think, between what we like and what's good for us.",
+      "gist": "Feeling Certain About a Design Decision",
+      "headline": "I'm curious about whether people feel certain about something after seeing different representations",
+      "start": 2863938,
+      "end": 2937000,
+      "id": "ep_134_ch_14"
+    },
+    {
+      "summary": "There's no established, I would say, textbook or even the material is very scattered. So how do you actually learn all of these things? And then, similarly to practitioners, how do they get a better sense of which tools they can use. Thanks so much for all these good tips and thanks for coming on the show.",
+      "gist": "No Textbook on Uncertainty Visualization",
+      "headline": "Jessica and Matt offer some practical advice on visualizing uncertainty",
+      "start": 2937120,
+      "end": 3217280,
+      "id": "ep_134_ch_15"
+    },
+    {
+      "summary": "This show is now completely crowdfunded. You can support us by going on patreon. com Datastories. And if you can spend a couple of minutes rating us on iTunes, that would be extremely helpful for the show. Don't hesitate to get in touch with us.",
+      "gist": "How to Subscribe to Data Stories on iTunes",
+      "headline": "This show is now completely crowdfunded and can be supported on Patreon",
+      "start": 3221780,
+      "end": 3305320,
+      "id": "ep_134_ch_16"
+    }
+  ],
+  "disfluencies": false,
+  "entity_detection": false,
+  "sentiment_analysis": false,
+  "sentiment_analysis_results": null,
+  "entities": null,
+  "speakers_expected": null,
+  "summary": null,
+  "custom_topics_results": null,
+  "episode_num": 134,
+  "episode_metadata": {
+    "speakers": [
+      "Jessica Hullman",
+      "Enrico Bertini",
+      "Moritz Stefaner",
+      "Matthew Kay"
+    ],
+    "WPid": "1314",
+    "url": "https://datastori.es/podlove/file/5570/s/feed/c/mp3/134-visualizing-uncertainty.mp3",
+    "episode_title": "Visualizing Uncertainty with Jessica Hullman and Matthew Kay"
+  }
+}

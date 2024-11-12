@@ -1,0 +1,614 @@
+{
+  "id": "9e41c4a0-cb32-4af3-9b27-01a2c80109a6",
+  "language_model": "assemblyai_default",
+  "acoustic_model": "assemblyai_default",
+  "language_code": "en_us",
+  "status": "completed",
+  "audio_url": "https://datastori.es/podlove/file/4846/s/feed/c/mp3/114-machine-learning-for-artists-with-gene-kogan.mp3",
+  "utterances": [
+    {
+      "end": 4834,
+      "speaker": "Gene Kogan",
+      "start": 120,
+      "text": "A lot of people are saying that right now we're in the second golden age of AI.",
+      "id": "ep_114_ut_0"
+    },
+    {
+      "end": 31466,
+      "speaker": "Moritz Stefaner",
+      "start": 24214,
+      "text": "Hi, everyone. Welcome to a new episode of Data stories. My name is Mauritsh Stefaner, and I'm an independent designer of data visualizations.",
+      "id": "ep_114_ut_1"
+    },
+    {
+      "end": 37570,
+      "speaker": "Enrico Bertini",
+      "start": 31550,
+      "text": "And I am Enrico Bertini, and I am a professor at NYU in New York, where I do research in data visualization.",
+      "id": "ep_114_ut_2"
+    },
+    {
+      "end": 45746,
+      "speaker": "Moritz Stefaner",
+      "start": 37762,
+      "text": "And on this podcast together we talk about data visualization, data analysis, and generally the role data plays in our lives.",
+      "id": "ep_114_ut_3"
+    },
+    {
+      "end": 57810,
+      "speaker": "Enrico Bertini",
+      "start": 45890,
+      "text": "And usually we do that together with a guest we invite on the show. And today we have Jean Kogan to talk about the use of machine learning in art. Hey, Jean, how are you?",
+      "id": "ep_114_ut_4"
+    },
+    {
+      "end": 59546,
+      "speaker": "Gene Kogan",
+      "start": 57882,
+      "text": "Good. Thanks for having me.",
+      "id": "ep_114_ut_5"
+    },
+    {
+      "end": 66840,
+      "speaker": "Enrico Bertini",
+      "start": 59650,
+      "text": "So can you briefly introduce yourself and tell us a little bit about your backgrounds, interest and all the rest?",
+      "id": "ep_114_ut_6"
+    },
+    {
+      "end": 108614,
+      "speaker": "Gene Kogan",
+      "start": 66992,
+      "text": "So my name is Gene. I've been artist and a programmer. I'm kind of like, I mean, the cut and paste bio is, I'm really broadly interested in generative art and generative systems, data visualization and kind of like applications of emerging technology, especially in computer science, to creative and more expressive things. That's a lot of machine learning and AI and more recently kind of decentralization technology, which has been an interest of mine. And before that, a lot of computer vision, fabrication. Lots of, I was kind of been scatterbrained for a long time.",
+      "id": "ep_114_ut_7"
+    },
+    {
+      "end": 145164,
+      "speaker": "Enrico Bertini",
+      "start": 110394,
+      "text": "Yeah, we wanted to cover machine learning and all the ramifications in the arts and visualization for a long time. So we're very happy to have you on the show. Finally, someone who can speak. What is going on there? Right. So what is going on? It's been crazy lately. Maybe we can start a little bit from the development of the field. Right. So there's been the early AI seen in the sixties, then eighties, ups and downs, and now we are, yeah, we are in the deep learning craze. So what's going on?",
+      "id": "ep_114_ut_8"
+    },
+    {
+      "end": 340694,
+      "speaker": "Gene Kogan",
+      "start": 145624,
+      "text": "Well, a lot of people are saying that right now we're kind of in the second golden age of AI because the, the first one was in the late fifties and sixties when AI first became something that was, well, that's kind of when the field was invented, but that was also the first age in which people became very excited about it. So in the late fifties is kind of when we developed primitive what were then the first neural networks for doing things like image recognition. And, you know, in the, so, I mean, if you know much about the sixties, you know, you know how that was the era of like, sort of hyper utopian, you know, science fiction, right? Like, you know, you guys ever watched the Jetsons and things like that. And a lot of that was really, like, it said that that was a lot of that was a direct result of the excitement about AI because researchers really believed, you know, in the early sixties that, you know, we were going to be able to have human level intelligence by, um, even the 1970s at that time. Um, so there was just, uh, you know, a lot of so, so the research had kind of spilled over into, you know, more mainstream, you know, that was the early days of mass media. So there was just a lot of, a lot of public discussion about, you know, this idea of artificial intelligence. And there was just a lot of, you know, hype and over promising, over promising just how revolutionary the technology we had at the time really was. And so what happened was that through the seventies and eighties, there was kind of a big crash in terms of the interest, like, especially from the public, the general public, into AI. And so it kind of just became relegated to back to what it was before, which was just an academic field. So there was still a lot of computer scientists and engineers who are really interested in taking the field and developing it. And this is also kind of when machine learning first became a field in its own right. So that's kind of like maybe the early eighties or so. And then most recently, kind of over the last, depending on when you started, like 510 years, there's been a huge resurgence of interest in AI and particularly a resurgence of interest in neural networks because of some really impressive and promising results that they've had in a number of tasks in the last few years. And so we're kind of in the middle of a big bubble of interest. Again. There's been a lot of investment. A lot of tech companies are doing more and more into it, especially the big ones, and that has also inspired it to cross over into other industries. So the creative industries, of course, have been following it, I think, you know, pretty closely over the last two years. And you're just seeing, yeah, now there's just a lot of adoption happening and applications being developed. And of course, there's always the science which is kind of in the background trying to, trying to advance them, trying to advance the methodology.",
+      "id": "ep_114_ut_9"
+    },
+    {
+      "end": 353274,
+      "speaker": "Moritz Stefaner",
+      "start": 341754,
+      "text": "And what would you say, what are the fundamental things that are now available that were not doable or easily doable, let's say, five years ago? Like, what are the new techniques that are now coming into play?",
+      "id": "ep_114_ut_10"
+    },
+    {
+      "end": 425438,
+      "speaker": "Gene Kogan",
+      "start": 353354,
+      "text": "Well, the thing that kind of really started the craze, I guess, was a lot of success in computer vision. So if you were a computer vision researcher in the 1990s, a lot of things that we now take for granted to some degree, like, you know, classifying images or detecting objects inside of them were really, really hard. You know, they were not, weren't especially, like, semantic tasks. So we could do a lot of things like, you know, tracking blobs in an image or segmenting images and things like that. But there was no concept of intelligence about the content of the image. And over the last few years, computer vision has really been transformed a lot by deep learning, in particular in machine learning. And then now a lot of the sort of deep learning technologies are being applied with a great deal of success into other domains. So there's a lot more focus on audio and text. Now we have generative, you know, compared to five years ago. We can count the list of things that we can do now that we couldn't do before. We have generative models for audio. So generating audio that sounds like it came from real life with machine learning. So that's completely new thing.",
+      "id": "ep_114_ut_11"
+    },
+    {
+      "end": 427270,
+      "speaker": "Moritz Stefaner",
+      "start": 425566,
+      "text": "And it maybe sounds like a specific.",
+      "id": "ep_114_ut_12"
+    },
+    {
+      "end": 483278,
+      "speaker": "Gene Kogan",
+      "start": 427342,
+      "text": "Yeah, exactly. That it can imitate people's voices. So that's new. We have, you know, like, so a lot of applications of computer vision are totally new. So, like, things like medical diagnostics is not something that people were really thinking about 510 years ago. And we have a lot of more experimental technologies for language processing. Language processing is another natural. Language processing is another area that has undergone a pretty significant shift. Now, if you think to things like Cortana and Alexa and Siri question answer systems and things like that, there's still a little bit, they're still a little bit clunky, but they're way ahead of where they were before, to the point that we're now seriously integrating them into actual technologies that people use every day, like cell phones and so on.",
+      "id": "ep_114_ut_13"
+    },
+    {
+      "end": 494654,
+      "speaker": "Moritz Stefaner",
+      "start": 483326,
+      "text": "Yeah. And generally also, of course, for existing techniques, we have a totally different speed and scale now with cloud computing and crazy developments in graphics cards.",
+      "id": "ep_114_ut_14"
+    },
+    {
+      "end": 495686,
+      "speaker": "Gene Kogan",
+      "start": 494814,
+      "text": "Yeah, totally.",
+      "id": "ep_114_ut_15"
+    },
+    {
+      "end": 501714,
+      "speaker": "Moritz Stefaner",
+      "start": 495750,
+      "text": "That are now being built not for displays anymore, but to mine bitcoins and to run like Matrix.",
+      "id": "ep_114_ut_16"
+    },
+    {
+      "end": 535494,
+      "speaker": "Gene Kogan",
+      "start": 502764,
+      "text": "And that shouldn't be underrated either. Like, that's kind of more the engineering innovations that have occurred rather than science ones. And they have also been really, really important because now, if you think about how widespread the field is compared to the first golden age, the fact that people in other industries are actually using these techniques, that's something that is very much, very much a result of accessible computation and, of course, cloud computation and so on.",
+      "id": "ep_114_ut_17"
+    },
+    {
+      "end": 558330,
+      "speaker": "Moritz Stefaner",
+      "start": 536794,
+      "text": "So you have been very active in this field, and you followed a lot of the work, like, both the research, but also the creative applications of machine learning and AI. Can you talk us through some really interesting, like, the projects you found most interesting or surprising applications of these technologies, or just charming ones, like some interesting work in this area?",
+      "id": "ep_114_ut_18"
+    },
+    {
+      "end": 591308,
+      "speaker": "Gene Kogan",
+      "start": 558482,
+      "text": "Some charming ones? That's an interesting one. It's hard to know where to start, you know? Like, you know, I mean, I think you guys, of course, know Mario Klingaman. I follow his work a lot. He's been very active in the space, just making, like, mostly really weird, like, a lot of really weird visual, you know, images and videos, a lot of, you know, deep learning techniques to create basically his own kind of brand of work. So I really.",
+      "id": "ep_114_ut_19"
+    },
+    {
+      "end": 594308,
+      "speaker": "Moritz Stefaner",
+      "start": 591356,
+      "text": "He tries to teach computers to produce art, basically.",
+      "id": "ep_114_ut_20"
+    },
+    {
+      "end": 594684,
+      "speaker": "Gene Kogan",
+      "start": 594356,
+      "text": "Right.",
+      "id": "ep_114_ut_21"
+    },
+    {
+      "end": 597076,
+      "speaker": "Moritz Stefaner",
+      "start": 594764,
+      "text": "I think that's sort of his angle there.",
+      "id": "ep_114_ut_22"
+    },
+    {
+      "end": 789674,
+      "speaker": "Gene Kogan",
+      "start": 597140,
+      "text": "Yeah, there's a lot of. There's a lot of pretty cool projects that aim to kind of, you know, discover, let's say, like, what data says about us. There's. There's been interesting. I don't know if this is necessarily a creative application, although I tend to. I think of it as a creative application, even though it wasn't really developed for artistic purposes, like on purpose. But there's a lot of this trying to fool neural networks. So there's kind of a field of machine learning that's emerging, which is kind of called adversarial training or adversarial neural networks. And the idea is to, it's kind of concerned with security of machine learning, of neural networks in particular. So is it easy to fool a neural network in such a way that a human being wouldn't actually notice what the interference that was placed into? To be more concrete, you might look at an image of a kangaroo or something, and then by simply sprinkling just a little bit of pixel noise in such a way onto the image that a human can't even detect the difference, but then the neural network will say, well, that's a toaster oven or something like that. And of course, it has huge implications to security because we're now talking about using these image classifier systems to do things like give you permission to access your own phone, let's say. So, of course, the intersection of machine learning and cybersecurity is pretty large. Oh, yeah, of course. But then to me, there's kind of like an artistry to that, because I think to have come up with that in the first place requires a little bit of intuition and creativity. So that may not exactly answer your question. I can think about also more ostensibly artistic projects that have come out in the last year. So another pretty cool one that I should mention is David Ha, who's a resident at Google brain, and he made a system called Sketch Rnn, which is a generative model of sketches, like doodles, that people draw. And it's really neat because besides for just being able to draw, it's not just that it's a machine drawing these objects, but it's also a machine that can kind of give us insights into, insights into the ways that people draw. So, for example, you can observe the RnN in, you can find the high level properties of different kinds of things that humans might draw. So if humans draw dogs or something like that, you can see what different kinds of dogs humans will draw.",
+      "id": "ep_114_ut_23"
+    },
+    {
+      "end": 796832,
+      "speaker": "Moritz Stefaner",
+      "start": 790774,
+      "text": "And there are also interesting intercultural differences and so on. So there's, yeah, there was a pretty cool, like, research.",
+      "id": "ep_114_ut_24"
+    },
+    {
+      "end": 802532,
+      "speaker": "Gene Kogan",
+      "start": 796998,
+      "text": "There was a few things that, and that was kind of based on the quickdraw data set that came out that David was using.",
+      "id": "ep_114_ut_25"
+    },
+    {
+      "end": 803060,
+      "speaker": "Moritz Stefaner",
+      "start": 802588,
+      "text": "Exactly.",
+      "id": "ep_114_ut_26"
+    },
+    {
+      "end": 877216,
+      "speaker": "Gene Kogan",
+      "start": 803132,
+      "text": "And, yeah, I know what you're talking about. There was, I can't remember, I can't recall who did this, but there was a project online that shows kind of on the average, what people's sketches look like. So, like, it shows, okay, what do people in this country draw cars like, you know, what do people in this country draw cars like? And you can kind of see qualitative differences. I think my favorite example of that was they showed how people in different countries draw fish. So if you're asked to draw a fish, you'll draw a fish. Right. And basically every country in the world, on average, the people draw the fish facing right. So, like, the tail is on the left, and then the fish's eyes and mouth are on the right, except for Japan and India. And. And that's really bizarre. Right. Like, those two countries specifically. I don't know why. I don't know why. If anyone ever figured out the answer for India, but for Japan, someone, this was on Twitter conversation. I also don't, I can't recall who posted this, but someone mentioned that in Japan, traditionally fish are served facing left. So if you're in the restaurant.",
+      "id": "ep_114_ut_27"
+    },
+    {
+      "end": 877736,
+      "speaker": "Moritz Stefaner",
+      "start": 877280,
+      "text": "Nice.",
+      "id": "ep_114_ut_28"
+    },
+    {
+      "end": 902140,
+      "speaker": "Gene Kogan",
+      "start": 877840,
+      "text": "And so, you know, and so that's kind of neat because then through people's, it's like you're reaching into people's subconscious, you know, like what? People don't necessarily draw a fish facing left because of that, or they don't know. That's why it just comes from their unconscious. And so this is like a visualization of people's unconsciousness. So, yeah, that was a pretty creative project from last year.",
+      "id": "ep_114_ut_29"
+    },
+    {
+      "end": 985730,
+      "speaker": "Enrico Bertini",
+      "start": 902252,
+      "text": "Yeah, yeah. I'm really curious to see what is going to happen in future years in this space, because I think the interplay between artificial intelligence and art is such a interesting space, right. Where so many things can, can happen. And I'm particularly interested in this idea that as you interact with a machine learning system, the system may provide things to you that you don't expect, and you may get inspiration out of it. Right. So I think a few years back, maybe it was a couple of years back, I remember there was this painter. Unfortunately, I don't remember his name and the name of his projects, but that was really fascinating. So I think he was taking pictures. He was interested in painting, then feeding these pictures to a neural network to basically transform the picture into a painting first, but then just getting inspiration out of it to create his own painting. And, yeah, I find it super fascinating, and I'm sure there is so much more to explore there. I guess it's the same with music, right? So you feed your AI with some input and then create some notes, and then you say, oh, yeah, that's what I want to do, and then you keep going, right. I don't know. This interplay between you and the machine is something new and very interesting.",
+      "id": "ep_114_ut_30"
+    },
+    {
+      "end": 1048733,
+      "speaker": "Gene Kogan",
+      "start": 985882,
+      "text": "Yeah, definitely. And that's definitely very inspiring to me. I've always thought that art can be a vehicle for understanding complicated concepts, and of course, machine learning and AI is just so broadly applicable to the things that we do that there's kind of an urgency to get people to understand it better. So projects like that, they have really lasting impact, I think. And for me, there's always a large incentive to fold that into my artwork because I think people really would like to have a better grasp of just understanding the technology and also being able to use it for their own purposes. And the best way to achieve that, I think, is to give them tools that let them be creative, because creativity is like what you're doing when you don't have anything else. I think it's kind of the expression of one's will.",
+      "id": "ep_114_ut_31"
+    },
+    {
+      "end": 1069832,
+      "speaker": "Enrico Bertini",
+      "start": 1049713,
+      "text": "Yeah, it looks to me that that's probably the biggest hurdle right now. I mean, if an artist wants to play with, with a machine learning system, is still pretty hard to do that, right? So unless you are able to do some extensive programming, and I think you're also working on that, right?",
+      "id": "ep_114_ut_32"
+    },
+    {
+      "end": 1201216,
+      "speaker": "Gene Kogan",
+      "start": 1069968,
+      "text": "Yeah, well, yeah, that's definitely true. Although it's never been easier to get started than it has now. So, I mean, there's a lot of things online that can give you an intuitive understanding of certain things about machine learning without being able, able to code. So this project from Google creative lab that my collaborator Andreas and Lassi, who created a coding studio in Copenhagen named Stoi, they worked on something called Teachable machines, which is this. I don't know if you saw that, but it's basically an online browser based application that lets you train an image classifier on different objects that you put in front of the camera, and then it uses that to trigger audio samples and, you know, so that's, that's a nice tool that you can actually, you know, you can train yourself to, you know, work with whatever images that you want and, you know, it's all, it's kind of there ready for you. And then, of course, a lot of the tools are open source, so if you do have some ability to grab stuff in GitHub and start modifying it, you can really, actually get pretty far. And for my own work yet, I've been putting a lot of educational materials online and also just like downloadable programs that you can modify the source code for if you wish, that people, especially people in interaction design and various new media programs have been using for projects and just kind of to help themselves understand and. Yeah, and that's not the only one, of course. There's tons of materials like that that are available right now. It's still not super easy, we know. Like, of course it requires digging in and doing some work to get into it, but it's definitely way more accessible than ever before. And of course, with online classes and things like that, there's a lot of depth to it as well. So you can really make a long term kind of, if you create a long term initiative to get into it, you won't run out of materials. There's a lot out there.",
+      "id": "ep_114_ut_33"
+    },
+    {
+      "end": 1249724,
+      "speaker": "Moritz Stefaner",
+      "start": 1201320,
+      "text": "Yeah. And you have a site up called ML four, a GitHub IO, and the guides there are fantastic, I think. So if you know just a little bit of python, I think you're all set to really try out a few of the most interesting techniques and the guides are really helpful. And yeah, I was surprised that it's often just a couple of lines of codes and you see something working. I mean, it's getting harder, like to debug or to actually make it work really well, then you need to sort of get into the nitty gritty, but to start playing, I think, as you say, has never been easier. And, yeah, so we'll definitely post a link to your guides there. And you're also working on a book, which is hard, I think, because the field is moving faster than people can type.",
+      "id": "ep_114_ut_34"
+    },
+    {
+      "end": 1409804,
+      "speaker": "Gene Kogan",
+      "start": 1249884,
+      "text": "Yeah, for sure. That's kind of a labor of love for me. Yeah, that's part of the ML four a material. So ML four a stands for machine learning for artists, which is just the name of a course that I taught at NYU ITP two years ago, which was when I first began to put materials for machine learning online. And at first, that class was at first, the ML four a GitHub IO, the website you mentioned, was just meant to be a place to keep my notes for that class, and the scope of it kind of expanded. I started doing workshops, and I started kind of compiling more and more materials onto it. And so I thought it would be over within a few months, but then it just kind of became this ongoing project, which I'm still doing now. And the book is as I. As I call it. I usually use quotation. I put quotation marks in the air with my hands when I. When I call it a book, because it's kind of like. It's something of. It's somewhere between book and sort of interactive guide, let's say. And at least half of it is still unfinished, and I don't know if it ever will be finished. It's just kind of like I'm constantly growing it and trying to make it more and more cohesive, and the core of it is basically up and done. And that's meant to give people a gentle introduction to the art and science and the culture of machine learning and kind of try to make it as accessible as possible, to use a lot of visualization instead of equations, to try to transmit complex concepts. And. Yeah, I've been writing it now for two years, and there's no end in sight. Yeah, well, you know, but it's kind of. I'm already using it, so it's kind of, it's not really like a book where, you know, you sit down and write and write, write. It's in secret, and then you launch it one day. It's just kind of. I'm constantly adding to it as I go, and it's a public resource, so people actually do use them like I use them for my workshops. So it's just. Yeah, there's no really, like, working in the open. I've gotten a lot of. I've gotten also a lot of help on it. So actually, most recently, there's a bunch of translations now, which is really, really exciting. It's really great to have these in just non. Non English, and I've been very fortunate to get some great volunteers to kind of just write in a different language. So. Yeah, but there's a lot of work to do, that's for sure.",
+      "id": "ep_114_ut_35"
+    },
+    {
+      "end": 1436640,
+      "speaker": "Enrico Bertini",
+      "start": 1411864,
+      "text": "Yeah, that's awesome. So one thing I wanted to ask you is focusing more on the data visualization space. What is the, what is the role of machine learning there? Or the role of visualization for machine learning? I think it goes both ways. You can do great things for visualization using machine learning, and you can use visualization to better understand machine learning as well. So what's your take on that?",
+      "id": "ep_114_ut_36"
+    },
+    {
+      "end": 1647766,
+      "speaker": "Gene Kogan",
+      "start": 1436792,
+      "text": "Well, a big part of machine learning is data visualization. So if you look at things like generative models and even something like deep dream, which is kind of usually approached from, you know, like when we think of deep dream, we just think of like, this is making weird psychedelic images or whatever, but the whole purpose of it, the reason why it was developed, was for data visualization. So, like, one thing that people want, scientists especially want to be able to understand what is happening inside of these machine learning models, because a lot of them are, of course, like very large and kind of opaque. So there's just a lot of math going on inside there. And it doesn't necessarily, it's not always easy to understand what's happening. So a lot of times you might use something like deep. So the whole purpose of deepdream is to visualize what a particular neuron inside of a neural network or a layer. What kinds of images is it learning? Is it learning to, to recognize? And then generative models, of course, are used for creating, to visualize different image classes. So if you have a generative model that is trained over, let's say, imagenet, you can use it to produce, that's a data set of images of lots and lots of photographs of different kinds of things that you find in the web. And then you can use the generative model to, quote unquote, hallucinate or synthesize different exemplars of all those classes. And that's kind of a really useful thing because it helps us understand what the networks are learning and then more. And then data visualization as a field itself can help us understand machine learning. You can use it to communicate how machine learning works, of course, because it is a data intensive field. So you can use data visualization to understand the properties of the data. And you can use data visualization to visualize the insides of neural networks. And it just kind of helps people digest really large or complicated or otherwise arcane concepts. So they're very much interlinked in that way. And then you have techniques like t SNE which are maybe technically not machine learning, but very much kind of adjacent to machine learning. And that is a data visualization technique. TSNE is used for listeners who aren't aware that TSNE is used for finding an optimal 2d or 3d layout of high dimensional data. So imagine you have 1000 images you can use TSNE to find, to plot them on a 2d grid or just a 2d, like a large canvas where similar images are grouped next to each other. And by similar, I mean they have similar content. So if you have a whole bunch of animals or something, images of animals, it'll put all the cows together into one cluster and they'll put dogs into another cluster and so on. And that can be really useful if you're trying to understand a large media dataset or just try to see what you have, which is otherwise difficult to sort or organize.",
+      "id": "ep_114_ut_37"
+    },
+    {
+      "end": 1677046,
+      "speaker": "Moritz Stefaner",
+      "start": 1647870,
+      "text": "It's really great for exploring large archives or content collections. And there's also an audio version. I know Kyle MacDonald worked on something like this. And you also have a demo on your side, how to organize a lot of sounds in a space. Just explore. This is the corner with the hihats. Here are the bass drums, right? You can use, you know, and it's so hard, like if you have just a thousand sound files to, you know, how would you structure them? But these maps are like immediately intuitive, I think.",
+      "id": "ep_114_ut_38"
+    },
+    {
+      "end": 1718868,
+      "speaker": "Gene Kogan",
+      "start": 1677150,
+      "text": "Yeah, you can do it with images, you can do it with sounds, you could do text and, you know, anything that can be represented as data. And for the sound example, you know, that's. I like to use that sometimes as an example of what, what makes it useful. So, you know, imagine you're a musician and you have a large collection of samples from, or like you're a field recorder or something, or a Foley artist, and you have tons and tons of samples and this can kind of help you navigate through them much, much more. Well, much better, right? Much easier. And I can imagine these kinds of features being inside of the ableton, live of the future and so on.",
+      "id": "ep_114_ut_39"
+    },
+    {
+      "end": 1780164,
+      "speaker": "Moritz Stefaner",
+      "start": 1719046,
+      "text": "That's interesting. We'll have to wrap up soon, but before we go, I'd like to ask one last thing. Zooming out a bit, as we mentioned, there's this super fast development now and everybody's massively excited and there's definitely this hype curve going on. Do you think it's justified? Or let's say more specifically, in which fields is the hype justified and which things might neural networks not be that great at where we think like, oh, that should be easy. If they can sort images, they should also be able to do X or Y. And maybe this is much harder for this type of computation to get to grasp with other things that we would expect to be maybe easier. Even from your experience, where do you think is the hype justified? Where is there actually a revolution going on and which other areas maybe it will turn out to be much harder to get actually interesting and useful stuff in the long run. Do you have a hunch?",
+      "id": "ep_114_ut_40"
+    },
+    {
+      "end": 1785828,
+      "speaker": "Gene Kogan",
+      "start": 1780244,
+      "text": "Yeah. I just reminded last week there was Justin Timberlake released a music video.",
+      "id": "ep_114_ut_41"
+    },
+    {
+      "end": 1786784,
+      "speaker": "Moritz Stefaner",
+      "start": 1785956,
+      "text": "Oh, nice.",
+      "id": "ep_114_ut_42"
+    },
+    {
+      "end": 1907816,
+      "speaker": "Gene Kogan",
+      "start": 1787324,
+      "text": "Which was at a deep learning conference. So, you know, you've like, really reached peak hype when Justin Timberlake is releasing videos. And actually even better, two days, just two days ago, I think Sundar Pichai, who's the CEO of Google, was quoted as saying something like AI is more profound than fire, something like that. So, of course, a lot of it is, you know, a lot of it is justified because there have been, you know, and, you know, I've written about this, so if people are interested in, you know, more of the details, there have been a lot of really impressive results, like some of the ones that we've been talking about. But definitely the hyperbole is probably not super, not super helpful because, of course, hyperbole and hype is used to sell products, usually. And so there's a lot of machine learning is going to have a lot of really transformative applications, but it's going to have a lot of really boring or disingenuous ones or outright fraudulent ones as well. So, of course, part of the hype bubble is probably built on top of that. And, you know, there's tons of, you know, there's tons of dangers to machine learning that people should be aware of. And that's the, that's actually a big, one of the really big motivations for trying to teach it so widely, you know, outside of computer science and so on. And I guess the second part of your question is, you know, what to expect? Like, kind of like, will it become, you know, what will it become, I guess, or, you know, what's its potential? And it's hard to say. There's really, I try not to make predictions much more than one or two years in advance just because it feels like you have to rely on many assumptions in order to make predictions. Of course, there's a lot of people that are saying that we're going to reach human level intelligence by this, this and that year.",
+      "id": "ep_114_ut_43"
+    },
+    {
+      "end": 1912480,
+      "speaker": "Moritz Stefaner",
+      "start": 1908000,
+      "text": "And then there's super intelligence, because machines start to teach each other and.",
+      "id": "ep_114_ut_44"
+    },
+    {
+      "end": 1983512,
+      "speaker": "Gene Kogan",
+      "start": 1912552,
+      "text": "Yeah, and there's definitely a place for that. You know, you have Nick Bostrom or someone like that who's, who's super obsessed with super intelligence, and there's definitely a place for that because maybe it's plausible that something like that happens. Although I'm often kind of. I wish that people kind of paid more attention to the next five years, let's say, just because there's already a lot of areas that machine learning is being used where most people, I really mean, like a plurality of people, would find unintuitive to believe that certain kinds of inference are possible using machine learning. And so it's being used to machine learning effectively now, is being used to give content to people online. So, like most social media and a lot of news and things like that is being sorted and delivered with machine learning algorithms. And that's a big change from how it was, I think, just three years ago, and we're still struggling to really understand what the implications of that are. Yeah.",
+      "id": "ep_114_ut_45"
+    },
+    {
+      "end": 1986760,
+      "speaker": "Moritz Stefaner",
+      "start": 1983528,
+      "text": "And it can have a big impact on public opinion. Right.",
+      "id": "ep_114_ut_46"
+    },
+    {
+      "end": 2004782,
+      "speaker": "Gene Kogan",
+      "start": 1986912,
+      "text": "Huge impact on public opinion, yeah, absolutely. So I tried to focus more on those because they feel a lot more tractable, you know, like that they. That they feel very close, because by the time you get to super intelligence, ten or 20 years or 50 years.",
+      "id": "ep_114_ut_47"
+    },
+    {
+      "end": 2007918,
+      "speaker": "Moritz Stefaner",
+      "start": 2004798,
+      "text": "From now, even, honestly, it's always 20 years ahead.",
+      "id": "ep_114_ut_48"
+    },
+    {
+      "end": 2041244,
+      "speaker": "Gene Kogan",
+      "start": 2007966,
+      "text": "Yeah, right. Always 20 years. That's a really good trick. Like, in 30 years, your book will never age if you just use relative terms like that. Yeah, yeah. But I'm, of course, super interested in also. But I also know that a lot of the landscape will change so much between now and then that even if we do achieve super intelligence, it may not look like the super intelligence we conceive of now. And I like to be concern myself with more realistic things.",
+      "id": "ep_114_ut_49"
+    },
+    {
+      "end": 2061688,
+      "speaker": "Moritz Stefaner",
+      "start": 2042824,
+      "text": "Yeah, we have enough, like, interesting actual problems to solve right now. I think so, yeah, totally on the same page there. Wonderful. So just to close off, where can people see you in the next few weeks and months? Do you have any talks and workshops coming up or any chances to meet you or learn from you?",
+      "id": "ep_114_ut_50"
+    },
+    {
+      "end": 2124608,
+      "speaker": "Gene Kogan",
+      "start": 2061816,
+      "text": "Yeah, well, so my schedule, I keep a schedule up on my website. So if you go to my website and go to click on about or cv, I log all of my talks and workshops. And so you can see, like, I have a few coming up, I'll be doing well. Not all of them are public events. Like, I'll be at Carnegie Mellon for a week and I'll be at ITP and SFPC, but there's also a few talks and some that have to still be announced. But I'm always just kind of sharing stuff on. I share most of my work on Twitter as I go, and so that's also where I usually announce new things, new new materials online. You're not always in the same city as me, so probably the easiest place to just go to my website or my twitter, and that's where you'll get a good sense of the projects. And then as we already mentioned, ML foray, that's also a good place. If you're interested in getting started with the materials, you can find it over there.",
+      "id": "ep_114_ut_51"
+    },
+    {
+      "end": 2129192,
+      "speaker": "Moritz Stefaner",
+      "start": 2124736,
+      "text": "Wonderful. Thanks for sharing all this stuff from this exciting world of machine learning.",
+      "id": "ep_114_ut_52"
+    },
+    {
+      "end": 2130392,
+      "speaker": "Gene Kogan",
+      "start": 2129288,
+      "text": "Yeah, no problem.",
+      "id": "ep_114_ut_53"
+    },
+    {
+      "end": 2137722,
+      "speaker": "Moritz Stefaner",
+      "start": 2130488,
+      "text": "Yeah, it will be exciting to follow this year as well, what's going on and what people can come up with with these crazy machines.",
+      "id": "ep_114_ut_54"
+    },
+    {
+      "end": 2140334,
+      "speaker": "Gene Kogan",
+      "start": 2137898,
+      "text": "Yeah, I'll be following closely myself.",
+      "id": "ep_114_ut_55"
+    },
+    {
+      "end": 2142786,
+      "speaker": "Moritz Stefaner",
+      "start": 2141354,
+      "text": "Thanks so much for joining us.",
+      "id": "ep_114_ut_56"
+    },
+    {
+      "end": 2143586,
+      "speaker": "Gene Kogan",
+      "start": 2142850,
+      "text": "Yeah, thanks for having me.",
+      "id": "ep_114_ut_57"
+    },
+    {
+      "end": 2144146,
+      "speaker": "Enrico Bertini",
+      "start": 2143610,
+      "text": "Thank you.",
+      "id": "ep_114_ut_58"
+    },
+    {
+      "end": 2144650,
+      "speaker": "Moritz Stefaner",
+      "start": 2144250,
+      "text": "Thank you.",
+      "id": "ep_114_ut_59"
+    },
+    {
+      "end": 2144962,
+      "speaker": "Enrico Bertini",
+      "start": 2144682,
+      "text": "Thanks.",
+      "id": "ep_114_ut_60"
+    },
+    {
+      "end": 2145186,
+      "speaker": "Moritz Stefaner",
+      "start": 2145018,
+      "text": "Bye.",
+      "id": "ep_114_ut_61"
+    },
+    {
+      "end": 2146094,
+      "speaker": "Gene Kogan",
+      "start": 2145210,
+      "text": "Bye bye.",
+      "id": "ep_114_ut_62"
+    },
+    {
+      "end": 2170880,
+      "speaker": "Enrico Bertini",
+      "start": 2150474,
+      "text": "Hey, folks, thanks for listening to data stories again. Before you leave a few last notes, this show is now completely crowdfunded, so you can support us by going on patreon patreon.com Datastories. And if you can spend a couple of minutes reading us on iTunes, that would be extremely helpful for the show.",
+      "id": "ep_114_ut_63"
+    },
+    {
+      "end": 2196790,
+      "speaker": "Moritz Stefaner",
+      "start": 2170992,
+      "text": "And here's also some information on the many ways you can get news directly from us. We are, of course, on twitter@twitter.com. Datastories we have a Facebook page@Facebook.com. data stories, podcast all in one word. And we also have a slack channel where you can chat with us directly. And to sign up you can go to our homepage Datastory ea s and there is a button at the bottom of the page.",
+      "id": "ep_114_ut_64"
+    },
+    {
+      "end": 2212622,
+      "speaker": "Enrico Bertini",
+      "start": 2196942,
+      "text": "And we also have an email newsletter. So if you want to get news directly into your inbox and be notified whenever we publish an episode, you can go to our home page Datastore es and look for the link you find at the bottom in the footer.",
+      "id": "ep_114_ut_65"
+    },
+    {
+      "end": 2224992,
+      "speaker": "Moritz Stefaner",
+      "start": 2212718,
+      "text": "So one last thing we want to tell you is that we love to get in touch with our listeners, especially if you want to suggest a way to improve the show or amazing people you want us to invite or even projects you want us to talk about.",
+      "id": "ep_114_ut_66"
+    },
+    {
+      "end": 2233964,
+      "speaker": "Enrico Bertini",
+      "start": 2225158,
+      "text": "Absolutely. And don't hesitate to get in touch with us. It's always a great thing to hear from you. So see you next time, and thanks for listening to data stories.",
+      "id": "ep_114_ut_67"
+    }
+  ],
+  "confidence": 0.933636676727028,
+  "audio_duration": 2244,
+  "punctuate": true,
+  "format_text": true,
+  "dual_channel": false,
+  "webhook_url": null,
+  "webhook_status_code": null,
+  "webhook_auth": false,
+  "webhook_auth_header_name": null,
+  "speed_boost": false,
+  "auto_highlights_result": null,
+  "auto_highlights": false,
+  "audio_start_from": null,
+  "audio_end_at": null,
+  "word_boost": [],
+  "boost_param": null,
+  "filter_profanity": false,
+  "redact_pii": false,
+  "redact_pii_audio": false,
+  "redact_pii_audio_quality": null,
+  "redact_pii_policies": null,
+  "redact_pii_sub": null,
+  "speaker_labels": true,
+  "content_safety": false,
+  "iab_categories": true,
+  "content_safety_labels": {
+    "status": "unavailable",
+    "results": [],
+    "summary": {}
+  },
+  "language_detection": false,
+  "language_detection_threshold": null,
+  "language_confidence": null,
+  "custom_spelling": null,
+  "throttled": false,
+  "auto_chapters": true,
+  "summarization": false,
+  "summary_type": null,
+  "summary_model": null,
+  "custom_topics": false,
+  "topics": [],
+  "speech_threshold": null,
+  "speech_model": "best",
+  "chapters": [
+    {
+      "summary": "A lot of people are saying that right now we're in the second golden age of AI. Today we have Jean Kogan to talk about the use of machine learning in art. There's been a huge resurgence of interest in AI and particularly a resurgence in neural networks.",
+      "gist": "Machine learning in the Arts",
+      "headline": "A lot of people are saying we're in the second golden age of AI",
+      "start": 120,
+      "end": 340694,
+      "id": "ep_114_ch_0"
+    },
+    {
+      "summary": "Computer vision has really been transformed a lot by deep learning. Now we have generative, you know, compared to five years ago. Language processing is another area that has undergone a pretty significant shift. We're now seriously integrating these techniques into actual technologies.",
+      "gist": "What are the fundamental things that are now possible in computer vision,",
+      "headline": "Computer vision has been transformed by deep learning techniques",
+      "start": 341754,
+      "end": 535494,
+      "id": "ep_114_ch_1"
+    },
+    {
+      "summary": "The intersection of machine learning and cybersecurity is pretty large. Can you talk us through some of the projects you found most interesting or surprising applications of these technologies?",
+      "gist": "The Creative Applications of Machine Learning",
+      "headline": "You follow a lot of research into machine learning and AI",
+      "start": 536794,
+      "end": 903468,
+      "id": "ep_114_ch_2"
+    },
+    {
+      "summary": "I'm really curious to see what is going to happen in future years in this space. The interplay between artificial intelligence and art is such a interesting space. People would like to have a better grasp of just understanding the technology. The best way to achieve that is to give them tools that let them be creative.",
+      "gist": "The Interplay Between Art and Machine Learning",
+      "headline": "I'm interested in the interplay between artificial intelligence and art",
+      "start": 903556,
+      "end": 1413880,
+      "id": "ep_114_ch_3"
+    },
+    {
+      "summary": "A big part of machine learning is data visualization. You can use data visualization to visualize the insides of neural networks. And then data visualization as a field itself can help us understand machine learning.",
+      "gist": "Machine Learning and Data Visualization",
+      "headline": "Data visualization can help us understand machine learning as well",
+      "start": 1414032,
+      "end": 1720204,
+      "id": "ep_114_ch_4"
+    },
+    {
+      "summary": "Where do you think is the hype justified? Where is there actually a revolution going on and which other areas maybe it will turn out to be much harder to get actually interesting and useful stuff in the long run. What to expect? It's hard to say.",
+      "gist": "Hype around Machine Learning",
+      "headline": "There's a lot of hype around machine learning right now",
+      "start": 1720504,
+      "end": 2051720,
+      "id": "ep_114_ch_5"
+    },
+    {
+      "summary": "Do you have any talks and workshops coming up or any chances to meet you or learn from you? Yeah, well, so my schedule, I keep a schedule up on my website. I share most of my work on Twitter as I go, and so that's also where I usually announce new things.",
+      "gist": "A talk on machine learning",
+      "headline": "So where can people see you in the next few weeks and months",
+      "start": 2051792,
+      "end": 2146094,
+      "id": "ep_114_ch_6"
+    },
+    {
+      "summary": "This show is now completely crowdfunded, so you can support us by going on patreon patreon. com Datastories. We also have an email newsletter. We love to get in touch with our listeners, especially if you want to suggest a way to improve the show.",
+      "gist": "How to Subscribe to Data Stories",
+      "headline": "This show is now completely crowdfunded, so you can support us on patreon",
+      "start": 2150474,
+      "end": 2233964,
+      "id": "ep_114_ch_7"
+    }
+  ],
+  "disfluencies": false,
+  "entity_detection": false,
+  "sentiment_analysis": false,
+  "sentiment_analysis_results": null,
+  "entities": null,
+  "speakers_expected": null,
+  "summary": null,
+  "custom_topics_results": null,
+  "episode_num": 114,
+  "episode_metadata": {
+    "speakers": [
+      "Gene Kogan",
+      "Moritz Stefaner",
+      "Enrico Bertini"
+    ],
+    "WPid": "1129",
+    "url": "https://datastori.es/podlove/file/4846/s/feed/c/mp3/114-machine-learning-for-artists-with-gene-kogan.mp3",
+    "episode_title": "Machine Learning for Artists with Gene Kogan"
+  }
+}

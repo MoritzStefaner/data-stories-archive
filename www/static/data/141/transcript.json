@@ -1,0 +1,958 @@
+{
+  "id": "49360546-a5ac-4d5e-8289-8f9aee9f69b0",
+  "language_model": "assemblyai_default",
+  "acoustic_model": "assemblyai_default",
+  "language_code": "en_us",
+  "status": "completed",
+  "audio_url": "https://datastori.es/podlove/file/5641/s/feed/c/mp3/141-sketching-and-visual-thinking-with-eva-lotta-lamm.mp3",
+  "utterances": [
+    {
+      "end": 9490,
+      "speaker": "Eva-Lotta Lamm",
+      "start": 160,
+      "text": "We are visual creatures, and all of our lives we spend interpreting visual information and pulling information out of the things that come in through our eyes.",
+      "id": "ep_141_ut_0"
+    },
+    {
+      "end": 42786,
+      "speaker": "Enrico Bertini",
+      "start": 29070,
+      "text": "Hi, everyone. Welcome to a new episode of data stories. Hi, guys. My name is Moritz Stefaner, and I'm an independent designer of data visualizations. And actually I work as a self employed truth and beauty operator out of my office here in the countryside in the north of Germany.",
+      "id": "ep_141_ut_1"
+    },
+    {
+      "end": 52306,
+      "speaker": "Moritz Stefaner",
+      "start": 42938,
+      "text": "Yes. And I am Enrico Bertini. I am a professor at NYU in New York City, where I do research and teach data visualization.",
+      "id": "ep_141_ut_2"
+    },
+    {
+      "end": 64086,
+      "speaker": "Enrico Bertini",
+      "start": 52498,
+      "text": "That's right. And on this podcast, we talk about data visualization, data analysis, and generally the role data plays in our lives together. And usually we also do that together with the guests we invite on the show.",
+      "id": "ep_141_ut_3"
+    },
+    {
+      "end": 91882,
+      "speaker": "Moritz Stefaner",
+      "start": 64258,
+      "text": "Yes. But before starting, just a quick note, our podcast is listener supported, so there's no ads intruding while you're listening. So if you enjoy the show, please consider supporting us with recurring payments. And you can do that with going to patreon.com Datastories. Or if you prefer, you can also send us a one time donation going on Paypal me Datastories.",
+      "id": "ep_141_ut_4"
+    },
+    {
+      "end": 104442,
+      "speaker": "Enrico Bertini",
+      "start": 92026,
+      "text": "That's right. And just to say we're happy about any contributions, and if you cannot, please don't bother. But if you can spare a dollar or two, it always makes us very happy and keeps the show going and running.",
+      "id": "ep_141_ut_5"
+    },
+    {
+      "end": 105762,
+      "speaker": "Moritz Stefaner",
+      "start": 104546,
+      "text": "Yeah, exactly.",
+      "id": "ep_141_ut_6"
+    },
+    {
+      "end": 138910,
+      "speaker": "Enrico Bertini",
+      "start": 105866,
+      "text": "And to us, it's just much nicer if we're not backed by a big corporation. But as you, as the listeners, so, yeah, that's cool. Yeah. So I'm just back from Minneapolis, so I went to IO festival once again. I was there for the first time, 2011. So for me, it's sort of, yeah, big personal thing already. And I keep coming back and see everybody, you know, how everybody has developed over the years. And it's fantastic. It's one of my favorite, maybe my favorite conference, I would say. Yeah.",
+      "id": "ep_141_ut_7"
+    },
+    {
+      "end": 139902,
+      "speaker": "Moritz Stefaner",
+      "start": 138990,
+      "text": "You never missed one.",
+      "id": "ep_141_ut_8"
+    },
+    {
+      "end": 141046,
+      "speaker": "Enrico Bertini",
+      "start": 139966,
+      "text": "Oh, yeah, I missed a couple.",
+      "id": "ep_141_ut_9"
+    },
+    {
+      "end": 141566,
+      "speaker": "Moritz Stefaner",
+      "start": 141078,
+      "text": "Oh, you did?",
+      "id": "ep_141_ut_10"
+    },
+    {
+      "end": 215890,
+      "speaker": "Enrico Bertini",
+      "start": 141638,
+      "text": "But it's, can't do it every year. Right. But I've been to four or five, and it's, they keep improving. And if you can make it next year, definitely go. It's a really, really good conference. It's not just data visualization. It's all kinds of design, art, society, technology, really big themes, really. And they do a really great job of really putting interesting, sort of cross cutting program together. Not just the usual suspects, but always interesting people you never heard about. And I really appreciate that. But this year, from a data visualization strictly point of view, there was Nadieh Bremer, who's like, probably, you know, doing the most interesting work in the world, maybe right now, I would say. And there's Nathan Yao, who has been such a long time follower and commenter on the scene. And he actually rarely gives talks. And so that was a big thing too. And a big, big moment to have him on stage and deliver a really good speech. And there will be videos soon, so we will link to them from the blog post, I guess. And again, next year is ten year anniversary, so if you can make it, definitely try and make it. That's my advice. And that's for you as well, Enrico. I haven't seen you there, so.",
+      "id": "ep_141_ut_11"
+    },
+    {
+      "end": 221530,
+      "speaker": "Moritz Stefaner",
+      "start": 216050,
+      "text": "Yeah, yeah. Every year we say the same thing, right? You should come. Yeah, I should come.",
+      "id": "ep_141_ut_12"
+    },
+    {
+      "end": 226442,
+      "speaker": "Enrico Bertini",
+      "start": 221690,
+      "text": "I should come to this and you should come to Ireland. We should just swap places.",
+      "id": "ep_141_ut_13"
+    },
+    {
+      "end": 227762,
+      "speaker": "Moritz Stefaner",
+      "start": 226626,
+      "text": "We should swap.",
+      "id": "ep_141_ut_14"
+    },
+    {
+      "end": 230230,
+      "speaker": "Enrico Bertini",
+      "start": 227906,
+      "text": "I'll give you my ticket. I get yours.",
+      "id": "ep_141_ut_15"
+    },
+    {
+      "end": 233030,
+      "speaker": "Moritz Stefaner",
+      "start": 231970,
+      "text": "Definitely.",
+      "id": "ep_141_ut_16"
+    },
+    {
+      "end": 244056,
+      "speaker": "Enrico Bertini",
+      "start": 234320,
+      "text": "Anyways, yeah. Enough about us. As usual. We have a great guest today. And today we have Evalotta Lam on the show. Hi, Evalotta.",
+      "id": "ep_141_ut_17"
+    },
+    {
+      "end": 244480,
+      "speaker": "Eva-Lotta Lamm",
+      "start": 244128,
+      "text": "Hi.",
+      "id": "ep_141_ut_18"
+    },
+    {
+      "end": 245192,
+      "speaker": "Moritz Stefaner",
+      "start": 244560,
+      "text": "Hi, Eva.",
+      "id": "ep_141_ut_19"
+    },
+    {
+      "end": 245784,
+      "speaker": "Eva-Lotta Lamm",
+      "start": 245256,
+      "text": "Hello.",
+      "id": "ep_141_ut_20"
+    },
+    {
+      "end": 250880,
+      "speaker": "Enrico Bertini",
+      "start": 245912,
+      "text": "Great to have you on. Can you tell us a bit about your background and what you're doing now?",
+      "id": "ep_141_ut_21"
+    },
+    {
+      "end": 257616,
+      "speaker": "Eva-Lotta Lamm",
+      "start": 251040,
+      "text": "Sure. I wish I had such a beautiful title as truth and beauty operator. I have to think about something.",
+      "id": "ep_141_ut_22"
+    },
+    {
+      "end": 259740,
+      "speaker": "Enrico Bertini",
+      "start": 257728,
+      "text": "Took me a while to come up with that one.",
+      "id": "ep_141_ut_23"
+    },
+    {
+      "end": 295994,
+      "speaker": "Eva-Lotta Lamm",
+      "start": 261219,
+      "text": "I draw pictures, so I'm a designer. I used to be a UX designer for many, many years. But now my focus is to actually make things visible and visual. So I help companies to visualize complex topics or problems so that they can see them from a different perspective. And I also help them to be more visual themselves in their thinking, in their communication, in their collaboration, by teaching workshops and teaching them the basics of sketching and sketchnoting and visual thinking in general.",
+      "id": "ep_141_ut_24"
+    },
+    {
+      "end": 319658,
+      "speaker": "Enrico Bertini",
+      "start": 296162,
+      "text": "Yeah. And that's also why we wanted to have you on the show, because it's such a great compliment. So we talk a lot about computer generated, data driven visuals to help people see the invisible, basically, or make it more tangible. And what you do is, first of all, analog, of course. So you do work a lot with pen and paper, although probably you also have some digital tools.",
+      "id": "ep_141_ut_25"
+    },
+    {
+      "end": 320466,
+      "speaker": "Eva-Lotta Lamm",
+      "start": 319794,
+      "text": "Yeah, I do.",
+      "id": "ep_141_ut_26"
+    },
+    {
+      "end": 321630,
+      "speaker": "Enrico Bertini",
+      "start": 320538,
+      "text": "Tool belt. Right.",
+      "id": "ep_141_ut_27"
+    },
+    {
+      "end": 323354,
+      "speaker": "Moritz Stefaner",
+      "start": 322170,
+      "text": "And what is not.",
+      "id": "ep_141_ut_28"
+    },
+    {
+      "end": 336310,
+      "speaker": "Enrico Bertini",
+      "start": 323482,
+      "text": "But I guess it often starts with like a much more analog process. And it's not really, I guess, database, but more based on your understanding or perception of what's going on or what's most important, maybe to display.",
+      "id": "ep_141_ut_29"
+    },
+    {
+      "end": 405104,
+      "speaker": "Eva-Lotta Lamm",
+      "start": 336890,
+      "text": "That's always the question, what is data, you know? But I think I don't want to touch that one, because probably I talk with the experts here, but a lot of my process these days is analog, or working analog in a digital tool, like sketching on a digital tool, like a tablet, an iPad or Wacom tablet. But as a designer, and I used to be a UX designer, of course, the final product was always a digital product. But sketching is a great first step to kind of clarify your ideas and capture some things that you want to try out before you actually jump into the computer and use digital tools to make final designs. And I guess there's a lot of parallels with data visualization as well, because, of course, the final visualization, you do that with digital tools. But first you have to think about what you actually want to create, what things are important, what is the concept? And I see sketching as a thinking tool.",
+      "id": "ep_141_ut_30"
+    },
+    {
+      "end": 444528,
+      "speaker": "Enrico Bertini",
+      "start": 405272,
+      "text": "Right, right. Yeah. And I looked a bit at what you do. There's a lot of stuff you should look to Eva Lotta's website. She has beautiful books and does workshops and amazing Instagram account and so on. So lots of output. And I noticed there's a couple of different sort of genres that you're sort of working in that maybe from an outside seem to blend together, but maybe you can explain a bit the differences as well. So there's sketchnoting, there's illustration, I guess, but you also write about visual improvisation. So can you tell us a bit about, like, what are these different cool subfields of working with pen and paper that you're involved in?",
+      "id": "ep_141_ut_31"
+    },
+    {
+      "end": 505310,
+      "speaker": "Eva-Lotta Lamm",
+      "start": 444584,
+      "text": "All right. I think when I go from the broadest to more specific, I think the broadest term I like to describe my work in is the, is the term visual thinking, because for me, really sketching and visualizing as a thinking tool, one thing that you mentioned, sketchnoting, it's a quite specific thing. It's basically taking visual notes. So when you take notes, for example, from a conference you visited, like the IO festival or other talks or from meetings or books that you read, that you not just write down words in a linear way, but that you use both words and little images together to kind of capture the content so that you can remember it better and it becomes actually easier to scan through and easier to remember things as well.",
+      "id": "ep_141_ut_32"
+    },
+    {
+      "end": 514534,
+      "speaker": "Enrico Bertini",
+      "start": 505690,
+      "text": "And that has become a whole genre in the last ten years or so. Right. It's like this visual summaries of a conference talk or a meeting or something like this. Right?",
+      "id": "ep_141_ut_33"
+    },
+    {
+      "end": 580846,
+      "speaker": "Eva-Lotta Lamm",
+      "start": 514602,
+      "text": "It is really pretty crazy how this, how this field developed, because I remember first encountering the term sketchnotes, and that was, I think, in 2007, 2008, on Flickr, I found the work of Mike Rohde, and I think he put sketchnotes there and called things sketchnotes from one or two conferences that he went to and took these kind of visual notes. And I had just been to my first design conference and I looked at his notes and I'm like, damn, that looks a whole lot like the notes that I take. They're kind of naturally visual. And I'm like, okay, so I guess they are sketchnotes, what I do. And so I started uploading my stuff on Flickr as well and tagging them sketchnotes. And then, I don't know, maybe a year later, there were maybe four, five, six people contributing to this hashtag. And now there are kind of tons of books and there's even a sketchnote international sketchnote bar camp happening for the third time this year. And it's a whole industry, let's put it like that.",
+      "id": "ep_141_ut_34"
+    },
+    {
+      "end": 584838,
+      "speaker": "Enrico Bertini",
+      "start": 580918,
+      "text": "So do people then take sketchnotes of people talking about sketchnotes? Or how does that.",
+      "id": "ep_141_ut_35"
+    },
+    {
+      "end": 589010,
+      "speaker": "Eva-Lotta Lamm",
+      "start": 584854,
+      "text": "Yes, it's meta. It's meta, meta, meta. Sketchnotes.",
+      "id": "ep_141_ut_36"
+    },
+    {
+      "end": 600886,
+      "speaker": "Enrico Bertini",
+      "start": 591390,
+      "text": "Yeah, right. And it has become like a whole profession almost. Yeah, sometimes people call it visual recording, I think. Is that the same or is that different, like subtle?",
+      "id": "ep_141_ut_37"
+    },
+    {
+      "end": 656366,
+      "speaker": "Eva-Lotta Lamm",
+      "start": 600998,
+      "text": "Well, there's a lot of debate about words and, you know, like in every discipline, but I give you my take. There is also the discipline of graphic recording, which actually has been around for much longer, that has started in the seventies and comes more from the business side and facilitation side. Usually when we talk about graphic recording, we talk about sketchnoting in a large format. So somebody recording a talk or a discussion on a big wall at the side of the room that everybody can see it. And related to that, there's also a discipline called graphic facilitation, which is actually not only recording what somebody else or a group says, but using visuals in an active facilitation process. So working with visual templates to think through a problem and work through a whole process.",
+      "id": "ep_141_ut_38"
+    },
+    {
+      "end": 658438,
+      "speaker": "Moritz Stefaner",
+      "start": 656518,
+      "text": "And is the style similar?",
+      "id": "ep_141_ut_39"
+    },
+    {
+      "end": 661390,
+      "speaker": "Eva-Lotta Lamm",
+      "start": 658614,
+      "text": "The visual style? Are you talking about the visual style?",
+      "id": "ep_141_ut_40"
+    },
+    {
+      "end": 663250,
+      "speaker": "Moritz Stefaner",
+      "start": 661430,
+      "text": "Yeah, the visual style, yes.",
+      "id": "ep_141_ut_41"
+    },
+    {
+      "end": 701600,
+      "speaker": "Eva-Lotta Lamm",
+      "start": 665390,
+      "text": "It is probably relatively similar. I mean, now in the last few years, I think especially in the graphic recording scene, the visual style has become quite elaborate with some people because a lot of illustrators have also entered the industry. Traditionally, this graphic recording and facilitation comes way more from the business side and is way less kind of comic style and more simple icons and boxes and connections and arrows and things like that. But I think the style is getting more elaborate, at least with professional people. Offering that as a service.",
+      "id": "ep_141_ut_42"
+    },
+    {
+      "end": 716536,
+      "speaker": "Enrico Bertini",
+      "start": 702940,
+      "text": "And in sketchnoting, I also noticed people really enjoy typography as well, and sort of almost go in a calligraphic direction sometimes to make, really an artwork of the whole composition as well, also with the text.",
+      "id": "ep_141_ut_43"
+    },
+    {
+      "end": 752788,
+      "speaker": "Eva-Lotta Lamm",
+      "start": 716728,
+      "text": "Yeah, I would say the boundaries are kind of quite open. You know, what is a sketchnote and what is an illustration? And then lettering comes in as well. And for me, sketchnotes are also. The difference is also that it's, for me, it's a personal thing. So it's really notes that I take for me to remember stuff. So my filters are pretty personal as well in terms of what I capture. I mostly capture things that I find interesting, and sometimes I leave out things that I already know. So for me, it's not a complete.",
+      "id": "ep_141_ut_44"
+    },
+    {
+      "end": 756640,
+      "speaker": "Enrico Bertini",
+      "start": 752804,
+      "text": "It's like reporting or like a journalistic activity in a sense. Right?",
+      "id": "ep_141_ut_45"
+    },
+    {
+      "end": 762124,
+      "speaker": "Eva-Lotta Lamm",
+      "start": 757060,
+      "text": "Yes. But also, I don't see my sketchnotes as a complete summary.",
+      "id": "ep_141_ut_46"
+    },
+    {
+      "end": 762756,
+      "speaker": "Enrico Bertini",
+      "start": 762252,
+      "text": "Okay.",
+      "id": "ep_141_ut_47"
+    },
+    {
+      "end": 790612,
+      "speaker": "Eva-Lotta Lamm",
+      "start": 762828,
+      "text": "If I do a complete summary or a sketchnote for somebody else to make a summary, it is a slightly different exercise because I have to be much more comprehensive and think about not only what interests me, but also which things are needed to give a whole overview of the topic. But, yeah, the boundaries are difficult to define very clearly.",
+      "id": "ep_141_ut_48"
+    },
+    {
+      "end": 802280,
+      "speaker": "Enrico Bertini",
+      "start": 790796,
+      "text": "Yeah, it's super fascinating. And if you look on Instagram or Pinterest for these types of genres, you will see how much culture there is already around all these practices. And it's amazing.",
+      "id": "ep_141_ut_49"
+    },
+    {
+      "end": 848884,
+      "speaker": "Eva-Lotta Lamm",
+      "start": 802460,
+      "text": "Yeah. And also, I mean, you also mentioned, like, as a discipline, you mentioned illustration, and actually a lot of things that look like sketchnotes or have the sketchnotes look, they are actually illustrations. So for me, an illustration is something. Let's put it the other way around. A sketchnote is something that is done in real time, in my opinion. So when there's a talk, you take notes in real time. And of course, you can do a second round afterwards to give it a bit more structure, to reorder things, to make it clearer, to complete it. But then it becomes more of an illustration, you know, like an information illustration or something like that. I like the aspect of the real time in sketchnoting. It's a little extra challenge.",
+      "id": "ep_141_ut_50"
+    },
+    {
+      "end": 863332,
+      "speaker": "Enrico Bertini",
+      "start": 849052,
+      "text": "Yeah. And it's sort of, you have to look ahead a bit in terms of. Okay, so I have, like, two thirds of the page left. You know, how much do I use for the current point? How much do you think will still be coming? So it's a strategy game in a way, right?",
+      "id": "ep_141_ut_51"
+    },
+    {
+      "end": 921866,
+      "speaker": "Eva-Lotta Lamm",
+      "start": 863436,
+      "text": "Well, it's less of a strategy game and more which actually leads to the third point that you've been mentioning, the visual improvisation sketchnoting for me is an improvisation process because you do it in real time and you don't know what's coming. So you, to some extent, have to trust the process and have to trust some kind of strategies and patterns that you developed over time with how to deal with space, how to deal with the fact when you sketched yourself in a corner and have run out of space, how do you deal with visual hierarchy on the fly? To mark the things that are more important, to make them stand out and to kind of make the details a little bit more quiet and go to the background and all these kinds of things become important to do them in real time and play with them and also be open to things not quite going as planned to.",
+      "id": "ep_141_ut_52"
+    },
+    {
+      "end": 936730,
+      "speaker": "Moritz Stefaner",
+      "start": 921968,
+      "text": "And this means also that normally, so there is a relationship between the structure or even the timeline of a given talk and the way you lay out the content in the sketch, I guess.",
+      "id": "ep_141_ut_53"
+    },
+    {
+      "end": 1019710,
+      "speaker": "Eva-Lotta Lamm",
+      "start": 938030,
+      "text": "Well, see, the position, the physical position on the page is the thing you have least control over when you sketchnote because. Yes, because you don't know, is it going to be three topics or is it going to be a linear thing? You just don't know it. So actually, the spatial arrangement, you should just go with the flow and see when one thing is related to something that is already there, put it closer to it. If it's something completely different, put it a little bit further away. That's my rule of thumb. But the thing that you can actually control on the fly is making the different elements stand out in a different way. So working with all these parameters that you use in data visualization as well, you can work with size, you can work with contrast, with color, with different style of writing and differentiate things and different levels of information through the visual hierarchy that you put into the pieces of information itself, which is much more effective in real time than trying to make a perfect structure or spatial arrangement that you can't foresee.",
+      "id": "ep_141_ut_54"
+    },
+    {
+      "end": 1058250,
+      "speaker": "Enrico Bertini",
+      "start": 1020370,
+      "text": "Yeah. And that's, I think, really fascinating and again, really interesting cross connection to data visualization, what you mentioned with the more nearby things are more closely related, usually. And that sort of, it's a cartographic principle. Right. And the idea that, oh, that's like the first law of cartography, is like, nearby things are more similar. And that's why I find the topic also so fascinating, is that we all share visual language, but we sort of use it in different ways, or we might have a different process. But then the underlying, of course, the humans perceiving it or reading it, you know, follow the same, the same visual perceptions.",
+      "id": "ep_141_ut_55"
+    },
+    {
+      "end": 1137670,
+      "speaker": "Eva-Lotta Lamm",
+      "start": 1059270,
+      "text": "I agree. And I always, I always say that we are visual creatures and all of our lives we spend interpreting visual information and pulling information out of the things that come in through our eyes. And we are really good at evaluating all kinds of relationships through visuals, spatial relationships, how far or how close things are. But also, but also other types of relationships can be expressed through visual arrangement really easily. When you think about a timeline and you have more distance between two points, means more time is passing. It's really easy for us to make this abstraction in the visual by having abstract relationships visualized as visual relationships, or we think about something that is bigger as more important. Well, why is that? Because in our visual perception, when something is closer, it's bigger and we have to pay more attention to it because it's right in front of us. So we are using all these things day in and day out. It's just using them cleverly in your visual work is the interesting thing.",
+      "id": "ep_141_ut_56"
+    },
+    {
+      "end": 1214882,
+      "speaker": "Enrico Bertini",
+      "start": 1138930,
+      "text": "Yeah. And think about, okay, how could data visualization practitioners benefit from this practice? There's a very clear parallel there, a very clear lesson already. It's like, okay, if you do sketching and then you have to be very clear about your visual hierarchy and as you say, what belongs together, what's the sequencing, all these things that maybe you don't think about in depth if you create more a data visualization because you're so busy thinking about the data and the statistics and the visual encoding on just the data level. But forget about, oh, people will see this as belonging together because it's all in the top left know and so on. And I think in classical data, with research, these very fundamental things about how we read visual scenes and how we read an image just as an image. So it's so fundamental that it's actually often forgotten. It's sort of the irony. Yeah. Like just from maybe your experience, how do you think could data visual people benefit? Let's say, let's assume we work not enough with pen and paper and not enough with paper. That's one of my working theories at least. How could we benefit from doing more? Can you make a advertise it a bit?",
+      "id": "ep_141_ut_57"
+    },
+    {
+      "end": 1361310,
+      "speaker": "Eva-Lotta Lamm",
+      "start": 1214986,
+      "text": "Okay, actually, I mean, a lot of data visual, probably a lot of data visualization people, they also sketch as a first step. For example, you talk, I mean, you talked about, I mean, what is it? Giogia Lupi's and the dear data project. Dear data, I mean, that is exactly. But also you talked about Nadieh Bremer I mean, I saw several of her talks, because for some reason she always talks at the same conferences as I do. That's great. And she always shows her sketches as well and talks about these importance of sketching. And I think the important thing, the good thing about sketching is it forces you to make certain decisions and think through certain decisions, which can easily get lost when you're just talking, you know, because when you make a sketch, you have to put a line somewhere and you know, is it close or is it not that close? How long is it, how, which color does it have? How big is it? So you have to make all of these decisions when thinking through a problem. And I also think that if you want to start a superpower, one superpower that is great is being able to sketch very simplified thumbnails of anything. So it's a very good practice to, I don't know, you can look at an interface, you can look at an infographic, or at a great data visualization. If you had to describe this to somebody who can't see it, but you have pen and paper and you can sketch on a little post it, you could sketch it. How would you sketch it? Just with a few strokes to describe it. What are the most important elements that you would put down? What are the characteristics and what are the things that really matter? And getting an eye for that and being able to express that just with a very simplified sketch. That's such a superpower. It's like a journalist being able to, to write an article in the pyramid style, where you start with the most important thing first, and then you add details. And it's a similar aspect with sketching. A really low fidelity sketch is like the opening paragraph of a news article. It already summarizes the topic, but then you could also dive in and add more detail.",
+      "id": "ep_141_ut_58"
+    },
+    {
+      "end": 1366550,
+      "speaker": "Enrico Bertini",
+      "start": 1362490,
+      "text": "So it's all about capturing the gist, capturing the essence.",
+      "id": "ep_141_ut_59"
+    },
+    {
+      "end": 1368514,
+      "speaker": "Eva-Lotta Lamm",
+      "start": 1367090,
+      "text": "And when you want to capture the.",
+      "id": "ep_141_ut_60"
+    },
+    {
+      "end": 1369634,
+      "speaker": "Enrico Bertini",
+      "start": 1368522,
+      "text": "Essence, simple as that.",
+      "id": "ep_141_ut_61"
+    },
+    {
+      "end": 1404298,
+      "speaker": "Eva-Lotta Lamm",
+      "start": 1369802,
+      "text": "Yeah. You have to be, you have to make actually the difficult step of deciding, you know, thinking about what is the essence? What do I want to say? You know, for whom am I actually saying this? Or who's the audience? And what do they actually need to know? If I could only, you know, if I could only tell them one or two things, what is the most essential? So that's also why I like the term visual thinking, because it's 50% visual and 50% thinking. And it's actually, the thinking is an important part while sketching as well, because you're constantly making decisions.",
+      "id": "ep_141_ut_62"
+    },
+    {
+      "end": 1456460,
+      "speaker": "Moritz Stefaner",
+      "start": 1404474,
+      "text": "Yeah, no, I think, as you said at the beginning, I'm actually pretty sure most people working in visualization do some form of sketching. I certainly do. Now that we are talking about this, I'm thinking, oh, how do I actually do it? Because I never really reflected about it. And I think one thing I noticed is that in general, another really powerful role of sketching, at least for me when I do it, for designing data visualizations, is to, is to discuss something with somebody else and it's really, really powerful. Right. And this can be, I don't know, right in front of a whiteboard or on a piece of paper, but I think most of the time when I'm sketching something, it's because I want to discuss it with somebody else and it's really, really powerful.",
+      "id": "ep_141_ut_63"
+    },
+    {
+      "end": 1509718,
+      "speaker": "Eva-Lotta Lamm",
+      "start": 1457140,
+      "text": "I like that as well, especially for collaboration, because when you support the conversation with a sketch, you're actually creating a shared memory, a shared visual memory, and you don't have to keep everything in your head. You can actually focus on what you're currently talking about without being afraid of forgetting what was before because it's actually visually in front of you and you can go back by pointing at something and saying, oh, should we try out something else here? Or maybe we forgot something there or it's easier to spot gaps and patterns. I mean, like all the things that are the advantages of a final data visualization as well. You can see trends, you can see gaps, you can see patterns, you can see outliers, and the sketching is just the first step when things are not finished yet, but just emerging.",
+      "id": "ep_141_ut_64"
+    },
+    {
+      "end": 1512058,
+      "speaker": "Moritz Stefaner",
+      "start": 1509814,
+      "text": "Yeah, absolutely, yeah.",
+      "id": "ep_141_ut_65"
+    },
+    {
+      "end": 1546046,
+      "speaker": "Enrico Bertini",
+      "start": 1512074,
+      "text": "And just discussing on a structural, architectural directions level, I think that works so well in sketching. Right, yeah. Can I play devil's advocate a bit? Of course, yeah. So I have always one problem with sketching in the database context, and that is on a sticky note, things often look totally fine. You draw three bubbles. It's like, oh, we could have these bubbles here. Yeah, that's amazing. And then you try it out with the real data and it doesn't look amazing at all or it just doesn't fit the data. Right.",
+      "id": "ep_141_ut_66"
+    },
+    {
+      "end": 1546638,
+      "speaker": "Eva-Lotta Lamm",
+      "start": 1546158,
+      "text": "Yes.",
+      "id": "ep_141_ut_67"
+    },
+    {
+      "end": 1567694,
+      "speaker": "Enrico Bertini",
+      "start": 1546734,
+      "text": "And it's also something I always preach is that as a data visualization expert, you should sort of become a medium for the data and be sort of also inspired by the data. Right. And is that maybe at odds with like a blue sky? Let's go crazy on Sticky's approach. That might come out of a sketching session.",
+      "id": "ep_141_ut_68"
+    },
+    {
+      "end": 1655588,
+      "speaker": "Eva-Lotta Lamm",
+      "start": 1567822,
+      "text": "Well, I think using sketching at the right point and also knowing when you have to go when you have to go into the digital tool and then maybe come back to sketching. So the point that you described, you know, you make first little sketches and little thumbnails on, oh, we could use these bubbles and that would be cool. Then sketching is great for just capturing a few ideas, what you want to try out so that you don't forget, you know, you have a visual trace of that. And then you go into your data and say, okay, let's actually look at the data set and print out some, I don't know, Tableau, whatever visualizations, what you guys do and see what shape that actually takes. And then you can take this thing and print it out and say, okay, which shape does it have? How can I get the story out of this shape? How can I annotate it? Are there any thresholds that I can actually visualize or draw a line and say, oh, this is actually very significant, or are there some trends in there that I want to visually emphasize? So then again, you can use sketching as a tool for quickly capturing a few ideas of how you could treat that data. And then, of course, when you're refining it and shaping it, well, then you do that in a digital tool because you're much faster trying out different nuances of different colors or different scales in a digital tool.",
+      "id": "ep_141_ut_69"
+    },
+    {
+      "end": 1656716,
+      "speaker": "Moritz Stefaner",
+      "start": 1655644,
+      "text": "Yeah, yeah.",
+      "id": "ep_141_ut_70"
+    },
+    {
+      "end": 1669820,
+      "speaker": "Enrico Bertini",
+      "start": 1656908,
+      "text": "Makes me painfully aware, again, that we have this total lack of tools for sketching, either sketching or data. It's so sad, but there are few in the works. But it's still, we don't have the finished solution yet.",
+      "id": "ep_141_ut_71"
+    },
+    {
+      "end": 1742850,
+      "speaker": "Eva-Lotta Lamm",
+      "start": 1669860,
+      "text": "It would be amazing if you had a tool that kind of plots you, these graphs, and then you could go in with a digital pen and draw things in there or say, oh, make this should be bigger or changed, I don't know, drag them around maybe, or do annotations. I mean, one thing as well is, I mean, one thing is the pure data visualization, but the other thing that I see a lot in data visualizations that I find interesting is that they are actually storytelling pieces. So it's an underlying data visualization. But then often there's a story piece on top of that where the person who made the data visualization decides, well, I pull out certain aspects of that and actually tell a story with it to introduce you to the data. And for this aspect, I think sketching is really interesting as well because the storytelling is a way more curated thing where you go in with an intention of actually telling a story that you discovered in the data and how you want to tell it. I think sketching can help there as well. What the sequence should be of your story, what the layout or shape should be. I think that can come in very handy as well.",
+      "id": "ep_141_ut_72"
+    },
+    {
+      "end": 1761246,
+      "speaker": "Enrico Bertini",
+      "start": 1744550,
+      "text": "So you're almost suggesting we could start on paper, just sketch visualization ideas, then try it out digital, and then maybe go back again and say, like, okay, we print out the most successful digital versions and sequence them or annotate them again with sketching tools.",
+      "id": "ep_141_ut_73"
+    },
+    {
+      "end": 1795990,
+      "speaker": "Eva-Lotta Lamm",
+      "start": 1761438,
+      "text": "Yeah. For me, when I make things that are nothing, that are not sketches or illustrations as a final output, I often have several rounds of sketching whenever I need to think through a few options quickly. So it's like there's no just one point where you say, now you sketch and now you do that. I mean, every time you need to write an email, you open your email program, and that can be at the beginning, in the middle. I mean, it's just a tool.",
+      "id": "ep_141_ut_74"
+    },
+    {
+      "end": 1803710,
+      "speaker": "Enrico Bertini",
+      "start": 1799490,
+      "text": "Already. You always have a pen and paper nearby that becomes very clear.",
+      "id": "ep_141_ut_75"
+    },
+    {
+      "end": 1810870,
+      "speaker": "Eva-Lotta Lamm",
+      "start": 1805410,
+      "text": "I get very nervous if I don't have a pen and a piece of paper next to me.",
+      "id": "ep_141_ut_76"
+    },
+    {
+      "end": 1843290,
+      "speaker": "Enrico Bertini",
+      "start": 1812170,
+      "text": "Yeah, well, it's awesome. And as you say, it can become this universal thinking and recording tool if you use it. And we haven't discussed this, but briefly with the Dear data project, it can also really be a great format for the final output especially. Or maybe, let's discuss when do you think is sketching a good choice rather than crisp digital graphics? Maybe also for data visualization products? What's your hunch? There's a good output format as well.",
+      "id": "ep_141_ut_77"
+    },
+    {
+      "end": 1896596,
+      "speaker": "Eva-Lotta Lamm",
+      "start": 1844190,
+      "text": "In general, things that are made by hand have more warmth because you can still see the trace of the hand and the trace of the human in ithood. So in general, they feel more relatable, more personal and warmer. I think that's also why there's such a huge, has been such a huge trend of everything which looks analog and hand lettering and everything kind of crafty because we live in such a digital perfect, kind of streamlined world that we crave for things that look authentic or handmade. And if this is important, then something handmade gets this message across way more. Of course, you can also lie with it. You know, you can kind of, it can get kitsch. It can get really kitsch and authentic.",
+      "id": "ep_141_ut_78"
+    },
+    {
+      "end": 1897636,
+      "speaker": "Enrico Bertini",
+      "start": 1896668,
+      "text": "Authenticity.",
+      "id": "ep_141_ut_79"
+    },
+    {
+      "end": 1898516,
+      "speaker": "Eva-Lotta Lamm",
+      "start": 1897748,
+      "text": "Exactly.",
+      "id": "ep_141_ut_80"
+    },
+    {
+      "end": 1900080,
+      "speaker": "Enrico Bertini",
+      "start": 1898628,
+      "text": "Authenticity, yeah.",
+      "id": "ep_141_ut_81"
+    },
+    {
+      "end": 1931508,
+      "speaker": "Eva-Lotta Lamm",
+      "start": 1901460,
+      "text": "But at least, you know, like every tool you have to, you have to use it with the right ethics and the right and your own values. But, but I think for warmth and emotion and connection between humans, that's very good. And that comes through in the Dear data project as well, because these are all visualizations of personal, very personal moments and days and actually personal data.",
+      "id": "ep_141_ut_82"
+    },
+    {
+      "end": 1932400,
+      "speaker": "Enrico Bertini",
+      "start": 1931684,
+      "text": "Right.",
+      "id": "ep_141_ut_83"
+    },
+    {
+      "end": 1957254,
+      "speaker": "Moritz Stefaner",
+      "start": 1932780,
+      "text": "Yeah. There are so many approaches between digital write an analog. I was watching yesterday this new video from Financial Times where they actually, it's even a newer approach where they copy from an existing graphic, manually copy the, the actual trains that they want to show. I don't know if you saw it. It's a, it's a new one, and then discuss it as they draw.",
+      "id": "ep_141_ut_84"
+    },
+    {
+      "end": 1970422,
+      "speaker": "Enrico Bertini",
+      "start": 1957302,
+      "text": "And it's a back and forth and sort of deconstructing what's going on, you know, and. And that's very. Yeah. Again, it's also this active making sense of something as you work it out together. That's very nice.",
+      "id": "ep_141_ut_85"
+    },
+    {
+      "end": 2043410,
+      "speaker": "Eva-Lotta Lamm",
+      "start": 1970606,
+      "text": "It's actually very interesting that you say that because I think I call it the discipline of drawing while talking. Well, for me it became a thing because I got really interested in this format of actually live drawing, something that I'm explaining. And in 2016, I gave a talk at a conference that is called five steps to change your note taking, where I actually take people through the five steps that they can take from taking normal notes to visual notes, and I explain each point while I draw the point and ask people to draw with me. So at the end, they know what the five steps are, they practice them, and they have a summarizing sketch, sketchnote of how to do sketchnoting, which is a bit meta, but the idea of explaining something while you draw to it is super powerful. And when you can pull that off, well, people are so engaged when they watch it because they can see your reasoning in front of their eyes and how you make an argument not only with words, but also visually, it's very powerful.",
+      "id": "ep_141_ut_86"
+    },
+    {
+      "end": 2044470,
+      "speaker": "Moritz Stefaner",
+      "start": 2043950,
+      "text": "Yeah.",
+      "id": "ep_141_ut_87"
+    },
+    {
+      "end": 2049534,
+      "speaker": "Enrico Bertini",
+      "start": 2044550,
+      "text": "It becomes a performance as well. Then we're back also to the improvisation almost.",
+      "id": "ep_141_ut_88"
+    },
+    {
+      "end": 2050370,
+      "speaker": "Eva-Lotta Lamm",
+      "start": 2049662,
+      "text": "Yeah.",
+      "id": "ep_141_ut_89"
+    },
+    {
+      "end": 2057250,
+      "speaker": "Enrico Bertini",
+      "start": 2051650,
+      "text": "Being the musician or conductor or craftsman who does something in real time. Right?",
+      "id": "ep_141_ut_90"
+    },
+    {
+      "end": 2058750,
+      "speaker": "Eva-Lotta Lamm",
+      "start": 2057290,
+      "text": "Yeah, that's true. Yeah.",
+      "id": "ep_141_ut_91"
+    },
+    {
+      "end": 2062186,
+      "speaker": "Enrico Bertini",
+      "start": 2059730,
+      "text": "Okay. Another genre drawing while talking.",
+      "id": "ep_141_ut_92"
+    },
+    {
+      "end": 2062990,
+      "speaker": "Eva-Lotta Lamm",
+      "start": 2062298,
+      "text": "Yes.",
+      "id": "ep_141_ut_93"
+    },
+    {
+      "end": 2080790,
+      "speaker": "Enrico Bertini",
+      "start": 2064090,
+      "text": "It's a whole new thing. Great. So you mentioned the talk, which sounds amazing. I'll definitely take a look at that one and we will put it into the show notes. Are there more tips for people to get started? I know you have a few books out. If somebody's into yoga poses, for instance. I know that.",
+      "id": "ep_141_ut_94"
+    },
+    {
+      "end": 2121472,
+      "speaker": "Eva-Lotta Lamm",
+      "start": 2081200,
+      "text": "Yeah. That's a little bit random, but yeah, I wrote a book. I wrote a book about how to draw yoga stick figures and yoga sequences. But that's very specialized, super niche. Well, I think the most important thing, what I also notice when I do workshops is give people permission to do sketches that don't look great. You know, for me, the approach is really when I teach drawing, I like to call it pragmatic drawing because it's not about making it look great, it's really about serving a purpose. Serving the purpose of thinking through something or explaining something to somebody else.",
+      "id": "ep_141_ut_95"
+    },
+    {
+      "end": 2128936,
+      "speaker": "Enrico Bertini",
+      "start": 2121576,
+      "text": "Yeah. And that's the first thing you hear so often. It's like, oh, yeah, but I can't really draw. And it's like everybody can draw to some degree. Right.",
+      "id": "ep_141_ut_96"
+    },
+    {
+      "end": 2205920,
+      "speaker": "Eva-Lotta Lamm",
+      "start": 2129048,
+      "text": "And even, I mean, talent is just something that makes it easier to get into it because. Because you feel the difficulty a little bit later than everybody else. Because you have a little bit of an advantage from the talent. But for me, sketching is really almost as fundamental a skill as learning how to write. And when children learn writing at school, not every child finds it super easy and has a talent for writing. In the beginning, there's a bit of an effort and it's hard, but we don't say, oh, you don't seem to have a knack for writing, so you don't have to do that. Forget it. You're not the writing type. So I think it's really worth getting over this uncomfortable hump because what you get on the other side is so high in value that it's really worth pushing through this discomfort in the beginning. In terms of starting, I always think, especially when you find it difficult to get started doing a workshop. There are so many workshops right now also in sketching and in sketchnoting. I'm doing a two day workshop in Milan in October, which is going to be a really good starting point.",
+      "id": "ep_141_ut_97"
+    },
+    {
+      "end": 2208072,
+      "speaker": "Enrico Bertini",
+      "start": 2205960,
+      "text": "I could say the best starting point.",
+      "id": "ep_141_ut_98"
+    },
+    {
+      "end": 2239372,
+      "speaker": "Eva-Lotta Lamm",
+      "start": 2208136,
+      "text": "Well, it's going to be a pretty good. It's going to be pretty good because we. The sketching basics and also then different structures for visualizing processes and systems or concepts. So it covers both the visual sketching and the thinking side, which I'm quite excited about because it's a two day workshop. Usually I teach one day workshops. There are lots of great books. I actually do have a reading list that I can give you for the show notes.",
+      "id": "ep_141_ut_99"
+    },
+    {
+      "end": 2240364,
+      "speaker": "Moritz Stefaner",
+      "start": 2239436,
+      "text": "Oh, yeah, perfect.",
+      "id": "ep_141_ut_100"
+    },
+    {
+      "end": 2241480,
+      "speaker": "Enrico Bertini",
+      "start": 2240412,
+      "text": "Yeah, that would be great.",
+      "id": "ep_141_ut_101"
+    },
+    {
+      "end": 2272414,
+      "speaker": "Eva-Lotta Lamm",
+      "start": 2241820,
+      "text": "Books are always fantastic. Starting point. And I put together something which I have called the mini visual starter kit. So it's kind of a little cheat sheet with icons and some tips how you can start using these when you make meeting notes or notes for project planning. So it's a very small introduction thing that is available on my website, so I can give you the link to that as well.",
+      "id": "ep_141_ut_102"
+    },
+    {
+      "end": 2279434,
+      "speaker": "Enrico Bertini",
+      "start": 2272532,
+      "text": "That's awesome. Yeah, that sounds great. And, yeah, as you say, it's about the little steps and just starting it.",
+      "id": "ep_141_ut_103"
+    },
+    {
+      "end": 2284706,
+      "speaker": "Eva-Lotta Lamm",
+      "start": 2279562,
+      "text": "Yes. It's a process. You know, you have the rest of your life to get better at it.",
+      "id": "ep_141_ut_104"
+    },
+    {
+      "end": 2307366,
+      "speaker": "Enrico Bertini",
+      "start": 2284858,
+      "text": "True. That's the right perspective. Cool. Thank you so much. That was fascinating. And I think, yeah, as I hope you have heard, there's so many cross connections that we don't really exploit yet properly. And I think there's a lot to be learned by looking at all these cool techniques and just also making work more enjoyable instead of always clicking with your mouse.",
+      "id": "ep_141_ut_105"
+    },
+    {
+      "end": 2311118,
+      "speaker": "Eva-Lotta Lamm",
+      "start": 2307478,
+      "text": "I agree. That's one side effect. Drawing really makes me happy.",
+      "id": "ep_141_ut_106"
+    },
+    {
+      "end": 2333098,
+      "speaker": "Enrico Bertini",
+      "start": 2311214,
+      "text": "Exactly. Little funny drawing on a little piece of paper can go a long way in lightening up your day. Yeah. Thanks so much for joining us. That was amazing. We'll put all this material in the show notes. Feel free to check out ifas lotta side and all the materials we mentioned and yeah, thanks so much.",
+      "id": "ep_141_ut_107"
+    },
+    {
+      "end": 2334070,
+      "speaker": "Moritz Stefaner",
+      "start": 2333194,
+      "text": "Thank you.",
+      "id": "ep_141_ut_108"
+    },
+    {
+      "end": 2336034,
+      "speaker": "Eva-Lotta Lamm",
+      "start": 2334570,
+      "text": "Thank you for having me.",
+      "id": "ep_141_ut_109"
+    },
+    {
+      "end": 2338190,
+      "speaker": "Enrico Bertini",
+      "start": 2336202,
+      "text": "Thank you. Bye. Bye bye.",
+      "id": "ep_141_ut_110"
+    },
+    {
+      "end": 2363230,
+      "speaker": "Moritz Stefaner",
+      "start": 2342810,
+      "text": "Hey, folks, thanks for listening to data stories again. Before you leave a few last notes, this show is now completely crowdfunded. So you can support us by going on Patreon. That's patreon.com Datastories. And if you can spend a couple of minutes reading us on iTunes, that would be extremely helpful for the show.",
+      "id": "ep_141_ut_111"
+    },
+    {
+      "end": 2389116,
+      "speaker": "Enrico Bertini",
+      "start": 2363350,
+      "text": "And here's also some information on the many ways you can get news directly from us. We are, of course, on twitter@twitter.com. Datastories. We have a Facebook page@Facebook.com. datastoriespodcast all in one word. And we also have a slack channel where you can chat with us directly. And to sign up, you can go to our homepage datastory esdeme. And there is a button at the bottom of the page.",
+      "id": "ep_141_ut_112"
+    },
+    {
+      "end": 2404988,
+      "speaker": "Moritz Stefaner",
+      "start": 2389268,
+      "text": "And we also have an email newsletter. So if you want to get news directly into your inbox and be notified whenever we publish an episode, you can go to our home page Datastories es and look for the link you find at the bottom in the footer.",
+      "id": "ep_141_ut_113"
+    },
+    {
+      "end": 2417160,
+      "speaker": "Enrico Bertini",
+      "start": 2405084,
+      "text": "So one last thing we want to tell you is that we love to get in touch with our listeners, especially if you want to suggest a way to improve the show or amazing people you want us to invite or even projects you want us to talk about.",
+      "id": "ep_141_ut_114"
+    },
+    {
+      "end": 2426320,
+      "speaker": "Moritz Stefaner",
+      "start": 2417260,
+      "text": "Yeah, absolutely. And don't hesitate to get in touch with us. It's always a great thing to hear from you. So see you next time, and thanks for listening to data stories.",
+      "id": "ep_141_ut_115"
+    }
+  ],
+  "confidence": 0.933495168452098,
+  "audio_duration": 2437,
+  "punctuate": true,
+  "format_text": true,
+  "dual_channel": false,
+  "webhook_url": null,
+  "webhook_status_code": null,
+  "webhook_auth": false,
+  "webhook_auth_header_name": null,
+  "speed_boost": false,
+  "auto_highlights_result": null,
+  "auto_highlights": false,
+  "audio_start_from": null,
+  "audio_end_at": null,
+  "word_boost": [],
+  "boost_param": null,
+  "filter_profanity": false,
+  "redact_pii": false,
+  "redact_pii_audio": false,
+  "redact_pii_audio_quality": null,
+  "redact_pii_policies": null,
+  "redact_pii_sub": null,
+  "speaker_labels": true,
+  "content_safety": false,
+  "iab_categories": true,
+  "content_safety_labels": {
+    "status": "unavailable",
+    "results": [],
+    "summary": {}
+  },
+  "language_detection": false,
+  "language_detection_threshold": null,
+  "language_confidence": null,
+  "custom_spelling": null,
+  "throttled": false,
+  "auto_chapters": true,
+  "summarization": false,
+  "summary_type": null,
+  "summary_model": null,
+  "custom_topics": false,
+  "topics": [],
+  "speech_threshold": null,
+  "speech_model": "best",
+  "chapters": [
+    {
+      "summary": "On this podcast, we talk about data visualization, data analysis, and generally the role data plays in our lives together. Our podcast is listener supported, so there's no ads intruding while you're listening. If you enjoy the show, please consider supporting us with recurring payments.",
+      "gist": "Data Stories: More Visual Stories",
+      "headline": "Our podcast is listener supported, so there's no ads intruding",
+      "start": 160,
+      "end": 114834,
+      "id": "ep_141_ch_0"
+    },
+    {
+      "summary": "Evalotta Lam: I went to IO festival once again. It's one of my favorite, maybe my favorite conference. Not just data visualization, but all kinds of design, art, society, technology. Next year is ten year anniversary, so if you can make it, definitely try and make it.",
+      "gist": "IO Festival",
+      "headline": "Enrico: I went to IO festival once again this year",
+      "start": 114882,
+      "end": 243168,
+      "id": "ep_141_ch_1"
+    },
+    {
+      "summary": "Eva used to be a UX designer for many, many years. Now her focus is to make things visible and visual. She helps companies to visualize complex topics or problems. Also helps them to be more visual themselves in their thinking.",
+      "gist": "Eva on the EWTN",
+      "headline": "Eva is a visual designer who helps companies visualize complex problems",
+      "start": 243224,
+      "end": 301106,
+      "id": "ep_141_ch_2"
+    },
+    {
+      "summary": "A lot of my process these days is analog, or working analog in a digital tool. Sketching is a great first step to clarify your ideas. There's a lot of parallels with data visualization as well. But first you have to think about what you actually want to create.",
+      "gist": "How to Make Visualizations From Sketching",
+      "headline": "So we talk a lot about computer generated, data driven visuals",
+      "start": 301138,
+      "end": 418780,
+      "id": "ep_141_ch_3"
+    },
+    {
+      "summary": "There's sketchnoting, there's illustration, but you also write about visual improvisation. There is also the discipline of graphic recording, which has been around for much longer. What are these different subfields of working with pen and paper that you're involved in?",
+      "gist": "Two Different Types of Notes",
+      "headline": "There's sketchnoting, there's illustration, but you also write about visual improvisation",
+      "start": 419240,
+      "end": 1040110,
+      "id": "ep_141_ch_4"
+    },
+    {
+      "summary": "A lot of data visual people sketch as a first step. How could data visualization practitioners benefit from this practice? If you want to start a superpower, one superpower that is great is being able to sketch very simplified thumbnails of anything.",
+      "gist": "Data Visualization: The importance of sketching",
+      "headline": "How could data visualization practitioners benefit from practicing basic sketching",
+      "start": 1040190,
+      "end": 1404298,
+      "id": "ep_141_ch_5"
+    },
+    {
+      "summary": "Most people working in visualization do some form of sketching. It's great for capturing a few ideas, what you want to try out. As a data visualization expert, you should sort of become a medium for the data. We have a total lack of tools for sketching in data.",
+      "gist": "Data Visualization: Drawing and Sketching",
+      "headline": "I think most people working in visualization do some form of sketching",
+      "start": 1404474,
+      "end": 1990410,
+      "id": "ep_141_ch_6"
+    },
+    {
+      "summary": "Sketching is almost as fundamental a skill as learning how to write. The most important thing is to give people permission to do sketches that don't look great. I'm doing a two day workshop in Milan in October, which is going to be a good starting point.",
+      "gist": "5 Steps to Change Your Note Taking",
+      "headline": "Sketching is as fundamental a skill as learning how to write",
+      "start": 1991050,
+      "end": 2338190,
+      "id": "ep_141_ch_7"
+    },
+    {
+      "summary": "This show is now completely crowdfunded. You can support us by going on patreon. com Datastories. Here's also some information on the many ways you can get news directly from us. We love to get in touch with our listeners, especially if you want to suggest a way to improve the show.",
+      "gist": "How to Subscribe to Data Stories",
+      "headline": "This show is now completely crowdfunded and can be supported on Patreon",
+      "start": 2342810,
+      "end": 2426320,
+      "id": "ep_141_ch_8"
+    }
+  ],
+  "disfluencies": false,
+  "entity_detection": false,
+  "sentiment_analysis": false,
+  "sentiment_analysis_results": null,
+  "entities": null,
+  "speakers_expected": null,
+  "summary": null,
+  "custom_topics_results": null,
+  "episode_num": 141,
+  "episode_metadata": {
+    "speakers": [
+      "Eva-Lotta Lamm",
+      "Enrico Bertini",
+      "Moritz Stefaner"
+    ],
+    "WPid": "1332",
+    "url": "https://datastori.es/podlove/file/5641/s/feed/c/mp3/141-sketching-and-visual-thinking-with-eva-lotta-lamm.mp3",
+    "episode_title": "Sketching and Visual Thinking with Eva-Lotta Lamm"
+  }
+}

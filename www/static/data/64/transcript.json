@@ -1,0 +1,695 @@
+{
+  "id": "0730173b-1e27-49e4-a948-45279d68718f",
+  "language_model": "assemblyai_default",
+  "acoustic_model": "assemblyai_default",
+  "language_code": "en_us",
+  "status": "completed",
+  "audio_url": "https://datastori.es/podlove/file/1579/s/feed/c/mp3/dear-data-with-giorgia-lupi-and-stefanie-posavec-ds64.mp3",
+  "utterances": [
+    {
+      "end": 17794,
+      "speaker": "Giorgia Lupi",
+      "start": 160,
+      "text": "We rely on our memories for the things that happen. But like so many things happen around us and we have blind spots and gaps. And so by acknowledging all of those moments, we are automatically building richer memories, in a way for our future. And so to me, it was something that I didn't expect in the beginning.",
+      "id": "ep_64_ut_0"
+    },
+    {
+      "end": 58418,
+      "speaker": "Moritz Stefaner",
+      "start": 19654,
+      "text": "Data stories is brought to you by Qlik, who allows you to explore the hidden relationships within your data that lead to meaningful insights. Let your instincts lead the way to create personalized visualizations and dynamic dashboards with Qlik sense, which you can download for free at Qlik deries. That's q l I K Datastories. Hey, everyone. Datastore is 64, another project episode. Hi, Enrico. How you doing?",
+      "id": "ep_64_ut_1"
+    },
+    {
+      "end": 59662,
+      "speaker": "Enrico Bertini",
+      "start": 58596,
+      "text": "I'm doing great.",
+      "id": "ep_64_ut_2"
+    },
+    {
+      "end": 68310,
+      "speaker": "Moritz Stefaner",
+      "start": 59758,
+      "text": "Excellent. And today we're talking about the lovely dear data project with Stefanie Posavec. Hi, Stephanie.",
+      "id": "ep_64_ut_3"
+    },
+    {
+      "end": 69158,
+      "speaker": "Stefanie Posavec",
+      "start": 68502,
+      "text": "Hello.",
+      "id": "ep_64_ut_4"
+    },
+    {
+      "end": 70822,
+      "speaker": "Moritz Stefaner",
+      "start": 69286,
+      "text": "And Giorgia Lupi.",
+      "id": "ep_64_ut_5"
+    },
+    {
+      "end": 71998,
+      "speaker": "Giorgia Lupi",
+      "start": 70958,
+      "text": "Hi, Giorgia.",
+      "id": "ep_64_ut_6"
+    },
+    {
+      "end": 74234,
+      "speaker": "Moritz Stefaner",
+      "start": 72086,
+      "text": "Hey. Great to have you.",
+      "id": "ep_64_ut_7"
+    },
+    {
+      "end": 75982,
+      "speaker": "Enrico Bertini",
+      "start": 74654,
+      "text": "It was about time.",
+      "id": "ep_64_ut_8"
+    },
+    {
+      "end": 76398,
+      "speaker": "Stefanie Posavec",
+      "start": 76078,
+      "text": "Yeah.",
+      "id": "ep_64_ut_9"
+    },
+    {
+      "end": 145114,
+      "speaker": "Moritz Stefaner",
+      "start": 76446,
+      "text": "I mean, both of you have been on the show already, like years ago, and now you're always up to new things. I know both of you are really busy with, with cool projects. And the most famous one right now, I would say, is the dear data project that you started together roughly a year ago and which has kept you occupied pretty much of this year as well. And, yeah, so we knew we wanted to talk about it. It's a great project, a very unusual one, and just a super interesting one. And I'll try to explain it in a few words. Right. And you can expand on that or correct me if I'm wrong. So the project is for the two of you to get to know each other basically through data and through specifically through postcards that you draw. You share a topic for each week, let's say a week of the books you own or a week of apologies or a week of distractions. And both of you track data related to that topic and then put it on a postcard and send it to the other person. Right?",
+      "id": "ep_64_ut_10"
+    },
+    {
+      "end": 147434,
+      "speaker": "Stefanie Posavec",
+      "start": 145814,
+      "text": "Yeah. You did really well.",
+      "id": "ep_64_ut_11"
+    },
+    {
+      "end": 171478,
+      "speaker": "Moritz Stefaner",
+      "start": 147934,
+      "text": "I did my best. Yeah. And so you have been doing this already for a full year, and you published already 46 of these. So we're in the final stretches of this really marathon project where you have been busy tracking data, drawing data, going to the post office, getting more stamps, and sending postcards around the world, right?",
+      "id": "ep_64_ut_12"
+    },
+    {
+      "end": 176444,
+      "speaker": "Stefanie Posavec",
+      "start": 171606,
+      "text": "Yeah. Yeah. We're almost done for now.",
+      "id": "ep_64_ut_13"
+    },
+    {
+      "end": 192644,
+      "speaker": "Moritz Stefaner",
+      "start": 177384,
+      "text": "For the first edition. For the first edition, as you know, we have for the project episode always pretty much the same set of questions. And the first one we would like to ask you is, why did you start the project. How did it come about? What did you want to achieve?",
+      "id": "ep_64_ut_14"
+    },
+    {
+      "end": 193624,
+      "speaker": "Stefanie Posavec",
+      "start": 193264,
+      "text": "Why?",
+      "id": "ep_64_ut_15"
+    },
+    {
+      "end": 195044,
+      "speaker": "Moritz Stefaner",
+      "start": 193664,
+      "text": "And how did it come about?",
+      "id": "ep_64_ut_16"
+    },
+    {
+      "end": 235070,
+      "speaker": "Stefanie Posavec",
+      "start": 195864,
+      "text": "Oh, I'll just say that the project came about. It really just came about over a beer. I'll just set the scene, and then Giorgia can get into it. But we only met a couple of times before we started the project. And so we met at IO, the IO festival held in Minneapolis at the Walker Arts center every summer. And so, yeah, the second time we met, we started drinking and started talking and kind of came up with this idea that we wanted to collaborate with each other. And Giorgia will go into more detail.",
+      "id": "ep_64_ut_17"
+    },
+    {
+      "end": 294434,
+      "speaker": "Giorgia Lupi",
+      "start": 235142,
+      "text": "Yeah, exactly. I mean, because if you know our work, you also know that we share a lot of, like, professional similarities. We love drawing with data. We both have a very handcrafted approach to data visualization. We love to produce very customized visuals with data. And, yeah, we, we definitely thought that it would be nice to collaborate. And right after we came back home in our cities, because I live in New York and Stephanie lives in London, we started a pretty intense email exchange over the summer, and we conceived, I guess, over two months, the concept for the project. So we started by throwing possibilities out and understanding how we could draw together with data. Since I live in New York and Stephanie lives in London, and I guess we took the biggest constraint as an asset. And the idea of hand drawing data postcards and sending it across the ocean, it sounded fun, I guess.",
+      "id": "ep_64_ut_18"
+    },
+    {
+      "end": 326398,
+      "speaker": "Stefanie Posavec",
+      "start": 295414,
+      "text": "Yeah. And I also think that another part of it is just that, because we're very similar, I think a lot of it is also navigating, like, ways to work together without stepping on each other's toes, where we each had this autonomy, but we were doing things together. So this kind of back, we each managed the domain of our own postcard and then swapped them. Seemed like a nice way for us to. To collaborate and still be able to do everything we wanted to do individually as well.",
+      "id": "ep_64_ut_19"
+    },
+    {
+      "end": 357344,
+      "speaker": "Giorgia Lupi",
+      "start": 326486,
+      "text": "Yeah. And I mean, Moritz, you were asking what we wanted to achieve, in a way, with the project. I guess that we both wanted to see if we were able to talk about data to a wider audience, so to speak, to people who are not designers, who are not data gigs, and maybe even not artists. So trying to see if more human approach to data and data visualization and the idea that we're using personal data and drawings could open the. Yeah, the possibility to talk about data to a wider audience.",
+      "id": "ep_64_ut_20"
+    },
+    {
+      "end": 367984,
+      "speaker": "Moritz Stefaner",
+      "start": 358604,
+      "text": "And why did you, like, go specifically for postcards and the paper medium? I mean, you could have also used emails, basically.",
+      "id": "ep_64_ut_21"
+    },
+    {
+      "end": 410170,
+      "speaker": "Stefanie Posavec",
+      "start": 369724,
+      "text": "I feel like I feel like email is cheating, but I mean, I think that just going with paper and pencils, it suited our analog approach. Like I know Giorgia always will. I mean, talk about her love of drawing and working through a concept by hand using pencil. And I often do a lot of my data gathering by hand. And so it seemed natural that we would work on a project that kind of amplified this part of our process. And so it just made sense to go the whole nine yards to do that.",
+      "id": "ep_64_ut_22"
+    },
+    {
+      "end": 476898,
+      "speaker": "Giorgia Lupi",
+      "start": 410242,
+      "text": "Yeah, it was really the decisions to go extreme and to limit ourselves, but also the slowness of the data transmissions across the ocean and the slowness of the, really the process of drawing the data reflects the idea that we wanted to show that spending time with your data is a way to better understand it as a practitioner because I guess it also, I know all, everybody are into self tracking. I know you and Rico are, and we wanted to explore. How do you know? Well, you know, I just know you like you. How also we can add more human nuance to the digital and passive, you know, data gathering about ourselves. So we want to really investigate how we can add meaning to our personal data by covering from the one hand a wide range of topics, like 52 topics that are not only activities, but also really to gather those data in a more manual and slow way. And like, after that, of course, the paper medium and the hand drawing seemed the perfect, you know. Yeah, the perfect end for that.",
+      "id": "ep_64_ut_23"
+    },
+    {
+      "end": 501934,
+      "speaker": "Moritz Stefaner",
+      "start": 476946,
+      "text": "I think it's very interesting how you set up this really strong constraint system. Like, you know, the whole project has really these very clear playing rules. Like everything is in the weekly rhythm. It needs to be a postcard. On the front you have the image, on the back you have the legend. So it's actually quite strict. Right. It's like you're serious in the format and then you explore all this variety in the actual design that goes into this format.",
+      "id": "ep_64_ut_24"
+    },
+    {
+      "end": 522624,
+      "speaker": "Stefanie Posavec",
+      "start": 502754,
+      "text": "Yeah, I feel that those constraints were necessary to even make the project happen just because otherwise I don't know if I would ever, if I would be able to get the drawing done every week. Like, it's good to have constraints to work in when you're dealing with such an intensive deadline.",
+      "id": "ep_64_ut_25"
+    },
+    {
+      "end": 536560,
+      "speaker": "Enrico Bertini",
+      "start": 523724,
+      "text": "So how did you decide to create visualizations based on personal data? So was that part of the original idea or. I don't know. It's something that came afterwards.",
+      "id": "ep_64_ut_26"
+    },
+    {
+      "end": 585154,
+      "speaker": "Giorgia Lupi",
+      "start": 536632,
+      "text": "I mean, we definitely didn't exactly know what we wanted to do when we first started to decide that we wanted to collaborate, but the more that we talked over emails, the more we were really compelled about the fact that we didn't know each other, but we have really a lot of similarities. We also, in Riku, we have personal similarities because, as you know, we are both expats in our. We are the same age, we're both only children. So we, you know, we really share a lot of personal similarities, and we didn't know each other. And at the same time, we had the same professional approach, and it sounded like that covering a wide aspects, like, snapshots of our personalities through our personal data, it was a good way to get to know each other and also really, to explore how you can get to know a person and get to know yourself better through data, of course.",
+      "id": "ep_64_ut_27"
+    },
+    {
+      "end": 588230,
+      "speaker": "Enrico Bertini",
+      "start": 586894,
+      "text": "Oh, sorry. Go ahead.",
+      "id": "ep_64_ut_28"
+    },
+    {
+      "end": 636826,
+      "speaker": "Stefanie Posavec",
+      "start": 588342,
+      "text": "Oh, no. To say some of the other themes that we were talking about at the beginning of the project, when we were thinking about it, and I guess this goes back into the whole, why are we doing postcards? Why did we choose that format? Is that for centuries, artists sketch the world around them, they sketch what they see, and they create still lifes or snatched drawings of people walking past them or whatever. So we're kind of doing the same thing. We're capturing the life that happens around us. But in our digital age, that includes the data. The data that kind of is everywhere in our lives. And so that's, like, another thing that we can respond to as people who draw, people who create things. Yeah.",
+      "id": "ep_64_ut_29"
+    },
+    {
+      "end": 661284,
+      "speaker": "Giorgia Lupi",
+      "start": 636850,
+      "text": "And just to add to what Stephanie said, again, the idea that this lowness and the force reflection that is required by the postcard, it's really a way to spend time with each other, because spending time with our personal data, to deliver it as a gift to the other person, it's our way of saying, I'm thinking about you. I'm just really spending time together to do something for you.",
+      "id": "ep_64_ut_30"
+    },
+    {
+      "end": 712564,
+      "speaker": "Enrico Bertini",
+      "start": 661704,
+      "text": "Yeah, no, I think that's a super important idea. I remember, I think some time ago, there was something like a blog post by Stephen Few on the slow data of movement or something along these lines. And I think it's really important to just be aware of the fact that we need to spend more time understanding what is behind data and shouldn't be super fast is not the way it works. So, yeah, I mean, I think it's a really, really important concept. So how did the design process work? How did you decide each time what to draw? And was there some synchronization between you, or you are totally free to design whatever you wanted for the specific topic you agreed to work on.",
+      "id": "ep_64_ut_31"
+    },
+    {
+      "end": 795594,
+      "speaker": "Stefanie Posavec",
+      "start": 713144,
+      "text": "I mean, the only place where we were in, where we were synchronized with each other. The only thing that we both had was the topic for the week. And then everything else was our own decision from. Yeah, from the drawing, from the data gathering to the. To the drawing. So, I mean, if there are ever drawings that look very similar, that's just like a natural kind of coincidence or serendipity that that happens. But I think, like, I think it changes everything, single week. So some weeks you might feel like you care more about the legibility. Other times you might just be using the data as an input to generate a drawing, or, and then maybe another week you might explore, like using a visual metaphor. Or maybe another week just working with materials that. Some nice pens that you bought. I think, like, one thing about this project is that, that we both discussed is that in the beginning, I think I was definitely more rigid in trying, thinking, what will the Internet say about my drawing? Will they judge me? But then as you move through that, as we move through the weeks, I think we saw it as a space to be experimental and to learn from our intentions and our focus. Probably change every week with every topic.",
+      "id": "ep_64_ut_32"
+    },
+    {
+      "end": 808560,
+      "speaker": "Moritz Stefaner",
+      "start": 796224,
+      "text": "But you gathered the data during the week, and then you sat down and drew the postcard, like on Sunday morning or afternoon or. How did this practically work? Or did you carry the postcard with you the whole week?",
+      "id": "ep_64_ut_33"
+    },
+    {
+      "end": 841294,
+      "speaker": "Giorgia Lupi",
+      "start": 808632,
+      "text": "No. Also, the format of the data gathering and the drawing was pretty rigid. And so we would gather the data from a Monday to a Sunday. Then we let the data sink in a bit while we start tracking another typology of data for the week. Number two, for example. And then the following weekend, we would draw our posters. And so the idea was really to be able to send it to the other person by Monday morning. So I would normally draw on Saturday mornings because I'm just really crazy because I want to have things done ahead. Well, I guess Stephanie was drawing more.",
+      "id": "ep_64_ut_34"
+    },
+    {
+      "end": 845874,
+      "speaker": "Stefanie Posavec",
+      "start": 841334,
+      "text": "On I draw very long, Sunday, Monday, Tuesday.",
+      "id": "ep_64_ut_35"
+    },
+    {
+      "end": 850310,
+      "speaker": "Enrico Bertini",
+      "start": 848174,
+      "text": "So how long does it take to draw one?",
+      "id": "ep_64_ut_36"
+    },
+    {
+      "end": 903174,
+      "speaker": "Giorgia Lupi",
+      "start": 850422,
+      "text": "Oh, so when you're very lucky that you kind of, like, find immediately the key to understand your. And the categorization of your data, and the very first idea for the drawing practically works. I guess that when you are lucky, it takes a couple of hours. I guess when you are really not lucky and you have to waste postcards and to bang your head against the wall, it can take up to, I don't know, I say five or 6 hours and. But, you know, another important thing that we learned is that then you have to get one postcard sent, and so you have to get it done. You can't say no. Oh my God. I'm just like really postponing it and procrastinating it since forever, you have to get it done. And so ultimately, and you know, in the end, and eventually you will draw something and you will also embrace that probably is not the best output that you've ever made, but it's just something that you made it, you know?",
+      "id": "ep_64_ut_37"
+    },
+    {
+      "end": 991594,
+      "speaker": "Moritz Stefaner",
+      "start": 904114,
+      "text": "This is a good time to talk about our sponsor this week. So once again, data stories is brought to you by click, who allow you to explore the hidden relationships within your data that lead to meaningful insights. Let your instincts lead the way to create personalized visualizations and dynamic dashboards with Qlik sense, which you can download for free at Qlik deries. That's Q l I K Datastories. And you know, last time we talked about the great data literacy post they have up on their blog. And now there's a new blog post and this one is a bit more fun and games and it asks what chart are you? And you can take a little embedded quiz and answer a few personal questions and then you can find out which visualization best fits your personality. And yeah, for me it was the scatterplot. I don't know what that tells about my potentially very scattered personality, but you should try out yourself what chart type you are and let us know. And the URL is of course in the show notes. And yeah, I hope you enjoy it. I had a bit of fun with that quiz. So thanks again for click for the continued support. It's really great that they keep supporting us. And as I said, you can find out more at Qlik deries. That's Q l I K Datastories. And now back to the show.",
+      "id": "ep_64_ut_38"
+    },
+    {
+      "end": 1010754,
+      "speaker": "Enrico Bertini",
+      "start": 992214,
+      "text": "So how accurate is what you draw with respect to the data set? Is it one to one or. You see what I mean? I mean, you have to draw with your hands exactly what is in your data. So is it a one to one matching or. It takes a lot of time, I guess.",
+      "id": "ep_64_ut_39"
+    },
+    {
+      "end": 1025795,
+      "speaker": "Moritz Stefaner",
+      "start": 1011214,
+      "text": "Yeah, I mean, a lot of the things are countable, so I think. Right, so you went for a lot of things where you can basically count. This is the number of smiles or the number of curses. So I think that makes it easier, right?",
+      "id": "ep_64_ut_40"
+    },
+    {
+      "end": 1059754,
+      "speaker": "Stefanie Posavec",
+      "start": 1025899,
+      "text": "Yeah. Yes. It was definitely geared towards analog rendering. And I mean, I don't know, like, if you ever looked at my postcards, you would realize over the weeks that I started to come up with drawings that required less and less measurement. So, like, things that I could like, like big blobs of marker that I could just kind of throw down. So I think you're drawing. Yeah. You are working with the fact that you are an imperfect human and are coming up with visual solutions that work well with the fact that you're an imperfect human.",
+      "id": "ep_64_ut_41"
+    },
+    {
+      "end": 1087554,
+      "speaker": "Moritz Stefaner",
+      "start": 1061894,
+      "text": "So, practically speaking, how did you acquire the data? Did you have a clicker in your pocket, or did you have a notebook or iPhone apps? I know Nicholas Felton. He moved, really, from notebooks over excel to his own custom made iPhone app. Like, was your process more analog? Tell us a bit about how you actually tracked yourself over the week.",
+      "id": "ep_64_ut_42"
+    },
+    {
+      "end": 1096194,
+      "speaker": "Stefanie Posavec",
+      "start": 1088254,
+      "text": "I feel like we might have different processes here. So I'd be curious to know George's first, because I actually don't totally know what she does.",
+      "id": "ep_64_ut_43"
+    },
+    {
+      "end": 1204404,
+      "speaker": "Giorgia Lupi",
+      "start": 1096614,
+      "text": "Well, I guess that. So just to make it straight, in the first week, we decided that we would have collected, like, before starting dear data. We decided that we would have collected our data manually, like hand drawing and writing our data in our Molly skin. But after, I guess, like, three days, we texted each other and really realized that it was just insane. And so we started to use digital tools, as, for example, just noting down on our notes app, both in the iPhone and in the Mac when we were at computer, or also evernote. And we, of course, also used reporter app. So what I, most of the times, ended up doing was mixing up different techniques, like writing my note of Evernote while on my phone, sometimes writing them on paper if it was easier, and then waiting for the proper time to, you know, just, like, log in digitally. Or I'm just, like, thinking right now, even sometimes telling my boyfriend, remember, I have to lock this thing as soon as I get home. Like, especially when you're on. Exactly. Because, like, in the. In the freezing winter in New York last year, when sometimes I just couldn't take off my gloves to write on my phone. So there has been also some relying on memories just to close on that. On my perspective, I found out that the different annotating tools that we use, like being your Molly's king or Evernote, or tracking gaps, influenced the data gathering. So, for example, if you would use reporter, you have to set up specific questions for the data collection at the beginning of the week, and then you would answer to this question with your logs. And I guess that it brings to different results than jotting down our logs about the topic and then finding data afterwards. So it's also interesting how the data gathering, in a way, influenced the collection. But Stephanie, please elaborate on that.",
+      "id": "ep_64_ut_44"
+    },
+    {
+      "end": 1260008,
+      "speaker": "Stefanie Posavec",
+      "start": 1205384,
+      "text": "Well, yeah, I mean, I think it did definitely influence the collection because I think if you look at the difference between mine, George's data, you would see that hers is incredibly detailed, whereas mine is quite, quite simple. But I think it's because we gather data differently. So I would set up questions in the beginning, and then I would generally use an app. So I would often use reporter, although I did sometimes use a notebook. But I liked gathering data where I could do it, where it was second nature, where I wouldn't even realize I was doing it. So I found it was easier to set up questions beforehand. So sometimes that means that I might not have asked the right questions. But. But I mean, every week. Every week's an experiment, right?",
+      "id": "ep_64_ut_45"
+    },
+    {
+      "end": 1287484,
+      "speaker": "Moritz Stefaner",
+      "start": 1260056,
+      "text": "You have only one shot per week, but then you have 50 weeks. So even if one week didn't go quite well, the next one is coming right up. So, yeah. So you did this for a full year. Now, not all is published, but you are finished already. Can I ask you, like, a really central question? Like, what's the most, like, the newest thing you've learned, the most interesting thing you've learned about yourself or maybe about the other person or about the world?",
+      "id": "ep_64_ut_46"
+    },
+    {
+      "end": 1288518,
+      "speaker": "Stefanie Posavec",
+      "start": 1288134,
+      "text": "Wow.",
+      "id": "ep_64_ut_47"
+    },
+    {
+      "end": 1289534,
+      "speaker": "Giorgia Lupi",
+      "start": 1288566,
+      "text": "There are so many things.",
+      "id": "ep_64_ut_48"
+    },
+    {
+      "end": 1290954,
+      "speaker": "Moritz Stefaner",
+      "start": 1289574,
+      "text": "That's a big one. Yeah.",
+      "id": "ep_64_ut_49"
+    },
+    {
+      "end": 1292074,
+      "speaker": "Stefanie Posavec",
+      "start": 1291294,
+      "text": "Yeah.",
+      "id": "ep_64_ut_50"
+    },
+    {
+      "end": 1361904,
+      "speaker": "Giorgia Lupi",
+      "start": 1292734,
+      "text": "I mean, I guess. As for the data, we didn't really kind of, like, consider dear data as a self improvement project in the first place. But I guess that it turned out to be sort of one of this kind for me. Stephanie and I, we've been talking, and we kind of, like, share this thing that we learned to pay attention. So to be really incredibly more aware of your surroundings, of the people you interact with every day, of your behaviors in the way, really, that you relate to other people in a way that if you don't count all of these activities, you just can't be as much as aware. And also the thing that we rely on our memories for, the things that happen. But, like, so many things happen around us, and we have blind spots and gaps, sometimes we can even answer the simplest question, like where I was last week at this time, but. And so by acknowledging all of those moments, we are automatically building richer memories, in a way, for our future. And so, to me, the idea that counting helps you be more aware more in the present, but also helps you remember things more vividly, as it was something that I didn't expect in the beginning.",
+      "id": "ep_64_ut_51"
+    },
+    {
+      "end": 1369504,
+      "speaker": "Enrico Bertini",
+      "start": 1362404,
+      "text": "For example, it's something maybe we can call data mindfulness, or something along these lines.",
+      "id": "ep_64_ut_52"
+    },
+    {
+      "end": 1371372,
+      "speaker": "Giorgia Lupi",
+      "start": 1369964,
+      "text": "You just made up an idea.",
+      "id": "ep_64_ut_53"
+    },
+    {
+      "end": 1372384,
+      "speaker": "Stefanie Posavec",
+      "start": 1371468,
+      "text": "Mindfulness.",
+      "id": "ep_64_ut_54"
+    },
+    {
+      "end": 1374154,
+      "speaker": "Enrico Bertini",
+      "start": 1373234,
+      "text": "No, but it's true.",
+      "id": "ep_64_ut_55"
+    },
+    {
+      "end": 1376034,
+      "speaker": "Moritz Stefaner",
+      "start": 1374234,
+      "text": "Just invented a new scientific field.",
+      "id": "ep_64_ut_56"
+    },
+    {
+      "end": 1393614,
+      "speaker": "Enrico Bertini",
+      "start": 1376114,
+      "text": "This is what he does. We should totally develop it further. No, but I have to say that I do collect some personal data myself, and it's the same for me. It just makes me much more aware of what I'm doing. So I think it's a good exercise in general.",
+      "id": "ep_64_ut_57"
+    },
+    {
+      "end": 1395178,
+      "speaker": "Moritz Stefaner",
+      "start": 1393954,
+      "text": "Steph, how about you?",
+      "id": "ep_64_ut_58"
+    },
+    {
+      "end": 1490508,
+      "speaker": "Stefanie Posavec",
+      "start": 1395266,
+      "text": "Yeah, well, I mean, I was. Oh, okay. Sorry. Yeah. I think basically everything that George has said, I definitely think it does make you more aware and it makes you notice. Although I did also notice that on some week, there's some type of data that you do gather that actually prevents you from living in the moment. I always bring up our week of laughter as a particularly difficult week because it meant that you couldn't actually enjoy laughing with your friends or going out and having a drink because you always had to gather. So it's all about fine tuning that back, figuring out where that balance is. But I think another thing. Yeah. This idea of noticing and being on, it's this idea of being honest. I have never felt like. I sometimes feel quite shy. I know I talk about my work, but I don't tell people very much about my life. And so this has been a really interesting exercise in the fact that you're gathering data about your life. So you have to be honest about your life, and it forces you both to reveal more about your life to people than you probably would otherwise, and then also forces you to be honest to yourself about the data you're gathering. Like, we had a week of negative thoughts or a week of envy. And because we were gathering data and we needed to gather it honestly, we really had to confront these kind of dark thoughts in our head, straight on. So that was interesting.",
+      "id": "ep_64_ut_59"
+    },
+    {
+      "end": 1493712,
+      "speaker": "Moritz Stefaner",
+      "start": 1490606,
+      "text": "So it was basically a year long therapy? Is that what you're saying?",
+      "id": "ep_64_ut_60"
+    },
+    {
+      "end": 1543184,
+      "speaker": "Giorgia Lupi",
+      "start": 1493808,
+      "text": "Yeah, a year long oversea therapy. But, I mean, I think it's very interesting. Most definitely just said, because if you think about it, well, okay, we started your data just by sharing our data between the two of us. But then we made it public, and, you know, people responded to that. And, like on social media, we tend to share, of course, only our best selves to the world, you know, just like your most amazing moments. But the truth is that really, I guess, that the biggest connection to the other people that are receiving what you're saying happen when you actually show that you're vulnerable, that you are weak, that you are geeky, that you are just a human being. And I guess that is what people like the most. And I guess that is a huge part of why that project resonates to people, because it's, you know. Yeah, I guess so.",
+      "id": "ep_64_ut_61"
+    },
+    {
+      "end": 1568792,
+      "speaker": "Enrico Bertini",
+      "start": 1544364,
+      "text": "So I have one last question. So this has been a very successful project. Can you tell us a little bit about how the project was received and how did people react? I know that some people even try to kind of, like, do the same thing and repeat your project. So I'm pretty sure you have some interesting stories there. Can you share some of this with us?",
+      "id": "ep_64_ut_62"
+    },
+    {
+      "end": 1568976,
+      "speaker": "Stefanie Posavec",
+      "start": 1568808,
+      "text": "I mean.",
+      "id": "ep_64_ut_63"
+    },
+    {
+      "end": 1569564,
+      "speaker": "Giorgia Lupi",
+      "start": 1569000,
+      "text": "Well.",
+      "id": "ep_64_ut_64"
+    },
+    {
+      "end": 1623014,
+      "speaker": "Stefanie Posavec",
+      "start": 1571544,
+      "text": "Yeah. Well, I mean, Giorgia manages the dear data email account, so she definitely receives lots of really great feedback from people. But I think, I mean, it's just, we've just had so much positive feedback both within our community and out of it. And, like, one of the nicest things that I like is when people come up and they say, oh, I count people who are not data visualization within the community who come up and say, oh, I collect and I count things about myself. And I didn't realize other people did, too. And I'm so happy that I'm not crazy or my daughter does the same thing, and she always thought she was a little bit weird, but now I'll tell her that there are other women doing the same thing. So things like that, like, it creates a connection with other people. That's what I really like.",
+      "id": "ep_64_ut_65"
+    },
+    {
+      "end": 1707996,
+      "speaker": "Giorgia Lupi",
+      "start": 1623134,
+      "text": "Yeah, same here. And I think that we. Yeah, we talked about that, Stephanie. It's also nice that people. Yeah, they really send us email to say how much they love the project, and we are still very surprised about that. Also, the fact that people would take time to write us just to say how much they liked it, and also commenting on specific details and saying that they're getting to know us as well. And also, when people tweet us or write us, they use adjectives and words that you would hardly relate to a data driven project because they all use adjectives such as, like, refreshing, wholesome, delicate, absorbing. Yeah. Even lovely. You know, if you think about, you know, this is a very data driven project. So if you think about it, it's pro, it's surprising that they would use those adjectives. And also, one of the things that really impressed me the most is that we received three or four emails from high school teacher that they are using the dear data format to explain their students, like their teenage students, how to work with data. And that is, that is nice. So just like, really, it was something that we told in the beginning to achieve. The fact that we can show that data is not scary. And you don't necessarily have to be a statistician or an expert or a programmer to just start to think in data and to have a more data oriented mindset in a way.",
+      "id": "ep_64_ut_66"
+    },
+    {
+      "end": 1749846,
+      "speaker": "Moritz Stefaner",
+      "start": 1708180,
+      "text": "Right, right. Yeah, I think that's great about the project that transcends this classical data visualization frame, you know, both in the medium, but also in the content and the general approach. And this, as you say, this can open so many doors for people who think they are not into data, and then they see your work and they realize maybe, yeah, I'm totally into data. So final question, Giorgia, if somebody wanted to start a similar project, what tip would you actually give them? Is there anything you would change if you could go back? Or what was the biggest challenge? What did you underestimate? Or is there anything you would have liked to try it out you didn't get around to? Any tips for anyone else?",
+      "id": "ep_64_ut_67"
+    },
+    {
+      "end": 1829482,
+      "speaker": "Giorgia Lupi",
+      "start": 1749950,
+      "text": "I will answer on a positive side, not touching upon what I was changed, but I think that the first advice that I would say is really just try to have a side project when there is no client judging you, nor is really looking over your shoulder. Because I know that we are all busy, but we can make a little time to try things, to take risks and explore hunches. And that for us, is really being sort of like your R and D sandbox for our work because we've been really forced to invent new visual motors. And that is something that I would really, really, really. It's not that everybody should start drawing their data, but like experiment with something that is more not on demand work. First of all, I would, I would really, really suggest that. But also what we realized the most is that the collaboration aspect was definitely, definitely important to make both stick to the project because we, yeah, we have been holding each other accountable and pushing each other forward every week. And the fact that we weren't friends in the beginning, but we were two people who respected each other for their body of work that we've been doing. It really helped us being committed to the project. And, you know, we didn't want to let the other people down. We actually wanted to impress each other. And we've really been funding it incredibly important to stay committed.",
+      "id": "ep_64_ut_68"
+    },
+    {
+      "end": 1835074,
+      "speaker": "Moritz Stefaner",
+      "start": 1829658,
+      "text": "Yeah. So the tip would be to, if you do a side project, do it together and set up some rules.",
+      "id": "ep_64_ut_69"
+    },
+    {
+      "end": 1839418,
+      "speaker": "Giorgia Lupi",
+      "start": 1835234,
+      "text": "I mean, Enrico and Mark isn't the same with your podcast. I mean, what if.",
+      "id": "ep_64_ut_70"
+    },
+    {
+      "end": 1894884,
+      "speaker": "Moritz Stefaner",
+      "start": 1839546,
+      "text": "Exactly. No, exactly. Yeah. Like, each one of us would probably have, like, stopped the whole project, you know, already five times. But because it's two of us, we need to keep going. Like, how could we know? Absolutely. That's exactly the point. So, so great to have you. I would encourage everybody to go to dearminusdata.com and check out all the postcards are there. And if people, if you click read more on each week, you get a long description actually of what the week was like for you and how you approach the topic. So the website is really a treasure chest of lots of drawings and sketches and thoughts. And I think if you read all 52 postcards, you will get to know Giorgia and Steph quite well as well. So that's another reward, a lot of little facets from their life. Yeah, it's a lovely project. Lovely site. Check it out@dadata.com.",
+      "id": "ep_64_ut_71"
+    },
+    {
+      "end": 1899896,
+      "speaker": "Enrico Bertini",
+      "start": 1895624,
+      "text": "Yeah, thanks for making it and it's a lovely, lovely project.",
+      "id": "ep_64_ut_72"
+    },
+    {
+      "end": 1902880,
+      "speaker": "Giorgia Lupi",
+      "start": 1900080,
+      "text": "Thank you for having us. It was really a pleasure.",
+      "id": "ep_64_ut_73"
+    },
+    {
+      "end": 1904776,
+      "speaker": "Moritz Stefaner",
+      "start": 1902952,
+      "text": "Thanks for coming. Bye bye.",
+      "id": "ep_64_ut_74"
+    },
+    {
+      "end": 1996434,
+      "speaker": "Enrico Bertini",
+      "start": 1904880,
+      "text": "Bye bye. Hey, guys, thanks for listening to data stories again. Before you leave, we have a request if you can spend a couple of minutes rating us on iTunes, that would be extremely helpful for the show. I also want to give you some information on the many ways you can get news directly from us. We are, of course, on twitter@twitter.com. Datastories. We have a Facebook page@Facebook.com, Datastories podcast. And we now also have a newsletter. So if you want to get news directly into your inbox, go to our homepage datastory es and look for the link that you find on the right. One last thing I want to tell you is that we love to get in touch with our listeners, especially if you want to suggest way to improve the show. Amazing people you want us to invite or projects you want us to talk about. So do get in touch with us. That's all for now. See you next time. Thanks for listening to data stories data stories is brought to you by clicking who allows you to explore the hidden relationships within your data that lead to meaningful insights. Let your instincts lead the way to create personalized visualizations and dynamic dashboards with Qlik sense, which you can download for free at Qlik Datastories. That's Qlik Datastories.",
+      "id": "ep_64_ut_75"
+    }
+  ],
+  "confidence": 0.933831987865802,
+  "audio_duration": 1996,
+  "punctuate": true,
+  "format_text": true,
+  "dual_channel": false,
+  "webhook_url": null,
+  "webhook_status_code": null,
+  "webhook_auth": false,
+  "webhook_auth_header_name": null,
+  "speed_boost": false,
+  "auto_highlights_result": null,
+  "auto_highlights": false,
+  "audio_start_from": null,
+  "audio_end_at": null,
+  "word_boost": [],
+  "boost_param": null,
+  "filter_profanity": false,
+  "redact_pii": false,
+  "redact_pii_audio": false,
+  "redact_pii_audio_quality": null,
+  "redact_pii_policies": null,
+  "redact_pii_sub": null,
+  "speaker_labels": true,
+  "content_safety": false,
+  "iab_categories": true,
+  "content_safety_labels": {
+    "status": "unavailable",
+    "results": [],
+    "summary": {}
+  },
+  "language_detection": false,
+  "language_detection_threshold": null,
+  "language_confidence": null,
+  "custom_spelling": null,
+  "throttled": false,
+  "auto_chapters": true,
+  "summarization": false,
+  "summary_type": null,
+  "summary_model": null,
+  "custom_topics": false,
+  "topics": [],
+  "speech_threshold": null,
+  "speech_model": "best",
+  "chapters": [
+    {
+      "summary": "We rely on our memories for the things that happen. Let your instincts lead the way to create personalized visualizations and dynamic dashboards with Qlik sense. Data stories is brought to you by Qlik who allows you to explore the hidden relationships within your data that lead to meaningful insights.",
+      "gist": "Data Stories: Stories of the Week",
+      "headline": "By acknowledging all of those moments, we are automatically building richer memories",
+      "start": 160,
+      "end": 42144,
+      "id": "ep_64_ch_0"
+    },
+    {
+      "summary": "Today we're talking about the lovely dear data project with Stefanie Posavec and Giorgia Lupi. The project is for the two of you to get to know each other basically through data and through specifically through postcards that you draw. We're in the final stretches of this really marathon project.",
+      "gist": "The Dear Data Project",
+      "headline": "Today we're talking about the lovely dear data project with Stefanie and Giorgia",
+      "start": 52844,
+      "end": 173248,
+      "id": "ep_64_ch_1"
+    },
+    {
+      "summary": "The project came about over a beer. The idea of hand drawing data postcards and sending it across the ocean sounded fun. The pair wanted to see if they could talk about data to a wider audience. The project covers 52 topics.",
+      "gist": "Drawing With Your Data: The First Edition",
+      "headline": "Moritz: How did this project come about? Stephanie: Over a beer",
+      "start": 173336,
+      "end": 522624,
+      "id": "ep_64_ch_2"
+    },
+    {
+      "summary": "How did you decide to create visualizations based on personal data? It's really a way to spend time with each other, because spending time with our personal data, to deliver it as a gift to the other person.",
+      "gist": "Interviews with the Creators of '",
+      "headline": "How did you decide to create visualizations based on personal data",
+      "start": 523724,
+      "end": 692814,
+      "id": "ep_64_ch_3"
+    },
+    {
+      "summary": "The idea was to draw one postcard a week and send it to the other person by Monday morning. The format of the data gathering and the drawing was pretty rigid. But as you move through the weeks, you learn to be experimental and to learn from your intentions.",
+      "gist": "Postcards for the Week",
+      "headline": "How did the design process work? How did you decide each time what to draw",
+      "start": 694314,
+      "end": 903174,
+      "id": "ep_64_ch_4"
+    },
+    {
+      "summary": "This is a good time to talk about our sponsor this week. Let your instincts lead the way to create personalized visualizations and dynamic dashboards with Qlik sense. New blog post asks what chart are you? Thanks again for click for the continued support.",
+      "gist": "Data Literacy",
+      "headline": "Qlik sense lets you explore hidden relationships within your data",
+      "start": 904114,
+      "end": 989726,
+      "id": "ep_64_ch_5"
+    },
+    {
+      "summary": "Stephanie: How did you acquire the data? Did you use a clicker in your pocket, or did you have a notebook or iPhone apps? Nicholas Felton moved, really, from notebooks over excel to his own custom made iPhone app. How the data gathering influenced the collection?",
+      "gist": "How to Track Yourself for a Week",
+      "headline": "Stephanie: How did you gather the data for this show",
+      "start": 989870,
+      "end": 1268752,
+      "id": "ep_64_ch_6"
+    },
+    {
+      "summary": "For a year, George and Stephanie collected data about their lives. The idea is that counting helps you be more aware more in the present. It also helps you remember things more vividly. What's the most interesting thing you've learned about yourself?",
+      "gist": "The Data Challenge: A Year of Meditation",
+      "headline": "So you did this for a full year and now all the data is published",
+      "start": 1268848,
+      "end": 1543184,
+      "id": "ep_64_ch_7"
+    },
+    {
+      "summary": "Stephanie: Can you tell us a little bit about how the project was received and how did people react? Giorgia: We've just had so much positive feedback both within our community and out of it. This can open so many doors for people who think they are not into data.",
+      "gist": "Dear Data: A Community Project",
+      "headline": "How has the project been received and how did people react",
+      "start": 1544364,
+      "end": 1727694,
+      "id": "ep_64_ch_8"
+    },
+    {
+      "summary": "The team is sending 52 postcards to people around the world. The project is called dearminusdata. com. If you want to follow along, visit the site and read the postcards. Here are some tips for anyone wanting to start a similar project.",
+      "gist": "A Side Project: Drawing Data Stories",
+      "headline": "If somebody wanted to start a similar project, what tip would you give them",
+      "start": 1729074,
+      "end": 1912484,
+      "id": "ep_64_ch_9"
+    },
+    {
+      "summary": "Data stories is brought to you by clicking who allows you to explore the hidden relationships within your data. Let your instincts lead the way to create personalized visualizations and dynamic dashboards with Qlik sense. We love to get in touch with listeners, especially if you want to suggest way to improve the show.",
+      "gist": "Datastories: How to Subscribe to the Podcast",
+      "headline": "Before you leave, we have a request if you can spend a couple of minutes rating us on iTunes",
+      "start": 1912664,
+      "end": 1996434,
+      "id": "ep_64_ch_10"
+    }
+  ],
+  "disfluencies": false,
+  "entity_detection": false,
+  "sentiment_analysis": false,
+  "sentiment_analysis_results": null,
+  "entities": null,
+  "speakers_expected": null,
+  "summary": null,
+  "custom_topics_results": null,
+  "episode_num": 64,
+  "episode_metadata": {
+    "speakers": [
+      "Giorgia Lupi",
+      "Moritz Stefaner",
+      "Enrico Bertini",
+      "Stefanie Posavec"
+    ],
+    "WPid": "453",
+    "url": "https://datastori.es/podlove/file/1579/s/feed/c/mp3/dear-data-with-giorgia-lupi-and-stefanie-posavec-ds64.mp3",
+    "episode_title": "\"Dear Data\" with Giorgia Lupi and Stefanie Posavec"
+  }
+}

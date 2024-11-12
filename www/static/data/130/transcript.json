@@ -1,0 +1,932 @@
+{
+  "id": "798aadce-7bb9-4524-ad10-1e435f5dfd60",
+  "language_model": "assemblyai_default",
+  "acoustic_model": "assemblyai_default",
+  "language_code": "en_us",
+  "status": "completed",
+  "audio_url": "https://datastori.es/podlove/file/5455/s/feed/c/mp3/130-highlights-from-IEEE-vis18-with-jessica-hullman-and-Robert-kosara.mp3",
+  "utterances": [
+    {
+      "end": 103682,
+      "speaker": "Enrico Bertini",
+      "start": 19720,
+      "text": "Hi, everyone. Welcome to a new episode of Data stories. My name is Enrico Bertini, and I am a professor at NYU in New York, where I do research in data visualization. And usually I do this with my partner in crime, Morris Stefanor, who is an independent designer of data visualizations. But he's not with us today. I'm going to tell you why in a moment. And in this podcast, we talk about data visualization, analysis, and generally the role that data plays in our lives. And usually we do that together with a guest we invite on the show. But before we start, just a quick note. Our podcast is listed, supported, so there's no ads. And if you enjoyed the show, please consider supporting us with recurring payments on patreon.com or send us a one time donation on Paypal me Datastories. So today we have one of those special episodes because we are actually recording live from the IEEE vis conference, and we do that virtually every year except last year. So we are back to doing this live, and we have two great guests, as usual. To old friends of our podcast, we have Jessica Hullman and Robert Kosara. Hi, Jessica and Robert. Hello. How are you?",
+      "id": "ep_130_ut_0"
+    },
+    {
+      "end": 104138,
+      "speaker": "Jessica Hullman",
+      "start": 103746,
+      "text": "Good.",
+      "id": "ep_130_ut_1"
+    },
+    {
+      "end": 106330,
+      "speaker": "Robert Kosara",
+      "start": 104234,
+      "text": "Doing well. How are you doing?",
+      "id": "ep_130_ut_2"
+    },
+    {
+      "end": 126210,
+      "speaker": "Enrico Bertini",
+      "start": 106490,
+      "text": "Yeah, we are almost at the end of the conference. We have only one more half day to go, so that's almost the perfect timing for us. So maybe let's start by introducing yourself a little bit in case people don't know who you are, and then we can go through the highlights of this conference.",
+      "id": "ep_130_ut_3"
+    },
+    {
+      "end": 149564,
+      "speaker": "Jessica Hullman",
+      "start": 126550,
+      "text": "Sure. Hi, I'm Jessica Hullman. I'm from Northwestern University. I recently moved there from University of Washington, and I'm in CS and journalism there. I do data visualization research, often looking at how sort of the public interprets visualizations, often looking at topics like uncertainty visualization, and how we reason with our prior knowledge as we look at visualizations.",
+      "id": "ep_130_ut_4"
+    },
+    {
+      "end": 178712,
+      "speaker": "Robert Kosara",
+      "start": 149662,
+      "text": "And I'm Robert Kosara. I am a research scientist at Tableau Software. I've been there for over six years now, and this is my 18th VIS conference. So kind of an old timer here, and I do research in visualization and some of the perceptual basics of visualization and also interested in general in presentation and storytelling and these kinds of topics.",
+      "id": "ep_130_ut_5"
+    },
+    {
+      "end": 183872,
+      "speaker": "Enrico Bertini",
+      "start": 178856,
+      "text": "Yeah, I think, Robert, we have done this together for a while. I don't know if that's the first time.",
+      "id": "ep_130_ut_6"
+    },
+    {
+      "end": 185168,
+      "speaker": "Robert Kosara",
+      "start": 183896,
+      "text": "A few times, yeah.",
+      "id": "ep_130_ut_7"
+    },
+    {
+      "end": 326266,
+      "speaker": "Enrico Bertini",
+      "start": 185344,
+      "text": "Fourth time or so as well. Third time. Right. Perfect. So we are in good hands. Okay. So, as I said, we are at the Vis conference this year is in Berlin, so it's after four years again in Europe, and I just want to briefly define the vis conference for those of you who are listening and don't know what it is about. So that's the main academic conference in visualization. It happens every year, and it's normally in the US, but from time to time it's also in Europe and this year it's in Berlin. And many people are happy about that. And every time is a different vibe, and the conference includes a lot of different kind of events, I would say the main tracks are paper presentations where people present the results of their research, but there is also panels, workshops, and a lot of other things going on. So today we're going to cover just a few bits of that. So each of us has been only in a very small proportion of these events. So I think it's important to say that this is just our highlights and it's not necessarily representative of everything that happened here. And one thing that I want to say before we start that is often confusing, is that the conference contains three main tracks, but nobody really cares about that anymore. If you're curious, they are called infovis, VAST and SCIVIS, but we're not going to talk about that too much. Yeah, so I think we're mainly going to cover events first, some of the events that happen here, and then we're going to go through some highlights in terms of technical work, new papers, new ideas, new methods, techniques, etcetera. Okay, so let's start with events. So one of the first events that happened at the conference is the belief workshop. This is a workshop that has been going on for many years. I am actually myself one of the original founders of the event, but I'm no longer taking care of it. But Robert has been there. And Robert, maybe you want to talk about Believ, what the main highlights from the workshop and what it is about. I think I didn't say that.",
+      "id": "ep_130_ut_8"
+    },
+    {
+      "end": 427044,
+      "speaker": "Robert Kosara",
+      "start": 326378,
+      "text": "Yes. BELIV is I'm not going to try and explain the acronym because they now changed it also. But it was a very painful acronym. But it's. And BELIV is spelled BELIV. So it's a bit of a strange acronym. But anyway, so the idea is that it's about new ways of doing, evaluation and visualization, and that has been very useful to also inspire new work in the main conference, I think. But this year was focused on replication, and so the idea was to get all these people together to talk about how we'd be able to do more around making it easier to replicate work, whether we need to do that and so on. And I had a paper with Steve Haroz where we talked about all the ways, basically, you can do things wrong. So we looked at all the other kinds of things that you can do wrong in study design, in data analysis, and so on. And then we suggested some ways of doing it better, basically. And the belief conference this year was also an interesting setup where we had a handful of paper presentations that were regular papers, and then there was a panel where they had several of the people discuss their papers. And then the afternoon was breakout sessions where they started with short talks where basically individual people were pitching their topics, and then they had these breakout groups talk about those topics separately. And that actually worked out quite well, I think. I was quite surprised by how well it worked because that's not a very common thing to see here at this conference. But I think we ended up with some good results there and some good discussions.",
+      "id": "ep_130_ut_9"
+    },
+    {
+      "end": 428600,
+      "speaker": "Enrico Bertini",
+      "start": 427132,
+      "text": "Anything special there?",
+      "id": "ep_130_ut_10"
+    },
+    {
+      "end": 454560,
+      "speaker": "Robert Kosara",
+      "start": 429020,
+      "text": "Well, lots of special individual discussions, I guess, but we had some good discussions about what it means to replicate with qualitative studies. There were a few other things around, a whole variety. I can't even remember all the different discussions, but, yeah, I thought that it was very engaging. I felt it was actually a really good idea to do this. I think that should be done more, especially for workshops.",
+      "id": "ep_130_ut_11"
+    },
+    {
+      "end": 455584,
+      "speaker": "Enrico Bertini",
+      "start": 454600,
+      "text": "Yeah, yeah.",
+      "id": "ep_130_ut_12"
+    },
+    {
+      "end": 467920,
+      "speaker": "Jessica Hullman",
+      "start": 455712,
+      "text": "I didn't know you had written a paper about how not to do experiments, because I also wrote one this year. So to compare. We're both so judgmental. It's always critiquing. So I'll have to read yours for sure.",
+      "id": "ep_130_ut_13"
+    },
+    {
+      "end": 496028,
+      "speaker": "Enrico Bertini",
+      "start": 468040,
+      "text": "Yes. And then I think there was this other event that is called bis in practice that I really, really like because it promotes more integration between academia and practitioners. Right. Researchers and practitioners. And it tries to bring more practitioners here to talk about their problems, what they're struggling with. And I think we need much, much more of this kind of interaction between practitioners and researchers. But I haven't been there.",
+      "id": "ep_130_ut_14"
+    },
+    {
+      "end": 512160,
+      "speaker": "Robert Kosara",
+      "start": 496204,
+      "text": "Yeah. So this was interesting this year because it was an actual track, which I don't think, or sort of like a workshop on Monday. And I don't think that they had done this before, but I'm not entirely sure. But they brought in some really interesting people, and this was partly because they were local here in Berlin or close by.",
+      "id": "ep_130_ut_15"
+    },
+    {
+      "end": 515536,
+      "speaker": "Enrico Bertini",
+      "start": 512200,
+      "text": "Right. Yes. That's a perfect location for database. Right.",
+      "id": "ep_130_ut_16"
+    },
+    {
+      "end": 515904,
+      "speaker": "Jessica Hullman",
+      "start": 515568,
+      "text": "Right.",
+      "id": "ep_130_ut_17"
+    },
+    {
+      "end": 534010,
+      "speaker": "Robert Kosara",
+      "start": 515992,
+      "text": "And they also had people who were in town because of information plus, which is another conference that happened essentially just before, and it annoyingly overlapped with the Sunday with Biz, so they had people like Lisa, Charlotte Rost to speak about tools, and there was.",
+      "id": "ep_130_ut_18"
+    },
+    {
+      "end": 536462,
+      "speaker": "Enrico Bertini",
+      "start": 535830,
+      "text": "Martin Luther.",
+      "id": "ep_130_ut_19"
+    },
+    {
+      "end": 567248,
+      "speaker": "Robert Kosara",
+      "start": 536486,
+      "text": "Martin Lumbrex is right. I keep thinking of his Twitter handles, can't remember his actual name, and a few other people that gave talks that were really interesting and that were quite unusual for the Wiz conference. And so that was really good. And they had a little bit of a discussion after the part about tools that Lisa and somebody else had done. And so it was a good discussion, and I think it really brought very different people to the conference that wouldn't otherwise come to base.",
+      "id": "ep_130_ut_20"
+    },
+    {
+      "end": 573944,
+      "speaker": "Jessica Hullman",
+      "start": 567304,
+      "text": "I've also heard there was a mini symposium on uncertainty, visualization some of my students were at, which I heard good things about.",
+      "id": "ep_130_ut_21"
+    },
+    {
+      "end": 575944,
+      "speaker": "Robert Kosara",
+      "start": 573992,
+      "text": "I think that I missed that part. Yeah.",
+      "id": "ep_130_ut_22"
+    },
+    {
+      "end": 589756,
+      "speaker": "Jessica Hullman",
+      "start": 576032,
+      "text": "An important topic where a lot of what we do in vis is maybe not accessible to people. We're actually trying to create visualizations. So I heard good things about kind of the. The talks that went on there and demonstrations of how to make different visualizations.",
+      "id": "ep_130_ut_23"
+    },
+    {
+      "end": 605680,
+      "speaker": "Enrico Bertini",
+      "start": 589908,
+      "text": "Yeah, yeah. And then there was the panel organized by Robert called Meet the Founders, which I really, really enjoyed. That was, the room was full and, yeah, maybe you want to talk about.",
+      "id": "ep_130_ut_24"
+    },
+    {
+      "end": 673508,
+      "speaker": "Robert Kosara",
+      "start": 606220,
+      "text": "This was a panel that I organized that's called Meet the Founders. And the idea was to show people here at this academic conference what it means to start a business. And we have a number of businesses, a small number of businesses that have come out of this community. And so one of them is Tableau. And I wasn't able to get a Tableau founder here, but I ended up playing that role a little bit. And then there was Lisa Avila from Kitware and Jeff Heer of Trifacta and Anders Ynnerman of a company called Sciss. Sciss, Sciss. Sciss. That does a lot of work around planetariums and exploring, virtually exploring space. We were in this room that was kind of away from everything else, and I was really worried that people wouldn't even find it. But it was. Yeah, it was almost full. It was quite, quite nice. And we just basically talked about, what does it take to start a business? What are common pitfalls? What did you learn, what went well, what went not so well? And we got lots of good questions, including from Enrico. So that's interesting.",
+      "id": "ep_130_ut_25"
+    },
+    {
+      "end": 679320,
+      "speaker": "Enrico Bertini",
+      "start": 673604,
+      "text": "Yeah, I was fascinated. Well, why not? I want to ruin my life.",
+      "id": "ep_130_ut_26"
+    },
+    {
+      "end": 682384,
+      "speaker": "Jessica Hullman",
+      "start": 679860,
+      "text": "Yeah, right. We all have that urge.",
+      "id": "ep_130_ut_27"
+    },
+    {
+      "end": 717434,
+      "speaker": "Enrico Bertini",
+      "start": 682472,
+      "text": "Had a few discussions with a friend in New York and was like, oh, that's all great, but you're going to ruin your life. Yeah. But I think, again, that's another one of those things that shows maybe that the conference is opening up to many other things. It's not just academia, researchers and papers, and that's something I really, really enjoy. I hope this is a trend that is going to develop even further in the future. And then we had another event that you organized. Robert, you do too many things. Viscom, you want to briefly talk about that?",
+      "id": "ep_130_ut_28"
+    },
+    {
+      "end": 784194,
+      "speaker": "Robert Kosara",
+      "start": 717482,
+      "text": "Yes. So this is another thing that had a lot more attendance than I expected. This is the first workshop on visualization for communication that I organized together with Ben Watson, and we didn't get a lot of submissions for the workshop, and so I was quite worried that we only would have the handful of presenters there and nobody else. But we actually had a really good turnout, and I think we had supposedly about 70 people there. At some point. I only counted 40, but somewhere in that number. So 50 or 60 people perhaps in that range. That was pretty good for a first time workshop. But the idea was to talk about what it means to do visualization for communication. And we had a variety of papers and posters on the topic, and it was a good online. Yes, there. It's all Viscom IO. You can see everything, everything's up there, all the papers and posters. We had some nice presentations and some good discussions there, and I think we're going to do it again next year and hopefully get a few more submissions. But it turned out really well, so I'm quite happy with it.",
+      "id": "ep_130_ut_29"
+    },
+    {
+      "end": 805396,
+      "speaker": "Enrico Bertini",
+      "start": 784362,
+      "text": "Great. So I think now we can switch to papers, the technical program, there are lots of interesting things. I don't know how much we can cover, but let's start. I think the highlight of the conference has been, for sure, Draco, and they also won a best paper award. Right, Jessica, you want to talk about it?",
+      "id": "ep_130_ut_30"
+    },
+    {
+      "end": 877728,
+      "speaker": "Jessica Hullman",
+      "start": 805468,
+      "text": "Yeah, I can give just a short summary. So Draco is basically a project that's looking at how we can take visualization design knowledge and express it using a constraint programming. So express it in terms of hard and soft constraints for what? A visualization, sort of what criteria visualization should fulfill to be effective or to be good at presenting the data. And so I believe they used answer set programming to encode constraints and apply them to visualizations. I think I would read the paper for the details. I haven't read it in a while, but I think what's really exciting about the work is just this set of possibilities. It opens up if we start encoding visualization design knowledge in a more formal framework. There's a lot we can do to begin to do things like try to model trade offs between different types of design guidelines, where if you change one thing, you're making the visualization worse in one way, but if you change it a different way, other problems pop up. And so I'm excited about the sort of idea of formally modeling design knowledge and how it might help us identify sort of what we don't know. I think there's lots of applications of this kind of work.",
+      "id": "ep_130_ut_31"
+    },
+    {
+      "end": 895710,
+      "speaker": "Enrico Bertini",
+      "start": 877824,
+      "text": "Sure. I'm wondering if this can be seen as sort of like extension of what Tableau does, for instance. Right. And all the previous research work that was applied to that. Yeah. The idea of having good defaults for the decisions that you make.",
+      "id": "ep_130_ut_32"
+    },
+    {
+      "end": 938078,
+      "speaker": "Jessica Hullman",
+      "start": 896330,
+      "text": "Yeah, I'm excited about it too. I think they've been looking at like single visualization guidelines, and that's what Tableau does. So, Draco, one of the things it does, or one of the sets of applications is, I think we could use it to do to model an effective single visualization, but also an effective set of views. One of my students has been working for the last couple of years on how do you encode knowledge about multiple views? Like, what are design guidelines for that? Where we were thinking about constraint based stuff, but Draco provides a kind of solution in terms of a formal framework where we could actually begin to model how these things compete. So I think, yeah, there's so many applications of this kind of thing.",
+      "id": "ep_130_ut_33"
+    },
+    {
+      "end": 941694,
+      "speaker": "Enrico Bertini",
+      "start": 938174,
+      "text": "Yeah, I guess we're going to see a lot of follow up work from this.",
+      "id": "ep_130_ut_34"
+    },
+    {
+      "end": 945792,
+      "speaker": "Jessica Hullman",
+      "start": 941742,
+      "text": "Probably, we'll probably see a lot of Draco in future vis-papers by everyone.",
+      "id": "ep_130_ut_35"
+    },
+    {
+      "end": 959880,
+      "speaker": "Enrico Bertini",
+      "start": 945936,
+      "text": "Yeah, yeah. I think another great piece of work presented was Litviz. I think this was Jo Wood, and I guess he presented this work also at Openviz.",
+      "id": "ep_130_ut_36"
+    },
+    {
+      "end": 962120,
+      "speaker": "Jessica Hullman",
+      "start": 960000,
+      "text": "Okay. I didn't see it at all, I think.",
+      "id": "ep_130_ut_37"
+    },
+    {
+      "end": 962504,
+      "speaker": "Enrico Bertini",
+      "start": 962160,
+      "text": "So.",
+      "id": "ep_130_ut_38"
+    },
+    {
+      "end": 1056110,
+      "speaker": "Jessica Hullman",
+      "start": 962592,
+      "text": "This was the first I'd seen of it, and it's really cool. So it's kind of a notebook based authoring system, so, but with a kind of a really nice, I guess, set of design objectives where they want to encourage design exposition. So I think it was based on Donald Knuth's literate programming, where you want people to sort of be moving back and forth between writing code, but also explaining that code so that others can understand it, so that they're capturing process. And so Litviz is an editor using Elm and I think Vega, but it supports these different, almost narrative structures to encourage different types of design exposition. So explaining your code in various ways, it also supports branching, so you can sort of record, you know, how you created a set of visualizations using one encoding you decided you didn't really like any of them. So you win another way with your design. And often this kind of information gets lost. And it's certainly not well structured. And a lot of the notebooks that we're using kind of encourage adding comments and things, but it's. It's not always what people are doing. And so Litviz is kind of a system to better support that. And, yeah, just the talk was great. Jo Wood talked about various applications, both sort of at a more formal level, but also things like feminist data visualization and how you could actually create narrative prompts that get the designer to sort of systematically think through these kind of aspects of feminist database. So, yeah, it was a really cool.",
+      "id": "ep_130_ut_39"
+    },
+    {
+      "end": 1067062,
+      "speaker": "Enrico Bertini",
+      "start": 1056190,
+      "text": "Yeah, I really like that part where basically the tool itself asks questions to the designer. Right. So that the designer is going to reflect on some of the decision in a very natural way, in a way.",
+      "id": "ep_130_ut_40"
+    },
+    {
+      "end": 1068302,
+      "speaker": "Jessica Hullman",
+      "start": 1067086,
+      "text": "That I think would encourage people to.",
+      "id": "ep_130_ut_41"
+    },
+    {
+      "end": 1079782,
+      "speaker": "Enrico Bertini",
+      "start": 1068326,
+      "text": "Write about what, and also documenting the design process. Right. You start from something, you make it better, then you go through three or four steps, but then you want to reflect on what you did. Right.",
+      "id": "ep_130_ut_42"
+    },
+    {
+      "end": 1082130,
+      "speaker": "Jessica Hullman",
+      "start": 1079886,
+      "text": "Yeah, I think we'll see more work like this.",
+      "id": "ep_130_ut_43"
+    },
+    {
+      "end": 1115904,
+      "speaker": "Enrico Bertini",
+      "start": 1082510,
+      "text": "Yeah, I think that was great. Yeah. I think another big trend in the conference has been anything related to machine learning and explainable AI. And we had a few different sessions. I think one was actually called explainable AI or explainable machine learning, something like that. There were quite a good number of papers there. Maybe we can cover something. So I think one of the allied was Seq2seq-Vis. Yeah, I think they won an honorable mention.",
+      "id": "ep_130_ut_44"
+    },
+    {
+      "end": 1229356,
+      "speaker": "Jessica Hullman",
+      "start": 1115992,
+      "text": "Yeah. Hendrik Strobelt presented this, and it was kind of a visual debugging tool for, in this case, sequence to sequence models. But I think there were multiple things that I saw this year that were sort of along the same vein. So this was a particularly nice system that's trying to surface information to help diagnose errors in these, like, deep learning type models, where they had sort of a clever way of exposing how models are doing things, like over relying on certain inputs that are put in and helping people basically find errors. And then also in that session, there was another paper that was kind of trying to look at ways that you could visualize model predictions and how they were wrong for a variety of different problems, like classification. And I forget what else they looked at. But I think the overall trend that I was impressed with this year is that people been doing this kind of explainable ML a bit in Viz, but I was seeing more examples this year where people were actually trying to figure out methods that kind of generalize across different models. And I think both of these in that session were an example. There was also some work. One paper for instance, called Dim reader about axis lens that explained nonlinear projections was another one where I think there were actually multiple papers like this. The Dim reader one was particularly nice, but where there using like 2d visualizations, in this case for tSNE, where the visualization can sort of use just spatial position at almost like a creating style encoding, if you know what that is, so that people could look at how changing inputs to a model also changes the output. So it's kind of like basic use of visualization or thinking about the sort of core visualization methods we can use to allow people to reason about how models are working. So I liked the generality. And then you had a paper as well in.",
+      "id": "ep_130_ut_45"
+    },
+    {
+      "end": 1234140,
+      "speaker": "Enrico Bertini",
+      "start": 1229428,
+      "text": "Yeah, yeah. I usually don't talk too much about my work on the podcast, and yet.",
+      "id": "ep_130_ut_46"
+    },
+    {
+      "end": 1236840,
+      "speaker": "Jessica Hullman",
+      "start": 1234180,
+      "text": "Every time I'm on one, we talk about your work.",
+      "id": "ep_130_ut_47"
+    },
+    {
+      "end": 1262794,
+      "speaker": "Enrico Bertini",
+      "start": 1237820,
+      "text": "Yeah. But yeah, I'm really excited about the work we presented there. Again, it's another very generalizable method to look inside black boxes, in this case classifiers. And yes, we came up with a method that basically extract rules out of existing classifiers. And you don't need to get access to the classifier except for being able to input.",
+      "id": "ep_130_ut_48"
+    },
+    {
+      "end": 1266682,
+      "speaker": "Jessica Hullman",
+      "start": 1262922,
+      "text": "Yeah. So how did you extract them? That was. I missed the very first part.",
+      "id": "ep_130_ut_49"
+    },
+    {
+      "end": 1305592,
+      "speaker": "Enrico Bertini",
+      "start": 1266786,
+      "text": "Yeah, it's very simple, actually. So you train another model using the output of the original model, the labels of the output of the original model as labels rather than the data. Right. And so you basically simulate the original model and you can apply this to many, many different models. And then we have a simple visualization system that visualizes the rules. So what has been interesting here is also, how do you visualize a rule? Right. It's a complex object. And I don't pretend, I don't think we have necessarily found the best visual representation, but I think it's an interesting chapter.",
+      "id": "ep_130_ut_50"
+    },
+    {
+      "end": 1309980,
+      "speaker": "Jessica Hullman",
+      "start": 1305726,
+      "text": "Yeah, no, I think it made sense for rules, what you did.",
+      "id": "ep_130_ut_51"
+    },
+    {
+      "end": 1338704,
+      "speaker": "Enrico Bertini",
+      "start": 1310140,
+      "text": "I think one thing that I've seen is that some of these systems are becoming somewhat simpler to digest visually. It's not this crazy, super fancy stuff. Right. I think we are trying to do simpler things that are more useful, and I love that. I hope this is, this is going to be a trend, because sometimes things published here tend to be a little bit too complex for. At least for my taste. Okay, Robert, you want to talk about some papers?",
+      "id": "ep_130_ut_52"
+    },
+    {
+      "end": 1402154,
+      "speaker": "Robert Kosara",
+      "start": 1338872,
+      "text": "Some of the interesting ones that I've seen here is one is called charticulator, which is a little bit painful to pronounce, but it's a really interesting system that lets you build visualizations that are a bit unusual. Or the way you build the visualizations, I should say, is unusual in that you map the fields to aspects of something like a bar or I guess a rectangle or things like that. And it's interesting because it makes it possible to build more things that are more like a lot of the kinds of news graphics that people build are usually done in illustrator and things like that. And there's a similar paper that's called data illustrator that was presented at CHI's earlier this year. And it's also interesting to, to compare that to Draco because both of these articulator and data illustrator and Draco are new ways of specifying visualizations which we haven't really seen in a while. I think people haven't really done that for a while.",
+      "id": "ep_130_ut_53"
+    },
+    {
+      "end": 1402778,
+      "speaker": "Enrico Bertini",
+      "start": 1402202,
+      "text": "That's true.",
+      "id": "ep_130_ut_54"
+    },
+    {
+      "end": 1422872,
+      "speaker": "Robert Kosara",
+      "start": 1402874,
+      "text": "So I think we're now starting to think about how we can do that differently and maybe there are better or at least different ways and new ways to do this, and we're going to see how that compares to how we specify visualizations today and how, and I'm guessing there will be a certain flow of ideas into tools and into libraries that way.",
+      "id": "ep_130_ut_55"
+    },
+    {
+      "end": 1434848,
+      "speaker": "Jessica Hullman",
+      "start": 1423056,
+      "text": "Yeah. I also was just going to say I noticed a lot of focus on grammars this year, a lot of use of Vega, Vega Lite, but also just a lot of papers where there was a grammar that was kind of the contribution.",
+      "id": "ep_130_ut_56"
+    },
+    {
+      "end": 1436312,
+      "speaker": "Robert Kosara",
+      "start": 1435024,
+      "text": "Theories coming back.",
+      "id": "ep_130_ut_57"
+    },
+    {
+      "end": 1440580,
+      "speaker": "Enrico Bertini",
+      "start": 1436416,
+      "text": "Theories coming back, yes. Waves. Yeah.",
+      "id": "ep_130_ut_58"
+    },
+    {
+      "end": 1555302,
+      "speaker": "Robert Kosara",
+      "start": 1441400,
+      "text": "Well then another one that I thought was really interesting is what's been called the dashboard console. This is an interesting project also because it's between, I'm not going to remember all the companies, but it's between Tableau, Microsoft Research, Simon Fraser University so these three companies here working together, at least two of them being competitors. So this was pretty interesting how they set this up. But the main point of this paper, that's why it's called the dashboard conspiracy, is to essentially argue that dashboards are a separate thing from just a collection of visualizations. So dashboards in this sense, in there, as you can argue, and probably have a little religious fight over this too. But the dashboards are collections of visualizations where there's connections between the different views. So you can select some in one view and that highlights or filters another view, and maybe the data changes over time and stuff like that. But what they were talking about is not just that those things we know about dashboards but that most get ignored by visualization research these days because there's this talk about coordinated multiple views, but that's really not something that actually gets a lot of attention. But there's also something about how the whole thing works. The whole thing can be an explanation of something, or the whole thing can be an overview tool over data can have layers. And it's really interesting what they found. And I thought this was a really good paper and good talk that really brought dashboards back as I think a topic. Of course, Jessica did some work on this last year, but I think this is really a good trend that people are starting to pay more attention to them now.",
+      "id": "ep_130_ut_59"
+    },
+    {
+      "end": 1576952,
+      "speaker": "Jessica Hullman",
+      "start": 1555406,
+      "text": "Yeah, no, I felt like there was definitely, what we did was, I guess, also describing just how people think about multiple views and relations between them. But I think this kind of, like, almost theoretical stuff is laying a nice foundation for better tools for dashboards. For instance, in the study, the dashboard study, what, did they actually, did they actually look at a bunch of dashboards?",
+      "id": "ep_130_ut_60"
+    },
+    {
+      "end": 1577272,
+      "speaker": "Enrico Bertini",
+      "start": 1577056,
+      "text": "Yes.",
+      "id": "ep_130_ut_61"
+    },
+    {
+      "end": 1587264,
+      "speaker": "Robert Kosara",
+      "start": 1577296,
+      "text": "Yeah, yeah, yeah. They have a corpus that goes from Tableau Public and the Power BI gallery, I don't know what it's called. And one or two other places.",
+      "id": "ep_130_ut_62"
+    },
+    {
+      "end": 1593810,
+      "speaker": "Jessica Hullman",
+      "start": 1587352,
+      "text": "I like that. They also brought in, I think, literature from other fields to talk about. There's actually people publishing not in vids on dashboards.",
+      "id": "ep_130_ut_63"
+    },
+    {
+      "end": 1598074,
+      "speaker": "Enrico Bertini",
+      "start": 1593850,
+      "text": "You mean literature from the business community, I guess.",
+      "id": "ep_130_ut_64"
+    },
+    {
+      "end": 1598882,
+      "speaker": "Jessica Hullman",
+      "start": 1598122,
+      "text": "Business intelligence community.",
+      "id": "ep_130_ut_65"
+    },
+    {
+      "end": 1618162,
+      "speaker": "Enrico Bertini",
+      "start": 1598906,
+      "text": "Business intelligence community, yeah. I was happy to see this happening because dashboards are definitely a thing. Right? I mean, normal people who are not visualization experts recognize this word and think about these flashy sets of visualizations as dashboards.",
+      "id": "ep_130_ut_66"
+    },
+    {
+      "end": 1622338,
+      "speaker": "Robert Kosara",
+      "start": 1618226,
+      "text": "Well, and the things that aren't actually flashy at all, but are really useful. Not all of them.",
+      "id": "ep_130_ut_67"
+    },
+    {
+      "end": 1633590,
+      "speaker": "Enrico Bertini",
+      "start": 1622394,
+      "text": "Yeah, exactly. And there are some really good words, and I think the biz community has been a little snobbish there. Right. It's like, oh, dashboard, I don't care. What is that thing? Right.",
+      "id": "ep_130_ut_68"
+    },
+    {
+      "end": 1634150,
+      "speaker": "Robert Kosara",
+      "start": 1633670,
+      "text": "Yeah.",
+      "id": "ep_130_ut_69"
+    },
+    {
+      "end": 1640422,
+      "speaker": "Jessica Hullman",
+      "start": 1634270,
+      "text": "I really liked how they showed examples of sort of a dashboard. Really, like, summarizing a lot of data really well.",
+      "id": "ep_130_ut_70"
+    },
+    {
+      "end": 1640854,
+      "speaker": "Enrico Bertini",
+      "start": 1640526,
+      "text": "Yeah.",
+      "id": "ep_130_ut_71"
+    },
+    {
+      "end": 1648350,
+      "speaker": "Jessica Hullman",
+      "start": 1640902,
+      "text": "In a way that, like, no other genre probably can do. So it was nice they dispelled that hatred for dashboards.",
+      "id": "ep_130_ut_72"
+    },
+    {
+      "end": 1656184,
+      "speaker": "Enrico Bertini",
+      "start": 1648510,
+      "text": "I think that the general conversation about visualization, not only in the research community, but in general, it's always about a single plot.",
+      "id": "ep_130_ut_73"
+    },
+    {
+      "end": 1657304,
+      "speaker": "Jessica Hullman",
+      "start": 1656272,
+      "text": "Right, right, totally.",
+      "id": "ep_130_ut_74"
+    },
+    {
+      "end": 1669456,
+      "speaker": "Enrico Bertini",
+      "start": 1657352,
+      "text": "But there is so much out there about how do you arrange multiple plots? And there is a whole science to build on that. I know that the two of you have been working on that. Right. Okay.",
+      "id": "ep_130_ut_75"
+    },
+    {
+      "end": 1724636,
+      "speaker": "Robert Kosara",
+      "start": 1669568,
+      "text": "Oh, and then the last one, I guess, that I want to talk about is a paper that was presented just today that is called face to face. It's about comparing values using bar charts and how that can be done differently with different layouts and different arrangements of those charts. And I thought that was a really interesting paper, partly because they looked at something that's kind of, I think, that's been studied before. I don't know if this is really all that new, but they found some interesting new things. And so one of the things that they found, which was a nice kind of rebuttal to some of the discussion earlier, is that animation can actually work quite well when you're looking for a, the rate, the amount of change. So you're looking for the thing that changed the most. You can see that when you do animation between different charts. And so that was interesting. It was also a very well presented paper. I thought it was very nicely done. And all that data, I think, is available online. So you can look at that as well.",
+      "id": "ep_130_ut_76"
+    },
+    {
+      "end": 1730316,
+      "speaker": "Enrico Bertini",
+      "start": 1724708,
+      "text": "Which reminds me, I think maybe another trend this year is a lot of vision and visualization.",
+      "id": "ep_130_ut_77"
+    },
+    {
+      "end": 1730652,
+      "speaker": "Robert Kosara",
+      "start": 1730428,
+      "text": "Yeah.",
+      "id": "ep_130_ut_78"
+    },
+    {
+      "end": 1741924,
+      "speaker": "Enrico Bertini",
+      "start": 1730676,
+      "text": "More vision science, more vision science work, presentations and people. Right. There are more people who are doing, whose main work is to bridge vision science and visualization.",
+      "id": "ep_130_ut_79"
+    },
+    {
+      "end": 1750880,
+      "speaker": "Jessica Hullman",
+      "start": 1742052,
+      "text": "And then there's ML plus vision. Someone trained a convolutional neural net, do graphical perception. So, yeah, colliding.",
+      "id": "ep_130_ut_80"
+    },
+    {
+      "end": 1756156,
+      "speaker": "Enrico Bertini",
+      "start": 1751220,
+      "text": "It's an interesting mix. And Jessica, you had another one.",
+      "id": "ep_130_ut_81"
+    },
+    {
+      "end": 1853530,
+      "speaker": "Jessica Hullman",
+      "start": 1756228,
+      "text": "Yeah. So there's a whole session on uncertainty and error this year. Unfortunately, it's on Friday morning. Unfortunately, both of my papers are in it. But there is one paper that I'm really excited about in the there besides my own, which is Nina McCurdy, Mariah Meyer and another collaborator [Julie Gerdes] did a framework for externalizing implicit error using visualizations. And what they did, I think, was work with a bunch of Zika experts to understand how they're taking data on things like outbreaks and trying to sort of figure out what's actually happening with the disease. And what they do in the paper is kind of define this notion of implicit error, which is kind of like the error that's not recorded in the data or the context that's not recorded in the data, but which the experts are very aware of, like this country doesn't always report accurately. And so the experts were almost adjusting the data in their head, and they talk about how this isn't really supported right now. And so I think, you know, it's a sort of an applied case to Zika experts, and they build a system, actually to make it easier to sort of note where there are these discrepancies between what the expert knows and what the data says. But I think the general idea is really important for viz it aligns with other work I've been doing with trying to look at sort of not just the data and a visualization, but how it interacts with our prior knowledge. And so I really like the way they define this implicit error notion. And I hope we see more of it because I think it is like we are often looking at data but adjusting it based on what we think. And we often ignore that when we model visualization. Interpretation.",
+      "id": "ep_130_ut_82"
+    },
+    {
+      "end": 1859374,
+      "speaker": "Enrico Bertini",
+      "start": 1853830,
+      "text": "Yeah. And uncertainty. Visualization is another one of those areas where you're seeing more and more work done.",
+      "id": "ep_130_ut_83"
+    },
+    {
+      "end": 1859926,
+      "speaker": "Jessica Hullman",
+      "start": 1859502,
+      "text": "Yeah.",
+      "id": "ep_130_ut_84"
+    },
+    {
+      "end": 1862230,
+      "speaker": "Enrico Bertini",
+      "start": 1859998,
+      "text": "And it's definitely relevant. Right?",
+      "id": "ep_130_ut_85"
+    },
+    {
+      "end": 1864610,
+      "speaker": "Jessica Hullman",
+      "start": 1862310,
+      "text": "Yeah, yeah. I totally agree.",
+      "id": "ep_130_ut_86"
+    },
+    {
+      "end": 1965922,
+      "speaker": "Enrico Bertini",
+      "start": 1865070,
+      "text": "I don't need to convince you. We should do a whole episode on that, by the way. Right. Uncertainty is big and yeah, I personally just wanted to highlight a couple of crazy things. So first of all, I think we have seen this here a lot more VR ar stuff. I've never seen anything like that at this. And it's coming little by little. I think there was a whole session on immersive analytics and we have seen a few crazy things there. I really liked one presentation of this tool called fiber clay. And, yeah, Christophe, the author and presenter, gave, basically, instead of giving a proper, I shouldn't say proper regular talk, he actually gave a full demo wearing the goggles. And these two, how do you call it, the handles. Right. And it was this. So he was visualizing flight trajectories, and he was so fast and quick and accurate in pointing towards certain trajectories and filtering out those that were not interesting and very, very quickly narrow it down to what was interesting patterns there. And it was so good at doing that. And I think it was an amazing demo and amazing talk. And actually right after the talk, I went out and was like, I want to try it. How do you do that? And I have to say, it's not that hard. And I was surprised. I mean, I'm not sure exactly what kind of practical applications you may have there, but it's something. Right. And I think we should explore crazy things out there.",
+      "id": "ep_130_ut_87"
+    },
+    {
+      "end": 1968798,
+      "speaker": "Jessica Hullman",
+      "start": 1966026,
+      "text": "Well, you said flight paths. That seems useful, right?",
+      "id": "ep_130_ut_88"
+    },
+    {
+      "end": 1991850,
+      "speaker": "Enrico Bertini",
+      "start": 1968854,
+      "text": "I don't know. I don't think it's more useful than a plain. Right. 2d visualization. But I don't. First of all, I may be wrong. Right. And I think we do need to explore the edges. And I think we have a tradition here for bashing against 3D, anything 3d right. But 3D is not necessarily bad. Maybe Robert doesn't agree. He's looking at me.",
+      "id": "ep_130_ut_89"
+    },
+    {
+      "end": 2001900,
+      "speaker": "Jessica Hullman",
+      "start": 1995240,
+      "text": "So Robert maybe knows how little evidence there is on three D. I think there's actually a lot, but yeah.",
+      "id": "ep_130_ut_90"
+    },
+    {
+      "end": 2095233,
+      "speaker": "Enrico Bertini",
+      "start": 2002280,
+      "text": "And then there was something even crazier. Right? I would say much crazier. So there was this presentation on information olfaction and it was amazing. Right. So they built this device that is supposed to be used when you are using these immersive analytics systems that basically introduces also olfaction as an additional, additional channel for encoding information. And they build this, they have this custom build machine that creates different types of sense. And I think what is really interesting is that they have been trying to systematically explore the design space in trying to basically do what Bertin did for graphical encoding for olfaction. And it's fascinating. Again, I don't know. I mean, is it going to be, I don't know, a revolution of our domain? I don't think so, but I think it's good to explore the boundaries and I'm really happy to see these things happening at this. Yeah, I think these are our main highlights. Maybe we can conclude by briefly talking about some other major trends or I think, Robert, you wanted to talk about the graphic recorder that we had.",
+      "id": "ep_130_ut_91"
+    },
+    {
+      "end": 2133242,
+      "speaker": "Robert Kosara",
+      "start": 2095281,
+      "text": "Sure, yeah. So there was somebody at the vision practice session and the keynote, and I'm not sure if maybe one or two other sessions who's a graphic recorder, meaning he does live sketching after talks. And it's amazing to watch that because he's able to just on the fly do this really elaborate, really cool drawing that somehow fits exactly into the space that he has there. And it looks really good. And you have to have seen the talk, you can't just look at it and understand it. But it's a really good reminder of what happened. And it's all very beautifully done. So I thought it was a really cool. And it's the first time at Viz from what I can remember.",
+      "id": "ep_130_ut_92"
+    },
+    {
+      "end": 2168124,
+      "speaker": "Enrico Bertini",
+      "start": 2133346,
+      "text": "Yeah, I think we should keep doing that. It's great. And I think maybe we should conclude by saying that the whole vis conference is going through some restructuring. There's been a lot of interesting talks about that and I think we had also a whole event. I'm not going in detail about that, but I think one interesting thing is that one thing that has been discussed a lot is how to make everything easier to access. Right. Having more open access solutions, which is not easy, but it's nice that we are having this kind of discussion. Right?",
+      "id": "ep_130_ut_93"
+    },
+    {
+      "end": 2180076,
+      "speaker": "Jessica Hullman",
+      "start": 2168212,
+      "text": "Yeah. And people of multiple sort of levels, both early career and then the more senior people on the steering committee seem to be kind of trying to get on the same page about these things, which I think is also nice. It's really pulling in the whole community.",
+      "id": "ep_130_ut_94"
+    },
+    {
+      "end": 2204184,
+      "speaker": "Enrico Bertini",
+      "start": 2180228,
+      "text": "Yeah, it should be easier to find our research and access it without having to pay tons of money. Right. Okay. I think we can conclude here. Thanks so much for agreeing on being on the show again. Thank you, and that's very much appreciated. And, yeah, I'm sure I'll see you again. Thank you.",
+      "id": "ep_130_ut_95"
+    },
+    {
+      "end": 2205900,
+      "speaker": "Robert Kosara",
+      "start": 2204232,
+      "text": "Bye bye bye.",
+      "id": "ep_130_ut_96"
+    },
+    {
+      "end": 2230904,
+      "speaker": "Enrico Bertini",
+      "start": 2210480,
+      "text": "Hey, folks, thanks for listening to data stories again. Before you leave a few last notes, this show is now completely crowdfunded, so you can support us by going on Patreon. That's patreon.com Datastories. And if you can spend a couple of minutes rating us on iTunes, that would be extremely helpful for the show.",
+      "id": "ep_130_ut_97"
+    },
+    {
+      "end": 2256786,
+      "speaker": "D",
+      "start": 2231032,
+      "text": "And here's also some information on the many ways you can get news directly from us. We're, of course, on twitter@twitter.com. Datastories. We have a Facebook page@Facebook.com. datastoriespodcast. All in one word. And we also have a slack channel where you can chat with us directly. And to sign up, you can go to our homepage, datastory eas, and there is a button at the bottom of the page.",
+      "id": "ep_130_ut_98"
+    },
+    {
+      "end": 2272648,
+      "speaker": "Enrico Bertini",
+      "start": 2256938,
+      "text": "And we also have an email newsletter. So if you want to get news directly into your inbox and be notified whenever we publish an episode, you can go to our home page, Datastories es and look for the link you find at the bottom in the footer.",
+      "id": "ep_130_ut_99"
+    },
+    {
+      "end": 2284784,
+      "speaker": "D",
+      "start": 2272744,
+      "text": "So one last thing we want to tell you is that we love to get in touch with our listeners, especially if you want to suggest a way to improve the show or amazing people you want us to invite or even projects you want us to talk about.",
+      "id": "ep_130_ut_100"
+    },
+    {
+      "end": 2293980,
+      "speaker": "Enrico Bertini",
+      "start": 2284872,
+      "text": "Yeah, absolutely. And don't hesitate to get in touch with us. It's always a great thing to hear from you. So see you next time. Time. And thanks for listening to data stories.",
+      "id": "ep_130_ut_101"
+    }
+  ],
+  "confidence": 0.923223935635787,
+  "audio_duration": 2306,
+  "punctuate": true,
+  "format_text": true,
+  "dual_channel": false,
+  "webhook_url": null,
+  "webhook_status_code": null,
+  "webhook_auth": false,
+  "webhook_auth_header_name": null,
+  "speed_boost": false,
+  "auto_highlights_result": null,
+  "auto_highlights": false,
+  "audio_start_from": null,
+  "audio_end_at": null,
+  "word_boost": [],
+  "boost_param": null,
+  "filter_profanity": false,
+  "redact_pii": false,
+  "redact_pii_audio": false,
+  "redact_pii_audio_quality": null,
+  "redact_pii_policies": null,
+  "redact_pii_sub": null,
+  "speaker_labels": true,
+  "content_safety": false,
+  "iab_categories": true,
+  "content_safety_labels": {
+    "status": "unavailable",
+    "results": [],
+    "summary": {}
+  },
+  "language_detection": false,
+  "language_detection_threshold": null,
+  "language_confidence": null,
+  "custom_spelling": null,
+  "throttled": false,
+  "auto_chapters": true,
+  "summarization": false,
+  "summary_type": null,
+  "summary_model": null,
+  "custom_topics": false,
+  "topics": [],
+  "speech_threshold": null,
+  "speech_model": "best",
+  "chapters": [
+    {
+      "summary": "Enrico Bertini is a professor at NYU in New York. In this podcast, we talk about data visualization, analysis, and generally the role that data plays in our lives. If you enjoyed the show, please consider supporting us with recurring payments on patreon. com.",
+      "gist": "Data Stories",
+      "headline": "This podcast features Enrico Bertini talking about data visualization and analysis",
+      "start": 19720,
+      "end": 72530,
+      "id": "ep_130_ch_0"
+    },
+    {
+      "summary": "Today we have one of those special episodes because we are actually recording live from the IEEE vis conference. We have two great guests, as usual. To old friends of our podcast, we have Jessica Hullman and Robert Kosara.",
+      "gist": "Live from the IEEE V Conference",
+      "headline": "This podcast is recorded live from the IEEE vis conference",
+      "start": 72950,
+      "end": 115594,
+      "id": "ep_130_ch_1"
+    },
+    {
+      "summary": "Jessica Hullman is from Northwestern University. Robert Kosara is a research scientist at Tableau Software. This is my 18th VIS conference. I do research in visualization and some of the perceptual basics. Also interested in general in presentation and storytelling.",
+      "gist": "During the Q&A,",
+      "headline": "Jessica Hullman: I'm from Northwestern University. I do data visualization research",
+      "start": 115762,
+      "end": 192300,
+      "id": "ep_130_ch_2"
+    },
+    {
+      "summary": "The Vis conference is the main academic conference in visualization. It's normally in the US, but from time to time it's also in Europe and this year it's in Berlin. Today we're going to cover just a few bits of that.",
+      "gist": "The Conference and Highlights of the Vis Conference",
+      "headline": "The vis conference is the main academic conference in visualization",
+      "start": 192880,
+      "end": 297500,
+      "id": "ep_130_ch_3"
+    },
+    {
+      "summary": "Believ is a workshop that has been going on for many years. This year was focused on making it easier to replicate work. Another event called bis in practice promotes more integration between academia and practitioners.",
+      "gist": "The conference and the belief workshop",
+      "headline": "One of the first events that happened at the conference is the belief workshop",
+      "start": 297580,
+      "end": 708180,
+      "id": "ep_130_ch_4"
+    },
+    {
+      "summary": "This is the first workshop on visualization for communication that I organized together with Ben Watson. We actually had a really good turnout, and I think we had supposedly about 70 people there. And we're going to do it again next year and hopefully get a few more submissions.",
+      "gist": "Viscom: VISION for Communication",
+      "headline": "Another workshop on visualization for communication had a lot more attendance than I expected",
+      "start": 708890,
+      "end": 794442,
+      "id": "ep_130_ch_5"
+    },
+    {
+      "summary": "Draco is a project that's looking at how we can take visualization design knowledge and express it using a constraint programming. I think there's lots of applications of this kind of work. Probably, we'll probably see a lot of Draco in future vis-papers.",
+      "gist": "Draco: formally modeling visualization design",
+      "headline": "Draco is looking at how we can take visualization design knowledge using constraint programming",
+      "start": 794506,
+      "end": 947664,
+      "id": "ep_130_ch_6"
+    },
+    {
+      "summary": "Litviz is an editor using Elm and Vega. It supports these different, almost narrative structures to encourage different types of design exposition. Jo Wood talked about various applications, both at a more formal level, but also things like feminist data visualization. I think we'll see more work like this.",
+      "gist": "Litviz",
+      "headline": "Another great piece of work presented was Litviz. It encourages design exposition",
+      "start": 947712,
+      "end": 1084770,
+      "id": "ep_130_ch_7"
+    },
+    {
+      "summary": "Another big trend in the conference has been anything related to machine learning and explainable AI. Some of these systems are becoming somewhat simpler to digest visually. I hope this is, this is going to be a trend.",
+      "gist": "Machine Learning Conference 2017: Explained and Explainable AI",
+      "headline": "I think another big trend in the conference has been anything related to machine learning",
+      "start": 1085910,
+      "end": 1333800,
+      "id": "ep_130_ch_8"
+    },
+    {
+      "summary": "A new system called charticulator lets you build visualizations that are a bit unusual. Both of these articulator and data illustrator and Draco are new ways of specifying visualizations which we haven't really seen in a while. Theories coming back.",
+      "gist": "Articulator and Data Illustrator: Theories coming back",
+      "headline": "Robert Waves: Some interesting new ways of specifying visualizations this year",
+      "start": 1334200,
+      "end": 1440580,
+      "id": "ep_130_ch_9"
+    },
+    {
+      "summary": "A new paper argues that dashboards are a separate thing from just a collection of visualizations. It also describes just how people think about multiple views and relations between them. This kind of theoretical stuff is laying a nice foundation for better tools for dashboards.",
+      "gist": "What's a Dashboard?",
+      "headline": "A new paper argues that dashboards are a separate thing from collections of visualizations",
+      "start": 1441400,
+      "end": 1669456,
+      "id": "ep_130_ch_10"
+    },
+    {
+      "summary": "A paper that was presented just today that is called face to face. It's about comparing values using bar charts and how that can be done differently with different layouts. One of the things that they found is that animation can actually work quite well. All that data is available online.",
+      "gist": "Facing the data",
+      "headline": "A paper was presented today that looked at comparing values using bar charts",
+      "start": 1669568,
+      "end": 1724636,
+      "id": "ep_130_ch_11"
+    },
+    {
+      "summary": "Which reminds me, I think maybe another trend this year is a lot of vision and visualization. More vision science, more vision science work, presentations and people. And then there's ML plus vision. It's an interesting mix.",
+      "gist": "2017's trends in vision science and visualization",
+      "headline": "There are more people doing work to bridge vision science and visualization",
+      "start": 1724708,
+      "end": 1753680,
+      "id": "ep_130_ch_12"
+    },
+    {
+      "summary": "There's a whole session on uncertainty and error this year. Nina McCurdy, Mariah Meyer and another collaborator [Julie Gerdes] did a framework for externalizing implicit error using visualizations. Visualization is another area where you're seeing more and more work done.",
+      "gist": "Implicit Error in Data and Visualization",
+      "headline": "There's a whole session on uncertainty and error this year",
+      "start": 1754380,
+      "end": 1876090,
+      "id": "ep_130_ch_13"
+    },
+    {
+      "summary": "There was a whole session on immersive analytics. I really liked one presentation of this tool called fiber clay. And then there was something even crazier. There was a presentation on information olfaction. And I think we do need to explore the edges. 3D is not necessarily bad.",
+      "gist": "Immersive Analytics and 3-D visualization",
+      "headline": "There was a whole session on immersive analytics at the conference",
+      "start": 1876510,
+      "end": 2082189,
+      "id": "ep_130_ch_14"
+    },
+    {
+      "summary": "Robert: There was somebody at the vision practice session and the keynote who's a graphic recorder, meaning he does live sketching after talks. I thought it was a really cool. And it's the first time at Viz from what I can remember. It's great.",
+      "gist": "The future of the graphic recorder",
+      "headline": "Robert: There was someone who did live sketching after talks at Viz",
+      "start": 2082489,
+      "end": 2137370,
+      "id": "ep_130_ch_15"
+    },
+    {
+      "summary": "The whole vis conference is going through some restructuring. One thing that has been discussed a lot is how to make everything easier to access. Having more open access solutions is not easy, but it's nice that we are having this kind of discussion.",
+      "gist": "The future of the vis conference",
+      "headline": "The whole vis conference is going through some restructuring",
+      "start": 2137530,
+      "end": 2188480,
+      "id": "ep_130_ch_16"
+    },
+    {
+      "summary": "This show is now completely crowdfunded, so you can support us by going on patreon. com Datastories. If you can spend a couple of minutes rating us on iTunes, that would be extremely helpful for the show. Don't hesitate to get in touch with us. It's always a great thing to hear from you.",
+      "gist": "Data Stories",
+      "headline": "This show is completely crowdfunded, so you can support us by going on Patreon",
+      "start": 2189640,
+      "end": 2293980,
+      "id": "ep_130_ch_17"
+    }
+  ],
+  "disfluencies": false,
+  "entity_detection": false,
+  "sentiment_analysis": false,
+  "sentiment_analysis_results": null,
+  "entities": null,
+  "speakers_expected": null,
+  "summary": null,
+  "custom_topics_results": null,
+  "episode_num": 130,
+  "episode_metadata": {
+    "speakers": [
+      "Enrico Bertini",
+      "Jessica Hullman",
+      "Robert Kosara"
+    ],
+    "WPid": "1284",
+    "url": "https://datastori.es/podlove/file/5455/s/feed/c/mp3/130-highlights-from-ieee-vis18-with-jessica-hullman-and-robert-kosara.mp3",
+    "episode_title": "Highlights from IEEE VIS 2018"
+  }
+}

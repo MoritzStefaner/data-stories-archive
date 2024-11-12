@@ -1,0 +1,1069 @@
+{
+  "id": "ebb93472-b70d-4bd1-8537-c8dcbe6209bf",
+  "language_model": "assemblyai_default",
+  "acoustic_model": "assemblyai_default",
+  "language_code": "en_us",
+  "status": "completed",
+  "audio_url": "https://datastori.es/podlove/file/290/s/feed/c/mp3/Datastories-29.mp3",
+  "utterances": [
+    {
+      "end": 12790,
+      "speaker": "Enrico Bertini",
+      "start": 7480,
+      "text": "Hi everyone. Data stories number 29. Hi, Moritz, how are you?",
+      "id": "ep_29_ut_0"
+    },
+    {
+      "end": 15254,
+      "speaker": "Moritz Stefaner",
+      "start": 12910,
+      "text": "Hey, Enrico. I'm doing great.",
+      "id": "ep_29_ut_1"
+    },
+    {
+      "end": 16650,
+      "speaker": "Enrico Bertini",
+      "start": 15422,
+      "text": "What's going on?",
+      "id": "ep_29_ut_2"
+    },
+    {
+      "end": 37940,
+      "speaker": "Moritz Stefaner",
+      "start": 17110,
+      "text": "Yeah, it's super windy outside, so autumn has arrived. I just came back from push conference in Munich. That was great fun. Yeah, that's like user interface design, data visualization conference. Two days was really good. So I met a few old friends and new ones and had a good time.",
+      "id": "ep_29_ut_3"
+    },
+    {
+      "end": 41424,
+      "speaker": "Enrico Bertini",
+      "start": 38440,
+      "text": "Great, great to hear that. Good, good.",
+      "id": "ep_29_ut_4"
+    },
+    {
+      "end": 42500,
+      "speaker": "Moritz Stefaner",
+      "start": 41512,
+      "text": "How about you?",
+      "id": "ep_29_ut_5"
+    },
+    {
+      "end": 48008,
+      "speaker": "Enrico Bertini",
+      "start": 43160,
+      "text": "I'm good. We are having good weather. It's a little cold, but it's fine. It's fine.",
+      "id": "ep_29_ut_6"
+    },
+    {
+      "end": 49820,
+      "speaker": "Moritz Stefaner",
+      "start": 48104,
+      "text": "Yeah, semester has started.",
+      "id": "ep_29_ut_7"
+    },
+    {
+      "end": 56166,
+      "speaker": "Enrico Bertini",
+      "start": 50360,
+      "text": "Semester? Well, it started a long time ago. So we are midway through the semester.",
+      "id": "ep_29_ut_8"
+    },
+    {
+      "end": 57326,
+      "speaker": "Moritz Stefaner",
+      "start": 56238,
+      "text": "Oh yeah. Crazy.",
+      "id": "ep_29_ut_9"
+    },
+    {
+      "end": 73174,
+      "speaker": "Enrico Bertini",
+      "start": 57478,
+      "text": "Really interesting what's going on. Yeah, but we have such a special guest today that I don't feel like talking about ourselves too much. So we have Ben Shneiderman on the show. Hi, Ben, how are you? Welcome on the show.",
+      "id": "ep_29_ut_10"
+    },
+    {
+      "end": 76350,
+      "speaker": "Ben Shneiderman",
+      "start": 73342,
+      "text": "Hi, Enrico, I'm Moritz. Good to be here.",
+      "id": "ep_29_ut_11"
+    },
+    {
+      "end": 88390,
+      "speaker": "Enrico Bertini",
+      "start": 76510,
+      "text": "It's such a pleasure and honor for us to have you here. I have to admit I'm a little nervous for the first time while recording. I hope it's gonna fade away in a few minutes or seconds.",
+      "id": "ep_29_ut_12"
+    },
+    {
+      "end": 90026,
+      "speaker": "Ben Shneiderman",
+      "start": 88850,
+      "text": "That's fine.",
+      "id": "ep_29_ut_13"
+    },
+    {
+      "end": 129700,
+      "speaker": "Enrico Bertini",
+      "start": 90178,
+      "text": "So I don't think I have to introduce Ben. I mean, there are so many things to say. I mean, so that we will focus this. We could actually talk for hours or even ages, but we will focus this episode on tree maps and more specifically on the tree map art project. But before we do that, I want to let Ben introduce himself. I'm sure he's gonna a much better job than me. Introducing Ben. In case we have some listeners who don't know you or don't know exactly who you are, can you tell us a little bit about your background, what you've done, what you're doing, what are your interests and so on.",
+      "id": "ep_29_ut_14"
+    },
+    {
+      "end": 405050,
+      "speaker": "Ben Shneiderman",
+      "start": 130160,
+      "text": "Well, thank you for the opportunity. My background is in computer science, doing database and file design and optimization techniques, very traditional computer science. And I began to be interested more in the psychological issues and studied the way programmers worked and then began to study how users of interfaces do their work. So my book in 1980, imagine, was called software psychology, that talked about these things and that was a big success. So that encouraged me and began to become 20% of an experimental psychologist in studying the way people use computers. And that led me more and more towards the visual aspect, which was in harmony with my interests in photography. My uncle was a famous photographer named David Seymour. So that was my potential potential alternate career. But I chose to keep it my hobby. And many of you know that I'm always taking pictures at conferences of professionals, but I made that a hobby, and my work became computer science, and that worked out very well. And over the years, I became more and more interested in combining these interests, making visual interfaces and representing information in visual formats. So I would say for me, the important step was 1980, 119 82, when I composed the theory of direct manipulation, the visual representation of the objects of interest, and the rapid, incremental and reversible operations that users could apply, and then they could immediately see the results of their work. And so that influenced the development of graphic user interfaces and video games and many other systems. There are many other people who had such ideas, but I think people appreciated that. I wrote down the psychological foundations and gave some principles for the design that they could teach to others and apply in their own work. So by the late eighties, I was already making visualizations. And the story we have today is of a particular challenge of tree maps, which began in 1990. So I was running our laboratory. The human Computer Interaction laboratory at the University of Maryland began in 1983. And we had a nice group that was working on doing empirical studies. And there were 14 people who were sharing a single hard drive on a Macintosh. Imagine that. And so I was always in trouble because the hard drive would full up, be filled, and I would have to run around to figure out who to bother to free up some space. And as you know, you click apple I and you get to see a textual list of the number of bytes in each directory. But I wanted more than that. And so I had to do that 14 times to understand who was using the space. But I also wanted a recursive program which would go not just to the first level, but would go deeper and deeper. I and I worked on that for months. And finally one day, I had this great aha. Moment of discovery of. And it took me three days to convince myself that it was the right idea. And so that's where the original notion of the visual representation of a hierarchy came from. That would show on the screen, on one screen, without scrolling, an entire hard drive in a color coded, size coded manner that was recursive and would go down for as many layers as necessary. So that was a great fun. And Brian Johnson was a PhD student who made the first implementation on Macintosh. And so we began to tell the story. And I believed I that within a few years, this would be on everybody's hard drive.",
+      "id": "ep_29_ut_15"
+    },
+    {
+      "end": 413530,
+      "speaker": "Moritz Stefaner",
+      "start": 406870,
+      "text": "I have one on my machine. So at least for me, you succeeded there, right?",
+      "id": "ep_29_ut_16"
+    },
+    {
+      "end": 830230,
+      "speaker": "Ben Shneiderman",
+      "start": 414270,
+      "text": "But as you know, I think it's interesting and just come across the issue that new ideas are slow to be accepted. It takes a lot of improvements, adaptations, it takes a lot of effort till people learn about these ideas, until they also change their process of problem solving. I think that's the central feature, how to shift the approaches of solving problems from textual ones, from numeric, from tabular, towards a visual approach. And so I've come to realize that will take not just ten or 20 or 30 years, but it will take 51 hundred years to make such changes. And I think if we see how cartesian coordinates from Rene Descartes took hundreds of years to gain widespread acceptance, and the works of William Playfair in the 18th century took more than 100 years till they gained acceptance. I think we have the great power of computers now, which are such wonderful visual tools that enable us to try things that are new, to catch people's attention. And then, of course, we have the Internet that helps us disseminate ideas in a way that is potentially more rapid than ever before. So that's, I think, the interesting framework of it. But the tree map idea was a simple concept to show an entire hierarchy, whether it's a thousand nodes or a million nodes, to see it all on one screen at once with no scrolling. So that was the challenge, and it was satisfying to find one solution, which we called the slice and dice method. And so we were quite excited about that and began to find many applications in other areas. Sports data, financial data, that is, portfolio, stock market portfolios are nicely represented by treemapse. And so we began to find a variety of applications for this idea. And after a few years, as is our style, we gave up on tree maps. We said, okay, we did our work, we published our papers, and we're finished. And so we put it aside, we move on to other topics. But by 19 98, 99, suddenly there was a great growth of interest because of two things. Jarke van Wijk in Netherlands developed the squarified algorithm for tree maps, which were a very nice improvement. And Martin Wattenberg developed what I call the cluster tree map. And both of these had the advantage of using more square like aspect ratios to show the regions. And that turned out to be a really important improvement. What was amazing to me was I was very devoted towards the treemap layout algorithm, the slice and dice algorithm, keeping the data in alphabetical order or some numeric order. And I couldn't give up that constraint. So I never even thought about the idea. And they both changed the game by realizing that square like aspect ratios were very important for visual appeal and for organizing the information, but they gave up the orderliness of the slice and dice algorithm. So I got involved with Martin Wattenberg, who's a brilliant programmer and a great designer, and helped with his work@smartmoney.com to make the market map, which became maybe the widely, the most widely known implementation of tree maps and certainly helped a great deal in disseminating to many people. So finding a good application that many people are interested in, like the stock market, turned out to be very important. And he used the area of each rectangle to indicate the market capitalization, that is, the value of the company, and then the color would indicate whether the stock was rising or falling. So green stocks were rising and red stocks were falling, and that made great sense to people. And in one screen, you could see about 600 stocks, and you could immediately see which of the eleven sectors was doing well, energy, or telecommunications or software, or capital goods, etcetera, or health. You could see which sectors were more green or more red. And so that was a very important application, and it gained widespread popularity. So we came back into the treemap game, and I was determined to find another algorithm which would still give you good square like aspect ratios, but would preserve ordering. Yeah, the order. So that became the next generation of treemap algorithms. And that was done with some wonderful partners, with Martin Wattenberg and Ben Bederson, both amazing, terrific programmers, designers. And that is maybe one of my most satisfying papers that was published in 1992 in the ACM transactions on graphics, it had everything. It had design ideas, it had usability studies, it had algorithms and optimization of algorithms. So there was something in it for everybody, and it helped raise attention. So that's a good start on the early history. Let me pause and see if you have any questions about that.",
+      "id": "ep_29_ut_17"
+    },
+    {
+      "end": 838134,
+      "speaker": "Enrico Bertini",
+      "start": 830870,
+      "text": "Well, I never heard the old story like that. I mean, it's really interesting to see how it evolved. It's really amazing, actually. Yeah.",
+      "id": "ep_29_ut_18"
+    },
+    {
+      "end": 854638,
+      "speaker": "Moritz Stefaner",
+      "start": 838142,
+      "text": "And it's great that you started from a personal need, and I think so many good inventions come just from this one itch that you scratch, and then you think, like, huh, this turned out to be useful. How else could we use it? So I wasn't aware of that backstory, too. It's fantastic.",
+      "id": "ep_29_ut_19"
+    },
+    {
+      "end": 864766,
+      "speaker": "Ben Shneiderman",
+      "start": 854694,
+      "text": "Absolutely. I agree with that. That's become part of a larger philosophy, that good basic science happens when you work on real applied problems.",
+      "id": "ep_29_ut_20"
+    },
+    {
+      "end": 865318,
+      "speaker": "Moritz Stefaner",
+      "start": 864798,
+      "text": "Yeah.",
+      "id": "ep_29_ut_21"
+    },
+    {
+      "end": 875330,
+      "speaker": "Enrico Bertini",
+      "start": 865454,
+      "text": "So I was curious to hear from you, Ben. When you invented the three maps, did you already conceptualize the idea of information? Visualization of this came later on.",
+      "id": "ep_29_ut_22"
+    },
+    {
+      "end": 924750,
+      "speaker": "Ben Shneiderman",
+      "start": 876830,
+      "text": "The general concept of information visualization. Yeah, I would say that was an emerging idea. You know that this was an early example, but there were others who were also doing visual programming. The conferences on visual languages and visual programming were already in place. The Macintosh was beginning, or at least the Xerox Star and Lisa. And then the Macintosh and video games were beginning to appear. Air traffic control systems were also visually based. And so there was a kind of movement towards visual, I would say.",
+      "id": "ep_29_ut_23"
+    },
+    {
+      "end": 931826,
+      "speaker": "Enrico Bertini",
+      "start": 926530,
+      "text": "I'm just curious to hear, do you still have the original code of tree maps somewhere?",
+      "id": "ep_29_ut_24"
+    },
+    {
+      "end": 934630,
+      "speaker": "Ben Shneiderman",
+      "start": 932018,
+      "text": "Wow. Probably.",
+      "id": "ep_29_ut_25"
+    },
+    {
+      "end": 938954,
+      "speaker": "Enrico Bertini",
+      "start": 934970,
+      "text": "That would be nice for a museum for Angela Antonelli.",
+      "id": "ep_29_ut_26"
+    },
+    {
+      "end": 943950,
+      "speaker": "Moritz Stefaner",
+      "start": 939042,
+      "text": "Right, Moritz, it would be fantastic. In which language did you implement it?",
+      "id": "ep_29_ut_27"
+    },
+    {
+      "end": 959710,
+      "speaker": "Ben Shneiderman",
+      "start": 944410,
+      "text": "Oh, boy. It was on the Macintosh, and I think it was probably so. That's a good question. I don't even remember. But Brian Johnson continues to work for eBay, and I'm in touch with him, so we could find out.",
+      "id": "ep_29_ut_28"
+    },
+    {
+      "end": 964042,
+      "speaker": "Enrico Bertini",
+      "start": 960170,
+      "text": "Moritz, what's the name of the curator from MOMA? It's not Angela, right?",
+      "id": "ep_29_ut_29"
+    },
+    {
+      "end": 966030,
+      "speaker": "Moritz Stefaner",
+      "start": 964106,
+      "text": "It's Laura Paola Antonelli.",
+      "id": "ep_29_ut_30"
+    },
+    {
+      "end": 970764,
+      "speaker": "Enrico Bertini",
+      "start": 966730,
+      "text": "I should know it because I'm Italian. Paola Antonelli. That would be fun.",
+      "id": "ep_29_ut_31"
+    },
+    {
+      "end": 971740,
+      "speaker": "Ben Shneiderman",
+      "start": 970962,
+      "text": "Yeah.",
+      "id": "ep_29_ut_32"
+    },
+    {
+      "end": 1039110,
+      "speaker": "Enrico Bertini",
+      "start": 974160,
+      "text": "Okay, so. And now you are trying to do art with tree maps. That's pretty amazing. I mean, it's so interesting to hear an academic like you doing turning into art. I'm really, really curious to hear more about that. How you came to this after doing a lot of research in this area, how you came up with the idea of doing arth. I don't know. I think we have this artificial. Most of us have this artificial, I don't know, distinction between art, science and research and whatever. But I'm really, really interested to hear what you think about it. And by the way, I think this is one of the driving ideas behind our podcast. I mean, I'm trying to play the role of the researcher and academic, and Moritz tries to play the role of artist designer. But the more we talk and the more we agree. So, I mean, there's really no distinction between the two things. At least this is what we believe.",
+      "id": "ep_29_ut_33"
+    },
+    {
+      "end": 1507850,
+      "speaker": "Ben Shneiderman",
+      "start": 1039930,
+      "text": "Well, I think that's really a good topic for discussion. And I'm just one voice of many, so you'll have different opinions. But I told you already about my background, which involved the concern for photography and visual composition, at least, and visual design. And also all during the sixties, when I was a student in New York, I was a frequent visitor at the Museum of Modern Art. And so the exhibits of the op art and the pop art and the experiments in art and technology and Nam June Paik and so many other advanced thinkers were very influential to me. Also, the 20th century modernist and later abstract expressionist artists were important to me. And of course, as we'll see, personalities such as Mondrian were clearly using geometric shapes, and Mark Rothko and Paul Klee and Hans Hoffmande, Joseph Albers homage to the square was a wonderful exploration of color and shape. And so I was fascinated by all those ideas. It's maybe worth mentioning that one of my earlier contributions, let's say, in 1972 and 73, was what we called structured flowcharts, and eventually they became known as Nassi Shneiderman diagrams. So here was another one of those aha moments. I was attending a talk about software engineering when I was a graduate student, and the argument was that the old flowcharts were no longer useful, that we had to think in terms of structured programming, if then else and do while. And so it struck me that the go to and the arrows in flow charts were not a good idea. And so in 15 minutes, I drew the basic ideas of how to have nested rectangles to show and other shapes to show the if then else structure, the do while, and the recursive nature of programs that were being written in these new languages. And so I came back to Stony Brook, where I was a graduate student, and my colleague was Ike Nassi, and together he was studying more of this directly in his dissertation work. I was still working on database things, so he helped formulate these ideas in a more organized way. And we submitted this paper. Here's another great story, and it's on the website, on my website. So we submitted this paper to the communication of the ACM, and it was rejected in a few weeks, very quickly, with the message that the authors should collect all copies of this paper and burn them. And I have never gotten such a strong rejection as that. So you can see the scan of that, that rejection letter on my website. But NASA Shneiderman diagrams were also a visual representation of programs, and they became a huge success story for 30 years. And, you know, there's thousands of papers and hundreds of software implementations, dozens of patents. It's an international standard taught and used in many places. Its utility and its usage has declined with newer programming strategies and interactive development environments. But it was great fun that without doing much, this idea traveled very well. And so I had the understanding that visual representations had great power, but also they provoked strong responses, negative as well as positive. And so it was very interesting to see, during the 1990s, how the tree maps emerged, how they were accepted or not by different groups, and how they spread to different fields of work. Now, you asked me also about the times. So, you know, when we published this in 1991 and 92, there still was not an information visualization conference. That began in 1995, I believe. Yes, 1995. We then had a ready information visualization conference. By 1999, you may remember, with Stu Card and Jock Mackinlay, we wrote the book readings in information visualization. So we were beginning to help form the idea of what was this new discipline. And next year we'll be celebrating the 20th anniversary of the information Visualization conference. So by the late 1990s, some people began to see how this idea was important. Stuart Card wrote a very good set of cognitive principles as to why information visualization would be helpful. And so we began to understand and apply that in many areas. And of course, we moved on. And the idea of spot fire and the dynamic queries began in 1991. Two, three. And Christopher Ahlberg spent the summers of 1991 and 1993 working with us. And we published the paper in the CHI's conference of 1994. And that about the project we called Film Finder, which was a result of IBM funding to develop a catalog. If we had 10,000 videos, how would we enable users to explore 10,000 videos? So we developed this visual interface and by 1997, Christopher Allberg formed the company Spotfire. And I was pleased to serve on the board of directors for five years. And that was a great success story. I learned a lot about business and how ideas travel and how innovations become successes. And it grew to 200 people, which was a great success story. Pharmaceutical drug discovery was the main initial application and showed success there. And then chemical informatics, oil and gas discovery, production, manufacturing, and so on. So by 2007, that was purchased by Tibco, and that was a very satisfying story that took ten years to unfold. And so I had the chance to see close at hand how ideas travel from universities to business successes.",
+      "id": "ep_29_ut_34"
+    },
+    {
+      "end": 1524694,
+      "speaker": "Enrico Bertini",
+      "start": 1509710,
+      "text": "Yeah, I think that Marik. Oh, sorry. No, I think as far as I know, spot fire was the first, um, the first success of information visualization on the market. Right.",
+      "id": "ep_29_ut_35"
+    },
+    {
+      "end": 1559370,
+      "speaker": "Ben Shneiderman",
+      "start": 1524742,
+      "text": "I mean, I think so. Right. The first large success. Now we have Tableau, for example, done by our colleagues, also from academia, from Stanford, Jock Mackinlay, Pat Hanrahan and others, went to Seattle, formed a company, and it's a great success story. And their approach to business was somewhat different. They are more horizontal. They want to reach everyone and they have. I spoke at their recent user conference meeting in Washington, DC, with 4000 people attending.",
+      "id": "ep_29_ut_36"
+    },
+    {
+      "end": 1561730,
+      "speaker": "Enrico Bertini",
+      "start": 1560390,
+      "text": "It's unbelievable.",
+      "id": "ep_29_ut_37"
+    },
+    {
+      "end": 1567910,
+      "speaker": "Ben Shneiderman",
+      "start": 1562430,
+      "text": "Yeah. And they are listed on the stock market and they're a nice success story.",
+      "id": "ep_29_ut_38"
+    },
+    {
+      "end": 1582920,
+      "speaker": "Enrico Bertini",
+      "start": 1568070,
+      "text": "I mean, now that I think about it, if we look at the success on the market of information visualization, most of the most successful companies come from the work of academics, am I right? I never saw it this way.",
+      "id": "ep_29_ut_39"
+    },
+    {
+      "end": 1637860,
+      "speaker": "Ben Shneiderman",
+      "start": 1583860,
+      "text": "Many of them, many of them. I think what's happened is that we have only a few examples of companies that are strictly infovis, like Tableau. What happens is the infovis idea gets bought by another company and embedded in other products. And this is most strong with IBM, which bought Cognos, and then I, and then it bought Ilog and Spss and itwo. So we had, you know, this integration is its best application. I would say that visualization on its own is a harder, harder product to sell, but when it's part of a end to end solution, then it becomes more natural as a success story.",
+      "id": "ep_29_ut_40"
+    },
+    {
+      "end": 1657196,
+      "speaker": "Enrico Bertini",
+      "start": 1641120,
+      "text": "Yeah, yeah. But I was thinking at things like the huge success of D3, which really struck me as unbelievably successful. Right. It's not really a product, but the rate of adoption was amazing, right? Yeah.",
+      "id": "ep_29_ut_41"
+    },
+    {
+      "end": 1661220,
+      "speaker": "Ben Shneiderman",
+      "start": 1657388,
+      "text": "So, yeah, but, but there's a question. Where's the business side?",
+      "id": "ep_29_ut_42"
+    },
+    {
+      "end": 1661724,
+      "speaker": "Enrico Bertini",
+      "start": 1661340,
+      "text": "Yes.",
+      "id": "ep_29_ut_43"
+    },
+    {
+      "end": 1664076,
+      "speaker": "Ben Shneiderman",
+      "start": 1661772,
+      "text": "You don't have a D3 company.",
+      "id": "ep_29_ut_44"
+    },
+    {
+      "end": 1665156,
+      "speaker": "Enrico Bertini",
+      "start": 1664188,
+      "text": "Company, sure.",
+      "id": "ep_29_ut_45"
+    },
+    {
+      "end": 1699406,
+      "speaker": "Ben Shneiderman",
+      "start": 1665268,
+      "text": "But open source toolkits like D3 are quite wonderful and very much appreciated. Their excellent engineering aspects, their embedding in a browser and beautiful animations made them attractive. Last year, it was an amazing story. In my class on visualization, six out of the seven project teams quickly adopted D3, and that was, you know, they were willing to learn this new tool because of the high payoff it had.",
+      "id": "ep_29_ut_46"
+    },
+    {
+      "end": 1700730,
+      "speaker": "Enrico Bertini",
+      "start": 1699518,
+      "text": "Yeah, yeah, yeah.",
+      "id": "ep_29_ut_47"
+    },
+    {
+      "end": 1706726,
+      "speaker": "Ben Shneiderman",
+      "start": 1701670,
+      "text": "Okay, so we were, oh, yes, let's talk about art.",
+      "id": "ep_29_ut_48"
+    },
+    {
+      "end": 1717860,
+      "speaker": "Enrico Bertini",
+      "start": 1706798,
+      "text": "Let's talk about arthem. So how did you come up with the tree map art project? Maybe you first want to describe what it is.",
+      "id": "ep_29_ut_49"
+    },
+    {
+      "end": 2091076,
+      "speaker": "Ben Shneiderman",
+      "start": 1718520,
+      "text": "Right? So over these 20 years, I came to see that the tree maps we made sometimes, sometimes were very appealing. The colors and the shapes and the layout made for attractive ideas. And people said, oh, you should frame it and put it on your wall. And I heard that so many times that I decided, okay, let me spend the summer and try to find a way to make tree maps with real data about real problems. But let me try and use the tree map algorithm. And by now, we had five different tree map algorithms and try to make something that was aesthetically appealing. So it's an interesting question of the bridge between functional, which was entirely my motivation for treemaps, and the idea of something aesthetic, and our original treemap tool, which is still free to download for anyone who wants to try to make their own, has features in it that let us remove the technical aspects, the labels and the legends and the scales, and all the other things that are necessary for an effective visualization, and show only the color and the shapes in a way that lets the viewer focus on the aesthetic aspects. And in the Treemap art project page, I put down that there were four different aesthetic principles that could be exercised. First, the layout, which of the five algorithms to use, the slice and dice, the squarefy, the order, the strip, and so on, what colors that turns out to be the important, really strong effect, the aspect ratio of the entire image, would it be square or golden ratio, or would it be narrow and wide or tall? And then the prominence of the borders for each region and each level, and how strongly we drew those borders. And so those are the things. During the summer, we played with. And on the website of the Treemap Art Project, we show you 50 or 60 of our draft designs of the things we tried to do, and then we chose from those twelve that we really liked. And actually we did a little crowdsourcing, inviting friends and colleagues and students to vote on their favorite ones. It was very interesting because the vote did not converge on one or two being the most favorite, but they had many, many different favorites. And so we chose twelve of them. And I was pleased to work with a wonderful graduate student who had been in my course and proved to be a good designer. His name is Minhaz Kazi. And so together we worked during the summer and chose to twelve that we liked, and we polished them and cleaned them up and dealt with the colors, and then began exploring printing and various sizes and different print techniques and different printing offices. And so that was another effort that took another month until we were happy with our design and the printers we chose. And then we began to make the production versions. So we decided to make them all the same, 24 by 36 inches. And we added paragraphs of description that told about what was the data and then what we were trying to accomplish. So some of them looked like Mondrian, and we used Mondrian's color palette to highlight them. Others we had data about the state of Maryland and its grants for energy renewal. So there was solar and there was wind and four kinds, and we used the four colors of the Maryland flag to choose the color palette, and so on. We went through Hans Hoffman's work and Joseph Albers, and so we developed a range of these, which we tried many versions of, many versions of. And in the final exhibit, which you can see online. Or we did finally print them all and get them mounted and framed and hung in the hallways of computer science at the University of Maryland. And that happened at the last week of August, finally. And so they're hanging there now for almost two months. And it's very interesting to see the reaction. Of course, in the beginning, my colleagues wondered, what is this strange beast? What's going on here? What's happened to Ben Shneiderman? You know, what's he doing? And over time, though, it was very satisfying to see that it takes a while. And they began to come back to me, and they say, you know, I went to see him, and it's terrific. It's exciting. They're creative, beautiful. And they started to ask me for copies. Can I get one for my office? So we began to have a little bit of a, an interest in it, and so we prepared a special print for some of our colleagues to put in their office. So that was very nice.",
+      "id": "ep_29_ut_50"
+    },
+    {
+      "end": 2123184,
+      "speaker": "Enrico Bertini",
+      "start": 2091228,
+      "text": "So, Ben, there is one question off the top of my head. So you briefly mentioned that in the way you prepare the final tree maps, you add at least a caption saying what the data is about. Right. So I'm wondering, do you think that the beauty of the visualization comes exclusively from the aesthetics of it or knowing what's the data behind that adds something to it?",
+      "id": "ep_29_ut_51"
+    },
+    {
+      "end": 2165310,
+      "speaker": "Ben Shneiderman",
+      "start": 2123282,
+      "text": "I mean, yeah, that's really interesting. And it depends who you ask. It depends who you ask, because there are some people, there's a whole range some. My goal was to minimize the technical aspects, as I said, in the visual design, and the explanations were only partial explanations. And so I hope that people wouldn't look at it too much as a technical, functional piece, but would look at it as aesthetic. Would they look at the colors and just, you know, relax and enjoy?",
+      "id": "ep_29_ut_52"
+    },
+    {
+      "end": 2169430,
+      "speaker": "Enrico Bertini",
+      "start": 2166170,
+      "text": "So, for instance, you don't have, you don't have labels, right?",
+      "id": "ep_29_ut_53"
+    },
+    {
+      "end": 2181904,
+      "speaker": "Ben Shneiderman",
+      "start": 2170210,
+      "text": "Correct. Correct. There's no labels. There's no legend, there's no color palette. But in the description, we give a kind of incomplete, but at least some sort of explanation.",
+      "id": "ep_29_ut_54"
+    },
+    {
+      "end": 2183416,
+      "speaker": "Moritz Stefaner",
+      "start": 2181992,
+      "text": "It's sort of a tease, right.",
+      "id": "ep_29_ut_55"
+    },
+    {
+      "end": 2307166,
+      "speaker": "Ben Shneiderman",
+      "start": 2183488,
+      "text": "Or complete description. All right. Well. Right, right. But I didn't want people to think of them as technical. I wanted them to think about them as art and look at them for their aesthetic principles. So some people succeeded to do that. Other people told me very clearly, I'm too much of an analytic person. I want to know what every box means. I want to know what every color means. I want to know why it's there. And I understand that. And I was trying to get away from that, because for 20 years, that's what I did. And so I wanted to try something new which focused more on the art and the aesthetic components. And I should say not all my artist friends were charmed by this approach, either. Some like this, but others said, you know, it's not really art. It's still constrained by the treemap algorithm. It's constrained by the data. You didn't have the full freedom to do what you wanted. You were limited and constrained. And yes, that's true. And so it's a kind of middle ground between the expression or abstract expressionist ideas of the sixties and the technical. So some people call this data art. Okay, data art as a middle ground. There's data visualization on one side, or information visualization as a more technical goal of serving users, and there's the artistic side on the others, which is just, you know, free form artists. Sometimes there's computer art, which uses computers to create shapes and forms and colors in an algorithmic way, but it's much more focused on the art. This is kind of a middle space, and of course, middle spaces when they're new ideas, are not always comfortable for people.",
+      "id": "ep_29_ut_56"
+    },
+    {
+      "end": 2335600,
+      "speaker": "Enrico Bertini",
+      "start": 2307318,
+      "text": "Sure. Even though I'm not sure, I fully agree with this comment that this is not art, because in a way, every single art has some. Some forms of constraints, right? I mean, I think there's no art without constraints. What is really beautiful of art is being able to create something beautiful within some constraints. Right? The constraint itself generates part of the art. I mean, that's the way I see it.",
+      "id": "ep_29_ut_57"
+    },
+    {
+      "end": 2352870,
+      "speaker": "Moritz Stefaner",
+      "start": 2336450,
+      "text": "And the interesting thing with the tree map art is also how clearly now you see these algorithms, like what the nature of the slice and dice is and the nature of the squarified tree map. I think it can be illustrated really nicely with these very pure images.",
+      "id": "ep_29_ut_58"
+    },
+    {
+      "end": 2484338,
+      "speaker": "Ben Shneiderman",
+      "start": 2353610,
+      "text": "Very nice. Yes. I hope that some people will take away some technical lessons as well and will come to see and try to use tree maps for new applications and maybe in new ways. But back to the issue of constraints. Certainly, Mondrian worked with constraints. He had very clear principles about how he did his layouts. And so we see those kinds. And Joseph Albers certainly, I mean, he was very constrained. He had these homage to the square of one square within another square within another square, and he had a few variations, but it was really a very limited range of geometric shapes. But he explored the color relationships in a way that nobody else had ever done before. And so, you know, these, each of these projects were rejected by many people, but eventually gained appreciation, and I hope I will have the same satisfaction that I will have my supporters who like it. So I'm pleased that a half dozen bloggers have already mentioned and described the treemap art project. I'm pleased to do this podcast with you. And I'm happy to report to you that my initial response from the National Academy of Sciences in Washington is that they will, they will, they plan to host this exhibit starting in October 2014. So approximately a year from now. So that will raise the prominence, and that will show, give my colleagues something to think about, because they will see that somebody else appreciates this idea, and we'll get some greater visibility at that time. So I see this as a longer term effort. Another effort you may know about is Manuel Lima, who did the wonderful website called visual complexity.",
+      "id": "ep_29_ut_59"
+    },
+    {
+      "end": 2486730,
+      "speaker": "Enrico Bertini",
+      "start": 2484394,
+      "text": "Sure, we know Manuel personally.",
+      "id": "ep_29_ut_60"
+    },
+    {
+      "end": 2507214,
+      "speaker": "Ben Shneiderman",
+      "start": 2486810,
+      "text": "Yeah, right. And he lives in New York, and he did a book on networks. And his next book, which comes out in February 2014 from Princeton University Press, will be about tree structures, and a large part of it is about tree maps. And I'm pleased to have written the foreword for that book.",
+      "id": "ep_29_ut_61"
+    },
+    {
+      "end": 2508450,
+      "speaker": "Moritz Stefaner",
+      "start": 2507302,
+      "text": "Oh, fantastic.",
+      "id": "ep_29_ut_62"
+    },
+    {
+      "end": 2599910,
+      "speaker": "Ben Shneiderman",
+      "start": 2508750,
+      "text": "You know, there will be further attention to the question of visualizations as art, I should say. Also, Katy B\u00f6rner at Indiana University has made important contributions here and her work and her exhibits, places and spaces. I've also been shown at the National Academy of Sciences, and they had a positive influence on getting many people to think about visualization in an artistic way, I should say also, I continue now the summer project is done, I continue and come back to my work on medical information visualization. Our work on event flow is thriving, and we have yet new visual representations of temporal event sequences. If you think of a patient history as 10,000 medical events over 100 year lifetime, and if you give me a million or 10 million of these histories, how can I show you a compact, one screen representation of all these patients that shows you the common patterns of treatment and outcome? I'm continuing to work on the technical side for applications, always driven by meaningful applications, and I'm very happy to be working on medical records as a good project.",
+      "id": "ep_29_ut_63"
+    },
+    {
+      "end": 2618020,
+      "speaker": "Enrico Bertini",
+      "start": 2600330,
+      "text": "So, Ben, another thing I'm curious about. So during summer, you've been working mainly on art and aesthetics, right? So what do you think we can learn? I mean, we people who are more on the functional side of visualization, what can we learn from the artistic and aesthetic side?",
+      "id": "ep_29_ut_64"
+    },
+    {
+      "end": 2725180,
+      "speaker": "Ben Shneiderman",
+      "start": 2618920,
+      "text": "Well, you know, you have to remember that fun is part of functional, and that things that are functional can also be beautiful and fun and enjoyable. And I think it's true that we can work to make the visualizations we design to be aesthetically appealing. I think the main problem I see in many applications is the poor choice of color palettes. And I think we all need more education in choosing better color palettes. And then I think design studio courses should be part of the training in computer science for those who are doing visual design. I was very pleased to work with Audra Buck Coleman, professor in the School of Fine Arts at the University of Maryland. And she helped one of our students, John Guerra Gomez, and his tree versity project that John presented at the last the info of his conference just a few weeks ago in Atlanta. And she was very helpful and she prepared a one credit course for computer science students. And we had 15 students who took her course. And every week they met together and they looked at the work that these students were doing in terms of the aesthetics and the design and how they might improve the design and the aesthetics so that it would be more appealing but also more ethereum, effective in showing the data in a proper way.",
+      "id": "ep_29_ut_65"
+    },
+    {
+      "end": 2734780,
+      "speaker": "Enrico Bertini",
+      "start": 2725800,
+      "text": "Okay, so you think that we should actually include in our courses some elements of aesthetics and design?",
+      "id": "ep_29_ut_66"
+    },
+    {
+      "end": 2736064,
+      "speaker": "Ben Shneiderman",
+      "start": 2735080,
+      "text": "Absolutely.",
+      "id": "ep_29_ut_67"
+    },
+    {
+      "end": 2738420,
+      "speaker": "Moritz Stefaner",
+      "start": 2736152,
+      "text": "That's so great to hear, Ben, that.",
+      "id": "ep_29_ut_68"
+    },
+    {
+      "end": 2739256,
+      "speaker": "Enrico Bertini",
+      "start": 2738880,
+      "text": "Yeah.",
+      "id": "ep_29_ut_69"
+    },
+    {
+      "end": 2765990,
+      "speaker": "Moritz Stefaner",
+      "start": 2739288,
+      "text": "And also I heard Jackie van Vejh also made a similar point in his, in his closing keynote on this year's whiz conference. And it's so fantastic that important people like you and Jarke see this need to bring these worlds together because I often still feel there's reservations on both sides in some form. And such great things can happen when we can bring these two worlds together. Right?",
+      "id": "ep_29_ut_70"
+    },
+    {
+      "end": 2784620,
+      "speaker": "Ben Shneiderman",
+      "start": 2766570,
+      "text": "Absolutely. Absolutely. The goal of bringing them together is maybe strong, but at least learning from each other and respecting each other's contribution, I think is a very possible and very fruitful way to go forward.",
+      "id": "ep_29_ut_71"
+    },
+    {
+      "end": 2796460,
+      "speaker": "Enrico Bertini",
+      "start": 2787560,
+      "text": "Yeah, it's weird. I mean, one thing that I noticed myself is that some kind of people are skeptical when something is too beautiful. I don't know why.",
+      "id": "ep_29_ut_72"
+    },
+    {
+      "end": 2800820,
+      "speaker": "Moritz Stefaner",
+      "start": 2798600,
+      "text": "It's a dumped blonde effect, right?",
+      "id": "ep_29_ut_73"
+    },
+    {
+      "end": 2802040,
+      "speaker": "Ben Shneiderman",
+      "start": 2801320,
+      "text": "Yeah.",
+      "id": "ep_29_ut_74"
+    },
+    {
+      "end": 2815908,
+      "speaker": "Enrico Bertini",
+      "start": 2802200,
+      "text": "Like if something is too aesthetically pleasing, it must not be serious. I don't know. Serious enough. I don't know. It's weird. Some people, I agree, that's a real danger in some people.",
+      "id": "ep_29_ut_75"
+    },
+    {
+      "end": 2818252,
+      "speaker": "Ben Shneiderman",
+      "start": 2816004,
+      "text": "Yeah, absolutely. Absolutely.",
+      "id": "ep_29_ut_76"
+    },
+    {
+      "end": 2850550,
+      "speaker": "Moritz Stefaner",
+      "start": 2818316,
+      "text": "Yeah. But I love how you point out that there's a functional role to aesthetics. And this is very much my take on the topic as well, and of any serious designer, you know, like, that's what we work with and this is how we, how we affect change, like by producing certain emotions. When you look at something by guiding people in a subtle way. And still I read a blog post that sort of makes this fall dichotomy between function and form. And I read these blog posts every three weeks, and I'm getting tired of it.",
+      "id": "ep_29_ut_77"
+    },
+    {
+      "end": 2880300,
+      "speaker": "Ben Shneiderman",
+      "start": 2851010,
+      "text": "Yeah, well, I think you have to remember Steve Jobs said he worked at the intersection of technology and liberal arts, is what he said. Now, I think he meant art, design, social sciences, and many other forms. So that's where I think the great contribution of the future will lie, by integrative experiences that bring together the work from multiple disciplines.",
+      "id": "ep_29_ut_78"
+    },
+    {
+      "end": 2918990,
+      "speaker": "Enrico Bertini",
+      "start": 2882370,
+      "text": "Talking about the. Go ahead. Oh, sorry. I think this is a very big challenge for educators like us, because today, I mean, if we want to train our, our students properly, we have to give them a well rounded kind of education. Right. It's no longer enough to just learn computer science the old way, for instance. Right. So now you have computer scientists who come to our school and they, they expect, expect to be taught only technical things, but actually, in some cases, if they are taught only technical things, they might not be successful. Right?",
+      "id": "ep_29_ut_79"
+    },
+    {
+      "end": 3025856,
+      "speaker": "Ben Shneiderman",
+      "start": 2919330,
+      "text": "Correct, correct. And we have the examples of Hollywood animation and 3d video games where aesthetics and narrative are essential to the success of those media. So I think we have examples. Not everyone will appreciate this bridging or marriage of disciplines, just as my early efforts with software psychology, which I call the marriage of disciplines, led to much resistance as well. Still, after 30 years now, I would say it's a success story that the CHI's conferences and the work of combining psychological methods and theories with design and implementation of advanced technologies is what makes the success. That's why 5 billion people have a cell phone or a smartphone in their pockets. We have, of course, the success of the chip designers, but also the success of the graphic designers and the user interface designers. And I think that is increasingly appreciated as a key. One of the keys to success of commercial and technological projects is that we should attend to the aesthetics. I mean, this is not a new idea, but it has its new forms. Beautiful bridges were always in beautiful buildings where, you know, for a thousand years or more were understood that a building should be not only functional, but it should be beautiful. And I think the buildings we live in, the technologies we live in, need to be functional and beautiful.",
+      "id": "ep_29_ut_80"
+    },
+    {
+      "end": 3040140,
+      "speaker": "Enrico Bertini",
+      "start": 3026008,
+      "text": "Yeah, I fully, totally agree with you. That's so important. I think if I remember well, Donald Norman wrote a whole book about it. Right. I think it was called emotional design or something like that.",
+      "id": "ep_29_ut_81"
+    },
+    {
+      "end": 3044744,
+      "speaker": "Ben Shneiderman",
+      "start": 3040600,
+      "text": "Yeah. I mean, he was dealing not so, so much with visual but emotional reactions.",
+      "id": "ep_29_ut_82"
+    },
+    {
+      "end": 3046784,
+      "speaker": "Enrico Bertini",
+      "start": 3044832,
+      "text": "Yeah, yeah, yeah. That's interesting. Yeah.",
+      "id": "ep_29_ut_83"
+    },
+    {
+      "end": 3070350,
+      "speaker": "Moritz Stefaner",
+      "start": 3046792,
+      "text": "And in fact, architects had this notion of, yeah. Beauty and utility going hand in hand for a long time. And in fact, Andrew, with his, Andrew Vande Moere, I think in this aesthetics paper, he also mentions that fermitas, utilitas, venustas principle that, yeah, we need in software and we need everywhere in life, basically, right?",
+      "id": "ep_29_ut_84"
+    },
+    {
+      "end": 3071610,
+      "speaker": "Ben Shneiderman",
+      "start": 3070510,
+      "text": "Absolutely.",
+      "id": "ep_29_ut_85"
+    },
+    {
+      "end": 3097030,
+      "speaker": "Moritz Stefaner",
+      "start": 3072670,
+      "text": "Shall we speculate about the future? I would be much interested in your idea, like where, with this bird's eye perspective that you have now, after following the whole field, what is the trajectory of information visualization at the moment? Where do you see it going? What's, is it going to diversify for, diversify further, or where is it going?",
+      "id": "ep_29_ut_86"
+    },
+    {
+      "end": 3281100,
+      "speaker": "Ben Shneiderman",
+      "start": 3097850,
+      "text": "Well, we're just at the beginning, so there's a lot of hard work to do. And you have to remember that while those people who are engaged in this work see it as a success story already, we are still only a small fraction of the population, and it will take 100 years. As I said at the opening, for these ideas to spread, we need to create national educational programs of visual literacy. We have to teach people who resist the visual approaches to think visually, that we use visual reasoning strategies for analyzing big data. There's many, many places that these new ideas need to be applied. So the first moment of excitement. Well, there still is excitement, I would say. I love to go to the infovis conference. I still see many new ideas, but now there is the hard work of moving from 1% of the population to 10% of the population, and then to 50% of the population. And so I see many companies and government organizations have to work very hard to promote visualization inside their communities. Remember, we live in this small world of people who are already sympathetic to visualization, but we have to reach, our job is to reach the wider world of people who are not yet sympathetic, who don't use visualization. And so that will be an important challenge. So that's, I think, the central direction that will occupy many, many people. How do we bring visualization to high schools and junior high schools and lower schools as part of their training, so that it becomes a natural way for people to solve problems. Okay. I think there are problems, furthermore, of improving collaboration over visualizations, of integrating visualization into existing toolkits. There's just a variety of things to be done. We work a lot on the medical space, and in the may issue of IEEE computer, we have a description about how visualization can help in medicine, both for personal health, for clinical treatments, and for public health users. And we lay out seven challenges of what needs to be done for, for us to achieve the full success of using visuals, visual reasoning strategies to make healthier lives. I think that's our challenge.",
+      "id": "ep_29_ut_87"
+    },
+    {
+      "end": 3305200,
+      "speaker": "Enrico Bertini",
+      "start": 3282320,
+      "text": "I think that that's really, really interesting. And so you seem to suggest that education is going to be one of the majority, the major. Yeah. The major factors in having. In turning visualization to very successful and widely adopted kind of technology, right?",
+      "id": "ep_29_ut_88"
+    },
+    {
+      "end": 3306760,
+      "speaker": "Ben Shneiderman",
+      "start": 3305980,
+      "text": "Yes.",
+      "id": "ep_29_ut_89"
+    },
+    {
+      "end": 3312932,
+      "speaker": "Moritz Stefaner",
+      "start": 3307180,
+      "text": "Interesting, because I think we're not targeting students at all at the moment.",
+      "id": "ep_29_ut_90"
+    },
+    {
+      "end": 3362020,
+      "speaker": "Enrico Bertini",
+      "start": 3313076,
+      "text": "Yeah, I mean, my personal experience with visualization, and this is something I started realizing very recently, is that most people just cannot read what we do. I mean, as we know, it's seriously true. It's true. It's true. And as we move just past beyond something as simple as a bar chart or a line chart, which for some people are already quite complicated, people just don't know how to read it. Right. So. And what's the consequence of that? Should we just give up and say that people cannot read a. Read these things and then they are useless? No, I don't think so. But on the other hand, I think that we really need some kind of strong effort in educating people to read, to actually learning a new language. I think this is a new language that people need to learn.",
+      "id": "ep_29_ut_91"
+    },
+    {
+      "end": 3383626,
+      "speaker": "Ben Shneiderman",
+      "start": 3362400,
+      "text": "That's right. It's a new language of problem solving. The professionals we work with, whether they're medical or scientists, the strongest support we get is once after a few weeks of using our tools, they say, you gave me a new.",
+      "id": "ep_29_ut_92"
+    },
+    {
+      "end": 3387098,
+      "speaker": "Enrico Bertini",
+      "start": 3383778,
+      "text": "Yes, we are connection problems, but I.",
+      "id": "ep_29_ut_93"
+    },
+    {
+      "end": 3388458,
+      "speaker": "Moritz Stefaner",
+      "start": 3387114,
+      "text": "Think it should be fine now.",
+      "id": "ep_29_ut_94"
+    },
+    {
+      "end": 3430104,
+      "speaker": "Enrico Bertini",
+      "start": 3388634,
+      "text": "Yeah, yeah. I just wanted to mention again that it's still not clear to me how we are going to do that, because most of the focus in visualization is still mainly on the technology. Right. Both in academia and out of academia, visualization is mainly discussed from the technological point of view. Right. Well, on the academic side, we also have some interesting research on what works, what doesn't work. We try to lay out some design space, we try to run some studies, but I don't see much of an effort in trying to educate people and I think that's something that we really, really need to focus on.",
+      "id": "ep_29_ut_95"
+    },
+    {
+      "end": 3484838,
+      "speaker": "Ben Shneiderman",
+      "start": 3430292,
+      "text": "Right. I think the biggest success stories are with the journalists and the New York Times especially, has been very effective in showing examples and making people aware of the power of not just static visualizations as in the printed paper, but interactive visualizations on their websites. It's wonderful accomplishments that Matt Erickson and his team, and wonderful people like Amanda Cox and Mike Bostock and Sean Carter, every week their visualizations are doing a lot to educate people in the value for many, many different application areas, whether it's politics or economics or sports, they show excellent visualizations.",
+      "id": "ep_29_ut_96"
+    },
+    {
+      "end": 3524628,
+      "speaker": "Enrico Bertini",
+      "start": 3484984,
+      "text": "Yeah, I think in a way we have this paradoxical situation that so, so far we've been saying that beauty and aesthetics is important, and I fully agree. But on the other hand, I see that sometimes visualization is perceived only from the aesthetic point of view, right? And this is also some kind of problem. I think that some people look at visualization and think, oh wow, that's totally cool. But then they don't spend even a few seconds trying to understand whether there is any message behind that or if there is a way to communicate this message in a better way. Right? So I think, I think challenge here for visualization, right?",
+      "id": "ep_29_ut_97"
+    },
+    {
+      "end": 3581500,
+      "speaker": "Ben Shneiderman",
+      "start": 3524684,
+      "text": "I think you see that most strongly in the growing field of network visualization, where Manuel Lima's website, visual complexity shows 770 different network visualizations. And most of them are terrible. They're just not that you cannot learn something from these visualizations. And so we need to do a lot better in improving the quality. They look cool, but they're not necessarily useful. The excessive use of color, the excessive use of animation are interfering with the effective use of visualization for functional goals. And so while they may be aesthetic, they are not always useful. And finding that blend where you have useful and aesthetic is the goal.",
+      "id": "ep_29_ut_98"
+    },
+    {
+      "end": 3583540,
+      "speaker": "Enrico Bertini",
+      "start": 3582560,
+      "text": "Well said.",
+      "id": "ep_29_ut_99"
+    },
+    {
+      "end": 3617936,
+      "speaker": "Moritz Stefaner",
+      "start": 3586440,
+      "text": "Yeah, but I'm relaxed there because I think, I mean, many people are now fascinated with these new, simply complex images we can create. And you know, they have this natural touch and it's very like lots of detail. And I mean, I think this pure, let's say aesthetic fascination will go away. And then in the end, in a few years, you know, everybody will be tired of these images. And then, you know, the more, the more interesting stuff will just remain. I'm pretty, pretty sure about that.",
+      "id": "ep_29_ut_100"
+    },
+    {
+      "end": 3620180,
+      "speaker": "Ben Shneiderman",
+      "start": 3617968,
+      "text": "I like your optimistic view.",
+      "id": "ep_29_ut_101"
+    },
+    {
+      "end": 3623280,
+      "speaker": "Moritz Stefaner",
+      "start": 3621680,
+      "text": "I believe in the good.",
+      "id": "ep_29_ut_102"
+    },
+    {
+      "end": 3647250,
+      "speaker": "Enrico Bertini",
+      "start": 3623360,
+      "text": "Yes, to have an optimistic view. Okay, I think we should try to stop here, but we could keep talking for hours and hours. There are so many things. So before we stop, I'm just curious and I think some of our listeners may be curious as well. What if I want to have one or more prints?",
+      "id": "ep_29_ut_103"
+    },
+    {
+      "end": 3700920,
+      "speaker": "Ben Shneiderman",
+      "start": 3648230,
+      "text": "Well, thank you for asking. Yes, all of the high resolution PDF's that we produced, our twelve images are all on the website, free to download. And anyone who wishes for personal use to print them, please do it. Please frame them. Put them in your hallways and your offices. I'm happy to have that if you want a signed version. Aha. Some people want me to sign them. If you want a signed version, I will print it for you. You and I will mail it to you. But we ask you to make a contribution of $500 to the human computer interaction lab at the University of Maryland. So that will give you an authentic signed piece of artwork and will help us continue our research.",
+      "id": "ep_29_ut_104"
+    },
+    {
+      "end": 3703060,
+      "speaker": "Enrico Bertini",
+      "start": 3701080,
+      "text": "Does this come with a frame as well?",
+      "id": "ep_29_ut_105"
+    },
+    {
+      "end": 3708910,
+      "speaker": "Ben Shneiderman",
+      "start": 3706690,
+      "text": "And shipping are extra.",
+      "id": "ep_29_ut_106"
+    },
+    {
+      "end": 3715234,
+      "speaker": "Enrico Bertini",
+      "start": 3711770,
+      "text": "I just want to make sure. Always negotiating, right?",
+      "id": "ep_29_ut_107"
+    },
+    {
+      "end": 3745450,
+      "speaker": "Ben Shneiderman",
+      "start": 3715322,
+      "text": "That's fair. That's fair. No, we're happy to make them free. For those who want to print them on their own, there are websites which will let you print them. If you don't have your own printer and they will mail them to you, you're free to do that. I encourage people to do that. And if people want to have this exhibit in their institution, they should contact me and we'll discuss if it's possible that our exhibit can travel to many other places.",
+      "id": "ep_29_ut_108"
+    },
+    {
+      "end": 3747890,
+      "speaker": "Enrico Bertini",
+      "start": 3745570,
+      "text": "Well, New York would be a perfect setting.",
+      "id": "ep_29_ut_109"
+    },
+    {
+      "end": 3751818,
+      "speaker": "Ben Shneiderman",
+      "start": 3748050,
+      "text": "All right, so find me a home in New York, Enrico.",
+      "id": "ep_29_ut_110"
+    },
+    {
+      "end": 3755050,
+      "speaker": "Enrico Bertini",
+      "start": 3751994,
+      "text": "I'll try. I'll try. Cannot promise, but I'll try.",
+      "id": "ep_29_ut_111"
+    },
+    {
+      "end": 3757190,
+      "speaker": "Moritz Stefaner",
+      "start": 3755130,
+      "text": "Let's ask Paola what we can do.",
+      "id": "ep_29_ut_112"
+    },
+    {
+      "end": 3760756,
+      "speaker": "Ben Shneiderman",
+      "start": 3758490,
+      "text": "That would be great. That'll be great.",
+      "id": "ep_29_ut_113"
+    },
+    {
+      "end": 3761228,
+      "speaker": "Enrico Bertini",
+      "start": 3760828,
+      "text": "Doctor.",
+      "id": "ep_29_ut_114"
+    },
+    {
+      "end": 3762036,
+      "speaker": "Ben Shneiderman",
+      "start": 3761284,
+      "text": "Paula?",
+      "id": "ep_29_ut_115"
+    },
+    {
+      "end": 3764836,
+      "speaker": "Enrico Bertini",
+      "start": 3762148,
+      "text": "Yeah, I don't know, Moritz. Do you have a direct connection?",
+      "id": "ep_29_ut_116"
+    },
+    {
+      "end": 3765540,
+      "speaker": "Moritz Stefaner",
+      "start": 3764908,
+      "text": "Not so much.",
+      "id": "ep_29_ut_117"
+    },
+    {
+      "end": 3767040,
+      "speaker": "Enrico Bertini",
+      "start": 3765580,
+      "text": "No, not so much.",
+      "id": "ep_29_ut_118"
+    },
+    {
+      "end": 3790900,
+      "speaker": "Ben Shneiderman",
+      "start": 3768220,
+      "text": "Well, let's start and let's see where we go with it. I hope we'll have. I hope the tree map art project has a long history and that it continues to grow and collect attention and also interest in the use of visualization, both for artistic as well as functional purposes.",
+      "id": "ep_29_ut_119"
+    },
+    {
+      "end": 3794696,
+      "speaker": "Enrico Bertini",
+      "start": 3792200,
+      "text": "Okay, good. Thanks, Ben. It's.",
+      "id": "ep_29_ut_120"
+    },
+    {
+      "end": 3795472,
+      "speaker": "Ben Shneiderman",
+      "start": 3794728,
+      "text": "Thank you.",
+      "id": "ep_29_ut_121"
+    },
+    {
+      "end": 3809180,
+      "speaker": "Enrico Bertini",
+      "start": 3795616,
+      "text": "Pleasure having you on the show. I hope you will want to come back on the show again in the future sometime. We have so many things to discuss and it's really, really interesting and enlightening in a way, having you on the show.",
+      "id": "ep_29_ut_122"
+    },
+    {
+      "end": 3833542,
+      "speaker": "Ben Shneiderman",
+      "start": 3809560,
+      "text": "I'd love to talk about the medical informatics visualization with our colleagues at University of Maryland, Baltimore in this new center for Health Imaging and Bioinformatics is a great opportunity. So that's that. That would be a great topic. Okay. Yeah, we should do that. Thanks.",
+      "id": "ep_29_ut_123"
+    },
+    {
+      "end": 3835254,
+      "speaker": "Enrico Bertini",
+      "start": 3833686,
+      "text": "Bye bye bye.",
+      "id": "ep_29_ut_124"
+    },
+    {
+      "end": 3836622,
+      "speaker": "Moritz Stefaner",
+      "start": 3835422,
+      "text": "Thanks so much, Ben. Bye.",
+      "id": "ep_29_ut_125"
+    }
+  ],
+  "confidence": 0.927298580760094,
+  "audio_duration": 3845,
+  "punctuate": true,
+  "format_text": true,
+  "dual_channel": false,
+  "webhook_url": null,
+  "webhook_status_code": null,
+  "webhook_auth": false,
+  "webhook_auth_header_name": null,
+  "speed_boost": false,
+  "auto_highlights_result": null,
+  "auto_highlights": false,
+  "audio_start_from": null,
+  "audio_end_at": null,
+  "word_boost": [],
+  "boost_param": null,
+  "filter_profanity": false,
+  "redact_pii": false,
+  "redact_pii_audio": false,
+  "redact_pii_audio_quality": null,
+  "redact_pii_policies": null,
+  "redact_pii_sub": null,
+  "speaker_labels": true,
+  "content_safety": false,
+  "iab_categories": true,
+  "content_safety_labels": {
+    "status": "unavailable",
+    "results": [],
+    "summary": {}
+  },
+  "language_detection": false,
+  "language_detection_threshold": null,
+  "language_confidence": null,
+  "custom_spelling": null,
+  "throttled": false,
+  "auto_chapters": true,
+  "summarization": false,
+  "summary_type": null,
+  "summary_model": null,
+  "custom_topics": false,
+  "topics": [],
+  "speech_threshold": null,
+  "speech_model": "best",
+  "chapters": [
+    {
+      "summary": "Enrico: I just came back from push conference in Munich. Two days was really good. We are having good weather. It's a little cold, but it's fine.",
+      "gist": "Data Story",
+      "headline": "Enrico: How are you doing? Moritz: Fine. We are having good weather",
+      "start": 7480,
+      "end": 48008,
+      "id": "ep_29_ch_0"
+    },
+    {
+      "summary": "We have a special guest on the show today, Ben Shneiderman. We will focus this episode on tree maps and more specifically on the tree map art project. I have to admit I'm a little nervous for the first time while recording.",
+      "gist": "Ben Shneiderman on Tree Maps",
+      "headline": "We have a special guest on the show this week, Ben Shneiderman",
+      "start": 48104,
+      "end": 116016,
+      "id": "ep_29_ch_1"
+    },
+    {
+      "summary": "Ben: My background is in computer science, doing database and file design and optimization techniques. Over the years, I became more and more interested in combining these interests, making visual interfaces. He says new ideas are slow to be accepted.",
+      "gist": "Introducing Ben Bradshaw",
+      "headline": "Ben Seymour is an experimental psychologist studying how people use computers",
+      "start": 116048,
+      "end": 865318,
+      "id": "ep_29_ch_2"
+    },
+    {
+      "summary": "The general concept of information visualization was an emerging idea. In which language did you implement it? It was on the Macintosh. Do you still have the original code of tree maps somewhere? That would be nice for a museum for Angela Antonelli.",
+      "gist": "Tree Maps in Computer Programming",
+      "headline": "When you invented the three maps, did you already conceptualize the idea of information",
+      "start": 865454,
+      "end": 971740,
+      "id": "ep_29_ch_3"
+    },
+    {
+      "summary": "Bob Greene: Now you are trying to do art with tree maps. Greene: How you came to this after doing a lot of research in this area. He says there's no distinction between art, science and research. This is one of the driving ideas behind our podcast, Greene says.",
+      "gist": "Tree Maps: Art in Science",
+      "headline": "Moritz Card: I'm curious about how tree maps turned into art",
+      "start": 974160,
+      "end": 1642088,
+      "id": "ep_29_ch_4"
+    },
+    {
+      "summary": "Open source toolkits like D3 are quite wonderful and very much appreciated. In my class on visualization, six out of the seven project teams quickly adopted D3. Where's the business side?",
+      "gist": "On the Success of D3",
+      "headline": "I was thinking at things like the huge success of D3",
+      "start": 1642144,
+      "end": 1706726,
+      "id": "ep_29_ch_5"
+    },
+    {
+      "summary": "Ben Schneider: How did he come up with the tree map art project? He says he wanted to make a tree map with real data about real problems. He says the idea was to make something that was aesthetically appealing. Schneider: The twelve designs are now hanging in a computer science hallways of Maryland.",
+      "gist": "The Tree Map Art Project",
+      "headline": "Tree map art project aims to make visually appealing tree maps",
+      "start": 1706798,
+      "end": 2091076,
+      "id": "ep_29_ch_6"
+    },
+    {
+      "summary": "Benjamin: Do you think the beauty of the visualization comes exclusively from the aesthetics of it or knowing what's the data behind that adds something to it? Ben: My goal was to minimize the technical aspects, as I said, in the visual design. I hope that some people will take away some technical lessons and try to use tree maps for new applications.",
+      "gist": "Tree Maps: Art and Science",
+      "headline": "Do you think the beauty of data visualization comes exclusively from the aesthetics",
+      "start": 2091228,
+      "end": 2367308,
+      "id": "ep_29_ch_7"
+    },
+    {
+      "summary": "The treemap art project will go on display at the National Academy of Sciences in October 2014. There will be further attention to the question of visualizations as art. I continue and come back to my work on medical information visualization.",
+      "gist": "Visualizations as Art",
+      "headline": "National Academy of Sciences to host exhibit on visual information visualization starting in 2014",
+      "start": 2367484,
+      "end": 2599910,
+      "id": "ep_29_ch_8"
+    },
+    {
+      "summary": "Benjamin Jarke: What can we learn from the artistic and aesthetic side of visualization? He says things that are functional can also be beautiful and fun and enjoyable. Jarke says design studio courses should be part of computer science training for visual design. He says such great things can happen when we can bring these two worlds together.",
+      "gist": "Aesthetic design in computer science",
+      "headline": "Ben Friedman: I think computer science should include some elements of aesthetics",
+      "start": 2600330,
+      "end": 2880300,
+      "id": "ep_29_ch_9"
+    },
+    {
+      "summary": "If we want to train our, our students properly, we have to give them a well rounded kind of education. One of the keys to success of commercial and technological projects is that we should attend to the aesthetics.",
+      "gist": "Aesthetic design in computer science",
+      "headline": "One of the keys to success of commercial projects is that we should attend to aesthetics",
+      "start": 2882370,
+      "end": 3071610,
+      "id": "ep_29_ch_10"
+    },
+    {
+      "summary": "For these ideas to spread, we need to create national educational programs of visual literacy. We have to teach people who resist the visual approaches to think visually. There's many, many places that these new ideas need to be applied. But it's still not clear to me how focus in visualization is going to diversify.",
+      "gist": "Interactive visualization: The future",
+      "headline": "For information visualization to spread, we need to create national educational programs",
+      "start": 3072670,
+      "end": 3626250,
+      "id": "ep_29_ch_11"
+    },
+    {
+      "summary": "All of the high resolution PDF's that we produced are all on the website, free to download. If you want a signed version, I will print it for you. But we ask you to make a contribution of $500 to the human computer interaction lab at the University of Maryland. New York would be a perfect setting.",
+      "gist": "The Human Computer Interaction Lab",
+      "headline": "All of the high resolution PDF's that we produced are free to download",
+      "start": 3628550,
+      "end": 3767040,
+      "id": "ep_29_ch_12"
+    },
+    {
+      "summary": "Ben: I hope the tree map art project has a long history. I'd love to talk about the medical informatics visualization with our colleagues at University of Maryland, Baltimore. That would be a great topic. Pleasure having you on the show.",
+      "gist": "Ben Watson on Medical Informatics",
+      "headline": "Ben Friedman: It's great to have you on the show. We have so many things to discuss",
+      "start": 3768220,
+      "end": 3836622,
+      "id": "ep_29_ch_13"
+    }
+  ],
+  "disfluencies": false,
+  "entity_detection": false,
+  "sentiment_analysis": false,
+  "sentiment_analysis_results": null,
+  "entities": null,
+  "speakers_expected": null,
+  "summary": null,
+  "custom_topics_results": null,
+  "is_deleted": null,
+  "episode_num": "29",
+  "episode_metadata": {
+    "speakers": [
+      "Enrico Bertini",
+      "Moritz Stefaner",
+      "Ben Shneiderman"
+    ],
+    "WPid": "135",
+    "url": "https://datastori.es/podlove/file/290/s/feed/c/mp3/datastories-29.mp3",
+    "episode_title": "Treemaps w/ Ben Shneiderman"
+  }
+}

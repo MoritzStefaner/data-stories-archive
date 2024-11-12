@@ -1,0 +1,1048 @@
+{
+  "id": "5b8309af-8cb9-4b77-af85-da9fa316142d",
+  "language_model": "assemblyai_default",
+  "acoustic_model": "assemblyai_default",
+  "language_code": "en_us",
+  "status": "completed",
+  "audio_url": "https://datastori.es/podlove/file/4327/s/feed/c/mp3/105-data-visualization-at-twitter-with-krist-wongsuphasawat.mp3",
+  "utterances": [
+    {
+      "end": 5994,
+      "speaker": "Krist Wongsuphasawat",
+      "start": 200,
+      "text": "Even simple tasks like trying to count something is really hard on the Twitter data.",
+      "id": "ep_105_ut_0"
+    },
+    {
+      "end": 56104,
+      "speaker": "Moritz Stefaner",
+      "start": 10494,
+      "text": "Are you missing out on meaningful relationships hidden in your data? Unlock the whole story with Qlik sense through personalized visualizations and dynamic dashboards, which you can download for free at Qlik Datastories. That's Qlik Datastories. Hi everyone. Welcome to a new episode of Data Stories. So my name is Mauritsh Stefaner and I'm an independent designer of data visualizations.",
+      "id": "ep_105_ut_1"
+    },
+    {
+      "end": 62900,
+      "speaker": "Enrico Bertini",
+      "start": 56214,
+      "text": "And this is Enrico Bertini, and I am a professor at NYU in New York, and I do research in visualization.",
+      "id": "ep_105_ut_2"
+    },
+    {
+      "end": 70012,
+      "speaker": "Moritz Stefaner",
+      "start": 63052,
+      "text": "And together we talk on this podcast about data visualization, data analysis, and generally the role data plays in our lives.",
+      "id": "ep_105_ut_3"
+    },
+    {
+      "end": 108566,
+      "speaker": "Enrico Bertini",
+      "start": 70108,
+      "text": "And usually we get together with a guest we invite on the show to talk about a specific topic. But before we start, we briefly want to mention our Patreon initiative. So this is an initiative to help us go ads. So if you want to support the show, you can go on patreon.com Datastories where you can become a patron of the show, and you can also read in the old set of details why we are doing that, what the show is about, and what is our plan in terms of what we want to do with the support that you are providing us. So, Moritz, how's it going?",
+      "id": "ep_105_ut_4"
+    },
+    {
+      "end": 198814,
+      "speaker": "Moritz Stefaner",
+      "start": 108750,
+      "text": "Good, good. Busy summer here and lots of stuff going on. I just recently launched a new project around the German elections and together with my colleagues Christian Laesser and Dominikus Baur, who I collaborate a lot with, and also the Google News lab, and together we looked at what people search on Google around the candidates, all the political issues, but also like gossip and Internet memes and everything people search. So the elections are in six weeks, and so we every day produce fresh data and have daily tag clouds, or word clouds for the candidates, and also show like three week cards that show the momentum of how the search interest has changed and who gets how much attention. And we also have a long timeline that shows the whole year, basically what the big stories were in terms of search and how everything is building up now to the election. So it's quite exciting and you can take a look. It's on https://www.2q17.de/. So it's basically 2017, but with the queue, it looks like a search icon. Very smart. https://www.2q17.de/. It's a German site, but I hope even the international visitors will be able to figure out roughly what it's about. Google translate actually works on the site so you can get a sense of what the contents are. Yeah, it's been a fun project and we'll do more. And it's kind of exciting to work with real time data or like daily data in this case.",
+      "id": "ep_105_ut_5"
+    },
+    {
+      "end": 199870,
+      "speaker": "Enrico Bertini",
+      "start": 198894,
+      "text": "That's very neat.",
+      "id": "ep_105_ut_6"
+    },
+    {
+      "end": 202366,
+      "speaker": "Moritz Stefaner",
+      "start": 199942,
+      "text": "It's kind of cool. How about you? What have you been up to?",
+      "id": "ep_105_ut_7"
+    },
+    {
+      "end": 208890,
+      "speaker": "Enrico Bertini",
+      "start": 202430,
+      "text": "Yeah. So interestingly, you've been using tight clouds in your project.",
+      "id": "ep_105_ut_8"
+    },
+    {
+      "end": 210826,
+      "speaker": "Moritz Stefaner",
+      "start": 209042,
+      "text": "Yeah. You went there.",
+      "id": "ep_105_ut_9"
+    },
+    {
+      "end": 253888,
+      "speaker": "Enrico Bertini",
+      "start": 210890,
+      "text": "Right. Brave. And so we've been basically doing the same on the research side. So one of my students has been working on trying to understand what works and what doesn't work with tag clouds and trying to come up with alternative designs. So that's one of the papers that is going to be published at the next Itripolevis conference. So I'm really excited about this work, and it's very researchy. But one practical piece of the work that I really like is that we laid out a whole design space of how with the same data, you can represent it in many different ways. So I think that's going to be practically useful to some extent.",
+      "id": "ep_105_ut_10"
+    },
+    {
+      "end": 274534,
+      "speaker": "Moritz Stefaner",
+      "start": 253976,
+      "text": "Yeah. And there's a lot of different ways you can design a word cloud. Right. And so I think that's also something we discovered. Like you can play with the positioning and the sizes and the opacity, or do the terms have boxes or not? And so there is actually quite a design space there. And I think if you do it right, they can be quite effective.",
+      "id": "ep_105_ut_11"
+    },
+    {
+      "end": 275790,
+      "speaker": "Enrico Bertini",
+      "start": 274574,
+      "text": "Yeah, absolutely.",
+      "id": "ep_105_ut_12"
+    },
+    {
+      "end": 277326,
+      "speaker": "Moritz Stefaner",
+      "start": 275982,
+      "text": "Does the research prove me wrong?",
+      "id": "ep_105_ut_13"
+    },
+    {
+      "end": 348908,
+      "speaker": "Enrico Bertini",
+      "start": 277350,
+      "text": "Yeah, yeah, no, I think I don't want to spend the whole episode talking about it. Maybe we should organize an episode only on that. But yes, I think it's. Yeah, some of the results are surprising, let me say that. So if you are curious, just. Yeah, yeah, yeah. You can find actually the paper on my website. Just go to Enrico Bertini IO and you'll find it there. Just briefly, I want to mention there is another piece of work that we are publishing that is more on how to use is on a visualization system to help people look into machine learning models. That's another thing I'm really, really excited about. So if you're curious again, you can just go on my website and take a look. But, yeah, cool work. I'm really, really excited about these two pieces of work. So I think we can start with our guest today. That's been a kind of longish introduction. So today on the show, we have Chris Wongsupazawat from Twitter, and we're going to talk about how people like him are doing data visualization at Twitter. Hey, Chris. Welcome on the show.",
+      "id": "ep_105_ut_14"
+    },
+    {
+      "end": 350516,
+      "speaker": "Krist Wongsuphasawat",
+      "start": 348996,
+      "text": "Hi, Enrico and Morris.",
+      "id": "ep_105_ut_15"
+    },
+    {
+      "end": 351384,
+      "speaker": "Moritz Stefaner",
+      "start": 350580,
+      "text": "Hey, Chris.",
+      "id": "ep_105_ut_16"
+    },
+    {
+      "end": 361706,
+      "speaker": "Enrico Bertini",
+      "start": 352284,
+      "text": "So, Chris, can you briefly introduce yourself, maybe talk about what's your background a little bit and what's your character doing Twitter?",
+      "id": "ep_105_ut_17"
+    },
+    {
+      "end": 466414,
+      "speaker": "Krist Wongsuphasawat",
+      "start": 361810,
+      "text": "Sure. So in case anybody is still staring at my long last name, I was born and raised in Bangkok, Thailand. So that's like, explain the last name part. And ten years ago I came to the US for master degree at the University of Maryland. Then I took Ben Shneiderman's infovis class and the next thing I know is I spent five years doing PhD with him and Katherine Playstone. I really learned a lot from them. I mean, this has been a pleasure experience being mentored by both of them. I published a few papers on IEEE with, and like after graduation I decided, okay, enough publishing academia for me. Maybe I want to go into the industry. So I joined Twitter and I'm very passionate about data and want to help people make use and understand them. I love visualization because it can review hidden patterns in the data. The best moment for me when working on this project is when you are fighting with the data and then suddenly the patterns start to emerge and somehow the world just feels so bright at that time. And I also love that visualization makes complicated things become easy to understand. And I like to explain things to people. And when I can use visual to help me explain, that is really helpful. I'm currently a start data scientist and tech leads of the analytics tools and service team at Twitter. We build internal tools which can be anything from dashboard to more complex visual analytics tools, as well as public visual that you can see on interactive dot twitter.com. and I also have a younger brother, Kanit or Ham, who is working on Vega live with Jeff Heer. And people mix us all the time.",
+      "id": "ep_105_ut_18"
+    },
+    {
+      "end": 487614,
+      "speaker": "Enrico Bertini",
+      "start": 469394,
+      "text": "Yeah, I really like your description of visualization. I guess that's the reason why most of us are in this field. Right. This sense of, I don't know, accomplishment and joy when things actually start working. Right, right.",
+      "id": "ep_105_ut_19"
+    },
+    {
+      "end": 490854,
+      "speaker": "Krist Wongsuphasawat",
+      "start": 488954,
+      "text": "Not talking about the pain before that.",
+      "id": "ep_105_ut_20"
+    },
+    {
+      "end": 523721,
+      "speaker": "Enrico Bertini",
+      "start": 492514,
+      "text": "Yeah, yeah, it's good pain. So, Chris, we want to talk a little bit about what happens at Twitter, how people do data visualization at Twitter. So can you describe a little bit what happens there? Maybe starting by, I don't know, how many people work there in terms of how many people do visualization or related really kind of works at Twitter, what the focus of these people is. So what happens behind the core things? I think that's mostly what we are curious about.",
+      "id": "ep_105_ut_21"
+    },
+    {
+      "end": 606714,
+      "speaker": "Krist Wongsuphasawat",
+      "start": 523817,
+      "text": "Sure. So currently we have a full stack team of six two dedicated database persons and the rest of the team are mixed up, front end engineer, back ends, data scientists, and also our product managers. We get to do the external work that you see the fun ones out there every once in a while. But most of our time are focused on internal work. The way we see our service, we are kind of like a consulting unit, and we collaborate with other teams to solve their problems. To give a more specific example, we work with the A B testing team to design how the A B test results dashboard should look like, because we have hundreds of experiments running at the same time. Each experiment has maybe multiple treatment buckets, track hundreds of metrics, and then we can also cut the results by country, user type, etcetera. So that's a lot of information to digest. And people are using this to decide if we're going to ship anything or not. So it's very important we also work with the advertisement team to look at how they are serving the ads so they can debug their algorithm and improve the user experience. And there are like multiple partners around the companies that we try to find their problems, that they need data, and we can solve a visualization.",
+      "id": "ep_105_ut_22"
+    },
+    {
+      "end": 621638,
+      "speaker": "Moritz Stefaner",
+      "start": 607134,
+      "text": "And how do these projects work typically? Like, how many people are on the team? What types of people? Do you have iterations, or do you do basically a one shot process and then move on to the next process? How do these typically play out?",
+      "id": "ep_105_ut_23"
+    },
+    {
+      "end": 660474,
+      "speaker": "Krist Wongsuphasawat",
+      "start": 621686,
+      "text": "Yes, so we have a mix of both. Some projects are kind of larger and longer term, so we may work on it for like half year, one year, but there are so shorter term projects that we do a one shot thing and then it's just called it a day. And most of the time we, because the team is kind of full stack. So it's not like we just allocate one person on this and that, but there will be a kind of lead for the projects. And most of the time, everybody kind of do their part in that project.",
+      "id": "ep_105_ut_24"
+    },
+    {
+      "end": 668150,
+      "speaker": "Moritz Stefaner",
+      "start": 660934,
+      "text": "And will you then come on as an individual person, or is there like a team of data visualization people working on one project?",
+      "id": "ep_105_ut_25"
+    },
+    {
+      "end": 670118,
+      "speaker": "Krist Wongsuphasawat",
+      "start": 668342,
+      "text": "So it's a team.",
+      "id": "ep_105_ut_26"
+    },
+    {
+      "end": 676598,
+      "speaker": "Moritz Stefaner",
+      "start": 670286,
+      "text": "And how many people do you have overall that do similar work as you do, just to get a sense of the size?",
+      "id": "ep_105_ut_27"
+    },
+    {
+      "end": 705784,
+      "speaker": "Krist Wongsuphasawat",
+      "start": 676766,
+      "text": "So right now we have a team of six, and two of that is dedicated database person. And because most of the time when we build this visualization is building web apps, the front end and back end engineers are very helpful in doing those works, that if we don't have them, then the visualization people have to do everything, and we should spend most of the time thinking about the data and how to present them, rather than how should I build this API?",
+      "id": "ep_105_ut_28"
+    },
+    {
+      "end": 713708,
+      "speaker": "Moritz Stefaner",
+      "start": 707084,
+      "text": "And probably you cannot share how the tools look. Exactly. That's probably internal stuff.",
+      "id": "ep_105_ut_29"
+    },
+    {
+      "end": 716252,
+      "speaker": "Krist Wongsuphasawat",
+      "start": 713756,
+      "text": "Yeah, it's a little bit tricky, but.",
+      "id": "ep_105_ut_30"
+    },
+    {
+      "end": 724754,
+      "speaker": "Moritz Stefaner",
+      "start": 716268,
+      "text": "Can you describe a bit what the design challenges were or what the, maybe the unique ideas were that came up on a more general level?",
+      "id": "ep_105_ut_31"
+    },
+    {
+      "end": 842454,
+      "speaker": "Krist Wongsuphasawat",
+      "start": 724914,
+      "text": "Yeah, I think most of the time the process, we talk to the potential users of the tool, like, okay, what are you trying to get out of this data set or the problems you have and how can we iterate on the design to solve it? We will have multiple kind of weekly meetings and try to do prototypings until we get the idea that both of us are comfortable. And then we start like working on the implementation. Like the projects that we have shared publicly, we published about this in itwiz a few years ago, is about the log events. So at Twitter, most of the user interaction log we haven't naming scheme that is six part the client page section, component element action, for example, web home impression. It's like somebody opened the homepage on twitter.com. and we have hundreds and hundreds of thousands of these events around in the company. Each of them log and track every day. So basically we have maybe hundred thousands of time series and some events are more important than the others. And if you want to make sure that, like, we take care of all of them and if anything goes suddenly up and down, we should be aware of. So we build a visualization that can capture the overview of all the events. Because the hierarchy of the naming scheme, we use an icicle tree to aggregate all the events. And that has been used since then until now.",
+      "id": "ep_105_ut_32"
+    },
+    {
+      "end": 844082,
+      "speaker": "Moritz Stefaner",
+      "start": 842754,
+      "text": "Wow, that's great.",
+      "id": "ep_105_ut_33"
+    },
+    {
+      "end": 873184,
+      "speaker": "Enrico Bertini",
+      "start": 844178,
+      "text": "One of the biggest challenges I guess you guys have is how to reduce the data to something that can be visualized and it's manageable and hopefully even interactive. Right. So how does this work? I guess you have to go through several, I don't know. I don't know how to call it compression stages. Right, right. Losing important details. So I see this as a constant challenge in this kind of projects.",
+      "id": "ep_105_ut_34"
+    },
+    {
+      "end": 909364,
+      "speaker": "Krist Wongsuphasawat",
+      "start": 873224,
+      "text": "Right, right, yeah. And I think like in the beginning of the project is a lot of trying to figure out what is actually important. And you have to throw anything that is not necessary out, otherwise it's impossible to show everything in the tool. We may start from getting a small sample data set that may have everything. And then once we start visualizing, then, okay, maybe this is not needed. That is not not needed. And once the prototype can show proof of concept, then all right, let's try to scale this and write a production pipeline that produces exact same data.",
+      "id": "ep_105_ut_35"
+    },
+    {
+      "end": 940130,
+      "speaker": "Enrico Bertini",
+      "start": 909444,
+      "text": "Yeah, yeah. One thing I'm curious about, so when we are working in the lab on developing new tools, we have a lot of iterations at the beginning. And I find that even though at the beginning we try to sketch the user interface, say, on a whiteboard, it's only when we actually see it with real data that we realize whether it's going to work or not. I'm wondering if you have the same. If the same thing happens to you and, yeah, how do you deal with that?",
+      "id": "ep_105_ut_36"
+    },
+    {
+      "end": 960160,
+      "speaker": "Krist Wongsuphasawat",
+      "start": 940242,
+      "text": "Yes, definitely. I think getting the sample data is a very important step because then we can test if our idea on the whiteboard really works or not. And once we try to plug the data in and we start to realize that, okay, maybe I wasn't thinking the right way. We have to shift the direction.",
+      "id": "ep_105_ut_37"
+    },
+    {
+      "end": 1015142,
+      "speaker": "Enrico Bertini",
+      "start": 960272,
+      "text": "Yeah. And I have another question related to that. So one thing I'm curious to hear is, I guess companies like Twitter basically can afford having a team of great people like you to build tools that are used internally for important data analysis projects. But I think a question there is always how do you decide whether, say, existing software can be used to solve a given problem, or when it's time to, say, use valuable people like you to create a whole new piece of software? Is there any? Let me ask this question in a different way. What are the limitations of existing software that basically require the development of a whole new application to develop an internal, to solve an internal problem?",
+      "id": "ep_105_ut_38"
+    },
+    {
+      "end": 1076174,
+      "speaker": "Krist Wongsuphasawat",
+      "start": 1015318,
+      "text": "Right. So I think like most of the commercial software, because they want to be able to reach a lot of different customers, you have to be very generic and try to support most of the common use cases. So once you start, like going down some path that is very specific and kind of off the shelf tool, cannot do that, then that is when I think custom work is the solution for you. Especially, for example, our log events, we have our whole internal infrastructure for managing those and there are a lot more information in them that we can make use of. And if we use off the shelf tool, we are throwing those away, so not able to access them. So we do a lot of custom projects in here to fully utilize what we have.",
+      "id": "ep_105_ut_39"
+    },
+    {
+      "end": 1078934,
+      "speaker": "Enrico Bertini",
+      "start": 1076254,
+      "text": "Sure, makes sense.",
+      "id": "ep_105_ut_40"
+    },
+    {
+      "end": 1080750,
+      "speaker": "Krist Wongsuphasawat",
+      "start": 1079094,
+      "text": "But we also use Tableau a lot.",
+      "id": "ep_105_ut_41"
+    },
+    {
+      "end": 1084274,
+      "speaker": "Enrico Bertini",
+      "start": 1080862,
+      "text": "Yeah, of course. I'm not surprised. Yeah, yeah.",
+      "id": "ep_105_ut_42"
+    },
+    {
+      "end": 1101560,
+      "speaker": "Moritz Stefaner",
+      "start": 1084774,
+      "text": "Is it more like you would use generic tools first and then you realize you hit a wall and then you get involved? Or is it for some types of projects always clear. Okay, I guess we need to code this ourselves. Like maybe, I don't know, networky stuff or flows or I think I will.",
+      "id": "ep_105_ut_43"
+    },
+    {
+      "end": 1118324,
+      "speaker": "Krist Wongsuphasawat",
+      "start": 1101592,
+      "text": "Always try to refer them to use the generic one first, if possible. I mean, it's not fun to, like, okay, let's implement a bar chart again. Right. So if they can use other tools, then that's great. But then if they hit performance wall or some complex issue, then you can talk.",
+      "id": "ep_105_ut_44"
+    },
+    {
+      "end": 1126632,
+      "speaker": "Moritz Stefaner",
+      "start": 1119264,
+      "text": "Yeah. And of course, also, you might maybe, as an expert, have ideas, like somebody who's just used to standard software might not have. Right.",
+      "id": "ep_105_ut_45"
+    },
+    {
+      "end": 1145712,
+      "speaker": "Enrico Bertini",
+      "start": 1126808,
+      "text": "Yeah. So maybe we can also talk about projects that have more, say, visibility to the public. Right. So you've been developing this very popular Game of Thrones visualization. That's more for external consumption, right?",
+      "id": "ep_105_ut_46"
+    },
+    {
+      "end": 1146288,
+      "speaker": "Krist Wongsuphasawat",
+      "start": 1145888,
+      "text": "Yes.",
+      "id": "ep_105_ut_47"
+    },
+    {
+      "end": 1151928,
+      "speaker": "Enrico Bertini",
+      "start": 1146336,
+      "text": "So how does it work for this kind of projects that are more for public consumption?",
+      "id": "ep_105_ut_48"
+    },
+    {
+      "end": 1278284,
+      "speaker": "Krist Wongsuphasawat",
+      "start": 1152056,
+      "text": "So we have a good relationship with the communications team. So these are the team that need to reach out and kind of advocate stories about twitters. So sometimes they may come with specific requests, like, oh, the eclipse is happening. Like, can we do something? Or sometimes they may have, like, broader idea, like, oh, Game of Thrones is about to start a new season. Do you have any ideas? So we kind of jump in. Depends on the availabilities. And sometimes there are technical challenges that we kind of wait if it's worth investing or not. But for the Game of Thrones one, it's one of the most talked about show on Twitter and probably on this planet nowadays. So I am also a fan of the show, so I am personally interested in doing it. And at that time, we were like, there are tons of tweets on Twitter about Game of Thrones. It has been five years at that time, and we have tons of data. The first idea that came to mind, okay, yeah, we can count, tweet, and do time series, but can we go deeper than that? Can we look at the tweets and try to figure out what other fans actually say about the show? And it led me to think, okay, when you look at the tv show, what do you care about? You care about the characters, right? So let's focus on the characters and then do the count of the characters, and then, okay, that's good, but can we go even deeper than that? The story is not just about one character, but it's how different characters interact. So if people mention two characters in the same tweet, that usually mean that there are something between them and try to grab those relationships. We end up with a graph and turns out to be a network that we visualize and correspond to the actual storylines. So that was pretty fun.",
+      "id": "ep_105_ut_49"
+    },
+    {
+      "end": 1282352,
+      "speaker": "Moritz Stefaner",
+      "start": 1278624,
+      "text": "And you also show the top emoji associated with.",
+      "id": "ep_105_ut_50"
+    },
+    {
+      "end": 1300590,
+      "speaker": "Krist Wongsuphasawat",
+      "start": 1282368,
+      "text": "Oh, yes. It's always, like, fun to, after the episode. Right now we update every week and look at, oh, what are people thinking about these characters? You see all this emojis or crying face floating around and there's also, like.",
+      "id": "ep_105_ut_51"
+    },
+    {
+      "end": 1313830,
+      "speaker": "Moritz Stefaner",
+      "start": 1300622,
+      "text": "It's a network visualization. So the size is the number of mentions, the strengths are the connections. We have the emoji, but there's also colors and, like, different areas marked. Is that like a clustering method or.",
+      "id": "ep_105_ut_52"
+    },
+    {
+      "end": 1325552,
+      "speaker": "Krist Wongsuphasawat",
+      "start": 1313982,
+      "text": "Yeah, so I run the community detection algorithm on it, and that kind of highlight the different arcs of the storylines within each episode very well.",
+      "id": "ep_105_ut_53"
+    },
+    {
+      "end": 1341740,
+      "speaker": "Moritz Stefaner",
+      "start": 1325678,
+      "text": "It's nice. It works really well. I think it's quite surprising because you could think people mentioning characters together is not that strong of a data source, but it really, like, the actual community structure comes out quite nicely and it.",
+      "id": "ep_105_ut_54"
+    },
+    {
+      "end": 1359324,
+      "speaker": "Krist Wongsuphasawat",
+      "start": 1341772,
+      "text": "Can capture the fan shifted theory or imagination, like the love between Thomas and Brienne of time. That one is kind of like a funny thing on the show and that fans kind of pick up a lot.",
+      "id": "ep_105_ut_55"
+    },
+    {
+      "end": 1401444,
+      "speaker": "Enrico Bertini",
+      "start": 1360664,
+      "text": "Yeah, it's fascinating. It's super fascinating to see, say, I guess, thousands or hundreds of thousands of interactions happening in Twitter, summarized in these little graphs. And I don't know. I don't know. I'm still surprised after many years to see how beautiful these things are and how meaningful they also are. Right. That's interactions among a lot of people, and it's really cool. So then I think another type of work that you do internally is also about developing new libraries or software for others to use. Is that correct?",
+      "id": "ep_105_ut_56"
+    },
+    {
+      "end": 1548724,
+      "speaker": "Krist Wongsuphasawat",
+      "start": 1401864,
+      "text": "Yes. So because we develop a lot of internal tools, and after working on multiple projects, you start to see the same piece of code or the same type of problems that you ran into again and again. The two libraries that I open source with Twitter, D3 kit and labellajs, the first one is we write a lot of D3 code, and we want to make them reusable components. So in the beginning, it's like this one kind of base file that I copy over and over from projects to projects. So anytime I want to write a D3 ish component, I have to kind of extend from this structure. So we decide to, let's standardize this a little bit more and figure out, okay, what are the common things we need for a D3 based component. Like, it should be handling resize events. If you resize a window, it can capture those events and has an easy way for you to handle the resize. And then now there are different ways of using D3 you can use SVG and canvas, but what if you want to use both of them on the same chart? You can use native JavaScript. And once you resize, you have to try to resize both of them. So we abstract all those logics into D3 kit. So you always think about, all right, let's visualize the data, how to encode it, and while it's about how do we synchronize the canvas and SVG, that should resize together. And the other project is labella js. My dissertation is on event sequence, so I work a lot with timelines. And one of the problems with visualizing items on the timeline is when you try to put labels under them, they often overlap. And I have tried from very brute force solutions such as, okay, let's hard code all the pixel off that I should place the label to try to find a more clever solution. And at the end I try to use a false directed the idea that, okay, if the labels know about each other existence and it pushed each other apart, so they will not overlap. And that became the start of label rjs.",
+      "id": "ep_105_ut_57"
+    },
+    {
+      "end": 1560856,
+      "speaker": "Moritz Stefaner",
+      "start": 1549184,
+      "text": "Yeah, and it looks really good, so it doesn't look messy at all. It's just how a human would lay out the labels. And I think that's it's often so hard. And I could have used it on the two q 17 project, I realize now.",
+      "id": "ep_105_ut_58"
+    },
+    {
+      "end": 1562512,
+      "speaker": "Krist Wongsuphasawat",
+      "start": 1560960,
+      "text": "So I was a bit like, no.",
+      "id": "ep_105_ut_59"
+    },
+    {
+      "end": 1572074,
+      "speaker": "Moritz Stefaner",
+      "start": 1562608,
+      "text": "Damn it, we should have used that one. Yeah, no, it looks really great. And does it work with the new t three version four as well, or is it basically agnostic off?",
+      "id": "ep_105_ut_60"
+    },
+    {
+      "end": 1583654,
+      "speaker": "Krist Wongsuphasawat",
+      "start": 1572374,
+      "text": "Yes, I think it works. I think the library itself is just layout, so it takes x position and return the position that it should be.",
+      "id": "ep_105_ut_61"
+    },
+    {
+      "end": 1594514,
+      "speaker": "Moritz Stefaner",
+      "start": 1583774,
+      "text": "Right, and then you can render it however you want. That's a very good design choice. Very good. Yeah, that's nice. It looks really great. So I hope I can use it sometime in the future.",
+      "id": "ep_105_ut_62"
+    },
+    {
+      "end": 1600378,
+      "speaker": "Krist Wongsuphasawat",
+      "start": 1595634,
+      "text": "And you can fire a bug report if you run into anything. I'm pretty responsible.",
+      "id": "ep_105_ut_63"
+    },
+    {
+      "end": 1673334,
+      "speaker": "Moritz Stefaner",
+      "start": 1600426,
+      "text": "I will, definitely. So, yeah, maybe we can talk a bit about Twitter as a data source. I think it's super fascinating, like one of the most interesting data sources actually out there, because it's, well, there's a massive amount of people, it's text based, you have social network data in it, you have conversations. So everything's there, time, trends, everything. And I also did a few projects like I was mapping, I don't know, communities around a conference, for instance, just by looking at, okay, who speaks at the conference and who do these people follow? Or who is followed by those people. And then so suddenly you can sort of map out a whole community, right. Just by looking at Twitter followership or like, we did something around the Olympics, Olympic games, like what people were tweeting about the games and so on. So I think it's super. Yeah. Just a fascinating data source. What do you think? What are the biggest, let's say, maybe untapped opportunities or what's most interesting about working with Twitter data and maybe what would be a good start, if you want to start a project in this direction?",
+      "id": "ep_105_ut_64"
+    },
+    {
+      "end": 1757958,
+      "speaker": "Krist Wongsuphasawat",
+      "start": 1673414,
+      "text": "Sure. I think the data set itself is very interesting. As you mentioned, tons of text that people try to compress and express in this short chunk. So it's very dense and try to be informative at the same time. So trying to extract the meanings out of those text is like a lot of challenge in itself. I think even sentiment analysis or some more NLP approach has to be kind of adjusted to adapt to these chart sentences. And even simple tasks like trying to count something is really hard on the Twitter data because the volume that we have, when you say how many people talk about Game of Thrones, I think it's impossible to get 100% accuracy of the count. The only way to do that is to have everybody read through it. But we try to do our best guesstimate on that. So it's really challenging. And they are more complicated way. Instead of just let's mesh all the text that has the word Game of Thrones in it, we can use machine learning and try to build models that decide if this tweet is about Game of Thrones or not. And that's a lot of interesting challenge there.",
+      "id": "ep_105_ut_65"
+    },
+    {
+      "end": 1789624,
+      "speaker": "Moritz Stefaner",
+      "start": 1758046,
+      "text": "Yeah, it's also challenge. This is something we ran into in the Olympics project. How representative is the data, really? Because, of course, Twitter has a specific demographics of people using it, and then what you're, of course, interested in is what the world thinks or what the US thinks or what people think in general. Is there a good way to maybe control a bit for potential imbalances or what are the big, let's say, caveats in terms of not maybe over interpreting what you find?",
+      "id": "ep_105_ut_66"
+    },
+    {
+      "end": 1794634,
+      "speaker": "Krist Wongsuphasawat",
+      "start": 1791284,
+      "text": "Right. Yeah, I think that that's kind of.",
+      "id": "ep_105_ut_67"
+    },
+    {
+      "end": 1807034,
+      "speaker": "Moritz Stefaner",
+      "start": 1795774,
+      "text": "It's a tough one, and it's the same for. Anybody, know, media data? You know, it's just to be clear, it's. Whenever you use Internet data or social media data, you have to think about that. Right.",
+      "id": "ep_105_ut_68"
+    },
+    {
+      "end": 1810474,
+      "speaker": "Krist Wongsuphasawat",
+      "start": 1807414,
+      "text": "We should get everyone on Twitter that way. We don't have that problem.",
+      "id": "ep_105_ut_69"
+    },
+    {
+      "end": 1831718,
+      "speaker": "Moritz Stefaner",
+      "start": 1812854,
+      "text": "Yeah, but is it something you think about, like, if you let's say, for the Game of Thrones, it's kind of good that people have, like, proper names. So it's even international in a way. But if you. You analyze data, maybe like health or something like this, you know, you immediately talk mostly about english speaking people, probably, or.",
+      "id": "ep_105_ut_70"
+    },
+    {
+      "end": 1856588,
+      "speaker": "Krist Wongsuphasawat",
+      "start": 1831806,
+      "text": "Definitely, yeah, we only use english tweets, so we probably ignore a lot of non english tweets in the projects. And, yeah, to be able to capture every languages and to see if people in different parts of the world perceive this differently, I think that would be very interesting to look at, too.",
+      "id": "ep_105_ut_71"
+    },
+    {
+      "end": 1890762,
+      "speaker": "Enrico Bertini",
+      "start": 1856716,
+      "text": "Yeah, I think that that's a big challenge because in a way, you could also argue that who is reading the visualization should be just. Well, just is a big word here, but just be aware, that is a very partial and biased view. Right. So I'm wondering if there are two sides of the problem. One is how can you correct, or how can you just make sure that the person who is watching this just is aware of the fact that this is biased? It can go both ways.",
+      "id": "ep_105_ut_72"
+    },
+    {
+      "end": 1927820,
+      "speaker": "Moritz Stefaner",
+      "start": 1890898,
+      "text": "I mean, what's interesting is if you go to your own Twitter analytics tab, do you know that one? I think either you have to opt in or everybody has it, but you have your own analytics about, for instance, your followership and stuff like this in there. You can actually see, yeah, that's like 80% male or something like mostly white, white dudes. And I think that's very interesting. And it also compares how your followership is different to the global or the overall average and stuff like this. And so I think this is super interesting. And maybe just making that clear, that could help already.",
+      "id": "ep_105_ut_73"
+    },
+    {
+      "end": 1945740,
+      "speaker": "Krist Wongsuphasawat",
+      "start": 1927932,
+      "text": "Yeah, I think maybe we should add not just saying, okay, data is from Twitter, about this hashtag, but like, what are the users that contribute to that datasets? And so it will give a better idea of if this is something that is representative.",
+      "id": "ep_105_ut_74"
+    },
+    {
+      "end": 1949252,
+      "speaker": "Moritz Stefaner",
+      "start": 1945892,
+      "text": "Yeah, yeah, yeah. It's a tricky topic.",
+      "id": "ep_105_ut_75"
+    },
+    {
+      "end": 1979056,
+      "speaker": "Enrico Bertini",
+      "start": 1949388,
+      "text": "So, Chris, if, say, some of our listeners want to develop some visualization or a data analysis project based on Twitter data, what would you suggest? What would be the first steps? How do you go about it? I'm not even sure that's the best question for you because you actually have direct access to Twitter data. Right. Which most people don't have, but I don't know, maybe you can provide some tips.",
+      "id": "ep_105_ut_76"
+    },
+    {
+      "end": 2009206,
+      "speaker": "Krist Wongsuphasawat",
+      "start": 1979200,
+      "text": "Sure. Yeah. So I'm kind of cheating a bit because I have direct access, but if I were to do it within the Twitter developer documentation, has a lot of information about how to get started. Like, what are the list of APIs that are available. I think they even have links to some of the libraries for connecting to the API. And maybe Hellojs is one of the library that you can use to connect to those APIs.",
+      "id": "ep_105_ut_77"
+    },
+    {
+      "end": 2014784,
+      "speaker": "Moritz Stefaner",
+      "start": 2009270,
+      "text": "Yeah, that's a good one. I made good experiences with hellojs. That could be a good start.",
+      "id": "ep_105_ut_78"
+    },
+    {
+      "end": 2034704,
+      "speaker": "Enrico Bertini",
+      "start": 2015364,
+      "text": "So, Moritz, I'm just curious, so the project that you developed in the past based on Twitter data, you just used the standard, that's what, 1% of the firehose, or you had privileged access to it.",
+      "id": "ep_105_ut_79"
+    },
+    {
+      "end": 2045272,
+      "speaker": "Moritz Stefaner",
+      "start": 2035884,
+      "text": "So the Emoto project, that was like five years ago, and we had a partner there called Data Sift, who is like a reseller for Twitter data.",
+      "id": "ep_105_ut_80"
+    },
+    {
+      "end": 2046104,
+      "speaker": "Enrico Bertini",
+      "start": 2045408,
+      "text": "Okay.",
+      "id": "ep_105_ut_81"
+    },
+    {
+      "end": 2091329,
+      "speaker": "Moritz Stefaner",
+      "start": 2046224,
+      "text": "And we were working with them, but we were also working with the 1% firehose. Then for revisit, I used the search API, and that can actually work. If you authenticate with the hellojs or other libraries, then you can get, for individual projects, you can do enough searches. I would say it's just a bit difficult to do a lot of searches for a lot of people in parallel. Right. And other, like the resonant I did, you can also like, let python scripts run for a few days and do a lot of queries, but it's always a bit different and you have to sort of find your way around the API every time. In a way, yeah. But once you know how it works, you can do a lot of stuff.",
+      "id": "ep_105_ut_82"
+    },
+    {
+      "end": 2092105,
+      "speaker": "Enrico Bertini",
+      "start": 2091521,
+      "text": "Yeah.",
+      "id": "ep_105_ut_83"
+    },
+    {
+      "end": 2093813,
+      "speaker": "Moritz Stefaner",
+      "start": 2092209,
+      "text": "So that's my experience.",
+      "id": "ep_105_ut_84"
+    },
+    {
+      "end": 2194994,
+      "speaker": "Enrico Bertini",
+      "start": 2094233,
+      "text": "Yeah. It's funny because, Chris, I don't know if you are aware of that, but typically what happens in real time research labs, at least as far as I can tell, that professors who are working with data, they just ask their students, you start collecting something and we'll see what we need to do with that. Right. But just keep collecting something for a few months and we all have patches. Right? There are samples of Twitter data scattered around all the computer science labs of the world. Right. So with lots of redundancy, of course. It's an interesting phenomenon. Yeah, yeah. I think even in our lab we have different professors who have probably collecting different patches individually. Right. So it doesn't make sense at all, but that's what we do, so. Yeah. Okay. So I wanted to ask you something else. Maybe abstracting away a little bit from the technicalities of building visualization for Twitter or at Twitter. I'm not sure if you can answer this question, but I think so in the past, even on the show, we've been discussing a little bit of how high tech companies see the value of these in general. So why do this at all in a big company like Twitter? So I'm wondering if you can give us a little bit of your perspective being a Twitter. How do Twitter see value in visualization? Where does the value come from? From.",
+      "id": "ep_105_ut_85"
+    },
+    {
+      "end": 2261284,
+      "speaker": "Krist Wongsuphasawat",
+      "start": 2195854,
+      "text": "Sure. So I think, like most time, like, whatever technologies the companies decide to invest, like having someone to do it, because they see that it can make impact to the business. So for visualizations, if you can show that it create positive impact for the companies, then they will see your importance and then you get more attention and resource. And of course, it will be kind of hard to improve the, the top level metrics directly, like, by me visualizing some data. It's not gonna make the number of tweets or users just suddenly goes up. But the work that my team has done, it either provide new insights and empower my colleagues with new tools and the new perspective that they didn't get before. They can do that task better, faster. And then once they do those things, it actually directly impacted top level metrics. So I think that's how we justify the value we created for the company as a visualization team.",
+      "id": "ep_105_ut_86"
+    },
+    {
+      "end": 2276304,
+      "speaker": "Moritz Stefaner",
+      "start": 2261624,
+      "text": "And how do you know you were successful? Is it through these indirect measures that people you provide tools with suddenly produce better results? Or can you directly, do you have a direct way to measure your income?",
+      "id": "ep_105_ut_87"
+    },
+    {
+      "end": 2297320,
+      "speaker": "Krist Wongsuphasawat",
+      "start": 2276384,
+      "text": "So we track their usage and also testimony of how they use the tool. For example, the A B testing dashboard is used by, like, half the companies. So we know that, like, yes, half the company is like, using this to make decisions about whether we are going to ship a feature or not. So I think that's a clear impact right there.",
+      "id": "ep_105_ut_88"
+    },
+    {
+      "end": 2301816,
+      "speaker": "Moritz Stefaner",
+      "start": 2297352,
+      "text": "Yeah, yeah. And for smaller tools, like, how do you know when, if it works?",
+      "id": "ep_105_ut_89"
+    },
+    {
+      "end": 2325328,
+      "speaker": "Krist Wongsuphasawat",
+      "start": 2301960,
+      "text": "So we will do, like, case studies and kind of collect those results. Okay. What are you, what did you use the tools that we built for you for? And of course, there are some project that goes well, some that may not create as much impact that we expect to, but I think that's the nature of the work. Right. Not everything will be hit.",
+      "id": "ep_105_ut_90"
+    },
+    {
+      "end": 2340204,
+      "speaker": "Moritz Stefaner",
+      "start": 2325416,
+      "text": "Yeah. If you would know beforehand, then it would be boring. But you mostly rely on people reporting, like, a few months later back to you and saying like, yeah, that was helpful, or this helped us figure out that.",
+      "id": "ep_105_ut_91"
+    },
+    {
+      "end": 2367064,
+      "speaker": "Krist Wongsuphasawat",
+      "start": 2341164,
+      "text": "Right. And we build, like, longer term relationship with the team that we support. So once we start, like, doing one tool and maybe we expand, do a v, two of that, like adding more feature, or we see from that user that, oh, actually this is another problem that you are having in the workflow that we could have do something for you and then like once you do that, it just open a lot of doors for new projects.",
+      "id": "ep_105_ut_92"
+    },
+    {
+      "end": 2388866,
+      "speaker": "Enrico Bertini",
+      "start": 2367794,
+      "text": "So Chris, we have to wrap it up soon. But before we conclude, I just want to ask you, so if some of our listeners want to do visualization in a great company like Twitter, so do you have any suggestions for them? How do you get to work for Twitter and do amazing visualization work like the one you do?",
+      "id": "ep_105_ut_93"
+    },
+    {
+      "end": 2524962,
+      "speaker": "Krist Wongsuphasawat",
+      "start": 2389050,
+      "text": "Sure. So of course the first skills is you have to be able to visualize data. And I'm not talking about being able to write something in D3, but when I talk about visualization, it's more like you can reason why one visual encoding should be chosen over another. You can discuss the pros and cons of visualization design. You can kind of iterate and try to come up with some different visualization if needed for more complex data set. A lot of work will be falling into the category of building visual analytics tools rather than coming up with new, very sophisticated new type of visualization. So you need to understand the user center design process, like talk to customers, figuring out their needs and trying to develop a solution that actually answered that. And of course I have been talking is about, well, you think, you know, that what needs to be done, what needs to be built, but you actually need to build it and make it happen. So you need engineering skills and that will be a great asset for Bitsview. Because if you can imagine all these like nice ideas of how to visualize something, but you cannot actually build it, or you only build it in the code that nobody can ever maintain afterwards, then it's going to be hard. So if you are also a strong implementers, then that make you kind of complete in yourself. And the more skills you have, if you can also write some back end API to reform database or connect with other services, or if you can learn about Mapreduce and use Hadoop to do your data processing, then you are less reliable. Like you don't have to rely on other people too much in the beginnings and you can start quickly creating values and then once people see the value that you're providing with all of this, they may be like, okay, we should not let you just spend most of the time on writing Hadoop jobs. You should do visualization. Maybe we'll get someone with these other skills to help you so you can produce a lot more output for them.",
+      "id": "ep_105_ut_94"
+    },
+    {
+      "end": 2526538,
+      "speaker": "Enrico Bertini",
+      "start": 2525058,
+      "text": "Nice, sounds good.",
+      "id": "ep_105_ut_95"
+    },
+    {
+      "end": 2543826,
+      "speaker": "Moritz Stefaner",
+      "start": 2526626,
+      "text": "Yeah, yeah, we have to wrap it up soon, but before we let you go, we should talk about one secret hobby of yours and you're so good at it that you actually won a prize doing it. And the hobby is crafting terrible data visualizations in your spare time, I guess.",
+      "id": "ep_105_ut_96"
+    },
+    {
+      "end": 2544738,
+      "speaker": "Krist Wongsuphasawat",
+      "start": 2543850,
+      "text": "Oh, my favorite.",
+      "id": "ep_105_ut_97"
+    },
+    {
+      "end": 2557214,
+      "speaker": "Moritz Stefaner",
+      "start": 2544866,
+      "text": "Apart from your day job and you won last year, you won a prize for the best worst viz in the best worst viz contest run by visualizing data. Is that right?",
+      "id": "ep_105_ut_98"
+    },
+    {
+      "end": 2561984,
+      "speaker": "Krist Wongsuphasawat",
+      "start": 2557924,
+      "text": "Yes, I'm probably the winner of that one.",
+      "id": "ep_105_ut_99"
+    },
+    {
+      "end": 2565184,
+      "speaker": "Enrico Bertini",
+      "start": 2562964,
+      "text": "We have to make a poster out of it.",
+      "id": "ep_105_ut_100"
+    },
+    {
+      "end": 2585472,
+      "speaker": "Moritz Stefaner",
+      "start": 2565684,
+      "text": "Yeah, it's a really pretty bad visualization, and it's meticulously crafted. And I can only recommend there's a process description on medium. So you even went to the length of describing the process for building this horrible visualization and it lists all the crimes you have committed.",
+      "id": "ep_105_ut_101"
+    },
+    {
+      "end": 2590124,
+      "speaker": "Krist Wongsuphasawat",
+      "start": 2585588,
+      "text": "Well, since I spent a lot of time making it happen, I would better document it as well.",
+      "id": "ep_105_ut_102"
+    },
+    {
+      "end": 2609484,
+      "speaker": "Moritz Stefaner",
+      "start": 2592784,
+      "text": "No, it's a really fun one. It has the most confusing legends and encodings you could possibly think of. It has a link to the data in PDF format, which drives me crazy. It has a dinosaur. I think nothing is really missing there.",
+      "id": "ep_105_ut_103"
+    },
+    {
+      "end": 2657944,
+      "speaker": "Krist Wongsuphasawat",
+      "start": 2610864,
+      "text": "I think the inspiration for that one was when we think about bad visualization, people, people often think about rainbow color palette, 3d pie chart and those things. But I think that the one that more dangerous is the one that looks harmless, but you cannot actually interpret anything. And I used to like one thread on stack overflow that showed the best code comment ever. And there was one code comment that defined true as false. So everything is just inverse. And that was like my inspiration for this piece. Like, I would just encode everything the most opposite way. You can do like encoding Zero as a largest circle, for example. That's like totally my worst.",
+      "id": "ep_105_ut_104"
+    },
+    {
+      "end": 2683620,
+      "speaker": "Moritz Stefaner",
+      "start": 2660644,
+      "text": "Yeah, it's horrible. And you keep discovering new atrocities. It's not fun. Yeah. So I would definitely recommend checking it. So thanks so much for joining us on the show. Super interesting. And I'll definitely take a look at the labella J's framework and try and use it in an upcoming project. Labeling is hard and this seems to make it easier.",
+      "id": "ep_105_ut_105"
+    },
+    {
+      "end": 2684156,
+      "speaker": "Krist Wongsuphasawat",
+      "start": 2683692,
+      "text": "Thank you.",
+      "id": "ep_105_ut_106"
+    },
+    {
+      "end": 2685284,
+      "speaker": "Moritz Stefaner",
+      "start": 2684220,
+      "text": "Thanks for coming, Chris.",
+      "id": "ep_105_ut_107"
+    },
+    {
+      "end": 2686804,
+      "speaker": "Enrico Bertini",
+      "start": 2685404,
+      "text": "Yeah, thanks so much, Chris.",
+      "id": "ep_105_ut_108"
+    },
+    {
+      "end": 2688148,
+      "speaker": "Krist Wongsuphasawat",
+      "start": 2686884,
+      "text": "Yeah, thanks for having me on the show.",
+      "id": "ep_105_ut_109"
+    },
+    {
+      "end": 2688724,
+      "speaker": "Moritz Stefaner",
+      "start": 2688196,
+      "text": "Thank you.",
+      "id": "ep_105_ut_110"
+    },
+    {
+      "end": 2689948,
+      "speaker": "Enrico Bertini",
+      "start": 2688804,
+      "text": "Bye bye. Bye.",
+      "id": "ep_105_ut_111"
+    },
+    {
+      "end": 2690740,
+      "speaker": "Krist Wongsuphasawat",
+      "start": 2690036,
+      "text": "Bye bye.",
+      "id": "ep_105_ut_112"
+    },
+    {
+      "end": 2717658,
+      "speaker": "Moritz Stefaner",
+      "start": 2690852,
+      "text": "And if you enjoyed the show, there's a couple of related episodes and we thought we can tell you about them. And you can also check out the links in the blog post, of course. So the Emoto project I talked about, we had an episode on that with Stefan Thiel. It's number eleven, so it's ages ago. If you want to hear a younger version of Enrico in me, check out episode eleven. On Emoto, the Twitter project, there's also more, right, Enrico?",
+      "id": "ep_105_ut_113"
+    },
+    {
+      "end": 2751584,
+      "speaker": "Enrico Bertini",
+      "start": 2717706,
+      "text": "Yeah. So then we have on episode 54, we have designing exploratory data visualization tools with Maria Meyer. So if you are curious about how to create this kind of visualization based applications for data analysis, there is a lot to learn there. And then we have on episode 62, we have a whole episode on text visualization. So Twitter data is mostly about text. So if you want to learn more about how to visualize text, that's text visualization past, present and future with Chris Collins.",
+      "id": "ep_105_ut_114"
+    },
+    {
+      "end": 2753500,
+      "speaker": "Moritz Stefaner",
+      "start": 2752324,
+      "text": "That was a good one, too.",
+      "id": "ep_105_ut_115"
+    },
+    {
+      "end": 2755556,
+      "speaker": "Enrico Bertini",
+      "start": 2753572,
+      "text": "Yeah, yeah. And Moritz last one.",
+      "id": "ep_105_ut_116"
+    },
+    {
+      "end": 2771308,
+      "speaker": "Moritz Stefaner",
+      "start": 2755620,
+      "text": "Last one. Yeah, we had another one more on the professional side of Viz in industry and large corporations with Elijah Meeks from Netflix. That's more recent one number 95. So I think all of those are definitely worth checking out.",
+      "id": "ep_105_ut_117"
+    },
+    {
+      "end": 2773468,
+      "speaker": "Enrico Bertini",
+      "start": 2771396,
+      "text": "So thanks for listening today, the stories.",
+      "id": "ep_105_ut_118"
+    },
+    {
+      "end": 2776148,
+      "speaker": "Moritz Stefaner",
+      "start": 2773556,
+      "text": "Yeah, thanks so much and hear you next time.",
+      "id": "ep_105_ut_119"
+    },
+    {
+      "end": 2777344,
+      "speaker": "Enrico Bertini",
+      "start": 2776196,
+      "text": "Bye bye bye.",
+      "id": "ep_105_ut_120"
+    },
+    {
+      "end": 2802424,
+      "speaker": "Moritz Stefaner",
+      "start": 2784464,
+      "text": "Are you missing out on meaningful relationships hidden in your data? Unlock the whole story with Qlik sense through personalized visualizations and dynamic dashboards which you can download for free at Qlik deries. That's Qlik deries.",
+      "id": "ep_105_ut_121"
+    }
+  ],
+  "confidence": 0.916340249655169,
+  "audio_duration": 2803,
+  "punctuate": true,
+  "format_text": true,
+  "dual_channel": false,
+  "webhook_url": null,
+  "webhook_status_code": null,
+  "webhook_auth": false,
+  "webhook_auth_header_name": null,
+  "speed_boost": false,
+  "auto_highlights_result": null,
+  "auto_highlights": false,
+  "audio_start_from": null,
+  "audio_end_at": null,
+  "word_boost": [],
+  "boost_param": null,
+  "filter_profanity": false,
+  "redact_pii": false,
+  "redact_pii_audio": false,
+  "redact_pii_audio_quality": null,
+  "redact_pii_policies": null,
+  "redact_pii_sub": null,
+  "speaker_labels": true,
+  "content_safety": false,
+  "iab_categories": true,
+  "content_safety_labels": {
+    "status": "unavailable",
+    "results": [],
+    "summary": {}
+  },
+  "language_detection": false,
+  "language_detection_threshold": null,
+  "language_confidence": null,
+  "custom_spelling": null,
+  "throttled": false,
+  "auto_chapters": true,
+  "summarization": false,
+  "summary_type": null,
+  "summary_model": null,
+  "custom_topics": false,
+  "topics": [],
+  "speech_threshold": null,
+  "speech_model": "best",
+  "chapters": [
+    {
+      "summary": "Data Stories is a podcast about data visualization, data analysis, and generally the role data plays in our lives. If you want to support the show, you can go on patreon. com Datastories where you can become a patron.",
+      "gist": "Data Stories",
+      "headline": "Data Stories is a podcast about data visualization and data analysis",
+      "start": 200,
+      "end": 106534,
+      "id": "ep_105_ch_0"
+    },
+    {
+      "summary": "Moritz just launched a new project around the German elections. He's been trying to understand what works and what doesn't work with tag clouds. Another piece of work he's doing is on a visualization system to help people look into machine learning models.",
+      "gist": "What's Been Working On?",
+      "headline": "Moritz recently launched a new project around the German elections",
+      "start": 106654,
+      "end": 326404,
+      "id": "ep_105_ch_1"
+    },
+    {
+      "summary": "Today on the show, we have Chris Wongsupazawat from Twitter. He talks about how people like him are doing data visualization at Twitter. I love visualization because it can review hidden patterns in the data. And I also love that visualization makes complicated things become easy to understand.",
+      "gist": "Interview",
+      "headline": "Chris Wongsupazawat is a data scientist at Twitter",
+      "start": 328124,
+      "end": 495254,
+      "id": "ep_105_ch_2"
+    },
+    {
+      "summary": "Twitter has a full stack team of six. Most of their time is focused on internal work. They collaborate with other teams to solve their problems. Do you have iterations, or do you do basically a one shot process and then move on to the next process?",
+      "gist": "How People Do Data Visualization at Twitter",
+      "headline": "How many people do data visualization at Twitter and what does it entail",
+      "start": 495754,
+      "end": 716252,
+      "id": "ep_105_ch_3"
+    },
+    {
+      "summary": "Twitter is developing a new tool that visualizes user interaction events. One of the biggest challenges is how to reduce the data to something that can be visualized and it's manageable and hopefully even interactive. The company has had several iterations at the beginning.",
+      "gist": "In the Elevator: The Twitter User Experience",
+      "headline": "Can you describe a bit what the design challenges were or what the unique ideas were",
+      "start": 716268,
+      "end": 960160,
+      "id": "ep_105_ch_4"
+    },
+    {
+      "summary": "Twitter can afford having a team of great people like you to build tools that are used internally for important data analysis projects. What are the limitations of existing software that require the development of a whole new application to develop an internal problem?",
+      "gist": "Will Twitter Develop a New Data Analysis Software?",
+      "headline": "Twitter uses custom tools internally for important data analysis projects",
+      "start": 960272,
+      "end": 1127568,
+      "id": "ep_105_ch_5"
+    },
+    {
+      "summary": "Twitter has developed a popular Game of Thrones visualization. How does it work for projects that are more for public consumption? Depends on the availabilities.",
+      "gist": "How Twitter's Data Visualization Works",
+      "headline": "You've been developing this very popular Game of Thrones visualization",
+      "start": 1127736,
+      "end": 1388644,
+      "id": "ep_105_ch_6"
+    },
+    {
+      "summary": "The two libraries that I open source with Twitter, D3 kit and labellajs, the first one is we write a lot of D3 code, and we want to make them reusable components. The other project is labella js. My dissertation is on event sequence, so I work a lot with timelines.",
+      "gist": "Developing new libraries in the social network",
+      "headline": "Another type of work that you do internally is developing new libraries or software",
+      "start": 1389264,
+      "end": 1601614,
+      "id": "ep_105_ch_7"
+    },
+    {
+      "summary": "Twitter is a fascinating data source. Trying to extract the meanings out of those text is a challenge. How representative is the data, really? Is there a good way to maybe control a bit for potential imbalances?",
+      "gist": "What are the biggest challenges of working with Twitter data?",
+      "headline": "So, maybe we can talk a bit about Twitter as a data source",
+      "start": 1603754,
+      "end": 1949252,
+      "id": "ep_105_ch_8"
+    },
+    {
+      "summary": "Chris: If you want to develop some visualization or a data analysis project based on Twitter data, what would be the first steps? How do you go about it? Chris: The Twitter developer documentation has a lot of information about how to get started.",
+      "gist": "The First Steps to Develop a Data Analysis Project on Twitter",
+      "headline": "Chris: Some listeners might want to develop visualization projects based on Twitter data",
+      "start": 1949388,
+      "end": 2014784,
+      "id": "ep_105_ch_9"
+    },
+    {
+      "summary": "Moritz: There are samples of Twitter data scattered around all the computer science labs of the world. Once you know how it works, you can do a lot of stuff. With lots of redundancy, of course.",
+      "gist": "The 1% Firehose",
+      "headline": "So, Moritz, you developed a project based on Twitter data",
+      "start": 2015364,
+      "end": 2152446,
+      "id": "ep_105_ch_10"
+    },
+    {
+      "summary": "Chris: How do Twitter see value in visualization? Where does the value come from? Chris: We track their usage and also testimony of how they use the tool. How do you know you were successful?",
+      "gist": "How Does Twitter See Value in VIMs?",
+      "headline": "How do Twitter see value in visualization? Where does the value come from",
+      "start": 2152470,
+      "end": 2370106,
+      "id": "ep_105_ch_11"
+    },
+    {
+      "summary": "How do you get to work for Twitter and do amazing visualization work like the one you do? First skills is you have to be able to visualize data. You need engineering skills and that will be a great asset for Bitsview.",
+      "gist": "Looking for a job in Data visualization at Twitter",
+      "headline": "Bitsview is looking for someone to do visualization work for Twitter",
+      "start": 2370170,
+      "end": 2526538,
+      "id": "ep_105_ch_12"
+    },
+    {
+      "summary": "Chris: My secret hobby is crafting terrible data visualizations in my spare time. He won a prize for the best worst viz in a contest run by visualizing data. Chris: I'll definitely take a look at the labella J's framework and try and use it in an upcoming project.",
+      "gist": "You Made A Horrific Data Visualization",
+      "headline": "Chris, you have a secret hobby of creating terrible data visualizations",
+      "start": 2526626,
+      "end": 2690740,
+      "id": "ep_105_ch_13"
+    },
+    {
+      "summary": "And if you enjoyed the show, there's a couple of related episodes and we thought we can tell you about them. On episode 54, we have designing exploratory data visualization tools with Maria Meyer. And then we have a whole episode on text visualization. So I think all of those are definitely worth checking out.",
+      "gist": "Episode 62",
+      "headline": "If you enjoyed the show, there's a couple of related episodes",
+      "start": 2690852,
+      "end": 2802424,
+      "id": "ep_105_ch_14"
+    }
+  ],
+  "disfluencies": false,
+  "entity_detection": false,
+  "sentiment_analysis": false,
+  "sentiment_analysis_results": null,
+  "entities": null,
+  "speakers_expected": null,
+  "summary": null,
+  "custom_topics_results": null,
+  "episode_num": 105,
+  "episode_metadata": {
+    "speakers": [
+      "Krist Wongsuphasawat",
+      "Moritz Stefaner",
+      "Enrico Bertini"
+    ],
+    "WPid": "1017",
+    "url": "https://datastori.es/podlove/file/4327/s/feed/c/mp3/105-data-visualization-at-twitter-with-krist-wongsuphasawat.mp3",
+    "episode_title": "Data Visualization at Twitter with Krist Wongsuphasawat"
+  }
+}

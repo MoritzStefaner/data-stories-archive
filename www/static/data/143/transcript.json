@@ -1,0 +1,994 @@
+{
+  "id": "0418d30c-255a-4975-84ad-519371af6677",
+  "language_model": "assemblyai_default",
+  "acoustic_model": "assemblyai_default",
+  "language_code": "en_us",
+  "status": "completed",
+  "audio_url": "https://datastori.es/podlove/file/5649/s/feed/c/mp3/143-the-pudding-with-matt-daniels.mp3",
+  "utterances": [
+    {
+      "end": 13210,
+      "speaker": "Matt Daniels",
+      "start": 240,
+      "text": "So I was talking with a friend, and I was like, oh, we have this idea called the proof, but there's issues around maybe copyright, and we might get sued. And he was like, oh, you should call it the pudding, because the proof is in the pudding. And I was like, that's the worst name ever.",
+      "id": "ep_143_ut_0"
+    },
+    {
+      "end": 42910,
+      "speaker": "Enrico Bertini",
+      "start": 32450,
+      "text": "Hi, everyone. Welcome to a new episode of Data stories. My name is Enrico Bertini, and I am a professor at NYU in New York City, where I do research and teach data visualization.",
+      "id": "ep_143_ut_1"
+    },
+    {
+      "end": 53890,
+      "speaker": "Moritz Stefaner",
+      "start": 43330,
+      "text": "And I'm Moritz Stefaner, and I'm an independent designer of data visualizations. And actually, I work as a self employed truth and beauty operator out of my office here in the countryside in the north of Germany.",
+      "id": "ep_143_ut_2"
+    },
+    {
+      "end": 64782,
+      "speaker": "Enrico Bertini",
+      "start": 54010,
+      "text": "And in this podcast, we talk about data visualization, analysis, and more generally, the role that data plays in our lives. And usually we do that together with a guesthouse invite on the show.",
+      "id": "ep_143_ut_3"
+    },
+    {
+      "end": 88014,
+      "speaker": "Moritz Stefaner",
+      "start": 64886,
+      "text": "That's right. But just before we start, a quick note. Our podcast is listener supported. That means there are no ads, which is great. But that also means if you do enjoy the show, no obligation. But if you enjoy the show, please consider supporting us. You can do this with recurring payments on patreon.com Datastories, or you can also send us one time donations on Paypal. Me Datastories.",
+      "id": "ep_143_ut_4"
+    },
+    {
+      "end": 88718,
+      "speaker": "Enrico Bertini",
+      "start": 88102,
+      "text": "Exactly.",
+      "id": "ep_143_ut_5"
+    },
+    {
+      "end": 94634,
+      "speaker": "Moritz Stefaner",
+      "start": 88774,
+      "text": "It's always a pleasure when a little something goes our way. Always brings a smile to our faces.",
+      "id": "ep_143_ut_6"
+    },
+    {
+      "end": 121792,
+      "speaker": "Enrico Bertini",
+      "start": 94802,
+      "text": "Yeah. And thanks, everyone, to all those who already signed up or donated in the past. That's very, very useful. Thanks to you, this show keeps going. So let's get started. Today, we have a coming back. We. After I just checked yesterday, after a little bit more than three years, we have, once again, Matt Daniels from the pudding. Hey, Matt. Welcome to the show.",
+      "id": "ep_143_ut_7"
+    },
+    {
+      "end": 122792,
+      "speaker": "Matt Daniels",
+      "start": 121896,
+      "text": "Yeah, thank you.",
+      "id": "ep_143_ut_8"
+    },
+    {
+      "end": 123776,
+      "speaker": "Enrico Bertini",
+      "start": 122896,
+      "text": "How are you?",
+      "id": "ep_143_ut_9"
+    },
+    {
+      "end": 125620,
+      "speaker": "Matt Daniels",
+      "start": 123928,
+      "text": "I'm very well, thank you.",
+      "id": "ep_143_ut_10"
+    },
+    {
+      "end": 135008,
+      "speaker": "Enrico Bertini",
+      "start": 126600,
+      "text": "So, can you briefly introduce yourself and briefly explain what the pudding is?",
+      "id": "ep_143_ut_11"
+    },
+    {
+      "end": 190792,
+      "speaker": "Matt Daniels",
+      "start": 135184,
+      "text": "Sure. So, again, my name is Matt Daniels, and I'm a journalist at the pudding, which is a digital publication that primarily publishes visually or data led essays. We generally cover topics that aren't around the news cycle. So these are things that you might find yourself debating with friends over beers or over coffee. And we try to tell a story that will be just as relevant in a couple years as it is now. So we're not necessarily trying to find something that's in the news right now. And often we're trying to focus on topics where there is is debate, and there might be some divisive opinions about a topic. And by bringing in data and by bringing in visuals, we hope we can tell broader, bigger story than something that is only prose led.",
+      "id": "ep_143_ut_12"
+    },
+    {
+      "end": 204778,
+      "speaker": "Moritz Stefaner",
+      "start": 190936,
+      "text": "Yeah, yeah, yeah. You do that very successfully. Had a huge output over the last few years. Before we dive into all the work, quick question. Some listeners might be wondering, where does actually the name come from? The pudding. What's that?",
+      "id": "ep_143_ut_13"
+    },
+    {
+      "end": 213242,
+      "speaker": "Matt Daniels",
+      "start": 204914,
+      "text": "Yeah. So the short answer is, it's like the saying, the proof is in the pudding.",
+      "id": "ep_143_ut_14"
+    },
+    {
+      "end": 213910,
+      "speaker": "Moritz Stefaner",
+      "start": 213306,
+      "text": "Right.",
+      "id": "ep_143_ut_15"
+    },
+    {
+      "end": 217890,
+      "speaker": "Matt Daniels",
+      "start": 214730,
+      "text": "Which is not everywhere, but it is in the US.",
+      "id": "ep_143_ut_16"
+    },
+    {
+      "end": 219666,
+      "speaker": "Moritz Stefaner",
+      "start": 217970,
+      "text": "Is it a British thing or.",
+      "id": "ep_143_ut_17"
+    },
+    {
+      "end": 255722,
+      "speaker": "Matt Daniels",
+      "start": 219858,
+      "text": "Yeah, sounds about right. I don't know. The origin story of proof is in the pudding. But the other backstory is basically, the team was debating names for the site and the publication, and one of the finalists for the names was the proof. So, just the proof. That's awesome. Yeah. But we did a lot of research to see if there were other publications called the proof, and there are a lot out there. I mean, it's a very common name.",
+      "id": "ep_143_ut_18"
+    },
+    {
+      "end": 259578,
+      "speaker": "Moritz Stefaner",
+      "start": 255906,
+      "text": "And with naming you just global and domains and whatnot.",
+      "id": "ep_143_ut_19"
+    },
+    {
+      "end": 279694,
+      "speaker": "Matt Daniels",
+      "start": 259634,
+      "text": "True, true. It also has that working against it. So I was talking with a friend and I was like, oh, we have this idea called the proof, but, like, there's issues around maybe copyright and we might get sued. And he was like, oh, you should call it the pudding because the proof is in the pudding. And I was like, that's the worst name ever. No one would ever call that.",
+      "id": "ep_143_ut_20"
+    },
+    {
+      "end": 281030,
+      "speaker": "Moritz Stefaner",
+      "start": 279702,
+      "text": "Maybe the subsection of the site.",
+      "id": "ep_143_ut_21"
+    },
+    {
+      "end": 310986,
+      "speaker": "Matt Daniels",
+      "start": 281150,
+      "text": "I know, I know. We've actually. For some of the mini verticals we've been exploring, that name has come up. But, yeah, immediately I kind of, like, recoiled at the name, but then I shared it with the team and then after another few rounds of finalists, we all decided to just go with the pudding. It's very memorable, which is nice. It's very google able. No one asks about the spelling, which I always hate about names. It's like, wait, how do you spell that? So here we are with the.",
+      "id": "ep_143_ut_22"
+    },
+    {
+      "end": 325290,
+      "speaker": "Moritz Stefaner",
+      "start": 311018,
+      "text": "It looks funny, it's great. But now I'm waiting for a long scroll telling explainer of the proof is in the pudding. Like, what's the backstory of that saying? I think that should go on that list. Yeah. Project ideas.",
+      "id": "ep_143_ut_23"
+    },
+    {
+      "end": 345550,
+      "speaker": "Enrico Bertini",
+      "start": 327230,
+      "text": "It reminds me of when I was a teenager, we would debate names for creating a band for days and days. It's a similar feeling. So I think when we interviewed you, I think a little bit more over than three years. The name was different back then, though, right?",
+      "id": "ep_143_ut_24"
+    },
+    {
+      "end": 346246,
+      "speaker": "Moritz Stefaner",
+      "start": 345630,
+      "text": "Polygraph.",
+      "id": "ep_143_ut_25"
+    },
+    {
+      "end": 346614,
+      "speaker": "Matt Daniels",
+      "start": 346318,
+      "text": "Yeah.",
+      "id": "ep_143_ut_26"
+    },
+    {
+      "end": 347574,
+      "speaker": "Enrico Bertini",
+      "start": 346662,
+      "text": "Oh, yeah. Polygraph.",
+      "id": "ep_143_ut_27"
+    },
+    {
+      "end": 418566,
+      "speaker": "Matt Daniels",
+      "start": 347622,
+      "text": "Yeah, that's exactly right. Yeah. I think. I can't remember when we exactly chatted, but since then, the team became a lot more formal. A lot of the folks who were involved ended up taking a full time role. So it was just more structure. We took a step back and decided that it made sense from a strategy and a business perspective to kind of fork the company. So before it was bit of a mess, where we thought we were primarily an editorial entity, and to keep the lights on, we would essentially ghost write editorial for other publications and other companies. So we would produce data led and visually led storytelling for someone else, and their name would go on it. So essentially studio work in that way. And it was the easiest way to bankroll the company, but then we would do our own editorial as well, and became a bit muddied in terms of what polygraph was. Was it a publication or was it a studio agency?",
+      "id": "ep_143_ut_28"
+    },
+    {
+      "end": 418742,
+      "speaker": "Moritz Stefaner",
+      "start": 418598,
+      "text": "Studio.",
+      "id": "ep_143_ut_29"
+    },
+    {
+      "end": 448062,
+      "speaker": "Matt Daniels",
+      "start": 418766,
+      "text": "And we found ourselves having weird conversations around describing the entity that said, basically every publication does that. They just start with building the publication, then they go and do the ghost writing. So if you look at Fox or the New York Times or Quartz, they're all doing sponsored content. So they write editorial for clients, but they built out that publication first, and we were trying to do them in parallel.",
+      "id": "ep_143_ut_30"
+    },
+    {
+      "end": 458166,
+      "speaker": "Moritz Stefaner",
+      "start": 448126,
+      "text": "And a lot of podcast companies do the same model. Right? Like Gimlet. Also, they have their own produce shows which define their style, and then people book sort of the team, but also the style, in a way.",
+      "id": "ep_143_ut_31"
+    },
+    {
+      "end": 492298,
+      "speaker": "Matt Daniels",
+      "start": 458278,
+      "text": "Yeah. I mean, people think Gimlet is run by those ads, which it is, but the ads like this is brought to you by Blue Apron. But you're right, they do podcasts for Microsoft and Whole Foods. And I imagine the margins are just immense on producing that white label content. But, yeah, they do that as well. That's their business model. But they built the podcast first. It helps to have venture funding to pull that off. We've been bootstrapped the industry, which we never had.",
+      "id": "ep_143_ut_32"
+    },
+    {
+      "end": 492930,
+      "speaker": "Moritz Stefaner",
+      "start": 492354,
+      "text": "Right?",
+      "id": "ep_143_ut_33"
+    },
+    {
+      "end": 549016,
+      "speaker": "Matt Daniels",
+      "start": 493090,
+      "text": "Yeah. So we've never raised money. We have to break even every year. Well, we have to make more than break even. And so that if times are tough, we make payroll. And so we've used the studio work to build a cushion on salaries and ensure that we're viable for at least six to twelve months every year. But with that, we decided to fork the company. So we have polygraph, which just does that studio white, labeled sponsored content, content. And then we have the pudding, which is editorial. It is a publication, and everyone is split across those two things in some percentage at any given time, ideally never higher than 50. So you're either 50% to 100% editorial in any moment, and yeah, that's how the whole thing runs.",
+      "id": "ep_143_ut_34"
+    },
+    {
+      "end": 567868,
+      "speaker": "Enrico Bertini",
+      "start": 549168,
+      "text": "Very good. So I think, in the meantime, you developed so many interesting projects, and some of them have been wildly successful. So I was thinking about maybe we should start by diving into some of these projects so our listeners can get a sense of the type of work that you develop at the pudding.",
+      "id": "ep_143_ut_35"
+    },
+    {
+      "end": 569276,
+      "speaker": "Matt Daniels",
+      "start": 567964,
+      "text": "Yeah, let's do it.",
+      "id": "ep_143_ut_36"
+    },
+    {
+      "end": 571420,
+      "speaker": "Enrico Bertini",
+      "start": 569388,
+      "text": "So let's start with one of them.",
+      "id": "ep_143_ut_37"
+    },
+    {
+      "end": 575332,
+      "speaker": "Matt Daniels",
+      "start": 571500,
+      "text": "Let's start with the Ali Wong piece.",
+      "id": "ep_143_ut_38"
+    },
+    {
+      "end": 576160,
+      "speaker": "Moritz Stefaner",
+      "start": 575476,
+      "text": "Sure.",
+      "id": "ep_143_ut_39"
+    },
+    {
+      "end": 577220,
+      "speaker": "Enrico Bertini",
+      "start": 576540,
+      "text": "Sounds great.",
+      "id": "ep_143_ut_40"
+    },
+    {
+      "end": 751092,
+      "speaker": "Matt Daniels",
+      "start": 577300,
+      "text": "Okay, great. So that was from February of 2018, so it's now a little over a year old, and that was one of my favorite projects that we've done, essentially. And it's also a good example of the work that we do, and it took a very, very long time to produce. I think it was one of the longest projects that we ended up doing from start to finish. And I guess, for the listeners, the main premise of the project is we took a Netflix comedy special by Ali Wong and tried to communicate why this special was so successful from a comedy standpoint. The way that we tried to measure that was recording the length of laughter at any moment during the comedy specials, we went through the whole thing and basically ran a timer when there was audience laughter and found what we called the laughter climax, which was the longest length of laughter during the entire special, which I think was around minute 50. And then from there, we tried to say, okay, this is a really funny moment. Well, why was it so funny? Was it just a really good one liner, or was there something contextually happening in that moment? And then the whole piece that we ended up publishing was trying to explain that moment, that laughter climax. And our main thesis for the project was it had a lot to do with Ally's very talented storytelling chops and how she ended up structuring the entire 50 minutes preceding that moment and then communicating that visually. So what was happening at each moment of the comedy special? What was she discussing? What story was she building, and what happened at minute 50 from a narrative perspective, that made it so special. So it's a very weird, nerdy thing for comedy, but I think it lends itself very well to visual storytelling. It's also not interactive, which I think is pretty rare in the Dataviz space, where all you can do is basically tapdez. It could easily have been executed as a video, but we went with this tapper, and, yeah, it's just, I think we were very surprised by the reception. The time on site is something crazy, like 19 minutes, which is not real. 19 minutes is not a real number. People leave it open in tabs, but it's one of the highest we've ever had on an article.",
+      "id": "ep_143_ut_41"
+    },
+    {
+      "end": 757690,
+      "speaker": "Moritz Stefaner",
+      "start": 751116,
+      "text": "It's very high. It's like five minutes is pretty good already. Eight is really, really decent. So 19 is insane.",
+      "id": "ep_143_ut_42"
+    },
+    {
+      "end": 796350,
+      "speaker": "Matt Daniels",
+      "start": 758310,
+      "text": "The real number is probably, like seven, if we like, because that number is overestimated. But even then, the average site probably has. If you were to look at the real number, it would probably be under 10 seconds. People go to a site and they leave. Then you average it out. You get something like 10 seconds, but this was extremely high. And people have talked about it many times to us, and some people have criticized it. They're like, you can't analyze comedy. Other people were like, this is what we needed for comedy as a form of art. It needs that level of analysis and media appreciation.",
+      "id": "ep_143_ut_43"
+    },
+    {
+      "end": 807122,
+      "speaker": "Moritz Stefaner",
+      "start": 797370,
+      "text": "I mean, people have done it for music albums or for screenplays, but I don't think anybody has done it before for a comedy show, I guess.",
+      "id": "ep_143_ut_44"
+    },
+    {
+      "end": 832582,
+      "speaker": "Matt Daniels",
+      "start": 807226,
+      "text": "Yeah, I mean, there is a youtuber named nerdwriter who's one of my favorite people on the Internet, and he did a thing on Louis Ck that said how Louis tells a joke. Okay. He's also done a couple other comedy things as well, but ours was probably one of the first I think I've seen. That would be more from the graphics and data journalism community.",
+      "id": "ep_143_ut_45"
+    },
+    {
+      "end": 833902,
+      "speaker": "Moritz Stefaner",
+      "start": 832686,
+      "text": "Exactly. Yeah.",
+      "id": "ep_143_ut_46"
+    },
+    {
+      "end": 835742,
+      "speaker": "Matt Daniels",
+      "start": 834006,
+      "text": "Yeah. So that was one of my favorites.",
+      "id": "ep_143_ut_47"
+    },
+    {
+      "end": 854500,
+      "speaker": "Moritz Stefaner",
+      "start": 835846,
+      "text": "Yeah. It's a great piece and very unique, and I think that's generally like, your choice of topics on the one hand, but then also how you attack a certain topic is always fresh and always interesting. And you seem to put a lot of thought into the general angle there. Right?",
+      "id": "ep_143_ut_48"
+    },
+    {
+      "end": 1098608,
+      "speaker": "Matt Daniels",
+      "start": 854880,
+      "text": "Yeah. I mean, the backstory on that project, which a lot of people find interesting, is we started that project based on a hypothesis from Russell on the team, Russel Goldenberg. And he wanted to dissect jokes in how the flow of jokes happened in various comedy skits or comedy routines. He was a big fan of Mike Birbigula, I think I'm saying that correctly. And he wanted to look at one of his jokes and just say, like, well, he's now talking about cats. How did he get to this topic of cats? Because he was talking about his wife five minutes ago. How does this story flow in such a way where we're moving from very different points very quickly? So we ended up using Mike Propagula's routine, as well as nine or ten other comedians, and we went through the transcripts of those routines and mapped out exactly what they were talking about. And then I think we just grabbed the laughter data as a like, might as well. It wasn't like, the reason we were doing the project. And he ended up making something, and I think, like, personally underwhelmed by the output and got pretty far. He had coded up a lot of charts, and I was very excited. I get very excited about projects, and I felt like there was something there. But I think he had been working on it so long that it wasn't as exciting maybe as when it started. So he ended up putting it on hold, and it kind of just sat in the holding pattern of, I'll come back to it later when I'm feeling inspired. And I thought there was still something there. And then I took a stab at the story, and I was like, well, what if we did this? So now we're maybe at, like, month three of the project, and not that he'd been working on it for three months straight, or the team had not been working on it for three months straight, but it had been becoming a very tired old idea at that point, a few hours here and there. So I took a stab at the story, and it was underwhelming, I think. And then I did another round two of the idea, which was around this laughter climax, and that was the one that stuck. We thought we had something there. We thought the story was interesting enough to tell linearly, so it wouldn't be this elaborate, interactive, which is what he had been planning up to that point. And we just kind of went with it. So I took the storytelling role of mapping out the outline of what we were going to say and all the points we were going to make. And then he was basically the head of designing code and just basically coded all of the things that I was attempting to communicate to tell the story. And when that went above and beyond, just even how I was visually imagining it, and ended up having these elaborate half circles that were coming in and out. It was just very visually well done because he could focus on the presentation layer and I could focus on the story. And when that came together, I think we had a really good output. But all said and told, it was six months, probably from start to finish. So it's a testament to not putting an idea down, but also making several attempts at an idea, even though the first idea probably wasn't sticking, being willing to kill an idea. We could have just shipped his first thing, but I think he instinctually was right. It wasn't releasing in the way that he probably imagined at the beginning. So it was a very interesting timeline for the project.",
+      "id": "ep_143_ut_49"
+    },
+    {
+      "end": 1138694,
+      "speaker": "Moritz Stefaner",
+      "start": 1098704,
+      "text": "Yeah. And it's an impressive piece and very unique in terms of how it works. I'm just inviting everybody just to check it out. We can spend hours trying to explain it, but best to just experience it. But, I mean, generally, you seem, at least in your big stories and seem to invest a lot of work also because you. Well, you come up with a topic, then you often generate your own datasets. Right. So, for instance, for the wildly successful, women's pockets are inferior piece. I think you started to measure even different jeans and different clothes to find out exact sizes of women's pockets.",
+      "id": "ep_143_ut_50"
+    },
+    {
+      "end": 1158002,
+      "speaker": "Matt Daniels",
+      "start": 1138812,
+      "text": "Yeah. That project was done by Jan and Amber on our team, and again, is a testament to the rubric that we have, which is picking topics that are divisive. Not that. Yeah. I mean, divisive in the sense of. Yeah, well, there's some debate happening, right.",
+      "id": "ep_143_ut_51"
+    },
+    {
+      "end": 1158790,
+      "speaker": "Moritz Stefaner",
+      "start": 1158066,
+      "text": "Somewhere.",
+      "id": "ep_143_ut_52"
+    },
+    {
+      "end": 1287164,
+      "speaker": "Matt Daniels",
+      "start": 1159890,
+      "text": "I don't know if it's maybe a one sided debate, but I think Amber, that topic, because they saw that discussion happening on Twitter a lot. They saw maybe their friends lamenting this fact. Often they found. Maybe they found themselves lamenting the fact. I don't know, it was really their baby, but, yeah, they thought this would be interesting and decided to run with it. I think the idea of going and measuring pockets was really novel. The visual presentation of the story, I think, really sold it. So the premise is around women's pockets are smaller than men's, and you need to read the article for the explanation of the historical explanation for this. But they went out and looked at similarly sized pants for men and women, women's jeans, and just measured the pocket sizes for the front pockets and back pockets. And then the article is really visualizing those dimensions. There's a lot of support around the history of pockets, and one of the really clever things was they made this graphic that you can click an iPhone X and put it in each of the pockets, and it says the percent of pockets that would fit in iPhone X or a wallet or a hand. It was just really cleverly done, and the tone was probably right. It wasn't taking itself too seriously, have this overall denim aesthetic, which was kind of nice. But, yeah, I think that project kind of speaks to some of the more pop culture related things that we're doing, but has a little bit of an intersection with an important topic that maybe is in the edge of social equality, but also being a little bit more on the lighter side. So that said, I think the response was surprising for me. I don't think it was surprising for maybe Jan or Amber, because they knew this was something.",
+      "id": "ep_143_ut_53"
+    },
+    {
+      "end": 1288400,
+      "speaker": "Moritz Stefaner",
+      "start": 1287212,
+      "text": "They knew it's a big deal.",
+      "id": "ep_143_ut_54"
+    },
+    {
+      "end": 1320940,
+      "speaker": "Matt Daniels",
+      "start": 1288700,
+      "text": "They knew that people were debating this, and they're like, this is just a bullet point in your argument of the millions of people who are debating this all the time. So it was really cool to see that do well from a traffic standpoint. And when they meet people and they're like, oh, my God, I loved your pockets project. It's just like this overwhelming sense of joy. So if you haven't seen it, I highly recommend checking it out. And, yeah, just one of my favorites from the past couple of years.",
+      "id": "ep_143_ut_55"
+    },
+    {
+      "end": 1352668,
+      "speaker": "Moritz Stefaner",
+      "start": 1321060,
+      "text": "And I love about, as you say, it picks up a light hearted topic, be it divisive or not. But it's sort of also like a pop culture popular topic, not something people usually treat sciencey, right. But they take it really serious. Like, they really say, like, okay, let's find out and really go deep. And I think this, like, being serious about the fun stuff, you know, is such a cool. Such a cool attitude, in a way, and maybe one of the part of the pudding DNA to some degree. Right?",
+      "id": "ep_143_ut_56"
+    },
+    {
+      "end": 1468306,
+      "speaker": "Matt Daniels",
+      "start": 1352764,
+      "text": "Yeah. Amber gave a talk recently. I don't know if she has or will make the slides public, but it was about this notion of fun data storytelling. And I have a lot of feelings about the idea of fun because the connotation is that, well, if it's fun, that means that there are serious things that are, and the serious things are important, and the fun things are unimportant. And yes, that is true. There is hard journalism and soft journalism. There's the human interest, or I can't remember the name from your newspaper section days, but there's the lighter things. Right? I do think there's a place for fun things, but I wouldn't call them fun. I would just say they're a place for cultural things. We live in a culture. I remember pop culture. Yeah. I mean, people undermine the phrase pop culture a lot. They kind of sneer at it. I remember this Twitter thread where this guy was lamenting the fact that Ariana Grande was on the front page of Buzzfeed News, and they were like, how can Ariana Grande be on the front page of Buzzfeed News? Like, we're not people magazine here. And then someone quickly retorted, why is this important role model in music for a lot of women being undermined? Why is it not appropriate to say that we live in a culture, we talk about Ariana Grande a lot. Ariana Grande means a lot for a lot of people. And to deny that aspect just because there are more important things happening? Kind of ignores the reality of like, look, we spend a lot of time in our world talking about Aria Grande if we like it or not. Yes, there's a role for things around climate change or some of the other important political things happening in the moment, but we need Ariana Grande to balance that out as well. So that's often where my head's at when these topics arise.",
+      "id": "ep_143_ut_57"
+    },
+    {
+      "end": 1497010,
+      "speaker": "Moritz Stefaner",
+      "start": 1468458,
+      "text": "Yeah. And if you look hard enough in any topic of human interest, you can find a human story that tells you something about people that is interesting, you know, or like. Yeah, as you say, culture or differences or whatnot. So it's just a matter of perspective, in my view. Anyways. Lots of projects. Check out pudding. Cool. Best URL. I also love the population mountains. I don't think we'll go deep in there because I think this is a whole PhD in map boxing.",
+      "id": "ep_143_ut_58"
+    },
+    {
+      "end": 1500220,
+      "speaker": "Matt Daniels",
+      "start": 1499360,
+      "text": "Technically.",
+      "id": "ep_143_ut_59"
+    },
+    {
+      "end": 1528354,
+      "speaker": "Moritz Stefaner",
+      "start": 1501680,
+      "text": "It's really well done and there's a lot of work behind it, clearly. So if you haven't seen that, check it out as well. But I'd like to move on, actually, and talk about generally a bit more. You touched on it a bit already. Like, how is the process? Is there a typical process that you follow? What is the team size? How long does it take from conception to realization of ideas? Can you tell us a bit behind the scenes stuff? The juicy stuff, of course, as well?",
+      "id": "ep_143_ut_60"
+    },
+    {
+      "end": 1585748,
+      "speaker": "Matt Daniels",
+      "start": 1528402,
+      "text": "Yeah, yeah. I think it's that dissimilar from probably what you'd find in a typical newsroom. I will say that the best metaphor for our process is probably similar to making a movie where there's kind of like a development phase. Think of your every movie probably starts with an idea on a napkin. Right? And that's often a lot of the way our articles start, too. Let's go back to the pockets idea that this is something they're like, oh, we should definitely do a thing on pockets. And that's your back of the napkin idea. But after you have that first genesis of an idea, you need to write a script, right? Like, who are your characters? How long is it? Where does it take place? And that's really what we call an exploration phase, where we try to scope this project out, looking at the data.",
+      "id": "ep_143_ut_61"
+    },
+    {
+      "end": 1587700,
+      "speaker": "Moritz Stefaner",
+      "start": 1585804,
+      "text": "As well, probably that would be available.",
+      "id": "ep_143_ut_62"
+    },
+    {
+      "end": 1619990,
+      "speaker": "Matt Daniels",
+      "start": 1587860,
+      "text": "Yeah. Do you even have data? Can you find all the pants brands in your local area? What would it take to measure them? How long would it take? Do you need to measure 1000 or 100? What's the scope of this effort? And that's really important because eventually you're gonna have to go out and film the movie. Right. And you don't want to film your movie without having a really good script. So that exploration phase is really, really important to how we work.",
+      "id": "ep_143_ut_63"
+    },
+    {
+      "end": 1627870,
+      "speaker": "Moritz Stefaner",
+      "start": 1620330,
+      "text": "How long do you spend and how often? How many exploration phases do you like afterwards? You say, probably not a project after all.",
+      "id": "ep_143_ut_64"
+    },
+    {
+      "end": 1696362,
+      "speaker": "Matt Daniels",
+      "start": 1628370,
+      "text": "Yeah, that's a good question. Well, first of all, I just want to mention that all of this is on our GitHub wiki. So if you go to GitHub.com, the pudding, you can find our process and literally everything we do internally from an operations perspective. But the exploration phase will maybe involve a week or a few days. It might take a lot longer if it's a very data intensive project. I think the comedy, every piece that we were talking about went through a few exploration phases of trying to shape an idea into something that we thought was good, basically another script. And sometimes that script wasn't good, and we threw it away. So we kill scripts. We kill projects in exploration phase quite a bit. And that's good because that means we didn't make a bad movie. We didn't go and code and design and produce something that really just didn't make sense from a story perspective.",
+      "id": "ep_143_ut_65"
+    },
+    {
+      "end": 1709778,
+      "speaker": "Moritz Stefaner",
+      "start": 1696426,
+      "text": "And how do you decide that? Let's say somebody has the idea, let's do something about pockets, try out something. Do you debate it in a group, or do they talk to you or who makes the decision to run with it or not?",
+      "id": "ep_143_ut_66"
+    },
+    {
+      "end": 1972922,
+      "speaker": "Matt Daniels",
+      "start": 1709954,
+      "text": "Yeah, there's a bit of structure involved and a lot of trust. So one of the first elements of structure that we have is kind of a group back of the napkin pitching session. And we call that storytime, where you have one person for an hour kind of running through some back of the napkin ideas that they have. And, hey, I'm thinking about doing a thing on pockets. Here's a history of pockets. Here's some few examples of people on Twitter talking about this. I think it's really interesting. It'd be really compelling to visualize this in some way. That's probably the extent of what they're saying during this session. And then the group, our team, which is between six and nine people, depending on whether we have interns, will ask questions and react to that idea and say, have you considered that pocket sizes might change based on how tall you are? I don't know. They'll ask questions, and then they'll react to it, and they'll say, oh, this idea, I don't really get it, but you're really excited, and I'm excited for you. Or they'll be like, I love this. I think you should consider making this a long, scrolly telling experience. I don't know, but they'll give as much candid reactions as they prefer, and then it's up to the author to decide, hey, based on this initial feedback, there seems to be a lot of excitement here. I'm going to move this into exploration phase, and they might have only negative feedback and still make that call. We're trusting the author to use their judgment and just take the group's reactions as input. Once they decide to go into exploration phase, there are a lot of boxes to check, validating that there's data, scoping out the story, deciding how you would be involved or how other people would be involved. Technically, we have the group greenlit a project, but we've never not greenlit a project. We've always trusted authors to know whether they have a good script, know that they have what they need to not start producing a story that might fall apart during production, that they've looked for the data and they know that it's valid and it's really all on the author to move it through that exploration phase. There is technically a no button, like a stop button, but I don't think we've ever used it. Yeah, no one's been like, yeah, this is a really bad idea. You shouldn't do this. And that's good because I think left to my own devices, I might have maybe if, let's say that was me, right? Like I was the formal editor where I was like, oh, this idea sucks. No one's going to read this. It's going to be a waste of your time. Well, I don't know. Maybe I'm not the audience for the pockets project. Who am I to say your idea is bad? This is totally different from a contributor standpoint. We have people picture stories all the time. We think they're either amazing or they need work. But we have a posture of trusting the internal team. And if you fail, at least you've learned from it. But if you're excited, we're excited generally, but it's your job to solicit feedback from the team. You shouldn't be scared of their reactions. You're using those reactions to shape your article and understand how a future audience would receive the project. So we encourage you to go to that story time and to present it in a way where you're gauging how a future audience might react. And same thing after exploration, you've scoped out your project. You know what you're making. Share it with the team. Like, how do they react? Are they like, oh, this is little water is wet, or are they really excited to see this be filmed, see the movie come out and see it publish on the Internet? So we're hoping that the author can learn from that experience and also develop a better sense of judgment for articles in the future as they get more familiar with that process and how people react to their work at different phases.",
+      "id": "ep_143_ut_67"
+    },
+    {
+      "end": 1978150,
+      "speaker": "Moritz Stefaner",
+      "start": 1973066,
+      "text": "But what do you also say there's often, like, one main author that has the big vision for the piece?",
+      "id": "ep_143_ut_68"
+    },
+    {
+      "end": 2064260,
+      "speaker": "Matt Daniels",
+      "start": 1978250,
+      "text": "Absolutely. Yeah. I mean, they're the person that's pulling it through storytime and exploration. In a similar way for the Ali Wong article, while Russell had storytime and explored that in at least one cycle, I ended up coming back to him with a story pitch and saying, like, here's an idea, here is the rough, the exploration of the idea. Like, here's how this would structurally come together. And then he then saying, well, here's how we could execute this visually in a really compelling way. So he's playing more role in the scoping process. But there is one author that is pulling the article through to production. So, yes, the answer is yes. There has to be at least one person who's going to say, this is what the story is, and they might then go rely on other people to. To produce it. You might not have even the skillset to produce your vision. You might need to bring on a graphic designer or a developer or even a data person to scrape all the data that you need or to analyze all the data you need. So someone might be involved in more of the production roles. And we expect that. In fact, we encourage it. So, yes, there is a. A vision person throughout that entire process.",
+      "id": "ep_143_ut_69"
+    },
+    {
+      "end": 2082532,
+      "speaker": "Moritz Stefaner",
+      "start": 2064380,
+      "text": "Yeah. Seems like a great model to have one clear lead in terms of content, but then pull together different competencies and also, as you say, get feedback at critical points from people who are sort of outside a bit your current project bubble or your general interest bubble, just to see what flies and what doesn't.",
+      "id": "ep_143_ut_70"
+    },
+    {
+      "end": 2161292,
+      "speaker": "Matt Daniels",
+      "start": 2082716,
+      "text": "Yeah, I mean, feedback is really, really important. We're still trying to get better at it. And I at least relied a lot on this book called Creativity Inc. Which is written by a former founder at Pixar. And they talk a lot about how feedback worked at Pixar and how you develop candid feedback, which is probably what the author emphasizes is the most important thing. Yeah, you can get feedback from anybody, but are they giving candidate feedback is another thing. So there's a training there's a cultural training mechanism of how do you elicit candid feedback from a group? So how do you get people comfortable giving candid feedback? How is the candid feedback not just coming from the highest paid person in the room, but, like, everyone? And then also, how do you train authors to take candidate feedback? And I think that's definitely something everyone struggles with, is how do you process feedback? How do you create an environment for feedback? How do you show up to a meeting where you know you want feedback and you don't recoil when people say something candidly about your project?",
+      "id": "ep_143_ut_71"
+    },
+    {
+      "end": 2163520,
+      "speaker": "Moritz Stefaner",
+      "start": 2161396,
+      "text": "But I spent weeks on this crucial.",
+      "id": "ep_143_ut_72"
+    },
+    {
+      "end": 2227824,
+      "speaker": "Matt Daniels",
+      "start": 2164500,
+      "text": "I spent weeks on this. Yeah, but that's also the thing is, like, we're structuring these feedback sessions in a way that they're useful. The story time feedback is giving you feedback at the early point of an idea. The exploration feedback is giving you feedback before you've coded or designed anything. And then we have another feedback session, that is while you're producing. So think of it as a screening of your movie, and you're perhaps only able to implement some scene changes moving around scenes. You can't refilm a scene. You can't recode a graph. We also need you to show up and say, like, okay, I understand, I've made the entire article, but I've also given you an opportunity to voice high level feedback a lot earlier. And like, yes, you can tell me that you should have done shoes instead of pockets, but at the 90% mark of a project, that just isn't helpful. Right. So it's also on the audience to understand what is the author even capable?",
+      "id": "ep_143_ut_73"
+    },
+    {
+      "end": 2230720,
+      "speaker": "Moritz Stefaner",
+      "start": 2227952,
+      "text": "What's helpful in time at all.",
+      "id": "ep_143_ut_74"
+    },
+    {
+      "end": 2275172,
+      "speaker": "Matt Daniels",
+      "start": 2230760,
+      "text": "Yeah, like, you definitely should not be telling them anything about, like, new charts. Like, you should have said that way earlier. The author should have given you that opportunity. There should have been a feedback session for you to talk about pie in the sky chart ideas, like, at the 90% mark. Like, maybe you can adjust the title and maybe you can adjust some of the framing and prose. Maybe you can adjust colors, but there's not really a lot to a lot on the table. And it's also up to the author to scope the feedback session to say, okay, I only want feedback on whether the background is blue or black and the audience, hopefully, is holding their tongue and not giving them unconstructive feedback. Right. So, yes, these are all important things.",
+      "id": "ep_143_ut_75"
+    },
+    {
+      "end": 2330118,
+      "speaker": "Enrico Bertini",
+      "start": 2275236,
+      "text": "Yeah, that's super interesting in a way, what I really like of the way you guys work is that you have a system. You seem to have a system for every, and especially being able to understand at the beginning of a project whether something one should commit on something or not, I think it's crucial. In a way, it's similar for us. It's very similar. In my lab, we spend a lot of time deciding whether it makes sense to commit on something or not. So I just wanted to move on a little bit on. I think what is really interesting about the pudding, other than, of course, the stunning visuals, the greatest content and the editorial aspects of it, I think what is really interesting is also the business side of how the pudding works. So I was wondering if you could a little bit explain how the pudding is organized from the business point of view.",
+      "id": "ep_143_ut_76"
+    },
+    {
+      "end": 2501878,
+      "speaker": "Matt Daniels",
+      "start": 2330214,
+      "text": "Yeah, I think we touched on that a little bit at the beginning. As I mentioned, we're essentially doing that. We're doing what we do on the pudding for other companies. It's probably the highest margin business model out there for media companies. We talked about Gimlet. It's why they do it. Although they were just bought by Spotify, so they're going to probably stop doing that. But the idea is that we're drafting similar articles for other companies. If you want to hire the pudding team, effectively, just reach out to me and we'll see if it makes sense. But the idea is that we're juggling our editorial responsibilities as well as some studio responsibilities for an article. I think we consciously very early decided to focus on external visual journalism. So we wouldn't do dashboard work, we wouldn't do internal presentations, we wouldn't do internal graphs. It has to be a visual external manifestation so someone on the Internet can see it. So we made a call to not do anything else. I think it's helped out a lot because it means we're basically juggling the same thing, editorial. And as I mentioned, we keep people at least 50% to 100% on editorial at any given moment. And you might have one of these sponsored pieces. So the equivalent of Gimlet making a podcast for Microsoft, you will likely, at some point during the year, be juggling one of those types of things. So our team of, again, six to nine are throughout the year juggling those things. We don't have dedicated people, which is also atypical. If you go to a gimlet again, they have an entire team dedicated to producing those Microsoft and Whole Foods podcasts. The other people do reply all and they do only editorial. And there's a clear divide between those two. We at the moment combine them, and that's been a strategic decision. And it's something that we talk about a lot in the notion of testing, maybe a dedicated person to only doing polygraph work. That's still a conversation we're having, whether that will make sense from a business perspective and what that will even mean from a cultural perspective. Right. So what is the dynamic when you have, like, the gimlet studio and the gimlet for real? Right. And how do those people look at each other? And what does that mean for.",
+      "id": "ep_143_ut_77"
+    },
+    {
+      "end": 2508920,
+      "speaker": "Moritz Stefaner",
+      "start": 2501934,
+      "text": "Yeah, exactly. It's the same team. It seems like a great setup.",
+      "id": "ep_143_ut_78"
+    },
+    {
+      "end": 2511428,
+      "speaker": "Matt Daniels",
+      "start": 2509420,
+      "text": "Yeah. So, I mean, for now, is there.",
+      "id": "ep_143_ut_79"
+    },
+    {
+      "end": 2523548,
+      "speaker": "Enrico Bertini",
+      "start": 2511444,
+      "text": "A number of people who work full time for the pudding or. I think you also have a structure for some freelancers to join your team for some projects. How does this work?",
+      "id": "ep_143_ut_80"
+    },
+    {
+      "end": 2703326,
+      "speaker": "Matt Daniels",
+      "start": 2523644,
+      "text": "Yeah, so there's six people full time on payroll. And from a freelance perspective, I would say the most typical manifestation of that is on contributor projects. So we solicit pitches a lot. We want to publish often enough that we have something, maybe every other week. Every week. Publishing on the pudding. The full time team of six only doing editorial might make that possible. But because we have to keep the lights on and juggle these studio projects, every so often we bring in freelancers, essentially contributors, to work with us to write editorial. And that can take a couple manifestations. One is they come to us with a pitch. They say, hey, I really want to do an article about this is actually very specific. Someone came to us, Marteen Lambrechts, who I think you had on your show at some point, he came to us with geographics. Yes. So he came to us with an idea around how EU funding works, European Union funding works. And what we did was we would say, hey, this is a great idea, and here's some money to make this worth it. I think our starting rate for a full project, end to end, you're doing all the design and the code of roughly the same scope as a typical pudding essay would be $5,000 minimum. And then we ramp up and down depending on scope. So we're now testing this notion of smaller projects where maybe they're not a full visual essay, they're more of a mini project. But we're also ramping up and saying, okay, you're actually going to be spending more than a typical effort on this. It might involve more money, but we'll pay them. We're there to be an editor to take you through the pudding process, to help out in design and code and maybe gut check your data. So we're basically in the trenches with you, but you're on the hook for doing a lot of the work. Suppose maybe you're only a designer or a writer, but you don't have any development work. Maybe that rate shifts and we take on more of the development work. So that's been one model. We also publish our entire backlog on the website. So all those ideas that we storytime, those back of the napkin ideas we put on our about page. So if you go to pudding cool, our domain, and then slash about, you'll find a link to our backlog under the pitch section. And that has, I don't know how long it is now, maybe 50 ideas that we've story timed and we just haven't gotten to. And you can take them and make them on your own. We're not gonna sue you or anything.",
+      "id": "ep_143_ut_81"
+    },
+    {
+      "end": 2707398,
+      "speaker": "Moritz Stefaner",
+      "start": 2703478,
+      "text": "Words maybe say longevity of dance fads.",
+      "id": "ep_143_ut_82"
+    },
+    {
+      "end": 2708262,
+      "speaker": "Matt Daniels",
+      "start": 2707574,
+      "text": "Yeah, there you go.",
+      "id": "ep_143_ut_83"
+    },
+    {
+      "end": 2713526,
+      "speaker": "Moritz Stefaner",
+      "start": 2708286,
+      "text": "Dynamics of career paths, rise of style. Yeah, this is all like, what is flossing? Here we go.",
+      "id": "ep_143_ut_84"
+    },
+    {
+      "end": 2718974,
+      "speaker": "Matt Daniels",
+      "start": 2713558,
+      "text": "What is flossing? Flossing is not a dental habit, it's a dance.",
+      "id": "ep_143_ut_85"
+    },
+    {
+      "end": 2720382,
+      "speaker": "Enrico Bertini",
+      "start": 2719142,
+      "text": "Oh, yeah.",
+      "id": "ep_143_ut_86"
+    },
+    {
+      "end": 2723390,
+      "speaker": "Matt Daniels",
+      "start": 2720566,
+      "text": "So, yeah, if you have kids, you definitely know.",
+      "id": "ep_143_ut_87"
+    },
+    {
+      "end": 2726310,
+      "speaker": "Enrico Bertini",
+      "start": 2723470,
+      "text": "Yeah, my kids are. Yeah, yeah. I'm really good at doing it.",
+      "id": "ep_143_ut_88"
+    },
+    {
+      "end": 2730070,
+      "speaker": "Matt Daniels",
+      "start": 2726390,
+      "text": "They're very good at doing it. Older people do not know how to floss.",
+      "id": "ep_143_ut_89"
+    },
+    {
+      "end": 2731518,
+      "speaker": "Enrico Bertini",
+      "start": 2730190,
+      "text": "I'm terrible. I'm terrible.",
+      "id": "ep_143_ut_90"
+    },
+    {
+      "end": 2793854,
+      "speaker": "Matt Daniels",
+      "start": 2731574,
+      "text": "Exactly. Different era. So, yeah, there you go. Like the generational, we actually, I think the idea was like, depending on how old you are, like, when you hear flossing, what do you think of and what is the threshold for you default to dance versus a dental floss? But anyway, I mean, who knows if that's an idea or not. We haven't really explored it. But you can take that idea and put it on your blog or pitch it to 538. Again, we're not going to be precious about those things. That's why we're putting them online publicly. But also you can pitch them back to us and say, hey, this is a really cool idea. I've explored it. I found the data, I validated it. I want to do a stepper like the Ali Wong piece, where you're just tapping through the whole thing. I don't know, but you're basing exploring it and then pitching it back to us. And if it looks good, we'll greenlight it and move to that similar contributor model I mentioned before. So those are generally the two paths that we've done to get involved with the pudding.",
+      "id": "ep_143_ut_91"
+    },
+    {
+      "end": 2805630,
+      "speaker": "Moritz Stefaner",
+      "start": 2793982,
+      "text": "Yeah, that's awesome. I love all these. You seem to have really interesting ideas about how to collaborate, how to keep it open, but also define a style and structure around what you do. So that's fantastic.",
+      "id": "ep_143_ut_92"
+    },
+    {
+      "end": 2806526,
+      "speaker": "Matt Daniels",
+      "start": 2805750,
+      "text": "Thank you.",
+      "id": "ep_143_ut_93"
+    },
+    {
+      "end": 2815812,
+      "speaker": "Enrico Bertini",
+      "start": 2806678,
+      "text": "Yeah, and maybe we should conclude. Bye. Maybe you can tell our listeners how to get involved if they want to get involved.",
+      "id": "ep_143_ut_94"
+    },
+    {
+      "end": 2876850,
+      "speaker": "Matt Daniels",
+      "start": 2815956,
+      "text": "Yeah, absolutely. So there's a few things, few plugs I'll make. So one is definitely, if you have an article you're working on and it's a visual story, don't hesitate to pitch it to us. If you're curious what a good pitch would look like, just go to our about page in the pitch section and you can kind of see it will basically give you a template that might remove a little bit of the I don't know how the pitch should look type of feeling. And we'll definitely get back to you and at least give you some advice on how you might approach the project. Or at least just look at the ideas that we have and see if anything is intriguing to you from a topic standpoint. We do have a patreon as well, similar to data stories. Oh yeah, I mentioned all of the client stuff, but we are imagining what a world would look like where we're only doing editorial and the lights are kept down by the Patreon. Or like, this should be possible.",
+      "id": "ep_143_ut_95"
+    },
+    {
+      "end": 2879270,
+      "speaker": "Moritz Stefaner",
+      "start": 2876970,
+      "text": "I think this should be possible. We need to.",
+      "id": "ep_143_ut_96"
+    },
+    {
+      "end": 2887110,
+      "speaker": "Matt Daniels",
+      "start": 2879890,
+      "text": "I don't know if it ever will be completely, but I imagine there's a world where it's a better story.",
+      "id": "ep_143_ut_97"
+    },
+    {
+      "end": 2889386,
+      "speaker": "Moritz Stefaner",
+      "start": 2887490,
+      "text": "I'm a supporter. You should be too.",
+      "id": "ep_143_ut_98"
+    },
+    {
+      "end": 2926396,
+      "speaker": "Matt Daniels",
+      "start": 2889578,
+      "text": "There you go. Cool. And right now the money basically just goes to payrol freelancer projects. A lot of media entities will pay very, very little. I think $5,000, while low for a typical developer rate for an article, is actually high for an editorial outlet, which often is definitely in the hundreds of dollars. But that's not to say I think both of those numbers still are under your typical hourly rate doing these projects.",
+      "id": "ep_143_ut_99"
+    },
+    {
+      "end": 2930900,
+      "speaker": "Moritz Stefaner",
+      "start": 2926548,
+      "text": "I was about to say, and you get a lot of exposure. But in this case it's actually true.",
+      "id": "ep_143_ut_100"
+    },
+    {
+      "end": 2971632,
+      "speaker": "Matt Daniels",
+      "start": 2933640,
+      "text": "Yeah, we're not going to say like, and you'll be Internet famous because who knows, right. But you do get to work with us and kind of go through the trenches of editorial. Yeah. So we do have a patreon. You get stickers if you do $10 or more. You get a tote or t shirt, which is pretty cool. And we have some fun data visualization templates of mugs or totes or t shirts that show your love for the domain. And yeah, those are the two things. I love the bag.",
+      "id": "ep_143_ut_101"
+    },
+    {
+      "end": 2972656,
+      "speaker": "Enrico Bertini",
+      "start": 2971736,
+      "text": "I want one.",
+      "id": "ep_143_ut_102"
+    },
+    {
+      "end": 2981860,
+      "speaker": "Matt Daniels",
+      "start": 2972768,
+      "text": "There you go. You can have a bag with cool Dataviz people's names on it and a very Helvetica esque font. It's pretty fun.",
+      "id": "ep_143_ut_103"
+    },
+    {
+      "end": 2984528,
+      "speaker": "Enrico Bertini",
+      "start": 2982480,
+      "text": "It's very stylish. I like that one.",
+      "id": "ep_143_ut_104"
+    },
+    {
+      "end": 2989730,
+      "speaker": "Matt Daniels",
+      "start": 2984584,
+      "text": "Yeah, Jan designed it. She's our resident fashion expert, so.",
+      "id": "ep_143_ut_105"
+    },
+    {
+      "end": 2997006,
+      "speaker": "Enrico Bertini",
+      "start": 2992030,
+      "text": "Well, perfect. Well, thanks so much, Matt, for coming on the show again.",
+      "id": "ep_143_ut_106"
+    },
+    {
+      "end": 2998090,
+      "speaker": "Moritz Stefaner",
+      "start": 2997158,
+      "text": "Will you come?",
+      "id": "ep_143_ut_107"
+    },
+    {
+      "end": 3003970,
+      "speaker": "Enrico Bertini",
+      "start": 2998550,
+      "text": "Yeah. We're gonna have you again in a few years and see what happened in the meantime.",
+      "id": "ep_143_ut_108"
+    },
+    {
+      "end": 3008798,
+      "speaker": "Matt Daniels",
+      "start": 3004630,
+      "text": "Wonderful. I'm really glad to be back, and it's crazy how long it's been, I.",
+      "id": "ep_143_ut_109"
+    },
+    {
+      "end": 3022270,
+      "speaker": "Enrico Bertini",
+      "start": 3008814,
+      "text": "Have to say, a little bit of a back of the, like, behind the curtains. When we spoke the other day, you said the first time I came to the show, I didn't have any idea who you were and what data visualization was as a community.",
+      "id": "ep_143_ut_110"
+    },
+    {
+      "end": 3034306,
+      "speaker": "Matt Daniels",
+      "start": 3022930,
+      "text": "Yeah, full circle. Now I'm like, oh, yeah, data stories. And Enrico, of course we'll talk. We're Internet friends. But it's very weird. Now I need to go back and listen to the first one.",
+      "id": "ep_143_ut_111"
+    },
+    {
+      "end": 3037874,
+      "speaker": "Enrico Bertini",
+      "start": 3034418,
+      "text": "Yeah, absolutely. Okay. Thanks so much.",
+      "id": "ep_143_ut_112"
+    },
+    {
+      "end": 3038642,
+      "speaker": "Matt Daniels",
+      "start": 3038002,
+      "text": "Thank you.",
+      "id": "ep_143_ut_113"
+    },
+    {
+      "end": 3039962,
+      "speaker": "Moritz Stefaner",
+      "start": 3038746,
+      "text": "Yeah, thanks for joining us.",
+      "id": "ep_143_ut_114"
+    },
+    {
+      "end": 3066150,
+      "speaker": "Enrico Bertini",
+      "start": 3040026,
+      "text": "Bye bye bye. Hey, folks, thanks for listening to data stories stories again. Before you leave a few last notes, this show is now completely crowdfunded, so you can support us by going on Patreon. That's patreon.com Datastories. And if you can spend a couple of minutes reading us on iTunes, that would be extremely helpful for the show.",
+      "id": "ep_143_ut_115"
+    },
+    {
+      "end": 3092036,
+      "speaker": "Moritz Stefaner",
+      "start": 3066270,
+      "text": "And here's also some information on the many ways you can get news directly from us. We are, of course, on twitter@twitter.com. Datastories. We have a Facebook page@Facebook.com. datastoriespodcast. All in one word. And we also have a Slack channel where you can chat with us directly. And to sign up, you can go to our homepage, datastory eas. And there is a button at the bottom of the page.",
+      "id": "ep_143_ut_116"
+    },
+    {
+      "end": 3107878,
+      "speaker": "Enrico Bertini",
+      "start": 3092188,
+      "text": "And we also have an email newsletter. So if you want to get news directly into your inbox and be notified whenever we publish an episode, you can go to our home page, Datastories es and look for the link you find at the bottom in the footer.",
+      "id": "ep_143_ut_117"
+    },
+    {
+      "end": 3120038,
+      "speaker": "Moritz Stefaner",
+      "start": 3107974,
+      "text": "So one last thing we want to tell you is that we love to get in touch with our listeners, especially if you want to suggest a way to improve the show or amazing people you want us to invite or even projects you want us to talk about.",
+      "id": "ep_143_ut_118"
+    },
+    {
+      "end": 3129230,
+      "speaker": "Enrico Bertini",
+      "start": 3120134,
+      "text": "Yeah, absolutely. And don't hesitate to get in touch with us. It's always a great thing to hear, hear from you. So see you next time, and thanks for listening to data stories.",
+      "id": "ep_143_ut_119"
+    }
+  ],
+  "confidence": 0.935394717688305,
+  "audio_duration": 3139,
+  "punctuate": true,
+  "format_text": true,
+  "dual_channel": false,
+  "webhook_url": null,
+  "webhook_status_code": null,
+  "webhook_auth": false,
+  "webhook_auth_header_name": null,
+  "speed_boost": false,
+  "auto_highlights_result": null,
+  "auto_highlights": false,
+  "audio_start_from": null,
+  "audio_end_at": null,
+  "word_boost": [],
+  "boost_param": null,
+  "filter_profanity": false,
+  "redact_pii": false,
+  "redact_pii_audio": false,
+  "redact_pii_audio_quality": null,
+  "redact_pii_policies": null,
+  "redact_pii_sub": null,
+  "speaker_labels": true,
+  "content_safety": false,
+  "iab_categories": true,
+  "content_safety_labels": {
+    "status": "unavailable",
+    "results": [],
+    "summary": {}
+  },
+  "language_detection": false,
+  "language_detection_threshold": null,
+  "language_confidence": null,
+  "custom_spelling": null,
+  "throttled": false,
+  "auto_chapters": true,
+  "summarization": false,
+  "summary_type": null,
+  "summary_model": null,
+  "custom_topics": false,
+  "topics": [],
+  "speech_threshold": null,
+  "speech_model": "best",
+  "chapters": [
+    {
+      "summary": "This week, we talk about data visualization, analysis, and more generally, the role that data plays in our lives. Our podcast is listener supported. If you enjoy the show, please consider supporting us.",
+      "gist": "Data Stories",
+      "headline": "Our podcast is listener supported. If you enjoy the show, please consider supporting us",
+      "start": 240,
+      "end": 104390,
+      "id": "ep_143_ch_0"
+    },
+    {
+      "summary": "Once again, we have, once again, Matt Daniels from the pudding. The digital publication primarily publishes visually or data led essays. We generally cover topics that aren't around the news cycle. By bringing in data and by bringing in visuals, we hope we can tell broader, bigger story.",
+      "gist": "Pudding Returns... With Matt Daniels",
+      "headline": "Matt Daniels from the pudding writes visually or data led essays",
+      "start": 105290,
+      "end": 195592,
+      "id": "ep_143_ch_1"
+    },
+    {
+      "summary": "The team was debating names for the site and the publication. One of the finalists for the names was the proof. They decided to just go with the pudding. The company has been bootstrapped for three years.",
+      "gist": "The Proof",
+      "headline": "Some listeners might be wondering, where does actually the name come from",
+      "start": 195776,
+      "end": 550100,
+      "id": "ep_143_ch_2"
+    },
+    {
+      "summary": "The project took a year to produce. It tried to explain why Ali Wong's comedy special was so successful from a comedy standpoint. It's a very weird, nerdy thing for comedy, but it lends itself very well to visual storytelling. Some critics have criticized it, but others say it's what comedy needs.",
+      "gist": "The Length of Our Projects",
+      "headline": "You've developed many interesting projects and some of them have been wildly successful",
+      "start": 550440,
+      "end": 1111120,
+      "id": "ep_143_ch_3"
+    },
+    {
+      "summary": "The idea of going and measuring pockets was really novel. The visual presentation of the story, I think, really sold it. The project kind of speaks to some of the more pop culture related things that we're doing. Being serious about the fun stuff is such a cool attitude.",
+      "gist": "Buzzfeed's 'Your Pockets Are Small' project",
+      "headline": "Buzzfeed recently published an article measuring women's pockets",
+      "start": 1112100,
+      "end": 1509096,
+      "id": "ep_143_ch_4"
+    },
+    {
+      "summary": "Every movie probably starts with an idea on a napkin. The best metaphor for our process is probably similar to making a movie. The exploration phase is really, really important to how we work. There's a bit of structure involved and a lot of trust.",
+      "gist": "How Do You Write a Scriptment?",
+      "headline": "How long does it take from conception to realization of ideas at BuzzFeed",
+      "start": 1509288,
+      "end": 1972922,
+      "id": "ep_143_ch_5"
+    },
+    {
+      "summary": "One main author has the big vision for the piece. They're the person that's pulling it through storytime and exploration. How do you train authors to take candidate feedback? We're still trying to get better at it.",
+      "gist": "The One Author's Role in Writing",
+      "headline": "There should be one main author that has the big vision for the piece",
+      "start": 1973066,
+      "end": 2302760,
+      "id": "ep_143_ch_6"
+    },
+    {
+      "summary": "We're doing what we do on the pudding for other companies. The idea is that we're juggling our editorial responsibilities as well as some studio responsibilities for an article. We consciously very early decided to focus on external visual journalism. That's still a conversation we're having, whether that will make sense from a business perspective.",
+      "gist": "The Pudding at Vox",
+      "headline": "I was wondering if you could explain how the pudding works from a business perspective",
+      "start": 2304220,
+      "end": 2509988,
+      "id": "ep_143_ch_7"
+    },
+    {
+      "summary": "A number of people who work full time for the pudding or. I think you also have a structure for some freelancers to join your team for some projects. How does this work? We solicit pitches a lot. We also publish our entire backlog on the website.",
+      "gist": "Pudding Magazine: The Place of Freelancers",
+      "headline": "You have a structure for some freelancers to join your team for some projects",
+      "start": 2510084,
+      "end": 2806526,
+      "id": "ep_143_ch_8"
+    },
+    {
+      "summary": "If you have an article you're working on and it's a visual story, don't hesitate to pitch it to us. This show is now completely crowdfunded, so you can support us by going on Patreon. com Datastories.",
+      "gist": "Data Stories",
+      "headline": "This show is now completely crowdfunded, so you can support us on Patreon",
+      "start": 2806678,
+      "end": 3129230,
+      "id": "ep_143_ch_9"
+    }
+  ],
+  "disfluencies": false,
+  "entity_detection": false,
+  "sentiment_analysis": false,
+  "sentiment_analysis_results": null,
+  "entities": null,
+  "speakers_expected": null,
+  "summary": null,
+  "custom_topics_results": null,
+  "episode_num": 143,
+  "episode_metadata": {
+    "speakers": [
+      "Matt Daniels",
+      "Enrico Bertini",
+      "Moritz Stefaner"
+    ],
+    "WPid": "1333",
+    "url": "https://datastori.es/podlove/file/5649/s/feed/c/mp3/143-the-pudding-with-matt-daniels.mp3",
+    "episode_title": "The Pudding with Matt Daniels"
+  }
+}

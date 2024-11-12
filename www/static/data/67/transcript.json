@@ -1,0 +1,1432 @@
+{
+  "id": "6d7f460a-8635-40c0-8b8b-443958d43b1d",
+  "language_model": "assemblyai_default",
+  "acoustic_model": "assemblyai_default",
+  "language_code": "en_us",
+  "status": "completed",
+  "audio_url": "https://datastori.es/podlove/file/1943/s/feed/c/mp3/67-ggplot2-r-and-toolmaking-with-hadley-wickham.mp3",
+  "utterances": [
+    {
+      "end": 6274,
+      "speaker": "Hadley Wickham",
+      "start": 120,
+      "text": "So I'm basically the dictator of GGPlot two. Mostly benevolent. Mostly benevolent, I think.",
+      "id": "ep_67_ut_0"
+    },
+    {
+      "end": 31074,
+      "speaker": "Moritz Stefaner",
+      "start": 8614,
+      "text": "Data stories is brought to you by Qlik, who allows you to explore the hidden relationships within your data that lead to meaningful insights. Let your instincts lead the way to create personalized visualizations and dynamic dashboards with Qlik sense, which you can download for free at Qlik Datastories. That's Qlik Datastories.",
+      "id": "ep_67_ut_1"
+    },
+    {
+      "end": 46732,
+      "speaker": "Enrico Bertini",
+      "start": 41684,
+      "text": "Hey, everyone, data stories number 67. Hey, Moritz, how's it going?",
+      "id": "ep_67_ut_2"
+    },
+    {
+      "end": 49804,
+      "speaker": "Moritz Stefaner",
+      "start": 46788,
+      "text": "Good, good. How about you, Enrico? All fine.",
+      "id": "ep_67_ut_3"
+    },
+    {
+      "end": 52028,
+      "speaker": "Enrico Bertini",
+      "start": 49924,
+      "text": "Good. Stormy day today.",
+      "id": "ep_67_ut_4"
+    },
+    {
+      "end": 57024,
+      "speaker": "Moritz Stefaner",
+      "start": 52196,
+      "text": "Stormy in New York. It's depressing and rainy.",
+      "id": "ep_67_ut_5"
+    },
+    {
+      "end": 61240,
+      "speaker": "Enrico Bertini",
+      "start": 57984,
+      "text": "Oh, yeah, well, yeah, expected, right?",
+      "id": "ep_67_ut_6"
+    },
+    {
+      "end": 67968,
+      "speaker": "Moritz Stefaner",
+      "start": 61312,
+      "text": "Six months of fall. Anyway, any news? What are you up to?",
+      "id": "ep_67_ut_7"
+    },
+    {
+      "end": 80504,
+      "speaker": "Enrico Bertini",
+      "start": 68096,
+      "text": "Well, teaching time here, so quite happy with my new version of the course. I'm planning to write something about it soon, so hopefully sharing some ideas I have with the world.",
+      "id": "ep_67_ut_8"
+    },
+    {
+      "end": 81288,
+      "speaker": "Moritz Stefaner",
+      "start": 80624,
+      "text": "Sounds good.",
+      "id": "ep_67_ut_9"
+    },
+    {
+      "end": 90090,
+      "speaker": "Enrico Bertini",
+      "start": 81376,
+      "text": "Yeah, but mostly focusing on teaching because it's the start of the semester, so that's pretty normal. How about you? I saw some new stuff from your site.",
+      "id": "ep_67_ut_10"
+    },
+    {
+      "end": 142218,
+      "speaker": "Moritz Stefaner",
+      "start": 90242,
+      "text": "Good. Yeah, I mean, the year slowly kicking in still, like launching a few things from last year. So the last few days I was busy launching Project UKKO. It's a wind visualization, but wind predictions. Quite nice. And yeah, it kept me busy, like over the last year. It's a collaboration with future everything and scientists in Barcelona and at the Met office in England. And we look at how we can visualize seasonal wind forecasts, like forecast for the next winter or a forecast for the next summer. How the wind will change probably. It's a very probabilistic thing. It's all just playing with distributions and rough tendencies. Wind is very hard to predict and the visualization tries to give you a sense of that and tries to highlight the spots where the most interesting developments are. So regions where we have a lot of wind to start with and strong changes.",
+      "id": "ep_67_ut_11"
+    },
+    {
+      "end": 144634,
+      "speaker": "Enrico Bertini",
+      "start": 142396,
+      "text": "So have you been working with statisticians?",
+      "id": "ep_67_ut_12"
+    },
+    {
+      "end": 180028,
+      "speaker": "Moritz Stefaner",
+      "start": 145054,
+      "text": "Yeah. So the. I don't know what the official job title is, but these are like climatologists probably, or like geo people, and they are really good with, of course, simulations and probabilistic models. And so the new thing about this prediction is that they actually have a physical forecast model that takes into account the physical state of the world at a given point in time and then tries to extrapolate from that. And that's. Yeah, it's kind of crazy. Yeah.",
+      "id": "ep_67_ut_13"
+    },
+    {
+      "end": 188820,
+      "speaker": "Enrico Bertini",
+      "start": 180116,
+      "text": "So I was trying to induce you to talk about statisticians, because we have a special statistician today on the show.",
+      "id": "ep_67_ut_14"
+    },
+    {
+      "end": 190100,
+      "speaker": "Moritz Stefaner",
+      "start": 188892,
+      "text": "That didn't work out.",
+      "id": "ep_67_ut_15"
+    },
+    {
+      "end": 191664,
+      "speaker": "Enrico Bertini",
+      "start": 190252,
+      "text": "It didn't work out.",
+      "id": "ep_67_ut_16"
+    },
+    {
+      "end": 193484,
+      "speaker": "Moritz Stefaner",
+      "start": 192164,
+      "text": "Was worth a try.",
+      "id": "ep_67_ut_17"
+    },
+    {
+      "end": 224726,
+      "speaker": "Enrico Bertini",
+      "start": 193604,
+      "text": "Yeah, I tried. I tried. So we have the creator of some hugely popular r libraries. So today we're going to talk about some of these libraries and r in general. He created GGplot two, one of the most popular data visualization tools in the world, as well as many other very interesting libraries. We have Hadley Wickham today on the show. Hey, Hadley. How are you?",
+      "id": "ep_67_ut_18"
+    },
+    {
+      "end": 226272,
+      "speaker": "Hadley Wickham",
+      "start": 224870,
+      "text": "Hi, guys. How are you?",
+      "id": "ep_67_ut_19"
+    },
+    {
+      "end": 253606,
+      "speaker": "Enrico Bertini",
+      "start": 226438,
+      "text": "Good, good, good. Very, very happy to have you on the show. It was about time. So I don't know how much we need to say about you, but normally what we do is we ask our guests to introduce themselves. Can you tell our listeners who you are, what you do and. Yeah. And a little bit about your work?",
+      "id": "ep_67_ut_20"
+    },
+    {
+      "end": 292028,
+      "speaker": "Hadley Wickham",
+      "start": 253750,
+      "text": "Sure. So, I'm Hadley Wickham. I'm the chief scientist at RSTudio, which basically means I spend all my time developing stuff to make people more effective in r. So I'm broadly interested in data analysis. So how you can turn data into knowledge and understanding and insight and the kind of the boundary between the human and the computer. So how can we develop ways for people to think productively about the different parts of a data analysis? And then once they've figured out what they want to do, how can you efficiently turn that into code? And then how can that code go away and do the stuff that you wanted to?",
+      "id": "ep_67_ut_21"
+    },
+    {
+      "end": 327482,
+      "speaker": "Enrico Bertini",
+      "start": 292156,
+      "text": "Nice. So, I think I would like to start directly from talking about GGPlot two, because, I mean, our podcast is mostly focused on visualization, and I think everyone knows. I think GGPlot two is one of the most popular things that comes from. From your work. So, can you briefly describe what GGPlot two is just for those few listeners who don't know what it is? And maybe you can tell us a little bit of the story behind GGPlot two.",
+      "id": "ep_67_ut_22"
+    },
+    {
+      "end": 352672,
+      "speaker": "Hadley Wickham",
+      "start": 327658,
+      "text": "So, GGPlot two is now a package for plotting. But what's different about it is it's based on this idea of the grammar of graphics, which was originally proposed by Lee Wilkinson. And the thing that's special about the grammar of graphics is that it's about instead of saying, here's a list of charts or a typology of graphics, this is a pie chart. This is a line chart. This is ayy axis line chart. This is a line chart with a.",
+      "id": "ep_67_ut_23"
+    },
+    {
+      "end": 354864,
+      "speaker": "Moritz Stefaner",
+      "start": 352688,
+      "text": "Bar chart, as you would have in excel. Right?",
+      "id": "ep_67_ut_24"
+    },
+    {
+      "end": 389120,
+      "speaker": "Hadley Wickham",
+      "start": 355024,
+      "text": "Exactly. So instead of just having this list, which is great, if the one chart you want to create is on that list, your life is easy. But if the thing you want to do isn't on that list, you're completely stuck. The idea of the grammar of graphics is instead of giving this list of things, to give all these little, small components that can be combined pretty independently to create many different types of graphs. So the idea is if you use GGPlot two, you're not limited to all the types of graphics that have come before, but you can kind of create variations that are specifically tailored for the challenge you're trying to solve.",
+      "id": "ep_67_ut_25"
+    },
+    {
+      "end": 395324,
+      "speaker": "Enrico Bertini",
+      "start": 389272,
+      "text": "So can you tell us a little bit about how everything started? So how old is GGPlot two?",
+      "id": "ep_67_ut_26"
+    },
+    {
+      "end": 397536,
+      "speaker": "Hadley Wickham",
+      "start": 396624,
+      "text": "I'm going to have to look that.",
+      "id": "ep_67_ut_27"
+    },
+    {
+      "end": 400296,
+      "speaker": "Enrico Bertini",
+      "start": 397560,
+      "text": "Up because I always forget a few years. Right.",
+      "id": "ep_67_ut_28"
+    },
+    {
+      "end": 415822,
+      "speaker": "Hadley Wickham",
+      "start": 400400,
+      "text": "It's quite old now. I'm just going to look it up because it's probably going to disturb me how long I've been working on this for. But let's just look it up. Here we go. The first version. Wow. The first version went to Cran in 2007.",
+      "id": "ep_67_ut_29"
+    },
+    {
+      "end": 417150,
+      "speaker": "Enrico Bertini",
+      "start": 415958,
+      "text": "Oh, wow.",
+      "id": "ep_67_ut_30"
+    },
+    {
+      "end": 419310,
+      "speaker": "Hadley Wickham",
+      "start": 417262,
+      "text": "So that is nine years.",
+      "id": "ep_67_ut_31"
+    },
+    {
+      "end": 420854,
+      "speaker": "Enrico Bertini",
+      "start": 419422,
+      "text": "Nine years. Oh, yeah.",
+      "id": "ep_67_ut_32"
+    },
+    {
+      "end": 426662,
+      "speaker": "Hadley Wickham",
+      "start": 421014,
+      "text": "I think GGPlot, not GGPlot two, was around for a year or two before that.",
+      "id": "ep_67_ut_33"
+    },
+    {
+      "end": 432932,
+      "speaker": "Enrico Bertini",
+      "start": 426838,
+      "text": "So I'm totally ignorant about that. What's the difference between GGPlot and GGPlot two?",
+      "id": "ep_67_ut_34"
+    },
+    {
+      "end": 479108,
+      "speaker": "Hadley Wickham",
+      "start": 433118,
+      "text": "So it's actually, yeah, it's a really interesting question. So the thing. So basically the ideas are exactly the same, but in GGPlot, I was really into functional programming at the time. And so the way you created more complex graphics was by composing functions. So in GGPlot, you layered things together by composing functions. In GGPlot two, I overrode the addition operator. So you made complex graphics by adding things together. The thing that's kind of interesting is that I've recently come the full circle with dplyr, which is basically a grammar for data manipulation. It also works by the way you compose together multiple steps, is by composing functions.",
+      "id": "ep_67_ut_35"
+    },
+    {
+      "end": 480624,
+      "speaker": "Moritz Stefaner",
+      "start": 479236,
+      "text": "But you pipe them, huh?",
+      "id": "ep_67_ut_36"
+    },
+    {
+      "end": 508804,
+      "speaker": "Hadley Wickham",
+      "start": 480964,
+      "text": "Exactly. But I discovered that an R R is flexible enough. You can actually write an operator. That kind of allows you to change the order of things so you get the nice properties of function composition. But it's easy to read in the way that GGPlot two's addition is. So if I'd invented the, if I discovered the pipe, you know, back then, there never would have been a ggplot two. It just would have been GGPlot, which is nice, because then it would work seamlessly with all of my other packages that I've been writing recently.",
+      "id": "ep_67_ut_37"
+    },
+    {
+      "end": 509832,
+      "speaker": "Enrico Bertini",
+      "start": 509264,
+      "text": "Okay.",
+      "id": "ep_67_ut_38"
+    },
+    {
+      "end": 542885,
+      "speaker": "Moritz Stefaner",
+      "start": 509888,
+      "text": "Yeah. It's sort of the same logic people might be familiar with when coming from JavaScript like jQuery or D3 used that quite a bit, that you would do a couple of function calls in sequence, and each function call passes on the result to the next to the next to the next. And it's funny because it's a very natural model of describing what should happen in sequence. But I think it's only been popular for last few years, really, except for the Unix pipes, the way you would do that on the command line. But all other programming languages wouldn't really use that type of pattern.",
+      "id": "ep_67_ut_39"
+    },
+    {
+      "end": 544517,
+      "speaker": "Hadley Wickham",
+      "start": 543029,
+      "text": "I'm sure small talk did it.",
+      "id": "ep_67_ut_40"
+    },
+    {
+      "end": 545169,
+      "speaker": "Moritz Stefaner",
+      "start": 544565,
+      "text": "Yeah.",
+      "id": "ep_67_ut_41"
+    },
+    {
+      "end": 549814,
+      "speaker": "Enrico Bertini",
+      "start": 545341,
+      "text": "So how did you decide to do to create GGPlot two?",
+      "id": "ep_67_ut_42"
+    },
+    {
+      "end": 555854,
+      "speaker": "Hadley Wickham",
+      "start": 550714,
+      "text": "It mostly sort of came out of frustration, which is mostly triple.",
+      "id": "ep_67_ut_43"
+    },
+    {
+      "end": 557498,
+      "speaker": "Enrico Bertini",
+      "start": 556234,
+      "text": "Yeah, it's a good start.",
+      "id": "ep_67_ut_44"
+    },
+    {
+      "end": 649320,
+      "speaker": "Hadley Wickham",
+      "start": 557626,
+      "text": "Like drives 90% of my software development. Yeah, great development. I used to use lattice, which is, that was kind of the main plotting package in r at the time, which came out of the work by Bill Cleveland on Trellis graphics. And, like, it was a lot better than the. So r is like many different plotting systems. The simplest is base graphics, which is basically, you know, like, draw a line here, draw a bar here, draw some points here. And then lattice was built on top of that to support this idea of trellising, where you want to do different plot, you want to do the same plot, basically the different subsets of your data. And I just, like, I used it and I got quite good at it, but there were things that just seemed like, way too hard. Like there's some types of legends that were really difficult to do, and then there's just the sort of like, inelegance that you could call, like Xy plot, which would normally do a scatter plot, but you could change one of the arguments and make it to a box and whisker plot. And that just sort of seemed like so theoretically unappealing to me. And it's sort of about that time I was also reading Lee's book on the grammar of graphics, and that I sort of. And I was, I mean, the thing at the time was, if you wanted to actually use the grammar of graphics, the only way to do it was to buy some, like insanely expensive, like, you know, $40,000 or something software system. And I was like, huh, this seems like it could be a fun project for my PhD to try and do this in r. Yeah.",
+      "id": "ep_67_ut_45"
+    },
+    {
+      "end": 656344,
+      "speaker": "Enrico Bertini",
+      "start": 649352,
+      "text": "And the grammar of graphics has been developed by Leland Wilkinson, right? What, in the eighties or something like that.",
+      "id": "ep_67_ut_46"
+    },
+    {
+      "end": 658432,
+      "speaker": "Hadley Wickham",
+      "start": 656464,
+      "text": "Yeah, I think the early nineties, I think.",
+      "id": "ep_67_ut_47"
+    },
+    {
+      "end": 697276,
+      "speaker": "Enrico Bertini",
+      "start": 658488,
+      "text": "Oh, early nineties, okay. Yeah. So, and I mean, ggplot two is used, I guess, by a ridiculous amount of people. I don't know if you have any estimate from your site, and I'm pretty sure that you have some interesting stories behind it. I mean, I guess you've been observing to some extent what people do or did with GGPlot two. So do you have any interesting stories about that or particularly interesting, I don't know, success stories or visualizations that, I don't know, add interesting outcomes or something like that?",
+      "id": "ep_67_ut_48"
+    },
+    {
+      "end": 829502,
+      "speaker": "Hadley Wickham",
+      "start": 697380,
+      "text": "I don't know. Now, my kind of theory is that your statistics package or your visualization package isn't successful until it's been used to allegedly commit scientific fraud. So I kind of like, if you go to Michael Lacor's homepage, just has, like, the most beautiful GGplot two graphics on it, I'm like, wow, that's kind of cool. And it's kind of durable. Yeah. So, I mean, I think that is, you know, one of the downsides of visualization, right? That you can make very. You can make things that are very, very aesthetically appealing and kind of emotionally compelling, and then that maybe people are less critical of them than they would be of very ugly charts. But I mean, the thing I love about GGPlot two is it's kind of not the big things that, you know, like things in the New York Times or whatever. It's the people that are using it to solve some weird, tiny problem in their scientific domain, which I am absolutely no interested in. There's probably like 30 people in the entire world who care about it, but they care about it really passionately. And I don't know, I just really like that sort of enabling these people to understand what's going on with their data. Another story that I have that I just found out about, I'm going to Melbourne next week to visit Di Cook, who's my PhD advisor. And now at Monash, there's going to be a conference. The conference is called Wombat, which I think might be a clever acronym, but it's about visualization and understanding data. But Dye found. We're going to go to a cafe because she found that the cafe is a blog and they use GGplot two to understand their sales and stuff. So I just think that's really fun and really exciting. So I like to sort of talk to people who've got little small scale problems, but in aggregate, people are doing lots and lots of really interesting stuff with GGPlot, too.",
+      "id": "ep_67_ut_49"
+    },
+    {
+      "end": 830334,
+      "speaker": "Enrico Bertini",
+      "start": 829598,
+      "text": "Yeah, absolutely.",
+      "id": "ep_67_ut_50"
+    },
+    {
+      "end": 856344,
+      "speaker": "Moritz Stefaner",
+      "start": 830374,
+      "text": "And it's one of these tools you can recommend because it seems, I don't use it really, but it seems to have sane defaults because every GGPlot two plot I see seems to look okay, at least, so. Right. And so did you put a lot of work into the defaults or did you just try and keep it minimal and just avoid any basic mistakes? What was your approach there?",
+      "id": "ep_67_ut_51"
+    },
+    {
+      "end": 902044,
+      "speaker": "Hadley Wickham",
+      "start": 856684,
+      "text": "I mean, the defaults, I think I spent quite a lot. Like, defaults are really, really hard because you can't have one default that's right for every situation. But I think it's really, really important. And I, because I think the other thing is, one of the things that draw people to use GGplot two initially is because just like the basic plots are aesthetically pleasing, like you can, you get like kind of a, you know, a decent looking plot right off the bat without you having to do anything, and you get that experience before you kind of, you learn any of the benefits of GGPlot two having this deep underlying theory. So that was very deliberate. And people don't always agree with my aesthetic choices, particularly the gray background with white grid lines. But I love that.",
+      "id": "ep_67_ut_52"
+    },
+    {
+      "end": 903204,
+      "speaker": "Moritz Stefaner",
+      "start": 902084,
+      "text": "I do it all the time myself.",
+      "id": "ep_67_ut_53"
+    },
+    {
+      "end": 903944,
+      "speaker": "Enrico Bertini",
+      "start": 903244,
+      "text": "Me, too.",
+      "id": "ep_67_ut_54"
+    },
+    {
+      "end": 915624,
+      "speaker": "Hadley Wickham",
+      "start": 905124,
+      "text": "And the thing I do, the one benefit that I really like, is that a default GGplot two plot is very visually distinctive. So I can spot it easily.",
+      "id": "ep_67_ut_55"
+    },
+    {
+      "end": 927214,
+      "speaker": "Moritz Stefaner",
+      "start": 915964,
+      "text": "Yeah. There's some branding aspect almost to it, which seems like, you know, it's very minimal, but there is some sort of brand to it, which is interesting. Not that many libraries have it that strongly.",
+      "id": "ep_67_ut_56"
+    },
+    {
+      "end": 943722,
+      "speaker": "Hadley Wickham",
+      "start": 927954,
+      "text": "Yeah. And even recently, there's some, I think, some new visualization packages that kind of like cargo culting it by, like, copying the gray background and by grid lines, which is also on. That's flattering. I'll choose to take that as a compliment.",
+      "id": "ep_67_ut_57"
+    },
+    {
+      "end": 985404,
+      "speaker": "Enrico Bertini",
+      "start": 943858,
+      "text": "Yeah, no, but I think it's interesting to see that there are, there are quite a few. When I think about successful data visualization solutions out there, you always find solutions that are somewhat aesthetically pleasing, that have some sensible defaults, but at the same time, they allow a lot of flexibility if you need it. So I'm thinking about D3 as well, which, of course is very flexible, but also has a lot of really, really good defaults. I'm thinking of Tableau, which, of course is much less flexible but still some degree of flexibility. And the defaults are amazing as well. So this seems to be a very, very good formula for visualization.",
+      "id": "ep_67_ut_58"
+    },
+    {
+      "end": 986804,
+      "speaker": "Hadley Wickham",
+      "start": 986024,
+      "text": "Yeah.",
+      "id": "ep_67_ut_59"
+    },
+    {
+      "end": 1022204,
+      "speaker": "Enrico Bertini",
+      "start": 987384,
+      "text": "So, but I really want to get an opinion from you about what do you think distinguishes between libraries or tools in visualizations that are successful and widely adopted from those that just die after a while. So do you think there is some kind of, I mean, I guess it's a lot of factors, right? But if you would have to pick a few factors. If you had to suggest to a person how to create a successful data visualization library or tool, what would be the first, say two or three factors?",
+      "id": "ep_67_ut_60"
+    },
+    {
+      "end": 1115414,
+      "speaker": "Hadley Wickham",
+      "start": 1022624,
+      "text": "I think this is something really important about the ecosystem in which your visualization system is embedded. So my experience is really like often once you've got the right data in the right format, aggregated in the right way, the right visualization just kind of happens. In many cases, the visualizations is the very, very end of the project. And once everything else lines up, often that visualization just happens pretty naturally, or even if it requires some struggle, it's nothing compared to the struggle of the rest of the pipeline. I think you can see that in my work too. I started off in visualization and over time I've just expanded my scope to include more and more and more of that data pipeline. And that's where I think D3 is successful, because lots and lots of people are using JavaScript. There's lots of ways of getting your data into JavaScript, and Mike's done some projects as well with I guess, like is it cross filters sort of in browser database stuff? Tableau has invested huge amounts of money making sure wherever the data lives in your organization, you can suck it out. I mean those are the things that I think kind of like ironically, the success of a visualization project is all about the non visualization stuff. It's like getting the data to the right place because if you can't do that, you just, you're kind of dead before you can even begin.",
+      "id": "ep_67_ut_61"
+    },
+    {
+      "end": 1136302,
+      "speaker": "Enrico Bertini",
+      "start": 1115574,
+      "text": "Yeah, and I guess, I mean, I think another aspect is also being able to build a community around the tool itself, because I've seen so many tools that you, I mean, every time you choose to invest in a new tool, you are running the risk that this tool is not going to be there in a few months or years. Right?",
+      "id": "ep_67_ut_62"
+    },
+    {
+      "end": 1136742,
+      "speaker": "Hadley Wickham",
+      "start": 1136398,
+      "text": "Yeah.",
+      "id": "ep_67_ut_63"
+    },
+    {
+      "end": 1160772,
+      "speaker": "Enrico Bertini",
+      "start": 1136798,
+      "text": "So being able to build a community around it means that you can ask to people, whenever you have a problem, you can ask to a large community of people. Right. And again, I think this is true in your case, it's true with D3 and so on. Right. But I guess it's also a huge amount of work. I mean, it's not just that you code something up and then it's done. I guess it's really a lot of work, right?",
+      "id": "ep_67_ut_64"
+    },
+    {
+      "end": 1207402,
+      "speaker": "Hadley Wickham",
+      "start": 1160908,
+      "text": "Yeah. Well, you could see, like, ten years, I've been working on GDP two for ten years. Yeah. And, you know, it takes a long. It does. I think the other thing is it takes a long time to get momentum. And it's sort of funny because the other reason that ggplot two exists is because at the time, there were, like, you know, 100 people using GGPlot, which I was like, oh, my God, 100 people are using my package. That's incredible. And so I didn't want to break their code, and so that's why I made, like, a completely new package instead of replacing the old one. And the irony is now that, like, I do a release and I make the tiniest change, like, or even if it's fixing a bug. But now there are, like, 200 people who relied on that bug. And I, like, it's just that are.",
+      "id": "ep_67_ut_65"
+    },
+    {
+      "end": 1209986,
+      "speaker": "Moritz Stefaner",
+      "start": 1207418,
+      "text": "They start to complain because they're fixing it or.",
+      "id": "ep_67_ut_66"
+    },
+    {
+      "end": 1274492,
+      "speaker": "Hadley Wickham",
+      "start": 1210170,
+      "text": "Yeah, I guess some of the. It's just like, it's hard. Like, I look at GGPlot two and I see, like, this clearly doesn't work right. Don't use that. This thing that that does. That's a bit weird. That parameter seems unusual. And so I just never use those bits. But, of course, no one else has that insight into GGPlot two. And they use all these bits, which I think are ill advised, and then I break them because I break their code by doing what, to me, is fix it. Improving GGPlot two. So that's kind of the price. It's also a little, you know, GGPlot two sort of had about a two year hiatus when I was working on other problems. And, you know, people sort of complained that, like, nothing was happening. But the downside is when things start happening again, that I will, like, things start breaking in your code, which, you know, that that's. It's. I don't know. There's people. I think people generally under. Also undervalue stability.",
+      "id": "ep_67_ut_67"
+    },
+    {
+      "end": 1275348,
+      "speaker": "Enrico Bertini",
+      "start": 1274668,
+      "text": "Yeah.",
+      "id": "ep_67_ut_68"
+    },
+    {
+      "end": 1304894,
+      "speaker": "Hadley Wickham",
+      "start": 1275476,
+      "text": "Like, things aren't improving, but there are known workarounds, and people know how to deal with it. But when I start developing again, even if it's fixing bugs, that inevitably causes problems for someone else. So it's always sort of like a trade off, like, how trapped do you get and kind of design mistakes that you made a long time ago and lots of people rely on, but you think it a bad idea now. It's a challenge of doing software development when you've got a lot of users.",
+      "id": "ep_67_ut_69"
+    },
+    {
+      "end": 1333824,
+      "speaker": "Moritz Stefaner",
+      "start": 1305634,
+      "text": "I mean, how do you manage that process? Is it, like, are you, let's say, the lead developer for GGPlot two or the only developer. Do people come to you with requests and you make a decision what to include or not? And how does that usually work? We also had one question from Gamingdude on Twitter, if there are any specific GGplot feature requests that you just will refuse out of principle, things like this. So there's some curiosity how it works. And I'm curious, too. Yeah.",
+      "id": "ep_67_ut_70"
+    },
+    {
+      "end": 1341096,
+      "speaker": "Hadley Wickham",
+      "start": 1333984,
+      "text": "So I'm basically the dictator of GT 40. Mostly benevolent. Mostly benevolent.",
+      "id": "ep_67_ut_71"
+    },
+    {
+      "end": 1343844,
+      "speaker": "Moritz Stefaner",
+      "start": 1341120,
+      "text": "It's a valid model for many projects, I think.",
+      "id": "ep_67_ut_72"
+    },
+    {
+      "end": 1373096,
+      "speaker": "Hadley Wickham",
+      "start": 1344354,
+      "text": "And, you know, GGPlot two is like, is very stable at this point. So there are only kind of small stuff going on. Most of the feature tracking goes via GitHub, so people will submit issues if they find a bug or want something new. And, you know, while I wasn't working on GGPlot two for a long time, those issues kind of accumulated. And at one point, I just declared GitHub issued bankruptcy and basically closed every single one of them with an apology.",
+      "id": "ep_67_ut_73"
+    },
+    {
+      "end": 1375184,
+      "speaker": "Moritz Stefaner",
+      "start": 1373250,
+      "text": "Everything's resolved. Don't worry.",
+      "id": "ep_67_ut_74"
+    },
+    {
+      "end": 1482734,
+      "speaker": "Hadley Wickham",
+      "start": 1375564,
+      "text": "Yes. Which actually turned out, I think, to be the right thing to do, because when I came back to, it just wasn't this overwhelming wall of problems. I could just pick a few small things and get traction on them. I tend to be, what I'm trying to do recently is try to be as realistic as possible. So if the chance of me ever fixing this is small, I'm just going to close it right away and say, I'm sorry, but I can't do it. You know, I'll review a pull request if you want to do that, but otherwise, no. I mean, you know, there are some things that I would like that I will categorically, like, never allow in GGPlot two, like double, like multiple y axis. I think that's a really, really bad idea. So there's like, no, there's no way that'll ever happen. But, you know, most of the most requests are things like, I don't have any problem with. I just don't feel any passion for them. So I'm like, well, if you want to do that, you can do that, but I'm not going to. I think one thing that has been really, that I should have done a long time ago is that the latest version of GGPlot two has a extension mechanism. So you can now people can write their own packages that build on top of GGPlot two and add their own geoms and their own stats and stuff. And that has been. I should have done that. There's just been like an explosion of people creating these, these neat extensions, like things that I would like. You know, I think that. I think they were really cool, but I would never have the time to do them. There's actually now, there's even a web. Someone's now made a website too. Let's see if I can find that quickly. But let me out, I'll. It's really like a repository for all the.",
+      "id": "ep_67_ut_75"
+    },
+    {
+      "end": 1485514,
+      "speaker": "Moritz Stefaner",
+      "start": 1482814,
+      "text": "Or a directory of all the extensions that are around.",
+      "id": "ep_67_ut_76"
+    },
+    {
+      "end": 1493394,
+      "speaker": "Hadley Wickham",
+      "start": 1486094,
+      "text": "Yeah, exactly. It's GGPlot two exts. GitHub IO.",
+      "id": "ep_67_ut_77"
+    },
+    {
+      "end": 1502998,
+      "speaker": "Moritz Stefaner",
+      "start": 1493894,
+      "text": "I mean, that's a good idea. That puts a lot of these specific requests from your shoulders. At the same time, you have to keep it more stable than your own API and can just like.",
+      "id": "ep_67_ut_78"
+    },
+    {
+      "end": 1504134,
+      "speaker": "Hadley Wickham",
+      "start": 1503166,
+      "text": "Exactly.",
+      "id": "ep_67_ut_79"
+    },
+    {
+      "end": 1532822,
+      "speaker": "Moritz Stefaner",
+      "start": 1504294,
+      "text": "So it's only for very mature projects, I guess. To make that transition, I'd like to move it a bit to the general, our ecosystem, the discussion. So how is it like, let's say somebody says, that sounds all really good. I'd like to use ggplot two. Do you have to use R? It only works inside r, right? Yes. So basically you're buying r. It's free, but you have to get started in R in order to use ggplot two. Right?",
+      "id": "ep_67_ut_80"
+    },
+    {
+      "end": 1533674,
+      "speaker": "Hadley Wickham",
+      "start": 1532958,
+      "text": "Yeah.",
+      "id": "ep_67_ut_81"
+    },
+    {
+      "end": 1545380,
+      "speaker": "Moritz Stefaner",
+      "start": 1534814,
+      "text": "Can you tell us a bit about r for those people who don't really know? I mean, many will have heard of it, but maybe. And people didn't really check it out yet. So what is R?",
+      "id": "ep_67_ut_82"
+    },
+    {
+      "end": 1675340,
+      "speaker": "Hadley Wickham",
+      "start": 1545572,
+      "text": "R is a statistical programming language which was written by John Chambers and others at Bell Labs, which is really designed as kind of a statistical glue language. This was in the era where all your computations were done in four chain and c, and you just needed something to kind of string the output of one routine to the input of the next one. And that was the vision for S. R was basically owned by Bell Labs, and they kind of commercialized it. And then R was an open source kind of derivative. It shares a lot of the same. It's very, very similar to S as a language. There's a few important differences. That was written by Ross Ihaka and Robert Gentleman at the University of Auckland in the early mid eighties. I think I forget the exact times. So R is like a language that's designed for statisticians and people interested in data. It is definitely quite different to other programs, programming languages that you might have used and definitely has its quirks. But I very, very strongly believe that at the heart, r is a very beautiful and well designed language that's very well equipped to deal with the problems that you encounter when you're trying to work with data. I think because of that and just the rise of the importance of data, the popularity of R has been skyrocketing in recent years. So depending on which of the programming language rankings that you believe, and some of them I really don't believe, like, the IEEE has one where it ranked, like, r as like the 9th most popular programming language, which I would kind of love to believe, but it seems implausible. But it's definitely in like, the top 20 programming languages, which is still kind of mind blowing for me for a language that ten years ago was a very specialized language that only people with PhDs and statistics used. And now it's, you know, it's everywhere. Every, you know, Google has thousands of people using R. Facebook has hundreds, is, you know, Twitter, Uber, every tech startup you can think of as people using R, it's used in all.",
+      "id": "ep_67_ut_83"
+    },
+    {
+      "end": 1677052,
+      "speaker": "Moritz Stefaner",
+      "start": 1675372,
+      "text": "New York Times uses it extensively.",
+      "id": "ep_67_ut_84"
+    },
+    {
+      "end": 1678876,
+      "speaker": "Hadley Wickham",
+      "start": 1677108,
+      "text": "Exactly. Amanda Cox is a huge rich.",
+      "id": "ep_67_ut_85"
+    },
+    {
+      "end": 1679612,
+      "speaker": "Moritz Stefaner",
+      "start": 1678940,
+      "text": "Of course.",
+      "id": "ep_67_ut_86"
+    },
+    {
+      "end": 1681380,
+      "speaker": "Hadley Wickham",
+      "start": 1679748,
+      "text": "Yeah, yeah, it's incredible.",
+      "id": "ep_67_ut_87"
+    },
+    {
+      "end": 1716024,
+      "speaker": "Moritz Stefaner",
+      "start": 1681412,
+      "text": "And how would you say, like, for, let's say, both the environment but also the community. How would you characterize that as opposed to, let's say, other types of communities? For which type of people will this be the right thing in your feeling? It's a language for statistical computing. Do you feel you have to know statistics well, what all the statistic terms mean? Is everything very technical in description, or do you feel it's also okay for designers who want to get more into data analysis?",
+      "id": "ep_67_ut_88"
+    },
+    {
+      "end": 1735236,
+      "speaker": "Hadley Wickham",
+      "start": 1716364,
+      "text": "Yeah, so I think, like, at one level, you know, it is fairly technical, there's a lot of things that only statisticians will care about. But on the other hand, and people probably laugh at me, like, for saying this, but it's also like PHP. Like, it has everything in the kitchen sink in it, right.",
+      "id": "ep_67_ut_89"
+    },
+    {
+      "end": 1741644,
+      "speaker": "Moritz Stefaner",
+      "start": 1735380,
+      "text": "And you find a lot of snippets you can just copy and run, and whatever they do, they do the right thing somehow and you can move on.",
+      "id": "ep_67_ut_90"
+    },
+    {
+      "end": 1762454,
+      "speaker": "Hadley Wickham",
+      "start": 1741684,
+      "text": "Right, exactly. And you don't have to become like, like an expert in programming languages to understand what's going on. You can kind of piece it together on your own. And I think that that's kind of really powerful. And there's now a lot stack overflow, there's lots of answers, and there are lots of people all over the place who are willing to answer your r questions.",
+      "id": "ep_67_ut_91"
+    },
+    {
+      "end": 1778248,
+      "speaker": "Enrico Bertini",
+      "start": 1762954,
+      "text": "Yeah, I think what is really interesting, I mean, the way I use r is pretty, pretty basic, but most of the time, I think one of the most powerful aspects for me is that it's so easy to load a new data set and start playing with it. Right?",
+      "id": "ep_67_ut_92"
+    },
+    {
+      "end": 1778616,
+      "speaker": "Hadley Wickham",
+      "start": 1778296,
+      "text": "Yeah.",
+      "id": "ep_67_ut_93"
+    },
+    {
+      "end": 1788016,
+      "speaker": "Enrico Bertini",
+      "start": 1778680,
+      "text": "I think this whole interaction loop where you write a statement and maybe it's wrong, but you write the next one because now you know how to fix it. Right?",
+      "id": "ep_67_ut_94"
+    },
+    {
+      "end": 1788464,
+      "speaker": "Hadley Wickham",
+      "start": 1788080,
+      "text": "Yeah.",
+      "id": "ep_67_ut_95"
+    },
+    {
+      "end": 1808608,
+      "speaker": "Enrico Bertini",
+      "start": 1788544,
+      "text": "And another aspect that is amazing. Every single time I use r and I get stuck into something, I search something in Google and here we go. Honestly, I mean, I don't even have to understand the statement, I just use it. Right. And that's unbelievable. I think it's an unbelievable, amazing characteristic.",
+      "id": "ep_67_ut_96"
+    },
+    {
+      "end": 1814616,
+      "speaker": "Moritz Stefaner",
+      "start": 1808696,
+      "text": "So it's a step by step trying something out, see what happens, try the next thing. And that keeps you going, basically.",
+      "id": "ep_67_ut_97"
+    },
+    {
+      "end": 1814856,
+      "speaker": "Hadley Wickham",
+      "start": 1814680,
+      "text": "Yeah.",
+      "id": "ep_67_ut_98"
+    },
+    {
+      "end": 1825712,
+      "speaker": "Enrico Bertini",
+      "start": 1814880,
+      "text": "Because when you think about what kind of tools exist out there for just data manipulation, they are either too rigid or you need too much programming.",
+      "id": "ep_67_ut_99"
+    },
+    {
+      "end": 1826280,
+      "speaker": "Hadley Wickham",
+      "start": 1825808,
+      "text": "Right.",
+      "id": "ep_67_ut_100"
+    },
+    {
+      "end": 1844176,
+      "speaker": "Enrico Bertini",
+      "start": 1826392,
+      "text": "So I think r is very much in between where you can, as I said, you load a dataset and you kind of start playing with it. Right. And, yeah, I mean, you have the summary function, for instance, that gives you an overview of what are the attributes in your table, what's their distribution, and so on.",
+      "id": "ep_67_ut_101"
+    },
+    {
+      "end": 1844360,
+      "speaker": "Hadley Wickham",
+      "start": 1844200,
+      "text": "Right.",
+      "id": "ep_67_ut_102"
+    },
+    {
+      "end": 1861840,
+      "speaker": "Enrico Bertini",
+      "start": 1844392,
+      "text": "And it's just one single statement. Super, super easy. Right. And, yeah, and so on. So I think it is very powerful for visualization, but even more powerful, the more powerful aspect from my point of view is data manipulation, and it's very, very much needed.",
+      "id": "ep_67_ut_103"
+    },
+    {
+      "end": 1885568,
+      "speaker": "Hadley Wickham",
+      "start": 1861952,
+      "text": "Yeah, yeah, I totally agree. And that I spent a lot of my time on that last year just making sure it was as easy as possible. You know, if your data is in excel or SAS or XML or JSON or whatever, just making sure you can get that into r as easily and as painlessly as possible. Because, you know, if you can't, if you can't get your data in, then you can't do anything. It doesn't matter how awesome the rest of the stuff is.",
+      "id": "ep_67_ut_104"
+    },
+    {
+      "end": 1903504,
+      "speaker": "Moritz Stefaner",
+      "start": 1885656,
+      "text": "A lot of your recent packages focus on data reshaping and data massaging and aggregate. You know, and this, let's, let's have a big table, but let's slice it up in different ways and merge columns. You know, these types of things we do as we explore data or as you say, prepare it for a data visualization.",
+      "id": "ep_67_ut_105"
+    },
+    {
+      "end": 1904396,
+      "speaker": "Hadley Wickham",
+      "start": 1903804,
+      "text": "Yeah.",
+      "id": "ep_67_ut_106"
+    },
+    {
+      "end": 1907348,
+      "speaker": "Moritz Stefaner",
+      "start": 1904500,
+      "text": "How do you pronounce it? Is it plier or deep Dplyr?",
+      "id": "ep_67_ut_107"
+    },
+    {
+      "end": 1933854,
+      "speaker": "Hadley Wickham",
+      "start": 1907396,
+      "text": "Dplyr is the modern one. Yeah, I think. I mean, to me, like it's Tidy R. That's the more interesting because Tidy R, basically, like this is a philosophy, this is how you should store your data. And the principle is really obvious and it kind of sort of astounds me, it took me like six years to figure this out. But the principle is you put your variables in the columns and you put your observations in the rows.",
+      "id": "ep_67_ut_108"
+    },
+    {
+      "end": 1935074,
+      "speaker": "Moritz Stefaner",
+      "start": 1933974,
+      "text": "That's brilliant.",
+      "id": "ep_67_ut_109"
+    },
+    {
+      "end": 1937430,
+      "speaker": "Hadley Wickham",
+      "start": 1936654,
+      "text": "And that's basically.",
+      "id": "ep_67_ut_110"
+    },
+    {
+      "end": 1938558,
+      "speaker": "Moritz Stefaner",
+      "start": 1937462,
+      "text": "No, but it really helps.",
+      "id": "ep_67_ut_111"
+    },
+    {
+      "end": 2023614,
+      "speaker": "Hadley Wickham",
+      "start": 1938646,
+      "text": "Absolutely, yeah. And that's basically like Cod's third normal form expressed in statistical language. But once you have that, that's how you should store your data. And then it's also, how should people design APIs to work with data in r? Because once you've got that consistent way of variables always look like this and observations always look like this, it's much, much easier to design tools that we are not trying to ram the output of this function into the input of this other function. Just so everything. My goal is so that you focus on the data analysis. You're not like, eventually your fingers just kind of like type R code without you thinking about it just flows out of your fingers. It's just completely like subconscious, you know? And I accept that that's still a long way away from most people, but at least, like, there are problems like that that happen for me, where just the archive kind of flows out of my fingers and everything just works. And, you know, that. And that happens for me now, like, after ten years of, more than ten years of programming an hour and, you know, writing lots and lots of packages. So one cool thing I did yesterday, which turned out, which everything just lined up and worked, was I did a visualization of every place I visited in the United States by looking at my tripit data. Do you guys know about Tripit?",
+      "id": "ep_67_ut_112"
+    },
+    {
+      "end": 2024190,
+      "speaker": "Enrico Bertini",
+      "start": 2023654,
+      "text": "Yeah.",
+      "id": "ep_67_ut_113"
+    },
+    {
+      "end": 2037492,
+      "speaker": "Hadley Wickham",
+      "start": 2024342,
+      "text": "So you basically, tripit's this cool service. You just forward them all of your receipts, and then they generate like an itinerary and build up your calendar and everything. It's really awesome. And it turns out they have an agent, and I've been using that for like eight years or something.",
+      "id": "ep_67_ut_114"
+    },
+    {
+      "end": 2038304,
+      "speaker": "Moritz Stefaner",
+      "start": 2037548,
+      "text": "Oh, nice.",
+      "id": "ep_67_ut_115"
+    },
+    {
+      "end": 2099094,
+      "speaker": "Hadley Wickham",
+      "start": 2039364,
+      "text": "And it turns out they have an API, and that API uses OAuth, which is an r package you can talk to, and then you can pull that down, and then that gives you this sort of nested tree. And then recently I've been working on this per package, which in this context basically makes it easy to turn trees into dataframes. Then you do a little bit of data manipulation on that, and then you plot it with ggplot two. And then pretty easily, pretty quickly, you get a plot of everywhere I've been in the US. And it just, like. And that took me, like, you know, 45 minutes to do, which is pretty cool, I think. And I don't know, like, just when everything lines up like that, it's still admittedly unusual for me. So I realized that for most r users, that does not happen very frequently. But, like, that's what I want to want what to be happening, that everything just flows. It works kind of naturally. You might have to learn a few new ideas, like this idea of tidy r of variables, columns, observations and rows. But once you've got that idea, like, the code is much easier to write.",
+      "id": "ep_67_ut_116"
+    },
+    {
+      "end": 2209414,
+      "speaker": "Moritz Stefaner",
+      "start": 2099754,
+      "text": "This is a good time to take a little break and talk about our sponsor this week. So once again, data stories is brought to you by Qlik, who allows you to explore the hidden relationships within your data that lead to meaningful insights. Let your instincts lead the way to create personalized visualizations and dynamic dashboards with Qlik sense, which you can download for free at Qlik Datastories. And one good reason to download Qlik sense right now is to take part in the Qlik open data challenge. And the winning Dataviz created with Qlik sense would earn $10,000. So I think that could be good reason to participate. And the idea is to use free public data from datacatalogs.org on issues such as the environment, population, education, health, to create an app in Qlik sense that not only analyzes this data, but also inspires people to take. I love these contests because you see so many different solutions to the same basic challenge, right? So for instance, last year's winners showed the human impact on the planet, talked about adoption. In Brazil, there was a school navigator for Italy. So all kinds of interesting things. And that really shows how much you can do with public data and how much you can learn about the world and how we can inspire people to take action on important issues. And again, if you win, it pays really well, the first three prices, and that might be an extra motivation to put in a few hours into that. And in addition, of course, it's a great way to get started with a new tool you might not have as much experience with, such as Qlik sense. So check it out. The link is in the show notes, and we are really looking forward to see what the submissions are. And yeah, thanks so much again to Qlik for sponsoring us. And back to the show.",
+      "id": "ep_67_ut_117"
+    },
+    {
+      "end": 2228574,
+      "speaker": "Enrico Bertini",
+      "start": 2210194,
+      "text": "So many people are interested in learning art from scratch. So do you have any suggestions for people who wants to start but are a little intimidated? They don't have a lot of programming background or even zero programming background. What do you suggest?",
+      "id": "ep_67_ut_118"
+    },
+    {
+      "end": 2286214,
+      "speaker": "Hadley Wickham",
+      "start": 2229254,
+      "text": "I think the meta suggestion for learning anything is always to find something that you're passionate about and interested in. And then don't just say, I want to learn r, say, there's this problem I want to solve using r. I think that's a great way to get in. I'm also working on a book called r for data Science with Garrett Grolemund. Like all of my recent books that's available for free online. So you can actually see me, me write it. So I think if you, if it's just https://r4ds.hadley.nz/, https://r4ds.hadley.nz/, it's still, there's some really good chapters and there are some chapters that have like three sentences in them. But I think it's a. That, you know, this is, that this is what we're trying to do. Like this is, these are the packages that we think these are the things you should know, the packages you should learn that are going to make you as effective as possible as quickly as possible when you're doing data analysis or data science at rich.",
+      "id": "ep_67_ut_119"
+    },
+    {
+      "end": 2291374,
+      "speaker": "Enrico Bertini",
+      "start": 2286404,
+      "text": "So are there any, say, tutorials or.",
+      "id": "ep_67_ut_120"
+    },
+    {
+      "end": 2323500,
+      "speaker": "Hadley Wickham",
+      "start": 2291674,
+      "text": "Yeah, then there's lots of other great online stuff. The Johns Hopkins folks have a coursera course that a lot of people have found really helpful. Datacamp is a new company. They have online tutorials for r with videos you have to pay for them, but generally pretty high quality. There's actually, there's a neat r package called swirl. So swirl actually tries to teach you r inside of r by giving you this kind of little interactive exercises and then checking your results.",
+      "id": "ep_67_ut_121"
+    },
+    {
+      "end": 2330252,
+      "speaker": "Moritz Stefaner",
+      "start": 2323692,
+      "text": "I used that. That was quite nice because it takes you by the hand and it's very easy. And so I had a good start with that.",
+      "id": "ep_67_ut_122"
+    },
+    {
+      "end": 2350874,
+      "speaker": "Hadley Wickham",
+      "start": 2330308,
+      "text": "Yeah, those are the things that, I mean, there's also just like so many books now and the books are like getting really like specialized. So like, you know, if you're in, it's like ah, for forestry science and ah, for fisheries and you know, anything that you can name, there's a book about using r for it and then heaps of good tutorials on the web.",
+      "id": "ep_67_ut_123"
+    },
+    {
+      "end": 2370862,
+      "speaker": "Moritz Stefaner",
+      "start": 2352694,
+      "text": "I'd like to come back to this idea of all these packages, how they come together. It seems like you have a certain philosophy or a certain idea about data and how to best work with it, and then all these packages, they follow that paradigm. And once you understand your basic way of thinking, it all ideally falls into place, right?",
+      "id": "ep_67_ut_124"
+    },
+    {
+      "end": 2372594,
+      "speaker": "Hadley Wickham",
+      "start": 2370958,
+      "text": "Yeah, exactly.",
+      "id": "ep_67_ut_125"
+    },
+    {
+      "end": 2394268,
+      "speaker": "Moritz Stefaner",
+      "start": 2373804,
+      "text": "You have a certain idea of how to make tools and then each tool you can easily pick up. And it's a hammer, it's a screwdriver, but you know, it's a Hadley hammer and a Hadley screwdriver. So you have an idea. So can you tell us more about tool making? Probably you thought a lot about that and how it's different from other activities or academia also and so on.",
+      "id": "ep_67_ut_126"
+    },
+    {
+      "end": 2408282,
+      "speaker": "Hadley Wickham",
+      "start": 2394356,
+      "text": "Yeah, I mean, you know, I do find out, like, when someone asks me, like, what I do for a job, like just in that ordinary context, I'm like, well, I don't really, I don't really do anything. I, like make tools that other people use to do data science.",
+      "id": "ep_67_ut_127"
+    },
+    {
+      "end": 2409534,
+      "speaker": "Moritz Stefaner",
+      "start": 2408418,
+      "text": "It's very meta.",
+      "id": "ep_67_ut_128"
+    },
+    {
+      "end": 2507538,
+      "speaker": "Hadley Wickham",
+      "start": 2409914,
+      "text": "Yeah, I do a little bit of data science, but mostly what I spend my time is doing is building tools, and I don't know a lot of it. I think one of the things that's interesting is there's things that I know and I can do really well, but I can't describe what I know or how I do it. This tidy data idea. For a very long time, I could look at a data set and say, do this, do that, and do this other thing, and it's gonna be much easier to work with. But I could not tell you, like, what principle I was following. And so when I tried to, like, start teaching this at rice, I was like, well, this isn't very satisfying if I can do it. And I know there's like some underlying principle, but I can't explain it. So I spent a lot of time thinking about that. And so there are like some sort of like simple things that, that I can tell you about. Like, you know, consistency is really important, like figuring out how to be so that everything, like, once you've learned one example that you can generalize that to new cases. I mean, you know, there's sort of like this, like making. You know, a lot of my work is like these grammars or where you provide like little building blocks, where each building block is simple, you can easily understand it in isolation. And then the way you deal with complex problems by changing lots and lots of these little problems, little things together. And I spend a surprising amount of time just trying to think of good names for things. Naming things is really, really hard, especially.",
+      "id": "ep_67_ut_129"
+    },
+    {
+      "end": 2515534,
+      "speaker": "Moritz Stefaner",
+      "start": 2507586,
+      "text": "Software packages, because people have to type it over and over again. So the name, if you come up with a stupid name, it's going to bite you really bad.",
+      "id": "ep_67_ut_130"
+    },
+    {
+      "end": 2534394,
+      "speaker": "Hadley Wickham",
+      "start": 2516754,
+      "text": "One of the things, the testimonials that I both most enjoyed about Dplyr was someone tweeted to me how they were showing their Dplyr code to their PhD advisor, who has never programmed an r, and their PhD advisor could actually understand what the code did.",
+      "id": "ep_67_ut_131"
+    },
+    {
+      "end": 2536426,
+      "speaker": "Moritz Stefaner",
+      "start": 2534474,
+      "text": "That's great. Yeah, like that.",
+      "id": "ep_67_ut_132"
+    },
+    {
+      "end": 2547498,
+      "speaker": "Hadley Wickham",
+      "start": 2536490,
+      "text": "Like expressing yourself in code. I think code is a communication medium is a really, really important thing. And it's, you know, it's hard, but. But it's sort of a worthwhile struggle. Yeah.",
+      "id": "ep_67_ut_133"
+    },
+    {
+      "end": 2580996,
+      "speaker": "Moritz Stefaner",
+      "start": 2547506,
+      "text": "And it's sort of interesting because, I mean, in a way, you are designing a product. I mean, it's an open source product and it's software, like a library product. So it's a bit different than maybe what you would think of as a product in the first place. At the end of the day, it's a product and you make all these decisions about the communication around it, the branding, as you say, how it actually works, how big it becomes or how small it stays and so on. And so you do that. Now at RSTudio. What is RSTudio? Is it, like, is it a company, is it a club? Or is it.",
+      "id": "ep_67_ut_134"
+    },
+    {
+      "end": 2582504,
+      "speaker": "Hadley Wickham",
+      "start": 2581100,
+      "text": "What is it exactly?",
+      "id": "ep_67_ut_135"
+    },
+    {
+      "end": 2588508,
+      "speaker": "Moritz Stefaner",
+      "start": 2583164,
+      "text": "I just know it's a software product. You can download and use it to interact with r, right?",
+      "id": "ep_67_ut_136"
+    },
+    {
+      "end": 2699402,
+      "speaker": "Hadley Wickham",
+      "start": 2588636,
+      "text": "Yeah. So RSTudio is a company. We have kind of three main product. Well, two main products, the IDE, which you can both kind of download and use on your computer, or you can run from a server. And then we also have shiny server, which allows you to make or serve up shiny apps, which are just a way of basically turning. Instead of creating a static PDF report, you make an interactive web app to show off the results of your analysis. So RSTudio is an open source company, which means our goal is to do as much as possible in the open and then find the small percentage of features that big companies are willing to pay a lot of money for, charge a lot of money for those features. And I think that to me, like our commercial products are around solving two problems. So the first problem is you've now got a team of like five or ten or 20 people all using R to work on problems together. How do you make that team of people as productive as possible? And then the other problem is like, you've done this fantastic visualization or report or shiny app on your computer. How do you then push it out to the people who actually need to see that? How do you solve this last mile of data analysis problem? And you know, that that's working pretty well for the company so far. So, you know, I joined RSTudio because I'm sort of passionate about the vision. The goal of RSTudio is not to make money. The goal of RSTudio is to make great software for the r community and, you know, as hopefully a happy coincidence, make money as well. But, you know, we're not. The goal is not to optimize income, it's to optimize kind of awesomeness. So I'm really excited about RSTudio as a company and working there, and it's fantastic.",
+      "id": "ep_67_ut_137"
+    },
+    {
+      "end": 2724810,
+      "speaker": "Enrico Bertini",
+      "start": 2699458,
+      "text": "So, Hadley, if I understand shiny a little bit, that's also a way to introduce some degree of interaction in ggplot. Right. So can you tell us a little bit more about what is your view on interaction and how much of a limitation it is in our ggplot, too?",
+      "id": "ep_67_ut_138"
+    },
+    {
+      "end": 2736066,
+      "speaker": "Hadley Wickham",
+      "start": 2724922,
+      "text": "Yeah. Interaction is interesting and challenging because there's so many different levels of interaction. Because at some level, to me, r is an interactive environment.",
+      "id": "ep_67_ut_139"
+    },
+    {
+      "end": 2744564,
+      "speaker": "Enrico Bertini",
+      "start": 2736170,
+      "text": "Yeah, absolutely. I agree with you. It's not that if you are typing things, I mean, when you type something, you are actually, actually interacting with it.",
+      "id": "ep_67_ut_140"
+    },
+    {
+      "end": 2779244,
+      "speaker": "Hadley Wickham",
+      "start": 2745784,
+      "text": "So I think there are. So there are some things that are difficult to express in code. Like when you look at a plot and you see a point and you're like, that is a weird point. I want to find out more information about it. It's very, very natural to, like, you want to touch it, you want to say, this point is the one I'm interested in. But to express that in code, you're like, well, x has to be greater than this and y has to be less than that. And that's very, very. So there are things that are very like, that are difficult to express in code. Or then the other sort of thing is like you're designing a, like, you know, you want a label to be here instead of here.",
+      "id": "ep_67_ut_141"
+    },
+    {
+      "end": 2779804,
+      "speaker": "Enrico Bertini",
+      "start": 2779364,
+      "text": "Yeah.",
+      "id": "ep_67_ut_142"
+    },
+    {
+      "end": 2785908,
+      "speaker": "Hadley Wickham",
+      "start": 2779884,
+      "text": "There are some things that just feel so natural. You want to, like, directly interact with them and drag them and move them around the screen.",
+      "id": "ep_67_ut_143"
+    },
+    {
+      "end": 2786624,
+      "speaker": "Moritz Stefaner",
+      "start": 2785996,
+      "text": "Right.",
+      "id": "ep_67_ut_144"
+    },
+    {
+      "end": 2788356,
+      "speaker": "Hadley Wickham",
+      "start": 2787124,
+      "text": "Or, you know, the data. Bret.",
+      "id": "ep_67_ut_145"
+    },
+    {
+      "end": 2796678,
+      "speaker": "Moritz Stefaner",
+      "start": 2788380,
+      "text": "Victor dream, right. That you do something directly on the representation. It feeds back into the code and you can sort of go back and forth forth. Yeah.",
+      "id": "ep_67_ut_146"
+    },
+    {
+      "end": 2986434,
+      "speaker": "Hadley Wickham",
+      "start": 2796846,
+      "text": "So we're still. It's really hard. We're sort of, I think, just getting. Just sort of still dipping our toes in the water there. There's a cool new RSTudio feature called and shiny feature called gadgets and add ins, which. So traditionally. So, you know, traditionally, which is funny to say about shiny, which has only been around for a couple of years, but, you know, most shiny apps in the old times are used to communicate to, like, non analysts. So the type of interactivity you provide is basically you say, well, instead of giving you this 200 page report, I'm going to give you three drop downs and two checkboxes, which would allow you to generate anything in that report. So mostly shiny apps are used the data analyst. The data scientist creates them, and then a non expert uses them, and it gives them some, like in a constrained environment to explore where you can't do everything, but you can do the things that you're most interested in. The things that's really interesting about gadgets is that they kind of sort of flip that around. Like in a gadget. A shiny gadget is a tool that a data scientist uses or a data analyst uses. So you call it like a regular r function, but it pops up an interactive window in RSTudio. And the thing that that's, I think, particularly innovative about these is that you can then, so you can interact with that, so you can select that point. And then what the gadget will do is it can return an object to r. It could return like a vector of trues and falses, which you can then compute on, or it could actually generate the code for you and then kind of insert that into your r console. Because one of the challenges of interactivity is like, how do you capture what you did so you can replay it again in the future? And I think we're going to see, like, so this idea that there are some things that are hard to express in code, but you want to express them in code so you can capture what you did. So instead of you writing that code, have the, you know, you interact with the data and then the computer generates the code for you. And maybe it's kind of long and ugly, but that's fine because you didn't have to write it, but at least you've captured what you've done. So I think we're going to see a lot of innovation in that space. And again, it's for like these little somehow, like, not like when you sort of like, look at like infovis projects, it's like their interaction is like everything. It spreads throughout the. And that can be incredibly powerful, right? Because you can, you can do all of these things so naturally and flexibly, and iteration speed is so small, but you're in like a closed system, and if you want to do something the outside of that, you just cannot escape. Whereas I think interactivity in R is going to be lots and lots of little interactive pieces where you call upon an interactive tool to solve a specific challenge, and then that kind of feeds back code, or r objects into your workflow, and then you continue on. So you have this sort of mix of writing code where that's most natural, and then interacting with the data directly where that's most natural.",
+      "id": "ep_67_ut_147"
+    },
+    {
+      "end": 2996554,
+      "speaker": "Enrico Bertini",
+      "start": 2987834,
+      "text": "Is it currently possible to just use r and create something that is interactive right away. Oh, okay.",
+      "id": "ep_67_ut_148"
+    },
+    {
+      "end": 3104644,
+      "speaker": "Hadley Wickham",
+      "start": 2996674,
+      "text": "So then that's basically what I mean. The other way of looking at shiny is as a way of like very quickly creating web apps. If you don't know anything about HTML or JavaScript or CSS, you can use shiny to put something together pretty simply that gives you this basic interaction. And then we have these HTML widgets which are basically wrappers around common JavaScript libraries. So for example, there's like a leaflet. Leaflet is a JavaScript package for drawing maps. There's a leaflet R package which lets you do anything, basically anything you can do at leaflet. But it's all wrapped up in R code with an interface that's natural for R users. So if you know how to use R, you can now create very easily create this beautiful drag and drop top maps. And I don't know that it just makes everything so easy. I think it's sort of getting to the point where even if you know quite a bit of JavaScript and a little bit of R, it's actually easier to do it in R because just all of this infrastructure is wrapped up in a convenient way. And I guess that's kind of like another like coming back to the question about making successful software, successful visualization tools. It's like thinking about that sort of infrastructure, like just getting everything installed and working. That can be a huge pain too, and like investing time in that. So everything just kind of works regardless of who's running it on what crazy system. Like, that's really painful and annoying work, and it takes a long time to track down on these subtle bugs. But just giving people a tool that they can use and deploy reliably and instantly, that's incredibly powerful too.",
+      "id": "ep_67_ut_149"
+    },
+    {
+      "end": 3161382,
+      "speaker": "Moritz Stefaner",
+      "start": 3104944,
+      "text": "That's true. I mean, if all these parts go together by design, they can make a huge difference. And yeah, I do a lot of web development, I know exactly what you're talking about, NPM and so on. Yeah. Yes, I think we need to wrap up soon, but I'd like to come to a few listener questions. So we had a few comments from Twitter, and maybe that also leads to a few thoughts on the future. So we had two people Thomas Peterson asked, is a grammar of interactions, is it doable? And Sven Eric Schelhorn also asked after graph grammar of graphics, which was GG and data player, will there be maybe a grammar of models based on Kuhn's caret package, whatever that is? Probably, you know, first observations. Of course people expect a few more like grammar based packages from you. So they seem to like the general idea apparently.",
+      "id": "ep_67_ut_150"
+    },
+    {
+      "end": 3282182,
+      "speaker": "Hadley Wickham",
+      "start": 3161478,
+      "text": "Yeah, I mean, and I think people do like this idea of like, you know, little components that you can join together. You know, you're not locked into my vision of what you should be able to do, I think is very powerful. I mean, a grammar of interactions I think is, is totally possible. Jeff here and his student Arvind Satyanara Nayan had a really nice paper in Infoviz, I think last year or the year before last. I mean, the key idea I think is functional reactive programming, which is kind of idea that came out of the functional programming community, which is all about, but functional programming, if you're really hardcore about it, it's all about eliminating side effects, but basically all of visualization is a side effect. So the functional programming community came up with some sort of interesting tools to get around that, that make it easy to reason about. So this idea of functional reactive programming is a way of effectively kind of declaratively specifying how things should change. And this sort of is how shiny works too. You effectively have a graph of components and when one component changes, it does the minimal amount of recomputation to update everything else. So I think Arvind and Jeff have a really nice paper about that. I think that just seems like such a natural way to attack this problem because it gets you out of all this kind of, the phrase is call back. Hell, we've just got things calling back and you just can't reason about what going on and you get these subtle bugs and if you do this and that and then the other thing, it breaks. But if you do it in a different order, it's okay and it's a nightmare. So that is something I want to work on for GGViz, which is the successes of GGPlot, two that I'm spending a lot of time on this year.",
+      "id": "ep_67_ut_151"
+    },
+    {
+      "end": 3295492,
+      "speaker": "Moritz Stefaner",
+      "start": 3282358,
+      "text": "But would that be mostly like a software refactor or would it be like, because the question was for grammar of models or interactions, do you think it would apply there? Like do you think it could work well to structure the grammar of models like this?",
+      "id": "ep_67_ut_152"
+    },
+    {
+      "end": 3335878,
+      "speaker": "Hadley Wickham",
+      "start": 3295668,
+      "text": "So I think this will apply for a grammar of interactions. The grammar of models is a little different and something, and I don't really have a good grasp on what a grammar of models is going to look like. I think it's really important, but I'm not quite sure yet how it's going to work. But basically the idea is it's like, like visualizations, right? You have this huge, like this, I mean, basically we're currently in this place where we have a typology of models, right? There's a list of models like, do you want a linear model? Do you want a generalized linear model? Do you want an elastic network? Do you want a laseau? Do you want a random forest? Do you want this? Do you want that?",
+      "id": "ep_67_ut_153"
+    },
+    {
+      "end": 3337926,
+      "speaker": "Moritz Stefaner",
+      "start": 3335926,
+      "text": "It's like a pie chart, line chart or bar chart.",
+      "id": "ep_67_ut_154"
+    },
+    {
+      "end": 3338174,
+      "speaker": "Hadley Wickham",
+      "start": 3337950,
+      "text": "Exactly.",
+      "id": "ep_67_ut_155"
+    },
+    {
+      "end": 3339662,
+      "speaker": "Moritz Stefaner",
+      "start": 3338214,
+      "text": "It's the same situation again. Right?",
+      "id": "ep_67_ut_156"
+    },
+    {
+      "end": 3340134,
+      "speaker": "Hadley Wickham",
+      "start": 3339718,
+      "text": "Exactly.",
+      "id": "ep_67_ut_157"
+    },
+    {
+      "end": 3341830,
+      "speaker": "Moritz Stefaner",
+      "start": 3340174,
+      "text": "I can see the thinking. Yeah.",
+      "id": "ep_67_ut_158"
+    },
+    {
+      "end": 3393350,
+      "speaker": "Hadley Wickham",
+      "start": 3341982,
+      "text": "Yeah. So it seems like there's got to be some way of maybe not for every single model, but for a useful subset of all models. Putting that into a grammar so you can build up a model as you go from simple pieces. I don't know. I think my feeling is that the statistical theory isn't quite there yet, that there isn't this sort of overarching theory that lets you do inference on all these different problems. But that is something that I would like to work on, although. So it's unlikely to be for a year or two yet. But I think that's like when you look at what I haven't done, and that's kind of one of the few things I haven't even touched in the slightest. So. But it's just a big project and it requires a lot of, like maths, which I don't have, and not particularly sure.",
+      "id": "ep_67_ut_159"
+    },
+    {
+      "end": 3410050,
+      "speaker": "Moritz Stefaner",
+      "start": 3393382,
+      "text": "It's like a big challenge. I'm just reminded of Donald Knuth's books. Like, he's like at book, I don't know, four or something out of seven. So maybe you are now starting package number three, grammar number three. It might be a lifelong process, right?",
+      "id": "ep_67_ut_160"
+    },
+    {
+      "end": 3418254,
+      "speaker": "Hadley Wickham",
+      "start": 3410242,
+      "text": "I mean, I think it will be, but hopefully I won't have to retire and then keep working for another 20 years and still only halfway there.",
+      "id": "ep_67_ut_161"
+    },
+    {
+      "end": 3429314,
+      "speaker": "Enrico Bertini",
+      "start": 3419154,
+      "text": "So, Hadley, before we wrap up, can you give us a glimpse of the near or far future? So what's coming up next?",
+      "id": "ep_67_ut_162"
+    },
+    {
+      "end": 3552014,
+      "speaker": "Hadley Wickham",
+      "start": 3430174,
+      "text": "So, next, basically, I'm going to be working on Dplyr. There's just a whole lot of bugs and a few minor stuff that I want to finish off. I've been also sort of thinking through this problem of, like, often when you start fitting models, you end up with a whole bunch of models, and so how do you kind of keep them together and organize them and store them? And I now think it's pretty natural to put them in a data frame. So I'm just slowly considering all the implications of that. And then once that's done, which will hopefully be about a month's work the rest of the year, I'm going to be spending on GGViz and that I think that's going to kind of explode into lots of, there's going to be like GG stat, which is high performance c implementations of common statistical transformations you want for visualization. There'll be GG Geom, which is like a data structure for dealing with the geometric objects that underlie visualizations and efficient C code for manipulating them, and then GG layout, which is some way of thinking about how you lay graphs out and an efficiency implementation for laying them out and then sort of thinking more about how the JavaScript works. And do we need like other back ends and other. Because one of the big things with GGViz, one of the big unsolved questions is that, you know, doing graphics in the web browser is awesome until you want to stick them in your PDF paper. So there needs to be some way of also turning GGViz graphics into static graphics that you can put on a website or put in a paper. And just thinking through that, how that's going to work is quite a big problem. But I think I have a like, at least in my head, I have sort of a vague strategy. I know I've forgotten lots of important things where I'm going to be like, oh wow, that's like totally not going to work. But I think I can push through those and I'll have like eight months to work on it this year. So that's what I'm working on and I'm just going to. A whole lot of other projects will just drift into a state of benign neglect while I work on that.",
+      "id": "ep_67_ut_163"
+    },
+    {
+      "end": 3592346,
+      "speaker": "Moritz Stefaner",
+      "start": 3553194,
+      "text": "So I think it's clear you always have a few balls in the air and you're just juggling a lot of projects. But it's amazing, like what you were able to put out. And also I think the impact it had. We like to talk about impact and how absolutely, you know, how the things we do change the world or not. And I think in your case you did have quite a, quite a bit of impact and that's, that's great. And yeah, we're looking forward to following all the new packages coming out. I'll try and do more r it's one of the things I look forward to. New year resolution, to dabbling with. Yeah, for sure. And yeah, thanks so much for coming on the show. It's been super amazing.",
+      "id": "ep_67_ut_164"
+    },
+    {
+      "end": 3594298,
+      "speaker": "Hadley Wickham",
+      "start": 3592490,
+      "text": "You're welcome. Thanks very much for having me.",
+      "id": "ep_67_ut_165"
+    },
+    {
+      "end": 3597674,
+      "speaker": "Enrico Bertini",
+      "start": 3594346,
+      "text": "Yeah, thank you, Hadley. Bye bye.",
+      "id": "ep_67_ut_166"
+    },
+    {
+      "end": 3598122,
+      "speaker": "Moritz Stefaner",
+      "start": 3597794,
+      "text": "Thanks.",
+      "id": "ep_67_ut_167"
+    },
+    {
+      "end": 3599214,
+      "speaker": "Hadley Wickham",
+      "start": 3598178,
+      "text": "Bye bye.",
+      "id": "ep_67_ut_168"
+    },
+    {
+      "end": 3689414,
+      "speaker": "Enrico Bertini",
+      "start": 3601994,
+      "text": "Hey guys, thanks for listening to data stories again. Before you leave, we have a request if you can spend a couple of minutes rating us on iTunes, that would be extremely helpful for the show. I also want to give you some information on the many ways you can get news directly from us. We are, of course, on twitter@twitter.com. Datastories. We have a Facebook page@Facebook.com data stories podcast and we now also have a newsletter. So if you want to get news directly into your inbox, go to our home page datastory es and look for the link that you find on the right one last thing I want to tell you is that we love to get in touch with our listeners, especially if you want to suggest way to improve the show, amazing people you want us to invite or projects you want us to talk about. So do get in touch with us. That's all for now. See you next time. Thanks for listening to data stories data stories is brought to you by click, who allows you to explore the hidden relationships within your data that lead to meaningful insights. Let your instincts lead the way to create personalized visualizations and dynamic dashboards with Qlik sense, which you can download for free at Qlik Datastories. That's Qlik Datastories.",
+      "id": "ep_67_ut_169"
+    }
+  ],
+  "confidence": 0.916928455840986,
+  "audio_duration": 3689,
+  "punctuate": true,
+  "format_text": true,
+  "dual_channel": false,
+  "webhook_url": null,
+  "webhook_status_code": null,
+  "webhook_auth": false,
+  "webhook_auth_header_name": null,
+  "speed_boost": false,
+  "auto_highlights_result": null,
+  "auto_highlights": false,
+  "audio_start_from": null,
+  "audio_end_at": null,
+  "word_boost": [],
+  "boost_param": null,
+  "filter_profanity": false,
+  "redact_pii": false,
+  "redact_pii_audio": false,
+  "redact_pii_audio_quality": null,
+  "redact_pii_policies": null,
+  "redact_pii_sub": null,
+  "speaker_labels": true,
+  "content_safety": false,
+  "iab_categories": true,
+  "content_safety_labels": {
+    "status": "unavailable",
+    "results": [],
+    "summary": {}
+  },
+  "language_detection": false,
+  "language_detection_threshold": null,
+  "language_confidence": null,
+  "custom_spelling": null,
+  "throttled": false,
+  "auto_chapters": true,
+  "summarization": false,
+  "summary_type": null,
+  "summary_model": null,
+  "custom_topics": false,
+  "topics": [],
+  "speech_threshold": null,
+  "speech_model": "best",
+  "chapters": [
+    {
+      "summary": "Data stories is brought to you by Qlik, who allows you to explore the hidden relationships within your data. Let your instincts lead the way to create personalized visualizations and dynamic dashboards with Qlik sense.",
+      "gist": "Data Stories: The Story of Qlik",
+      "headline": "Qlik lets you explore hidden relationships within your data that lead to meaningful insights",
+      "start": 120,
+      "end": 31074,
+      "id": "ep_67_ch_0"
+    },
+    {
+      "summary": "Moritz: I was busy launching Project UKKO, a wind visualization, but wind predictions. Enrico: Mostly focusing on teaching because it's the start of the semester, so that's pretty normal.",
+      "gist": "Wonders of the World",
+      "headline": "Moritz: I'm focusing on teaching this semester, so that's normal",
+      "start": 41684,
+      "end": 142218,
+      "id": "ep_67_ch_1"
+    },
+    {
+      "summary": "So have you been working with statisticians? Yeah. New thing about this prediction is that they actually have a physical forecast model that takes into account the physical state of the world at a given point in time. And that's kind of crazy.",
+      "gist": "Climate scientists: What's All the Math?",
+      "headline": "Scientists use statistical models to predict future weather",
+      "start": 142396,
+      "end": 180028,
+      "id": "ep_67_ch_2"
+    },
+    {
+      "summary": "We have the creator of some hugely popular r libraries. He created GGplot two, one of the most popular data visualization tools in the world. Today we're going to talk about some of these libraries and r in general.",
+      "gist": "R and the statisticians",
+      "headline": "Today we have the creator of some hugely popular r libraries on the show",
+      "start": 180116,
+      "end": 220454,
+      "id": "ep_67_ch_3"
+    },
+    {
+      "summary": "Hadley Wickham is the chief scientist at RSTudio. He is interested in how you can turn data into knowledge and understanding. How can you efficiently turn that into code?",
+      "gist": "Interview with Hadley Wickham",
+      "headline": "Hadley: Hadley Wickham is interested in data analysis",
+      "start": 220574,
+      "end": 292824,
+      "id": "ep_67_ch_4"
+    },
+    {
+      "summary": "GGPlot two is a package for plotting. It's based on the idea of the grammar of graphics. The first version went to Cran in 2007. How old is Gg Plot two? It's quite old now.",
+      "gist": "GGPlot 2",
+      "headline": "Bill Cleveland: GGPlot two is a package for plotting",
+      "start": 293284,
+      "end": 660644,
+      "id": "ep_67_ch_5"
+    },
+    {
+      "summary": "The thing I love about GGPlot two is it's not the big things that, you know, like things in the New York Times or whatever. It's the people that are using it to solve some weird, tiny problem in their scientific domain. And it's one of these tools you can recommend because it seems to have sane defaults.",
+      "gist": "GGplot 2: The story of the package",
+      "headline": "Michael Lacor: GGplot two is hugely popular among statisticians",
+      "start": 660944,
+      "end": 986804,
+      "id": "ep_67_ch_6"
+    },
+    {
+      "summary": "Mike: What do you think distinguishes between libraries or tools in visualizations that are successful and widely adopted from those that just die after a while? Mike: If you had to pick a few factors, what would be the first, say two or three factors?",
+      "gist": "What Makes a Successful Data Visualization Library?",
+      "headline": "What distinguishes successful data visualization libraries from those that die after a while",
+      "start": 987384,
+      "end": 1299178,
+      "id": "ep_67_ch_7"
+    },
+    {
+      "summary": "Most of the feature tracking goes via GitHub, so people will submit issues if they find a bug or want something new. There are some things that I will categorically never allow in GGPlot two. To make that transition, I'd like to move it a bit to the general, our ecosystem.",
+      "gist": "GGPlot 2's Feature Requests",
+      "headline": "Do people come to you with requests and you make a decision what to include",
+      "start": 1299226,
+      "end": 1514062,
+      "id": "ep_67_ch_8"
+    },
+    {
+      "summary": "It only works inside r, right? Yes. So basically you're buying r. It's free, but you have to get started in R in order to use ggplot two.",
+      "gist": "GGPlot 2",
+      "headline": "You have to get started in R in order to use ggplot two",
+      "start": 1514198,
+      "end": 1533674,
+      "id": "ep_67_ch_9"
+    },
+    {
+      "summary": "R is a statistical programming language which was written by John Chambers and others at Bell Labs. It's designed for statisticians and people interested in data. The popularity of R has been skyrocketing in recent years.",
+      "gist": "What is R",
+      "headline": "R is a statistical programming language designed for statisticians and data analysts",
+      "start": 1534814,
+      "end": 1996244,
+      "id": "ep_67_ch_10"
+    },
+    {
+      "summary": "One cool thing I did yesterday was I did a visualization of every place I visited in the United States by looking at my tripit data. Recently I've been working on this per package that makes it easy to turn trees into dataframes. When everything lines up like that, it's still admittedly unusual for me.",
+      "gist": "Using r to plot places in the US",
+      "headline": "I did a visualization of every place I visited using tripit data",
+      "start": 1996664,
+      "end": 2099094,
+      "id": "ep_67_ch_11"
+    },
+    {
+      "summary": "Data stories is brought to you by Qlik, who allows you to explore the hidden relationships within your data that lead to meaningful insights. One good reason to download Qlik sense right now is to take part in the Qlik open data challenge. The winning Dataviz created with Qliksense would earn $10,000.",
+      "gist": "Data Stories",
+      "headline": "One good reason to download Qlik sense right now is to take open data challenge",
+      "start": 2099754,
+      "end": 2206986,
+      "id": "ep_67_ch_12"
+    },
+    {
+      "summary": "Many people are interested in learning art from scratch. Do you have any suggestions for people who want to start but are a little intimidated? I think the meta suggestion for learning anything is always to find something that you're passionate about.",
+      "gist": "Interested in learning R?",
+      "headline": "Do you have any suggestions for people who want to learn r but are intimidated",
+      "start": 2207050,
+      "end": 2350874,
+      "id": "ep_67_ch_13"
+    },
+    {
+      "summary": "Most of my time is doing is building tools, and I don't know a lot of it. I spend a surprising amount of time just trying to think of good names for things. Naming things is really, really hard, especially. Software packages.",
+      "gist": "Talking about the tools of data science",
+      "headline": "Can you tell us more about tool making? Probably you thought a lot about that",
+      "start": 2352694,
+      "end": 2575436,
+      "id": "ep_67_ch_14"
+    },
+    {
+      "summary": "RSTudio is an open source company. It has three main products: the IDE, shiny server and interactive apps. The company's goal is not to make money, it's to make great software for the r community.",
+      "gist": "RSTudio: An Open Source Software Company",
+      "headline": "RSTudio is an open source company developing data analysis software",
+      "start": 2575460,
+      "end": 2699402,
+      "id": "ep_67_ch_15"
+    },
+    {
+      "summary": "Interaction is interesting and challenging because there's so many different levels of interaction. There are some things that are difficult to express in code. We're sort of, I think, just getting. just dipping our toes in the water there.",
+      "gist": "GGPlot 2.8: Interaction",
+      "headline": "Hadley: Interaction is interesting and challenging in ggplot",
+      "start": 2699458,
+      "end": 2805954,
+      "id": "ep_67_ch_16"
+    },
+    {
+      "summary": "There's a cool new RSTudio feature called gadgets and add ins. A shiny gadget is a tool that a data scientist uses or a data analyst uses. The other way of looking at shiny is as a way of like very quickly creating web apps.",
+      "gist": "R&D: The New 'Shovels' in",
+      "headline": "There's a cool new RSTudio feature called gadgets and add ins",
+      "start": 2806294,
+      "end": 3123992,
+      "id": "ep_67_ch_17"
+    },
+    {
+      "summary": "Will there be maybe a grammar of models based on Kuhn's caret package, whatever that is? A grammar of interactions I think is, is totally possible. But it's unlikely to be for a year or two yet.",
+      "gist": "Grammar of Interactions in GgViz",
+      "headline": "So we had a few comments from Twitter about grammar of interactions",
+      "start": 3124008,
+      "end": 3418254,
+      "id": "ep_67_ch_18"
+    },
+    {
+      "summary": "Hadley: Next, I'm going to be working on Dplyr. Once that's done, I'll spend the rest of the year working on GGViz. There needs to be some way of turning GgViz graphics into static graphics. New year resolution, to dabbling with.",
+      "gist": "GGViz on Smashing the World",
+      "headline": "Hadley: Hadley, what's coming up next for you",
+      "start": 3419154,
+      "end": 3599214,
+      "id": "ep_67_ch_19"
+    },
+    {
+      "summary": "Hey guys, thanks for listening to data stories again. We have a request if you can spend a couple of minutes rating us on iTunes. I also want to give you some information on the many ways you can get news directly from us. Get in touch with us if you want to suggest way to improve the show.",
+      "gist": "Data Stories",
+      "headline": "Before you leave, we have a request if you can spend a couple of minutes rating us",
+      "start": 3601994,
+      "end": 3689414,
+      "id": "ep_67_ch_20"
+    }
+  ],
+  "disfluencies": false,
+  "entity_detection": false,
+  "sentiment_analysis": false,
+  "sentiment_analysis_results": null,
+  "entities": null,
+  "speakers_expected": null,
+  "summary": null,
+  "custom_topics_results": null,
+  "episode_num": 67,
+  "episode_metadata": {
+    "speakers": [
+      "Hadley Wickham",
+      "Moritz Stefaner",
+      "Enrico Bertini"
+    ],
+    "WPid": "527",
+    "url": "https://datastori.es/podlove/file/1943/s/feed/c/mp3/67-ggplot2-r-and-toolmaking-with-hadley-wickham.mp3",
+    "episode_title": "ggplot2, R, and data toolmaking with Hadley Wickham"
+  }
+}

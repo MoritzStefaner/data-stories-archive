@@ -1,0 +1,1769 @@
+{
+  "id": "6e81a351-e2ce-4932-8988-d9a1c0762d0a",
+  "language_model": "assemblyai_default",
+  "acoustic_model": "assemblyai_default",
+  "language_code": "en_us",
+  "status": "completed",
+  "audio_url": "https://datastori.es/podlove/file/190/s/feed/c/mp3/Datastories-09.mp3",
+  "utterances": [
+    {
+      "end": 18294,
+      "speaker": "Enrico Bertini",
+      "start": 10880,
+      "text": "Hi everyone. Data stories number nine here. Enrico, as usual, and Moritz. Hi Moritz.",
+      "id": "ep_9_ut_0"
+    },
+    {
+      "end": 19314,
+      "speaker": "Moritz Stefaner",
+      "start": 18454,
+      "text": "Hi there.",
+      "id": "ep_9_ut_1"
+    },
+    {
+      "end": 20742,
+      "speaker": "Enrico Bertini",
+      "start": 19774,
+      "text": "How are you?",
+      "id": "ep_9_ut_2"
+    },
+    {
+      "end": 26754,
+      "speaker": "Moritz Stefaner",
+      "start": 20878,
+      "text": "Good, good. Bit tired. I have a cold too, but other than that I'm really good.",
+      "id": "ep_9_ut_3"
+    },
+    {
+      "end": 44548,
+      "speaker": "Enrico Bertini",
+      "start": 27324,
+      "text": "Okay, great. I just come from a huge dinner. I hope I will manage to record this episode. Okay. We have another special guest here today. It's great to have Danyel Fisher, who is a researcher from Microsoft. Hi, Danyel.",
+      "id": "ep_9_ut_4"
+    },
+    {
+      "end": 46852,
+      "speaker": "Danyel Fisher",
+      "start": 44716,
+      "text": "Hey, good morning, Enrico. Good morning, Mortz.",
+      "id": "ep_9_ut_5"
+    },
+    {
+      "end": 47652,
+      "speaker": "Moritz Stefaner",
+      "start": 46948,
+      "text": "Hey there.",
+      "id": "ep_9_ut_6"
+    },
+    {
+      "end": 49044,
+      "speaker": "Enrico Bertini",
+      "start": 47788,
+      "text": "How are you, Danyel?",
+      "id": "ep_9_ut_7"
+    },
+    {
+      "end": 53944,
+      "speaker": "Danyel Fisher",
+      "start": 49204,
+      "text": "I'm great. It's early in the morning out here, so I've come gotten started on my day.",
+      "id": "ep_9_ut_8"
+    },
+    {
+      "end": 58660,
+      "speaker": "Enrico Bertini",
+      "start": 56284,
+      "text": "You are talking from Seattle today, right?",
+      "id": "ep_9_ut_9"
+    },
+    {
+      "end": 63188,
+      "speaker": "Danyel Fisher",
+      "start": 58852,
+      "text": "I'm over on the Microsoft campus in Redmond, Washington, just outside of Seattle. Yeah. Great.",
+      "id": "ep_9_ut_10"
+    },
+    {
+      "end": 138528,
+      "speaker": "Enrico Bertini",
+      "start": 63276,
+      "text": "Okay, so let me just explain. So Danyel Fisher, for those of you who don't know him, he's a researcher at Microsoft and he's doing research in the area of information visualization and human computer interaction. And we invited him specifically today because he's also for the first year, for the first time this year at this week, he's chair of an industry track, which is a new thing in the Visweek conference. And we would really like to discuss about opportunities between finding breaches, between what happens in academia and what happens in industry and between practitioners. We have been touching this topic many times during the podcast and we really wanted to organize one episode specifically on this topic. And we think that Danyel is the right person since this new thing is happening right now. There is an industry track finally in this week, which is a pretty academic conference. So Danyel, do you want to introduce yourself for a moment and explain to us what is your background, what you are doing, and maybe tell us something also about this industry track afterwards?",
+      "id": "ep_9_ut_11"
+    },
+    {
+      "end": 239174,
+      "speaker": "Danyel Fisher",
+      "start": 138686,
+      "text": "Sure, I'd be happy to. So, as Enrico said, I'm at Microsoft Research. Microsoft research is an odd little organization. It kind of hangs off the side of Microsoft and we're shaped half like an industrial department, half like an academic department. That means that we publish papers and we show up at conferences and give a lot of the intellectual property that we create away. We share it with as many people as possible, but at the same time we're also working with the product groups, trying to help them anticipate how the next few years are going to look, trying to talk about exciting technologies that they might want to keep their eyes open for and paying attention to what happens at conferences so that we can be sharing sort of what the leading edge thoughts are. My particular area is information visualization. So in academia, of course, I publish papers about concepts and it ideas and information visualization we've been interested in. Meanwhile, I work closely with the product groups looking at the problems and challenges that they've got. Microsoft has something like a hundred different pieces of software that in some form or another can create some sort of visualization. You know, about the big ones, they're some of the biggest information visualization tools on the market. Excel for example. But it's also tucked into PowerPoint and some of our, and all of our online properties and MSN money. And if you go to Bing search, you can get little spark lines of stuff and visualizations are kind of everywhere. So there's a lot of people to talk to and there's a lot of people who are trying to figure out what the best way to represent the data that they're creating is.",
+      "id": "ep_9_ut_12"
+    },
+    {
+      "end": 264086,
+      "speaker": "Enrico Bertini",
+      "start": 241034,
+      "text": "That's fantastic. And can I ask you right away, what's the level of, do you people, do you guys and Microsoft research have a tight relationship with people who are in the product area? Or is it something that you are more working on your research and then eventually maybe somebody picks up on what.",
+      "id": "ep_9_ut_13"
+    },
+    {
+      "end": 379530,
+      "speaker": "Danyel Fisher",
+      "start": 264110,
+      "text": "You do or different researchers pick different strategies? The bridge between Microsoft research and the product groups is really variable. At times it's gone very well, at times it's gone poorly. And some of the connections are very strong. So for example, our database group has historically done a great job of working very closely with the SQL team. And a lot of the high technology that's in SQL server today are things that were code actually written by the SQL team. In Microsoft research, on the other hand, some of the teams have more have impressed, sorry, have a response that's more in sharing ideas or discussing thoughts. So for example, some of the stuff that we saw with Kinect wasn't entirely the skeleton recognition code came directly from Microsoft Research, but the work with camera and some of the ideas around how the Kinect can be built and some of the underlying technologies came from discussions with not necessarily implementations of people like Andy Wilson and Jorve Benko who went out and had done cool demonstrations that showed just how awesome it would be if we had this technology which were able to drive the product group and influence the product group to build that cool thing. So there's a wide variety. One way you can find out a little bit about this is that every year we have a internal company event called Techfest and some of the best Techfest posters get published to the outside world. You can find a number of different news articles about some of the most interesting stuff that was coming out of MSR and if you go back about four or five years to Techfest from, oh, 2004, 2005, you'll start seeing some of those things beginning to creep their way into products. Not everything.",
+      "id": "ep_9_ut_14"
+    },
+    {
+      "end": 395374,
+      "speaker": "Moritz Stefaner",
+      "start": 379682,
+      "text": "Sure. That's interesting concerning data visualization specifically, is there current trend of what, let's say, the product side would ask for from you as a researcher, or what is the, let's say, the common feedback you get?",
+      "id": "ep_9_ut_15"
+    },
+    {
+      "end": 415014,
+      "speaker": "Danyel Fisher",
+      "start": 396474,
+      "text": "Well, so for example, on the Excel team, they've been thinking a lot. There's a new version of Office that's shortly going to come out. And there's been a lot of discussion about what the set of visualizations that Microsoft should include in the new office and the defaults. Right.",
+      "id": "ep_9_ut_16"
+    },
+    {
+      "end": 419234,
+      "speaker": "Moritz Stefaner",
+      "start": 415094,
+      "text": "And the defaults will be. It's a big issue, of course. Yeah.",
+      "id": "ep_9_ut_17"
+    },
+    {
+      "end": 462634,
+      "speaker": "Danyel Fisher",
+      "start": 421694,
+      "text": "Similarly, we have a product called SQL Crescent. Sorry. It came out under the title power view. I apologize. It was publicized under both names. Powerview is an interactive visualization environment that hybridizes some of the best points of Sharepoint, which gives you sort of the Google Doxy reach in there and directly mess with the data experience. Combined with some of the best aspect of the Tableau, like interact drop fields on and get a visualization, combined with some of the best of excel. Some of their questions were also what sort of visualization should we include and.",
+      "id": "ep_9_ut_18"
+    },
+    {
+      "end": 465790,
+      "speaker": "Moritz Stefaner",
+      "start": 463694,
+      "text": "What chart types, more or less what.",
+      "id": "ep_9_ut_19"
+    },
+    {
+      "end": 481018,
+      "speaker": "Danyel Fisher",
+      "start": 465822,
+      "text": "Chart types, but also what sort of interactions should we be thinking about? Some of their questions were, when you're pumping a whole lot of data points over the Internet, what's the best way to transfer them? Do I transfer the points? Do I transfer the gif images of the points? And what are the trade offs of doing those?",
+      "id": "ep_9_ut_20"
+    },
+    {
+      "end": 482134,
+      "speaker": "Moritz Stefaner",
+      "start": 481186,
+      "text": "Interesting.",
+      "id": "ep_9_ut_21"
+    },
+    {
+      "end": 521624,
+      "speaker": "Danyel Fisher",
+      "start": 482514,
+      "text": "I'm not going to take credit in any way for any of the decisions they made. I'm just going to say that like, you know, they spent some time talking to us and trying to find out what's out there on the, you know, what's out there. And we were able to say, hey, look at the last Viz week, there was this team that was talking about D3, and here's the cool things about that toolkit. I know that there's actually some teams that are using D3, and conversely, here's some people who are out there building systems that sent gifs over the Internet, and here's the trade offs that they experienced, and here's how they solve the interactivity problems. And so that team was able to make somewhat more informed decisions. Sometimes we think of it as stepping on the landmine so that they don't have to.",
+      "id": "ep_9_ut_22"
+    },
+    {
+      "end": 530668,
+      "speaker": "Moritz Stefaner",
+      "start": 522484,
+      "text": "So you're sort of in an expert consultant role, more or less, for these more generic product teams.",
+      "id": "ep_9_ut_23"
+    },
+    {
+      "end": 590220,
+      "speaker": "Danyel Fisher",
+      "start": 530836,
+      "text": "That's one of the many forms. Another one, of course, is that sometimes the product teams approach us and we actually build technologies directly for them and transfer them over. Many of the ones that we've had the most success with, for better or worse, are internal tools, so they might take a couple of years to get out, but. Oh, actually, here's a great example. Tim Dwyer, who you may recognize from the University of Monash, came over as a visiting researcher to Microsoft Research and then has switched over to the visual studio team. It must be a complete coincidence that during his time on the visual studio team, they have suddenly started producing a number of different graph layout algorithms that are used so developers can see the shape of their code and their code interdependencies. Unfortunately, I don't remember what the external code name that that went out under was, but there's a number of features in visual studio that are basically direct applications of the graph layout research that Tim had been doing at Microsoft. Research.",
+      "id": "ep_9_ut_24"
+    },
+    {
+      "end": 662976,
+      "speaker": "Enrico Bertini",
+      "start": 590332,
+      "text": "Okay, that's really interesting. And this is related to another question that came into my mind at the beginning. You mentioned, you mentioned within Microsoft, people who have been dealing with, been doing research in the area of databases, for instance. And to me, it looks like databases is one of those areas where historically, there has been a lot of good relationship between. A very tight relationship between what people need in industry and what researchers do to address the big issues, the big questions that industry has. Right. And one thing that I always ask myself, where are the big questions in industry related to visualization that researchers should try to address? I think in a way, there is some sort of mismatch, or it's not as direct as in other fields, like in databases. Or, for instance, also data mining, which is like, hey, guys, look, I need a new index structure to make these databases faster for this kind of queries. Right. It looks to me that it's much, much harder in visualization. Do you have the same feeling, Danyel?",
+      "id": "ep_9_ut_25"
+    },
+    {
+      "end": 665824,
+      "speaker": "Danyel Fisher",
+      "start": 663140,
+      "text": "Or in some ways, I have only.",
+      "id": "ep_9_ut_26"
+    },
+    {
+      "end": 667524,
+      "speaker": "Enrico Bertini",
+      "start": 665864,
+      "text": "My perception of the problem.",
+      "id": "ep_9_ut_27"
+    },
+    {
+      "end": 757974,
+      "speaker": "Danyel Fisher",
+      "start": 667984,
+      "text": "I'd almost completely disagree, actually. I'm happy to bait it either way. But a different possible take would be that information visualization tends to produce these tools that can be used across the field and inside as well as outside computer science. Yeah, it's true that there is no generic product that carries the name. Well, there's a number of visualization products, but there's not an entire category in the same way that there is database products. But just as database researchers, sometimes they'll generate an indexing scheme. But a lot of the work that database researchers are doing is stuff that they can't necessarily apply to today's database or necessarily any existing database. But they're sort of laying out a if someday we have a database that has the following structure, then we'll be able to apply the interesting additional indexes to it. They then have to go out and create a database company or a database organization that will actually produce that, and they get there eventually. A vertica is a wonderful example of hey, this idea of calm oriented database was created and a decade later there was a number of products around it. But in contrast, the stuff that we're doing at Infovis can be often picked up by someone at the New York Times and might appear in the next three to four months inside a newspaper, in a product, on a website somewhere. One of the wonderful things about infovis is that it's incredibly applicable.",
+      "id": "ep_9_ut_28"
+    },
+    {
+      "end": 759650,
+      "speaker": "Enrico Bertini",
+      "start": 758674,
+      "text": "Sure, sure.",
+      "id": "ep_9_ut_29"
+    },
+    {
+      "end": 816204,
+      "speaker": "Moritz Stefaner",
+      "start": 759722,
+      "text": "Yeah. Maybe we should clarify. So our plan for today is also to discuss a bit the potential, let's say, gaps between practical applications and research, or academia and the practitioners. Because this topic came up quite a couple of times in our podcast. And it's great to hear, Danyel, that I think you have already a practice established where you have a lot of exchange going on between the two sides. But I think for many of us we are maybe located on one of the two sides and sort of looking over to the other one, like, you know, with a bit from a distance and not sure about the other party. And because you mentioned this, something presented at Visweek could show up in the New York Times three months later. I think it would be great. But often it doesn't happen for a couple of reasons. It could be interesting to explore that a bit, why these things don't happen as often as we would like them to. I guess.",
+      "id": "ep_9_ut_30"
+    },
+    {
+      "end": 836330,
+      "speaker": "Danyel Fisher",
+      "start": 818304,
+      "text": "I'd be delighted to. I have to say again, I find this sort of startling. Visweek is one of the most applied conferences that I've ever been involved in. To give you some of my own background, I had started off and did a lot of work in the CSCW computer supported collaborative work community.",
+      "id": "ep_9_ut_31"
+    },
+    {
+      "end": 838722,
+      "speaker": "Moritz Stefaner",
+      "start": 836442,
+      "text": "Is that your original background? Sort of.",
+      "id": "ep_9_ut_32"
+    },
+    {
+      "end": 894924,
+      "speaker": "Danyel Fisher",
+      "start": 838858,
+      "text": "It was, yeah. My dissertation research looked at social networks over email, and a big part of that was visualizing them, and that's sort of how I got sucked into the infovis community. But one of the things that about CSCW is I do a fantastic study of how people are doing things on Facebook today. It builds on our theoretical, sociological knowledge about how people interact with each other online, or how people interact with each other through computer systems. But it might be years before anyone even figures out how to pick that up, even when people are talking directly about technical systems. You know, the number of large scale CSCW systems is, you know, it's the set of email, it's a set of Im, it's the facebooks of the world. There's a bunch of others. But again, applying that stuff takes a very long time. You can't just pick it up at the New York Times and throw it into a web article and call it a day.",
+      "id": "ep_9_ut_33"
+    },
+    {
+      "end": 976834,
+      "speaker": "Moritz Stefaner",
+      "start": 894964,
+      "text": "Sure, yeah, yeah. You need a whole framework just to get started, basically. Yeah, yeah. That's a great thing about visualization. Yeah. But maybe talking about algorithms. So I think one of the really, the, the key moments was when Marcus Westcomb took the treemap algorithm and made that news map. So he took data from Google News, I don't know, that was maybe 2003 or something like that. And he took Ben Shneiderman's tree map algorithm and came up with this totally creative use of that algorithm that was also really well designed and so on. And I wish that would happen more often like that. People who have a strong design skill or a good idea from an application point of view are just able to take an algorithm and mash it up with something else. But in my experience, research algorithms are often not that freely available as you would expect them. So sometimes you have implementations online, sometimes you don't. But cases like D3, or let's say all that Jeff here did, where you have these really well designed frameworks that invite you to use them. From my perspective, it could happen more often. Right. So, for instance, I tried to do something with Voronoi tree maps. I know you did something in that area, too, I think. Enrico as well. Enrico?",
+      "id": "ep_9_ut_34"
+    },
+    {
+      "end": 977610,
+      "speaker": "Enrico Bertini",
+      "start": 976954,
+      "text": "No, I didn't.",
+      "id": "ep_9_ut_35"
+    },
+    {
+      "end": 995474,
+      "speaker": "Moritz Stefaner",
+      "start": 977642,
+      "text": "No. But they come from Konstanz originally, and I had a hard time finding an implementation, actually, and they have been around for years, and I couldn't even find a simple one that I could extend or something. There's no code online, and I was very disappointed there.",
+      "id": "ep_9_ut_36"
+    },
+    {
+      "end": 1011534,
+      "speaker": "Danyel Fisher",
+      "start": 995634,
+      "text": "Well, I will tell you, it's agonizingly painful to build those things. The algorithmic cost is just huge. We looked hard at trying to figure out how to commercialize or share or distribute or something our own Voronoi tree map code. And it was just.",
+      "id": "ep_9_ut_37"
+    },
+    {
+      "end": 1015906,
+      "speaker": "Moritz Stefaner",
+      "start": 1012434,
+      "text": "Yeah, it's hard to get running in the general case, right?",
+      "id": "ep_9_ut_38"
+    },
+    {
+      "end": 1020826,
+      "speaker": "Danyel Fisher",
+      "start": 1016010,
+      "text": "Yeah, it was hard to get running in any specific case, the code just wasn't all that stable.",
+      "id": "ep_9_ut_39"
+    },
+    {
+      "end": 1053444,
+      "speaker": "Moritz Stefaner",
+      "start": 1020970,
+      "text": "Okay. Yeah. But you know what my theory is? There's sort of a structural problem there in a sense that it doesn't make a good paper, and papers are what you should write as a researcher. Right. That you got something to run in the general case. Actually, you know, this is not something where you can write a nice paper about. And so my feeling is there are a lot of, let's say, 80% solutions in this area and then the last 20% that are so hard to achieve, to actually make it a usable implementation, they don't necessarily happen.",
+      "id": "ep_9_ut_40"
+    },
+    {
+      "end": 1059564,
+      "speaker": "Danyel Fisher",
+      "start": 1054784,
+      "text": "Fair enough. I think that during this interview, we're probably going to mention the name of Jeff Heer a couple times.",
+      "id": "ep_9_ut_41"
+    },
+    {
+      "end": 1065344,
+      "speaker": "Moritz Stefaner",
+      "start": 1060264,
+      "text": "Yeah, we had him on last time on the show, so he's still fresh in our minds. Yeah, yeah.",
+      "id": "ep_9_ut_42"
+    },
+    {
+      "end": 1085004,
+      "speaker": "Danyel Fisher",
+      "start": 1065464,
+      "text": "Precisely because he has been very accomplished, I think, in figuring out how to publish and get people talking about system design and algorithms and getting people to sort of, and getting publications out there on things that he's built and things that people can use.",
+      "id": "ep_9_ut_43"
+    },
+    {
+      "end": 1109480,
+      "speaker": "Moritz Stefaner",
+      "start": 1085124,
+      "text": "Yeah, yeah. And he said something good last time as well, that this feedback you get from people actually using it is driving his research as well. So it's not just, you know, you're doing work for somebody else or so, but he sees it very much as being just in a very active dialogue with people using his framework and thus getting new ideas for doing research. And this is how it works for him. And I think that's so great.",
+      "id": "ep_9_ut_44"
+    },
+    {
+      "end": 1117564,
+      "speaker": "Danyel Fisher",
+      "start": 1109572,
+      "text": "Yeah, I totally agree. And that perhaps does bring us to the infovis industry track.",
+      "id": "ep_9_ut_45"
+    },
+    {
+      "end": 1123664,
+      "speaker": "Enrico Bertini",
+      "start": 1118504,
+      "text": "Yeah, absolutely. Yeah. Can you tell us more about the industry track? What's the idea?",
+      "id": "ep_9_ut_46"
+    },
+    {
+      "end": 1131224,
+      "speaker": "Danyel Fisher",
+      "start": 1123784,
+      "text": "Yeah, I'd be delighted to. Last year at Infoviz, I saw a number of different people walking around.",
+      "id": "ep_9_ut_47"
+    },
+    {
+      "end": 1145464,
+      "speaker": "Enrico Bertini",
+      "start": 1131304,
+      "text": "Sorry, Danyel, before you proceed, can you briefly tell, explain what is Visweek and Infovys because some listeners might still not know it. So if you can briefly introduce it, it would be better.",
+      "id": "ep_9_ut_48"
+    },
+    {
+      "end": 1211514,
+      "speaker": "Danyel Fisher",
+      "start": 1145764,
+      "text": "Sure thing. Visweek, as the name implies, is a full week of visualization. It's an annual conference, travels around the world. I believe it's scheduled to go overseas in the next few years where people get together and talk about information visualization, visual analytics, and scientific visualization. There's five days of sessions, four days of sessions, plus two days of workshops and tutorials beforehand. There is also usually a couple of accompanying side panels and special sessions. So I believe that we have visualization security this year and Biovis for biological visualizations. Historically, it's an academically oriented conference, which means that most of the talks that are given are oriented towards giving academic papers that have been peer reviewed and published, and we can talk a little bit about what it takes to get a paper through the peer review system later.",
+      "id": "ep_9_ut_49"
+    },
+    {
+      "end": 1216554,
+      "speaker": "Enrico Bertini",
+      "start": 1212454,
+      "text": "Do you really want to do that? That would be extremely boring.",
+      "id": "ep_9_ut_50"
+    },
+    {
+      "end": 1222474,
+      "speaker": "Moritz Stefaner",
+      "start": 1217854,
+      "text": "I think it can be interesting if you're not familiar with it, perhaps not in detail.",
+      "id": "ep_9_ut_51"
+    },
+    {
+      "end": 1369714,
+      "speaker": "Danyel Fisher",
+      "start": 1225294,
+      "text": "It also has, however, a series of tutorials and posters that are meant to be works in progress and interesting application stories and a lot of other material. And basically this is, as far as I can tell, the single densest place where lots and lots of visualization people get together every year and talk about what they feel are new and exciting in information visualization from an academic point of view. The overlap with conferences like I o, that was earlier this year, is actually surprisingly small, although there are certainly some names that you're going to see at both. Last year at Visweek, I was talking to a number of people from industry who had also come in for one reason or another, and many of them were very excited about the conference. They really liked the things they were learning, and they were finding talks that they went to that made them go, hey, wait, there's something I can do. There's something that I can share with my team. It's talking to a guy, for example, from a text analytics company. They do legal document analytics. You feed in a lot of documents and it helps you analyze the connections and interconnections between them. And he was eating up everything that he saw in graph drawing, and he was eating everything that he saw in text analysis and taking lots of notes. And he's realizing there's lots of opportunities out there for people in industry to learn something from the Viz, from the Viz community. At the same time, I was also seeing that people like Amanda Cox was a speaker this year. A couple years ago, we had someone else from the New York Times, Matt Erickson, and both of them had really been extremely influential to the infovis community. After they spoke, we started seeing a lot of people wanting to talk about how visualization can be applied to more types of people, how visualization can be used for storytelling, and how visualization can be used for journalism. And this tended in turn to spin up new workshops. And there was papers on storytelling and there was papers on newspaper visualization. I was realizing that a lot of visualizers are, a lot of academics don't have great access to knowing what the interesting problems that are out there are.",
+      "id": "ep_9_ut_52"
+    },
+    {
+      "end": 1399296,
+      "speaker": "Moritz Stefaner",
+      "start": 1371054,
+      "text": "Also because it has diversified so much, you know, so, yeah, you mentioned a few of these groups already, like the data journalists, the business intelligence people, designers, artists, you know, then we have this whole scene of people doing infographics, which has really exploded in the last few years. And I think that the field has diversified so quickly that of course it's hard to catch up with that. I think we all have trouble with that.",
+      "id": "ep_9_ut_53"
+    },
+    {
+      "end": 1505114,
+      "speaker": "Danyel Fisher",
+      "start": 1399440,
+      "text": "Yeah, absolutely. So I think there's a lot of opportunity between the groups to sort of begin to talk a little bit more. So this year at Visweek, we're trying to actually build a concentrated, directed intent for an industry track. We are. The industry track is going to be material that's oriented towards practitioners or oriented towards academics who want to learn about issues that drive practice. What we're hoping is that the sorts of people who are out there and being paid to build visualizations will be able to come out and share the challenges and share the questions that they have, and the academics will be able to learn from them, will be able to teach them, and we'll be able to share lots of ideas. This year is a particularly good one because the conference board is actually heavily filled with people who, like me, sort of sit in between multiple worlds. We've got Frank van Ham as the industry chair. He's from IBM. He used to be from IBM research, but he's actually moved over to a product group. The conference is being generally organized by the team from Pacific National Labs, which is a government industry group. And the exhibits chair is from Microsoft research. Also, he's Steven Drucker. And so with all these people from industry, we have a real opportunity for the industry people to stand up and talk a little bit about what their needs are. And we're hoping that we can get this sort of rolling as a conversation between the two populations.",
+      "id": "ep_9_ut_54"
+    },
+    {
+      "end": 1508494,
+      "speaker": "Enrico Bertini",
+      "start": 1507014,
+      "text": "That's fantastic.",
+      "id": "ep_9_ut_55"
+    },
+    {
+      "end": 1520024,
+      "speaker": "Moritz Stefaner",
+      "start": 1508654,
+      "text": "So what does track mean? Is it like in parallel to the rest of the program, or is it like the days before the days after? How does it relate to the rest of the the conference programs?",
+      "id": "ep_9_ut_56"
+    },
+    {
+      "end": 1594074,
+      "speaker": "Danyel Fisher",
+      "start": 1522764,
+      "text": "It's mostly going to be in parallel. We are fortunate enough to be at a rather large hotel this year, and so some of the size constraints that Visweek has had to contend with in the past won't be quite as much of an issue as they have been. Although we're still going to make some tough decisions. There's always much more material than we could show than we're going to be able to. Nonetheless, throughout the duration of the conference, there's going to be a track dedicated to additional material. Much of that, not all of that is going to be industry focused or things that we believe that come from industry. Right now, as we speak, the workshops, panels, and tutorials chairs are evaluating the workshops, panels, and tutorials that they were sent. Some of those are going to be referred over to me as the industry chair, and I'm going to work with the conference chairs to try to assemble a program of material that's particularly interesting. We're able to put out as a teaser that first piece of material, the infovis special session, the tales from the trenches session.",
+      "id": "ep_9_ut_57"
+    },
+    {
+      "end": 1598542,
+      "speaker": "Enrico Bertini",
+      "start": 1596094,
+      "text": "This is going to be a panel or what?",
+      "id": "ep_9_ut_58"
+    },
+    {
+      "end": 1713394,
+      "speaker": "Danyel Fisher",
+      "start": 1598678,
+      "text": "That's going to be a panel where we've gone out and invited four different people whose day jobs are creating visualizations to talk about what the major issues that they run into when they build their visualizations and to talk about how they do it. So we've got a guy from Bungie who is going to be talking about the work that he's done to watch how players play the online games like Halo Three and Halo Reach. We've got Kim, we've got Kim Reese from Periscopic who's going to be talking about some of their work with nonprofits. We've got Jason Alcock from Aperture. They're a metco marketing company. And I happened to meet him at a Seattle visualization meetup, and he was there because he really wanted to talk about how they are going to deal with this problem of medical marketing is completely changing a number of years. Not very many years ago, it was a field where you knew people by handshakes and where people flew all over the country shaking hands with as many doctors as they possibly could and then trying to sell them products. They're now trying to apply modern marketing techniques. And the field is becoming a data driven field. And when you become a data driven field, you need to find ways to share that information, present that information, analyze that information. And we've got Lori Williams from Tableau, who's actually going to talk about how people use Tableau public to share and explore their own visualizations. So between those, I'm hoping that one this gives industry people a sense of how other people are solving problems, and it gives academics, as we've been saying, a sense of the diversity of problems out there and more of the different types of approaches that they could be taking to address visualization challenges.",
+      "id": "ep_9_ut_59"
+    },
+    {
+      "end": 1752904,
+      "speaker": "Moritz Stefaner",
+      "start": 1714894,
+      "text": "In my experience, I think these types of things are great also for helping. So often you have inside organizations, people really excited about visualization, but they have trouble maybe convincing the rest of the company, and it can help a lot. If you can then really pinpoint to, okay, they are doing it like this. And here's our competition. They are using it as well in this way so alone. This whole awareness of how much it can be used or how much it is used already can be so valuable. And that's just such a simple thing, right? Just show and tell, basically.",
+      "id": "ep_9_ut_60"
+    },
+    {
+      "end": 1787164,
+      "speaker": "Danyel Fisher",
+      "start": 1753244,
+      "text": "Yeah, absolutely. The template that I've given to all three researchers or to all four speakers is something like, what's the right phrasing? We had a business problem. We collected data. We created a visualization. We made lots of money. Hopefully what you're going to see is some very concrete stories of the real results. Not, we explored the data and it was interesting, but we explored the data and it taught us a thing that was actionable, that allowed us to make a decision. Yeah.",
+      "id": "ep_9_ut_61"
+    },
+    {
+      "end": 1807344,
+      "speaker": "Enrico Bertini",
+      "start": 1788284,
+      "text": "So, Danyel, let me ask you something. So if any of our listeners are people coming from industry and they are still doubtful whether to attend Visweek or not, what do you think? Let's try to make some kind of advertisement. What's the main reason why they should come to Visweek?",
+      "id": "ep_9_ut_62"
+    },
+    {
+      "end": 1863162,
+      "speaker": "Danyel Fisher",
+      "start": 1808324,
+      "text": "They should come to this week first to be educated and to learn. They're going to see the newest and the most interesting new visualization techniques out there. Many times they're going to be wrapped in papers that have material that they're not as interested in. But if you just sort of like, watch the slides and swing through the talks, you're going to be seeing where the cutting edge is. You're going to have a chance to meet those researchers and direct their research agendas so that over the next few years, the questions that you ask will become the research agendas. And for people who are in organizations that are trying to build their visualization teams out, you're going to be in a place where the hottest and most interesting graduate students are beginning to finish up and will be looking for jobs. So there's going to be fantastic opportunities for recruiting.",
+      "id": "ep_9_ut_63"
+    },
+    {
+      "end": 1879294,
+      "speaker": "Enrico Bertini",
+      "start": 1863338,
+      "text": "Sure, sure. But do you think that right now? So from your experience talking with these people from industry, do you think there is a mismatch between what's the main focus of researchers and what, and what are the main needs of these people?",
+      "id": "ep_9_ut_64"
+    },
+    {
+      "end": 1920624,
+      "speaker": "Danyel Fisher",
+      "start": 1880354,
+      "text": "Mismatch is a strong word. I do think that the questions that researchers ask are not always directly applied, and I'm okay with that. But it's certainly the case that researchers have traditionally not really known how to communicate their work very well to the industry and vice versa. And I think that's really a shame. I think that there's differences in the way that academics think about what visualization is about and what it's for because they're not trying, in the end to make money, and practitioners, in the end, are trying to build their visualization so that they can do something else.",
+      "id": "ep_9_ut_65"
+    },
+    {
+      "end": 1922384,
+      "speaker": "Enrico Bertini",
+      "start": 1921124,
+      "text": "Yeah, sure.",
+      "id": "ep_9_ut_66"
+    },
+    {
+      "end": 1980234,
+      "speaker": "Moritz Stefaner",
+      "start": 1923484,
+      "text": "Maybe also to draw attention a bit to the fact, I mean, industry. I can see how industry is a good word for applied use of visualization, but maybe to also mention that a lot of the really interesting work is coming from much smaller organizations these days, or maybe individuals. And so I can totally see why a big company could send somebody to Visweek. But I know that, for instance, going to Visweek is a big thing for individuals if they have to pay it on themselves. And this is maybe one of the things already where, let's say, in standard academia, the assumption is your organization pays for you, you know, to go to the conferences, and maybe your company might pay for you if you're lucky enough to be with who is there. Okay. I was just wondering if it's mine or yours this time. It's mine.",
+      "id": "ep_9_ut_67"
+    },
+    {
+      "end": 1984998,
+      "speaker": "Enrico Bertini",
+      "start": 1981774,
+      "text": "I think last time we had yours or two episodes ago.",
+      "id": "ep_9_ut_68"
+    },
+    {
+      "end": 1986382,
+      "speaker": "Moritz Stefaner",
+      "start": 1985166,
+      "text": "Yeah, yeah, exactly.",
+      "id": "ep_9_ut_69"
+    },
+    {
+      "end": 1987434,
+      "speaker": "Enrico Bertini",
+      "start": 1986438,
+      "text": "Yeah, go ahead.",
+      "id": "ep_9_ut_70"
+    },
+    {
+      "end": 2017684,
+      "speaker": "Moritz Stefaner",
+      "start": 1988434,
+      "text": "Just, Danielle, do you have any thoughts on how we could make it easier, let's say, lower the threshold for people to get, maybe get addicted by providing some easier access than the. I mean, I think at the moment it's more like either you pay, how much is it? Like $800 or so, and then you're there for the whole week, but there's no big chance of, let's say, just checking it out for one day or something like this.",
+      "id": "ep_9_ut_71"
+    },
+    {
+      "end": 2042484,
+      "speaker": "Danyel Fisher",
+      "start": 2018304,
+      "text": "I don't recall we talked about a day pass, but I don't know whether we've got what. Yes, there, in fact, is a single day and a two day registration available for the conference at much more reasonable rates. If you are a, if you plan ahead a little bit, you can get in for a single day for $300, for two days, for 600, which is still not great, but is a whole lot better.",
+      "id": "ep_9_ut_72"
+    },
+    {
+      "end": 2075654,
+      "speaker": "Moritz Stefaner",
+      "start": 2043864,
+      "text": "If there were, for instance, some events that could be interesting for the special type of people, and there would be bundled around two days or one where you could just drop by and discuss with others, I think these things might really help because for me, I never went to this week, although I'm really interested. But practically, it's a week of hotel, it's a big flight, plus $800. Suddenly you're, like, into thousands of euros. And if you pay that yourself, you're really thinking about. Should I do that?",
+      "id": "ep_9_ut_73"
+    },
+    {
+      "end": 2079074,
+      "speaker": "Enrico Bertini",
+      "start": 2075734,
+      "text": "Would it be different for you if the conference would be in Europe?",
+      "id": "ep_9_ut_74"
+    },
+    {
+      "end": 2083714,
+      "speaker": "Moritz Stefaner",
+      "start": 2080414,
+      "text": "Maybe. I mean, the travel is already a big part. Of course.",
+      "id": "ep_9_ut_75"
+    },
+    {
+      "end": 2162550,
+      "speaker": "Danyel Fisher",
+      "start": 2086174,
+      "text": "Moritz, on the one hand, I totally see where you're coming from, and it is pricey. On the other hand, I'd point out that in many ways, while it seems expensive, this is a screaming deal. I was looking at conferences like the O'Reilly Strata conference. Strata is O'Reilly's big industry oriented conference. It's mostly education oriented as well as sales. In fact, my fiance is very excited about going because she's a data analyst at a Seattle area game studio. And one of the things that I overhear people being really excited about Strata is the fact that ten to 20% of the talks are about information visualization. And there's a couple of speakers who they get every year to come in and talk about what infovis is and what it can do. And those speakers are really good. I mean, they're great choices. You're going to pay two to $3,000 for a week of Strata, and at that time, you're going to get 20% topic, 20% information visualization. So there's a pretty strong argument that while it's pricey, it's actually a really good deal if this is what you're interested in. But I totally see where you're coming from, and I do understand that that can be a tough trade off.",
+      "id": "ep_9_ut_76"
+    },
+    {
+      "end": 2163646,
+      "speaker": "Moritz Stefaner",
+      "start": 2162662,
+      "text": "Yeah. Yeah.",
+      "id": "ep_9_ut_77"
+    },
+    {
+      "end": 2187844,
+      "speaker": "Danyel Fisher",
+      "start": 2163830,
+      "text": "If you're in the Seattle area, we are going to attempt to have an industry reception one of the nights where people from around town and people who are able to make it into town can come in, perhaps at least peruse some of the posters and get to talk with academics about important issues for industry. Sort of a combination of a meetup and an industry event.",
+      "id": "ep_9_ut_78"
+    },
+    {
+      "end": 2202320,
+      "speaker": "Moritz Stefaner",
+      "start": 2187964,
+      "text": "Yeah, I think that's a great idea, because many of these people, they might buy the full ticket next year once they see how much is going on and get excited about it. But I think you need some low threshold way of getting people into it.",
+      "id": "ep_9_ut_79"
+    },
+    {
+      "end": 2221324,
+      "speaker": "Enrico Bertini",
+      "start": 2202372,
+      "text": "Yeah, yeah. I think one of the policies of this week is that if you are an organizer, if I remember well, if you organize either a workshop or a panel or a tutorial, your registration is free. Am I correct? Danyel? Should be something like that, right?",
+      "id": "ep_9_ut_80"
+    },
+    {
+      "end": 2239132,
+      "speaker": "Danyel Fisher",
+      "start": 2222104,
+      "text": "I don't know if it's free. I believe that there is at least a reduction. There is definitely a fee reduction for being an organizer. And for some of the invited speakers, they're able to arrange discounts, although not.",
+      "id": "ep_9_ut_81"
+    },
+    {
+      "end": 2252716,
+      "speaker": "Enrico Bertini",
+      "start": 2239148,
+      "text": "Only if you, if you live in the US, you are not too far from where the conference is organized and you manage to have a panel or something similar accepted. This might actually come down to a few hundred dollars, right?",
+      "id": "ep_9_ut_82"
+    },
+    {
+      "end": 2253904,
+      "speaker": "Danyel Fisher",
+      "start": 2252900,
+      "text": "Absolutely.",
+      "id": "ep_9_ut_83"
+    },
+    {
+      "end": 2257396,
+      "speaker": "Moritz Stefaner",
+      "start": 2254284,
+      "text": "But you're also investing a lot of work in making the country.",
+      "id": "ep_9_ut_84"
+    },
+    {
+      "end": 2265186,
+      "speaker": "Enrico Bertini",
+      "start": 2257460,
+      "text": "Yeah, sure, sure, sure, sure. And you're also going to probably the top event in the field, so.",
+      "id": "ep_9_ut_85"
+    },
+    {
+      "end": 2265474,
+      "speaker": "Danyel Fisher",
+      "start": 2265250,
+      "text": "Right.",
+      "id": "ep_9_ut_86"
+    },
+    {
+      "end": 2266066,
+      "speaker": "Enrico Bertini",
+      "start": 2265514,
+      "text": "Yeah.",
+      "id": "ep_9_ut_87"
+    },
+    {
+      "end": 2274214,
+      "speaker": "Danyel Fisher",
+      "start": 2266210,
+      "text": "In the end, I don't think it's about, it's necessarily about the money so much. As Morris was pointing out before, it's a week of your life.",
+      "id": "ep_9_ut_88"
+    },
+    {
+      "end": 2274970,
+      "speaker": "Enrico Bertini",
+      "start": 2274634,
+      "text": "Yeah.",
+      "id": "ep_9_ut_89"
+    },
+    {
+      "end": 2300570,
+      "speaker": "Danyel Fisher",
+      "start": 2275002,
+      "text": "And if you're Morris, it's a week of your life plus a couple of overseas plane flights. And that's a difficult decision. What I'm also hoping is that we're going to be able to work with podcasts like this and some of the bloggers who are out there reporting on this work to try and disseminate a lot of these discussions out there so that even if you're not able to make it into the room for the conference, you're still able to share in some of the great stuff that's going on.",
+      "id": "ep_9_ut_90"
+    },
+    {
+      "end": 2305174,
+      "speaker": "Moritz Stefaner",
+      "start": 2300642,
+      "text": "Enrico, we should transmit live from this week with a big microphone.",
+      "id": "ep_9_ut_91"
+    },
+    {
+      "end": 2319214,
+      "speaker": "Enrico Bertini",
+      "start": 2305954,
+      "text": "Yeah, we always try to do things like that, but we never tried or three times it was like, hey, I'll go there, we make some interviews. And then, oh, yeah, I ate too much, I drank too much.",
+      "id": "ep_9_ut_92"
+    },
+    {
+      "end": 2327106,
+      "speaker": "Moritz Stefaner",
+      "start": 2321394,
+      "text": "Now. And it's sort of. The difficult thing is really when you pull out the microphone, you know, the conversation changes, of course.",
+      "id": "ep_9_ut_93"
+    },
+    {
+      "end": 2334734,
+      "speaker": "Enrico Bertini",
+      "start": 2327170,
+      "text": "So if any of our listeners volunteer for doing that, I wouldn't argue against it.",
+      "id": "ep_9_ut_94"
+    },
+    {
+      "end": 2336010,
+      "speaker": "Moritz Stefaner",
+      "start": 2335234,
+      "text": "It's true.",
+      "id": "ep_9_ut_95"
+    },
+    {
+      "end": 2369560,
+      "speaker": "Enrico Bertini",
+      "start": 2336082,
+      "text": "Yeah. I mean, I tried to do it several times now and I never managed to do it really, really hard. Yeah. What else? I wanted to say something. Yeah. I wanted to say maybe, Moritz, I will ask this thing to you. So far, we have been talking about how conferences, academic conferences like this week, can attract more people from industry. But I think the other way around is interesting, too. So how can events like I o or similar things like zip, c? What's the right pronunciation? I don't know.",
+      "id": "ep_9_ut_96"
+    },
+    {
+      "end": 2373204,
+      "speaker": "Moritz Stefaner",
+      "start": 2369592,
+      "text": "C. Yeah, the c conference. And we did the c workshop.",
+      "id": "ep_9_ut_97"
+    },
+    {
+      "end": 2391136,
+      "speaker": "Enrico Bertini",
+      "start": 2374224,
+      "text": "Even strata itself. How can we make sure that people from academia attend this kind of conferences or are invited in this kind of conferences? Because as far as I understand, there is a very, very small overlap, if any.",
+      "id": "ep_9_ut_98"
+    },
+    {
+      "end": 2449164,
+      "speaker": "Moritz Stefaner",
+      "start": 2391240,
+      "text": "Yeah, yeah, no, it's true. There is a certain. So I also think that could be really interesting. Like, it could be nice to have a few, like, seasoned infovis researchers speak at these conferences as well, but because the communities are not that well connected, maybe, maybe the awareness is not there that these people exist and what they're doing. I mean, you have some, let's say, exemplary figures like Martin Wattenberg or Jeff here again, who are known in both scenes. But you're right, it's a small, there is a small overlap only. And I mean, we had Andrew Vande Moere speak at C conference in Wiesbaden, so that was nice. And he also reported a lot on academic research and information visualization, especially about persuasive visualization. But yeah, traditionally these conferences are much more design focused, much more practical.",
+      "id": "ep_9_ut_99"
+    },
+    {
+      "end": 2467200,
+      "speaker": "Enrico Bertini",
+      "start": 2451024,
+      "text": "What do you think is the problem there? Is it more that the organizers just don't know these people or they think they are not the right people for speaking at this kind of conferences? Or what do you think is the main reason behind that?",
+      "id": "ep_9_ut_100"
+    },
+    {
+      "end": 2532894,
+      "speaker": "Moritz Stefaner",
+      "start": 2467392,
+      "text": "I mean, it is two different worlds, and an academic talk is a bit different also than maybe a design conference talk. Right. So there is already a different style of presenting ideas, of talking about your work. It is two different worlds, after all. But I do think that there could be really, sometimes it can be so good to learn about that other world and see how people think in that area and apply that back or refer that back to your own practice. Right. I mean, that's always when the big learning happens. I think when you talk to somebody from totally outside your field and then realize the commonalities, I think it's more an awareness issue. Maybe there might be like also certain prejudices. I mean, of course, the organizers of these conferences, they have never been to Visweek. I mean, you have never been to Iho as well, probably. And so, you know, so I think it all starts with being in the same room at the same time and just learning about, you know, the personal dimension. Yeah, but maybe, you know, so it's mostly about awareness, I would say.",
+      "id": "ep_9_ut_101"
+    },
+    {
+      "end": 2551054,
+      "speaker": "Danyel Fisher",
+      "start": 2533994,
+      "text": "I think a lot of it is awareness. I think part of it is the way that different people communicate. With the exception of the speakers who you saw at IO, most of the Visweek academics don't know to or don't choose to publicize their work very much online.",
+      "id": "ep_9_ut_102"
+    },
+    {
+      "end": 2552370,
+      "speaker": "Enrico Bertini",
+      "start": 2551434,
+      "text": "Yeah, yeah.",
+      "id": "ep_9_ut_103"
+    },
+    {
+      "end": 2569736,
+      "speaker": "Danyel Fisher",
+      "start": 2552442,
+      "text": "And so you're not necessarily finding out they exist. They're not in sort of the prominent part of that dialogue. And I think that finding ways for academics need to be reminded to talk about these issues very rapidly.",
+      "id": "ep_9_ut_104"
+    },
+    {
+      "end": 2597474,
+      "speaker": "Moritz Stefaner",
+      "start": 2569760,
+      "text": "We start reaching I at the moment for many people, if you appear on flowing data or if you appear on info statics. Right. And a lot of academic research does not pop up there because I don't know. Yeah, that's a good question. Maybe why it doesn't, because many, many things could be shown. There probably. Is it more like researchers don't really care about these platforms, or don't they know about them?",
+      "id": "ep_9_ut_105"
+    },
+    {
+      "end": 2637964,
+      "speaker": "Enrico Bertini",
+      "start": 2597634,
+      "text": "In a way, I think it's a matter. It's a little bit of a cultural matter, and also the fact that as far as I can tell, there are not strong incentives, or at least there hasn't been strong incentives so far for an academic to really reach out to these people or having, for instance, a strong presence on the web. So I think this pretty much correlates with having a strong presence on the web. So if you take, for instance, Robert Kosara, he has a strong presence on the web, and he's invited. He's invited in this kind of, in this kind of conferences.",
+      "id": "ep_9_ut_106"
+    },
+    {
+      "end": 2681504,
+      "speaker": "Moritz Stefaner",
+      "start": 2638424,
+      "text": "The interesting thing is, again, he was, he was also a judge at Malofiej, at the Infographics, you know, designers award. And I think this is solely because he has a blog and people know him from that blog because he writes a lot there and he's very active in the discussion. And. Yeah, and then the contrast might maybe be the researcher where I see, oh, he's written like 100 papers, but I click three of them and they're all behind, like a paywall at IEEE or ACM. I mean, I do have an ACM account, but I don't have an Ieee account. And so I can't even see what they are working on, basically, because I just see the paper titles. I mean, that might be sort of maybe the strong contrast there.",
+      "id": "ep_9_ut_107"
+    },
+    {
+      "end": 2759564,
+      "speaker": "Danyel Fisher",
+      "start": 2682444,
+      "text": "So I have two comments here. One of them, I totally agree with what you're saying about paywalls. The open access discussion is one that's actively happening on all levels, including even the very highest of IEEE. One thing I can say to the Kosaras of the world and everyone else is that both IEEE and ACM give you permission, give individual authors permission to put their own articles on their own website. So it should be the case that with a few minutes of searching around the Internet, you should be able to pretty rapidly find most of these. Now, if Kosara isn't putting that up, that's really unfortunate. And, you know, we should go yell at him, because he should. Because he should be making that information available. He's got the legal permission to, and it's definitely something that should be shared. The other side you were asking about why academics aren't doing a better job of self promoting. The story that I hear from many academics is that their major concern is justifiably getting tenure. And to do that, they are rewarded mainly for publishing in prominent journals and works that are well cited. So they don't necessarily see a direct virtue to showing up at ieo or even being an invited speaker.",
+      "id": "ep_9_ut_108"
+    },
+    {
+      "end": 2763924,
+      "speaker": "Moritz Stefaner",
+      "start": 2759944,
+      "text": "That's then more a hobby activity in case you do it. Right, right.",
+      "id": "ep_9_ut_109"
+    },
+    {
+      "end": 2828904,
+      "speaker": "Enrico Bertini",
+      "start": 2766504,
+      "text": "Sorry. I can tell you from my experience that I think this might change or is already changing. I had the chance to talk with Robert some time ago. I actually asked him a question that is very much related to what we are discussing here. I actually told him, so I am applying for a number of positions, and I really don't know if I should even mention my blog. And he told me, you know, for the fact. So he himself was surprised about that. But he told me that during his tenure process, many of the people were contacted for the tenure process. They actually mentioned the blog itself, his blog. And this was part of the reason why he got his tenure. So I think that not necessarily the fact that so far, this hasn't been a main component of the tenure process, it doesn't mean that it cannot become at least one small part of the tenure process itself.",
+      "id": "ep_9_ut_110"
+    },
+    {
+      "end": 2834202,
+      "speaker": "Moritz Stefaner",
+      "start": 2830354,
+      "text": "So you're saying academia is starting to respect these.",
+      "id": "ep_9_ut_111"
+    },
+    {
+      "end": 2837922,
+      "speaker": "Enrico Bertini",
+      "start": 2834338,
+      "text": "Of course. You have a blog stop.",
+      "id": "ep_9_ut_112"
+    },
+    {
+      "end": 2838794,
+      "speaker": "Moritz Stefaner",
+      "start": 2838098,
+      "text": "Right?",
+      "id": "ep_9_ut_113"
+    },
+    {
+      "end": 2887130,
+      "speaker": "Enrico Bertini",
+      "start": 2838954,
+      "text": "I have 20,000 subscribers, but at the same time, it could be an additional component, as far as I can tell. And me myself, I've been presenting my work in a number of universities during the last few months, and I always try to mention at the end of my talk, my blog, and some people came to me and said, oh, that's cool. Or some other people said, oh, yeah, I saw it a couple of times. And that post there was interesting, or stuff like that. So I think if used in an intelligent way, it could be an additional tool in the toolbox. So not necessarily you need it. It's not something that you cannot live without, but it could be an interesting component. And I imagine this could become more and more powerful in this future.",
+      "id": "ep_9_ut_114"
+    },
+    {
+      "end": 2915074,
+      "speaker": "Moritz Stefaner",
+      "start": 2887242,
+      "text": "I think the future image of a good researcher should be that it's also one that is very active in disseminating his work. You know, I mean, it's not for everybody. I mean, some people are really just good at sitting down in a dark room and thinking, you know, and then some other people do better, the, you know, the, let's say disseminating the results. But I think in general, I think that should be. Yeah, should be one of your part of your job as a researcher?",
+      "id": "ep_9_ut_115"
+    },
+    {
+      "end": 2933790,
+      "speaker": "Enrico Bertini",
+      "start": 2916054,
+      "text": "Yeah, I personally think. I don't know, maybe this is going to be a bit off topic, but I personally think that. So there are so many researchers around the world today that marketing yourself and your research has become a really, really important part of your research, of your research already.",
+      "id": "ep_9_ut_116"
+    },
+    {
+      "end": 2934474,
+      "speaker": "Moritz Stefaner",
+      "start": 2933862,
+      "text": "Right?",
+      "id": "ep_9_ut_117"
+    },
+    {
+      "end": 2937474,
+      "speaker": "Enrico Bertini",
+      "start": 2935014,
+      "text": "I don't know. Danyel, what's your take on that?",
+      "id": "ep_9_ut_118"
+    },
+    {
+      "end": 2999714,
+      "speaker": "Danyel Fisher",
+      "start": 2938304,
+      "text": "I would love to see that better rewarded or for academics to perceive it as better rewarded. I agree with you that underneath it probably is in fact, very valuable. It builds up reputation. It means that you're going to get a stronger tenure letter in the end. It means that more people are going to be talking about your work. But I'm not sure that academics necessarily perceive that as being career valuable yet. And I think one of the things that I'm kind of hoping actually coming out of, again, not to be a one trick pony, but one of the things that I hope comes out of this industry track is a better awareness of the potential impactfulness. I think there's a lot of people who don't know that infovis actually is solving real problems for real people. And hopefully they'll get a better sense of, hey, wait, if I do this right, I'll impact people's lives. They'll want to talk about it. They'll want to talk about me. You're going to see more of me. And yes, it'll help my academic career, or it'll help me in industry, or we're going to have more conversation.",
+      "id": "ep_9_ut_119"
+    },
+    {
+      "end": 3027714,
+      "speaker": "Enrico Bertini",
+      "start": 3001694,
+      "text": "Yeah. I think that's a unique feature of visualization that maybe distinguish it from other areas of computer science. The fact that we have the. In principle, we have the power of developing something that in a matter of hours can have an impact on real people. So you create something, you publish it on the web, and after a few seconds, you might have people using it. And this is pretty unique, I think.",
+      "id": "ep_9_ut_120"
+    },
+    {
+      "end": 3100794,
+      "speaker": "Moritz Stefaner",
+      "start": 3029734,
+      "text": "But I find it interesting, again, because one thing I was always, or what I had trouble with. I used to have an academic career, I should mention, but one thing I had trouble with was the fact that I think a paper is a bad representation of the thing you're actually researching. Right. In our field. So in some fields, it might be really perfect and nice, but in our field, you know, you always have these tiny screenshots printed in black and white. And actually, the main thing is the demo or the prototype, which you have to ideally first understand and use before you even read the paper. But it's so detached from the text, it's somewhere on the web, if you're lucky, still there years afterwards. And this would be great too, if there was some, I don't know, it's so hard to change these things. But if there were new forms of publication in interaction design or in visualization research, where you could more tightly connect the thing you're actually working on with the documentation and so on.",
+      "id": "ep_9_ut_121"
+    },
+    {
+      "end": 3109722,
+      "speaker": "Danyel Fisher",
+      "start": 3100874,
+      "text": "I totally agree. It's a little silly at this point for us to be publishing things as two column PDF's when that just doesn't correspond.",
+      "id": "ep_9_ut_122"
+    },
+    {
+      "end": 3113034,
+      "speaker": "Moritz Stefaner",
+      "start": 3109778,
+      "text": "Well, no hyperlinks. Yeah, it's amazing, but.",
+      "id": "ep_9_ut_123"
+    },
+    {
+      "end": 3120934,
+      "speaker": "Danyel Fisher",
+      "start": 3113114,
+      "text": "Yeah, yeah, but that's a much bigger academic discussion than we wrote.",
+      "id": "ep_9_ut_124"
+    },
+    {
+      "end": 3154174,
+      "speaker": "Moritz Stefaner",
+      "start": 3121674,
+      "text": "A lot of worlds, no? And these things, they do take time. And I know there's a lot of things happening, especially around open access and more lightweight publishing formats and so on. But I think at the moment it's still one of these things that, you know, in academia you're very used to that. If you're out of this world, you suddenly find that a bit strange that you would be working with these huge documents that nobody can access and so on that don't show up on Google properly. Like a blog post. Yeah.",
+      "id": "ep_9_ut_125"
+    },
+    {
+      "end": 3179064,
+      "speaker": "Enrico Bertini",
+      "start": 3154994,
+      "text": "So another thing I would like to ask you is, so we mainly talked about using events like this week or IO as a way to let academics and practitioners meet. What else can we do? So can we put in place other strategies to increase the communication between these, these people?",
+      "id": "ep_9_ut_126"
+    },
+    {
+      "end": 3190104,
+      "speaker": "Danyel Fisher",
+      "start": 3180324,
+      "text": "Well, I'm delighted that there's things like a podcast out there where people without pictures talk about visualization, but.",
+      "id": "ep_9_ut_127"
+    },
+    {
+      "end": 3193624,
+      "speaker": "Moritz Stefaner",
+      "start": 3191804,
+      "text": "It's quite a stunt, isn't it?",
+      "id": "ep_9_ut_128"
+    },
+    {
+      "end": 3197304,
+      "speaker": "Enrico Bertini",
+      "start": 3194844,
+      "text": "I must confess we were quite scared.",
+      "id": "ep_9_ut_129"
+    },
+    {
+      "end": 3206222,
+      "speaker": "Moritz Stefaner",
+      "start": 3198044,
+      "text": "We already forgot that this might be an issue. In the beginning we were like, ah, this won't work. But then we did it nevertheless.",
+      "id": "ep_9_ut_130"
+    },
+    {
+      "end": 3257348,
+      "speaker": "Danyel Fisher",
+      "start": 3206398,
+      "text": "But it really does seem to work. And I think you've got a lot of good discussions happening here. So I think that projects like this, where you in fact are living out that disconnection between two or that connection between two groups is fantastic. I love to sort of think about other ways. I think that part of it is I'd like to see academics doing a better job of promoting their work and talking about what they're doing. It's going to be a bigger trick for industry people if you work. If you're an independent practitioner like Moritz, you can go out there and say, hey, here's a visualization I created last week. Take a look at it. But if you're laboring away at, you know, SQL server, you don't necessarily get to share the day to day things that you've been working on, the cool new features until SQL Server comes out and you're like, hey, here's the thing that we built over the last two years.",
+      "id": "ep_9_ut_131"
+    },
+    {
+      "end": 3264984,
+      "speaker": "Moritz Stefaner",
+      "start": 3257436,
+      "text": "Yeah. And many enterprise things you can enjoy at all. So. Yeah, yeah. That makes it harder, of course.",
+      "id": "ep_9_ut_132"
+    },
+    {
+      "end": 3311934,
+      "speaker": "Enrico Bertini",
+      "start": 3267684,
+      "text": "Yeah. And maybe another thing. So, Moritz, I wanted to ask you, I know for sure that you are one of those designers who are always aware or trying to stay up to date to what, what is created and proposed in academic conference. Right. So how do you go about it? So you basically try to access the proceedings of the, of the latest conferences, and then you try to pick the, what, what really interests you. And I know you have a problem, or you mentioned before that there might, there might be an access problems because often these papers are behind some walls. And so maybe this is another, another problem we should discuss here. Right?",
+      "id": "ep_9_ut_133"
+    },
+    {
+      "end": 3413316,
+      "speaker": "Moritz Stefaner",
+      "start": 3313114,
+      "text": "Yeah. I mean, you have to, if you're like hunting a lot and you know the names of the people, or if you go to their websites and so on, you might get lucky and they have a pre print published or something like this. But if you don't have all the accounts that come with, let's say, a position in a university or a research lab, it's sometimes a bit hard, and sometimes you just hit a wall, like especially for older papers or something like that. The other thing is, I'm noticing myself, I'm reading less papers now that I've been doing a few years of practice. This might just again be an awareness thing, or that the practical impact has been not that high. I'm not sure about that. But I always try to follow the visualization research with respect to new algorithms or new techniques, because I just find that exciting myself, you know? And sometimes you can actually, you can use that in a project and find exactly that one chart type or that one algorithm that works for that case. So I think that's just good practice to know your tools. And the other thing is, what I'm really always interested in is like perceptual laws and evaluations of certain techniques where I would never have the time to figure that out, you know, where nobody else has the time to figure that out. And it can be so great if then somebody from research sits down and really measures, like, for instance, for me, this paper about the arrow directions, like directed edges and graphs, that was so enlightening. Was it Jack Van Weich's department? I can't remember. Yeah, I think so.",
+      "id": "ep_9_ut_134"
+    },
+    {
+      "end": 3414104,
+      "speaker": "Enrico Bertini",
+      "start": 3413340,
+      "text": "Can you open?",
+      "id": "ep_9_ut_135"
+    },
+    {
+      "end": 3415620,
+      "speaker": "Moritz Stefaner",
+      "start": 3414564,
+      "text": "Yeah, exactly.",
+      "id": "ep_9_ut_136"
+    },
+    {
+      "end": 3416324,
+      "speaker": "Enrico Bertini",
+      "start": 3415732,
+      "text": "Can you open?",
+      "id": "ep_9_ut_137"
+    },
+    {
+      "end": 3450104,
+      "speaker": "Moritz Stefaner",
+      "start": 3416404,
+      "text": "Yeah, yeah, yeah. And this was so enlightening that, I mean, I always had this intuition that arrows might not be the strongest, you know, choice, and then I might pick some tapered edges, triangles or something like this. But they actually went there to measure, like, how well these perform against each other, in which situations, what the trade offs are. And this can be so helpful also for your practice, especially in, like, undermining or, like, feeding, you know, or putting something behind your intuitions or maybe also disappointing some of your intuitions, just learning how it works.",
+      "id": "ep_9_ut_138"
+    },
+    {
+      "end": 3473288,
+      "speaker": "Enrico Bertini",
+      "start": 3450484,
+      "text": "Let me ask you something else, Moritz. So I was always be surprised by talking with you to discover how well, you know, the research behind visualization by being a designer, by training. And I might be wrong, but my feeling is that that's not common practice among designers. Am I correct?",
+      "id": "ep_9_ut_139"
+    },
+    {
+      "end": 3473768,
+      "speaker": "Danyel Fisher",
+      "start": 3473416,
+      "text": "Yeah.",
+      "id": "ep_9_ut_140"
+    },
+    {
+      "end": 3567584,
+      "speaker": "Moritz Stefaner",
+      "start": 3473816,
+      "text": "I became a designer very late. I mean, I did study cognitive science first and did work on a research project which was about e learning, but I did the visualization part there. So I think that it's kind of a strange career. And many people who will come, let's say, more directly from the graphic design area, they are not even used to reading papers. Right. So at least I was used to that whole how this whole citation, peer review and so on thing works. And I also wrote a few papers, so I know what goes, how much work goes into a good paper and so on. But somebody who comes from, directly from design school, they don't know about this whole practice. And honestly, the first paper you read is terribly hard to read. I mean, you probably forgot that by now, but it's terribly hard to read if you don't know all the codes and all the, you know, the language. The language, yeah. And it's sort of, you know, once you have read like 50 or 100 of them, you know, it goes very quick because they have these recurring structures. But if you haven't learned about this, it's hard work. And, yeah, so I think for many people that, again, there might be a high threshold just getting started into it because it's already so advanced, everything. And there are these sort of, these practices established. And, yeah, if you haven't studied that for a few years, you might be scared off maybe, or just have a hard time in getting into it.",
+      "id": "ep_9_ut_141"
+    },
+    {
+      "end": 3593954,
+      "speaker": "Enrico Bertini",
+      "start": 3568284,
+      "text": "And another thing I would like to touch here is the fact that, Danyel, I don't know if you agree with me, but academics are normally in other fields, those people who create strong textbook from which people can learn the basics of the field. And I think one big gap we still have in visualization is the fact that we don't have the visualization book coming from some academics. Right.",
+      "id": "ep_9_ut_142"
+    },
+    {
+      "end": 3603406,
+      "speaker": "Moritz Stefaner",
+      "start": 3594734,
+      "text": "You mean the practical book coming from an academic person or the Bible? Are you looking for the Bible, the whisper?",
+      "id": "ep_9_ut_143"
+    },
+    {
+      "end": 3612274,
+      "speaker": "Enrico Bertini",
+      "start": 3603470,
+      "text": "Not necessarily the Bible, but. But if you look at the books that are around so people doesn't learn visualization from books that are written by academics mostly.",
+      "id": "ep_9_ut_144"
+    },
+    {
+      "end": 3614178,
+      "speaker": "Moritz Stefaner",
+      "start": 3612394,
+      "text": "Oh, yeah. Yeah, that could be. Yeah.",
+      "id": "ep_9_ut_145"
+    },
+    {
+      "end": 3630214,
+      "speaker": "Enrico Bertini",
+      "start": 3614306,
+      "text": "Okay. So if you want to learn databases, you have two or three books in the market. If you want to learn data mining, you have two or three books in marketing. And these are, I might be wrong, but most of them are books written by people who are in academia.",
+      "id": "ep_9_ut_146"
+    },
+    {
+      "end": 3631354,
+      "speaker": "Danyel Fisher",
+      "start": 3630614,
+      "text": "Right.",
+      "id": "ep_9_ut_147"
+    },
+    {
+      "end": 3645022,
+      "speaker": "Enrico Bertini",
+      "start": 3632294,
+      "text": "We are still lacking this, the book coming from some visualization academics who try to teach the basics of visualization, with.",
+      "id": "ep_9_ut_148"
+    },
+    {
+      "end": 3707374,
+      "speaker": "Danyel Fisher",
+      "start": 3645078,
+      "text": "Perhaps the exception of like, Colin Ware's fairway classic book on perception issues. I do agree that what I would actually do if you're trying to sort of learn basics of visualization is, for now, skip the textbooks, go to one choice would be Jeff Heer's webpage, but there's a number of others. John Stasko has actually been collecting different people's lists, of course notes. And so you can get every slide that Jeff Heer has ever put up in one of his classes, every slide that John Stasko has ever put up in one of his classes. And you can see both what the topic breakdowns are, what the major topics they talk about are, and also what the visualizations they use as exemplars are. I think that that's not quite a textbook level yet, but it's getting close to a sense of.",
+      "id": "ep_9_ut_149"
+    },
+    {
+      "end": 3709626,
+      "speaker": "Moritz Stefaner",
+      "start": 3707414,
+      "text": "And you have all the pointists to the good stuff, right?",
+      "id": "ep_9_ut_150"
+    },
+    {
+      "end": 3710890,
+      "speaker": "Danyel Fisher",
+      "start": 3709690,
+      "text": "Yeah, yeah.",
+      "id": "ep_9_ut_151"
+    },
+    {
+      "end": 3712458,
+      "speaker": "Moritz Stefaner",
+      "start": 3711082,
+      "text": "That's great advice.",
+      "id": "ep_9_ut_152"
+    },
+    {
+      "end": 3721106,
+      "speaker": "Danyel Fisher",
+      "start": 3712586,
+      "text": "Links to all the readings. I don't know that anyone's gone through and sort of evaluated what the best subset of them are.",
+      "id": "ep_9_ut_153"
+    },
+    {
+      "end": 3722614,
+      "speaker": "Moritz Stefaner",
+      "start": 3721290,
+      "text": "That's a good idea.",
+      "id": "ep_9_ut_154"
+    },
+    {
+      "end": 3735066,
+      "speaker": "Danyel Fisher",
+      "start": 3723114,
+      "text": "But there's a but both Stasko and hair and. Oh, God. There's a couple others. I don't have them offhand, but we can perhaps add them to the show notes today.",
+      "id": "ep_9_ut_155"
+    },
+    {
+      "end": 3740882,
+      "speaker": "Moritz Stefaner",
+      "start": 3735210,
+      "text": "Yeah, that would be great. I stored away a few of these lectures as well, and I can look them up again. Yeah.",
+      "id": "ep_9_ut_156"
+    },
+    {
+      "end": 3742414,
+      "speaker": "Danyel Fisher",
+      "start": 3741058,
+      "text": "So let's start with those.",
+      "id": "ep_9_ut_157"
+    },
+    {
+      "end": 3750014,
+      "speaker": "Enrico Bertini",
+      "start": 3743154,
+      "text": "Yeah. And I think Tamara Munzner is going to publish a textbook soon. Maybe this one will make a difference.",
+      "id": "ep_9_ut_158"
+    },
+    {
+      "end": 3786204,
+      "speaker": "Moritz Stefaner",
+      "start": 3752194,
+      "text": "But I'm also not sure if the get started book does have to come from academia. I'm not sure about that. And I think, you know, like, that's more in the orali realm of things or you know, in this very practical realm, maybe that's all right. But you're right. There should be, like one accessible starting point into all the exciting research that's been done. But probably, I think the advice with the lecture notes or the lecture slides is a really good one because you have that immediate visual reference you can flip them through, and this could be a good start into the area.",
+      "id": "ep_9_ut_159"
+    },
+    {
+      "end": 3823290,
+      "speaker": "Danyel Fisher",
+      "start": 3787504,
+      "text": "Yeah. If you're just trying to get your head sort of. The other direction to go is perhaps skip textbooks. But things like the beautiful visualization collection that came out last year, two years ago now, things like, you know, the first or second of the Tufte books, I wouldn't buy the whole pack. They. I think it's a little bit of a diminishing returns. But certainly the first one for me really made me go, oh, wait, this is a way that we can systematically think about data and think about data visualization.",
+      "id": "ep_9_ut_160"
+    },
+    {
+      "end": 3824214,
+      "speaker": "Moritz Stefaner",
+      "start": 3823482,
+      "text": "Sure.",
+      "id": "ep_9_ut_161"
+    },
+    {
+      "end": 3826658,
+      "speaker": "Enrico Bertini",
+      "start": 3824794,
+      "text": "Yeah. Yeah, that's true.",
+      "id": "ep_9_ut_162"
+    },
+    {
+      "end": 3837450,
+      "speaker": "Danyel Fisher",
+      "start": 3826786,
+      "text": "But I do also agree that it would be really nice to see some more textbooks out there. Oh, right. Moritz, you were a co author in the beautiful viz book, so you've already flogged it, I'm sure.",
+      "id": "ep_9_ut_163"
+    },
+    {
+      "end": 3884564,
+      "speaker": "Moritz Stefaner",
+      "start": 3837562,
+      "text": "Yeah, yeah, but there was just one chapter. Yeah, but that was a good one, I think, because it was, like, very, like, focused on case studies. And, I mean, a case study is, in fact, where research and practitioning meets, right. This is where you, like, you describe, like, how you solved a specific problem and, you know, what techniques you applied. And I like that format of a case study a lot. The case study also has a big tradition in design and makes a lot of sense, also from a design point of view, to document your work in case studies. And I'd love to see more of that. Or I always love when people write a case study or have a nice talk on how they solve one specific problem.",
+      "id": "ep_9_ut_164"
+    },
+    {
+      "end": 3904944,
+      "speaker": "Danyel Fisher",
+      "start": 3885344,
+      "text": "Well, part of my help with this industry track and some of the other materials, you know, vizweek always has a handful of. They don't usually call them case studies, but they turn out to be someone talking about a problem they're trying to solve and how they solved it. And one of the things I really like about the visual analytics conference is that it seems to be even friendlier to those.",
+      "id": "ep_9_ut_165"
+    },
+    {
+      "end": 3906104,
+      "speaker": "Enrico Bertini",
+      "start": 3905324,
+      "text": "Yeah.",
+      "id": "ep_9_ut_166"
+    },
+    {
+      "end": 3910704,
+      "speaker": "Danyel Fisher",
+      "start": 3906444,
+      "text": "So I'm hoping there's a lot of places to go this year and watch people solving problems.",
+      "id": "ep_9_ut_167"
+    },
+    {
+      "end": 3922804,
+      "speaker": "Moritz Stefaner",
+      "start": 3912404,
+      "text": "Sounds good. I still have decided if I can make it this year. Oh, man, I think I need to decide. Yeah. So much going on, you know it.",
+      "id": "ep_9_ut_168"
+    },
+    {
+      "end": 3926472,
+      "speaker": "Enrico Bertini",
+      "start": 3924104,
+      "text": "I read Gregory's planning to go there?",
+      "id": "ep_9_ut_169"
+    },
+    {
+      "end": 3935288,
+      "speaker": "Moritz Stefaner",
+      "start": 3926568,
+      "text": "Yeah, I know many people are planning, so we'll see. Are you going anywhere?",
+      "id": "ep_9_ut_170"
+    },
+    {
+      "end": 3936604,
+      "speaker": "Enrico Bertini",
+      "start": 3935296,
+      "text": "If you go, you will regret.",
+      "id": "ep_9_ut_171"
+    },
+    {
+      "end": 3939324,
+      "speaker": "Moritz Stefaner",
+      "start": 3937784,
+      "text": "Do you have a paper in?",
+      "id": "ep_9_ut_172"
+    },
+    {
+      "end": 3946204,
+      "speaker": "Enrico Bertini",
+      "start": 3939704,
+      "text": "Of course, yes. I'm still waiting for the final. Final.",
+      "id": "ep_9_ut_173"
+    },
+    {
+      "end": 3948596,
+      "speaker": "Moritz Stefaner",
+      "start": 3946604,
+      "text": "But you're hoping?",
+      "id": "ep_9_ut_174"
+    },
+    {
+      "end": 3974092,
+      "speaker": "Enrico Bertini",
+      "start": 3948740,
+      "text": "Yeah, should be fine. Danielle, thanks a lot. Before finishing, I just wanted to ask you if you want to tell us something about your most recent work. I know it's a little bit off topic with regard to the episode, but I'm curious about what you are doing in visualization or things related to visualization. I would love to have you mention this thing here.",
+      "id": "ep_9_ut_175"
+    },
+    {
+      "end": 3976796,
+      "speaker": "Danyel Fisher",
+      "start": 3974228,
+      "text": "Sure, definitely. Some of my.",
+      "id": "ep_9_ut_176"
+    },
+    {
+      "end": 3981544,
+      "speaker": "Enrico Bertini",
+      "start": 3976820,
+      "text": "Just for the sake of reducing the gap between practitioners and academics.",
+      "id": "ep_9_ut_177"
+    },
+    {
+      "end": 4166143,
+      "speaker": "Danyel Fisher",
+      "start": 3982284,
+      "text": "So actually, as I live sort of in this gap between fields, as I was saying earlier, part of one of the questions that I got asked a while ago was, so you've got a billion data points. What do you do with them? And I realized that the notion of big data is a really interesting one. In information visualization, we've often thought of big data as more data pixels than fit on screen. Call it a million, right. Because, you know, thousand by 1000 resolution or so. In the big data world, though, now they're talking about terabytes and petabytes, things that not only don't fit in on screen or in memory, but don't even fit on the disk of a single machine. So you have to spread them out across a whole bunch of different servers. And so we've moved to this unfortunate world where queries take overnight sometimes to get a result from a visualization person's perspective. This is sad. We certainly know that exploratory visualization is really the way you go because the vast majority of visualizations that you create tell you you're looking at the wrong data. You should have remembered that you coded zero to mean, I don't have a person here, and so you need to filter those out. Or you just found that there is no particular signal. Looking at the scatterplot of these two points of data, or in fact, nothing in particular, does, interestingly, change over this field. The vast majority of data isn't interesting, and what we really need is techniques to look at as many different pieces as possible. So interactive visualization has allowed us to do that. We're very used to with Excel or Tableau or any other visualization tool we use to flip through dimensions rapidly to try out different combinations to see where the signal is in the database community. About ten years ago, they started talking about this idea of incremental visualization or sorry. Incremental data analysis, where you look at, say, the first million rows of your data, draw what you've got so far, then look at the next million rows, draw what you've got so far and so on. You can even estimate error bounds on how good that is. What we wanted to do was essentially build the visualizations, put them in front of actual users, and learn something about what it's like to deal with data sets that are bigger than a human can possibly wait for the answer to. So you're going to find, so on my webpage, you're going to find a chi paper that we published recently where we actually grabbed some real users and we fed them their data very, very slowly, and we looked at how rapidly they were able to make decisions, whether they were able to use the data meaningfully and how they responded to this idea of converging error bars and partial results. The short answer is they were able to use them. Partial results made them very happy. And most of the distinctions that they were looking for were order of magnitude decisions. They didn't care about whether something's different by 1%, they compared about. There's four times as many of these than those. And that's the sort of thing that you can do based on samples and incremental data very rapidly.",
+      "id": "ep_9_ut_178"
+    },
+    {
+      "end": 4168555,
+      "speaker": "Enrico Bertini",
+      "start": 4167603,
+      "text": "That's really nice.",
+      "id": "ep_9_ut_179"
+    },
+    {
+      "end": 4205094,
+      "speaker": "Moritz Stefaner",
+      "start": 4168619,
+      "text": "Interesting. Yeah, yeah, yeah. And I agree. There's a big world of opportunities and challenges in the whole big data scene. I'm also now working on a project where the data changes all the time. Right. And this is also something you're not used to. You assume you have this database and then the user changes something and this changes the view. But the data is not supposed to change all the time. Right. And how do you deal with that? You know, you can't like change the picture the whole time. Maybe people want to concentrate on something and so on. So there's quite some challenges there. Yeah.",
+      "id": "ep_9_ut_180"
+    },
+    {
+      "end": 4210294,
+      "speaker": "Danyel Fisher",
+      "start": 4205674,
+      "text": "Sounds like the sort of thing that you should come to this week and talk to people about. There'd be a lot of good ideas.",
+      "id": "ep_9_ut_181"
+    },
+    {
+      "end": 4214432,
+      "speaker": "Moritz Stefaner",
+      "start": 4213464,
+      "text": "If I get it done.",
+      "id": "ep_9_ut_182"
+    },
+    {
+      "end": 4217200,
+      "speaker": "Enrico Bertini",
+      "start": 4214488,
+      "text": "Big data is such, it's such a hot topic right now.",
+      "id": "ep_9_ut_183"
+    },
+    {
+      "end": 4260264,
+      "speaker": "Moritz Stefaner",
+      "start": 4217272,
+      "text": "I mean, it's really, I mean, the term is big, but also the topic is big. Sometimes. I'm not sure if people who use the term, you know, mean the same thing across all fields or all scenes, but it is, I mean, the hype is not, I mean, without substance because it is probably the, the big challenge today. But then again, I think it's really interesting what you say about incremental or this preliminary views that sort of start to focus much more over time once you collect the data. But often I also think, like maybe for visualization, not so much changes, but it's more on the data mining and the data collection and extraction side.",
+      "id": "ep_9_ut_184"
+    },
+    {
+      "end": 4261464,
+      "speaker": "Danyel Fisher",
+      "start": 4260684,
+      "text": "Yeah.",
+      "id": "ep_9_ut_185"
+    },
+    {
+      "end": 4269764,
+      "speaker": "Moritz Stefaner",
+      "start": 4262464,
+      "text": "And this is where the big. Yeah, the really big boulders are being moved around at the moment.",
+      "id": "ep_9_ut_186"
+    },
+    {
+      "end": 4294248,
+      "speaker": "Danyel Fisher",
+      "start": 4271144,
+      "text": "Absolutely. And I think that we're just beginning to see now the infovis field beginning to get their heads around some of those big data manipulation problems. Certainly when I talked to my colleagues both in academia and in industry, I learned that 1% of the time is spent on drawing the visualization and 99% of it is spent on fighting with the data.",
+      "id": "ep_9_ut_187"
+    },
+    {
+      "end": 4296964,
+      "speaker": "Moritz Stefaner",
+      "start": 4294416,
+      "text": "Yeah, yeah, that's true.",
+      "id": "ep_9_ut_188"
+    },
+    {
+      "end": 4302152,
+      "speaker": "Enrico Bertini",
+      "start": 4297944,
+      "text": "I think Jeff mentioned the same thing last time. Right, right, yeah.",
+      "id": "ep_9_ut_189"
+    },
+    {
+      "end": 4308724,
+      "speaker": "Moritz Stefaner",
+      "start": 4302168,
+      "text": "And often this was sort of abstracted away. Right. Because the final research paper just focused on that last bit.",
+      "id": "ep_9_ut_190"
+    },
+    {
+      "end": 4309688,
+      "speaker": "Danyel Fisher",
+      "start": 4309024,
+      "text": "Well, right.",
+      "id": "ep_9_ut_191"
+    },
+    {
+      "end": 4313200,
+      "speaker": "Enrico Bertini",
+      "start": 4309736,
+      "text": "Maybe the future of visualization is not in visualization itself.",
+      "id": "ep_9_ut_192"
+    },
+    {
+      "end": 4331144,
+      "speaker": "Moritz Stefaner",
+      "start": 4313352,
+      "text": "Interesting. Yeah, yeah. I mean, I'm sometimes wondering if will there be a new chart type anytime soon, you know, and isn't or isn't the more exciting part in combining now the existing techniques with exactly these advanced analysis techniques or sampling techniques and so on?",
+      "id": "ep_9_ut_193"
+    },
+    {
+      "end": 4407244,
+      "speaker": "Danyel Fisher",
+      "start": 4331844,
+      "text": "One of the things that I actually really treasure about Visweek, I was digging through last year's proceedings to try and remind myself what sort of, what sort of things were coming up. And, you know, I found everything from a paper by Hadley Wickham talking about how he's basically managed to unify the notion of what a stacked bar chart is with a tree map, with a mosaic plot, so that he could essentially just parameterize them. And this in turn generates an entire space of data visualizations out to people who are creating completely wacky new things. This team from Microsoft Research Asia building text flow, which sort of brings, brings together stream graph and a little bit of wordle and a little bit of other things. Two very application specific visualization. There's this project called Birdviz, which was specifically trying to build a suite of tools to manage and track bird observations. And so one of the things that I like about it is that there are people out there who are pushing on the new chart types and the new linking types and the theory side and everything sort of in between, because viz is this huge area. There's a lot of opportunity.",
+      "id": "ep_9_ut_194"
+    },
+    {
+      "end": 4410124,
+      "speaker": "Enrico Bertini",
+      "start": 4409184,
+      "text": "Absolutely.",
+      "id": "ep_9_ut_195"
+    },
+    {
+      "end": 4416644,
+      "speaker": "Moritz Stefaner",
+      "start": 4410504,
+      "text": "Maybe I should go. Probably I should go. I should go to whisper again. Probably.",
+      "id": "ep_9_ut_196"
+    },
+    {
+      "end": 4427524,
+      "speaker": "Danyel Fisher",
+      "start": 4421584,
+      "text": "Then let me say this to our listeners out there. You should come to this week, this year. You'll get a chance to meet Moritz in the flesh.",
+      "id": "ep_9_ut_197"
+    },
+    {
+      "end": 4436664,
+      "speaker": "Moritz Stefaner",
+      "start": 4430724,
+      "text": "You're putting me on the spot. I will become the mascot.",
+      "id": "ep_9_ut_198"
+    },
+    {
+      "end": 4443468,
+      "speaker": "Enrico Bertini",
+      "start": 4437364,
+      "text": "Moritz. What was this email that we received? I received from this guy who said I met Moritz on the elevator.",
+      "id": "ep_9_ut_199"
+    },
+    {
+      "end": 4445584,
+      "speaker": "Moritz Stefaner",
+      "start": 4443636,
+      "text": "Yeah. And I had one of those.",
+      "id": "ep_9_ut_200"
+    },
+    {
+      "end": 4457082,
+      "speaker": "Enrico Bertini",
+      "start": 4447444,
+      "text": "Exciting moments in my life. The most exciting moments in my life. If you come to this week, there might be a chance you meet Moritz.",
+      "id": "ep_9_ut_201"
+    },
+    {
+      "end": 4460734,
+      "speaker": "Moritz Stefaner",
+      "start": 4457218,
+      "text": "In an elevator in an exciting moment. Yeah.",
+      "id": "ep_9_ut_202"
+    },
+    {
+      "end": 4462514,
+      "speaker": "Danyel Fisher",
+      "start": 4461194,
+      "text": "He rides elevators, I'm told.",
+      "id": "ep_9_ut_203"
+    },
+    {
+      "end": 4474614,
+      "speaker": "Moritz Stefaner",
+      "start": 4462554,
+      "text": "Sounds great. We'll see. We'll see. Data stories number 17 or something. We'll report something. Exactly.",
+      "id": "ep_9_ut_204"
+    },
+    {
+      "end": 4485146,
+      "speaker": "Enrico Bertini",
+      "start": 4475954,
+      "text": "Yeah. But I think just to record a specific episode, a special episode from this week, if we are there together, we might.",
+      "id": "ep_9_ut_205"
+    },
+    {
+      "end": 4488370,
+      "speaker": "Moritz Stefaner",
+      "start": 4485290,
+      "text": "It won't work. Then we need to drink wine and.",
+      "id": "ep_9_ut_206"
+    },
+    {
+      "end": 4495094,
+      "speaker": "Enrico Bertini",
+      "start": 4488562,
+      "text": "Yeah, of course. Okay. I think we can stop it here.",
+      "id": "ep_9_ut_207"
+    },
+    {
+      "end": 4496274,
+      "speaker": "Moritz Stefaner",
+      "start": 4495474,
+      "text": "Yeah, it was great.",
+      "id": "ep_9_ut_208"
+    },
+    {
+      "end": 4520704,
+      "speaker": "Enrico Bertini",
+      "start": 4496314,
+      "text": "Unless there is anything you want to add. And thanks a lot, Danyel. It was really, really nice having you on the episode. And thanks for sharing with us all this details about the industry track and your work and all the rest. It's been really, really interesting. Yeah, that's all for now.",
+      "id": "ep_9_ut_209"
+    },
+    {
+      "end": 4522836,
+      "speaker": "Danyel Fisher",
+      "start": 4521324,
+      "text": "Great. Thank you very much.",
+      "id": "ep_9_ut_210"
+    },
+    {
+      "end": 4525224,
+      "speaker": "Moritz Stefaner",
+      "start": 4523020,
+      "text": "Thanks. It was really great having you.",
+      "id": "ep_9_ut_211"
+    },
+    {
+      "end": 4528068,
+      "speaker": "Enrico Bertini",
+      "start": 4527164,
+      "text": "Okay.",
+      "id": "ep_9_ut_212"
+    },
+    {
+      "end": 4529412,
+      "speaker": "Moritz Stefaner",
+      "start": 4528236,
+      "text": "Sorry, that's my go.",
+      "id": "ep_9_ut_213"
+    },
+    {
+      "end": 4534780,
+      "speaker": "Enrico Bertini",
+      "start": 4529468,
+      "text": "Yeah, after my song. Now my son. It's fine.",
+      "id": "ep_9_ut_214"
+    },
+    {
+      "end": 4536132,
+      "speaker": "Moritz Stefaner",
+      "start": 4534932,
+      "text": "Okay, bye.",
+      "id": "ep_9_ut_215"
+    },
+    {
+      "end": 4537500,
+      "speaker": "Enrico Bertini",
+      "start": 4536188,
+      "text": "Thanks a lot, guys. Bye.",
+      "id": "ep_9_ut_216"
+    }
+  ],
+  "confidence": 0.934553876684353,
+  "audio_duration": 4546,
+  "punctuate": true,
+  "format_text": true,
+  "dual_channel": false,
+  "webhook_url": null,
+  "webhook_status_code": null,
+  "webhook_auth": false,
+  "webhook_auth_header_name": null,
+  "speed_boost": false,
+  "auto_highlights_result": null,
+  "auto_highlights": false,
+  "audio_start_from": null,
+  "audio_end_at": null,
+  "word_boost": [],
+  "boost_param": null,
+  "filter_profanity": false,
+  "redact_pii": false,
+  "redact_pii_audio": false,
+  "redact_pii_audio_quality": null,
+  "redact_pii_policies": null,
+  "redact_pii_sub": null,
+  "speaker_labels": true,
+  "content_safety": false,
+  "iab_categories": true,
+  "content_safety_labels": {
+    "status": "unavailable",
+    "results": [],
+    "summary": {}
+  },
+  "language_detection": false,
+  "language_detection_threshold": null,
+  "language_confidence": null,
+  "custom_spelling": null,
+  "throttled": false,
+  "auto_chapters": true,
+  "summarization": false,
+  "summary_type": null,
+  "summary_model": null,
+  "custom_topics": false,
+  "topics": [],
+  "speech_threshold": null,
+  "speech_model": "best",
+  "chapters": [
+    {
+      "summary": "Hi everyone. Data stories number nine here. Enrico, as usual, and Moritz. How are you? Good, good. Bit tired. I have a cold too, but other than that I'm really good. I hope I will manage to record this episode.",
+      "gist": "Data Stories",
+      "headline": "Data stories number nine here with Enrico and Moritz",
+      "start": 10880,
+      "end": 33464,
+      "id": "ep_9_ch_0"
+    },
+    {
+      "summary": "Danyel Fisher is a researcher at Microsoft and he's doing research in the area of information visualization and human computer interaction. For the first time this year, he's chairing an industry track, which is a new thing in the Visweek conference. We really wanted to organize one episode specifically on this topic.",
+      "gist": "The role of information visualization in the future",
+      "headline": "Danyel Fisher is a researcher at Microsoft working on information visualization and human computer interaction",
+      "start": 34964,
+      "end": 239174,
+      "id": "ep_9_ch_1"
+    },
+    {
+      "summary": "The bridge between Microsoft research and the product groups is really variable. At times it's gone very well, at times it've gone poorly. Some of the connections are very strong. Every year we have an internal company event called Techfest and some of the best posters get published.",
+      "gist": "Steve Ballmer on Microsoft Research and Product Groups",
+      "headline": "The bridge between Microsoft research and the product groups is really variable",
+      "start": 241034,
+      "end": 380374,
+      "id": "ep_9_ch_2"
+    },
+    {
+      "summary": "A number of features in visual studio are direct applications of Microsoft Research research. Sometimes product teams approach us and we build technologies directly for them and transfer them over. Sometimes we think of it as stepping on the landmine so that they don't have to.",
+      "gist": "Have You Been Asked to Build a Data Visualization Suite?",
+      "headline": "There's a lot of discussion about what set of visualizations Microsoft should include",
+      "start": 380754,
+      "end": 596684,
+      "id": "ep_9_ch_3"
+    },
+    {
+      "summary": "Danyel: Where are the big questions in industry related to visualization that researchers should try to address? He says in a way, there is some sort of mismatch, or it's not as direct as in other fields, like in databases. Danyel: Information visualization tends to produce tools that can be used across the field.",
+      "gist": "In the world of data visualization,",
+      "headline": "Danyel: Where are big questions in industry related to visualization that researchers should address",
+      "start": 596724,
+      "end": 761890,
+      "id": "ep_9_ch_4"
+    },
+    {
+      "summary": "Our plan for today is to discuss the potential gaps between practical applications and research, or academia and the practitioners. It could be interesting to explore that a bit, why these things don't happen as often as we would like them to.",
+      "gist": "The gap between research and practical applications",
+      "headline": "Danyel: We want to discuss gaps between practical applications and research",
+      "start": 761962,
+      "end": 902892,
+      "id": "ep_9_ch_5"
+    },
+    {
+      "summary": "Research algorithms are often not that freely available as you would expect them. People who have a strong design skill or a good idea are just able to take an algorithm and mash it up with something else. But the last 20% that are so hard to achieve, to actually make it a usable implementation, don't necessarily happen.",
+      "gist": "Are algorithms freely available?",
+      "headline": "Research algorithms are often not that freely available as you would expect them",
+      "start": 902988,
+      "end": 1055440,
+      "id": "ep_9_ch_6"
+    },
+    {
+      "summary": "Jeff Heer has been very accomplished in figuring out how to publish and get people talking about system design and algorithms. He says feedback you get from people actually using his framework is driving his research. And I think that's so great.",
+      "gist": "Jeff Heer on Computation and Systems Design",
+      "headline": "Jeff Heer says feedback from using his framework is driving his research",
+      "start": 1055512,
+      "end": 1113804,
+      "id": "ep_9_ch_7"
+    },
+    {
+      "summary": "Danyel: Can you briefly tell, explain what is Visweek and Infovys? Danyel: Visweek, as the name implies, is a full week of visualization. And that perhaps does bring us to the infovis industry track. Can you tell us more about the industry track?",
+      "gist": "Visweek and Infovis: The Industry Track",
+      "headline": "Danyel: Can you tell us more about the industry track at Visweek",
+      "start": 1114264,
+      "end": 1410992,
+      "id": "ep_9_ch_8"
+    },
+    {
+      "summary": "This year at Visweek, we're trying to actually build a concentrated, directed intent for an industry track. The industry track is going to be material that's oriented towards practitioners or oriented towards academics. We're hoping that we can get this sort of rolling as a conversation between the two populations.",
+      "gist": "Visweek: An Industry Track",
+      "headline": "This year at Visweek, we're trying to build an industry track",
+      "start": 1411168,
+      "end": 1508494,
+      "id": "ep_9_ch_9"
+    },
+    {
+      "summary": "There's going to be a track dedicated to additional material. Much of that will be industry focused or things that we believe that come from industry. The field is becoming a data driven field. When you become data driven, you need to find ways to share that information.",
+      "gist": "Visweek 2014: The Industry Track",
+      "headline": "There will be a track dedicated to additional material at Visweek this year",
+      "start": 1508654,
+      "end": 1787164,
+      "id": "ep_9_ch_10"
+    },
+    {
+      "summary": "Danyel: Do you think there is a mismatch between what's the main focus of researchers and what, and what are the main needs of industry? They should come to this week first to be educated and to learn, he says. There's going to be fantastic opportunities for recruiting.",
+      "gist": "Visweek and the visualization world",
+      "headline": "Danyel: I think there's a mismatch between what researchers focus on and industry needs",
+      "start": 1788284,
+      "end": 1987434,
+      "id": "ep_9_ch_11"
+    },
+    {
+      "summary": "Danielle Morris: How can we make it easier for people to get into the conference? She says while it seems expensive, it's actually a screaming deal. Morris: You need some low threshold way of getting people into it.",
+      "gist": "The Cost of attending a Data & Analytics Conference",
+      "headline": "Danyel: I think you need some low threshold way of getting people into conference",
+      "start": 1988434,
+      "end": 2345074,
+      "id": "ep_9_ch_12"
+    },
+    {
+      "summary": "Moritz: How can we make sure that people from academia attend this kind of conferences. How can events like I o or similar things like zip, c? What's the right pronunciation? Moritz: There is a very, very small overlap.",
+      "gist": "Ideas for more infovis coverage",
+      "headline": "Moritz: Academic conferences can attract more people from industry",
+      "start": 2345114,
+      "end": 2449164,
+      "id": "ep_9_ch_13"
+    },
+    {
+      "summary": "Most academics don't know to or don't choose to publicize their work very much online. There are not strong incentives for an academic to reach out to these people or have a strong presence on the web. Academic need to be reminded to talk about these issues very rapidly.",
+      "gist": "The lack of open access",
+      "headline": "Many academics don't publicize their work very much online",
+      "start": 2451024,
+      "end": 2730044,
+      "id": "ep_9_ch_14"
+    },
+    {
+      "summary": "The story that I hear from many academics is that their major concern is justifiably getting tenure. I think the future image of a good researcher should be that it's also one that is very active in disseminating his work. I would love to see that better rewarded or for academics to perceive it as better rewarded.",
+      "gist": "Post-Tenure: More self-promotion",
+      "headline": "Danyel: Why academics aren't doing a better job of self promoting",
+      "start": 2731384,
+      "end": 3154174,
+      "id": "ep_9_ch_15"
+    },
+    {
+      "summary": "Use events like this week or IO as a way to let academics and practitioners meet. I'd like to see academics doing a better job of promoting their work. It's going to be a bigger trick for industry people if you work.",
+      "gist": "The Need for More Communication between Researchers and Practitioners",
+      "headline": "Using events like IO as a way to let academics and practitioners meet",
+      "start": 3154994,
+      "end": 3270316,
+      "id": "ep_9_ch_16"
+    },
+    {
+      "summary": "Moritz: I always try to follow the visualization research with respect to new algorithms or new techniques. Sometimes you can use that in a project and find exactly that one chart type or that one algorithm that works for that case. I'm noticing myself, I'm reading less papers now that I've been doing a few years of practice.",
+      "gist": "How to keep up with the latest in visualization science",
+      "headline": "Moritz: I always try to follow visualization research",
+      "start": 3270380,
+      "end": 3450104,
+      "id": "ep_9_ch_17"
+    },
+    {
+      "summary": "Moritz: One big gap we still have in visualization is the fact that we don't have the visualization book coming from some academics. He says for many people, there might be a high threshold just getting started into it. Moritz: What I would actually do if you're trying to learn basics of visualization is skip the textbooks.",
+      "gist": "The book on visualization for designers",
+      "headline": "Danyel Tamara: Many designers are not used to reading papers",
+      "start": 3450484,
+      "end": 3921008,
+      "id": "ep_9_ch_18"
+    },
+    {
+      "summary": "So much going on, you know it. Are you going anywhere? If you go, you will regret. Do you have a paper in? Of course, yes. I'm still waiting for the final. Final. But you're hoping? Yeah, should be fine.",
+      "gist": "Comments on Gregory's Final",
+      "headline": "So much going on, you know it. Are you going anywhere? If you go, you will regret. But you're hoping? Yeah,",
+      "start": 3921056,
+      "end": 3956228,
+      "id": "ep_9_ch_19"
+    },
+    {
+      "summary": "In information visualization, we've often thought of big data as more data pixels than fit on screen. What we really need is techniques to look at as many different pieces as possible. There's a big world of opportunities and challenges in the whole big data scene.",
+      "gist": "Big Data and Visualization",
+      "headline": "I'm curious about what you are doing in visualization or things related to visualization",
+      "start": 3956316,
+      "end": 4214432,
+      "id": "ep_9_ch_20"
+    },
+    {
+      "summary": "Danyel: For visualization, not so much changes, but it's more on the data mining and the data collection and extraction side. If you come to Visweek this week, there might be a chance you meet Moritz in an elevator.",
+      "gist": "Big Data and Visualization",
+      "headline": "Big data is such, it's such a hot topic right now",
+      "start": 4214488,
+      "end": 4537500,
+      "id": "ep_9_ch_21"
+    }
+  ],
+  "disfluencies": false,
+  "entity_detection": false,
+  "sentiment_analysis": false,
+  "sentiment_analysis_results": null,
+  "entities": null,
+  "speakers_expected": null,
+  "summary": null,
+  "custom_topics_results": null,
+  "episode_num": 9,
+  "episode_metadata": {
+    "speakers": [
+      "Enrico Bertini",
+      "Moritz Stefaner",
+      "Danyel Fisher"
+    ],
+    "WPid": "102",
+    "url": "https://datastori.es/podlove/file/190/s/feed/c/mp3/datastories-09.mp3",
+    "episode_title": "Bridging academia and industry with Danyel Fisher"
+  }
+}

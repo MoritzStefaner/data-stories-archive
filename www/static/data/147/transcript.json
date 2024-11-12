@@ -1,0 +1,876 @@
+{
+  "id": "17eb2cc4-32b8-433d-abb6-d04bba7c9bc9",
+  "language_model": "assemblyai_default",
+  "acoustic_model": "assemblyai_default",
+  "language_code": "en_us",
+  "status": "completed",
+  "audio_url": "https://datastori.es/podlove/file/5716/s/feed/c/mp3/147-iconic-climate-visuals-with-ed-hawkins.mp3",
+  "utterances": [
+    {
+      "end": 15690,
+      "speaker": "Ed Hawkins",
+      "start": 160,
+      "text": "I used a version of the stripes for the town of Hay, where the festival is held during that event there. And it was obvious to me during the event that it was a lot of understanding going on. You could see people, their eyes open up. They understood what it meant by one glance at a graphic.",
+      "id": "ep_147_ut_0"
+    },
+    {
+      "end": 48778,
+      "speaker": "Moritz Stefaner",
+      "start": 35170,
+      "text": "Hi everyone. Welcome to a new episode of data stories. My name is Moritz Stefaner and I'm an independent designer of data visualizations. Actually, I work as a self employed truth and beauty operator out of my office here in the countryside in the north of Germany.",
+      "id": "ep_147_ut_1"
+    },
+    {
+      "end": 55698,
+      "speaker": "Enrico Bertini",
+      "start": 48874,
+      "text": "And I am Enrico Bertini. I am a professor at NYU in New York City, where I do research and teach data visualization.",
+      "id": "ep_147_ut_2"
+    },
+    {
+      "end": 67420,
+      "speaker": "Moritz Stefaner",
+      "start": 55834,
+      "text": "That's right. And on this podcast together, we talk about data visualization, data analysis, and generally the role data plays in our lives. And usually we do that together with the guests we invite on the show.",
+      "id": "ep_147_ut_3"
+    },
+    {
+      "end": 84932,
+      "speaker": "Enrico Bertini",
+      "start": 67540,
+      "text": "Exactly. And this time we had Ed Hawkins from the University of Reading in the UK, and we had a super interesting conversation. He's actually the person behind the two iconic visualization on climate the spiral visualization and the stripes visualization.",
+      "id": "ep_147_ut_4"
+    },
+    {
+      "end": 95098,
+      "speaker": "Moritz Stefaner",
+      "start": 85076,
+      "text": "Yeah. And we talked about breaking the data visualization rules if the climate visualizations from the database community maybe could be improved.",
+      "id": "ep_147_ut_5"
+    },
+    {
+      "end": 116402,
+      "speaker": "Enrico Bertini",
+      "start": 95194,
+      "text": "And then also making climate information more local or even more personal. And finally, how to work on climate visualization, how to create collaborations between visualization designers and climate scientists. And you also gave us a really interesting tip about how to find the most active climate scientists on Twitter.",
+      "id": "ep_147_ut_6"
+    },
+    {
+      "end": 139506,
+      "speaker": "Moritz Stefaner",
+      "start": 116506,
+      "text": "Right. So really good episode. Can recommend to listen. But before we start, just a quick note, our podcast is listener supported, so there are no ads. And that also means if you do enjoy the show, please consider supporting us. You can do that with recurring payments on patreon.com Datastories, or you can also send us one time donations on Paypal dot me Datastories.",
+      "id": "ep_147_ut_7"
+    },
+    {
+      "end": 150810,
+      "speaker": "Enrico Bertini",
+      "start": 139658,
+      "text": "Exactly. And before starting another couple of quick announcements. So first of all, we want to have a shout out for Robert Kosara, who had the courageous start our YouTube channel.",
+      "id": "ep_147_ut_8"
+    },
+    {
+      "end": 159890,
+      "speaker": "Moritz Stefaner",
+      "start": 153030,
+      "text": "So it's really good. It's really good. I was skeptical, but it's really good. Check it out.",
+      "id": "ep_147_ut_9"
+    },
+    {
+      "end": 165590,
+      "speaker": "Enrico Bertini",
+      "start": 160350,
+      "text": "Yes. And then I think, Moritz, you've been at encode, I don't know, you want to say something about.",
+      "id": "ep_147_ut_10"
+    },
+    {
+      "end": 191110,
+      "speaker": "Moritz Stefaner",
+      "start": 165630,
+      "text": "Yeah, just came back from a great conference, encode in London. They'll do another one next year, can totally recommend it. And the videos will be out soon. And I can really recommend checking out the talks. We'll post it on Twitter, I guess, when they're out. And I also have another project, but maybe I won't talk about that another time. But it's a soil moisture map visualization for the grow observatory. So if you see that flying by in your Twitter feed, check it out. It's good.",
+      "id": "ep_147_ut_11"
+    },
+    {
+      "end": 192978,
+      "speaker": "Enrico Bertini",
+      "start": 191450,
+      "text": "It's in line with the episode.",
+      "id": "ep_147_ut_12"
+    },
+    {
+      "end": 201426,
+      "speaker": "Moritz Stefaner",
+      "start": 193034,
+      "text": "Totally. Lots of eco related stuff. So let's dive right in. Our guest today is Ed Hawkins. Hi, Ed, great to have you on.",
+      "id": "ep_147_ut_13"
+    },
+    {
+      "end": 202594,
+      "speaker": "Ed Hawkins",
+      "start": 201618,
+      "text": "Good afternoon.",
+      "id": "ep_147_ut_14"
+    },
+    {
+      "end": 208266,
+      "speaker": "Moritz Stefaner",
+      "start": 202722,
+      "text": "So great to have you on. Ed, can you tell us a bit about yourself, what you're interested in, what you're working on?",
+      "id": "ep_147_ut_15"
+    },
+    {
+      "end": 226614,
+      "speaker": "Ed Hawkins",
+      "start": 208378,
+      "text": "Sure. So, my name is Professor Ed Hawkins. I work at the University of Reading in the UK, and I'm a climate scientist, and I study how the climate has already changed, how it might change in the future, and the implications that is for society and how we might live our lives.",
+      "id": "ep_147_ut_16"
+    },
+    {
+      "end": 264730,
+      "speaker": "Moritz Stefaner",
+      "start": 226742,
+      "text": "Yeah, and that's obviously a very timely topic. Now, what was once a niche interest has now become one of the most important topics. Maybe we could talk about it all. And in fact, you have created some of the most iconic data visualizations, in my view, about the topic of climate change. And so that's why we are very excited to have you on and talk a bit about them. The first one that I saw, at least personally, well, first you had some work on ending the rainbow nightmare that we're in, which I really appreciate. But then the first climate visualization that I noticed from you were the animated climate spirals, right?",
+      "id": "ep_147_ut_17"
+    },
+    {
+      "end": 265818,
+      "speaker": "Ed Hawkins",
+      "start": 264810,
+      "text": "That's right, yes.",
+      "id": "ep_147_ut_18"
+    },
+    {
+      "end": 271694,
+      "speaker": "Moritz Stefaner",
+      "start": 265954,
+      "text": "Can you tell us a bit about them, like how they get made, what they show and what their overall impact was?",
+      "id": "ep_147_ut_19"
+    },
+    {
+      "end": 358470,
+      "speaker": "Ed Hawkins",
+      "start": 271842,
+      "text": "Sure. So I guess climate science is viewed as somewhat controversial topic, even though it perhaps shouldn't be. In many ways, the science is very clear, but as scientists, we have to communicate our science very accurately to a very broad audience because of the large implications it has for society in general. But as scientists, we tend to think about how we communicate with other scientists. Most of the time we make our complicated graphics with all of the nuance, which are very important to consider. They're all represented in our normal graphics we use day to day. But I think when we're talking to broader audiences, we have to think again about how we communicate and how we visualize the data that we work with day to day. And so the climate spirals was the first one that sort of caught the public attention, if you like. I'd been experimenting with all kinds of different ways of representing changes in global temperature. And then one Friday afternoon I was sent an email by a colleague who I've never met, who made a suggestion of editing one of my earlier graphics to create a spiral form. And I thought this was quite a good idea. So on a Friday afternoon, I sat down and remade my previous visualization into this animated climate spiral. And it took off from there.",
+      "id": "ep_147_ut_20"
+    },
+    {
+      "end": 363690,
+      "speaker": "Moritz Stefaner",
+      "start": 359050,
+      "text": "Yeah. And it shows the. What does it show? The temperature anomaly, I think that's right.",
+      "id": "ep_147_ut_21"
+    },
+    {
+      "end": 459646,
+      "speaker": "Ed Hawkins",
+      "start": 363730,
+      "text": "So what it shows is the increase that we have observed in global temperatures since the pre industrial era. So before the industrial revolution. And that's important because the politicians have decided that we should try and limit the rise in global temperatures to avoid the very worst impacts of climate change. And they set targets of one and a half or two degrees of changed since the pre industrial era. And what this graphic was designed to represent is how far we already are along that journey towards these temperature targets which the policymakers have set. And so what we see is these spirals spiraling outwards, these lines spiraling, to show how far we've progressed along that journey. And currently we're over one degree warmer than pre industrial times and edging towards 1.1 or 1.2 degrees. And so that doesn't give us much wiggle room if we're going to keep the temperatures to within 1.5 degrees, which is the stringent target in the Paris climate agreement, which the politicians have signed up to. And so the animation shows this evolution over about 30 seconds. And I think what it does is helps tell a story about how things are changing. And I think that's very important. The animated nature means that it tells a story. As we're going along, the warming is quite slow to begin with, and it suddenly accelerates towards the end, which is perhaps a surprise when it happens. And I've heard about people watching it over and over again because they had this shock at the end. They wanted to go back and rewatch it to understand what was going on.",
+      "id": "ep_147_ut_22"
+    },
+    {
+      "end": 472366,
+      "speaker": "Moritz Stefaner",
+      "start": 459838,
+      "text": "To see how that plot twist they didn't see coming actually was built up. Right? Yeah. That's the fascinating thing about animations. Immediately you want to know how it ends. You start watching, and then you want to know how it ends.",
+      "id": "ep_147_ut_23"
+    },
+    {
+      "end": 493626,
+      "speaker": "Ed Hawkins",
+      "start": 472478,
+      "text": "And I think in this modern era of social media and sharing little animated clips, which has grown and grown over the last few years, I think it. It was a lucky moment, I think, where that kind of animation could have a real impact, when people were starting to share, or are sharing lots of little clips like that.",
+      "id": "ep_147_ut_24"
+    },
+    {
+      "end": 504586,
+      "speaker": "Moritz Stefaner",
+      "start": 493778,
+      "text": "Yeah, I saw it on twitter and it was passed around quite a bit. And I was surprised, too, how much traction an animated data visualization can get.",
+      "id": "ep_147_ut_25"
+    },
+    {
+      "end": 506430,
+      "speaker": "Ed Hawkins",
+      "start": 504738,
+      "text": "Not as surprised as me, I bet.",
+      "id": "ep_147_ut_26"
+    },
+    {
+      "end": 516150,
+      "speaker": "Moritz Stefaner",
+      "start": 506970,
+      "text": "I can imagine. And it even ended up as being shown on the celebration or the opening ceremony for Rio 2016, right?",
+      "id": "ep_147_ut_27"
+    },
+    {
+      "end": 554640,
+      "speaker": "Ed Hawkins",
+      "start": 516270,
+      "text": "That's right. And that was also a shock. The Rio opening ceremony decided to make an issue out of climate change. And they had quite a long segment discussing the changes that we'd seen and the response that might be and what happens in the future. And I was watching the opening ceremony at home. I was actually building some flat pack furniture watching the opening ceremony, and the climate section came on. And so I paid a bit more attention. And then suddenly the climate spiral appeared and I think I dropped my screwdriver.",
+      "id": "ep_147_ut_28"
+    },
+    {
+      "end": 561862,
+      "speaker": "Enrico Bertini",
+      "start": 556500,
+      "text": "So you had no idea that they would actually use it? Nobody contacted you before using it?",
+      "id": "ep_147_ut_29"
+    },
+    {
+      "end": 563510,
+      "speaker": "Ed Hawkins",
+      "start": 561996,
+      "text": "No, I had no idea.",
+      "id": "ep_147_ut_30"
+    },
+    {
+      "end": 571950,
+      "speaker": "Enrico Bertini",
+      "start": 564930,
+      "text": "That's interesting. Did they use your actual figure or they actually remade it?",
+      "id": "ep_147_ut_31"
+    },
+    {
+      "end": 585190,
+      "speaker": "Ed Hawkins",
+      "start": 572290,
+      "text": "They remade it. They had redrawn. It was very clearly based on the original design. Yes. I didn't mind. I know that these things have to be kept secret, so that was fine.",
+      "id": "ep_147_ut_32"
+    },
+    {
+      "end": 601182,
+      "speaker": "Moritz Stefaner",
+      "start": 586330,
+      "text": "Yeah. But it shows how far a good visual form and I think also a good visual metaphor, this whole idea of things spiraling out of control or being out of whack. Right. I think that all plays into the emotional impact of that piece. Right.",
+      "id": "ep_147_ut_33"
+    },
+    {
+      "end": 643000,
+      "speaker": "Ed Hawkins",
+      "start": 601366,
+      "text": "That is one of the reasons I think, which was used a lot when it was shared, was that people had the impression that things were spiraling out of control. And that metaphor was used a lot. But I think actually that's the wrong message to take away, because things are not out of control, they're in our hands. And because climate change is driven by human activity, we have the power to choose what happens next. And so the choices that we make now and over the coming decades will determine where we end up. And so we do have control about what will happen next. And I think that is the message we need to try and talk about a lot more.",
+      "id": "ep_147_ut_34"
+    },
+    {
+      "end": 651256,
+      "speaker": "Moritz Stefaner",
+      "start": 643940,
+      "text": "Yeah, yeah. The other even more popular project was the warming stripes. You published, I would say, last year, am I right?",
+      "id": "ep_147_ut_35"
+    },
+    {
+      "end": 652736,
+      "speaker": "Ed Hawkins",
+      "start": 651348,
+      "text": "That's right. They started this year.",
+      "id": "ep_147_ut_36"
+    },
+    {
+      "end": 660780,
+      "speaker": "Moritz Stefaner",
+      "start": 652768,
+      "text": "Yes, but they got really popular, like, right now. So they were on the COVID of the Economist and used in the Guardian. I know.",
+      "id": "ep_147_ut_37"
+    },
+    {
+      "end": 663264,
+      "speaker": "Enrico Bertini",
+      "start": 661280,
+      "text": "I have seen people with t shirts.",
+      "id": "ep_147_ut_38"
+    },
+    {
+      "end": 677638,
+      "speaker": "Moritz Stefaner",
+      "start": 663392,
+      "text": "There's skirts, there's t shirts, probably even food or something. Can you tell us a bit about those? Like, was that a natural follow up for you to do? And how did it evolve?",
+      "id": "ep_147_ut_39"
+    },
+    {
+      "end": 717390,
+      "speaker": "Ed Hawkins",
+      "start": 677744,
+      "text": "Yes. I guess this came down to thinking about how we communicate as simply as possible. Although the spiral had been very popular, it still took quite a bit of thinking. About to interpret what it meant, and not everyone understood it. And so I was looking for a way to communicate even more simply to audiences, which maybe are not used to seeing graphs or axes or labels or anything you. Which we see day to day, but is complicated to them, and it may look a bit too mathematical to them.",
+      "id": "ep_147_ut_40"
+    },
+    {
+      "end": 719570,
+      "speaker": "Moritz Stefaner",
+      "start": 717430,
+      "text": "And they didn't like doing math too science.",
+      "id": "ep_147_ut_41"
+    },
+    {
+      "end": 871556,
+      "speaker": "Ed Hawkins",
+      "start": 720030,
+      "text": "It turns them off straight away. And so I was scheduled to do an event at a literature festival called the Hay festival, which is a famous literature festival in the UK. And so I was looking for a way to communicate to an audience who probably many of them wouldn't have seen many scientific graphics before. And so the idea of just using colors came up. And so I used a version of the stripes for the town of Hay, where the festival is held, during that event there. And it was obvious to me during the event that there was a lot of understanding going on. You could see. You could see people, their eyes open up, the pennies dropped. They understood what it meant by one glance at a graphic. And so what it is, it just is colored stripes representing the temperature in a particular year, ordered from whenever the data starts to. Whenever the data finishes. It's just a series of colored stripes with blue colours representing colder temperatures and red colours representing warmer temperatures. And so what you see when you look at these stripes for most locations across the world is that you'll see blue colours to begin with, a mixture of reds and blues. And then as we come to the present day, you see red colors from nearly every year. And so there's this sudden change from blue to red, which very, very clearly shows the warming that we've seen over the last 30, 40 years is very, very stark, very visual, very obvious. There's no mistaking what's going on. And just having those colors allows that communication, that the message to be communicated exceptionally clearly, and people can just take one look at it and understand what it means. And I think that's the power of the stripes. It avoids many of the complications. But that's very deliberate, because we want to start the conversation about climate change, and to do that, we have to start simply. And, you know, there's no one graphic that will appeal to everybody or communicate everything we need to communicate. But this version, the stripes, just allow some of those conversations to start. That would not happen otherwise.",
+      "id": "ep_147_ut_42"
+    },
+    {
+      "end": 899728,
+      "speaker": "Moritz Stefaner",
+      "start": 871748,
+      "text": "Right. And I think what I observed at least the last two or three weeks is that they have almost become a logo for the whole topic of climate change. Right. So it's actually, to me, much less of a chart than rather a symbol or an icon. Right? And I think that's such an interesting development and also something that we actually really needed. It's like, what is this iconic image that we can use to talk about these so hard to fathom things?",
+      "id": "ep_147_ut_43"
+    },
+    {
+      "end": 923850,
+      "speaker": "Ed Hawkins",
+      "start": 899904,
+      "text": "I think that's really interesting to see what has happened. I mean, because it is so simple with just colors, it can be adapted to so many different purposes in so many different cases. And so, as you say, people have put it on some clothing. Obviously banners have been used. There's one town in Germany which has painted their side of a tram in the different stripes.",
+      "id": "ep_147_ut_44"
+    },
+    {
+      "end": 927930,
+      "speaker": "Moritz Stefaner",
+      "start": 926550,
+      "text": "My house with it.",
+      "id": "ep_147_ut_45"
+    },
+    {
+      "end": 970694,
+      "speaker": "Ed Hawkins",
+      "start": 929670,
+      "text": "There is someone in Spain who has painted a wall in their village in the different colored stripes. There is an American chap who bought a Tesla car and painted it with the stripes. And he drives around going to car festivals with this colored stripey Tesla. And he says he had more conversations about climate change in one day than he'd had in the previous rest of his life, purely because this car had started. The conversation allowed him to discuss the issue, which is perhaps controversial in many areas, particularly in the United States, but it allowed those conversations to start.",
+      "id": "ep_147_ut_46"
+    },
+    {
+      "end": 980190,
+      "speaker": "Moritz Stefaner",
+      "start": 970782,
+      "text": "It's almost like a trojan horse because people will compliment him probably, on, oh, nice, nice stripes on your car. And he can say, oh, actually it's a well climbing. Right.",
+      "id": "ep_147_ut_47"
+    },
+    {
+      "end": 982010,
+      "speaker": "Ed Hawkins",
+      "start": 980310,
+      "text": "There probably was a lot of that. Yes.",
+      "id": "ep_147_ut_48"
+    },
+    {
+      "end": 1039444,
+      "speaker": "Moritz Stefaner",
+      "start": 983590,
+      "text": "What I find so interesting about this is that these charts or visuals seem to break the rules of what we traditionally believe to be good data visualization. Or you know what the usual credo is in the scene, the animated spirals. It's something where, let's say you go to a data visualization class, your teacher might say, yeah, animations, it seems logical for time, but maybe small multiples are actually better. And also with the climate stripes, let's say a student would do it in class. Maybe Enrico would say, yeah, but where's the legend? Maybe color is not the most precise way to show this data. Have you considered a line chart or something like this? And so I'm wondering, did you break these rules on purpose? Because probably you have done more sciency visualization of the same data already, right? And more precise ones. And what do you think? What's the effect of breaking these rules?",
+      "id": "ep_147_ut_49"
+    },
+    {
+      "end": 1041480,
+      "speaker": "Ed Hawkins",
+      "start": 1039612,
+      "text": "So I guess I didn't know the rules.",
+      "id": "ep_147_ut_50"
+    },
+    {
+      "end": 1045480,
+      "speaker": "Moritz Stefaner",
+      "start": 1043140,
+      "text": "That works too. Yeah, that works too.",
+      "id": "ep_147_ut_51"
+    },
+    {
+      "end": 1099820,
+      "speaker": "Ed Hawkins",
+      "start": 1046380,
+      "text": "Maybe that helps. But of course, we work with this data every day. And so we're very used to understanding what it represents, what's going on. We understand all the subtleties, the uncertainties and nuances. And we're not maybe tied down by sets of rules. We're just experimenting, or I am just experimenting with different ways of representing the same data. And some of our experiments have been massive failures, and that's fine. But of course, we make more complex versions to communicate all of the necessary precision and uncertainty, but that is not going to work for the broadest audience. And so we need multiple different types, multiple different forms of the same data presented in different ways to communicate to different groups of people.",
+      "id": "ep_147_ut_52"
+    },
+    {
+      "end": 1183100,
+      "speaker": "Enrico Bertini",
+      "start": 1100240,
+      "text": "Yeah. I'm actually thinking that your spiral and stripes are really good examples I can show in class to say that all these rules are relative. Right. So it's actually, actually very useful academically. And I think what, what is, I think what these two projects have in common is maybe the idea that the techniques that you're using here to visualize this data are very visceral. Right. So both the spiral and the changing colors in the climate stripes, you don't need to explain what is going on. Right. And so the animation is engaging, I think. At least. I think there is something special in animation where people, when they see something animated now, they are watching, they're not just, it's not this static thing that they have to analyze. They can kind of like, lay it back a little bit and see how the whole thing unfolds. Right. I think this is true also for the work of Hans Rosling. I guess you're familiar with these famous animated charts. So maybe, I think what is special here is this idea that both visualizations are pretty straightforward to understand what is going on, and they are also very visceral and very engaging. Does it make sense to you what I'm saying?",
+      "id": "ep_147_ut_53"
+    },
+    {
+      "end": 1190382,
+      "speaker": "Ed Hawkins",
+      "start": 1183140,
+      "text": "No, that makes perfect sense. Yes, that's certainly some of the feedback that I've had over the last couple of years. That's absolutely right.",
+      "id": "ep_147_ut_54"
+    },
+    {
+      "end": 1192310,
+      "speaker": "Enrico Bertini",
+      "start": 1190516,
+      "text": "Would you use them in papers?",
+      "id": "ep_147_ut_55"
+    },
+    {
+      "end": 1196034,
+      "speaker": "Ed Hawkins",
+      "start": 1195090,
+      "text": "That's a good question.",
+      "id": "ep_147_ut_56"
+    },
+    {
+      "end": 1203830,
+      "speaker": "Enrico Bertini",
+      "start": 1196122,
+      "text": "Are scientists now using them in their papers because they saw you being so successful with these representations?",
+      "id": "ep_147_ut_57"
+    },
+    {
+      "end": 1260504,
+      "speaker": "Ed Hawkins",
+      "start": 1206130,
+      "text": "So we have actually, well, we wrote a paper about the spiral and about it, so it has actually technically been published, but it was about why it was so successful and why scientists should get involved in this. And I think what's been great to see is that there's been a growth in climate scientists on social media, publishing very innovative graphics. There's a large number of us now who regularly put our visualizations on our social media accounts, and many of them are very, very popular and get shared quite widely. And that's been fantastic to see that so many different ideas have come up from the scientific community as well as the data visualization community. And I think that sort of, that mix of skills and experience is really helping communicate these issues.",
+      "id": "ep_147_ut_58"
+    },
+    {
+      "end": 1279740,
+      "speaker": "Enrico Bertini",
+      "start": 1260632,
+      "text": "Yeah, that's interesting about how much, quote unquote, how much pressure, but also opportunity climate scientists have. Right. It's now that kind of scientist who is tasked with, with the goal of communicating with basically everyone and anyone. So that's really interesting.",
+      "id": "ep_147_ut_59"
+    },
+    {
+      "end": 1301652,
+      "speaker": "Moritz Stefaner",
+      "start": 1280440,
+      "text": "Yeah, maybe that's also connected to a question I generally had. So do you think, should every scientist be actually communicating their own science and be active in science communication in general? Or is there maybe a bigger need for dedicated science communicators like database experts or science journalists or. What's your take on this?",
+      "id": "ep_147_ut_60"
+    },
+    {
+      "end": 1370120,
+      "speaker": "Ed Hawkins",
+      "start": 1301736,
+      "text": "Yes, I guess all climate scientists and all scientists do communicate what they do normally it's communicating to fellow scientists and that is the way that they have been trained and it's the way they think. And there's a growing number of us who communicate more broadly to broader audiences. I don't think we need every scientist to do that. We probably need a number, but we don't need everybody to do that. And that's the right thing because not everyone has an interest in it or maybe the right skills. And so the fact there are a number of us experimenting in this area I think is great. We'll always benefit from professional experience, from Dataviz experts coming in and telling us about what we might be doing right or what we might be doing wrong. And it won't get rid of the need to have professional Dataviz people on this topic as well, because they will have novel ideas just as we can. And so it does need a mix of people always, I think, to be as effective as possible.",
+      "id": "ep_147_ut_61"
+    },
+    {
+      "end": 1404032,
+      "speaker": "Moritz Stefaner",
+      "start": 1371060,
+      "text": "Yeah. And there was a longer twitter discussion I sort of kicked off with loudly musing about these questions and also complaining a bit that maybe we as Dataviz community need to step up our game a bit here. And by now I'm thinking maybe we're just overcomplicating things sometimes. We're trying to be so clever, we're trying to be so clever about the right visual that we sort of miss the obvious things that would work totally well. So I think we need to keep talking there. And your work is just a great example of how these two worlds can meet.",
+      "id": "ep_147_ut_62"
+    },
+    {
+      "end": 1407220,
+      "speaker": "Ed Hawkins",
+      "start": 1404216,
+      "text": "I think I'd probably make a terrible dataviz expert.",
+      "id": "ep_147_ut_63"
+    },
+    {
+      "end": 1460640,
+      "speaker": "Moritz Stefaner",
+      "start": 1408720,
+      "text": "So it is something, I'm thinking a lot about how we as designers, artists, scientists can be more effective in communicating all these complicated issues about climate change, and I was wondering if you had any thoughts on that, because I think the science around climate change is known for a long time and the fact that global warming is human made and so on. But at the same time there seems to be some sort of strange, maybe it's a cognitive bias or sort of a mental block that keeps us from either communicating these facts effectively, or maybe communication of the facts works, but then the translation into action is the problem. So it seems to be such a weird, hard to solve situation. What, in your view are the biggest challenges and obstacles here?",
+      "id": "ep_147_ut_64"
+    },
+    {
+      "end": 1492140,
+      "speaker": "Ed Hawkins",
+      "start": 1460800,
+      "text": "I don't necessarily think the challenge is in the communication side. I think we as scientists, we as you say, have understood that humans are driving these changes and we've understood that for a number of decades, and we've communicated that to politicians and the public for decades as well. Although we are finding new and novel ways and better ways of communicating, I don't necessarily think that we have done such a bad job that people haven't understood this.",
+      "id": "ep_147_ut_65"
+    },
+    {
+      "end": 1502954,
+      "speaker": "Moritz Stefaner",
+      "start": 1492560,
+      "text": "That was also an inconvenient truth. It's like over ten years old, that already caused a big wave of attention to the whole topic. Really well made as well, right?",
+      "id": "ep_147_ut_66"
+    },
+    {
+      "end": 1614960,
+      "speaker": "Ed Hawkins",
+      "start": 1503122,
+      "text": "Yeah. And there are a number of different ways that these conversations have started in the past, and inconvenient truth is one of those. But I think the problem is that we're not used to having to deal with problems which have such long timescales and has such global implications. We are used to dealing with things that a few years ahead, because that's our political cycles. We're just not used to having to deal with generational problems. Climate change is the biggest one that we have potentially, and it requires political agreement across the political spectrum, and it requires very long term thinking. And that's just something that we're just not set up to deal with. And I think this is the main reason why the actions have not necessarily followed what the politicians have wanted to or have said they want to happen. And the implications are quite transformational in many, many ways. If we are to meet the targets that the politicians have set, we will need very large transformations to society, and some of those transformations may well be uncomfortable and unpopular. But if we are to meet the targets, then those transformations will have to occur. So, for example, we will have to replace every combustion engine with either electric vehicles or hydrogen vehicles. We will need to replace gas as a form of heating. We will need to do a number of other things, maybe change diets or reduce flying. And all of these things are quite maybe difficult for people to appreciate and take on board and understand why they have to do it.",
+      "id": "ep_147_ut_67"
+    },
+    {
+      "end": 1628908,
+      "speaker": "Enrico Bertini",
+      "start": 1615110,
+      "text": "Yeah. So what you are saying basically is that communication is not necessarily bad. There are many, many more problems to solve that communication itself can't really solve. Do I understand? Right.",
+      "id": "ep_147_ut_68"
+    },
+    {
+      "end": 1648380,
+      "speaker": "Ed Hawkins",
+      "start": 1629004,
+      "text": "There are enormous problems which the scientists can't solve. With the perfect communication, we would still be facing a situation, I think, where it is very difficult for decisions and policies to be put in place because we're just not used to dealing with such long term issues.",
+      "id": "ep_147_ut_69"
+    },
+    {
+      "end": 1685166,
+      "speaker": "Moritz Stefaner",
+      "start": 1649880,
+      "text": "Yeah. Maybe that also has to do with the fact that, well, on the one hand, we can visualize what happened in the past, and that's like known measurements. Right. And your warming stripes are expressions of the past data, the climate spiral as well. Then, of course, you can also visualize projections, but then it becomes already a bit more difficult because they might be more fuzzy, there might be uncertainty baked in and so on. And then it's even harder or impossible to, let's say, data visualize future scenarios or the effect of your actions or something like this. Right?",
+      "id": "ep_147_ut_70"
+    },
+    {
+      "end": 1759884,
+      "speaker": "Ed Hawkins",
+      "start": 1685278,
+      "text": "Yeah, I mean, that's right. I mean, the key point that we discussed briefly earlier was about our choices. You know, we're facing a time now where our choices over the next decade or so will determine whether we end up breaking these targets that have been agreed. And so it is down to us. It is down to our choices. And we can try and talk about the implications of taking lots of action against not taking any action. And those are the types of things we do try and communicate in different ways, representing two possible futures where we have taken lots of action or we haven't had, and look at the differences between those two. And I think that's one way that we have tried to communicate about why these changes that have been put forward are needed to avoid the worst impacts. We're still going to have significant impacts, whatever we do now, because we've waited so long, and we're going to have to deal with those and adapt, especially in developing nations, which are much more vulnerable to the changes that we're seeing. And so we are going to have to make difficult choices and adapt to the changes that are already happening as well.",
+      "id": "ep_147_ut_71"
+    },
+    {
+      "end": 1804818,
+      "speaker": "Enrico Bertini",
+      "start": 1760012,
+      "text": "Yeah. And I'm wondering somewhat related to that, I think that not only there is not a lot of visual representations that I think most of the visual representations we see out there, as Moritz said, are mostly about the past rather than the future. But do you think there is also a limitation in terms of as long as we talk about temperature and CO2 these are just abstract numbers for people. Right. But if we could make things a little bit more tangible and things that are a little closer to our imagination, especially if we talk about the possible future and possible impacts on people and societies, then maybe it would be even be more powerful. I don't know. What do you think?",
+      "id": "ep_147_ut_72"
+    },
+    {
+      "end": 1813474,
+      "speaker": "Ed Hawkins",
+      "start": 1804934,
+      "text": "I think that's a really important point. I think we often will talk in terms of global temperature, which is not experienced by anyone.",
+      "id": "ep_147_ut_73"
+    },
+    {
+      "end": 1814698,
+      "speaker": "Enrico Bertini",
+      "start": 1813642,
+      "text": "Yeah, exactly.",
+      "id": "ep_147_ut_74"
+    },
+    {
+      "end": 1899932,
+      "speaker": "Ed Hawkins",
+      "start": 1814834,
+      "text": "We experience temperature and rainfall and heat waves and storms where we happen to be at that particular moment in time. And so one of the ways we have adapted the stripes graphics is to produce graphics for every country to try and break down one of those barriers and to make it more relevant to people's everyday lives. They can see how temperatures have changed already in their locations in their part of the world, and that immediately then makes it more relevant to them. And they go, ah, we talk about these global changes, but that means my location has changed as well. And that breaks down one of those barriers and allows that conversation to happen about how things have changed locally. But I think you make a wider point that we need to make it more and more relevant to people. We have to talk more about how this affects people's lives. So, for example, we'll see more heat waves, we'll see more heavy rainfall events, we'll see hurricanes drop, more rain, we'll see sea levels rise. And so when storms hit, we'll see more inundation at the coasts when those storms happen. And so the more we can make these things real and talk about how it will affect people, then the more relevant and potentially the more impactful we will be.",
+      "id": "ep_147_ut_75"
+    },
+    {
+      "end": 1900252,
+      "speaker": "Moritz Stefaner",
+      "start": 1900036,
+      "text": "Yeah.",
+      "id": "ep_147_ut_76"
+    },
+    {
+      "end": 1916398,
+      "speaker": "Enrico Bertini",
+      "start": 1900276,
+      "text": "There is also this problem that one degree doesn't sound like anything important. Right? I mean, one of the most common reactions I hear is like, oh, it's going to be a little warmer here. Nice. I think that's important.",
+      "id": "ep_147_ut_77"
+    },
+    {
+      "end": 1956676,
+      "speaker": "Ed Hawkins",
+      "start": 1916534,
+      "text": "And day to day. That's absolutely right. We won't feel the difference on a normal day, whether it's 15 degrees celsius or 16 degrees celsius doesn't necessarily matter that much. But what it does mean is when we get extreme events, they will be worse. And so we'll get hotter heat waves, which we haven't experienced before. We will get more rainfall because the atmosphere is warmer, and so we will get more flooding events when the rain happens. And so although one degree does not sound very much, and day to day it may not be, the implications can be very severe. Communicating that point is very challenging, but it is.",
+      "id": "ep_147_ut_78"
+    },
+    {
+      "end": 1972884,
+      "speaker": "Moritz Stefaner",
+      "start": 1956708,
+      "text": "Doable but that's interesting again, because that maybe also means we have commie indicated that too simplistic, total global average for too long. And so this might actually have been a case of oversimplification then, right?",
+      "id": "ep_147_ut_79"
+    },
+    {
+      "end": 1984800,
+      "speaker": "Ed Hawkins",
+      "start": 1972972,
+      "text": "Definitely, yeah. We have to talk increasingly about how this affects people day to day, and to do that we need to make it relevant. And so the more we can do that, the better.",
+      "id": "ep_147_ut_80"
+    },
+    {
+      "end": 2021250,
+      "speaker": "Moritz Stefaner",
+      "start": 1985820,
+      "text": "If there were, among our listeners, there's loads of young, engaged people burning to do something in that realm. If you were to start now, do you have any recommendations about what are good data sources to get started with, which topics or angles are not covered enough in that whole space? You mentioned the personal perspective and the scenarios. Are there similar things where you say, oh, these types of things should be talked more about, or these are really good starting points to get started with data visualization in that space.",
+      "id": "ep_147_ut_81"
+    },
+    {
+      "end": 2089730,
+      "speaker": "Ed Hawkins",
+      "start": 2024030,
+      "text": "I've not really thought much about. I think probably you should just stick with what you're interested in and what you think people care about. If it's something that you care about, then it's likely that other people will care about it as well. Though you might talk about coral reefs, for example, where we are saying that potentially we're going to lose the vast majority of the world's coral reefs if temperatures get to roughly two degrees above pre industrial levels. That isn't that far away in terms of by the time we think about how long it takes to reduce emissions. So that's one example. But there are many around the world, and different countries have different risks. So, for example, the biggest risk for European countries is very different from the biggest risks for a country like Bangladesh, for example, countries in Africa or countries in the Middle east. All of these countries face very different challenges for different reasons. And so it is important to talk about what is important for wherever you live, because it will be different.",
+      "id": "ep_147_ut_82"
+    },
+    {
+      "end": 2133520,
+      "speaker": "Enrico Bertini",
+      "start": 2090910,
+      "text": "Yeah, I have a somewhat related question. So in the past I had the fortune to work together with a group of climate scientists, and it's one of the best collaborations I had in the last 1015 years. I loved it. And I think this kind of collaborations between, between data visualization experts and climate scientists could potentially be very, very impactful and useful and fun. So what do you think about it? How can we make more of these collaborations happen? Do you have any ideas there? And maybe even for our listeners, if they want to reach out to climate scientists, what do you suggest there?",
+      "id": "ep_147_ut_83"
+    },
+    {
+      "end": 2158612,
+      "speaker": "Ed Hawkins",
+      "start": 2133680,
+      "text": "Find a friendly climate scientist to talk to. There are some in most places around the world, so there are a lot of us on social media. There are several thousand climate scientists on social media. And so if you want to find a long list, then there is one scientist called Katherine Hayhoe, and she maintains a very long list of climate scientists on Twitter.",
+      "id": "ep_147_ut_84"
+    },
+    {
+      "end": 2163708,
+      "speaker": "Enrico Bertini",
+      "start": 2158756,
+      "text": "Oh, that's fantastic. We're going to put it in our show notes for sure.",
+      "id": "ep_147_ut_85"
+    },
+    {
+      "end": 2182880,
+      "speaker": "Ed Hawkins",
+      "start": 2163804,
+      "text": "Yeah. And so, yeah, you can search that list for a climate scientist near you or who works on a topic which you're interested in and then contact them. If they're on social media, they're likely to want to engage with different groups, and I would hope many of them would be interested in talking to the Dataviz community.",
+      "id": "ep_147_ut_86"
+    },
+    {
+      "end": 2214812,
+      "speaker": "Moritz Stefaner",
+      "start": 2183700,
+      "text": "Yeah, I love that perspective of taking it local and finding something small you care about and then taking it from there. And that might get you out of that block of thinking, oh, it's a global problem. I will never be able to solve it. And so everything needs to start somewhere, and the personal angle is the most important one. Fantastic. Thanks so much, Ed. That was really wonderful. And thanks so much for your work. I think you're doing a great, great job there, and I can't wait to see what you'll come up with next.",
+      "id": "ep_147_ut_87"
+    },
+    {
+      "end": 2216040,
+      "speaker": "Ed Hawkins",
+      "start": 2214876,
+      "text": "Thank you for having me on.",
+      "id": "ep_147_ut_88"
+    },
+    {
+      "end": 2218760,
+      "speaker": "Moritz Stefaner",
+      "start": 2216580,
+      "text": "The topic gets much more traction now.",
+      "id": "ep_147_ut_89"
+    },
+    {
+      "end": 2250998,
+      "speaker": "Ed Hawkins",
+      "start": 2219060,
+      "text": "I mean, it's been very, very inspiring to see the young people around the world stand up and say that they want to unite behind the science and take such dramatic action as they have done over the last few months, to speak very loudly with one voice about what they feel about their future. And it's been very inspiring to us as scientists to see that happen. And I'd like to thank them all for doing that and standing up and uniting behind us.",
+      "id": "ep_147_ut_90"
+    },
+    {
+      "end": 2257518,
+      "speaker": "Moritz Stefaner",
+      "start": 2251094,
+      "text": "Very encouraging to see these movements. Yeah, fantastic. Thank you so much.",
+      "id": "ep_147_ut_91"
+    },
+    {
+      "end": 2258142,
+      "speaker": "Enrico Bertini",
+      "start": 2257574,
+      "text": "Thank you, Ed.",
+      "id": "ep_147_ut_92"
+    },
+    {
+      "end": 2259006,
+      "speaker": "Ed Hawkins",
+      "start": 2258206,
+      "text": "Thank you for having me.",
+      "id": "ep_147_ut_93"
+    },
+    {
+      "end": 2259806,
+      "speaker": "Enrico Bertini",
+      "start": 2259078,
+      "text": "Bye. Take care.",
+      "id": "ep_147_ut_94"
+    },
+    {
+      "end": 2260970,
+      "speaker": "Ed Hawkins",
+      "start": 2259838,
+      "text": "Bye bye. Bye bye.",
+      "id": "ep_147_ut_95"
+    },
+    {
+      "end": 2288636,
+      "speaker": "Moritz Stefaner",
+      "start": 2265510,
+      "text": "Hey, folks, thanks for listening to data stories again. Before you leave, a few last notes, this show is crowdfunded and you can support us on patreon@patreon.com Datastories, where we publish monthly previews of upcoming episodes for us supporters. Or you can also send us a one time donation via PayPal at PayPal Me Datastories or as a free way.",
+      "id": "ep_147_ut_96"
+    },
+    {
+      "end": 2316586,
+      "speaker": "Enrico Bertini",
+      "start": 2288668,
+      "text": "To support the show. If you can spend a couple of minutes rating us on iTunes, that would be very helpful as well. And here's some information on the many ways you can get news directly from us. We are on Twitter, Facebook and Instagram, so follow us there for the latest updates. We have also a slack channel where you can chat with us directly. And to sign up, go to our homepage at Datastory ES, and there you'll find a button at the bottom of the page and there.",
+      "id": "ep_147_ut_97"
+    },
+    {
+      "end": 2324034,
+      "speaker": "Moritz Stefaner",
+      "start": 2316618,
+      "text": "You can also subscribe to our email newsletter if you want to get news directly into your inbox and be notified whenever we publish a new episode.",
+      "id": "ep_147_ut_98"
+    },
+    {
+      "end": 2336668,
+      "speaker": "Enrico Bertini",
+      "start": 2324122,
+      "text": "That's right, and we love to get in touch with our listeners. So let us know if you want to suggest a way to improve the show or know any amazing people you want us to invite or even have any project you want us to talk about.",
+      "id": "ep_147_ut_99"
+    },
+    {
+      "end": 2343332,
+      "speaker": "Moritz Stefaner",
+      "start": 2336804,
+      "text": "Yeah, absolutely. Don't hesitate to get in touch. Just send us an email at mailatastory es.",
+      "id": "ep_147_ut_100"
+    },
+    {
+      "end": 2347180,
+      "speaker": "Enrico Bertini",
+      "start": 2343476,
+      "text": "That's all for now. See you next time, and thanks for listening to data stories.",
+      "id": "ep_147_ut_101"
+    }
+  ],
+  "confidence": 0.934383599935885,
+  "audio_duration": 2356,
+  "punctuate": true,
+  "format_text": true,
+  "dual_channel": false,
+  "webhook_url": null,
+  "webhook_status_code": null,
+  "webhook_auth": false,
+  "webhook_auth_header_name": null,
+  "speed_boost": false,
+  "auto_highlights_result": null,
+  "auto_highlights": false,
+  "audio_start_from": null,
+  "audio_end_at": null,
+  "word_boost": [],
+  "boost_param": null,
+  "filter_profanity": false,
+  "redact_pii": false,
+  "redact_pii_audio": false,
+  "redact_pii_audio_quality": null,
+  "redact_pii_policies": null,
+  "redact_pii_sub": null,
+  "speaker_labels": true,
+  "content_safety": false,
+  "iab_categories": true,
+  "content_safety_labels": {
+    "status": "unavailable",
+    "results": [],
+    "summary": {}
+  },
+  "language_detection": false,
+  "language_detection_threshold": null,
+  "language_confidence": null,
+  "custom_spelling": null,
+  "throttled": false,
+  "auto_chapters": true,
+  "summarization": false,
+  "summary_type": null,
+  "summary_model": null,
+  "custom_topics": false,
+  "topics": [],
+  "speech_threshold": null,
+  "speech_model": "best",
+  "chapters": [
+    {
+      "summary": "We talk about data visualization, data analysis, and generally the role data plays in our lives. Ed Hawkins is the person behind the two iconic visualization on climate the spiral visualization and the stripes visualization. If you do enjoy the show, please consider supporting us.",
+      "gist": "Data Stories: Climate Visualization",
+      "headline": "This podcast is listener supported, so there are no ads",
+      "start": 160,
+      "end": 140234,
+      "id": "ep_147_ch_0"
+    },
+    {
+      "summary": "We want to thank Robert Kosara for starting our YouTube channel. Moritz just came back from a great conference, encode in London. And I also have another project, but maybe I won't talk about that another time. Lots of eco related stuff.",
+      "gist": "A few announcements before the conference",
+      "headline": "We just came back from a great conference, encode in London",
+      "start": 140282,
+      "end": 196570,
+      "id": "ep_147_ch_1"
+    },
+    {
+      "summary": "Professor Ed Hawkins is a climate scientist at the University of Reading in the UK. He has created some of the most iconic data visualizations about the topic of climate change. The animated nature means that it tells a story about how things are changing.",
+      "gist": "Ed Hawkins",
+      "headline": "Professor Ed Hawkins has created some of the most iconic climate data visualizations",
+      "start": 196650,
+      "end": 645260,
+      "id": "ep_147_ch_2"
+    },
+    {
+      "summary": "The warming stripes are a follow up to last year's spiral graphic. Just a series of colored stripes with blue colours representing colder temperatures and red colours representing warmer temperatures. Have almost become a logo for the whole topic of climate change.",
+      "gist": "The Climate Stripes",
+      "headline": "The other more popular project was the warming stripes. Can you tell us a bit about those",
+      "start": 645300,
+      "end": 1047680,
+      "id": "ep_147_ch_3"
+    },
+    {
+      "summary": "The techniques that you're using here to visualize this data are very visceral. Both the spiral and the changing colors in the climate stripes, you don't need to explain what is going on. Are scientists now using them in their papers because they saw you being so successful?",
+      "gist": "The science of data visualization",
+      "headline": "Your animations are very visceral and very engaging. Would scientists use them in papers",
+      "start": 1048220,
+      "end": 1279740,
+      "id": "ep_147_ch_4"
+    },
+    {
+      "summary": "Do you think, should every scientist be actually communicating their own science and be active in science communication in general? Or is there maybe a bigger need for dedicated science communicators like database experts or science journalists.",
+      "gist": "The need for dedicated science communicators",
+      "headline": "Should every scientist be actively communicating their own science in general",
+      "start": 1280440,
+      "end": 1407220,
+      "id": "ep_147_ch_5"
+    },
+    {
+      "summary": "I'm thinking a lot about how we as designers, artists, scientists can be more effective in communicating all these complicated issues about climate change. What are the biggest challenges and obstacles here? I don't necessarily think the challenge is in the communication side. We're not used to dealing with such long term issues.",
+      "gist": "What, in your view, are the biggest challenges to communicating the",
+      "headline": "Communication of climate change facts is difficult, but translating into action is difficult",
+      "start": 1408720,
+      "end": 1759884,
+      "id": "ep_147_ch_6"
+    },
+    {
+      "summary": "As long as we talk about temperature and CO2 these are just abstract numbers for people. We have to talk more about how this affects people's lives. The more we can make these things real and talk about how it will affect people, the more relevant and potentially the more impactful we will be.",
+      "gist": "Wonders of the World: Climate Change",
+      "headline": "We need to talk more about how climate change affects people's lives",
+      "start": 1760012,
+      "end": 1984800,
+      "id": "ep_147_ch_7"
+    },
+    {
+      "summary": "If there were, among our listeners, there's loads of young, engaged people burning to do something in that realm. Do you have any recommendations about what are good data sources to get started with? Different countries have different risks. It is important to talk about what is important for wherever you live.",
+      "gist": "The Need for Data Literacy",
+      "headline": "If there were, among our listeners, there's loads of young people burning to do data visualization",
+      "start": 1985820,
+      "end": 2089730,
+      "id": "ep_147_ch_8"
+    },
+    {
+      "summary": "Collaborations between data visualization experts and climate scientists could potentially be very, very impactful and useful and fun. If listeners want to reach out to climate scientists, what do you suggest there? Find a friendly climate scientist to talk to.",
+      "gist": "Dataviz",
+      "headline": "Data visualization experts and climate scientists could potentially collaborate, Ed says",
+      "start": 2090910,
+      "end": 2260970,
+      "id": "ep_147_ch_9"
+    },
+    {
+      "summary": "This show is crowdfunded and you can support us on patreon@patreon. com Datastories. We are on Twitter, Facebook and Instagram, so follow us there for the latest updates. Let us know if you want to suggest a way to improve the show.",
+      "gist": "How to support Datastories!",
+      "headline": "This show is crowdfunded and you can support us on patreon",
+      "start": 2265510,
+      "end": 2347180,
+      "id": "ep_147_ch_10"
+    }
+  ],
+  "disfluencies": false,
+  "entity_detection": false,
+  "sentiment_analysis": false,
+  "sentiment_analysis_results": null,
+  "entities": null,
+  "speakers_expected": null,
+  "summary": null,
+  "custom_topics_results": null,
+  "episode_num": 147,
+  "episode_metadata": {
+    "speakers": [
+      "Ed Hawkins",
+      "Moritz Stefaner",
+      "Enrico Bertini"
+    ],
+    "WPid": "1351",
+    "url": "https://datastori.es/podlove/file/5716/s/feed/c/mp3/147-iconic-climate-visuals-with-ed-hawkins.mp3",
+    "episode_title": "Iconic Climate Visuals with Ed Hawkins"
+  }
+}

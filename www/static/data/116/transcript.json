@@ -1,0 +1,1051 @@
+{
+  "id": "a658a7ef-a5dd-41eb-87ad-38ca5594e386",
+  "language_model": "assemblyai_default",
+  "acoustic_model": "assemblyai_default",
+  "language_code": "en_us",
+  "status": "completed",
+  "audio_url": "https://datastori.es/podlove/file/4903/s/feed/c/mp3/116-cognitive-biases-with-evanthia-dimara.mp3",
+  "utterances": [
+    {
+      "end": 5674,
+      "speaker": "Evanthia Dimara",
+      "start": 440,
+      "text": "The data is the closest we can have to an original information source.",
+      "id": "ep_116_ut_0"
+    },
+    {
+      "end": 34864,
+      "speaker": "Enrico Bertini",
+      "start": 25014,
+      "text": "Hi, everyone. Welcome to a new episode of Data stories. My name is Enrico Bertini and I'm a professor at NYU in New York City, where I do research in data visualization.",
+      "id": "ep_116_ut_1"
+    },
+    {
+      "end": 39588,
+      "speaker": "Moritz Stefaner",
+      "start": 35164,
+      "text": "And my name is Moritz Stefaner and I'm an independent designer of data visualizations.",
+      "id": "ep_116_ut_2"
+    },
+    {
+      "end": 45948,
+      "speaker": "Enrico Bertini",
+      "start": 39716,
+      "text": "And together we talk about data visualization, analysis, and generally the role data plays in our lives.",
+      "id": "ep_116_ut_3"
+    },
+    {
+      "end": 61690,
+      "speaker": "Moritz Stefaner",
+      "start": 46076,
+      "text": "And our podcasts that we do together is listener supported. So there are no ads for mattresses or tools for building websites or something like this. So if you do like the show, please consider supporting us on Patreon. You can find our page on patreon.com Datastories.",
+      "id": "ep_116_ut_4"
+    },
+    {
+      "end": 80454,
+      "speaker": "Enrico Bertini",
+      "start": 61812,
+      "text": "Yes, and today we have another special guest. We are very happy to have a person finally able to talk about cognitive biases and their relationship with visualization and data analysis in general. And we have Evanthia Dimara. Hi, Evanthia, how are you?",
+      "id": "ep_116_ut_5"
+    },
+    {
+      "end": 84262,
+      "speaker": "Evanthia Dimara",
+      "start": 80534,
+      "text": "Hi, Enrico and Moritz. Thank you very much for having me here.",
+      "id": "ep_116_ut_6"
+    },
+    {
+      "end": 85406,
+      "speaker": "Moritz Stefaner",
+      "start": 84318,
+      "text": "Thanks for joining us.",
+      "id": "ep_116_ut_7"
+    },
+    {
+      "end": 86994,
+      "speaker": "Enrico Bertini",
+      "start": 85510,
+      "text": "Yeah, very welcome.",
+      "id": "ep_116_ut_8"
+    },
+    {
+      "end": 91486,
+      "speaker": "Evanthia Dimara",
+      "start": 87334,
+      "text": "And I'm happy to join the Eurovoice. I will be the greek accent.",
+      "id": "ep_116_ut_9"
+    },
+    {
+      "end": 106300,
+      "speaker": "Enrico Bertini",
+      "start": 91670,
+      "text": "Yeah, here is another one, very exotic as well. So, Ivan, Tia, can you briefly introduce yourself, tell us a little bit about your background, current position, your interests and so on.",
+      "id": "ep_116_ut_10"
+    },
+    {
+      "end": 200256,
+      "speaker": "Evanthia Dimara",
+      "start": 106372,
+      "text": "So I just finished my PhD in visualization and decision making, and I started working in Paris as a postdoc in the HCI team of the Institute of Intelligence Systems and Robotics of Sorbonne. I came to Paris to do human computer interaction. And actually, I would say that the way I see GI is like problem solving. So for me, that was the deal, to find what is the problem that people have and they cannot do so far. So the way I see visualizations is that the data is the closest we can have to an original information source. Let's say the open data that we have about unemployment, about many, many, many different things. But as you know better than these numbers are difficult to handle. We have statistics. Statistics don't tell us everything, so we need to know more things. And this is how visualizations come along in these projects. I wanted to see how by visualizing all this information, we have more chances to make good, informed decisions that are based on reliable data. So for me, having reliable data that we understand, so who prevents us from making good decisions? Most of the times I would say it's actually ourselves and the limitations of human judgment which lead us, I guess, to the topic of today, the cognitive biases.",
+      "id": "ep_116_ut_11"
+    },
+    {
+      "end": 225070,
+      "speaker": "Moritz Stefaner",
+      "start": 200400,
+      "text": "Yeah, I just wanted to say, this sounds great, but it's a little problem there. And it's exactly this translation of. Well, first of all, is data really objective? That's a good question to ask that we discussed many times already on the show, like, how much is data really representing objective truths? Usually. And the second part is classist.",
+      "id": "ep_116_ut_12"
+    },
+    {
+      "end": 225726,
+      "speaker": "Evanthia Dimara",
+      "start": 225142,
+      "text": "Yeah.",
+      "id": "ep_116_ut_13"
+    },
+    {
+      "end": 250184,
+      "speaker": "Moritz Stefaner",
+      "start": 225870,
+      "text": "And the second part is, of course, even if we have really good data, let's say, like, high quality data, the question is, do people still do the right thing with it when they see it? And maybe this brings us to the topic of cognitive biases, among other things. So, what are cognitive biases, and what can we do with them?",
+      "id": "ep_116_ut_14"
+    },
+    {
+      "end": 399804,
+      "speaker": "Evanthia Dimara",
+      "start": 251084,
+      "text": "So, okay, so to explain what is a cognitive bias, I will start with an example. So, let's take, again the voting thing. Like, we want to vote. We have presidential elections. Okay? So we have two candidates. We have Alice and Bob. Alice, let's say she has a very promising healthcare plan for the country, and we give it to that ten out of ten score, a very good healthcare plan. But her policy for crime control is not well thought and organized. So let's give it a five. Okay? Bob, on the other hand, has a very strong policy against crime. We give it ten out of ten. But when it comes to healthcare, his plan is rather weak. So we give it a five. So, if you assume now that health and safety are both important to you, this is not an easy answer. Right? We have a trade off. There is no optimal answer. So if I want now to manipulate your vote and make you vote Bob over a list, this is what I'm gonna do. I will do a marketing trick. I will add a third candidate in the race. Let's call it decoy. So, the decoy candidate is very similar to Bob. He also gives, let's say, more emphasis to safety and health. But he's slightly worse than Bob. So let's give him eight out of ten for the safety and five in health. Now, for some reason, the addition of the decoy option, the probability for you to vote for both instead of a list will mysteriously increase because of this decoy option. And this is an example of a cognitive bias that is called the attraction effect or the decoy effect. So, a cognitive bias is practically, this is a deviation of human judgment from a norm. So, the norm in our case, is a particular rationality principle that says that your choice between Boba than Liz should not depend on any relevant third option. But in principle, you should never want to choose that. It's an irrelevant item, inferior from Bob. But this item can make you choose Bob over a list. So this is considered as an irrational to some extent. I mean, to some norm, any rational decision.",
+      "id": "ep_116_ut_15"
+    },
+    {
+      "end": 408968,
+      "speaker": "Moritz Stefaner",
+      "start": 400184,
+      "text": "So you could say these are like systematic thinking mistakes we keep making all the time, or like certain traps we keep falling into. Right.",
+      "id": "ep_116_ut_16"
+    },
+    {
+      "end": 476540,
+      "speaker": "Evanthia Dimara",
+      "start": 409096,
+      "text": "There are controversial on this. What should be considered as norm, what is truly rationality, what's not. But most of the time it has to do with the deviation from a norm. The norm can be from decision making, can be a memory. A social norm can be many, many things. Another example, for example, is like we have the availability bias. Again, the same example of voting. If I ask you what is more likely to happen to you, a terrorist attack or a happy topic. So the probability of a terrorist attack, in fact, is, as you may know, is extremely small, almost 7 million times more likely to die from a heart disease or cancer rather than a terrorist attack. However, if you're exposed to media that they often report incidents of terrorist attacks, and I guess not much report hair diseases because it's not a hot topic. I guess this makes you feel that a terrorist attack is more likely to affect your life. So in this case, a candidate that is focusing on terrorist counteraction, for example, may be more appealing to you.",
+      "id": "ep_116_ut_17"
+    },
+    {
+      "end": 481012,
+      "speaker": "Enrico Bertini",
+      "start": 476612,
+      "text": "Isn't there something called like the vividness bias or something like that?",
+      "id": "ep_116_ut_18"
+    },
+    {
+      "end": 481644,
+      "speaker": "Evanthia Dimara",
+      "start": 481108,
+      "text": "Exactly.",
+      "id": "ep_116_ut_19"
+    },
+    {
+      "end": 485108,
+      "speaker": "Enrico Bertini",
+      "start": 481724,
+      "text": "When something is more vivid than in drugs, a lot more.",
+      "id": "ep_116_ut_20"
+    },
+    {
+      "end": 494188,
+      "speaker": "Evanthia Dimara",
+      "start": 485156,
+      "text": "There are many bias that have to do with familiarity. That's the mere exposure effect. So the more you're exposed to something. Exactly, exactly. That's another case of the bias.",
+      "id": "ep_116_ut_21"
+    },
+    {
+      "end": 495704,
+      "speaker": "Enrico Bertini",
+      "start": 494276,
+      "text": "Yeah, there are so many.",
+      "id": "ep_116_ut_22"
+    },
+    {
+      "end": 519528,
+      "speaker": "Moritz Stefaner",
+      "start": 496044,
+      "text": "Yeah, there's this huge list at Wikipedia, we will link to it. List of cognitive bias. It's like thousands, thousands or hundreds. But as you scan them, you realize, wow, our brains really don't work that well. So we always think like, yeah, we are fairly rational, like plus, minus, give or take. But then you realize, wow, there's so many subtle ways we can be misled very easily.",
+      "id": "ep_116_ut_23"
+    },
+    {
+      "end": 553342,
+      "speaker": "Evanthia Dimara",
+      "start": 519616,
+      "text": "Yeah, yeah. The confirmation bias that you already search information in the way that confirms what you already believe, or like the clustering illusion that we see patterns and conspiracy theories and connections among random events that don't exist if we want to describe them. In general, we can say that people usually fail to apply probability rules. They're afraid to apply logical rules. They appear overconfident, they rely too much on the first piece of information they see and stuff like that.",
+      "id": "ep_116_ut_24"
+    },
+    {
+      "end": 565334,
+      "speaker": "Moritz Stefaner",
+      "start": 553438,
+      "text": "Yeah, I think a lot also has to do with some heuristics. Like, we try to follow a certain path that is cheap in terms of thinking, and often it's okay. Ish. But sometimes it's also totally wrong.",
+      "id": "ep_116_ut_25"
+    },
+    {
+      "end": 573468,
+      "speaker": "Evanthia Dimara",
+      "start": 565454,
+      "text": "Exactly. Sometimes it's okay to do that. And sometimes this is a very effective strategy we have, so it's not always to blame for.",
+      "id": "ep_116_ut_26"
+    },
+    {
+      "end": 581932,
+      "speaker": "Enrico Bertini",
+      "start": 573596,
+      "text": "Yeah, because engaging with the full information is much, much. It takes much more effort. Right. So I think that's the thing.",
+      "id": "ep_116_ut_27"
+    },
+    {
+      "end": 613732,
+      "speaker": "Moritz Stefaner",
+      "start": 581988,
+      "text": "Can I mention two more favorites? So, yeah, go ahead. And it's a great list. You have to read the whole list. Or maybe read a couple each day. It's enough. You can make a calendar with it. But a really good one is rhyme as reason. Effectively, rhyming statements are perceived as more truthful. A famous example being used in the OJ Simpson trial with the defenses use of the phrase, if the gloves don't fit, then you must acquit. And this actually works. You know, you listen to it and you're like, yeah, that makes sense. That works. That works.",
+      "id": "ep_116_ut_28"
+    },
+    {
+      "end": 614516,
+      "speaker": "Evanthia Dimara",
+      "start": 613788,
+      "text": "It rhymes.",
+      "id": "ep_116_ut_29"
+    },
+    {
+      "end": 654704,
+      "speaker": "Moritz Stefaner",
+      "start": 614580,
+      "text": "Right. And so immediately you're sort of biased to believe it. It's crazy. And the other really nice one is Ikea effect, the tendency for people to place a disproportionately high value on objects that they partially assembled themselves, such as furniture from Ikea, regardless of the quality of the end result. Coming back to visualizations, it's actually a problem in design. Like, if you spend a lot of work, it was so hard to get all these D3 scripts to work, and finally it works. And then you say, wow, that was a lot of work. Yeah, it's good work.",
+      "id": "ep_116_ut_30"
+    },
+    {
+      "end": 660644,
+      "speaker": "Evanthia Dimara",
+      "start": 654824,
+      "text": "And then you just have paper prototypes. The less effort, the more.",
+      "id": "ep_116_ut_31"
+    },
+    {
+      "end": 675472,
+      "speaker": "Moritz Stefaner",
+      "start": 661064,
+      "text": "Yeah, yeah. So the more you invest into something, the more valuable you perceive it, even if the absolute value is not there. And all these. Yeah, and there's so many of these mind traps and thinking fallacies we can fall into. It's crazy.",
+      "id": "ep_116_ut_32"
+    },
+    {
+      "end": 687670,
+      "speaker": "Enrico Bertini",
+      "start": 675608,
+      "text": "Yeah. Moritz, you just gave me an idea, because when I talk with my students and I tell them that they have to trash their prototypes, they're always so sad. And I'm gonna tell them, you're just a victim of the AQF.",
+      "id": "ep_116_ut_33"
+    },
+    {
+      "end": 688374,
+      "speaker": "Moritz Stefaner",
+      "start": 687782,
+      "text": "Exactly.",
+      "id": "ep_116_ut_34"
+    },
+    {
+      "end": 689542,
+      "speaker": "Evanthia Dimara",
+      "start": 688454,
+      "text": "Or the loss of action.",
+      "id": "ep_116_ut_35"
+    },
+    {
+      "end": 692510,
+      "speaker": "Moritz Stefaner",
+      "start": 689638,
+      "text": "Also, it was just cardboard and.",
+      "id": "ep_116_ut_36"
+    },
+    {
+      "end": 694214,
+      "speaker": "Enrico Bertini",
+      "start": 692702,
+      "text": "Yeah, cheap stuff.",
+      "id": "ep_116_ut_37"
+    },
+    {
+      "end": 700994,
+      "speaker": "Moritz Stefaner",
+      "start": 694254,
+      "text": "Yeah, exactly. Yeah. So, yeah. And it's hard. And I think it's. Once you learn about confirmation bias, you see it everywhere.",
+      "id": "ep_116_ut_38"
+    },
+    {
+      "end": 705286,
+      "speaker": "Evanthia Dimara",
+      "start": 704134,
+      "text": "It's not a bias.",
+      "id": "ep_116_ut_39"
+    },
+    {
+      "end": 737946,
+      "speaker": "Moritz Stefaner",
+      "start": 705390,
+      "text": "Yeah. It's something, if you're not aware of it, you don't see it. But generally with biases, I think it's like if once. Once you have a sense of them and understand a few of them, you start to see how often they occur. And you also learn about, like how arguments, certain arguments are structured and then you see where the trick is, basically, often with politicians, for instance. Right. Like how they set up a certain framing or an anchoring just to put you in an emotional mindset that will actually have you misjudged something. And, yeah, it's kind of crazy.",
+      "id": "ep_116_ut_40"
+    },
+    {
+      "end": 751232,
+      "speaker": "Evanthia Dimara",
+      "start": 737970,
+      "text": "Even the order on the debate, if you have a debate and you see many politicians, you remember the first and the last, and you forget the ones in the middle. So they fight who is going to go first and who's going to go last in the shows.",
+      "id": "ep_116_ut_41"
+    },
+    {
+      "end": 768644,
+      "speaker": "Moritz Stefaner",
+      "start": 751328,
+      "text": "Yeah. So a lot of rhetorics and you also said marketing or advertisement, of course, use these tricks. Right. But also the classical, like, skill of delivering a good speech or delivering a good persuading argument is of course, has a lot to do with triggering these, these mind patterns.",
+      "id": "ep_116_ut_42"
+    },
+    {
+      "end": 770124,
+      "speaker": "Evanthia Dimara",
+      "start": 768684,
+      "text": "Yeah, exactly.",
+      "id": "ep_116_ut_43"
+    },
+    {
+      "end": 779036,
+      "speaker": "Moritz Stefaner",
+      "start": 770204,
+      "text": "Can you train your brain to not be so bad? Like, can you sort of like, do the biases go away when you know about them? Is it a bit like monsters under.",
+      "id": "ep_116_ut_44"
+    },
+    {
+      "end": 825970,
+      "speaker": "Evanthia Dimara",
+      "start": 779060,
+      "text": "The telling people about the bias, what the status. So is that simply telling about people about the bias doesn't really work? Sometimes even, doesn't work even immediately, but even after some time, it fades away. Even when you put a warning message that says, don't be biased, biased, it doesn't work. And amazingly, even when you have people who have domain knowledge on those things, like you have intelligent analysts, that they actually take decision about national security things in the United States particularly, watch the study, they compare the intelligent analysts with college students based on how much their decisions were biased. And the college students outperformed.",
+      "id": "ep_116_ut_45"
+    },
+    {
+      "end": 826754,
+      "speaker": "Moritz Stefaner",
+      "start": 826122,
+      "text": "Oh, my God.",
+      "id": "ep_116_ut_46"
+    },
+    {
+      "end": 835346,
+      "speaker": "Evanthia Dimara",
+      "start": 826794,
+      "text": "Were more rational than the domain experts in finance. So it's a very complex thing.",
+      "id": "ep_116_ut_47"
+    },
+    {
+      "end": 899270,
+      "speaker": "Enrico Bertini",
+      "start": 835450,
+      "text": "Yeah. I think one thing I remember from the classic book from Daniel Kahneman, what is called thinking fast and slow, one thing that stayed with me is the idea that maybe one way to deal with some biases is just to have processes. Right. So don't count on yourself. And there is this story of, I believe he set up a process to evaluate soldiers in the Israeii army. Right. Something like that. I hope I remember it right. I should. And he knows that himself and his team is biased in many different ways. Right. So I think what they did was to just create a set of questions with scores and also guidelines on how to score things before seeing any candidates. Right? Yeah. I found this kind of thing pretty inspiring because how to distance yourself from the decisions that you're going to make in the future by using some kind of processes, I think it's an interesting idea.",
+      "id": "ep_116_ut_48"
+    },
+    {
+      "end": 901766,
+      "speaker": "Evanthia Dimara",
+      "start": 899422,
+      "text": "Even a blind review we do. I mean it's.",
+      "id": "ep_116_ut_49"
+    },
+    {
+      "end": 904566,
+      "speaker": "Enrico Bertini",
+      "start": 901870,
+      "text": "Oh yeah, yeah.",
+      "id": "ep_116_ut_50"
+    },
+    {
+      "end": 917254,
+      "speaker": "Moritz Stefaner",
+      "start": 904590,
+      "text": "But still, even a blind reviewer can have biases, right? It's like, oh yeah, that's tricky. Yeah. So how does this all relate to data visualization mind or also in your work?",
+      "id": "ep_116_ut_51"
+    },
+    {
+      "end": 1077664,
+      "speaker": "Evanthia Dimara",
+      "start": 917834,
+      "text": "Yeah, so I mean, okay, we understand that all these biases illustrate how human judgment can be distorted, right? So, okay. At the same time, visualizations are designed to rely on human judgment. So in the first phase, it seems reasonable that we should care about these limitations. However, I mean, I guess many people that hear us now and they work in visualizations or data analysis, they will say, okay, all these distortions of jasmine may appear just because people are not very well educated, are not very intelligent, or more importantly, they haven't seen the data yet. And I mean, as we discuss, okay, we expect visualizations are closer to objective knowledge because they access the original data. I'm afraid that I will disappoint you here because we have to address many challenges before we be able to say that visualization can help on alleviating bias or before we even know which biases can occur in which visualization activities. So the first challenge that we already somehow said is that more knowledge does not guarantee unbiased judgment. So we say telling people about the bias doesn't really work. Even domain expertise that we saw doesn't always work. And they also did studies on people like if they are intelligent or open minded, and this didn't even seem to affect the cognitive biases. So since we say that simply knowledge cannot solve the biases, I guess it's not, there is no reason to be super confident that simply visualized data will also do. The second challenge is that the cognitive biases we discuss so far are not really tested with visualized data. So in order to verify the existence of all these biases, you will see many experiments, like people. This must be replicated in a lot of experiments. But if you read those studies, you will see that the people in these experiments are mostly, see texts, oral instructions, everyday objects. Some of them are with data, some of them without data, and we don't really know what is going to happen if we expose people to visualize information. So cure interlacing discusses those things, but we don't really have a lot of.",
+      "id": "ep_116_ut_52"
+    },
+    {
+      "end": 1082150,
+      "speaker": "Moritz Stefaner",
+      "start": 1077704,
+      "text": "Empirical and we don't really know which biases apply when.",
+      "id": "ep_116_ut_53"
+    },
+    {
+      "end": 1084934,
+      "speaker": "Evanthia Dimara",
+      "start": 1082262,
+      "text": "Yeah, exactly. There are many, as you said, 300.",
+      "id": "ep_116_ut_54"
+    },
+    {
+      "end": 1099734,
+      "speaker": "Moritz Stefaner",
+      "start": 1085014,
+      "text": "Yeah, it's literally hundreds. Yeah. So can you test like, or are there like rules or like, do you have to test individually, like, which bias applies in which, for which chart type or, you know, I'm not even sure how to, how to approach this at all.",
+      "id": "ep_116_ut_55"
+    },
+    {
+      "end": 1343652,
+      "speaker": "Evanthia Dimara",
+      "start": 1099814,
+      "text": "I can tell you, for example, one example of my project, that we addressed a very particular bias in visualizations. So you remember the first example of a bias I gave you, and bias too. I started with my bias. So I. The one with the elections and Boba Dalis, the attraction effect. So, for example, let's see, let's take only this bias. Now, this particular bias is only. People have, in previous studies, have only seen numerical tables or commercial products like towels and pens. They haven't seen visualized data yet. Okay, so what we did in this study was to see if this particular bias can affect the way people make decisions using a visualization diagram. So we ran a study asking people to choose chimps that are presented in a 2d scatter plot. It's the typical mathematical diagram with the two coordinates. So we asked people to choose a gem according to two attributes, the cleanliness of the gin and the variety of the machines. So one gym was better in cleanliness, and the other one was better in variety, as we saw before. So again, there is no optimal. Here we have, again, a trade off between those two attributes. So let's imagine now how this plot will look like. Okay, the vertical axis was the cleanliness, and the horizontal axis, we have the variety. So in the very upper left corner, we have the clean gym, the one that is better in clean limits. And down on the very right, we have the dot of the gym with a big variety. So what we did is that we also displayed some decoy gyms. So some particular people saw a decoy dot on cleanliness, which means that in the upper part, next to the clean jean, we put another gym slightly inferior, so slightly more down. Some other people saw the decoy on the variety. So they saw again the two dots, I told you. And they saw a third decoy gene close to the variety, so down and a little bit on the left. So what we observe is that we could indeed influence people's choices with these decoys in the scatterplot task. And people were choosing the cleanzime more likely when they see the korium cleanliness, and again, the variety gene when they were seeing the decorum variety. But I mean, okay, I mean, in this first study, we have only three data points, and usually for visualizations, we mostly care about larger datasets, right? So, and actually, this particular bias and many other biases are like that, is only defined and studied with three with three choices. And what I found actually very interesting is that when I read in psychology literature to see what's going on, I wanted to replicate something with more data. Where are the other options? So what psychologists suggested is that the attraction effect may not generalize to more items because people will have to do a lot of pairwise comparisons. They will not do it immediately. So likely that the effect will eliminate, will go away. So I said, okay, but visualizations are really famous for doing these tasks really effectively, like pairwise comparisons, and see many data at the same time and in immediate way. So I said, okay, maybe the attraction effect eliminates for other things. What if accelerates for us? So we did that. This is what we, what we actually observed that when we extended the task for more data points, people were affected by those dense clusters of decoys. So the attractiveness of the optimal poise were affected according to those, let's say, inferior clusters.",
+      "id": "ep_116_ut_56"
+    },
+    {
+      "end": 1351236,
+      "speaker": "Moritz Stefaner",
+      "start": 1343788,
+      "text": "So people were relating the extremes to the closest cluster and said like, oh, yeah, this is like much bigger.",
+      "id": "ep_116_ut_57"
+    },
+    {
+      "end": 1352764,
+      "speaker": "Evanthia Dimara",
+      "start": 1351260,
+      "text": "Maybe they were seeing many inferiors.",
+      "id": "ep_116_ut_58"
+    },
+    {
+      "end": 1354660,
+      "speaker": "Moritz Stefaner",
+      "start": 1352844,
+      "text": "Ten gyms in this area.",
+      "id": "ep_116_ut_59"
+    },
+    {
+      "end": 1354940,
+      "speaker": "Evanthia Dimara",
+      "start": 1354732,
+      "text": "Right?",
+      "id": "ep_116_ut_60"
+    },
+    {
+      "end": 1356750,
+      "speaker": "Moritz Stefaner",
+      "start": 1354972,
+      "text": "And so they were saying that if.",
+      "id": "ep_116_ut_61"
+    },
+    {
+      "end": 1381548,
+      "speaker": "Evanthia Dimara",
+      "start": 1356782,
+      "text": "This point here dominates so many decoys, so many inferior things must be something, it must be better, something like that. And even though they had no reason to, I mean, because we asked them, people after we finished the study, what was your reasoning behind that? They didn't have a particular reasoning. So they didn't say, I did this because I felt they're gonna be a trend. We expect some people may think of something happening there.",
+      "id": "ep_116_ut_62"
+    },
+    {
+      "end": 1381904,
+      "speaker": "Moritz Stefaner",
+      "start": 1381646,
+      "text": "No.",
+      "id": "ep_116_ut_63"
+    },
+    {
+      "end": 1383684,
+      "speaker": "Evanthia Dimara",
+      "start": 1381944,
+      "text": "They say, no, I'm okay.",
+      "id": "ep_116_ut_64"
+    },
+    {
+      "end": 1420386,
+      "speaker": "Moritz Stefaner",
+      "start": 1384824,
+      "text": "It has a lot to do. Like, when I teach, I often make this point that we don't really visualize numbers or individual data points, but we always visualize relationships between things. And this is what also people read. And so they read the relationship of a point to the axis or the frame or the other point, but never directly the pure information, but always this relative judgment. Yeah, yeah, super interesting. And so you were able to prove it exists. It's like a measurable effect, right. In scatter plots.",
+      "id": "ep_116_ut_65"
+    },
+    {
+      "end": 1474258,
+      "speaker": "Evanthia Dimara",
+      "start": 1420490,
+      "text": "Yeah. But for me, you know, this study, I mean, okay, yeah, we observed an fraction effect when we use scatter plots. But for me, the important message from this work was not only the attraction effect, that, okay, it applies to scatter plots. For me was this, that the people who did this study, the participants, understood the data, understood the scatterproject, they didn't do any mistake. They were choosing one of the two superior options. Right. So in the way we see these right now, in the way we evaluate visualizations, we treat data somehow like a holy grail. So we believe that once people understand the data and these people understood the data immediately draw a right conclusion. So we focus on the limitations of human vision. And the reason?",
+      "id": "ep_116_ut_66"
+    },
+    {
+      "end": 1477730,
+      "speaker": "Moritz Stefaner",
+      "start": 1474346,
+      "text": "Just readability, basically. But, yeah, that doesn't get.",
+      "id": "ep_116_ut_67"
+    },
+    {
+      "end": 1488054,
+      "speaker": "Evanthia Dimara",
+      "start": 1477802,
+      "text": "I remember your talk actually, with Jessica Hullman about. About this topic, about. Yeah, okay. Perception is vision. Perception, of course, is super critical. But what happened after.",
+      "id": "ep_116_ut_68"
+    },
+    {
+      "end": 1501020,
+      "speaker": "Moritz Stefaner",
+      "start": 1489554,
+      "text": "But, yeah, I mean, if I turn this around, if I'm a bit like, playing devil's advocate, maybe. So doesn't this mean if we turn it around that nothing matters and that.",
+      "id": "ep_116_ut_69"
+    },
+    {
+      "end": 1515784,
+      "speaker": "Enrico Bertini",
+      "start": 1501052,
+      "text": "We can, like, that's a common theme here, right? So we dig this deep hole and then we ask ourselves, should we trash everything?",
+      "id": "ep_116_ut_70"
+    },
+    {
+      "end": 1520028,
+      "speaker": "Evanthia Dimara",
+      "start": 1517884,
+      "text": "That's a challenge for the.",
+      "id": "ep_116_ut_71"
+    },
+    {
+      "end": 1527104,
+      "speaker": "Moritz Stefaner",
+      "start": 1520196,
+      "text": "What I'm trying to say is, doesn't it mean we can be much more loose in how we display our data if the basic message is right?",
+      "id": "ep_116_ut_72"
+    },
+    {
+      "end": 1547764,
+      "speaker": "Evanthia Dimara",
+      "start": 1529204,
+      "text": "Well, the thing is that it's a matter of framing. So since it seems that framing can affect us so much, like the way we frame, a problem can affect us so much, then that can also turn, as in our sleep, because then we can reframe the problem and manipulate the monkeys.",
+      "id": "ep_116_ut_73"
+    },
+    {
+      "end": 1548632,
+      "speaker": "Enrico Bertini",
+      "start": 1548304,
+      "text": "Yeah.",
+      "id": "ep_116_ut_74"
+    },
+    {
+      "end": 1556752,
+      "speaker": "Moritz Stefaner",
+      "start": 1548648,
+      "text": "And then precision is good again. Once you have established the right frame and the right way of thinking about something, then precision is good again. Right.",
+      "id": "ep_116_ut_75"
+    },
+    {
+      "end": 1571004,
+      "speaker": "Evanthia Dimara",
+      "start": 1556848,
+      "text": "I mean, you as a designer, you can change the framing. So if a problem is framed in a way that confuses people and make them certain in a certain way, if you change this design and you change the framing, you know, maybe you can make.",
+      "id": "ep_116_ut_76"
+    },
+    {
+      "end": 1605038,
+      "speaker": "Moritz Stefaner",
+      "start": 1571864,
+      "text": "But I think it's a good, like, case to think about. Like, okay, maybe precision is not always everything and maybe even you can leave out data, or you should leave out data if, you know, if you include it, people will sort of read that part of the graph way too much or, like, over interpret it or establish these wrong rankings or relationship effects. So I think that's a very interesting takeaway here, that the whole point is what people take away from reading the graph, not if you have depicted every single data point. Right.",
+      "id": "ep_116_ut_77"
+    },
+    {
+      "end": 1614830,
+      "speaker": "Evanthia Dimara",
+      "start": 1605126,
+      "text": "Exactly. That's a very good point, actually. And it particularly applies to the attraction effect because the truth is that if you remove the decoys, you don't have attraction effect. Okay.",
+      "id": "ep_116_ut_78"
+    },
+    {
+      "end": 1616934,
+      "speaker": "Moritz Stefaner",
+      "start": 1614902,
+      "text": "I don't suggest data. Better judgment.",
+      "id": "ep_116_ut_79"
+    },
+    {
+      "end": 1617150,
+      "speaker": "Evanthia Dimara",
+      "start": 1616974,
+      "text": "Yeah.",
+      "id": "ep_116_ut_80"
+    },
+    {
+      "end": 1618246,
+      "speaker": "Moritz Stefaner",
+      "start": 1617182,
+      "text": "Yeah. It's kind of interesting.",
+      "id": "ep_116_ut_81"
+    },
+    {
+      "end": 1618662,
+      "speaker": "Evanthia Dimara",
+      "start": 1618350,
+      "text": "Yeah.",
+      "id": "ep_116_ut_82"
+    },
+    {
+      "end": 1619054,
+      "speaker": "Moritz Stefaner",
+      "start": 1618718,
+      "text": "Crazy.",
+      "id": "ep_116_ut_83"
+    },
+    {
+      "end": 1620102,
+      "speaker": "Evanthia Dimara",
+      "start": 1619094,
+      "text": "It's kind of a case.",
+      "id": "ep_116_ut_84"
+    },
+    {
+      "end": 1620758,
+      "speaker": "Enrico Bertini",
+      "start": 1620198,
+      "text": "Yeah.",
+      "id": "ep_116_ut_85"
+    },
+    {
+      "end": 1622374,
+      "speaker": "Evanthia Dimara",
+      "start": 1620886,
+      "text": "A very interesting find, actually.",
+      "id": "ep_116_ut_86"
+    },
+    {
+      "end": 1637940,
+      "speaker": "Moritz Stefaner",
+      "start": 1622454,
+      "text": "Yeah. And so this attraction effect could be fixed with a different. Yeah. Displaying a more, I don't know, working on the distribution of the data points you show, probably, or are there other strategies how you could fix it?",
+      "id": "ep_116_ut_87"
+    },
+    {
+      "end": 1727006,
+      "speaker": "Evanthia Dimara",
+      "start": 1638052,
+      "text": "I think we can explore, because I'm working a bit on a project like that. I don't have yet enough evidence to say for sure, but it seems that, I mean, the way you interact with the data, as you say, can affect the way you see those decoys. So for example, if you treat them in a way, for example, different design variations. So even if you display those decoys, but you somehow hide them or de highlight them or make people interact with them in another pattern, maybe likely people will see them as less important. Because the problem is here that for some reason you consider the decoys as important and you shouldn't. So I think this is particularly for the attraction effect. I think this is a good, could be an approach, but you know, we have so many biases that I mean, yeah, but I think that because, you know, they say that one good reason why biases occur is information overload. This is what makes us need to have a shortcut, need to rely on the most pronounced part of the information. So if we do what you say, like we try to find a way to manage this information. So instead of displaying everything to find a way to help people to manage the overload and clean the decision space and organize it better, this, I think it can be a very promising thing to do.",
+      "id": "ep_116_ut_88"
+    },
+    {
+      "end": 1737074,
+      "speaker": "Moritz Stefaner",
+      "start": 1727110,
+      "text": "Would you also say user testing could be a good way in general, like to find out if your visualization method is, is like very prone to specific biases?",
+      "id": "ep_116_ut_89"
+    },
+    {
+      "end": 1884076,
+      "speaker": "Evanthia Dimara",
+      "start": 1737454,
+      "text": "Thank you very much for this question. Actually, it was not prepared. That's why I thank you so generously, because actually this was my thought. I mean, okay, somehow you remember this list that you saw in Wikipedia, right? It was so big. And I'm saying to myself, okay, I would like somehow to make people test those things in visualization, right? So this is my second project. So I wanted to encourage people do that, like to see which of those biases can affect and then try to think of design variation. That was my sneaky plan. So what we did in this project is that I wanted to take those biases and do a taxonomy based on tasks and then based on this task to encourage somehow a designer to try to test them. Visualization. So let's say imagine for example, you are a visualization designer and you work in a company that makes tools for choice support. Okay. Okay. You want to present your data very well. You are aware that people make decisions, can be subject to biases and once you go to the Wikipedia page and you see all these hundreds of biases here somehow. Okay, what do I do now? I mean, how do I handle all this? So the taxonomies we see right now on biases rely a lot on explanatory theories. So we have, let's say we divide biases according to what we think that people think when they do the mistake. So let's say we say that there are false memory associations. It's a formation overload. But all these explanations, I mean, what should a designer do about that? It's not easy to grasp and test those concepts. So the idea behind this project was to base them on task. Let's say one of the tasks in this taxonomy is the decision task. So some biases involve experimental tasks that people have to make a decision. And then I hope that this can be a way of thinking of them. Instead of trying to understand all this complexity around psychology theories that it's hard for us to grasp, maybe we can think of them. Just as this is a task, this is an arm, this is a deviation, we test it, we put some imagination to think it in a visualization context, and we move on. I mean, we do a test.",
+      "id": "ep_116_ut_90"
+    },
+    {
+      "end": 1904004,
+      "speaker": "Enrico Bertini",
+      "start": 1884220,
+      "text": "Yeah. So basically you are creating a sort of translation of the existing taxonomies for people working in visualization to better understand how existing cognitive biases may translate in situations where people are using visualization to make decisions.",
+      "id": "ep_116_ut_91"
+    },
+    {
+      "end": 1905636,
+      "speaker": "Moritz Stefaner",
+      "start": 1904124,
+      "text": "Right. That could be super.",
+      "id": "ep_116_ut_92"
+    },
+    {
+      "end": 1917784,
+      "speaker": "Evanthia Dimara",
+      "start": 1905700,
+      "text": "Try to avoid the psychology. I love it. Personally, I have this thing that I love to read about psychology stuff, but I guess that everybody wants to dive into this.",
+      "id": "ep_116_ut_93"
+    },
+    {
+      "end": 1938338,
+      "speaker": "Moritz Stefaner",
+      "start": 1921124,
+      "text": "Yeah. And you need some pragmatic way of approaching it because it's such an overwhelming, like. Yeah. Multitude of potential biases out there. So some checklist or some like, decision tree approach could be super helpful. Yeah, that sounds good. Yeah. Cool.",
+      "id": "ep_116_ut_94"
+    },
+    {
+      "end": 1960618,
+      "speaker": "Enrico Bertini",
+      "start": 1938466,
+      "text": "Yeah, I was just saying that I think another aspect that I find really interesting in your work is that you seem to focus a lot on decision making. And this made me think that, surprisingly, there is not a lot of work on how visualization works when it's used for the specific purpose of making decisions, but we know that it can be really powerful.",
+      "id": "ep_116_ut_95"
+    },
+    {
+      "end": 1962882,
+      "speaker": "Moritz Stefaner",
+      "start": 1960666,
+      "text": "Sounds like a very fundamental use of data.",
+      "id": "ep_116_ut_96"
+    },
+    {
+      "end": 1981196,
+      "speaker": "Enrico Bertini",
+      "start": 1962978,
+      "text": "Right, right. Yes. That always amazes me. Right. It's like, why don't we actually, because we always talk about the use of visualization for presentation, the use of visualization in data science, the use of visualization in blah, blah, blah, using visualizations for.",
+      "id": "ep_116_ut_97"
+    },
+    {
+      "end": 1988276,
+      "speaker": "Moritz Stefaner",
+      "start": 1981220,
+      "text": "Getting famous on Twitter. So that sounds exactly right. I mean, you need to start somewhere.",
+      "id": "ep_116_ut_98"
+    },
+    {
+      "end": 2000368,
+      "speaker": "Evanthia Dimara",
+      "start": 1988340,
+      "text": "You know what you say now? The painful story of my life. Because, you know, my PhD started with a title that involved group decision making.",
+      "id": "ep_116_ut_99"
+    },
+    {
+      "end": 2000952,
+      "speaker": "Enrico Bertini",
+      "start": 2000536,
+      "text": "Yeah.",
+      "id": "ep_116_ut_100"
+    },
+    {
+      "end": 2006080,
+      "speaker": "Evanthia Dimara",
+      "start": 2001008,
+      "text": "And combination of visualization and automated approach. That was my first title.",
+      "id": "ep_116_ut_101"
+    },
+    {
+      "end": 2007804,
+      "speaker": "Moritz Stefaner",
+      "start": 2006192,
+      "text": "Yeah, that's the whole thing.",
+      "id": "ep_116_ut_102"
+    },
+    {
+      "end": 2016016,
+      "speaker": "Evanthia Dimara",
+      "start": 2009224,
+      "text": "So my thought was this, that in visualization, of course, the decision making is super addressed so far. So I need to go one step up.",
+      "id": "ep_116_ut_103"
+    },
+    {
+      "end": 2016328,
+      "speaker": "Moritz Stefaner",
+      "start": 2016080,
+      "text": "Right.",
+      "id": "ep_116_ut_104"
+    },
+    {
+      "end": 2019324,
+      "speaker": "Evanthia Dimara",
+      "start": 2016376,
+      "text": "That was my initial thought in the. Before I start.",
+      "id": "ep_116_ut_105"
+    },
+    {
+      "end": 2021304,
+      "speaker": "Enrico Bertini",
+      "start": 2019484,
+      "text": "No, but it's not at all.",
+      "id": "ep_116_ut_106"
+    },
+    {
+      "end": 2042228,
+      "speaker": "Evanthia Dimara",
+      "start": 2022564,
+      "text": "Then I started, okay. It's always in the introduction of every good book and visualization. So you always say we do decision making. Yes, yes, we assist. This is okay. But then when I dive into the experimental empirical approach is what we really test. I didn't find any, almost any decision making task.",
+      "id": "ep_116_ut_107"
+    },
+    {
+      "end": 2043824,
+      "speaker": "Enrico Bertini",
+      "start": 2042396,
+      "text": "Yeah. Nobody.",
+      "id": "ep_116_ut_108"
+    },
+    {
+      "end": 2066406,
+      "speaker": "Evanthia Dimara",
+      "start": 2046644,
+      "text": "Of course, I saw many, I mean, hypothesis testing and many important things, but didn't see any people choosing stuff. That was one thing. So then I narrowed down the PhD, decision making information visualization, not. Yeah. So that was it.",
+      "id": "ep_116_ut_109"
+    },
+    {
+      "end": 2072158,
+      "speaker": "Enrico Bertini",
+      "start": 2066470,
+      "text": "Perfect. Yeah. I think we have to wrap up soon. I think just one last bias song.",
+      "id": "ep_116_ut_110"
+    },
+    {
+      "end": 2073182,
+      "speaker": "Moritz Stefaner",
+      "start": 2072286,
+      "text": "We need to listen to.",
+      "id": "ep_116_ut_111"
+    },
+    {
+      "end": 2075862,
+      "speaker": "Enrico Bertini",
+      "start": 2073238,
+      "text": "Yeah, we should listen to the bias song before we conclude.",
+      "id": "ep_116_ut_112"
+    },
+    {
+      "end": 2076834,
+      "speaker": "Evanthia Dimara",
+      "start": 2075918,
+      "text": "Oh, yeah.",
+      "id": "ep_116_ut_113"
+    },
+    {
+      "end": 2114474,
+      "speaker": "Enrico Bertini",
+      "start": 2078574,
+      "text": "I just wanted to ask you. I think so, for people who are listening, what are your suggestions in terms of. I would say a couple of things. One is if they want to know more about cognitive biases and how they may influence the work of people who are working in visualization or with data in general. And. Yeah. And what to do in practice. Right. So say I am a visualization designer and I listened to this episode. So what should I do next? Right.",
+      "id": "ep_116_ut_114"
+    },
+    {
+      "end": 2227806,
+      "speaker": "Evanthia Dimara",
+      "start": 2115614,
+      "text": "So actually I would say that, first of all, what I believe should be the view of view when it comes to cognitive biases, in the way I thinking of it. Exactly. So sometimes, you know, the research is not a linear process. Always. Right. So sometimes what we do is that we have an idea about a cool design that we really like, and once we have everything done, we want to find a problem. So we say, okay, now what do I do with it? What people cannot do or what tasks should people do? So one way of seeing those biases and those huge lists that you see in Wikipedia is to see them as a list of open research, small problems, that they have a way to measure them, they have a way to. There are well identified problems. So if you're stuck and you don't know, what would be your next problem that you can address? You can take a cheat sheet, which is the cognitive bias case, and say, okay, these are the things that people cannot do. They cannot escape from their initial hypothesis. They cannot. They are affected by. For example, I give you an example of this, the simplest I can think of. We know from biases that order matters. Right? What comes first, what comes next? There are some particular contexts that the order matters and affects the way you decide. So if I was a visualization designer, I would say, okay, what if I put a circular layout? Let's say that the order is not particularly perceived in a certain way. Could this de-bias those people or I cause other effects or something? So for me, this is a way to see the whole. These are well identified problems.",
+      "id": "ep_116_ut_115"
+    },
+    {
+      "end": 2271138,
+      "speaker": "Moritz Stefaner",
+      "start": 2227870,
+      "text": "Just be aware that some things, very superficial things, might lead people in a certain direction. And just assume that all the time. Yeah, that's true. Yeah. Cool. I think we should wrap it up. Fantastic topic. It's one of the most fascinating psychological topics, I think. I hope we were able to excite a few people for it. And if not, there's a song coming up that summarizes everything, so you can learn anything about in three minutes. Yeah. And it's really good. And so at least this one should entertain you. Thanks so much for joining us.",
+      "id": "ep_116_ut_116"
+    },
+    {
+      "end": 2275968,
+      "speaker": "Evanthia Dimara",
+      "start": 2271226,
+      "text": "Thank you very much for inviting me. It was great. I had a very good time with you.",
+      "id": "ep_116_ut_117"
+    },
+    {
+      "end": 2276920,
+      "speaker": "Moritz Stefaner",
+      "start": 2276136,
+      "text": "Thanks so much.",
+      "id": "ep_116_ut_118"
+    },
+    {
+      "end": 2278288,
+      "speaker": "Enrico Bertini",
+      "start": 2276992,
+      "text": "Thanks so much. Bye bye.",
+      "id": "ep_116_ut_119"
+    },
+    {
+      "end": 2279844,
+      "speaker": "Evanthia Dimara",
+      "start": 2278336,
+      "text": "Thank you. Bye bye.",
+      "id": "ep_116_ut_120"
+    },
+    {
+      "end": 2426224,
+      "speaker": "D",
+      "start": 2286624,
+      "text": "Hindsight bias. I knew it all along. I'm biased because I put you in a category which you may or may not belong. Representativeness biased. Don't stereotype this song. I'm biased because of a small detail that throws off the big picture of a thing. Anchoring bias in the forest for the trees. I'm biased toward the first example that comes to mind. Availability bias. The first thing that comes to mind. Oh, bias. Don't let bias in your life bias. Don't try this. It'll influence your thinking and memories. Don't mess with these. But you're guilty of distorted drinking. Caught enough to buy it, your mind becomes blinded. Decisions and problems, you've been forced to solve them wrong. I'm biased because I'll only listen to what I agree with. Confirmation bias. You never mind if you are this. I'm biased because I take credit for success but no blame for failure. Self deserving bias. My success and your failure. I'm biased when I remember things the way I would have expected them to be. Expectancy biased. False memories are shaped by ease. I'm biased because I think my opinion. Now what's my opinion then? Self consistency bias. But you felt different way back when. O bias, don't let fly in. Bias in your mind. Bias, don't try this. It'll influence your thinking and memories. Don't mess with these. You're guilty of distorted thinking. Cognitive bias. Man becomes blinded decisions and problems you've been forced to solve in my heart.",
+      "id": "ep_116_ut_121"
+    },
+    {
+      "end": 2459820,
+      "speaker": "Enrico Bertini",
+      "start": 2439424,
+      "text": "Hey folks, thanks for listening to data stories again. Before you leave a few last notes, this show is now completely crowdfunded, so you can support us by going on Patreon. That's patreon.com Datastories. And if you can spend a couple of minutes reading us on iTunes, that would be extremely helpful for the show.",
+      "id": "ep_116_ut_122"
+    },
+    {
+      "end": 2485700,
+      "speaker": "Moritz Stefaner",
+      "start": 2459932,
+      "text": "And here's also some information on the many ways you can get news directly from us. We are, of course, on twitter@twitter.com. Datastories. We have a Facebook page@Facebook.com. datastoriespodcast all in one word. And we also have a slack channel where you can chat with us directly. And to sign up you can go to our homepage datastory EA s and there is a button at the bottom of the page.",
+      "id": "ep_116_ut_123"
+    },
+    {
+      "end": 2501572,
+      "speaker": "Enrico Bertini",
+      "start": 2485852,
+      "text": "And we also have an email newsletter. So if you want to get news directly into your inbox and be notified whenever we publish an episode, you can go to our home page Datastories es and look for the link you find at the bottom in the footer.",
+      "id": "ep_116_ut_124"
+    },
+    {
+      "end": 2513718,
+      "speaker": "Moritz Stefaner",
+      "start": 2501668,
+      "text": "So one last thing we want to tell you is that we love to get in touch with our listeners, especially if you want to suggest a way to improve the show or amazing people you want us to invite or even projects you want us to talk about.",
+      "id": "ep_116_ut_125"
+    },
+    {
+      "end": 2522934,
+      "speaker": "Enrico Bertini",
+      "start": 2513806,
+      "text": "Yeah, absolutely. And don't hesitate to get in touch with us. It's always a great thing to hear from you. So see you next time, and thanks for listening to data stories.",
+      "id": "ep_116_ut_126"
+    }
+  ],
+  "confidence": 0.909514012848636,
+  "audio_duration": 2531,
+  "punctuate": true,
+  "format_text": true,
+  "dual_channel": false,
+  "webhook_url": null,
+  "webhook_status_code": null,
+  "webhook_auth": false,
+  "webhook_auth_header_name": null,
+  "speed_boost": false,
+  "auto_highlights_result": null,
+  "auto_highlights": false,
+  "audio_start_from": null,
+  "audio_end_at": null,
+  "word_boost": [],
+  "boost_param": null,
+  "filter_profanity": false,
+  "redact_pii": false,
+  "redact_pii_audio": false,
+  "redact_pii_audio_quality": null,
+  "redact_pii_policies": null,
+  "redact_pii_sub": null,
+  "speaker_labels": true,
+  "content_safety": false,
+  "iab_categories": true,
+  "content_safety_labels": {
+    "status": "unavailable",
+    "results": [],
+    "summary": {}
+  },
+  "language_detection": false,
+  "language_detection_threshold": null,
+  "language_confidence": null,
+  "custom_spelling": null,
+  "throttled": false,
+  "auto_chapters": true,
+  "summarization": false,
+  "summary_type": null,
+  "summary_model": null,
+  "custom_topics": false,
+  "topics": [],
+  "speech_threshold": null,
+  "speech_model": "best",
+  "chapters": [
+    {
+      "summary": "This is a new episode of Data stories. Enrico Bertini and Moritz Stefaner talk about data visualization, analysis, and generally the role data plays in our lives. If you do like the show, please consider supporting us on patreon. com.",
+      "gist": "Data Stories",
+      "headline": "This podcast features Enrico Bertini and Moritz Stefaner discussing data visualization",
+      "start": 440,
+      "end": 61690,
+      "id": "ep_116_ch_0"
+    },
+    {
+      "summary": "Evanthia Dimara will talk about cognitive biases and their relationship with visualization and data analysis in general. I'm happy to join the Eurovoice. I will be the greek accent.",
+      "gist": "Cognitive Bias in Data Analysis",
+      "headline": "Evanthia Dimara talks about cognitive biases and visualization in Eurovoice",
+      "start": 61812,
+      "end": 91486,
+      "id": "ep_116_ch_1"
+    },
+    {
+      "summary": "Ivan, Tia just finished PhD in visualization and decision making. Started working in Paris as a postdoc in the HCI team of the Institute of Intelligence Systems and Robotics of Sorbonne. Wants to see how by visualizing all this information, we have more chances to make informed decisions.",
+      "gist": "Interviews: Data visualization and decision-making",
+      "headline": "Ivan and Tia have a PhD in visualization and decision making",
+      "start": 91670,
+      "end": 200256,
+      "id": "ep_116_ch_2"
+    },
+    {
+      "summary": "How much is data really representing objective truths? Usually. And the second part is classist. What are cognitive biases, and what can we do with them? A cognitive bias is a deviation of human judgment from a norm.",
+      "gist": "Cognitive Bias",
+      "headline": "What are cognitive biases, and what can we do with them",
+      "start": 200400,
+      "end": 581932,
+      "id": "ep_116_ch_3"
+    },
+    {
+      "summary": "Once you learn about confirmation bias, you see it everywhere. The more you invest into something, the more valuable you perceive it, even if the absolute value is not there. Can you train your brain to not be so bad?",
+      "gist": "Bias in Decision Making",
+      "headline": "Effectively, rhyming statements are perceived as more truthful",
+      "start": 581988,
+      "end": 910342,
+      "id": "ep_116_ch_4"
+    },
+    {
+      "summary": "The cognitive biases we discuss so far are not really tested with visualized data. In order to verify the existence of all these biases, you will see many experiments, like people. This must be replicated in a lot of experiments. There are literally hundreds.",
+      "gist": "Cognitive Bias in Data Visualization",
+      "headline": "All these biases illustrate how human judgment can be distorted, right?",
+      "start": 910518,
+      "end": 1475842,
+      "id": "ep_116_ch_5"
+    },
+    {
+      "summary": "The way you interact with the data can affect the way you see those decoys. And so this attraction effect could be fixed with a different. Displaying a more, I don't know, working on the distribution of the data points you show. Are there other strategies how you could fix it?",
+      "gist": "Attraction and precision in our data",
+      "headline": "It's a matter of framing. Right. So if a problem is framed in a way that confuses people",
+      "start": 1475898,
+      "end": 1727006,
+      "id": "ep_116_ch_6"
+    },
+    {
+      "summary": "The idea behind this project was to base biases on task. To better understand how existing cognitive biases may translate in situations where people are using visualization to make decisions. Would you also say user testing could be a good way in general to find out if your visualization method is prone to specific biases?",
+      "gist": "How to Test the Bias in Visualization",
+      "headline": "Would you also say user testing could be a good way to test visualization biases",
+      "start": 1727110,
+      "end": 1938338,
+      "id": "ep_116_ch_7"
+    },
+    {
+      "summary": "There is not a lot of work on how visualization works when it's used for the specific purpose of making decisions. My PhD started with a title that involved group decision making. But when I dive into the experimental empirical approach is what we really test, I didn't find any, almost any decision making task.",
+      "gist": "Decision Making in Visualization",
+      "headline": "You seem to focus a lot on decision making in your work",
+      "start": 1938466,
+      "end": 2075862,
+      "id": "ep_116_ch_8"
+    },
+    {
+      "summary": "Cognitive biases and how they may influence the work of people who are working in visualization or with data in general. One way of seeing biases is to see them as a list of open research, small problems. Just be aware that some things, very superficial things, might lead people in a certain direction.",
+      "gist": "Cognitive Bias in Data Visualization",
+      "headline": "Cognitive biases may influence the work of people working in visualization",
+      "start": 2075918,
+      "end": 2279844,
+      "id": "ep_116_ch_9"
+    },
+    {
+      "summary": "Hindsight bias. Confirmation bias. Expectancy biased. False memories are shaped by ease. Bias in your mind. It'll influence your thinking and memories. This show is now completely crowdfunded, so you can support us by going on Patreon.",
+      "gist": "Bias in Data Stories",
+      "headline": "This show is now completely crowdfunded, so you can support us by going on Patreon",
+      "start": 2286624,
+      "end": 2522934,
+      "id": "ep_116_ch_10"
+    }
+  ],
+  "disfluencies": false,
+  "entity_detection": false,
+  "sentiment_analysis": false,
+  "sentiment_analysis_results": null,
+  "entities": null,
+  "speakers_expected": null,
+  "summary": null,
+  "custom_topics_results": null,
+  "episode_num": 116,
+  "episode_metadata": {
+    "speakers": [
+      "Evanthia Dimara",
+      "Enrico Bertini",
+      "Moritz Stefaner"
+    ],
+    "WPid": "1143",
+    "url": "https://datastori.es/podlove/file/4903/s/feed/c/mp3/116-cognitive-biases-with-evanthia-dimara.mp3",
+    "episode_title": "Cognitive Bias and Visualization with Evanthia Dimara"
+  }
+}

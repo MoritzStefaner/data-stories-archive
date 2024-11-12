@@ -1,0 +1,969 @@
+{
+  "id": "0d72e356-224a-4779-a95a-d7246ca3f4b7",
+  "language_model": "assemblyai_default",
+  "acoustic_model": "assemblyai_default",
+  "language_code": "en_us",
+  "status": "completed",
+  "audio_url": "https://datastori.es/podlove/file/5411/s/feed/c/mp3/129-views-of-the-world-with-Robert-simmon.mp3",
+  "utterances": [
+    {
+      "end": 8290,
+      "speaker": "Robert Simmon",
+      "start": 360,
+      "text": "I tend to like things that look very alien versus imagery that looks like it could be real, because then people get confused.",
+      "id": "ep_129_ut_0"
+    },
+    {
+      "end": 43662,
+      "speaker": "Moritz Stefaner",
+      "start": 27750,
+      "text": "Hi, everyone. Welcome to a new episode of data stories. My name is Moritz Stefaner, and I'm an independent designer of data visualizations. I work as a self employed truth and beauty operator, that's my self picked job title out of my office here in the countryside in the north of Germany.",
+      "id": "ep_129_ut_1"
+    },
+    {
+      "end": 51430,
+      "speaker": "Enrico Bertini",
+      "start": 43766,
+      "text": "And I am Enrico Bertini. I am a professor at NYU in New York City, and I do research in data visualization.",
+      "id": "ep_129_ut_2"
+    },
+    {
+      "end": 63906,
+      "speaker": "Moritz Stefaner",
+      "start": 51590,
+      "text": "Yeah, that's right. And on this podcast, we talk together about data visualization, data analysis, and generally the role data plays in our lives. And usually we do that together with the guests we invite on the show.",
+      "id": "ep_129_ut_3"
+    },
+    {
+      "end": 90230,
+      "speaker": "Enrico Bertini",
+      "start": 64098,
+      "text": "Yes. But before we start, just the usual quick note. Our podcast is listener supported, so there's no ads. And if you enjoy the show, you may want to consider supporting us with recurring payments on patreon.com Datastories. Or if you prefer, there is another option. You can just send us a one time donation on Paypal me Datastories.",
+      "id": "ep_129_ut_4"
+    },
+    {
+      "end": 151394,
+      "speaker": "Moritz Stefaner",
+      "start": 90610,
+      "text": "That's right. So any contributions are much appreciated, even if you don't have any spare money, that's totally fine, too. But if you want to help us, you can also leave us a comment on iTunes or a nice rating or retweet our tweets on Twitter. So there's many ways you can help keep the show running. Anyways, let's get started. Today we have another guest invited. I'm really excited about this topic. I think it's one maybe, that people won't directly associate directly, maybe with data visualization immediately, but we'll see. There are many, many connections between the fields. And the topic I'm talking about is basically space photography, satellite imagery, just viewing the world from above. It's such an amazing thing. And we have a real expert here today, Robert Simmons, who has been working in this for many, many years at NASA and now@planet.com and he can tell us a bit about the practice there. So thanks for joining us, Robert. Hi.",
+      "id": "ep_129_ut_5"
+    },
+    {
+      "end": 152042,
+      "speaker": "Enrico Bertini",
+      "start": 151462,
+      "text": "Hi, Robert.",
+      "id": "ep_129_ut_6"
+    },
+    {
+      "end": 152594,
+      "speaker": "Robert Simmon",
+      "start": 152106,
+      "text": "Hi.",
+      "id": "ep_129_ut_7"
+    },
+    {
+      "end": 162098,
+      "speaker": "Moritz Stefaner",
+      "start": 152722,
+      "text": "Can you tell us a bit about yourself, what you're working on, what you have been working on at NASA, and what you're doing now, just a bit of your main fields of activity and your background?",
+      "id": "ep_129_ut_8"
+    },
+    {
+      "end": 242140,
+      "speaker": "Robert Simmon",
+      "start": 162274,
+      "text": "Sure. I started out working at NASA Goddard Space Flight center in Greenbelt, Maryland, and it is one of several NASA centers, and it specializes in earth observation and astronomy. And my role there evolved over time, but eventually became sort of doing the visualizations for a website called the Earthen Observatory. And what we were trying to do was sort of explain to non specialists outside of NASA that NASA didn't just do astronauts, it didn't just do Mars, but we also studied the earth, because from space, you can see the entire planet not quite all at once, but more or less. And so you have this very special view of the entire planet, and so you can look at all these interconnected systems. And the Earth observatory. Our mission was to sort of get that information out to a broader public and talk about how interdisciplinary everything was. So it wasn't like we would just talk about the atmosphere or just talk about volcanoes. It was how volcanoes interacted with the atmosphere and how that might play into the interaction with man made climate change and things like that. And so it's just a very long and distinguished discipline that NASA's been doing, and we wanted to make sure that this information was more widely known.",
+      "id": "ep_129_ut_9"
+    },
+    {
+      "end": 243676,
+      "speaker": "Moritz Stefaner",
+      "start": 242280,
+      "text": "That's an awesome job to have.",
+      "id": "ep_129_ut_10"
+    },
+    {
+      "end": 270400,
+      "speaker": "Robert Simmon",
+      "start": 243748,
+      "text": "At least it sounds like it really was. As I said, it kind of evolved over time, and I managed to sort of craft it into something that really took advantage of sort of my interests and the things that I learned there. I had the opportunity to learn on the job in a way that was, I had enough time to really learn my craft as I was going, and that was a unique opportunity, and I am definitely appreciative of it.",
+      "id": "ep_129_ut_11"
+    },
+    {
+      "end": 288280,
+      "speaker": "Moritz Stefaner",
+      "start": 270720,
+      "text": "Now, if people would google your name, they might run across a few articles from, like, ten years ago or something where it's revealed that one of your nicknames was Mister Blue Marvel. Can you tell us a bit about the blue marvel image and the story behind it?",
+      "id": "ep_129_ut_12"
+    },
+    {
+      "end": 294580,
+      "speaker": "Robert Simmon",
+      "start": 288400,
+      "text": "Sure. That's not so much a nickname as something that a public affairs writer decided to call me.",
+      "id": "ep_129_ut_13"
+    },
+    {
+      "end": 297328,
+      "speaker": "Moritz Stefaner",
+      "start": 295520,
+      "text": "It's your gangster rap name, right?",
+      "id": "ep_129_ut_14"
+    },
+    {
+      "end": 485682,
+      "speaker": "Robert Simmon",
+      "start": 297464,
+      "text": "There you go. When NASA first launched a satellite called Terra, we gained the capability to view the entire Earth in true color every day for the first time. As I said, there's a long history of taking pictures of Earth from space and doing science with it. Scientists tend to want to make these very specific measurements that may not be necessarily true color. And so we had had a couple, a few dozen pictures of a hemisphere of the earth in color. So mainly from the Apollo missions, a few interplanetary missions, also something called the geostationary satellite, which is just precisely positioned over one point on the earth, and it actually orbits at the same rate that the earth is rotating, so it stays over one spot. And some of those early ones were capable of taking true color imagery. So, like the whole Earth catalog, had an image from one of those, and again, Apollo 17 image. However, we hadn't really gotten a true color map of the whole Earth because all of those perspectives were sort of fixed above the earth and could see half at best. And so Modis went, and over the course of several years, we built up enough data to make a single cloud free map of the entire planet, working with a colleague named Rado Stokley, who is a swiss scientist who really, really, really wanted to work at NASA. So he sort of kept emailing until we finally gave him an internship. And he turned out to be a fantastic colleague. And so he built a way of making sort of the first real true color surface map of the Earth. There are some others that had been sort of pseudo true color and integrated a few different bands because we didn't have a real red, green, and blue. And sort of the obvious thing to do once we had this was to recreate that feeling of the Apollo images, because there really hadn't been any since 1973, and this was in the early two thousands. So we're talking about a 30 year gap at this point, and to announce this high resolution 1 pixel. So I think it worked out to 40,000 by 20,000 pixels, roughly. We decided to make this semi realistic image of the earth using 3d tech, the tools that we had at the time, and worked on that, it probably actually only took a day or two, but a lot of iteration, a lot of looking at the Apollo imagery, space shuttle photography, the geostationary imagery I was talking about, and some of the things from Galileo and these intermediary probes, and then build the blue marble, and we launched it, and it made a fairly big splash, slash, dot. All that to mark a certain period of time on the Internet. And then it was just kind of like, it would pop up here and there. I'd see it in posters. But when the iPhone launched, it turns out that Apple had been using that image to test their color reproduction.",
+      "id": "ep_129_ut_15"
+    },
+    {
+      "end": 487790,
+      "speaker": "Moritz Stefaner",
+      "start": 485826,
+      "text": "Oh, and nice.",
+      "id": "ep_129_ut_16"
+    },
+    {
+      "end": 491874,
+      "speaker": "Robert Simmon",
+      "start": 488690,
+      "text": "They also, you know, I guess, I.",
+      "id": "ep_129_ut_17"
+    },
+    {
+      "end": 495306,
+      "speaker": "Moritz Stefaner",
+      "start": 491882,
+      "text": "Don't think Steve Jobs is a big fan of these types of things.",
+      "id": "ep_129_ut_18"
+    },
+    {
+      "end": 512014,
+      "speaker": "Robert Simmon",
+      "start": 495458,
+      "text": "Totally. It's like whole Earth catalog is admittedly, like a huge influence on him. Right. I don't have the full story. I don't think Steve Jobs himself selected the image, but he definitely approved it was brought to his attention from other people. I had no idea.",
+      "id": "ep_129_ut_19"
+    },
+    {
+      "end": 518566,
+      "speaker": "Moritz Stefaner",
+      "start": 512102,
+      "text": "I found the promo images had the blue marble right on the home screen or on the lock screen.",
+      "id": "ep_129_ut_20"
+    },
+    {
+      "end": 545488,
+      "speaker": "Robert Simmon",
+      "start": 518638,
+      "text": "On the lock screen, yeah. You turn on an iPhone, the first thing you see is the blue marble. I bought an iPhone the second day they were out. Managed to find an Apple store that still had them. Had no idea. So I buy it, I go home, I turn my phone on, I see it, and I literally started jumping up and down. It was a fairly, you know, it was something I will always remember. And. Yeah, and for good or for bad, you know, infamous or not, you must.",
+      "id": "ep_129_ut_21"
+    },
+    {
+      "end": 547336,
+      "speaker": "Moritz Stefaner",
+      "start": 545504,
+      "text": "Have thought you had a stroke or something, right?",
+      "id": "ep_129_ut_22"
+    },
+    {
+      "end": 565946,
+      "speaker": "Robert Simmon",
+      "start": 547408,
+      "text": "No, I mean, like, what's going on? There was a little bit of incredulity, but imagery. You know, I don't have kids, but I can kind of recognize my images most of the time, even though I've done tons, when I see something, there's just a certain feel to it that I can recognize.",
+      "id": "ep_129_ut_23"
+    },
+    {
+      "end": 578242,
+      "speaker": "Moritz Stefaner",
+      "start": 566098,
+      "text": "Sure. So are you saying just to rewind a bit, this is not actually like a photograph, but it's actually like a 3d reconstruction of lots of images that were taken. Because it looks, like, so real, right?",
+      "id": "ep_129_ut_24"
+    },
+    {
+      "end": 757068,
+      "speaker": "Robert Simmon",
+      "start": 578346,
+      "text": "Oh, yeah. It's a composite. It turns out, in retrospect, it's maybe nothing as real as I was hoping, because we have better ways to check that now, but it's actually even a multistage composite. So the first level is this global surface map, which is take. It was a little bit over a year's worth of data. Do some very clever time based analysis to get rid of clouds and in areas where you still had persistent clouds, because there's places on earth that have clouds on average, every single day and ways to sort of blend that. So there's that surface map, which in and of itself was a technical achievement, I think is actually the core part of the blue marble was the texture. Then, because we weren't collecting that same type of data over the oceans and not processing it in the same way, I had to actually find a substitute for the oceans. Rather than just doing, like, a solid color, what I did was I used a parameter called oceancolor, which actually sort of tracks phytoplankton. So it's just a single value. It's not like an RGB value, but you can kind of think of low ocean color means low amounts of algae and other life. So that was dark. And then as those values increased, I made it sort of greener and brighter. And so that just gives it a certain amount of verisimilitude, even though it's 100% not what the ocean actually looks like. Then even worse, the arctic regions have sea ice that was actually just like, I kind of used missing data as ice because we did not have as good ice datasets. Then, as we do now, I could do a much better job then wrap that all in a sphere. So, very easy cylindrical map onto a sphere in a 3d program, and then sort of try to simulate an atmosphere. Because the atmosphere is a thickness it drops off, it sort of makes, it's not so much that it would make the boundary of the earth in space fuzzy because it's so thin that you really don't see that. Although I have a little bit of a blurred edge on that one. It's more that as you're, when you're right over the surface of the earth, you're looking straight down, and that's the minimum effect of the atmosphere. As soon as you start looking to the side at an angle, you get more and more atmospheric effects. So I tried to simulate that blending, and as you get closer and closer to the edge of the earth, it gets bluer and more opaque and sort of fuzzier. And so I did a lot of iterations on that and then trying to get a sense of 3d depth in the clouds, because our cloud map is looking straight down. And so it definitely doesn't have, like, if you look at, again, a geostationary image of a hurricane, if you look out towards the edge of the earth, you can see that the clouds are like, super sharply defined. They look like they've got a lot of, of height to them. And structure in the blue marble, that's all missing because it's almost impossible to fake.",
+      "id": "ep_129_ut_25"
+    },
+    {
+      "end": 762324,
+      "speaker": "Moritz Stefaner",
+      "start": 757244,
+      "text": "But if an astronaut from space would see it, they would actually see the cloud structure.",
+      "id": "ep_129_ut_26"
+    },
+    {
+      "end": 827240,
+      "speaker": "Robert Simmon",
+      "start": 762372,
+      "text": "Really? Oh, yeah. At least from everything. I can tell from looking at everything from an instrument called blanking on the instrument. But there's a new. The discover mission with the epic instrument actually is a million miles away, and it takes about 14 images a day of a fully Earth lit hemisphere. And so that's one way of checking the recent SpaceX launch where they had the spaceman and the Tesla. That was a really good way to kind of double check what things look like. Although apparently there's no uv filter on a normal camera like that, because the atmosphere filters uv for us. So the uv is actually contaminating those images. So I've been told and sort of understand that the, the color reproduction of those is not perfect. And then, just like some of the newer geostationary satellites, like kimori, which is a japanese satellite, goes are from the US, are both in full color. So that gives another way of sort of double checking what the blue marble actually looks like.",
+      "id": "ep_129_ut_27"
+    },
+    {
+      "end": 863286,
+      "speaker": "Moritz Stefaner",
+      "start": 828420,
+      "text": "Yeah, I think this shows already so what? So you see, these images think like, it's like a photo taken from space, which is amazing already, but you think like, yeah, that's like, that's how it works. It's like an image of reality you can see already. Okay. There's so much processing that has to happen to get these images to look like the way they do. Right. So maybe if we sort of try and get the curve to data visualization, where do you see parallels there? Or, like, what's the typical way of working with these image and data sources?",
+      "id": "ep_129_ut_28"
+    },
+    {
+      "end": 966764,
+      "speaker": "Robert Simmon",
+      "start": 863478,
+      "text": "Yeah, so they're definitely data. I guess one way of distinguishing data from a photograph is data is calibrated and precise in a way that photography isn't or generally isn't. Originally, the earlier satellites were using very different technology than a photograph. You were actually building up an image one pixel at a time. And they also, remote sensing instruments tend to use to see the world in many more wavelengths than just red, green and blue, like a digital camera does. And so that might be smaller slices of the visible spectrum, but it also means that we're going far outside the visible spectrum. So near infrared, which kind of acts just like normal light. Shortwave infrared, which is starting to be a little weird and a little different. And it's partly from reflected light and partly actually from photons that are being emitted by the surface. And then thermal, where you're entirely in energy that's radiated out from the surface of the earth, and you're not getting reflected at all. And so thermal is actually looking at heat. And so by carefully combining all of these different wavelengths, you can actually come up with estimates of parameters on the surface. Some sort of easy ones are like cloud cover. That's fairly obvious. Temperature, amount of vegetation. I mentioned ocean color, which is essentially amount of vegetation in the ocean, although it's obvious it's a little bit more complicated than that. Could you.",
+      "id": "ep_129_ut_29"
+    },
+    {
+      "end": 972028,
+      "speaker": "Moritz Stefaner",
+      "start": 966852,
+      "text": "Drought, maybe. We had a really dry summer this year, so probably you can see that quite well.",
+      "id": "ep_129_ut_30"
+    },
+    {
+      "end": 979222,
+      "speaker": "Robert Simmon",
+      "start": 972124,
+      "text": "Sure. You sense that in one way. You can just look, the earth is brown, you know, or Europe was brown.",
+      "id": "ep_129_ut_31"
+    },
+    {
+      "end": 983690,
+      "speaker": "Moritz Stefaner",
+      "start": 979246,
+      "text": "This summer, and that was an amazing GIF animation. That looks horrible. Yeah.",
+      "id": "ep_129_ut_32"
+    },
+    {
+      "end": 1102924,
+      "speaker": "Robert Simmon",
+      "start": 984870,
+      "text": "Some other ways to do it is you can actually be sort of measuring the health of the vegetation. It's almost exactly just seeing brown. It's a pretty simple algorithm. Much more sophisticated would be doing something like looking at soil moisture, where you're looking at the top couple millimeters with a long wavering radiation, like microwave radiation, the same thing that you use to cook food, is sensitive to water, because that's how it cooks food, vibrates water molecules. And so you can literally directly detect the amount of water in the top level of the soil and the ground. And so that's another really good way of doing soil moisture, of looking at a drought. So there's a bunch of different ways to tackle it. And sort of maybe the most extreme and coolest is water is heavy. So you can actually detect the mass of large amounts of water from space by looking at gravity. And so there's a mission called grace, which measures gravity, and it can see things like the ebb and flow of the wet and dry seasons in the Amazon. Wow. And so at that point, you're completely outside of the realm of photography and visible imagery, and it's pure data visualization and cartography and sensing, basically, right? Yeah, it's totally abstract. Grace measures gravity. It's a pair of satellites with a laser link between them. And where the earth is heavier, the orbit speeds up a little bit. So the satellite over the heavy part will start moving faster while the other one's a little bit slower. And they look at the difference in the waves in that laser, so, like the phase, essentially. And they get a gravity map out of this completely different thing. So, yeah, talk about processing. It's an extremely convoluted and sophisticated process.",
+      "id": "ep_129_ut_33"
+    },
+    {
+      "end": 1121820,
+      "speaker": "Enrico Bertini",
+      "start": 1103052,
+      "text": "So you basically have lots of sensors pointing towards the earth, and it's totally up to you to decide what to do with the signals that you receive and how to transform them into some kind of imagery. Right. Then they're getting basically back to data visualization, right?",
+      "id": "ep_129_ut_34"
+    },
+    {
+      "end": 1156532,
+      "speaker": "Robert Simmon",
+      "start": 1121860,
+      "text": "Yeah, yeah. And I worked very closely with the scientists at NASA. They taught me everything I know about Earth remote sensing. And one of the incredible things about working at Goddard is the established, the scientists that were there, they were the people who founded this field. They designed the first instruments, they designed the algorithms, they did the early research. And so, just as I said, I was incredibly fortunate to be in this place with the best people in the world at it.",
+      "id": "ep_129_ut_35"
+    },
+    {
+      "end": 1171476,
+      "speaker": "Enrico Bertini",
+      "start": 1156676,
+      "text": "So, Robert, I'm wondering if you can give us a little bit of a sense of how this. I guess this data is continuously collected from satellites. So you have new signals every day, I guess, maybe more often.",
+      "id": "ep_129_ut_36"
+    },
+    {
+      "end": 1173520,
+      "speaker": "Robert Simmon",
+      "start": 1171628,
+      "text": "Yeah, it's coming down all the time.",
+      "id": "ep_129_ut_37"
+    },
+    {
+      "end": 1182562,
+      "speaker": "Enrico Bertini",
+      "start": 1173900,
+      "text": "How does it work? So what's the current coverage from the satellites? Right. What would you get in one day of data from satellites?",
+      "id": "ep_129_ut_38"
+    },
+    {
+      "end": 1187710,
+      "speaker": "Robert Simmon",
+      "start": 1182586,
+      "text": "Let's say you actually get a picture of the entire Earth several times over.",
+      "id": "ep_129_ut_39"
+    },
+    {
+      "end": 1190330,
+      "speaker": "Enrico Bertini",
+      "start": 1188210,
+      "text": "In a day, in 24 hours, in.",
+      "id": "ep_129_ut_40"
+    },
+    {
+      "end": 1267444,
+      "speaker": "Robert Simmon",
+      "start": 1190370,
+      "text": "24 hours, at several different resolutions and sort of from several different perspectives. And so I talked about geostationary satellites. So they're positioned over one spot and they just sort of hang there in space over one spot. Taking a picture these days, every 1510, five minutes. Then there's the other sort of general class of satellites are called low Earth orbit and more specifically, in a polar orbit. And what they do is they'll go over the North Pole and then the south pole in an orbit that takes about 95 minutes to go all the way around the earth. So half of that's daylit, half of that is sunlit. And they're actually just an orbit is always just a satellite moving in a circle or very close to a circle. And the earth is actually spinning underneath it. And if you match the rate the satellite is going to, the speed the earth is spinning, you can actually design the orbit so that a satellite can view the whole earth in a single day. And it's crossing the equator at the same time every day or every orbit. So like typically it's about 10, 10, 30 in the morning because that's the lowest cloud cover if you're interested in land. That's when you want to put your satellite. And so you're building up strip after strip after strip, so much to take care of.",
+      "id": "ep_129_ut_41"
+    },
+    {
+      "end": 1277556,
+      "speaker": "Enrico Bertini",
+      "start": 1267532,
+      "text": "It's crazy. Now I want to read everything about subtle lights. Is there any animation out there that we can watch that explains how this works?",
+      "id": "ep_129_ut_42"
+    },
+    {
+      "end": 1347514,
+      "speaker": "Robert Simmon",
+      "start": 1277668,
+      "text": "I can dig one up. I did a couple still images because I kind of wanted. I'm actually a big fan of stills that explain a polar bit. There are definitely some, but literally just think of. Think of the earth and the satellite as being independent. And the satellite is just moving in a circle and the earth is just spinning underneath it. And that's all that's going on. So it does get a lot more complicated than that. There are much weirder orbits and then the width that the satellite can see from side to side can vary dramatically. So if you're high resolution, you probably have, you sort of, by definition have a narrow field of view. And so you're only going to be seeing a tiny strip of earth. And then there's other satellites which are designed for global coverage and they will do a gigantic swath that's like 2000 km across. And the trade off there is resolution. And so that's actually sort of one of the interesting and fun things at planet, which is where I'm working at now, is with many, many small satellites, we're doing global coverage at high resolution every day.",
+      "id": "ep_129_ut_43"
+    },
+    {
+      "end": 1394584,
+      "speaker": "Enrico Bertini",
+      "start": 1347622,
+      "text": "Wow, that's fantastic. So going back to designing this kind of images, we already explained in a way that is not that far from data visualization. It's a form of data visualization. And I guess even looking at the background that you have and the type of works that you've been publishing out there, so you have this great series on color and a great, I think it's called subtleties of color. And, of course, color, I guess, plays a major role there, because you have to decide for every single pixel in the image what kind of color to assign and the intensity. Right. So how does this work?",
+      "id": "ep_129_ut_44"
+    },
+    {
+      "end": 1473616,
+      "speaker": "Robert Simmon",
+      "start": 1394712,
+      "text": "So, for the types of data sets I was talking about, like vegetation, temperature, it's the same thing you would do for mapping or any type of dataset where you have an x, a y, and a quantity. So it's three dimensions of data. And color tends to be a really good way of encoding it because of that. Or it is the best of all the other available options, really, for most things, then you're just doing this stuff that goes back to Bertin and Rogowitz and Trennis Cynthia Brewer, where you're just trying to carefully choose colors to represent a quantity. For the more photo like images, they're kind of broken down into two classes. There's true color, which is red, green, and blue. Scientists tend to be pretty pedantic about that, and they'll say, like, near true color or simulated true color, because the bands don't quite exactly match what our eyes see. So there's a lot of room for interpretation there. I try to sort of think of my own personal sort of mental picture of what the earth looks like from space, which I've built up from just looking at pictures of Earth from space all the time. Sadly, I've never been in space, so I can't really give you the truth of what it looks like, but I approximate it the best that I can.",
+      "id": "ep_129_ut_45"
+    },
+    {
+      "end": 1476496,
+      "speaker": "Moritz Stefaner",
+      "start": 1473688,
+      "text": "I think they should send you up by now. I think you have deserved it.",
+      "id": "ep_129_ut_46"
+    },
+    {
+      "end": 1480420,
+      "speaker": "Robert Simmon",
+      "start": 1476528,
+      "text": "You know, I agree with you. I would love to do that.",
+      "id": "ep_129_ut_47"
+    },
+    {
+      "end": 1485810,
+      "speaker": "Moritz Stefaner",
+      "start": 1481270,
+      "text": "Get Elon Musk. Let's get Elon Musk to sponsor your space trip.",
+      "id": "ep_129_ut_48"
+    },
+    {
+      "end": 1535052,
+      "speaker": "Robert Simmon",
+      "start": 1486190,
+      "text": "That is really tempting to try to go all in and get in on that trip. So that is. I mentioned it before, I'm going for verisimilitude. So something that looks like people would expect the earth to look like. I think the real world is actually quite a bit messier than that. The atmosphere gets in the way. The angle that you're looking at things, angle of the sun changes things and stuff like that. And I kind of try to not eliminate all that, but minimize it so that it is as easy as possible to interpret the images, because that's really what I'm going for as much as for aesthetic impact. I'm actually going for understanding so that somebody can look at an image and sort of know what's going on without having to retrain their brain.",
+      "id": "ep_129_ut_49"
+    },
+    {
+      "end": 1536280,
+      "speaker": "Moritz Stefaner",
+      "start": 1535236,
+      "text": "Right, right.",
+      "id": "ep_129_ut_50"
+    },
+    {
+      "end": 1602310,
+      "speaker": "Robert Simmon",
+      "start": 1536940,
+      "text": "So that's the true color. And then there's an entirely separate class of images that are false color, and then they're taking these other wavelengths of light that are completely invisible to humans. We can only see them with machines. And so there is no ground truth. There is no reality to be reflecting. And so then it's entirely up to the creator of how to present those. And there's definitely conventions like we display true color, red, green, and blue. And so the convention in science is a longer wavelength, so redder and past redh get the red channel, and then the shortest wavelengths get the blue channel. So if you do something that's a shortwave infrared and then a near infrared and then a green, you'd put the shortwave infrared in red, you put the near infrared in green, and you would put the green in blue, which is confusing at first, but it makes sense eventually. And these are conventions that have built up over time. And so there's sort of these, what are called standard false color composites that a scientist or a researcher in remote sensing or a geographer would recognize.",
+      "id": "ep_129_ut_51"
+    },
+    {
+      "end": 1609834,
+      "speaker": "Moritz Stefaner",
+      "start": 1603450,
+      "text": "And that goes on saturated, very bright, strong colors, right? If I recall correctly.",
+      "id": "ep_129_ut_52"
+    },
+    {
+      "end": 1633472,
+      "speaker": "Robert Simmon",
+      "start": 1609922,
+      "text": "Yeah, they tend to be, but that's not necessarily because the data is super saturated. It's because the standard technique is you take the blackest point in the picture and you make that black, and you take the whitest point in the picture, and you make that white or in each channel. And so for a scientist, what that does is it gives them maximum interpretability because it's making the most contrast in each of those bands. So it's the biggest differences.",
+      "id": "ep_129_ut_53"
+    },
+    {
+      "end": 1634460,
+      "speaker": "Moritz Stefaner",
+      "start": 1633576,
+      "text": "Right, right.",
+      "id": "ep_129_ut_54"
+    },
+    {
+      "end": 1738096,
+      "speaker": "Robert Simmon",
+      "start": 1634920,
+      "text": "Oftentimes, that's done with true color imagery, too. And I think that it results in things that actually are pretty unsatisfying to look at and sort of can inhibit knowledge because they distort things. Like think of a desert, right? You're looking at desert, it's sand dunes. There's basically, you know, yellows and browns and maybe some fairly bright shadows. And you think of a desert and you think sand color, right. If you just do a naive contrast stretch on that and you're stretching each channel individually, or you're looking for a whitest point and a blackest point, you end up turning the entire desert blue. And so it might look like it's a snow covered desert as opposed to 130 degrees f in the empty quarter of Saudi Arabia. So through color, I think it's really important to sort of make the colors be what we expect them to look like. For false color, there's no reference, so you can do whatever you want. And it's much more like, what is the purpose of the image? And so I just try to make things that don't seem to have an obvious color cast, no distractions. I tend to like things that look very alien versus imagery that looks like it could be real, because then people get confused and people, you know, we all tend to, like, browse images and maybe not read captions in detail. You may not understand all of the subtleties of what actually is shortwave radiation. So if I give you an image that has green vegetation, you might just say, hey, this is a, it's a normal true color image. And I'm going to read it like a normal true color image. Yeah.",
+      "id": "ep_129_ut_55"
+    },
+    {
+      "end": 1740260,
+      "speaker": "Moritz Stefaner",
+      "start": 1738128,
+      "text": "Oh, yeah. That's a big trap, basically.",
+      "id": "ep_129_ut_56"
+    },
+    {
+      "end": 1771990,
+      "speaker": "Robert Simmon",
+      "start": 1741240,
+      "text": "But tundra, some of these wavelengths are so sensitive to vegetation that tundra or sort of very thin grass that's just beginning to grow in the spring might come up as super, super green. Even if you were in that location, it would be brown. And so if I use those images, I try to pair them with a true color image so that there is a point of reference and people can bring their own experience to this very alien imagery.",
+      "id": "ep_129_ut_57"
+    },
+    {
+      "end": 1812444,
+      "speaker": "Moritz Stefaner",
+      "start": 1772570,
+      "text": "Yeah, it's interesting. You can easily get confused about, like, reality when you think too much about these things. And, I mean, we should mention you have a great series on color still from your time at NASA at the Earth Observatory blog. It's called subtleties of color. It's like a five part or a six part, actually. Yeah. Really good color 101. Like, what are the typical traps you might fall into? What are good techniques, what are cool color spaces to work with and so on. So it's highly recommended. It's five years old, but I think it really holds up really well. Still.",
+      "id": "ep_129_ut_58"
+    },
+    {
+      "end": 1814828,
+      "speaker": "Enrico Bertini",
+      "start": 1812572,
+      "text": "Yeah, still as valid as ever.",
+      "id": "ep_129_ut_59"
+    },
+    {
+      "end": 1915910,
+      "speaker": "Robert Simmon",
+      "start": 1814924,
+      "text": "Thanks. Yeah, I definitely, when you had Karen Schloss on, I hit the download button immediately and was like, right into that. But I was struck by one of the hypotheses that Enrico had was that scientists are using the rainbow palette to segment out a visualization. And basically he said, well, you can point to the green region, you can point to the yellow region, you can point to the red region and say something. And I think that is a valid use. I think it becomes problematic because those regions aren't even. And if you're applying a rainbow palette to a dataset, if you're not super, super careful about where your scaling is and where your endpoints are, you might, you still have those boundaries because our eyes are just, our visual system is just incredibly good at segmenting things into different color regions. But those regions may not actually align with anything physical, and so they end up being false boundaries that can lead you to wrong conclusions. And there's actually some papers that have been published that show results that say, oh, there's a region that's bounded and the bounding is entirely in the palette and not at all in the dataset. And so I definitely think if you're super careful about how you use the color, then that's a valid use of a rainbow palette. But it really requires a lot of expertise and experimentation. And then there's the fact that if you're colorblind, it all gets destroyed or color deficient viewer isn't going to be able to see it anyhow. So again, becomes problematic there.",
+      "id": "ep_129_ut_60"
+    },
+    {
+      "end": 1919690,
+      "speaker": "Moritz Stefaner",
+      "start": 1917090,
+      "text": "Different people might see totally different boundaries as well.",
+      "id": "ep_129_ut_61"
+    },
+    {
+      "end": 1919978,
+      "speaker": "Enrico Bertini",
+      "start": 1919730,
+      "text": "Right?",
+      "id": "ep_129_ut_62"
+    },
+    {
+      "end": 1922030,
+      "speaker": "Moritz Stefaner",
+      "start": 1920034,
+      "text": "So that makes it even worse.",
+      "id": "ep_129_ut_63"
+    },
+    {
+      "end": 1930794,
+      "speaker": "Enrico Bertini",
+      "start": 1922530,
+      "text": "Yeah. I have to admit that when we talk about rainbow color maps, I like to be a little bit of a contrarian there. It's fun.",
+      "id": "ep_129_ut_64"
+    },
+    {
+      "end": 1932350,
+      "speaker": "Moritz Stefaner",
+      "start": 1930882,
+      "text": "Just a mess with people.",
+      "id": "ep_129_ut_65"
+    },
+    {
+      "end": 1972292,
+      "speaker": "Enrico Bertini",
+      "start": 1933890,
+      "text": "No, wait, wait. Well, so now we are checking the episode. We could go on forever just for the talking about the rainbow color map. But I just want to say, yeah, part of it is being contrarian, but part of it is also that I did have this interesting conversation with some pretty smart scientists. And I think the thing that never convinced me is the fact that there are some pretty, pretty clever people out there that use rainbow color maps and keep using it, and they keep want, they want to use it even after knowing why they don't work.",
+      "id": "ep_129_ut_66"
+    },
+    {
+      "end": 1972844,
+      "speaker": "Robert Simmon",
+      "start": 1972476,
+      "text": "Right.",
+      "id": "ep_129_ut_67"
+    },
+    {
+      "end": 1975852,
+      "speaker": "Moritz Stefaner",
+      "start": 1972892,
+      "text": "So that's one argument for the stubbornness of scientists.",
+      "id": "ep_129_ut_68"
+    },
+    {
+      "end": 2006928,
+      "speaker": "Enrico Bertini",
+      "start": 1975916,
+      "text": "Yeah, I agree. I agree. But on the other hand, I think some intellectual humility is also important. Right? And no, but I mean a little bit more seriously. What? It's true that some of the conversations that I had back then were actually in the directions that you just mentioned. So I did talk with scientists who are aware of the problem, and they spend a lot of time tinkering with the boundaries so that the boundaries are placed in the right position.",
+      "id": "ep_129_ut_69"
+    },
+    {
+      "end": 2059232,
+      "speaker": "Robert Simmon",
+      "start": 2007024,
+      "text": "So I have seen that, and that's definitely true. And one other thing to note is, especially in remote sensing, I mentioned that the scientists that I was working with were the people who sort of founded the field. And so this was in the late seventies, early eighties, and the computers that they were working with only had eight or 16 colors that they could display. That was the limit of the technology at the time. And of course, if you're building a computer with colors, it's basically primary colors. And so these were set as conventions very, very early on in the process. And so for people who have come up in the field, they're learning this from these conventions that were actually based on the technology that was available at the time. And so it's different if you're communicating with your peers, I think, than if you're communicating with a broader audience.",
+      "id": "ep_129_ut_70"
+    },
+    {
+      "end": 2071704,
+      "speaker": "Enrico Bertini",
+      "start": 2059336,
+      "text": "That's a really good point. I agree. That's actually the kind of Feedback that I got. I think most of the scientists I work with, they also have in mind peer scientists as their main target.",
+      "id": "ep_129_ut_71"
+    },
+    {
+      "end": 2072580,
+      "speaker": "Robert Simmon",
+      "start": 2071872,
+      "text": "Right.",
+      "id": "ep_129_ut_72"
+    },
+    {
+      "end": 2098510,
+      "speaker": "Moritz Stefaner",
+      "start": 2073280,
+      "text": "I think we also have to see it in the context of a discussion we also had in our last episode with Steve Harris in data visualization. There's so many truisms, like things everybody seems to know, like pie charts are bad and rainbows are bad. It is true to some degree, but the much more interesting piece of information is also when they're suddenly good or how they're bad. Exactly. And I think then things become interesting.",
+      "id": "ep_129_ut_73"
+    },
+    {
+      "end": 2137344,
+      "speaker": "Enrico Bertini",
+      "start": 2099410,
+      "text": "Yeah, I just wanted to say, I think the thing that never convinced me, totally convinced me about the rainbow color map, especially the criticism of the rainbow color map when it's used for geographical images. Right? Is that it? So people normally criticize the map, criticize the discolor map, and use as an alternative a single hue map that varies in intensity. And there's no segmentation with something like that. And it's clearly doesn't meet the purpose of the scientist.",
+      "id": "ep_129_ut_74"
+    },
+    {
+      "end": 2245472,
+      "speaker": "Robert Simmon",
+      "start": 2137512,
+      "text": "Right. I agree with that very much. So. There's a couple ways around that. One is that if you add hue as a thing that's changing in your color palette, you put some of that segmentation back in. You also help prevent something called simultaneous contrast, which is where adjacent colors influence each other and make things harder to read. But you can also just either use a segmented palette, which breaks the data into discrete ranges, and you can pick those exactly and precisely in ways that you can't with a rainbow palette, or you can put in contours like topographic. Maths have been doing this for a century or more. And I think there are technological problems with that, making hard contours is good. That's actually on my list of things that I want to learn how to do in the next month or so. It actually even goes all the way back to the ozone hole, which was these measurements of ozone over Antarctica. And there's some really interesting humanities research that says that we had extremely quick action, international action, to ban the chemicals that were creating the ozone hole, because it was this metaphor that was easy to understand and easy to see in the data. And so the hole actually shows up. And if you build your palette as a whole, and, like, you can draw a line at like 100 or 90 Dobson units, which is sort of the definition of where the hole is, it's this concrete thing that people responded to. And we had a treaty within years of the discovery, and so. Right. Being able to clearly differentiate regions and things like that is a critical part of data visualization. And I I just want people to be doing it consciously and not sort of relying on happenstance.",
+      "id": "ep_129_ut_75"
+    },
+    {
+      "end": 2250032,
+      "speaker": "Enrico Bertini",
+      "start": 2245536,
+      "text": "Yeah, yeah, sure. I agree with you. I don't think we disagree in the.",
+      "id": "ep_129_ut_76"
+    },
+    {
+      "end": 2260560,
+      "speaker": "Moritz Stefaner",
+      "start": 2250056,
+      "text": "End, but that's a really interesting point about the ozone Holt being a clearly defined object. Right. And maybe climate change is much harder.",
+      "id": "ep_129_ut_77"
+    },
+    {
+      "end": 2260704,
+      "speaker": "Enrico Bertini",
+      "start": 2260600,
+      "text": "Yeah.",
+      "id": "ep_129_ut_78"
+    },
+    {
+      "end": 2270344,
+      "speaker": "Moritz Stefaner",
+      "start": 2260712,
+      "text": "It's much more because it's like Timothy Morton says, a hyper object that's so fuzzy and so extended in space and time that. That it's ungraspable, essentially.",
+      "id": "ep_129_ut_79"
+    },
+    {
+      "end": 2342728,
+      "speaker": "Robert Simmon",
+      "start": 2270472,
+      "text": "Yeah. Climate change visualization. I weirdly would say that that is actually the core of my practice over my entire career, more so than the true color imagery, although I think I've been doing so much of it lately that that's not necessarily true anymore. But, like, the mission of the Earth observatory was, you know, to talk about the work of the scientists that we were employing us, essentially, and their body of research was climate change. The climate and radiation branch is literally the name of the organization I was in. And so they were looking at aerosols, which are particles in the atmosphere that scatter sunlight. And so they affect how much sunlight hits the ground and how much warming there is. They were looking at clouds. They were looking at overall amounts of energy from the sun versus the energy re radiated by the earth. And so that entire time at NASA, I was working on ways to show this that people would understand, at least so that there was understanding. Like, ideally there would be understanding and action, but at least that people would have the knowledge so that they could understand some of these discussions that policymakers would have.",
+      "id": "ep_129_ut_80"
+    },
+    {
+      "end": 2372350,
+      "speaker": "Moritz Stefaner",
+      "start": 2342864,
+      "text": "Right. Yeah. And I mean, there's this. I don't know if you want to touch on the overview effect briefly, because I think it's such a good metaphor. Also, what good data visualization can sometimes achieved. It's like this idea that just seeing the world as a whole from above gives us this certain hard to verbalize, but very emotional insight about that it's an ecosystem as a whole. It should be protected, and that it's very fragile and something really unique.",
+      "id": "ep_129_ut_81"
+    },
+    {
+      "end": 2392598,
+      "speaker": "Robert Simmon",
+      "start": 2373410,
+      "text": "It's an idea I really like and I find very attractive. Obviously. Again, I haven't been in space, so I haven't had the real impact. I definitely like every astronaut I get the opportunity to talk to. That's one of the questions, like, what does it look like? And many of them describe this, but.",
+      "id": "ep_129_ut_82"
+    },
+    {
+      "end": 2399090,
+      "speaker": "Moritz Stefaner",
+      "start": 2392614,
+      "text": "They say it's something qualitative, much different. If they see it for real, than an image as you produce them, they do.",
+      "id": "ep_129_ut_83"
+    },
+    {
+      "end": 2554426,
+      "speaker": "Robert Simmon",
+      "start": 2399590,
+      "text": "I think the best way I've heard it described was by Chris Hadfield. And he was saying that when you're close enough to the earth, that if you're over a desert or you're over the Amazon or you're over the ocean, that your entire field of view is filled with that desert or that forest or that ocean, and the light from the earth is actually lighting up the inside of the space station. And so everything becomes the color of the desert. Everything becomes the color of the forest. As originally coined, the overview effect actually was only supposed to be astronauts who have gotten far enough out that they could see the whole earth in space by itself, which is the only people who've ever seen that are the Apollo astronauts. So it's a very small number of people. And ironically, the astronaut that took the Apollo 17 blue marble, that is sort of the definitive picture of earth, became a senator. And he was what was called a sagebrush Republican, which was sort of a block of western senators which were very much against environmental laws, very much in favor of exploitative industries like mining and ranching and power generation and things like that. He was a geologist before he became an astronaut. So geologists have this view of earth in long time, which is, oh, it will obviously recover and humanity is just a blip. So I think that was informing him a little bit. But for the person who made the iconic image to apparently not have any of the overview effect at all and actually have taken concrete actions to degrade the environment, that really gives me pause. And I guess there's also, like, you know, I said, you know, my entire career at NASA, 20 years, and even at planet, this is what I tried to do, is to give people an appreciation of the earth. And yet, in 2018, at least in the United States, we're losing those environmental projections, and it seems like we are in some other countries as well. And so we're losing the battle, despite the fact that imagery went from something that you would, you would see one or two images in a decade to ubiquitous global coverage, and it doesn't seem to have mattered. So I don't know how to square that circle.",
+      "id": "ep_129_ut_84"
+    },
+    {
+      "end": 2555162,
+      "speaker": "Enrico Bertini",
+      "start": 2554498,
+      "text": "It's terrible.",
+      "id": "ep_129_ut_85"
+    },
+    {
+      "end": 2558138,
+      "speaker": "Moritz Stefaner",
+      "start": 2555226,
+      "text": "Yeah. So there's no silver bullet, obviously.",
+      "id": "ep_129_ut_86"
+    },
+    {
+      "end": 2558474,
+      "speaker": "Enrico Bertini",
+      "start": 2558194,
+      "text": "Yeah.",
+      "id": "ep_129_ut_87"
+    },
+    {
+      "end": 2584162,
+      "speaker": "Moritz Stefaner",
+      "start": 2558522,
+      "text": "But on the other hand, I do think it's, like, so many really interesting developments going on in satellite imagery and, like, what's possible, on the one hand, technically, and what we can sense and what insights we can draw and run machine learning over it, and I don't know what. But also this. This mere fact that we can see everything so well, I do think it has. It must have some effect, some positive effect.",
+      "id": "ep_129_ut_88"
+    },
+    {
+      "end": 2586410,
+      "speaker": "Robert Simmon",
+      "start": 2584346,
+      "text": "I'm sure it is, but it may.",
+      "id": "ep_129_ut_89"
+    },
+    {
+      "end": 2592626,
+      "speaker": "Moritz Stefaner",
+      "start": 2586490,
+      "text": "Not be as easy as just showing people the world from above and everybody becomes a hippie. Maybe that's not happening.",
+      "id": "ep_129_ut_90"
+    },
+    {
+      "end": 2595154,
+      "speaker": "Robert Simmon",
+      "start": 2592738,
+      "text": "We tried that. It appears to fail.",
+      "id": "ep_129_ut_91"
+    },
+    {
+      "end": 2614216,
+      "speaker": "Moritz Stefaner",
+      "start": 2595202,
+      "text": "It did work. What are some of the things where people might not immediately think or connect that to satellite imagery or remote sensing that could help us like this? New technologies could help us with. Are there any, like, what are your, like, your personal favorites in terms of perspective there?",
+      "id": "ep_129_ut_92"
+    },
+    {
+      "end": 2820590,
+      "speaker": "Robert Simmon",
+      "start": 2614328,
+      "text": "Oh, that's a really interesting question. So some of the obvious ones are looking at crops. And so, you know, the trivial example is you look at a field and you say, hey, the crop is not doing well in this area. Let me go investigate. And it could be bugs. It could be something as simpler as a stock sprinkler head. That's not irrigating a certain portion. And easy fix. Right. But way easier to find if you're looking at your field every day than if you have to walk out and check. Time and money. Time is money. There is some really interesting work because this data is becoming more openly available. Research groups and things like nuclear non proliferation are able to study foreign, actually, foreign and domestic weapons research in ways that they couldn't five years ago. So looking at possible hidden uranium enrichment facilities in North Korea or engine tests in Iran, or the Russians testing a nuclear powered cruise missile. And so that's really fascinating. And if all of your high resolution data is classified or all of your high resolution data is $10,000 for a single picture, it's work you can't do. But with easier availability and lower cost, it is things that are becoming possible as far as cool, weird ones. There's a lot of interesting things looking at ice. If you have very high frequency data, you can look at the features on a glacier and sort of see how fast it's moving. Glaciers are essentially frozen rivers, literally frozen rivers, and so they have currents and different flow rates and things like that. Looking at arctic ponds coming and going throughout the summer as the permafrost melts and things like that. So there's just a ton of research going on right now. I think it's both the golden age of data visualization and of satellite remote sensing. More data more available than any time. People who are outside of the big national space agencies are really starting to take advantage of doing these types of analyses. Somebody, I think it was reveal news, did work looking at the largest consumers of water in Los Angeles by looking at satellite data and matching that with water bills, and then getting a high resolution picture and saying, look at this yard that's in Beverly Hills. That's taking up more water than any hundred households. I don't remember the exact numbers, so really surprising uses, and that's just going to increase. And then the other sort of forefront of this is starting to think of it in a big data sense. And obviously, NASA has always been big data, but we're starting to bring more machine learning algorithms, computer vision type things to solve these problems where NASA. It's not like NASA doesn't know what a neural network was and has never done this work, but bringing something of a fresh perspective, having far more compute available than we did five years ago or ten years ago.",
+      "id": "ep_129_ut_93"
+    },
+    {
+      "end": 2826166,
+      "speaker": "Moritz Stefaner",
+      "start": 2821810,
+      "text": "And the other thing, so fast moving, if you see that moving in parallel, it's crazy.",
+      "id": "ep_129_ut_94"
+    },
+    {
+      "end": 2886410,
+      "speaker": "Robert Simmon",
+      "start": 2826258,
+      "text": "Oh, yeah. So traditionally, the way that NASA would work is they would say, put out a call for a proposal and a science team would have this very detailed thing before you even launch the mission. You know that it's going to work. Maybe you don't know what the answer is, but everything is sort of constrained and designed to do this one thing with machine learning, it's a little bit more black boxy, and so you may actually get some more surprising insights by throwing the algorithm, on the other hand, garbage in, garbage out. So it's not always going to work, but it is opening up some really new fields. So one of, some of the things planet's looking at is doing deforestation detection, looking at development of roads and buildings, crop type determination and things like that. So it's really interesting work to be a part of. As we do more of that, I'm going to get more back into mapping and less back into making pretty pictures.",
+      "id": "ep_129_ut_95"
+    },
+    {
+      "end": 2915706,
+      "speaker": "Enrico Bertini",
+      "start": 2889150,
+      "text": "So, Robert, I want to ask you one last question about, so say some of our listeners want to get started with playing with satellite imagery. It looks to me from my experiences that I know where to get access to, I would say regular data, but I don't know how to get started with satellite images. Right. So what would you suggest? What are interesting ways to get started in this area?",
+      "id": "ep_129_ut_96"
+    },
+    {
+      "end": 2967336,
+      "speaker": "Robert Simmon",
+      "start": 2915818,
+      "text": "Sure. The obvious answer is Google it because there's a number of resources out there. I have written both about the data access side and the data manipulation side, both in commercial and free and open source software. If you Google. A gentle introduction to gdal. I've written about how to use command line to access things. I don't even remember what I called it anymore, but I also wrote a series of posts about using Gimp and QGIS to manipulate satellite data, and those are pretty good places to get started. Charlie Lloyd, Josh Stevenson, Tom Patterson have all written about this, Emily Lakdawalla for the planetary society. So those are sort of the entry points. And as this matures, I think we'll get more and more resources written and out there for people who use a. Yeah, that's amazing.",
+      "id": "ep_129_ut_97"
+    },
+    {
+      "end": 2975144,
+      "speaker": "Moritz Stefaner",
+      "start": 2967368,
+      "text": "Yeah, we'll put all this in the show notes so people can check out the links and, yeah, it's a fascinating feel. Don't be intimidated by all the acronyms.",
+      "id": "ep_129_ut_98"
+    },
+    {
+      "end": 2976800,
+      "speaker": "Robert Simmon",
+      "start": 2975312,
+      "text": "Yeah, they just come with the territory.",
+      "id": "ep_129_ut_99"
+    },
+    {
+      "end": 2988944,
+      "speaker": "Moritz Stefaner",
+      "start": 2976840,
+      "text": "It's not a rocket science. It is like all the tools, they seem quite unwieldy and it's sort of something you need to get into, but then it's sort of super fascinating.",
+      "id": "ep_129_ut_100"
+    },
+    {
+      "end": 3006600,
+      "speaker": "Robert Simmon",
+      "start": 2988992,
+      "text": "So, yeah, I mean, I just use Photoshop and illustrator for most of my work. So it's not like you have to use these more complicated hardware tools or actually, I shouldn't say illustrator and Photoshop aren't complicated, but many of us are already comfortable in them and so they're a good way to get starting using the data.",
+      "id": "ep_129_ut_101"
+    },
+    {
+      "end": 3024006,
+      "speaker": "Moritz Stefaner",
+      "start": 3008100,
+      "text": "Great. Thanks so much for joining us. It's a fascinating field and we really appreciate your insights there. And we're really curious to also see what planet.com or planet is going to do in that space. It's all moving so fast. It's quite fascinating.",
+      "id": "ep_129_ut_102"
+    },
+    {
+      "end": 3024854,
+      "speaker": "Robert Simmon",
+      "start": 3024158,
+      "text": "You're welcome.",
+      "id": "ep_129_ut_103"
+    },
+    {
+      "end": 3025958,
+      "speaker": "Moritz Stefaner",
+      "start": 3024942,
+      "text": "Thanks so much, Robert.",
+      "id": "ep_129_ut_104"
+    },
+    {
+      "end": 3027974,
+      "speaker": "Enrico Bertini",
+      "start": 3026054,
+      "text": "Thanks so much. All right, bye, Robert.",
+      "id": "ep_129_ut_105"
+    },
+    {
+      "end": 3028854,
+      "speaker": "Robert Simmon",
+      "start": 3028022,
+      "text": "Bye bye.",
+      "id": "ep_129_ut_106"
+    },
+    {
+      "end": 3029810,
+      "speaker": "Moritz Stefaner",
+      "start": 3028942,
+      "text": "Thank you.",
+      "id": "ep_129_ut_107"
+    },
+    {
+      "end": 3055046,
+      "speaker": "Enrico Bertini",
+      "start": 3034630,
+      "text": "Hey, folks, thanks for listening to data stories again. Before you leave a few last notes, this show is now completely crowdfunded, so you can support us by going on Patreon. That's, that's patreon.com Datastories. And if you can spend a couple of minutes reading us on iTunes, that would be extremely helpful for the show.",
+      "id": "ep_129_ut_108"
+    },
+    {
+      "end": 3080946,
+      "speaker": "Moritz Stefaner",
+      "start": 3055158,
+      "text": "And here's also some information on the many ways you can get news directly from us. We are, of course, on twitter@twitter.com. Datastories. We have a Facebook page@Facebook.com. data, stories, podcast all in one word. And we also have a slack channel where you can chat with us directly. And to sign up, you can go to our homepage and there is a button at the bottom of the page.",
+      "id": "ep_129_ut_109"
+    },
+    {
+      "end": 3096794,
+      "speaker": "Enrico Bertini",
+      "start": 3081098,
+      "text": "And we also have an email newsletter. So if you want to get news directly into your inbox and be notified whenever we publish an episode, you can go to our home page, datastorery es and look for the link you find at the bottom in the footer.",
+      "id": "ep_129_ut_110"
+    },
+    {
+      "end": 3108954,
+      "speaker": "Moritz Stefaner",
+      "start": 3096882,
+      "text": "So one last thing we want to tell you is that we love to get in touch with our listeners, especially if you want to suggest a way to improve the show or amazing people you want us to invite or even projects you want us to talk about.",
+      "id": "ep_129_ut_111"
+    },
+    {
+      "end": 3118130,
+      "speaker": "Enrico Bertini",
+      "start": 3109042,
+      "text": "Yeah, absolutely. And don't hesitate to get in touch with us. It's always a great thing to hear from you. So see you next time, and thanks for listening to data stories.",
+      "id": "ep_129_ut_112"
+    }
+  ],
+  "confidence": 0.936522316787636,
+  "audio_duration": 3129,
+  "punctuate": true,
+  "format_text": true,
+  "dual_channel": false,
+  "webhook_url": null,
+  "webhook_status_code": null,
+  "webhook_auth": false,
+  "webhook_auth_header_name": null,
+  "speed_boost": false,
+  "auto_highlights_result": null,
+  "auto_highlights": false,
+  "audio_start_from": null,
+  "audio_end_at": null,
+  "word_boost": [],
+  "boost_param": null,
+  "filter_profanity": false,
+  "redact_pii": false,
+  "redact_pii_audio": false,
+  "redact_pii_audio_quality": null,
+  "redact_pii_policies": null,
+  "redact_pii_sub": null,
+  "speaker_labels": true,
+  "content_safety": false,
+  "iab_categories": true,
+  "content_safety_labels": {
+    "status": "unavailable",
+    "results": [],
+    "summary": {}
+  },
+  "language_detection": false,
+  "language_detection_threshold": null,
+  "language_confidence": null,
+  "custom_spelling": null,
+  "throttled": false,
+  "auto_chapters": true,
+  "summarization": false,
+  "summary_type": null,
+  "summary_model": null,
+  "custom_topics": false,
+  "topics": [],
+  "speech_threshold": null,
+  "speech_model": "best",
+  "chapters": [
+    {
+      "summary": "Moritz Stefaner and Enrico Bertini talk about data visualization, data analysis, and the role data plays in our lives. Our podcast is listener supported, so there's no ads. If you enjoy the show, you may want to consider supporting us with recurring payments on patreon. com Datastories.",
+      "gist": "Data Stories: More Stories in Your Life",
+      "headline": "This podcast is listener supported, so there's no ads",
+      "start": 360,
+      "end": 108986,
+      "id": "ep_129_ch_0"
+    },
+    {
+      "summary": "Today's topic is basically space photography, satellite imagery, just viewing the world from above. We have a real expert here today, Robert Simmons, who has been working in this for many, many years at NASA. So thanks for joining us, Robert.",
+      "gist": "Satellite Photography",
+      "headline": "Today's topic is space photography, satellite imagery and data visualization",
+      "start": 109178,
+      "end": 151046,
+      "id": "ep_129_ch_1"
+    },
+    {
+      "summary": "Robert Kohn started out working at NASA Goddard Space Flight center in Greenbelt, Maryland. His role evolved over time, but eventually became doing the visualizations for a website called the Earthen Observatory. His mission was to talk about how interdisciplinary everything was.",
+      "gist": "In the Elevator With Robert Feist",
+      "headline": "Robert Miller started working at NASA Goddard Space Flight Center in Maryland",
+      "start": 151078,
+      "end": 270400,
+      "id": "ep_129_ch_2"
+    },
+    {
+      "summary": "When NASA first launched a satellite called Terra, we gained the capability to view the entire Earth in true color every day for the first time. When the iPhone launched, it turns out that Apple had been using that image to test their color reproduction. Steve Jobs may not have selected the image, but he definitely approved it.",
+      "gist": "The Blue Marble Image",
+      "headline": "The blue marvel image was created when NASA first launched Terra satellite",
+      "start": 270720,
+      "end": 840942,
+      "id": "ep_129_ch_3"
+    },
+    {
+      "summary": "Remote sensing instruments tend to see the world in many more wavelengths than just red, green and blue. By carefully combining all of these different wavelengths, you can actually come up with estimates of parameters on the surface. It's pure data visualization and cartography and sensing, basically.",
+      "gist": "How data visualization differs from a photograph",
+      "headline": "Remote sensing instruments can see the world in many more wavelengths than a digital camera",
+      "start": 841006,
+      "end": 1156532,
+      "id": "ep_129_ch_4"
+    },
+    {
+      "summary": "Robert: Data is continuously collected from satellites. What would you get in one day of data from satellites? Let's say you actually get a picture of the entire Earth several times over. How does it work?",
+      "gist": "How does the Earth change?",
+      "headline": "Data is continuously collected from satellites, so what's the current coverage",
+      "start": 1156676,
+      "end": 1268720,
+      "id": "ep_129_ch_5"
+    },
+    {
+      "summary": "The width that the satellite can see from side to side can vary dramatically. With many, many small satellites, we're doing global coverage at high resolution every day. Is there any animation out there that explains how this works?",
+      "gist": " subtle lights on the earth",
+      "headline": "Is there any animation out there that explains how this works",
+      "start": 1269180,
+      "end": 1350390,
+      "id": "ep_129_ch_6"
+    },
+    {
+      "summary": "Images are broken down into two classes. There's true color, which is red, green, and blue. And then there's an entirely separate class of images that are false color. I try to think of my own personal mental picture of what the earth looks like from space.",
+      "gist": "Data Visualization, Color",
+      "headline": "Creating color images is a form of data visualization",
+      "start": 1351330,
+      "end": 1814828,
+      "id": "ep_129_ch_7"
+    },
+    {
+      "summary": "Scientists are using the rainbow palette to segment out a visualization. But those regions may not actually align with anything physical, and so they end up being false boundaries. If you're super careful about how you use the color, then that's a valid use of a rainbow palette. But it really requires a lot of expertise and experimentation.",
+      "gist": "Using the Rainbow palette in science",
+      "headline": "Steve Harris: Scientists are using the rainbow palette to segment out a visualization",
+      "start": 1814924,
+      "end": 2098510,
+      "id": "ep_129_ch_8"
+    },
+    {
+      "summary": "Being able to clearly differentiate regions and things like that is a critical part of data visualization. It goes all the way back to the ozone hole and climate change visualization. I just want people to be doing it consciously and not sort of relying on happenstance.",
+      "gist": "Rainbow Color Map",
+      "headline": "Chris Holt: Being able to clearly differentiate regions is critical in data visualization",
+      "start": 2099410,
+      "end": 2596110,
+      "id": "ep_129_ch_9"
+    },
+    {
+      "summary": "It's both the golden age of data visualization and of satellite remote sensing. More data more available than any time. People who are outside of the big national space agencies are really starting to take advantage of these types of analyses.",
+      "gist": "What are some of the things that machine learning could help us with",
+      "headline": "What are some of the things where people might not immediately think or connect that to satellite imagery",
+      "start": 2596650,
+      "end": 2886410,
+      "id": "ep_129_ch_10"
+    },
+    {
+      "summary": "Robert: Some of our listeners want to get started with playing with satellite imagery. Robert: There's a number of resources out there. Don't be intimidated by all the acronyms, it's not a rocket science. It's a fascinating field and we really appreciate your insights there.",
+      "gist": "How to Get Started with Satellite Imagery",
+      "headline": "Robert Miller: Some listeners want to get started with playing with satellite imagery",
+      "start": 2889150,
+      "end": 3029810,
+      "id": "ep_129_ch_11"
+    },
+    {
+      "summary": "This show is now completely crowdfunded, so you can support us by going on patreon. com Datastories. Here's some information on the many ways you can get news directly from us. We love to get in touch with our listeners, especially if you want to suggest a way to improve the show.",
+      "gist": "How to Subscribe to Data Stories",
+      "headline": "This show is now completely crowdfunded, so you can support us on Patreon",
+      "start": 3034630,
+      "end": 3118130,
+      "id": "ep_129_ch_12"
+    }
+  ],
+  "disfluencies": false,
+  "entity_detection": false,
+  "sentiment_analysis": false,
+  "sentiment_analysis_results": null,
+  "entities": null,
+  "speakers_expected": null,
+  "summary": null,
+  "custom_topics_results": null,
+  "episode_num": 129,
+  "episode_metadata": {
+    "speakers": [
+      "Robert Simmon",
+      "Moritz Stefaner",
+      "Enrico Bertini"
+    ],
+    "WPid": "1273",
+    "url": "https://datastori.es/podlove/file/5411/s/feed/c/mp3/129-views-of-the-world-with-robert-simmon.mp3",
+    "episode_title": "Views of the World with Robert Simmon"
+  }
+}

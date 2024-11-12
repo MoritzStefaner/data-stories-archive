@@ -1,0 +1,674 @@
+{
+  "id": "533f74df-15a9-4fb7-b342-227ab25dbda5",
+  "language_model": "assemblyai_default",
+  "acoustic_model": "assemblyai_default",
+  "language_code": "en_us",
+  "status": "completed",
+  "audio_url": "https://datastori.es/podlove/file/6728/s/feed/c/mp3/161-people-of-the-pandemic-with-shirley-wu.mp3",
+  "utterances": [
+    {
+      "end": 5810,
+      "speaker": "Shirley Wu",
+      "start": 200,
+      "text": "That was kind of the most important part of the message. You are an individual that is part of a community.",
+      "id": "ep_161_ut_0"
+    },
+    {
+      "end": 38420,
+      "speaker": "Moritz Stefaner",
+      "start": 25510,
+      "text": "Hi, everyone. Welcome to a new episode of data stories. My name is Moritz Stefaner, and I'm an independent designer of data visualizations. In fact, I work as a self employed truth in beauty operator out of my office here in the countryside in the north of Germany.",
+      "id": "ep_161_ut_1"
+    },
+    {
+      "end": 45876,
+      "speaker": "Enrico Bertini",
+      "start": 38500,
+      "text": "And I am Enrico Bertini. I am a professor at New York University, where I do research and teach data visualization.",
+      "id": "ep_161_ut_2"
+    },
+    {
+      "end": 57512,
+      "speaker": "Moritz Stefaner",
+      "start": 46068,
+      "text": "Right. And on this podcast together, we talk about data visualization, data analysis, and generally the role data plays in our lives. And usually we do that together with our guests we invite on the show.",
+      "id": "ep_161_ut_3"
+    },
+    {
+      "end": 80088,
+      "speaker": "Enrico Bertini",
+      "start": 57676,
+      "text": "But before we start, a quick note. Our podcast is listener supported, so there's no ads. So if you enjoyed the show, please consider supporting us with recurring payments on patreon.com Datastories. Or if you prefer, you can also send us one time donations on PayPal. Going to PayPal me Datastories.",
+      "id": "ep_161_ut_4"
+    },
+    {
+      "end": 135320,
+      "speaker": "Moritz Stefaner",
+      "start": 80224,
+      "text": "Yeah, that's right. And if you don't have any money to spare, don't worry. You can also leave us a review on iTunes or maybe retweet us once or recommend our show to a friend. All this helps us in keeping the show going. Anyways, let's get started with our topic for today. Last time we had a real expert on data visualizations around Covid-19 and simulations and all these things. And today we want to continue talking about coronavirus. You might be a bit tired of hearing from it today, but we have a really interesting project that puts a new spin on the whole data visualization around the virus. And in fact, it's a game. And so we said we need to get Shirley Wu on, who has been here a couple of years back together with Nadieh Bremer. And so we needed to get her back on to talk about the people of the pandemic game. Hi, Shirley. Thanks for joining us.",
+      "id": "ep_161_ut_5"
+    },
+    {
+      "end": 135968,
+      "speaker": "Enrico Bertini",
+      "start": 135360,
+      "text": "Hi, Shirley.",
+      "id": "ep_161_ut_6"
+    },
+    {
+      "end": 155334,
+      "speaker": "Shirley Wu",
+      "start": 136024,
+      "text": "Hi, Moritz. Hi, Enrico. Thank you so much for having me back on here. It's been actually, I think it was three years ago in May. So it might have been exactly three years ago. And I actually was working on my portfolio the other day, and I realized that I think you're one of my first podcast interviews.",
+      "id": "ep_161_ut_7"
+    },
+    {
+      "end": 156022,
+      "speaker": "Moritz Stefaner",
+      "start": 155382,
+      "text": "Whoa, look at that.",
+      "id": "ep_161_ut_8"
+    },
+    {
+      "end": 159150,
+      "speaker": "Shirley Wu",
+      "start": 156046,
+      "text": "So it's really great to be back. Thank you so much.",
+      "id": "ep_161_ut_9"
+    },
+    {
+      "end": 169694,
+      "speaker": "Moritz Stefaner",
+      "start": 159310,
+      "text": "Nice. Yeah. And a lot has happened in the meantime. Right? So back then, we talked about the data sketches project you did together with Nadieh, and now you have done a lot of other cool projects.",
+      "id": "ep_161_ut_10"
+    },
+    {
+      "end": 170350,
+      "speaker": "Shirley Wu",
+      "start": 169742,
+      "text": "Thank you.",
+      "id": "ep_161_ut_11"
+    },
+    {
+      "end": 174840,
+      "speaker": "Moritz Stefaner",
+      "start": 170430,
+      "text": "Nadieh has had this amazing career, so it's great to see all these things evolved.",
+      "id": "ep_161_ut_12"
+    },
+    {
+      "end": 176780,
+      "speaker": "Shirley Wu",
+      "start": 174880,
+      "text": "Definitely, yeah.",
+      "id": "ep_161_ut_13"
+    },
+    {
+      "end": 180144,
+      "speaker": "Moritz Stefaner",
+      "start": 177120,
+      "text": "So, Shirley, can you tell us a bit, little bit about yourself?",
+      "id": "ep_161_ut_14"
+    },
+    {
+      "end": 221240,
+      "speaker": "Shirley Wu",
+      "start": 180232,
+      "text": "Yeah. So my name is Shirley and I'm an independent creator of data visualizations, which is a title that I adapted from Moritz when I was trying to figure out what to call myself as a freelancer. And essentially what that means is that I work with clients, usually within the tech or media or journalism sectors, to create visualizations and stories with their data. And I tend to like combining my software engineering background with my love for design and art to create highly interactive visualizations that push the boundaries of the web.",
+      "id": "ep_161_ut_15"
+    },
+    {
+      "end": 229532,
+      "speaker": "Moritz Stefaner",
+      "start": 221580,
+      "text": "Great. So people of the pandemic, can you tell us a bit about the project and what the main idea behind it is?",
+      "id": "ep_161_ut_16"
+    },
+    {
+      "end": 337210,
+      "speaker": "Shirley Wu",
+      "start": 229636,
+      "text": "Yeah, so people of the pandemic is a. The tagline that we've kind of finalized on is a hyper localized cooperative simulation game. And essentially what it is is it's a game where an individual can come and enter their zip code and we pull their population data and the hospital data from their zip code. And we kind of put them into this game where each week they have to make decisions about how many times they go out for what sort of activities. And their activities will determine the number of infected cases and the number of mortalities within their zip code, within their community. And after a number of weeks, they have the choice of choosing to see if they want to continue for another four weeks. But now with everything going back to business as usual and seeing how that affects the numbers and kind of the little bit of spin we put on is that instead of just the individual and their decisions affecting the community's numbers, it actually pulls in past player decisions. So actual real decisions from real people to make up the rest of their community to kind of help them with. Essentially the goal of the game is to save as many lives as possible, to have as few infected cases as possible. So real people that have played the game in the past are helping them try to win the game now.",
+      "id": "ep_161_ut_17"
+    },
+    {
+      "end": 346918,
+      "speaker": "Moritz Stefaner",
+      "start": 337630,
+      "text": "And so you're storing all these decisions and then match. Do you also match people to similar zip codes or do you randomly take past players or how does it work?",
+      "id": "ep_161_ut_18"
+    },
+    {
+      "end": 394110,
+      "speaker": "Shirley Wu",
+      "start": 347054,
+      "text": "So we initially wanted to take from their zip code, but we weren't certain about how popular the game would get. And so for the first iteration, we just took random 19 players. And then we realized that we had to have them make some decisions and then we couldn't assume their zip codes. So now we just take random past players. But in the second iteration, that we just put out. What they can do is actually they can make their own team, so they can make a team name and then send that link to their friends. And then they can have, instead of random past players, they can have a team of just their friends and family and see how they do together in their community.",
+      "id": "ep_161_ut_19"
+    },
+    {
+      "end": 430220,
+      "speaker": "Moritz Stefaner",
+      "start": 397450,
+      "text": "And so what make you decide to, to make this whole thing a game? So I could imagine probably you said, oh, we are in this unique situation. I'm skilled with data, and I should do something with data around this phenomenon now. But ultimately, probably you might have considered maybe making a simulation of the mathematics or making an explanatory piece, as many others have done. But I think you made the only game that I'm aware of. So what makes you go for that format?",
+      "id": "ep_161_ut_20"
+    },
+    {
+      "end": 631620,
+      "speaker": "Shirley Wu",
+      "start": 430360,
+      "text": "Yeah, I mean, I think the most straightforward answer is that, just like you said, by the time I was starting on this, even, I think I started looking at this in early March, mid March. And so even by then, like you said, there was a lot of explainers out there, like Washington Post had that great one about social distancing and simulating that, which is their most read. And so the, the first reason is that it's, it's been, it's been done, and it's been done by really, really great publications with a lot of resources. And so I wasn't trying to compete with that. And the second more detailed answer is that I think when I sat down to look at the data back in early March, the first thing I realized is that I did not want to do anything with the case data just because there's so, there was so much problem with the data collection, and there still is. And the second thing I realized is that I think around then, there was all of this information about the social distancing and how that can help flatten the curve. And I had, I happen kind of the first two weeks of March, I just kind of really obsessively read every single thing about Covid-19 and I had started following all these epidemiology, and they were starting, they were saying some really interesting things about hospital beds. And if, you know, certain number of people social distance, then we will have hospital bed capacity until June or July or any. So they had all of these different scenarios that I wanted to bring together into a visualization. And I was trying to figure out who this audience, who the audience I was targeting was. And I realized that I wanted to target the people that weren't taking social distancing seriously, weren't taking Covid-19 seriously. And that's when I realized that I think explainers are great. Like, you know, storytelling is, like, I love, like, storytelling is the thing I love. Right. And I love, like, very detailed explanations on a complex topic. But I think people only engage with that if they are already interested in the topic. And I was trying to. I was trying to engage with people that didn't care, that didn't want to care. And I was hoping to make kind of like a. Like a. Kind of like a one liner, like one kind of like a. Like a quick thing for people to try. And it's not, you know, overly text heavy. Like, hopefully it's engaging, and then after a few minutes, maybe they can come out of it with new understanding of the situation. And so that's how I landed on the idea of a game and a game and not a simulation, because, again, I wanted to quickly convey that we aren't trying to predict the future, which I think when it's simulations, it takes a little bit more work to convey the uncertainty of this is where we're talking about the future, and there's a lot of uncertainty.",
+      "id": "ep_161_ut_21"
+    },
+    {
+      "end": 720802,
+      "speaker": "Enrico Bertini",
+      "start": 632560,
+      "text": "I really like what Hugh said, and I totally agree. I think that the idea of trying to do something that is not based on cases, because who knows what cases actually represent? I think we still don't understand it fully. I think that's something that I noticed with simulations in general and with your game as well, is this idea that if you only accept that the numbers don't have to be, quote unquote. Right. But when you play with this thing, you understand the concept. Right. And that's something that I noticed also with other simulations. And I think it's really useful in a way. I'm wondering if the difference here is like, the difference between walking someone through a beta zoo. Right. Versus letting people play. Play the thing. Right. And I know with myself that when I play with these simulators, I understand the concepts much better, and I understand how the variables are linked together. Right. And knowing that the numbers are basically meaningless. Right. And if I am, if I remember correctly, I think somewhere in your. In your webpage, you say that's. That's not real data. That's not even necessarily what Covid does. And I think that's a very interesting approach.",
+      "id": "ep_161_ut_22"
+    },
+    {
+      "end": 847682,
+      "speaker": "Shirley Wu",
+      "start": 720946,
+      "text": "Yeah. Thank you. At the very bottom of our landing page, right below the start button, we have a very. We have a whole disclaimer that's like, we tried to model the numbers based on Covid-19 but I think we tried to make the model as close to the COVID numbers as we can. But, um, that we're not trying to model the virus. We're just trying to model a virus. Um, and that was something that we actually spent a very, very. Like, the. The reason why it took so long for us to kind of put this out there is just because, um, I think half of the time we were, or the first half, we spent a very, very long time, um, discussing exactly what you just said, which is that there isn't enough reliable data for us to make a. And there's actually a difference between, I think, a lot of the simulations out there are community, system wide simulations based on kind of the r naught that we know. So there. They can. I can. I think, like, even kind of be like, this is quite close to what our. What Covid might be, but for us, we wanted it to be about the individual and their decisions. So ours is an agent based simulation. And for that, like, there's just no numbers out there, there to kind of back up, you know, what is the susceptibility of an individual? And so we completely made up all of those numbers. And so when we were making this decision to make up all these numbers, the biggest discussion we had for a while was like, should we even do this then? Would anyone find this useful if it's not actually Covid numbers? Like, would people just be like, well, we don't need to believe this, because it's not modeling Covid-19 would it even be helpful? And we ultimately decided that we should go forward with this, because even if only a few people find it helpful, then we've done something. And it's also a take on. It's our take on what's out there.",
+      "id": "ep_161_ut_23"
+    },
+    {
+      "end": 877382,
+      "speaker": "Moritz Stefaner",
+      "start": 847866,
+      "text": "What I also found really interesting and also frustrating about the game is that you cannot tell the others what to do. That's also very real Covid experiences that you can control your own behavior, but there's always two people to an interaction, and, you know, both sides have to behave properly, so. And these are things that you don't see in these big picture, like simulations. Right. All these personal aspects and your personal frustrations and so on.",
+      "id": "ep_161_ut_24"
+    },
+    {
+      "end": 973276,
+      "speaker": "Shirley Wu",
+      "start": 877566,
+      "text": "Yeah, that's. It's funny that you're mentioning all of these, because these are all the things that we struggled with so much. The other, like, the thing that we just. We struggled with. There is a, like, I literally, before this episode, wrote down biggest challenges, and you just, like, hit on the first two, which is. And that one is that the whole thing about social distancing and slowing down the spread of a virus is, and I learned this while making this game, is that it's exactly like the voting problem, which is like, as an individual, you don't contribute to the like, unless you're in, like, a very rural town, then you certainly do. But, like, for most people in, like, the suburbs or cities, like, for individuals, your vote doesn't have much of an impact. But if everybody in the community believes that and acts that way, then it has a huge impact. And that was the same thing here. So we really struggled with also in terms of the bottle and in terms of the story, like, do we give you the individual, all of the agencies, so that you can see how your decisions play out? Should we assume that your decision controls 100% of the population, or should we give you only a part of the population to kind of quote unquote influence? And there's like, pros and cons to both, right? Like, I think in America, people, like, we're all very individualistic, so we like to believe our own, like, how important we are and, you know, how freedom.",
+      "id": "ep_161_ut_25"
+    },
+    {
+      "end": 980360,
+      "speaker": "Moritz Stefaner",
+      "start": 973308,
+      "text": "To do stupid stuff whenever you want to. It seems to be in the constitution somehow. I don't know.",
+      "id": "ep_161_ut_26"
+    },
+    {
+      "end": 1070422,
+      "speaker": "Shirley Wu",
+      "start": 983120,
+      "text": "I never thought I would say this, but I like, for all of my life that I've lived here, I've been very grateful for the individualistic part of America until now. So I'm chinese American, so growing up, I've always loved having individualism versus having to fit into a mold. And for the first time, I'm like, please be a little bit more community oriented. But, yeah. So if we were to go and give everybody, the individual, all of the agency, then it kind of shows them how the disease might spread. But it kind of doesn't hit that most important message, which is that it's only if you and whoever you can convince and influence, if you together make decision, this decision. And that was kind of the most important part of the message of you are an individual that is part of the community, which there's still, like pros and cons to the decision, because the way we made it then people are, people are frustrated, people are like, this sucks. Like, everybody dies. So I don't think there was a good answer, and we just decided to go with the one that I think we thought was the more important message.",
+      "id": "ep_161_ut_27"
+    },
+    {
+      "end": 1091478,
+      "speaker": "Enrico Bertini",
+      "start": 1070526,
+      "text": "Yeah. So, Shirley, are you concerned at all with, say, the fact that it's a apparent. Well, not, not apparently it's a pretty serious topic, but there's some playfulness there. So was that one of the initial concerns that you had, like, the tension between playful thing and the seriousness of the subject.",
+      "id": "ep_161_ut_28"
+    },
+    {
+      "end": 1168470,
+      "speaker": "Shirley Wu",
+      "start": 1091534,
+      "text": "Yeah, definitely. 100% it is. I mean, that's something that I firmly believe in for data visualization, that to always respect what the data represents. And each of these data points are, I mean, fictitious people, but fictitious people that potentially represent real people. And so the whole time we were working on this, the number one concern I had was to make sure that we do this as empathetically as we can. Definitely. I felt weird calling it a game, that it feels like it's making light of the situation, but I also stand by the decision to make it a game that I think it was, I think, a good decision. And the way that we tried to balance that is in the wording, all of the messaging, we were really careful to be respectful and hopefully empathetic and serious that it's a serious situation. And kind of the color usage that we had, we tried to be very, very.",
+      "id": "ep_161_ut_29"
+    },
+    {
+      "end": 1171234,
+      "speaker": "Enrico Bertini",
+      "start": 1169010,
+      "text": "Yeah, it's not really flashy or anything.",
+      "id": "ep_161_ut_30"
+    },
+    {
+      "end": 1174794,
+      "speaker": "Shirley Wu",
+      "start": 1171322,
+      "text": "No, no. Yeah, we weren't trying to be flashy.",
+      "id": "ep_161_ut_31"
+    },
+    {
+      "end": 1177162,
+      "speaker": "Moritz Stefaner",
+      "start": 1174842,
+      "text": "Yeah, but that's always a fine line, right?",
+      "id": "ep_161_ut_32"
+    },
+    {
+      "end": 1178186,
+      "speaker": "Enrico Bertini",
+      "start": 1177346,
+      "text": "Yeah, it's a fine line.",
+      "id": "ep_161_ut_33"
+    },
+    {
+      "end": 1189718,
+      "speaker": "Moritz Stefaner",
+      "start": 1178218,
+      "text": "People might say, oh, you're making fun of these, and people die, you know, and. And then. Yeah, then you achieve the opposite, basically. But I also agree. I think you balanced it out pretty well. And.",
+      "id": "ep_161_ut_34"
+    },
+    {
+      "end": 1190926,
+      "speaker": "Enrico Bertini",
+      "start": 1189774,
+      "text": "Yeah. Even though.",
+      "id": "ep_161_ut_35"
+    },
+    {
+      "end": 1191782,
+      "speaker": "Shirley Wu",
+      "start": 1190958,
+      "text": "Thank you so much.",
+      "id": "ep_161_ut_36"
+    },
+    {
+      "end": 1210270,
+      "speaker": "Enrico Bertini",
+      "start": 1191846,
+      "text": "Yeah. I don't want to go off on a tangent, but there's this thing that games are not necessarily something that is not serious. Right. And there is this whole debate in the game. I mean, I'm not a gamer myself, but I know that there is a debate about this idea of serious games, as if a game, per se is nothing necessarily serious.",
+      "id": "ep_161_ut_37"
+    },
+    {
+      "end": 1215390,
+      "speaker": "Moritz Stefaner",
+      "start": 1210310,
+      "text": "There are a lot of games that are really serious and that simulate, like, war decisions.",
+      "id": "ep_161_ut_38"
+    },
+    {
+      "end": 1219862,
+      "speaker": "Enrico Bertini",
+      "start": 1215470,
+      "text": "But I know gamers that don't completely dislike this idea of serious games.",
+      "id": "ep_161_ut_39"
+    },
+    {
+      "end": 1221170,
+      "speaker": "Moritz Stefaner",
+      "start": 1219966,
+      "text": "It's just a game.",
+      "id": "ep_161_ut_40"
+    },
+    {
+      "end": 1223262,
+      "speaker": "Enrico Bertini",
+      "start": 1221550,
+      "text": "I don't know what your take is there, but.",
+      "id": "ep_161_ut_41"
+    },
+    {
+      "end": 1392660,
+      "speaker": "Shirley Wu",
+      "start": 1223326,
+      "text": "Yeah, so. Well, actually, sorry. I'm gonna just finish one last about the balance, which is that I was kind of. As I was working on this project, I was talking to someone in the database community that is immunocompromised. And I was kind of talking to him throughout to kind of get his view on Covid-19 and I think the most flattering thing was when he saw the game, and he told me that he was just so happy about how the messaging was didn't make him feel othered that, you know, that were doing this to help people like him, that he didn't feel that way and that he thought he actually, because it was one of the things I explicitly asked about, did we balance that well? And he said that he thought we balanced it really well, that he didn't feel alienated from it. And I think that was the greatest compliment. I just wanted to add that to the previous answer because I just remembered it. But the second part of what you just asked, I mean, I have to put a disclaimer that I'm not a gamer, and so I can't speak on behalf of that, but I personally believe that, you know, as a non gamer, that I think games are an extremely powerful way to, like, tell a message and tell a story. And so I personally think that there could be such a thing as serious games that maybe the tone of it is light and playful, but the message of it is important and serious. So personally, I think that there could be such a thing. Although I have a very, like, funny little anecdote about when I first started this, because I never play games, but my husband is, like, a lifelong, like, video or not like a lifelong player of games, like video games, mobile games, board games, all of them. And when I first told him about the concept and my very first iteration was that, like, the decision that they could make every day was whether to go out or not, or one to go out, two to stay in, and three to stay in and share the message. And he was like, that is, he was like, I'm so sorry, but that is extremely boring, and I would never play it. All this to say, and he was like, why don't you make a simulation? What you're trying to do, that's a simulation. And all of this to say, as someone that never plays games, I severely underestimated games. And as someone that doesn't do data visualization, he was like, well, simulations would be so much easier.",
+      "id": "ep_161_ut_42"
+    },
+    {
+      "end": 1448756,
+      "speaker": "Moritz Stefaner",
+      "start": 1394520,
+      "text": "There's a new indie game that came out. It's called the longing. And the objective is you have to wait 400 days, and then you have to find ways to spend these 400 days in the game, which is hilarious. I thought there was a very timely. Very timely, yeah, exactly. It came out in February. It's amazing. Somebody was a visionary there. Yeah, yeah. But, yeah, I think that's super interesting. Like, how do you make an interesting game that's also truthful? Right? That's like a whole different, like, wow, it seems like so much harder than making a truthful data visualization. And so, you know, that's really, really interesting. But I think you, as you said, as long as you get the basic mechanisms right, I think you have a lot of freedom and a lot of wiggle room there. Right?",
+      "id": "ep_161_ut_43"
+    },
+    {
+      "end": 1456764,
+      "speaker": "Shirley Wu",
+      "start": 1448828,
+      "text": "Yeah. I don't want to claim any knowledge of games because I think games gamers take it extremely seriously and I don't want to offend any of.",
+      "id": "ep_161_ut_44"
+    },
+    {
+      "end": 1461240,
+      "speaker": "Enrico Bertini",
+      "start": 1456772,
+      "text": "It's an opinionated crowd.",
+      "id": "ep_161_ut_45"
+    },
+    {
+      "end": 1475950,
+      "speaker": "Shirley Wu",
+      "start": 1461660,
+      "text": "Yeah. And you know what? Working on this, I realized how hard it is because of all those mechanics. So you have to balance all of them and make it fun and like make it engaging so that people would like, you know, actually like, keep playing.",
+      "id": "ep_161_ut_46"
+    },
+    {
+      "end": 1523340,
+      "speaker": "Moritz Stefaner",
+      "start": 1476810,
+      "text": "But it's the old format that really suggests that you have to make a decision. Like, I think so many other media formats we have make you lean back and like, consume even data. Visualizations that are maybe made for exploration or something are sort of still like, yeah, there's something external and you explore it, but you're like, sort of, you're in this bird's eye perspective mode, detached from the scene, almighty observer, but in a game you're like, oh, I'm in the middle of it. I have to react, I have to do the right thing. I have to see what's coming. And so I have to be an agent, really. And I think that makes it so interesting to tackle data problems in game form, I think.",
+      "id": "ep_161_ut_47"
+    },
+    {
+      "end": 1554194,
+      "speaker": "Shirley Wu",
+      "start": 1523730,
+      "text": "Yeah, that's a really great way to put it. Like, it gives you, it gives you agency, like it puts you in the middle of everything and makes you care about it. Yeah. And I guess it goes back to what Enrico was saying earlier about how all these simulations, because he was able to kind of like put himself in the middle of it and then kind of make all these decisions that it helps kind of those concepts stick more than if it was in the explainer that we, like you said, passively, kind of read through.",
+      "id": "ep_161_ut_48"
+    },
+    {
+      "end": 1572750,
+      "speaker": "Moritz Stefaner",
+      "start": 1554322,
+      "text": "Yeah. So were there any things you learned? Like you said, you never built a game, so there must have been things that you learned along the way, the hard way from your husband or otherwise. So what were. Can you tell us a few more stories? Like, so if somebody else now makes a game, doesn't make the same mistakes.",
+      "id": "ep_161_ut_49"
+    },
+    {
+      "end": 1693390,
+      "speaker": "Shirley Wu",
+      "start": 1573970,
+      "text": "Yeah. So don't underestimate games, number one, most importantly, but I think the most important thing that I learned that I thought was really interesting about how he thought about things versus how I thought about things of, I think for me, because I'm so used to kind of like the, the way that we consume kind of explainers that even when there were decisions, I was like, oh, this, like, people will just click on this button. And. But he was like, why would I click on this button? Like, what is the feedback that I'll get from clicking on this button? And it's a very interesting thing because I had him beta test, like, the first version, and I think he was like, the first version was like, how many times will you go out per week? And he figured out, because I have built in kind of like, depending on how many times it will affect your, like, food or exercise, like, how much food you have or how much exercise you've gotten. Because part of the game is that part of the consequence of your decisions is that if you run out of food, you die from the game. And so he figured out very quickly that if he, like, the minimum number of times he needed to go out to stay alive. And so after that, he only paid attention to the parts of the UI that kind of helped him with that decision. So he ignored everything else. He was like, oh, these community numbers, I don't care about them because I don't die. And I thought that was an extremely interesting perspective of, like, he just ties whatever action he needs to take with the immediate consequence of what might happen in the game. And that's a perspective that I hadn't really thought of, and that knowing that now gives me some more information about how to tie kind of those different mechanisms to parts of my UI so that people engage with all of it.",
+      "id": "ep_161_ut_50"
+    },
+    {
+      "end": 1720442,
+      "speaker": "Enrico Bertini",
+      "start": 1693730,
+      "text": "Yeah. And I was also wondering, maybe you can share with us a little bit about, like, behind the curtains, how this has been implemented. What were the technical challenges there? It's a really dynamic kind of app. It's really interesting. So it's not just a problem of how to implement the visual parts, but also how to make the whole thing work. Right. And you do have a model behind it, right?",
+      "id": "ep_161_ut_51"
+    },
+    {
+      "end": 1976380,
+      "speaker": "Shirley Wu",
+      "start": 1720546,
+      "text": "Oh, yeah, yeah, yeah. It was, I think it was one of the most technically challenging projects I've done in recent memory. So I'm gonna kind of step back and say, like, I got to work with Steven Osterman, who I met through the data visualization society, and he has a background in kind of like spatial analysis for public health. And so he spearheaded all of the model and simulation parts of it, and we worked together to implement that. And there was also, I worked with egghead, which is this online learning platform, and they just kind of sponsored and helped give kind of like dev support for all of the non Dataviz parts of the UI. And so I think even stepping back from the technical part, it was such an interesting challenge for me to kind project manage everything of like, making sure the communications were going, you know, between, like, Stephen and I that were working on the model and then, like, me with like, the egghead team who are, who were working with, like, a lot of the parts of the UI, implementing all of these. And also, yeah, that was, that was a lot. And then there was a lot of kind of struggle with, like, how there was kind of the tension between how we implemented the model and how the story goes. There was a lot of struggle between the story, the model and the UI. But from a technical perspective, we used D3, we used greensock for an animation, and we used Vue for all of the, kind of gluing together all of the UI components. And it was so, it was the most fun challenges I've had in a while. Trying to figure out how kind of that whole game screen with the interaction between making the decisions and then the hospital beds filling up and the line chart going and all of those different numbers going. And in the middle there's the community with the houses and the little dots that know, kind of go in and out of different kind of establishments and having. Figuring out how all of that flows together and view from like, a software architecture perspective. It was so much fun. I love software architecture, and this was one of the projects where I got to do that for the first time in a very long time. And then I think the funnest thing, I feel like I did Washington. I don't know if people even notice. It's like a very subtle things that I like to do for delight, where if you look closely, when the dots are going from their houses to the park or the restaurant or cafes, they actually avoid all other buildings except for their starting and ending destination. And so that's a little tweak in the D3 force simulation that I did to make them avoid all other buildings that when I like, it was like a one line change. And when I did that, I was like, I am a genius. Yeah, it was so much fun. And the funny thing is, the biggest technical challenge I had was figuring out how to lay out the hospital beds, given that the kind of the little, the little area that they're in, the dimension of that little container could change on screen size. And so, and then depending on the zip code, the number of beds could change. So, like, what is the dimension of that bed image such that it will always fit beautifully within that container? That took me and my husband a whole afternoon of trying to figure out if, like, there's a simple, beautiful mathematical formula to calculate that. And then by the end of it we were like, okay, it's much easier if you just brute force it. And we just use like a binary search tree. But that was the first time I've used a binary search tree since like college. And I was so happy.",
+      "id": "ep_161_ut_52"
+    },
+    {
+      "end": 1995500,
+      "speaker": "Moritz Stefaner",
+      "start": 1978240,
+      "text": "It's crazy. Sometimes the little, the smallest details can take the longest time and other things just fall from the tree and you're like, oh, that was easy. Yeah, it's always surprises. Did you use any, like, charting library for the little like bar charts and line charts and so on, or was that all custom?",
+      "id": "ep_161_ut_53"
+    },
+    {
+      "end": 2015260,
+      "speaker": "Shirley Wu",
+      "start": 1996040,
+      "text": "They were all custom. I just, I tend to like just building everything with just D3 and vue just because it gives me full control about how it looks and, yeah, like, how I want to annotate it, how it's laid out aesthetically. And so I don't ever use any charting libraries.",
+      "id": "ep_161_ut_54"
+    },
+    {
+      "end": 2026190,
+      "speaker": "Moritz Stefaner",
+      "start": 2015560,
+      "text": "Nice. Did you get any, like, interesting follow up feedback or any, any stories from people using it? You mentioned a few already. Were there any, like, other notable reactions?",
+      "id": "ep_161_ut_55"
+    },
+    {
+      "end": 2127440,
+      "speaker": "Shirley Wu",
+      "start": 2026970,
+      "text": "I think the most flattering was there's a team in France that went and translated it and also localized the data. So they went and pulled the population data and hospital data for all of their provinces and postal codes and then, so now it's available in France. And that was the most flattering. And it's the first time anyone's done that for any of my projects. And then I think there's just been a lot of feedback of how helpful it was that like, it illustrated the spread in like, such a concrete way. There was a, oh, I was extremely flattered because, so there's a Tableau hosted livestream, I guess, called if I data could talk, I think. And in there they interviewed a professor of economics and they started, or he's a professor of economics that specializes in game theory. And they kind of brought the people of the pandemic in as an example. And he says something along the lines of, like, not only did I immensely enjoy it, this is like a great example of showing like that. This is kind of makes it more concrete what the local government is telling us and everybody should go play the game. And I'm like, yes. That moment when a Yale professor of game theory says to go play your game. I'm very flattered.",
+      "id": "ep_161_ut_56"
+    },
+    {
+      "end": 2147660,
+      "speaker": "Moritz Stefaner",
+      "start": 2129260,
+      "text": "Yeah. But again, that's so interesting. Right. Game theory is all about the science of decision making. Right. And data visualization is all about providing the basis for decision making. Right. It had to happen. The fusion had to happen. That's great.",
+      "id": "ep_161_ut_57"
+    },
+    {
+      "end": 2157460,
+      "speaker": "Enrico Bertini",
+      "start": 2148000,
+      "text": "Yeah. And, Shirley, is there gonna be a follow up to this project? And I think you mentioned that you've been changing it as well.",
+      "id": "ep_161_ut_58"
+    },
+    {
+      "end": 2221790,
+      "speaker": "Shirley Wu",
+      "start": 2157800,
+      "text": "Yeah, yeah. So we launched the first version, I think, three or four weeks ago, and then we put out another version last week with all of the feedback. I'm trying to scale back my work on it because I need to start back up on client projects again, but so I think if there is to be follow ups, it's probably going to be small, kind of like small bug fixes or small future improvements. But I'm hoping to open source it so that if anybody is interested in helping, then they can kind of contribute to it. Hopefully, though, I think my biggest worry right now is the topicality of it. I think as we are right now, where we are right now in the evolution of Covid-19 I think maybe this game is not as relevant anymore. So I don't know, actually, about they're interested in it anymore.",
+      "id": "ep_161_ut_59"
+    },
+    {
+      "end": 2234422,
+      "speaker": "Enrico Bertini",
+      "start": 2221950,
+      "text": "Sure. Okay. Well, thanks so much. And maybe you want to mention the URL or how to read the game if our listeners want to give it a try.",
+      "id": "ep_161_ut_60"
+    },
+    {
+      "end": 2279900,
+      "speaker": "Shirley Wu",
+      "start": 2234566,
+      "text": "Yeah. So the game is at people of the pandemic game.com. and if there's any feedback about how to make it still relevant, because I think. I think people are. Might be at the point where they've kind of, like, gone through the first phase of social distancing, and now it's kind of like getting very antsy. And so maybe this could be, like, a good reminder of why we're still doing this. So if people have any suggestions on how to improve there, that'd be extremely appreciated. But in the meantime, hopefully you will be able to get something out of this game and share with your friends and family. Thank you.",
+      "id": "ep_161_ut_61"
+    },
+    {
+      "end": 2287800,
+      "speaker": "Enrico Bertini",
+      "start": 2280320,
+      "text": "Okay. Thanks so much, Shirley. That's been great. And thanks for sharing all these stories with us.",
+      "id": "ep_161_ut_62"
+    },
+    {
+      "end": 2291488,
+      "speaker": "Shirley Wu",
+      "start": 2287920,
+      "text": "Thank you so much for having me. And thank you so much for all the questions.",
+      "id": "ep_161_ut_63"
+    },
+    {
+      "end": 2292336,
+      "speaker": "Moritz Stefaner",
+      "start": 2291664,
+      "text": "Thank you.",
+      "id": "ep_161_ut_64"
+    },
+    {
+      "end": 2294500,
+      "speaker": "Enrico Bertini",
+      "start": 2292408,
+      "text": "Thank you. Bye bye.",
+      "id": "ep_161_ut_65"
+    },
+    {
+      "end": 2319940,
+      "speaker": "Moritz Stefaner",
+      "start": 2299360,
+      "text": "Hey, folks, thanks for listening to data stories again. Before you leave, a few last notes. This show is crowdfunded, and you can support us on patreon@patreon.com Datastories, where we publish monthly previews of upcoming episodes for our supporters. Or you can also send us a one time donation via Paypalaypal dot me.",
+      "id": "ep_161_ut_66"
+    },
+    {
+      "end": 2348932,
+      "speaker": "Enrico Bertini",
+      "start": 2320060,
+      "text": "Datastories or as a free way to support the show. If you can spend a couple of minutes rating us on iTunes, that would be very helpful as well. And here's some information on the many ways you can get news directly from us. We are on Twitter, Facebook and Instagram, so follow us there for the latest updates. We have also a slack channel where you can chat with us directly. And to sign up, go to our home page at Datastory Es and there youll find a button at the bottom.",
+      "id": "ep_161_ut_67"
+    },
+    {
+      "end": 2357844,
+      "speaker": "Moritz Stefaner",
+      "start": 2348956,
+      "text": "Of the page and there you can also subscribe to our email newsletter if you want to get news directly into your inbox and be notified whenever we publish a new episode.",
+      "id": "ep_161_ut_68"
+    },
+    {
+      "end": 2370480,
+      "speaker": "Enrico Bertini",
+      "start": 2357932,
+      "text": "Thats right. And we love to get in touch with our listeners. So let us know if you want to suggest a way to improve the show or know any amazing people you want us to invite or even have any project you want us to talk about.",
+      "id": "ep_161_ut_69"
+    },
+    {
+      "end": 2377152,
+      "speaker": "Moritz Stefaner",
+      "start": 2370620,
+      "text": "Yeah, absolutely. Don't hesitate to get in touch. Just send us an email at mail at Datastory es.",
+      "id": "ep_161_ut_70"
+    },
+    {
+      "end": 2380960,
+      "speaker": "Enrico Bertini",
+      "start": 2377296,
+      "text": "That's all for now. See you next time. And thanks for listening to data stories.",
+      "id": "ep_161_ut_71"
+    }
+  ],
+  "confidence": 0.936236905526989,
+  "audio_duration": 2390,
+  "punctuate": true,
+  "format_text": true,
+  "dual_channel": false,
+  "webhook_url": null,
+  "webhook_status_code": null,
+  "webhook_auth": false,
+  "webhook_auth_header_name": null,
+  "speed_boost": false,
+  "auto_highlights_result": null,
+  "auto_highlights": false,
+  "audio_start_from": null,
+  "audio_end_at": null,
+  "word_boost": [],
+  "boost_param": null,
+  "filter_profanity": false,
+  "redact_pii": false,
+  "redact_pii_audio": false,
+  "redact_pii_audio_quality": null,
+  "redact_pii_policies": null,
+  "redact_pii_sub": null,
+  "speaker_labels": true,
+  "content_safety": false,
+  "iab_categories": true,
+  "content_safety_labels": {
+    "status": "unavailable",
+    "results": [],
+    "summary": {}
+  },
+  "language_detection": false,
+  "language_detection_threshold": null,
+  "language_confidence": null,
+  "custom_spelling": null,
+  "throttled": false,
+  "auto_chapters": true,
+  "summarization": false,
+  "summary_type": null,
+  "summary_model": null,
+  "custom_topics": false,
+  "topics": [],
+  "speech_threshold": null,
+  "speech_model": "best",
+  "chapters": [
+    {
+      "summary": "Moritz Stefaner and Enrico Bertini talk about data visualization, data analysis, and the role data plays in our lives. Our podcast is listener supported, so there's no ads. If you enjoyed the show, please consider supporting us with recurring payments on patreon. com Datastories.",
+      "gist": "Data Stories: More Stories in Your Life",
+      "headline": "Our podcast is listener supported, so there's no ads",
+      "start": 200,
+      "end": 93440,
+      "id": "ep_161_ch_0"
+    },
+    {
+      "summary": "Today we want to continue talking about coronavirus. Shirley Wu has been here a couple of years back together with Nadieh Bremer. We needed to get her back on to talk about the people of the pandemic game.",
+      "gist": "Coronavirus",
+      "headline": "Today we want to continue talking about coronavirus",
+      "start": 93820,
+      "end": 176780,
+      "id": "ep_161_ch_1"
+    },
+    {
+      "summary": "People of the pandemic is a hyper localized cooperative simulation game. Instead of just the individual and their decisions affecting the community's numbers, it actually pulls in past player decisions. The goal of the game is to save as many lives as possible.",
+      "gist": "People of the Pandemic: A Hyperlocal Co-operative Simulation",
+      "headline": "People of the pandemic is a hyper localized cooperative simulation game",
+      "start": 177120,
+      "end": 722190,
+      "id": "ep_161_ch_2"
+    },
+    {
+      "summary": "At the very bottom of our landing page, right below the start button, we have a whole disclaimer that's like, we tried to model the numbers based on Covid-19 but for us, we wanted it to be about the individual and their decisions. Even if only a few people find it helpful, then we've done something.",
+      "gist": "In the Know: Our Covid-19 Simulation",
+      "headline": "We tried to model the numbers based on Covid-19",
+      "start": 722650,
+      "end": 883870,
+      "id": "ep_161_ch_3"
+    },
+    {
+      "summary": "In America, people are very individualistic, so we like to believe our own. For the first time, I'm like, please be a little bit more community oriented. We decided to go with the one that I think we thought was the more important message.",
+      "gist": "The Biggest Challenges Of The",
+      "headline": "Game designers struggled with giving everyone agency in slowing down spread of a virus",
+      "start": 883910,
+      "end": 1071210,
+      "id": "ep_161_ch_4"
+    },
+    {
+      "summary": "Shirley: Was that one of the initial concerns that you had, like, the tension between playful thing and the seriousness of the subject. She says they were careful to be respectful and hopefully empathetic and serious that it's a serious situation.",
+      "gist": "The Data Visualization",
+      "headline": "Shirley says there's a tension between playful and serious subject",
+      "start": 1071510,
+      "end": 1191782,
+      "id": "ep_161_ch_5"
+    },
+    {
+      "summary": "There's this thing that games are not necessarily something that is not serious. And there is this whole debate in the game. There are a lot of games that are really serious. But I know gamers that don't completely dislike this idea of serious games. It's just a game.",
+      "gist": "Are Serious Games In The Game?",
+      "headline": "There is a debate about whether games are serious or not",
+      "start": 1191846,
+      "end": 1225678,
+      "id": "ep_161_ch_6"
+    },
+    {
+      "summary": "Games are an extremely powerful way to tell a message and tell a story. I think there could be such a thing as serious games that maybe the tone of it is light and playful, but the message is important and serious. How do you make an interesting game that's also truthful?",
+      "gist": "On The Balance of Data and Gaming",
+      "headline": "I'm gonna just finish one last about the balance of Covid-19",
+      "start": 1225854,
+      "end": 1555082,
+      "id": "ep_161_ch_7"
+    },
+    {
+      "summary": "Don't underestimate games, most importantly. The most important thing that I learned was how my husband thought about things. He tied whatever action he needs to take with the immediate consequence of what might happen in the game. Knowing that now gives me more information about how to tie different mechanisms to parts of my UI.",
+      "gist": "How To Build a Game",
+      "headline": "You never built a game, so there must have been things you learned",
+      "start": 1555266,
+      "end": 1693390,
+      "id": "ep_161_ch_8"
+    },
+    {
+      "summary": "It was one of the most technically challenging projects I've done in recent memory. There was a lot of struggle between the story, the model and the UI. The biggest technical challenge was figuring out how to lay out the hospital beds. Figuring out how all of that flows together was so much fun.",
+      "gist": "How To Make a Hospital App with a Data Visualization",
+      "headline": "This was one of the most technically challenging projects I've done recently",
+      "start": 1693730,
+      "end": 1988980,
+      "id": "ep_161_ch_9"
+    },
+    {
+      "summary": "Shirley: Did you get any interesting follow up feedback or any, any stories from people using it? She says the most flattering was a team in France that went and translated it and also localized the data. Shirley: Is there gonna be a follow up to this project?",
+      "gist": "The People of the Pandemic Data",
+      "headline": "Shirley: Did you use any charting libraries for this project",
+      "start": 1989760,
+      "end": 2302136,
+      "id": "ep_161_ch_10"
+    },
+    {
+      "summary": "This show is crowdfunded, and you can support us on patreon@patreon. com Datastories. We are on Twitter, Facebook and Instagram, so follow us there for the latest updates. Let us know if you want to suggest a way to improve the show.",
+      "gist": "Thanks for listening to Datastories!",
+      "headline": "This show is crowdfunded, and you can support us on patreon",
+      "start": 2302328,
+      "end": 2380960,
+      "id": "ep_161_ch_11"
+    }
+  ],
+  "disfluencies": false,
+  "entity_detection": false,
+  "sentiment_analysis": false,
+  "sentiment_analysis_results": null,
+  "entities": null,
+  "speakers_expected": null,
+  "summary": null,
+  "custom_topics_results": null,
+  "episode_num": 161,
+  "episode_metadata": {
+    "speakers": [
+      "Shirley Wu",
+      "Moritz Stefaner",
+      "Enrico Bertini"
+    ],
+    "WPid": "1606",
+    "url": "https://datastori.es/podlove/file/6728/s/feed/c/mp3/161-people-of-the-pandemic-with-shirley-wu.mp3",
+    "episode_title": "People of the Pandemic with Shirley Wu"
+  }
+}

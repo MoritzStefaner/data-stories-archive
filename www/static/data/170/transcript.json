@@ -1,0 +1,1063 @@
+{
+  "id": "e557d980-76cc-4352-b6a3-0760f49de96a",
+  "language_model": "assemblyai_default",
+  "acoustic_model": "assemblyai_default",
+  "language_code": "en_us",
+  "status": "completed",
+  "audio_url": "https://datastori.es/podlove/file/7033/s/feed/c/mp3/170-formalizing-design-with-gabrielle-merite-and-alan-wilson.mp3",
+  "utterances": [
+    {
+      "end": 8050,
+      "speaker": "Gabrielle M\u00e9ritte",
+      "start": 320,
+      "text": "Especially when we make guidelines that are going to be used potentially by hundreds of people, we have such a responsibility to do them properly.",
+      "id": "ep_170_ut_0"
+    },
+    {
+      "end": 147508,
+      "speaker": "Moritz Stefaner",
+      "start": 27640,
+      "text": "Hi, everyone. Welcome to a new episode of data stories. My name is Moritz Stefaner, and I'm an independent designer of data visualizations. In fact, I work as a self employed truth in beauty operator out of my office here in the countryside in the north of Germany. And usually I record this podcast together with Enrico Bertini, who is a professor at Northeastern University in Boston. But today I'm solo. But luckily, I'm joined by two guests today, which you will hear about in a minute, just in terms of introductions. On this podcast, we talk about data, data visualization, data analysis, and generally the role data plays in our lives. And the topic today is data design themes, design systems, style guides, guidelines, design languages. You can already see there's a whole cosmos of new formats emerging here in this space that we want to explore together today. And, yeah, hopefully you'll learn something new. And it's an exciting new emerging field. Yeah, I hope we can shed a bit of light on these mysterious terms before we dive right in. Just a quick note, our podcast is listener supported. We don't have any ads, so if you enjoy the show, you might consider supporting us. You can do this with recurring payments on patreon.com Datastories. So then there's a little donation you do every time we publish an episode. Or you could also send us one time donations on Paypal me Datastories. And it's always much appreciated. Also, small amounts just keeps us going. And we also have a bit of cost, so any contribution you can make is super appreciated. If you don't have or don't want to do monetary support, you can also just support us on social media or give us a good rating. Anything helps. And if not, it's also fine. Just keep listening. Anyways, let's get started. Let's dive right in. And now I can reveal our guests. Our guests today are Gabrielle and Alan. Hi.",
+      "id": "ep_170_ut_1"
+    },
+    {
+      "end": 148452,
+      "speaker": "Gabrielle M\u00e9ritte",
+      "start": 147644,
+      "text": "Hi, Moritz.",
+      "id": "ep_170_ut_2"
+    },
+    {
+      "end": 149120,
+      "speaker": "Alan Wilson",
+      "start": 148516,
+      "text": "Hello.",
+      "id": "ep_170_ut_3"
+    },
+    {
+      "end": 155404,
+      "speaker": "Moritz Stefaner",
+      "start": 150020,
+      "text": "Thanks for joining me. Quick introduction. So, Gabrielle, can you tell us a bit about yourself?",
+      "id": "ep_170_ut_4"
+    },
+    {
+      "end": 178442,
+      "speaker": "Gabrielle M\u00e9ritte",
+      "start": 155532,
+      "text": "Yeah. Hi, I'm Gabrielle M\u00e9ritte. I'm French. I'm an independent information designer, so I help ethically driven organization uncover important truth and share stories with intention backed by data. And I'm also currently, for another month, the senior de Davis designer at Pentagram and the team of Giorgia Lubich, which.",
+      "id": "ep_170_ut_5"
+    },
+    {
+      "end": 185346,
+      "speaker": "Moritz Stefaner",
+      "start": 178466,
+      "text": "We also had on the show a few times, and who's, of course, well known. And yeah, it's exciting to see you two work together.",
+      "id": "ep_170_ut_6"
+    },
+    {
+      "end": 187190,
+      "speaker": "Gabrielle M\u00e9ritte",
+      "start": 185498,
+      "text": "Yeah. The incredible Giorgia.",
+      "id": "ep_170_ut_7"
+    },
+    {
+      "end": 190738,
+      "speaker": "Moritz Stefaner",
+      "start": 189290,
+      "text": "Alan, how about you?",
+      "id": "ep_170_ut_8"
+    },
+    {
+      "end": 221642,
+      "speaker": "Alan Wilson",
+      "start": 190914,
+      "text": "Yeah, I'm Alan Wilson. I'm a principal designer at Adobe, where I work primarily on the experience cloud, which is Adobe's enterprise business. Make marketing software and other tools to help large organizations keep their messaging and help their customers. And I guess the main thing that we'll be discussing today is my contributions to the design system at Adobe, which is called Spectrum.",
+      "id": "ep_170_ut_9"
+    },
+    {
+      "end": 315130,
+      "speaker": "Moritz Stefaner",
+      "start": 221826,
+      "text": "Right? Yes. And this is also how we got in touch around two years ago because I started working together with Core, an agency in the UK on a design system for the World Health Organization. Yeah. And we sort of uncovered this whole world of, wow, there's so much happening in this space, and it's also really hard to orient yourself. Like, it sounds so easy. If somebody says, oh, we need some database style guide or guidelines. Can you help us do that? Everybody's like, yeah, sure, that sounds great. And then once you look into, oh, what do we do? What do we actually do now? What do we offer? What's the format? What's the scope of the whole project? You realize, oh, it's not even that clear. And everybody needs to figure out what they are doing in that space. And so, yeah, so there's so many flavors and approaches you can do. And so, yeah, I got in touch with you, Alan, and a few other folks who have experience in the field to help us guide along a bit. Here we are. Yeah. So I know both of you have been working on these types of projects. So before we go into all the nuances, what the differences between different sub genres are, maybe we can start with the purpose. Like, what, in your experience do people hope to achieve when they start building a design style guide or start formulating design guidelines? What do you think? What's the hope connected to that? Or what's the value to an organization to have something like that?",
+      "id": "ep_170_ut_10"
+    },
+    {
+      "end": 370570,
+      "speaker": "Alan Wilson",
+      "start": 315550,
+      "text": "I guess I'll go first. I think the main value is answering questions. As organizations grow, you have to coordinate a lot more to make sure that you as and as a group have a coordinated voice. And questions are very common. Right. What font should I use? What are our standard colors like, how do we lay out this particular document type? People need standards to communicate in a unified way. And one of the things I like about this space is that there's just such a broad range, as you already touched on, of ways to answer those questions. But for me, it's all about helping people do their jobs more effectively and efficiently by answering questions that they have a difficult time answering on their own.",
+      "id": "ep_170_ut_11"
+    },
+    {
+      "end": 372450,
+      "speaker": "Gabrielle M\u00e9ritte",
+      "start": 371070,
+      "text": "I love that answer.",
+      "id": "ep_170_ut_12"
+    },
+    {
+      "end": 375774,
+      "speaker": "Moritz Stefaner",
+      "start": 372990,
+      "text": "Yeah, that seems pretty, pretty comprehensive.",
+      "id": "ep_170_ut_13"
+    },
+    {
+      "end": 380010,
+      "speaker": "Gabrielle M\u00e9ritte",
+      "start": 375942,
+      "text": "Yeah, I had a way more like shrink, like dot list.",
+      "id": "ep_170_ut_14"
+    },
+    {
+      "end": 380934,
+      "speaker": "Moritz Stefaner",
+      "start": 380390,
+      "text": "Yeah.",
+      "id": "ep_170_ut_15"
+    },
+    {
+      "end": 447540,
+      "speaker": "Gabrielle M\u00e9ritte",
+      "start": 381022,
+      "text": "But I love that answer of answering question because I think it answers a lot on the definition. On my end, I kind of see like four point of values, efficiency. Just the idea of answering questions faster. So just people being able to reuse design to know what to do, all these things come into efficiency, consistency, which I think is the one that people don't always see. But for an organization being able to reproduce a design over and over or reuse some time of, let's say, I have a set of rules and principle that they can build upon scale. And I think Alan is going to know that more than me. And then the one that I don't see often, but to add Pentagram and in my work, that's pretty important, which is recognizability. So in those guidelines and style guide, the idea of being able to produce something that is recognized by an audience, like brand them, and we don't talk about that often in Dataviz, but that's really important to me when creating style guides.",
+      "id": "ep_170_ut_16"
+    },
+    {
+      "end": 486326,
+      "speaker": "Moritz Stefaner",
+      "start": 448010,
+      "text": "Yeah. And in the more branding and pr and advertising world, brand guidelines are super common. Right. And often we just receive them as, oh, here are our brand guidelines. Can you make sure the charts you do fit into that? Right. And so, yeah, that's already where we touch these wider communication contexts. But in this world, it's very common to have like a big bug with the fonts we use. These are the colors we have. This is how we pick photos. You don't crop photos like this, you crop them like that and so on. Yeah, I think in Dataviz it's a bit more new that we would be so explicit about. This is our approach. Right.",
+      "id": "ep_170_ut_17"
+    },
+    {
+      "end": 507798,
+      "speaker": "Alan Wilson",
+      "start": 486518,
+      "text": "Yeah, I think one of the reasons Dataviz is emerging more and more in the style guide space is because people are using it more and have more questions about it. So we're traditionally style guys focused on how you use the logo and how you use photography and other visuals to communicate. People are using charts to communicate and they have questions about how to best do that.",
+      "id": "ep_170_ut_18"
+    },
+    {
+      "end": 513694,
+      "speaker": "Moritz Stefaner",
+      "start": 507894,
+      "text": "Yeah, yeah, yeah. So it's a natural evolution of us actually mattering, which is good.",
+      "id": "ep_170_ut_19"
+    },
+    {
+      "end": 540200,
+      "speaker": "Gabrielle M\u00e9ritte",
+      "start": 513822,
+      "text": "Yeah, precisely. And there's this idea of like, you know, authority. I think. I think in a world where trust is hard to gain for organization that have gained that trust or are trying to gain that trust, having that recognizability of like, oh, this specific, you know, data visualization is coming from this institution that I'm familiar with, and I can recognize that a very first look seems really important in the public discourse.",
+      "id": "ep_170_ut_20"
+    },
+    {
+      "end": 659282,
+      "speaker": "Moritz Stefaner",
+      "start": 540500,
+      "text": "Yeah, cool. So I think the motivation is clear. So you want consistency, you want to scale design, you want to make sure all outputs coming from one source have a minimum level of quality. They are recognizable, they look from the same family at least, and not have that be a mysterious process that some gifted rockstar designers can only do but sort of scale the capability to anybody, ideally, right. That, oh, with the right rule set and the right tools and the right building blocks, anybody can now make a chart that looks like coming from that organization and is solid. Right? That's the hope. It's a big goal, of course. But now we're looking into, okay, how can we enable that, right? What are the things we can supply? And this is super crucial, to be clear about that. That's a trap I ran into in a few projects that we weren't really clear what the difference is between a style guide or guidelines or a component system or, you know, like all these things. And then you realize, oh, they actually wanted to have a big book with lots of data, with do's and don'ts. And we were like, oh, we thought we were just designing a database theme, like, pick some colors. Right. And so there's a whole spectrum of possible outputs you can have. Right. Maybe. Let's talk about a few of them. And I tried to organize it from small to big, sort of. So I think the smallest thing is probably like a design theme, where you say like, oh, these are the colors and fonts you can use for a given chart, something like this. And maybe a brand has multiple themes, like a light theme and a dark theme. It's like a skin you can apply to a chart, like an excel template type thing. Maybe then the next step is maybe a design system. Alan, is spectrum a design system? Where is spectrum on that ladder?",
+      "id": "ep_170_ut_21"
+    },
+    {
+      "end": 666290,
+      "speaker": "Alan Wilson",
+      "start": 659346,
+      "text": "Yeah, spectrum is a design system. And I would put it further down, maybe even at the very bottom.",
+      "id": "ep_170_ut_22"
+    },
+    {
+      "end": 669790,
+      "speaker": "Gabrielle M\u00e9ritte",
+      "start": 666410,
+      "text": "At the bottom, I'm also in the bottom.",
+      "id": "ep_170_ut_23"
+    },
+    {
+      "end": 691910,
+      "speaker": "Alan Wilson",
+      "start": 671370,
+      "text": "Yeah. When I think design system, I think the difference between a design system and a style guide or a theme or just a set of guidelines is a design system has infrastructure behind it so that when you make a change, those changes roll out into all the places that they need to.",
+      "id": "ep_170_ut_24"
+    },
+    {
+      "end": 697238,
+      "speaker": "Moritz Stefaner",
+      "start": 691990,
+      "text": "Maybe there's also software components that automatically implement that stuff and somehow.",
+      "id": "ep_170_ut_25"
+    },
+    {
+      "end": 718350,
+      "speaker": "Alan Wilson",
+      "start": 697334,
+      "text": "Yeah, yeah. And it, and it provides resources for all parties that are involved. So the designers get the design assets they need. The engineers have the engineering components that they're going to use and anyone else in the organization has the guidelines in it, materials, templates, things they need to do their work.",
+      "id": "ep_170_ut_26"
+    },
+    {
+      "end": 730746,
+      "speaker": "Moritz Stefaner",
+      "start": 719250,
+      "text": "And so. Okay, cool. So we have design themes automated in the design system and super well documented. So then how about guidelines and style guides? How does that fit in?",
+      "id": "ep_170_ut_27"
+    },
+    {
+      "end": 799486,
+      "speaker": "Gabrielle M\u00e9ritte",
+      "start": 730778,
+      "text": "I don't know how Alan feels about it to me. So I work hard on that one. I was like, is there a difference between guidelines and style guides? And I think we use it pretty freely in the design world. We use it at least in the brain side of things. We use it kind of like whatever, we can exchange them. However, I could see your difference where for me, like one guideline could be like do and don'ts versus a style guide is kind of putting all those guidelines together. So to me, style guide is a collection of rule. You know, it tells you what you're allowed to do and not to do given a context. And I guess I'm going to go one step further. But there's to me, the style guide. If you think about if you remove style and you just keep guide, then you can also include elements of voice, again to that branding element. So not just doing dance on design, on color choices, but yes, on tonality, on content, on way more than just the look and feel and, you know, the practicality of design elements. So that's how I see the difference in guideline and stygal. But in the design world, we definitely use them almost as exchangeable and that.",
+      "id": "ep_170_ut_28"
+    },
+    {
+      "end": 817654,
+      "speaker": "Moritz Stefaner",
+      "start": 799518,
+      "text": "Part cannot be automated or implemented well in software. Right? Like, how do you automate tonality? Can you. I don't know. But at least, let's say Sagat or design guidelines are usually targeted at people making charts, right? Is that fair to say?",
+      "id": "ep_170_ut_29"
+    },
+    {
+      "end": 835720,
+      "speaker": "Alan Wilson",
+      "start": 817702,
+      "text": "I mean, I think all of these are targeted at people making charts. But to Gabrielle's point, some focus more on the aesthetic part of the problems and the aesthetic questions, and others focus on the technical questions and implementations and things. And systemize things a bit more.",
+      "id": "ep_170_ut_30"
+    },
+    {
+      "end": 836840,
+      "speaker": "Gabrielle M\u00e9ritte",
+      "start": 836060,
+      "text": "Yes.",
+      "id": "ep_170_ut_31"
+    },
+    {
+      "end": 863072,
+      "speaker": "Moritz Stefaner",
+      "start": 838740,
+      "text": "Yeah. So you can see already it's this muddy, like mess of people, machines, data, audiences. It's an exciting space. And then really think about, okay, how can we abstract principles there recurring rules and not just solve problems once, but more or less for once and all, which is of course the hard, the hard part.",
+      "id": "ep_170_ut_32"
+    },
+    {
+      "end": 899142,
+      "speaker": "Gabrielle M\u00e9ritte",
+      "start": 863176,
+      "text": "It's funny because it reminds me of what Alan was saying about the design system. So at least, just like Alan, I place it at the end to meet what encompasses everything, including style guide, but also design theme, design language, like the actual components and little design elements like templates that you may have created, and I would call it a repository, a repository of institutional knowledge that solves problems that keeps happening. Like that's how I would define it, probably without even putting like what it is inside. It's just a big, big, big repository. And that can, it can be flexible depending on your institution.",
+      "id": "ep_170_ut_33"
+    },
+    {
+      "end": 900530,
+      "speaker": "Moritz Stefaner",
+      "start": 899286,
+      "text": "Yeah, right.",
+      "id": "ep_170_ut_34"
+    },
+    {
+      "end": 937546,
+      "speaker": "Alan Wilson",
+      "start": 900950,
+      "text": "I think another thing worth calling out is that sometimes data visualization is its own thing. There is a Dataviz style guide and it lives up separate from the brand guide and the user interface guidelines and other resources. But more and more we're seeing all three of those things and other things as well come to content guidelines and voice and tone and things coming together in a single place so that they coordinate with one another too, because they all intersect in important ways that we need to account for.",
+      "id": "ep_170_ut_35"
+    },
+    {
+      "end": 969494,
+      "speaker": "Moritz Stefaner",
+      "start": 937658,
+      "text": "Yeah, yeah. So there's a lot of like overlaps with adjacent maybe other design systems like the branding or the UI design, and we need to see how we fit in with all of that. Yeah, absolutely. I guess what's unique to data visualization is often the extra design vocabulary you need, like specific color scales that work have certain functional properties or chart types and all the things we're all familiar with, legends and axes and whatnot.",
+      "id": "ep_170_ut_36"
+    },
+    {
+      "end": 1023270,
+      "speaker": "Alan Wilson",
+      "start": 969662,
+      "text": "Yeah. One of the challenges with writing guidelines for Dataviz that differs from brand guidelines and others is some of the other areas are just self evident and really easy to explain. The guidelines for. And data visualization has its own language and its own set of things. I mean, it intersects with data literacy and some specific domain expertise that you might need to be effective. Often I find myself in writing the guidelines, I'm like, man, I need them also to read these books or I find myself wanting to teach data visualization as a discipline, and then I can give them guidelines on how to best use visualization. And if you don't have that foundation, sometimes the guidelines come up a bit short because they have to be so basic.",
+      "id": "ep_170_ut_37"
+    },
+    {
+      "end": 1025870,
+      "speaker": "Gabrielle M\u00e9ritte",
+      "start": 1024410,
+      "text": "Yes, same problem here.",
+      "id": "ep_170_ut_38"
+    },
+    {
+      "end": 1083540,
+      "speaker": "Moritz Stefaner",
+      "start": 1027290,
+      "text": "Yeah. And maybe that's the first real learning I think we all share, probably like you really need to define really well what the purpose of the whole thing is and what your audience is like. Is it skilled information designers that use it, or should it be implemented in an automated system or should it be for total novices, like a foolproof system? Because that will shape everything in terms of what do we even supply people with and in which forum. Right. And yeah, I think if you skip that step, it's going to fall on your feet really soon. That's my experience. At least, but maybe to make this a bit more concrete, maybe we can talk about some of the projects you've been working on in that space. Maybe that gives people also a bit of idea of, okay, what are the different challenges and the different types of flavors that exist? So Alan, do you want to talk a bit about Adobe spectrum?",
+      "id": "ep_170_ut_39"
+    },
+    {
+      "end": 1150020,
+      "speaker": "Alan Wilson",
+      "start": 1084080,
+      "text": "Sure. Adobe Spectrum is our design system. If you want to take a look at it, you can find it at Spectrum dot adobe.com. and yeah, the first thing I want to point out is that as a whole team, there's a lot of people involved. And so I am a small piece of that whole ecosystem that builds and maintains that. And the design system was about two years before we old before we introduced the Dataviz guidelines. We really struggled to articulate and structure the guidelines in a way that would make sense and be relevant to our users. And we still have a long way to go. I feel like the guidelines right now are pretty basic, but yeah, we have that. And the primary purpose of our guideline is to help people who are building software. So it is used for our.com website and some other things, but the primary focus is for how do we build really good software using that system. Cool.",
+      "id": "ep_170_ut_40"
+    },
+    {
+      "end": 1151740,
+      "speaker": "Moritz Stefaner",
+      "start": 1150180,
+      "text": "Gabrielle, how about you?",
+      "id": "ep_170_ut_41"
+    },
+    {
+      "end": 1242242,
+      "speaker": "Gabrielle M\u00e9ritte",
+      "start": 1151860,
+      "text": "I worked on quite a couple and I can't talk about everything, so I'll talk about the one I'm publicly allowed to. I think the one that's the most public that you can see on the Pentagram website is the Deloitte Insights. It's a guideline and template, so it's not full design systems. And so Deloitte Insight is a magazine. It also has a web platform attached to it. And previously, before I even joined Pentagram, the team with Giorgia Lupi had actually built guidelines for them before editorial datavis, so were more creative applications. So that was used only by information designer that already knew the roles that were pretty comfortable with it. Talking about audience here. And the issue that came back when they came back was that we cannot give those guidelines pretty much to our normal designers. So the team actually use external, a lot of external designers that are around the world with different backgrounds, from different countries, and they produce like hundreds of Dataviz per month that I put, and they're quite fast, so fast turnaround, little supervision. So we were in contact with more of the creative direction marketing database team within the organization, not so much the designers. So we had to create templates and guidelines knowing that we have no contact with the final designer that's going to use them and they are not specialized in information design, not always, at least. And they have a high turnaround themselves because they're external contractors. So it had to be pretty.",
+      "id": "ep_170_ut_42"
+    },
+    {
+      "end": 1246130,
+      "speaker": "Moritz Stefaner",
+      "start": 1242266,
+      "text": "It's really hard mode. It's like all the hard parameters are switched on, right?",
+      "id": "ep_170_ut_43"
+    },
+    {
+      "end": 1313420,
+      "speaker": "Gabrielle M\u00e9ritte",
+      "start": 1246210,
+      "text": "Yeah, it had to be pretty strict. And also, we were working for both web and print, of course, why not? So just to add a little bit to that. And the law insight covers any themes. So it can be any type of data, whether it's about people, you know, economic, like anything, everything thrown in together in one package. So that's probably one, the one that can talk quite a bit on. And the other one is for a nonprofit organization that I cannot name. They work in the gender equality space. And this one was tricky because we had to do it, and they hadn't produced any work yet. It was made simultaneously to a brand, and so they knew what type of data they were working with from scratch, but they had non produce anything, so we didn't have anything to even review. We had to do from start, and we had to make sure it would be used by designers and non designers for social media PowerPoints, anything possible. So that was another challenge on really sensitive topics, too. So definitely interesting. Different challenges here.",
+      "id": "ep_170_ut_44"
+    },
+    {
+      "end": 1315192,
+      "speaker": "Alan Wilson",
+      "start": 1314840,
+      "text": "Yeah.",
+      "id": "ep_170_ut_45"
+    },
+    {
+      "end": 1364788,
+      "speaker": "Moritz Stefaner",
+      "start": 1315216,
+      "text": "So you can see already it's quite different requirements, and you need to be smart about what you do and how that will play out. So maybe talking about process, then, how do you address this? Do you first build a lot of chart examples in your design team and then say, okay, what are the recurring patterns? What seems to work? What doesn't seem to work? Or do you do it more top down in terms of, okay, we have the following principles, we have the following project constraints and sort of do it very deductive in a sense that, okay, only one solution seems to work anymore. Now that we have defined everything, or is it a mixture? How did you address these? How did you approach these projects? Maybe, Gabby, you can.",
+      "id": "ep_170_ut_46"
+    },
+    {
+      "end": 1408502,
+      "speaker": "Gabrielle M\u00e9ritte",
+      "start": 1364884,
+      "text": "Okay, I'll start. It might be very different because we, even me as an independent or within pentagram, we are external contractors, so we don't have access to everything internally in the organization. That might be quite different than the way Alan works, typically. Um, so the way I like to work is I start with what I call analysis phase, which is just looking at, you know, obviously who, you know, who the organization is, the more classic design brief analysis of, like, who the client is, you know, what do they know? What do they don't know? So if they have Dataviz, it's great because it gives you a great insight on like what has been produced? What type of data do they work with? What are the mistakes they keep making? What are the, you know, problems they keep? You can even have a whole, like almost user research phase. So the idea is first the diagnosis.",
+      "id": "ep_170_ut_47"
+    },
+    {
+      "end": 1409934,
+      "speaker": "Moritz Stefaner",
+      "start": 1408566,
+      "text": "Then the prescription, right?",
+      "id": "ep_170_ut_48"
+    },
+    {
+      "end": 1435500,
+      "speaker": "Gabrielle M\u00e9ritte",
+      "start": 1409982,
+      "text": "Yeah, a little bit. You know, just kind of identifying like existing useful patterns, like things that have worked too and things that not working in the current applications and, you know, who is working with it. It's way harder when we have a project, like I was talking earlier, where we don't have access to those existing applications because there's none. But there's always a base somewhere of like what data are they going to use? You know, where is it going to be published?",
+      "id": "ep_170_ut_49"
+    },
+    {
+      "end": 1436140,
+      "speaker": "Moritz Stefaner",
+      "start": 1435620,
+      "text": "Sure.",
+      "id": "ep_170_ut_50"
+    },
+    {
+      "end": 1452452,
+      "speaker": "Gabrielle M\u00e9ritte",
+      "start": 1436260,
+      "text": "So I like the sciences phase and I'm understanding again, who's going to use the guidelines? And this is the audience of the guidelines. So is it designer or non designer? Because it's not always for a designer, but also who is the final audience of the data visualization. So there's a second layer.",
+      "id": "ep_170_ut_51"
+    },
+    {
+      "end": 1453828,
+      "speaker": "Moritz Stefaner",
+      "start": 1452556,
+      "text": "It's a double hop.",
+      "id": "ep_170_ut_52"
+    },
+    {
+      "end": 1531802,
+      "speaker": "Gabrielle M\u00e9ritte",
+      "start": 1453924,
+      "text": "Yeah, there's a double hop here of like. Okay, like typically if you work for nonprofit, the final probably going to be a public, very uninformed public or on a sensitive topic. So what are the constraint already that I impose on the project? So there's all this analysis phase, and then I guess it's a bit of a mix match. What I like to do is a bit more of like, if it's, it doesn't exist anymore, it's kind of like doing design first and then link that back to the foundation of. I find it difficult to build the foundation first, decide the colors, everything without testing them because you're going to end up changing them. So I tend to, even if the project doesn't include making templates, kind of templatize a little bit, like test out some basic charts or things they use regularly to see if we can start finding patterns and put that back into guidelines. So that's kind of how it works. The only added thing that I do, and then Pentagram does too, is what we call creative direction, which is maybe a little different than a traditional style guide, which we're trying to find. What makes those days evolution stand out. How do we connect them to the, like, the voice of the brand? And so it's not just through like just colors and typefaces, but is there something specific, a specific way of a specific shape you use systematically? So not just basic, like actual design.",
+      "id": "ep_170_ut_53"
+    },
+    {
+      "end": 1536962,
+      "speaker": "Moritz Stefaner",
+      "start": 1531906,
+      "text": "Idea in the sense that there is, there's like a design, is there metaphor.",
+      "id": "ep_170_ut_54"
+    },
+    {
+      "end": 1575442,
+      "speaker": "Gabrielle M\u00e9ritte",
+      "start": 1537026,
+      "text": "That we can use throughout? Is it something that makes extend that? That's just not a design decision, makes it unique. That makes it unique. And so that is a little more on the creative side, that's less common, and that it's even harder to explain in style guides, but it's part of that thinking. And then usually you test that on basic chart and then you test that on editorialized charts, because all kind usually needs editorial charts and not the most basic, you know, the most traditional charts, just to check if it works in conjunction with other organizational systems. Like, does it work in a magazine spread? Does it work in social media format? And then we systemize that and we put that all together in extended guidelines.",
+      "id": "ep_170_ut_55"
+    },
+    {
+      "end": 1595090,
+      "speaker": "Moritz Stefaner",
+      "start": 1575506,
+      "text": "Yeah. But there's an interesting tension because, of course, you and Giorgia, of course, are typically known and booked for a super creative, unique, one of a kind work. Right. And now the expectation is you do that, but also sort of make it repeatable. Right. And so I think there's an interesting tension there.",
+      "id": "ep_170_ut_56"
+    },
+    {
+      "end": 1648378,
+      "speaker": "Gabrielle M\u00e9ritte",
+      "start": 1595710,
+      "text": "It's definitely a challenge. It's actually quite interesting because we end up creating. To me, it's almost like I split the guidelines in two of traditional charts with the most traditional bar charts, bar charts, whatever you need to have, that needs to be made in PowerPoint with that custom design, especially if we have users that are not designers. So PowerPoint, canvas, row, graph, the easy building blocks that can be reproduced and used for anything report. But then we usually have a second section that's for designers and information designer, and that's. And sometimes it can overlap a little bit of, like, it can be very simple things that you can do, like, I don't know, adding a shadow, adding a texture. Photography, how do you use photography? Do you crop it? Do you not crop it? Is it a textured, is it black and white? Is. Does it use a color? So. And this is. So this is something that we add that's almost branding and that adds customization into the guidelines.",
+      "id": "ep_170_ut_57"
+    },
+    {
+      "end": 1664226,
+      "speaker": "Moritz Stefaner",
+      "start": 1648474,
+      "text": "Cool. Yeah, that makes a lot of sense, and it's super interesting. Alan, I could imagine your process is totally different because I don't work in an agency, but it's more this ongoing big ship instead of the little dinghy with the little party on it.",
+      "id": "ep_170_ut_58"
+    },
+    {
+      "end": 1762990,
+      "speaker": "Alan Wilson",
+      "start": 1664258,
+      "text": "Yeah. Earlier in my career, I worked for agency, and we did a lot of brand guides and things of that nature, which certainly informed a lot of the work that I do now. But, yeah, it is different, and I do think there's no one process for this stuff. It really is part of the problem here is figuring out what an organization needs and how you can best deliver that. But for us, and one of the advantages of being an internal team is we can deliver things incrementally. Right? It does, it's not a single deliverable. We can do something and then add to that over time. And so that's the approach that we've taken is, and we try and prioritize the most important, most valuable, the things that are going to have the biggest impact and then keep adding to that. And at some point we'll reach a threshold where, you know, the incremental value isn't worth the incremental cost, be that, you know, actually monetary costs or just cost and complexity, because as your system grows, you can't grow indefinitely or it becomes unusable because it's too big and too complicated. So we're starting to run up against the bounds of what we feel is an appropriate level of complexity. But yeah, we do start with the end in mind. So we'll often produce a lot of example screens and visualizations and UIs and then write the guidelines that would produce those, if that makes sense. So we work backwards retrofit, basically.",
+      "id": "ep_170_ut_59"
+    },
+    {
+      "end": 1768030,
+      "speaker": "Moritz Stefaner",
+      "start": 1763410,
+      "text": "What would have been the rules that would have made these choices that obviously seem to work.",
+      "id": "ep_170_ut_60"
+    },
+    {
+      "end": 1784230,
+      "speaker": "Alan Wilson",
+      "start": 1768450,
+      "text": "Exactly, exactly. I feel like that's a good approach, but at some point you have enough guidelines that you don't have to start with the end and you can just take what's existing and kind of expand it a little and then see what comes out of it.",
+      "id": "ep_170_ut_61"
+    },
+    {
+      "end": 1898880,
+      "speaker": "Moritz Stefaner",
+      "start": 1785330,
+      "text": "Yeah, that's something we also struggled with a lot is like you want to get started somewhere and build stuff and see stuff. Otherwise how could you even progress in the project? You need something visual to work with and to debate. At the same time. You feel like it's such a big system and if we just keep making graphics, it's never be a proper system system. And so when do you introduce these rules? Or do you redo all the example charts you did before? If some design decision changes, like how do you keep it dynamic? Also, one thing I found there is this design tokens approach that I'm super excited about. So if you're a bit technical inclined or you like coding anyways, then I think that's worth looking into because it's a really neat way to store all the basic design decisions in a standardized format. Ideally, if the brand color changes or if the background color changes, it all trickles through your implementations. And there's also the risk that you then keep perfecting that system and it's kind of becomes a little hobby to clean the token structure and rethink about the hierarchies then. But I think that helped me a lot to think about. Okay, what are the building blocks like? We need a background color. Oh, we also need a sort of a shaded background color. Or we need two text colors, or maybe three. Right. And give them names and, and not name them by how they look, but what they do. Oh, it's the high contrast or the low contrast version of it. And that helped me a lot to think about it in a structured way on the basic Lego building block level, and stay flexible in terms of, oh, I think we should change the text color on all charts. You know, that was much easier because we had that system in place.",
+      "id": "ep_170_ut_62"
+    },
+    {
+      "end": 1930810,
+      "speaker": "Gabrielle M\u00e9ritte",
+      "start": 1898960,
+      "text": "So, yeah, that's the benefits of design systems, because I think instead of the ganline constraint versus a design system, and tokens and components and patents help you be more flexible, in my opinion. It's like, it's more, we're giving you the blocks and then you can make it yourself. And here are just a couple rules about big mistakes you could make in, you know, Pentagon. We do a lot of just the rules only. And I think that can be constraining and not flexible for an organization.",
+      "id": "ep_170_ut_63"
+    },
+    {
+      "end": 1976776,
+      "speaker": "Alan Wilson",
+      "start": 1931470,
+      "text": "Yeah. On the flip side, I think it allows that creative work to have greater impact. So if you have to design every chart by hand, you spend a lot of time designing the same thing again and again and again. But if you have a system and you're designing the system and playing with the tokens, the output is scales up really quickly. I mean, it's nearly infinite. Right. You have so many different outputs that can be automated. And so, yeah, it's that flip the other side of it. Right. Is that the creativity that is left to do is more impactful and less menial.",
+      "id": "ep_170_ut_64"
+    },
+    {
+      "end": 2002552,
+      "speaker": "Gabrielle M\u00e9ritte",
+      "start": 1976968,
+      "text": "Yeah, I love that because I think sometimes what you hear is, well, we don't need one because we want to do creative things. But it's the opposite. If you remove the small choices of picking the right font sizes, picking the right font away, then you can spend more time actually looking for creative solution. But you have some blocks that are predefined that makes it way faster and repeatable, obviously. So I tend to agree. I think it actually opens up more flexibility, if anything.",
+      "id": "ep_170_ut_65"
+    },
+    {
+      "end": 2044134,
+      "speaker": "Moritz Stefaner",
+      "start": 2002656,
+      "text": "Yeah, yeah. But it's an ongoing thing. And I think that another big challenge is I think the initial version is easy to build, but the question is, what happens afterwards? How do you make it grow? How does it evolve over time and how do you not have it end up like the German administration that has lots of really good rules that, in isolation make a lot of sense, but it's a bit too many of them overall. And so how do you manage complexity when things grow right, or are even out of your hands at some point? What's the life cycle of the whole thing?",
+      "id": "ep_170_ut_66"
+    },
+    {
+      "end": 2055890,
+      "speaker": "Alan Wilson",
+      "start": 2044312,
+      "text": "Well, my experience is the opposite. I think the first step is the hardest thing. The initial thing is so hard, maybe it's just my nature that I want it to be whole or complete in some way.",
+      "id": "ep_170_ut_67"
+    },
+    {
+      "end": 2057746,
+      "speaker": "Moritz Stefaner",
+      "start": 2055970,
+      "text": "And just right from the beginning.",
+      "id": "ep_170_ut_68"
+    },
+    {
+      "end": 2113060,
+      "speaker": "Alan Wilson",
+      "start": 2057858,
+      "text": "Exactly. I have that kind of perfectionist mentality. I don't want to put something out there until it's ready, and I really am confident in it. And so my experience is that part is the difficult part. But once you do have something out there, then delivering incremental value is a lot of easier because you have a good feedback loop. Right. You know what people are using. You know what they like. You're hearing feedback. I mean, designers have feedback, right. They. They'll tell you what is and isn't working for them, and you can spend time with them to get into the why. And then for me, the. The rest of the process is more natural. It's a lot more service oriented, where you're like, oh, okay, well, this isn't working, so let's focus on fixing it, or, this doesn't exist yet, so let's create that thing. And it's really just how many people need that. And that can be a little more harder to determine. But you're just trying to measure impact.",
+      "id": "ep_170_ut_69"
+    },
+    {
+      "end": 2151452,
+      "speaker": "Moritz Stefaner",
+      "start": 2115240,
+      "text": "Gaby and I, we are brought in as external consultants. You are in house. What do you think? What can the roles of external consultants be versus in house folks? I've also met people who said design system. No, we just work with. We don't work with external people on our design system. That doesn't make sense. Right. Because they began in three months and then takes care of the actual work that happens afterwards? Or is there something we can do? I don't know. What's your take on that?",
+      "id": "ep_170_ut_70"
+    },
+    {
+      "end": 2226660,
+      "speaker": "Alan Wilson",
+      "start": 2151596,
+      "text": "Well, at Adobe, we treat spectrum like a product, like any other product. At Adobe, it's a thing that we build. The difference is our user base is almost entirely internal. We do have some external people, vendors and partners and so on that use spectrum, but the primary audience is internal. And so I don't know how you would have a similar model with an agency. Not to say that agencies don't play a role in creating some of the initial work or coming in and helping you audit it or bring new life to it, bring new ideas. Sometimes things can get a little stale internally because you're just kind of recycling the same set of ideas among the same set of people. So fresh perspective can be really useful. I also think it depends on nature, your organization, how big it is. Right. If you are a relatively small startup, you can't spare even a single person to run a design system. That would be ludicrous to consider. And so having someone build something for you that you can just use and maybe touch up every year or so might be a better route to go. Like I said, there's as many solutions as there are problems.",
+      "id": "ep_170_ut_71"
+    },
+    {
+      "end": 2230808,
+      "speaker": "Moritz Stefaner",
+      "start": 2227040,
+      "text": "Yeah, that's true. Gabby, any thoughts on that? Yeah.",
+      "id": "ep_170_ut_72"
+    },
+    {
+      "end": 2313516,
+      "speaker": "Gabrielle M\u00e9ritte",
+      "start": 2230864,
+      "text": "No, you raise a good point, because I found it frustrating as a designer who makes guidelines as a contractor to just, we dropped it to a client and we out of here. Like no feedback matters. There's a scope that's defined. There's a budget that defined. So if the scope was that we don't get feedback on it, we don't get feedback on it even though it works. So it doesn't work. Doesn't matter almost because we get paid. Unfortunately, that's how the business works. I hear you, Alan, and I agree. I think there's a space for it where small organization cannot afford. They don't have the time and the resources to set it up like the initial big phase of doing that work. But I do think that the development and the incremental changes needs to be done internally. Otherwise you're going to end up paying an external agency for everything and they are not as familiar to your organization needs than the organization itself. So I think we like, as an external agency, that we have a value that we bring. Maybe it's at the initial phase, maybe it's at a big review phase, maybe it's just to. Nobody has time. So you let them do kind of the work and then you take over. But, yeah, we cannot, if you're going to maintain it, it has to be done internally. I think. I think, you know, oh, sometimes we can come at consulting to solve issues, but I really think that, you know, our values are definitely limited here. We can't do it all well.",
+      "id": "ep_170_ut_73"
+    },
+    {
+      "end": 2331060,
+      "speaker": "Alan Wilson",
+      "start": 2313548,
+      "text": "And I think that's part of the value of a design system, is it needs to be a living thing, because if it's static, it just doesn't continue to solve problems. You need it to evolve to solve the different problems that you encounter. So.",
+      "id": "ep_170_ut_74"
+    },
+    {
+      "end": 2412340,
+      "speaker": "Moritz Stefaner",
+      "start": 2331220,
+      "text": "Yeah, yeah. And I've been thinking a lot about that too. Like how do we actually make sure people use the things that we designed and keep using it? They say software is either maintained or abandoned, and I feel like the same might happen with design systems. If you don't have somebody internally always pushing for, this is the system we use. It's cool. This is how you use it. You need also these advocates and people who do onboarding with new folks to keep it going and so on. Somehow you need to think about that whole social process around it as well. The other thing I was thinking about, maybe it's good also not to have so much rules, but maybe supply more templates or tools or really easy one click solutions to do something. So think about what's the threshold to even using your design system? If it seems to be a big burden or a big, I need to read this whole book before I can make a single chart, then that immediately might be off putting. And if you're then not there to enforce it, it's like, yeah, we don't care so much about this big rulebook. So, yeah, but then again, you need to know really well what people want to make with it. And maybe that's often not that clear.",
+      "id": "ep_170_ut_75"
+    },
+    {
+      "end": 2437604,
+      "speaker": "Gabrielle M\u00e9ritte",
+      "start": 2413040,
+      "text": "It's interesting to think that external contractors, like me, for instance, are designer and use guidelines. So we are often like the consumer of the product itself. And so I guess the way I see it, I've changed quite a bit of the way. Style guide in agency work is often staggered. Only is a big PDF of 60 pages. PDF, old school, sometimes made for print. So vertical, right?",
+      "id": "ep_170_ut_76"
+    },
+    {
+      "end": 2438004,
+      "speaker": "Alan Wilson",
+      "start": 2437652,
+      "text": "Books.",
+      "id": "ep_170_ut_77"
+    },
+    {
+      "end": 2439400,
+      "speaker": "Moritz Stefaner",
+      "start": 2438092,
+      "text": "Real books. Yeah.",
+      "id": "ep_170_ut_78"
+    },
+    {
+      "end": 2459584,
+      "speaker": "Gabrielle M\u00e9ritte",
+      "start": 2441020,
+      "text": "So it's interesting how you can just come in and be like, I know what I would like. So to your point, I think sometimes we don't have access. At least I didn't have access to the designer that would be using the book, but I was like, here's what I wish I had. So, you know, textile, paragraph, style, made in advance in illustrator, paragraph style, made events in figma.",
+      "id": "ep_170_ut_79"
+    },
+    {
+      "end": 2461448,
+      "speaker": "Moritz Stefaner",
+      "start": 2459632,
+      "text": "If you do template documents, right, just.",
+      "id": "ep_170_ut_80"
+    },
+    {
+      "end": 2520210,
+      "speaker": "Gabrielle M\u00e9ritte",
+      "start": 2461504,
+      "text": "That kind of thing. I don't want to have to copy paste the goddamn hex code anymore. Just things like that. So I think it's interesting how, you know, but sometimes we forget also, like, we do things a certain way. So it's interesting how, like, sometimes having somebody new coming in can help with that, or can look at it being like, I'm not sure this is working for me, because I've also found places where they're like, well, we do use the brand guidelines. We don't really know what we need. So there's a balance in everything of asking the audience, having your own input, and being flexible enough to change how we do things every time. For a new client, for instance, I change it every time. Everything, including the basic charts or the decision charts. I decided what chart to use when it's different for every client, depending on the topic. So it's definitely interesting how the audience can force us to adapt every time, even for just the initial brief. And then I can't imagine internally how that changes.",
+      "id": "ep_170_ut_81"
+    },
+    {
+      "end": 2566904,
+      "speaker": "Alan Wilson",
+      "start": 2520830,
+      "text": "Yeah, I mean, I have a very similar experience. The very first foray I had into this was like a 60 page PDF, exactly as you described. And we printed it out. Actually, everyone loved it because we didn't have anything like that before. And so people like engineers and designers had it at their desk and they'd have it flipped open to pages, but they would be typing in those hex codes and rebuilding the buttons themselves. And so, I mean, it was only a week or two before an engineer was like, can we just get this in git so that I don't have to rebuild all this stuff? And we had designers that are like, where's the, this is, this is how old I am as designer. Like where's the illustrator template for this? Or the Photoshop template for this?",
+      "id": "ep_170_ut_82"
+    },
+    {
+      "end": 2569376,
+      "speaker": "Moritz Stefaner",
+      "start": 2566952,
+      "text": "All the palettes you can download and all that stuff?",
+      "id": "ep_170_ut_83"
+    },
+    {
+      "end": 2573168,
+      "speaker": "Gabrielle M\u00e9ritte",
+      "start": 2569408,
+      "text": "Yeah, I just want an ase file with my Cola palette. Thank you.",
+      "id": "ep_170_ut_84"
+    },
+    {
+      "end": 2629310,
+      "speaker": "Alan Wilson",
+      "start": 2573344,
+      "text": "Exactly. And so we started to create those. And so it slowly evolved from a PDF that people printed and kept on their desk to a website with downloadable resources. And I think it's really important to meet people where they are. There are times when you need to push people into new and different tools to better do their job, but for the most part, they have the tools to do their job and they just need you to provide the resources. And so if your users are in PowerPoint, exactly. If they're in PowerPoint and that's what they're using to build their charts or excel, you've got to provide those Excel and PowerPoint templates. It pains me sometimes to say that, but it's true. And likewise, if they're in r or Tableau, like use the tools that they use, provide the resources in that tools format and that form tools language, and you'll be more successful by far.",
+      "id": "ep_170_ut_85"
+    },
+    {
+      "end": 2675990,
+      "speaker": "Moritz Stefaner",
+      "start": 2629730,
+      "text": "Yeah, yeah, I think that's interesting. And I think that also if you take that super serious means really, you can't be too picky about all the design details, really, like what the spacing is exactly. Or, you know, what type of tricky access configuration you have come up with, but really be more, really clear about. These are our underlying principles and this is what qualities all of our charts should have in terms of accessibility or voice or whatever. But then being really flexible about how that happens and maybe there, as a designer, we need to be a bit more like, the details don't matter that much. It's fine as long as the general direction is good. Or am I being too generous here?",
+      "id": "ep_170_ut_86"
+    },
+    {
+      "end": 2715150,
+      "speaker": "Alan Wilson",
+      "start": 2676110,
+      "text": "No, there's a lot of truth to that. But I feel like one of my roles as a designer is to never give up on the ideal, right? So I always matter. That rounded corner makes a difference, right? It's only a one pixel axie, but just around that corner. And it makes, it just makes it sing, right? And you can get that if they're working in one tool, but in another tool. Like, it just doesn't support that. So there's a reality to what you're saying. But I. I do think we need to advocate for the ideal and then compromise as needed.",
+      "id": "ep_170_ut_87"
+    },
+    {
+      "end": 2731258,
+      "speaker": "Moritz Stefaner",
+      "start": 2715490,
+      "text": "Yeah, I mean, you can have one gold, gold standard implementation. Also, we say, like, this is how it really should look like that's how it's meant, but then maybe be flexible on in a different context. It's fine if it doesn't hit all the.",
+      "id": "ep_170_ut_88"
+    },
+    {
+      "end": 2810064,
+      "speaker": "Gabrielle M\u00e9ritte",
+      "start": 2731394,
+      "text": "I also found it. It's often that the, to me, the, like, pixel clothes, like those precise details are helpful sometimes for specifically non designers or people who are like, not, you know. I think this, because we can't teach them design, we have to give them really precise rules so that they can. They don't have, they don't have the understanding of what, you know, the right spacing in text hierarchy, you know, and so we see it regularly when researchers make PowerPoint right. No offense to researchers out here, we respect you. We used to be there, we know how it feels. But I think sometimes they just don't have the sense, they don't have time to even learn and we don't want to make them designers. So it's more, those rules can also be set up sometimes just to actually help them without having to, like, give them free workshop on how to do Dataviz. It's just like here, is it easy? You just have to follow this exact, you know, guidelines, this exact pixel, this exact branding corner in your software. We give it to you so that you don't have to think about it, really, and to make your job faster. Otherwise, interpretation is nice, especially as designers. We know how to do things so we feel more comfortable taking some freedom into interpretation of the guidelines, but I think for other users, it might be really important to just help with that and just give really precise guidelines. That just makes the work easier.",
+      "id": "ep_170_ut_89"
+    },
+    {
+      "end": 2825516,
+      "speaker": "Moritz Stefaner",
+      "start": 2810152,
+      "text": "Yeah. But then I'm thinking if the exact one to one look really matters, then maybe it's actually better to supply a software that creates the thing as it should look, or a template, because otherwise you end up with really long, super detailed specs.",
+      "id": "ep_170_ut_90"
+    },
+    {
+      "end": 2828364,
+      "speaker": "Gabrielle M\u00e9ritte",
+      "start": 2825588,
+      "text": "I think so. But it's hard to sell to clients sometimes.",
+      "id": "ep_170_ut_91"
+    },
+    {
+      "end": 2830340,
+      "speaker": "Moritz Stefaner",
+      "start": 2828532,
+      "text": "Yeah, yeah. Interesting, right.",
+      "id": "ep_170_ut_92"
+    },
+    {
+      "end": 2847640,
+      "speaker": "Gabrielle M\u00e9ritte",
+      "start": 2830380,
+      "text": "At the agency level, I think that's what I run into is often we get scoped for just the guidelines and no templates, and they might come back six months later and ask for the templates. That happens regularly, but you wish you could sell it and be like, you're gonna need this. Believe me, you're gonna need this and the guidelines.",
+      "id": "ep_170_ut_93"
+    },
+    {
+      "end": 2907720,
+      "speaker": "Moritz Stefaner",
+      "start": 2847990,
+      "text": "Yeah. This is where this initial scoping comes in in terms of, okay, what do you hope to achieve? Who is this for? What are the actual things we should supply because of that. Right? Yeah, yeah. Interesting. And at the same time, the whole tooling landscape is shifting too. Right. It's like, what do you do your charts in? There's a new answer to that every two years. And ideally our stuff should survive a few of these iterations as well, in terms of tooling. And so. So that's a lot of challenges there. I think we need to sort of wrap things up semi soon. I have two more questions. So one is about, are there any caveats, traps, failures, things you wish you would have known before somebody sent you on that impossible journey that you could share with our audience who might be new to the field, like something valuable to avoid a. Or just stuff that happened?",
+      "id": "ep_170_ut_94"
+    },
+    {
+      "end": 2956060,
+      "speaker": "Alan Wilson",
+      "start": 2908300,
+      "text": "Oh, boy. I would say be humble and listen. I remember early on I had just discovered histograms. I'm like, oh, histograms. Okay. And I thought I understood what a histogram was, and I was writing guidelines and explaining to people, and six months later, I realized I was wrong about some fundamental things. It was difficult to eat that crow and fix the wrongs that I had done because people trusted me. Right. I taught them things and I thought I was right, and they thought I was right. And I wish I had just been taking a little more time to educate myself before I had put forth these things.",
+      "id": "ep_170_ut_95"
+    },
+    {
+      "end": 2962740,
+      "speaker": "Moritz Stefaner",
+      "start": 2957320,
+      "text": "So early feedback and really get good people to comment on everything.",
+      "id": "ep_170_ut_96"
+    },
+    {
+      "end": 2966050,
+      "speaker": "Alan Wilson",
+      "start": 2963210,
+      "text": "Yeah, yeah, yeah.",
+      "id": "ep_170_ut_97"
+    },
+    {
+      "end": 3104652,
+      "speaker": "Gabrielle M\u00e9ritte",
+      "start": 2966090,
+      "text": "I like that you said people trust me because to my point, I think especially at contractor, we get a lot of trust and they think we hire us as expert, right? So we tend to be trusted. And, you know, whatever we say, it's gonna be the Bible. And I found it problematic. Not problematic, but I found it. It's a lot of responsibility that we forget get. I think, and I wrote about this recently, but I think especially when we make guidelines that are going to be used potentially by hundreds of people on template, it's. We have such a responsibility to do them properly. So not just for the users, are that they usable, easy to understand, etc. Etc. But I think we need. To me, the big caveat right now, guidelines, is we don't approach like ethics in database and guidelines. We're like, here's the job. This is how you make it. Especially when you're like me and you work with a lot of data, like social data, so bad. People. Of course, I think it's getting more common. Accessibility, some kind of rules. It's becoming more common, but I still see a lot of it that's just like, here's the colors, here's the thing, do whatever you want. And I just, I want to start those conversation with, you know, maybe we shouldn't. The colors matter, but maybe we should also question, like, should guidelines also offer more guidance on when do you actually need to do which database should you be doing? Like, should you actually emphasize differences between social groups, ethnicity, for instance? Like, we have research nowadays that shows that maybe it's a problem to raise awareness this way. And I'm wondering, and I know it's a little further than what designers are. I think we get caught into the detail of design, but at least designers like me who work on guidelines for those big organization that, you know, approaches, like sensitive topics. I'm just wondering if there's a place for us to be more responsible and think twice about the work we do and give guidance on maybe even terminology. How do we use ethnicities text? Can we promote transparency in how data is sourced within the guidelines? I think there's so much more we can do with it that's not just design related. So I guess that's my big statement. I just want designers to be a little more. But to Alan also, space is having.",
+      "id": "ep_170_ut_98"
+    },
+    {
+      "end": 3107652,
+      "speaker": "Moritz Stefaner",
+      "start": 3104756,
+      "text": "Think about more than decoration of numbers, right?",
+      "id": "ep_170_ut_99"
+    },
+    {
+      "end": 3118508,
+      "speaker": "Gabrielle M\u00e9ritte",
+      "start": 3107716,
+      "text": "Yeah. And also have that humility, you know, I think he makes a great point. Like, we are a little bit approaching, like, top down approach. Like, designers say something and we are problem solvers. Yeah.",
+      "id": "ep_170_ut_100"
+    },
+    {
+      "end": 3145000,
+      "speaker": "Moritz Stefaner",
+      "start": 3118524,
+      "text": "And also the hope is with this design system, blah, it's the Bible, you know, it's once and for all this is how you do it, and we all know this is not how it works. You can do it. You know, you can be brilliant at your job and do it for 30 years, and still every project is new, and there's always uncertainties and doubt, and you could always do it this way or that way, and in the end, you just make an informed judgment call. But there's no absolute truth in design. Right. And.",
+      "id": "ep_170_ut_101"
+    },
+    {
+      "end": 3206680,
+      "speaker": "Alan Wilson",
+      "start": 3145160,
+      "text": "Right. So I love that point because I think there's so many decisions that lead up to the final product of a visualization, and a visualization doesn't often acknowledge those things. Right. I think that's one of the most problematic pieces of data visualization is because it's so easy to trust. That's why we see so many problems emerge around dishonest charts and things of that nature. Even the most well intentioned individual is obscuring the actual truth to some extent in an effort to tell a story or to simplify a problem or illustrate a point. So I don't know how to solve that, but, and it goes back to, I guess, what my earlier points about the desire to educate people, not just about styles, but about data literacy and all the overlaps and intricacies of data visualization. I just, I think that's a, that's an important thing. And we. To your point, Gabrielle, we can't lose sight of that.",
+      "id": "ep_170_ut_102"
+    },
+    {
+      "end": 3242272,
+      "speaker": "Gabrielle M\u00e9ritte",
+      "start": 3207860,
+      "text": "Yeah, I don't know how to do that in gala. Yeah, it's definitely an education, maybe, but it is about, I think we tend to focus designer. We're taught for a long time that we are like solution maker, but we should focus on approaches, on something that's flexible, agile, and that gives space to others to give the opinion and take decision, you know, give them the best tool, including educative tool, to make those decisions, rather than just get really strict guidance that might be also found false or harmful in 20 years, because I think we see a lot of that nowadays.",
+      "id": "ep_170_ut_103"
+    },
+    {
+      "end": 3304992,
+      "speaker": "Moritz Stefaner",
+      "start": 3242456,
+      "text": "Yeah, that's a great point. Maybe it's related to my last provocation that I want to throw in here, because maybe I'm just getting old, but I find that a lot of design is really boring these days. Like, web design is super boring. Everything looks the same, like big, round buttons. I feel like there's five templates, and they are just applied all over the whole web. And I think, in a way, it's cool because everything's super easy to use now. No surprises. It's like, cool. I know my way around. On the other hand, I feel like if we streamline everything and everything gets formalized and optimized and templatized and standardized. Where's the fun in that? Don't we sort of abstract away all the interesting, a bit uncomfortable, weird, edgy things if everything becomes formalized and standardized? And are we contributing to that with our design system work? That's something I've been thinking about.",
+      "id": "ep_170_ut_104"
+    },
+    {
+      "end": 3370904,
+      "speaker": "Gabrielle M\u00e9ritte",
+      "start": 3305136,
+      "text": "I have a thought on that. So it's an interesting question because you said, I know my way around, which I think most people do, and the idea of like, we've standardized web design, for instance, it's pretty standardized. I think there's a question of like, it's standardized for who? Because, you know, we even in this conversation, right? I like westerners. You know, you're centric and Americans. And I think we need to ask this question of like, are we, when we do that, when we autumn, like when we automatize things, when we, you know, when we do this thing of standardizing, do we take into account enough people? Is it, is it really, you know, I think we all have, like, this thing of like, this is how design is done. Modernism with like, it needs to be clean and minimal and sans serif. Like why? You know, when you look at design from East Asia, like, it might look very different. And to the eyes of American designer like me, I'd be like, it's messy. It doesn't respect text hierarchy. It's not Helvetica. Well, no, Helvetica doesn't write like indie. Sorry, guys. So it's interesting how, I wonder, I'm not against it. I actually found it, to me, automating.",
+      "id": "ep_170_ut_105"
+    },
+    {
+      "end": 3374800,
+      "speaker": "Moritz Stefaner",
+      "start": 3370992,
+      "text": "But you question if it's actually true or if it's just a slice of.",
+      "id": "ep_170_ut_106"
+    },
+    {
+      "end": 3405038,
+      "speaker": "Gabrielle M\u00e9ritte",
+      "start": 3374840,
+      "text": "Reality or is it for the right thing? When is it used? How is it used for? Who is it used? Is, I think, those questions that I find challenging. Like I want to automate my workflow. I think it's so practical to have those technology figma components. Like, it's so great. I just wonder if we automate, we tend to repeat a certain point of view in design that has been put by a certain type of population and maybe it doesn't apply to everyone. It's not fit for every audience.",
+      "id": "ep_170_ut_107"
+    },
+    {
+      "end": 3502594,
+      "speaker": "Alan Wilson",
+      "start": 3405214,
+      "text": "Yeah, I agree with that. I think that. I like that. I think my take on it is that sometimes it's an enabler. Right? We've talked about that a little bit already. By systemizing design, it enables you to design a lot of things at once. And that's really cool. And I think that's really powerful. And typically, the kind of design you're enabling is, to your point, more. It's pretty expected and not terribly exciting, but it works and it's usable. But that's not to say you couldn't build a system that is just wild and crazy and super creative. So I think I'm really excited for the next ten years because I think not only are the tools that we use to do this work going to continue to evolve and change and there's going to be new ones and things, I think the work that comes out of those tools is going to be better too. I think one of the challenges to being creative isn't necessarily the systemization, it's the feedback loop. Right. Right. Now I author my system over here and then I see the results over here and it's very difficult to kind of connect all those dots. And I think software is going to get better and better, providing creative feedback loops for all types of design. Not just the kind of traditional print and web design that we've done up until now, but the more system level.",
+      "id": "ep_170_ut_108"
+    },
+    {
+      "end": 3513544,
+      "speaker": "Moritz Stefaner",
+      "start": 3502642,
+      "text": "Design tools that can generate a hundreds of variations of something and then you pick and curate and combine. That's a new thing, right?",
+      "id": "ep_170_ut_109"
+    },
+    {
+      "end": 3539220,
+      "speaker": "Gabrielle M\u00e9ritte",
+      "start": 3513592,
+      "text": "Yeah, exactly. I think the idea of creating, like, I love. I'm obsessed with the art. I think it's going to change how we approach things. I think it's a tool, it's just a tool, so we need to use it as a tool. And it's not a finality, it's not just you run it and then you just dump it and that's done. And if we involve human beings in it and we still have a customization of it, you know, and we curate the result, then it seems like the right approach to.",
+      "id": "ep_170_ut_110"
+    },
+    {
+      "end": 3568380,
+      "speaker": "Moritz Stefaner",
+      "start": 3539300,
+      "text": "Yeah, yeah. And maybe Lego is a good metaphor in a sense that it's super standardized. Like Lego is the most standardized tool you could think of, or a toy you can think of. Right. Actually, each block is super boring, but you can build anything out of it. It's like endless fun. Right. And so maybe. Yeah. Thinking about more like, oh, it's building blocks, it's something you can play with and build stuff out of is a better thought than it's a book of laws. You have to abide to it.",
+      "id": "ep_170_ut_111"
+    },
+    {
+      "end": 3569672,
+      "speaker": "Alan Wilson",
+      "start": 3569040,
+      "text": "Yeah.",
+      "id": "ep_170_ut_112"
+    },
+    {
+      "end": 3600920,
+      "speaker": "Gabrielle M\u00e9ritte",
+      "start": 3569776,
+      "text": "It might also help with gatekeeping in a way. Like, I wonder how much, when I'm seeing AI, my journey, like, how much of people who are creative but never got the chance to be educated have the time to learn Photoshop can produce art. You know, there's so much obviously, it's a little further away from a discussion, but automation and all those tools that are going to make our work practical is also going to allow more people to join the community of design. Like designer is going to take a bigger umbrella. Maybe we'll have more people with different opinion and different background.",
+      "id": "ep_170_ut_113"
+    },
+    {
+      "end": 3617660,
+      "speaker": "Moritz Stefaner",
+      "start": 3601500,
+      "text": "It's a good point. So the more people we bring in, immediately we have more diversity because there's more viewpoints represented. Yeah, I'm thinking about AI plus design systems. That's such a combination, right? If you had in Figma, like you have your little.",
+      "id": "ep_170_ut_114"
+    },
+    {
+      "end": 3625254,
+      "speaker": "Gabrielle M\u00e9ritte",
+      "start": 3617740,
+      "text": "I've seen some, some people are working on some definitely coming. I'm like, if I don't have to do the components by hand anymore, it'd be great.",
+      "id": "ep_170_ut_115"
+    },
+    {
+      "end": 3706922,
+      "speaker": "Moritz Stefaner",
+      "start": 3625422,
+      "text": "That would be kind of nice. Just write a little text, make all the variants we need, you know, and here we go. Yeah, no, but if you could also, like teach, as you said, a design idea or like a principle or like a certain approach, and then just see a hundred variations of that, I think that's, that's exciting. Yeah. Cool. So I'm glad that the positive spin to a slight doubt at the end, but I think there is an interesting tension there. And it's what I also want to keep exploring, like how can we make work that lasts and is really professional and solves people's problems, but also still keep things exciting and inspiring and provoking also sometimes, right. That's the eternal design tension that we all have to deal with. Wonderful. I think that was a great conversation. I hope we didn't confuse you all with our design system nerd talk. We'll put a few links in the show notes to the examples we discussed, a few resources, and yeah, maybe we can do a follow up episode on AI plus design systems now that we are all excited. Excited about. Yeah. In the meantime, thanks for joining me and see you soon.",
+      "id": "ep_170_ut_116"
+    },
+    {
+      "end": 3707674,
+      "speaker": "Gabrielle M\u00e9ritte",
+      "start": 3706986,
+      "text": "Thank you, Moritz.",
+      "id": "ep_170_ut_117"
+    },
+    {
+      "end": 3734812,
+      "speaker": "Moritz Stefaner",
+      "start": 3707722,
+      "text": "Bye bye. Hey, folks, thanks for listening to data stories again. Before you leave, a few last notes. This show is crowdfunded and you can support us on patreon@patreon.com Datastories, where we publish monthly previews of upcoming episodes for our supporters. Or you can also send us a one time donation via PayPal at PayPal Me Datastories.",
+      "id": "ep_170_ut_118"
+    },
+    {
+      "end": 3763438,
+      "speaker": "Enrico Bertini",
+      "start": 3734996,
+      "text": "Or as a free way to support the show. If you can spend a couple of minutes rating us on iTunes, that would be very helpful as well. And here's some information on the many ways you can get news directly from us. We are on Twitter, Facebook and Instagram, so follow us there for the latest updates. We have also as like channel where you can chat with us directly. And to sign up, go to our homepage at Datastory Es and there you'll find a button at the bottom of the page.",
+      "id": "ep_170_ut_119"
+    },
+    {
+      "end": 3771454,
+      "speaker": "Moritz Stefaner",
+      "start": 3763574,
+      "text": "And there you can also subscribe to our email newsletter if you want to get news directly into your inbox and be notified whenever we publish a new episode.",
+      "id": "ep_170_ut_120"
+    },
+    {
+      "end": 3784118,
+      "speaker": "Enrico Bertini",
+      "start": 3771542,
+      "text": "That's right, and we love to get in touch with our listeners. So let us know if you want to suggest a way to improve the show or know any amount people you want us to invite or even have any project you want us to talk about.",
+      "id": "ep_170_ut_121"
+    },
+    {
+      "end": 3790766,
+      "speaker": "Moritz Stefaner",
+      "start": 3784254,
+      "text": "Yeah, absolutely. Don't hesitate to get in touch. Just send us an email at mailatastory es.",
+      "id": "ep_170_ut_122"
+    },
+    {
+      "end": 3794590,
+      "speaker": "Enrico Bertini",
+      "start": 3790918,
+      "text": "That's all for now. See you next time, and thanks for listening to data stories.",
+      "id": "ep_170_ut_123"
+    }
+  ],
+  "confidence": 0.922101785913393,
+  "audio_duration": 3805,
+  "punctuate": true,
+  "format_text": true,
+  "dual_channel": false,
+  "webhook_url": null,
+  "webhook_status_code": null,
+  "webhook_auth": false,
+  "webhook_auth_header_name": null,
+  "speed_boost": false,
+  "auto_highlights_result": null,
+  "auto_highlights": false,
+  "audio_start_from": null,
+  "audio_end_at": null,
+  "word_boost": [],
+  "boost_param": null,
+  "filter_profanity": false,
+  "redact_pii": false,
+  "redact_pii_audio": false,
+  "redact_pii_audio_quality": null,
+  "redact_pii_policies": null,
+  "redact_pii_sub": null,
+  "speaker_labels": true,
+  "content_safety": false,
+  "iab_categories": true,
+  "content_safety_labels": {
+    "status": "unavailable",
+    "results": [],
+    "summary": {}
+  },
+  "language_detection": false,
+  "language_detection_threshold": null,
+  "language_confidence": null,
+  "custom_spelling": null,
+  "throttled": false,
+  "auto_chapters": true,
+  "summarization": false,
+  "summary_type": null,
+  "summary_model": null,
+  "custom_topics": false,
+  "topics": [],
+  "speech_threshold": null,
+  "speech_model": "best",
+  "chapters": [
+    {
+      "summary": "On this podcast, we talk about data, data visualization, data analysis, and generally the role data plays in our lives. The topic today is data design themes, design systems, style guides, guidelines, design languages. Our podcast is listener supported, so if you enjoy the show, you might consider supporting us.",
+      "gist": "Data Stories",
+      "headline": "Our podcast is listener supported, so any contribution is super appreciated",
+      "start": 320,
+      "end": 137996,
+      "id": "ep_170_ch_0"
+    },
+    {
+      "summary": "Our guests today are Gabrielle M\u00e9ritte and Alan Moritz. Gabrielle is a senior de Davis designer at Pentagram and the team of Giorgia Lubich. Alan is a freelance writer and producer. Let's dive right in.",
+      "gist": "Guests",
+      "headline": "Our guests today are Gabrielle and Alan Merit",
+      "start": 138148,
+      "end": 190738,
+      "id": "ep_170_ch_1"
+    },
+    {
+      "summary": "Alan Wilson: I'm a principal designer at Adobe, where I work primarily on the experience cloud. Alan: There's so much happening in this space, and it's also really hard to orient yourself. And everybody needs to figure out what they are doing in that space.",
+      "gist": "The Future of Design Systems",
+      "headline": "Alan Wilson is a principal designer at Adobe where he works on experience cloud",
+      "start": 190914,
+      "end": 298238,
+      "id": "ep_170_ch_2"
+    },
+    {
+      "summary": "The main value is answering questions. People need standards to communicate in a unified way. The idea of being able to produce something that is recognized by an audience is important. Dataviz is emerging more and more in the style guide space because people are using it more.",
+      "gist": "What's the Goal of a Design Style Guide?",
+      "headline": "What do you hope to achieve when designing a style guide or guidelines",
+      "start": 298294,
+      "end": 725994,
+      "id": "ep_170_ch_3"
+    },
+    {
+      "summary": "Is there a difference between guidelines and style guides? Sometimes data visualization is its own thing. Part cannot be automated or implemented well in software. Often I find myself wanting to teach data visualization as a discipline.",
+      "gist": "What is a guideline and style guide? (",
+      "headline": "Is there a difference between guidelines and style guides for data visualization",
+      "start": 726162,
+      "end": 1083540,
+      "id": "ep_170_ch_4"
+    },
+    {
+      "summary": "Adobe Spectrum is our design system. The primary purpose of our guideline is to help people who are building software. We really struggled to articulate and structure the guidelines in a way that would make sense and be relevant to our users. We still have a long way to go.",
+      "gist": "The Dataviz Guidelines",
+      "headline": "Adobe Spectrum is our design system",
+      "start": 1084080,
+      "end": 1148960,
+      "id": "ep_170_ch_5"
+    },
+    {
+      "summary": "Pentagram's Deloitte Insights is a guideline and template for external designers. It can be any type of data, whether it's about people, economic, like anything. One challenge was working for both web and print, on sensitive topics.",
+      "gist": "Working on the Deloitte Insights and Dataviz",
+      "headline": "Pentagram worked on several interesting projects involving sensitive data",
+      "start": 1149260,
+      "end": 1324276,
+      "id": "ep_170_ch_6"
+    },
+    {
+      "summary": "The way I like to work is I start with what I call analysis phase. The idea is first the diagnosis, then the prescription, right? The only added thing that I do is what we call creative direction. How do we connect them to the voice of the brand?",
+      "gist": "The Process of Data Visualization",
+      "headline": "How do you approach data visualization projects from a design perspective",
+      "start": 1324308,
+      "end": 1652210,
+      "id": "ep_170_ch_7"
+    },
+    {
+      "summary": "Alan, I do think there's no one process for this stuff. For us, and one of the advantages of being an internal team is we can deliver things incrementally. Also, one thing I found there is this design tokens approach that I'm super excited about.",
+      "gist": "How to Design a Design System",
+      "headline": "Alan: There's no one process for designing complex systems",
+      "start": 1652330,
+      "end": 2113060,
+      "id": "ep_170_ch_8"
+    },
+    {
+      "summary": "At Adobe, we treat spectrum like a product, like any other product. The difference is our user base is almost entirely internal. If you're going to maintain it, it has to be done internally. Small organizations cannot afford to run a design system.",
+      "gist": "Should an In-House Design System be Included?",
+      "headline": "Alan: I've met people who say design system should be done internally",
+      "start": 2115240,
+      "end": 2462144,
+      "id": "ep_170_ch_9"
+    },
+    {
+      "summary": "There's a balance in everything of asking the audience, having your own input, and being flexible enough to change how we do things every time. It's really important to meet people where they are. There are times when you need to push people into new and different tools. But I advocate for compromise as needed.",
+      "gist": "The Design Process: Being Flexible",
+      "headline": "There's a balance between asking the audience and having your own input",
+      "start": 2462192,
+      "end": 2885094,
+      "id": "ep_170_ch_10"
+    },
+    {
+      "summary": "Alan: Are there any caveats, traps, failures, things you wish you would have known before somebody sent you on that impossible journey? Alan: The big caveat right now, guidelines, is we don't approach like ethics in database and guidelines. There's so much more we can do with it that's not just design related.",
+      "gist": "The Design Process: Lessons Learned",
+      "headline": "I have two more questions. So one is about, are there any caveats, traps, failures",
+      "start": 2885142,
+      "end": 3244368,
+      "id": "ep_170_ch_11"
+    },
+    {
+      "summary": "A lot of design is really boring these days. Where's the fun in that if everything becomes formalized and standardized? Sometimes it's an enabler. By systemizing design, it enables you to design a lot of things at once. I'm really excited for the next ten years.",
+      "gist": "Does Systemization Make Design Boring?",
+      "headline": "I find a lot of web design is really boring these days",
+      "start": 3244464,
+      "end": 3600920,
+      "id": "ep_170_ch_12"
+    },
+    {
+      "summary": "Moritz: I'm thinking about AI plus design systems. That's such a combination. How can we make work that lasts and is really professional and solves people's problems, but also keep things exciting and inspiring and provoking also sometimes? That's the eternal design tension.",
+      "gist": "AI + Design Systems",
+      "headline": "Moritz: I'm thinking about AI plus design systems",
+      "start": 3601500,
+      "end": 3708510,
+      "id": "ep_170_ch_13"
+    },
+    {
+      "summary": "This show is crowdfunded and you can support us on patreon@patreon. com Datastories. We are on Twitter, Facebook and Instagram, so follow us there for the latest updates. Let us know if you want to suggest a way to improve the show.",
+      "gist": "Data Stories",
+      "headline": "This show is crowdfunded and you can support us on patreon",
+      "start": 3712970,
+      "end": 3794590,
+      "id": "ep_170_ch_14"
+    }
+  ],
+  "disfluencies": false,
+  "entity_detection": false,
+  "sentiment_analysis": false,
+  "sentiment_analysis_results": null,
+  "entities": null,
+  "speakers_expected": null,
+  "summary": null,
+  "custom_topics_results": null,
+  "episode_num": 170,
+  "episode_metadata": {
+    "speakers": [
+      "Gabrielle M\u00e9ritte",
+      "Moritz Stefaner",
+      "Alan Wilson",
+      "Enrico Bertini"
+    ],
+    "WPid": "1683",
+    "url": "https://datastori.es/podlove/file/7033/s/feed/c/mp3/170-formalizing-design-with-gabrielle-merite-and-alan-wilson.mp3",
+    "episode_title": "Formalizing Design with Gabrielle M\u00e9rite and Alan Wilson"
+  }
+}

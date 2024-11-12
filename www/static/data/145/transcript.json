@@ -1,0 +1,1052 @@
+{
+  "id": "8b46adf8-588b-4cdc-b97e-5d5298897582",
+  "language_model": "assemblyai_default",
+  "acoustic_model": "assemblyai_default",
+  "language_code": "en_us",
+  "status": "completed",
+  "audio_url": "https://datastori.es/podlove/file/5671/s/feed/c/mp3/145-ft-data-crunch-with-federica-cocco-and-john-burn-murdoch.mp3",
+  "utterances": [
+    {
+      "end": 13970,
+      "speaker": "Federica Cocco",
+      "start": 160,
+      "text": "That's certainly something that I'm really, really keen to eliminate from the narrative about numbers, that they're scary, that they're complex, and that not anyone can understand them. I do genuinely believe that anyone can, as long as they're passionate enough.",
+      "id": "ep_145_ut_0"
+    },
+    {
+      "end": 44170,
+      "speaker": "Moritz Stefaner",
+      "start": 33450,
+      "text": "Hi, everyone. Welcome to a new episode of Data stories. My name is Enrico Bertini, and I am a professor at NYU in New York City, where I teach and do research in data visualization.",
+      "id": "ep_145_ut_1"
+    },
+    {
+      "end": 55650,
+      "speaker": "Enrico Bertini",
+      "start": 44330,
+      "text": "Yeah, and I'm Moritz Stefaner, and I'm an independent designer of data visualizations. In fact, I work as a self employed truth and beauty operator out of my office here in the countryside in the north of Germany.",
+      "id": "ep_145_ut_2"
+    },
+    {
+      "end": 66958,
+      "speaker": "Moritz Stefaner",
+      "start": 55810,
+      "text": "Yes. And on this podcast, we talk about data visualization, analysis, and more generally the role data plays in our lives. And usually we do that together with a guest we invite on the show.",
+      "id": "ep_145_ut_3"
+    },
+    {
+      "end": 101270,
+      "speaker": "Enrico Bertini",
+      "start": 67094,
+      "text": "Today, we actually have two guests, but before we start, just a quick note. Our podcast is listener supported, so there are no ads. That also means if you do enjoy the show, please consider supporting us. You can do this with either recurring payments on patreon.com Datastories, or you can also send us a one time donation on PayPal me Datastories. If you don't have any money to spare, you can also just help us with promoting the show. Give us a rating on iTunes, or send out a nice tweet that's just as good, or sometimes even better than a money donation.",
+      "id": "ep_145_ut_4"
+    },
+    {
+      "end": 111890,
+      "speaker": "Moritz Stefaner",
+      "start": 102930,
+      "text": "Exactly. And I just want to thank all those of you that are already supporting us. Thank you very much. This show is going on thanks to your donations.",
+      "id": "ep_145_ut_5"
+    },
+    {
+      "end": 112858,
+      "speaker": "John Burn-Murdoch",
+      "start": 112050,
+      "text": "Totally agree.",
+      "id": "ep_145_ut_6"
+    },
+    {
+      "end": 141854,
+      "speaker": "Moritz Stefaner",
+      "start": 112954,
+      "text": "So let's get started with the topic of today. So today, as Moritz said, we have not one, but two guests, and we are talking about a very interesting new data visualization, or data analysis and communication series from Financial Times. And it's called Data Crunch, and it's a very, very interesting series. We're going to talk about it in a moment. And to talk about it, we have Federica Cocco and John Burn-Murdoch. Welcome, Federica and John on the show.",
+      "id": "ep_145_ut_7"
+    },
+    {
+      "end": 142446,
+      "speaker": "Federica Cocco",
+      "start": 141942,
+      "text": "Hello.",
+      "id": "ep_145_ut_8"
+    },
+    {
+      "end": 143526,
+      "speaker": "John Burn-Murdoch",
+      "start": 142558,
+      "text": "Hey. Thanks for having us.",
+      "id": "ep_145_ut_9"
+    },
+    {
+      "end": 155988,
+      "speaker": "Moritz Stefaner",
+      "start": 143598,
+      "text": "So we typically start the show with our guests introducing themselves. So can you briefly give us a little bit of a background? What are your interests and maybe even your current position at Financial Times?",
+      "id": "ep_145_ut_10"
+    },
+    {
+      "end": 182752,
+      "speaker": "John Burn-Murdoch",
+      "start": 156174,
+      "text": "Yeah, so I'm John, and I'm a senior data journalist at the FT. So I work as part of a big team, including data journalists, statistics journalists, graphics, interactive, all of these kind of things, developers, analysts, designers, reporters, and. Yeah, so crunched is one of the things I'm involved in at the moment as well as just doing lots of data driven reporting and stories and graphics and.",
+      "id": "ep_145_ut_11"
+    },
+    {
+      "end": 215164,
+      "speaker": "Federica Cocco",
+      "start": 182816,
+      "text": "My name is Federica, I'm a statistics journalist. I started working at theft three and a half years ago ago. I started out my career as a fact checker. Then I became a reporter. I worked for the Daily Mirror and the Times. And over time I just got a bit frustrated with how, after working as a fact checker, how news organizations treated numbers and statistics, and I felt like they weren't taking them that seriously. And so when I joined theft, I just felt like I found the right place for me. And here I get to geek out as much as possible in statistics.",
+      "id": "ep_145_ut_12"
+    },
+    {
+      "end": 235210,
+      "speaker": "Enrico Bertini",
+      "start": 215252,
+      "text": "Nice. Very good. Yeah. And do you have a lot of like, great data journalism coming out offt? And the one format that caught our eye, that we wanted our ear as well, that we want to talk about today, is the crunch series. So can you tell us a bit about what that is and how you came up with the idea and how it works?",
+      "id": "ep_145_ut_13"
+    },
+    {
+      "end": 296990,
+      "speaker": "Federica Cocco",
+      "start": 235510,
+      "text": "So crunched is a series of short videos where we address topics that are newsworthy. We try to explain them. So they're in sort of an explainer format and we also fact check maybe controversial sides of them. So, for example, we've done videos on abortion, on inequality, on poverty, just addressing the issues behind statistics, how you define the numbers, and helping readers to understand how the fact checking process works. But because quite often when people hear about charts and numbers, the general population is maybe sometimes a bit scared of them. So we try and make it fun and engaging and very colloquial and conversational. We quite often use props. We've done data visualizations with Haribos or a Cork globe or these number blocks that I used to use in elementary school in Italy. So we try to be creative with it.",
+      "id": "ep_145_ut_14"
+    },
+    {
+      "end": 364630,
+      "speaker": "John Burn-Murdoch",
+      "start": 297110,
+      "text": "Yeah, I mean, well, I think this sort of blends in with one of the other questions we were going to discuss here as well about the impetus behind the series. And I think one thing we should mention here as well, this is very much a collaboration between us on the data team and the video team itself. So Juliet Riddell on the FT's video team was one of the, well, she was probably the initial spark, actually, who suggested that Federica and I work on something like this. And each of these episodes involves three or four people from the video team, of course, doing all the direction and recording as well. I think then, yeah, in terms of other, other sort of reasons for doing this, we're both as well, along with a lot of people at theft, big fans of the way that people like Hans Rosling have done data visualization in the past in terms of really thinking about it as fundamentally trying to reach and engage with people rather than this sort of publication on one side, reader on the other side, and nothing in between. So really trying to think about how to actually bring people in, make this stuff more accessible, start conversations, that kind of thing.",
+      "id": "ep_145_ut_15"
+    },
+    {
+      "end": 374058,
+      "speaker": "Federica Cocco",
+      "start": 365170,
+      "text": "So, yeah, Mona Chalabi from the Guardian is another big inspiration of ours as somebody who can communicate numbers in a really fun and engaging way.",
+      "id": "ep_145_ut_16"
+    },
+    {
+      "end": 387350,
+      "speaker": "John Burn-Murdoch",
+      "start": 374194,
+      "text": "Yeah. And again, I think Mona was a big inspiration in particular for our decision to try and draw these charts by hand rather than just presenting sort of pre prepared, you know, digitally designed and printed, printed charts.",
+      "id": "ep_145_ut_17"
+    },
+    {
+      "end": 457550,
+      "speaker": "Federica Cocco",
+      "start": 387650,
+      "text": "And another reason for us starting this series is that theft is trying to attract younger audiences. And so, for example, there was a focus group years ago that asked readers how they pictured theft if theft were, if the financial times were to be a human being. And a lot of readers, particularly, or a lot of people in this focus group, particularly women, said they imagined a man in a suit that had their back turned to them. And so really, there's a lot of efforts to try and, and redesign that image rebrand, because a lot of people who work at the FT are like us. They're very young, they're very geeky, very enthusiastic. We have a lot of fun together in the office. And so we were trying to show that as well. And to do that, I mean, John and I work on stories that range from politics to markets to corporate news stories. And these things, as I said, to the general population, they might be very dry, but they can be really, really interesting once you get into it.",
+      "id": "ep_145_ut_18"
+    },
+    {
+      "end": 458150,
+      "speaker": "Moritz Stefaner",
+      "start": 457710,
+      "text": "Sure.",
+      "id": "ep_145_ut_19"
+    },
+    {
+      "end": 498886,
+      "speaker": "John Burn-Murdoch",
+      "start": 458230,
+      "text": "Yeah, absolutely. And I mean, certainly for my part of trying to change that stereotype, I've not been wearing a suit in any of these videos yet. So trying to make that clear. But again, I think my way of thinking about this is I want us, and we're all on the same page with this. We want to produce something which if. If someone stumbles upon one of these videos on YouTube, they weren't looking for it, they just get recommended it. Next, we want to produce something where they sit there and they give us a chance. They don't immediately think, oh, what's this boring old financial ft thing? They actually think, oh, what's this? Let's have a look. So we're just trying to make something which feels a bit more native to that younger generation.",
+      "id": "ep_145_ut_20"
+    },
+    {
+      "end": 551452,
+      "speaker": "Moritz Stefaner",
+      "start": 499078,
+      "text": "Yeah. I think what really surprised me, I think it's interesting that you've been mentioning a number of people whose work influenced your work, but I still see a couple of really interesting innovations in the way you create these videos. So the first one that caught my eyes is this idea that you're actually drawing in real time, the actual graphs. Right. I've never seen anybody do that. I think it's really, really interesting. And by the way, one question I have for you later on is, how do you do that? What really works? What works really, really well is that you have two people on the screen and it's a very nice and casual conversation, but it's not trivial at the same time. Right? So I see these two elements as very innovative. I like it a lot.",
+      "id": "ep_145_ut_21"
+    },
+    {
+      "end": 605280,
+      "speaker": "Federica Cocco",
+      "start": 551556,
+      "text": "I guess it's a bit like the conversations that we might have at a pub generally, that's a sort of impetus. I mean, when you become a journalist, the first thing that they tell you is this is how you decide if a story is good and how you communicate it. Imagine you're at the pub with your grandmother, or imagine you are talking to your aunt and she's driving away. What's the first thing that you tell her just before she drives away? So we thought about that and we thought about the conversations at the pub, and they sort of very faithfully reflect that. Quite often, you know, we'll have debates about politics. So by turning them into videos and thinking about our audience and people who might want to listen to us, there's also that extra element of having people commenting on the videos and us being able to interact them. And if they have any questions on the data, then we can answer them. So there's an extra interactive element.",
+      "id": "ep_145_ut_22"
+    },
+    {
+      "end": 658472,
+      "speaker": "John Burn-Murdoch",
+      "start": 606100,
+      "text": "Yeah, I think it's perhaps not surprising that as journalists, a lot of our ways of thinking about things involve the pub. But it is remarkable how it's the same thing when we've covered elections in the past, I'll always be thinking, okay, what are the half dozen things here? That would be a great talking point when you're with your mates in the pub, in the bar, because it's that idea that, first of all, I think when you think about it in that context, you're immediately thinking about making something fun, interesting, engaging. You know, no one wants to be the person who says, oh, what about such and such? And everyone just turns the other way and switches off. So when you imagine someone sitting across from you, I think it really helps. And then, yeah, you also want to make it, like we say, not light hearted in terms of not taking the issue seriously, but just a bit more engaging so that someone feels that this is a conversation they can almost be part of, rather than just being talked at.",
+      "id": "ep_145_ut_23"
+    },
+    {
+      "end": 707216,
+      "speaker": "Federica Cocco",
+      "start": 658586,
+      "text": "And as you said, without being condescending. I mean, a big inspiration for me was I worked for a couple of years at a tabloid, and tabloids get really bad raps, but actually they're incredibly good at communicating new stories to sort of anyone. And that was really, really important for my formation as a journalist, to work there and to know how to write something, to make it simple, without being condescending, without being haughty, without thinking that I'm better than anyone else for understanding something. That's certainly something that I really, really keen to eliminate from. Not that it's a problem in data journalism, but just sort of eliminate from the narrative about numbers that they're scary, that they're complex and that not anyone can understand them. I do genuinely believe that anyone can, as long as they're passionate enough.",
+      "id": "ep_145_ut_24"
+    },
+    {
+      "end": 750974,
+      "speaker": "John Burn-Murdoch",
+      "start": 707408,
+      "text": "Yeah. And I think, again, just to add one more thing on that point, that distinction between condescension and making something more accessible, I think is really important. I know there was a. Some conversation between a few data visualization practitioners on Twitter recently where I can't remember who it was. Someone was saying that the idea of talking to a broad audience was, for them, essentially code for saying we should dumb something down. But that's absolutely not the way we approach this. And again, it's not the way a lot of tabloids approach this. It's about thinking, I want to put something out here, and it's not going to matter whether you are a postgraduate or whether you left school at age 16. You're going to be able to see what we're talking about and understand it. So I think that's really the aim here.",
+      "id": "ep_145_ut_25"
+    },
+    {
+      "end": 778130,
+      "speaker": "Federica Cocco",
+      "start": 751022,
+      "text": "And also, this is something that concerns you, which is something that is very important to our work as journalists. This is, you know, everyone, news stories about economics, about finance, about markets, about economic metrics like poverty and inequality, or about abortion. They concern everyone. And so it's. If we don't make something understandable, if people turn the other way, it's on us. It's not on them. It's our fault.",
+      "id": "ep_145_ut_26"
+    },
+    {
+      "end": 778754,
+      "speaker": "Enrico Bertini",
+      "start": 778170,
+      "text": "Yeah.",
+      "id": "ep_145_ut_27"
+    },
+    {
+      "end": 780130,
+      "speaker": "John Burn-Murdoch",
+      "start": 778922,
+      "text": "Yeah, absolutely.",
+      "id": "ep_145_ut_28"
+    },
+    {
+      "end": 817630,
+      "speaker": "Enrico Bertini",
+      "start": 780250,
+      "text": "Yeah. I think that's a great gap you're filling there, and I think you're doing it really well. So can we learn a bit about the process or what's happening behind the scenes, especially, like, how do you get. You mentioned this sort of easygoing conversation, and you're very, like, you're a good team and, like, playing the ball to each other all the time. Do you prepare? Is it like scripted dialogue? Do you know exactly what you're talking about? Or do you just. Just talking and you keep the best bits, or how do you end up with these episodes? I'm curious because I have a podcast to run as well, so I appreciate.",
+      "id": "ep_145_ut_29"
+    },
+    {
+      "end": 841610,
+      "speaker": "John Burn-Murdoch",
+      "start": 817670,
+      "text": "Any help, as you can tell so far. Like, Federica and I, you know, we really just. We don't like each other at all. We never speak. The nice thing is, yeah, it is quite natural, I think. And like we've said, like Federica said, we're trying to just create that natural flow. So you ask about script, and we don't tend to write word for word, we're going to say, but it'll be more like bullet points.",
+      "id": "ep_145_ut_30"
+    },
+    {
+      "end": 848002,
+      "speaker": "Federica Cocco",
+      "start": 841730,
+      "text": "Yeah. I think the few times that we tried to script it, we sounded really wooden. So Juliet was like, no, don't do that anymore.",
+      "id": "ep_145_ut_31"
+    },
+    {
+      "end": 883016,
+      "speaker": "John Burn-Murdoch",
+      "start": 848106,
+      "text": "Exactly. It's like it sounds more artificial. And also, as soon as you slip up and miss one word, it just completely throws you. So we find that it makes a lot more sense to, you know, we'll rehearse things again in a sort of rough outline sense so that we know enough, we know a lot about all of the different talking points, so that whatever way the conversation goes, we can just make that quite natural. I think the stuff that does require a bit more training and I think that we're getting better at is just how we actually look on camera. So a lot of the stuff that I don't think comes across.",
+      "id": "ep_145_ut_32"
+    },
+    {
+      "end": 886380,
+      "speaker": "Federica Cocco",
+      "start": 883168,
+      "text": "Sorry, I was just thinking, I always seem to have three chins.",
+      "id": "ep_145_ut_33"
+    },
+    {
+      "end": 911862,
+      "speaker": "John Burn-Murdoch",
+      "start": 888240,
+      "text": "But, yeah, little things like angles and where we should be looking at different times. Some of it is completely natural, and it's exactly what you'd expect. But there are other bits when we'll have Juliet or one of the other videographers saying, can you not look at there when you're saying that? Or can you look at each other when you're talking? So, you know, it's becoming more natural. But certainly the first couple of sessions, we had quite a lot of backstage directions, as it were.",
+      "id": "ep_145_ut_34"
+    },
+    {
+      "end": 925668,
+      "speaker": "Enrico Bertini",
+      "start": 911886,
+      "text": "And do you do, like, a couple of full run throughs and do a couple of takes of the whole story, or do you repeat individual bits of it? Or how often do you have to redo a part or the whole thing?",
+      "id": "ep_145_ut_35"
+    },
+    {
+      "end": 977510,
+      "speaker": "John Burn-Murdoch",
+      "start": 925774,
+      "text": "So it's individual bits. We do the whole thing in one go, like in one sitting, but it'll be, you know, but there'll be breaks. Yeah, well, there's always a natural sort of chapter style structure to the way we do it. There'll be two or three sections, and so we'll, you know, ideally we'd go through each section in full and maybe then do each section in full once or twice. But I think, you know, it's. It really depends how it goes. I mean, the one we filmed yesterday, for example, I think was our most efficient yet. And that was. I think that was less than an hour to do the whole thing. And so, yeah, we just. We go along and if everyone's fine, and if no one sees any reason to stop, we'll crack on and we could do like two, three minutes with no cut. Other times someone will say, we'll get to the end and then they'll think, okay, let's just go back and do that bit again.",
+      "id": "ep_145_ut_36"
+    },
+    {
+      "end": 981954,
+      "speaker": "Federica Cocco",
+      "start": 978130,
+      "text": "Yeah. Sometimes it can take like, 4 hours to do the whole thing.",
+      "id": "ep_145_ut_37"
+    },
+    {
+      "end": 1000460,
+      "speaker": "John Burn-Murdoch",
+      "start": 982082,
+      "text": "Yeah. And I mean, certainly I think we both agree that. But the first ones we did took way longer than they do now. So, you know, we used to have to book out pretty much like half a day, whereas nowadays we can sort of be like, okay, we're filming at one, so that'll be like two, 3 hours of rehearse, perform everything.",
+      "id": "ep_145_ut_38"
+    },
+    {
+      "end": 1036650,
+      "speaker": "Moritz Stefaner",
+      "start": 1000760,
+      "text": "Yeah. And as I said, I'm really curious to hear how the hand drawing works. Right. So how do you. Maybe I should describe a little better for our listeners what you do in case they didn't watch it. Right. So basically, you are hand drawing. So you are talking about a specific data set and a specific graph. Right. But rather than showing this graph, you draw it in real time in front of the camera. Right. So it's really interesting. How do you do that?",
+      "id": "ep_145_ut_39"
+    },
+    {
+      "end": 1076528,
+      "speaker": "Federica Cocco",
+      "start": 1037070,
+      "text": "Well, so one way is, first of all, we have the charts printed out next to us, so we look at them before we draw them during the recording. Yeah, we'll have it next so that I can look at it before I draw it. Especially with the line charts showing trends. For me, it's more important to show the trend rather than actually being precise to the decimal points with the number that I'm representing also, because, you know, that would be too difficult and boring for the readers. But more or less, I'll just, you know, try and replicate the trend. But they're absolutely not precise, so they.",
+      "id": "ep_145_ut_40"
+    },
+    {
+      "end": 1077376,
+      "speaker": "Moritz Stefaner",
+      "start": 1076544,
+      "text": "Don't have to be.",
+      "id": "ep_145_ut_41"
+    },
+    {
+      "end": 1117644,
+      "speaker": "Federica Cocco",
+      "start": 1077488,
+      "text": "I mean, I'm sure you could have guessed that. Yeah. So that's with the drawn ones. The number of blocks that I mentioned before. They are numbers that. Sorry. They're blocks that they teach numbers to elementary schools to. Sorry, elementary school kids with. And each block represents a number and it goes from one to ten, and they each have a different color. And that's been very good to replicate bar charts without having to actually draw them and make, you know, really crappy ones on, on paper. But I don't know if you have anything.",
+      "id": "ep_145_ut_42"
+    },
+    {
+      "end": 1178892,
+      "speaker": "John Burn-Murdoch",
+      "start": 1117772,
+      "text": "Yeah, I mean, just again, I think. I think it's really interesting that we, Federica talked there about how we focus on sort of the trend and the pattern and the message over the precision. And, you know, I think that's, that's generally how most people consume charts. They're not necessarily looking at every pixel and every decimal. So even though that was really something we kind of did organically, I think it does speak to how most people engage with graphs. They're looking for an overall pattern rather than those points. But, yeah, so we'll have the printouts. In some of the earlier episodes, I experimented with drawing in very light pencil, a couple of key points that align had to go through. But I think we ended up feeling that that's not really necessary, because as long as you get the general pattern and the message that you're giving out matches the data you've drawn, I think that's pretty much fine. Right?",
+      "id": "ep_145_ut_43"
+    },
+    {
+      "end": 1216416,
+      "speaker": "Federica Cocco",
+      "start": 1178956,
+      "text": "I mean, Alan Smith, who is our head of graphics. No, hang on. He has got a new title. Where is it? Head of data visualization, head of everything. He quite often sketches charts before he decides what we're gonna do. If we're sort of debating how we show some numbers today, for example, we're debating how we show how we showed sovereign yields for different countries in the last month, the lows, the highs, and the latest number. And he was just sketching it to see what would look better. So that's something that we kind of do commonly, but then obviously replicating them on video is something different. I mean, slightly more self conscious about.",
+      "id": "ep_145_ut_44"
+    },
+    {
+      "end": 1231324,
+      "speaker": "Enrico Bertini",
+      "start": 1216448,
+      "text": "What's also interesting is if you talk while you draw the chart, you're sort of in it together, and you never miss what the x axis means or what the y axis means because you're constructing it together, basically. And it's a bit like what teachers.",
+      "id": "ep_145_ut_45"
+    },
+    {
+      "end": 1232732,
+      "speaker": "Federica Cocco",
+      "start": 1231372,
+      "text": "Do also on the blackboard.",
+      "id": "ep_145_ut_46"
+    },
+    {
+      "end": 1242720,
+      "speaker": "Enrico Bertini",
+      "start": 1232796,
+      "text": "Right, exactly. I was reminded of great math teachers or so who can think and talk and draw at the same time. And it all goes together. It becomes this performance almost.",
+      "id": "ep_145_ut_47"
+    },
+    {
+      "end": 1283244,
+      "speaker": "Federica Cocco",
+      "start": 1243580,
+      "text": "It's good to hear that you think that, because sometimes I'm concerned that I miss something out or that because obviously, when you have, when you've done a video, say, if you realize that you missed something out, that you didn't label something properly. It's not like you can go back and correct it. You have to. Maybe two days later you realize it. Quite often I get very self conscious when I'm drawing them and having to describe them at the same time. And then maybe two nights later at 02:00 a.m. i'll realize, oh, no, I labeled something not in the right way or I didn't answer this question and it will just bother me. But that's good to have the comments for that.",
+      "id": "ep_145_ut_48"
+    },
+    {
+      "end": 1295320,
+      "speaker": "Enrico Bertini",
+      "start": 1283272,
+      "text": "Yeah, but even if you make something in the drawing, you will have mentioned it properly, probably. And so I think it has to go together. Probably the video without the audio track wouldn't make sense, maybe.",
+      "id": "ep_145_ut_49"
+    },
+    {
+      "end": 1327364,
+      "speaker": "John Burn-Murdoch",
+      "start": 1295740,
+      "text": "Yeah. And I think everyone who makes data visualization, who makes charts, we all know that the one frustration you can often have as a designer, as a creator, is that when you make something, it's then just out there and people are just going to consume it and interpret it in their own way. Whereas, of course, the great thing with these videos is, like you say, we're essentially providing the interpretation and explanation as well as the drawing. So you can really be absolutely sure that people are going to understand the point that we're trying to make and that there's no room for sort of ambiguity there.",
+      "id": "ep_145_ut_50"
+    },
+    {
+      "end": 1386300,
+      "speaker": "Moritz Stefaner",
+      "start": 1327452,
+      "text": "Yeah, yeah. And I think one thing I really like that is related to that, is that since it's two of you that are discussing the charts, what I like in your videos is that sometimes you just ask questions or just say, oh, it could be this way or that way. Right. So it's a little bit of a. It's not like I'm giving you the actual final truth. You are walking people through a reasoning process. And in a way, I think it may also teach people how it looks like when people are thinking through some topic and associated data. Right. I don't know if that's the way you see it, but that's one way I perceived the video. Right. The idea that you start from one question, you show me one chart, and then you say, oh, but maybe it could be this way or that way. And the next chart is a way to disambiguate that question. Right. So I don't know if you do that on purpose, but I think it's very powerful.",
+      "id": "ep_145_ut_51"
+    },
+    {
+      "end": 1408102,
+      "speaker": "Federica Cocco",
+      "start": 1386420,
+      "text": "Oh, yeah, it's definitely on purpose. Yeah, yeah. I mean, the first time that we did the video, we did one of the videos, our aim was to. And I. I think we said this in the introduction, I don't know if they kept it, but is to show that anyone can do it. And so to, like you say, replicate our thought process when we're analyzing the data behind a news story.",
+      "id": "ep_145_ut_52"
+    },
+    {
+      "end": 1416702,
+      "speaker": "John Burn-Murdoch",
+      "start": 1408286,
+      "text": "Yeah, yeah. It's really meant to be quite natural. And the narrative is really meant to follow exactly how anyone would be thinking about this if they were approaching it for the first time.",
+      "id": "ep_145_ut_53"
+    },
+    {
+      "end": 1423078,
+      "speaker": "Enrico Bertini",
+      "start": 1416806,
+      "text": "Yeah, but now that you mentioned it, Enrico, I think it's the only really example of a dialogue oriented approach to data visualization.",
+      "id": "ep_145_ut_54"
+    },
+    {
+      "end": 1428378,
+      "speaker": "Moritz Stefaner",
+      "start": 1423174,
+      "text": "Right, exactly right. That's what I was trying to say at the beginning. Yeah, yeah.",
+      "id": "ep_145_ut_55"
+    },
+    {
+      "end": 1433298,
+      "speaker": "Federica Cocco",
+      "start": 1428474,
+      "text": "Well, we love thinking that we're pioneers. I'm very flattered.",
+      "id": "ep_145_ut_56"
+    },
+    {
+      "end": 1433922,
+      "speaker": "John Burn-Murdoch",
+      "start": 1433434,
+      "text": "Exactly.",
+      "id": "ep_145_ut_57"
+    },
+    {
+      "end": 1445794,
+      "speaker": "Moritz Stefaner",
+      "start": 1433946,
+      "text": "I mean, at the beginning you mentioned the people who influenced you. But I can't really think of anybody else who did this kind of dialogue visualization style of work.",
+      "id": "ep_145_ut_58"
+    },
+    {
+      "end": 1500400,
+      "speaker": "Federica Cocco",
+      "start": 1445962,
+      "text": "No, I guess not. I suppose that for me, like when I used to write fact checks, fact check politicians. And it was for an independent organization, and they were very, very staunchly independent. So because they didn't want to appear like they were favoring a political party over another, we always had to present the two or more interpretations of something. And then really the ending will always be like. And then you can make up your own mind, which is, you know what happens with numbers. Yes, they're objective, yes, they tell the truth. But quite often there's so many different ways to interpret them and different opinions on what they mean to. Yes, it's a fact check or an explainer. But in the end there are so many points of view, like I said earlier, that there's only so much that we can do, you know, it's very postmodern in that sense.",
+      "id": "ep_145_ut_59"
+    },
+    {
+      "end": 1534420,
+      "speaker": "Moritz Stefaner",
+      "start": 1501660,
+      "text": "Yeah. So, another thing I was wondering, I guess. So you've been publishing, what, a total of six or seven videos so far, right? I suppose that the way you, I mean, the method is probably gone. Been evolving a little bit over time. I'm wondering, what if it's been evolving, what you have been changing, what you've learned by doing that? I think, John, you already mentioned that you learned how to better look at the camera or stuff like that. But I was wondering more.",
+      "id": "ep_145_ut_60"
+    },
+    {
+      "end": 1551824,
+      "speaker": "Federica Cocco",
+      "start": 1534580,
+      "text": "That's definitely my problem. It's me, very generous. I'm the one who doesn't know how to Richard, who films, as always, says, just set your face and then I'll just look like a Picasso portrait. Sigh.",
+      "id": "ep_145_ut_61"
+    },
+    {
+      "end": 1571580,
+      "speaker": "John Burn-Murdoch",
+      "start": 1551952,
+      "text": "We're definitely getting better. Yeah. Things that are changing. I mean, one thing that is interesting with this stuff is the simple duration of the videos. So there's a constant debate. I think anyone who's been in a newsroom and involved with the video team will, will know the familiar debate over how long a video should be.",
+      "id": "ep_145_ut_62"
+    },
+    {
+      "end": 1573980,
+      "speaker": "Moritz Stefaner",
+      "start": 1572040,
+      "text": "Me and Moritz debated about.",
+      "id": "ep_145_ut_63"
+    },
+    {
+      "end": 1581080,
+      "speaker": "Federica Cocco",
+      "start": 1579480,
+      "text": "Do you get feedback from readers?",
+      "id": "ep_145_ut_64"
+    },
+    {
+      "end": 1588260,
+      "speaker": "Enrico Bertini",
+      "start": 1581160,
+      "text": "Yeah, in all directions. Like some people say, it's way too long, way too short, sometimes too long, sometimes too short. It's hard. Yeah.",
+      "id": "ep_145_ut_65"
+    },
+    {
+      "end": 1612150,
+      "speaker": "John Burn-Murdoch",
+      "start": 1588600,
+      "text": "Yeah. And I think the interesting thing, especially when we do stuff like this on YouTube, is that YouTube itself will actually make decisions on how to rank videos based on things, including length and how long people actually stick with them. So some of our videos have been more than ten minutes long, which by certain standards is almost a feature film.",
+      "id": "ep_145_ut_66"
+    },
+    {
+      "end": 1617710,
+      "speaker": "Moritz Stefaner",
+      "start": 1616050,
+      "text": "Well, then the interesting thing.",
+      "id": "ep_145_ut_67"
+    },
+    {
+      "end": 1699494,
+      "speaker": "John Burn-Murdoch",
+      "start": 1618170,
+      "text": "Well, exactly. Yeah. But then more recently, we've got a, a woman called Alice Cantor now who's actually the FT's YouTube channel manager, which is a job that didn't exist a year ago. But she's been doing a lot of analytics for us. And YouTube actually tell her directly that they are actually looking for slightly longer videos now. And the sort of core YouTube audience now is people who come to the site and just watch and they're just waiting essentially for the next video. So on the one hand, yeah, there's an, there's a pull from that direction for longer videos, but we still find, as I think anyone who's produced videos for that kind of audience will have done, that only a certain percentage of viewers actually watch the whole way through, I think. So the average duration of people who watch our videos is just over four minutes, and that's considerably higher than the average across all Ft videos. But again, our videos tend to be a bit longer. So it's really about, as with everything, I think it's about a balance and we want to make sure that we get enough information in there that someone doesn't feel, like we said earlier, someone doesn't feel that it's been dumbed down or that we've sort of left them hanging. But we don't want it to be so long that a couple of minutes in, someone's starting to get distracted and just clicks away.",
+      "id": "ep_145_ut_68"
+    },
+    {
+      "end": 1700170,
+      "speaker": "Moritz Stefaner",
+      "start": 1699542,
+      "text": "Yeah.",
+      "id": "ep_145_ut_69"
+    },
+    {
+      "end": 1738274,
+      "speaker": "Federica Cocco",
+      "start": 1700670,
+      "text": "Certainly a common thing that happens is that we'll say, oh, we'll only do a four minute video. Next thing you know, it's new Netflix series. Because we talked so much, I'm certainly keen for them to be shorter. I think that makes them more digestible. But of course, we have to, you know, it depends on the audience. Maybe if it's an FT video that is being shared on Facebook, then it's better if it's just a four or five minute video on theft website itself, it can probably be a bit longer, maybe six minutes. But we've normally ended up making ten minute videos at least.",
+      "id": "ep_145_ut_70"
+    },
+    {
+      "end": 1738962,
+      "speaker": "Enrico Bertini",
+      "start": 1738322,
+      "text": "Yeah.",
+      "id": "ep_145_ut_71"
+    },
+    {
+      "end": 1758126,
+      "speaker": "John Burn-Murdoch",
+      "start": 1739146,
+      "text": "And you know, we've not seen the final cut of the one we did yesterday yet, but I think we're both confident that's going to be our shortest yet. A new record. But it'll still come in probably around seven or eight minutes. I mean, I think the tension started to form. Now I'm fine with the sort of seven or eight minutes, but Federica less.",
+      "id": "ep_145_ut_72"
+    },
+    {
+      "end": 1760870,
+      "speaker": "Federica Cocco",
+      "start": 1758158,
+      "text": "So what do you guys think about the length?",
+      "id": "ep_145_ut_73"
+    },
+    {
+      "end": 1761750,
+      "speaker": "John Burn-Murdoch",
+      "start": 1760910,
+      "text": "Yeah, good question.",
+      "id": "ep_145_ut_74"
+    },
+    {
+      "end": 1783556,
+      "speaker": "Moritz Stefaner",
+      "start": 1761870,
+      "text": "Yeah, I didn't think about it and I watched the old series from start to end, so I found it engaging every time. So no problem with length. But I think, honestly, I mean, honestly, as long as things are natural and engaging, I think as you said, it has to come naturally, right?",
+      "id": "ep_145_ut_75"
+    },
+    {
+      "end": 1802742,
+      "speaker": "John Burn-Murdoch",
+      "start": 1783748,
+      "text": "Yeah, yeah. And I mean, you know, there are other techniques as well. So one thing that Alice from my YouTube team was saying yesterday was that one thing we might consider is more explicitly chapterizing it. So having breaking it down into distinct sections where I say, okay, now we're going to talk about this and then now we're going to talk about that.",
+      "id": "ep_145_ut_76"
+    },
+    {
+      "end": 1804450,
+      "speaker": "Moritz Stefaner",
+      "start": 1802766,
+      "text": "I like the way it is, honestly.",
+      "id": "ep_145_ut_77"
+    },
+    {
+      "end": 1813822,
+      "speaker": "Federica Cocco",
+      "start": 1806630,
+      "text": "Another thing that we try to introduce and occasionally works, occasionally doesn't is recap. So if the video is very long, then we'll just recap all the points.",
+      "id": "ep_145_ut_78"
+    },
+    {
+      "end": 1817590,
+      "speaker": "Moritz Stefaner",
+      "start": 1813886,
+      "text": "You do have a recap at the end and I love that. Yeah, I love that.",
+      "id": "ep_145_ut_79"
+    },
+    {
+      "end": 1818582,
+      "speaker": "John Burn-Murdoch",
+      "start": 1817630,
+      "text": "Okay, excellent.",
+      "id": "ep_145_ut_80"
+    },
+    {
+      "end": 1830634,
+      "speaker": "Moritz Stefaner",
+      "start": 1818686,
+      "text": "You have a recap at the end. So that's what we've seen so far and that's what we think it means. And it's over. Yeah, I think the format is great. I like it as it is great.",
+      "id": "ep_145_ut_81"
+    },
+    {
+      "end": 1831458,
+      "speaker": "Federica Cocco",
+      "start": 1830682,
+      "text": "Thank you.",
+      "id": "ep_145_ut_82"
+    },
+    {
+      "end": 1837470,
+      "speaker": "John Burn-Murdoch",
+      "start": 1831634,
+      "text": "If we can get you guys to just leave a lot of comments, maybe create some bots for our YouTube, that would be great.",
+      "id": "ep_145_ut_83"
+    },
+    {
+      "end": 1842150,
+      "speaker": "Federica Cocco",
+      "start": 1839330,
+      "text": "Penny motolanobarberft.com.",
+      "id": "ep_145_ut_84"
+    },
+    {
+      "end": 1864320,
+      "speaker": "Moritz Stefaner",
+      "start": 1843530,
+      "text": "But another thing I wanted to ask you, are you planning to evolve also in the kind of material that you're using? So I saw. So for instance, in one of the videos now you've been using a globe with pins, so which is a little bit different from only drawing. So are you trying to experiment in this sense as well or not?",
+      "id": "ep_145_ut_85"
+    },
+    {
+      "end": 1878940,
+      "speaker": "Federica Cocco",
+      "start": 1864440,
+      "text": "Yeah, I mean, I would say that started from the beginning. We tried to use props and anything that we could come up with. Just anything, you know. For example, I think it was either the first or second video where we used haribos to make visualizations.",
+      "id": "ep_145_ut_86"
+    },
+    {
+      "end": 1890788,
+      "speaker": "John Burn-Murdoch",
+      "start": 1880640,
+      "text": "We had one where we wanted to use monopoly money. And there was initially a bit about whether this would be in breach of copyright, but apparently we were fine.",
+      "id": "ep_145_ut_87"
+    },
+    {
+      "end": 1927846,
+      "speaker": "Federica Cocco",
+      "start": 1890884,
+      "text": "Yeah, anything goes. I mean, if we have more ideas on props, I think we'll just go and experiment because we've really been given a sort of blank slate, you know, do whatever you want, make it fun, and then, which is a great privilege at the end. So if, you know, if we come up with more ideas, definitely. One thing that we have to be wary of is if we're treating sensitive subjects like, for example, abortion, or you're the one to trivialize specifically on crime. Exactly. We wouldn't use haribos for that. So it just sort of depends on what we're talking about.",
+      "id": "ep_145_ut_88"
+    },
+    {
+      "end": 1929006,
+      "speaker": "John Burn-Murdoch",
+      "start": 1927958,
+      "text": "Yeah, yeah.",
+      "id": "ep_145_ut_89"
+    },
+    {
+      "end": 1953606,
+      "speaker": "Enrico Bertini",
+      "start": 1929198,
+      "text": "I mean, that maybe also relates to what you mentioned at the beginning. You want to open, like, new audiences or maybe project a new image offt. What's the feedback so far? And do you get, like, different feedback on different platforms? I know YouTube commenters can be a specific crowd sometimes. So what's your experience? Or do you get different feedback from traditional, like on theft side versus other platforms?",
+      "id": "ep_145_ut_90"
+    },
+    {
+      "end": 1997260,
+      "speaker": "John Burn-Murdoch",
+      "start": 1953638,
+      "text": "Yeah, I think that's the thing. The interesting thing here is that the exact same bit of content, the same video, is experienced by completely different audiences in different contexts. So we've got the videos on Ft.com, which are seen by our subscribers, which is high percentage men, older people who work in finance. And then we've got a got YouTube, where unfortunately, it's similarly high percentage men, but younger people, people with different backgrounds who might have a lot less existing knowledge about finance and then other social media channels. And, yeah, there've been sort of different reactions in different places. Generally, the stuff on YouTube, I think, has been quite positive, hasn't it? And we've had a few questions.",
+      "id": "ep_145_ut_91"
+    },
+    {
+      "end": 2014000,
+      "speaker": "Federica Cocco",
+      "start": 1997340,
+      "text": "Yeah, I would say that when we get sort of negative feedback, it's mostly people querying the data, which I'm quite happy with. One of my favorite things is mansplaining data. And if somebody questions something, oh, you use the mean instead of the median.",
+      "id": "ep_145_ut_92"
+    },
+    {
+      "end": 2014496,
+      "speaker": "John Burn-Murdoch",
+      "start": 2014080,
+      "text": "Pow.",
+      "id": "ep_145_ut_93"
+    },
+    {
+      "end": 2035358,
+      "speaker": "Federica Cocco",
+      "start": 2014568,
+      "text": "I'll go with like, this is the ONS link. Use column AK, row 24, and you'll see what I've used. I mean, that's my favorite thing. So that type of feedback, I am perfectly. I can be a warrior with that. We haven't got any negative feedback that is like, this is bad. Nothing like that. It's mostly been positive in that sense.",
+      "id": "ep_145_ut_94"
+    },
+    {
+      "end": 2080919,
+      "speaker": "John Burn-Murdoch",
+      "start": 2035544,
+      "text": "And there have been some interesting debates, like we did an early one about this trade off between big firms who avoid a lot in tax, but then are also donating, giving a lot in philanthropy. And we're sort of asking what does the balance look like between those two? And there were a lot of people who work for NGO's and for the likes of the Gates foundation who sort of, on Twitter at least, were sort of getting involved in that. I think what we're finding certainly is of those people who watch the videos, people are pretty engaged, they're asking questions, they're leaving comments. Yeah. So it's been pretty good. And again, the nice thing about doing this stuff on YouTube is on average, you get a lot more feedback on there than we would if we were just putting stuff only on theft site.",
+      "id": "ep_145_ut_95"
+    },
+    {
+      "end": 2125050,
+      "speaker": "Federica Cocco",
+      "start": 2081039,
+      "text": "I think one thing that we'd like to do now is just start promoting it more because the first videos that we did were, let's say during the spring. I think we started in March, and then that was sort of an experiments. Let's see how this does. Let's see what our colleagues think as well, what the editors think, if they like it. And then we started getting positive feedback from them. And then we sort of went on a summer hiatus because we've been working on other projects as well as going on holidays and having breaks. So now that we're starting, let's say the new series two, then we're going to start promoting it a bit more and thinking of new ideas and thinking more about how we can develop pit.",
+      "id": "ep_145_ut_96"
+    },
+    {
+      "end": 2160348,
+      "speaker": "John Burn-Murdoch",
+      "start": 2125210,
+      "text": "Yeah, absolutely. I think really the quality of feedback we're getting is great. We just want to get this out to more people now. And the thing with YouTube is a lot of what happens behind the scenes, it's a complete black box. So we don't necessarily know why one video will get x number of views and the other will get only half as many. In one case, we had a video about abortion, which we learned after the fact YouTube had decided because this was a sensitive topic, it was not promoting it. So that one got far, far, far fewer viewers than the others, which is.",
+      "id": "ep_145_ut_97"
+    },
+    {
+      "end": 2180526,
+      "speaker": "Federica Cocco",
+      "start": 2160364,
+      "text": "A shame because I think we're sort of addressing things in a different way from how you would normally talk about abortion in the news media. But that's just how it goes. And also, it's a topic that maybe theft doesn't write enough about legislation on abortion, the consequences of different types of legislation.",
+      "id": "ep_145_ut_98"
+    },
+    {
+      "end": 2225530,
+      "speaker": "Moritz Stefaner",
+      "start": 2180708,
+      "text": "Yeah. So it's great to hear that the feedback is good. So one last question that I have is about, I think we normally like to end our episodes by asking our guests how people could try to reproduce similar projects. Right. So I think in this case, it's probably really hard from the. At least from. From the video production side of things, but I can imagine the same format being adopted in many other contexts. Right. So I don't know, in a way, this could be sparking a new genre that people may adopt. So I was wondering what you think about it.",
+      "id": "ep_145_ut_99"
+    },
+    {
+      "end": 2235994,
+      "speaker": "Federica Cocco",
+      "start": 2226430,
+      "text": "Well, so it's funny that you mentioned this because we are going to hold a workshop. Oh, that's called encode.",
+      "id": "ep_145_ut_100"
+    },
+    {
+      "end": 2244626,
+      "speaker": "John Burn-Murdoch",
+      "start": 2236122,
+      "text": "In mid September in London. On the 18 September. I don't know if there are still tickets available, but we're going to be doing a workshop there on.",
+      "id": "ep_145_ut_101"
+    },
+    {
+      "end": 2264680,
+      "speaker": "Federica Cocco",
+      "start": 2244698,
+      "text": "Yeah. So we're going to divide. There's going to be a crowd of people, I don't know how many. 2030 maybe. We're exciting and we're going to split them into teams and give them sort of subjects to fact check. Basically, we're going to give them the tools to create their own crunched video and see what they come up with and then steal all their ideas.",
+      "id": "ep_145_ut_102"
+    },
+    {
+      "end": 2267260,
+      "speaker": "Moritz Stefaner",
+      "start": 2265140,
+      "text": "That's very cool. That's very cool.",
+      "id": "ep_145_ut_103"
+    },
+    {
+      "end": 2295328,
+      "speaker": "Federica Cocco",
+      "start": 2267380,
+      "text": "Yeah. So, you know, that'll be an interesting experiment to see how different people would do it. I mean, certainly if it becomes a genre, like you say, I'd be really, really keen to see how people. The sort of spin offs that would emerge from that. That would be really interesting. Just because we spend so much time thinking, oh, how could we present this? You know, a fresh mind maybe would have a completely, you know, fresh take on it and it'd be fascinating to see.",
+      "id": "ep_145_ut_104"
+    },
+    {
+      "end": 2315128,
+      "speaker": "John Burn-Murdoch",
+      "start": 2295424,
+      "text": "Yeah, I think again, you know, educators, it would lend itself very nicely to, you know, teachers at all sorts of different age groups. And again, I think we'd both love to see more news organizations and more, quote unquote, serious people doing these more accessible approaches. Take doing videos here which are again.",
+      "id": "ep_145_ut_105"
+    },
+    {
+      "end": 2319180,
+      "speaker": "Enrico Bertini",
+      "start": 2315224,
+      "text": "Aimed, would be great for science communication as well, right?",
+      "id": "ep_145_ut_106"
+    },
+    {
+      "end": 2320256,
+      "speaker": "John Burn-Murdoch",
+      "start": 2319480,
+      "text": "Absolutely.",
+      "id": "ep_145_ut_107"
+    },
+    {
+      "end": 2321020,
+      "speaker": "Federica Cocco",
+      "start": 2320368,
+      "text": "Yeah.",
+      "id": "ep_145_ut_108"
+    },
+    {
+      "end": 2324808,
+      "speaker": "Enrico Bertini",
+      "start": 2321680,
+      "text": "That's great. That's great. With the workshop, we'll try and promote it a bit.",
+      "id": "ep_145_ut_109"
+    },
+    {
+      "end": 2325672,
+      "speaker": "John Burn-Murdoch",
+      "start": 2324864,
+      "text": "Fantastic.",
+      "id": "ep_145_ut_110"
+    },
+    {
+      "end": 2332660,
+      "speaker": "Moritz Stefaner",
+      "start": 2325816,
+      "text": "Okay, well, thanks so much. We're very excited about this project. Congratulations and.",
+      "id": "ep_145_ut_111"
+    },
+    {
+      "end": 2336032,
+      "speaker": "Federica Cocco",
+      "start": 2333280,
+      "text": "Yeah, thank you so much. It's really kind of you.",
+      "id": "ep_145_ut_112"
+    },
+    {
+      "end": 2337448,
+      "speaker": "Moritz Stefaner",
+      "start": 2336096,
+      "text": "Thanks for coming on the show.",
+      "id": "ep_145_ut_113"
+    },
+    {
+      "end": 2338296,
+      "speaker": "John Burn-Murdoch",
+      "start": 2337544,
+      "text": "No problem at all.",
+      "id": "ep_145_ut_114"
+    },
+    {
+      "end": 2339944,
+      "speaker": "Federica Cocco",
+      "start": 2338328,
+      "text": "Thank you for having us and good.",
+      "id": "ep_145_ut_115"
+    },
+    {
+      "end": 2342416,
+      "speaker": "Moritz Stefaner",
+      "start": 2339992,
+      "text": "Luck for future episodes.",
+      "id": "ep_145_ut_116"
+    },
+    {
+      "end": 2343176,
+      "speaker": "John Burn-Murdoch",
+      "start": 2342488,
+      "text": "Thanks very much.",
+      "id": "ep_145_ut_117"
+    },
+    {
+      "end": 2343808,
+      "speaker": "Federica Cocco",
+      "start": 2343248,
+      "text": "Thanks.",
+      "id": "ep_145_ut_118"
+    },
+    {
+      "end": 2344608,
+      "speaker": "Enrico Bertini",
+      "start": 2343944,
+      "text": "Thank you.",
+      "id": "ep_145_ut_119"
+    },
+    {
+      "end": 2345088,
+      "speaker": "Moritz Stefaner",
+      "start": 2344704,
+      "text": "Bye.",
+      "id": "ep_145_ut_120"
+    },
+    {
+      "end": 2347340,
+      "speaker": "Federica Cocco",
+      "start": 2345144,
+      "text": "Take care. Bye bye.",
+      "id": "ep_145_ut_121"
+    },
+    {
+      "end": 2372396,
+      "speaker": "Moritz Stefaner",
+      "start": 2352000,
+      "text": "Hey, folks, thanks for listening to data stories again. Before you leave a few last notes, this show is now completely crowdfunded, so you can support us by going on Patreon that's patreon.com Datastories. And if you can spend a couple of minutes rating us on iTunes, that would be extremely helpful for the show.",
+      "id": "ep_145_ut_122"
+    },
+    {
+      "end": 2398286,
+      "speaker": "Enrico Bertini",
+      "start": 2372508,
+      "text": "And here's also some information on the many ways you can get news directly from us. We're, of course, on twitter@twitter.com. Datastories. We have a Facebook page@Facebook.com. datastoriespodcast all in one word. And we also have a slack channel where you can chat with us directly. And to sign up, you can go to our homepage datastory. And there is a button at the bottom of the page.",
+      "id": "ep_145_ut_123"
+    },
+    {
+      "end": 2414158,
+      "speaker": "Moritz Stefaner",
+      "start": 2398438,
+      "text": "And we also have an email newsletter. So if you want to get news directly into your inbox and be notified whenever we publish an episode, you can go to our home page Datastories es and look for the link you find at the bottom in the footer.",
+      "id": "ep_145_ut_124"
+    },
+    {
+      "end": 2426274,
+      "speaker": "Enrico Bertini",
+      "start": 2414254,
+      "text": "So one last thing we want to tell you is that we love to get in touch with our listeners, especially if you want to suggest a way to improve the show or amazing people you want us to invite or even projects you want us to talk about.",
+      "id": "ep_145_ut_125"
+    },
+    {
+      "end": 2435490,
+      "speaker": "Moritz Stefaner",
+      "start": 2426362,
+      "text": "Yeah, absolutely. And don't hesitate to get in touch with us. It's always a great thing to hear from you. So see you next time, and thanks for listening to data stories.",
+      "id": "ep_145_ut_126"
+    }
+  ],
+  "confidence": 0.933108408898898,
+  "audio_duration": 2444,
+  "punctuate": true,
+  "format_text": true,
+  "dual_channel": false,
+  "webhook_url": null,
+  "webhook_status_code": null,
+  "webhook_auth": false,
+  "webhook_auth_header_name": null,
+  "speed_boost": false,
+  "auto_highlights_result": null,
+  "auto_highlights": false,
+  "audio_start_from": null,
+  "audio_end_at": null,
+  "word_boost": [],
+  "boost_param": null,
+  "filter_profanity": false,
+  "redact_pii": false,
+  "redact_pii_audio": false,
+  "redact_pii_audio_quality": null,
+  "redact_pii_policies": null,
+  "redact_pii_sub": null,
+  "speaker_labels": true,
+  "content_safety": false,
+  "iab_categories": true,
+  "content_safety_labels": {
+    "status": "unavailable",
+    "results": [],
+    "summary": {}
+  },
+  "language_detection": false,
+  "language_detection_threshold": null,
+  "language_confidence": null,
+  "custom_spelling": null,
+  "throttled": false,
+  "auto_chapters": true,
+  "summarization": false,
+  "summary_type": null,
+  "summary_model": null,
+  "custom_topics": false,
+  "topics": [],
+  "speech_threshold": null,
+  "speech_model": "best",
+  "chapters": [
+    {
+      "summary": "On this podcast, we talk about data visualization, analysis, and more generally the role data plays in our lives. Today, we have two guests, Federica Cocco and John Burn-Murdoch. Our podcast is listener supported, so there are no ads. Please consider supporting us.",
+      "gist": "Data Stories",
+      "headline": "This podcast is listener supported, so there are no ads",
+      "start": 160,
+      "end": 139854,
+      "id": "ep_145_ch_0"
+    },
+    {
+      "summary": "Federica is a statistics journalist at the Financial Times. John is a senior data journalist at the FT. The crunch series is a series of short videos where they address topics that are newsworthy. They try and make it fun and engaging and very colloquial.",
+      "gist": "Geeks in the Know",
+      "headline": "John and Federica are senior data journalists at Financial Times",
+      "start": 139982,
+      "end": 296990,
+      "id": "ep_145_ch_1"
+    },
+    {
+      "summary": "This is very much a collaboration between us on the data team and the video team itself. Another reason for us starting this series is that theft is trying to attract younger audiences. We want to produce something which if someone stumbles upon one of these videos on YouTube, they just get recommended it.",
+      "gist": "The Data Visualizations at Theft",
+      "headline": "Thefts is trying to attract younger audiences with its new data visualization series",
+      "start": 297110,
+      "end": 498886,
+      "id": "ep_145_ch_2"
+    },
+    {
+      "summary": "A lot of our ways of thinking about things involve the pub. By turning them into videos, there's also that extra element of having people commenting on the videos and us being able to interact them. The distinction between condescension and making something more accessible is really important.",
+      "gist": "Data journalism in the 21st century",
+      "headline": "I see a couple of interesting innovations in the way you create these videos",
+      "start": 499078,
+      "end": 785458,
+      "id": "ep_145_ch_3"
+    },
+    {
+      "summary": "Do you prepare? Is it like scripted dialogue? Or do you just. keep the best bits? How do you end up with these episodes? I'm curious because I have a podcast to run.",
+      "gist": "How Do You Write a Talk Episode",
+      "headline": "Do you prepare for scripted dialogue or do you just talk naturally",
+      "start": 785554,
+      "end": 1001112,
+      "id": "ep_145_ch_4"
+    },
+    {
+      "summary": "Federica: So basically, you are hand drawing. Rather than showing this graph, you draw it in real time in front of the camera. For me, it's more important to show the trend rather than being precise to the decimal points. Most people focus on the trend and the pattern rather than the precision.",
+      "gist": "Hand Drawing a Chart",
+      "headline": "How do you replicate bar charts on video without actually drawing them",
+      "start": 1001136,
+      "end": 1283244,
+      "id": "ep_145_ch_5"
+    },
+    {
+      "summary": "Enrico: I think it's the only really example of a dialogue oriented approach to data visualization. We're essentially providing the interpretation and explanation as well as the drawing. It's very postmodern in that sense.",
+      "gist": "In the Elevator With Data Visualization",
+      "headline": "Your videos are a dialogue-oriented approach to data visualization",
+      "start": 1283272,
+      "end": 1502444,
+      "id": "ep_145_ch_6"
+    },
+    {
+      "summary": " FT's videos have been more than ten minutes long, which by certain standards is almost a feature film. YouTube actually tell her directly that they are actually looking for slightly longer videos now. It's really about a balance and we want to make sure that we get enough information in there.",
+      "gist": "FT videos: length and style",
+      "headline": "There's a constant debate over how long a FT video should be",
+      "start": 1502612,
+      "end": 1842150,
+      "id": "ep_145_ch_7"
+    },
+    {
+      "summary": "Are you trying to experiment in this sense as well or not? We tried to use props and anything that we could come up with. What's the feedback so far? Do you get different feedback on different platforms?",
+      "gist": "The ONS video experiments",
+      "headline": "What's the feedback so far on your YouTube videos? Generally positive",
+      "start": 1843530,
+      "end": 2187110,
+      "id": "ep_145_ch_8"
+    },
+    {
+      "summary": "This could be sparking a new genre that people may adopt. We are going to hold a workshop. in mid September in London. Basically, we're going to give them the tools to create their own crunched video. The sort of spin offs that would emerge from that would be really interesting.",
+      "gist": "Can You Make a Crunched Video?",
+      "headline": "I think this could be sparking a new genre that people may adopt",
+      "start": 2187410,
+      "end": 2347340,
+      "id": "ep_145_ch_9"
+    },
+    {
+      "summary": "This show is now completely crowdfunded, so you can support us by going on patreon. com Datastories. If you can spend a couple of minutes rating us on iTunes, that would be extremely helpful for the show. And don't hesitate to get in touch with us. It's always a great thing to hear from you.",
+      "gist": "How to Subscribe to Data Stories Podcast",
+      "headline": "This show is now completely crowdfunded, so you can support us on Patreon",
+      "start": 2352000,
+      "end": 2435490,
+      "id": "ep_145_ch_10"
+    }
+  ],
+  "disfluencies": false,
+  "entity_detection": false,
+  "sentiment_analysis": false,
+  "sentiment_analysis_results": null,
+  "entities": null,
+  "speakers_expected": null,
+  "summary": null,
+  "custom_topics_results": null,
+  "episode_num": 145,
+  "episode_metadata": {
+    "speakers": [
+      "Federica Cocco",
+      "Moritz Stefaner",
+      "Enrico Bertini",
+      "John Burn-Murdoch"
+    ],
+    "WPid": "1339",
+    "url": "https://datastori.es/podlove/file/5671/s/feed/c/mp3/145-ft-data-crunch-with-federica-cocco-and-john-burn-murdoch.mp3",
+    "episode_title": "FT Data Crunch with Federica Cocco and John Burn-Murdoch"
+  }
+}

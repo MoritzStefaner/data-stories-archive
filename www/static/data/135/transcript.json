@@ -1,0 +1,962 @@
+{
+  "id": "a46e2891-dd7d-4112-9481-488d0adfecb3",
+  "language_model": "assemblyai_default",
+  "acoustic_model": "assemblyai_default",
+  "language_code": "en_us",
+  "status": "completed",
+  "audio_url": "https://datastori.es/podlove/file/5612/s/feed/c/mp3/Datastories-135.mp3",
+  "utterances": [
+    {
+      "end": 10370,
+      "speaker": "Lyn Bartram",
+      "start": 120,
+      "text": "The visualization research community has a notion of a dashboard that is fairly insular, and it didn't seem to be relating to how this was actually being carried out in practice.",
+      "id": "ep_135_ut_0"
+    },
+    {
+      "end": 39870,
+      "speaker": "Enrico Bertini",
+      "start": 29550,
+      "text": "Hi, everyone. Welcome to a new episode of Data stories. My name is Enrico Bertini, and I am a professor at NYU in New York City, where I do research in data visualization.",
+      "id": "ep_135_ut_1"
+    },
+    {
+      "end": 51778,
+      "speaker": "Moritz Stefaner",
+      "start": 40170,
+      "text": "And I am Moritz Stefaner, and I'm an independent designer of data visualizations. And in fact, I work as a self employed truth and beauty operator out of my office here in the countryside in the north of Germany.",
+      "id": "ep_135_ut_2"
+    },
+    {
+      "end": 65310,
+      "speaker": "Enrico Bertini",
+      "start": 51954,
+      "text": "Yes, and on this podcast, we talk about data visualization, analysis, and generally the role that data plays in our lives. And usually we do that together with a guest or two or sometime even more.",
+      "id": "ep_135_ut_3"
+    },
+    {
+      "end": 92608,
+      "speaker": "Moritz Stefaner",
+      "start": 65430,
+      "text": "That's true, and we'll get to that in a minute. But before we start, just a quick note. As you might know, our podcast is fully listener supported by now, so there are no ads. That also means if you do enjoy the show, please consider supporting us. You can do this with recurring payments on patreon.com Datastories, so you can give us a little amount of money every time we publish something new, or you can also send us one time donations on Paypal me Datastories.",
+      "id": "ep_135_ut_4"
+    },
+    {
+      "end": 198578,
+      "speaker": "Enrico Bertini",
+      "start": 92734,
+      "text": "Yes. And thanks to everyone who has already joined the club, and we really appreciate your help. I want to let you know that this show is running thanks to your donations. So this is really appreciated. So let's get started. So today we are talking about a very interesting topic, and are you ready? We're going to talk about dashboards. So the idea here is, I think we never really talked about dashboards before on the show, which is crazy. It's a little bit of a taboo topic. I don't know exactly why, but the impetus for this episode is a very interesting presentation of a paper that we saw at the IEEE vis conference in Berlin a few months ago. And so the paper is titled what do we talk about when we talk about Dash? And it was a really, really interesting and fun presentation from one of the authors who we have here today. And the paper was authored by Alper Sarikaya, Michael Correll, Lyn Bartram, Melanie Tory, and Danyel Fisher. And it's a very interesting collaboration between academia and industry. And basically, they came up together, the joint forces to understand a little bit better what are these things that we call dashboards. So we have two of the authors with us today to talk about this really, really interesting piece of work. We have Lyn Bartram and Alper Sarikaya. Hi, Lyn and Alper, hello.",
+      "id": "ep_135_ut_5"
+    },
+    {
+      "end": 199330,
+      "speaker": "Lyn Bartram",
+      "start": 198674,
+      "text": "Good morning.",
+      "id": "ep_135_ut_6"
+    },
+    {
+      "end": 200498,
+      "speaker": "Enrico Bertini",
+      "start": 199450,
+      "text": "Welcome to the show.",
+      "id": "ep_135_ut_7"
+    },
+    {
+      "end": 201178,
+      "speaker": "Lyn Bartram",
+      "start": 200594,
+      "text": "Thank you.",
+      "id": "ep_135_ut_8"
+    },
+    {
+      "end": 202642,
+      "speaker": "Sarikaya",
+      "start": 201274,
+      "text": "Thank you very much.",
+      "id": "ep_135_ut_9"
+    },
+    {
+      "end": 213188,
+      "speaker": "Enrico Bertini",
+      "start": 202826,
+      "text": "So can we start by maybe you can briefly introduce yourself, tell us a little bit about what is your background, your interest, and what kind of work you do in visualization.",
+      "id": "ep_135_ut_10"
+    },
+    {
+      "end": 236784,
+      "speaker": "Lyn Bartram",
+      "start": 213354,
+      "text": "So I'm a professor in the School of interactive Art and Technology at Simon Fraser University, that's in Vancouver, Canada, where Vis is next year. And I work in the area of data visualization and increasingly in data practices. So how are these actually being used? And I'm really particularly interested in sort of enriching the visual language of visualization and visual analytics.",
+      "id": "ep_135_ut_11"
+    },
+    {
+      "end": 278100,
+      "speaker": "Sarikaya",
+      "start": 236912,
+      "text": "I'm helper and I work at Microsoft Corporation in Redmond, Washington, and I work on their power BIH application. I came there by way of a PhD at the University of Wisconsin Madison, where really I was concentrating on very generalized data visualizations to be understandable by many people and how we can communicate a lot of information through summary. So as a research and development engineer on power Bi, I'm really interested in trying to make sure that dashboards reports visualizations are understandable and comprehendible by a large swath of people.",
+      "id": "ep_135_ut_12"
+    },
+    {
+      "end": 294612,
+      "speaker": "Enrico Bertini",
+      "start": 278220,
+      "text": "Yeah, because that's very important. So one thing I didn't mention is that. So Alper, you are the person presenting at this, and if I remember correctly, the way you presented this was the dashboard conspiracy project.",
+      "id": "ep_135_ut_13"
+    },
+    {
+      "end": 296080,
+      "speaker": "Sarikaya",
+      "start": 294716,
+      "text": "That's exactly right.",
+      "id": "ep_135_ut_14"
+    },
+    {
+      "end": 306614,
+      "speaker": "Enrico Bertini",
+      "start": 296940,
+      "text": "Right. So can you tell us a little bit about the project, how got started, what was the basic idea, and maybe even how it evolved over time?",
+      "id": "ep_135_ut_15"
+    },
+    {
+      "end": 409850,
+      "speaker": "Sarikaya",
+      "start": 306702,
+      "text": "Oh, sure. So we have multiple companies kind of participating in this space of dashboards. We had a lot of people thinking about our coordinated multiple views, and it just struck all of us. We all kind of came out of the academic data visualization community that no one in the Viz research community was really talking about dashboards, even though we have almost billions of dollars being generated by people selling, or companies selling access to creating dashboards with visualizations. And it's kind of understudied in the data visualization world. If you think about broader impacts, dashboards are the vehicle for which visualizations are presented to the world, and these are real people using visualizations, people that have wildly different levels of visualization fluency. They have wildly different agency with the data. They might understand what's going on, they might not. So it's kind of an education tool as well. But basically this dashboard conspiracy kind of arose from, hey, we need to get people to talk about visualization research in the context of dashboards, because they're a really interesting medium in which to both test, educate, and just see how our visualization practices that we come up with, I guess, at the small scale can translate to dashboards and reporting at the large scale.",
+      "id": "ep_135_ut_16"
+    },
+    {
+      "end": 447870,
+      "speaker": "Lyn Bartram",
+      "start": 410010,
+      "text": "And we actually changed our. I don't want to say we changed our minds as much as we really widened our lens as we were going through this. What we started with thinking a dashboard was and why it would be interesting is pretty different than what we ended up with as we went through this process. So we had some very heated and opinionated discussions about what a dashboard was. And one of the things that it struck us fairly quickly was that the visualization research community has a notion of a dashboard that is fairly insular, and it didn't seem to be relating to how this was actually being carried out in practice.",
+      "id": "ep_135_ut_17"
+    },
+    {
+      "end": 453522,
+      "speaker": "Moritz Stefaner",
+      "start": 449010,
+      "text": "It's one of these terms that mean a lot of different things to different people, I guess.",
+      "id": "ep_135_ut_18"
+    },
+    {
+      "end": 454190,
+      "speaker": "Sarikaya",
+      "start": 453586,
+      "text": "Right.",
+      "id": "ep_135_ut_19"
+    },
+    {
+      "end": 475654,
+      "speaker": "Moritz Stefaner",
+      "start": 454530,
+      "text": "I think everybody has some intuitions about maybe core characteristics of a dashboard, but that can totally vary. So looking at all these examples, so you looked at, I guess, hundreds or at least dozens of them. What were your initial intuitions about dashboards? What constitutes a dashboard, and how have you changed your notion of that?",
+      "id": "ep_135_ut_20"
+    },
+    {
+      "end": 527920,
+      "speaker": "Lyn Bartram",
+      "start": 475842,
+      "text": "So one of the interesting things about this when we started collecting these is we also came from different backgrounds. I used to work in the area of complex systems, user interfaces, so big control rooms. And so I came from the monitoring side, real time data monitoring, and the collection of a lot of data into small pieces, whereas Alper and Michael and Melanie came from the business intelligence side. And none of us really had a sense of, until we started, about how these were used in the social industry side or social organization side, and various crosses. So the notion the dashboards that we collected and kept going through that corpus started getting bigger and bigger. We actually winnowed it down from what you see there is winnowed down from some of the original pieces we got.",
+      "id": "ep_135_ut_21"
+    },
+    {
+      "end": 587560,
+      "speaker": "Sarikaya",
+      "start": 528580,
+      "text": "So I guess in terms of what is a dashboard, we largely sidestepped that issue in our paper because we started to realize that when we were looking at dashboards, we didn't want to constrain ourselves to the, say, the Stephen Few or Tufte. Tufte. The Tufte definition of a dashboard, because you saw these dashboards that were being called dashboards, and then you think of the quote, like, if it looks like a dashboard and it quacks like a dashboard, well, it's probably a dashboard. Why should we not call it a dashboard? So then we came up with this idea that there's a functional idea of a dashboard. It works like a dashboard, but then there's also kind of the visual genre of a dashboard, where it's called a dashboard, but it doesn't have the typical things that you would imagine a dashboard to have, say, like a single page, not interactive, kind of this. All this data, in your face monitoring.",
+      "id": "ep_135_ut_22"
+    },
+    {
+      "end": 589040,
+      "speaker": "Lyn Bartram",
+      "start": 587600,
+      "text": "Aspect, very top down.",
+      "id": "ep_135_ut_23"
+    },
+    {
+      "end": 589528,
+      "speaker": "Sarikaya",
+      "start": 589120,
+      "text": "Right?",
+      "id": "ep_135_ut_24"
+    },
+    {
+      "end": 590260,
+      "speaker": "Enrico Bertini",
+      "start": 589624,
+      "text": "Yeah.",
+      "id": "ep_135_ut_25"
+    },
+    {
+      "end": 614680,
+      "speaker": "Moritz Stefaner",
+      "start": 590780,
+      "text": "I haven't looked into it in depth, but the two intuitions I would have immediately is, okay, it should be something changing over time, like a monitoring tool, as you said, Lin. And the other thing is, it should probably be composed of different parts, different visualizations combined together. Would that still hold true?",
+      "id": "ep_135_ut_26"
+    },
+    {
+      "end": 704530,
+      "speaker": "Lyn Bartram",
+      "start": 615870,
+      "text": "Very interesting discussion, sort of starting from the theoretical one that said, well, if it's got two different data points and it's meant to be monitoring reflection, then it's theoretically a dashboard where it started for us to get really, I'd say, intellectually compelling. The example I would give is, in our paper, one of the two header images is a quote, unquote dashboard from the UNHCR that shows migrant flows. And there was a real discussion about whether this was a dashboard, because it had things in it that were not dataviz, they were narrative elements. And was this a dashboard? And of course, there was a great deal of saying, okay, well, as far as the visualization community is concerned, that does not fit all of the definition of a dashboard. But the UNHCR thinks it's a dashboard and the people that are using it and the way in which they're using it, as a collection of elements that lead people to explore and understand the data in a particular way. They call it a dashboard. Think of it as a dashboard. So that's the walk like a duck and quack like a duck, and maybe other people recognize it as a duck notion that says there's an element of practice to how these things have been co opted, readapted, and sort of socially integrated. That goes beyond the tufty and few kind of design constraints that we all started with.",
+      "id": "ep_135_ut_27"
+    },
+    {
+      "end": 714208,
+      "speaker": "Enrico Bertini",
+      "start": 705080,
+      "text": "Yeah, I'm wondering if it's just one of those things that you know it when you see it, right? You can't really define it, but when you see one, it's clearly a dashboard.",
+      "id": "ep_135_ut_28"
+    },
+    {
+      "end": 727980,
+      "speaker": "Lyn Bartram",
+      "start": 714384,
+      "text": "And if you use it like a dashboard, that was. The other thing, is that the contexts of use are really important. So one of the things we had to understand was not just what is the visual artifact or the interactive artifact. We had to think about how's it being used?",
+      "id": "ep_135_ut_29"
+    },
+    {
+      "end": 740074,
+      "speaker": "Enrico Bertini",
+      "start": 728600,
+      "text": "So how is it used beyond, say. I would say the narrow definition is when you're using it for monitoring purposes. Right. But what else is there?",
+      "id": "ep_135_ut_30"
+    },
+    {
+      "end": 815926,
+      "speaker": "Lyn Bartram",
+      "start": 740202,
+      "text": "So one of the interesting things about this came from the field of urban informatics and how projects around the western world are trying to use dashboards to communicate, like for organizations to communicate with their stakeholders, particularly in cities or social organizations. And one of the pushbacks was people wanted to be able to put in their own data, and the dashboard is almost both. It's not that they want to author a new dashboard, but they are looking at these data and saying, well, I want to be able to add some local data to this to be able to understand how it affects me. Now, we could say maybe that's a linked set of interactive visualizations where we are concerned, but the fact that this is a shared social thing that everyone is using, and that they talk about it as the Dublin City dashboard, for example, or the community development dashboard, that's what they think it is. They think it's a shared visualization construct, common visual elements, and there was some pushback to be able to reconfigure them that is beyond the monitoring concept that we started with.",
+      "id": "ep_135_ut_31"
+    },
+    {
+      "end": 844018,
+      "speaker": "Enrico Bertini",
+      "start": 816048,
+      "text": "Yeah, that's very interesting. And so I think another thing I was curious about is a lot of people working in visualization have such a bad reaction to the whole idea of dashboards. Right. So I think that's probably one of the reasons why you called it the dashboard conspiracy, because we're trying to bring it back. Where does it come from? I think it doesn't. Why does the word has some sort of negative connotation? Is nothing clear to me.",
+      "id": "ep_135_ut_32"
+    },
+    {
+      "end": 890406,
+      "speaker": "Sarikaya",
+      "start": 844074,
+      "text": "I think it's kind of scientifically messy. It's incredibly messy, because now you're dealing with heterogeneous populations, heterogeneous data sets, heterogeneous domains. You're kind of all over the place, and it's sort of, it's quite unbounded. So trying to narrow down, you know, here are specific tenants or principles or rules of thumb that have to do with dashboards. Don't really, they're not easily obtainable. So what we wanted to do with this work is to kind of raise awareness that there are a ton of different things to consider. But here we can start to whittle things down. Look, these are ways that we can apply, say, current visualization research to dashboards to support these large populations.",
+      "id": "ep_135_ut_33"
+    },
+    {
+      "end": 936910,
+      "speaker": "Lyn Bartram",
+      "start": 890558,
+      "text": "And I also think it's a mark, maybe of the maturity of the field. I think the disdain may have come from the fact that people thought from a visual design perspective that it was a salt problem. You know, you align them properly, you avoid the x axis issues, you're using the appropriate consistency, expressiveness, effectiveness, kinds of design principles. Bingo bangle were done, and they're not interesting. But as Alper pointed out, as soon as you open it up a bit, then it gets really messy and hard. And I think this is generally an issue for the visualization community. We've gotten to a stage now we actually have to step into this larger area of impact, and almost visualization has become computational media.",
+      "id": "ep_135_ut_34"
+    },
+    {
+      "end": 938866,
+      "speaker": "Enrico Bertini",
+      "start": 937410,
+      "text": "Yeah, yeah, yeah.",
+      "id": "ep_135_ut_35"
+    },
+    {
+      "end": 998808,
+      "speaker": "Moritz Stefaner",
+      "start": 939018,
+      "text": "I mean, from a designer's perspective, I can say it's, to me, it's always a bit off putting if people ask for a dashboard straight away, because I'm thinking it prescribes a certain form and a certain interaction mode and a certain form of consumption, where people make that separate to decide that basically, mostly, I think often, because this is the main visual format they know for data, but where I think, oh, maybe an email newsletter is good, too, or an app, or, you know, or like sort of a big visualization with drill down options. And so I have more formats in mind, and in my mind, like calling often the projects are already called dashboards before I'm even involved. Right. And that's like calling it the, I don't know, the Globe or the, you know, whatever, like any concrete for that sort of prescribes already how?",
+      "id": "ep_135_ut_36"
+    },
+    {
+      "end": 1001176,
+      "speaker": "Sarikaya",
+      "start": 998824,
+      "text": "It's really interesting to me.",
+      "id": "ep_135_ut_37"
+    },
+    {
+      "end": 1002128,
+      "speaker": "Moritz Stefaner",
+      "start": 1001208,
+      "text": "Very irritating.",
+      "id": "ep_135_ut_38"
+    },
+    {
+      "end": 1012680,
+      "speaker": "Sarikaya",
+      "start": 1002264,
+      "text": "Yes. I think Lyn and I are about to say the same thing, and that is that we saw that dashboard was almost a synonym for portal, like a data portal. It's their portal to big data.",
+      "id": "ep_135_ut_39"
+    },
+    {
+      "end": 1048968,
+      "speaker": "Lyn Bartram",
+      "start": 1012720,
+      "text": "Portal is another proxy for their interface to big data. That's what. So when they ask for a dashboard, I have the same situation when I ask people how they use visualization and they say, well, we use dashboards. And then when you look at them, they're not using our traditional definition of that constrained visual format. It's a proxy word for big data and big data practices. You look at some of the dashboards we saw, they are summary views with drill down options and tabs to take them other places, and very different formats are the user interface to it.",
+      "id": "ep_135_ut_40"
+    },
+    {
+      "end": 1059672,
+      "speaker": "Moritz Stefaner",
+      "start": 1049024,
+      "text": "Yeah. I now realize I just have a much too narrow understanding. So if I were to embrace the wide reading, I could just say, absolutely will totally build a dashboard.",
+      "id": "ep_135_ut_41"
+    },
+    {
+      "end": 1062744,
+      "speaker": "Sarikaya",
+      "start": 1059736,
+      "text": "I think that's it. I think you just say, yes, okay, move on.",
+      "id": "ep_135_ut_42"
+    },
+    {
+      "end": 1082320,
+      "speaker": "Lyn Bartram",
+      "start": 1062832,
+      "text": "Yeah, that was so interesting, Moritz, because that is really the nub of what our discussions started with. Like, they're interesting because everybody used them, but they're so constrained, you know, what about it? And by the end, we were going, wow, this is. Has just taken the lid off pandora's box completely.",
+      "id": "ep_135_ut_43"
+    },
+    {
+      "end": 1117720,
+      "speaker": "Enrico Bertini",
+      "start": 1083660,
+      "text": "Yeah, yeah, yeah. I have to say, Moritz, this reminded me the episodes that we recorded a few weeks, not a few weeks ago, a few months ago, the pig spotting one about your project on the visualizing trains. Right, right. And there was a point when I said, would you call this a dashboard? And the reaction from the team was, whoa. Oh, no. But I'm wondering if people internally would still consider that a dashboard, maybe.",
+      "id": "ep_135_ut_44"
+    },
+    {
+      "end": 1118704,
+      "speaker": "Moritz Stefaner",
+      "start": 1117800,
+      "text": "Yeah, why not?",
+      "id": "ep_135_ut_45"
+    },
+    {
+      "end": 1120824,
+      "speaker": "Enrico Bertini",
+      "start": 1118792,
+      "text": "Would they still call it a dashboard? It's just.",
+      "id": "ep_135_ut_46"
+    },
+    {
+      "end": 1123860,
+      "speaker": "Moritz Stefaner",
+      "start": 1120952,
+      "text": "I haven't heard it. Probably they don't hear it in my presence.",
+      "id": "ep_135_ut_47"
+    },
+    {
+      "end": 1159200,
+      "speaker": "Lyn Bartram",
+      "start": 1124760,
+      "text": "And here's another question, which we sort of got to, which is, does it matter if they think it's a dashboard? Do we get the right to say, oh, no, that's not a dashboard? You're using the wrong term. Somehow. This is a dashboard. A little tight, Stephen. Few thing. And what you're using is not a dashboard. That's not that. Maybe we have to look at the fact that these things have taken off. This functional genre, as Alper was saying, have taken off, and the horse is out of the barn.",
+      "id": "ep_135_ut_48"
+    },
+    {
+      "end": 1175608,
+      "speaker": "Enrico Bertini",
+      "start": 1160300,
+      "text": "So should we switch gear a little bit and maybe talk about. Maybe you can tell us a little bit more about the methodology that you followed, what exactly you did for in this project, and also what you found.",
+      "id": "ep_135_ut_49"
+    },
+    {
+      "end": 1210898,
+      "speaker": "Sarikaya",
+      "start": 1175704,
+      "text": "Oh, sure. So I'll say that we kind of took a two prong approach here. We wanted to actually study the visual artifact of the dashboard, and at the same time, we wanted to see what fields outside of data visualization we're talking about when it came to dashboards. So after a ton of discussion, we ended up kind of splitting the author group into two groups. Michael Carrel and myself kind of studied the visual artifacts, whereas Melanie and Lyn were studying the kind of, like, the research context around dashboard a lot.",
+      "id": "ep_135_ut_50"
+    },
+    {
+      "end": 1212506,
+      "speaker": "Lyn Bartram",
+      "start": 1210994,
+      "text": "Lessons from the trenches.",
+      "id": "ep_135_ut_51"
+    },
+    {
+      "end": 1214490,
+      "speaker": "Sarikaya",
+      "start": 1212618,
+      "text": "Lessons from the trenches is a good way to put.",
+      "id": "ep_135_ut_52"
+    },
+    {
+      "end": 1216506,
+      "speaker": "Enrico Bertini",
+      "start": 1214530,
+      "text": "Yeah, I like that.",
+      "id": "ep_135_ut_53"
+    },
+    {
+      "end": 1395276,
+      "speaker": "Sarikaya",
+      "start": 1216618,
+      "text": "So, actually. So we wanted to not constrain ourselves with what a dashboard definition was, and so you could kind of call it convenience sampling. When we were trying to get visual examples of dashboards, we were doing Google searches for dashboards. We were looking at dashboards published on Tableau public or embedded in power bi. And we're just pulling from a whole host of sources, trying to do a vacuum of a whole bunch of different examples. And we spent a day or two all together in person. I should say that two of the authors are at Tableau. There were two authors that were at the Microsoft and, of course, Lyn and Simon Fraser. And we were all over the place. And so we came together in Seattle, and we argued over what are the visual features that are important to capture, or what are the properties of dashboards that could actually highlight some differences between the visual construction and how people interact with them and things like that. So we came up with a whole host of attributes, and we did some iteration to see, are these attributes functional or operational? Can we have two different coders look at the same dashboard and come up with the same results? That means that we come up with parameters or attributes that we can actually understand or quantify about a dashboard that would tell us something about its use. And so what ended up happening, at least from the visual artifact survey, is that we found that these things tended to cluster into four big categories. It mostly had to do with the fact, whether it was multi page or not, what kind of visualization or visualization fluency support they had. So how complex were their visualizations, and then elements such as annotations. So actually explaining what was going on in the dashboard, for example, like dashboards that tended to have more annotations, tended to be geared toward people that didn't access the dashboard every single day. So, you know someone that accesses the same dashboard every day. So say someone like his CEO, which is kind of what power, bi and Tableau are set up to support. CEO goes and looks at their dashboard every day. They kind of know what the shape of their data looks like. They can very quickly see when something goes wrong, because, hey, that data point isn't in the right spot. But say to someone who's encountering the dashboard for the first time, they need some support. And so those two types of dashboard construction, we did find that had different attributes associated with them.",
+      "id": "ep_135_ut_54"
+    },
+    {
+      "end": 1423610,
+      "speaker": "Enrico Bertini",
+      "start": 1395388,
+      "text": "So I think I'm really curious about some of these clusters. Right. So I think you had one on decision making, which I think is probably the most classic idea of dashboard people have in mind. Right. Then you add what dashboard for awareness, dashboard for motivation and learning. That is kind of new to me. I would love to know more about that. And then you have a final class of things like dashboard evolved, which I think is the rest that didn't really fit anywhere.",
+      "id": "ep_135_ut_55"
+    },
+    {
+      "end": 1443310,
+      "speaker": "Sarikaya",
+      "start": 1424090,
+      "text": "So if you actually look at our clustering, in our paper, we have this figure three, which is our clustering diagram, and maybe we'll make this available because this is just a D3 visualization. But we have this cluster seven, which basically we use hierarchical clustering, and nothing grouped with nothing else in that cluster.",
+      "id": "ep_135_ut_56"
+    },
+    {
+      "end": 1450180,
+      "speaker": "Enrico Bertini",
+      "start": 1445330,
+      "text": "That's where the interesting stuff is. Can you tell us more about it there?",
+      "id": "ep_135_ut_57"
+    },
+    {
+      "end": 1508042,
+      "speaker": "Sarikaya",
+      "start": 1450600,
+      "text": "So this was a lot of kind of. I would almost call it, like, pop dashboard. So these are dashboards that I would say that someone is making their first dashboard, and they're using it to describe data about themselves or about data that they have a lot of agency over. So, for example, one of the examples that we caught in the paper is somebody made a dashboard to quantify the performance of their football or fantasy football team. Football, as in soccer, I should quantify. So this is actually like taking in a whole bunch of data from actual, you know, football performance, but then quantifying it in the. In terms of the performance of their team versus the rest of their. Their fantasy league. And so it had some. It kind of looked like a dashboard, but it was really geared toward their own consumption. Things were organized in the way that.",
+      "id": "ep_135_ut_58"
+    },
+    {
+      "end": 1509602,
+      "speaker": "Lyn Bartram",
+      "start": 1508066,
+      "text": "They wanted, but they share these.",
+      "id": "ep_135_ut_59"
+    },
+    {
+      "end": 1526706,
+      "speaker": "Moritz Stefaner",
+      "start": 1509666,
+      "text": "There's a lot of these works in the Tableau community. Right. And I think just the sheer, like, presence of that feature in Tableau leads to a lot of dashboards being produced, because that's the one way you can combine charts in Tableau, is by building a dashboard. Right.",
+      "id": "ep_135_ut_60"
+    },
+    {
+      "end": 1570360,
+      "speaker": "Lyn Bartram",
+      "start": 1526858,
+      "text": "And our guess was. I mean, my guess is that if we were to go and redo this again, we would see something very. We would see that this is not a kind of a static form, that these are changing all the time, because, as I said, these things are evolving very quickly. The person who did the fantasy football dashboard, that was sort of limited to her or his personal visual analytics. But lots and lots of people are now using sort of hybrid dashboards to, for example, track their health and then share that with their doctors. And so is that a monitoring dashboard? Yes, it is, but it's also something they share with their running community.",
+      "id": "ep_135_ut_61"
+    },
+    {
+      "end": 1572268,
+      "speaker": "Enrico Bertini",
+      "start": 1571820,
+      "text": "Yeah.",
+      "id": "ep_135_ut_62"
+    },
+    {
+      "end": 1578916,
+      "speaker": "Lyn Bartram",
+      "start": 1572324,
+      "text": "And so these are not orthogonal or these are not mutually exclusive dimensions anymore.",
+      "id": "ep_135_ut_63"
+    },
+    {
+      "end": 1579460,
+      "speaker": "Enrico Bertini",
+      "start": 1578988,
+      "text": "Yeah.",
+      "id": "ep_135_ut_64"
+    },
+    {
+      "end": 1580404,
+      "speaker": "Lyn Bartram",
+      "start": 1579580,
+      "text": "Oh, absolutely.",
+      "id": "ep_135_ut_65"
+    },
+    {
+      "end": 1595400,
+      "speaker": "Enrico Bertini",
+      "start": 1580532,
+      "text": "That's a very interesting aspect here that I think you mentioned in the paper is the social Asp, the social role that dashboards play. Right. And I think that's a very interesting aspect that I didn't really think about before. Right.",
+      "id": "ep_135_ut_66"
+    },
+    {
+      "end": 1621700,
+      "speaker": "Lyn Bartram",
+      "start": 1595440,
+      "text": "Yeah. And it plays it in a couple of ways. One is that even with top down data, where social data are actually integrated into the dashboard, or when people are using various hybrid collections of data for their own social behavior. And that showed up even in the business community, by the way, with dashboards that were meant to be shared across departments where they were meant to foment and serve as a common ground for some collaboration.",
+      "id": "ep_135_ut_67"
+    },
+    {
+      "end": 1633792,
+      "speaker": "Moritz Stefaner",
+      "start": 1622720,
+      "text": "Yeah, there's a fine line between reporting and dashboards as well. Right? So you might use the dashboard to monitor, but then you want that print function so you can share it with others and things like that.",
+      "id": "ep_135_ut_68"
+    },
+    {
+      "end": 1652246,
+      "speaker": "Lyn Bartram",
+      "start": 1633816,
+      "text": "And that configuration that says, in my department, we've got 80% of data that are common across the organization, but we want to be able to sort of compare it to our 20% of data and then maybe summarize that up and deliver it over to another department. And is that a dashboard anymore? They think it is, yeah, yeah, yeah.",
+      "id": "ep_135_ut_69"
+    },
+    {
+      "end": 1680760,
+      "speaker": "Enrico Bertini",
+      "start": 1652278,
+      "text": "It's also making me think about this idea that at least in my mind, the most standard models in which visualization in general is used is more either like somebody's presenting something to somebody else or it's used for analysis. But there is also this other kind of scenario where visualizations are used by a group of people to discuss something together, right. Which looks to me like a very interesting and huge and huge.",
+      "id": "ep_135_ut_70"
+    },
+    {
+      "end": 1728740,
+      "speaker": "Lyn Bartram",
+      "start": 1681260,
+      "text": "We saw that throughout the, when we actually went out and looked in the field. So the other piece that we did, in addition to the visual design deconstruction, was to go out and look at papers that didn't come from the visualization field in health and personal visual analytics and learning analytics and social like, just case upon case studies and user studies of what's actually going on with the implementation and deployment of these things, and they are no longer a push, only like we here's the data and you just monitor it and you don't do anything with it. They're actually a functional artifact of collaboration, decision making and communication across, not just at a summary level.",
+      "id": "ep_135_ut_71"
+    },
+    {
+      "end": 1790394,
+      "speaker": "Moritz Stefaner",
+      "start": 1730090,
+      "text": "Can I ask a practical question? Because I have a recurring problem when designing dashboards, and that's with interaction, because I think often you will want to have a selection of sorts that you can you see something interesting in a chart and you want to drill down into that data point, or you want to filter based on a chart, but then you always run into these problems of, okay, when a user clicks that bar, should that filter everything else? And then should it even filter away the other bars in the same chart? Or do you hide them? Like, do you change the opacity? What if they click two things, like a place on a map and a time point? Right. Should you be able to do both filterings at once? After looking at all these dashboards, are there any recurring patterns where you say, yeah, that's the default behavior there, or would you even like how much do you recommend complex interaction with dashboards?",
+      "id": "ep_135_ut_72"
+    },
+    {
+      "end": 1791458,
+      "speaker": "Lyn Bartram",
+      "start": 1790482,
+      "text": "That's a question.",
+      "id": "ep_135_ut_73"
+    },
+    {
+      "end": 1792610,
+      "speaker": "Sarikaya",
+      "start": 1791634,
+      "text": "That's quite a question.",
+      "id": "ep_135_ut_74"
+    },
+    {
+      "end": 1796590,
+      "speaker": "Lyn Bartram",
+      "start": 1792690,
+      "text": "We don't have an answer yet. That's why they're interesting.",
+      "id": "ep_135_ut_75"
+    },
+    {
+      "end": 1849000,
+      "speaker": "Sarikaya",
+      "start": 1797490,
+      "text": "Yeah, I can talk from the perspective of someone in the industry that's actually working on a dashboarding or report building application, and that is we almost, users kind of understand that there are these interactions that you can do with visuals. They have a very consistent, at least in power bi. There's a very consistent set of things you can do with the visualization, so you can drill down, you can look at more data on an aggregated data point. So say a bar chart that summarizes a lot of data, but it really is up to the report author. They can customize whether you cross highlight or cross filter. What happens when you're say, I think Tableau has this now too, where you hover over a data point, you almost get a report inside of a tooltip, which is like more data.",
+      "id": "ep_135_ut_76"
+    },
+    {
+      "end": 1850240,
+      "speaker": "Moritz Stefaner",
+      "start": 1849300,
+      "text": "Exactly.",
+      "id": "ep_135_ut_77"
+    },
+    {
+      "end": 1891442,
+      "speaker": "Sarikaya",
+      "start": 1850940,
+      "text": "At that aggregated point you're hovering over. And so I think vis also has this problem in general, which is like, how do you make interactions discoverable? Or how do you create a standard set of interaction paradigms? So say, if you think about just like the user interfaces, say like an operating system or the Windows user interface, people are used to how you interact with Windows on a desktop just because they more or less been taught it. I wonder if we can come up with a similar sort of language for dashboards or for just navigating these coordinated multiple views, essentially.",
+      "id": "ep_135_ut_78"
+    },
+    {
+      "end": 1988724,
+      "speaker": "Lyn Bartram",
+      "start": 1891626,
+      "text": "And it did sort of point to, although we didn't really discuss this in the paper, except to allude to it slightly, it did point to the weaknesses of the kind of publish subscribe model of dashboards that exists in something like Tableau server, for example, or Tableau public. And that is that there is this notion of a local context and a global context, so people may want to be able to interact with it locally, to be able to see within the familiar formalism what sort of is relevant to them without affecting the global. So they're actually like more like forking and maybe merging in the sort of GitHub model. But there was definitely a push that we saw coming from people talking about the limitations of the dashboards they were currently using in the field to be able to do something like this, to be able to interact with it. And one of the things that came out from some of the business intelligence was wanting to know what was behind the dashboard. Speaking to Moritz about how we this is the front face, the user interface to the data behind. They wanted to say, what's available behind this? Just drill down, drill up or roll up. It was, what kinds of analytic capabilities can I do beyond this? And maybe the CFO can do something different than the warehouse manager within the same dashboard. So they have the shared view, but there are different capabilities behind them. And that's very interesting in terms of interaction richness and where you go.",
+      "id": "ep_135_ut_79"
+    },
+    {
+      "end": 1991628,
+      "speaker": "Enrico Bertini",
+      "start": 1988892,
+      "text": "So you have a problem of personalization there. Basically.",
+      "id": "ep_135_ut_80"
+    },
+    {
+      "end": 2004140,
+      "speaker": "Lyn Bartram",
+      "start": 1991684,
+      "text": "This is really something we dealt with a lot in interaction design. I think maybe interaction design has just jumped right into the vis community and said, look at the context of use in a different way.",
+      "id": "ep_135_ut_81"
+    },
+    {
+      "end": 2068640,
+      "speaker": "Sarikaya",
+      "start": 2004300,
+      "text": "I actually want to go back to an earlier point you made, Lyn, where you were talking about different Personas. And I think at least in terms of industry and how industry designs, dashboard creation and use, they think of people having very different Personas. Like for example, in power bi. We think of the report author as being disjoint from the report consumer. So the report author has to kind of anticipate what the consumer wants. But if the consumer is confused, they don't get much support. They don't have the ability to say, adapt the dashboard for their own needs or bring their own data in. I think this is consistently a problem across all dashboarding tools. And I think I'm seeing a push for kind of giving some agency or giving some control to the consumer to say what's going on here? What if I wanted to look at this data a different way, kind of giving that functionality, or I suppose understanding to that end user?",
+      "id": "ep_135_ut_82"
+    },
+    {
+      "end": 2096278,
+      "speaker": "Moritz Stefaner",
+      "start": 2069070,
+      "text": "Yeah. But I think there's also a cultural gap there because if you think about like, that's another, like maybe over generalizing, but often when people talk about dashboards, they also talk about KPI's like key performance indicators and sort of making fairly simple metrics about your business available in an attractive form, let's say. Right. So it has a lot to do with aggregation and abstraction and hiding information. Actually, like from a cultural point of.",
+      "id": "ep_135_ut_83"
+    },
+    {
+      "end": 2126566,
+      "speaker": "Lyn Bartram",
+      "start": 2096294,
+      "text": "View, that is actually something that we saw identified as a big challenge is the limitations of data driven thinking because it's reductionist. And we saw this in the business intelligence field as well. The notion that KPI's the KPI mindset that has driven much of dashboard design. So maybe dashboard design is an indicator of the KPI mindset is sometimes not sufficient. It's not that everyone's going to throw KPI's out the window, but there is other data that is also critical.",
+      "id": "ep_135_ut_84"
+    },
+    {
+      "end": 2133470,
+      "speaker": "Moritz Stefaner",
+      "start": 2126638,
+      "text": "Yeah, or maybe using KPI's is fine as long as you can explore all the context and find.",
+      "id": "ep_135_ut_85"
+    },
+    {
+      "end": 2134382,
+      "speaker": "Lyn Bartram",
+      "start": 2133590,
+      "text": "Exactly. Right.",
+      "id": "ep_135_ut_86"
+    },
+    {
+      "end": 2146150,
+      "speaker": "Moritz Stefaner",
+      "start": 2134446,
+      "text": "That goes into a KPI. Right. And maybe we are now approaching that point where people are curious about what goes into, like, this summary metrics that they see in the dashboard. Right.",
+      "id": "ep_135_ut_87"
+    },
+    {
+      "end": 2198750,
+      "speaker": "Lyn Bartram",
+      "start": 2146310,
+      "text": "And Alper's point about agency is that just showed up everywhere. Customers want agency, like within, you know, the report generators and the end users. In the business field, there was this constant discussion about who has agency, but it showed up across the board in terms of the social impact and the ways in which it is used. Like who has the right to control what I see and what I get access to, and how come I can't have more control, or at least more access to be able to look at different things? And I think this is just a general, it's an example of a larger trend in this notion of big data practices, which is what the sort of ethics are of saying, this is what you have the right to get at some of these data. And there are also the other side of it, which is privacy.",
+      "id": "ep_135_ut_88"
+    },
+    {
+      "end": 2200646,
+      "speaker": "Enrico Bertini",
+      "start": 2198910,
+      "text": "Yeah, privacy is huge, I guess.",
+      "id": "ep_135_ut_89"
+    },
+    {
+      "end": 2201290,
+      "speaker": "Lyn Bartram",
+      "start": 2200678,
+      "text": "Yes.",
+      "id": "ep_135_ut_90"
+    },
+    {
+      "end": 2242982,
+      "speaker": "Enrico Bertini",
+      "start": 2202070,
+      "text": "Yes. So I think, I hope that through this discussion, we kind of, like, managed to demonstrate that dashboards are interesting objects. So I'm wondering maybe we can conclude by briefly talking about what can be done next, and maybe not only not exclusively from the perspective of researchers, but also for practitioners, how they can maybe improve over situations in which, like, yeah, their customers are asking for another dashboard and what can they do, right.",
+      "id": "ep_135_ut_91"
+    },
+    {
+      "end": 2311480,
+      "speaker": "Sarikaya",
+      "start": 2243086,
+      "text": "So I think one of the most interesting things to me is that the opportunity to support the fluency of visualization to the general audience. Just that the fact that we have these tools where, say, report authors make these dashboards for someone to understand what's going on in their organization, but the user, the end user, might not actually understand what's going on. So how can we use the dashboard itself as a tool to support or enable people to take control over what they see? Because visualization, as we all know, is an incredibly powerful medium, but it takes some training. So if dashboards are people's primary portals to big data and data driven thinking, why not use the same medium to also help educate and support people in kind of developing these skills that come along with reading visualizations and making data driven decisions?",
+      "id": "ep_135_ut_92"
+    },
+    {
+      "end": 2378138,
+      "speaker": "Lyn Bartram",
+      "start": 2311600,
+      "text": "One of the things that came out is that we have really very impoverished constructs for what data literacy, or visualization literacy actually is. So I think there's a big piece there from the research side and picking up on what Alper said, from how, you know, what is going on in the practitioner side, let's look at practice, because the other thing that organizations are struggling with is this huge need for their stakeholders and their members and their users and their workers to become competent in data skills. And, I mean, this is coming very fast. I forget who it was. I think it was Forbes that was citing a study that said by 2021, us organizations want 85% of their workforce to be data literate. That's everybody, including the person on the shop floor, you know, the Walmart greeter. And so dashboards are proliferating everywhere. So how are they being used? And understanding how those practices feedback up to the design, I think is going to be really interesting for people both inside and outside the visualization community.",
+      "id": "ep_135_ut_93"
+    },
+    {
+      "end": 2415518,
+      "speaker": "Enrico Bertini",
+      "start": 2378274,
+      "text": "Yeah, yeah, I think that's really, really huge. And we had a couple of episodes on the show in the past about visualization literacy. But when we talk about visualization literacy, we tend to focus on the problem of to what degree people are able to read information out of graphs. But I think it's much bigger than that. And I guess that's what, Lyn, what you're trying to say right there is the general and bigger problem of what kind of inferences people can make or are going to make on top of these visual representations of data. And, yeah, it's a mess picking up.",
+      "id": "ep_135_ut_94"
+    },
+    {
+      "end": 2424062,
+      "speaker": "Lyn Bartram",
+      "start": 2415534,
+      "text": "On what Alper said, and he has been emphasizing all the way through about agency. Literacy isn't only about reading, it's also about writing.",
+      "id": "ep_135_ut_95"
+    },
+    {
+      "end": 2425606,
+      "speaker": "Enrico Bertini",
+      "start": 2424126,
+      "text": "Yeah, absolutely.",
+      "id": "ep_135_ut_96"
+    },
+    {
+      "end": 2439842,
+      "speaker": "Lyn Bartram",
+      "start": 2425678,
+      "text": "So what are the implications of talking, like picking up again from Moritz and saying, how do you visually structure their information space? What are the capabilities of dashboards to help people learn about how they author with data?",
+      "id": "ep_135_ut_97"
+    },
+    {
+      "end": 2456258,
+      "speaker": "Sarikaya",
+      "start": 2439986,
+      "text": "Yeah, yeah, actually, that actually gets to an interesting point. What I see about the future of the research around dashboards is how do we support dashboard authors and kind of coming up with the right message?",
+      "id": "ep_135_ut_98"
+    },
+    {
+      "end": 2456610,
+      "speaker": "Lyn Bartram",
+      "start": 2456354,
+      "text": "Yes.",
+      "id": "ep_135_ut_99"
+    },
+    {
+      "end": 2496178,
+      "speaker": "Sarikaya",
+      "start": 2456650,
+      "text": "And so that's basically, you know, we came up with these clusters of dashboard designs. They're all good for different scenarios. Of course, there's some wiggle room. But if somebody wanted to make a monitoring dashboard, maybe you should start with this template, or maybe we should guide the user in creating a dashboard that has these elements because, and then, you know, walking them through kind of a tutorial style, maybe a wizard style, but just like a template to help them focus on the right message. And then maybe even at the same time, like, why is this the right way to do it? I think that's an open area, and I think that'd be really interesting to explore. Yeah.",
+      "id": "ep_135_ut_100"
+    },
+    {
+      "end": 2522658,
+      "speaker": "Moritz Stefaner",
+      "start": 2496194,
+      "text": "But I think that's a great contribution of your studies to show all this variety that's out there and that it's not this monolithic old genre that we think we know already, but it's actually quite an evolving and fascinating field. And so, yeah, I mean, for me at least, I think it opened my mind a bit more to maybe we can do exactly the conspiracy already. Like, has its.",
+      "id": "ep_135_ut_101"
+    },
+    {
+      "end": 2524190,
+      "speaker": "Enrico Bertini",
+      "start": 2522714,
+      "text": "We have one big thing.",
+      "id": "ep_135_ut_102"
+    },
+    {
+      "end": 2529830,
+      "speaker": "Moritz Stefaner",
+      "start": 2526530,
+      "text": "And maybe there will be more after this episode. Who knows?",
+      "id": "ep_135_ut_103"
+    },
+    {
+      "end": 2571830,
+      "speaker": "Lyn Bartram",
+      "start": 2530490,
+      "text": "I think the last piece is that in particular speaks to some of the work that I've seen from you, Moritz, is that we've been very unexpressive with dashboards, and we heard, we saw a lot from the studies in the field of alluding to the fact that there are things that people would like to be able to express in these visual collections of shared information that they can't express. And that speaks to the larger need of visualization, I think, to be able to embed more things from storytelling, from visual expressiveness, that are typically not considered as good in the KPI mindset. So this is about dashboards bursting out of the KPI mindset.",
+      "id": "ep_135_ut_104"
+    },
+    {
+      "end": 2608130,
+      "speaker": "Moritz Stefaner",
+      "start": 2571950,
+      "text": "Yeah. It's, again, another case where both sides can profit by taking each other seriously and sort of looking at what everybody's doing and seeing how we can improve together. So I think that's great. Yeah, we'll have to wrap it up. Thanks so much for coming. I think this fascinating. We'll put all the material, of course, that you mentioned in the show, notes. There's even a repository we'll link to with all the dashboards you looked at. So if you're looking for inspiration for your next dashboard design, you should be all set with the material provided. Thanks so much for coming.",
+      "id": "ep_135_ut_105"
+    },
+    {
+      "end": 2608730,
+      "speaker": "Lyn Bartram",
+      "start": 2608250,
+      "text": "Thank you.",
+      "id": "ep_135_ut_106"
+    },
+    {
+      "end": 2609794,
+      "speaker": "Sarikaya",
+      "start": 2608770,
+      "text": "Thank you for having us.",
+      "id": "ep_135_ut_107"
+    },
+    {
+      "end": 2637376,
+      "speaker": "Enrico Bertini",
+      "start": 2609882,
+      "text": "Thank you. Bye bye bye. Hey, folks, thanks for listening to data stories again. Before you leave a few last notes, this show is now completely crowdfunded. So you can support us by going on Patreon. That's patreon.com Datastories. And if you, you can spend a couple of minutes reading us on iTunes, that would be extremely helpful for the show.",
+      "id": "ep_135_ut_108"
+    },
+    {
+      "end": 2663282,
+      "speaker": "Moritz Stefaner",
+      "start": 2637488,
+      "text": "And here's also some information on the many ways you can get news directly from us. We're, of course, on twitter@twitter.com. Datastories. We have a Facebook page@Facebook.com. data storiespodcast all in one word. And we also have a slack channel where you can chat with us directly. And to sign up, you can go to our homepage datastory.edu and there is a button at the bottom of the page.",
+      "id": "ep_135_ut_109"
+    },
+    {
+      "end": 2679138,
+      "speaker": "Enrico Bertini",
+      "start": 2663426,
+      "text": "And we also have an email newsletter. So if you want to get news directly into your inbox and be notified whenever we publish an episode, you can go to our home page Datastories, read es, and look for the link you find at the bottom in the footer.",
+      "id": "ep_135_ut_110"
+    },
+    {
+      "end": 2691298,
+      "speaker": "Moritz Stefaner",
+      "start": 2679234,
+      "text": "So one last thing we want to tell you is that we love to get in touch with our listeners, especially if you want to suggest a way to improve the show or amazing people you want us to invite or even projects you want us to talk about.",
+      "id": "ep_135_ut_111"
+    },
+    {
+      "end": 2700490,
+      "speaker": "Enrico Bertini",
+      "start": 2691394,
+      "text": "Yeah, absolutely. And don't hesitate to get in touch with us. It's always a great thing to hear from you. So see you next time, and thanks for listening to data stories.",
+      "id": "ep_135_ut_112"
+    }
+  ],
+  "confidence": 0.932483268361581,
+  "audio_duration": 2711,
+  "punctuate": true,
+  "format_text": true,
+  "dual_channel": false,
+  "webhook_url": null,
+  "webhook_status_code": null,
+  "webhook_auth": false,
+  "webhook_auth_header_name": null,
+  "speed_boost": false,
+  "auto_highlights_result": null,
+  "auto_highlights": false,
+  "audio_start_from": null,
+  "audio_end_at": null,
+  "word_boost": [],
+  "boost_param": null,
+  "filter_profanity": false,
+  "redact_pii": false,
+  "redact_pii_audio": false,
+  "redact_pii_audio_quality": null,
+  "redact_pii_policies": null,
+  "redact_pii_sub": null,
+  "speaker_labels": true,
+  "content_safety": false,
+  "iab_categories": true,
+  "content_safety_labels": {
+    "status": "unavailable",
+    "results": [],
+    "summary": {}
+  },
+  "language_detection": false,
+  "language_detection_threshold": null,
+  "language_confidence": null,
+  "custom_spelling": null,
+  "throttled": false,
+  "auto_chapters": true,
+  "summarization": false,
+  "summary_type": null,
+  "summary_model": null,
+  "custom_topics": false,
+  "topics": [],
+  "speech_threshold": null,
+  "speech_model": "best",
+  "chapters": [
+    {
+      "summary": "This is a new episode of Data stories. We talk about data visualization, analysis, and the role that data plays in our lives. As you might know, our podcast is fully listener supported by now, so there are no ads. Please consider supporting us.",
+      "gist": "Data Stories",
+      "headline": "This podcast is running thanks to your donations. Please consider supporting us",
+      "start": 120,
+      "end": 108400,
+      "id": "ep_135_ch_0"
+    },
+    {
+      "summary": "Today we are talking about a very interesting topic, and are you ready? We're going to talk about dashboards. The impetus for this episode is a presentation of a paper that we saw at the IEEE vis conference in Berlin a few months ago. Two of the authors with us today will talk about this really, really interesting piece of work.",
+      "gist": "What Do We Talk About in This Episode?",
+      "headline": "Today on the show we're going to talk about dashboards",
+      "start": 108940,
+      "end": 202642,
+      "id": "ep_135_ch_1"
+    },
+    {
+      "summary": "I'm a professor in the School of interactive Art and Technology at Simon Fraser University in Vancouver, Canada. I work in the area of data visualization and increasingly in data practices. I'm really interested in trying to make sure that dashboards reports visualizations are understandable and comprehendible by a large swath of people.",
+      "gist": "In the Elevator With Microsoft's Data Visualization Lead",
+      "headline": "I'm a professor at Simon Fraser University working in data visualization and analytics",
+      "start": 202826,
+      "end": 283900,
+      "id": "ep_135_ch_2"
+    },
+    {
+      "summary": "The dashboard conspiracy project aims to get people to talk about data visualization research in the context of dashboards. It's a way to test, educate, and just see how our visualization practices can translate to dashboards and reporting at the large scale.",
+      "gist": "The Data Visualization Conspiracy",
+      "headline": "The dashboard conspiracy project aims to test whether data visualization practices translate to dashboards",
+      "start": 284060,
+      "end": 461354,
+      "id": "ep_135_ch_3"
+    },
+    {
+      "summary": "Lin: What were your initial intuitions about dashboards? What constitutes a dashboard, and how have you changed your notion of that? Lin: It should be something changing over time, like a monitoring tool. And the other thing is, it should probably be composed of different parts.",
+      "gist": "What is a Dashboard?",
+      "headline": "What were your initial intuitions about dashboards? What constitutes a dashboard",
+      "start": 461482,
+      "end": 818042,
+      "id": "ep_135_ch_4"
+    },
+    {
+      "summary": "Moritz: A lot of people working in visualization have such a bad reaction to the whole idea of dashboards. He says as soon as you open it up a bit, then it gets really messy and hard. Moritz: Almost visualization has become computational media.",
+      "gist": "Why do we hate the word \"dashboard\"?",
+      "headline": "A lot of people working in visualization have a bad reaction to dashboards",
+      "start": 818146,
+      "end": 1159200,
+      "id": "ep_135_ch_5"
+    },
+    {
+      "summary": "Researchers studied the visual artifact of the dashboard. Also wanted to see what fields outside of data visualization we're talking about when it came to dashboards. Found that these things tended to cluster into four big categories.",
+      "gist": "The Visual artifact survey of dashboards",
+      "headline": "Michael Carrel: We wanted to study the visual artifact of the dashboard",
+      "start": 1160300,
+      "end": 1580404,
+      "id": "ep_135_ch_6"
+    },
+    {
+      "summary": "There's a fine line between reporting and dashboards as well. Even with top down data, where social data are integrated into the dashboard. They're actually a functional artifact of collaboration, decision making and communication across.",
+      "gist": "The Social Role of Data Dashboards",
+      "headline": "Social role that dashboards play in the business community is interesting",
+      "start": 1580532,
+      "end": 1728740,
+      "id": "ep_135_ch_7"
+    },
+    {
+      "summary": " vis also has this problem in general, which is like, how do you make interactions discoverable? How do you create a standard set of interaction paradigms for dashboards?",
+      "gist": "The Problem of Interactivity in Data Visualizations",
+      "headline": "I have a recurring problem when designing dashboards with interaction",
+      "start": 1730090,
+      "end": 2004140,
+      "id": "ep_135_ch_8"
+    },
+    {
+      "summary": "The notion that KPI's the KPI mindset that has driven much of dashboard design is sometimes not sufficient. Customers want agency, like within, you know, the report generators and the end users. I hope that through this discussion, we kind of, like, demonstrate that dashboards are interesting objects.",
+      "gist": "Different Personas in Data-Driven Dashboards",
+      "headline": "Lyn View: Customers want agency, report generators want predictability",
+      "start": 2004300,
+      "end": 2214020,
+      "id": "ep_135_ch_9"
+    },
+    {
+      "summary": " Lyn: Why not use the same medium to also help educate and support people in developing these skills that come along with reading visualizations and making data driven decisions? By 2021, us organizations want 85% of their workforce to be data literate.",
+      "gist": "Will data literacy be supported on dashboards?",
+      "headline": "There is a huge need for organizations to become competent in data skills",
+      "start": 2215960,
+      "end": 2612190,
+      "id": "ep_135_ch_10"
+    },
+    {
+      "summary": "This show is now completely crowdfunded. You can support us by going on patreon. com Datastories. And here's some information on the many ways you can get news directly from us. We love to get in touch with our listeners, especially if you want to suggest a way to improve the show.",
+      "gist": "How to Subscribe to Data Stories",
+      "headline": "This show is now completely crowdfunded and can be supported on Patreon",
+      "start": 2616970,
+      "end": 2700490,
+      "id": "ep_135_ch_11"
+    }
+  ],
+  "disfluencies": false,
+  "entity_detection": false,
+  "sentiment_analysis": false,
+  "sentiment_analysis_results": null,
+  "entities": null,
+  "speakers_expected": null,
+  "summary": null,
+  "custom_topics_results": null,
+  "episode_num": 135,
+  "episode_metadata": {
+    "speakers": [
+      "Lyn Bartram",
+      "Enrico Bertini",
+      "Moritz Stefaner",
+      "Sarikaya"
+    ],
+    "WPid": "1324",
+    "url": "https://datastori.es/podlove/file/5612/s/feed/c/mp3/datastories-135.mp3",
+    "episode_title": "The \"Dashboard Conspiracy\" with Lyn Bartram and Alper Sarikaya"
+  }
+}

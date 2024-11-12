@@ -1,0 +1,1740 @@
+{
+  "id": "18aff9bd-458c-4b23-aa39-87197f57aba3",
+  "language_model": "assemblyai_default",
+  "acoustic_model": "assemblyai_default",
+  "language_code": "en_us",
+  "status": "completed",
+  "audio_url": "https://datastori.es/podlove/file/158/s/feed/c/mp3/Datastories-17.mp3",
+  "utterances": [
+    {
+      "end": 19394,
+      "speaker": "Enrico Bertini",
+      "start": 10040,
+      "text": "Hi, everyone. Data stories number 17 again on the Google hangout. We cannot stop doing that. Moritz, how are you?",
+      "id": "ep_17_ut_0"
+    },
+    {
+      "end": 24094,
+      "speaker": "Moritz Stefaner",
+      "start": 19814,
+      "text": "Great, thanks, Enrico, how are you? Have you recovered a bit from your flu?",
+      "id": "ep_17_ut_1"
+    },
+    {
+      "end": 47172,
+      "speaker": "Enrico Bertini",
+      "start": 24254,
+      "text": "It's been crazy. I had a long last week I was so sick. I mean, it was crazy. I don't know what kind of flu they have here. On the other part, on the other side of the ocean. I never had such a strong flu. It's crazy. I'm still recovering. Anyway, now I'm fine. I'm in my office and I feel much, much better. How about you?",
+      "id": "ep_17_ut_2"
+    },
+    {
+      "end": 53184,
+      "speaker": "Moritz Stefaner",
+      "start": 47348,
+      "text": "Good, good. I mean, I'm just having a cold, but probably not comparable to your killer flu.",
+      "id": "ep_17_ut_3"
+    },
+    {
+      "end": 54684,
+      "speaker": "Enrico Bertini",
+      "start": 54324,
+      "text": "Yeah.",
+      "id": "ep_17_ut_4"
+    },
+    {
+      "end": 60672,
+      "speaker": "Moritz Stefaner",
+      "start": 54724,
+      "text": "And the year is starting to kick in, so now everybody wants to do projects and has funny ideas and so on.",
+      "id": "ep_17_ut_5"
+    },
+    {
+      "end": 84938,
+      "speaker": "Enrico Bertini",
+      "start": 60808,
+      "text": "Yeah, yeah. We are all overwhelmed. Anyway, so let's start with the main topic of the, of this episode. We have a couple of guests today, and we're gonna talk about data sculptures, or also known as physical visualization. So we have Yvonne Janssen and Pierre. Dr. How are you?",
+      "id": "ep_17_ut_6"
+    },
+    {
+      "end": 85598,
+      "speaker": "Pierre Dragicevic",
+      "start": 85056,
+      "text": "Hi. Good.",
+      "id": "ep_17_ut_7"
+    },
+    {
+      "end": 86234,
+      "speaker": "Yvonne Jansen",
+      "start": 85646,
+      "text": "Hi.",
+      "id": "ep_17_ut_8"
+    },
+    {
+      "end": 185218,
+      "speaker": "Enrico Bertini",
+      "start": 86894,
+      "text": "So it's great to have you on the show today. So let me give a brief introduction about you, who you are and why we decided to have this episode. So, Pierre and Yvonne, they are researchers at the IRA in Paris, one of the leading data visualization and human computer interaction groups. And the reason why we organize this, this episode on data's culture is because I met them some months ago at the Visweek conference and I saw the fantastic work they have been doing on analyzing physical visualizations, which basically means instead of having visualization displayed on the screen, there is a physical object that shows the data. And they are going to show us some of these little toys. After meeting them at this week, I actually, we stayed in touch and I discovered they have a nice webpage where they are collecting examples of physical visualizations. And another interesting things we are going to talk about today is a study that they recently run an experiment comparing different kinds of visualizations, some digital, some they're going to explain us what the results of these studies are. So, Pierre and Yvonne, do you want to introduce yourself a little better and tell to our listeners who you are, what you are doing, what are your interests? First, Pierre, you want to start?",
+      "id": "ep_17_ut_9"
+    },
+    {
+      "end": 213934,
+      "speaker": "Pierre Dragicevic",
+      "start": 185346,
+      "text": "Yeah, I guess you already introduced me. So I'm basically a researcher at INRIA, at the AVI's team working on information visualization and human computer interaction. My background is actually human computer interaction originally, and I started doing research on infovis when I joined in RIA in 2007, so it's been already five years, but I still consider myself as a novice and newcomer.",
+      "id": "ep_17_ut_10"
+    },
+    {
+      "end": 217454,
+      "speaker": "Enrico Bertini",
+      "start": 216314,
+      "text": "And Yvonne?",
+      "id": "ep_17_ut_11"
+    },
+    {
+      "end": 238334,
+      "speaker": "Yvonne Jansen",
+      "start": 218434,
+      "text": "Yes, I'm a PhD student supervised by Pierre and Jean Eniel Fiket, and I'm working on physical information visualization. And I'm, yes, exploring how physical objects can be used for information visualization.",
+      "id": "ep_17_ut_12"
+    },
+    {
+      "end": 252854,
+      "speaker": "Enrico Bertini",
+      "start": 238674,
+      "text": "Okay, great. So can I suggest, before we move on to describing anything, can you show us any of these tools that you've been building so people can understand what we are talking about before we move on to describe.",
+      "id": "ep_17_ut_13"
+    },
+    {
+      "end": 273620,
+      "speaker": "Yvonne Jansen",
+      "start": 254234,
+      "text": "My office is filled with these little objects, which is basically what I studied last year and which I evaluated to find out whether those are actually suitable to read the data, not just as pretty colorful objects.",
+      "id": "ep_17_ut_14"
+    },
+    {
+      "end": 288854,
+      "speaker": "Enrico Bertini",
+      "start": 273772,
+      "text": "Yeah. So can you guys, briefly, I would like to start from describing the study that you run, because I think it's a very interesting study with interesting results. Can you briefly describe what you did and what you found?",
+      "id": "ep_17_ut_15"
+    },
+    {
+      "end": 423334,
+      "speaker": "Yvonne Jansen",
+      "start": 289954,
+      "text": "Okay, so, yes, as I said, we wanted to assess whether these objects are actually useful to read the data. So we built a lot of those 13 to be exact, and we created this equivalent screen versions, and we wanted to see how they differ in efficiency, to be soft, simple tasks, to read values, to deal with occlusion, and to find data points and compare them in size. And so we compared this to the same thing on screen, which I currently cannot show anyways, it looks almost the same. Could similarly be manipulated with a mouse just by rotating it, basically these angles. And yes. So we also included two control conditions for this to see how much this is due to stereo cues. So with a physical object, you always have perfect stereo cues. So we had the stereoscopic condition with the 3d screen and a 2d control condition where we had a very nice interactive 2d visualization where you could basically get something like a top view as a matrix, and you could click rows or columns to get 2d slice. So what we basically found is that, yes, 2d works better, you get a very nice 2d cut, and as long as the task can be solved with this cut, it works very well. But the physical works better than an on screen version. And for this, this basically made us wonder why, how come? What are the benefits, since the stereoscopic didn't really help.",
+      "id": "ep_17_ut_16"
+    },
+    {
+      "end": 441478,
+      "speaker": "Enrico Bertini",
+      "start": 423694,
+      "text": "Okay, so basically what you found is that 2d is always better, but as soon as you move to a 3d representation, then physical is better, right? So if you have a 3d representation of this bar chart on the screen, that's gonna perform worse than the physical counterpart, right?",
+      "id": "ep_17_ut_17"
+    },
+    {
+      "end": 442634,
+      "speaker": "Yvonne Jansen",
+      "start": 441526,
+      "text": "Yes, exactly.",
+      "id": "ep_17_ut_18"
+    },
+    {
+      "end": 450234,
+      "speaker": "Moritz Stefaner",
+      "start": 445414,
+      "text": "Can I ask one question about the data and about the tasks people had to do.",
+      "id": "ep_17_ut_19"
+    },
+    {
+      "end": 478434,
+      "speaker": "Yvonne Jansen",
+      "start": 450574,
+      "text": "Yes. So the data, those are all country indicators taken from Gapminder, actually, from the data sets available on the Gapminder website. And so this, for example, is armed forces personnel. So how many people in the country work in the army? I have another one on how much money is spent on education. I have one on unemployment rates.",
+      "id": "ep_17_ut_20"
+    },
+    {
+      "end": 484400,
+      "speaker": "Moritz Stefaner",
+      "start": 480904,
+      "text": "What are the x's? Is it countries and years or countries?",
+      "id": "ep_17_ut_21"
+    },
+    {
+      "end": 495604,
+      "speaker": "Yvonne Jansen",
+      "start": 484472,
+      "text": "Exactly. It's countries against years. So one color is one country, then the other axes are the years.",
+      "id": "ep_17_ut_22"
+    },
+    {
+      "end": 503512,
+      "speaker": "Moritz Stefaner",
+      "start": 496464,
+      "text": "And the task would be to compare two values or to find the highest or lowest or. What did people have to do?",
+      "id": "ep_17_ut_23"
+    },
+    {
+      "end": 539118,
+      "speaker": "Yvonne Jansen",
+      "start": 503688,
+      "text": "We have three tasks. So one was to find one country, to identify one country and then give the range. So basically, the lowest and the highest value for that country, which actually required to read the values. Another task was to sort all countries for one year ascendingly. So it required a lot of turning around to deal with occlusion. And the third one was to find three specific data points and say which one is the lowest.",
+      "id": "ep_17_ut_24"
+    },
+    {
+      "end": 540034,
+      "speaker": "Moritz Stefaner",
+      "start": 539246,
+      "text": "Okay.",
+      "id": "ep_17_ut_25"
+    },
+    {
+      "end": 563474,
+      "speaker": "Yvonne Jansen",
+      "start": 540534,
+      "text": "And this was the only task which could not be solved with the 2d cut, since they were all non adjacent. And so for this one, the 2d performed still better, but the difference was much lower. So there it was only 15. And in overall, I think it was something like 40% difference, something around that.",
+      "id": "ep_17_ut_26"
+    },
+    {
+      "end": 574954,
+      "speaker": "Enrico Bertini",
+      "start": 566194,
+      "text": "Okay. And then you had some follow up studies to understand why physical visualization performed better in some cases.",
+      "id": "ep_17_ut_27"
+    },
+    {
+      "end": 655854,
+      "speaker": "Yvonne Jansen",
+      "start": 575114,
+      "text": "Yes, exactly. So we videotaped the participants and looked at how they solved the tasks. And so we found that they used their fingers a lot to mark and to retrieve values to orient themselves within the chart. And so the more they did this, the better they seemed to perform. And so we wanted to test this hypothesis. And so we did a second experiment where we basically had only the physical and the on screen, and we added two conditions where we tried to make the onscreen version better by giving physical control, so they rotated in the same way. They had this one, actually. So there's a sensor underneath, and it was directly linked to the on screen model so you could manipulate it in the same way. But you saw the data on the screen. And for the physical, we had two different versions. One, we explicitly asked people to use their fingers to help solve the task. And the other one, we reminded them constantly to not do that.",
+      "id": "ep_17_ut_28"
+    },
+    {
+      "end": 657290,
+      "speaker": "Enrico Bertini",
+      "start": 656394,
+      "text": "Okay.",
+      "id": "ep_17_ut_29"
+    },
+    {
+      "end": 685464,
+      "speaker": "Yvonne Jansen",
+      "start": 657442,
+      "text": "And so what we found in the end was that, yes, using your fingers gives you an advantage, makes you faster, was about 15, 18%, something like that. But even without the fingers, this was still faster than the prop, about roughly the same distance between the touch and the no touch. And the no touch and the prop.",
+      "id": "ep_17_ut_30"
+    },
+    {
+      "end": 690220,
+      "speaker": "Enrico Bertini",
+      "start": 685964,
+      "text": "But this means that there is a value in actually seeing the physical artifact.",
+      "id": "ep_17_ut_31"
+    },
+    {
+      "end": 691180,
+      "speaker": "Yvonne Jansen",
+      "start": 690252,
+      "text": "Yes. Yes.",
+      "id": "ep_17_ut_32"
+    },
+    {
+      "end": 691984,
+      "speaker": "Enrico Bertini",
+      "start": 691252,
+      "text": "Okay.",
+      "id": "ep_17_ut_33"
+    },
+    {
+      "end": 694224,
+      "speaker": "Moritz Stefaner",
+      "start": 692844,
+      "text": "And touching it.",
+      "id": "ep_17_ut_34"
+    },
+    {
+      "end": 696304,
+      "speaker": "Enrico Bertini",
+      "start": 694684,
+      "text": "And touching it, of course.",
+      "id": "ep_17_ut_35"
+    },
+    {
+      "end": 702656,
+      "speaker": "Yvonne Jansen",
+      "start": 697244,
+      "text": "Yeah. Also, participants found it kind of frustrating to not being able to touch.",
+      "id": "ep_17_ut_36"
+    },
+    {
+      "end": 711952,
+      "speaker": "Enrico Bertini",
+      "start": 702780,
+      "text": "And because you're always tempted to touch it, right?",
+      "id": "ep_17_ut_37"
+    },
+    {
+      "end": 717272,
+      "speaker": "Yvonne Jansen",
+      "start": 712088,
+      "text": "Oh, yes. It's physical object. It's kind of invites you to touch it.",
+      "id": "ep_17_ut_38"
+    },
+    {
+      "end": 737804,
+      "speaker": "Enrico Bertini",
+      "start": 717448,
+      "text": "Yeah. I actually remember the first time I saw it when you were at this week, the first thing I did was taking it, holding it in my hands and really touch it. You feel like you try to solve some kind of questions, and the first thing you do is touch it. Yeah, it's. It's interesting.",
+      "id": "ep_17_ut_39"
+    },
+    {
+      "end": 754304,
+      "speaker": "Yvonne Jansen",
+      "start": 739224,
+      "text": "Yes. It's very nice property of physical objects. But Pierre has an example for physical objects where you actually cannot touch the data. So this is not necessarily included.",
+      "id": "ep_17_ut_40"
+    },
+    {
+      "end": 934348,
+      "speaker": "Pierre Dragicevic",
+      "start": 754464,
+      "text": "Yes. You have more toys to show Pierre, this is using. Yes. This is another thing that we tried, actually, I wanted to try that. It's a subsurface engraving, the piece of glass. I think you saw this in some stores. It's usually more kitsch stuff like dolphins and souvenirs. But you can actually ask, can actually send a 3d model to some stores and they will make it for you. And laser etched or how do they do it? It's laser subsurface engraving. So there is a laser here, moving. Moving and which can focus at any height and extremely precise and fast. And so it creates micro. Oh, yes. It creates micro bubbles. So I wanted to see if you could, you know, which resolution you could, for example, draw characters, labels and lines. You know, those were for grid lines. It's actually very precise. And why was that interesting? It's because. But Yvonne will talk about that. With the process of digital fabrication, you cannot build everything using a 3d printer or laser cutter, because you cannot breed objects which float in the air, for example, and using laser cutting, like Yvonne did, works for three d bar charts, for example, because they can physically exist. But 3d scatter blocks, for example, you have those things floating in the air. It's more difficult to build. So with that, you can do almost any 3d object. But. So we did that. It's just a test. This was a test. We paid about \u20ac60 for that. There are several problems with that, though, and I'm a bit less excited about that now. Although some people proposed to use that already before for scientific visualization. There is an article from Paul Bork, I believe. Yes. A poster who is from University of Western Australia. Who used, who did a poster about using that to communicate scientific data. So, okay, one problem is that you can see that there is refraction, right. Some objects are doubled, so it kind of changes the perception of depth. It's a bit weird. It's like in an aquarium or when you see those fishes, there's reflection, which doesn't help reading. Objects don't cast shadows, which is a bit weird. So they don't seem really. They don't seem real, and you cannot touch them. You cannot touch the data. And that's something that we found. That. Yeah. That even found after the experiment, actually. We didn't know about that, really. We're really more interested into how people perceive those objects. But turns out it's very important to be able to touch the data for some tasks.",
+      "id": "ep_17_ut_41"
+    },
+    {
+      "end": 943308,
+      "speaker": "Enrico Bertini",
+      "start": 934476,
+      "text": "And so you didn't expect that. Are you saying that you didn't expect at the beginning that touch would be so important? It's more something discovered during the study.",
+      "id": "ep_17_ut_42"
+    },
+    {
+      "end": 1019454,
+      "speaker": "Pierre Dragicevic",
+      "start": 943476,
+      "text": "No, I was. Yeah. Myself, I was really interested in perception, and I think Yvonne was more interested in, you know, the way you can actually use a handle physical object and interact with it somehow. But I thought, yeah, when you talk about physical, tangible objects, everyone says touch, you can touch them, but what's the point? Okay, can you have eyes? Right. Eyes are much more powerful, but there is touch and touch. So, yeah, we have. Touch can mean many different things. Touch, it can be the tactile sense. Right. It's sensing with your fingers. I think that's not that important as far as physical visualizations are concerned. But in Yvonne's experiment, people were much more. It helped them a lot because they had to. They had to mark to highlight those bars of interest and columns and rows. So it acts like a memory aid. And this is not really about the tactile sense, it's more about using our fingers to visually as visual bookmarks. But there's proprioception too, which probably contributes. So, yeah.",
+      "id": "ep_17_ut_43"
+    },
+    {
+      "end": 1033754,
+      "speaker": "Enrico Bertini",
+      "start": 1020314,
+      "text": "So can I ask you guys, how did you come up with this idea at all? Is there, I'm wondering if there's a long story behind it or just you came up with this idea and said, well, let's do it.",
+      "id": "ep_17_ut_44"
+    },
+    {
+      "end": 1044794,
+      "speaker": "Pierre Dragicevic",
+      "start": 1034214,
+      "text": "It's difficult to. I think it's a follow up work from Yvonne's first project about tangible user interfaces for information visualization.",
+      "id": "ep_17_ut_45"
+    },
+    {
+      "end": 1130134,
+      "speaker": "Yvonne Jansen",
+      "start": 1046014,
+      "text": "Yes. This comes more from the idea of tangible interfaces from HCI, where Georges Fitzmaurice, he started with bricks to have physical representations of digital objects. And so when I started my thesis, my first project was about having physical controls for visualization, for wall size display visualizations. And after that this was kind of like the approaching this from the other end. And what about if we make the visualization itself physical and not just the control? And this was also kind of interesting since most infovis research is, well yeah, it's screen centered. Everything is about screen visualizations. And so yes, we try to approach this from the other end and see how much can we do actually already with static physical visualizations. And so this is just kind of the beginning. And from there there's a whole spectrum of more hybrid and active visualizations between the standard on screen and the completely static that I studied so far.",
+      "id": "ep_17_ut_46"
+    },
+    {
+      "end": 1202604,
+      "speaker": "Pierre Dragicevic",
+      "start": 1130994,
+      "text": "And as Yvonne said, yes, what's interesting is that infovis has been mostly screen centered but also tangible. Research on tangible user interfaces, which dates back from, I don't know, even maybe 94 I guess at least, has been almost exclusively input centered like people were using. So this idea of reusing physical objects, right, something that we kind of lost since we introduced computers reusing physical objects to improve user interfaces has been used almost for input. But yes, we are very good at manipulating physical objects so there can be a benefit there. And including infovis, if you look at the work info vis on tangible user interfaces, there's not much. There is Brigg Ulmer's work for example, and Petra Eisenberg too, from our team. It's all about using physical objects for input, but then the visualization is still on the screen. Right. And I think we are the first to do at least a controlled study about using physical objects as output to really display information.",
+      "id": "ep_17_ut_47"
+    },
+    {
+      "end": 1274054,
+      "speaker": "Enrico Bertini",
+      "start": 1203784,
+      "text": "So there is one thing that came into my mind, I was wondering, so the old area of scientific visualization, when normally people, the main task is really trying to kind of have a 3d representation of a physical object. So this could be something like, I don't know, the brain of a human, the art, or, I don't know, one of these. Yeah, or a wind tunnel where they study a wind goes through, I don't know, an airplane or whatever. Right. So this looks to me like the perfect case where people might want to have some physical presentation of this data because probably the 3d representation, the physical representation of something that is originally a 3d object hypothetically should work better. So I'm surprised that nobody did it so far. So do you know anything about it? Are there any, do you know if any researchers did similar studies to yours in the past that are more focused on the physical representation of 3d phenomena?",
+      "id": "ep_17_ut_48"
+    },
+    {
+      "end": 1323402,
+      "speaker": "Yvonne Jansen",
+      "start": 1275834,
+      "text": "There has definitely been work on more model oriented. So basically like models for molecules in chemistry or there has been work to build physical models out of protein foldings and viruses that can, I don't know, there was also reassembling other reassembling things. So there's a lot of work out there about more SCIVIS data and well, the kind of abstract infovis visualization. So far there's not that much tip for a few data scrap.",
+      "id": "ep_17_ut_49"
+    },
+    {
+      "end": 1336922,
+      "speaker": "Moritz Stefaner",
+      "start": 1323458,
+      "text": "I mean, what I found interesting when I sort of dived into the topic and also when I discovered your great collection of projects, is that actually most of the projects seem to come more from a design or art background.",
+      "id": "ep_17_ut_50"
+    },
+    {
+      "end": 1337946,
+      "speaker": "Yvonne Jansen",
+      "start": 1337018,
+      "text": "Yes, exactly.",
+      "id": "ep_17_ut_51"
+    },
+    {
+      "end": 1358856,
+      "speaker": "Moritz Stefaner",
+      "start": 1338050,
+      "text": "So I think that's, that's really interesting that, I mean, that happens a couple of times, but here it's a great example of how maybe artists are fascinated by a certain form of expression and just later it's being analyzed, you know, like how well it works or in which settings it works good or not. And I don't know.",
+      "id": "ep_17_ut_52"
+    },
+    {
+      "end": 1361216,
+      "speaker": "Enrico Bertini",
+      "start": 1358880,
+      "text": "Shall we, from the functional point of view?",
+      "id": "ep_17_ut_53"
+    },
+    {
+      "end": 1368166,
+      "speaker": "Moritz Stefaner",
+      "start": 1361320,
+      "text": "Yeah, yeah, yeah. We could go through a few of the, let's say the classic projects if you like.",
+      "id": "ep_17_ut_54"
+    },
+    {
+      "end": 1417824,
+      "speaker": "Enrico Bertini",
+      "start": 1368310,
+      "text": "Yeah, that's another thing that we didn't mention yet. So Yvonne and Pierre have a very nice long list of data sculptures. I think we are going to put these links on the website after recording the show. So if I remember well, you have two lists, right? So one is passive physical visualizations and the other is active physical visualizations. So can you briefly tell us the story of this couple of lists that you keep maintaining there because it looks really impressive. I mean, the first time you send the link to me, I was kind of shocked. I couldn't believe there were so many examples around. So it looks like a brief history of physical visualization in a couple of webpages.",
+      "id": "ep_17_ut_55"
+    },
+    {
+      "end": 1477744,
+      "speaker": "Yvonne Jansen",
+      "start": 1421664,
+      "text": "Yes. Okay, so yeah, this started as kind of a collection of examples of what has been done so far and what has been. How have physical visualizations been used in the past? Yeah, we were surprised ourselves that there are so many examples and that they are very old examples too. We have some, some from 30, well, it's appeared in a book from 39, so they are probably even much older. And there are some very nice examples from, I don't know, like the maps with chef values. I actually don't know what the value is there. I don't know. Do you know, Pierre? I think, yes. You added this one. Yes, physical maps.",
+      "id": "ep_17_ut_56"
+    },
+    {
+      "end": 1580984,
+      "speaker": "Pierre Dragicevic",
+      "start": 1478564,
+      "text": "Yeah, there are many. So I think we kind of, we make the difference, at least in our paper, between functional physical visualizations as you mentioned and those which come from more design and art and whose goals are a bit different. And it's true that these days, today, maybe 99.9% of physical visualizations come from design and art. So there is a huge variety of things, very exciting things, and people like it. I mean, they keep emailing each other about, oh, look at this, new data sculpture. So yeah, this is a big trend and we've been partly inspired by that. But, and I will maybe talk about it a bit later by showing some examples. There are examples of functional physical visualizations which date back from 35 and even at the beginning of the 20th century. And they have been built for really doing visual analytic tasks. And the reason why they disappeared is very simple, is that it's with computers, because those are difficult to build and they were worth building before today, maybe less. But I think part of our work is showing that this, they are still worth investigating. Yes. And maybe, and even then found this made this distinction in our distinction in our webpage between passive and active visualizations. Maybe even you want to explain what's the difference?",
+      "id": "ep_17_ut_57"
+    },
+    {
+      "end": 1608006,
+      "speaker": "Yvonne Jansen",
+      "start": 1581874,
+      "text": "Well, the difference there is basically that the statics, the passive, are completely passive. They don't contain any electronics. And the active ones there in some way, all of them are electronic, either by some motors or led lights or I don't know what else is there.",
+      "id": "ep_17_ut_58"
+    },
+    {
+      "end": 1611994,
+      "speaker": "Enrico Bertini",
+      "start": 1608110,
+      "text": "Physical visualizations that can change their appearance. Right?",
+      "id": "ep_17_ut_59"
+    },
+    {
+      "end": 1636354,
+      "speaker": "Yvonne Jansen",
+      "start": 1612654,
+      "text": "Yes, well, actually it's a bit more complicated since you, I have an example actually for this one. This one can be taken apart and resorted, for example, so you can reassemble it. So where do you put this? It's not really static anymore, so this becomes interactive. And so.",
+      "id": "ep_17_ut_60"
+    },
+    {
+      "end": 1641370,
+      "speaker": "Moritz Stefaner",
+      "start": 1637754,
+      "text": "Yes, but it's not self changing, let's say it's just.",
+      "id": "ep_17_ut_61"
+    },
+    {
+      "end": 1643374,
+      "speaker": "Yvonne Jansen",
+      "start": 1641442,
+      "text": "No, this is manual labor.",
+      "id": "ep_17_ut_62"
+    },
+    {
+      "end": 1674944,
+      "speaker": "Moritz Stefaner",
+      "start": 1645474,
+      "text": "Yeah, but that's really much along the lines of tools for thinking. And you also have the example of Bertin's matrices where he would rearrange these cartesian grids. And I think this idea of thinking with your hands, I think it's very much info is taken to the extreme if you think about it, you know, like really grabbing the data and putting it somewhere else. I think that's, that's the ultimate you can get.",
+      "id": "ep_17_ut_63"
+    },
+    {
+      "end": 1722866,
+      "speaker": "Enrico Bertini",
+      "start": 1675284,
+      "text": "I think that the reorderable matrix from Bertin is probably one of the most, probably the most well known physical visualization ever. And if I remember the story correctly, I think Danyel Fiket actually told the story to me. I think he met him and he showed to him the real reorder ball metrics he did. I think the story is basically what you said, Pierre, that at that time the technology was still not advanced enough. So the only way to create a proof of concept of the ideas he had in his mind was to actually build a physical object and reorder rows and columns and see whether there were any clever strategies to create, to make interesting visual patterns out of some data. Right.",
+      "id": "ep_17_ut_64"
+    },
+    {
+      "end": 1726318,
+      "speaker": "Pierre Dragicevic",
+      "start": 1723010,
+      "text": "Is it correct? I have a demo if you want.",
+      "id": "ep_17_ut_65"
+    },
+    {
+      "end": 1727262,
+      "speaker": "Enrico Bertini",
+      "start": 1726466,
+      "text": "You have a demo?",
+      "id": "ep_17_ut_66"
+    },
+    {
+      "end": 1727678,
+      "speaker": "Yvonne Jansen",
+      "start": 1727318,
+      "text": "Sure.",
+      "id": "ep_17_ut_67"
+    },
+    {
+      "end": 1729070,
+      "speaker": "Enrico Bertini",
+      "start": 1727766,
+      "text": "We want to see the demo.",
+      "id": "ep_17_ut_68"
+    },
+    {
+      "end": 1731874,
+      "speaker": "Pierre Dragicevic",
+      "start": 1729182,
+      "text": "Okay. I have to move the camera a bit.",
+      "id": "ep_17_ut_69"
+    },
+    {
+      "end": 1745554,
+      "speaker": "Enrico Bertini",
+      "start": 1732214,
+      "text": "I like this. This episode is full of magic tricks. Yeah, yeah, exactly. So you have a reorderable matrix there. Is it the original one or you made one yourself?",
+      "id": "ep_17_ut_70"
+    },
+    {
+      "end": 1757914,
+      "speaker": "Pierre Dragicevic",
+      "start": 1746214,
+      "text": "Actually, this is very, this is a simplified version. I just have to find the right way to put the camera. I think it worked yesterday. Better than that.",
+      "id": "ep_17_ut_71"
+    },
+    {
+      "end": 1759014,
+      "speaker": "Enrico Bertini",
+      "start": 1758494,
+      "text": "Yes.",
+      "id": "ep_17_ut_72"
+    },
+    {
+      "end": 1872284,
+      "speaker": "Pierre Dragicevic",
+      "start": 1759094,
+      "text": "I guess like this would work. Yes. Yeah. No, this is actually, this has been built by a researcher called Ener Leaf from Italian University of technology in Estonia. And he studied matrix reordering. He wrote a very, very interesting historical paper about matrix reordering. And he built those physical visualizations, those physical matrices, and he built different ones and he gave them to friends, including Jean Danyel Fiket. So Jean Danyel has this on his desk and he's showing it all the time. And see, look, it's very nice you can do this, but no one understands really. So I emailed in her and he explained to me how to use this and I have a demo and I can make you a demo. So this is okay. For those people who don't know, this is a matrix visualization. So why, why is the matrix visualization? Why, why is it cool? Because it can show lots of things. So those are, matrix visualization is basically a table, data table. But you replace numbers by shades of gray or maybe glyphs, whatever you want, you just replace numbers by small visualizations. This is a binary, it's just binary. Zero, one. Okay. Here it's not very visible, but it's supposed to be dark and, and, or light wood. So we can show lots of things. This is a adjacency matrix, right? So if you have a link between this and this, then you have a dot. So you can show matrices with that, weighted matrices if you want to. And you can show multi dimensional data. You know, this is the example from Bertin. The camera is a bit too close, but yes, this is basically.",
+      "id": "ep_17_ut_73"
+    },
+    {
+      "end": 1874032,
+      "speaker": "Yvonne Jansen",
+      "start": 1873624,
+      "text": "Yes.",
+      "id": "ep_17_ut_74"
+    },
+    {
+      "end": 2052550,
+      "speaker": "Pierre Dragicevic",
+      "start": 1874088,
+      "text": "How can I show that better? Yes. Those letters on the top are places. There are places. And every place has a feature. It has a, it has a school or not. It has or not a railway station. And yeah, you use those black squares. So, and actually, so inner leaves shows that those kind of visualizations which have been described by Bertin, but actually which have been used by scientists from the end already, end of 20th century, no, 19th century are very, very common. They were used a lot. And the first thing that people did to analyze data is the reorder. This is very important because, and this is the reordered version of what I showed you. If you don't reorder, you don't see anything. If you reorder, you see, you see a lot. You see groups, patterns, clusters. And reordering is very, very important. And it has been used in archaeology, for example, for relative dating, it has been used for classification, very important. And lots of people have been reordering matrices, matrix visualizations, but there were no algorithms at the beginning of the 20th century. And the reordering was done visually. It works well visually. But the problem is, how do you get from. Yes, from this, right. When you have no computer, remember, you have from this. This is, I have no idea how they did, but Bertin found a solution to that. So this is the matrix. So technologies, yes, this is a subset, actually of, this is a subset of Bertin's subset of the example I show you before, which is famous example from his book. And I will show to you how it works. So use this to move a reorder. It's a bit like a Rubik's cube. You can, if you cannot move a cell without moving either the entire column or row, okay, so there are holes. I can, for example, choose to move this cell. So I insert this here. I don't have much training, and it's very, okay, so I will put that here because it's different. Then let me move this. Okay, that's, that's fine. Here, move this here. Then, you know, this line is similar to this one. So we move it closer, make some space. I think it's the first demo of Bertin's physical matrix ever. You can see lots of photos online, but only photos, right? There is no video. I think that's true. And I think no one understands how it works.",
+      "id": "ep_17_ut_75"
+    },
+    {
+      "end": 2062358,
+      "speaker": "Moritz Stefaner",
+      "start": 2052622,
+      "text": "And by the way, in the end, I think he made poster prints from that. Right? So I want a photo where he had a big, like light table or like light coming from above and photo.",
+      "id": "ep_17_ut_76"
+    },
+    {
+      "end": 2092904,
+      "speaker": "Pierre Dragicevic",
+      "start": 2062446,
+      "text": "Yes. He had huge matrices like that, which he actually used for actual projects, you know, and he had very complicated, more complicated device than that for reordering them and. But he said, with assistance and the proper devices, it only needs three days to build one and three weeks. And three weeks to reorder them and understand the data. So that's fine.",
+      "id": "ep_17_ut_77"
+    },
+    {
+      "end": 2097332,
+      "speaker": "Moritz Stefaner",
+      "start": 2093284,
+      "text": "Two weeks to find again the pieces your kids have carried in the other room.",
+      "id": "ep_17_ut_78"
+    },
+    {
+      "end": 2118952,
+      "speaker": "Pierre Dragicevic",
+      "start": 2097508,
+      "text": "Yeah, exactly. So it seems. It doesn't make sense today when you say that. Right? I mean, three days to build the visualization and three weeks to analyze it. But in some situations, I think before, people could spend lots of time and money building visualizations, because some data sets are extremely important.",
+      "id": "ep_17_ut_79"
+    },
+    {
+      "end": 2130368,
+      "speaker": "Moritz Stefaner",
+      "start": 2119088,
+      "text": "I mean, we discussed it a couple of times on the show already, so we had Stephanie Posavec there as well, who does a lot by hand, let's say, on the computer using illustrator, but still with manual actions.",
+      "id": "ep_17_ut_80"
+    },
+    {
+      "end": 2131124,
+      "speaker": "Pierre Dragicevic",
+      "start": 2130456,
+      "text": "Yes.",
+      "id": "ep_17_ut_81"
+    },
+    {
+      "end": 2144014,
+      "speaker": "Moritz Stefaner",
+      "start": 2131434,
+      "text": "And in a way, the slow treatment of data, like really doing it step by step, it does have a different quality than just flipping through views superficially.",
+      "id": "ep_17_ut_82"
+    },
+    {
+      "end": 2145114,
+      "speaker": "Pierre Dragicevic",
+      "start": 2144434,
+      "text": "Exactly.",
+      "id": "ep_17_ut_83"
+    },
+    {
+      "end": 2172740,
+      "speaker": "Moritz Stefaner",
+      "start": 2145194,
+      "text": "We had the same experience with the data cuisine where we cook data dishes. It's very simple data points. But these data points, you're thinking about them for a day or two, really think hard about how to represent them and what they are and what they mean and where they come from. I mean, Stephen Few, he wrote this article, I don't know if you read it, beginning of the year, about slow food and that there might be a slow data movement as well.",
+      "id": "ep_17_ut_84"
+    },
+    {
+      "end": 2191572,
+      "speaker": "Pierre Dragicevic",
+      "start": 2172892,
+      "text": "Yeah, that's really, that's a very good point. I think back then when there were no computers, people spend lots of time reading those building visualizations. And here you can see more or less, you can see clusters. Oh, wait a second. I prepared this. What do you think? Yes.",
+      "id": "ep_17_ut_85"
+    },
+    {
+      "end": 2192984,
+      "speaker": "Enrico Bertini",
+      "start": 2191628,
+      "text": "Following this gear.",
+      "id": "ep_17_ut_86"
+    },
+    {
+      "end": 2211934,
+      "speaker": "Pierre Dragicevic",
+      "start": 2193834,
+      "text": "Those are villages. Those are towns. You can see those three groups, right? Towns. They have veterinary police station. And those are cities. They have a railway station, high school police station. It's a real data, it's a subset of Bertin's data set. And I just reordered it for you.",
+      "id": "ep_17_ut_87"
+    },
+    {
+      "end": 2223134,
+      "speaker": "Enrico Bertini",
+      "start": 2212794,
+      "text": "That's fantastic, Pierre. Thanks a lot. We have the first real, the first real demo of the reorderable matrix.",
+      "id": "ep_17_ut_88"
+    },
+    {
+      "end": 2223694,
+      "speaker": "Pierre Dragicevic",
+      "start": 2223214,
+      "text": "Exactly.",
+      "id": "ep_17_ut_89"
+    },
+    {
+      "end": 2232434,
+      "speaker": "Enrico Bertini",
+      "start": 2223734,
+      "text": "That's fantastic. I never saw it before. It makes a huge when seeing it live. It's great. Oh, I want one in.",
+      "id": "ep_17_ut_90"
+    },
+    {
+      "end": 2287124,
+      "speaker": "Pierre Dragicevic",
+      "start": 2233774,
+      "text": "So this is actually those simplified matrices. So built by inner leaf. They are. Okay. So Bertin's matrix is a bit different. Maybe I can use screen sharing to show you a few. There are a few pictures online, but maybe I can show you a few pictures here directly. You can see that I was using only one rod here, there are a lot. And he actually has a technique. These are images from the PSG thesis from Natalie Henry. And you can unlock rows and columns to reorder. So I suppose the way it works is that you can either manipulate all the rows as single objects or all columns and you can reorder like that. This is. Oh yes, this is a bigger matrix. I'm not sure you can see, but this is huge. This is, this is huge. Yeah.",
+      "id": "ep_17_ut_91"
+    },
+    {
+      "end": 2290244,
+      "speaker": "Moritz Stefaner",
+      "start": 2287244,
+      "text": "And here where I realized he's printing.",
+      "id": "ep_17_ut_92"
+    },
+    {
+      "end": 2302636,
+      "speaker": "Pierre Dragicevic",
+      "start": 2290324,
+      "text": "Exactly. So here he was, I think according from Jean Danielle, who's real specialist of Bertin, I'm not. He was using this kind of device to take pictures of those matrices once he built and reordered them.",
+      "id": "ep_17_ut_93"
+    },
+    {
+      "end": 2303384,
+      "speaker": "Moritz Stefaner",
+      "start": 2302740,
+      "text": "Yes.",
+      "id": "ep_17_ut_94"
+    },
+    {
+      "end": 2343794,
+      "speaker": "Pierre Dragicevic",
+      "start": 2305284,
+      "text": "So, yeah, and this, so yeah, manipulating, being able to manipulate those visualizations is. Yes, it's very interesting, something that we didn't investigate at all. And Yvonne showed, you know, this, this kind of chart that you can reorder and reorder countries. And so you can not only you can change the configuration of physical visualizations very naturally and you can also build them from scratch, as you mentioned. And that's a very interesting aspect of physical visualizations that I think that we want to investigate too.",
+      "id": "ep_17_ut_95"
+    },
+    {
+      "end": 2418414,
+      "speaker": "Moritz Stefaner",
+      "start": 2345214,
+      "text": "I think there's really a few intriguing things about them. So one thing you often don't think about that much, but it's much easier to talk about data if you have an object everybody can look at. You know, a screen is always very, it's just for one person mainly. Yeah. But an object you can view from all sides, you can point there and somebody else sees you pointing directly. And so it has this social aspect and you can place them anywhere, so you can put them on your desk where you have a free space. And so I was wondering, you know, so now we have all these fabrication techniques. So you can mill fairly easily, you can laser etch, you can, you can 3d print. I mean, have you thought about what happens in ten years when 3d printers are maybe as widespread as 2d printers now? Do you think there will be lots of data sculpture objects around, maybe also disposable ones that you just print out for a day or two and then throw them away again and they get composted and go somewhere else? Or do you think it's going to be still a niche and will remain that artsy type thing?",
+      "id": "ep_17_ut_96"
+    },
+    {
+      "end": 2479674,
+      "speaker": "Yvonne Jansen",
+      "start": 2418954,
+      "text": "I think it will definitely become more popular to do this once the technology is readily available to everybody. Right now you have to order it online or go to a fablab somewhere in your city if you're lucky and your city has one. But I guess the 3d printers or whatever comes next that can do the same thing will become common. And there are already many people out there who do this kind of self logging and who collect lots of data about themselves. And I think that those kind of people would probably be very interested to have an object representing all this data that they collected. And there are people working on more disposable and recyclable materials for 3d printing. So even kind of makes sense to just print an object and then later just throw it in the composter. And so there's a recycling process. It's even easier than with paper. You can do it yourself.",
+      "id": "ep_17_ut_97"
+    },
+    {
+      "end": 2494342,
+      "speaker": "Pierre Dragicevic",
+      "start": 2480734,
+      "text": "Maybe for people who are not familiar with digital fabrication, maybe you can say a few words about today's digital fabrication technologies and maybe how you built your physical visualizations.",
+      "id": "ep_17_ut_98"
+    },
+    {
+      "end": 2507194,
+      "speaker": "Enrico Bertini",
+      "start": 2494478,
+      "text": "Yeah, this is exactly what I was going to ask. So what's the current technology that you're using? Because maybe people want to do the same now. And I don't know if you want to share secrets with the others.",
+      "id": "ep_17_ut_99"
+    },
+    {
+      "end": 2597938,
+      "speaker": "Yvonne Jansen",
+      "start": 2508734,
+      "text": "Yeah, sure. So there's a trend currently that more and more of those fab labs, fabrication laboratories are popping up in mostly bigger cities. For now. In Germany, there are lots already in France coming over the last couple of years. Get more. In the US, I think there are a lot. And so they give the possibility to use 3d printers, laser cutters, 3d mills, to create all kinds of 3d objects and make it accessible to normal people, to everybody. You can just go there and you, I don't know, you take a tutorial for half an hour or an hour, and then you can start making things. And we are currently building such a fablab here for research, collaboration. And at the current stage, we have a 3d printer and a laser cutter. And my favorite machine is the laser cutter, since it's very fast and you can make all kinds of things which are at first 2d. So the. Yes, those, this is the 3d object, but I made it out of 2d sheets of acrylic. So in the beginning it looked like this, which is kind of.",
+      "id": "ep_17_ut_100"
+    },
+    {
+      "end": 2600938,
+      "speaker": "Enrico Bertini",
+      "start": 2597986,
+      "text": "So the original material you're using is acrylic?",
+      "id": "ep_17_ut_101"
+    },
+    {
+      "end": 2647832,
+      "speaker": "Yvonne Jansen",
+      "start": 2601066,
+      "text": "Yes, it's made out of acrylic sheets and it's transparent in the beginning. And I have lots of graffiti spray paint in my office now. And yes, I give them color after. So this is kind of workaround since I don't have access to a color 3d printer, which is something that's coming up now that you can actually print in full color. And yes, there's, I think. Who was that? Xerox? No. Some printer company in the US is coming up with a paper based 3d printing technology where you kind of stack paper layers and you can print the paper in color. And so you.",
+      "id": "ep_17_ut_102"
+    },
+    {
+      "end": 2651844,
+      "speaker": "Pierre Dragicevic",
+      "start": 2647968,
+      "text": "You get, I think staples is buying the technology.",
+      "id": "ep_17_ut_103"
+    },
+    {
+      "end": 2654440,
+      "speaker": "Yvonne Jansen",
+      "start": 2653704,
+      "text": "Yes.",
+      "id": "ep_17_ut_104"
+    },
+    {
+      "end": 2663484,
+      "speaker": "Enrico Bertini",
+      "start": 2654592,
+      "text": "So, Yvonne, there is something that is not clear to me. If you. If you have access to a 3d printer, do you still need a laser cutter?",
+      "id": "ep_17_ut_105"
+    },
+    {
+      "end": 2684014,
+      "speaker": "Yvonne Jansen",
+      "start": 2663984,
+      "text": "Well, the 3d printer that we have is monocolor, so it only can do objects in one color. And this one is much more difficult to read than multicolor version. And it's one object. Those are all connected. And so it would be much harder for me to color this.",
+      "id": "ep_17_ut_106"
+    },
+    {
+      "end": 2689254,
+      "speaker": "Enrico Bertini",
+      "start": 2684914,
+      "text": "So you prefer to use a laser cutter and color every single piece?",
+      "id": "ep_17_ut_107"
+    },
+    {
+      "end": 2694650,
+      "speaker": "Yvonne Jansen",
+      "start": 2689954,
+      "text": "Yes. Well, my personal preference would be to have a multi color 3d printer.",
+      "id": "ep_17_ut_108"
+    },
+    {
+      "end": 2695734,
+      "speaker": "Enrico Bertini",
+      "start": 2694802,
+      "text": "Yeah, sure.",
+      "id": "ep_17_ut_109"
+    },
+    {
+      "end": 2698188,
+      "speaker": "Yvonne Jansen",
+      "start": 2696434,
+      "text": "They are currently really expensive.",
+      "id": "ep_17_ut_110"
+    },
+    {
+      "end": 2703364,
+      "speaker": "Pierre Dragicevic",
+      "start": 2698346,
+      "text": "How long did it take to. How long did it take to print this red thing?",
+      "id": "ep_17_ut_111"
+    },
+    {
+      "end": 2781264,
+      "speaker": "Yvonne Jansen",
+      "start": 2703704,
+      "text": "This one actually took 24 hours. So they are still quite slow. But it's an older model, and I think now with the fastest ones available now, this would be doable in, I don't know, maybe an hour. I don't. I don't really know since I haven't used those. But there are some based on light, so they get really made one slice at the time. This one, basically, it's like a hot glue gun. So it's a thread of plastic that gets heated and a little printer head that drives around and makes every little slice of this, and it takes forever. And so now they have technology where they use a photo resin, photoreactive resin, I don't know the correct name for this, which basically reacts to light. So you have a fluid, and light gets projected onto it with the slice that you want with a 3d layer, and the entire thing gets solid at the same time. So basically it grows out of the liquid and that's much faster and higher resolution.",
+      "id": "ep_17_ut_112"
+    },
+    {
+      "end": 2829140,
+      "speaker": "Moritz Stefaner",
+      "start": 2781684,
+      "text": "But just to add, I mean, there's a lot of lo fi techniques you can use as well. On your page, you have examples made from cardboard. So you can layer cardboard and you cut it in different ways. You can create these mountains of things. You can use Lego, you can use play doh. There was this beautiful exhibition of all the people in the world where each person in the world was symbolized with a grain of rice. And then they had different heaps of grains of rice, and you just basically need rice and a scale. And with the scale, you can do the measurement and then make a big heap of something. I think it's much, much more a mind thing. If you just have the idea of to actually use the sculpture and then you'll find a way. Yeah, exactly. So there's lots of ways of doing them.",
+      "id": "ep_17_ut_113"
+    },
+    {
+      "end": 2863524,
+      "speaker": "Pierre Dragicevic",
+      "start": 2829252,
+      "text": "So it depends on how accurate you want your physical visualization to be and if you want to streamline the production process. You are mentioning data driven jewelry, for example. And yeah, being able maybe to, as you mentioned, to change. Every day we change your jewelry according to, I don't know, your mood, evolution of your mood the last day or how well you slept. I don't know, your sleep cycles then. Yeah. Then using digital fabrication automates the process and would, could make that possible.",
+      "id": "ep_17_ut_114"
+    },
+    {
+      "end": 2866844,
+      "speaker": "Moritz Stefaner",
+      "start": 2864424,
+      "text": "The shorter you sleep, the bigger gets your cup.",
+      "id": "ep_17_ut_115"
+    },
+    {
+      "end": 2889514,
+      "speaker": "Enrico Bertini",
+      "start": 2875494,
+      "text": "So how accessible is today, this kind of technology? So if, if I want to buy a printing, 3d printing machine, is it something in the order of thousands, tens of thousands, hundreds of thousands?",
+      "id": "ep_17_ut_116"
+    },
+    {
+      "end": 2902194,
+      "speaker": "Yvonne Jansen",
+      "start": 2891054,
+      "text": "Kind of depends. So if you willing to invest some work and build one yourself, I think they start around maybe \u20ac600, something around there you can get.",
+      "id": "ep_17_ut_117"
+    },
+    {
+      "end": 2908928,
+      "speaker": "Moritz Stefaner",
+      "start": 2907944,
+      "text": "Wrap up.",
+      "id": "ep_17_ut_118"
+    },
+    {
+      "end": 2985444,
+      "speaker": "Yvonne Jansen",
+      "start": 2909096,
+      "text": "Yes, a wrap, wrap, but you have to build it yourself. So you basically go to someone with a wrap up. He prints parts that you need and you need to fuel parts more and some motors, and then you can build it yourself. That's quite cheap. Then there are things like Makerbot, there's, in New York, there's Makerbot industries, and they have quite nice small, like, okay, this is not very visible, like small machines that. Yes. Allow to do 3d printing at home. They've been around for a while now and they. Yes, there's a big community around this by now. And then there's. I recently read about a startup, I think it was from MIT. I'm not sure they have one of those photoresin things. It's a Kickstarter project and they will sell it, I think for $3,000, something like that. And you get a very nice looking machine. That's for people who want something nice on their desk. But it's the same thing, you just have a 3d model, you send it and you can print it.",
+      "id": "ep_17_ut_119"
+    },
+    {
+      "end": 2997984,
+      "speaker": "Moritz Stefaner",
+      "start": 2986324,
+      "text": "But maybe to get started, there's also online services, so you can send stuff to Shapeways or other websites, and then it's really like 50 to \u20ac100 or so and you can get a decent piece.",
+      "id": "ep_17_ut_120"
+    },
+    {
+      "end": 3024724,
+      "speaker": "Yvonne Jansen",
+      "start": 2998364,
+      "text": "The nice thing about Shapeways is that they have all kinds of materials. So most of these home printers, they all do plastics. And at shape rays you can even print in metal. And at some point they announced glass. I'm not sure they do that. By now you could have glass objects. You can have them covered with a gold thing. So you can really make jewelry yourself that looks like it's gold.",
+      "id": "ep_17_ut_121"
+    },
+    {
+      "end": 3029392,
+      "speaker": "Enrico Bertini",
+      "start": 3027664,
+      "text": "Cool. Cool.",
+      "id": "ep_17_ut_122"
+    },
+    {
+      "end": 3037244,
+      "speaker": "Yvonne Jansen",
+      "start": 3029528,
+      "text": "And then there are fablabs where you just go. If you live in a big city and there's one, you can just go there. And.",
+      "id": "ep_17_ut_123"
+    },
+    {
+      "end": 3045904,
+      "speaker": "Enrico Bertini",
+      "start": 3039804,
+      "text": "So a fab lab works in a way that they are basically renting the space to you, and then you have to do everything by yourself.",
+      "id": "ep_17_ut_124"
+    },
+    {
+      "end": 3057820,
+      "speaker": "Yvonne Jansen",
+      "start": 3046284,
+      "text": "Yeah, there are different concepts. So some require membership, some have open days where you just go there and you bring your material. You can use the machines for free club.",
+      "id": "ep_17_ut_125"
+    },
+    {
+      "end": 3061660,
+      "speaker": "Moritz Stefaner",
+      "start": 3057892,
+      "text": "Really? Like, you know, there's lots of people hanging around and they help you and.",
+      "id": "ep_17_ut_126"
+    },
+    {
+      "end": 3063436,
+      "speaker": "Yvonne Jansen",
+      "start": 3061852,
+      "text": "Yeah, it's a bit like a hacker space.",
+      "id": "ep_17_ut_127"
+    },
+    {
+      "end": 3063948,
+      "speaker": "Moritz Stefaner",
+      "start": 3063540,
+      "text": "Exactly.",
+      "id": "ep_17_ut_128"
+    },
+    {
+      "end": 3087204,
+      "speaker": "Yvonne Jansen",
+      "start": 3063996,
+      "text": "Partially. There are different concepts. In Amsterdam, for example, they even rent this out to companies and they can book the lab for a day, per hour. And I guess that's how they finance themselves. But there are also many at universities which are not always, but often open to the public.",
+      "id": "ep_17_ut_129"
+    },
+    {
+      "end": 3101504,
+      "speaker": "Enrico Bertini",
+      "start": 3090904,
+      "text": "So I guess you guys are planning to do some more research and development in this direction. Is there anything you can tell us about what are your plans for the future?",
+      "id": "ep_17_ut_130"
+    },
+    {
+      "end": 3144684,
+      "speaker": "Yvonne Jansen",
+      "start": 3102604,
+      "text": "Well, I'm currently looking into more interactive settings. So what can you do that is kind of more closer to actions, to interactions you can do on a screen infovis application? Well, one example is this, where you can already do sorting and filtering, but it's possible. And so there's this whole spectrum between those completely static and added with electronics. And so I'm currently looking into how much do I have to add to get to a certain level of functionality?",
+      "id": "ep_17_ut_131"
+    },
+    {
+      "end": 3153630,
+      "speaker": "Moritz Stefaner",
+      "start": 3145544,
+      "text": "I'm seeing little Mamushkas for drill down interaction. There's a box and a box.",
+      "id": "ep_17_ut_132"
+    },
+    {
+      "end": 3155114,
+      "speaker": "Pierre Dragicevic",
+      "start": 3153742,
+      "text": "Excellent idea.",
+      "id": "ep_17_ut_133"
+    },
+    {
+      "end": 3157754,
+      "speaker": "Moritz Stefaner",
+      "start": 3156294,
+      "text": "Lots of work, though.",
+      "id": "ep_17_ut_134"
+    },
+    {
+      "end": 3185796,
+      "speaker": "Enrico Bertini",
+      "start": 3159054,
+      "text": "In a bar chart. In a bar chart, nested bar charts. Okay. And are there any classic visualization techniques that you thought about implementing physically other than bar charts? You think there are other techniques that can be easily implemented? It would be nice to see. I don't know. I was thinking about tree maps or. Or whatever.",
+      "id": "ep_17_ut_135"
+    },
+    {
+      "end": 3203424,
+      "speaker": "Yvonne Jansen",
+      "start": 3185940,
+      "text": "So tree maps, definitely possible. I was thinking about pie charts. Not very popular necessarily on the screen, but I think they could be very nice as physical objects, even in three d and stacked versions. And.",
+      "id": "ep_17_ut_136"
+    },
+    {
+      "end": 3214504,
+      "speaker": "Moritz Stefaner",
+      "start": 3205564,
+      "text": "You could make nice bubble charts with balloons, you know, like actually the whole room. Balloons with different sizes.",
+      "id": "ep_17_ut_137"
+    },
+    {
+      "end": 3221264,
+      "speaker": "Enrico Bertini",
+      "start": 3216184,
+      "text": "A real bubble chart. A real bubble balloon chart, yes.",
+      "id": "ep_17_ut_138"
+    },
+    {
+      "end": 3255716,
+      "speaker": "Yvonne Jansen",
+      "start": 3221304,
+      "text": "Well, that one's actually kind of problematic since I'm trying to have data accurate visualization. So they are. That's why I'm using digital fabrication technology, so they actually accurately represent the data to the accuracy of the machine. And that's quite high for the laser. For the laser, it's about, I don't know, 0.05 mm accuracy. So, yeah, that's accurate enough.",
+      "id": "ep_17_ut_139"
+    },
+    {
+      "end": 3272068,
+      "speaker": "Moritz Stefaner",
+      "start": 3255820,
+      "text": "By the way, when we worked on the data sculpture for the Emoto project, we also had this idea of testing it with blinds. No, blind people, because they have this highly trained fingers also for like, you know, feeling heights and so on. Oh, yeah, there it is.",
+      "id": "ep_17_ut_140"
+    },
+    {
+      "end": 3276064,
+      "speaker": "Pierre Dragicevic",
+      "start": 3272156,
+      "text": "Yeah, I was waiting for the moment when we're gonna talk about that.",
+      "id": "ep_17_ut_141"
+    },
+    {
+      "end": 3298154,
+      "speaker": "Moritz Stefaner",
+      "start": 3276644,
+      "text": "We talked about it a few times already. I just remembered that we thought it would be really nice to have, like, a few blind people and talk to them and see how they experience these types of things, how well they can read it, if they would be interested in having something like that, and so on. So, I mean, from an accessibility point of view, it's a whole new perspective as well.",
+      "id": "ep_17_ut_142"
+    },
+    {
+      "end": 3323634,
+      "speaker": "Yvonne Jansen",
+      "start": 3299294,
+      "text": "Yes, definitely. Although it requires some more kind of translations since they are not able to read the labels or the scales which are currently necessary to read this. So even though they would be able to read the data, they wouldn't be able to get to the. Yeah. To the labels, to the description to know what it means.",
+      "id": "ep_17_ut_143"
+    },
+    {
+      "end": 3330274,
+      "speaker": "Moritz Stefaner",
+      "start": 3324174,
+      "text": "Yeah, but it's not far away. I mean, you can use braille writing on the sides, and then you're there.",
+      "id": "ep_17_ut_144"
+    },
+    {
+      "end": 3331594,
+      "speaker": "Yvonne Jansen",
+      "start": 3330814,
+      "text": "Yeah.",
+      "id": "ep_17_ut_145"
+    },
+    {
+      "end": 3354354,
+      "speaker": "Enrico Bertini",
+      "start": 3333614,
+      "text": "So another thing I was wondering. Did you guys spend any time thinking about what could be the practical applications of physical visualization? So for sure, there is a lot of space for artistic stuff, but is there anything that is more related to functional uses of physical visualization?",
+      "id": "ep_17_ut_146"
+    },
+    {
+      "end": 3408884,
+      "speaker": "Yvonne Jansen",
+      "start": 3355894,
+      "text": "I think Moritz mentioned this earlier, that it's very nice to. If you talk about data. So you could imagine this in a showroom of a store to communicate differences between products to customers, or you could imagine in a business meeting, for example, to print out the. The sales data from last year to talk about, I don't know, all, as I mentioned before, like the personal data. So those objects are actually quite popular here in the lab. And people, they always ask me if they could have one for the desk as a pretty object. And so I actually could imagine that people would print stuff just to have a nice objective.",
+      "id": "ep_17_ut_147"
+    },
+    {
+      "end": 3445824,
+      "speaker": "Enrico Bertini",
+      "start": 3409374,
+      "text": "Yeah, I think personally, I think there is a connection between physical visualization and ambient visualization. So peripheral objects that you can keep somewhere, and just by the fact that they actually occupy some real space in space, they have a presence. Right. And the fact that they have a presence can actually keep. I don't know, either reminding you some information, or again, as I said, can be some kind of peripheral information you can always refer to too. And you know that this object is physically there. So I think it's. This. This could be a huge advantage.",
+      "id": "ep_17_ut_148"
+    },
+    {
+      "end": 3447904,
+      "speaker": "Yvonne Jansen",
+      "start": 3446764,
+      "text": "Yeah, definitely.",
+      "id": "ep_17_ut_149"
+    },
+    {
+      "end": 3450064,
+      "speaker": "Pierre Dragicevic",
+      "start": 3448364,
+      "text": "You don't have to turn it on.",
+      "id": "ep_17_ut_150"
+    },
+    {
+      "end": 3519384,
+      "speaker": "Enrico Bertini",
+      "start": 3450604,
+      "text": "Yeah. You don't have to turn it on. Yeah. I mean, digital objects are so easy to lose that, that sometimes you have the problem of finding over, finding them over and over again. Right. But the physical object is something that is there and it has its presence. So I think that's a huge advantage of. I can see in physical visualization. One thing that I can. Sorry if I interrupt, one thing that I cannot really see how it's going to evolve is how dynamic these interfaces can be. So I think it would be much, much more valuable if we have a physical object that can actually change its shape or color or whatever in time. And it's not clear to me how far we are from having objects like this. Maybe you can briefly comment on this. I think this is what you call active physical visualizations, right? Yes, but it's not clear to me how wide is the gap from going from something like the bar chart that you've shown and stuff that can actually, I don't know, be connected to a network and change its shape as the data changes.",
+      "id": "ep_17_ut_151"
+    },
+    {
+      "end": 3551180,
+      "speaker": "Yvonne Jansen",
+      "start": 3520964,
+      "text": "Well, there's a trend in HCI to build shape displays, or shape changing displays, which basically are like programmable height, surface. So they can usually just change in two and a half D fashion. So there's. I think I had an example here.",
+      "id": "ep_17_ut_152"
+    },
+    {
+      "end": 3557336,
+      "speaker": "Enrico Bertini",
+      "start": 3551332,
+      "text": "Is there anything you can show on the, on the screen that would be helpful?",
+      "id": "ep_17_ut_153"
+    },
+    {
+      "end": 3573152,
+      "speaker": "Yvonne Jansen",
+      "start": 3557520,
+      "text": "Yes, I have too many windows open here. Yes, there it is. Here. So you see it?",
+      "id": "ep_17_ut_154"
+    },
+    {
+      "end": 3574312,
+      "speaker": "Enrico Bertini",
+      "start": 3573288,
+      "text": "Yeah. Yep.",
+      "id": "ep_17_ut_155"
+    },
+    {
+      "end": 3639064,
+      "speaker": "Yvonne Jansen",
+      "start": 3574368,
+      "text": "Yes. Okay. This is a shape display built at MIT Media lab by Danyel Leitinger. It was a demo at the Ti conference, I think, four years ago. And those are controlled by motor faders. So each of these pins can move independently. And they. What does he say they are? 120. So those are 120 pins, 120 motor faders. And this is mainly used for this kind of surfaces. So he covered this with a. I think it's some kind of late text sheet or something. And so, yes, here you can see this. Yeah, this can be used to. For Taran visualizations, so more map oriented stuff. And then he built another one, which is more. A little bit like bar charts, actually, as they.",
+      "id": "ep_17_ut_156"
+    },
+    {
+      "end": 3649464,
+      "speaker": "Pierre Dragicevic",
+      "start": 3641204,
+      "text": "Enrico, will you have copyright problems if we show a piece of a movie, a movie scene from X Men?",
+      "id": "ep_17_ut_157"
+    },
+    {
+      "end": 3655908,
+      "speaker": "Moritz Stefaner",
+      "start": 3651684,
+      "text": "Maybe YouTube, you know, I have it ready.",
+      "id": "ep_17_ut_158"
+    },
+    {
+      "end": 3657052,
+      "speaker": "Pierre Dragicevic",
+      "start": 3655956,
+      "text": "I mean, I don't know.",
+      "id": "ep_17_ut_159"
+    },
+    {
+      "end": 3660024,
+      "speaker": "Moritz Stefaner",
+      "start": 3657188,
+      "text": "YouTube has this automatic, you know.",
+      "id": "ep_17_ut_160"
+    },
+    {
+      "end": 3663520,
+      "speaker": "Pierre Dragicevic",
+      "start": 3661764,
+      "text": "Can I show it even now or.",
+      "id": "ep_17_ut_161"
+    },
+    {
+      "end": 3668044,
+      "speaker": "Yvonne Jansen",
+      "start": 3663652,
+      "text": "Yeah, yeah, I'm sorry, I. But I don't find it currently.",
+      "id": "ep_17_ut_162"
+    },
+    {
+      "end": 3673044,
+      "speaker": "Enrico Bertini",
+      "start": 3669904,
+      "text": "Let's try. Let's take this risk.",
+      "id": "ep_17_ut_163"
+    },
+    {
+      "end": 3685924,
+      "speaker": "Pierre Dragicevic",
+      "start": 3676584,
+      "text": "So this is actually a similar idea. It's a shape changing display which. Yeah. Changes dynamically.",
+      "id": "ep_17_ut_164"
+    },
+    {
+      "end": 3686928,
+      "speaker": "Moritz Stefaner",
+      "start": 3686224,
+      "text": "Yeah.",
+      "id": "ep_17_ut_165"
+    },
+    {
+      "end": 3696234,
+      "speaker": "Pierre Dragicevic",
+      "start": 3687056,
+      "text": "But with so a bit like even the thing that even shown a better, higher resolution and it's cool to see it in a movie.",
+      "id": "ep_17_ut_166"
+    },
+    {
+      "end": 3698114,
+      "speaker": "Enrico Bertini",
+      "start": 3697334,
+      "text": "Wow.",
+      "id": "ep_17_ut_167"
+    },
+    {
+      "end": 3701198,
+      "speaker": "Moritz Stefaner",
+      "start": 3698974,
+      "text": "I don't think technically it's that far away. I mean.",
+      "id": "ep_17_ut_168"
+    },
+    {
+      "end": 3701834,
+      "speaker": "Pierre Dragicevic",
+      "start": 3701246,
+      "text": "No.",
+      "id": "ep_17_ut_169"
+    },
+    {
+      "end": 3716154,
+      "speaker": "Moritz Stefaner",
+      "start": 3703694,
+      "text": "There's also, I've recently seen a project using muscle wire. So it's like a wire and you can dynamically change more or less the length. So you can build all kinds of things with that.",
+      "id": "ep_17_ut_170"
+    },
+    {
+      "end": 3720840,
+      "speaker": "Pierre Dragicevic",
+      "start": 3716584,
+      "text": "And there is, and then there is clay tronics. Right, Yvonne?",
+      "id": "ep_17_ut_171"
+    },
+    {
+      "end": 3736808,
+      "speaker": "Yvonne Jansen",
+      "start": 3720992,
+      "text": "Yes, claytronics, although that's really still far away, I would say, since it's a project based on nanobots. I have this open too, of course.",
+      "id": "ep_17_ut_172"
+    },
+    {
+      "end": 3738320,
+      "speaker": "Moritz Stefaner",
+      "start": 3736856,
+      "text": "Nanobots, I mean, yeah, that's.",
+      "id": "ep_17_ut_173"
+    },
+    {
+      "end": 3745396,
+      "speaker": "Yvonne Jansen",
+      "start": 3738392,
+      "text": "Yeah, it's basically programmable matter. So smart dust. Yeah, something like that.",
+      "id": "ep_17_ut_174"
+    },
+    {
+      "end": 3745828,
+      "speaker": "Pierre Dragicevic",
+      "start": 3745500,
+      "text": "Yeah.",
+      "id": "ep_17_ut_175"
+    },
+    {
+      "end": 3756500,
+      "speaker": "Yvonne Jansen",
+      "start": 3745876,
+      "text": "So yes, tiny, basically tiny robots that can be programmed to take any shape and they have and wipe out your.",
+      "id": "ep_17_ut_176"
+    },
+    {
+      "end": 3757264,
+      "speaker": "Moritz Stefaner",
+      "start": 3756532,
+      "text": "Enemies.",
+      "id": "ep_17_ut_177"
+    },
+    {
+      "end": 3771632,
+      "speaker": "Yvonne Jansen",
+      "start": 3764804,
+      "text": "Here, I think. Yes, it's on YouTube, so it should be fine to put it on YouTube. Oh yeah, show a YouTube video.",
+      "id": "ep_17_ut_178"
+    },
+    {
+      "end": 3775604,
+      "speaker": "Moritz Stefaner",
+      "start": 3771728,
+      "text": "If you put YouTube on YouTube, you can break.",
+      "id": "ep_17_ut_179"
+    },
+    {
+      "end": 3777392,
+      "speaker": "Pierre Dragicevic",
+      "start": 3776184,
+      "text": "I think you should talk.",
+      "id": "ep_17_ut_180"
+    },
+    {
+      "end": 3792084,
+      "speaker": "Yvonne Jansen",
+      "start": 3777488,
+      "text": "Yes, yeah. This is basically the electronics matter. And here it's. Okay, this, and it supports direct manipulation and yes, it's concept. So.",
+      "id": "ep_17_ut_181"
+    },
+    {
+      "end": 3795536,
+      "speaker": "Moritz Stefaner",
+      "start": 3794064,
+      "text": "It's not real, right?",
+      "id": "ep_17_ut_182"
+    },
+    {
+      "end": 3808984,
+      "speaker": "Yvonne Jansen",
+      "start": 3795640,
+      "text": "Yes, exactly. But yeah, this is the future. So at some point we're probably going to get there and we'll have meta that can just be programmed and because.",
+      "id": "ep_17_ut_183"
+    },
+    {
+      "end": 3828028,
+      "speaker": "Pierre Dragicevic",
+      "start": 3810004,
+      "text": "The problem with shape, this place, the stuff that we're talking about so far is that you can only do two d and a half, you cannot show any shape, 3d shape because you have those spikes and you cannot have stuff which is floating, for example.",
+      "id": "ep_17_ut_184"
+    },
+    {
+      "end": 3860700,
+      "speaker": "Enrico Bertini",
+      "start": 3828076,
+      "text": "Yeah, this is the thing you were mentioning before, right? When you've shown the transparent, transparent visualization. Well, but anyway, it looks like the technology is there, so the gap I was mentioning probably is not too wide that the technology is there. So probably there is a future for active physical visualizations and this future is not too far, far away. Right. Well, great. I think it's really interesting what you've.",
+      "id": "ep_17_ut_185"
+    },
+    {
+      "end": 3875332,
+      "speaker": "Pierre Dragicevic",
+      "start": 3860732,
+      "text": "Shown us, but first we have to, yeah, we have to study passive visualizations first because we still don't know nothing about that. So there is still a lot to study even before those technologies are there. Yeah.",
+      "id": "ep_17_ut_186"
+    },
+    {
+      "end": 3879584,
+      "speaker": "Enrico Bertini",
+      "start": 3875428,
+      "text": "So you are planning to study more this kind of static visual instruments.",
+      "id": "ep_17_ut_187"
+    },
+    {
+      "end": 3897764,
+      "speaker": "Pierre Dragicevic",
+      "start": 3880664,
+      "text": "Yeah. For example, something again that we didn't study at all is those physical visualizations that you can rearrange manually. So it's passive. But as Yvonne explained, it's also, in a way, it's active, it's not static. And there is a huge design space.",
+      "id": "ep_17_ut_188"
+    },
+    {
+      "end": 3920034,
+      "speaker": "Enrico Bertini",
+      "start": 3898424,
+      "text": "Sure, sure. Okay. And there is one last thing that I wanted to ask you. So I guess you keep updating this webpage with a long list of physical visualizations. So if any of our listeners wants to suggest additional examples, how can they do it?",
+      "id": "ep_17_ut_189"
+    },
+    {
+      "end": 3938474,
+      "speaker": "Yvonne Jansen",
+      "start": 3921814,
+      "text": "We actually asked people explicitly on the website. At the bottom of the website there are links to our websites with email addresses. And if anybody has a nice addition to this, sure, we happy to add it. So please send it in.",
+      "id": "ep_17_ut_190"
+    },
+    {
+      "end": 3942654,
+      "speaker": "Enrico Bertini",
+      "start": 3938834,
+      "text": "Okay, great. So you keep updating this webpage, right?",
+      "id": "ep_17_ut_191"
+    },
+    {
+      "end": 3944494,
+      "speaker": "Yvonne Jansen",
+      "start": 3942994,
+      "text": "Yes, it's mainly me.",
+      "id": "ep_17_ut_192"
+    },
+    {
+      "end": 3955482,
+      "speaker": "Pierre Dragicevic",
+      "start": 3945594,
+      "text": "And I will keep adding because I found even the oldest example we have so far is from 35, but I found examples from 1914.",
+      "id": "ep_17_ut_193"
+    },
+    {
+      "end": 3956574,
+      "speaker": "Moritz Stefaner",
+      "start": 3955658,
+      "text": "Oh, wow.",
+      "id": "ep_17_ut_194"
+    },
+    {
+      "end": 4065634,
+      "speaker": "Pierre Dragicevic",
+      "start": 3957194,
+      "text": "From the same author actually as the book. Very interesting book from 39. I think it's Brinton. William. No, William or Willard Co. Brinton. So we have a few examples from his book. It's the book called Graphic Presentation. And everyone is more or less everyone in, I mean, lots of people in info visa are fascinated by Bertin because, you know, people like, you know, people like discovering, you know, forgotten people who already invented everything. Right? Yeah, Bertin already had, there is already everything in his book. But Bertin is from, his book is from, I think 60 or 70. No. Yes. And yeah, Brinton, he wrote a book in 39. And it's really fascinating because you will find in this book lots of things that, that are quite, quite modern. And even many examples that are mentioned by Tufte are in this book because Brinton is like. Tufte is different from Bertin because he's mostly commenting works from others. And you will find lots of similar like Napoleon's march is there, the train schedule from Marais is there. And he has only 30 citations in scholar, most of which are not from infovis. Bertin has, I checked yesterday, Bertin has 1700. So it's not that bad. Tefti has 6400 citations. And he has a previous book which is from 1914.",
+      "id": "ep_17_ut_195"
+    },
+    {
+      "end": 4068674,
+      "speaker": "Enrico Bertini",
+      "start": 4066574,
+      "text": "Wow. Do you have the book there?",
+      "id": "ep_17_ut_196"
+    },
+    {
+      "end": 4073514,
+      "speaker": "Pierre Dragicevic",
+      "start": 4069034,
+      "text": "It's actually on archive.org. it's free. It's. Everyone can access it.",
+      "id": "ep_17_ut_197"
+    },
+    {
+      "end": 4074946,
+      "speaker": "Enrico Bertini",
+      "start": 4073554,
+      "text": "Yeah, but do you have a physical.",
+      "id": "ep_17_ut_198"
+    },
+    {
+      "end": 4085122,
+      "speaker": "Pierre Dragicevic",
+      "start": 4075010,
+      "text": "Copy in your hands. Unfortunately not. And the archive. The archive book is not. It's kind of flow resolution hurts your eyes. Yeah.",
+      "id": "ep_17_ut_199"
+    },
+    {
+      "end": 4090370,
+      "speaker": "Moritz Stefaner",
+      "start": 4085258,
+      "text": "But we should definitely link to it. I flipped through it once. I haven't really read it.",
+      "id": "ep_17_ut_200"
+    },
+    {
+      "end": 4125854,
+      "speaker": "Pierre Dragicevic",
+      "start": 4090522,
+      "text": "It's really cool. Yes. You have this. And this one is from 1914. Yes. And many things like time series. So much, much, much older than Bertin. And yet. So this is an example of physical visualization from 1913. So it's the height. So those are actually okay. Strips of wood glued on top of each other. And they show how many passengers take every section of this streetcar.",
+      "id": "ep_17_ut_201"
+    },
+    {
+      "end": 4127238,
+      "speaker": "Moritz Stefaner",
+      "start": 4125934,
+      "text": "Nice. Nice.",
+      "id": "ep_17_ut_202"
+    },
+    {
+      "end": 4143394,
+      "speaker": "Pierre Dragicevic",
+      "start": 4127406,
+      "text": "Yes. This is another one with pins and. Oh, this one is kind of interesting. Yeah. This one, some kind of. Yes. Bar chart on the map. And this is from 1907.",
+      "id": "ep_17_ut_203"
+    },
+    {
+      "end": 4146846,
+      "speaker": "Enrico Bertini",
+      "start": 4146534,
+      "text": "So.",
+      "id": "ep_17_ut_204"
+    },
+    {
+      "end": 4149674,
+      "speaker": "Pierre Dragicevic",
+      "start": 4146870,
+      "text": "Yeah, we'll add more. So newer and older.",
+      "id": "ep_17_ut_205"
+    },
+    {
+      "end": 4152850,
+      "speaker": "Moritz Stefaner",
+      "start": 4152234,
+      "text": "Fantastic.",
+      "id": "ep_17_ut_206"
+    },
+    {
+      "end": 4153066,
+      "speaker": "Pierre Dragicevic",
+      "start": 4152882,
+      "text": "Yeah.",
+      "id": "ep_17_ut_207"
+    },
+    {
+      "end": 4164734,
+      "speaker": "Moritz Stefaner",
+      "start": 4153090,
+      "text": "I mean, definitely worth checking out both your site as well as the book. I can definitely recommend both. Yeah. Cool. I think we have to wrap up. You have to catch your bus.",
+      "id": "ep_17_ut_208"
+    },
+    {
+      "end": 4192844,
+      "speaker": "Enrico Bertini",
+      "start": 4167394,
+      "text": "You're going to be stuck in the office for the. All night. Well, thanks a lot. It's been great to see so many examples to be inspired by the work you guys are. I have to say, I'm really fascinated by these works and I'm looking forward to see what happens. I mean, I really don't know. I think the future is totally open and I want to see what happens now.",
+      "id": "ep_17_ut_209"
+    },
+    {
+      "end": 4196644,
+      "speaker": "Moritz Stefaner",
+      "start": 4195624,
+      "text": "Interesting.",
+      "id": "ep_17_ut_210"
+    },
+    {
+      "end": 4222428,
+      "speaker": "Enrico Bertini",
+      "start": 4197584,
+      "text": "Okay, well, thanks a lot, guys. So we'll add a few links on the blog post of the episode. And again, if you want to suggest anything that can be added to this list, please give a look to the. To the webpage and send an email to them. Okay. Thanks a lot. That's all for today.",
+      "id": "ep_17_ut_211"
+    },
+    {
+      "end": 4223316,
+      "speaker": "Pierre Dragicevic",
+      "start": 4222596,
+      "text": "Thank you.",
+      "id": "ep_17_ut_212"
+    },
+    {
+      "end": 4224704,
+      "speaker": "Yvonne Jansen",
+      "start": 4223420,
+      "text": "Thanks for inviting us.",
+      "id": "ep_17_ut_213"
+    },
+    {
+      "end": 4227316,
+      "speaker": "Moritz Stefaner",
+      "start": 4225004,
+      "text": "Bye bye. Was great having you. Bye.",
+      "id": "ep_17_ut_214"
+    }
+  ],
+  "confidence": 0.911802618998122,
+  "audio_duration": 4232,
+  "punctuate": true,
+  "format_text": true,
+  "dual_channel": false,
+  "webhook_url": null,
+  "webhook_status_code": null,
+  "webhook_auth": false,
+  "webhook_auth_header_name": null,
+  "speed_boost": false,
+  "auto_highlights_result": null,
+  "auto_highlights": false,
+  "audio_start_from": null,
+  "audio_end_at": null,
+  "word_boost": [],
+  "boost_param": null,
+  "filter_profanity": false,
+  "redact_pii": false,
+  "redact_pii_audio": false,
+  "redact_pii_audio_quality": null,
+  "redact_pii_policies": null,
+  "redact_pii_sub": null,
+  "speaker_labels": true,
+  "content_safety": false,
+  "iab_categories": true,
+  "content_safety_labels": {
+    "status": "unavailable",
+    "results": [],
+    "summary": {}
+  },
+  "language_detection": false,
+  "language_detection_threshold": null,
+  "language_confidence": null,
+  "custom_spelling": null,
+  "throttled": false,
+  "auto_chapters": true,
+  "summarization": false,
+  "summary_type": null,
+  "summary_model": null,
+  "custom_topics": false,
+  "topics": [],
+  "speech_threshold": null,
+  "speech_model": "best",
+  "chapters": [
+    {
+      "summary": "Moritz: Have you recovered a bit from your flu? Enrico: It's been crazy. I never had such a strong flu. The year is starting to kick in, so now everybody wants to do projects. We are all overwhelmed.",
+      "gist": "Crazy flu pandemic on Google Hangout",
+      "headline": "Data stories number 17 on the Google hangout. Hi, everyone. Moritz, how are you",
+      "start": 10040,
+      "end": 63136,
+      "id": "ep_17_ch_0"
+    },
+    {
+      "summary": "We're gonna talk about data sculptures, or also known as physical visualization. Pierre and Yvonne Janssen are researchers at the IRA in Paris. Instead of having visualization displayed on the screen, there is a physical object that shows the data. Another interesting thing we are going to talk about today is a study comparing different kinds of visualizations.",
+      "gist": "Data's Culture",
+      "headline": "This episode is about data sculptures or also known as physical visualization",
+      "start": 63320,
+      "end": 173064,
+      "id": "ep_17_ch_1"
+    },
+    {
+      "summary": "Pierre is a researcher at INRIA working on information visualization and human computer interaction. Yvonne is a PhD student working on physical information visualization. Can I suggest, before we move on to describing anything, can you show us any of these tools?",
+      "gist": "In the Elevator with Pierre and Yvonne",
+      "headline": "Pierre and Yvonne are working on physical information visualization",
+      "start": 174234,
+      "end": 274504,
+      "id": "ep_17_ch_2"
+    },
+    {
+      "summary": "Researchers wanted to assess whether these objects are actually useful to read the data. Found that 2d is always better, but as soon as you move to a 3d representation, then physical is better.",
+      "gist": "Stereoscopic vs 2-D data reading",
+      "headline": "You ran a study comparing 2d and 3d representations of data",
+      "start": 276124,
+      "end": 442634,
+      "id": "ep_17_ch_3"
+    },
+    {
+      "summary": "The data are all country indicators taken from Gapminder. Participants used their fingers to mark and to retrieve values to orient themselves within the chart. Follow up studies to understand why physical visualization performed better in some cases.",
+      "gist": "The role of fingers in political visualization",
+      "headline": "Physical visualization performed better than digital visualization, according to study",
+      "start": 445414,
+      "end": 761588,
+      "id": "ep_17_ch_4"
+    },
+    {
+      "summary": "This is another thing that we tried, actually, I wanted to try that. It's a subsurface engraving. With the process of digital fabrication, you cannot build everything using a 3d printer or laser cutter. But turns out it's very important to be able to touch the data for some tasks.",
+      "gist": "Touch in 3-D visualizations",
+      "headline": "Touch can mean many different things. Touch, it can be the tactile sense",
+      "start": 761636,
+      "end": 1019454,
+      "id": "ep_17_ch_5"
+    },
+    {
+      "summary": "Infovies is the first to do a controlled study about using physical objects as output to really display information. Research on tangible user interfaces has been almost exclusively input centered. From there there's a whole spectrum of more hybrid and active visualizations.",
+      "gist": "Tangible User Interfaces for Information Visualization",
+      "headline": "Research on tangible user interfaces for information visualization has been mostly screen centered",
+      "start": 1020314,
+      "end": 1202604,
+      "id": "ep_17_ch_6"
+    },
+    {
+      "summary": "The old area of scientific visualization is really trying to kind of have a 3d representation of a physical object. Most of the projects seem to come more from a design or art background. So I'm surprised that nobody did it so far.",
+      "gist": "The 3-D Dimension of Scientific Visualization",
+      "headline": "Scientific visualization involves creating a 3d representation of a physical object",
+      "start": 1203784,
+      "end": 1368166,
+      "id": "ep_17_ch_7"
+    },
+    {
+      "summary": "Yvonne and Pierre have a very nice long list of data sculptures. One is passive physical visualization and the other is active physical visualizations. They highlight the difference between functional visualizations and those which come from more design and art. We have a demo to show you how these visualizations work.",
+      "gist": "A Short History of Physical Visualizations",
+      "headline": "Yvonne and Pierre maintain a list of physical data sculptures",
+      "start": 1368310,
+      "end": 1736754,
+      "id": "ep_17_ch_8"
+    },
+    {
+      "summary": "This is a matrix visualization. It has been built by a researcher called Ener Leaf from Italian University of technology in Estonia. Why is it cool? Because it can show lots of things. Used by scientists from the end of 20th century to the 19th century.",
+      "gist": "Matrix visualization with re-ordering",
+      "headline": "Matrix visualization is basically a table, data table. And you can show multi dimensional data",
+      "start": 1738734,
+      "end": 2130368,
+      "id": "ep_17_ch_9"
+    },
+    {
+      "summary": "The slow treatment of data, like really doing it step by step, it does have a different quality than just flipping through views superficially. We had the same experience with the data cuisine where we cook data dishes. But these data points, you're thinking about them for a day or two.",
+      "gist": "Slow Data Movement",
+      "headline": "Slow treatment of data has different quality than just flipping through views superficially",
+      "start": 2130456,
+      "end": 2215658,
+      "id": "ep_17_ch_10"
+    },
+    {
+      "summary": "We have the first real demo of the reorderable matrix. You can unlock rows and columns to reorder. And so you can not only you can change the configuration of physical visualizations very naturally and you can also build them from scratch. That's a very interesting aspect ofphysical visualizations that we want to investigate.",
+      "gist": "The Reorderable Matrices",
+      "headline": "The first real demo of the reorderable matrix has been shown live",
+      "start": 2215746,
+      "end": 2348714,
+      "id": "ep_17_ch_11"
+    },
+    {
+      "summary": "Yvonne: Have you thought about what happens in ten years when 3d printers are maybe as widespread as 2d printers now? Do you think there will be lots of data sculpture objects around, maybe also disposable ones that you just print out for a day or two and then throw them away again. Or do you think it's going to be still a niche?",
+      "gist": "Making a 3-D object is easy",
+      "headline": "Yvonne: I think 3d printing will become mainstream once available",
+      "start": 2350454,
+      "end": 2836044,
+      "id": "ep_17_ch_12"
+    },
+    {
+      "summary": "How accessible is today, this kind of technology? If, if I want to buy a printing, 3d printing machine, is it something in the order of thousands. Is there anything you can tell us about what are your plans for the future?",
+      "gist": "How to create 3-D jewelry based on data",
+      "headline": "How accessible is 3d printing today? How much does it cost",
+      "start": 2836124,
+      "end": 3165714,
+      "id": "ep_17_ch_13"
+    },
+    {
+      "summary": "Are there any classic visualization techniques that you thought about implementing physically other than bar charts? By the way, when we worked on the data sculpture for the Emoto project, we also had this idea of testing it with blinds.",
+      "gist": "Blind Data Sculpture",
+      "headline": "Are there any classic visualization techniques that can be easily implemented physically",
+      "start": 3168694,
+      "end": 3331594,
+      "id": "ep_17_ch_14"
+    },
+    {
+      "summary": "There is a connection between physical visualization and ambient visualization. One thing that I cannot really see how it's going to evolve is how dynamic these interfaces can be. It would be much, much more valuable if we have a physical object that can change its shape or color in time.",
+      "gist": "Future of Physical Visualizations",
+      "headline": "Did you guys spend any time thinking about what could be the practical applications of physical visualization",
+      "start": 3333614,
+      "end": 3756500,
+      "id": "ep_17_ch_15"
+    },
+    {
+      "summary": "There is a future for active physical visualizations and this future is not too far, far away. But first we have to study passive visualizations first. There is still a lot to study even before those technologies are there.",
+      "gist": "Active and passive visualizations",
+      "headline": "Transparent visualization supports direct manipulation and yes, it's concept",
+      "start": 3756532,
+      "end": 3899484,
+      "id": "ep_17_ch_16"
+    },
+    {
+      "summary": "A long list of physical visualizations. If any of our listeners wants to suggest additional examples, how can they do it? At the bottom of the website there are links to our websites with email addresses. If anybody has a nice addition to this, sure, we happy to add it.",
+      "gist": "Physical Visualizations from 39 (",
+      "headline": "You keep updating this webpage with a long list of physical visualizations",
+      "start": 3901944,
+      "end": 4161294,
+      "id": "ep_17_ch_17"
+    },
+    {
+      "summary": "Cool. Well, thanks a lot. It's been great to see so many examples to be inspired by the work you guys are. If you want to suggest anything that can be added to this list, please give a look to the. To the webpage and send an email to them.",
+      "gist": "A Little Inspiration From The Works of Oneness",
+      "headline": "I'm fascinated by these works and I'm looking forward to see what happens",
+      "start": 4161674,
+      "end": 4218984,
+      "id": "ep_17_ch_18"
+    },
+    {
+      "summary": "Thanks a lot. That's all for today. Thanks for inviting us. Was great having you. Bye bye.",
+      "gist": "Rethinking the Olympics",
+      "headline": "Thanks a lot. That's all for today. Was great having you",
+      "start": 4220164,
+      "end": 4227316,
+      "id": "ep_17_ch_19"
+    }
+  ],
+  "disfluencies": false,
+  "entity_detection": false,
+  "sentiment_analysis": false,
+  "sentiment_analysis_results": null,
+  "entities": null,
+  "speakers_expected": null,
+  "summary": null,
+  "custom_topics_results": null,
+  "episode_num": 17,
+  "episode_metadata": {
+    "speakers": [
+      "Enrico Bertini",
+      "Moritz Stefaner",
+      "Pierre Dragicevic",
+      "Yvonne Jansen"
+    ],
+    "WPid": "94",
+    "url": "https://datastori.es/podlove/file/158/s/feed/c/mp3/datastories-17.mp3",
+    "episode_title": "Data Sculptures"
+  }
+}

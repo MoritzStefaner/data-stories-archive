@@ -1,0 +1,1341 @@
+{
+  "id": "5b900bb3-d975-4738-a257-065c02df17d8",
+  "language_model": "assemblyai_default",
+  "acoustic_model": "assemblyai_default",
+  "language_code": "en_us",
+  "status": "completed",
+  "audio_url": "https://datastori.es/podlove/file/504/s/feed/c/mp3/Datastories-44.mp3",
+  "utterances": [
+    {
+      "end": 25970,
+      "speaker": "Moritz Stefaner",
+      "start": 160,
+      "text": "Datastore is supported by Tableau software, helping people see and understand their data. Get answers from interactive dashboards wherever you go for your free trial, visit Tableau software at table software.com Datastories. That's Tableau software.com Datastories.",
+      "id": "ep_44_ut_0"
+    },
+    {
+      "end": 42142,
+      "speaker": "Enrico Bertini",
+      "start": 37710,
+      "text": "Hi, everyone. Data stories number 44. Hi, Moritz, how's it going?",
+      "id": "ep_44_ut_1"
+    },
+    {
+      "end": 49646,
+      "speaker": "Moritz Stefaner",
+      "start": 42246,
+      "text": "Hey, Enrico. Good. Yeah, I'm just tired. End of the year. I'm a bit exhausted.",
+      "id": "ep_44_ut_2"
+    },
+    {
+      "end": 50854,
+      "speaker": "Enrico Bertini",
+      "start": 49678,
+      "text": "Everyone is tired.",
+      "id": "ep_44_ut_3"
+    },
+    {
+      "end": 61994,
+      "speaker": "Moritz Stefaner",
+      "start": 51022,
+      "text": "We're in the final stretch of that big project we're going to launch in New York in two weeks, and so many things to do and finish up, and I'm happy when I'm through. How about you?",
+      "id": "ep_44_ut_4"
+    },
+    {
+      "end": 66114,
+      "speaker": "Enrico Bertini",
+      "start": 62122,
+      "text": "So let's go. It's. Well, same. Same here.",
+      "id": "ep_44_ut_5"
+    },
+    {
+      "end": 67490,
+      "speaker": "Moritz Stefaner",
+      "start": 66242,
+      "text": "We don't need to comment on that.",
+      "id": "ep_44_ut_6"
+    },
+    {
+      "end": 69410,
+      "speaker": "Enrico Bertini",
+      "start": 67530,
+      "text": "Yeah, same kind of. Yeah.",
+      "id": "ep_44_ut_7"
+    },
+    {
+      "end": 71778,
+      "speaker": "Moritz Stefaner",
+      "start": 69570,
+      "text": "Next year, everything will be different, right?",
+      "id": "ep_44_ut_8"
+    },
+    {
+      "end": 72682,
+      "speaker": "Tamara Munzner",
+      "start": 71954,
+      "text": "Yeah.",
+      "id": "ep_44_ut_9"
+    },
+    {
+      "end": 84406,
+      "speaker": "Enrico Bertini",
+      "start": 72826,
+      "text": "No, not at all. So let's go straight to our special guest. Today we have Tamara, Professor Tamara Munzner from University of British Columbia. Hi, Tamara.",
+      "id": "ep_44_ut_10"
+    },
+    {
+      "end": 85958,
+      "speaker": "Tamara Munzner",
+      "start": 84438,
+      "text": "Hi there. Thanks, Tamara for having me.",
+      "id": "ep_44_ut_11"
+    },
+    {
+      "end": 103542,
+      "speaker": "Enrico Bertini",
+      "start": 85974,
+      "text": "How are you? It's great having you. We tried to catch you since a few. Not years, but maybe months. So we always ask our guests to introduce themselves. So can you tell us a little bit about who you are, what you do?",
+      "id": "ep_44_ut_12"
+    },
+    {
+      "end": 241202,
+      "speaker": "Tamara Munzner",
+      "start": 103646,
+      "text": "Sure. So let's see. I've been a professor here at UBC since 2002, and I've been doing visualization, actually since the early nineties, which, now that I think about it, is many, many years. So actually, instead of working backwards, maybe the story makes more sense working forwards. When I graduated from Stanford as an undergrad, I didn't quite know what I wanted to do with myself. I had a degree in computer science. I knew I liked computers. And then the question was, well, now, what? Do I get a job in industry? Do I like research? What is research anyway? And so I ended up at this very formative place called the Geometry center, which was actually the National Science and Foundation center for the Computation and Visualization of geometric structures, which is a mouthful. And it was visualization with a bunch of mathematicians doing geometry and topology. And I started there with a job title of Apprentice, which is a great job title that we don't see too often. And I ended up as senior technical staff, and I basically, I caught the visbug and I caught the research bug. And so that was a place where we were really trying to use visualization to help mathematicians do mathematics and also explain it to the general public. So we did a big software project called Geomview that was a kind of general purpose three dimensional visualization system. That also supported things like non euclidean geometries and higher dimensional projections from four and five dimensions. And we did these videos of bringing mathematics to the general public that used really accessible language and visualization to make ideas that normally don't get encountered until, like, graduate level topology classes accessible to the general public, which was super fun. And we, that was things like outside in and the shape of space. And we showed those at SIGGRAPH back in the nineties. And so that was, you know, questions about how do you turn a sphere inside out without poking a hole or creasing it? And how do you have spaces that are finite but have no boundaries, where you end up with the three dimensional equivalent of Mobius strips, which are things like Klein bottles?",
+      "id": "ep_44_ut_13"
+    },
+    {
+      "end": 251698,
+      "speaker": "Moritz Stefaner",
+      "start": 241346,
+      "text": "It's actually kind of a different type of visualization, right? It's more like, how can we make visual, like, abstract structures that are not data, but like, more constructs.",
+      "id": "ep_44_ut_14"
+    },
+    {
+      "end": 502108,
+      "speaker": "Tamara Munzner",
+      "start": 251714,
+      "text": "Yeah, exactly. Math fizz is interesting because it's sort of different than where I've ended up with data visualization. This is much more using visualization to explain mathematics. And what I ended up is. And so then I also, I wrote my first research paper, which was a lot of fun with George Francis and Andy Hanson, and I discovered I liked research, and I wanted to keep doing it, and nobody would let me keep doing it without a PhD anywhere else from where I was. And so at some point, I'd end up somewhere else. And so maybe I should go get one of these PhD things. So I ended up. And at the time, the geometry center was kind of a mix of mathematicians and computer scientists. And so I was looking at a bunch of SiGGRApH papers and figuring whose taste in research do I like, do I want to become more like. And of these people who's actually taking students as a professor. And so after reading lots of SIGGRAPH papers, I thought, I want to go work with Pat Hanrahan, who I had actually met through the geometry center. He was one of the principal investigators. And so we'd met several times, and he actually was the one who started this software visualization project that originally was called Minivu, that then ended up being called Geomview. And so I actually also knew him through his code, which meant that I really, really respected him intellectually because he had started this fantastic thing, basically in the summer before he went off to Princeton, after he left Pixar. So I decided, okay, I can do this PhD thing, or so I hope. And right about that time, Pat decided to go from Princeton to Stanford. So I ended up back in California, which was great. It's ironic that I left Stanford for Minnesota for four years for a computer job. Usually you don't do Silicon Valley and then Minnesota. But then I got back to Silicon Valley and I thought I was going to do graphics, actually graphics with a capital g, and that this visualization thing was a misspent use and that I'd move on to graphics. And in the end I got sucked back into visualization because it was just too fun to quit. So there was this side project, or I thought it was a side project, where we were going to take these ideas about hyperbolic geometry, because we'd done a lot of that at the center, and it had been floating around, that you could lay out trees in hyperbolic space in a really elegant way because of these properties, where you have an exponential amount of room on things like the circumference of a circle or the surface of a sphere, instead of the sort of polynomial amount of room you have in euclidean space. And so, ironically, I ended up doing a bunch of this work after I'd left the center, where there were all these geometers and topologists. So I checked out every book the Stanford library had on hyperbolic geometry to finish deriving some stuff. And it turned out that other people had thought about this question of how to draw a tree, unbeknownst to me. And so I discovered, hey, there's this research area where people think about laying out trees, and not just trees, but networks. And, well, actually, at the time I didn't even think about it this way, but tables and other kinds of data. And so it turns out that there was this whole area of information visualization that was really just getting off the ground. So I started at Stanford in 95, and that was the year of the first infovis symposium, which I went. I'd started going to Viz back in 91, so I was at the second viz, and then I really started going to viz basically every year starting in 95. And it turns out there's this whole area where people think about laying out abstract data. And I got utterly and completely hooked. So I did my PhD at Stanford over about five years, and during that time I ended up productizing some of my research work on this hyperbolic layout of graphs at SGI. So that was a lot of fun. I was a consultant for a few years for them, and I learned a lot about writing production code, it turns out, saying things like, oh, was that.",
+      "id": "ep_44_ut_15"
+    },
+    {
+      "end": 503508,
+      "speaker": "Moritz Stefaner",
+      "start": 502124,
+      "text": "A full time gig?",
+      "id": "ep_44_ut_16"
+    },
+    {
+      "end": 506804,
+      "speaker": "Tamara Munzner",
+      "start": 503564,
+      "text": "Or like aside your university one day a week gig?",
+      "id": "ep_44_ut_17"
+    },
+    {
+      "end": 508748,
+      "speaker": "Moritz Stefaner",
+      "start": 506972,
+      "text": "Ah, okay, but that's great.",
+      "id": "ep_44_ut_18"
+    },
+    {
+      "end": 687190,
+      "speaker": "Tamara Munzner",
+      "start": 508844,
+      "text": "Yeah, it was great. It turns out that if you have one day a week where you're getting paid by the hour, you can end up having those be very long days. So I'm like, oh, maybe today should be a twelve hour day or a 15 hours day. Particularly because there was some of that coding I could only do inside of SGI, but I wanted to use the results back at Stanford. And so if I didn't finish up the thought I was on, I couldn't do it for another week. So that ended up really getting me. It was a nice deal where I could write papers about what we were doing at Sgihdem, even while I was doing production code, where some of it could be accessible for non commercial use. And then just the parts that fit into SGI system for webmasters, which at the time was called sitemanager, were the parts that were proprietary to SGI. So it was a nice way to kind of have my cake and eat it too. And I think it's actually really useful to have not just, I had done a lot of open source at the geometry center before we called it open source, we call it public domain then, but understanding that with production software, you actually have to worry about things like making sure it doesn't crash, ever, no matter what they do. I remember my boss laughing at me when I said, oh, they just shouldn't do that, when he pointed out that a certain activity caused it to crash. And he shook his head and smiled and said, no, no, no, you'll fix it. I'm like, oh, I guess I will. And so I had a somewhat similar situation with Microsoft research, where we did one of our early design studies, a system called Constellation, that was aimed at computational linguists within Microsoft. And so similarly, I ended up doing a mix of consulting with them and then writing papers about it as part of my PhD. And then there was a third system as part of my PhD that was in collaboration with mbone researchers. So by the time I finished at Stanford, I was well and truly hooked in visualization and thought about, do I want to be a professor yet or do I want to go work in a research lab? I ended up deciding to go work in a research lab, which was the former DeXRC, which was at that point compact circ. It then got bought by HP and dissolved soon after that. And so I left shortly after it got bought by HP and retroactively declared that to be a postdoc and decided, you know, when times are good, I think labs are a lot more fun than being an academic, you have very, very low overhead, but when times are bad, it's much less fun. And you can basically go from 2% overhead to 98% overhead overnight in a way that you can't really predict. Whereas I think being an academic is always like 40 plus percent overhead, but fairly predictable. But it's predictable. And I decided, I'm not convinced the economy will be spectacular for the next 15 solid years. And I really care about visualization.",
+      "id": "ep_44_ut_19"
+    },
+    {
+      "end": 690346,
+      "speaker": "Moritz Stefaner",
+      "start": 687570,
+      "text": "Was that beginning of the two thousands, something like this?",
+      "id": "ep_44_ut_20"
+    },
+    {
+      "end": 715070,
+      "speaker": "Tamara Munzner",
+      "start": 690538,
+      "text": "Yeah, this was 2000 to 2002. Okay. In fact, right when I was finishing my PhD, I ended up doing a bit of interviewing at startups. And I specifically remember one interview being the day of the crash. That was the day the crash began. There had been some hiccups in the stock market that had bounced back, and it turns out that day of my interview was the day it didn't bounce back.",
+      "id": "ep_44_ut_21"
+    },
+    {
+      "end": 716046,
+      "speaker": "Moritz Stefaner",
+      "start": 715230,
+      "text": "Okay?",
+      "id": "ep_44_ut_22"
+    },
+    {
+      "end": 749710,
+      "speaker": "Tamara Munzner",
+      "start": 716198,
+      "text": "So I ended up not going to that startup, which was Antarctica, which Tim Bray had started, which was doing some interesting stuff with 3d through the web, but it ended up convincing me that I actually really could live in Vancouver as a city. So then when I was. And because that was the first time I visited here, so then when I thought, well, I think it's time to go look at academic jobs, UBC was on my list, and that ended up being the place that I fell in love with and wanted to come. So in 2002, I started here, and I've been here ever since and have been very happy here.",
+      "id": "ep_44_ut_23"
+    },
+    {
+      "end": 751800,
+      "speaker": "Enrico Bertini",
+      "start": 751060,
+      "text": "Nice.",
+      "id": "ep_44_ut_24"
+    },
+    {
+      "end": 761880,
+      "speaker": "Moritz Stefaner",
+      "start": 753420,
+      "text": "It's a nice type of career. I just wonder if it, like, do you have a feeling like if somebody starts a PhD today, they could also take so much time to sort of figure it out?",
+      "id": "ep_44_ut_25"
+    },
+    {
+      "end": 772788,
+      "speaker": "Tamara Munzner",
+      "start": 762260,
+      "text": "Well, it's hard. People actually just did ask me that by email a month ago, and I was trying to figure out how to answer that because I think most everyone has an idiosyncratic story of how they got to where they're going.",
+      "id": "ep_44_ut_26"
+    },
+    {
+      "end": 773428,
+      "speaker": "Moritz Stefaner",
+      "start": 772844,
+      "text": "Yeah, it's true.",
+      "id": "ep_44_ut_27"
+    },
+    {
+      "end": 789368,
+      "speaker": "Tamara Munzner",
+      "start": 773484,
+      "text": "And it's both time and my biography is a message. And so, you know, this question of, you know, even what is the field? It's a very different thing today than it was 15 years ago. Things are really just getting off the ground then, which is both a good and a bad thing.",
+      "id": "ep_44_ut_28"
+    },
+    {
+      "end": 791860,
+      "speaker": "Moritz Stefaner",
+      "start": 789544,
+      "text": "But I feel today, like young people.",
+      "id": "ep_44_ut_29"
+    },
+    {
+      "end": 793380,
+      "speaker": "Tamara Munzner",
+      "start": 792240,
+      "text": "Talking about young people.",
+      "id": "ep_44_ut_30"
+    },
+    {
+      "end": 805300,
+      "speaker": "Moritz Stefaner",
+      "start": 793960,
+      "text": "Yeah, the kids these days. No, I feel they feel more pressure to perform immediately. Like, you know, put out stuff and, I don't know, have journal papers and things like that.",
+      "id": "ep_44_ut_31"
+    },
+    {
+      "end": 835178,
+      "speaker": "Tamara Munzner",
+      "start": 805980,
+      "text": "I think that's probably true. And I think in general. Anytime the field gets to be more mature, that sort of pressure gets more. I mean, at the beginning, Infovis, for example, wasn't a journal paper. It didn't. Viz started doing special issues as TVCG back in 2006 or seven. So for the first eight or nine years, a few best papers were invited in a journal special issue. But it was a conference pub, not a journal pub.",
+      "id": "ep_44_ut_32"
+    },
+    {
+      "end": 836150,
+      "speaker": "Moritz Stefaner",
+      "start": 835364,
+      "text": "Yeah.",
+      "id": "ep_44_ut_33"
+    },
+    {
+      "end": 842210,
+      "speaker": "Tamara Munzner",
+      "start": 836310,
+      "text": "I think it's been really good for both viz and TVCG to have this journal arrangement.",
+      "id": "ep_44_ut_34"
+    },
+    {
+      "end": 848806,
+      "speaker": "Moritz Stefaner",
+      "start": 844790,
+      "text": "So fast forward to today. You have exciting stuff from today.",
+      "id": "ep_44_ut_35"
+    },
+    {
+      "end": 888750,
+      "speaker": "Enrico Bertini",
+      "start": 848918,
+      "text": "Yes. I think one of the main reasons why we invited Tamara now is because she has a fantastic new book coming out soon. So we want to talk about the book. Tamara, you want to tell us about. What is this book about? What is the story behind it? So it's called visualization, analysis and design. And I think it's mainly a textbook, because this is the book that I'm going to use in my, in my own course. And I have used some of the drafts before it was published for a couple, two or three years back. So, yeah. So can you tell us a little bit more about her book?",
+      "id": "ep_44_ut_36"
+    },
+    {
+      "end": 1010680,
+      "speaker": "Tamara Munzner",
+      "start": 889410,
+      "text": "Yeah. So this book. This book has been a labor of love. It took longer than I thought it would. What do you know? I thought I would finish it on my first sabbatical, but it turns out you need a sabbatical to start a book, and then you need a sabbatical to end the book. So I just took a sabbatical last year, a bit early to wrap things up. So it was six years in total, but it wasn't working full time. The issue is, it's very hard to work on it while actually teaching and such. So it was probably about three years of mostly full time work in those six calendar years. And my goal was to scratch my own itch. I wanted the book to teach my class out of that didn't exist yet. And what I found was that it was really hard to get students to think the way I wanted them to think if all they did was read original research papers. Because I had this sense that there was a theoretical foundation underlying the field that I could sort of see in my head and was having great trouble articulating and was having a lot of troubles getting other people to see by just reading all these papers. And so it was really, my goal was to try to say, this is not just some random collection of techniques. It is a design space you can think about systematically with a series of design choices and encourage people to think about the breadth of design choices, rather than immediately just thinking, oh, I have an idea in my head, I'll just go with that. I wanted students to be able to think, what are my suite of options? And so in order to do that, I ended up thinking quite a bit about, well, how can I unify a bunch of ideas that are often not unified, like the design process and the evaluation process. That actually led to a paper on this nested model of visualization, design and validation, which we should talk about as well, which I basically wrote as I was trying to figure out my table of contents for my first draft of the book, which was, how do I put these things together?",
+      "id": "ep_44_ut_37"
+    },
+    {
+      "end": 1034284,
+      "speaker": "Moritz Stefaner",
+      "start": 1012060,
+      "text": "This is what I really like most about the book. It's super systematic, and it's like, you know, it's never like, yeah, there's a couple of options you can have, but it's always like, this is, you know, this is how the space is sort of divided, you know? And yeah, it strikes me as probably the most systematic book I've ever read about data visualization, I think. Was that part of your goals?",
+      "id": "ep_44_ut_38"
+    },
+    {
+      "end": 1035604,
+      "speaker": "Tamara Munzner",
+      "start": 1034332,
+      "text": "Oh, it was absolutely part of my.",
+      "id": "ep_44_ut_39"
+    },
+    {
+      "end": 1037000,
+      "speaker": "Moritz Stefaner",
+      "start": 1035612,
+      "text": "Job to clean up the mess.",
+      "id": "ep_44_ut_40"
+    },
+    {
+      "end": 1052244,
+      "speaker": "Tamara Munzner",
+      "start": 1037340,
+      "text": "It's not so much that it was a mess, but it was definitely something where I wanted to try to cover as many bases as I could. And I mean, what's tricky, there's always this trickiness about making definitive statements about things that are not yet known.",
+      "id": "ep_44_ut_41"
+    },
+    {
+      "end": 1052880,
+      "speaker": "Enrico Bertini",
+      "start": 1052292,
+      "text": "Yeah.",
+      "id": "ep_44_ut_42"
+    },
+    {
+      "end": 1108126,
+      "speaker": "Tamara Munzner",
+      "start": 1053180,
+      "text": "And so I feel like what I have done is I have made a map of the space, but there are other possible maps of the space through different lenses. But I think it's better to have multiple maps then no maps at all. And so I don't think my way of thinking about it is the only way, but it's the way I've kind of hammered out over the past several years as one viable way. And it ended up being that actually the place I started, which was this nested model paper, things ended up changing quite a bit along the way, and I had sort of a bookend theoretical frameworks paper about this task and data abstraction that we presented last year with Matt Bramer as first author. And this typology of abstract tasks ended up also being kind of a cornerstone of the book. That paper actually took me 15 years to write, in some senses.",
+      "id": "ep_44_ut_43"
+    },
+    {
+      "end": 1110450,
+      "speaker": "Enrico Bertini",
+      "start": 1108238,
+      "text": "Which one? The master model?",
+      "id": "ep_44_ut_44"
+    },
+    {
+      "end": 1154640,
+      "speaker": "Tamara Munzner",
+      "start": 1111070,
+      "text": "No, the task taxonomy. I ended up starting to think about tasks back when I was still a grad student in 99 with Francois Gambartiere. We had done the constellation project at Microsoft Research and then thought, oh, we've got a few months, let's do a task taxonomy. And after a few months of work, I thought, I'm going to put this on hold for a decade, and maybe in ten years I'll know enough to write this paper. And in early drafts of the book, I didn't even have a chapter on tasks. I thought, it's too complicated. I still don't know enough. And then actually, some of the main feedback I got from people using it was, you have this chapter on data abstractions, and you really need one on task abstractions. And I finally bit the.",
+      "id": "ep_44_ut_45"
+    },
+    {
+      "end": 1157060,
+      "speaker": "Moritz Stefaner",
+      "start": 1154760,
+      "text": "So I had to bite the bullet. Yeah.",
+      "id": "ep_44_ut_46"
+    },
+    {
+      "end": 1219938,
+      "speaker": "Tamara Munzner",
+      "start": 1157480,
+      "text": "And it turns out Matt Bramer had also been thinking a lot about task taxonomies as a way to get through some of the projects we were working on together, where we'd hit some analysis walls in being able to think about projects. And so we both had this desire to have a better task taxonomy. Me from a book point of view and him from a. But I need to get my work done point of view. And then we collaborated together on this paper that I think really, really helped the both of us think a lot more about what it means to be an abstract task. And so that ended up percolating its way all through the book. So basically, this process of book writing was sort of a mix of reading a lot of papers and thinking about what was out there, and also doing a fair amount of original research to really understand this design space of abstraction choices, of visual encoding and interaction choices. And one of the things I did, which is unusual, is there's no algorithms in the book and there's no math in the book.",
+      "id": "ep_44_ut_47"
+    },
+    {
+      "end": 1221298,
+      "speaker": "Moritz Stefaner",
+      "start": 1219994,
+      "text": "Yeah, that's true, that's true.",
+      "id": "ep_44_ut_48"
+    },
+    {
+      "end": 1299630,
+      "speaker": "Tamara Munzner",
+      "start": 1221394,
+      "text": "And it's quite different. Most previous books sort of start out at the layer of algorithms and build their way up, and as a result, they don't really have enough room to talk about the full suite of design choices. A lot focused much more either on infovis or on SCIVIS, that is, on abstract data or on spatial data, and they don't really emphasize the way that they're both visualization. And so what I ended up saying is, if this book actually covered all the algorithms, it would be 7000 pages and it would take me 70 years. And so in service of only being six years rather than 70 years, I'm not going to end actually making it something you could cover in just one term. I'm going to only think about the layers of the nested model above algorithms, and really focus on abstraction and what I'm calling idioms. A lot of other people call them techniques and methods. I ended up calling them idioms to really emphasize that they're different from algorithms, because the algorithm is how do you instantiate it automatically and quickly in a computer? Whereas the design choice of how to actually, what I'm calling visual encoding idioms, how to draw something and interaction idioms, how you manipulate that drawing in real time. I really like emphasizing that those are choices.",
+      "id": "ep_44_ut_49"
+    },
+    {
+      "end": 1341896,
+      "speaker": "Moritz Stefaner",
+      "start": 1301770,
+      "text": "And then also like a tree map can be executed in different ways design wise, but also algorithmically. And I also like this perspective that you're asking, like, what it's good for and how people use it and how, what the, I don't know, maybe the connotations are, or the usefulness of the whole thing. Yeah. Shall we talk about the nested model? I'm pretty sure most of our listeners will not be familiar with it because it's sort of academics inside baseball. But I really, when I read the paper, I was like, yeah, that totally makes sense. And so I think it can be very helpful also for non academics. Do you think you could walk us through, like, what the gist of the nested model is?",
+      "id": "ep_44_ut_50"
+    },
+    {
+      "end": 1406978,
+      "speaker": "Tamara Munzner",
+      "start": 1342008,
+      "text": "Sure. It is a topic dear to my heart, which I find I keep talking about it myself because it's just these days how I think. And so it's sort of the foundation for me trying to explain anything at all. And so what it was doing, it's trying to serve a couple different purposes. And basically, if you just think, oh, visualization, there's too much going on, it's too intertwined. And so what I tried to do is chop things up into separable pieces that you can think about. And so the pieces I ended up with are four. And at the top level is this idea that there's a domain problem that you're dealing with. So I end up calling it a domain situation. It includes who is the user, and what do they already know? What are the conventions of their particular domain. It might be a domain like some scientific inquiry, like biology or chemistry. It might be something like it's, you know, a user analyzing baseball statistics that's not doing this part of their job, but because they love it. But there's some idea that there's data analysis going on in a context and.",
+      "id": "ep_44_ut_51"
+    },
+    {
+      "end": 1408710,
+      "speaker": "Moritz Stefaner",
+      "start": 1406994,
+      "text": "In a certain culture as well, right?",
+      "id": "ep_44_ut_52"
+    },
+    {
+      "end": 1461932,
+      "speaker": "Tamara Munzner",
+      "start": 1409090,
+      "text": "Yeah. And I mean, culture can be a lot more fine grained than just what country you come from. It can be something much more specific. Like, this is the biology research lab where I am, and here is our workflow of doing data analysis. And so it's crucial when you're thinking about solving real world problems to focus on the domain. But it turns out that's not enough in order to then say, well, how do you compare a vis system designed for a chemist to one designed for a biologist to one designed for someone buying and selling stocks in the financial domain? It turns out there are a lot of commonalities that cross domains. And so there's this need for abstraction. And so I have, the second level of the model is abstracting both the data and the task from something that's in domain specific language to something that's in some set of sort of generic building blocks, which are the things we can address in visualization.",
+      "id": "ep_44_ut_53"
+    },
+    {
+      "end": 1465040,
+      "speaker": "Enrico Bertini",
+      "start": 1462036,
+      "text": "Tamara, can you give us an example of obstruction?",
+      "id": "ep_44_ut_54"
+    },
+    {
+      "end": 1568680,
+      "speaker": "Tamara Munzner",
+      "start": 1465860,
+      "text": "Yeah, so, for example, for the data, you might say things like, well, I've got gene expression levels from a particular gene at a particular experimental condition. These are all things in the language of biology. But then what you could say that's a much more abstract way of talking about it is I have a table of data, um, and I've got some quantitative numbers, uh, that are representing a particular measurement. In this case, it's a gene expression level. Um, I've got categorical attributes in this table, which are actually the names of the genes. Um, so you can start to talk about, is the, for the data abstraction, it's questions like, is it a table, is it a network where you don't just have items, but you have links between items? Is your data intrinsically spatial? So you have some idea of spatial position as part of all of this, that maybe you're sampling regularly, as opposed to having intrinsically discrete items. And a big question for a lot of things is, does data you're looking at, is it quantitative, meaning you can actually do full arithmetic on it, and it's got an ordering. Or is it categorical, meaning you can tell if something is this or isn't this, but there's no intrinsic ordering. And that question is really central when you think about things down at this next level of idioms. That's for data. So examples for tasks are things like, are you comparing distributions? Are you trying to identify a particular thing? Are you trying to summarize all the data with an overview? So are you trying to find outliers versus find trends? So these are some very abstract ways of talking about problems that occur in lots and lots of different domains.",
+      "id": "ep_44_ut_55"
+    },
+    {
+      "end": 1570110,
+      "speaker": "Enrico Bertini",
+      "start": 1569330,
+      "text": "Yeah.",
+      "id": "ep_44_ut_56"
+    },
+    {
+      "end": 1756890,
+      "speaker": "Tamara Munzner",
+      "start": 1570450,
+      "text": "So this level of abstraction, it's also very interesting because it turns out that it's not the common case that someone gives you the data and then you draw the picture. The common case is someone gives you data and then you transform that data by deriving new data such that when you draw the picture of the derived data, you actually help the user solve their problem. And so I really, really emphasize that this abstraction layer includes your choice of how to transform the data. And that, and that's, I think that's one of the most interesting frontiers in visualization, actually, is what happens at the abstraction layer. Then the part that I think a lot of people come to the table thinking of as visualization are these questions of idiom design of both visual encoding and interaction. And so these are the things you have to take into account the perceptual characteristics of humans and the fact that not always of encoding data are equal. So this is some ideas that go back to Bertin and McKinley about that. You have marks you could make like points or lines or areas, and then you can encode information in those marks with things like spatial position and color and orientation and size and shape these channels. And so you can use marks and channels to encode information visually. And then of course these pictures are something that you can interact with. This is why computer based visualization is so fantastic compared to what people could do in the past with only things like paper is now. You can actually deal not just with large datasets, but also with datasets that change over time. So this interactivity is a really crucial part of doing your data analysis. And so all these design choices at the idiom layers are things that you can really do after you've decided on your task and data abstractions. Then you can try to pick an appropriate visual encoding and interaction idiomouse. And finally, the lowest layer is after you've done your abstraction and after you've done your idiom design. Then at the algorithm level you think about how to do all this on a computer quickly. And it's interesting and crucial work. And in fact, a lot of the work we do in our own lab is exactly aiming at these algorithm flavored things. So I end up talking a lot about the two different ways to traverse this nested model. If you start from the top at the domain level and work your way down, that's doing what I call problem driven research. And it's this question of I have real users, they have real data, they have real tasks, and I want to help them. Then another way of doing it is to start from the bottom and go your way up and you can think, oh, there's this problem I've already seen before where someone has written an algorithm to do this, and I have a better algorithm in mind. It's going to be either faster or more scalable or better in some way. And I'm going to really say, here's this algorithmic problem that I'm solving, and write a paper about that. And that's what I'll call technique driven work. And I really like doing a mix of problem driven and technique driven, because I find they really synergize well with each other, where the one can build off the other, but I think methodologically, they're quite different.",
+      "id": "ep_44_ut_57"
+    },
+    {
+      "end": 1763770,
+      "speaker": "Enrico Bertini",
+      "start": 1757270,
+      "text": "So, Tamara, in the model, I think you also highlight some potential threats for every stage. Is that correct?",
+      "id": "ep_44_ut_58"
+    },
+    {
+      "end": 1774110,
+      "speaker": "Tamara Munzner",
+      "start": 1764270,
+      "text": "Yeah. Because the second half of this nested model paper was trying to address the question of how do you know if you succeeded? How do you validate your work?",
+      "id": "ep_44_ut_59"
+    },
+    {
+      "end": 1784630,
+      "speaker": "Enrico Bertini",
+      "start": 1776530,
+      "text": "So one question that we always get is, how do you know that this is the right thing in visualization? Right. And this is a crucial problem.",
+      "id": "ep_44_ut_60"
+    },
+    {
+      "end": 1916210,
+      "speaker": "Tamara Munzner",
+      "start": 1786570,
+      "text": "Yeah. So I have a partial answer for that, which is that one of the reasons behind splitting things up into these four levels is to help you answer that problem of how do you know if it worked? Because the methods at each of these four levels are quite different. So let's start, actually start with the innermost layer. The reason I call it nested is because the decisions you make at one level cascade down to shape what you can do at the interior levels. So if we start all the way in the middle, at the bottom, with algorithms. Well, the way you can figure out if algorithms are good, these are things computer scientists are usually pretty well trained in. You can do computational benchmarks, right? You build the system and you time it, and you see how much memory it takes. You see how much computer time it takes. And so that's a really, that is very suitable for algorithmic work. But then it turns out if you want to validate your choices at the level above that, the idiom level, you typically want to do something different. You typically. That's a level where it's really useful to do controlled experiments in a lab, what a lot of people think of as user studies. So with this kind of experimental work, you're doing things often like timing, how long it takes a human to do a thing using your system. And so it's a way you can learn a lot, because you actually, at the end of the day, are saying, how does it work with humans? And there's certain things that this is really good for and certain things it's not so good for. So it can be really good to try to validate whether or not you got the right idiom, but it's also got a limitation if it's hard to use controlled experiments in the lab to figure out if you got the abstractions right, because the key thing about a lab study is you tell people what to do exactly when you're timing them. So it turns out that in order to validate your abstraction level, you really want a different technique, which is field studies, where instead of doing an experiment in a lab, you deploy a system to real users and see how it is that they use your system to do their actual work, where they're doing their own tasks and they're using their own data in a way that lets you check whether what you thought about the abstraction was actually a match with reality.",
+      "id": "ep_44_ut_61"
+    },
+    {
+      "end": 1918960,
+      "speaker": "Moritz Stefaner",
+      "start": 1916840,
+      "text": "It's much more long term, much more hard to measure.",
+      "id": "ep_44_ut_62"
+    },
+    {
+      "end": 1950580,
+      "speaker": "Tamara Munzner",
+      "start": 1919000,
+      "text": "Of course, like typically, it's often a lot more qualitative than quantitative, and so it's tempting for people to want the quantitative answers for a lab study. But unfortunately, I think you really can't test whether your abstraction is true. And so you end up needing to go into these experimental methods, a lot of which come much more out of things like anthropology and ethnography, as opposed to the kind of controlled experiment where your methods come out of things like cognitive psychology. So different methodology.",
+      "id": "ep_44_ut_63"
+    },
+    {
+      "end": 1965360,
+      "speaker": "Enrico Bertini",
+      "start": 1950660,
+      "text": "So when you're using these kind of methods at this stage, how do you know, how do you actually realize when you've reached the point where the result is correct or satisfying? Because I guess it's much fuzzier.",
+      "id": "ep_44_ut_64"
+    },
+    {
+      "end": 2064880,
+      "speaker": "Tamara Munzner",
+      "start": 1966660,
+      "text": "It is much fuzzier. And that actually brings to mind yet another research paper that we wrote about design study methodology, where we make some arguments about. So design studies, are this a particular kind of paper that we've ended up talking about in visualization, which is this sort of problem driven research where you start with the domain problem and do this top down thing I mentioned before. And so two of my collaborators and I, Mariah Meyer and Michael Seidelmeyer, between the two of us, had done about 21 of these design studies over about a decade or so. And we try to figure out what have we learned? What can we say about how do we know when we're done? How do you do these, how do you know when you're done? When do you declare victory and actually write the paper or ship the system and stop refining it? Because a lot of these design studies are very much these incremental refinement where you iterate and at some point you decide, all right, the system is good enough that I'm going to say it's done. A lot of this comes down to, have you helped people do their work either better or faster or both? So a lot of the wins of visualization systems are not that they can do something completely new, but that they can do what they were doing much faster. An idea that I first heard really well articulated by Kristen Talbot, the CEO of Tableau, in a keynote he gave a while back. I think it was at vast in the mid two thousands, and it really stuck with me and changed my thinking because I think speeding up existing workflows is the main use case of viz.",
+      "id": "ep_44_ut_65"
+    },
+    {
+      "end": 2068236,
+      "speaker": "Moritz Stefaner",
+      "start": 2066540,
+      "text": "Oh, I don't agree. We need to discuss.",
+      "id": "ep_44_ut_66"
+    },
+    {
+      "end": 2070804,
+      "speaker": "Enrico Bertini",
+      "start": 2068308,
+      "text": "That's interesting. Lots of people see, I had a.",
+      "id": "ep_44_ut_67"
+    },
+    {
+      "end": 2079572,
+      "speaker": "Moritz Stefaner",
+      "start": 2070812,
+      "text": "Long discussion with Min Chen on this as well, but finish first, I think.",
+      "id": "ep_44_ut_68"
+    },
+    {
+      "end": 2135870,
+      "speaker": "Tamara Munzner",
+      "start": 2079676,
+      "text": "Yeah, good. We have a fight coming. Not a fight, a discussion, but. So this question of how if you've been iteratively refining a system and you get more and more evidence that it's actually helping people work better or differently. Well, not just differently, but better, that is, either new things or faster, you can try to gather evidence for that. For example, case studies of where the experts using the system actually found something they didn't know or could replicate previous analysis much, much more quickly. That's something I think of of as evidence for success. This is why a lot of design studies have these results sections, which are detailed case studies of what experts found using the system and their opinions about whether or not this would have been viable with other analysis methods. And so it's different kinds of evidence than a controlled experiment in a lab.",
+      "id": "ep_44_ut_69"
+    },
+    {
+      "end": 2167020,
+      "speaker": "Moritz Stefaner",
+      "start": 2136370,
+      "text": "Yeah, I just wanted to say this area is much more about local optimizations, like just taking a starting point and say, how can we improve on the situation? Whereas if you have an algorithm, you can maybe even prove, okay, it cannot be faster than what I've done, so I'm finished here. But in this real world examples, it's always about making it better with respect to an existing solution or other alternatives. You have tried, but you're always in that relative space, and I don't think you're ever done with.",
+      "id": "ep_44_ut_70"
+    },
+    {
+      "end": 2196150,
+      "speaker": "Tamara Munzner",
+      "start": 2167360,
+      "text": "You're not. But at some point you have to declare victory and ship the thing. And so you could keep going on forever. And one of the big challenges is figuring out when have I learned as much as I'm likely to learn and getting diminishing returns and it's ready to move on. It's been 15 years on the same system, but, you know, 15 years is probably too long. And three days is probably too short. And so finding that sweet spot is exactly one of the hard questions we talk about in this design study methodology paper of trying to make that call.",
+      "id": "ep_44_ut_71"
+    },
+    {
+      "end": 2232600,
+      "speaker": "Enrico Bertini",
+      "start": 2196450,
+      "text": "So, Tamara, I wanted to ask you, when you say design study, do you implicitly mean building a system that helps someone doing data analysis through visualization? I'm asking because a lot of people see visualization mainly as a presentation tool, whereas most of one thing I notice is that the academic community tends to think about visualization more as an analytical tool. So I'm just wondering, when you talk about design studies, would you include design of visualizations that are mainly used for presentation purposes, or you are implicitly thinking about analysis?",
+      "id": "ep_44_ut_72"
+    },
+    {
+      "end": 2311400,
+      "speaker": "Tamara Munzner",
+      "start": 2234160,
+      "text": "I think I'm mostly thinking about analysis, but I don't necessarily rule out all presentation, but I don't think it's the common case. So, I mean, going back to that task, taxonomy I mentioned, we do kind of split at the very highest level of task between using visualization for discovery, either generating a new hypotheses or confirming existing hypotheses, versus presenting something that's already known. And I think it's quite a fundamental split in my worldview, which might not be correct, but it's how I think. I think that presentation is typically not sufficient for discovery, but often a discovery tool along the way will give you the presentation basically for free, because by the time you discover the thing, you've got something in a suitable form for presenting it to others. Sure. So I think of it as a more difficult problem, and I think that's why it's gotten a lot more of the attention from the academic community. There certainly are papers that talk about the presentation task alone, but many more of them are aimed at the discovery task. And certainly my own work has been much more aimed at the discovery stuff.",
+      "id": "ep_44_ut_73"
+    },
+    {
+      "end": 2336470,
+      "speaker": "Enrico Bertini",
+      "start": 2311780,
+      "text": "Yeah, I think this is a general trend that I've always noticed, because, as I said, I think that most of the way we see visualization in academia is mostly as an analytical tool, whereas for many, many people out there is the presentation of something that has been, in a way, pre digested. So it's a way to convey a specific message that somebody has already found in a given data set.",
+      "id": "ep_44_ut_74"
+    },
+    {
+      "end": 2352990,
+      "speaker": "Tamara Munzner",
+      "start": 2338810,
+      "text": "Yeah. And I'd encourage those people to think more broadly that discovery is also that in some sense, drawing the picture can both be an aid to your own thinking, in addition to a way to help you explain things to others.",
+      "id": "ep_44_ut_75"
+    },
+    {
+      "end": 2390978,
+      "speaker": "Enrico Bertini",
+      "start": 2353890,
+      "text": "So another thing I wanted to ask you about design studies is. So my impression is that most design studies out there are solving very specific problems. And I think there is, of course, I think one way to see our field advancing is having systems that are more, or solutions that are more generalizable than that. Do you see that as a problem or not? I think also in connection to the fact that I don't see many, many general purpose tools out there that are really effective, maybe, I don't know. The only one is I don't want to mention names, but I mean there.",
+      "id": "ep_44_ut_76"
+    },
+    {
+      "end": 2417492,
+      "speaker": "Tamara Munzner",
+      "start": 2390994,
+      "text": "Are, let me give you a partial answer to that without naming names. Here's the thing. I think it's an easy critique of design studies is to say, well, that just took a PhD in a professor working in collaboration with a domain expert, nine months of work to design one thing that's suitable for this relatively narrow task. How does that help the field? How does that help?",
+      "id": "ep_44_ut_77"
+    },
+    {
+      "end": 2418400,
+      "speaker": "Enrico Bertini",
+      "start": 2417516,
+      "text": "I think it works.",
+      "id": "ep_44_ut_78"
+    },
+    {
+      "end": 2564730,
+      "speaker": "Tamara Munzner",
+      "start": 2419180,
+      "text": "My answer to that is this kind of research is what it takes to figure out the guidelines of how to build visualizations. Because typically the reason, I think it's interesting to write a design study paper that more than the, you know, twelve people in the world maybe who are the prime targets of the system, why would any other ViS researcher care? It's because along the way you can figure out better design guidelines. So one of the things we talk about a lot in the design study methodology paper is where you reflect on what you learned into these generalizable or transferable lessons that are typically about guidelines. So have you confirmed previously proposed guidelines or more likely have you refined them because you found something or have you even refuted them where something that somebody asserted turns out to be incorrect in your case? Or are you proposing completely new guidelines? And so this process of refining the guidelines of how to do vis is the main reason that I think design studies are a benefit to the ViS community because that how we actually figure out how to do this stuff. And after we have enough design studies we will be in a place where we have a much more complete, you know, I use the word guidelines in a very generic sense. I kind of think about, you know, the cookbook in the sky, which is this platonic book of how do you do viz? And we're gradually learning this and filling it in. And I think of design studies as the way to get to, you know, Plato's book of Vizenental. And because if you just do something generic, if you say I'm going to build a general purpose tool, it's often hard to actually understand the specifics of what a particular person needs. So I think of design studies as something where the goal is not to just immediately generalize, but to transfer lessons from one context to another. And that's why I emphasize so much this question of abstraction, because it's abstraction that lets you transfer across the domains. And so often a lot of the intellectual contribution of a design study, it's usually not designing a new idiom, it's usually using new idioms. But understanding and finding and characterizing the abstractions and then reflecting on what you know about how to map from abstractions into idioms. That's what I think design studies bring to the table. And after we have a whole bunch of things, we'll be able to step back and generalize.",
+      "id": "ep_44_ut_79"
+    },
+    {
+      "end": 2576268,
+      "speaker": "Moritz Stefaner",
+      "start": 2565540,
+      "text": "That's also very under discussed. I feel it's like, and this is where the black magic part is, how you get from a domain problem to a suitable abstraction. Right. This is like where magic happens.",
+      "id": "ep_44_ut_80"
+    },
+    {
+      "end": 2588440,
+      "speaker": "Tamara Munzner",
+      "start": 2576284,
+      "text": "Yeah, I still feel like the magic is still dark gray. I'm trying to make it a bit less black. And I feel like my multi decade goal is to get it from black to gray.",
+      "id": "ep_44_ut_81"
+    },
+    {
+      "end": 2618812,
+      "speaker": "Moritz Stefaner",
+      "start": 2591420,
+      "text": "And this is a practical skill. You know, this is like, you know, I have more of a design background probably than an academic one. And to me it's quite natural that you have to learn this by example. You know, I would never complain about that because to me it's clear every problem is new and you can learn techniques and patterns, but at the end of the day, when I meet an astrophysicist, I have to start from scratch and learn about astrophysics.",
+      "id": "ep_44_ut_82"
+    },
+    {
+      "end": 2669772,
+      "speaker": "Tamara Munzner",
+      "start": 2618996,
+      "text": "That's the thing. I think that you, there's a way you're starting from scratch, and there's a way you're not. The fact that you know what patterns to even look for, that means you're not starting from scratch. And so I feel like what's interesting, we have this paper on the nested model blocks and guidelines where we tried to kind of dive in deeper and articulate this more. There's this famous far side cartoon where there's what the human says and what the dog hears and the cartoon, you know, the human saying, you know, ginger, hey, do you want to go out for a walk? It's a really nice day. And Ginger's the dog, and then there's what the dog hears in a blah, blah, blah ginger walk. And so, you know, from the dog's point of view, there's two things. You're talking to me and oh my God, we're going for a walk. And so I think of a domain scientist and a vis researcher talking as something similar where.",
+      "id": "ep_44_ut_83"
+    },
+    {
+      "end": 2670300,
+      "speaker": "Moritz Stefaner",
+      "start": 2669836,
+      "text": "Absolutely.",
+      "id": "ep_44_ut_84"
+    },
+    {
+      "end": 2724580,
+      "speaker": "Tamara Munzner",
+      "start": 2670340,
+      "text": "The vis researchers, blah blah blah, astrophysics nebula, blah blah. And then you're like, blah blah blah blah. He said network. And so you're trying to to glean these little building blocks out of what they're saying, and then, of course, you have to check back and make sure the translation's right. But if you don't know what you're listening for, then it's much harder to make progress. If you don't know that you want to be latching on to. Oh, compare attributes of a table to find outliers as your goal versus, oh, I have to learn all of astrophysics, and then maybe at some point I'll be able to build a vis system. So that's the part, I think, as a designer, you've ended up coming up with this vocabulary of blocks that you're listening for in these conversations. And so what I'm trying to do is accelerate that by trying to teach people. Here's some of these blocks that we've already figured out as a field.",
+      "id": "ep_44_ut_85"
+    },
+    {
+      "end": 2762018,
+      "speaker": "Moritz Stefaner",
+      "start": 2726000,
+      "text": "Yeah, no, absolutely. And there's techniques like how to get the right answers from people, and a lot of is practical knowledge, but a lot is also. Yeah, yeah. Ready made techniques you can use. What I meant with starting from scratch is you need to start that process again. It's not something you can shortcut, but you need to start that people process of, okay, let's sit down. Let's talk about what we want to achieve here and how we get there. And this is not something that can ever be automated or abstracted away. It's a people, data machines interaction type process.",
+      "id": "ep_44_ut_86"
+    },
+    {
+      "end": 2813206,
+      "speaker": "Tamara Munzner",
+      "start": 2762194,
+      "text": "Yeah, but I don't think it can never be made to go away. But I do think that people can be much, much faster or much, much slower at achieving victory with it. And so I think that that's the part where a lot of the reason I've written a lot of these sort of meta how to papers and the book itself was to try to figure out how I started out with the job title of apprentice, where I literally hung out with people and absorbed things. And I find that that's a model that's hard to scale and hard to speed up. And so a lot of what I thought is, you know, I've figured out how to do some of this stuff. I've even figured out a way to end up with grad students that kind of come out of my group doing this stuff. But how can I articulate it in a way that doesn't require someone, you know, spending a few years hanging out in my lab. And so trying to write some of it down more explicitly is really an attempt to scale up.",
+      "id": "ep_44_ut_87"
+    },
+    {
+      "end": 2838312,
+      "speaker": "Moritz Stefaner",
+      "start": 2813398,
+      "text": "So let's take a short break to talk about our sponsor. Our sponsor is Tableau and we are supported by them. And Tableau helps people see and understand their data. Tableau lets people connect to any kind of data and visualize it on the fly. Databases, spreadsheets, and even big data sources are easily combined into interactive visualizations, reports and dashboards. What is your data trying to tell you? So do you use Tableau?",
+      "id": "ep_44_ut_88"
+    },
+    {
+      "end": 2867796,
+      "speaker": "Enrico Bertini",
+      "start": 2838456,
+      "text": "I do use it a lot, but not only for my own research, a lot in, when I'm teaching my classes. I think it's very good because of course we have a free version that we can use for students and it's very easy to use it. So I basically give a version, a copy of the software to every student and it's easy to create new charts and explain the basic things about visualization.",
+      "id": "ep_44_ut_89"
+    },
+    {
+      "end": 2870684,
+      "speaker": "Moritz Stefaner",
+      "start": 2867948,
+      "text": "Yeah. And you can easily try different views.",
+      "id": "ep_44_ut_90"
+    },
+    {
+      "end": 2875646,
+      "speaker": "Enrico Bertini",
+      "start": 2870732,
+      "text": "Like different aggregates, and there is interaction as well, which is rare, right?",
+      "id": "ep_44_ut_91"
+    },
+    {
+      "end": 2878702,
+      "speaker": "Moritz Stefaner",
+      "start": 2875718,
+      "text": "Yeah. So you can filter an individual chart.",
+      "id": "ep_44_ut_92"
+    },
+    {
+      "end": 2898204,
+      "speaker": "Enrico Bertini",
+      "start": 2878766,
+      "text": "Yeah. And I assign exercises to students and basically they take one data set and create a dashboard outside. So it's also deciding which visualizations go there and how to link them and what kind of interaction to implement. So basically at the end there is a pretty much usable kind of application, little application.",
+      "id": "ep_44_ut_93"
+    },
+    {
+      "end": 2898960,
+      "speaker": "Moritz Stefaner",
+      "start": 2898302,
+      "text": "Is that great?",
+      "id": "ep_44_ut_94"
+    },
+    {
+      "end": 2900976,
+      "speaker": "Enrico Bertini",
+      "start": 2899040,
+      "text": "Yeah, it's excellent.",
+      "id": "ep_44_ut_95"
+    },
+    {
+      "end": 2941970,
+      "speaker": "Moritz Stefaner",
+      "start": 2901088,
+      "text": "So for your free trial, visit Tableau software@Tableau Software.com Datastories don't forget the data stories part. And that's Tableau software.com Datastories. And back to the emphasis, back to the show. Yeah. Has there out of these many case studies you published or co published, has there emerged like one core process that you could apply again and again as a sort of a recipe type thing or like a certain structure where you now would say, when I have a fresh project, this is how I would start it and this is how I would make sure we make progress along the way.",
+      "id": "ep_44_ut_96"
+    },
+    {
+      "end": 3048960,
+      "speaker": "Tamara Munzner",
+      "start": 2942310,
+      "text": "We've tried to that one of the things we had in this design study methodology paper was trying to say, well, here's a nine stage framework. It's not exactly chronological in this, that almost all of the things we do in that framework are things that we end up going back to and revisiting. But it was something where we at least tried to formalize a bit more. What we had done retroactively realizing was a bit of a process where there's especially separating out some phases like think about the fact that you have to deploy the software and watch them use it. It's very easy and tempting to think, okay, I finished building it, and now I can write my paper and saying, don't forget the four months where you go off and you deployed and they use it, and maybe you go work on another project as a researcher in the meantime, but you actually have to have them using it for a while before you can think about getting results. Like, that's something we tried to articulate specifically in this DSM nine stage framework. So that sort of thing. But it would be revisionist history to say, we followed this process for all 21 of those. Not at all. No, no, no, no. A lot of that paper was saying, here's where we got it wrong, and here's a pitfall. There's actually 32 of these pitfalls that we say. Here's a thing that either we've done wrong or we've seen other people do wrong when reviewing or reading other people's papers or all of the above. And here's some ways to try to avoid that. And so some of our process suggestions are trying to not fall into some of those same traps. But I think it's a moving target. I think that everyone is a bit different because the students you're working with have different backgrounds, the collaborators you're working with have different needs. You've learned a bit more along the way from your last one. So I feel like it's always a moving target.",
+      "id": "ep_44_ut_97"
+    },
+    {
+      "end": 3062724,
+      "speaker": "Moritz Stefaner",
+      "start": 3049620,
+      "text": "Yeah. And, I mean, many of the projects are just ill defined, like, from the get go, and a lot of it is really, you know, it often sounds so easy to. Yeah, we first need to figure out the task and the domain, and then we build a system.",
+      "id": "ep_44_ut_98"
+    },
+    {
+      "end": 3063156,
+      "speaker": "Tamara Munzner",
+      "start": 3062852,
+      "text": "Yeah.",
+      "id": "ep_44_ut_99"
+    },
+    {
+      "end": 3068788,
+      "speaker": "Moritz Stefaner",
+      "start": 3063188,
+      "text": "That's a whole, like, figuring out task and domain is already half of your time, at least for me, it's, you.",
+      "id": "ep_44_ut_100"
+    },
+    {
+      "end": 3107280,
+      "speaker": "Tamara Munzner",
+      "start": 3068804,
+      "text": "Know, maybe even 70, 90% of the time. I feel like that's exactly the hard part. And when you read these design study papers, they all make it seem so crisp and clear, just like when you read an evaluation paper where they kind of, you know, they walk you through the results and their statistical analysis. But the crucial question is, how did you design that experiment? Why did you pick this and not that? And so I think that there's a lot of stuff for academic papers hide a lot of the hard process parts because they want to show you the distilled results parts. And so there's, you know, this jewel like thing at the end versus the process of making the sausage along the way.",
+      "id": "ep_44_ut_101"
+    },
+    {
+      "end": 3109492,
+      "speaker": "Moritz Stefaner",
+      "start": 3107860,
+      "text": "So there's more dark matter around.",
+      "id": "ep_44_ut_102"
+    },
+    {
+      "end": 3121068,
+      "speaker": "Tamara Munzner",
+      "start": 3109556,
+      "text": "There's a fair amount of dark matter. And, I mean, there's a reason people do this, because, you know, hearing all the things you did wrong is not intrinsically interesting, necessarily, because there's a huge set of things you can do wrong. This is one way to learn, and so it's always a trade off.",
+      "id": "ep_44_ut_103"
+    },
+    {
+      "end": 3126460,
+      "speaker": "Enrico Bertini",
+      "start": 3121244,
+      "text": "Publishing this kind of information is also interesting in terms of learning from mistakes, right?",
+      "id": "ep_44_ut_104"
+    },
+    {
+      "end": 3175378,
+      "speaker": "Tamara Munzner",
+      "start": 3128400,
+      "text": "It is, but I think it's a really tricky, tricky question. On the one hand, I really want to reward people for learning from their mistakes and reflecting and helping the field get further. On the other hand, because the design space of possibilities is so enormous, you could imagine many people spending all of their time talking about things that don't work and not really teaching us very much because there's so many. So I think there's this. One of the reasons that I like the model where you do something all the way to success and then reflect on what you learned and articulate that in some concise pieces is that maybe it's a better, it seems like a way to have the field make progress instead of just saying, here's everything I did wrong. Because if you never get to the right, then how do we learn?",
+      "id": "ep_44_ut_105"
+    },
+    {
+      "end": 3198130,
+      "speaker": "Enrico Bertini",
+      "start": 3175474,
+      "text": "So one thing I wanted to ask you about the work around design studies. Do you think all the instructions that are there apply one to one to settings that are not academic? And so I'm just thinking about many of our listeners are people who work in industry, or maybe they are freelancers. So how do they use this kind of information?",
+      "id": "ep_44_ut_106"
+    },
+    {
+      "end": 3274380,
+      "speaker": "Tamara Munzner",
+      "start": 3198990,
+      "text": "The short answer is, I suspect that 85% of it applies. But I might be wrong about which 85%. The part that I think applies is pretty much everything up until the very end where we talk about writing papers. And I think that most practitioners, their goal is not to write papers. And yet I think even some of what we talk about with the paper writing is the way that you actually learn from what you did. So taking the time to reflect about what you learned, even if you don't write it up as an academic paper, I think is worth spending some time on, although probably not nearly as much so because this question of how much do you want to learn for your own process from this versus make it available to others. And so it turns out that writing things down is one of the best ways to think, and writing them down in a way that makes sense to others is one of the best ways to really grapple with what you learned yourself. So on the other hand, I can say that because I'm an academic and I get paid for sitting around writing papers. And so if I had production deadlines, it would be like, well, yes, that's all there. Nice. But this is due on Tuesday, so. And I have some of those deadlines.",
+      "id": "ep_44_ut_107"
+    },
+    {
+      "end": 3333180,
+      "speaker": "Moritz Stefaner",
+      "start": 3274420,
+      "text": "I mean, from a practical point of view, one thing that struck me when I, when I read the nested model, and I think it applies really well for software that helps people do some tasks better, is that I have sort of a different tension often in my projects. I have actually two stakeholder groups I need to work for is like one is the client who has an idea about what a certain visualization should achieve in the world and the other group is actually the users. And this could be the same. So maybe sometimes I work with scientists who have interesting data and they just want to explore it in a better way. So that's, I think, very close to what you have in mind with the nested model. But sometimes the audience is maybe general public or, you know, a much wider user group than the original experts I'm talking to or the people commissioning me. And I think this sort of tension is an interesting one and it's maybe one that doesn't quite fit into this tool oriented perspectives.",
+      "id": "ep_44_ut_108"
+    },
+    {
+      "end": 3440466,
+      "speaker": "Tamara Munzner",
+      "start": 3333300,
+      "text": "Well, I mean, I think it's really important to understand who the audience is. And one of the things I talk about, even in the design study methodology paper, is to disambiguate these stakeholders who are the people that have the data, if they're different from the people who are going to be the end users of the system. And so it's very common that the people who, there's this other case that I talk about in the DSM paper, which is this fellow tool builders, where people say, oh, I need a visualization dashboard for my system that does x, basically for all x, they'll come and say that. Then it turns out they often have ideas about what the end users need, and sometimes they're right and sometimes they're absolutely about what the end users actually need. And so I think this ability to separate those out as different stakeholders and not forget to make sure you have some way to check in with the end users is interesting. I mean, what's tricky is there's a lot of contexts where that's difficult. We have one paper, the live rack system, that talks all about the problem of what if you're not allowed to talk to your end users until you step through a lot of hoops to convince their managers that their precious time should be spent talking to you, maybe that requires a year and a half of development before you're even allowed to talk to them. And I think that there's a similar situation where you've got the client who's paying versus the end user who's the target. And what if the client is not really very willing to hear the message that they might not understand their end users? You can be in a sort of difficult position of ambassador for change, but also a messenger bringing unwelcome news. So I think it's not trivial to me too much about that, that the.",
+      "id": "ep_44_ut_109"
+    },
+    {
+      "end": 3450430,
+      "speaker": "Moritz Stefaner",
+      "start": 3440498,
+      "text": "Success factors can be a bit more complex than just can a person do something faster? Just to come back to that original?",
+      "id": "ep_44_ut_110"
+    },
+    {
+      "end": 3489780,
+      "speaker": "Tamara Munzner",
+      "start": 3450970,
+      "text": "Well, it's an interesting, so that gets into the really deep and great question of what is success? And only certain tasks have success, meaning that they went faster. So in some cases, maybe you should say success is where they go slower. That is, success means they spend more time playing with your system and they're engaged, and if they walk away, that's failure. So saying 90 seconds versus ten minutes in a museum exhibit, you want them to keep playing with it, that means you've succeeded. So I really agree that there are tasks for which the metrics of success are radically different than others.",
+      "id": "ep_44_ut_111"
+    },
+    {
+      "end": 3521834,
+      "speaker": "Moritz Stefaner",
+      "start": 3491160,
+      "text": "And the second thing is, if you just look at efficiency in known tasks, I think that's just a fraction of what you can achieve. And to me it's often the faster horses syndrome if you ask people what they want. Faster horses. But then Henry Ford came up with the car. So I think a really good data visualization gives you like such a new perspective that you forgot about your original tasks long time ago, and you're like, in this new world of, wow, what can I do now? What could this be good for?",
+      "id": "ep_44_ut_112"
+    },
+    {
+      "end": 3566820,
+      "speaker": "Tamara Munzner",
+      "start": 3521962,
+      "text": "I totally agree, because I think that in some ways, one of the successes of the system is that you've moved the bar on what the task is, because now suddenly with your system, they're doing different things than they could do without. And so that whole process of you start where you think you know their task and then you build them a system and you deploy it, they start using it and their task changes is both a measure of your success and a reason why this is so damn hard, because suddenly your baseline of what you're trying to do has moved. And so that's where I think a lot of this iterative refinement of what you're trying to do and crisping up, of understanding what their task is and understanding that your intervention changes that task. That's part of what makes this interestingly hard and fun.",
+      "id": "ep_44_ut_113"
+    },
+    {
+      "end": 3571892,
+      "speaker": "Moritz Stefaner",
+      "start": 3568300,
+      "text": "So the nested model, it's totally fine to jump up and down the stairs all the time.",
+      "id": "ep_44_ut_114"
+    },
+    {
+      "end": 3599972,
+      "speaker": "Tamara Munzner",
+      "start": 3571916,
+      "text": "Oh, yes, you have to. You precisely should and you by sort of. That's one of the things we try to emphasize in it. Turns out I didn't put enough arrows into the nested model paper diagram. So we have a million arrows in this nine stage process model in design, just so people can really understand we mean it. When you say that you're constantly going back and refining and then talking about these as different stages that you can analyze does not mean that you do them in chronological order.",
+      "id": "ep_44_ut_115"
+    },
+    {
+      "end": 3609884,
+      "speaker": "Moritz Stefaner",
+      "start": 3600156,
+      "text": "Yeah, because misunderstanding with all these pipelines and all these very process oriented models, that you think you can only read them left to right, and this is.",
+      "id": "ep_44_ut_116"
+    },
+    {
+      "end": 3627342,
+      "speaker": "Tamara Munzner",
+      "start": 3609892,
+      "text": "The way it should be. Yeah, well, that's why we draw a million arrows. But even that's not enough, because I really, I distinguish between the chronology of a project versus the kind of conceptual phases that you can break things into, and they're usually not one to one at all.",
+      "id": "ep_44_ut_117"
+    },
+    {
+      "end": 3670330,
+      "speaker": "Enrico Bertini",
+      "start": 3627486,
+      "text": "So another thing I wanted to ask you, Tamara, is about the fact that so right now, this all big data, data science, or whatever you want to call it, kind of era every. It's so easy to find people who have an interesting problem and an interesting data set. But in my experience, not all problems out there are problems that, that we can solve with visualization. I think there are problems where visualization shouldn't be used, and I'm not sure that we have some clear guidelines on how to spot real, really good visualization problems. So I'm wondering, you've been doing this thing for quite some time, so do you have any tips or recipes on how do you spot a good visualization problem?",
+      "id": "ep_44_ut_118"
+    },
+    {
+      "end": 3802812,
+      "speaker": "Tamara Munzner",
+      "start": 3675800,
+      "text": "Yeah, well, there's the, I know it when I see it, but let me try to be a little more articulate than that, so we don't get into that territory. So I think that, let me start by saying, when do I think viz is not useful? If you have a fully automatic solution and you are satisfied with it, and you have validated and tested it, and then you don't need vis at all. So if you've already automated it and you're happy, great, now what else is there? Well, there's a case where you think you've automated it, but you have to actually test before you go deploying it. And that's one use case for vis, which is to test whether an automatic solution actually matches human intuitions moving backwards. One step before that, there's even, you're in the middle of building something automated, and you need to figure out things like what parameters are good, and how could I refine this to be even better? So there's visualization for algorithm developers where you're trying to work yourself out of a job. But luckily, we won't be starving in the streets anytime soon because there's so many jobs. And then moving back even a step before that. You know that at some point you want to automate, but you don't even have a model yet. And so you're doing visualization in terms of exploratory data analysis to understand the situation enough that you can even construct a model, whether that's a statistical model or something that you could then instantiate as an algorithm. That's also the territory where maybe one of your goals is to build a machine learning model. But you have to have a more crisp idea of what problem you're solving before you can try to apply these methods to it. Going back even further, there's that question of, here I have a situation. Should I use this or should I use machine learning, or should I write a custom program? And so I think of this as useful in this gray zone between, on the one side, there's, you have absolutely no idea of what you're looking for. And so maybe at the very beginning, there's just these really large scale questions like, what is this data set? It got dumped in my lap five minutes ago.",
+      "id": "ep_44_ut_119"
+    },
+    {
+      "end": 3806680,
+      "speaker": "Enrico Bertini",
+      "start": 3802956,
+      "text": "I don't know what is here, so just tell me to give it a look.",
+      "id": "ep_44_ut_120"
+    },
+    {
+      "end": 3895680,
+      "speaker": "Tamara Munzner",
+      "start": 3808740,
+      "text": "Right. So this is, you know, basics like summarize, cleanse the data, make sure you understand that it's unreasonable that people are 272 years old. That's probably a sign of data problems. So there's, the task is quite unclear, but at least you have some question, like, what's here? And then the more specific the task gets, the more the chances are that you can do something fully automatic. One of the things we talk about in this design study methodology paper is two axes. How much data is in human heads versus in the computer, and how much do you understand your task? Is it very, very fuzzy or very, very crisp? And so if you think about, you know, the place where the task is crisp and all the data is in the computer, well, that's a place you can do something algorithmic. But the rest of that tends to be a place where visualization really is strong because there's 10,000 questions you could ask and you're not quite sure which of them you're asking, and you really want to be able to very quickly go back and forth between a lot of them in order to try to refine your understanding. I think there's a fundamental tension that I haven't resolved about. If you don't know what your task is at all, then viz isn't suitable. But if you completely understand your task, well, then maybe you don't need vis. And so articulating that gray zone and what the boundaries of it are is something I still am working on. I still don't have a perfect answer to that, but I think it's in the middle.",
+      "id": "ep_44_ut_121"
+    },
+    {
+      "end": 3897948,
+      "speaker": "Enrico Bertini",
+      "start": 3896940,
+      "text": "It must be.",
+      "id": "ep_44_ut_122"
+    },
+    {
+      "end": 3899364,
+      "speaker": "Moritz Stefaner",
+      "start": 3898044,
+      "text": "Where else would it be?",
+      "id": "ep_44_ut_123"
+    },
+    {
+      "end": 3903364,
+      "speaker": "Enrico Bertini",
+      "start": 3899492,
+      "text": "Yeah. Magic.",
+      "id": "ep_44_ut_124"
+    },
+    {
+      "end": 3904316,
+      "speaker": "Tamara Munzner",
+      "start": 3903452,
+      "text": "The gray magic song.",
+      "id": "ep_44_ut_125"
+    },
+    {
+      "end": 3906440,
+      "speaker": "Enrico Bertini",
+      "start": 3904348,
+      "text": "We love it. We love this song.",
+      "id": "ep_44_ut_126"
+    },
+    {
+      "end": 3910520,
+      "speaker": "Moritz Stefaner",
+      "start": 3906820,
+      "text": "Dark gray magic. That's the theme of this episode.",
+      "id": "ep_44_ut_127"
+    },
+    {
+      "end": 3946958,
+      "speaker": "Enrico Bertini",
+      "start": 3911020,
+      "text": "The point is that, I mean, I've been recently reading quite a lot of machine learning kind of stuff. And when you look into the details on the craft, on how these things are done in practice, it's not that neat and clean as you may imagine. I mean, even if there are some good set of very well defined algorithms and some instructions on which one to use when it's not, I mean, it's not automatic. It's not just a matter of taking the data, feeding the data into this machine, and getting the answer. That's not the way it works. So there is a lot of tweakers.",
+      "id": "ep_44_ut_128"
+    },
+    {
+      "end": 3951562,
+      "speaker": "Moritz Stefaner",
+      "start": 3947014,
+      "text": "As much tweakers as we. Everybody's tweaking. Yeah, everybody's tweaking.",
+      "id": "ep_44_ut_129"
+    },
+    {
+      "end": 3959670,
+      "speaker": "Enrico Bertini",
+      "start": 3951626,
+      "text": "So there's no such thing as a computer is making every single decision and building a model, magically building a model that works.",
+      "id": "ep_44_ut_130"
+    },
+    {
+      "end": 4125250,
+      "speaker": "Tamara Munzner",
+      "start": 3962730,
+      "text": "I agree. I mean, the place where, in my own experience, I've done more on this is this area of dimensionality reduction. And so that's one of the places where we've done a lot of technique driven work out of my lab of new algorithms for doing things like multimensional scaling. And so we started out very much thinking about. About technique issues of, how do I do a new algorithm to do this thing faster and better? And we've ended up building some systems that are trying to say, okay, let's just make it faster, or let's handle data types that we couldn't do before, like things where the cost of computing the distance between points is very high. But we ended up doing some of this more sort of problem centered, flavored work to try to figure out why, what are the tasks and what are the assumptions. And we finally, the culmination of a lot of this work ended up just getting published last month at believe on a paper for tasks for dimensionally reduced data, where it all started out, because I would stare at these machine learning papers and they would have these example data sets of the swiss roll, which, for those of you who don't know, this is basically a two dimensional sheet of paper rolled up in three dimensions. And they would talk about the need to do these so called manifold following techniques that are trying to walk your way along the sheet, even if it's rolled up so tightly that the parts of the sheet are closer together, that are distant in the sheet, but close together in three dimensional space. And how would you unroll that? And it turns out there's a magic mathematical phrase that occurs in a lot of these, which is assume that your manifold is smooth and densely sampled. And it took me ten years to wrap my head around, but why would I assume that? How do I know if it's a manifold? And so I got very stuck on the mathematics of how do I know it's a manifold? And after a lot of thinking about it, I decided the place to really latch onto is it's probably not densely sampled. It's probably not the case that you actually have systematically looked at a set of parameters. So it turns out there are some cases where people are smoothly sampling manifolds. And that's what a lot of the machine learning papers focus on. A lot of what I'll call sort of typical infovis data sets are definitely not that. And so trying to figure out the differences between those is, I think, exactly understanding that there's a lot of assumptions in machine learning about the underlying characteristics of the data set that you don't know in advance when you're doing vis. And one of your goals in doing viz is often to get the answer that you need as input for some of these machine learning algorithms in order to figure out, is the thing I just did actually suitable?",
+      "id": "ep_44_ut_131"
+    },
+    {
+      "end": 4170060,
+      "speaker": "Moritz Stefaner",
+      "start": 4126990,
+      "text": "Yeah, I mean, the other exciting topic is, of course, again, like, how can we transform knowledge that people have already, but in a specific domain into a data abstraction, into features we can compute? And just a certain way of looking at the numbers, let's say. Right. And again, this is a very practical skill where I think then, where data science and visualization are very close together for a given setting. I don't know, how can we work with what we know about financial markets or about medicine or so, and work together with the data side of things to build something that's more effective?",
+      "id": "ep_44_ut_132"
+    },
+    {
+      "end": 4270520,
+      "speaker": "Tamara Munzner",
+      "start": 4170400,
+      "text": "I think the best of all worlds is one where we don't think, should I do viz or machine learning? It's usually and, and is almost always better than ore. And what we want to say is, if all you did was draw pictures and allow the human to interact with it, then you have this poor human who's doing human powered search through a huge design space. Well, that's no good. But if all you have is completely automatic methods, it's like trying to be a race car driver with a blindfold on. It's awfully hard to not crash. And so you really want the best of both worlds, where as part of this, this data transformation and abstraction layer I've talked about, you've got a lot of interaction in the loop, where there's a mix of human in the loop doing visual pattern finding, along with sophisticated data mining and machine learning and other and statistical algorithms for actually giving them meaningful summaries at different scales of detail for different subsets of what they're looking at. And so the most powerful methods are not where you just draw a single picture and declare victory, or where you just run some algorithm and declare victory, but where you have a mix of this interactive data analysis, where you're constantly changing exactly what you're looking for and changing the subset of the data that you're operating on. To try to actually see these multiscale data structures in a way that makes sense, because the hard part is, I have all this data, how do I summarize it? And the answer is, a single summary is almost never enough. With a sufficiently rich and complex and heterogeneous data set, you typically need to be interactively looking at different subsets of it and trying to understand those in relation to either these other subsets you've already picked, or the whole. So that's where I think you really want the. And is you want both.",
+      "id": "ep_44_ut_133"
+    },
+    {
+      "end": 4272948,
+      "speaker": "Enrico Bertini",
+      "start": 4271860,
+      "text": "Absolutely.",
+      "id": "ep_44_ut_134"
+    },
+    {
+      "end": 4275720,
+      "speaker": "Tamara Munzner",
+      "start": 4273124,
+      "text": "Sorry, that was a long rant, but it's a hot button topic.",
+      "id": "ep_44_ut_135"
+    },
+    {
+      "end": 4314020,
+      "speaker": "Enrico Bertini",
+      "start": 4276540,
+      "text": "No, but it actually reminds me. So I think a couple of episodes ago, we had Santiago Ortiz on the show, and at some point he said something along the lines, I'm not interested in data visualization. And that was interesting because, I mean, of course, he's been quite successful with visualization, but I think what he meant is more, when I do a project, a visualization project, I'm not interested in. I'm not interested in visualization itself. I want to say, I want to solve a problem for someone, and I think this is the right mindset. So I think what is really needed here is thinking about, am I solving a real and important problem and is visualization part of it or not?",
+      "id": "ep_44_ut_136"
+    },
+    {
+      "end": 4402740,
+      "speaker": "Tamara Munzner",
+      "start": 4314880,
+      "text": "Well, let me actually defend both sides. I think that's one of the areas I care deeply about, and that's what I call problem driven work. But I also want to speak up to defend the honor of technique driven work, which is I actually want to make visualization better, and I am interested in visualization. And so I feel like that's actually also a large part of the activity in the field that's also similarly crucial. I feel like it was sort of an underdog story at the beginning where it started out that everyone was doing technique driven work and there was very little problem driven work. And so there was sort of this David Goliath thing of, of problem driven work saying, look, I'm real too, please accept my papers. And the thing is, I think we're actually in a very different playing field these days, where there's now a mix of both. And it's almost to the point where some people are saying, oh, we don't need this technique driven, any work driven work anymore. But I actually very strongly feel that we do. And that there's a lot of problems that at the end of the day really require sophisticated algorithms to make progress with. And so I'd really like to see a mix of both visualization for its own sake, because as viz people, we need to advance the field and also keeping us honest and not ivory tower by saying, okay, but there's these users, are we actually helping them? And so I like having a mix of problem and technique driven work where you throw evaluation into the mix to try to figure out, are you working in both of those cases? So I like having this sort of three part thing of a problem driven and technique driven and evaluation, all scaffolding each other.",
+      "id": "ep_44_ut_137"
+    },
+    {
+      "end": 4425060,
+      "speaker": "Moritz Stefaner",
+      "start": 4404480,
+      "text": "Yeah, but that's, again, the beauty of the nested model. And you have a lot of examples also in the book and in the papers of how specific papers, you know, cover only a little part maybe of the nested model, or just one specific step there or a specific transition maybe, but suddenly you can position yourself and say, like, no, yeah, I'm just talking about the algorithmic side now and then, it's fine.",
+      "id": "ep_44_ut_138"
+    },
+    {
+      "end": 4440600,
+      "speaker": "Tamara Munzner",
+      "start": 4426440,
+      "text": "Yeah, yeah. And I really encourage people, what's nice about the nested model, at least one of my goals was to encourage, encourage people to talk more explicitly about that, so that the papers would fit together like jigsaw puzzle pieces, so that as a field we could learn from each other's work even more.",
+      "id": "ep_44_ut_139"
+    },
+    {
+      "end": 4447244,
+      "speaker": "Moritz Stefaner",
+      "start": 4440940,
+      "text": "Right, cool. I think we need to wrap it up soon. So the book, is it out here? Can people order it?",
+      "id": "ep_44_ut_140"
+    },
+    {
+      "end": 4452172,
+      "speaker": "Tamara Munzner",
+      "start": 4447372,
+      "text": "It is out. I physically held a copy in my hands at Viz week before last in Paris.",
+      "id": "ep_44_ut_141"
+    },
+    {
+      "end": 4453292,
+      "speaker": "Moritz Stefaner",
+      "start": 4452236,
+      "text": "I have one too.",
+      "id": "ep_44_ut_142"
+    },
+    {
+      "end": 4485752,
+      "speaker": "Tamara Munzner",
+      "start": 4453436,
+      "text": "That's pretty exciting. Yeah. So yes, visualization, analysis and design. Now currently, if people order it directly from the CRC press site, then they can actually get the ebook bundled together with the physical book for the same price. But they're also very welcome to order it on Amazon if they know they just want either the physical book or the ebook. And at the moment it's still actually on sale, that book and ebook option from CRC press. So that would be a great place to order it from.",
+      "id": "ep_44_ut_143"
+    },
+    {
+      "end": 4496280,
+      "speaker": "Moritz Stefaner",
+      "start": 4485776,
+      "text": "I'll definitely put a link in the blog post for the episode. Cool. What are you working on now? Do you take a few years off or. What's the plan?",
+      "id": "ep_44_ut_144"
+    },
+    {
+      "end": 4563848,
+      "speaker": "Tamara Munzner",
+      "start": 4497420,
+      "text": "Oh, that would be nice. You could, you could. But maybe that wouldn't be quite so nice to the people in my research group right now. So, I mean, we've been continuing to work even through the book. A paper I was very excited about that we did, we presented last month at Viz was on overview, which is a system for, for helping investigative journalists. So some current stuff. And so right now, actually, a bunch of stuff is just getting started up now that the book is finally done. But a lot of what I'm trying to decide is, so what next? Now that I have a tiny bit more time for collaborations, I'm actually, I'm talking to a lot of people to decide what the next project is. I mean, historically, I've done a lot with biology data just because it's such a nice combination of clear tasks and big data and motivated people and funding, which is always, you know, when you hit four for four, that's always nice, although I sometimes go for just three out of those four. So, but I tend to collaborate pretty broadly and opportunistically so I'll catch my.",
+      "id": "ep_44_ut_145"
+    },
+    {
+      "end": 4576788,
+      "speaker": "Moritz Stefaner",
+      "start": 4563864,
+      "text": "Breathing because I think journalism is a, in big need for data visualization. And there can, you know, there can be great synergies happening, I think, and journalists bring in this huge, unique, really wide perspective.",
+      "id": "ep_44_ut_146"
+    },
+    {
+      "end": 4627850,
+      "speaker": "Tamara Munzner",
+      "start": 4576924,
+      "text": "I really like, I mean, I think, you know, not that I would want to have to do it, but if I had to pick any two domains to just work on in the near future, maybe I'd pick journalism and biology because they, they're a kind of nice cross section where a lot of the journalism stuff, sometimes it's aimed at the journalists themselves as an investigative reporting, sometimes it's aimed at the general public with a lot of the biology stuff, it's. It's more domain scientists. But again, some of their stuff does translate, particularly as you go from genomics analysis all the way through to clinical stuff where you've got personalized medicine. At the end of the day, you've got an end user in the doctor's office trying to understand what does it mean that I just positive on this test? So they actually can both be a mix of experts and novices. So, yeah, it may well continue on those, but who knows, maybe I'll talk to you a year from now and say, oh, I'm doing this other thing.",
+      "id": "ep_44_ut_147"
+    },
+    {
+      "end": 4633544,
+      "speaker": "Moritz Stefaner",
+      "start": 4629110,
+      "text": "Super exciting. Yeah, that's the way it should be.",
+      "id": "ep_44_ut_148"
+    },
+    {
+      "end": 4635072,
+      "speaker": "Enrico Bertini",
+      "start": 4633672,
+      "text": "Okay, great.",
+      "id": "ep_44_ut_149"
+    },
+    {
+      "end": 4638272,
+      "speaker": "Moritz Stefaner",
+      "start": 4635216,
+      "text": "Enrico, do you have. Yeah, I think you have.",
+      "id": "ep_44_ut_150"
+    },
+    {
+      "end": 4641020,
+      "speaker": "Enrico Bertini",
+      "start": 4638296,
+      "text": "What? More questions? No, I think we should run.",
+      "id": "ep_44_ut_151"
+    },
+    {
+      "end": 4645712,
+      "speaker": "Tamara Munzner",
+      "start": 4642560,
+      "text": "Okay. Thanks, Tamara so much for having me on the show. It's been very fun to chat.",
+      "id": "ep_44_ut_152"
+    },
+    {
+      "end": 4646940,
+      "speaker": "Enrico Bertini",
+      "start": 4645856,
+      "text": "Thanks, Tamara a lot.",
+      "id": "ep_44_ut_153"
+    },
+    {
+      "end": 4648980,
+      "speaker": "Moritz Stefaner",
+      "start": 4647880,
+      "text": "Thanks, Tamara, Samara.",
+      "id": "ep_44_ut_154"
+    },
+    {
+      "end": 4650232,
+      "speaker": "Enrico Bertini",
+      "start": 4649640,
+      "text": "Bye bye.",
+      "id": "ep_44_ut_155"
+    },
+    {
+      "end": 4651056,
+      "speaker": "Moritz Stefaner",
+      "start": 4650296,
+      "text": "Bye bye.",
+      "id": "ep_44_ut_156"
+    },
+    {
+      "end": 4687820,
+      "speaker": "Enrico Bertini",
+      "start": 4651208,
+      "text": "So once again, I'm here to talk about Tableau. As Moritz said at the beginning, we are so excited to have a sponsor. So datastory is supported by Tableau software, helping people see and understand their data. Get answers from interactive dashboards wherever you go for your free trial, visit Tableau software at T A B L E A U. Once again, Tableau software.com Datastories. Don't forget to put data stories because it's very important that they know that you are coming from us. Thanks, Tamara a lot for supporting us with this. Bye.",
+      "id": "ep_44_ut_157"
+    }
+  ],
+  "confidence": 0.938465241442978,
+  "audio_duration": 4695,
+  "punctuate": true,
+  "format_text": true,
+  "dual_channel": false,
+  "webhook_url": null,
+  "webhook_status_code": null,
+  "webhook_auth": false,
+  "webhook_auth_header_name": null,
+  "speed_boost": false,
+  "auto_highlights_result": null,
+  "auto_highlights": false,
+  "audio_start_from": null,
+  "audio_end_at": null,
+  "word_boost": [],
+  "boost_param": null,
+  "filter_profanity": false,
+  "redact_pii": false,
+  "redact_pii_audio": false,
+  "redact_pii_audio_quality": null,
+  "redact_pii_policies": null,
+  "redact_pii_sub": null,
+  "speaker_labels": true,
+  "content_safety": false,
+  "iab_categories": true,
+  "content_safety_labels": {
+    "status": "unavailable",
+    "results": [],
+    "summary": {}
+  },
+  "language_detection": false,
+  "language_detection_threshold": null,
+  "language_confidence": null,
+  "custom_spelling": null,
+  "throttled": false,
+  "auto_chapters": true,
+  "summarization": false,
+  "summary_type": null,
+  "summary_model": null,
+  "custom_topics": false,
+  "topics": [],
+  "speech_threshold": null,
+  "speech_model": "best",
+  "chapters": [
+    {
+      "summary": "Datastore is supported by Tableau software, helping people see and understand their data. Get answers from interactive dashboards wherever you go for a free trial. Data stories number 44.",
+      "gist": "Tableau Software's Data Stories: Last Week's",
+      "headline": "Datastore is supported by Tableau software, helping people see and understand data",
+      "start": 160,
+      "end": 74910,
+      "id": "ep_44_ch_0"
+    },
+    {
+      "summary": "Professor Tamara Munzner from University of British Columbia. Has been doing visualization since the early nineties. Uses visualization to help mathematicians do mathematics and also explain it to the general public.",
+      "gist": "Power of visualization: Tamara Munzner",
+      "headline": "Professor Tamara Munzner has been doing visualization since the early nineties",
+      "start": 75970,
+      "end": 668230,
+      "id": "ep_44_ch_1"
+    },
+    {
+      "summary": "When he was finishing his PhD, he did a bit of interviewing at startups. One interview was on the day of the crash. That convinced him to move to Vancouver. UBC was the place he fell in love with and wanted to come.",
+      "gist": "Getting out of the startup bubble",
+      "headline": "Right when I was finishing my PhD, I interviewed at startups",
+      "start": 669410,
+      "end": 754796,
+      "id": "ep_44_ch_2"
+    },
+    {
+      "summary": "I feel like young people today feel more pressure to perform immediately. Anytime the field gets to be more mature, that sort of pressure gets more. One of the main reasons why we invited Tamara now is because she has a fantastic new book coming out soon.",
+      "gist": "Talking to the Future of Science",
+      "headline": "I just wonder if it, like, do you have a feeling if somebody starts a PhD today",
+      "start": 754868,
+      "end": 858046,
+      "id": "ep_44_ch_3"
+    },
+    {
+      "summary": "Tamara Gambartiere's book is called visualization, analysis and design. It has been a labor of love, taking six years to complete. It's probably the most systematic book I've ever read about data visualization, she says.",
+      "gist": "The Book of Data, Analysis and Design",
+      "headline": "Matt Bramer wrote a book about visualization, analysis and design",
+      "start": 858118,
+      "end": 1211470,
+      "id": "ep_44_ch_4"
+    },
+    {
+      "summary": "The book focuses on abstraction and what I'm calling idioms. If this book actually covered all the algorithms, it would be 7000 pages and it would take me 70 years. I really like emphasizing that those are choices.",
+      "gist": "In the World of Algorithms: Design Decisions",
+      "headline": "There's no algorithms in the book and there's no math",
+      "start": 1213490,
+      "end": 1320770,
+      "id": "ep_44_ch_5"
+    },
+    {
+      "summary": "The nested model is a way to break down data analysis into separate pieces. It abstracts both the data and the task from something that's in domain specific language to generic building blocks. Tamara: There are a lot of commonalities that cross domains.",
+      "gist": "The Nabornian Model",
+      "headline": "Shall we talk about the nested model? I'm pretty sure most listeners",
+      "start": 1320850,
+      "end": 1756890,
+      "id": "ep_44_ch_6"
+    },
+    {
+      "summary": "The decisions you make at one level cascade down to shape what you can do at the interior levels. That's a level where it's really useful to do controlled experiments in a lab, what a lot of people think of as user studies. How do you know when you've reached the point where the result is correct or satisfying?",
+      "gist": "Nested Model: Validation at the Innermost Layer",
+      "headline": "The second half of this nested model paper addresses how to validate your work",
+      "start": 1757270,
+      "end": 2086038,
+      "id": "ep_44_ch_7"
+    },
+    {
+      "summary": "This question of how if you've been iteratively refining a system and you get more evidence that it's actually helping people work better or differently. Finding that sweet spot is exactly one of the hard questions we talk about.",
+      "gist": "Design Studies and the Process of Iteration",
+      "headline": "So this question of how if you've been iteratively refining a system",
+      "start": 2086094,
+      "end": 2196150,
+      "id": "ep_44_ch_8"
+    },
+    {
+      "summary": "A lot of people see visualization mainly as a presentation tool. Academic community tends to think about visualization more as an analytical tool. Tamara: Would you include design of visualizations that are mainly used for presentation purposes, or you are implicitly thinking about analysis?",
+      "gist": "Design Studies and Visualization",
+      "headline": "A lot of people see visualization mainly as a presentation tool",
+      "start": 2196450,
+      "end": 2352990,
+      "id": "ep_44_ch_9"
+    },
+    {
+      "summary": "Most design studies out there are solving very specific problems. One way to see our field advancing is having systems that are more generalizable. Along the way you can figure out better design guidelines. The goal is not to just immediately generalize, but to transfer lessons from one context to another.",
+      "gist": "The problem of generalization in design studies",
+      "headline": "So my impression is that most design studies are solving very specific problems",
+      "start": 2353890,
+      "end": 2813206,
+      "id": "ep_44_ch_10"
+    },
+    {
+      "summary": "Tableau lets people connect to any kind of data and visualize it on the fly. Databases, spreadsheets, and even big data sources are easily combined into interactive visualizations, reports and dashboards. For your free trial, visit Tableau software@Tableau Software. com.",
+      "gist": "Tableau",
+      "headline": "Tableau lets people connect to data and visualize it on the fly",
+      "start": 2813398,
+      "end": 2914936,
+      "id": "ep_44_ch_11"
+    },
+    {
+      "summary": "Has there emerged one core process that you could apply again and again? I think it's a moving target. Publishing this kind of information is also interesting in terms of learning from mistakes. I want to reward people for learning from their mistakes.",
+      "gist": "The 9-stage process",
+      "headline": "Has there emerged a core process that you could apply again and again",
+      "start": 2915128,
+      "end": 3175378,
+      "id": "ep_44_ch_12"
+    },
+    {
+      "summary": "Do you think all the instructions that are there apply one to one to settings that are not academic? Taking the time to reflect about what you learned, even if you don't write it up as an academic paper, is worth spending some time on.",
+      "gist": "Design Studies: The Academic Paper",
+      "headline": "So one thing I wanted to ask you about the work around design studies",
+      "start": 3175474,
+      "end": 3627342,
+      "id": "ep_44_ch_13"
+    },
+    {
+      "summary": "Not all problems out there are problems that, that we can solve with visualization. There are problems where visualization shouldn't be used, and I'm not sure that we have some clear guidelines on how to spot real, really good visualization problems.",
+      "gist": "How to spot a good visualization problem",
+      "headline": "Not all problems out there are problems that can be solved with visualization",
+      "start": 3627486,
+      "end": 3899364,
+      "id": "ep_44_ch_14"
+    },
+    {
+      "summary": "There's no such thing as a computer making every single decision and building a model. There are a lot of assumptions in machine learning about the underlying characteristics of the data set that you don't know in advance when you're doing vis. The other exciting topic is how can we transform knowledge into features we can compute?",
+      "gist": "Machine Learning: Dark Gray Magic",
+      "headline": "I've been recently reading a lot of machine learning kind of stuff",
+      "start": 3899492,
+      "end": 4444828,
+      "id": "ep_44_ch_15"
+    },
+    {
+      "summary": "The book is out. I physically held a copy in my hands at Viz week before last in Paris. Currently, if people order it directly from the CRC press site, then they can actually get the ebook bundled together with the physical book for the same price. But they're also very welcome to order it on Amazon.",
+      "gist": "The Book of VISION: Analysis and Design",
+      "headline": "The book, visualization, analysis and design, is out now",
+      "start": 4444884,
+      "end": 4491932,
+      "id": "ep_44_ch_16"
+    },
+    {
+      "summary": "A lot of what I'm trying to decide is, so what next? Now that I have a tiny bit more time for collaborations. If I had to pick any two domains to just work on in the near future, maybe I'd pick journalism and biology.",
+      "gist": "What are you working on now?",
+      "headline": "What are you working on now? Do you take a few years off or",
+      "start": 4492076,
+      "end": 4633544,
+      "id": "ep_44_ch_17"
+    },
+    {
+      "summary": "Enrico: Thanks, Tamara so much for having me on the show. It's been very fun to chat. More questions? No, I think we should run. Thanks, Tamara a lot. Bye bye.",
+      "gist": "Interviewing Enrico",
+      "headline": "Okay, great. Thanks, Tamara so much for having me on the show",
+      "start": 4633672,
+      "end": 4651056,
+      "id": "ep_44_ch_18"
+    },
+    {
+      "summary": " datastory is supported by Tableau software, helping people see and understand their data. Get answers from interactive dashboards wherever you go for a free trial. Don't forget to put data stories because it's very important that they know you are coming from us.",
+      "gist": "Tableau Software",
+      "headline": "Datastory is supported by Tableau software helping people see and understand data",
+      "start": 4651208,
+      "end": 4687820,
+      "id": "ep_44_ch_19"
+    }
+  ],
+  "disfluencies": false,
+  "entity_detection": false,
+  "sentiment_analysis": false,
+  "sentiment_analysis_results": null,
+  "entities": null,
+  "speakers_expected": null,
+  "summary": null,
+  "custom_topics_results": null,
+  "is_deleted": null,
+  "episode_num": "44",
+  "episode_metadata": {
+    "speakers": [
+      "Moritz Stefaner",
+      "Enrico Bertini",
+      "Tamara Munzner"
+    ],
+    "WPid": "225",
+    "url": "https://datastori.es/podlove/file/504/s/feed/c/mp3/datastories-44.mp3",
+    "episode_title": "Tamara Munzner"
+  }
+}

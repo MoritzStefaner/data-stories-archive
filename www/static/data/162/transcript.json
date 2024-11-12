@@ -1,0 +1,1000 @@
+{
+  "id": "26ea2580-0a9a-483b-a503-6c8eb57cd189",
+  "language_model": "assemblyai_default",
+  "acoustic_model": "assemblyai_default",
+  "language_code": "en_us",
+  "status": "completed",
+  "audio_url": "https://datastori.es/podlove/file/6765/s/feed/c/mp3/162-highlights-from-IEEE-vis20-with-miriah-meyer-and-Danielle-szafir.mp3",
+  "utterances": [
+    {
+      "end": 5370,
+      "speaker": "Danielle Szafir",
+      "start": 120,
+      "text": "Ron Rensink always refers to the scatter plot as being like the fruit fly of visualization research.",
+      "id": "ep_162_ut_0"
+    },
+    {
+      "end": 35546,
+      "speaker": "Enrico Bertini",
+      "start": 24830,
+      "text": "Hi everyone. Welcome to a new episode of Data stories. My name is Enrico Bertini and I am a professor at New York University where I do research and teach data visualization.",
+      "id": "ep_162_ut_1"
+    },
+    {
+      "end": 45950,
+      "speaker": "Moritz Stefaner",
+      "start": 35738,
+      "text": "That's right. And I'm Moritz Stefaner. I'm an independent designer of data visualizations. In fact, I work as a self employed truth and beauty operator out of my office here in the countryside in the north of Germany.",
+      "id": "ep_162_ut_2"
+    },
+    {
+      "end": 61608,
+      "speaker": "Enrico Bertini",
+      "start": 46650,
+      "text": "Yes. And in this podcast, we talk about data visualization analysis and more generally the role data plays in our lives. And usually we do that together with one guest or two guests or even more guests on the show. Yeah.",
+      "id": "ep_162_ut_3"
+    },
+    {
+      "end": 81552,
+      "speaker": "Moritz Stefaner",
+      "start": 61664,
+      "text": "But before we start, just a quick note. Our podcast is listener supported. We have no ads. But that also means if you do enjoy the show, you could consider supporting us. You can do that either with recurring payments on Patreon.com Datastories, or you can send us a one time donation on Paypal me Datastories.",
+      "id": "ep_162_ut_4"
+    },
+    {
+      "end": 117372,
+      "speaker": "Enrico Bertini",
+      "start": 81736,
+      "text": "Exactly. So I think we can get started with the new show. We didn't show up in a few weeks, if not months, so it's really exciting to be back and we thought it would be a perfect occasion to be back to record classic episode on the IEEE this conference. And we have two special guests, as usual, that are going to help us go through some of the highlights of the conference. So we have Maria Meyer. Hi, Miriah.",
+      "id": "ep_162_ut_5"
+    },
+    {
+      "end": 120184,
+      "speaker": "Miriah Meyer",
+      "start": 117466,
+      "text": "Hi. Good to be here. Thanks for inviting me.",
+      "id": "ep_162_ut_6"
+    },
+    {
+      "end": 122280,
+      "speaker": "Enrico Bertini",
+      "start": 120352,
+      "text": "And we have Danielle Szafir.",
+      "id": "ep_162_ut_7"
+    },
+    {
+      "end": 125380,
+      "speaker": "Danielle Szafir",
+      "start": 122440,
+      "text": "Hey, pleasure to be here. Thank you so much for the invite.",
+      "id": "ep_162_ut_8"
+    },
+    {
+      "end": 133460,
+      "speaker": "Enrico Bertini",
+      "start": 126160,
+      "text": "So we always ask our guests to introduce themselves briefly. So Maria, you want to start? And then Danielle.",
+      "id": "ep_162_ut_9"
+    },
+    {
+      "end": 145734,
+      "speaker": "Miriah Meyer",
+      "start": 133760,
+      "text": "Yeah. So, hi, my name is Maria. I'm a professor at the University of Utah, where I have the pleasure of co running a group called the Visualization Design Lab.",
+      "id": "ep_162_ut_10"
+    },
+    {
+      "end": 146630,
+      "speaker": "Enrico Bertini",
+      "start": 145862,
+      "text": "Danielle.",
+      "id": "ep_162_ut_11"
+    },
+    {
+      "end": 153094,
+      "speaker": "Danielle Szafir",
+      "start": 146750,
+      "text": "And I am an assistant professor at the University of Colorado Boulder, where I direct the CU visual lab.",
+      "id": "ep_162_ut_12"
+    },
+    {
+      "end": 259612,
+      "speaker": "Enrico Bertini",
+      "start": 153222,
+      "text": "Yes. Great. So for those of you who need a little intro on the Itripolyvis conference is the main visualization conference, especially for academics, but definitely not limited to academic research. It's a big event that happens every year and it's been happening for many, many years. And it's a mixed of events, paper presentations, workshops, panels, posters, demos. It's a really big event. And as many other events this year, it happened online with a virtual conference format. So it's been a new experiment. Very interesting. And as you will hear with pros and cons. So the way we're going to organize this. We decided to basically cover the conference according to a number of themes. And as we say every year when we record this special episode, it's practically impossible to cover everything. So that's definitely just a very small portion of what we managed to cover. And especially this year that it was online and we were scrambling with many other elements of our life, our private life. And so I encourage you to go to the Itripoli website and explore more and effectively this year, everything is being recorded on YouTube. There was a discord channel, so everything has been saved there. And so we are covering what we, what we're going to cover is basically our interest in the hope that that's going to be interesting and inspiring to.",
+      "id": "ep_162_ut_13"
+    },
+    {
+      "end": 262752,
+      "speaker": "Moritz Stefaner",
+      "start": 259706,
+      "text": "And I also saw Jon Schwabish's policy whiz podcast.",
+      "id": "ep_162_ut_14"
+    },
+    {
+      "end": 263232,
+      "speaker": "Enrico Bertini",
+      "start": 262816,
+      "text": "Oh, yeah.",
+      "id": "ep_162_ut_15"
+    },
+    {
+      "end": 266872,
+      "speaker": "Moritz Stefaner",
+      "start": 263296,
+      "text": "Published an episode today. So this one will be maybe complimentary.",
+      "id": "ep_162_ut_16"
+    },
+    {
+      "end": 291284,
+      "speaker": "Enrico Bertini",
+      "start": 266936,
+      "text": "So. Yeah, exactly. Hopefully there's not a lot of overlap. So if you want to know more, you should definitely listen to that one, too. So let me give you a little bit of a preview of what we are going to cover. So the first theme is going to be unpacking the magic that happens between data and insight, which I love as a title. This could be a whole episode, by the way. Science and magic.",
+      "id": "ep_162_ut_17"
+    },
+    {
+      "end": 293960,
+      "speaker": "Moritz Stefaner",
+      "start": 291312,
+      "text": "Magic, the best combination. Yeah.",
+      "id": "ep_162_ut_18"
+    },
+    {
+      "end": 365690,
+      "speaker": "Enrico Bertini",
+      "start": 296780,
+      "text": "Then we are going to talk about this psychology. So vision, science, cognition, etcetera. Then we're going to talk about visualization beyond the desktop. Then we're going to talk about visualization and Covid-19, as you may expect, and also visualization for social good. Then we're going to go a little bit researchy and technical. So we're going to talk about methodological diversity, which has been a very interesting trend this year. And then we are going to cover a few papers with practical relevance for practitioners and briefly discuss about what happened with having a full conference of this size online, the pros and cons of the online format. So I'm very happy that Miriah and Danielle are here, going to help us go through all these complex topics. I think we can start with the first one, unpacking the magic that happens between data and insight, and I will let Maria start with that.",
+      "id": "ep_162_ut_19"
+    },
+    {
+      "end": 635514,
+      "speaker": "Miriah Meyer",
+      "start": 366230,
+      "text": "Yeah, so this was sort of a theme I saw across the whole week that really, really excited me. And I have to say, you know, shout out to Danielle. You know, she, you were a member on a panel for the believe workshop where you presented this idea that there's magic that happens between seeing a visualization and then actually getting some sort of insight from it and sort of, I think what you were, and I don't want to put words in your mouth, Danielle, but you were just sort of saying there's a lot of things going on in that space in between that we really don't understand. And the idea that we see a visualization and that that's the answer is completely glosses over the process of what actually happens in data analysis. So we saw this over and over again and people really starting to unpack and question like this space and a couple of things that I think, well, there was a number of places where people were trying to understand what's happening in there. But what I'm particularly interested in is sort of the implications that if there's a lot of stuff going on in the middle that we don't understand, maybe we're not designing visualizations for the right set of goals. And so, Enrico, I actually really loved a paper that you presented from your colleagues Michael Correll and Steve Franconeri about why shouldn't all charts be scatter plots. And I thought this was really a really compelling sort of position paper that you all presented, which is the academic vis community is so fixated on this idea of using spatial encoding so that we can get very accurate, precise perception of data measurements. But then, yet you presented all these counterexamples where, well, maybe precision isn't the thing that we're always after. And I thought that that was really provocative and it really complemented another short paper that I saw that I loved that was called designing for ambiguity, where this research team from Simon Fraser University was working with avalanche forecasters and the data that they have is taken from very sparse measurement centers. And the very subjective data that avalanche forecasters are collecting are things like several avalanches in that paper. I thought it was nice because they were really stressing this notion of ambiguity in the analysis process that these avalanche forecasters go through. And when they were designing their visualizations, they actually chose what they considered weak encoding channels because that better reflected the sort of mental processes that these avalanche forecasters were going through. And so why encode in a visualization lots of accuracy and precision when in fact that's not what the data necessarily tells you, nor is it the way that in this case, these domain experts were working with the data. So I thought that for me, there's a lot of these implications about better understanding that magic and what it means for the way that we design visualizations. I could keep going about this very topic forever, right? Yes, but I think one more point to all of this that I also, for me, was super resonant and I loved was John Byrne Murdoch. He gave the keynote for the believe workshop about his experiences designing these very popular charts for the Financial Times in the UK, about COVID cases over the last months. And he gave such a great keynote that was so thoughtful about his process and about the data and about people's response to it. And one of the things that was really powerful was he talked about how when people viewed the charts that they put out, how personal and political people's reactions to them were, I. And he sort of made this stance that we as visualization designers, have to recognize that people are bringing their own personal perspectives, their own biases, their own experiences to how they read and react to visualizations that we put out there. And so we spend all this time trying, as scientists, trying to make things really clear and really precise, and yet people aren't. They're reading into things that we didn't necessarily even intend and that we can't forget about that. And so he had some really, really compelling examples in that keynote where this was coming up.",
+      "id": "ep_162_ut_20"
+    },
+    {
+      "end": 732220,
+      "speaker": "Enrico Bertini",
+      "start": 635642,
+      "text": "Yeah, there's so much to say about that. And I also really enjoyed John's keynote. He had a lot of really, really good examples about how he, over time, changed the decisions, about kind of like trying to adapt to his own discovery of how to do things better and properly, and also the wish to be criticized and try to address the criticism. I think that was one of the most interesting aspects of the work that he has done during this period. And regarding the precision thing, I'm really glad that you mentioned our papers, because I was myself really surprised by the positive feedback that we received. Because in my head, I was always afraid that it was too obvious. I was always thinking, maybe this thing has been said a thousand times by a hundred people already. But yeah, I'm really glad, and it's only a starting point. I think what we are doing there is just to say, hey, it looks like there's an issue here. It doesn't look like we have a good understanding of how visualization works, so maybe we should do something about it. But there is a lot to build. And I'm not a big fan of being only the one who destroys things. I think we also have to build. I think there's a big challenge there.",
+      "id": "ep_162_ut_21"
+    },
+    {
+      "end": 748692,
+      "speaker": "Miriah Meyer",
+      "start": 732640,
+      "text": "I don't think you're destroying anything, Enrico. I think that really what it means is that there is so much we don't know and there's so much more we could be thinking about how we designed and what we design for, than just really clear, accurate reading off of values from a visualization.",
+      "id": "ep_162_ut_22"
+    },
+    {
+      "end": 801790,
+      "speaker": "Moritz Stefaner",
+      "start": 748876,
+      "text": "That's also something I found really striking, because I think we are familiar with that debate. Like Enrico, we had it on this podcast for many years, and talking to people outside, also academia, like practitioners, artists who have huge sensibilities in these areas, and always had this feeling like, okay, precision is not everything, and you need to think about the effect of communication side of things. But we never had that vocabulary to actually articulate well what all these other factors are or what all these other contributions could be. And my feeling is now this vocabulary is being developed because now all these thoughts are being taken really serious, and now the academic community thinks about how to integrate actually into the scientific framework. It's great to see that it's happening.",
+      "id": "ep_162_ut_23"
+    },
+    {
+      "end": 860422,
+      "speaker": "Danielle Szafir",
+      "start": 803170,
+      "text": "I mean, it's a lot of fun to see the community evolving in these ways and kind of recognizing that perception and reasoning and insight are not the same thing. They're not all. You measure one, you get the others. And so it's been fun seeing that we've talked for years about what is the value of a visualization. It's really fun to see the community really starting to adjust and adapt and build these interdisciplinary communities that are integrating all sorts of lenses and methods and perspectives for really understanding what is the value of a viz, and how do we know what is going to come out of somebody interacting with a biz, and how does that impact the design that we need to be using? Right. Thinking about guidelines is almost more of a predictive tool than a prescriptive tool. We're not trying to tell people what to do, but we're trying to think about how does making this design choice, or how does configuring the viz this way, or framing the problem in this way change the kinds of outcomes that we expect users to generate through their data?",
+      "id": "ep_162_ut_24"
+    },
+    {
+      "end": 963000,
+      "speaker": "Enrico Bertini",
+      "start": 860566,
+      "text": "Yeah, yeah. Look, and it's exciting. I really hope that this is a trend and we see more people trying to build on top of this and try to provide better. I don't know if I should call it guidelines, but I think when I think about the way that I have been learning data visualization, and especially the way I've been teaching visualization, by the way, as a side note, that's one of the reasons why we got started with that project. I was teaching visualization in class. I would just follow the precepts, and then students would come back to me. I would assign a design exercise, and then it would come back to me and say, oh, but you told me to do it that way because that's the most precise channel, and they would come up with a scatter plot that doesn't make any sense for the problem that I had assigned. Oh, that's actually true. Right. I mean, students, like children, have this special property that they can tell you things in a candid way, and you realize that you've been stupid so far. Right. And so what I'm really curious about is how to make progress. How can we think better about how to design effective visualizations? And I think I. There are a lot of roadblocks there. So the idea that even. The idea that the goal is to visualize data, I mean, we could talk for hours about how many problems there are, just this message. My goal is to visualize data. So let's see what objectively you need to. Objectively. Objectively.",
+      "id": "ep_162_ut_25"
+    },
+    {
+      "end": 974330,
+      "speaker": "Danielle Szafir",
+      "start": 966620,
+      "text": "No, I feel like we're almost. And cringing on what might be coming down the road here, that positivists versus interpretivist discussion.",
+      "id": "ep_162_ut_26"
+    },
+    {
+      "end": 983530,
+      "speaker": "Enrico Bertini",
+      "start": 975270,
+      "text": "Yeah, exactly. Exactly. So maybe we could move on to the second theme.",
+      "id": "ep_162_ut_27"
+    },
+    {
+      "end": 988878,
+      "speaker": "Moritz Stefaner",
+      "start": 983910,
+      "text": "Maybe it has to do with talking to cognitive scientists and psychologists.",
+      "id": "ep_162_ut_28"
+    },
+    {
+      "end": 1120666,
+      "speaker": "Enrico Bertini",
+      "start": 989014,
+      "text": "Right. So the second theme is this psychology. So I think that's a trend that has been going on for a while, and it's getting amplified lately. My perception is that we are seeing more and more research work that is core psychology and vision science. So vision science has always played a major role in visualization, but now we start seeing more works that are even more like at the level of cognitive science. And in addition to that, it looks like there are many people whose background is not necessarily engineering or computer science, is more psychology or related fields who are active participants and also authors of several papers in the conference. And I think that's, if I had to pick my favorite trend, that's my favorite trend. I think we need more of that. And for those who are not aware of that, this has been always predominantly attended. And also, most of the papers have been authored by people who have a background in computer science, with notable exceptions, but mostly that. So, one example of something that happened there is there was actually a workshop called this psychology workshop, and the keynote speaker for the workshop was Barbara Tversky, renowned carnivory scientist. We also had her in our podcast a few podcasts ago. I don't remember exactly how many. Seems like ages, but it's probably just six months, right? And. Yeah, and many, many, many papers. And I would let Danielle start talking about these trends, since a lot of the work that she does is also in this space. And she also has lots of collaborations with a vision scientist and psychologists.",
+      "id": "ep_162_ut_29"
+    },
+    {
+      "end": 1231164,
+      "speaker": "Danielle Szafir",
+      "start": 1120858,
+      "text": "Yeah, I mean, I agree with you, Enrico. It's a trend I'm personally very excited about because it really is bringing new lenses, new methods, new voices, new knowledge into the community to modernize the way we're thinking about this kind of magic that happens between when somebody sees something and when they actually generate a conclusion from it. So one of the things that really stuck out to me and Barbara's keynote was this idea that she talked about with ambiguity and how, again, designing for precision isn't always the right thing to do. But then the question for us as designers becomes, how do we leverage ambiguity correctly? How do we do so in a way that balances getting the right kinds of information with people being able to bring their own perspectives into things. And I think we're seeing a really interesting evolution of kind of the methodological approaches that we're seeing taken to understanding. This is being shaped in large part by not only talking to psychologists, but also having them come in and join their community. So when we think about people like Karen Schloss Franconeri, Ron Rensink, Lace Padilla, I can go on and on. There are all sorts of amazing people, and I apologize to anyone I'm leaving off that list, who are really coming in and shaping and fundamentally changing the way we're thinking about understanding visualization, understanding visualization design, why it works, how does it shape what we see, see when we work with a visualization? And again, how does it shape things like insight? I saw in the, in the Discord Channel, we have some people from social psychology who were attending for the first time. And, you know, educational psychology is becoming increasingly core to a lot of what we're thinking about in vis pedagogy. So I think there is a growing community that I am selfishly hoping will continue to keep growing. That's really shaping a lot of our approaches to visualization and challenging some of our core beliefs around the way we approach visualization design.",
+      "id": "ep_162_ut_30"
+    },
+    {
+      "end": 1240000,
+      "speaker": "Moritz Stefaner",
+      "start": 1231332,
+      "text": "Cool. Is there one paper you could pick out where you say, if people are interested in what came out this year, is there a good recommendation?",
+      "id": "ep_162_ut_31"
+    },
+    {
+      "end": 1296160,
+      "speaker": "Danielle Szafir",
+      "start": 1240300,
+      "text": "Well, I think the infovis best paper this year, which was by Alex Kail, Matt Kay and Jessica Hullman, is a great example of this. So what they did is they had people use different uncertainty visualizations in a decision making task. And what they found was that there was a distinct disconnect between the things that supported precise estimation of effect sizes. So kind of precise statistical reasoning about the data and those visualizations that were best used in decision making. So I think that work, you know, not only is it just a really well conducted experiment, I think it also brings in a lot of these ideas of how do we connect in the cognitive components of things, how do we connect in the bayesian reasoning components of things, how do we connect in the vision science behind what we might be seeing and kind of giving some nice feelers out into these different aspects of at least cognitive and perceptual psychology that influence the way we work with vis cool?",
+      "id": "ep_162_ut_32"
+    },
+    {
+      "end": 1407450,
+      "speaker": "Miriah Meyer",
+      "start": 1296280,
+      "text": "Well, as a sort of alternative perspective, I think that, yeah, there's been this, you know, over the last couple of years and this year just such a growth in these sort of very, I kind of want to say basic vision science sort of work and experiments happening at vis the vision. Scientists might not think that they're super basic research, but I think for us as an applied community, they really are. And I think it's really interesting. But I think we've also sort of likening back to what we were just talking about. I think there's also an interesting trend of people in the community also starting to articulate what are the boundaries of what these kinds of experiments can tell us about visualizations in the world. There is a paper that struck me, or at least the presentation of it struck me, called insight beyond the numbers and the impact of qualitative factors on visual data analysis that I thought was really interesting because in this work, of course, going back to this magic that happens, but just saying that there's a lot of things that impact the way that visualizations are used that are perhaps not, they're not things that we can really quantify. And so I think as we've seen sort of a rise of vision science influencing academic visualization research, we've sort of also seen the rise of a lot of people pushing on the socio technical aspects of visualization. And then of course, of course the thing that we're going to talk about later, which is the sort of methodological diversity then that comes out of the community really starting to broaden its base in all these sort of different ways that we're approaching understanding visualizations and ultimately trying to better understand how we design visualizations to make positive impact in the world.",
+      "id": "ep_162_ut_33"
+    },
+    {
+      "end": 1495930,
+      "speaker": "Enrico Bertini",
+      "start": 1407750,
+      "text": "Yeah, there's so much to do in this space. And I also like this paper. I think the title is a design space of vision science methods for visualization research. I think it's amazing. How so? I didn't read the paper closely, but I skimmed through it and I had kind of like this contrasting feeling that on the one hand, it's like super exciting. There's so much to learn here about how I could run better experiments. And on the other hand, I was like, oh, my God, maybe what I've done so far all these years is totally wrong, because effectively what happens is that as a researcher, you set up experiments and you try to effectively follow a safe path of trying to use the same methods that other people have used. But rarely you question how these methods may actually limit the way you. What you can know. Right. And I think that's, that's a, that's a general, a general problem. So I think that's an exciting paper where there is a lot that we can learn about how to run experiments that can draw information from, from vision science.",
+      "id": "ep_162_ut_34"
+    },
+    {
+      "end": 1569362,
+      "speaker": "Danielle Szafir",
+      "start": 1496450,
+      "text": "And I can speak a little bit to some of the backstory. And that one, which, that one in large part came from lots of discussions where, you know, so Madison Elliott, Cindy Zhang and Christy Nothelfer are the co authors on that paper. And they are all psychologists. They all have really high value in terms of thinking about how do we understand phenomena through different perspectives and what those different perspectives of understanding the ways we use visualization can collectively tell us about visualization techniques. And so a lot of this comes from their experiences of just sitting and immersing themselves in the visualization community as vision scientists and trying to understand how can methodologically we create new value within the community and help people understand these representations in different ways. To exactly that point that you raised, Enrico, of, how do you choose from all of these different possible ways of understanding a visualization? And maybe you don't need to choose just one. So hopefully, that kind of design space structure will allow us to start thinking about the trade offs in the approaches that we engage with within the space of visualization itself.",
+      "id": "ep_162_ut_35"
+    },
+    {
+      "end": 1695400,
+      "speaker": "Miriah Meyer",
+      "start": 1569506,
+      "text": "Well, and just what you were saying, Danielle, about, let's not also forget to mention you were a co author on that paper, but your collaborators on this are all people that are not core computer scientists. I think the visualization academic research community is still the majority of people there are coming up through some sort of computer science or engineering or very science oriented background. And yet I think this trend of vision science, this trend of the socio technical aspects, all are pointing to the fact that, you know, more and more of us are putting people front and center in the kinds of studies we do. And I find that so exciting because it's bringing in lots of, you know, new people into the community. Like, for example, Steve Frank Ineri and Lace Padilla, whose backgrounds are in, you know, cognitive science. We have designers like, like yourself, Moritz and others. But I think it also speaks to the challenges that we have in education for visualization. Like, if, you know, your typical vis course is still taught out of the CS department. And this came up in the viz for social good panel. A lot of what they were saying about how do we have bigger impact for visualization is about we got to learn how to work with people, we need to work with people outside of the community. And so we're increasingly needing to train ourselves and train the next generation of visualization researchers to do more than just be able to program and to data wrangle and to do, you know, statistical analysis. Like, you know, people are becoming more and more the focus of a lot of the research that we do, which probably for many people listening to this podcast, they're like, well, yeah, but I think for the academic research community, this is like a shift that we're seeing. And I mean, Enrico and Danielle, maybe, maybe, you know, you feel the same way, you're both also in, you know, technical departments and teaching this.",
+      "id": "ep_162_ut_36"
+    },
+    {
+      "end": 1816936,
+      "speaker": "Enrico Bertini",
+      "start": 1696340,
+      "text": "Yeah, yeah. There is a lot to say about the pedagogy of this and where and how it is thought. I think it requires a whole episode. We could go on forever. I just want to mention, you just reminded me, Maria, that another thing that I've seen happening in the conference, I've seen people using frameworks, ways to think about visualization and how visualization is used, borrowing frameworks from education science. And I think that's another very, very interesting area. And I actually happen to have one of the few things that I managed to do during this crazy summer is to study a little bit of education science and also learning science, how humans learn to. And first, there's so much to learn. And I kept thinking, oh my God, this is so close to visualization research. There is so much to borrow from learning science, because effectively, think about it, a person who is reading a visualization is learning about something through a visual representation. And it's surprising that we never talk about what learning scientists have developed over many, many years. So it looks like a big gap that we have. And that's why I was really glad to see here and there some people mentioning frameworks adopted from education science. I think I remember there was this paper on communicative vis where they used the bloom taxonomy, that is a common taxonomy used to describe different levels of knowledge that learners can acquire and acquire over time. And so I would love to see more of that, because I think there is really a lot to learn from learning science.",
+      "id": "ep_162_ut_37"
+    },
+    {
+      "end": 1849914,
+      "speaker": "Moritz Stefaner",
+      "start": 1816968,
+      "text": "Sheelagh Carpendale also mentioned ideas from constructivist learning in her capstone keynote, where they thought about how do you actually build visualizations? And how do you learn while building visualizations, not just as a passive recipient, but as somebody building and having to modify visualization, and suddenly you're in a totally different learning mode. Right. And that's. Yeah, as you say, these are pretty straightforward, like ideas, but if you bring them in from this adjacent field, suddenly really interesting things can happen. Right?",
+      "id": "ep_162_ut_38"
+    },
+    {
+      "end": 1854994,
+      "speaker": "Miriah Meyer",
+      "start": 1850082,
+      "text": "Yeah. There was another great, great presentation from Eytan Adar. He had a paper.",
+      "id": "ep_162_ut_39"
+    },
+    {
+      "end": 1856866,
+      "speaker": "Enrico Bertini",
+      "start": 1855042,
+      "text": "Yeah, that's the one I mentioned. Yeah.",
+      "id": "ep_162_ut_40"
+    },
+    {
+      "end": 1857978,
+      "speaker": "Miriah Meyer",
+      "start": 1857058,
+      "text": "Okay. Yeah, yeah.",
+      "id": "ep_162_ut_41"
+    },
+    {
+      "end": 1860554,
+      "speaker": "Enrico Bertini",
+      "start": 1858034,
+      "text": "I think the communicative base. Yes, yes, go ahead.",
+      "id": "ep_162_ut_42"
+    },
+    {
+      "end": 1894930,
+      "speaker": "Miriah Meyer",
+      "start": 1860642,
+      "text": "Okay. Right. I remember that you talked a lot about learning outcomes and how we can use that to judge visualization, but it just got me thinking. It was one of my favorite, like, talks to watch because he was sitting in this big leather like armchair. I mean, there were some, there were some really creative things that people did with having to pre record videos. But he's just sitting in this armchair. He's relaxed. I felt so relaxed, and he's just talking. And it was a really, really well done talk, not just content wise, but also the sort of aesthetics of the whole thing. It's worth a watch.",
+      "id": "ep_162_ut_43"
+    },
+    {
+      "end": 1906832,
+      "speaker": "Enrico Bertini",
+      "start": 1895480,
+      "text": "I agree. There's a good choice of colors as well. I think he used some lamps or something. So that was really well prepared. We should link it in the show.",
+      "id": "ep_162_ut_44"
+    },
+    {
+      "end": 1910380,
+      "speaker": "Moritz Stefaner",
+      "start": 1906856,
+      "text": "Notes, hand out awards for the best video background. Is that what you think?",
+      "id": "ep_162_ut_45"
+    },
+    {
+      "end": 1996666,
+      "speaker": "Enrico Bertini",
+      "start": 1913320,
+      "text": "Yeah, absolutely. And just to mention another thing. So one thing that I learned by reading about learning science, that struck me as, like, fundamental in the way we do research and visualization. So in learning science, a very common issue is that if you measure an outcome right after learning or after a while, you get completely different results. Right. So what really matters in learning is what stays in the long term, not in the short term. And the same intervention can be. So if you compare a and b, a may be better in the short term, but be worse in the long term. Right. So we have no idea whether the same happens with visualization. It looks like a no brainer to me. Like, we almost never do that. Correct me if I'm wrong, I'm not aware of studies that look at what happens right after or after a week or after a month. So I think that's a really interesting. Yeah. I just wanted to mention one thing that I learned that I think it's interesting I suggest that maybe we should move on to the methodological diversity, because I think it's a really good segue to what we are discussing. Danielle, maybe you want to start with that.",
+      "id": "ep_162_ut_46"
+    },
+    {
+      "end": 2138770,
+      "speaker": "Danielle Szafir",
+      "start": 1996818,
+      "text": "Yeah, so I think we've touched a little bit on this and that kind of borrowing methods from psychology or borrowing methods from educational science. But I think what we're seeing more deeply, at least this year, it felt like it was really manifesting in a very visible way, is kind of pushing visualization out of its comfort zone, generally in terms of the methods we used to understand. So we have our classical AB comparison style of experiment and study. But one of the things that I think really came through, and especially I'm thinking Tamara Munzner, is provocation as of the believe panel, was this call for more mixed methods, that we're not going to understand how visualization works by only running quantitative studies. We're probably not going to understand how it works by only running qualitative studies and by developing a more rigorous base on both the quantitative and the qualitative end, and then understanding how we can bring those two perspectives together in terms of mixed methods approaches. So these kind of investigations that leverage both the qualitative and the quantitative in the same context for the same scenario and match up the outputs of those results, we're more likely to actually really understand what's going on with a vis and why it works. So I think we're seeing a lot of rigor. You know, we've already talked about a lot of it coming from the perceptual and empirical side, but there was a really intriguing paper about kind of the more humanist perspective and humanist thinking, and how that might shape visualizations for more rhetorical purposes and for purposes aligned more closely with rhetorical insight. So that was this introducing layers of meaning, a framework to reduce semantic distance of visualization and humanistic research. And it's really kind of asking us to pivot and stop treating every application area as if it's the hard sciences and as if it's hypothesis generation and hypothesis confirmation, and instead take a more critical glance at the ways that we assess and we think about visualization broadly. And I won't try and summarize this paper, Miriah, because you can do it far more justice than I can. But following immediately on the heels of that paper, if we weren't already in awesome qualitative methods, land was the work that you all were doing with the Evo bio design study and thinking about what does it mean to actually do interpretivist work in the context of visualization and do it well.",
+      "id": "ep_162_ut_47"
+    },
+    {
+      "end": 2416940,
+      "speaker": "Miriah Meyer",
+      "start": 2139960,
+      "text": "Thanks for that plug, Danielle. Yeah. A quick comment about the introducing layers of meaning paper, which I also really loved. And the thing that struck me additionally about that paper that was done so well was their ability to take critical thinking and critique and actually do something actionable with it. I know for myself, I often get frustrated by some of the critical theory work that has looked at visualizations because it provides a lot of critiques. And then I'm like, well, great, I agree with all that. But now what? And this paper actually took a step of producing guidelines or a framework for how we can think about applying some of the, you know, critiques about power and inclusion, how we can actually do something with that as vis designer. So that I thought was a really actionable paper. And then the paper that you mentioned, Danielle, that student, Jen Rogers, was the first author on that paper, was built on a design study. But what we really wanted to do was really say, okay, if we're going to focus, we want to focus on trying to have rigor in this design study based upon some criteria that myself and Jason Dykes laid out last year. What does that look like in a design study? And what we found is that it completely changed the kinds of learning and contributions that we came out with at the end. So we did a design study with some evolutionary biologists. It went about as you might expect. We went and spent time with them. Well, Jen spent time with them. We designed some tools. We had some new visualization techniques that came out of it, but we learned so much more than just new techniques from the process. And one of the things we focused a lot on was transparency. I know that's something that I heard multiple calls for qualitative work, something we have to focus on. So how do we make the design process and our process of getting to insight more transparent as researchers? And so a couple things we tried to do was, one, we collected, well, Jen collected, you know, over 100 different artifacts that we recorded, and then we tried to develop ways to communicate those out. So we included this companion website where you can see all the artifacts. But then another thing that we experimented with was how do we actually link to evidence within a paper? I think this is something that a lot of qualitative work, it's really hard to do because there tends to be so much evidence, you know, in the forms of transcripts and sketches. And so we included these deep links in the paper, just like you would cite, like a, like a, like a reference paper. We cited bits of evidence that you could click on and actually pull up that evidence in a browser. And so for us, this was just some experiments in how do we start to think about transparency in terms of qualitative work? And so that was some really exciting stuff, I thought, that came out of out of that, but that also, that led to some things that I thought were also sort of interesting with respect to communicating results that I saw at Vis. There was an interesting paper called data comics for reporting controlled user studies that I really loved, in part because, I'll be perfectly honest, I find the reporting of results from controlled studies to be kind of dry. And I know it's important, but, like, it's hard for me to get through. And there's figures and there's text, and the text is like, look at the lower left hand corner of figure five a, and I'm like, gosh, what is that? But, you know, there's this data comics idea for how can we sort of bring more visual, explanatory kinds of techniques to how we are communicating those results. And then I think another really cool example of this was a paper that we've talked about already, which was the one from Alex Kail, Matthew Kay, and Jessica Hullman. And what they did in their paper is they actually had on one column, because it's a two column format. On the left column, they had a series of statistical results shown in charts. And on the right, they had their text, and they actually had lines that linked to specific color coded lines that link to specific lines of text, that link then to the visualization that you should be looking at of their data. That really helped me, as someone who struggles to navigate those kinds of descriptions, I thought it was a really nice example of how we can move towards making our results more easy, more accessible, and ultimately, the process we go through, I think, more transparent.",
+      "id": "ep_162_ut_48"
+    },
+    {
+      "end": 2433800,
+      "speaker": "Danielle Szafir",
+      "start": 2417100,
+      "text": "I think that's a great point. As we're seeing these methods and the variety of methods, both on the experimental design and the, the statistical analysis side, get more complex and sophisticated, I think we are kind of losing sight that we leave ourselves behind as readers and consumers of this information. So that's a really fun point.",
+      "id": "ep_162_ut_49"
+    },
+    {
+      "end": 2445600,
+      "speaker": "Moritz Stefaner",
+      "start": 2434260,
+      "text": "And if somebody should be good with data, storytelling should be us, right? I think we should set a good example. Hopefully now we report our own stuff.",
+      "id": "ep_162_ut_50"
+    },
+    {
+      "end": 2465792,
+      "speaker": "Miriah Meyer",
+      "start": 2445900,
+      "text": "You know, it's funny. More, it's like, I've heard this critique of the vis academic community. We spend so much time thinking about visualizations for other people, and then you flip through our papers, and it's like, gosh, shouldn't you spend some time thinking about viz for vis. So that's why these two papers got me excited, because it is sort of thinking about how can we be better communicators ourselves.",
+      "id": "ep_162_ut_51"
+    },
+    {
+      "end": 2488188,
+      "speaker": "Enrico Bertini",
+      "start": 2465856,
+      "text": "Yeah, that's great. Yeah, absolutely. Okay, so I think we can switch to the next theme. I think we have this. Beyond the desktop, lots of. Seem to focus on a lot of things that are unconventional, which I think is good. Danielle, you want to start with that?",
+      "id": "ep_162_ut_52"
+    },
+    {
+      "end": 2615350,
+      "speaker": "Danielle Szafir",
+      "start": 2488364,
+      "text": "Yeah. And I think that unconventional label is a great way to refer to it. You know, it's one of those where you still, you mentally think visualization. You think somebody sitting at a desktop with Excel or Tableau or power bi, or choose your favorite business intelligence suite in front of them. But increasingly, we're getting all these really interesting ways of bringing data into more immersive spaces, whether it be large scale displays. Augmented reality physicalization. I still think possibly the coolest thing I saw at this year was some work called Uplifts, a tangible and immersive tabletop system for casual collaborative analytics. And the basic idea here was like, we have our interactive touch table, we have our augmented reality headsets. We have 3d printed tangibles. At one point, they had legos with markers on it, like, basically bring all the cool toys together to do really interesting collaborative work. But while that system was so cool, one of the things that I think it really shows, and this was echoed in a lot of systems like Data Breeze, the anatomical edutainer, which was the best short paper winner this year, is this idea that we are really starting to explore what the true affordances are of visualization when we take it off the monitor and trying to understand, you know, these trade offs between data ownership. When am I doing analysis that I just want to do personally, and I'm not ready to share it with somebody else yet, or these broader collaborative affordances of these large screen displays, or even something as simple as, can I play with paper and figure out, you know, get my hands dirty building these visualizations and interacting with them, and fun and playful ways. And this connects into some of the constructivist work that Sheelagh also talked about in her keynote. So I think as a community, we're really starting to move beyond the can we do it? In terms of pulling this off the desktop and starting to move into the why should we do it? What are the things that we can do when we move data off a desktop and into an augmented reality headset or into a physical embodiment that we can't necessarily do with a traditional representation in 2d?",
+      "id": "ep_162_ut_53"
+    },
+    {
+      "end": 2692670,
+      "speaker": "Miriah Meyer",
+      "start": 2616250,
+      "text": "Yeah, I was floored by the number of papers dealing with immersion this year. And so I think it completely speaks to what you're saying, Danielle. And what I thought was interesting about a lot of this work is that it is taking this approach of, like, well, immersion, for example, isn't just about immersing myself in a 3d scatter plot, which many of us for years have been like, why would you ever do that? But now it's. There was definitely some immersion in 3d scatter plots, but, you know, but it's going beyond that. And a lot of these immersion papers were looking at immersion for collaboration, and I saw, you know, where people used immersion. So you have your private space, but then you have your public space where people can share, you know, scatter plots and, you know, line charts and stuff. And so I just. I think that's such an interesting trend. And as someone who has for so long been like, why would we use immersion for particularly abstract data, I suddenly this year was an inflection point for me. And I'm just like, oh, my gosh. Wow, there's a lot of really interesting ideas that people are playing with. So I feel like this is definitely a trend that I think is going to stick and we're going to see a lot more of this.",
+      "id": "ep_162_ut_54"
+    },
+    {
+      "end": 2730460,
+      "speaker": "Danielle Szafir",
+      "start": 2692830,
+      "text": "Yeah, one of the cool things, I think also coming out this year, building on what you said, Miriah, about the sticking, a lot of the papers that were presented this year on these kinds of immersive AR VR systems are also releasing toolkits that make it easier for people to get involved in this. I remember when my lab was first getting involved in it, it was like, where do we even start in terms of building all of this? And I think the release of a lot of these toolkits is going to greatly scaffold that barrier to entry in getting involved in immersion and make it easier for us as a community to really explore this space.",
+      "id": "ep_162_ut_55"
+    },
+    {
+      "end": 2831734,
+      "speaker": "Enrico Bertini",
+      "start": 2730960,
+      "text": "Yeah, that's crucial. That's crucial from my perspective. I think one aspect that I always found interesting is that my sense is that one advantage of immersion over other methods is the emotional component. Being immersed in a space can effectively have a much stronger effect on your emotions. At least that's my working hypothesis. I don't know if it's true or not, and it's one of those things that, because in my head, I'm always thinking, what is the advantage of doing it this way rather than the traditional way? And I can't imagine standard environments having the same emotional impact that you can have when you are immersed in a space I think one of the papers that we have in our list here, I believe it covered this aspect. I'm not sure because I didn't read it. I think there was one on data visualization, enabling deeper understanding of data using virtual reality. So it looks like there's a component there. I may be wrong because honestly, I didn't read it yet, but I don't know. That's my sense. And again, I may be wrong, but if I had to mention one, one advantage of being immersed over not being immersed is emotion, how emotional the experience can be. The whole idea of having an experience. When you are immersed, you can have an experience. I don't know. Yeah.",
+      "id": "ep_162_ut_56"
+    },
+    {
+      "end": 2860702,
+      "speaker": "Moritz Stefaner",
+      "start": 2831742,
+      "text": "And I think also this traditional notion of a desktop computer that was so standard for so many decades and how people use it, that they would be, like, concentrated and uninterrupted sitting in front of a screen alone. You know, that's just now it's happening again, but it's sort of going away. And I think even on the desktop, you're much more distracted. So I think there can be value in saying, I just do one thing at a time for 15 minutes here. Right?",
+      "id": "ep_162_ut_57"
+    },
+    {
+      "end": 2861330,
+      "speaker": "Enrico Bertini",
+      "start": 2860726,
+      "text": "Yes.",
+      "id": "ep_162_ut_58"
+    },
+    {
+      "end": 2873330,
+      "speaker": "Moritz Stefaner",
+      "start": 2861630,
+      "text": "And maybe that was like ten years ago, much more the standard, and now we don't have these 15 minutes anymore, and we actually need cinematic experiences to get back to that concentration. Right.",
+      "id": "ep_162_ut_59"
+    },
+    {
+      "end": 2885334,
+      "speaker": "Enrico Bertini",
+      "start": 2874710,
+      "text": "I had an epiphany yesterday. I decided to work using only my iPad. It's so much better. It's like I do only one thing at a time.",
+      "id": "ep_162_ut_60"
+    },
+    {
+      "end": 2885902,
+      "speaker": "Moritz Stefaner",
+      "start": 2885382,
+      "text": "Right.",
+      "id": "ep_162_ut_61"
+    },
+    {
+      "end": 2897300,
+      "speaker": "Enrico Bertini",
+      "start": 2886046,
+      "text": "Right. It's much more limited, but it's a plus. Right. I can't just do a thousand different things and. Yeah. Anyway, there you go. There you go.",
+      "id": "ep_162_ut_62"
+    },
+    {
+      "end": 3074148,
+      "speaker": "Miriah Meyer",
+      "start": 2898560,
+      "text": "Well, building off of this idea that data is personal, which is something that I saw in multiple places, including vis for digital humanities, there were some interesting papers around that, but there was a really nice example called chemicals in the creek, designing a situated data physicalization for open government data with the community. That was really interesting. And this was a participatory project where researchers were pairing up with a group of activists in Massachusetts who work with community members who all live near a creek. That is where. Which is where a lot of chemical plants are violating EPA regulations and dumping things into their water systems. And what they did is they really wanted to think about ways to engage with this community and to help them better understand these EPA violations. And so they developed this kind of ceremony, actually is ended up how they describing it, the ceremony where the community, where they had lanterns that represented violations and they had this event where people came and they saw these lanterns being released into the creek. And then they afterwards, the activist community or the activist members and the research members, facilitated conversation with the community about this. And what really struck me, some of the things they talked about was the sort of embodied experience where some of the community members got to put the lanterns representing the violations in the water and how important that was for people. And the sort of juxtaposition between this beautiful data display of these glowing lanterns on the water with people trying to understand that that actually represented kind of horrible environmental issues going on. And so anyway, but from a research perspective, I think what's interesting about this is it starts to bring up some of this, the emotional nature of data, the sort of embodiment that visualizations have with the, you know, data physicalization with immersion, and how that really, that impacts people. And I think also makes this question, well, what is the point of visualization? And in this case, the visualization was about facilitating a conversation among these community members, about empowering them by having them better understand what's going on in their, in their communities. And, and I think that gets back to, again, to this magic, which is, does it really matter that these lanterns need to precisely represent some sort of data values? Was that even the point of the visualization? So sort of, I think, really like starting to think about, like, what can visualizations do? And this was, I thought, a really interesting paper that I think, to what you were saying, Danielle starts to really push what we're seeing in the academic community as things that we can, you know, that we as visualization academics think are interesting research things to think about.",
+      "id": "ep_162_ut_63"
+    },
+    {
+      "end": 3106230,
+      "speaker": "Enrico Bertini",
+      "start": 3074324,
+      "text": "All right. And I think we can move on to the next theme. We're almost done. So the next one we wanted to cover is this and Covid-19 and this for social good. Should we start with Covid-19? I think, Miriah, maybe you can start talking about the Covid-19 coverage that we had in the belief workshop and also the COVID panel.",
+      "id": "ep_162_ut_64"
+    },
+    {
+      "end": 3261680,
+      "speaker": "Miriah Meyer",
+      "start": 3106390,
+      "text": "Yeah. So again, hearkening back to John Bern Murdoch's really fascinating keynote for believe. One of the things that he called out our community on is the notion of accountability. This is coming up because he gave a keynote about his experience of designing visualizations of COVID data over the last six months. And one of the things that he pointed out is that he didn't just drop these visualizations and then sort of disappear. He engaged with the sort of consumers of those visualizations. He continued to engage with people through. He's very prolific on Twitter. And so he would often ask readers of the visualizations for feedback on various design choices that they were making. And in this way, he engaged people in a conversation around the data, the decisions he was making, why or why not. And I thought this was a really powerful example of how we in the vis community can do a lot better at thinking about how the sort of ethics of exit, which is, you know, we go in, we solve a problem, we have a visualization, we write a paper and we're done. But really, I think that John's example is a nice, is a nice sort of story about things that we could, we could strive more for and learn a lot, I think, from engaging in that way. The other thing, I thought there was a panel that was organized around visualizing data around the pandemic, and there's a lot of really interesting things said on that. But another sort of ding, I think, to the vis community came from Anna Chrissy Ann, who was sort of saying like why all of a sudden do we have a panel on visualizing pandemic data? Where was this panel for Ebola? Where was this for swine flu? Like why now? Where is the vis community? You know, in wanting to do good, like we need to sort of rethink like our, you know, our priorities. Yes, our priorities, for example. And so I thought that that was a really interesting critique of our community and one that I think is worth for us to reflect on. Like what do we learn from this? And you know, should, what are different kinds of problems that we could be seeking out? And I think that sort of, that sort of complemented nicely the panel on viz for social good and what they were talking about there.",
+      "id": "ep_162_ut_65"
+    },
+    {
+      "end": 3314820,
+      "speaker": "Danielle Szafir",
+      "start": 3262060,
+      "text": "It's funny, you bring in the like drop a vis and run kind of thing, right? That came up in vis for social good in the context of parachute research and thinking about what are the incentive structures to stay engaged? You know, what are the ethical ways of representing data? How do we incentivize these kinds of contributions that may not fit into conventional, like publish, cut and run incentive structures that are just kind of the bean counting sorts of things that we all engage in in the academic space and think about how our work can actually have a real impact? And that's why what you mentioned, Miriah, about Anna's comment really resonates, I think really well with that, this idea of why are we not considering the social impact of our work as part of the contribution of that work? And what would it mean to, to change the way we're thinking about things in that way.",
+      "id": "ep_162_ut_66"
+    },
+    {
+      "end": 3424120,
+      "speaker": "Enrico Bertini",
+      "start": 3315120,
+      "text": "Yeah. This also makes me think about the problem. I am myself conflicted with the problem of continuously innovating. Right. Because we definitely have lots of incentives to be continuously innovating. And I wouldn't say it's wrong, right. On the other hand, it has to go hand to hand with reflection. And I had a personal experience lately. I have a project that I've been doing with a colleague at the medical school, where we analyze incredibly simple plots that clinicians use to during their practice, basically to see what's the subjective. How would you say that, subjective? We have subjective metrics of the patients that are collected about how the patients feel over time. Right. And so we run a number of interviews with clinicians. And what struck me as really surprising is how much you can learn about a quote unquote stupid line plot, right line chart. It's like a, we have hours of audio recording about how every single clinician or physical therapist reasons about a single line on the right. And it's humbling in a way. And I think how to find the right balance between innovation and reflection, and also having the wish to study things that look too simple, but they are not too simple. I think it's an interesting problem for our community.",
+      "id": "ep_162_ut_67"
+    },
+    {
+      "end": 3456770,
+      "speaker": "Danielle Szafir",
+      "start": 3424900,
+      "text": "Yeah, I mean, Ron Rensink always refers to the scatterplot as being like the fruit fly of visualization research, that there's a lot going on there, even though it seems like it should be really simple. And so it's a great kind of like model organism to jump further into its metaphor for how we might actually make sense of what's going on in a vis. And it's something that we use in the wild a lot more often than I think we even realize, though this gets back to your paper, Enrico, about why not just always a scatterplot and the circular argument there.",
+      "id": "ep_162_ut_68"
+    },
+    {
+      "end": 3518420,
+      "speaker": "Miriah Meyer",
+      "start": 3457670,
+      "text": "Well, I also like what you were saying, Enrico, about your project and it being simple visualizations and how as an academic, this person, that's kind of hard. But I just want to point out that in this entire conversation, we haven't talked about a single paper that's really about new visualization techniques. We've talked about a lot of things that are looking at how people think about visualization, how people perceive visualization. We've talked about how do we collaborate with other domains, what's the role of visualization? And I see that that's been a trend that I've seen, is that there's not that many papers anymore that we see that are truly innovative. New visualization techniques, stuff that people are largely gravitating towards more of an understanding around why visualizations are effective, how they can be effective, how they can have positive change. So I just think that that's interesting for a community that sort of, I think, sees itself as innovating new techniques.",
+      "id": "ep_162_ut_69"
+    },
+    {
+      "end": 3531922,
+      "speaker": "Enrico Bertini",
+      "start": 3521240,
+      "text": "Yes, yes. Yeah. So maybe we're already following the right path. I hope so. Or we are killing ourselves and we don't.",
+      "id": "ep_162_ut_70"
+    },
+    {
+      "end": 3560460,
+      "speaker": "Moritz Stefaner",
+      "start": 3531986,
+      "text": "Yeah, and maybe there is a certain saturation. You know, there's all these projects about, here's like 200 ways to visualize a network or like 150 timelines. And when you look at those, you have that sense of, okay, I think you tried out all the combinations now and maybe, you know, this is a general, like, feeling. And, and then the question is what's next? And as it seems the next thing is happening already.",
+      "id": "ep_162_ut_71"
+    },
+    {
+      "end": 3605080,
+      "speaker": "Danielle Szafir",
+      "start": 3560620,
+      "text": "Yeah, well, and I wonder also to your point, there is how much of it is that we are now thinking about the visualizations that are broadly going to be consumed. The visualizations, again with the pandemic. Right. People are consuming information visualizations at a scale that I don't think we've seen before and I don't know necessarily see us going back from. And so how much of this is also because the kinds of messages and the kinds of populations that we're designing for are no longer those four experts in the world who have this one very specific question about a particular kind of bacterial genetics. But we're moving on to trying to go back to basics and understand what does it mean to actually design for something that communicates to everyone?",
+      "id": "ep_162_ut_72"
+    },
+    {
+      "end": 3657300,
+      "speaker": "Enrico Bertini",
+      "start": 3606590,
+      "text": "Oh, yeah, absolutely. I think we had, one of our latest recordings has been with Carl Bergstrom, and we spent a lot of time just talking about the flattening the curve visualization and the many, many variations around a single plot. It's fascinating, right. It's effectively a cultural artifact with all the various implications that this brings. So, yeah, okay, I think we can almost wrap it up. Should we talk about papers that have practical relevance? Maybe something that our more practical oriented listeners want to play with? Anything to mention there?",
+      "id": "ep_162_ut_73"
+    },
+    {
+      "end": 3692762,
+      "speaker": "Miriah Meyer",
+      "start": 3658420,
+      "text": "There was a whole session on, I think it was on Tuesday, around toolkits and systems for which I think Danielle was talking about some of these where there's a whole bunch of research going on in the community about how do we make these sort of the barriers to entry, to creating visualizations, whether they're immersive or not, easier. And so I think that there was a number of papers around open source toolkits that have been released that I think are really interesting and potentially could have a big impact for many people, I think.",
+      "id": "ep_162_ut_74"
+    },
+    {
+      "end": 3761880,
+      "speaker": "Danielle Szafir",
+      "start": 3692906,
+      "text": "Yeah, I would definitely agree with that. There's lots of cool new toys to play with, for lack of a better term. Two, that really stuck out to me, where there's a dimensionality reduction toolkit called Druid that just made it very simple to play with a number of different dimensionality reduction algorithms. So it was something that in the talk, they even give a really nice live demo, talking over the demo. And it just, I'm looking forward to going and playing with it because I think it looks like a lot of fun and looks like something is going to save us all a lot of headaches. And there is another system called Calliope where the basic goal from this is, can we bootstrap the development of information and data stories? So they used a number of techniques from information theory to try to extract data facts and organize those facts into a preliminary data story that then the designer could go in and edit. So one thing that was really nice there is that it's not totally fully automated. What you see is what you get, but rather there is some automation to bootstrap the development of the story and then allowing the designer themselves to customize and play with things and lay things out as they go.",
+      "id": "ep_162_ut_75"
+    },
+    {
+      "end": 3806890,
+      "speaker": "Moritz Stefaner",
+      "start": 3762000,
+      "text": "Sounds really cool. I'd love to play with that. One thing I came across which I really liked was the data gifs study. So they collected, I think, dozens of different short, bite sized data animations you can use in social media and sort of looked at. Okay, what structure they have, which type of narrative techniques do they use? And provided a few design guidelines. It's like looking at a specific media format, providing good overview of the space, and then sort of just providing you with a few tips and guidelines. And these types of things are really super applicable also to practitioners and really helpful immediately. So I really like this one.",
+      "id": "ep_162_ut_76"
+    },
+    {
+      "end": 3858370,
+      "speaker": "Enrico Bertini",
+      "start": 3806970,
+      "text": "Yeah. So if you want to play with some cool toys, go to the show notes and you'll find direct links to all the tools that we mentioned here. And I think we can conclude by briefly commenting on the, on the new format, and especially for those who are listening and didn't have a chance to really follow the conference. The beauty of it is that now they can go back and watch some of the recordings. There is a whole YouTube channel, there is a whole discord, sets of discord channels they can sift through, and, I don't know, maybe even more than that. So, yes. Danielle and Maria, what do you think about the format and especially what we can do with it.",
+      "id": "ep_162_ut_77"
+    },
+    {
+      "end": 3963458,
+      "speaker": "Miriah Meyer",
+      "start": 3859310,
+      "text": "Yeah. I went into the conference with such low expectations, and it completely blew those expectations out of the water. I now feel like you can actually do remote conferences in a way that isn't horrible. And I think that there was a couple of things that I feel like are features that we're going to keep even when we go back to meeting in person. One of them, of course, is the recording and the streaming so that more people can take part. One thing I love about the streaming is that I can watch things on double speed, so it takes less time to get a lot of content, which I've really appreciated. Another thing that was interesting was this use of a discord channel, which is, you know, it was, like, slack. I wasn't much of a discord user before. I can't say I love it, but the ability for people to sort of engage on a back channel was really nice. I think it had positive impacts. Like, I think people asked a lot, a lot of people asked questions who said that they wouldn't have otherwise because you could just pose questions without having to get up to a microphone and wait in line in front of the whole room. On the other hand, I also felt a little bit like I kept seeing the exact same people in the discord channels. And so I do think that it was great for those of us that sort of have established, like, we feel comfortable in the community. But I worry that because there was so much overwhelming, like, inside jokes and stuff, that, like, it's also probably off putting to people new to the community. So I'm a little on the fence about the use of discord, but I think the streaming was just awesome.",
+      "id": "ep_162_ut_78"
+    },
+    {
+      "end": 3967442,
+      "speaker": "Moritz Stefaner",
+      "start": 3963634,
+      "text": "Were they moderators on discord, or was it just open, like, channels?",
+      "id": "ep_162_ut_79"
+    },
+    {
+      "end": 3983446,
+      "speaker": "Miriah Meyer",
+      "start": 3967626,
+      "text": "It was just open. The session chairs, though, would monitor discord for questions. So then when you get part, they'd be like, well, several people have asked a question around, blah, which was really awesome because the moderated questions, I think, made for a much higher quality q and a session.",
+      "id": "ep_162_ut_80"
+    },
+    {
+      "end": 3984310,
+      "speaker": "Moritz Stefaner",
+      "start": 3983538,
+      "text": "Mm hmm.",
+      "id": "ep_162_ut_81"
+    },
+    {
+      "end": 4032540,
+      "speaker": "Enrico Bertini",
+      "start": 3984470,
+      "text": "I agree. I think there is a big issue of inclusion of younger and less established people. I think if I have to mention one big problem with the virtual format is definitely this one. Right. Younger, younger folks just have way, way less opportunity to just, I don't know who was somebody during the, during the meetings said, I used to go around with my ducklings and then I would introduce them to everyone. Right. I can't recreate that anymore. Right. I think it was Karen Schloss, and I think that's a big issue. And maybe it's not insurmountable, but I think it's one of the big downsides.",
+      "id": "ep_162_ut_82"
+    },
+    {
+      "end": 4045630,
+      "speaker": "Danielle Szafir",
+      "start": 4032840,
+      "text": "Yeah. Though I will say, I think the inclusion part is a trade off. I definitely think as a community, we have an opportunity here to think about how do we use these kinds of virtual formats to be more inclusive and welcoming to new scholars.",
+      "id": "ep_162_ut_83"
+    },
+    {
+      "end": 4046470,
+      "speaker": "Enrico Bertini",
+      "start": 4045750,
+      "text": "Yes.",
+      "id": "ep_162_ut_84"
+    },
+    {
+      "end": 4094990,
+      "speaker": "Danielle Szafir",
+      "start": 4046630,
+      "text": "But I think there's also a positive benefit on the inclusive side, which is for people who otherwise wouldn't be able to travel to the conference. I was talking with folks who had visa issues or funding issues or physical disabilities, that traveling the conference is either really difficult or impossible. And so having this virtual option actually allows them to be part of the conversation in ways they wouldn't otherwise be. So I think I agree with Miriah, and I agree with you, Enrico, that we have some work to do in terms of continuing to make things better. I cannot thank all of the people who, you know, the technical chairs especially, but everybody who made this thing happen, I can't even imagine the lift that must have been. And I think it was executed really, really well.",
+      "id": "ep_162_ut_85"
+    },
+    {
+      "end": 4096034,
+      "speaker": "Enrico Bertini",
+      "start": 4095330,
+      "text": "Oh, yeah.",
+      "id": "ep_162_ut_86"
+    },
+    {
+      "end": 4113510,
+      "speaker": "Danielle Szafir",
+      "start": 4096082,
+      "text": "But the inclusion is. It's definitely a trade off. It offers a lot of fabulous opportunities and also some drawbacks. But I'm hoping in the future that virtual options like this will remain something so that we can have an opportunity for participation for people who can't actually be there in person.",
+      "id": "ep_162_ut_87"
+    },
+    {
+      "end": 4132719,
+      "speaker": "Moritz Stefaner",
+      "start": 4114599,
+      "text": "Yeah. Maybe there can be like, mentorships for newbies. You know, like if you're new to the conference, you get assigned somebody, you can just ask what's good or how to find out what's good or not or how to. Yeah. How to find all the interesting things or get introduced. Right.",
+      "id": "ep_162_ut_88"
+    },
+    {
+      "end": 4168526,
+      "speaker": "Enrico Bertini",
+      "start": 4132799,
+      "text": "Yeah. And effectively, the visconference is pretty much us centered. It tends to almost always happen in the US and sometime in Europe. And what about all the other countries in the world? So I think it's. I think me and Moritz have been trying to organize a few times here in data stories, what we call data stories around the world, because there's so much happening around the world. And I think it's. I think it's an important aspect of inclusion that should be considered as well.",
+      "id": "ep_162_ut_89"
+    },
+    {
+      "end": 4190070,
+      "speaker": "Miriah Meyer",
+      "start": 4168688,
+      "text": "I was going to point out that even though viz. Next year is also in the US, the following year it's going to be in Australia. So I think if we still have. I think if we still have these virtual components, it's going to be a real wake up call for those of us that are very North America centric to be like, whoa, there's people that are like 13 hours away, that's tough. So we'll have to see how that goes.",
+      "id": "ep_162_ut_90"
+    },
+    {
+      "end": 4209550,
+      "speaker": "Danielle Szafir",
+      "start": 4191130,
+      "text": "But I was talking to John Gomez, who was talking about how, you know, this was enabling his students to attend and stay home in Columbia, and otherwise it wouldn't have been an option. So I think it's got real impact. So there's the North America centric version, and then there's just the fact that we're a global community.",
+      "id": "ep_162_ut_91"
+    },
+    {
+      "end": 4216746,
+      "speaker": "Enrico Bertini",
+      "start": 4210050,
+      "text": "Yeah. Okay. Any concluding thoughts? Anything we have left to say?",
+      "id": "ep_162_ut_92"
+    },
+    {
+      "end": 4246520,
+      "speaker": "Miriah Meyer",
+      "start": 4216898,
+      "text": "I think that there's going to be a lot of really interesting stuff that we see next year based upon the experiences that we had this year with research through the pandemic, with, you know, having a virtual conference with, I think, some of these, these market trends that we're seeing. So I'm really excited to see what the community comes up with in a year, two years, three years. I think it's going to be such a different place than we were, you know, even just a couple years ago. So I think it's an awesome time for academic visualization research.",
+      "id": "ep_162_ut_93"
+    },
+    {
+      "end": 4284460,
+      "speaker": "Danielle Szafir",
+      "start": 4247140,
+      "text": "Yeah. And I would second that. I think a lot of these themes are really exciting. They're things that are going to drive both our foundational understanding how visualization works and also offer new opportunities for more effective and more creative design. So I think we're seeing a lot of different intellectual communities really coming together and driving this innovation. And I'm selfishly optimistic for those who may or may not be aware, there are some major structural changes that are coming to vis that I think are going to afford even more of this intellectual interchange between these various disciplines and epistemologies. And I'm really excited to see what comes out of it.",
+      "id": "ep_162_ut_94"
+    },
+    {
+      "end": 4308296,
+      "speaker": "Enrico Bertini",
+      "start": 4286080,
+      "text": "Okay, well, so, Danielle and Maria, thanks so much. It's been a lot of fun talking with you. Thanks for the service and thank you, guys. Yes, thank you sharing with us your ideas. I really enjoyed talking with you and I have learned a lot myself. And thank you.",
+      "id": "ep_162_ut_95"
+    },
+    {
+      "end": 4326776,
+      "speaker": "Moritz Stefaner",
+      "start": 4308448,
+      "text": "Yeah, we have lots of material now to catch up on. I'm excited. Yeah. So we'll put links to all the papers and the talks mentioned in the blog post and in the show notes or hopefully also in the chapter markers. So hopefully you'll have an easy time to follow up on all the interesting stuff mentioned.",
+      "id": "ep_162_ut_96"
+    },
+    {
+      "end": 4328864,
+      "speaker": "Enrico Bertini",
+      "start": 4326968,
+      "text": "Okay. Thanks a lot. Bye bye.",
+      "id": "ep_162_ut_97"
+    },
+    {
+      "end": 4330072,
+      "speaker": "Moritz Stefaner",
+      "start": 4328912,
+      "text": "Thank you. Bye.",
+      "id": "ep_162_ut_98"
+    },
+    {
+      "end": 4330568,
+      "speaker": "Danielle Szafir",
+      "start": 4330136,
+      "text": "Thanks.",
+      "id": "ep_162_ut_99"
+    },
+    {
+      "end": 4331420,
+      "speaker": "Miriah Meyer",
+      "start": 4330664,
+      "text": "Bye.",
+      "id": "ep_162_ut_100"
+    },
+    {
+      "end": 4359270,
+      "speaker": "Moritz Stefaner",
+      "start": 4336390,
+      "text": "Hey, folks, thanks for listening to data stories again. Before you leave a few last notes, this show is crowdfunded and you can support us on Patreon@Patreon.com. Datastories where we publish monthly previews of upcoming episodes for our supporters. Or you can also send us a one time donation via PayPal at PayPal Dot me Datastories or as a free.",
+      "id": "ep_162_ut_101"
+    },
+    {
+      "end": 4386266,
+      "speaker": "Enrico Bertini",
+      "start": 4359310,
+      "text": "Way to support the show. If you can spend a couple of minutes rating us on iTunes, that would be very helpful as well. And here's some information on the many ways you can get news directly from us. We are on Twitter, Facebook and Instagram, so follow us there for the latest updates. We have also a slack channel where you can chat with us directly and to sign up, go to our homepage at Datastory ES and there you'll find a button at the bottom of the.",
+      "id": "ep_162_ut_102"
+    },
+    {
+      "end": 4394862,
+      "speaker": "Moritz Stefaner",
+      "start": 4386298,
+      "text": "Page and there you can also subscribe to our email newsletter if you want to get news directly into your inbox and be notified whenever we publish a new episode.",
+      "id": "ep_162_ut_103"
+    },
+    {
+      "end": 4407518,
+      "speaker": "Enrico Bertini",
+      "start": 4394946,
+      "text": "That's right, and we love to get in touch with our listeners. So let us know if you want to suggest a way to improve the show or know any amazing people you want us to invite or even have any project you want us to talk about.",
+      "id": "ep_162_ut_104"
+    },
+    {
+      "end": 4414166,
+      "speaker": "Moritz Stefaner",
+      "start": 4407654,
+      "text": "Yeah, absolutely. Don't hesitate to get in touch. Just send us an email at mailatastory es.",
+      "id": "ep_162_ut_105"
+    },
+    {
+      "end": 4418490,
+      "speaker": "Enrico Bertini",
+      "start": 4414318,
+      "text": "That's all for now. Hear you next time, and thanks for listening to data stories.",
+      "id": "ep_162_ut_106"
+    }
+  ],
+  "confidence": 0.931144767618724,
+  "audio_duration": 4427,
+  "punctuate": true,
+  "format_text": true,
+  "dual_channel": false,
+  "webhook_url": null,
+  "webhook_status_code": null,
+  "webhook_auth": false,
+  "webhook_auth_header_name": null,
+  "speed_boost": false,
+  "auto_highlights_result": null,
+  "auto_highlights": false,
+  "audio_start_from": null,
+  "audio_end_at": null,
+  "word_boost": [],
+  "boost_param": null,
+  "filter_profanity": false,
+  "redact_pii": false,
+  "redact_pii_audio": false,
+  "redact_pii_audio_quality": null,
+  "redact_pii_policies": null,
+  "redact_pii_sub": null,
+  "speaker_labels": true,
+  "content_safety": false,
+  "iab_categories": true,
+  "content_safety_labels": {
+    "status": "unavailable",
+    "results": [],
+    "summary": {}
+  },
+  "language_detection": false,
+  "language_detection_threshold": null,
+  "language_confidence": null,
+  "custom_spelling": null,
+  "throttled": false,
+  "auto_chapters": true,
+  "summarization": false,
+  "summary_type": null,
+  "summary_model": null,
+  "custom_topics": false,
+  "topics": [],
+  "speech_threshold": null,
+  "speech_model": "best",
+  "chapters": [
+    {
+      "summary": "Enrico Bertini is a professor at New York University. Moritz Stefaner is an independent designer of data visualizations. We talk about data visualization analysis and the role data plays in our lives. Our podcast is listener supported. If you do enjoy the show, you could consider supporting us.",
+      "gist": "Data Stories",
+      "headline": "This podcast is listener supported. If you enjoy the show, you could consider supporting us",
+      "start": 120,
+      "end": 82648,
+      "id": "ep_162_ch_0"
+    },
+    {
+      "summary": "We thought it would be a perfect occasion to be back to record classic episode on the IEEE this conference. We have two special guests, as usual, that are going to help us go through some of the highlights of the conference.",
+      "gist": "A Trip to the Conference",
+      "headline": "We have two special guests to help us go through highlights of the conference",
+      "start": 82784,
+      "end": 125380,
+      "id": "ep_162_ch_1"
+    },
+    {
+      "summary": "Itripolyvis conference is the main visualization conference, especially for academics. This year, it happened online with a virtual conference format. We decided to basically cover the conference according to a number of themes. Everything is being recorded on YouTube.",
+      "gist": "A taste of the conference",
+      "headline": "This podcast focuses on the annual Itripolyvis visualization conference",
+      "start": 126160,
+      "end": 275260,
+      "id": "ep_162_ch_2"
+    },
+    {
+      "summary": "The first theme is going to be unpacking the magic that happens between data and insight. Then we're going to talk about visualization and Covid-19, and also visualization for social good. And then we are going to cover a few papers with practical relevance for practitioners.",
+      "gist": "Top 10 topics of the 2019 World Conference on Visualization",
+      "headline": "This could be a whole episode, by the way",
+      "start": 276120,
+      "end": 353670,
+      "id": "ep_162_ch_3"
+    },
+    {
+      "summary": "Danielle: There's magic that happens between seeing a visualization and then getting some sort of insight from it. Enrico: If there's a lot of stuff going on in the middle that we don't understand, maybe we're not designing visualizations for the right set of goals.",
+      "gist": "Unpacking the Magic of Data and Visualizations",
+      "headline": "There's magic between seeing a visualization and then actually getting insight from it",
+      "start": 353790,
+      "end": 555600,
+      "id": "ep_162_ch_4"
+    },
+    {
+      "summary": "John Byrne Murdoch gave the keynote for the believe workshop about his experiences designing popular charts for the Financial Times in the UK. He said we as visualization designers have to recognize that people are bringing their own personal perspectives to how they read and react to visualizations.",
+      "gist": "John Byrne Murdoch's Keynote",
+      "headline": "John Byrne Murdoch gave a great keynote on visualization for believe workshop",
+      "start": 555720,
+      "end": 672540,
+      "id": "ep_162_ch_5"
+    },
+    {
+      "summary": "Enrico: There is so much more we could be thinking about how we designed and what we design for. How can we think better about how to design effective visualizations? Thinking about guidelines is almost more of a predictive tool than a prescriptive tool.",
+      "gist": "On the precision of data visualization",
+      "headline": "Enrico: I'm really glad that you mentioned our papers",
+      "start": 673160,
+      "end": 988878,
+      "id": "ep_162_ch_6"
+    },
+    {
+      "summary": "My perception is that we are seeing more and more research work that is core psychology and vision science. It really is bringing new lenses, new methods, new voices, new knowledge into the community. I think we need more of that.",
+      "gist": "Cognitive Science and Vision Science",
+      "headline": "My perception is that we are seeing more research work that is core psychology",
+      "start": 989014,
+      "end": 1138510,
+      "id": "ep_162_ch_7"
+    },
+    {
+      "summary": "How do we leverage ambiguity correctly? How do we do so in a way that balances getting the right kinds of information with people being able to bring their own perspectives into things? This is being shaped in large part by not only talking to psychologists, but also having them come in and join their community.",
+      "gist": "The Future of Visualization Design",
+      "headline": "There is a growing community of people who are changing how we think about visualization",
+      "start": 1138850,
+      "end": 1231164,
+      "id": "ep_162_ch_8"
+    },
+    {
+      "summary": "There's been a rise of vision science influencing academic visualization research. There's also an interesting trend of people starting to articulate what are the boundaries of what these kinds of experiments can tell us about visualizations in the world. Enrico: There's so much to do in this space.",
+      "gist": "Best in Visualization 2017",
+      "headline": "Is there one paper you think is best visualization research this year",
+      "start": 1231332,
+      "end": 1711280,
+      "id": "ep_162_ch_9"
+    },
+    {
+      "summary": "I've seen people using frameworks, ways to think about visualization and how visualization is used, borrowing frameworks from education science. There is so much to borrow from learning science, because effectively a person is learning through a visual representation. What really matters in learning is what stays in the long term, not in the short term.",
+      "gist": "Visualization and Learning Science Conference",
+      "headline": "I've seen people borrowing frameworks from education science for visualization research",
+      "start": 1712940,
+      "end": 1990790,
+      "id": "ep_162_ch_10"
+    },
+    {
+      "summary": "This year is pushing visualization out of its comfort zone, generally in terms of the methods we used to understand. One of the things that I think really came through was this call for more mixed methods. These kind of investigations that leverage both the qualitative and the quantitative in the same context for the same scenario.",
+      "gist": "Mixed Methods in the Study of Visualization",
+      "headline": "This year, there was a call for more mixed methods in visualization research",
+      "start": 1994490,
+      "end": 2141660,
+      "id": "ep_162_ch_11"
+    },
+    {
+      "summary": "Danielle: The paper that was done so well was their ability to take critical thinking and critique and actually do something actionable with it. One of the things we focused a lot on was transparency. How do we make the design process and our process of getting to insight more transparent?",
+      "gist": "Introducing the Layers of Meaning in Science",
+      "headline": "Danielle: There were some interesting papers on visualization that I loved",
+      "start": 2142480,
+      "end": 2470096,
+      "id": "ep_162_ch_12"
+    },
+    {
+      "summary": "Beyond the desktop, we're getting all these really interesting ways of bringing data into more immersive spaces. Augmented reality physicalization. A lot of these immersion papers were looking at immersion for collaboration. This is definitely a trend that I think is going to stick.",
+      "gist": "Interactive visualization: Beyond the Desktop",
+      "headline": "A lot of papers this year looked at immersion for collaboration",
+      "start": 2470288,
+      "end": 2734656,
+      "id": "ep_162_ch_13"
+    },
+    {
+      "summary": "One advantage of immersion over other methods is the emotional component. Being immersed in a space can effectively have a much stronger effect on your emotions. Even on the desktop, you're much more distracted. We need cinematic experiences to get back to that concentration.",
+      "gist": "Immersive Design: The Emotional Benefits",
+      "headline": "Being immersed in a space can effectively have a stronger effect on your emotions",
+      "start": 2734688,
+      "end": 2897300,
+      "id": "ep_162_ch_14"
+    },
+    {
+      "summary": "Danielle: There was a really nice example called chemicals in the creek, designing a situated data physicalization for open government data with the community. What really struck me was the sort of embodied experience where some of the community members got to put the lanterns representing the violations in the water. It raises the question, what is the point of visualization?",
+      "gist": "Visualizations and the Emotion of Data",
+      "headline": "Researchers in Massachusetts create visualization to help community understand EPA water violations",
+      "start": 2898560,
+      "end": 3074148,
+      "id": "ep_162_ch_15"
+    },
+    {
+      "summary": "Miriah: The next topic is this and Covid-19 and this for social good. Miriah: Why are we not considering the social impact of our work as part of the contribution of that work? And what would it mean to, to change the way we're thinking about things?",
+      "gist": "Visible data: Its social good",
+      "headline": "Next topic is viz for social good and Covid-19",
+      "start": 3074324,
+      "end": 3640632,
+      "id": "ep_162_ch_16"
+    },
+    {
+      "summary": "There's lots of cool new toys to play with, for lack of a better term. A number of papers around open source toolkits that have been released that I think are really interesting and potentially could have a big impact for many people. Should we talk about papers that have practical relevance?",
+      "gist": "Post-WG13: Toolkits and Systems",
+      "headline": "Danielle: Should we talk about papers that have practical relevance",
+      "start": 3640696,
+      "end": 3818836,
+      "id": "ep_162_ch_17"
+    },
+    {
+      "summary": "Danielle and Maria: What do you think about the virtual format and especially what we can do with it? Enrico: There is a big issue of inclusion of younger and less established people. But I'm hoping in the future that virtual options like this will remain.",
+      "gist": "The Virtual Conference",
+      "headline": "Danielle and Maria comment on the virtual conference format",
+      "start": 3819018,
+      "end": 4210762,
+      "id": "ep_162_ch_18"
+    },
+    {
+      "summary": "I think there's going to be a lot of really interesting stuff that we see next year based upon the experiences that we had this year. I'm really excited to see what the community comes up with in a year, two years, three years. So I think it's an awesome time for academic visualization research.",
+      "gist": "A Year in the Life of Academic Visualization",
+      "headline": "I think there's going to be a lot of interesting visualization research next year",
+      "start": 4210906,
+      "end": 4284460,
+      "id": "ep_162_ch_19"
+    },
+    {
+      "summary": "Danielle: I really enjoyed talking with you and I have learned a lot myself. Yeah, we have lots of material now to catch up on. So we'll put links to all the papers and the talks mentioned in the blog post and in the show notes. Thanks a lot.",
+      "gist": "A Day in the Life of the Conference",
+      "headline": "Danielle and Maria, thank you for sharing your ideas with us",
+      "start": 4286080,
+      "end": 4331420,
+      "id": "ep_162_ch_20"
+    },
+    {
+      "summary": "This show is crowdfunded and you can support us on Patreon@Patreon. com. We are on Twitter, Facebook and Instagram for the latest updates. Let us know if you want to suggest a way to improve the show or know any amazing people you want us to invite.",
+      "gist": "How to support Datastories",
+      "headline": "This show is crowdfunded and you can support us on Patreon",
+      "start": 4336390,
+      "end": 4418490,
+      "id": "ep_162_ch_21"
+    }
+  ],
+  "disfluencies": false,
+  "entity_detection": false,
+  "sentiment_analysis": false,
+  "sentiment_analysis_results": null,
+  "entities": null,
+  "speakers_expected": null,
+  "summary": null,
+  "custom_topics_results": null,
+  "episode_num": 162,
+  "episode_metadata": {
+    "speakers": [
+      "Danielle Szafir",
+      "Enrico Bertini",
+      "Moritz Stefaner",
+      "Miriah Meyer"
+    ],
+    "WPid": "1616",
+    "url": "https://datastori.es/podlove/file/6765/s/feed/c/mp3/162-highlights-from-ieee-vis20-with-miriah-meyer-and-danielle-szafir.mp3",
+    "episode_title": "Highlights from IEEE VIS'20 with Miriah Meyer and Danielle Szafir"
+  }
+}

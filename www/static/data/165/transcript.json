@@ -1,0 +1,784 @@
+{
+  "id": "9c18f5b3-5717-4a53-8240-f67d9bb48871",
+  "language_model": "assemblyai_default",
+  "acoustic_model": "assemblyai_default",
+  "language_code": "en_us",
+  "status": "completed",
+  "audio_url": "https://datastori.es/podlove/file/6861/s/feed/c/mp3/165-accessibility.mp3",
+  "utterances": [
+    {
+      "end": 15050,
+      "speaker": "Sarah Fossheim",
+      "start": 560,
+      "text": "I've worked with datasets of 300,000 points per graph where there were ten graphs on the page. I don't think anyone wanted to really navigate with the keyboard through all of those points on the scatterplot.",
+      "id": "ep_165_ut_0"
+    },
+    {
+      "end": 47350,
+      "speaker": "Moritz Stefaner",
+      "start": 33130,
+      "text": "Hi everyone. Welcome to a new episode of Data stories. My name is Moritz Stefaner and I'm an independent designer of data visualizations. In fact, I work as a self employed truth and beauty operator out of my office here in the countryside in the north of Germany.",
+      "id": "ep_165_ut_1"
+    },
+    {
+      "end": 56670,
+      "speaker": "Enrico Bertini",
+      "start": 48770,
+      "text": "And I am Enrico Bertini. I am a professor at New York University in New York City, where I do research and teach data visualization.",
+      "id": "ep_165_ut_2"
+    },
+    {
+      "end": 68330,
+      "speaker": "Moritz Stefaner",
+      "start": 57010,
+      "text": "That's right. And on this podcast together we talk about data visualization, data analysis, and generally the role data plays in our lives. And usually we do that together with a guest we invite on the show.",
+      "id": "ep_165_ut_3"
+    },
+    {
+      "end": 94240,
+      "speaker": "Enrico Bertini",
+      "start": 70790,
+      "text": "Yes. But before we start, a quick note. Our podcast is listener supported, so there's no ads. If you enjoy the show, please consider supporting us with recurring payments on patreon.com Datastories. Or if you prefer, you can also send one time donations on Paypal. Going to Paypal me Datastories.",
+      "id": "ep_165_ut_4"
+    },
+    {
+      "end": 161450,
+      "speaker": "Moritz Stefaner",
+      "start": 94280,
+      "text": "Yeah, it's always super nice when a little payment arrives. It's just a little nod and makes us smile and happy. And even in the long breaks between our episodes, we see sometimes a little donation pop up and it reminds us that it's awesome to do the show and it's awesome to have such nice listeners. Yeah, and keep it coming. Anyways, let's dive into our topic today. So the topic today is one that I've got really excited about this year. Sort of started with working on the German vaccination dashboard and working on that project. It was clear we want to make this as widely accessible for everybody in Germany as possible. Right? And so I have to admit, really, the first time I really thought about accessibility deeply, and not just as an afterthought in a project, but really try to think of it from the beginning. And I realized how complex, but also how interesting this whole world of accessibility and inclusiveness is when working with data visualizations. And so we said we need an expert on this to talk to. And here we are with Sarah Fossheim. Hi Sarah.",
+      "id": "ep_165_ut_5"
+    },
+    {
+      "end": 163622,
+      "speaker": "Sarah Fossheim",
+      "start": 161750,
+      "text": "Hi, thank you for having me.",
+      "id": "ep_165_ut_6"
+    },
+    {
+      "end": 170970,
+      "speaker": "Moritz Stefaner",
+      "start": 163726,
+      "text": "Hi Sarah, thanks for joining us. Can you tell us a bit about yourself and how you got started in the topic?",
+      "id": "ep_165_ut_7"
+    },
+    {
+      "end": 247150,
+      "speaker": "Sarah Fossheim",
+      "start": 171350,
+      "text": "Yes, I'm Sarah Fossheim. I'm located in Norway, in Oslo, and I'm a designer and developer. And I actually got into the topic of Dataviz, and Dataviz accessibility. Around 2017, I was also working on a dashboard for health data. And that's also like how I discovered how complex and interesting it is, as you said, because we had to make so sure that people would not make mistakes based on that data, because it handled about people's health. So it had to be very understandable. And did my research on how to make data as understandable as possible. And in the user research of trying to figure out what it was that our users needed, I discovered how much of an accessibility issue graphs can be, because people want to see the graphs to understand data and to make data more understandable. So seeing that perspective, that's how I got into it. And that's also how I got more into accessibility in itself as well, because as a lot of people in this industry, I hadn't heard that much about accessibility. And then, as well, once I realized the challenge at hand and the big impact it can have on people's experiences, that's when I got really interested, and it then started exploring it more as well.",
+      "id": "ep_165_ut_8"
+    },
+    {
+      "end": 276670,
+      "speaker": "Moritz Stefaner",
+      "start": 249490,
+      "text": "Nice. Yeah. And so I think that the standard association everybody has, and here's a quick test for our listeners. So if you thought of red and green color scales, I think that's like the default association database experts have with accessibility. Like, oh, we need to think of colorblind people, which is good. Which is good, but it doesn't stop there. So what else are things to consider when we talk about accessibility in data visualization?",
+      "id": "ep_165_ut_9"
+    },
+    {
+      "end": 404650,
+      "speaker": "Sarah Fossheim",
+      "start": 276990,
+      "text": "Yeah, I think it's funny, because the red and green issue, that's one that I stumbled upon so much, because when I started my research in 2017, the majority of articles that I found on Google was make sure your colors are not red and green. And then moving on from that, I actually realized another color thing is color contrast. And that's one that I find that we, it's also a very obvious one, but it's also one I find that we mess up easily in Dataviz because we're so focused on making the very modern looking, very light type of graphs. But if you have a graph, a lot of very light colors, pastely neon colors, you're not gonna necessarily see them. And that's something that you can test yourself by going outside and looking at your phone or at your computer in the sunlights, you're probably not gonna see those colors either. And then another thing, of course, is for blind people and the visually impaired, alt text or screen reader accessibility. And I say alt text, and most people will there as well, probably think of alt text the way we label images, labeling a graph. But again, there. There's so many possibilities of how you can make something accessible for screen readers rather than just adding an extra sentence in an alt text on an image. So, yeah, there's so much. It's a bit hard to give a big, quick interview, a quick overview over it, because it all goes so much in depth, so there's so many different areas. But when it comes to making things understandable for those with cognitive impairments, for example, so making sure that the data is clear, that everything is well explained, that it's not too visually overwhelming. On the other hand, you have indeed, the visually impairments, as I discussed, and the alt text, where you have, or the screen reader accessibility. Sorry. Where you either have alt text or labeling individual data points or navigation within the graph, you also have making sure that the graph is accessible with keyboards, so you don't need a mouse. So there's a whole lot going on there.",
+      "id": "ep_165_ut_10"
+    },
+    {
+      "end": 450070,
+      "speaker": "Moritz Stefaner",
+      "start": 406230,
+      "text": "And one thing that I also didn't really reflect much on, but that made total sense once I learned about it, is that all of us are in some way impaired in different situations, right? So sometimes we're in a car or we have a baby on one arm, or we're distracted, or, as you say, the sun shines on the display play, it's suddenly you realize, oh, we're never in that lab situation, and we aren't all identical, but it's like 8 billion people in even more billion different situations that consume data, visualizations, right? And once you have that perspective, it's so clear that you can't have a one size fits all. Here's my chart. Deal with it approach to the whole thing, right?",
+      "id": "ep_165_ut_11"
+    },
+    {
+      "end": 528920,
+      "speaker": "Sarah Fossheim",
+      "start": 453000,
+      "text": "Yeah. And that's actually something I also realized at some point when I was using Google Maps, because it's maybe not the most obvious data visualization in the sense that it's not a very pretty informational display of data, it's just the GPS. But at some point, they introduced this functionality that rather than just telling you how far away from your destination you are, that it also gives you little text updates where it told you when you're in a traffic jam, it tells you you're at the start of a traffic jam. You're going to be delayed with ten minutes. Your total time is now going to be updated to 45 minutes. In ten minutes from now, you're going to be out of it. At this point, it's going to be the worst. It gave me this really good, in English written down breakdown of what was going on, rather than just a map with a car that says where I was. And it's not something obvious that you think of indeed as an accessibility issue. But in the moment of being stress, trying to get somewhere, not having to read a map and not having to read a lot of numbers on the screen, and someone just telling you, don't worry, in ten minutes from now it will be over, rather than having to read the table. It's kind of an accessibility concern in my eyes as well.",
+      "id": "ep_165_ut_12"
+    },
+    {
+      "end": 553406,
+      "speaker": "Enrico Bertini",
+      "start": 532700,
+      "text": "Yeah. And there's this additional complication. It seems to me that the very reason why one uses visualization is because it's so much easier to summarize a large set of numbers. Right. But once you can do that visually, how to do it in a different way with different channels is a big challenge.",
+      "id": "ep_165_ut_13"
+    },
+    {
+      "end": 574162,
+      "speaker": "Sarah Fossheim",
+      "start": 553598,
+      "text": "And that's challenging when you're making things accessible for screen readers as well because. Yeah, as well, because the most obvious way of making a dataset accessible to a screen reader would be by replacing it by a table. But then you're back to the issue that you're again ending up with a table, which is what you were trying to move away from.",
+      "id": "ep_165_ut_14"
+    },
+    {
+      "end": 600390,
+      "speaker": "Moritz Stefaner",
+      "start": 574346,
+      "text": "Exactly. Like our main argument is we can do better than tables. Right. That's our whole interesting. Right. And in a way funny that also you realize, well, you don't always need a complex visualization in some situations. Actually a simple answer is actually maybe the better form to provide a given piece of information if you know what people are after, if there's a clear cut question. Right.",
+      "id": "ep_165_ut_15"
+    },
+    {
+      "end": 603350,
+      "speaker": "Sarah Fossheim",
+      "start": 601090,
+      "text": "Yeah, that's an interesting challenge always.",
+      "id": "ep_165_ut_16"
+    },
+    {
+      "end": 645050,
+      "speaker": "Enrico Bertini",
+      "start": 607090,
+      "text": "Yeah. And you also have the problem that alt text is based on the assumption that there's some text that can be read. Right. But I think once you are trying to decode what is in a visual representation, you would rather have something that is able to interpret the representation itself, which is really hard. I think what I mean by that is that say you have just a line chart, I guess, idiot. You would like to be able to say, oh, this is going up between this and that, and then goes down, which is not optimal, but at least it's a translation of a chart, but that information is not available. Right?",
+      "id": "ep_165_ut_17"
+    },
+    {
+      "end": 659324,
+      "speaker": "Sarah Fossheim",
+      "start": 645750,
+      "text": "Yeah. And that part making that generic is again another challenge, because saying the graph goes up and down between certain points, it's already a flexible thing, but not every line chart is going to be useful to hear that it's going up or down.",
+      "id": "ep_165_ut_18"
+    },
+    {
+      "end": 781950,
+      "speaker": "Moritz Stefaner",
+      "start": 659372,
+      "text": "So then, yeah, I saw a paper, I'll have to dig that up. But just on time series. It was recommended by Lynn Cherny. By the way, shout out to Lynn, where they went in great depth of just taking a single time series and categorizing all the patterns you could see or you would want to describe. And it's a lot, it's not just going up and down anymore that are meaningful and interesting and that would require a specific pattern to describe them. And I think that's such an interesting question. And maybe we go deeper a bit on the role of text, really, because it seems to be such an important component. So there was recently this debate on Twitter, also on Ggplot, being made more accessible. And the hope was that there could be an automated way to make GGplot graphics more accessible, which, first of all, is great, again, like a lot of frameworks now realize, oh, we have bad to zero to, okay, let's say accessibility support, and some of them are trying to improve. And now the interesting thing is there's no chart types in Ggplot, right? So it's based on the grammar of graphics. So you just know the encodings. You can only see the x axis corresponds to the speed of the car and the y axis corresponds to the number of cylinders or whatever. And then the debate was also about, is that something a blind person would even be interested in how the spatial arrangement of dots on the page or on the screen are? Is that even something we should describe as part of the alt text? Or isn't that actually counterproductive in the sense that what you're basically saying is, well, if you could see, you would see a bunch of dots, but you can't, right. It seems to be almost insulting in a way, you know, to sort of describe things on that level. And then the question is, what's a good level to describe charts in?",
+      "id": "ep_165_ut_19"
+    },
+    {
+      "end": 878204,
+      "speaker": "Sarah Fossheim",
+      "start": 782330,
+      "text": "Yeah, I think that's indeed an interesting challenge because, especially in that case, because when I saw, my concern was that when you start to automate a big framework like that, it can't cover every use case. And as you said, you're going to have so many patterns that might be useful to people and just the spatial arrangement of the dots on the screen. I'm guessing that to most people, that's not going to be useful at all, that you're actually going to want to see. Probably depending on the type of chart, you're going to want to see some general pattern or a general summary, and then have the possibility to drill down in the data if you want to inhere the exact correlations between the data and the exact data points, and a bit more data like that, but that's also something that when you have one graph for one specific use case, you might have a really great way of generating alt texts or generating those descriptions and adding the extra information, extra metadata to the individual points and finding those patterns. But then you take that to another graph that's also, let's say a line chart or a scatter plot or the exact same one, but for a different use case that's suddenly a lot more scientific or a lot less scientific than the other one, and suddenly you need a completely different level of detail. And my concern with automation, and it's the same with, I can't remember their name now, but there was this plugin that people were creating that you could install on your website and then it would try to describe all the images.",
+      "id": "ep_165_ut_20"
+    },
+    {
+      "end": 879052,
+      "speaker": "Moritz Stefaner",
+      "start": 878332,
+      "text": "Oh wow.",
+      "id": "ep_165_ut_21"
+    },
+    {
+      "end": 906276,
+      "speaker": "Sarah Fossheim",
+      "start": 879156,
+      "text": "I don't remember what it was, but it was also they tried to advertise themselves as it will also work on graphs. Then indeed the only thing that it can automatically detect on graphs is there's so many points, or this is the minimum and maximum value or something like that, but without knowing if that's actually what people are interested in. And you're just gonna end up making something worse if you try to put a smart text on something and the smart text fails and it doesn't tell you what's interesting.",
+      "id": "ep_165_ut_22"
+    },
+    {
+      "end": 907340,
+      "speaker": "Moritz Stefaner",
+      "start": 906348,
+      "text": "Yeah, yeah.",
+      "id": "ep_165_ut_23"
+    },
+    {
+      "end": 914516,
+      "speaker": "Sarah Fossheim",
+      "start": 907420,
+      "text": "It says, you say it becomes a bit insulting when you have a graph and it says as a description, this is a bar chart.",
+      "id": "ep_165_ut_24"
+    },
+    {
+      "end": 915436,
+      "speaker": "Moritz Stefaner",
+      "start": 914668,
+      "text": "Yeah, yeah.",
+      "id": "ep_165_ut_25"
+    },
+    {
+      "end": 916444,
+      "speaker": "Sarah Fossheim",
+      "start": 915508,
+      "text": "And that's it.",
+      "id": "ep_165_ut_26"
+    },
+    {
+      "end": 984834,
+      "speaker": "Moritz Stefaner",
+      "start": 916612,
+      "text": "Yeah, yeah. And that's super interesting. And there's so many levels you could describe a chart depending on what you want to draw out of it and how much. Also pre interpretation or speculation on the causes or the mechanisms behind like correlation, causation and so on. So, so it's kind of tricky on which level to describe charts and there could even, or there's even the observation. So there's a paper I've seen a preview of where the study suggested that if you provide too many ready made insights, that people are also a bit like, don't like it so much or might react negatively because you're sort of already like taking away the thought from, you know, from your audience and the ability to conclude stuff on yourself, which again is the key of database, is like, oh, you see the penalties, you draw conclusions. It's an active process. Right. My question is really, how can we replicate, on the one hand, this open exploration, but at the same time not do totally mechanic and overwhelming like stuff? Right?",
+      "id": "ep_165_ut_27"
+    },
+    {
+      "end": 1046705,
+      "speaker": "Sarah Fossheim",
+      "start": 984962,
+      "text": "Yeah, it's a good balance because I think visually, we explore with our eyes and we look at a graph and we try to get what are the patterns? What are the colors? What do those things mean? I think a way of exploring those patterns interactively, for example, by navigating between the data points with your keyboard so you can hear each point, or so you can hear the groupings or the patterns, and you can kind of navigate within a graph. That might be one road to go for some type of graphs or some type of situations where that's useful. But then there's also, when you start working with the keyboards, then there's also the keyboard accessibility. And at which point do things become frustrating to navigate? I've worked with datasets of 300,000 points per graph where there were ten graphs on the page. I don't think anyone wanted to really navigate with the keyboard through all of those points on the scatterplot. I don't think anyone's. That's not a great experience either.",
+      "id": "ep_165_ut_28"
+    },
+    {
+      "end": 1106750,
+      "speaker": "Moritz Stefaner",
+      "start": 1046897,
+      "text": "But that's the interesting thing, because in order to tidy that up or make it drill downable, let's say in all kinds of modalities, you have to have an idea about the structure of the whole thing, right? And so it forces you, I think if you think about accessibility hard, it forces you to be really clear on the purpose of a chart and its meaning and also the hierarchy of information that's in it, right? And so maybe if it's really hard to make accessible annotation for a chart, maybe the chart is too complex anyways, and you have no idea why it's there. Just to be a bit provoking. Right? And so maybe. And that's a could be. So often people think, oh, accessibility is an additional set of requirements I have to now fulfill, right? And it's like even more boxes I have to take and even more to dos on my to do list. But on the other hand, you could also see it as a really something that enhances your original design to be much simpler and much more on point, because otherwise it doesn't work anyways for anybody, maybe.",
+      "id": "ep_165_ut_29"
+    },
+    {
+      "end": 1190410,
+      "speaker": "Sarah Fossheim",
+      "start": 1109090,
+      "text": "Yeah. I think that there's a really good overlap between UX and accessibility, and especially coming from the perspective of having worked with UX for so long and being a UX designer at heart, or a UX designer front end developer crossover at heart, and from both sides, seeing a, as you say, like the information architecture and then coming into the accessibility space, that makes it for me very clear how much of an overlap there is. And as you say, if a graph becomes too difficult to make accessible. It's usually a good point for you to take a step back and ask yourself, why am I building this? If it's hard to communicate this information to someone who cannot see the graph or to someone who has any other impairment, then maybe I'm communicating my graph wrong altogether. And maybe the answer is going to be no. Your graph is fine. Database is difficult to make accessible. But in a lot of cases, you're also going to find your graph is just complicated. And most people will probably appreciate it if you broke it down even more. Because I've done so many user tests with people where we show up with really smart graphs, where we're proud of ourselves because we designed something beautiful and smart and we spent so much time on it, and then people see it and they're like, a bar chart would have been easier.",
+      "id": "ep_165_ut_30"
+    },
+    {
+      "end": 1217330,
+      "speaker": "Enrico Bertini",
+      "start": 1191350,
+      "text": "Yeah, yeah, yeah. No, I really like this idea of an extra layer of simplification. I too have experienced a lot of situations where I think we get really excited about something, but it turns out, I mean, if there is one constant fact that I keep coming over and over again, is that we tend to design things that are too complex. So it's.",
+      "id": "ep_165_ut_31"
+    },
+    {
+      "end": 1290070,
+      "speaker": "Moritz Stefaner",
+      "start": 1218410,
+      "text": "And it doesn't have to mean that everything needs to be least common denominator or super simple, right? No, but if you do something complex, make sure maybe you communicate the gist of what this is about in another modality. And make sure, I don't know that if you have a weird encoding that you use it two or three times across the page and support it. Maybe you use color in a certain way, support it with shape and a direct label in a chart that makes it better for everybody. And suddenly if you provide these multiple queues, you don't rely on a single channel that can easily be not there or break. Right? So it's a resilience thing also. And never assume people will read the caption and figure out all the crazy encodings you have done. Always assume people just see a part of it, or just briefly glance at something or have different modalities that are more suitable for them. And then you can do really rich and also maximalist stuff. In a way, it doesn't have to be super simple and minimalist, it's more like, oh, you have suddenly more repertoire if you think about it that way.",
+      "id": "ep_165_ut_32"
+    },
+    {
+      "end": 1356204,
+      "speaker": "Sarah Fossheim",
+      "start": 1290930,
+      "text": "Yeah, I completely agree. And it's so good regardless to have the data available in different formats. I think it's a bit the same again, when we talk about screen reader accessibility compared to when we talk about generally how we design graphs or how we design, for example, dashboards. It's often common to have some insights that are just generated where you have some high level overview, then you have a higher order graph in which you can drill down, and then there's a table that's like a very common structure for reports. And I think that's something that works quite well when it comes to how are you going to describe a chart by itself? Maybe not to that huge extent, but you have something where you describe the charts in a small way. So people get the gist of it if they want to navigate through it. If they want to see the full data sets, they can navigate to it as well. But they have a couple of different entry points, at least. For more complex graphs, I think it's generally quite good to give people a bit of options because it also, again, takes care of letting them explore without making it too overwhelming for everyone at once.",
+      "id": "ep_165_ut_33"
+    },
+    {
+      "end": 1398460,
+      "speaker": "Moritz Stefaner",
+      "start": 1356332,
+      "text": "Yeah, and if you look at good data visualizations, often they do that. They have a great title, they have an intro sentence that already captures the gist or, I don't know, there's a good metaphor. So yeah, all the data journalism stuff, right? If you think that through to the end, bam, you have really nicely accessible stuff. But what do you do? Like, this is a situation where there's like more communication situation with a clear authorization. What do you do for pure data exploration? Let's say you're a scientist and you have this new data set about, I don't know, wind forecast or brain waves or whatever. How could you make more accessible database in an exploration setting?",
+      "id": "ep_165_ut_34"
+    },
+    {
+      "end": 1495350,
+      "speaker": "Sarah Fossheim",
+      "start": 1399600,
+      "text": "What I've noticed with scientists is, as much as we want to move away from tables, it's one thing the scientists I've worked with, they did enjoy having, despite having visualizations, even visually having a table, because it also gives them the choice of they could choose how they would visualize it, they could choose which columns exactly to look at. Again, as you say, don't make assumptions and let them try to make the assumptions themselves and try to find the insights themselves. So again, from an accessibility point of view, when you have visual stuff, again, things in a different, provides everything in different formats. So there is the, the table format, so there are the visualizations where you can click and filter and move around in an accessible way. Make sure it's screen reader accessible, make sure that you can use your keyboard and so on. And yeah, when it comes to screen reader accessibility, I think that's the area where stuff like hearing a bit of sonification in combination with tables could maybe help, because if you're in scientific data sets, you have large patterns that you want to find. For example, sonification might help you just discover where those patterns are and then maybe you can navigate to the datasets and actually see what the patterns mean and get down to the details. So I think, yeah, for scientific purposes, in the past, I very much moved away from just generating alt text because there is. But I'm also coming from a perspective where everything had to be very accurate.",
+      "id": "ep_165_ut_35"
+    },
+    {
+      "end": 1495974,
+      "speaker": "Moritz Stefaner",
+      "start": 1495490,
+      "text": "Yeah.",
+      "id": "ep_165_ut_36"
+    },
+    {
+      "end": 1515494,
+      "speaker": "Sarah Fossheim",
+      "start": 1496062,
+      "text": "Because the moment something has to be accurate and you're bringing in any, we're gonna try and do something fancy to detect some patterns and put it in a nice sentence. There's a lot that can go wrong and you're again taking on all the responsibility on you and taking everything away from the user to actually explore and find those insights by themselves.",
+      "id": "ep_165_ut_37"
+    },
+    {
+      "end": 1541634,
+      "speaker": "Moritz Stefaner",
+      "start": 1515662,
+      "text": "Yeah. There's a new podcast on data sonifications called Loud Numbers from Miriam and Duncan, friends of the show, of course, I should mention, but they just have their first episode out and they made like a techno trends track out of climate change data. And it's a bit like song exploder, so they explain you what all the layers mean and at the end you hear the full track. It's super nice. So I can recommend it.",
+      "id": "ep_165_ut_38"
+    },
+    {
+      "end": 1542866,
+      "speaker": "Sarah Fossheim",
+      "start": 1541762,
+      "text": "I should listen to it.",
+      "id": "ep_165_ut_39"
+    },
+    {
+      "end": 1553360,
+      "speaker": "Moritz Stefaner",
+      "start": 1542978,
+      "text": "Yeah, it's really cool. And they have like ten or so episodes coming up. Like they pre produced really a bunch of episodes. It's going to be exciting.",
+      "id": "ep_165_ut_40"
+    },
+    {
+      "end": 1559480,
+      "speaker": "Sarah Fossheim",
+      "start": 1554100,
+      "text": "Have you seen the video of the people who made the space images with sonification?",
+      "id": "ep_165_ut_41"
+    },
+    {
+      "end": 1562764,
+      "speaker": "Moritz Stefaner",
+      "start": 1560180,
+      "text": "Yeah, I think you showed it to me, but our listeners haven't.",
+      "id": "ep_165_ut_42"
+    },
+    {
+      "end": 1624330,
+      "speaker": "Sarah Fossheim",
+      "start": 1562892,
+      "text": "So true. University, I think it was Harvard or Stanford. I don't remember exactly which one. I should have looked it up, but they had images from space, from Nadza, NASA, that the Hubble space telescope had taken, I think, where the light points of the stars they were visualized were sonification. So you would hear a little pattern as the image moved from left to right on the screen. You would hear where the lights or where the stars on the picture were located, kind of. Or you would hear where there were a lot of stars and where there were more darkness. But it really created nice music as well to listen to. So in addition to just being a nice way of communicating how much light there was in the sky, it was also a nice track to listen to. And it's kind of interesting when people also explore the more artistic side of things. And I really like seeing any type of exploration in that space.",
+      "id": "ep_165_ut_43"
+    },
+    {
+      "end": 1656960,
+      "speaker": "Moritz Stefaner",
+      "start": 1624410,
+      "text": "Totally. Yeah. I just remember we had an episode on sonification of gravitational waves. That was one of our crazy episodes. And so we had a researcher who sonified the sound of the gravitational waves you could capture from space. And the beautiful thing is these waves are in the audible range, so there's no transformation needed. It's directly more or less taking the same wavelengths and making sound from it, which was insane. And it was really insightful and interesting. So, yeah, we'll link to that one too.",
+      "id": "ep_165_ut_44"
+    },
+    {
+      "end": 1661042,
+      "speaker": "Sarah Fossheim",
+      "start": 1660690,
+      "text": "Yeah.",
+      "id": "ep_165_ut_45"
+    },
+    {
+      "end": 1704480,
+      "speaker": "Enrico Bertini",
+      "start": 1661066,
+      "text": "I think one challenge here is also whether I see from the design standpoint how to design data. So notifications that go with data visualizations. At the same time, I think that's an interesting challenge versus having general purpose tools that can translate an existing representation to something that is sonified. Right. I think both are interesting directions. And I have to say, I don't know which one is more popular right now, but there's definitely an issue of how to create, let's say, quote unquote editors that help people create these kind of solutions.",
+      "id": "ep_165_ut_46"
+    },
+    {
+      "end": 1757728,
+      "speaker": "Sarah Fossheim",
+      "start": 1704820,
+      "text": "Yeah, this made me think of, yeah, this made me think of the other conversation that's been going on around the tools within the Dataviz space. It's not specific to sonification, but in general, the tools we have out there to create our datavis, how much? At this point, most of them are not very accessible. They don't offer very much accessibility options. But then the question is, again, how much do you want them to automate that? How much do you want them to take care of that, versus giving you a the tools to do it yourself as a developer or as a designer? And those are two different perspectives, and I think both can also coexist. Some people will need to do it themselves, and some tools might, for specific use cases, be able to take care of it for you. Betting both spaces are very interesting, but.",
+      "id": "ep_165_ut_47"
+    },
+    {
+      "end": 1793644,
+      "speaker": "Moritz Stefaner",
+      "start": 1757784,
+      "text": "Tools could also prompt you to provide certain information. So I remember, for instance, that alt text for images became like a warning. If you don't supply them, they become a warning in sort of your link workflow. So if you're programming, you will not forget. Usually if you have like a tool that checks your code, you will usually be reminded to supply alt text. But we don't do that in database. So there's no reminder in D3 or there's no reminder in Tableau to describe your chart. Right. But it could be done or it could be helpful.",
+      "id": "ep_165_ut_48"
+    },
+    {
+      "end": 1860480,
+      "speaker": "Sarah Fossheim",
+      "start": 1793812,
+      "text": "I think it actually would be, to some degree, some warning. One of the issues I've had with dataviz is how little conversation in general there is about accessibility. Not just our tools aren't accessible, but we don't even know that our tools aren't accessible. When I started, I figured I could use D3 out of the box, almost like they could just use D3 the way it was shown in the documentation, and that my graph would be fine because it was in the documentation. I'm following the example. Of course it's going to be accessible. I'm using this tool, and nothing as far as I'm aware. Maybe it's updated meanwhile. But most of those don't mention anything in the documentation of, hey, we're not accessible by default. You want to add this or this or this to it. And as long as there's no broader conversation around your graphs are not accessible by default, most people are probably going to think, as I thought in 2016, oh, I'm using D3 the way it is in the documentation, or I'm using Tableau, or I'm using whatever tool the way it is intended to use. My graphs are going to be fine, but they're not.",
+      "id": "ep_165_ut_49"
+    },
+    {
+      "end": 1958400,
+      "speaker": "Moritz Stefaner",
+      "start": 1860860,
+      "text": "Yeah, yeah, yeah. That's tricky. But I think that, for many people, leads to that journey so many of us have taken is like, first not be aware of it at all, then realize how much requirements there are. For instance, in an official context. Like, if you do something in the United States for a government body, bam, suddenly you have all these lists of requirements. And I had discussions around the screen height in, like, interactive installations, you know, so we designed like something with touchscreens and then was like, yeah, but if you have a wheelchair, you can touch it. So it needs to go 1 meter down. I was like, no, that doesn't work. The whole piece doesn't work that way until you have these, you know, you have that feeling of, oh, man, it's such. It's so hard to fulfill all these requirements and it's all this extra work. Right, but that would not be the case if we had thought of it from the beginning. But at the same time, I'm wondering, and that's, I think, an interesting question, too. Let's say you're an artist or you do really purely experimental work, right? Should you be held to the same accessibility requirements as somebody building, again, like a health insurance website or something? Are there different levels of requirements or a different bar in terms of how specific, or maybe do you do things just when you say, it's an inherently visual experience I'm designing, I don't want it to be replicated in another modality. Is that a valid perspective or are you then just being an asshole.",
+      "id": "ep_165_ut_50"
+    },
+    {
+      "end": 2026550,
+      "speaker": "Sarah Fossheim",
+      "start": 1961030,
+      "text": "I think it's interesting to think about because the way you phrase it, I definitely agree that, like, when you're a government body making health information, for example, how to get your corona vaccine, if you're trying to make that available, it's so important and it's so crucial that it's accessible because people will literally be negatively impacted health wise if it isn't. So it feels like it's much less forgiving compared to if you're an artist and you're making a website visualizing how many sandwiches you've eaten in a year because you think that will be very beautiful to look at. I think that's definitely more forgiving than the health website accessibility wise, from an ethical point of view. I think when you're creating something and you're creating something intending for people to use it, it is kind of asshole move to say, or this, if you're really saying this is something visual, and I'm not going to put any effort into it deliberately so blind people cannot see it, because the only way my art can be experienced is with the eyes. That feels a bit exclusionary.",
+      "id": "ep_165_ut_51"
+    },
+    {
+      "end": 2027370,
+      "speaker": "Moritz Stefaner",
+      "start": 2026670,
+      "text": "Yeah.",
+      "id": "ep_165_ut_52"
+    },
+    {
+      "end": 2077901,
+      "speaker": "Sarah Fossheim",
+      "start": 2027750,
+      "text": "But at the same time, I don't think when it comes to, for example, alt texts, let's say, or screen reader accessibility of your sandwich website, maybe you don't have to put as much effort into it than the health websites. Maybe your alt text saying, I ate 50 cent, which is this year, will be more than enough so you don't have to over engineer it. And there's an easy solution for the problem. But it is an interesting perspective because, yeah, especially with Datavis, where there's so much extra that comes into it and where you can very easily have to spend a bit of time researching how to make your database the exact same experience for a blind person and for a sighted person, there is a big difference between, at that point, the health website or the sandwich website, but there's.",
+      "id": "ep_165_ut_53"
+    },
+    {
+      "end": 2090317,
+      "speaker": "Moritz Stefaner",
+      "start": 2077925,
+      "text": "A big, as you say, a big difference between achieving parity in terms of, hey, this is as good as that other version. Right? And on the other hand, such a little effort, like, literally a ten minute effort, goes such a long way. Right?",
+      "id": "ep_165_ut_54"
+    },
+    {
+      "end": 2090749,
+      "speaker": "Sarah Fossheim",
+      "start": 2090373,
+      "text": "Exactly.",
+      "id": "ep_165_ut_55"
+    },
+    {
+      "end": 2093189,
+      "speaker": "Moritz Stefaner",
+      "start": 2090789,
+      "text": "And so why not just do it?",
+      "id": "ep_165_ut_56"
+    },
+    {
+      "end": 2157788,
+      "speaker": "Sarah Fossheim",
+      "start": 2093309,
+      "text": "Yeah, I mean, it's always better to have something that's somewhat accessible than something that's not accessible, in the sense that, of course, if you write completely wrong alt texts, it's not going to be better because the user will get wrong information. But if you write correct alt text, rather than providing an interactive experience, that can be a good first step. And I think especially in product developments where we start from prototype to MVP to a first version to then more continuous deployments, I think it's also good for our own mental health and for our own productivity to look at it as we have an MVP, we have a prototype. We're going to do the same with the accessibility. The first version can just have the alt text and we'll revisit it next month or in two months after we learned more, after we cleaned up our code base, after things are better in place. And then we'll add the table, or then we'll add the interactivity. Because you can't solve everything at once, then you're never gonna make any progress.",
+      "id": "ep_165_ut_57"
+    },
+    {
+      "end": 2212890,
+      "speaker": "Moritz Stefaner",
+      "start": 2157884,
+      "text": "Yeah, but again, if you make it part of the progress of the process at the beginning, it's often much easier. That's the same with designing responsiveness. Like with responsiveness, I think many of us had made the experience that, well, if you think of it from the beginning, it's actually not that big of a deal. It's always a big deal if you design something for exact size and then you have to think about mobile at the end, right? If you generalize that thought, maybe it helps with just thinking of the information architecture and the labeling and the redundant encoding. And from the start it's a better design. See, not so hard. What are other things like, let's say people are on board now, how they could get started? Or what are things you would like by default check for in an MVP? Or what are good resources for people to broaden their knowledge in the field?",
+      "id": "ep_165_ut_58"
+    },
+    {
+      "end": 2341250,
+      "speaker": "Sarah Fossheim",
+      "start": 2213400,
+      "text": "Before any resources, my first advice would be use a screen reader yourself. They come for free on Mac and Windows and I'm assuming on Linux as well. On Mac you have voiceover, on Windows you have narrator. Those two are shipped with operating system. Because for me that was the biggest thing that has been helping me trying to understand how to make anything from websites to charts accessible, understanding how people can navigate it, and understanding how alt text is read. For example, in front of every image, if it uses the image component, your laptop is going to read image and then the alt text. So just using that already gives you an indicator that your alt text should not start with image off because otherwise your screen reader is going to read image image of a cat rather than image cats. So for those kind of things, I would say really start using a screen reader yourself. If you're a designer or a developer and you're doing user tests or testing your stuff, try to test it in really bad circumstances. Test it outside, test it when you're stressed waiting for the bus. Test it when you're running to work or something before you even start looking into what exactly do I have to do? Just get a bit familiar with what actually does it mean accessibility? Move away from just the articles and try to get some experience yourself. And then when it comes to accessible database and specific, there's the article that you mentioned by Amy on Nightingale, which is about how to write alt texts for data visualization. There's also the GitHub called Datavis accessibility or datavis li written a eleven. Yeah. Where we have collected a list of resources related to how to get started on Datavis, and also a list of people who are working with Datavis accessibility and several tools you can use and links to other articles and tutorials. So that's going to be the best place to go and find a directory for everything else.",
+      "id": "ep_165_ut_59"
+    },
+    {
+      "end": 2385040,
+      "speaker": "Moritz Stefaner",
+      "start": 2344470,
+      "text": "Cool. Yeah. Are there any other good examples? Like have you seen in the wild things like we said, like hey, nice solution, or that was nicely done. Or this tool is on a good track. Or this framework. So I remember seeing data wrapper already a year ago added like color warnings and contrast warnings when people pick custom colors, and I thought that was a nice touch. It's like just a little. So when users have the chance to do a free input to give them a hint of there might be a contrast issue here, or have you seen well designed graphics or solutions that treated accessibility well?",
+      "id": "ep_165_ut_60"
+    },
+    {
+      "end": 2463150,
+      "speaker": "Sarah Fossheim",
+      "start": 2385780,
+      "text": "I was actually pleasantly surprised by Apple's accessibility. Or Apple actually does design generally quite okay. So it makes sense that their accessibility is good too. But so many of the graphs out there in the wild are so inaccessible. I think 95% of the graphs that I come across have a lot of issues. And I think Apple's health apps, so they have the health app, and then they have the activity app for the watch, both of them, both on watch and iPhone. They do the whole screen reader accessibility thing really well. All the labels are read correctly and they also do it in the sense that they break up the data in the different levels of detail. When you get to your, to the homepage, you first have a summary, and both visually and by the screen reader, the summary is just a summary, very quick. Then you can drill down where you get a little bit more details and a bit more numbers, and then you can actually navigate through your entire day of data, or your entire year of data, one by one. So if you would want to tap through 360 points of data, you probably could. But you don't necessarily have to get there and have to do it in order to understand what your general trends of the data. So I thought that one was quite good.",
+      "id": "ep_165_ut_61"
+    },
+    {
+      "end": 2487130,
+      "speaker": "Moritz Stefaner",
+      "start": 2463850,
+      "text": "It would be super nice to have like breakdowns of well designed, like, you know, navigation with keyboards and whatnot. And I don't know, have that as a video or something, because I think many people have no idea actually what usability or nice UX is in that context. And, and even if you say, well, try out a screen reader, I think if you use a screen reader every day, you have a totally different proficiency.",
+      "id": "ep_165_ut_62"
+    },
+    {
+      "end": 2487762,
+      "speaker": "Sarah Fossheim",
+      "start": 2487170,
+      "text": "Exactly.",
+      "id": "ep_165_ut_63"
+    },
+    {
+      "end": 2498616,
+      "speaker": "Moritz Stefaner",
+      "start": 2487866,
+      "text": "You know, and so we need to learn from people who are actually experts, are like really used to using screen dress, what works and what doesn't. Yeah, I'm super curious to learn more there. Yeah.",
+      "id": "ep_165_ut_64"
+    },
+    {
+      "end": 2521010,
+      "speaker": "Sarah Fossheim",
+      "start": 2498728,
+      "text": "Leonie Watson is someone who's talking a lot about Datavis accessibility as well, and she's a blind person. And for a conference talk a couple of months ago, we actually interviewed her and someone else who both used, I think it was the high charts component library that they, or the high charts graph library that they tested out and gave a review of.",
+      "id": "ep_165_ut_65"
+    },
+    {
+      "end": 2521822,
+      "speaker": "Moritz Stefaner",
+      "start": 2521160,
+      "text": "Cool.",
+      "id": "ep_165_ut_66"
+    },
+    {
+      "end": 2614690,
+      "speaker": "Sarah Fossheim",
+      "start": 2521966,
+      "text": "It was quite interesting to see and also hear their perspectives and my. Yeah, if you are gonna do user tests, or if you're not gonna do user tests, do user tests. And if you're gonna do user tests, try to include some disabled people as well, but also make sure your product is somewhat accessible before you take it to them. Because I've also been in user tests wherever we gave the user our app and we said try to use it, go to this specific page. And all the app navigation red was icon, icon, icon. So we couldn't even get to the user test. And in order to get that basic level, like make sure your icons are labeled, make sure your images are labeled, make sure your links work correctly. Those are things that you can try yourself in the browser. For example, x is a tool that you can download for it. Google Chrome has also Lighthouse built in where you can run an audit. And with most websites it should be possible to have 100% score on accessibility. In Lighthouse. That's not going to guarantee that your website or your graph is accessible because you might have written bad alt text and it will still say that you have alt text and you have 100% score. But at the very least you can get the tiny mistakes that you would usually make because you're not having a linter in your code and nothing is telling you that you didn't write alt texts and you were in a rush. Those kind of mistakes, at least get picked up by it.",
+      "id": "ep_165_ut_67"
+    },
+    {
+      "end": 2629182,
+      "speaker": "Moritz Stefaner",
+      "start": 2615950,
+      "text": "I run it always, like, when I start to turn prototype into production code, there's always huge issues, but it gives you a nice list to check off, at least the basics.",
+      "id": "ep_165_ut_68"
+    },
+    {
+      "end": 2629970,
+      "speaker": "Sarah Fossheim",
+      "start": 2629286,
+      "text": "Yeah.",
+      "id": "ep_165_ut_69"
+    },
+    {
+      "end": 2700040,
+      "speaker": "Enrico Bertini",
+      "start": 2631960,
+      "text": "Yeah. I have to say, I really like your recommendation of trying out screen readers. I have to admit, I think I never did. So I'm a little ashamed that I never did. And it seems like perfect first step. Right. Right. After listening to this, the next thing I would like to do is to give it a try. It seems. I'm pretty sure it's quite an experience and. Yeah, and also the second one thing I was wondering, I was about to mention before is that we almost, not only we never seem to think about these problems, but we also don't have, or at least I don't often have exposure to blind or visually impaired people. I don't know exactly why. It's for some reason, if you don't reach out explicitly and do want to do that, you don't have much exposure to people that have this kind of impairments or other kind of impairments. So I think that's partly also the challenge. That is not. We're just not aware of that. We don't see it. It's a problem. I guess we don't have enough awareness.",
+      "id": "ep_165_ut_70"
+    },
+    {
+      "end": 2738000,
+      "speaker": "Sarah Fossheim",
+      "start": 2701940,
+      "text": "Yeah, that's something big that has to, I think, naturally, over time will come. But it's the first issue you kind of run into with accessibility, and it's the same other ethical and inclusion, inclusive design and ethical design and accessibility and social justice, politics, anything. If you don't have exposure to it, if you're not aware of the fact that there is an issue, you're probably not going to do something about it. That's also why there are so many people who think that racism isn't a thing anymore because they themselves are not exposed to it.",
+      "id": "ep_165_ut_71"
+    },
+    {
+      "end": 2740776,
+      "speaker": "Moritz Stefaner",
+      "start": 2738160,
+      "text": "White people agree racism is not a thing.",
+      "id": "ep_165_ut_72"
+    },
+    {
+      "end": 2759310,
+      "speaker": "Sarah Fossheim",
+      "start": 2740888,
+      "text": "Yeah, exactly. So a big part of it is going to be educating people and showing people, hey, what you're building right now, it's not working. And these are the people you should listen to and raise the awareness around it and make sure.",
+      "id": "ep_165_ut_73"
+    },
+    {
+      "end": 2842330,
+      "speaker": "Moritz Stefaner",
+      "start": 2760090,
+      "text": "Yeah, yeah. And for me, what clicked really, was moving away from looking at these very specific individual subgroups. Like, oh, there's 3% of males who have that specific red green blindness, or, you know, or there's so and so many blind people. But. But if you really think, well, everybody's different, right. It's all on a continuum, and everybody has a different. It's a different point in multidimensional space. Right. And we just tend to think what's normal is very close to how we are personally. And if you sort of, but if you really look around then and say like, well, but if we really look how different people are, you realize, oh, there's much more different people than same people. You know, it's a very simple thought. If you take that serious suddenly, I think you approach things differently like that there is no standard human. And also, Enrico, I have to say also in science, there's always this assumption that the young college student, well educated young college student generalizes to world population in the standard in perceptual issues, which is strong. And that's been proven. Right. But it's, yeah, it's just such a, it's just so convenient, you know, but I think we need to overcome that. Yeah.",
+      "id": "ep_165_ut_74"
+    },
+    {
+      "end": 2843766,
+      "speaker": "Sarah Fossheim",
+      "start": 2843150,
+      "text": "Yeah.",
+      "id": "ep_165_ut_75"
+    },
+    {
+      "end": 2885694,
+      "speaker": "Moritz Stefaner",
+      "start": 2843878,
+      "text": "But again, I think it makes things actually more interesting. So I don't see it as a burden, more as an interesting opportunity. Cool. Thanks so much for all these pointers. We'll put links in the show notes and also our listeners. If you have positive, negative, other experiences with the topic, let us know also if there are good solutions out there. Great starting points. I think many people are overwhelmed with once they dive into it, they realize, oh my God, there's so much I don't know and then there's a certain paralysis. So any easy ways to get into the topic and make things a bit better? Just share it with us and we'll share it further in the meantime. Thanks so much, Sarah.",
+      "id": "ep_165_ut_76"
+    },
+    {
+      "end": 2886594,
+      "speaker": "Sarah Fossheim",
+      "start": 2885852,
+      "text": "Thank you as well.",
+      "id": "ep_165_ut_77"
+    },
+    {
+      "end": 2888202,
+      "speaker": "Moritz Stefaner",
+      "start": 2886642,
+      "text": "Interesting and helpful.",
+      "id": "ep_165_ut_78"
+    },
+    {
+      "end": 2889146,
+      "speaker": "Enrico Bertini",
+      "start": 2888226,
+      "text": "Thank you so much, Sarah.",
+      "id": "ep_165_ut_79"
+    },
+    {
+      "end": 2890290,
+      "speaker": "Moritz Stefaner",
+      "start": 2889218,
+      "text": "Yeah, yeah.",
+      "id": "ep_165_ut_80"
+    },
+    {
+      "end": 2891510,
+      "speaker": "Sarah Fossheim",
+      "start": 2890330,
+      "text": "Thank you for having me.",
+      "id": "ep_165_ut_81"
+    },
+    {
+      "end": 2894230,
+      "speaker": "Moritz Stefaner",
+      "start": 2893210,
+      "text": "Thank you.",
+      "id": "ep_165_ut_82"
+    },
+    {
+      "end": 2897150,
+      "speaker": "Enrico Bertini",
+      "start": 2895730,
+      "text": "Thank you. Bye.",
+      "id": "ep_165_ut_83"
+    },
+    {
+      "end": 2923362,
+      "speaker": "Moritz Stefaner",
+      "start": 2900250,
+      "text": "Hey, folks, thanks for listening to data stories again. Before you leave, a few last notes, this show is crowdfunded and you can support us on patreon@patreon.com Datastories, where we publish monthly previews of upcoming episodes for our supporters. Or you can also send us a one time donation via PayPal at PayPal me Datastories or as a free way.",
+      "id": "ep_165_ut_84"
+    },
+    {
+      "end": 2951310,
+      "speaker": "Enrico Bertini",
+      "start": 2923386,
+      "text": "To support the show. If you can spend a couple of minutes rating us on iTunes, that would be very helpful as well. And here's some information on the many ways you can get news directly from us. We are on Twitter, Facebook and Instagram, so follow us there for the latest updates. We have also a slack channel where you can chat with us directly. And to sign up, go to our home page at Datastory ES and there you'll find a button at the bottom of the page and there.",
+      "id": "ep_165_ut_85"
+    },
+    {
+      "end": 2958774,
+      "speaker": "Moritz Stefaner",
+      "start": 2951350,
+      "text": "You can also subscribe to our email newsletter if you want to get news directly into your inbox and be notified whenever we publish a new episode.",
+      "id": "ep_165_ut_86"
+    },
+    {
+      "end": 2971388,
+      "speaker": "Enrico Bertini",
+      "start": 2958862,
+      "text": "That's right, and we love to get in touch with our listeners. So let us know if you want to suggest a way to improve the show or know any amazing people you want us to invite. I or even have any project you want us to talk about.",
+      "id": "ep_165_ut_87"
+    },
+    {
+      "end": 2978052,
+      "speaker": "Moritz Stefaner",
+      "start": 2971524,
+      "text": "Yeah, absolutely. Don't hesitate to get in touch. Just send us an email at mailatastory es.",
+      "id": "ep_165_ut_88"
+    },
+    {
+      "end": 2981900,
+      "speaker": "Enrico Bertini",
+      "start": 2978196,
+      "text": "That's all for now. See you next time, and thanks for listening to data stories.",
+      "id": "ep_165_ut_89"
+    }
+  ],
+  "confidence": 0.932267649373884,
+  "audio_duration": 2993,
+  "punctuate": true,
+  "format_text": true,
+  "dual_channel": false,
+  "webhook_url": null,
+  "webhook_status_code": null,
+  "webhook_auth": false,
+  "webhook_auth_header_name": null,
+  "speed_boost": false,
+  "auto_highlights_result": null,
+  "auto_highlights": false,
+  "audio_start_from": null,
+  "audio_end_at": null,
+  "word_boost": [],
+  "boost_param": null,
+  "filter_profanity": false,
+  "redact_pii": false,
+  "redact_pii_audio": false,
+  "redact_pii_audio_quality": null,
+  "redact_pii_policies": null,
+  "redact_pii_sub": null,
+  "speaker_labels": true,
+  "content_safety": false,
+  "iab_categories": true,
+  "content_safety_labels": {
+    "status": "unavailable",
+    "results": [],
+    "summary": {}
+  },
+  "language_detection": false,
+  "language_detection_threshold": null,
+  "language_confidence": null,
+  "custom_spelling": null,
+  "throttled": false,
+  "auto_chapters": true,
+  "summarization": false,
+  "summary_type": null,
+  "summary_model": null,
+  "custom_topics": false,
+  "topics": [],
+  "speech_threshold": null,
+  "speech_model": "best",
+  "chapters": [
+    {
+      "summary": "This week on Data stories we talk about data visualization, data analysis, and generally the role data plays in our lives. Our podcast is listener supported, so there's no ads. If you enjoy the show, please consider supporting us with recurring payments on patreon. com or one time donations on Paypal.",
+      "gist": "Data Stories",
+      "headline": "Our podcast is listener supported, so there's no ads",
+      "start": 560,
+      "end": 113540,
+      "id": "ep_165_ch_0"
+    },
+    {
+      "summary": "Sarah Fossheim talks about accessibility and inclusiveness when working with data visualizations. This is the first time Fossheim has thought about accessibility deeply. Here we are with Sarah Fossheim.",
+      "gist": "Accessibility in the Data Visualizations",
+      "headline": "Sarah Fossheim talks about accessibility when working with data visualizations",
+      "start": 114200,
+      "end": 160526,
+      "id": "ep_165_ch_1"
+    },
+    {
+      "summary": "Sarah Fossheim is a designer and developer at Dataviz. She talks about how to make data visualization more accessible for the visually impaired and cognitively impaired. Here, she shares her tips for making data more understandable.",
+      "gist": "Dataviz: Accessibility in Data visualization",
+      "headline": "Sarah Fossheim talks about accessibility in data visualization",
+      "start": 160558,
+      "end": 690832,
+      "id": "ep_165_ch_2"
+    },
+    {
+      "summary": "There was recently this debate on Twitter, also on Ggplot, being made more accessible. What's a good level to describe charts in? And my concern with automation is that it can't cover every use case.",
+      "gist": "Ggplot: The role of text in its accessibility",
+      "headline": "There was recently a debate on Twitter about making GGplot more accessible",
+      "start": 690936,
+      "end": 1290070,
+      "id": "ep_165_ch_3"
+    },
+    {
+      "summary": "It's so good regardless to have the data available in different formats. Make sure it's screen reader accessible, make sure that you can use your keyboard and so on. Sonification in combination with tables could maybe help. There's a new podcast on data sonifications called Loud Numbers.",
+      "gist": "Screen reader accessibility in scientific data journalism",
+      "headline": "Nadza: It's good to have data available in different formats",
+      "start": 1290930,
+      "end": 1704480,
+      "id": "ep_165_ch_4"
+    },
+    {
+      "summary": "In general, the tools we have out there to create our datavis are not very accessible. How much do you want them to automate that, versus giving you the tools to do it yourself? Both perspectives can also coexist.",
+      "gist": "Dataviz: How Accessible Are Our Tools?",
+      "headline": "The tools we have out there to create datavis are not very accessible",
+      "start": 1704820,
+      "end": 2194730,
+      "id": "ep_165_ch_5"
+    },
+    {
+      "summary": "Before any resources, my first advice would be use a screen reader yourself. I was actually pleasantly surprised by Apple's accessibility. But so many of the graphs out there in the wild are so inaccessible. What are good resources for people to broaden their knowledge in the field?",
+      "gist": "What are other things accessibility professionals need to know?",
+      "headline": "Before any resources, my first advice would be use a screen reader yourself",
+      "start": 2196070,
+      "end": 2656128,
+      "id": "ep_165_ch_6"
+    },
+    {
+      "summary": "We don't often have exposure to blind or visually impaired people. We're just not aware of that. It's a problem. A big part of it is going to be educating people. I don't see it as a burden, more as an interesting opportunity.",
+      "gist": "Blind and visually impaired people's issues",
+      "headline": "We don't often have exposure to blind or visually impaired people",
+      "start": 2656264,
+      "end": 2850770,
+      "id": "ep_165_ch_7"
+    },
+    {
+      "summary": "Cool. Thanks so much for all these pointers. If you have positive, negative, other experiences with the topic, let us know also if there are good solutions out there. Any easy ways to get into the topic and make things a bit better? Just share it with us.",
+      "gist": "A Day in the Life of the Talk",
+      "headline": "Sarah: Thanks so much for all these pointers. Great starting points",
+      "start": 2852150,
+      "end": 2897150,
+      "id": "ep_165_ch_8"
+    },
+    {
+      "summary": "This show is crowdfunded and you can support us on patreon@patreon. com Datastories. We are on Twitter, Facebook and Instagram, so follow us there for the latest updates. Let us know if you want to suggest a way to improve the show.",
+      "gist": "How to support Datastories!",
+      "headline": "This show is crowdfunded and you can support us on patreon",
+      "start": 2900250,
+      "end": 2981900,
+      "id": "ep_165_ch_9"
+    }
+  ],
+  "disfluencies": false,
+  "entity_detection": false,
+  "sentiment_analysis": false,
+  "sentiment_analysis_results": null,
+  "entities": null,
+  "speakers_expected": null,
+  "summary": null,
+  "custom_topics_results": null,
+  "episode_num": 165,
+  "episode_metadata": {
+    "speakers": [
+      "Sarah Fossheim",
+      "Moritz Stefaner",
+      "Enrico Bertini"
+    ],
+    "WPid": "1641",
+    "url": "https://datastori.es/podlove/file/6861/s/feed/c/mp3/165-accessibility.mp3",
+    "episode_title": "Data Visualization Accessibility with Sarah Fossheim"
+  }
+}

@@ -1,0 +1,669 @@
+{
+  "id": "6fc28268-910e-4a57-8fee-bdedc4844923",
+  "language_model": "assemblyai_default",
+  "acoustic_model": "assemblyai_default",
+  "language_code": "en_us",
+  "status": "completed",
+  "audio_url": "https://datastori.es/podlove/file/4656/s/feed/c/mp3/111-data-pottery-with-alice-thudt.mp3",
+  "utterances": [
+    {
+      "end": 7634,
+      "speaker": "Alice Thudt",
+      "start": 160,
+      "text": "It's part of the process somehow to be surprised a little bit too, which we don't get as much, I find when we do things stitchily.",
+      "id": "ep_112_ut_0"
+    },
+    {
+      "end": 73554,
+      "speaker": "Moritz Stefaner",
+      "start": 26814,
+      "text": "Hi everyone, and welcome to a new episode of data stories. My name is Moritz Stefaner and I'm a freelance designer of data visualizations. And on this podcast we talk about all issues related to data visualization, data analysis, and generally how data affects our lives. Usually it's two of us. So there's Enrico Bertini, but he's missing today because I'm in London and I'm talking to Alice Tud, who does data pottery and we wanted to use the opportunity. We were both at the information is beautiful awards, and at the end I'll give you a short update on how these played out. But first, the interview with Alice. Enjoy. So I'm here today with Alice Thudt. Hi, Alice.",
+      "id": "ep_112_ut_1"
+    },
+    {
+      "end": 74330,
+      "speaker": "Alice Thudt",
+      "start": 73634,
+      "text": "Hi Moritz.",
+      "id": "ep_112_ut_2"
+    },
+    {
+      "end": 102552,
+      "speaker": "Moritz Stefaner",
+      "start": 74362,
+      "text": "Good to meet you. We're sitting in a tiny hotel room here in London and it's a nice opportunity because we are both at the information is beautiful awards tonight. So tonight is the award ceremony and we're both shortlisted. And so we're quite excited to see what the outcome will be. And of course, I had to use the opportunity when we once meet in person, which is not so often, to grab Alice for a little data stories episode together.",
+      "id": "ep_112_ut_3"
+    },
+    {
+      "end": 103040,
+      "speaker": "Alice Thudt",
+      "start": 102648,
+      "text": "Cool.",
+      "id": "ep_112_ut_4"
+    },
+    {
+      "end": 107728,
+      "speaker": "Moritz Stefaner",
+      "start": 103112,
+      "text": "Yeah. So, Alice, can you tell us a bit about yourself and what you do?",
+      "id": "ep_112_ut_5"
+    },
+    {
+      "end": 186414,
+      "speaker": "Alice Thudt",
+      "start": 107896,
+      "text": "Yeah, so I am currently doing a PhD in computational media design at the University of Calgary with Sheelagh Carpendale. And my research is kind of about visualizing personal data collections, also to let people tell stories with their data, to let them kind of reflect or reminisce about their experiences and. Yeah, so what we are going to talk about today, I guess, is a little side project of mine that kind of got is pretty related to my PhD research, I guess, because the PhD takes over everything you do in some ways. But mainly it started because I really love to do ceramics and pottery in this project. I kind of combined my hobby of pottery with my research in personal data, I guess to create artifacts that are enriched with some visualizations of personal data, to create some artifacts that you can kind of use in your everyday life and see your data more around.",
+      "id": "ep_112_ut_6"
+    },
+    {
+      "end": 194006,
+      "speaker": "Moritz Stefaner",
+      "start": 186534,
+      "text": "So these are actual nice looking mugs and bowls and plates that are sort of enriched with the data layer.",
+      "id": "ep_112_ut_7"
+    },
+    {
+      "end": 228524,
+      "speaker": "Alice Thudt",
+      "start": 194110,
+      "text": "Exactly. And so I guess how this all started was that I kind of, as I got better with pottery, I started about two years ago and I felt more in control, got really into the decoration part, which is really interesting. To me, because I'm a little bit of a control freak in my normal life. And in pottery, it's kind of a little bit less predictable somehow than other media. Like, if you do something digital, you have almost, like, complete control about what it will look like.",
+      "id": "ep_112_ut_8"
+    },
+    {
+      "end": 232480,
+      "speaker": "Moritz Stefaner",
+      "start": 228904,
+      "text": "And it's especially when you put on the colors and then put it in the.",
+      "id": "ep_112_ut_9"
+    },
+    {
+      "end": 268374,
+      "speaker": "Alice Thudt",
+      "start": 232552,
+      "text": "In the kiln that it comes out. And you have to first of all, like, get used to it again because it will look different than you expect. It's kind of a little bit of a serendipitous process, and I like that a lot. And I thought it was kind of an interesting tension between data and which is kind of supposed to be accurate and all that, and this sort of unpredictable medium. But also, I kind of think that by using this really handmade crafty, it's very earthy also.",
+      "id": "ep_112_ut_10"
+    },
+    {
+      "end": 270314,
+      "speaker": "Moritz Stefaner",
+      "start": 268414,
+      "text": "Like to put your hands in the mud.",
+      "id": "ep_112_ut_11"
+    },
+    {
+      "end": 331754,
+      "speaker": "Alice Thudt",
+      "start": 270734,
+      "text": "Exactly. And that's not something we kind of associate with data. Usually it seems sometimes a little bit clinical or, like, it's. It's less kind of tangible as well. I thought that. Yeah, if I put so much effort into a pot or. Yeah. Like a mug or a bowl, then it has. If I. Yeah. So maybe I should mention that oftentimes I make these pots for other people as well, so I give a lot of them away. And I find it kind of interesting to have something where, well, I put a lot of effort into it. I've spent a lot of time with the data, kind of trying to think, not only how can I best visualize it, but also how will this work if you put it in clay decoration, which is somewhat limited, but also kind of somewhat comes with its own requirements.",
+      "id": "ep_112_ut_12"
+    },
+    {
+      "end": 335182,
+      "speaker": "Moritz Stefaner",
+      "start": 332254,
+      "text": "So how many have you done so far? How many data pottery pieces?",
+      "id": "ep_112_ut_13"
+    },
+    {
+      "end": 355234,
+      "speaker": "Alice Thudt",
+      "start": 335238,
+      "text": "I don't actually know. I think it must be about, like, maybe about 15 or something like that. For a while, I was, like, super into it. Now I'm kind of, like, not doing it quite as much. When I go to pottery, I make, like, usually pots without data.",
+      "id": "ep_112_ut_14"
+    },
+    {
+      "end": 362122,
+      "speaker": "Moritz Stefaner",
+      "start": 356214,
+      "text": "Can you tell us a few examples of past data pottery pieces you have done so impression?",
+      "id": "ep_112_ut_15"
+    },
+    {
+      "end": 470808,
+      "speaker": "Alice Thudt",
+      "start": 362218,
+      "text": "Yes. So maybe the first one I would mention here is I made a set of two bowls about the Skype history, Skype call history with my parents, because since I'm doing my PhD in Canada and my parents are in Germany, we kind of keep in touch over Skype. And what I wanted to do there or why I thought this was a fun thing to do or interesting was because it kind of represents, like, our Skype history kind of represents how we keep in touch, how we still keep close contact. And I picked cereal bowls because these are artifacts that we both encounter every morning. So basically I kept one, they got the other one. And so my idea was that every morning we will see this representation or remind us to call each other. And so that's one example. Then I made a friend of mine in Calgary recently, like about a year ago, defended her PhD thesis. It was a really great thesis. Yagoda Walni and I made a mug for her because she loves to drink tea, so she's a big tea person. So I wanted to make a tea mug for her. That represents her big accomplishment of her thesis. So I basically visualized the structure of her thesis, the kinds of how it breaks, breaks apart into chapters, how many pages each chapter has. But basically it was supposed to symbolize her big accomplishment, kind of also as a trophy. So every time she has a cup of tea, she can kind of remember her PhD time together.",
+      "id": "ep_112_ut_16"
+    },
+    {
+      "end": 478696,
+      "speaker": "Moritz Stefaner",
+      "start": 470896,
+      "text": "That's interesting because you can on the one hand think about the decoration layer, like the paint, but also what the actual object is, how well that fits.",
+      "id": "ep_112_ut_17"
+    },
+    {
+      "end": 563464,
+      "speaker": "Alice Thudt",
+      "start": 478760,
+      "text": "Into people's lives, or that's actually super important to me. I mean, rarely arbitrary. Like I want to kind of encourage a specific or envision somehow like a specific interaction with the thing, which means like, okay, the serial ones. You see it every morning. I want to remind my parents every day to call each other and also to just feel good about the fact that we kept in touch and the teacup, just because it's something she uses every day. It kind of fits her personality in my mind. Yeah. So it always is somewhat related to the person, what kind of object I would make. Yeah. But then, yeah, the representation also usually the representation, what I do or how I start is I pick kind of a relationship or an aspect of my life or the life of the other person that I think would be worthy of a data pot. And then I basically start exploring, just see what kind of data do I actually have. Sometimes it's pretty clear, but sometimes it's also I have this aspect and I really want to honor it somehow with one of these things.",
+      "id": "ep_112_ut_18"
+    },
+    {
+      "end": 565068,
+      "speaker": "Moritz Stefaner",
+      "start": 564004,
+      "text": "And then you have to measure and.",
+      "id": "ep_112_ut_19"
+    },
+    {
+      "end": 590290,
+      "speaker": "Alice Thudt",
+      "start": 565076,
+      "text": "Then you have to count something to. And oftentimes there is some kind that's kind of crazy how much data there already is to kind of pick from. Like the Skype history is already there, the thesis structure is already there. So. But sometimes I would also go and actually deliberately collect or at least somehow distill the data from what I have. So, for example.",
+      "id": "ep_112_ut_20"
+    },
+    {
+      "end": 592122,
+      "speaker": "Moritz Stefaner",
+      "start": 590322,
+      "text": "But in principle, you have a person in mind already.",
+      "id": "ep_112_ut_21"
+    },
+    {
+      "end": 592538,
+      "speaker": "Alice Thudt",
+      "start": 592178,
+      "text": "Yes.",
+      "id": "ep_112_ut_22"
+    },
+    {
+      "end": 598422,
+      "speaker": "Moritz Stefaner",
+      "start": 592626,
+      "text": "And you have a topic in mind or something, you know, tell them or remind them of.",
+      "id": "ep_112_ut_23"
+    },
+    {
+      "end": 598894,
+      "speaker": "Alice Thudt",
+      "start": 598518,
+      "text": "Yes.",
+      "id": "ep_112_ut_24"
+    },
+    {
+      "end": 600054,
+      "speaker": "Moritz Stefaner",
+      "start": 598974,
+      "text": "And then you search the data.",
+      "id": "ep_112_ut_25"
+    },
+    {
+      "end": 607834,
+      "speaker": "Alice Thudt",
+      "start": 600094,
+      "text": "And then I search the data, and I think what fits, like, what is a good trace of the experience that I want to represent.",
+      "id": "ep_112_ut_26"
+    },
+    {
+      "end": 614862,
+      "speaker": "Moritz Stefaner",
+      "start": 608174,
+      "text": "And it's also then the data you display becomes much more symbolic and indexical of the actual thing you're actually talking about.",
+      "id": "ep_112_ut_27"
+    },
+    {
+      "end": 639948,
+      "speaker": "Alice Thudt",
+      "start": 614998,
+      "text": "That's the idea. I think a lot of these turn out to be more symbolic than anything else. Like, I don't imagine someone sitting there and, like, really trying to read the thing. Thing in detail. It's more. We. We both know sort of what it means, what it represents, and then it becomes more of a symbol for this and a trace in some ways.",
+      "id": "ep_112_ut_28"
+    },
+    {
+      "end": 700300,
+      "speaker": "Moritz Stefaner",
+      "start": 640036,
+      "text": "So maybe we should describe some of them a bit so you can find them on https://www.alicethudt.de/. We will link that in the show notes. Of course. You should take a look. It's lovely pieces. Yeah. But it's. Yeah, it's nice handmade pottery. And they have, like, how do you say in English? Like a glaze. Yeah. And it's sort of organic shapes that vary in height or in size. So you could think it's just a nice decoration. Decoration. Or if you have looked at too many charts, you might start to look for the data language. So it works both ways. I think it works as just an organic decoration pattern, but you can clearly see, like, size differences or arrangement differences. So it's nicely in between decoration and readable chart, I think. Yeah. So, yeah. So we started with the process already. So you have a person, you have a topic, you want to make a gift. Did you do one for yourself as well?",
+      "id": "ep_112_ut_29"
+    },
+    {
+      "end": 703264,
+      "speaker": "Alice Thudt",
+      "start": 700372,
+      "text": "I did some of them for myself, yeah.",
+      "id": "ep_112_ut_30"
+    },
+    {
+      "end": 708596,
+      "speaker": "Moritz Stefaner",
+      "start": 706564,
+      "text": "Then you look for a good data source.",
+      "id": "ep_112_ut_31"
+    },
+    {
+      "end": 740312,
+      "speaker": "Alice Thudt",
+      "start": 708740,
+      "text": "Yes, exactly. And then I start kind of playing with the data a little bit to see. Okay. Are there any shapes that would be interesting in a pattern or that are also kind of. Or remind me of what it is? So can I actually, by seeing just the chart, because there will be no labels. Like, I don't put any axes or numbers on it. So it's more kind of the shape of the data should somehow spark what it is about in some ways, you know? Cause you won't be able to.",
+      "id": "ep_112_ut_32"
+    },
+    {
+      "end": 742416,
+      "speaker": "Moritz Stefaner",
+      "start": 740408,
+      "text": "You don't have legends to put legends or.",
+      "id": "ep_112_ut_33"
+    },
+    {
+      "end": 986116,
+      "speaker": "Alice Thudt",
+      "start": 742440,
+      "text": "I decide not to. I guess you could put that. But I also wanted to work, really, as just a decoration for the piece. So I look okay. What really sticks out for me and makes a representative visualization. And then once I have that, I usually modify it a bit to make it look a little bit more like. I do that mainly through sketching. Sometimes I can't. Like, for example, one I made for my dad about his biking, three years biking data. He's very avid tracker of his bike rides. I was kind of, when I looked at the data, I kind of had this idea that I wanted to look like a wheel because it's also cyclical sort of data. So it works kind of nice to make it also look like a spinning wheel. So then I have this idea, then I try to consolidate it with what the data actually look like. I do some sketches, and then most of the time, I kind of, once I have this more clear idea, I try out some. Like, if I'm not yet super familiar with the decoration techniques, because there's, in clay, there is, like, a lot of different decoration techniques. You can do, like stencils. You can do slip, which is like liquid clay that you kind of drip on, and it sometimes etch the surface. Yes. You can scratch into it. You can use pencils. Like, there's just a lot of options. And it's not directly always clear what technique will work best for this pattern. And so I try out different things, usually on little tiles that are more like test tiles, to just see, okay, what works and how does it work. And sometimes I then have to throw away my idea, because sometimes they just do not work in clay at all, especially, like, super detailed things. We have, like, a high fire kiln where I do my pottery. And that's kind of, you can't get super detailed with it because the glazes will move, and it's a very organic sort of process. So you have to kind of see how they turn out. So I do that a little bit. And once I have decided, okay, this is the pattern and the decoration technique that I want to use, then I basically create the basic shapes that make up the pattern, usually in some excel or Tableau. I've also written, like, a little program that makes it easy to kind of map it to a specific size, because at a certain point, I have to transfer it to the pot. And this is actually a little bit challenging because you need it to be a certain size if you wanted to fill the whole pot around. Yes, yes. I have to measure the pot, have to go back to my computer and make the pattern fit that size and print it out to scale, and then somehow apply it to the pot. So, yeah, so I make the basic shapes. I modify them a bit, drawing over them, and then depending on what kind of pattern it is, if it's very spatial, it usually makes sense to use either stencils, which means they cut out piece of paper, you put it on and you paint over it. Or some. Something like that. It's like that. Or to actually project it on and draw it on, which is, like, really involved process. I built a little thing with a pico projector projecting from the top in the lab to be able to do this. But it turns out that most of the time, it's actually easier to just use stencils or put some directly sort of, on the thing rather than using the project.",
+      "id": "ep_112_ut_34"
+    },
+    {
+      "end": 987740,
+      "speaker": "Moritz Stefaner",
+      "start": 986180,
+      "text": "Then do the first marking, and then you can.",
+      "id": "ep_112_ut_35"
+    },
+    {
+      "end": 1008708,
+      "speaker": "Alice Thudt",
+      "start": 987772,
+      "text": "Yes, exactly. And then you color it. But also the other tough part is that it's kind of a layering process. So you put one glaze on, then you have to draw over it again. Then you have to. Yeah, so, so that's involved. Yeah, but, yeah, so this is one challenge, getting the thing actually on the pot. And.",
+      "id": "ep_112_ut_36"
+    },
+    {
+      "end": 1028700,
+      "speaker": "Moritz Stefaner",
+      "start": 1008756,
+      "text": "And I see on your process page. So sometimes you might have a very geometric, like, output of Tableau or. Yeah, like plain circles or something. But then as you sketch, they automatically become. Or as you transfer, they automatically become more organic because you have to sort of the more rounded lines and the less accurate.",
+      "id": "ep_112_ut_37"
+    },
+    {
+      "end": 1061556,
+      "speaker": "Alice Thudt",
+      "start": 1028772,
+      "text": "I tried to do it a little bit more like, at first, my first trials were a little bit more geometric, but then I figured that the result was never like that. It was always moving and organic in the end. So it makes sense to sometimes just go for the more organic patterns in the first place. To be able to not see the imperfections as such in some way, but rather work with them as embrace what.",
+      "id": "ep_112_ut_38"
+    },
+    {
+      "end": 1064540,
+      "speaker": "Moritz Stefaner",
+      "start": 1061580,
+      "text": "The material is about and not try to work against it.",
+      "id": "ep_112_ut_39"
+    },
+    {
+      "end": 1080664,
+      "speaker": "Alice Thudt",
+      "start": 1064572,
+      "text": "Yes, yes. Yeah, and then. Yeah, then. And when I've applied it, it's mainly just up to the kiln gods, as the people in our pottery studio say, just have to see what comes out sometimes.",
+      "id": "ep_112_ut_40"
+    },
+    {
+      "end": 1086668,
+      "speaker": "Moritz Stefaner",
+      "start": 1082284,
+      "text": "So you think you put the same thing in twice and it comes up totally different?",
+      "id": "ep_112_ut_41"
+    },
+    {
+      "end": 1145248,
+      "speaker": "Alice Thudt",
+      "start": 1086716,
+      "text": "Oh, absolutely. Like, I I have a few that are exactly, exactly the same glazes, and they look completely different. It just depends where in the kiln it will sit. So it's absolutely impossible to completely anticipate what it will look like. But I like that in some way. It's part of the process somehow, to be surprised a little bit, too, which we don't get as much. I find when we do things digitally, there's little surprises. You're kind of more in control of what comes out. And I like this because, yeah, the things that I represent are sort of personal things. There's some, I don't know, like some organic feel to them anyway. And so having this contribute sort of the making, contribute to this all kind of, like, organic feel, I actually like it. I would not want it to be more precise in some ways. Yeah, yeah.",
+      "id": "ep_112_ut_42"
+    },
+    {
+      "end": 1156494,
+      "speaker": "Moritz Stefaner",
+      "start": 1145296,
+      "text": "And what's the rate, like, coming out of the kiln? How many do you say? Like, how many do you throw away straight away? And how many do you say? Yeah, that was a bit different than I expected. And how many are, like, really cool?",
+      "id": "ep_112_ut_43"
+    },
+    {
+      "end": 1196264,
+      "speaker": "Alice Thudt",
+      "start": 1156874,
+      "text": "For the most part, I can come to terms with how they look afterwards, but I have redone some of them because it was just not working or the pattern wasn't showing up. It sometimes happens and then I remake them. Yeah, for the most part, it's usually a little bit different than expected, but sometimes even in a good way, like, sometimes you can be pleasantly surprised as well. And sometimes it just takes a day or two of looking at them and then you like them really, before you're like, oh, this is not what I thought. But, yeah, that's part of it somehow.",
+      "id": "ep_112_ut_44"
+    },
+    {
+      "end": 1200904,
+      "speaker": "Moritz Stefaner",
+      "start": 1196764,
+      "text": "So how do people react when you give them to them? Do they say, Alice, you're a total nerd.",
+      "id": "ep_112_ut_45"
+    },
+    {
+      "end": 1240274,
+      "speaker": "Alice Thudt",
+      "start": 1203404,
+      "text": "Do you have to bring the end pottery? No, actually, people are usually pretty happy when they get one. Maybe they have to say that, oh, it's so beautiful. No, I think they like it. I think there is something too, like just putting a lot of effort into these and I think people can feel it. That it? Yeah, it's like this whole manual thing. It makes it somehow it's made especially for them. Yes, them takes a long time to make. And I think that's.",
+      "id": "ep_112_ut_46"
+    },
+    {
+      "end": 1244826,
+      "speaker": "Moritz Stefaner",
+      "start": 1240354,
+      "text": "I mean, who has a cup? Which is about them, you know, it's quite a big thing.",
+      "id": "ep_112_ut_47"
+    },
+    {
+      "end": 1246854,
+      "speaker": "Alice Thudt",
+      "start": 1244930,
+      "text": "Maybe like the photo cups, you know.",
+      "id": "ep_112_ut_48"
+    },
+    {
+      "end": 1254458,
+      "speaker": "Moritz Stefaner",
+      "start": 1247714,
+      "text": "But this one is not even about them really, because. Yeah, it's just a photo on a cup. This one is really about a person.",
+      "id": "ep_112_ut_49"
+    },
+    {
+      "end": 1273124,
+      "speaker": "Alice Thudt",
+      "start": 1254546,
+      "text": "And also kind of. Yeah, I thought through it somehow and that I think they. They feel special, I guess. But, yeah, most people are pretty happy. I'm actually also kind of really liking the ones I kept.",
+      "id": "ep_112_ut_50"
+    },
+    {
+      "end": 1278752,
+      "speaker": "Moritz Stefaner",
+      "start": 1274544,
+      "text": "So you keep using them and you keep thinking of what they stand for.",
+      "id": "ep_112_ut_51"
+    },
+    {
+      "end": 1394754,
+      "speaker": "Alice Thudt",
+      "start": 1278808,
+      "text": "Yeah, that's the funnest part, is that somehow, usually these data sources are kind of hidden away or you don't really get a chance to reflect on them in your everyday life, unless you make a deliberate act to go and I don't know, look at your Skype history. But in this case, I just come across as like a pour a cup of tea and I'm like, oh, yeah, I don't know, it's kind of neat that they are so embedded into my everyday life. I really like that. What I'm starting to wonder kind of about is that if I. So for me, I found that actually the process of making them is almost more reflective than having the artifact, the end result. So I spend a lot of time thinking about the data, the relationship it represents, or the experience it represents while I make them, because I have to go through everything. And then when I have the artifact, I have this sort of story still in my head. All the things that I discovered during making them where if I give it as a gift, the. You don't share that much. I kind of talk about it, but I think the other person doesn't really have that. And I also noticed it's very selfish of you. Yeah, it's kind of selfish. I don't know if it's really actually even possible for people to read them after a while. That's why I, like, I started with these elaborate, like, patterns. For example, the one I made for my dad about the biking has, I think, like three different data type things in it. Like the distance he biked, the number of times he biked, and this, this time, and the speed or something. And I wonder if he can really actually tell which or like, remember which is which.",
+      "id": "ep_112_ut_52"
+    },
+    {
+      "end": 1413810,
+      "speaker": "Moritz Stefaner",
+      "start": 1395614,
+      "text": "I think it's actually like this asymmetry is actually quite interesting because for you, it serves as a meditation on a person and the topic. Right. And so you have this whole long drawn out process and this basically the gift you give yourself and the other person gets just, just like the end of that.",
+      "id": "ep_112_ut_53"
+    },
+    {
+      "end": 1432174,
+      "speaker": "Alice Thudt",
+      "start": 1413882,
+      "text": "Yes, they have the thing, which is. But yeah, I really value this part where I just sit down and I'm thinking, ah, what can I even use? What data? Then look at it all. This is super central to making this worthwhile for me as well. Yeah.",
+      "id": "ep_112_ut_54"
+    },
+    {
+      "end": 1438642,
+      "speaker": "Moritz Stefaner",
+      "start": 1432554,
+      "text": "So what's next? Is there anything you want to try out? Is there any form you haven't explored yet?",
+      "id": "ep_112_ut_55"
+    },
+    {
+      "end": 1482652,
+      "speaker": "Alice Thudt",
+      "start": 1438698,
+      "text": "I actually thought, like recently, I don't know if I will do this, but. So here it's all functional pottery. So this means you can use the end product. It's really. Yeah, like everyday a functional thing, a cup or a teapot or something like that. And I'm getting kind of interested also in doing more sculptural work with data. So that's something I'm starting to get interested in. But it's kind of like, okay, it will be more of a. Just a decoration in your room, then it won't be so embedded into everyday life. And I wonder how can maybe consolidate those things somehow?",
+      "id": "ep_112_ut_56"
+    },
+    {
+      "end": 1484300,
+      "speaker": "Moritz Stefaner",
+      "start": 1482708,
+      "text": "Is there something in between? Maybe.",
+      "id": "ep_112_ut_57"
+    },
+    {
+      "end": 1527894,
+      "speaker": "Alice Thudt",
+      "start": 1484372,
+      "text": "I mean, yeah, I just think that, yeah, clay as a medium, like, if you are doing three dimensional kind of sculptures, it's a lot more versatile than the sort of flat decoration on the outside. So I'm kind of thinking it could be really interesting to do something more that encodes data in the shape rather than the surface decoration. But, yeah, I haven't really gotten to it yet. I was try it out and see how I like it and how I also like living with them or giving them. Because I don't know, if you give people a mug or a teapot, they can directly use it, and it's somehow.",
+      "id": "ep_112_ut_58"
+    },
+    {
+      "end": 1530270,
+      "speaker": "Moritz Stefaner",
+      "start": 1527934,
+      "text": "The sculptures, like, catches dust.",
+      "id": "ep_112_ut_59"
+    },
+    {
+      "end": 1562596,
+      "speaker": "Alice Thudt",
+      "start": 1530422,
+      "text": "Yeah, exactly. And do you want to want someone else to, like, decorate your living room by giving you a sculpture? And what if you don't want to put it out? Like, then I come over and they don't have it anywhere. Yeah. So it's less. Maybe that would be more of a personal project rather than as much of a social one than this. This is works super well as a gift. The other one would probably work better for myself, but, yeah, that's kind of next, I think.",
+      "id": "ep_112_ut_60"
+    },
+    {
+      "end": 1575812,
+      "speaker": "Moritz Stefaner",
+      "start": 1562700,
+      "text": "And what you told me before, which I think is nice. So you started this coming out of a hobby, basically, and then sort of it got infected with your priestly topic, but now you can also work it into a research topic again, which is kind of nice.",
+      "id": "ep_112_ut_61"
+    },
+    {
+      "end": 1613034,
+      "speaker": "Alice Thudt",
+      "start": 1575868,
+      "text": "It's really funny. It's going to be actually part of my thesis now because I realized that it's actually quite related. But, yeah, it didn't start out this way. And actually making it into part of my thesis also made it more stressful than it started out. As it becomes this thing, and you have to make a contribution with it and so on, and you're kind of less free. I think it was good that it started out as a hobby, and I didn't even think about making something related to my work with it.",
+      "id": "ep_112_ut_62"
+    },
+    {
+      "end": 1629152,
+      "speaker": "Moritz Stefaner",
+      "start": 1614384,
+      "text": "No. But if you had started as a research topic, then you would have thought, oh, and then I have to produce all this clay, and probably I have to do, like, different identical pieces so I can test it independently or, you know, whatnot. And then you think, like, ah, it's way too complicated. So he wouldn't have done it.",
+      "id": "ep_112_ut_63"
+    },
+    {
+      "end": 1636288,
+      "speaker": "Alice Thudt",
+      "start": 1629208,
+      "text": "Exactly. Yeah. I think it was useful for the project that it wasn't directly set out to be this part of my pieces.",
+      "id": "ep_112_ut_64"
+    },
+    {
+      "end": 1651500,
+      "speaker": "Moritz Stefaner",
+      "start": 1636416,
+      "text": "No, I really like it. And I especially approach, I like this whole gift aspect. I never thought about it this much. Like to gift a daily representation, what that means and how that's so meaningful. It can be so meaningful.",
+      "id": "ep_112_ut_65"
+    },
+    {
+      "end": 1672414,
+      "speaker": "Alice Thudt",
+      "start": 1651572,
+      "text": "Yeah, it's difficult actually, in the sense that, as I said before, you wanted to also work for the other person. It's not just you have to be able to make sense of it, but someone else. There's actually a lot of interesting research in that itself, like how to make data gifts.",
+      "id": "ep_112_ut_66"
+    },
+    {
+      "end": 1675298,
+      "speaker": "Moritz Stefaner",
+      "start": 1674554,
+      "text": "Next.",
+      "id": "ep_112_ut_67"
+    },
+    {
+      "end": 1679314,
+      "speaker": "Alice Thudt",
+      "start": 1675466,
+      "text": "Whole other story. Yeah, whole other data story.",
+      "id": "ep_112_ut_68"
+    },
+    {
+      "end": 1685442,
+      "speaker": "Moritz Stefaner",
+      "start": 1679434,
+      "text": "Very nice. That was super interesting. Thanks so much. Fascinating work and fingers crossed for tonight.",
+      "id": "ep_112_ut_69"
+    },
+    {
+      "end": 1686130,
+      "speaker": "Alice Thudt",
+      "start": 1685498,
+      "text": "Oh yeah.",
+      "id": "ep_112_ut_70"
+    },
+    {
+      "end": 1689154,
+      "speaker": "Moritz Stefaner",
+      "start": 1686242,
+      "text": "Maybe we should do a little update tomorrow morning when we're hungover.",
+      "id": "ep_112_ut_71"
+    },
+    {
+      "end": 1690002,
+      "speaker": "Alice Thudt",
+      "start": 1689234,
+      "text": "Yeah, same for you.",
+      "id": "ep_112_ut_72"
+    },
+    {
+      "end": 1693154,
+      "speaker": "Moritz Stefaner",
+      "start": 1690018,
+      "text": "Either very awarded or very awardless. We will see.",
+      "id": "ep_112_ut_73"
+    },
+    {
+      "end": 1696134,
+      "speaker": "Alice Thudt",
+      "start": 1694934,
+      "text": "Thanks, Mora.",
+      "id": "ep_112_ut_74"
+    },
+    {
+      "end": 1860226,
+      "speaker": "Moritz Stefaner",
+      "start": 1696294,
+      "text": "Thanks for coming. So that was the conversation with Alice. Fascinating project and can't wait to see if any of our listeners would also make a few data pottery pieces. If so, send us pictures. I'm really curious. As we hinted at, this was at the morning of the information, this beautiful award ceremony, and in the evening it turned out Alice actually received an honorable mention for her project. So that's wonderful. Congratulations again. Generally it was a really good award ceremony and a hugely, just great quality field of submissions and awardees. I was also lucky. So I won with the rhythm of Food Project for Google News Lab Gold and bronze for the train peak spotting project we did together for Deutsche Bahn. I'm honored here myself. And generally there were lots of great, great projects awarded. Big winners were, I think, density design. The pudding had multiple pieces and there was of course, data sketches from Shirley Wu and especially Nadieh Bremer. And Nadieh in general, I think was the biggest winner of this ceremony and she had three awards, so that's quite amazing. But there were also many other winners you might know already from past data stories, episodes such as Kim Albrecht, Dominikus Baur. Also, I was super pleased to see Miriam Quick and Valentina d\u2019Efilippo win with the audited vis project silver medal for Periscopic. So many, many of the people you might know from listening to data stories check out all the awards. Like the whole short list is fantastic actually. So go to the site and just browse the entries. There's a lot of beautiful stuff to see. And what I also really enjoyed is that this year there were even more international like non European us entries and winners. So we had winners from China, from India, from Russia, and I think it's great that we widened the horizon there a bit. Anyways, looking forward to next year. It's always a great pleasure to review the year in Dataviz through the information Beautiful Awards and yeah, I hope you enjoyed this episode. Do support us on patreon.com Datastories. We are all crowdfunded so we need your support. So if you enjoy this podcast, just think about if it's yeah, maybe you can chip in a few dollars per episode. Thanks so much and have a great time. Bye.",
+      "id": "ep_112_ut_75"
+    }
+  ],
+  "confidence": 0.927935258889578,
+  "audio_duration": 1870,
+  "punctuate": true,
+  "format_text": true,
+  "dual_channel": false,
+  "webhook_url": null,
+  "webhook_status_code": null,
+  "webhook_auth": false,
+  "webhook_auth_header_name": null,
+  "speed_boost": false,
+  "auto_highlights_result": null,
+  "auto_highlights": false,
+  "audio_start_from": null,
+  "audio_end_at": null,
+  "word_boost": [],
+  "boost_param": null,
+  "filter_profanity": false,
+  "redact_pii": false,
+  "redact_pii_audio": false,
+  "redact_pii_audio_quality": null,
+  "redact_pii_policies": null,
+  "redact_pii_sub": null,
+  "speaker_labels": true,
+  "content_safety": false,
+  "iab_categories": true,
+  "content_safety_labels": {
+    "status": "unavailable",
+    "results": [],
+    "summary": {}
+  },
+  "language_detection": false,
+  "language_detection_threshold": null,
+  "language_confidence": null,
+  "custom_spelling": null,
+  "throttled": false,
+  "auto_chapters": true,
+  "summarization": false,
+  "summary_type": null,
+  "summary_model": null,
+  "custom_topics": false,
+  "topics": [],
+  "speech_threshold": null,
+  "speech_model": "best",
+  "chapters": [
+    {
+      "summary": "Moritz Stefane is a freelance designer of data visualizations. He talks to Alice Tud, who does data pottery. We talk about all issues related to data visualization, data analysis, and how data affects our lives. Enjoy.",
+      "gist": "Data Stories",
+      "headline": "This podcast features Moritz Stefane talking to Alice Tud about data visualization",
+      "start": 160,
+      "end": 66254,
+      "id": "ep_112_ch_0"
+    },
+    {
+      "summary": "Moritz: I'm here today with Alice Thudt. We are both at the information is beautiful awards tonight. And so we're quite excited to see what the outcome will be. I had to use the opportunity to grab Alice for a little data stories episode together.",
+      "gist": "Interview",
+      "headline": "Moritz and Alice Thudt are both shortlisted for information awards tonight",
+      "start": 70954,
+      "end": 103432,
+      "id": "ep_112_ch_1"
+    },
+    {
+      "summary": "Alice is currently doing a PhD in computational media design at the University of Calgary. She combined her hobby of pottery with her research in personal data to create artifacts enriched with some visualizations of personal data.",
+      "gist": "Pottery as a way to visualize personal data",
+      "headline": "Alice is doing a PhD in computational media design at the University of Calgary",
+      "start": 103488,
+      "end": 331754,
+      "id": "ep_112_ch_2"
+    },
+    {
+      "summary": "Alistut de Alistut: How many data pottery pieces have you done so far? It must be about, like, maybe about 15 or something like that. A lot of these turn out to be more symbolic than anything else.",
+      "gist": " data pottery pieces",
+      "headline": "How many data pottery pieces have you done so far",
+      "start": 332254,
+      "end": 693260,
+      "id": "ep_112_ch_3"
+    },
+    {
+      "summary": "In clay, there are a lot of different decoration techniques. Once I have this idea, then I try to consolidate it with what the data actually look like. Then I have to measure the pot, make the pattern fit that size and print it out to scale.",
+      "gist": "How to Make a Paintwork with Data",
+      "headline": "So we started with the process already. Then you look for a good data source",
+      "start": 693292,
+      "end": 1145248,
+      "id": "ep_112_ch_4"
+    },
+    {
+      "summary": "Alice spends a lot of time thinking about the data, the relationship it represents. How do people react when you give them to them? Most people are pretty happy. The process of making them is almost more reflective than having the artifact.",
+      "gist": "Making a pottery gift",
+      "headline": "Alice says making the cups is more reflective than the end result",
+      "start": 1145296,
+      "end": 1432174,
+      "id": "ep_112_ch_5"
+    },
+    {
+      "summary": "Mora: Is there anything you want to try out? Is there any form you haven't explored yet? So here it's all functional pottery. And I'm getting kind of interested also in doing more sculptural work with data. Next.",
+      "gist": "Exploring the data in my work",
+      "headline": "So what's next? Is there anything you want to try out",
+      "start": 1432554,
+      "end": 1697314,
+      "id": "ep_112_ch_6"
+    },
+    {
+      "summary": "Alice received an honorable mention for her project. Big winners were density design and data sketches. This year there were even more international entries and winners. Do support us on patreon. com Datastories. We are all crowdfunded so we need your support.",
+      "gist": "Dataviz 2013 Beautiful Awards",
+      "headline": "Alice: Dataviz information Beautiful Awards were wonderful this year",
+      "start": 1701974,
+      "end": 1860226,
+      "id": "ep_112_ch_7"
+    }
+  ],
+  "disfluencies": false,
+  "entity_detection": false,
+  "sentiment_analysis": false,
+  "sentiment_analysis_results": null,
+  "entities": null,
+  "speakers_expected": null,
+  "summary": null,
+  "custom_topics_results": null,
+  "episode_num": 112,
+  "episode_metadata": {
+    "speakers": [
+      "Alice Thudt",
+      "Moritz Stefaner"
+    ],
+    "WPid": "1083",
+    "url": "https://datastori.es/podlove/file/4656/s/feed/c/mp3/111-data-pottery-with-alice-thudt.mp3",
+    "episode_title": "Data Pottery with Alice Thudt"
+  }
+}

@@ -1,0 +1,1027 @@
+{
+  "id": "59d30ecf-2440-42fb-bf53-a233a01ef635",
+  "language_model": "assemblyai_default",
+  "acoustic_model": "assemblyai_default",
+  "language_code": "en_us",
+  "status": "completed",
+  "audio_url": "https://datastori.es/podlove/file/3765/s/feed/c/mp3/95-challenges-of-being-a-dataviz-professional-in-the-industry-with-elijah-meeks.mp3",
+  "utterances": [
+    {
+      "end": 9914,
+      "speaker": "Elijah Meeks",
+      "start": 320,
+      "text": "We need to be more willing to challenge the products that come out of a purely analytical or engineering approach to using data visualization.",
+      "id": "ep_95_ut_0"
+    },
+    {
+      "end": 61104,
+      "speaker": "Moritz Stefaner",
+      "start": 14734,
+      "text": "Data stories is brought to you by the upcoming 27 I O festival. The annual I O festival brings together people drawn to the intersection of data, art, storytelling, and creative technology. This June, joined world renowned names in data design like Nicholas Felton, Jennifer Danyel, Manuel Lima, and many more for four days of inspiring talks and workshops. IO is all about sharing ideas, building community, and finding new inspiration. And if you enjoy data stories, you'll probably be interested in the IO festival. That's my guess, at least. Tickets are on sale right now. They're almost gone, so that might be your last chance to get one. Get it@EYEO festival.com that's EYEO festival.com. and converge to inspire.",
+      "id": "ep_95_ut_1"
+    },
+    {
+      "end": 85506,
+      "speaker": "Enrico Bertini",
+      "start": 80354,
+      "text": "Hey, everyone. Welcome to a new episode of data stories. Hey, Moritz.",
+      "id": "ep_95_ut_2"
+    },
+    {
+      "end": 86578,
+      "speaker": "Moritz Stefaner",
+      "start": 85570,
+      "text": "Hey, Enrico.",
+      "id": "ep_95_ut_3"
+    },
+    {
+      "end": 87346,
+      "speaker": "Enrico Bertini",
+      "start": 86666,
+      "text": "All good?",
+      "id": "ep_95_ut_4"
+    },
+    {
+      "end": 95598,
+      "speaker": "Moritz Stefaner",
+      "start": 87450,
+      "text": "Yeah. It's a wonderful day here in Germany. Sunny spring is knocking on the door. Having a good time over here. How about you?",
+      "id": "ep_95_ut_5"
+    },
+    {
+      "end": 124258,
+      "speaker": "Enrico Bertini",
+      "start": 95686,
+      "text": "I can tell the same here, but it's good. We are ready for some more good stuff. So before we start, I just want to quickly remind everyone that you can support the show with Patreon. So if you like the show and you want to help us with this, just go to patreon.com Datastories and you find all the information you need to help us.",
+      "id": "ep_95_ut_6"
+    },
+    {
+      "end": 144186,
+      "speaker": "Moritz Stefaner",
+      "start": 124386,
+      "text": "Yeah, that would be amazing. If everybody chips in and we have a crowdfunded show, I'd be all for that. So what are we talking about today? As many things, it starts with a tweet, and this tweet came from Elijah Meeks, and today we have him on the show. Hi, Elijah.",
+      "id": "ep_95_ut_7"
+    },
+    {
+      "end": 145434,
+      "speaker": "Elijah Meeks",
+      "start": 144290,
+      "text": "Hi, Moritz. How are you doing?",
+      "id": "ep_95_ut_8"
+    },
+    {
+      "end": 146138,
+      "speaker": "Moritz Stefaner",
+      "start": 145514,
+      "text": "Good, good.",
+      "id": "ep_95_ut_9"
+    },
+    {
+      "end": 146986,
+      "speaker": "Enrico Bertini",
+      "start": 146226,
+      "text": "Hey, Elijah.",
+      "id": "ep_95_ut_10"
+    },
+    {
+      "end": 147834,
+      "speaker": "Elijah Meeks",
+      "start": 147050,
+      "text": "Hi, Enrico.",
+      "id": "ep_95_ut_11"
+    },
+    {
+      "end": 156854,
+      "speaker": "Moritz Stefaner",
+      "start": 147914,
+      "text": "Good to have you on. So, Elijah, can you tell us a bit about what your background is, what you do, and what that ominous tweet was about?",
+      "id": "ep_95_ut_12"
+    },
+    {
+      "end": 321880,
+      "speaker": "Elijah Meeks",
+      "start": 156974,
+      "text": "Right. So I work at Netflix. I've worked at Netflix now for around two and a half years. And my position is senior data visualization engineer. And what I found that that means is different things for different people who are tasked as senior data visualization engineers. Some people spend a lot more time on bi tools. Some people a lot spend a lot more time on building infrastructure to support data visualization. I spend a lot of time on building custom data visualization applications. And those oftentimes resemble dashboards. They use D3, they use react. And we try to spend a lot more time on designing them and doing sort of user centered design than you sort of typically see when you're using analytical bI tools or business intelligence tools like Tableau. And that's what I do at Netflix. And what I noticed at Netflix was that a lot of the people who are senior data visualization engineers, not necessarily actually at Netflix, but in the valley, I'd heard more and more these stories about people who were in data visualization and then had left data visualization. They hadn't left tech, but they'd become. They'd become more focused on building the data processing pipelines or building the algorithms that drive a lot of what is a high tech company. And they hadn't done it necessarily because that's where their passion was. Rather, they'd moved out of data visualization because they didn't feel like there was much data visualization work that they were tasked to do. That most of the innovative data visualization forms that we've seen, when we think of you or we think of Giorgia Lupi or any of the sort of, you know, high profile examples that when information is beautiful awards, we end up. We don't see examples of that in professional work. And so instead, you're asked to do, you know, the kind of charts and the kind of forms that you see in Tableau, and it's less fulfilling for folks like that. And it also seems like there are fewer avenues for advancement because there just aren't data visualization people in leadership positions in the big companies. And all of that led to me tweeting out this sort of cryptic tweet about how people are fleeing data visualization. Because there's no. Because there's no data visualization there.",
+      "id": "ep_95_ut_13"
+    },
+    {
+      "end": 387694,
+      "speaker": "Moritz Stefaner",
+      "start": 321992,
+      "text": "Yeah, yeah. I think you wrote, there's something wrong with the state of Dataviz. And I think that was very interesting because some people were like, yeah, exactly. Finally somebody says it. And others, like Enrico and me, also were like, why? Hold on. What's going on? Did we miss something? Oh, my God. Like, what's happening? Yeah. And so I think this was super interesting, but it was clear. Yeah. For some people it was like a hot, burning topics, and others were like, why? It's like, everybody hires data visualization people. The freelancers have always good jobs, and the community seems to thrive. And then you say is like, oh, maybe there is not. Everything is working the way it should. And so I think we wanted to unpack that a bit more and talk about a bit more, like, what the phenomenon is. And I think it's really interesting because the tweet was debated a lot, then there was a lot of discussion on the D3 slack channel, and then it turned into a medium publication and sort of became the sort of snowball effect of debating the role of dataviz in the industry, which I think great, because we need to have these discussions from time to time.",
+      "id": "ep_95_ut_14"
+    },
+    {
+      "end": 436804,
+      "speaker": "Elijah Meeks",
+      "start": 387774,
+      "text": "No, I do think it was really exciting. I think what was particularly exciting to me was that there was always energy for it. I expected the tweet to maybe get a few people who I knew and who were familiar with sort of the. My anonymous sample points. I think that that's who I expected it to sort of resonate with, and maybe a few people it would give voice to, a few people who aren't very public in the way that they engage in this kind of thing. But instead, it was quite. I mean, there were a number of people who echoed it or pushed back on it, and then, like you're saying, when we. When it moved to the slack, the same thing. And then I was surprised at just how many people were interested in these, these medium pieces that we published and their response to that, you know, even with Stephen Few coming in and responding to my piece.",
+      "id": "ep_95_ut_15"
+    },
+    {
+      "end": 454834,
+      "speaker": "Moritz Stefaner",
+      "start": 437744,
+      "text": "So just to qualify a bit more, what you're talking about. Exactly. So you say you see people leave or changing their roles within companies. Where do you see that happening? Is that like an industry wide trend? Or would you say this is more in the tech companies in the valley and the Bay Area?",
+      "id": "ep_95_ut_16"
+    },
+    {
+      "end": 478000,
+      "speaker": "Elijah Meeks",
+      "start": 455694,
+      "text": "Well, I only know tech companies in the Bay Area, so that really is what I'm talking about. I'm talking about the Google, Facebook, Uber, Airbnb, the million startups that are around here. So I have honestly no idea. I have some idea now about companies like Capital one hiring data visualization people.",
+      "id": "ep_95_ut_17"
+    },
+    {
+      "end": 485136,
+      "speaker": "Moritz Stefaner",
+      "start": 478112,
+      "text": "Yeah. Like Kim being head of Capital one database, which is, I think, an amazing development. Congrats, Kim.",
+      "id": "ep_95_ut_18"
+    },
+    {
+      "end": 486376,
+      "speaker": "Enrico Bertini",
+      "start": 485320,
+      "text": "Congrats.",
+      "id": "ep_95_ut_19"
+    },
+    {
+      "end": 487324,
+      "speaker": "Moritz Stefaner",
+      "start": 486560,
+      "text": "Yes.",
+      "id": "ep_95_ut_20"
+    },
+    {
+      "end": 500996,
+      "speaker": "Elijah Meeks",
+      "start": 488784,
+      "text": "I hope she appreciates the trailblazing work I did with that tweet to open up positions like that for her. But so I can only speak to. Right. The tech companies in the Bay Area.",
+      "id": "ep_95_ut_21"
+    },
+    {
+      "end": 501604,
+      "speaker": "Moritz Stefaner",
+      "start": 501060,
+      "text": "Right, right.",
+      "id": "ep_95_ut_22"
+    },
+    {
+      "end": 573438,
+      "speaker": "Elijah Meeks",
+      "start": 501684,
+      "text": "And what I see here, I think that a natural response that folks had, and a very legitimate one, was to say, well, not everybody's gonna do tech. I'm sorry, not everybody's gonna do data visualization 100% of their time. And for a lot of people, data visualization isn't even the primary goal of what they're doing. And there's definitely positions like that. And you definitely see people who are initially in a position focused on data visualization that realize that their zen is in doing data science or doing data engineering. And data visualization really is just a skill that they want to have with that. But what I was really talking about is people who want to do data visualization feel very passionate about it, but feel like it's a dead end job as far as a professional data visualization position that they're not going to build up, they're not going to utilize the skills that they have, they're not going to build up new skills, they're not going to get recognized for the work that they do because oftentimes it's private and they're not going to have any sort of possibility to move into leadership, which is a, you know, which is something that a lot of folks want to do right.",
+      "id": "ep_95_ut_23"
+    },
+    {
+      "end": 644768,
+      "speaker": "Moritz Stefaner",
+      "start": 573486,
+      "text": "And I think in your medium article, which we also link in the blog post, I think you explained quite well that sort of that gap. You see that on the one hand, there's, let's say, more the traditional charting and making better charts community that is often bi centric and maybe the Excel world and the PowerPoint world, and a lot of great work is being done there. But it's maybe not so much the type of work you have in mind as being a data visualization professional because you want to do cool, custom, very focused and newly designed visualizations with a high degree of interactivity. And this type of work is often done, or the visible output. There is often more communications pieces, like the type of work that Accurat is doing, or Periscopic or Fathom or other people, like many freelancers also. And from what I gather from your text is that you feel there's a gap, that there could be a lot of really cool use of these types of visuals in companies, but it's not being recognized it well, this type of activity, right?",
+      "id": "ep_95_ut_24"
+    },
+    {
+      "end": 810144,
+      "speaker": "Elijah Meeks",
+      "start": 644856,
+      "text": "I think so. I think that what we see in companies is we see it's sort of dominated by a minimum level of data visualization literacy, that you have a lot of sort of textbooks telling you how to do data visualization, that focus on data visualization, that maximizes numerical precision and that promotes these kinds of charts. And I think to be very clear, that those textbooks are extremely valuable. Any of these manuals like by Stephen Few, I find them extremely valuable. But I think what they describe is useful techniques for that minimum level of data visualization literacy. And what ends up happening is that minimum level of literacy becomes inoculation almost against any kind of challenging or more advanced chart type. Because if you want to make decisions based on network data or hierarchical data, or geographic data, then you actually have to see the network and geographic and hierarchical patterns. You can't just boil it down into single numerical points that are suitable for a plot or a bar chart. And instead what you end up with in industry is you end up proposing these charts to examine those kinds of, those forms of data. And you're told that that's actually incorrect, right? I mean, the people who hate pie charts the most are the people who have that sort of minimum level of data visualization literacy. And then it extends to a network diagram, it extends to a hierarchical diagram. And I think that what would be useful is if by challenging that it's not so much that people who do data visualization will be able to do more fun things, it's that they'll be able to spend more of their innovation effort on the actual data visualization product, rather than spending the time innovating, as they often are forced to do. Innovating somewhere else in that stack, innovating in the data processing, innovating in the build processes for an application. And I think that, yeah, I think that what we see right now is we see a lot of promotion of innovative and exotic techniques when it comes to software engineering. We see a lot of that when it comes to machine learning. We see a lot of that when it comes to data processing and storage. And then we see very regressive, very conservative views when it comes to anything about data visualization. And I think that does limit the ability for professional data visualization.",
+      "id": "ep_95_ut_25"
+    },
+    {
+      "end": 857162,
+      "speaker": "Enrico Bertini",
+      "start": 811004,
+      "text": "So Elijah, it looks to me that there are two different ways this can be explained and I'm curious to hear from you, if you have any, say, hints on which one is more correct. I would say so. I think it is possible that, say, people in companies that are, that whose job is to make decisions about how to, what is the next project, right. To approve a project may actually not have sufficient literacy. Right. As you just said, to figure out how useful and important it would be to innovate in this direction. Right. I think another explanation is that it's not needed.",
+      "id": "ep_95_ut_26"
+    },
+    {
+      "end": 858054,
+      "speaker": "Moritz Stefaner",
+      "start": 857338,
+      "text": "Right.",
+      "id": "ep_95_ut_27"
+    },
+    {
+      "end": 867254,
+      "speaker": "Enrico Bertini",
+      "start": 858674,
+      "text": "That would be bad, I mean. So, yeah. So what do you think about that?",
+      "id": "ep_95_ut_28"
+    },
+    {
+      "end": 905100,
+      "speaker": "Elijah Meeks",
+      "start": 868834,
+      "text": "I think that it's both, obviously. I think you're right, Enrico, that to a certain degree there will always be a push by people whose passion it is to make things, to make the things that they want to make. And people in leadership need, you know, wrestle, I'm sure with this, when it comes to someone who walks in the door and says, I really love making JavaScript frameworks, and I want to make a new framework, and they say, well, that's great, but what's the business impact of making this reusable framework?",
+      "id": "ep_95_ut_29"
+    },
+    {
+      "end": 905804,
+      "speaker": "Enrico Bertini",
+      "start": 905212,
+      "text": "Yeah, exactly.",
+      "id": "ep_95_ut_30"
+    },
+    {
+      "end": 1001042,
+      "speaker": "Elijah Meeks",
+      "start": 905844,
+      "text": "And I'm sure it's the same thing. I want to come in and I want to use McCandless mountains out of molehills chart and use that to show topic modeling data or something. Right. Why do I want to do that? For the fun of it, because it's interesting. I want to take what he did, and I think I could make it a little bit better. And the data that he used somewhat resembles the data that we have from something. That's not a good business reason to explore that. And I think that that does occur. But I think what's happening right now is that there was just enough knowledge of good datavizability that got spread around, that everyone, as soon as they see something that isn't a very spartan chart, that has bars or lines, it's immediately seen as frivolous. And I think that's a dangerous position to be in because I think sometimes it is. But the different forms of data visualization we have are about preferencing different forms of data that they rely on. And so I think that from a business perspective, while I can't make the claim in an absolute sense, I assume that there are patterns that a company like Netflix or Google or Facebook has that are network patterns, that are hierarchical patterns, that are geographic patterns. And if they try to put those on bar charts and line charts all the time, they're going to miss patterns that they could have discovered ways to maximize.",
+      "id": "ep_95_ut_31"
+    },
+    {
+      "end": 1015906,
+      "speaker": "Moritz Stefaner",
+      "start": 1001098,
+      "text": "But is this on the executive level? Are these the managing directors, like this type of level that has these problems to see the value of more custom visualizations for more specific data sets? That's my assumption, yeah, because that's my.",
+      "id": "ep_95_ut_32"
+    },
+    {
+      "end": 1035511,
+      "speaker": "Elijah Meeks",
+      "start": 1015930,
+      "text": "Experience, too, and that's backed up by that data visualization survey. We created a survey as a result of the tweets and the medium articles and everything else part of the creative process. There was a survey and we had a thousand people respond to it. And I'm sure that the survey has a huge amount of skew in it.",
+      "id": "ep_95_ut_33"
+    },
+    {
+      "end": 1051839,
+      "speaker": "Moritz Stefaner",
+      "start": 1035607,
+      "text": "But a thousand people, I found that really amazing because it was like, just spread on Twitter and just a quick thing. Right. But a thousand people, like, took the time to go through ten pages and, like, answer, like, all these questions. So I think that that's already amazing that so many people respond to that.",
+      "id": "ep_95_ut_34"
+    },
+    {
+      "end": 1132924,
+      "speaker": "Elijah Meeks",
+      "start": 1051871,
+      "text": "Survey, and three quarters of them said that they saw no data visualization in leadership, that they did not see leadership come from data visualization positions. Now, leadership is an ambiguous term, but I think that that seems correct. And I think what you see when you see data visualization in leadership, at least in tech companies in the Bay Area, typically they're not actually in executive positions. They're not in managerial positions. They're in scientific positions. You see chief scientists who are data visualization focused. You see the sort of academic or scientific, but not executive positions with data leadership with data visualization in them. And I think that that's problematic because they make certain decisions, they have a certain type of influence. But the people at the director level, at the vp level, at the c levels, have a different kind of influence. And if all of those people are coming from backgrounds that promote science and engineering in more sort of traditional focus, then you're going to expect them to focus their energies on innovative work that's being done in the areas that they understand best.",
+      "id": "ep_95_ut_35"
+    },
+    {
+      "end": 1149514,
+      "speaker": "Moritz Stefaner",
+      "start": 1133704,
+      "text": "Can I run a few, so I have a few challenges for your general observation, because I'm not even sure if the problem exists or is as big as you describe it. So can I run a few challenges by you real quick just to see how well it all holds up?",
+      "id": "ep_95_ut_36"
+    },
+    {
+      "end": 1151154,
+      "speaker": "Enrico Bertini",
+      "start": 1149814,
+      "text": "Poor Elijah.",
+      "id": "ep_95_ut_37"
+    },
+    {
+      "end": 1157390,
+      "speaker": "Moritz Stefaner",
+      "start": 1152734,
+      "text": "I refuse to accept we should use.",
+      "id": "ep_95_ut_38"
+    },
+    {
+      "end": 1158834,
+      "speaker": "Enrico Bertini",
+      "start": 1157462,
+      "text": "This as a format.",
+      "id": "ep_95_ut_39"
+    },
+    {
+      "end": 1230144,
+      "speaker": "Moritz Stefaner",
+      "start": 1160334,
+      "text": "No, but just like on the leadership aspect, so many companies didn't even have a chief design officer until a few years ago. The tech industry is in general very like traditional, I think, in that term. So they did not even understand that design might be top level important if you build a product. So personally, I think maybe it's just asking too much if we say we want to have a CDO, like a chief database officer or something in every company. And maybe relatedly, maybe it's quite okay or quite natural if many people have data visualization as an add on skill. Like they identify as designers, but they are designers that are really good at designing with data. Or they identify as engineers, but they're really good at building visual data exploration interfaces. So maybe it's okay if very few people actually have a full time data visualization job, but it's fine if like three quarters of people as came out of the survey have data visualization as an add on skill, basically. How do you see that? Is that?",
+      "id": "ep_95_ut_40"
+    },
+    {
+      "end": 1355310,
+      "speaker": "Elijah Meeks",
+      "start": 1230604,
+      "text": "Absolutely. In fact, I think in the real world, the shakedown is going to be even higher than that. Even a quarter. Data visualization is too fundamental a skill for 25% of the people who do data visualization to be doing it as their primary job. I think one of the things you touched on, there was this design engineering split. I don't think every company needs a chief data visualization officer, but I do think that it's very rare for engineers to make these theoretical, good analytical data visualization applications that you referred to. I mean, if I was seeing a lot of great data visualization applications being developed out of an engineering mindset that approaches data visualization as that sort of supplementary skill, then I wouldn't be so concerned. But really, when you see engineers make data visualization applications, they're not very good. So I think that one of the things that you highlighted was that we need to move data visualization more into design. So at the very least, if we're not going to have a chief data visualization officer, that data visualization needs to be recognized as a design problem more than it is an engineering problem. And we need to be more sort of willing to challenge the products that come out of sort of a purely analytical or engineering approach to using data visualization, which I think are the dropdown orgies that you refer to in your article. That's typically the problem of an engineering approach or an analyst approach to creating data visualization, is the Tableau dashboard with 13 tabs, and each tab has 73 options. Because when they were talking to their stakeholders, they just kept saying, yes.",
+      "id": "ep_95_ut_41"
+    },
+    {
+      "end": 1358062,
+      "speaker": "Moritz Stefaner",
+      "start": 1355422,
+      "text": "Yeah. Everybody gets one dropdown and everybody's happy.",
+      "id": "ep_95_ut_42"
+    },
+    {
+      "end": 1374032,
+      "speaker": "Elijah Meeks",
+      "start": 1358118,
+      "text": "Yeah, that's right. And the reality is that you create something that no one can use. And then I think on the other side is actually, now that I. Now that I think about it, your other example, which is the number decoration, is what happens when it's purely coming out of design, when it's purely designers.",
+      "id": "ep_95_ut_43"
+    },
+    {
+      "end": 1376208,
+      "speaker": "Moritz Stefaner",
+      "start": 1374088,
+      "text": "Or marketing or just like.",
+      "id": "ep_95_ut_44"
+    },
+    {
+      "end": 1377144,
+      "speaker": "Elijah Meeks",
+      "start": 1376296,
+      "text": "Yeah, that's right.",
+      "id": "ep_95_ut_45"
+    },
+    {
+      "end": 1378088,
+      "speaker": "Moritz Stefaner",
+      "start": 1377184,
+      "text": "Yeah, exactly.",
+      "id": "ep_95_ut_46"
+    },
+    {
+      "end": 1401734,
+      "speaker": "Elijah Meeks",
+      "start": 1378136,
+      "text": "And so I think that the prevalence of both of those in industry that I can't even, I'm almost scared to guess, but that 90% of the products you see look like one of those two examples is, to my mind, indicative of the need for dedicated roles that are focused on data visualization.",
+      "id": "ep_95_ut_47"
+    },
+    {
+      "end": 1451782,
+      "speaker": "Moritz Stefaner",
+      "start": 1401854,
+      "text": "Yeah, yeah. And, I mean, many companies don't have a real clear spot where, like, a team of data visualization people would live, because the problem is often it's between communications and product, it's between design and engineering. So if they're, like, docked onto one of the existing teams, they might have a. Yeah, a certain bias, or, like, it will only cover half of what they actually do next challenge. Some companies actually get it. So I've been to companies who actually, they make it work, like, internally. So Uber is an example, I hear good things from Spotify. I've been to Airbnb and was quite impressed. So maybe these are the ones that get it and more will follow and maybe it just takes a while until the right cultures develop. What's your take on that?",
+      "id": "ep_95_ut_48"
+    },
+    {
+      "end": 1453754,
+      "speaker": "Elijah Meeks",
+      "start": 1451878,
+      "text": "Well, I mean, that sounds great.",
+      "id": "ep_95_ut_49"
+    },
+    {
+      "end": 1455926,
+      "speaker": "Moritz Stefaner",
+      "start": 1454174,
+      "text": "So I'm an optimist, so.",
+      "id": "ep_95_ut_50"
+    },
+    {
+      "end": 1495610,
+      "speaker": "Elijah Meeks",
+      "start": 1456030,
+      "text": "Yeah, no, no, I'm fundamentally not an optimist myself. But from a leadership perspective, like, that's fine from a sort of sociological perspective. Right. But from a leadership perspective, if you walk in the door at one of these other companies that you didn't label, that you didn't list and say, oh, you know, some companies right now get it and other companies don't, well, that should make people very, very scared. Right? Because if it is true that it's valuable and some companies get it and some companies don't, then doesn't that mean that those companies that get it are going to have an advantage over the ones that don't?",
+      "id": "ep_95_ut_51"
+    },
+    {
+      "end": 1497494,
+      "speaker": "Moritz Stefaner",
+      "start": 1495682,
+      "text": "Yeah, the other ones will die out.",
+      "id": "ep_95_ut_52"
+    },
+    {
+      "end": 1501574,
+      "speaker": "Enrico Bertini",
+      "start": 1499874,
+      "text": "That's my hope as well.",
+      "id": "ep_95_ut_53"
+    },
+    {
+      "end": 1505446,
+      "speaker": "Elijah Meeks",
+      "start": 1502034,
+      "text": "So then that level of panic should.",
+      "id": "ep_95_ut_54"
+    },
+    {
+      "end": 1516630,
+      "speaker": "Enrico Bertini",
+      "start": 1505550,
+      "text": "That's actually a good interviewing strategy, right? It's just like, hey, guys, if you don't hire me, you're gonna go away in five years. You're gonna be a dinosaur.",
+      "id": "ep_95_ut_55"
+    },
+    {
+      "end": 1584544,
+      "speaker": "Elijah Meeks",
+      "start": 1516742,
+      "text": "I actually believe that, you know, a company that has strong data visualization culture, which I agree. I agree with the companies that you list seem to definitely show a willingness to invest in it. I don't know about the culture overall in those companies, but that investment does indicate from leadership a belief in the value of it. And I think that if you have companies where literacy is higher overall, then I can't imagine how they couldn't outperform competitors. So. Yes, but I think that that should be cause for panic and concern among leaders in companies, not a sort of, well, eventually, you know, they'll die. We used to say this back in, in academia. We said, oh, well, you know, eventually the. The old tenured professors who don't believe in computers will die out. Yeah, yeah, right. Which you can do in academia because they have tenure. But out in industry, you presume that these people, before dying out, will just end up going bankrupt. Right?",
+      "id": "ep_95_ut_56"
+    },
+    {
+      "end": 1627168,
+      "speaker": "Moritz Stefaner",
+      "start": 1585204,
+      "text": "Yeah. No, I mean, I agree. I'm just saying sometimes we, let's say the future is often very unevenly distributed, and often when you are at the forefront of a discipline, you're super. You think everybody will adopt the same things within half a year, but actually it takes 20 years. The basic technology was there in the nineties and maybe now we just understand how it works. Multi touch screens were there in the seventies and eighties, VR was there in the eighties. And now these things suddenly become commonplace. And so how fast a technology or a technique is available and how quickly it gets adopted, these are often very different things.",
+      "id": "ep_95_ut_57"
+    },
+    {
+      "end": 1627632,
+      "speaker": "Elijah Meeks",
+      "start": 1627336,
+      "text": "Yeah.",
+      "id": "ep_95_ut_58"
+    },
+    {
+      "end": 1676362,
+      "speaker": "Enrico Bertini",
+      "start": 1627648,
+      "text": "And I have to say, I have exactly the same impression. And I am also one of those restless people who is, I'm always asking myself, why don't we see more of that? Right. But I think it's easy for us to get to this point because that's our bread and butter, right? We're always thinking about ways that that's our main job, almost our life. Right? And I am restless myself. I'm always asking myself, why don't we see more of that? Or what can I do to push more for these things happening? But I agree with Moritz. It takes time, more than I found myself many times after a few years thinking, oh, now this is happening. Right? And, yeah, I just had to wait.",
+      "id": "ep_95_ut_59"
+    },
+    {
+      "end": 1709544,
+      "speaker": "Moritz Stefaner",
+      "start": 1676458,
+      "text": "At the same time, I think it circles back to Elijah's original point, interestingly, because also in the article, Elijah, you say if we just look at the information, it's beautiful awards. And just on this cutting edge of doing interesting communication stuff with data, if we always just look there and never look at what is that pragmatic part, what companies actually need, and how can we make that happen then? Maybe it does not trickle down or maybe it does not follow immediately. This is also why I was a bit like, maybe we really need to do something here. Yeah.",
+      "id": "ep_95_ut_60"
+    },
+    {
+      "end": 1736312,
+      "speaker": "Enrico Bertini",
+      "start": 1709624,
+      "text": "And I have to say that it's also interesting in terms of, in which kind of markets visualization has been spreading out. Right. So I think we had a huge wave of database done in data journalism and in general communication, as you said at the beginning, Moritz, but this doesn't prevent these to spread in other react. Right. Maybe it just takes more time right now.",
+      "id": "ep_95_ut_61"
+    },
+    {
+      "end": 1766944,
+      "speaker": "Moritz Stefaner",
+      "start": 1736328,
+      "text": "It really takes off in sports, like, the last few years have seen a huge rush. Sports analytics and sports visualization. This is something I observe and, yeah, other industries maybe take another five years, attend until, you know, somebody does something groundbreaking there where everybody realizes, oh, my God, if we visualize it, we're much better off. I mean, that's my hope, at least. So let's see, hypothetically, there is a problem. You know, I'm not. I'm not admitting anything. Right. Just hypothetically. I mean, if there was a problem, what could we do?",
+      "id": "ep_95_ut_62"
+    },
+    {
+      "end": 1771884,
+      "speaker": "Elijah Meeks",
+      "start": 1770524,
+      "text": "The possibility of a problem?",
+      "id": "ep_95_ut_63"
+    },
+    {
+      "end": 1773060,
+      "speaker": "Moritz Stefaner",
+      "start": 1771924,
+      "text": "Yeah, just hypothetically.",
+      "id": "ep_95_ut_64"
+    },
+    {
+      "end": 1784580,
+      "speaker": "Elijah Meeks",
+      "start": 1773172,
+      "text": "Yeah, I think that, you know what I. What I'd really love to see is. I'd love to see. I don't know. So first of all, I have no idea. I don't know. I don't know how to fix.",
+      "id": "ep_95_ut_65"
+    },
+    {
+      "end": 1785504,
+      "speaker": "Moritz Stefaner",
+      "start": 1784652,
+      "text": "That's fine.",
+      "id": "ep_95_ut_66"
+    },
+    {
+      "end": 1786892,
+      "speaker": "Elijah Meeks",
+      "start": 1785844,
+      "text": "I only know the things.",
+      "id": "ep_95_ut_67"
+    },
+    {
+      "end": 1788384,
+      "speaker": "Moritz Stefaner",
+      "start": 1786948,
+      "text": "You don't have to save the world.",
+      "id": "ep_95_ut_68"
+    },
+    {
+      "end": 1829430,
+      "speaker": "Elijah Meeks",
+      "start": 1789134,
+      "text": "But I can think of what's missing and it seems like, for instance, there isn't a good emphasis on training beyond that sort of initial, like I said, that minimum data visualization, literacy level, there's not a good structured approach to talk to people about charts after they've gotten, they've absorbed the lessons from like Cole, moose bomber, or Stephen Few. How do we introduce them to good charts in these other data types?",
+      "id": "ep_95_ut_69"
+    },
+    {
+      "end": 1839910,
+      "speaker": "Moritz Stefaner",
+      "start": 1829622,
+      "text": "And the same actually, in D3, there's a lot of blocks that show you how to do one cool trick, but there are very little resources. How to build a really scalable application with D3.",
+      "id": "ep_95_ut_70"
+    },
+    {
+      "end": 1959056,
+      "speaker": "Elijah Meeks",
+      "start": 1840102,
+      "text": "Well, I think that the D3, I think that unfortunately, and I wrote a book on D3, there's a second edition coming on. It's going to be great. But I think D3 is part of the problem because, you know, D3 is spread by example. And it's a lot of these flashy, self contained examples that for the most part were, you know, engineering problems that are not thought out as far as sort of annotating them and making them into an actual functional delivery device for information. Yeah. And so you have a lot of cool examples. Yeah, yeah. That get a lot of retweets and that might win an information is beautiful award, but that aren't actually good at delivering information. And as a result, you end up supporting these arguments that they're not that complex. Charts aren't good for relaying information. And so I think we need some. I think that, yeah, I would love to see some kind of structured approach that introduced network visualization, hierarchical visualization, and then I guess what you would need paired with that is really good, sort of best of class examples of that. And why, you know, what's the best circle pack you've ever seen? Have you ever seen a useful circle pack? Because I've seen a lot of circle packs. Right. And the same with tree maps. What makes a good tree map? What makes a good dendrogram? When should I use a dendrogram instead of a tree map? When should I use a matrix, an adjacency matrix instead of a force directed network diagram? And what makes a good one? And I don't see those. I mean, there's a lot of work done by Shneiderman and folks like that academically, but I haven't seen it sort of put down into an actual sort of, here's some answers in a nice, clean, I don't know, manual or so.",
+      "id": "ep_95_ut_71"
+    },
+    {
+      "end": 1961200,
+      "speaker": "Moritz Stefaner",
+      "start": 1959080,
+      "text": "There's no professional training, really, for data.",
+      "id": "ep_95_ut_72"
+    },
+    {
+      "end": 1964454,
+      "speaker": "Elijah Meeks",
+      "start": 1961232,
+      "text": "Visualization experts beyond that.",
+      "id": "ep_95_ut_73"
+    },
+    {
+      "end": 2065050,
+      "speaker": "Enrico Bertini",
+      "start": 1965474,
+      "text": "Yeah, no, I agree. And I have to say that you're putting your finger on something that is close to my heart, because I had quite a few discussions with colleagues working in academia and in visualization, and we kind of realized that there are some really, really good practical questions. Right. You just mentioned three or four. Right. And when you look at the literature, there's nothing out there. Right. So I literally had, what, a couple of days ago, a very nice chat with one of my colleagues. And he was like, you know, when I talk to people that work in other areas, they come to me and say, hey, by the way, what do you, these guys do? You know, what's the, what's the answer to this thing? And he's like, no. He's like, and the other guy's like, you've been researching this for 20 years. How come you don't have an answer to that? Right. So I think, I mean, there's a little bit of self blaming here, but I do think that there is a problem also in research because there are lots of very esoteric things that we've been researching. But when you go to, I mean, as you just said, when do I use a network, a nodline diagram versus adhesion symmetrics? Right. Well, actually, there happened to be a paper about that, but it's not the best example. But in this case, there are a couple of papers. But I think in general, there are lots of very low level and important questions that even in research are not very well addressed. So this looks very interesting.",
+      "id": "ep_95_ut_74"
+    },
+    {
+      "end": 2135274,
+      "speaker": "Elijah Meeks",
+      "start": 2065082,
+      "text": "So, Moritz, I've come up with more solutions. So let me frame to you a very real common occurrence in industry. You go into a meeting and people argue about what kind of JavaScript framework we should use, right? Look, should we use angular or react or whatever? They argue, people make certain cases, and then somebody says, okay, you're right. They argue about what kind of database or data storage they should use. They argue, people make cases, somebody makes some claims. And finally, people say, you're right. When I come into a room and I talk about we should use this data visualization method, people argue, everybody has a picture. There's no acknowledging that there's any sort of thing approaching expertise when it comes to data visualization. People refer to their own intuitions, and then they point to the horrible examples of whatever method you've referred to as evidence that no one should ever use it. And there's no. And so it's a very different form of negotiation than with any other of the technological approaches that are required to implement applications in industry.",
+      "id": "ep_95_ut_75"
+    },
+    {
+      "end": 2160062,
+      "speaker": "Moritz Stefaner",
+      "start": 2135654,
+      "text": "But that's a problem with design in general, that everybody seems to think they can have valid opinions on design for some reason. But I agree, it's a challenge. And often people have preconceived notions, or they just react from a gut feeling and just don't even listen to you anymore after that. They just see something and they say, like, it's way too complicated, or, I don't get it, what's the point?",
+      "id": "ep_95_ut_76"
+    },
+    {
+      "end": 2175030,
+      "speaker": "Elijah Meeks",
+      "start": 2160198,
+      "text": "Or they speak for their, they speak for their stakeholders. And you constantly hear about people saying, oh, no, no, no, people aren't going to get this. No, I know people. They're very stupid, and they're not going to be able to read this, so we're not going to even show it.",
+      "id": "ep_95_ut_77"
+    },
+    {
+      "end": 2220684,
+      "speaker": "Moritz Stefaner",
+      "start": 2175062,
+      "text": "I mean, the way I solve it in my projects, because, of course, I have the same problem problem all the time. And so I have sort of developed a method to build up this trust in every new project. And it's always a combination of things. Like, I explain my process. I say what happens when and what it means when I show something specific, like, what are the different types of products, like, how do I understand what the best chart type is? And I walk people through, like, my own process there. I also, like, try to somehow make sure I sort of drop my credentials at some points that I have a degree in cognitive science and, you know, so that they sort of trust my judgment from that end. And so you need to find sort of a method to actually. Yeah, make sure people take you seriously.",
+      "id": "ep_95_ut_78"
+    },
+    {
+      "end": 2308614,
+      "speaker": "Elijah Meeks",
+      "start": 2221304,
+      "text": "What you described, though, when it comes to trust and individual credibility, and this is because it's exactly what I have to do at Netflix and elsewhere. What you're describing is a solution for individuals. What we need is we need something that refers to expertise and is a solution for a field. It can't be because a lot of people aren't going to be individually charismatic or convincing. They're not going to. That's not what, you know, you can't say, the only people who are going to succeed at data visualization are those who are individually, socially power, you know, good at that kind of thing. We want people who succeed at data visualization who aren't good at social cues and who aren't good at dealing with that negotiation aspect. That shouldn't be a prerequisite is what I'm saying. And right now it very much seems like it is. In fact, I would say that almost all of the successful people I see in data visualization have that, and I don't think that that should be a requirement. I understand that there's a lot of skew because a lot of the success that you see, these are freelancers and consultants, that that's a necessary part of their job. But I even see it inside industry, and it shouldn't be that you should be able to win an argument because you're right and your expertise is acknowledged, not because you know how to win arguments.",
+      "id": "ep_95_ut_79"
+    },
+    {
+      "end": 2350276,
+      "speaker": "Moritz Stefaner",
+      "start": 2309394,
+      "text": "But isn't that automatically like this in an interdisciplinary, emerging field? I mean, there was this discussion. Is it a young discipline? I would say yes and no, because in many ways we have. We build on age old traditions, but in many ways, like interactive visualization, that is sort of between art and design and tech and statistics is sort of new, at least to many people. So I would almost say it has to be like this. I agree. It would be much nicer if we can sort of start from a baseline understanding that visual sense making is absolutely essential to any company doing data related stuff. You know, I'd love to start there, but reality is, we at the moment, we can't.",
+      "id": "ep_95_ut_80"
+    },
+    {
+      "end": 2351740,
+      "speaker": "Elijah Meeks",
+      "start": 2350380,
+      "text": "I think I agree.",
+      "id": "ep_95_ut_81"
+    },
+    {
+      "end": 2359636,
+      "speaker": "Enrico Bertini",
+      "start": 2351812,
+      "text": "Another controversial point, maybe I'm wondering if we are to some extent to blame because you and I.",
+      "id": "ep_95_ut_82"
+    },
+    {
+      "end": 2363236,
+      "speaker": "Elijah Meeks",
+      "start": 2359740,
+      "text": "Yes, that is, in fact, was my final point.",
+      "id": "ep_95_ut_83"
+    },
+    {
+      "end": 2373600,
+      "speaker": "Enrico Bertini",
+      "start": 2363300,
+      "text": "No, no, no. We visualization people is bad for data visualization. It's all data stories fault.",
+      "id": "ep_95_ut_84"
+    },
+    {
+      "end": 2381800,
+      "speaker": "Moritz Stefaner",
+      "start": 2373792,
+      "text": "But I'll take the blame. We don't invite enough business people. I would totally take that. Yeah, that's a really good point. And we should get better there.",
+      "id": "ep_95_ut_85"
+    },
+    {
+      "end": 2470110,
+      "speaker": "Enrico Bertini",
+      "start": 2381912,
+      "text": "We should have more of that. But what I was about to say is that this has this tradition of doing very complex things. Right. Both. So it's true in academia, it's true in freelancers, it's true in designers, it's true in data journalism to some extent. And what we tend to produce when somebody gives us freedom to do whatever we want tends to be pretty complex to parse visually. Right. And that's a problem. I do see that as a problem. Right. Of course, this doesn't mean that we have to go back to these little dashboards with dials and stuff. Right. I think there are problems on both sides, but I do see this problem, that visualization people tend to think, tend to design things that are pretty complex to parse, especially because they tend to be fleshy and to attract people's attention. Right. But when you try to use these things in a business setting, I can totally imagine people saying, hey, man, I mean, I don't want to see that. That's. That's too complex. Right. My customer or my. The data scientist, who needs to work with that. It just needs to solve a problem. It doesn't want to deal with this flesh stuff. Right. And I'm not saying that that's a good argument for oversimplifying things or that we don't need innovation because of that, but I do see this as a problem.",
+      "id": "ep_95_ut_86"
+    },
+    {
+      "end": 2472406,
+      "speaker": "Moritz Stefaner",
+      "start": 2470222,
+      "text": "Yeah. That we should design around users needs.",
+      "id": "ep_95_ut_87"
+    },
+    {
+      "end": 2473374,
+      "speaker": "Enrico Bertini",
+      "start": 2472510,
+      "text": "Yeah, exactly.",
+      "id": "ep_95_ut_88"
+    },
+    {
+      "end": 2572420,
+      "speaker": "Elijah Meeks",
+      "start": 2473454,
+      "text": "No, I agree. And in fact, I mean, when I came from Stanford to Netflix, at Stanford, I was being rewarded for creating. For pushing the boundaries of what you could use data visualization for. We were as Moritz as we were talking about, we were using data visualization to represent genealogical networks of British cultural elites. Right. These are strange and interesting things that if you use a strange and interesting method, then that's actually impactful, just because it's novel. The novelty itself is impactful. And at Netflix, I found the most professional growth was in making charts and diagrams that were actually simple and readable and focused on readability, and really learning about user centered design and making things that people understood. And I think that that dominates the theory of what you can make in the professional environment. But I think that people can understand these more challenging diagrams. I think that there are times for them, and I think that right now, what we're dealing with isn't a sort of natural. The industry is young and we're growing. I think actually what we're dealing with is we're dealing with active regressives who are saying, no, you shouldn't use anything but this simple chart, because either because people are dumb or because people are busy, or because you're being self indulgent and frivolous, that really.",
+      "id": "ep_95_ut_89"
+    },
+    {
+      "end": 2573824,
+      "speaker": "Enrico Bertini",
+      "start": 2572492,
+      "text": "Yeah, that's a good point.",
+      "id": "ep_95_ut_90"
+    },
+    {
+      "end": 2615432,
+      "speaker": "Elijah Meeks",
+      "start": 2574324,
+      "text": "And for us to ignore it is. I think it's actually one of the flaws of our community, is that we always pretend to good intentions on everyone's part. Instead of saying, no, you need to actively argue against people who are saying that we always have to do simple, that we always have to do immediately readable for the busy executive who needs to make a decision in five minutes. Well, yes, that's one of the use cases. But other use cases are deep reading of phenomena that are going to be benefited by complex and deep charting of that phenomena.",
+      "id": "ep_95_ut_91"
+    },
+    {
+      "end": 2650726,
+      "speaker": "Enrico Bertini",
+      "start": 2615488,
+      "text": "Yeah, yeah. But one thing that I like to say is that good visualizations tend to be sophisticated, right. In a way that when you look at them, they are not, you're not overwhelmed, but once you analyze them and you understand that there is a lot of really good design behind them. Right. So, and that's kind of like the nirvana of this, right. Something that doesn't overwhelm you, but at the same time it's pretty sophisticated. Right. And I don't see a lot of that out there and that's what we need to achieve.",
+      "id": "ep_95_ut_92"
+    },
+    {
+      "end": 2676810,
+      "speaker": "Elijah Meeks",
+      "start": 2650790,
+      "text": "I think you're right, Enrico. And I think that, I think that there's something really interesting. I love words, you know, sort of contrasting words that seem similar. And I would love a sort of examination of complicated versus sophisticated. Yeah, I think that would, you know, if Enrico were ever to write something and he wrote for our little publication, that I would, because I would love an exploration of what, you know, what we mean by that.",
+      "id": "ep_95_ut_93"
+    },
+    {
+      "end": 2677842,
+      "speaker": "Enrico Bertini",
+      "start": 2676842,
+      "text": "And let's do that.",
+      "id": "ep_95_ut_94"
+    },
+    {
+      "end": 2712840,
+      "speaker": "Elijah Meeks",
+      "start": 2677938,
+      "text": "Yeah. By exploring it, we establish it. Right. Because that's literally what I mean when I say this. I'm not interested in complicated visualization. I'm interested in sophisticated visualization, which sometimes has complicated forms and sometimes is just very sublime and simple. But I think that in pushing against. Yeah, I think that there's a real unsophisticated trend in data visualization right now and a sort of, sort of. Yeah, I mean, I keep saying regressive and I really mean that. I think there's this regressive push back against that.",
+      "id": "ep_95_ut_95"
+    },
+    {
+      "end": 2741662,
+      "speaker": "Moritz Stefaner",
+      "start": 2712952,
+      "text": "But coming back, Maddox people, what our own fault is or how we could improve, maybe we need to provide more case studies really of how to design complex visualizations, how to determine user needs, how to get to an end result through iteration and testing, like to do really solid user interface design also, and we have actually, from academia, really good case studies where people sat down for two years with biologists for like ten people and make the perfect, that's what.",
+      "id": "ep_95_ut_96"
+    },
+    {
+      "end": 2742566,
+      "speaker": "Enrico Bertini",
+      "start": 2741678,
+      "text": "I was about for them.",
+      "id": "ep_95_ut_97"
+    },
+    {
+      "end": 2778370,
+      "speaker": "Moritz Stefaner",
+      "start": 2742630,
+      "text": "And it was not lost time because they actually found something substantial, new or they were able to create a new drug or found a new protein folding, I don't know what. Yeah, so the funny thing is these success stories that it pays off to do custom data visualization, they exist, but they don't really exist in business. And one reason is of course NDAs and secrecy and, and the other thing is, of course there's no big benefit after you have built that amazing interface to share it with others or like document that. Like there's the incentive structure is missing, I feel. But no, if you don't have these stories, how will you ever make that case convincingly? Right?",
+      "id": "ep_95_ut_98"
+    },
+    {
+      "end": 2802064,
+      "speaker": "Elijah Meeks",
+      "start": 2778442,
+      "text": "So I work with Susie Liu directly at Netflix, and we talk about this all the time when we're getting ready to show some work we're doing, but we're going to show it at some kind of meetup or something, or somebody who's using it needs to show it. And they say, oh, could you randomize the data? And then we randomize the data for the works that we built. And they look terrible at that point.",
+      "id": "ep_95_ut_99"
+    },
+    {
+      "end": 2804368,
+      "speaker": "Moritz Stefaner",
+      "start": 2802184,
+      "text": "Yeah, all the structure is gone. Of course.",
+      "id": "ep_95_ut_100"
+    },
+    {
+      "end": 2876354,
+      "speaker": "Elijah Meeks",
+      "start": 2804416,
+      "text": "Yeah, all the structure is gone. And it was designed to show this kind of structure. And now it's just nice colors and interesting charts living next to each other. And it looks really sort of, I mean, it. And how do you share insights about that? And I think that, you know, that goes back to that reward structure, because as a data visualization professional, as someone who wants to thrive in this field, that means that I suffer for it because I have nothing to show. Right. I have no, the things that I can share on Twitter are whatever small examples I do on the side or pieces of it. And if you extrapolate out to, say, a young person in the field, and they realize that if they open source the whatever backend code, which can be genericized and it's, okay, detached from its actual designed use case, and they get credit and they get esteem from their colleagues for open sourcing that code, and they can't get any credit or esteem from their colleagues when it comes to the data visualization work, then really, what kind of situation do you create for people to advance in their field?",
+      "id": "ep_95_ut_101"
+    },
+    {
+      "end": 2879586,
+      "speaker": "Enrico Bertini",
+      "start": 2876514,
+      "text": "Elijah, are you familiar with the work of Tamara Munzner?",
+      "id": "ep_95_ut_102"
+    },
+    {
+      "end": 2880314,
+      "speaker": "Elijah Meeks",
+      "start": 2879650,
+      "text": "I am, yeah.",
+      "id": "ep_95_ut_103"
+    },
+    {
+      "end": 2932436,
+      "speaker": "Enrico Bertini",
+      "start": 2880354,
+      "text": "Yeah. She's done a lot of interesting. She has quite a few of these papers where, yeah, she's been interacting with domain experts for two or more years and going through several iterations. And her papers give a lot of details about what happened and what are the intermediary products and the end product. So I think that for anyone listening to the show and is not familiar with this work, I think it's a really, really good example of what can be sophisticated and not complicated. Right. So I think. But I agree with Moritz. I think it would be great to have similar examples coming from industry that would be even more convincing for people that are actually working in industry. I just don't know how to make this stuff come to surface. Right. It looks much harder to me.",
+      "id": "ep_95_ut_104"
+    },
+    {
+      "end": 3004466,
+      "speaker": "Moritz Stefaner",
+      "start": 2932520,
+      "text": "Yeah, that's true. And it seems like a structural problem really. But also, I mean, other industries were able to overcome that too. Like we have a lot of good engineering, open source work. For instance, coming out of companies. There seems to be some value in, for instance, open sourcing, like engineering work. Maybe we can also create some value by open sourcing, you know, design solutions or design methods and like make that a real something companies like to be proud about and share with others, like how awesome their database team works. Some companies use that actually to really attract talent, I heard is to be very communicative with their data visualization work because everybody loves data visualization. It's a good advertisement to attract good people, which might speak to your original point, by the way. But the other point is I think really we need to work on making it a real profession. This is something I realized much more now. We need much better like actual professional training. And like I'm now intrigued to like maybe write a blog post about like process and method, like, you know, like how to get to a good end result. Really. And I also really like Andy Kirk's book by the way.",
+      "id": "ep_95_ut_105"
+    },
+    {
+      "end": 3007882,
+      "speaker": "Elijah Meeks",
+      "start": 3004530,
+      "text": "Well, we have no professional society. We have no professional journal.",
+      "id": "ep_95_ut_106"
+    },
+    {
+      "end": 3062708,
+      "speaker": "Moritz Stefaner",
+      "start": 3007978,
+      "text": "No journal, no. Yeah, yeah, that's the thing. It's a small, it's a small young discipline. That's my theory that it's, it needs all this, these things still to have an actual standing. Yeah, absolutely agree. Thanks for sparking so much debate with a single tweet. I think that was an amazing achievement in itself. It might be the most discussed tweet in the history of data visualization potentially. And I really like what's coming out of this because for many people it was like, for some it was a wake up call. For some it was a provocation, for others it was like, oh, what's going on? But everybody had some reaction to it. And I think there's now a lot of really good debate coming out of it. And I just hope that in five years we'll be like, oh, remember laughing? Remember before we're all like chief data visualization officer somewhere and like have a good time. Thanks so much for joining us, Elijah.",
+      "id": "ep_95_ut_107"
+    },
+    {
+      "end": 3069524,
+      "speaker": "Elijah Meeks",
+      "start": 3062796,
+      "text": "This was a wonderful conversation. I really appreciate you guys inviting me on here. This has just been extremely enlightening for me.",
+      "id": "ep_95_ut_108"
+    },
+    {
+      "end": 3070660,
+      "speaker": "Moritz Stefaner",
+      "start": 3069604,
+      "text": "Yeah, thank you.",
+      "id": "ep_95_ut_109"
+    },
+    {
+      "end": 3072964,
+      "speaker": "Elijah Meeks",
+      "start": 3070772,
+      "text": "Thank you guys so much. I really do appreciate it.",
+      "id": "ep_95_ut_110"
+    },
+    {
+      "end": 3075220,
+      "speaker": "Enrico Bertini",
+      "start": 3073004,
+      "text": "Thanks so much. Bye bye. Take care.",
+      "id": "ep_95_ut_111"
+    },
+    {
+      "end": 3076384,
+      "speaker": "Elijah Meeks",
+      "start": 3075292,
+      "text": "Bye bye now.",
+      "id": "ep_95_ut_112"
+    },
+    {
+      "end": 3090574,
+      "speaker": "Enrico Bertini",
+      "start": 3082974,
+      "text": "Hey guys, thanks for listening to data stories again. Before you leave, here are a few ways you can support the show and get in touch with us.",
+      "id": "ep_95_ut_113"
+    },
+    {
+      "end": 3105286,
+      "speaker": "Moritz Stefaner",
+      "start": 3090654,
+      "text": "First, we have a page on Patreon, where you can contribute an amount of your choosing per episode. As you can imagine, we have some costs for running the show and we would love to make it a community driven project. You can find the page@patreon.com Datastories and.",
+      "id": "ep_95_ut_114"
+    },
+    {
+      "end": 3115894,
+      "speaker": "Enrico Bertini",
+      "start": 3105310,
+      "text": "If you can spend a couple of minutes rating us on iTunes, that would be extremely helpful for the show. Just search us in iTunes store or follow the link in our website.",
+      "id": "ep_95_ut_115"
+    },
+    {
+      "end": 3140022,
+      "speaker": "Moritz Stefaner",
+      "start": 3116234,
+      "text": "And we also want to give you some information on the many ways you can get news directly from us. We're of course, on twitter@twitter.com. Datastories. But we also have a Facebook page@Facebook.com, datastoriespodcast and we also have a newsletter. So if you want to get news directly into your invoice box, go to our homepage data stories and look for the link that you find in the footer.",
+      "id": "ep_95_ut_116"
+    },
+    {
+      "end": 3161632,
+      "speaker": "Enrico Bertini",
+      "start": 3140158,
+      "text": "And finally, you can also chat directly with us and other listeners. Using Slack again, you can find a button to sign up at the bottom of our page. And we do love to get in touch with our listeners. So if you want to suggest a way to improve the show or know amazing people you want us to invite or projects you want us to talk about, let us know.",
+      "id": "ep_95_ut_117"
+    },
+    {
+      "end": 3215154,
+      "speaker": "Moritz Stefaner",
+      "start": 3161728,
+      "text": "That's all for now. See you next time, and thanks for listening to data stories data stories is brought to you by the upcoming 27 I O festival. The annual I O festival brings together people drawn to the intersection of data, art, storytelling and creative technology. This June joined world renowned names in data design like Nicholas Felton, Jennifer Danyel, Manuel Lima and many more. More for four days of inspiring talks and workshops. IO is all about sharing ideas, building community, and finding new inspiration. And if you enjoy data stories, you'll probably be interested in the I O festival. That's my guess, at least. Tickets are on sale right now. They're almost gone, so that might be your last chance to get one. Get it@EYEO festival.com. that's EYEO festival.com and converge to inspire.",
+      "id": "ep_95_ut_118"
+    }
+  ],
+  "confidence": 0.93356673034362,
+  "audio_duration": 3215,
+  "punctuate": true,
+  "format_text": true,
+  "dual_channel": false,
+  "webhook_url": null,
+  "webhook_status_code": null,
+  "webhook_auth": false,
+  "webhook_auth_header_name": null,
+  "speed_boost": false,
+  "auto_highlights_result": null,
+  "auto_highlights": false,
+  "audio_start_from": null,
+  "audio_end_at": null,
+  "word_boost": [],
+  "boost_param": null,
+  "filter_profanity": false,
+  "redact_pii": false,
+  "redact_pii_audio": false,
+  "redact_pii_audio_quality": null,
+  "redact_pii_policies": null,
+  "redact_pii_sub": null,
+  "speaker_labels": true,
+  "content_safety": false,
+  "iab_categories": true,
+  "content_safety_labels": {
+    "status": "unavailable",
+    "results": [],
+    "summary": {}
+  },
+  "language_detection": false,
+  "language_detection_threshold": null,
+  "language_confidence": null,
+  "custom_spelling": null,
+  "throttled": false,
+  "auto_chapters": true,
+  "summarization": false,
+  "summary_type": null,
+  "summary_model": null,
+  "custom_topics": false,
+  "topics": [],
+  "speech_threshold": null,
+  "speech_model": "best",
+  "chapters": [
+    {
+      "summary": "The annual I O festival brings together people drawn to the intersection of data, art, storytelling, and creative technology. Join world renowned names in data design for four days of inspiring talks and workshops. Tickets are on sale right now.",
+      "gist": "Data Stories",
+      "headline": "The annual I O festival brings together people drawn to data, art, storytelling",
+      "start": 320,
+      "end": 61104,
+      "id": "ep_95_ch_0"
+    },
+    {
+      "summary": "This is a new episode of data stories. If you like the show and you want to help us with this, just go to patreon. com Datastories. If everybody chips in and we have a crowdfunded show, I'd be all for that.",
+      "gist": "Data Stories",
+      "headline": "You can support the show with Patreon",
+      "start": 80354,
+      "end": 130614,
+      "id": "ep_95_ch_1"
+    },
+    {
+      "summary": "Elijah Meeks on the show. Good to have him on. What are we talking about today? As many things, it starts with a tweet.",
+      "gist": "Elijah Meeks On The FAST",
+      "headline": "Elijah Meeks is on the show today. Hi, Elijah. How are you doing",
+      "start": 131994,
+      "end": 149094,
+      "id": "ep_95_ch_2"
+    },
+    {
+      "summary": "Elijah Wood: I work at Netflix as a senior data visualization engineer. He says a lot of people are leaving data visualization because there's not enough work. Wood: There are fewer avenues for advancement because there just aren't data visualization people in leadership positions in the big companies.",
+      "gist": "Why Data Visualization Engineers Are Leaving Netflix",
+      "headline": "Elijah Johnson tweets about how people are fleeing data visualization at Netflix",
+      "start": 149454,
+      "end": 360328,
+      "id": "ep_95_ch_3"
+    },
+    {
+      "summary": "The tweet was debated a lot, then there was a lot of discussion on the D3 slack channel, and then it turned into a medium publication. It became the sort of snowball effect of debating the role of dataviz in the industry.",
+      "gist": "The role of dataviz in the industry",
+      "headline": "The tweet was debated a lot, then there was a medium publication",
+      "start": 360376,
+      "end": 436804,
+      "id": "ep_95_ch_4"
+    },
+    {
+      "summary": "People leaving or changing their roles within companies. Is that like an industry wide trend? Or would you say this is more in the tech companies in the Bay Area. What we see in companies is a minimum level of data visualization literacy. People who want to do data visualization feel like it's a dead end job.",
+      "gist": "Data Visualization Resignations",
+      "headline": "You say you see people leaving or changing their roles within companies",
+      "start": 437744,
+      "end": 907020,
+      "id": "ep_95_ch_5"
+    },
+    {
+      "summary": "I think what's happening right now is that there was just enough knowledge of good datavizability that got spread around. As soon as they see something that isn't a very spartan chart, that has bars or lines, it's immediately seen as frivolous. But is this on the executive level? Are these the managing directors that see the value of more custom visualizations?",
+      "gist": "Data visualization: frivolous or serious?",
+      "headline": "A thousand people respond to a survey about custom data visualization",
+      "start": 907052,
+      "end": 1051839,
+      "id": "ep_95_ch_6"
+    },
+    {
+      "summary": "Survey: Three quarters said that they saw no data visualization in leadership. Typically they're not actually in executive positions. They're in scientific positions. Maybe it's just asking too much if we want to have a CDO in every company.",
+      "gist": "The role of data visualization in tech leadership",
+      "headline": "Three quarters of respondents say they see no data visualization in leadership",
+      "start": 1051871,
+      "end": 1249704,
+      "id": "ep_95_ch_7"
+    },
+    {
+      "summary": "Data visualization needs to be recognized as a design problem more than it is an engineering problem. Many companies don't have a real clear spot where a team of data visualization people would live. Those companies that get it are going to have an advantage over the ones that don't.",
+      "gist": "The Need for a Chief Data Visualization Officer",
+      "headline": "One of the things you highlighted was that we need to move data visualization more into design",
+      "start": 1250364,
+      "end": 1755804,
+      "id": "ep_95_ch_8"
+    },
+    {
+      "summary": "There's no professional training, really, for data visualization. Charts aren't good for relaying information. I would love to see some kind of structured approach that introduced network visualization, hierarchical visualization.",
+      "gist": "What's the problem with network visualization in D3?",
+      "headline": "There isn't a good emphasis on training beyond minimum data visualization, literacy level",
+      "start": 1756184,
+      "end": 2065050,
+      "id": "ep_95_ch_9"
+    },
+    {
+      "summary": "There's no acknowledging that there's any sort of thing approaching expertise when it comes to data visualization. Often people have preconceived notions, or they just react from a gut feeling. What we need is something that refers to expertise and is a solution for a field.",
+      "gist": "In the Elevator With Data Visualization Experts",
+      "headline": "There's no acknowledgment that there's anything approaching expertise when it comes to data visualization",
+      "start": 2065082,
+      "end": 2351740,
+      "id": "ep_95_ch_10"
+    },
+    {
+      "summary": " visualization people tend to think, tend to design things that are pretty complex to parse, especially because they tend to be fleshy. At Netflix, I found the most professional growth was in making charts and diagrams that were actually simple and readable. We should design around users needs.",
+      "gist": "The Complexity of Data Visualization",
+      "headline": "Another controversial point, maybe I'm wondering if we are to blame for bad data visualization",
+      "start": 2351812,
+      "end": 2654010,
+      "id": "ep_95_ch_11"
+    },
+    {
+      "summary": "Elijah: I would love a sort of examination of complicated versus sophisticated visualization. He says there's a real unsophisticated trend in data visualization right now. Elijah: Maybe we need to provide more case studies of how to design complex visualizations.",
+      "gist": "Data Visualization: Complicated vs. Sophisticated",
+      "headline": "I think there's a real unsophisticated trend in data visualization right now",
+      "start": 2654042,
+      "end": 3076384,
+      "id": "ep_95_ch_12"
+    },
+    {
+      "summary": "We have a page on Patreon, where you can contribute an amount of your choosing per episode. If you can spend a couple of minutes rating us on iTunes, that would be extremely helpful for the show. We also want to give you some information on the many ways you can get news directly from us.",
+      "gist": "How to support Datastories!",
+      "headline": "Before you leave, here are a few ways you can support the show",
+      "start": 3082974,
+      "end": 3162624,
+      "id": "ep_95_ch_13"
+    },
+    {
+      "summary": "The annual I O festival brings together people drawn to the intersection of data, art, storytelling and creative technology. Four days of inspiring talks and workshops. Tickets are on sale right now.",
+      "gist": "Intro to the IO Festival",
+      "headline": "The annual I O festival brings together people drawn to data, art, storytelling",
+      "start": 3162704,
+      "end": 3215154,
+      "id": "ep_95_ch_14"
+    }
+  ],
+  "disfluencies": false,
+  "entity_detection": false,
+  "sentiment_analysis": false,
+  "sentiment_analysis_results": null,
+  "entities": null,
+  "speakers_expected": null,
+  "summary": null,
+  "custom_topics_results": null,
+  "episode_num": 95,
+  "episode_metadata": {
+    "speakers": [
+      "Elijah Meeks",
+      "Moritz Stefaner",
+      "Enrico Bertini"
+    ],
+    "WPid": "904",
+    "url": "https://datastori.es/podlove/file/3765/s/feed/c/mp3/95-challenges-of-being-a-dataviz-professional-in-the-industry-with-elijah-meeks.mp3",
+    "episode_title": "Challenges of Being a Vis Professional in Industry with Elijah Meeks"
+  }
+}

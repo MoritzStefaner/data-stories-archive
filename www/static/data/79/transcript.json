@@ -1,0 +1,879 @@
+{
+  "id": "8b8b7a6f-4f80-46e5-bdf7-1f153f37d7ea",
+  "language_model": "assemblyai_default",
+  "acoustic_model": "assemblyai_default",
+  "language_code": "en_us",
+  "status": "completed",
+  "audio_url": "https://datastori.es/podlove/file/2863/s/feed/c/mp3/79-isabel-meirelles.mp3",
+  "utterances": [
+    {
+      "end": 4514,
+      "speaker": "Isabel Meirelles",
+      "start": 200,
+      "text": "It's okay that actually we have just an incremental contribution.",
+      "id": "ep_79_ut_0"
+    },
+    {
+      "end": 29634,
+      "speaker": "Moritz Stefaner",
+      "start": 7174,
+      "text": "Datastores is brought to you by Qlik, who allows you to explore the hidden relationships within your data that lead to meaningful insights. Let your instincts lead the way to create personalized visualizations and dynamic dashboards with Qlik sense, which you can download for free at Qlik Datastories. That's Qlik Datastories.",
+      "id": "ep_79_ut_1"
+    },
+    {
+      "end": 44948,
+      "speaker": "Enrico Bertini",
+      "start": 40404,
+      "text": "Hey, everyone. Welcome to a new episode of Data Stories. Hey, Moritz.",
+      "id": "ep_79_ut_2"
+    },
+    {
+      "end": 45780,
+      "speaker": "D",
+      "start": 44996,
+      "text": "Hey, Enrico.",
+      "id": "ep_79_ut_3"
+    },
+    {
+      "end": 46524,
+      "speaker": "Enrico Bertini",
+      "start": 45892,
+      "text": "What's up?",
+      "id": "ep_79_ut_4"
+    },
+    {
+      "end": 51388,
+      "speaker": "D",
+      "start": 46604,
+      "text": "Much, much here. I'm in the final stretch of my us tour.",
+      "id": "ep_79_ut_5"
+    },
+    {
+      "end": 51980,
+      "speaker": "Enrico Bertini",
+      "start": 51516,
+      "text": "Yeah.",
+      "id": "ep_79_ut_6"
+    },
+    {
+      "end": 71414,
+      "speaker": "D",
+      "start": 52052,
+      "text": "So I'm now in. I arrived in Boston, finally, final station. I've been to Minneapolis, San Francisco, Vancouver, information plus conference, and now I'm at the information design lab here in Boston. And that's actually two points that connect me to our guest today, which is sort of a funny coincidence.",
+      "id": "ep_79_ut_7"
+    },
+    {
+      "end": 80002,
+      "speaker": "Enrico Bertini",
+      "start": 72674,
+      "text": "Yes. I'm very happy to have on the show Isabel Meirelles. Hey, Isabelle, how are you? Welcome on the show.",
+      "id": "ep_79_ut_8"
+    },
+    {
+      "end": 85212,
+      "speaker": "Isabel Meirelles",
+      "start": 80138,
+      "text": "Hi, Enrico. Hi, Moritz. Thank you so much for having me the show. It's a real pleasure.",
+      "id": "ep_79_ut_9"
+    },
+    {
+      "end": 119900,
+      "speaker": "Enrico Bertini",
+      "start": 85378,
+      "text": "Great to have you on. So, Isabel is a professor of design at the University of Toronto, and she's also the author of a very nice data visualization book called Design for Information. And she's also one of the organizers of the information plus conference that just happened, as Moritz said. So we want to talk about a little bit about the book, your work as a professor in this area, and information plus conference.",
+      "id": "ep_79_ut_10"
+    },
+    {
+      "end": 120744,
+      "speaker": "Isabel Meirelles",
+      "start": 120052,
+      "text": "Great.",
+      "id": "ep_79_ut_11"
+    },
+    {
+      "end": 134116,
+      "speaker": "Enrico Bertini",
+      "start": 121124,
+      "text": "So, Isabel, can we start by giving a little bit of background about you, what you are doing, where you come from, and then we'll start talking about the book and the conference.",
+      "id": "ep_79_ut_12"
+    },
+    {
+      "end": 214674,
+      "speaker": "Isabel Meirelles",
+      "start": 134260,
+      "text": "Okay. So basically, I have a. A background in architecture. I studied architecture as an undergrad, and then I moved from architecture into working in museums with architecture, and then finally in graphic design, and then eventually coming to the US to learn more about interaction and motion. And then it sort of combined my interest. I understood working editorial design. I knew about infographics, and we used to do infographics. We use. I knew about Malofiej, for example, for a very long time. And so when I came to the US and started eventually engaging into education, I kind of combined all those little bits of my previous source of all many different lives that I had into thinking more specifically about information design, visualization. And so. And that's what I pretty much bring into both my teaching and my research and a little bit of my design practice. Although I do still work mostly my. I have another side of my brain that actually works with museums and interactive and more experimental interfaces that it's for another podcast.",
+      "id": "ep_79_ut_13"
+    },
+    {
+      "end": 246064,
+      "speaker": "Enrico Bertini",
+      "start": 216494,
+      "text": "So your background originally is from architecture. Then I think we had a few guests in the past with a similar background, at least one, I think Paolo Ciuccarelli also has a background in architecture, is a very interesting. I think people that do visualization and have a background in architecture have a very kind of like recognizable style and way of approaching the problem.",
+      "id": "ep_79_ut_14"
+    },
+    {
+      "end": 264897,
+      "speaker": "Isabel Meirelles",
+      "start": 246364,
+      "text": "Yeah, I actually worked as an art, I'm a licensed architect in Brazil, even though, you know, I would go to prison if I decide to go back into architecture, because it's been many years and my first master is in architecture. I actually did it, the architectural association school of Architecture in London. And so, yeah.",
+      "id": "ep_79_ut_15"
+    },
+    {
+      "end": 272729,
+      "speaker": "D",
+      "start": 264985,
+      "text": "And what got you excited? Can you pinpoint when you got into information design and later data visualization? Like, what were your early inspirations?",
+      "id": "ep_79_ut_16"
+    },
+    {
+      "end": 400562,
+      "speaker": "Isabel Meirelles",
+      "start": 272761,
+      "text": "Well, I moved from architecture into working in museums for different reasons, because my passion is in art, but, you know, so I started working to designing exhibitions. I actually designed some furniture for a museum, but I also chaired the department that related to everything that had to do with the public. And so I was responsible for art education for all the programs in this very important museum in Sao Paulo that is the most well known museum in South America for European art, called the Museo Giard. So Paulo, where I'm originally from. And the museum decided to do a magazine, and I was the person responsible for being the liaison between the whole team that was hired to be doing this magazine. So the people designing the magazine were the same team that designed the Brasilian issue of Vogue magazine in Brazil. And so I remember going to their office and saying, wow, people do this for a living. I never really thought about graphic design. And so eventually I decided to move away again, a third, 2nd time in life, right from, you know, into editorial design. So as a graphic designer, I only worked in editorial design. I never worked in any other area. And as in editorial design, as you know, from newspapers or magazines, we are very much into information. So our mandate is actually designing information and communicating information in ways that make sense. And so that's what perhaps is the link there that actually brought me to information design in the more traditional way within the design community. And later, now that we have so much more access to data into other more expanded ways of visualizing information.",
+      "id": "ep_79_ut_17"
+    },
+    {
+      "end": 419844,
+      "speaker": "D",
+      "start": 400738,
+      "text": "Yeah, that's so interesting because a lot of the biographies leading to data visualization only makes sense once you end up in data visualization, because then you need all this knowledge, design and structures and data and code and whatever, but forward looking it can be a confusing travel sometimes.",
+      "id": "ep_79_ut_18"
+    },
+    {
+      "end": 467950,
+      "speaker": "Isabel Meirelles",
+      "start": 420264,
+      "text": "Yeah. And I think that, you know, eventually what is interesting is the. Maybe not. It's not going to happen so much in the present and future generations of the young people who are entering the space right now of visualization of data. But for us, we started earlier or for myself, that eventually, at least, it's actually, we are coming from different fields, and I think it's not uncommon. I mean, I hear most of your speakers, actually, who are, have been in the fields for a while. We all bring this diversity of knowledge into our commonalities, our challenges of making it effective or, you know, and so on and so forth. Right?",
+      "id": "ep_79_ut_19"
+    },
+    {
+      "end": 468166,
+      "speaker": "Enrico Bertini",
+      "start": 467982,
+      "text": "Yeah.",
+      "id": "ep_79_ut_20"
+    },
+    {
+      "end": 468534,
+      "speaker": "D",
+      "start": 468190,
+      "text": "Yeah.",
+      "id": "ep_79_ut_21"
+    },
+    {
+      "end": 506104,
+      "speaker": "Enrico Bertini",
+      "start": 468614,
+      "text": "I think that's what makes this field so interesting and at the same time, so confusing sometimes, I guess. But I think if you look at the list of people that we had on the show so far, they have so many different kind of backgrounds. It's fascinating in a way. We could actually try to make a catalog of what kind of background people that have been on this show have. It's very, very diverse. Isabel, you made me think about the fact that I never saw data visualization inspired furniture. That's an interesting idea. Somebody should do it.",
+      "id": "ep_79_ut_22"
+    },
+    {
+      "end": 510716,
+      "speaker": "Isabel Meirelles",
+      "start": 506644,
+      "text": "It is true, because we've seen jewelry, we've seen clothing, right?",
+      "id": "ep_79_ut_23"
+    },
+    {
+      "end": 511020,
+      "speaker": "D",
+      "start": 510780,
+      "text": "Yeah.",
+      "id": "ep_79_ut_24"
+    },
+    {
+      "end": 514852,
+      "speaker": "Enrico Bertini",
+      "start": 511052,
+      "text": "Yeah, exactly. I've never seen furniture or buildings.",
+      "id": "ep_79_ut_25"
+    },
+    {
+      "end": 518236,
+      "speaker": "D",
+      "start": 514948,
+      "text": "I've seen a few nice tables. I've seen a few nice tables.",
+      "id": "ep_79_ut_26"
+    },
+    {
+      "end": 520044,
+      "speaker": "Enrico Bertini",
+      "start": 518300,
+      "text": "Tables. Oh, you've seen tables.",
+      "id": "ep_79_ut_27"
+    },
+    {
+      "end": 521156,
+      "speaker": "Isabel Meirelles",
+      "start": 520164,
+      "text": "There you go.",
+      "id": "ep_79_ut_28"
+    },
+    {
+      "end": 586484,
+      "speaker": "Enrico Bertini",
+      "start": 521340,
+      "text": "So, Isabel, let's talk a little bit about your book. So the book is called design for information. And if you're listening to this and you don't know the book yet, you can google it or go to Amazon or related websites and find it. It's a really beautiful book. I remember receiving this book and thinking, just flipping through the pages, it's like, oh, my God, it's beautiful. Right? But at the same time, it's not only a coffee table book, it's not only images. It's more like a proper textbook. And I think this is what makes this book so interesting. When you flip through the pages, there are lots of nice images. It's beautiful. It's interesting. But there is a lot of science and design and guidelines and background and even the way it's organized, it's very interesting. So how did you get started with the book? Why did you decide to create a book in the first place?",
+      "id": "ep_79_ut_29"
+    },
+    {
+      "end": 619154,
+      "speaker": "Isabel Meirelles",
+      "start": 586784,
+      "text": "Well, I actually had never thought of writing a book. I was approached by the publishers, Rockford publishers, who are a well known textbook art and design textbook publisher in the US. And so someone gave my name as a potential person who could write an introduction in the area. So my initial reaction was, no, I've never written a book. I, you know, I don't, you know, I don't have a PhD. I know I was not trained.",
+      "id": "ep_79_ut_30"
+    },
+    {
+      "end": 625766,
+      "speaker": "Enrico Bertini",
+      "start": 620574,
+      "text": "Yeah. It's so scary. Writing a book is one of the scariest things ever.",
+      "id": "ep_79_ut_31"
+    },
+    {
+      "end": 756224,
+      "speaker": "Isabel Meirelles",
+      "start": 625870,
+      "text": "Yeah. And so, and then my partner, Ron, he said, oh, no, you complain you don't have books, so you. You cannot say no. You go ahead and you write a book. So I took the challenge and decided to write the book. And so the idea was eventually, so it is a textbook, as you rightly put. And I really wrote with that in mind. And because I actually learned as we, many of us, and we. That's what the beauty of learning life is, that we keep learning in life. Right? And so I. For me, I used the way I learned into how I wrote it. And so because most of the issues that I learned, including graphic design and many other things in information design and visualization, I actually. The way I learn is actually context based. And so that's how I structure the book. So I thought rather than doing the traditional way of, okay, a color on perception, a chapter on perception, perception, a chapter on color, a chapter on algorithms, a chapter on this, which there is nothing wrong about it, right. But I decided to actually do it the way I learned and the way I taught. And so that is more kind of, especially when you teach to designers. I tend to read a lot of science and that I need to digest in order to convey to my students that that is important, that they should know. So that's more or less how I did it. And that's why there is a little bit of perception and cognition and history and theory and tips, practical tips, including every single of the chapters. And, of course, there are lots of things that are not there. So I don't go much into the technicalities of algorithms or computational methods, which is also not my strength to start with, but I eventually open some doors in terms of giving references, or people could eventually find those references.",
+      "id": "ep_79_ut_32"
+    },
+    {
+      "end": 771420,
+      "speaker": "Enrico Bertini",
+      "start": 756604,
+      "text": "So, one thing I was wondering, did you. Does the organization of the book or even the content come from your. From the course that you teach, or the course came later, which one is like a chicken and egg kind of problem?",
+      "id": "ep_79_ut_33"
+    },
+    {
+      "end": 874076,
+      "speaker": "Isabel Meirelles",
+      "start": 771612,
+      "text": "No, I actually, I started teaching in 2003. So I was first hired as a professor in 2003 at Northeastern University. And that was, they took a big bet on me because it was my first time teaching by myself in a class and it was a tenure track position, so I was very happy with that. And so I was hired, basically, to teach two courses, one in motion graphics, which is another area that I've been writing. I created a theory. I wrote, written about it, and information design. And so that's what I've been mostly teaching since 2003. And I structured the course very differently. I guess when I was writing the book, I thought it should be way more encompassing than what my course is, because I've been teaching only courses that are introductory courses. So at Northeastern University, that was the only time I could, I only had one class, and so I had to actually capture the imagination of my students in this one course so that they could actually be willing to keep learning and working in the field. So it is not as comprehensive as the book is. But I felt that the book, since it is an introduction, it should touch on all these different data structures. And so that's, there is a big difference. I actually, in terms of what the course is about and what the book end up being, that's one of the.",
+      "id": "ep_79_ut_34"
+    },
+    {
+      "end": 948646,
+      "speaker": "Enrico Bertini",
+      "start": 874100,
+      "text": "Things that I like the most about the book. I think you organize the chapters around specific data structures. So I have in front of me. So I'm reading. So you have trees, networks, timelines and flows, maps, structures, and then textual structures. And when you think about it, I may be mistaken, but I don't think that any of the previous books were organized around the structures. And I think it's a nice way of thinking about the data visualization design space, because most of the times, the kind of problem you are confronted with is, oh, I have this data set, and there is this kind of information structure. So now, what is the vocabulary that I have in front of me that I can use in order to kind of, like, match my problem with existing visualization techniques? And at least that's the way I try to teach it in class, at least partially, and I find it very fruitful. And so how did you decide to organize the book around these structures and not in a different way?",
+      "id": "ep_79_ut_35"
+    },
+    {
+      "end": 1019760,
+      "speaker": "Isabel Meirelles",
+      "start": 948830,
+      "text": "Yeah, again, it was thinking about case studies and about thinking about the ways we represent data. So even though, for example, if we look right at the different chapters, eventually we're going to see, for example, election data. Right. That actually you would find it in the spatial structure, as in forms of different maps, for example, or in the spatial, temporal, and as well as in the texture, for example. Right. And so for me, it was more about helping the reader or the practitioner and the student out there understanding a little bit of the histories and the theories, but also in the different questions that one should be asking oneself when we go into visualizing data. So, for me, it was. It created more opportunities for expanding on certain issues rather than partitioning the other way around. I don't know if I'm being clear. I'm sorry.",
+      "id": "ep_79_ut_36"
+    },
+    {
+      "end": 1092452,
+      "speaker": "Enrico Bertini",
+      "start": 1019832,
+      "text": "Yeah, no, absolutely. Because I have to say that another thing I really like is that you organize information around this. Sorry. You organize the content around information structures, give lots of examples, try to lay out the design space, and then only then you provide some background theory. Right. Which is, I have to say, in retrospect, it's very powerful. That's not the way I used to teach these kind of things. I think the more traditional way is like, I'll give you all the theory, and then I will do the practice. Right. Which doesn't, I have to say, after teaching for a few years, it doesn't work very well. Right. And whereas this book is more about. Oh, show you what. So this is the information structure that we have. These are some solutions, right. Visualization patterns or techniques. But here, now I'll give you a little bit of theory, and now you can think a little bit more broadly. Right. How it can become more generative from your side. Does it make sense, what I'm saying?",
+      "id": "ep_79_ut_37"
+    },
+    {
+      "end": 1093676,
+      "speaker": "Isabel Meirelles",
+      "start": 1092548,
+      "text": "Yeah, absolutely.",
+      "id": "ep_79_ut_38"
+    },
+    {
+      "end": 1098052,
+      "speaker": "Enrico Bertini",
+      "start": 1093780,
+      "text": "I hope I'm not over reading your intents.",
+      "id": "ep_79_ut_39"
+    },
+    {
+      "end": 1197170,
+      "speaker": "Isabel Meirelles",
+      "start": 1098148,
+      "text": "I think, absolutely. It's like, you know, I think one of the important things as an educator is helping the students connect the dots, right? And so what I felt is, like, when I separate too much into theory or, you know, including color theory or design theory, you know, it's eventually, when the students start designing, they actually are unable to connect the theories that they learned into the. The design opportunities and the design solutions that they are trying to develop. And so if you actually. Rather than separating and you integrate. Okay, so now, in this particular case, let's imagine if you're dealing with color. So why not think about all the different issues that we have in terms of illusions or color blindness or other perceptual issues, right? So rather than talking things in a separate way, let's incorporate into the dialogue of the making and within the context that we are discussing, because there's so much to learn that is actually impossible to tackle all these issues in depth. But if we study within the case studies, it's actually easier to actually go a little bit or show the relevance of why we should be studying perception and cognition, because they are actually essential to how we design, because we are designing for humans, right. It's vision right.",
+      "id": "ep_79_ut_40"
+    },
+    {
+      "end": 1224774,
+      "speaker": "D",
+      "start": 1197242,
+      "text": "In my experience, it's also a difference between scientific academia and teaching design or how art and design schools operate. And as Enrico said, quite rightly, in scientific academia, it's more like, first you learn all the theory for a few years before you have the license to actually produce something. Right. And in design, it's often more like, yeah, here's five projects that have some similarities. Let's make one like those.",
+      "id": "ep_79_ut_41"
+    },
+    {
+      "end": 1225094,
+      "speaker": "Isabel Meirelles",
+      "start": 1224854,
+      "text": "Right?",
+      "id": "ep_79_ut_42"
+    },
+    {
+      "end": 1248070,
+      "speaker": "D",
+      "start": 1225134,
+      "text": "Or let's do something along these lines. And I think, yeah, that can sometimes also lead to problems that you don't know. Oh, there's been hundreds of years of history around this topic. Whoops. But, yeah, this mixture can be super powerful, like first guiding people with concrete examples into a field and then expand and give them the tools to actually do something substantial.",
+      "id": "ep_79_ut_43"
+    },
+    {
+      "end": 1325894,
+      "speaker": "Isabel Meirelles",
+      "start": 1248222,
+      "text": "Yeah. And I think you touched it on a part that I think is essential. I mean, I tried to include a lot of historical examples in the book. I had many more that I was unable to include for copyright issues and for the lack of resources to purchase those images. But I think I always try to bring the history because we tend to forget, we tend to think that, okay, we're living this unusual situation that we have all these data, but people heavily in the past, they have faced similar challenges, and that's why eventually they came with some solutions, including Playfair. Right. And so having that also kind of, it brings some humility to who we are and where we are in our position and our contribution that actually there are people who have faced similar challenges. And it's okay that actually we have just an incremental contribution. We don't need to have huge contributions because it's almost impossible in some areas. And so to show that the space of contribution has different granularities from incremental to actually larger representation contributions.",
+      "id": "ep_79_ut_44"
+    },
+    {
+      "end": 1347152,
+      "speaker": "Enrico Bertini",
+      "start": 1326314,
+      "text": "So, Isabel, before we move on to, we also want to talk about this conference that just happened. Before we move on to that, just wanted to ask you, so what's coming, coming up next? Do you have any other project in terms of publishing or. I don't know, just curious about it?",
+      "id": "ep_79_ut_45"
+    },
+    {
+      "end": 1557888,
+      "speaker": "Isabel Meirelles",
+      "start": 1347248,
+      "text": "Yeah. So I moved to Canada about a year and a half ago to teach at OCAD University, which is basically a university of art and design. It is the oldest art and design college in Canada. It's almost 150 years old and recently became a university. So now one of the reasons that they were interested is actually that I actually have been largely involved with research in collaboration with different areas. And so I'm working on few research projects in addition to teaching and so I have one grant that I received from EHA, which is the American association for the graphic designers in the US. And I'm actually doing, I'm trying to create a framework for thinking about interactive information visualizations from the design perspective, similar to what I did with the book. But now what I proposed was to discuss ten projects in this area. So I'm trying to separate presentation from representation and to discuss and create a framework for thinking about those issues in a similar way that I did with the book. But it's a little bit, it's way more complex. And so I don't know how successful I'm going to be, but I'm looking forward to finalizing this in the next year. And yeah, so I spent the past year and a half actually working many hours into putting this conference together, and now I will be continue to work so that we can make it happen again, because I think that there was, there is an interesting momentum in terms of bringing all these communities together and there's a lot of work. We actually, I actually, you know, together with my collaborator, we wrote a grant, we got a social science and humanities grant from Canada to make, to help make this conference possible. So it was a research project in a way of actually communicating the importance of making this happen. And I'm also part of a very large grant on transportation issues here in Toronto, which is a little bit outside of my own expertise of what I do in visualization. But it's actually together with very large group of people at University of Toronto in transportation department as well as Waterloo University, and with the visual analytics lab directed by Sarah diamond here at OCAD University. Yeah, and I'm working on a few other smaller grants and writing a proposal right now. And so something for the future. Yeah. And I have been very closely involved just to finalize with the next science community. And so for six years now we've been creating this symposium on arts, humanities and complex networks that actually runs parallel to Netsci to network science main conference, and together with Maximilien Sis and Roger Molina, both from UT Dallas.",
+      "id": "ep_79_ut_46"
+    },
+    {
+      "end": 1560484,
+      "speaker": "D",
+      "start": 1558056,
+      "text": "Wow. So you have a couple of things going on.",
+      "id": "ep_79_ut_47"
+    },
+    {
+      "end": 1563404,
+      "speaker": "Isabel Meirelles",
+      "start": 1560784,
+      "text": "Yeah, not bad.",
+      "id": "ep_79_ut_48"
+    },
+    {
+      "end": 1642584,
+      "speaker": "Moritz Stefaner",
+      "start": 1564004,
+      "text": "This is a good time to take a little break and talk about our sponsor this week. Click who allows you to explore the hidden relationships within your data that lead to meaningful insights. Let your instincts lead the way to create personalized visualizations and dynamic dashboards with Qlik sense, which you can download for free at Qlik.de/datastories . That's Qlik.de/datastories. So are you into Formula one? It's a real sport for data nerds and an excellent opportunity to compare statistics. Qlik has a really interesting app on their website that allows you to compare stats for all the drawings. Drivers and constructors over the past few years. You can see how the overall speeds have developed, but also which country, for instance, has the most wins in terms of drivers or constructors and so on. They even have a nice lap by lap replay of each race in the form of an animated bump chart. So you can always see how the ranking within the race has developed, which I really enjoyed. It provides this neat summary of how race went down and when the deciding phase was in each race. So it's a really good visualization. Check it out for yourself on the Qlik website. The link is in the show notes. And make sure to try out Qlik sense for free at Qlik Datastories. That's Q l I K Datastories. And now back to the show.",
+      "id": "ep_79_ut_49"
+    },
+    {
+      "end": 1647476,
+      "speaker": "D",
+      "start": 1643244,
+      "text": "Shall we talk about the conference? I was there too, so I can comment as well. So that's good.",
+      "id": "ep_79_ut_50"
+    },
+    {
+      "end": 1649260,
+      "speaker": "Isabel Meirelles",
+      "start": 1647580,
+      "text": "Yeah, that is fantastic.",
+      "id": "ep_79_ut_51"
+    },
+    {
+      "end": 1660764,
+      "speaker": "D",
+      "start": 1649372,
+      "text": "Yeah. But first you like, what's, what is information? Plus about how did it start? How did you get this together and how do you think it turned out in its first instantiation?",
+      "id": "ep_79_ut_52"
+    },
+    {
+      "end": 1835968,
+      "speaker": "Isabel Meirelles",
+      "start": 1660844,
+      "text": "Yeah. So because I collaborate with so many people, right, I'm almost like the most insider outsider, or the most outsider insider of many communities, and including at Northeast. And I used to be part of the, the center for Digital Humanities, which is called the text and maps at NU. And so basically I always wanted to actually put a lot of people talking together. So actually, two or three years ago or four years ago, together with Miriah Meyer from University of Utah and Bang Wong from the Broad Institute at MIT and Harvard, Harvard, we wrote this white paper on the challenges of actually interdisciplinarity within the information visualization community, from literacy to actually developing projects together. And so in a way, the idea of the conference was pretty much what we said in the first day. It was related to a dream of actually, can we bring all these communities together to discuss issues more particularly about the design aspects of information visualization? Because I think there are many incredible venues out there that actually discuss other aspects of information visualization, such as the Viz series of conferences there that have discussed the more computational aspects of what is done in visual analytics, in if data visualization and so forth, as well as the network science has all the venues about talking about network problems and graphs problems. And the graphic design community has all these different conferences to discuss very little about information design, I should say. And so my dream was, can we come together and discuss and present what we've been doing so that we can share and even start collaborating more? And so that was more or less the whole idea of creating this conference. So, together with my collaborator, Catherine Gilson from Emily Carr, we've been working pretty much a year and a half into putting this conference together. And because I was in transition from northeastern to OCAD University, rather than actually hosting it OCAD, we thought of starting it at Emily Carr, but our idea is actually that it could be something biennial. So every other year that we could have this conference together.",
+      "id": "ep_79_ut_53"
+    },
+    {
+      "end": 1862068,
+      "speaker": "D",
+      "start": 1836136,
+      "text": "Yeah. And so it was both a conference, but also a workshop and an exhibition. So it's like a full package of activities. And can you give us a broad overview of the topics? So, because I think that the way you put this together was quite nice in a sense, that a lot of different avenues or different fields of activity in database were covered quite well. Right?",
+      "id": "ep_79_ut_54"
+    },
+    {
+      "end": 2099296,
+      "speaker": "Isabel Meirelles",
+      "start": 1862196,
+      "text": "Yeah. So, basically, it was like, the idea was that we would have all these three events that would be happening at once. So it's an information plus umbrella of events that I had the exhibition that would run for one month at the gallery at Emily Carr. So it was a call for submissions for the exhibition, and it was mostly co curated by Katherine Gillison and Gillian Russell, who is a PhD candidate at Royal College of Art in London. So we hired her as a research assistant seasons through our grant. That was successful. And then there was the conference, which was this two day, one track conference. So it was very big for us that the conference would be a one track, so it wouldn't. It was about building community. And so the conference, being an educator and having gone through the challenges of getting tenure, we understand that it was important for the submissions that it was peer reviewed. So we had this incredible program committee coming from very diverse places, from computer science, from design, from humanities, from the sciences, that actually every single submission to the conference was received a three independent review that was peer reviewed. So we received 111 submissions to the conference, and it was a 22% acceptance rate for the papers for the 20 minutes paper, and a 44 for the five minute. So we had two tracks. So it was 20 minutes presentations and five minute talks. And we actually wanted it to be diverse, including not only diversity of academic fields, but also diversity between practitioners and academics. And so we were pretty much actually able to accomplish that. And we had actually 60% of speakers coming from academia and 40% coming from industry. And we also had a beautiful diversity in terms of gender, so 45% excuse me, of women and 55% of men. That's really good to finish that. And so the other idea was the workshop, right? So the idea of the workshop, just to finalize that story for a long answer, was, I always go to conference and I think that, you know, there's always this idea of the workshop being the first thing, and then comes the conference. And I always feel a little bit that when I go to a conference, I get super charged and, oh, I heard all these incredible things. I want to go ahead and start designing, creating and looking new data. And there is that kind of energy that drives me out of listening to incredible talks. And so I thought of actually reversing the workshop. So rather than having the workshop at the beginning, why not use that whole energy that people get so that the workshop comes last? So rather than actually being a skill building idea of workshop, now you're going to learn about these three or about, about whatever is actually, can we just have a hands on trying to more of a design tank idea of developing solutions based on a lot of things that we've heard from the talks. So those are the three main events. And now we will be putting hopefully everything available online.",
+      "id": "ep_79_ut_55"
+    },
+    {
+      "end": 2157080,
+      "speaker": "D",
+      "start": 2099440,
+      "text": "Yeah, it's sort of interesting because the selection process. So in design, often it's invitation only. So somebody makes a program for a conference and just invites their favorite people. In academia, you often have to hand in first a full paper, so lots of work, and then you get rejected or not. So that's obviously not working for people who have better things to do, like me. So I found this very interesting, like how you bridge these walls. Also in the organization, one thing I realized, so I really liked lots of good scientists, lots of practical people. There was also Scott Murray from O'Reilly, who's teaching, so talked about online teaching, data, journalists, designers, but we didn't have any artists. That's also something I remarked. Right. So that's maybe an idea for next time. And I think artists don't, wouldn't submit a paper for a talk to be accepted. So maybe we find new avenues, we need to find new avenues for artists to get into this.",
+      "id": "ep_79_ut_56"
+    },
+    {
+      "end": 2287734,
+      "speaker": "Isabel Meirelles",
+      "start": 2157232,
+      "text": "Yeah, I completely agree with you. I think in part what we really wanted to bridge those communities, including the journey journalism community, that is actually, for me, it was my entry point in my graphic design life. So I find it a very close proximity to graphic designs, traditionally, because a lot of people leave graph design and go into working editorial design. And so basically, I agree that in order to set up the tone of any conference, that it was for submissions, what helps sees the keynotes and the invited speakers. So pretty much when we invited Tamara Munzner and Colin Ware, who were our two keynotes, to the conference, we did it actually more than a year ago. It was actually the end of May 2015. We were inviting them to be our keynotes so that we could actually announce them as we were announcing the conference so that people could engage. And we did the same with some of our first. We had four invited speakers, two of which we were able to engage from the very beginning. And those were Chad Skelton, who is from Vancouver and used to be at the Vancouver sun, and from that time on had recently transitioned into consulting and teaching. But he's actually a data journalist. And Catherine D'Ignazio, who is actually from the communication side and from the coding kind of. She actually also an artist, in a way. Right. It's engaging to code, but mostly from the civic engagement and the social engagement of the data part. And so with that, you know, the invited speakers are always the ones that actually kind of help into what you're saying, what it's of actually setting the tone. And I definitely think that for next one, we should have an artist among those, because that would help engage another set of community and also a different kind of dialogue.",
+      "id": "ep_79_ut_57"
+    },
+    {
+      "end": 2326180,
+      "speaker": "D",
+      "start": 2288634,
+      "text": "Yeah, but it was a great event, and there's a few things I really learned. I also think Catherine's talk was amazing, so we should definitely try and get her on at some point. And it was also interesting to hear Gregor Aisch close with his very realistic view on what data visualization development means in this world of mobile devices and how difficult it has become to do really complex stuff in, let's say, real settings. So it's sort of enlightening, too. And for me personally, it was nice because I met all my friends from Potsdam, so I think nine German speakers.",
+      "id": "ep_79_ut_58"
+    },
+    {
+      "end": 2426676,
+      "speaker": "Isabel Meirelles",
+      "start": 2326372,
+      "text": "So there was a funny, I have to say that when I put the call together, and I emailed many people that I've been in touch throughout the years, including you, Moritz, and that actually, I sent the email, okay, this is a new conference. Please help us spread the word or engage with us in terms of submitting your work for presentation. And, you know, pretty much we are able to have you presenting Moritz exactly through that. So I'm very grateful that you did that. But I have to give a big thank you to two Potsdam colleagues from yours that actually Marianne Dorc and Till Nagel, who actually, from the very beginning, when they received my email, and he started tweeting about. And that maybe that was something that they had recently discussed at ViS in 2015 about how to bring more design discussion within this larger, broader data visualization discussion. And it was incredible because of their visibility and their engagement with all the different communities, how much we received back, that actually people started engaging, including they helped me immensely with putting together the program committee. There were these people on the background that were not visible, but I'm very grateful for their engagement.",
+      "id": "ep_79_ut_59"
+    },
+    {
+      "end": 2442556,
+      "speaker": "D",
+      "start": 2426740,
+      "text": "Yeah. And it's nice because I think you tapped into something that many people thought, oh, there should be a conference around that. But, you know, nobody actually stepped up and actually did it. And now that you did that with your colleagues, I think everybody was just happy that it finally happened.",
+      "id": "ep_79_ut_60"
+    },
+    {
+      "end": 2444144,
+      "speaker": "Isabel Meirelles",
+      "start": 2442620,
+      "text": "Yeah. Yeah, I agree.",
+      "id": "ep_79_ut_61"
+    },
+    {
+      "end": 2449708,
+      "speaker": "D",
+      "start": 2444524,
+      "text": "That's another good sign. I think, that, you know, everybody's up for that and really interested in connecting these.",
+      "id": "ep_79_ut_62"
+    },
+    {
+      "end": 2536834,
+      "speaker": "Isabel Meirelles",
+      "start": 2449876,
+      "text": "Yeah. And it was actually pretty incredible how, you know, the engagement. We really didn't think that we would have as many submissions as we received and so diverse. And it was at one point we were even trying to think, should this be a two track conference? Because there were incredible papers that we had to, not that we were unable to accept. And it was such a pity. It is one of the worst things. It's actually because, you know, papers that I think would have been really amazing, but we really thought, okay, this is a first conference, we should keep it small, we should build a community here and then move on. Right. And so maybe in the next one, those other. Those people would still engage with the new organization into submitting and. Yeah, but that was a pity. And even I'm still debating whether we can even engage with publication and invite back some of those people that we had not to refuse. Right. For presentation, but whether it would be included in a publication effort. Right. That actually saying, okay, this is the scope, that actually it is much larger than actually we end up presenting.",
+      "id": "ep_79_ut_63"
+    },
+    {
+      "end": 2671434,
+      "speaker": "Enrico Bertini",
+      "start": 2536914,
+      "text": "Yeah. Isabel, I have to say, I mean, even if I wasn't there, I've been following through the Twitter feeds, and it's been really exciting just seeing what happened there through the tweets. And I am myself a big, big fan of trying to integrate academics and practitioners. That's one of the main reasons why, actually, I've been doing this show and other things myself. Right. And I have to say one thing that is fascinating for me is to see that I am, of course, much more familiar with the academic community. And I love to see how academics, when they have an opportunity to talk in a more relaxed environment, they tend to be freer to just put some ideas out, right. Because I think it's an interesting trade off and problem there that in conferences like the IEEE vis that is highly academic, everyone is, in a way, super scared that whatever you say is judged analytically. Right. And you have a kind of reputation to defend and all the rest. Right. And whereas in environments that are a little bit more relaxed but still rigorous, then you are free to express yourself. Right. And I think that's a very, very nice aspect of the conference that you created and related to that. Conversely, I'm always fascinated by the fact that there are some practitioners that cite some academic work in their presentations. So this is really happening through the tweets I've been seeing both things, and that's amazing. It is happening and it's fantastic. Right. I don't know. I can't remember. I think Gregor. So, Moritz, you mentioned Gregor. I think in his presentation, if I'm not mistaken, he's been mentioning the Shneiderman's mantra, right?",
+      "id": "ep_79_ut_64"
+    },
+    {
+      "end": 2673930,
+      "speaker": "D",
+      "start": 2671474,
+      "text": "Yeah. He made the mobile version of the mantra.",
+      "id": "ep_79_ut_65"
+    },
+    {
+      "end": 2689500,
+      "speaker": "Enrico Bertini",
+      "start": 2674082,
+      "text": "Yeah, the mobile mantra. Right. I don't remember exactly how it was, but it's interesting. Right. And you, in your presentation, Moritz, you've been talking about Tamara's design studies model. I don't remember how exactly it's called.",
+      "id": "ep_79_ut_66"
+    },
+    {
+      "end": 2693692,
+      "speaker": "D",
+      "start": 2689572,
+      "text": "Yeah, we invented putting a snail on top of it.",
+      "id": "ep_79_ut_67"
+    },
+    {
+      "end": 2697596,
+      "speaker": "Enrico Bertini",
+      "start": 2693748,
+      "text": "Right. So this is happening and. Yeah, it's fantastic.",
+      "id": "ep_79_ut_68"
+    },
+    {
+      "end": 2799244,
+      "speaker": "Isabel Meirelles",
+      "start": 2697740,
+      "text": "Yeah, I completely agree. I think that, you know, there is a lot of talk nowadays in academia, at least in North America, that I'm more familiar with about translational research. Right. And I think that's exactly it. Right. So how can we actually make the research that we do in academia transferable. Right. And meaningful to the society as well as to the practitioners? Because some areas, like design, you know, a lot of people go into working in the industry, and so how can they actually keep that dialogue and keep actually thinking theoretically or keep pushing what they are doing in relevant ways, not only in the business where they are practicing, but also in terms of this dialogue of thinking theoretically and actually pushing the way they are doing? And that's why I think we saw Lena from ProPublica. Lena Groeger. Right. Or Lisa Ross and Gregor and all these data journalists actually bringing theories into how they were discussing their practice and even Chad scattering. I thought it was actually quite nice. What he said is, how can we bring the thinking of the practitioner of data journalists into the thinking of the data visualization? Data visualizer. And so how can we cross pollinate from practice to theory and back and forth.",
+      "id": "ep_79_ut_69"
+    },
+    {
+      "end": 2807624,
+      "speaker": "Enrico Bertini",
+      "start": 2800224,
+      "text": "Yeah. So Moritz or Isabel do you have any highlights or anything you want to talk about?",
+      "id": "ep_79_ut_70"
+    },
+    {
+      "end": 2816744,
+      "speaker": "D",
+      "start": 2807784,
+      "text": "I mean, I wish there was a separate episode on that topic, like a 1 hour summary. That would be amazing. So maybe we should make that happen.",
+      "id": "ep_79_ut_71"
+    },
+    {
+      "end": 2818292,
+      "speaker": "Enrico Bertini",
+      "start": 2817484,
+      "text": "We should make that happen.",
+      "id": "ep_79_ut_72"
+    },
+    {
+      "end": 2833104,
+      "speaker": "D",
+      "start": 2818308,
+      "text": "I think we should look into it. Yeah. And otherwise I think we might just link a few talks from the post. There should be video recordings and. Yeah, but I mean, all of them have been great in a way, so it will be hard to make a selection, I think.",
+      "id": "ep_79_ut_73"
+    },
+    {
+      "end": 2914334,
+      "speaker": "Isabel Meirelles",
+      "start": 2834364,
+      "text": "Yeah, I would be very happy to, you know, we are uploading the talks, but also be happy to work with you, Moritz, and enrich to actually kind of summarize what happened and create some highlights. It was a very dense two days with, I think, 17 talks in each day. So it was like really a lot of talks that would be hard to highlight and each one brings a different topic. So even though when we created the schedule, we tried to organize on the topics, they were actually cross connections. So one of the things that we tried to do that was another dream of mine is when I go to conference, especially very dance ones, I want to get to the end of the day and say, can anyone help me summarize what happened here? Were there any connections? Can anyone remember me? Because I heard so many things and I sort of forget things on the way. So we tried to create these summary kind of 20 minutes breaks at the very end of the conference where each one of the chairs kind of summarizes and try to create connections. So we can actually try to do that, a new thing here. We can create connecting the dots of the conference by those snippets. I don't know.",
+      "id": "ep_79_ut_74"
+    },
+    {
+      "end": 2918398,
+      "speaker": "Enrico Bertini",
+      "start": 2914414,
+      "text": "So you will be publishing the recorded videos on the web?",
+      "id": "ep_79_ut_75"
+    },
+    {
+      "end": 2989526,
+      "speaker": "Isabel Meirelles",
+      "start": 2918486,
+      "text": "Yes, we will be uploading the videos. So we hired a team at Emily Carr that did the recordings, and they are going to be putting all these together. Once I receive that, I'll be uploading to the website and I have to actually upload the PDF of the guidebook as well. And right now we are actually going to contact all the speakers, including the practitioners, into engaging to writing short and longer papers for publication in the information design journal. So the information design journal is traditionally a very long standing journal in information design for designers. But because design is a professional practice, so there is traditionally papers written by practitioners which are not academic papers. And that was why we thought that would be a good venue. So that would also be part of this effort. So I will be engaging with everyone who spoke about that.",
+      "id": "ep_79_ut_76"
+    },
+    {
+      "end": 2994814,
+      "speaker": "Enrico Bertini",
+      "start": 2989670,
+      "text": "So do you know already if the conference is happening again in two years or.",
+      "id": "ep_79_ut_77"
+    },
+    {
+      "end": 3032430,
+      "speaker": "Isabel Meirelles",
+      "start": 2994974,
+      "text": "Yeah, so basically, you know, so I went asked that. I said no, I don't think it's a conference that should happen every year, because it takes a lot of effort to put everyone into the room coming from all different areas of academia as well as from industry. And we don't want to disperse that. We want to create that energy, that everyone wants to be there. And I think in order for that to happen, biennial frequency is a good idea. So because there were so many people from Potsdam, we are trying to convince our Potsdam colleagues to.",
+      "id": "ep_79_ut_78"
+    },
+    {
+      "end": 3034714,
+      "speaker": "D",
+      "start": 3032462,
+      "text": "It's only fair. It's only fair.",
+      "id": "ep_79_ut_79"
+    },
+    {
+      "end": 3057290,
+      "speaker": "Isabel Meirelles",
+      "start": 3035214,
+      "text": "Right, Moritz? And so to actually have it in Germany. So IEEE vis in 2018 will be in Germany, in Berlin. So that would be something that eventually could either be co located or so we're starting to investigate, investigate that possibility.",
+      "id": "ep_79_ut_80"
+    },
+    {
+      "end": 3062214,
+      "speaker": "D",
+      "start": 3057402,
+      "text": "That sounds like a really good plan. I approve.",
+      "id": "ep_79_ut_81"
+    },
+    {
+      "end": 3076548,
+      "speaker": "Enrico Bertini",
+      "start": 3064314,
+      "text": "Okay, Isabel, well, thanks a lot for coming on the show and to talk about the book and the Information+ conference. These are amazing initiatives. Thanks so much.",
+      "id": "ep_79_ut_82"
+    },
+    {
+      "end": 3092036,
+      "speaker": "Isabel Meirelles",
+      "start": 3076676,
+      "text": "I thank you, Enrico and Moritz, it was a real pleasure to be here with you. And again, thank you for the opportunity you gave me to talk about all these issues, including information plus, which I hope will continue.",
+      "id": "ep_79_ut_83"
+    },
+    {
+      "end": 3092956,
+      "speaker": "D",
+      "start": 3092180,
+      "text": "We hope so, too.",
+      "id": "ep_79_ut_84"
+    },
+    {
+      "end": 3093436,
+      "speaker": "Enrico Bertini",
+      "start": 3093020,
+      "text": "We hope so.",
+      "id": "ep_79_ut_85"
+    },
+    {
+      "end": 3094092,
+      "speaker": "D",
+      "start": 3093460,
+      "text": "It was a pleasure.",
+      "id": "ep_79_ut_86"
+    },
+    {
+      "end": 3094956,
+      "speaker": "Enrico Bertini",
+      "start": 3094148,
+      "text": "Yeah, thanks.",
+      "id": "ep_79_ut_87"
+    },
+    {
+      "end": 3096060,
+      "speaker": "D",
+      "start": 3095060,
+      "text": "Thanks, Isabel.",
+      "id": "ep_79_ut_88"
+    },
+    {
+      "end": 3098152,
+      "speaker": "Enrico Bertini",
+      "start": 3096212,
+      "text": "Bye, Isabel. Thank you. Bye bye bye.",
+      "id": "ep_79_ut_89"
+    },
+    {
+      "end": 3099564,
+      "speaker": "Isabel Meirelles",
+      "start": 3098208,
+      "text": "Thank you. Bye bye.",
+      "id": "ep_79_ut_90"
+    },
+    {
+      "end": 3112024,
+      "speaker": "Enrico Bertini",
+      "start": 3102424,
+      "text": "Hey, guys, thanks for listening to data stories again. Before you leave, we have a request if you can spend a couple of minutes rating us on iTunes, that would be extremely helpful for the show.",
+      "id": "ep_79_ut_91"
+    },
+    {
+      "end": 3142694,
+      "speaker": "Moritz Stefaner",
+      "start": 3112104,
+      "text": "And here's also some information on the many ways you can get news directly from us. We're, of course, on twitter@twitter.com. Datastories. We have a Facebook page@Facebook.com. datastoriespodcast. All in one word. And we also have an email newsletter. So if you want to get news directly into your inbox and be notified whenever we publish an episode, you can go to our homepage, datastory es and look for the link that you find on the bottom in the footer.",
+      "id": "ep_79_ut_92"
+    },
+    {
+      "end": 3154776,
+      "speaker": "Enrico Bertini",
+      "start": 3142774,
+      "text": "So one last thing that we want to tell you is that we love to get in touch with our listeners, especially if you want to suggest a way to improve the show or a amazing people you want us to invite or even projects you want us to talk about.",
+      "id": "ep_79_ut_93"
+    },
+    {
+      "end": 3158152,
+      "speaker": "Moritz Stefaner",
+      "start": 3154880,
+      "text": "Yeah, absolutely. So don't hesitate to get in touch with us.",
+      "id": "ep_79_ut_94"
+    },
+    {
+      "end": 3159904,
+      "speaker": "D",
+      "start": 3158288,
+      "text": "It's always a great thing for us.",
+      "id": "ep_79_ut_95"
+    },
+    {
+      "end": 3162712,
+      "speaker": "Moritz Stefaner",
+      "start": 3160024,
+      "text": "And that's all for now. See you next time, and thanks for.",
+      "id": "ep_79_ut_96"
+    },
+    {
+      "end": 3164124,
+      "speaker": "D",
+      "start": 3162728,
+      "text": "Listening to data stories.",
+      "id": "ep_79_ut_97"
+    },
+    {
+      "end": 3187744,
+      "speaker": "Enrico Bertini",
+      "start": 3167264,
+      "text": "Data stories is brought to you by Qlik, who allows you to explore the hidden relationships within your data that lead to meaningful insights. Let your instincts lead the way. Way to create personalized visualizations and dynamic dashboards with Qlik sense, which you can download for free at www. Qlik.de/Datastories.",
+      "id": "ep_79_ut_98"
+    }
+  ],
+  "confidence": 0.926511490144544,
+  "audio_duration": 3187,
+  "punctuate": true,
+  "format_text": true,
+  "dual_channel": false,
+  "webhook_url": null,
+  "webhook_status_code": null,
+  "webhook_auth": false,
+  "webhook_auth_header_name": null,
+  "speed_boost": false,
+  "auto_highlights_result": null,
+  "auto_highlights": false,
+  "audio_start_from": null,
+  "audio_end_at": null,
+  "word_boost": [],
+  "boost_param": null,
+  "filter_profanity": false,
+  "redact_pii": false,
+  "redact_pii_audio": false,
+  "redact_pii_audio_quality": null,
+  "redact_pii_policies": null,
+  "redact_pii_sub": null,
+  "speaker_labels": true,
+  "content_safety": false,
+  "iab_categories": true,
+  "content_safety_labels": {
+    "status": "unavailable",
+    "results": [],
+    "summary": {}
+  },
+  "language_detection": false,
+  "language_detection_threshold": null,
+  "language_confidence": null,
+  "custom_spelling": null,
+  "throttled": false,
+  "auto_chapters": true,
+  "summarization": false,
+  "summary_type": null,
+  "summary_model": null,
+  "custom_topics": false,
+  "topics": [],
+  "speech_threshold": null,
+  "speech_model": "best",
+  "chapters": [
+    {
+      "summary": "Isabel Meirelles is a professor of design at the University of Toronto. She's also the author of a very nice data visualization book called Design for Information. She was also one of the organizers of the information plus conference that just happened. We want to talk about a little bit about the book, your work as a professor in this area.",
+      "gist": "Data Stories",
+      "headline": "Isabelle Meirelles is a professor of design at Toronto university",
+      "start": 200,
+      "end": 120744,
+      "id": "ep_79_ch_0"
+    },
+    {
+      "summary": "Isabelle has a background in architecture and graphic design. She combines her interests into teaching and research. She also has another side of her brain that works with museums and interactive interfaces.",
+      "gist": "Interactivity and the Design of Information",
+      "headline": "Isabelle has a background in architecture and graphic design",
+      "start": 121124,
+      "end": 214674,
+      "id": "ep_79_ch_1"
+    },
+    {
+      "summary": "I think people that do visualization and have a background in architecture have a very kind of like recognizable style and way of approaching the problem. Can you pinpoint when you got into information design and later data visualization? It's very, very diverse.",
+      "gist": "Data Visualization: The Background of Experts",
+      "headline": "Isabelle's background originally is from architecture. Can you pinpoint when you got into data visualization",
+      "start": 216494,
+      "end": 521156,
+      "id": "ep_79_ch_2"
+    },
+    {
+      "summary": "The book is called design for information. There is a lot of science and design and guidelines and background. Isabel says she used the way she learned into how she wrote it. Writing a book is one of the scariest things ever.",
+      "gist": "Design for Information",
+      "headline": "Isabelle's book is called design for information. It's a really beautiful book",
+      "start": 521340,
+      "end": 756224,
+      "id": "ep_79_ch_3"
+    },
+    {
+      "summary": "I think you organize the chapters around specific data structures. For me, it was more about helping the reader or the practitioner and the student out there understanding a little bit of the histories and the theories. It created more opportunities for expanding on certain issues.",
+      "gist": "Intersection: Data visualization and information design",
+      "headline": "Does the organization of the book or even the content come from your course",
+      "start": 756604,
+      "end": 1140258,
+      "id": "ep_79_ch_4"
+    },
+    {
+      "summary": "It's also a difference between scientific academia and teaching design or how art and design schools operate. First guiding people with concrete examples into a field and then expand and give them the tools to actually do something substantial.",
+      "gist": "In the World of Design: History of Contributions",
+      "headline": "There is a difference between scientific academia and teaching design",
+      "start": 1140306,
+      "end": 1325894,
+      "id": "ep_79_ch_5"
+    },
+    {
+      "summary": "I'm trying to create a framework for thinking about interactive information visualizations from the design perspective. I spent the past year and a half actually working many hours into putting this conference together. And I will be continue to work so that we can make it happen again.",
+      "gist": "What's Next for You?",
+      "headline": "Isabelle is working on several research projects in addition to teaching",
+      "start": 1326314,
+      "end": 1563404,
+      "id": "ep_79_ch_6"
+    },
+    {
+      "summary": "Qlik sense allows you to explore the hidden relationships within your data that lead to meaningful insights. Let your instincts lead the way to create personalized visualizations and dynamic dashboards with Qlik sense. And make sure to try out Qlik sense for free at Qlik Datastories.",
+      "gist": "F1 Stats in Qlik Sense",
+      "headline": "Qlik allows you to explore hidden relationships within your data that lead to meaningful insights",
+      "start": 1564004,
+      "end": 1636372,
+      "id": "ep_79_ch_7"
+    },
+    {
+      "summary": "The conference focused on the design aspects of information visualization. It was both a conference, but also a workshop and an exhibition. The organizers wanted to build community between different fields. They received 111 submissions to the conference, and it was peer reviewed.",
+      "gist": "The Conference on Information Visualation",
+      "headline": "Q: Shall we talk about the conference? I was there too",
+      "start": 1636508,
+      "end": 2017540,
+      "id": "ep_79_ch_8"
+    },
+    {
+      "summary": "The conference was held in Potsdam, Germany. Organizers wanted to bridge different communities. They didn't have any artists among the speakers. Now they're putting everything online.",
+      "gist": "The Future of Data Design Conference",
+      "headline": "Catherine Moritz: The workshop was the first thing before the conference",
+      "start": 2017572,
+      "end": 2566060,
+      "id": "ep_79_ch_9"
+    },
+    {
+      "summary": "Moritz: I love to see how academics, when they have an opportunity to talk in a more relaxed environment, they tend to be freer to put some ideas out. Conversely, I'm always fascinated by the fact that there are some practitioners that cite some academic work in their presentations. How can we make the research that we do in academia transferable?",
+      "gist": "The Future of Data Visualization",
+      "headline": "Moritz: I love to see how academics talk in a relaxed environment",
+      "start": 2566132,
+      "end": 2800744,
+      "id": "ep_79_ch_10"
+    },
+    {
+      "summary": "IEEE vis in 2018 will be in Germany, in Berlin. We are contacting all the speakers, including the practitioners, into writing short and longer papers for publication in the information design journal. In order for that to happen, biennial frequency is a good idea.",
+      "gist": "A few highlights of the conference",
+      "headline": "Isabel: I think biennial frequency is a good idea",
+      "start": 2800824,
+      "end": 3099564,
+      "id": "ep_79_ch_11"
+    },
+    {
+      "summary": "Hey, guys, thanks for listening to data stories again. We have a request if you can spend a couple of minutes rating us on iTunes. Here's also some information on the many ways you can get news directly from us. Don't hesitate to get in touch with us.",
+      "gist": "Data Stories Podcast",
+      "headline": "If you can spend a couple of minutes rating us on iTunes, that would be extremely helpful",
+      "start": 3102424,
+      "end": 3162712,
+      "id": "ep_79_ch_12"
+    },
+    {
+      "summary": "Qlik sense allows you to explore the hidden relationships within your data that lead to meaningful insights. Way to create personalized visualizations and dynamic dashboards with Qlik sense. Free download for free at www. dot clic deriest. com.",
+      "gist": "Qlik: Data Stories in the World",
+      "headline": "Qlik sense lets you explore hidden relationships within your data that lead to insights",
+      "start": 3162728,
+      "end": 3187744,
+      "id": "ep_79_ch_13"
+    }
+  ],
+  "disfluencies": false,
+  "entity_detection": false,
+  "sentiment_analysis": false,
+  "sentiment_analysis_results": null,
+  "entities": null,
+  "speakers_expected": null,
+  "summary": null,
+  "custom_topics_results": null,
+  "episode_num": 79,
+  "episode_metadata": {
+    "speakers": [
+      "Isabel Meirelles",
+      "Moritz Stefaner",
+      "Enrico Bertini"
+    ],
+    "WPid": "724",
+    "url": "https://datastori.es/podlove/file/2863/s/feed/c/mp3/79-isabel-meirelles.mp3",
+    "episode_title": "Information Design with Isabel Meirelles"
+  }
+}

@@ -1,0 +1,1247 @@
+{
+  "id": "be3e0e46-091c-4a43-b025-c6c20531cb37",
+  "language_model": "assemblyai_default",
+  "acoustic_model": "assemblyai_default",
+  "language_code": "en_us",
+  "status": "completed",
+  "audio_url": "https://datastori.es/podlove/file/194/s/feed/c/mp3/Datastories-08.mp3",
+  "utterances": [
+    {
+      "end": 20334,
+      "speaker": "Enrico Bertini",
+      "start": 11840,
+      "text": "Hi, everyone. Data stories number eight. And I'm here, Enrico, together with Moritz. Hi, Moritz. How are you, Ola?",
+      "id": "ep_8_ut_0"
+    },
+    {
+      "end": 21750,
+      "speaker": "Moritz Stefaner",
+      "start": 20374,
+      "text": "Doing well, thanks.",
+      "id": "ep_8_ut_1"
+    },
+    {
+      "end": 26562,
+      "speaker": "Enrico Bertini",
+      "start": 21942,
+      "text": "And we have a super special guest today. We have Jeff here with us. Hi, Jeff.",
+      "id": "ep_8_ut_2"
+    },
+    {
+      "end": 28074,
+      "speaker": "Jeff Heer",
+      "start": 26678,
+      "text": "Hi, thanks for having me.",
+      "id": "ep_8_ut_3"
+    },
+    {
+      "end": 29130,
+      "speaker": "Enrico Bertini",
+      "start": 28154,
+      "text": "How are you, Jeff?",
+      "id": "ep_8_ut_4"
+    },
+    {
+      "end": 30362,
+      "speaker": "Jeff Heer",
+      "start": 29242,
+      "text": "I'm doing well, thank you.",
+      "id": "ep_8_ut_5"
+    },
+    {
+      "end": 62524,
+      "speaker": "Enrico Bertini",
+      "start": 30418,
+      "text": "Okay, great. So I don't know if I really have to introduce you. So Jeff Heer is a professor at Stanford currently, and I think he's very well known on the, let's say, on the web and blogosphere for being the inventor of several information visualization toolkits, starting from previews, then to flare, and then to, what's next? Protovis. And finally D3 with Mike Bostock. Right, kev?",
+      "id": "ep_8_ut_6"
+    },
+    {
+      "end": 71840,
+      "speaker": "Jeff Heer",
+      "start": 63504,
+      "text": "That's right. So Protovis and D3 were work that I was lucky enough to get to pursue with Mike Bostock, who is my PhD student here at Stanford.",
+      "id": "ep_8_ut_7"
+    },
+    {
+      "end": 86944,
+      "speaker": "Enrico Bertini",
+      "start": 71912,
+      "text": "Okay, how is it going? What are you doing? Can you tell us? What are you currently doing? How is this the old, this whole thing about visualization developing in your group and what's next?",
+      "id": "ep_8_ut_8"
+    },
+    {
+      "end": 192198,
+      "speaker": "Jeff Heer",
+      "start": 88484,
+      "text": "Yeah, sure. So, I mean, a lot of the work we've done in the past, which is focused on a variety of things, you know, visualization tools, as you mentioned, but also, you know, studies of human perception and also visualization techniques. For example, I've been interested in animation in the past. I can say we're still interested in all of those things. But I'd say one of the wonderful things about being a professor is that you get to work with a team of students. And so this is allowing us to kind of branch out and explore even more areas. And one theme that I've been particularly interested in is not looking just at visualization, which typically concerns itself with, you know, taking data, finding ways to express that visually that are effective, where effective means people can solve problems faster, communicate stories. Well, all of that still very important. But I've been trying to understand the role of visualization more largely in the life cycle of data analysis. So for any of us who work with data, we know that it's a really iterative, often tumultuous process where we have to deal with issues of, well, how do we find data? How do we assess the quality of that data? How do we shape it to meet our needs? How do we use visualization, as well as statistics and other tools to gain insights? And then, of course, how do we share what we learn, whether it's through creating images or telling stories, etcetera. This entire process is very interesting and involves combining lots of different activities. So certainly things from databases, from machine learning, as well as visualization. And I'm really interested, and my research group as a whole is interested in figuring out, well, what's the role of visualization interaction techniques throughout that process? How can we make people more effective and go about that process in ways that are more successful?",
+      "id": "ep_8_ut_9"
+    },
+    {
+      "end": 216664,
+      "speaker": "Enrico Bertini",
+      "start": 192286,
+      "text": "Yeah, great. I remember a few, I think it was a few weeks ago, I saw this presentation from you in Konstanz when you came, and I was surprised by the title you gave to your presentation, which, if I remember well, was interacting with data. And I was really interested by this idea of putting the accent on the interaction part more than on the visual part. Is that on purpose?",
+      "id": "ep_8_ut_10"
+    },
+    {
+      "end": 298882,
+      "speaker": "Jeff Heer",
+      "start": 218044,
+      "text": "Yeah, it's on purpose. I think the main goal with that is to contrast maybe an old fashioned notion of data analysis as sort of dry number crunching, to really realize that the activity of data analysis, not just any one step like computing a correlation, but really working with data and engaging analysis, is highly interactive. And so it really wasn't in any attempt to kind of obscure visualization as an important component there, but really to kind of put the onus on this highly iterative, highly interactive process in which importantly, I think visualization plays a critical role throughout all of these tasks. And I think what's very interesting is to think about some of the ways that we can use visualization that are really valuable, but maybe aren't always the ways we think about it. So, for example, many of us are interested in visualization as an end product, but I have many colleagues, whether they're in statistics or machine learning, natural language processing, at the end of the day, their goal might be to create an interesting model or algorithm. But even for that end goal, visualization can be incredibly helpful for assessing results, making sense of data quality, seeing if your models even make sense. All of these tasks, I think, are really interested and also interactive in their own right. And so it was understand that process that led me to really think about this with interaction as one of the key phrases.",
+      "id": "ep_8_ut_11"
+    },
+    {
+      "end": 351134,
+      "speaker": "Enrico Bertini",
+      "start": 299008,
+      "text": "Yeah, I think this is really interesting, and actually it reminds me of something I always have in the back of my mind, that I think visualization is very. So the way it is presented on the web is pretty much centered around using visualization as a communication tool. But in academia, we have such a larger focus on using visualization as an exploratory tool. Right. And of course, this is a very broad generalization. It's not always true. But, yeah, when you mention people like, I don't know, machine learning specialists who might use visualization to better understand the model and not necessarily using visualization to present their results to somebody else. I think it's really interesting, but maybe there's not a lot of exposure of this kind of use of visualization, right?",
+      "id": "ep_8_ut_12"
+    },
+    {
+      "end": 405252,
+      "speaker": "Jeff Heer",
+      "start": 352134,
+      "text": "Yeah, I think there's one. There's a lack of exposure just because I think on the web, some of the more storytelling or artistically oriented visualizations is just they appeal to a much larger audience. So it's not surprising that that would be more familiar. But I think also there's, for folks who maybe are primarily doing machine learning, modeling or something like that, they're not going to, they have things that work to get done. They don't have the time to design new visualizations from scratch and implement them. And so the lack of good tools can also be an impediment to people to be able to pick up and use visualization for tasks where ideally the visualization lets you get it done really quick. So if you're losing hours or days to just get that visualization, it's defeated the whole purpose. So I think having good tools that really fit the task is a key component and really making visualization effective throughout this data lifecycle.",
+      "id": "ep_8_ut_13"
+    },
+    {
+      "end": 445086,
+      "speaker": "Moritz Stefaner",
+      "start": 405428,
+      "text": "I also really always appreciate your sort of wholesale approach there. You also, I think, brought up in the academic world this whole topic of data wrangling and dealing with the dirtiness of data, because often in academia or in visualization, to me it seems that people assume there is this perfect data set already out there and you're just concerned with mapping it, but that there's a whole process of acquiring the right data, transforming your data, merging it with other data sets that a lot of the practical times actually spend on. That is, I liked how you acknowledged that and tried to provide good tools for that. Right?",
+      "id": "ep_8_ut_14"
+    },
+    {
+      "end": 559664,
+      "speaker": "Jeff Heer",
+      "start": 445150,
+      "text": "Yeah, yeah. And I mean, this observation really just came from pain and personal suffering that I think anyone who works with data can hopefully readily attest to, which is, I mean, you look at all these beautiful projects that people have done or these really interesting research papers people have published in the area of visualization, and there's often some very nice results. But I've talked to people at conferences and found out, well, 60%, 80% of their time was actually spent on manipulating that data to get it into the place where then it's right for visualization. So I'm like, well, this is sort of an elephant in the room. Maybe we should address it. And more importantly, maybe there's some really interesting projects that we'll be able to do that both advanced research, because obviously, I'm a professor, so that's something I care deeply about. But also, at the end of the day, create tools that allow people to get their job done more effectively. And just as an aside, one of the things that's been really fun in this project for me is that this is not a new problem. Obviously, folks in databases and statistics have worried about this problem for many, many years, and so they've developed lots of methods. But I think at the end of the day, what's been missing is a more complete approach from the perspective of interaction and visualization to make all these different tools available to folks in a way that they can apply. Because a push button solution where you can have some smart algorithm figure it all out for you just really isn't very reasonable at this point in time. It really requires human judgment to say, okay, is this strange value an error, or is this the finding of a lifetime? And so, having good interactive systems that allow people to transform data, find problems within data, and then manipulate it in ways that allow them to move on with their analysis, whether that's fitting models or building visualizations, I think is a problem that's shared by hell very many people these days.",
+      "id": "ep_8_ut_15"
+    },
+    {
+      "end": 639374,
+      "speaker": "Enrico Bertini",
+      "start": 560004,
+      "text": "Let me just briefly mention for those who are listening to the podcast and don't know that there is this very nice tool that you developed in your group that is called Wrangler. That is an interactive visual support for manipulating data. And I think we will add the link to our blog post later. Yeah, and yeah, maybe we want to move on to, I'm sure before starting this new episode. A few weeks ago, when we originally wanted to do the interview, I posted on Twitter. I said, if you want to send some questions to Jeff Heer, please send some to us. And I received a lot of questions. I'm not sure whether we will be able to cover all of them. No, for sure we won't be able to cover all of them. But we definitely got a lot of questions about Prefuse, Flare, Protovis, D3, and I think the first question that many people have, including myself, is, can you briefly tell us what's the story behind so many doing making so many different toolkits? How did you go from Prefuse to Flare, Protovis and D3? It would be nice to know at least the story behind that. I'm sure you have a nice story.",
+      "id": "ep_8_ut_16"
+    },
+    {
+      "end": 708300,
+      "speaker": "Jeff Heer",
+      "start": 640154,
+      "text": "Sure. So, yeah, it's really a story with two main chapters. And the first chapter was while I was a graduate student at Berkeley. And actually, even prior to that, I had been working with folks at Xerox Parc. And over time, as many of us do, building up a set of routines for visualizations. And over time I began to try and organize it into a library. And when it was in a shape that it was ready for its initial commit into subversion for the code sharing repository. And I was listening to music at the time. I was in the office with friends and we were listening to the artist prefuse 73, who's an electronic musician on warp records. And so me and my friend Alan Neuberger looked at each other and we said, well, I guess you are what you eat. So we just named the repository prefuse because that's what we were listening to. And then with the idea that we might change the name later when we come up with something. And you never do that, and we never did. And so we wrote a paper on it a number of years ago where we kind of gave some ad hoc, post hoc rationale for why preface was a good name for a visualization tool, but it was all made up.",
+      "id": "ep_8_ut_17"
+    },
+    {
+      "end": 714648,
+      "speaker": "Enrico Bertini",
+      "start": 708482,
+      "text": "Can I ask you something? Did you start your thesis already thinking about creating a toolkit, or this was.",
+      "id": "ep_8_ut_18"
+    },
+    {
+      "end": 800676,
+      "speaker": "Jeff Heer",
+      "start": 714696,
+      "text": "Just not at all? No, this was definitely, I was building visualizations and I was seeing recurring patterns. And so I was then just trying to make it easier to create visualizations. And then as it evolved and became more and more useful, I started to wonder, well, would this be useful? Does this make a research contribution? And in fact, most people, many people told me it wasn't. They're like, oh, that's just engineering, that's just coding. Where's the big idea? And I think those are useful challenges to have because it's important to be reflective about what you do and what are the bigger lessons that you learned. So I was very lucky to be able to work at Xerox PaRC for a while, including my managers, included folks like Ed Shee and Stu card. And they had thought a lot about this as well. And so just understanding at a higher level how the sort of the abstractions being put in place within the toolkit actually corresponded to some other theories of the visualization process and how it was really instantiating those. So then arguing from there something about how you can conceive of the completeness of the toolkit, etcetera. And so then it obviously ended up being somewhat successful. And so that was actually, I think it's still my most cited research paper. So for any students out there listening, when people tell you that what you're doing isn't research, you should listen carefully and then figure out how to intelligently prove them wrong. Yeah.",
+      "id": "ep_8_ut_19"
+    },
+    {
+      "end": 806028,
+      "speaker": "Moritz Stefaner",
+      "start": 800700,
+      "text": "And that still is, think the only real major java visualization framework out there, right?",
+      "id": "ep_8_ut_20"
+    },
+    {
+      "end": 928164,
+      "speaker": "Jeff Heer",
+      "start": 806076,
+      "text": "I mean there's a number of Java frameworks out there, but they think they tend to focus on maybe more tightly scoped parts. I know there's like charting libraries and there's libraries for graph visualization networks. Yeah, that's, yeah, yeah. And then, I mean they all, they all have some really wonderful strengths. And so again, I'm not dogmatic when it comes to choice of tool. I mean, use what's right for the job. I don't think one tool fits them all. So then I developed prefuse for a number of years and one of the things that was really interesting with that was interacting with the user community. And so for any prefuse users out there, they probably may remember, depending on when they started using it, a huge difference between the alpha version and the beta version where I basically rewrote the entire thing. And that was really in response to that being written in Java. Turns out the primary user base was enterprise software developers in Java. And so it really kind of evolved to fit their needs and that way of seeing the world. And then eventually I got very interested and realized that the web was where visualizations needed to go, not all of them, but many. So obviously that's where the people are. And so if you want to reach audiences and also avoid all these headaches with installation, et cetera, the web was looking really promising. Unfortunately, Java applets, while useful, had not proven to be painless. So that's why I ended up beginning to learn flash. And then flare was really just an extension of prefuse, really trying to take the architectural ideas in prefuse and see how they fit within the flash world. And so along the way a lot of things evolved and that was just mostly through a conversation with things that the actionscript language supported, versus Java. Though along the way I did get much more interested in richer forms of animation. And so I think one of the major things that distinguishes flare from prefuse, other than just the platform, is that flair has much richer facilities for animation.",
+      "id": "ep_8_ut_21"
+    },
+    {
+      "end": 943600,
+      "speaker": "Moritz Stefaner",
+      "start": 930344,
+      "text": "And I always liked the architecture. I've been using it I guess for two years or so, really intensively, like on every single project, and I was never impeded. I think it's really well designed.",
+      "id": "ep_8_ut_22"
+    },
+    {
+      "end": 982782,
+      "speaker": "Jeff Heer",
+      "start": 943792,
+      "text": "Well that's great to hear. And I have to say, for me, the biggest reward from building any of these frameworks is just seeing the amazing things that other folks come up with. So for, I remember I think the first project I remember seeing from you, Moritz, was the work you did on the eigenfactor. Oh, yeah, that maybe two or three years ago, definitely, yeah, that was a number of years ago. It was just beautifully done. And so I count that among the projects that made me really happy, because I see this and I think to myself, I didn't know that you could do this with the tool. Again, that's one of the really most rewarding aspects of building tools, watching a community of folks do amazing work.",
+      "id": "ep_8_ut_23"
+    },
+    {
+      "end": 988514,
+      "speaker": "Enrico Bertini",
+      "start": 982878,
+      "text": "Jeff, you know that Moritz is a big fan of flare, and he's still using it quite intensely.",
+      "id": "ep_8_ut_24"
+    },
+    {
+      "end": 991198,
+      "speaker": "Moritz Stefaner",
+      "start": 989654,
+      "text": "Often I will start and I no.",
+      "id": "ep_8_ut_25"
+    },
+    {
+      "end": 994638,
+      "speaker": "Jeff Heer",
+      "start": 991206,
+      "text": "Longer use flare, so I'm glad that you are.",
+      "id": "ep_8_ut_26"
+    },
+    {
+      "end": 1020024,
+      "speaker": "Moritz Stefaner",
+      "start": 994726,
+      "text": "Yeah. Now, the best part, I think, is that once you have your data structure defined, you can have so many views on the same data set and very effortlessly. And I think it's still also, compared to the newer frameworks, this one is still the most flexible when it comes to this. And like, once you have your data set up, what can I do with it? And, you know, quickly prototyping approaches and. Yeah, yeah, so I'm still using it. Yeah, great. Yeah.",
+      "id": "ep_8_ut_27"
+    },
+    {
+      "end": 1218544,
+      "speaker": "Jeff Heer",
+      "start": 1020884,
+      "text": "So, yeah, so I wrote prefuse and flair while a graduate student, and then I graduated and I came to Stanford, where I joined the faculty in 2009. And when I started is when I met Mike Bostock, who was a PhD student who had just recently joined the department. And so we started talking about possible visualization projects and he took my course. And that's really within the course, is where the ideas for Protovis first started, where Mike was looking at the approach we had taken with prefuse and flare, which in some ways is conceptually similar to other work that had been done both in infovis and in the area of scientific visualization, which really kind of comes from a more mathematical mindset where you think about a visualization as the result of this mathematical process. And so you want to subdivide that process into a set of operators that you might combine together in different ways. But it's really thinking from the top down from like a high point of abstraction, you know, kind of, what's the minimal amount of sub abstractions can I do to create all these visualizations? And I think, you know, that process works well. But one of the things that I found to be true with both prefuse and flare was that anytime that I've wanted to do something really unique, so not a cookie cutter type visualization, I'd have to create new operators, which basically meant I needed to be an expert in the toolkit architecture and have software engineering skills to basically add new building blocks into this set of components. And so one of the ideas that Mike had that got me very excited was, well, can we turn that around? And instead, from this high point of abstraction thinking down to the result, think about the result first and foremost. So really kind of reason bottom up from the actual graphical marks that appear on the screen. And so that led to this notion of Protovis is basically a form of style sheets. So you think about cascading. Style sheets are a way to add colors and fonts and line widths, et cetera, and all the elements in your webpage. Can we do something similar where we style data? But to make that work, it can't just be constants like setting colors and spacings, but you have to have functions that map from the data and then to the visual elements, whether that to drive color mappings or layouts, et cetera. And so that was the basic idea that drove Protovis is again thinking bottom up about graphics, data visualizations as just being statements that map data to graphical marks. And so we thought that that was nice for a number of reasons. One, it was kind of conceptually clean. It avoided this huge stack of abstractions that both profuse and flare had. So that we hope that even if there was a learning curve, once you got that initial learning curve, you'd pretty much know everything there is to know. It wouldn't be like what many people had experiences with profuse and flare where they'd get something working and as soon as they wanted to make it more complicated, they have to pull back a layer of abstraction and then pull back another layer of abstraction and then another, and get deeper and deeper into the guts of the framework. And we wanted to avoid that. And sort of had a system that didn't require you to, to build new components from scratch, but that within the design of the language itself, you could create just about anything you wanted to do. And so I don't know if we succeeded 100% on that goal, but that was the goal that drove us.",
+      "id": "ep_8_ut_28"
+    },
+    {
+      "end": 1254714,
+      "speaker": "Moritz Stefaner",
+      "start": 1219044,
+      "text": "I think Protovis is great for teaching visualization because it's so crystal clear in this process of we have some data, a part of that is mapped to dynamic properties, other properties are static, some properties might just depend, depend on the index of something in a list. So it's very clear in this regard. And all the rest is sort of left away somehow magically. And so I always found it great for teaching. Just like how does visualization work? What are visual variables? What are data types? How can we transform one into the other? This very simple idea?",
+      "id": "ep_8_ut_29"
+    },
+    {
+      "end": 1424384,
+      "speaker": "Jeff Heer",
+      "start": 1254834,
+      "text": "Yeah, but it turns out that simple idea has some powerful implications. So there's only so much you can do technically within a web browser. But Protovis, while the primary implementation and release was in JavaScript, and that was the other thing that was different from flare. Of course, moving from flash to HTML five, which I think was a very good decision in hindsight. But one of the things that we were able to do is take the language model of Protovis and explore it in other programming languages as well. These aren't implementations that were nearly as robust as the JavaScript ones, so we don't really actively produce them, but it allows us to explore lots of interesting research questions. So the fact that Protovis has this high level declarative style of specification means we can do all sorts of optimization behind the scenes as well. So we're actually able to build a Java framework based on the Protovis language model that was 20 times more scalable than prefuse. And that's because rather than prefuse exposing all the guts with Proto viz, you have a clean language. And then, much like the databases, take your SQL query and try and execute them optimally, we can do similar things for your visualization specification and try and make it much faster. And so as a different approach, a different language for talking about visualizations, it provided a really fun space to explore with respect to systems research in infovis. And then of course at the end of this saga is D3, or data driven documents. And this was born out of our experiences with over two years of Protovis use and quite frankly really exciting adoption by a number of folks. At Protovis, we were able to see some of the problems people had, both at a systems level in terms of performance issues, particularly with animation and interaction, but also the ways in which Protovis did or did not fit into people's existing workflows within the web browser. And so D3 made a number of decisions. One was it actually got rid of this simplified language of visual marks, and instead people bind data directly to elements within the web page, whether that's HTML tags or SVG tags. And this had a number of nice benefits. So one, if you're already familiar with these web standards, great, you can continue to leverage that expertise, and then you could really easily do things like use CSS to style elements of your visualization. And it also greatly improved performance because there was no longer this middle layer of abstraction that the web browser had to translate between. So you could write a statement once, have it generate content on the web page with very little intermediary. And so being able to then just be able to select just subsets of your web page and manipulate and update just those made interactions and animations much faster too.",
+      "id": "ep_8_ut_30"
+    },
+    {
+      "end": 1439624,
+      "speaker": "Moritz Stefaner",
+      "start": 1425324,
+      "text": "I think that was the biggest change in Protovis. Everything had to be re rendered all the time. Something changes and D3 is much more a nested model where you can just update one part or a selection of your tags.",
+      "id": "ep_8_ut_31"
+    },
+    {
+      "end": 1479082,
+      "speaker": "Jeff Heer",
+      "start": 1439964,
+      "text": "Yeah. So the basic notion of D3 is of a transformation. So every statement is a document transformer, not just a document generator like Protovis. So that was one big important change. But the way in which you describe those transformations is very similar to Protovis, at least conceptually. And so I often think of D3 as taking a lot of the ideas in Protovis, adding in some new ones, but really trying to make it work for the web environment in particular. So I think Protovis is kind of more kind of conceptually self contained, where D3 is really trying to just kind of, you know, fit itself in.",
+      "id": "ep_8_ut_32"
+    },
+    {
+      "end": 1513668,
+      "speaker": "Moritz Stefaner",
+      "start": 1479098,
+      "text": "An idealized world independent of any, like, web browsers. It's a mathematical thing, right. And D3 is much more, again, like deep in the dirty, what's really going on? And you get to work with the actual elements, you know, being used by your browser. And in the beginning, I remember that sort of, I was a bit scared of that, because SVG is, is, yeah, it's not ideally designed, and you have to deal with all these things like how all the properties are called, and sometimes your x position is an x, sometimes it's a cx, and yeah, who knows why?",
+      "id": "ep_8_ut_33"
+    },
+    {
+      "end": 1580834,
+      "speaker": "Jeff Heer",
+      "start": 1513756,
+      "text": "And it's like we lost a number of tidier elements and the move from Protovis to D3. And in fact, I mean, I should share that part of the story here was that, you know, when Mike Bostock was coming up with the ideas for D3, you know, I was actually quite skeptical, skeptical about a number of these things just because I saw the trade offs. But I think based on his interactions with Protovis users and also just his own quite formidable design sense, Mike saw that this is what was necessary to really take this to do professional level as best as you can do in the browser type visualizations with the framework. I think there are many features of Protovis that we remember fondly, and I think in other language environments would be great to bring back, but to really make this work in the web in a way that not only integrates with web standards, but also allows you to use any of your other web based tools or frameworks that you're used to using. So really kind of be a good citizen in that regard. I think in the long run, so far, I think time has shown that Mike's design decisions, there were some good ones to make.",
+      "id": "ep_8_ut_34"
+    },
+    {
+      "end": 1585994,
+      "speaker": "Moritz Stefaner",
+      "start": 1581214,
+      "text": "Oh, absolutely, yeah. I mean, I think success speaks for itself in this case.",
+      "id": "ep_8_ut_35"
+    },
+    {
+      "end": 1618638,
+      "speaker": "Enrico Bertini",
+      "start": 1586584,
+      "text": "Yeah. I was personally surprised because I think D3 among the four is the, is by far the most successful. Right? And if you compare D3 to the others, I think that technically speaking, it's the one which has the highest learning curve. Right? I mean, at the beginning when I saw it, I thought that it was too low level to be widely adopted. But in fact, what happened was exactly the opposite, that a lot of people adopted much more, much more easily D3 than the others.",
+      "id": "ep_8_ut_36"
+    },
+    {
+      "end": 1640006,
+      "speaker": "Moritz Stefaner",
+      "start": 1618726,
+      "text": "But you know what, Enrico, many people know jquery, and when you know jquery, you sort of get the logic of chaining things and selecting and, you know, sub selections, which might not be as natural to you. Maybe if you come from a, like a bigger programming language background like Java also, then you think like, what's this, please?",
+      "id": "ep_8_ut_37"
+    },
+    {
+      "end": 1731944,
+      "speaker": "Jeff Heer",
+      "start": 1640070,
+      "text": "So I have a couple thoughts on this because this is obviously something we, we've thought a lot about. And so one is the familiarity of a toolkit or language or its easiness to learn is often, at least in part, very much a function of your familiarity with the programming language that it's written in. And obviously all the runtime and the environment, et cetera, that comes along with that. The other question I think is really important is there's a difference between time to master a tool and time necessary to put a tool into use. And so I feel that for folks, for example, familiar with Java or Flash, for some of the basic solutions, you could take something from prefuse and flare, put it in, do some very simple modification very, very quickly. And with D3, I think part of it, you could do that as well, actually, but with D3 it might be a little bit longer. However, I think one of the things that is important to note is that I found that the time to mastery with D3 is actually shorter with profuse and flare. So I think it has a learning curve that's very steep initially. But once you get on, you know, kind of up to that plateau, then you are much, you can do a lot. I mean, you, you can, you can really achieve a lot in terms of visualization. And you, you know, once you're up on that plateau, you know, all of the primary concepts you're not going to be confronted with. You know, a week later you realize there's a whole nother layer of things that you have to learn in order to make further progress. At least that's been my experience and the experience of the students that I've been teaching in my visualization course at Stanford.",
+      "id": "ep_8_ut_38"
+    },
+    {
+      "end": 1765194,
+      "speaker": "Moritz Stefaner",
+      "start": 1733044,
+      "text": "How would you compare now these two approaches? So we have peripherals and flare, which are these more, let's say the typical Java like libraries, like trying to abstract a whole domain into its functional parts. And then your program is more or less a specialization of that general knowledge, if you want to put it that way. And then we have these more toolkit like approaches, maybe like D3 or Protovis, where you create complexity by chaining or nesting simple operations.",
+      "id": "ep_8_ut_39"
+    },
+    {
+      "end": 1800212,
+      "speaker": "Jeff Heer",
+      "start": 1765774,
+      "text": "So I think about it as prefuse and flare are examples of what I would call a component model architecture. So you have a set of operators, there's basically a bunch of components, and you treat them metaphorically. We can treat them like Lego blocks. They're somewhat sophisticated for a Lego block with lots of knobs and buttons on the side, you can build. The hope is that then you can chain these blocks together and build something wonderful. Whereas I think with Protovis and D3 are more languages for visualization. Maybe as simple as languages, but they're basically providing a grammar for visualization, syntax and grammar.",
+      "id": "ep_8_ut_40"
+    },
+    {
+      "end": 1800764,
+      "speaker": "Moritz Stefaner",
+      "start": 1800228,
+      "text": "Yeah, that's true.",
+      "id": "ep_8_ut_41"
+    },
+    {
+      "end": 1876874,
+      "speaker": "Jeff Heer",
+      "start": 1800804,
+      "text": "Yeah. There's been all sorts of really cool projects prior to this on grammars for visualization. So some listeners might be familiar with Leland Wilkinson's book the Grammar of Graphics, which served as the inspiration for GGplot two, which is a grammar in the r statistical programming language. And for those of you familiar with Tableau, I mean, underneath Tableau, they call it Visql, but it's also basically a generative grammar for data. Now, what's shared about all of those three things is those grammars are high level. And in fact, you make statements about data and visualizations and they get translated into working visualization. But those statements actually assume a lot. In some sense, they're ambiguous, just like human language is ambiguous. They make a lot of design decisions for you. And so the goal with Protovis and D3 was to similarly provide a language or grammar based approach, but do so at a lower level where they're quincy. Yeah. Where that ambiguity is removed and you have complete control over the design. And the trade off there is that means you have to specify more, maybe slower, to develop certain things, especially for very quick exploratory graphics, then the hope is then that language like D3 provides an ideal environment where you might implement something like ggplot two or something like Tableau for the web browser.",
+      "id": "ep_8_ut_42"
+    },
+    {
+      "end": 1890754,
+      "speaker": "Moritz Stefaner",
+      "start": 1877414,
+      "text": "Do you see any of these approaches being superior to the others? Or how would you, if you have a new project, let's say a practitioner, which type of tool would you use for which type of project?",
+      "id": "ep_8_ut_43"
+    },
+    {
+      "end": 1993494,
+      "speaker": "Jeff Heer",
+      "start": 1891424,
+      "text": "So one is, I mean, it depends on the nature of the project and if I have to integrate with a previous system that would shape my system. But let's say assuming I have a taboola rasa so I have a clean slate. I actually prefer the Protovis and D3 approach. Currently there may be some novelty bias there. It's also that I find that the functional language specification just seems to fit visualization really well. It just removes unnecessary abstraction. So from a clean theoretical sense I like it, but more importantly from a practical sense, I find that I can build things faster. Now, if someone does not find that to be true for them for whatever reason, and they prefer the other tool, that more power to them. I'm certainly not. I guess I mentioned before, I'm not dogmatic about this, but for my own personal tastes and experience, I like taking this sort of grammatical functional language approach to visualization design. It just seems one to fit the problem domain really well. And it also has this interesting property, at least the way we've implemented it, where unlike prefuse and flare, Protovis and D3 are much more forgiving as to how you organize your data. So prefuse and flare are very specific data structures that you have to populate, and all the operators are designed to work with those things. Where with Protavision D3, as long as it's JSON objects or some JavaScript value provided as an array, it's then up to you to write the functions that work with that data effectively and from some level. This is really an interesting debate because you could look at it one way and say, well this is silly. I mean, you're totally squandering reusability because this only yeah, it is like that.",
+      "id": "ep_8_ut_44"
+    },
+    {
+      "end": 1994414,
+      "speaker": "Moritz Stefaner",
+      "start": 1993534,
+      "text": "We have to stop.",
+      "id": "ep_8_ut_45"
+    },
+    {
+      "end": 2027914,
+      "speaker": "Jeff Heer",
+      "start": 1994534,
+      "text": "Oh, I can't reuse the chart, this is silly. But the fact of the matter is, and this comes back to the wrangling thing, it turns out manipulating your data is often much more painful than the minor modifications necessary to make these visualizations specifications work. And so in practice, especially for custom jobs, crafting the visualization specification to the structure of the data, perhaps surprising to some. It certainly was surprising to me when we first realized it was actually more efficient than trying to make all the data fit in one canonical format.",
+      "id": "ep_8_ut_46"
+    },
+    {
+      "end": 2082794,
+      "speaker": "Moritz Stefaner",
+      "start": 2028694,
+      "text": "Yeah, that's interesting, because somehow you have to start all over again. So in my flare projects I was reusing much more code across projects, and now D3 or so I always start fresh, like blank slate. But then the starting is much faster, of course, because I don't have to think that much, I just start with one detail and bootstrap the whole thing from that and it's much more fun. So it's not bad that you have to redo everything, let's say, for this new project again, because it's easy to do and you're really customizing it then for this one thing. But it's interesting. I'm really interested to see how it will play out if people get a bit frustrated with the sloppiness of JavaScript and try to get more library style and more enterprise style again, or if this functional approach will be in the end, the dominant programming paradigm could be as well.",
+      "id": "ep_8_ut_47"
+    },
+    {
+      "end": 2106714,
+      "speaker": "Jeff Heer",
+      "start": 2082914,
+      "text": "Well, JavaScript is only as sloppy as you make it so far as you also avoid all the things that should never be touched, like testing for undefined values. Refer any listeners to Doug Crockford's books and videos. They want to get up and running with JavaScript the right way.",
+      "id": "ep_8_ut_48"
+    },
+    {
+      "end": 2121424,
+      "speaker": "Enrico Bertini",
+      "start": 2107054,
+      "text": "So Jeff, what should people expect? Do you think we will stay with D3 for a long time, or is there anything new in the horizon and people should get ready to a new revolution again?",
+      "id": "ep_8_ut_49"
+    },
+    {
+      "end": 2138220,
+      "speaker": "Jeff Heer",
+      "start": 2122564,
+      "text": "Well, that's actually a better question for Mike, who's really the Mike Bostock, who's really the powerhouse behind D3's design and development. I've just been happy to be along for the ride and to be able to contribute and, you know, play work through these ideas with him.",
+      "id": "ep_8_ut_50"
+    },
+    {
+      "end": 2141904,
+      "speaker": "Enrico Bertini",
+      "start": 2138292,
+      "text": "But would you be comfortable with scrambling the old thing again, or.",
+      "id": "ep_8_ut_51"
+    },
+    {
+      "end": 2260450,
+      "speaker": "Jeff Heer",
+      "start": 2142644,
+      "text": "I personally don't have the desire to do that. Four frameworks in. I figured that's good. Maybe a third time was supposed to be the charm, but I think a flare is really, is just prefuse, uniported to flare. So maybe third time is the charm here. But no, but more to your question, what to expect? So there's a couple things I think. So D3 is about creating a visualization. I think there are possibilities for higher level languages on top of D3. I already mentioned things like Ggplot two or systems like Tableau. I think those types of higher level analytic languages that you specify, perhaps much less code, but is more ambiguous at some level, and that generates visualizations that are implemented in D3 for you, I think that's very promising. Building on that further, I'm actually very curious, not in changing the underlying programming language, but how do we design interactive tools that allow people to create visualizations without having to explicitly write programs? So what are ways through a user interface? Yeah, precisely. So imagine you have some, maybe a little, borrow a little bit from Excel and spreadsheets, maybe borrow a bit from tools like Adobe illustrator, as well as some new interactive paradigms. What are ways that through direct manipulation we can begin to specify visualizations? And that doesn't mean that you won't have any mathematics involved. Obviously you might want to write formulas and data transformations and things like that, but there's probably ways of building Protovis and D3 like statements through interactive manipulation. And so that's something some of my students are interested in looking at. I think there's also once you have a working visualization, I've been really inspired by the types of storytelling mechanisms that folks like the New York Times, Washington Post, Guardian have been pioneering. And so what are the right levels of abstraction and tools that allow people to author stories to share with others?",
+      "id": "ep_8_ut_52"
+    },
+    {
+      "end": 2269058,
+      "speaker": "Moritz Stefaner",
+      "start": 2260622,
+      "text": "Yeah, that's a great question too. Yeah. Like how there's really no authoring tool for these types of data driven stories at the moment, right?",
+      "id": "ep_8_ut_53"
+    },
+    {
+      "end": 2281894,
+      "speaker": "Jeff Heer",
+      "start": 2269226,
+      "text": "Yes. And so we actually have written a tool for doing this, which we currently call ellipsis, as in dot, dot, dot, which is a very obscure reference to D3.",
+      "id": "ep_8_ut_54"
+    },
+    {
+      "end": 2287074,
+      "speaker": "Moritz Stefaner",
+      "start": 2285694,
+      "text": "Around a few corners.",
+      "id": "ep_8_ut_55"
+    },
+    {
+      "end": 2311382,
+      "speaker": "Jeff Heer",
+      "start": 2287454,
+      "text": "This is developed by a student of mine named Arvind Sachin Arayan. And so we're excited about that. But it's still in some early stages. We've been working with some journalists who've been helping us understand its strengths and weaknesses and improve it. So hopefully it will appear in a future conference as well as of course, perhaps more importantly, be released as software for others to use once it evolves enough that it's ready for. That.",
+      "id": "ep_8_ut_56"
+    },
+    {
+      "end": 2340696,
+      "speaker": "Moritz Stefaner",
+      "start": 2311478,
+      "text": "Sounds great. Great. Yeah, it's interesting. I mean, these user interface driven tools, I mean, the holy grail there of course, is to go beyond that cookie cutter stage where you just fill a template or a style with your data and it's hard to move beyond that. So there have been a few approaches, I mean, Tableau there. I mean, I'm a big fan of Tableau as well, but it's also good for only a couple of things, right? Not the full spectrum of what you want to do.",
+      "id": "ep_8_ut_57"
+    },
+    {
+      "end": 2375302,
+      "speaker": "Jeff Heer",
+      "start": 2340840,
+      "text": "So I think of Tableau as two things is it's an analysis tool, you can do really rapid exploratory analysis, and that's what it's designed for, putting on a design hat for a moment. I also think of it as a prototyping tool. It can't express all of the visualizations that I would want to do by any means, but it can allow me to explore the space and that I refine my ideas so that before I move to code, I end up having a much clearer ideas of what types of visual forms will work and which probably won't. And so I think that as an.",
+      "id": "ep_8_ut_58"
+    },
+    {
+      "end": 2382714,
+      "speaker": "Enrico Bertini",
+      "start": 2375318,
+      "text": "Enabler, this is pretty much the way you work. Moritz. Right. You mentioned many times to me that you start from Tableau. Right.",
+      "id": "ep_8_ut_59"
+    },
+    {
+      "end": 2406700,
+      "speaker": "Moritz Stefaner",
+      "start": 2383094,
+      "text": "But I don't really prototype visual ideas in Tableau because for that it's too limited. Right. But I also use it in this very early stage of getting a sense of the texture of the data, of the distributions of the data, of the potential combinations of attributes, you know, just to see, okay, how sparse does it become when I cross all authors and countries, you know, and stuff like that?",
+      "id": "ep_8_ut_60"
+    },
+    {
+      "end": 2407164,
+      "speaker": "Enrico Bertini",
+      "start": 2406852,
+      "text": "Yeah.",
+      "id": "ep_8_ut_61"
+    },
+    {
+      "end": 2412716,
+      "speaker": "Jeff Heer",
+      "start": 2407204,
+      "text": "And that's primarily what I mean, though I think for some simpler instances, you can get some ideas into visuals as.",
+      "id": "ep_8_ut_62"
+    },
+    {
+      "end": 2418180,
+      "speaker": "Moritz Stefaner",
+      "start": 2412740,
+      "text": "Well, just to get a sense of where the interesting things might lie and then move on.",
+      "id": "ep_8_ut_63"
+    },
+    {
+      "end": 2462402,
+      "speaker": "Jeff Heer",
+      "start": 2418212,
+      "text": "Yeah. And so I remember I was lucky enough a number of years ago, I spent a summer working with Martin Wattenberg, and one of the things that I always really admired about his work, among the many things I admire, is that he just seemed to have this great knack for giving a massive data set, picking the two to three variants that just told the richest story. So if I'm going to take a very complex data set and make sacrifices, I'm not going to be able to communicate everything. Which subset do I keep to really create a compelling experience? And he just seemed to be able to nail that every time. And so I try to weakly approximate that in whatever way I can by going through with Tableau first and finding out where the stories are and the data before I commit too heavily to any one particular implementation effort.",
+      "id": "ep_8_ut_64"
+    },
+    {
+      "end": 2489000,
+      "speaker": "Enrico Bertini",
+      "start": 2462458,
+      "text": "Yeah, I personally believe this is one of the most important skills for a visualization design. I think I mentioned that several times in the podcast as well. And paradoxically, it's not about visualization. I mean, the most important thing is what features you choose to visualize, right? Yes, and it's hard. It's really hard because you don't want to get rid of stuff, at least at the beginning. But you have to go through this painful process where you have to admit.",
+      "id": "ep_8_ut_65"
+    },
+    {
+      "end": 2490576,
+      "speaker": "Moritz Stefaner",
+      "start": 2489152,
+      "text": "I can't kill your dog.",
+      "id": "ep_8_ut_66"
+    },
+    {
+      "end": 2491884,
+      "speaker": "Enrico Bertini",
+      "start": 2490720,
+      "text": "Yeah, exactly.",
+      "id": "ep_8_ut_67"
+    },
+    {
+      "end": 2496424,
+      "speaker": "Moritz Stefaner",
+      "start": 2494164,
+      "text": "Yeah, yeah, yeah.",
+      "id": "ep_8_ut_68"
+    },
+    {
+      "end": 2568544,
+      "speaker": "Enrico Bertini",
+      "start": 2496844,
+      "text": "So maybe we want to move on to the next topic I have on the list. Yeah. Since you are here and you are a very well known researcher in the area of visualization, I want to take this opportunity to ask you something about the relationship between research, industry, designers and so on. And I received, I have to thank. Benjamin Viderka is a friend of us who sent a lot of questions about this specific topic. I want to read you out loud, maybe a couple from him. They are somewhat similar. Just to introduce the topic. He said something. He asked something like, how does he close. He is you, Jeff. How does he close? The gap between practice and research or. Scientific papers have long been the medium of discourse in the scientific community. Unfortunately, designers are not trained or used to writing papers, and thus their work is often not reflected in the scientific community. How could this gap be bridged? Should it? And so on. I think this whole set of questions are really interesting. Maybe you want to comment on that, Jeff.",
+      "id": "ep_8_ut_69"
+    },
+    {
+      "end": 2620264,
+      "speaker": "Jeff Heer",
+      "start": 2569564,
+      "text": "Yeah, actually, one of the things that's really fun is that we're an exciting time where I think the opportunity for research, industry design, et cetera, to be in conversation with each other, it's almost never been richer. Yeah. It's always, one always gets proven wrong when making statements like that, but I'll run with it for the time being. Yeah. So how do I close the gap between practice and research? Well, I release a lot of software, and my students release a lot of software. And so that's probably been how we've had the most interaction with practice is that we build tools that many practitioners use. And so I'm a strong believer in open source software and making tools available. I'm not a zealot in terms of that, but I think it's just a really important way to realize the practical impacts of research.",
+      "id": "ep_8_ut_70"
+    },
+    {
+      "end": 2644204,
+      "speaker": "Moritz Stefaner",
+      "start": 2620424,
+      "text": "Yeah, but I think that's a structural issue, because I can totally see you're doing that, and that's so great. But the problem is somehow you don't get to write a paper on how you fix the few bugs that your practitioners were asking for. For a PhD student, it's a problem, isn't it? I mean, they should focus on their papers and all these practical issues.",
+      "id": "ep_8_ut_71"
+    },
+    {
+      "end": 2872320,
+      "speaker": "Jeff Heer",
+      "start": 2645104,
+      "text": "I think that's a concern, and it has to be addressed intelligently. And I'll give you just a quick anecdote of one example. When I was initially working on prefuse, this is many years ago now, I was very active on the support forums, and I tried to answer questions as quickly as I could. And I think early on that was important. But as you might imagine, as you're listening to this gets exhausting. And at one point, I'm just too tired. I can't do this right now. And so I stopped answering, not entirely video, just for like a day or two. And then all of a sudden, creating that space allowed other people to step up and start asking the question. I realized, like, how long have I been doing all this work unnecessarily? And also, you know, curtailing the opportunity for others to get visibility and take on leadership roles in the community. And to be honest, I don't think I ever did a particularly wonderful job at cultivating a sustainable, open source community around those tools. But certainly there's ways that you can do that. And I think we've been more successful with Protovis and D3 in that we do have lots of contributors who are helping fix those bugs. But at the same time, it's also, you know, Mike spends a ton of time on that. Yeah. And it's a big, it's a big commitment. And so you just have to really build around. At the end of the day, you have to make an informed decision. If you're going to, if your primary goal is going to be research, you just have to scope it and say it's something. You can release software and just give it a disclaimer. But by making it open source, if there are other people who can use it and contribute back, you know, it may improve slowly, maybe just in a couple fits and starts, or with enough shepherding, maybe have a long term life. These are all possible outcomes, but getting real world feedback and seeing people use your software. One is, I think, a very valuable reward in its own right. But even if you're going to be myopically focused on research, what people do with the tool fuels research ideas. Even if it's not around that specific project, it will fuel an idea for a new project. You'll just see how people stumble on something. You're like, oh, wait, well, that's an interesting problem. Like why do people have such a hard time coming up with a good color palette? Palette? That might not be a prefuse problem, but maybe it gives you some insights on how to better approach tools for crafting color mappings, etcetera. So I think it's important. I think there's also another side to this that I want to jump to because I think it's also important. I think researchers have a lot to learn from practitioners. I agree in my personal experience I mentioned earlier, what blew me away is what journalists, artists and others have been doing with storytelling mechanisms around visualizations. And so a student who had worked with me here at Stanford, Eddie Sagal, wrote a paper with me where he just looked at what folks at the New York Times and other outfits are doing and then try and organize that and look for recurring design patterns. And so in this way, people are exploring this space. And so one way that I think academics might help is that we might have the time and maybe, certainly we don't have the deadlines of a newsroom, which helps, but maybe also kind of a different perspective that might allow us to think about what practitioners are doing and engage in a discussion that we both can benefit from. And I really hope, I know others are working on this, that we have a much higher representation of folks in the analytics industry and also visualization designers coming to our academic conferences and participating in those conversations. I know we're trying to create new, attractive venues for folks to come, but we still have a long way to go. And so we really love to get feedback from folks in the community of practitioners on how to better forge connections between these groups.",
+      "id": "ep_8_ut_72"
+    },
+    {
+      "end": 2898334,
+      "speaker": "Enrico Bertini",
+      "start": 2872392,
+      "text": "I think that's a key point, trying to have events where academics and practitioners can meet and discuss and show each other what they are doing. I think that we don't have that right now, and I think we are moving some initial steps in this direction. And for instance, in the Visweek conference this year for the first time. But we have a, are we have to do much, much more, right?",
+      "id": "ep_8_ut_73"
+    },
+    {
+      "end": 2902034,
+      "speaker": "Moritz Stefaner",
+      "start": 2899074,
+      "text": "Yeah, but I see more and more of these activities, and at the same.",
+      "id": "ep_8_ut_74"
+    },
+    {
+      "end": 2916914,
+      "speaker": "Enrico Bertini",
+      "start": 2902074,
+      "text": "Time, there are events that are more centered around design and or industry. And normally people from, and normally academics don't participate to this kind of events. So it's both ways, right?",
+      "id": "ep_8_ut_75"
+    },
+    {
+      "end": 2929602,
+      "speaker": "Moritz Stefaner",
+      "start": 2917074,
+      "text": "Sure. Absolutely. No, no. Okay. It's just different. Yeah, it's different types of scenes, different types of, let's say, day to day work, but both could definitely profit a lot from more dialogue. That's what I mean.",
+      "id": "ep_8_ut_76"
+    },
+    {
+      "end": 3034424,
+      "speaker": "Enrico Bertini",
+      "start": 2929608,
+      "text": "But it's true. I mean, I want to stress again what Jeff said. I mean, me being myself, more an academic kind of person and going to several conferences every year, I'm always surprised. I mean, now maybe I'm no longer surprised, but I used to be very much, very surprised to see how many beautiful and complex things, things skilled designers can do. And I've never seen such a good quality in any of the visualization conferences I attended. The reason why I started blogging and participating to this whole thing because I really thought about, man, we can learn something here. At the same time, I think we can teach a lot, but we can also learn a lot. I mean, absolutely. And I totally believe in this, of, I don't know, communication that we need to have and to put in place. Yeah. But I wanted to ask to Jeff something related but different. I'm sure you are aware of the endless debate on the web between people who are more orthodox, people like us who come from academia. I've been in several comments in my blog post, I had people saying, oh, you are an orthodox coming from academia, and just saying that you have used color and length for this and that and never bend the rules. And then you have these overly creative designers who come up with stuff that you cannot even read. And then we had several times, I'm sure you know, things about Stephen Few publishing this quite harsh blog post about, I don't know, fancy designer and, and stuff that is not really proper.",
+      "id": "ep_8_ut_77"
+    },
+    {
+      "end": 3061004,
+      "speaker": "Jeff Heer",
+      "start": 3034844,
+      "text": "What's your take on that McCann list of examples that some of the folks in the design community who I respect to know and were quite merciless on that particular McCandless design? So there's. So I think. I think at the end of the day, this is, you know, everyone loves a good drama and it's fun, but I don't think anyone disagrees, is that both function and aesthetics are important.",
+      "id": "ep_8_ut_78"
+    },
+    {
+      "end": 3061784,
+      "speaker": "Enrico Bertini",
+      "start": 3061124,
+      "text": "Yeah.",
+      "id": "ep_8_ut_79"
+    },
+    {
+      "end": 3116882,
+      "speaker": "Jeff Heer",
+      "start": 3064164,
+      "text": "I think to say otherwise, as a straw man, that's, I think, easily dismissed, and certainly that's Stephen Fuse take, and that's everyone else's take. But people have very different points of emphasis. And I think where those different points of emphasis often emerge is because people are trying to achieve different goals with visualization. And so if one jumps into a debate without first having common ground as to, to given a particular visualization design effort, what are we trying to achieve? And I know that I've had long conversations with Steven about some of these issues, and I know he's talked to folks in the area of business intelligence, where his understanding is that the primary goal is to understand the data in a way that reflects what's really in the data and informs a certain type of decision making that avoids people making mistakes that might cost lives or lose money.",
+      "id": "ep_8_ut_80"
+    },
+    {
+      "end": 3118826,
+      "speaker": "Enrico Bertini",
+      "start": 3116978,
+      "text": "But that's not always the case, right?",
+      "id": "ep_8_ut_81"
+    },
+    {
+      "end": 3184284,
+      "speaker": "Jeff Heer",
+      "start": 3118970,
+      "text": "When that's your framework. Obviously, things that exaggerate or perhaps lead to slight, even slight, or sometimes gross misinterpretation of the data can be seen as a big problem. And so he's very loud because he's targeted towards that specific community where he sees, like if he thinks if wrong ideas sink in, then it can do a lot of damage. Now, some people might be debating, it might be coming from a very different perspective and trying to design in a very different environment, where I certainly think there's value in having things be not just aesthetic but evocative one, because you're trying to communicate, you're evoking the concepts that you care about. That's an important design attribute, but maybe also to get people's attention. If this is an important issue, what is it? Something that you will be able to pull a reader in and then hopefully communicate other information effectively to them to help them make a decision. And so I think I've also seen debates of this on other blogs as well. You can see statisticians talk about this. I don't know if you follow Andrew Gelmit's blog.",
+      "id": "ep_8_ut_82"
+    },
+    {
+      "end": 3184692,
+      "speaker": "Enrico Bertini",
+      "start": 3184324,
+      "text": "I do.",
+      "id": "ep_8_ut_83"
+    },
+    {
+      "end": 3212984,
+      "speaker": "Jeff Heer",
+      "start": 3184748,
+      "text": "But these issues come as well, where I just see kind of a rampant misunderstanding of what infovis is, just because everyone seems to have a different definition. And so it's not that any single definition is wrong, but it's certainly, but they're different. There's different goals. And I think being very clear about what is a successful outcome for a visualization, what are you trying to achieve? And then picking the methods, the visual encodings, the appropriate level of rigor, et cetera, to achieve those goals is important.",
+      "id": "ep_8_ut_84"
+    },
+    {
+      "end": 3265084,
+      "speaker": "Moritz Stefaner",
+      "start": 3213964,
+      "text": "And what I'm really interested in is, so at the moment, we are sort of jumping a bit between these sort of different purposes, like exploratory purposes or more explanatory, simpler, visual, complex visualizations. I think everybody's still figuring it out. And so, for instance, the thing I've been doing for a few years is this really highly customized visualization for one data set that is really like high end, but only for this one purpose. Or maybe Ben Fry, Martin Wattenberg, you know, these types of, the style of working. So on the one hand, very exploratory, but at the same time very much focused on one issue. Do you think these things will be around in five years still, or will we move towards more, let's say, different types of approaches?",
+      "id": "ep_8_ut_85"
+    },
+    {
+      "end": 3339982,
+      "speaker": "Jeff Heer",
+      "start": 3265664,
+      "text": "Well, I don't know what to contrast it to. I hope it is there five years from now and in fact, probably more developed. I think one area that I think is exciting, I think one way, maybe, if you don't mind me twisting the question a bit, is to say, well, where will these types of designs and technology show up? Where maybe they're not showing up now, maybe for activism or for corporate sponsorship or for any number of reasons or journalism, you're seeing some interesting interactives, primarily on the web and as an educator and also science fiction fan, really interested in what's the textbook of the future. And I'm not alone. This, for example, my colleague Pat Hanrahan here at Stanford has a research project around this. But how do these types of interactivity and engagement around these very singular, important issues, whether that's global development trends or that's the fundamentals of modern physics, we should have these sort of interactive experiences to be able to understand them, interrogate them, understand what it means to make different modeling assumptions, et cetera. And so I like to see those types of custom designs applied in education. I think that would be really exciting.",
+      "id": "ep_8_ut_86"
+    },
+    {
+      "end": 3346314,
+      "speaker": "Enrico Bertini",
+      "start": 3340038,
+      "text": "Do you refer to stuff like, do you know these explorable explanations from Brett Victor?",
+      "id": "ep_8_ut_87"
+    },
+    {
+      "end": 3349682,
+      "speaker": "Jeff Heer",
+      "start": 3346434,
+      "text": "Victor, yes, yes, that's one of the examples, yeah.",
+      "id": "ep_8_ut_88"
+    },
+    {
+      "end": 3389644,
+      "speaker": "Enrico Bertini",
+      "start": 3349698,
+      "text": "That's a really fascinating, fascinating direction of development. Yeah. And I think there is a place for visualization there. Definitely. Yeah. Okay. And I have another bunch of questions about current developments in visualization. And do you maybe, do you have an idea? I got some questions regarding why do you think visualization is so interesting now? I mean, we all agree that it exploded during the last, I would say, one year or so. Why now? What is happening? Do you have any idea about that?",
+      "id": "ep_8_ut_89"
+    },
+    {
+      "end": 3444834,
+      "speaker": "Jeff Heer",
+      "start": 3390304,
+      "text": "Sure. I don't think it's particularly insightful. It's just if you track a bunch of trends, they all intersect right around now. And so what do those trends include? So, obviously, data has been growing for a long time, but not only is it, is it just growing, the accessibility of data and kind of the, you know, the diversity of people interacting with data is at kind of an interesting spot. Meanwhile, the abilities of web browsers to, you know, provide a visualization, you know, hit the right spot. And so I don't think it's actually an issue of tools. I think it's an issue of both the audience for data and the technology in terms of the browsers, which is the main vehicle for communicating stuff, are in the right place. And so once you have that, people are going to build the tools to realize on that possibility.",
+      "id": "ep_8_ut_90"
+    },
+    {
+      "end": 3449142,
+      "speaker": "Enrico Bertini",
+      "start": 3447494,
+      "text": "Yeah, but at the same time, we.",
+      "id": "ep_8_ut_91"
+    },
+    {
+      "end": 3464260,
+      "speaker": "Jeff Heer",
+      "start": 3449158,
+      "text": "Have lots of data. We have to do something with it. And our mainstream media outlets, in the form of web browsers are now sophisticated enough to enable us to present that data in new ways. And so I don't think it's particularly surprising that a large variety of folks are taking advantage of that.",
+      "id": "ep_8_ut_92"
+    },
+    {
+      "end": 3497940,
+      "speaker": "Enrico Bertini",
+      "start": 3464372,
+      "text": "But I'm personally fascinated by the fact that, I don't know, me coming from academia. If we take the whole area of data analysis, we have several branches that historically have been dealing with data, like databases or data mining, stuff like that, which historically are much bigger than infovis or visualization in general. Right. But if you look at the web and how people perceive data analysis at large, the layman visualization is much more, much more successful and powerful in a way. Right. I don't know if you agree with.",
+      "id": "ep_8_ut_93"
+    },
+    {
+      "end": 3514524,
+      "speaker": "Jeff Heer",
+      "start": 3497972,
+      "text": "Me, but if you look at, I think those technologies enable each other, so I think you have a multiplication effect amongst them. I'd hate to do visualization in a world without databases, or maybe I'd love it, because then I could invent databases.",
+      "id": "ep_8_ut_94"
+    },
+    {
+      "end": 3554822,
+      "speaker": "Moritz Stefaner",
+      "start": 3518424,
+      "text": "Yeah. But I think there's a lot to it. And I mean, basically there's two ways of dealing with this big data issue, is the one is really good algorithms and really good black boxes like Google, where you just type in one word and the algorithm finds the best match. Or you do something where you empower people actually to find themselves what they are looking for. Right. So I think this is a lot of, where a lot of the attraction of visualization is coming from, that it sort of empowers us again and doesn't give us this feeling of we can't do anything about this whole big thing.",
+      "id": "ep_8_ut_95"
+    },
+    {
+      "end": 3564602,
+      "speaker": "Jeff Heer",
+      "start": 3554918,
+      "text": "Well, the thing I've always loved about visualization is that, feel free to disagree, but I think fundamentally, visualization is not a technology that it's about answers, it's about questions.",
+      "id": "ep_8_ut_96"
+    },
+    {
+      "end": 3565226,
+      "speaker": "Enrico Bertini",
+      "start": 3564658,
+      "text": "Yeah.",
+      "id": "ep_8_ut_97"
+    },
+    {
+      "end": 3594822,
+      "speaker": "Jeff Heer",
+      "start": 3565370,
+      "text": "So if I can go to Google and type something in and get the answer I'm looking for, that's great. But it's okay. I ask a question, I see some kind of answer or some kind of response in terms of the data and the visualization, but I see it in the context of everything else. I see the things that I didn't expect, and it causes me to form new questions and new hypotheses. And it's that sort of contextualized exploration of data that allows me to ask smarter questions, which has, for me, always been what has been so attractive about visually. Yeah.",
+      "id": "ep_8_ut_98"
+    },
+    {
+      "end": 3623170,
+      "speaker": "Enrico Bertini",
+      "start": 3594838,
+      "text": "But at the same time, I think that's really. I fully agree with you, Jeff, but at the same time, I think this requires a whole kind of mind shift in a whole set of different branches. For instance, I think in science, lots of scientists are more used to start from an hypothesis and then searching for the data to check this hypothesis. Right. And recently I said no, yes and no. Yes and no.",
+      "id": "ep_8_ut_99"
+    },
+    {
+      "end": 3670444,
+      "speaker": "Jeff Heer",
+      "start": 3623242,
+      "text": "I think that's the way we write about science. I'm not convinced. I mean, all experiences under the sun have probably been had here, but I think in many cases there are questions. You have a hunch, so you get some data to see, is this hunch worth following further? And then it turns out your hunch was wrong. But another hunch that's slightly related to it does have promise, and you follow that, and then when you write the paper, you talk about, oh, you know, this, this hunch was, you know, we had this and we ran the study and we got this result. And you don't write about all the trail of dead ideas that got you there. And you don't even talk about the set of pilot studies often or other and of smaller prototypical activities that allowed you to gauge the successfulness of that. And so I think there's an interesting separation to be made between the process of science and the rhetoric of science.",
+      "id": "ep_8_ut_100"
+    },
+    {
+      "end": 3671252,
+      "speaker": "Enrico Bertini",
+      "start": 3670564,
+      "text": "Yeah, yeah.",
+      "id": "ep_8_ut_101"
+    },
+    {
+      "end": 3674304,
+      "speaker": "Jeff Heer",
+      "start": 3671308,
+      "text": "And I both exert, you know, influence.",
+      "id": "ep_8_ut_102"
+    },
+    {
+      "end": 3675424,
+      "speaker": "Moritz Stefaner",
+      "start": 3674684,
+      "text": "Sure.",
+      "id": "ep_8_ut_103"
+    },
+    {
+      "end": 3684064,
+      "speaker": "Enrico Bertini",
+      "start": 3676924,
+      "text": "Okay. And so let's talk briefly about the future of visualization. So where do you think we are going?",
+      "id": "ep_8_ut_104"
+    },
+    {
+      "end": 3688184,
+      "speaker": "Jeff Heer",
+      "start": 3686364,
+      "text": "I don't think we're leaving the web.",
+      "id": "ep_8_ut_105"
+    },
+    {
+      "end": 3691740,
+      "speaker": "Moritz Stefaner",
+      "start": 3689884,
+      "text": "You think this Internet thing is going to stay?",
+      "id": "ep_8_ut_106"
+    },
+    {
+      "end": 3859534,
+      "speaker": "Jeff Heer",
+      "start": 3691812,
+      "text": "I think the Internet thing is working out pretty well. I hope it continues to do so. Certainly. I think the, there's an interesting point now where I would love to be able to design in something similar to, like the web browser type environment and have it work on a variety of devices. Obviously, you can get a D3 visualization working on the iPad, and that's great, but it's very difficult to make it feel as smooth as a native app. So certainly I think all the new technologies and new interfaces will certainly play a role for different input modalities. We might have to shift how we do things. I don't see these as big challenges. I'd like there to be cool research questions there, but I actually haven't been able to convince myself that there are, there's really important work for practitioners to do. Certainly maybe interesting research questions as well that hopefully others will figure out. Where is Viz going? Well, as I mentioned earlier, I think understanding the lifecycle of data analysis, this notion of interactive data analysis I brought up earlier, I don't mean to be self serving, but since I'm putting a lot of my effort into that, it's because I think that's where Vis should go really understanding. And that means one thing that's been really fun for me, being within a computer science department, is looking for the ways visualization can fruitfully dovetail with other sub disciplines within computer science. So how does a combining visualization with statistical modeling help us understand those models better? Maybe arrive at a good model more quickly, or combining it with database techniques allow us to clean data and get it ready for analysis more quickly? I think there's lots of interesting challenges along those lines. More broadly, I think I guess what, for lack of a better term, I'll call the consumerization of visualization, or within the field, what we've called visualization for the masses, or casual info viz. I think that's just going to become more and more important. We're already seeing it in journalism. I think the types of data resources that everyday people have to work with in their everyday lives, whether it's just their music collections or their movie collections, or as we begin to track more and more of our own health data and stuff, just we're going to have so much data about ourselves, our friends, our families, you know, our vital statistics, etcetera. So I think that means many more consumer oriented visualization displays. But I think to be really empowering, it also requires better and better design tools that allow people to manipulate and explore their data in ways that, you know, another designer may have never envisioned. And so whether that's through you, I don't know what the right level of sophistication of those tools should be for different audiences, but certainly ways that allow people to express creative visualizations with a minimum of programming seems like a good step to take in that direction.",
+      "id": "ep_8_ut_107"
+    },
+    {
+      "end": 3862654,
+      "speaker": "Moritz Stefaner",
+      "start": 3860674,
+      "text": "I mean, that's really interesting, because.",
+      "id": "ep_8_ut_108"
+    },
+    {
+      "end": 3865146,
+      "speaker": "Enrico Bertini",
+      "start": 3864834,
+      "text": "One.",
+      "id": "ep_8_ut_109"
+    },
+    {
+      "end": 3895114,
+      "speaker": "Moritz Stefaner",
+      "start": 3865170,
+      "text": "Thing I'm sort of wondering about is that there is no integration of visualization maybe on operating system level yet, or into big web products. So neither Google nor Facebook nor macOS X for that matter, have a visualization component, you know, so do you think this is just, it takes a while still. So we are so far ahead sort of that the sort of the mainstream software market has to catch up? Or is there a fundamental sort of.",
+      "id": "ep_8_ut_110"
+    },
+    {
+      "end": 3922946,
+      "speaker": "Jeff Heer",
+      "start": 3895414,
+      "text": "I'm not convinced it needs a vis component. That's an interesting, interesting idea. I don't mean to discredit it. I think that's worth exploring. I would like them to have a data component that is easy to access, because I think that the web browser, while it could be even better, is in many intents and purposes a visualization framework. Now it's really about the fluidity of data, and you want to be able.",
+      "id": "ep_8_ut_111"
+    },
+    {
+      "end": 3929372,
+      "speaker": "Moritz Stefaner",
+      "start": 3922970,
+      "text": "To grab that data and transform it yourself and put it somewhere else and compare it to other data and so on. Yeah, that's an interesting thing.",
+      "id": "ep_8_ut_112"
+    },
+    {
+      "end": 3955040,
+      "speaker": "Jeff Heer",
+      "start": 3929538,
+      "text": "If you think of the operating system as more a services model level, then great, as long as I can open a socket and get data into my web browser, then hopefully then also be able to talk back to other systems. I think that's one other thing too, that we all realize, but don't always talk about as much, which is visualization's obviously very powerful output devices for people to make sense of data, but they can be incredibly powerful contextualized input devices too.",
+      "id": "ep_8_ut_113"
+    },
+    {
+      "end": 3955952,
+      "speaker": "Moritz Stefaner",
+      "start": 3955152,
+      "text": "Oh yeah.",
+      "id": "ep_8_ut_114"
+    },
+    {
+      "end": 3967234,
+      "speaker": "Jeff Heer",
+      "start": 3956128,
+      "text": "So thinking about how we use visualizations to gather data is actually kind of interesting as well, both for people but also actually for scientists. We've designed tools like that for data entry, et cetera.",
+      "id": "ep_8_ut_115"
+    },
+    {
+      "end": 3982714,
+      "speaker": "Moritz Stefaner",
+      "start": 3968774,
+      "text": "Yeah. Often it's still seen as a viewing device. Right. And not as an action device. And I also believe there's especially with new touch interfaces and so on, a big potential for making expressive tools for people as well. Yeah.",
+      "id": "ep_8_ut_116"
+    },
+    {
+      "end": 4049114,
+      "speaker": "Jeff Heer",
+      "start": 3984654,
+      "text": "Yeah, I think. One other thing I just want to answer your, if I just answering your question, Enrico, where vis is going, one thing I haven't touched on yet is the more theoretical side of information visualization. And so, though I haven't talked about them much today, a number of the projects in our group are focused on issues of perception and cognition. How do we study that? How can we build better models of what happens when you look at a visualization? What sort of guidelines can we provide that help aid visualization design? I think it's important. I don't want to say we want to automate it completely, rules of the sense that you must follow these rules. But I do think understanding the nature of perception and cognition can help us gain guidance to really make reasoned trade offs and choices as we explore different design ideas. I think it's a very important area for visualization research, and also one I think will continue to be a rich and sometimes contentious conversation between research and design communities.",
+      "id": "ep_8_ut_117"
+    },
+    {
+      "end": 4119450,
+      "speaker": "Enrico Bertini",
+      "start": 4049194,
+      "text": "Yeah, I'm glad you mentioned that, because I personally believe that it's really surprising how visualization has been developed in academia, because we had a, I don't know, we had the fathers of visualization who spent quite a lot of time and thoughts thinking about what's the best, the most basic theoretical things, especially connected to perception. And then we had this long time where we basically have been developing tools after tools and techniques and stuff like that. And I think only recently we started really, we started thinking about going back to the basics and really thinking about what's the connection between, I don't know, the basic principles of visualizations and how they connect with perception and stuff like that. And I think we still don't have enough of that, because when you, when you look into the basic guidelines we have and the basic understanding of human perception we have, it's a very rough set of tools, in my opinion. I mean, it's very solid, but at the same time, I think it's limited. There is a lot to explore and understand there.",
+      "id": "ep_8_ut_118"
+    },
+    {
+      "end": 4140996,
+      "speaker": "Jeff Heer",
+      "start": 4119522,
+      "text": "Oh, there's just so many questions to ask, and we're still trying to get the right kind of research instruments in place. So I think, for example, crowdsourcing is one really amazing and powerful instrument. You know, you can run studies at a speed and a cost and with a diversity of participants that in the past would be, you know, hard to fathom. Yeah.",
+      "id": "ep_8_ut_119"
+    },
+    {
+      "end": 4155810,
+      "speaker": "Moritz Stefaner",
+      "start": 4141020,
+      "text": "Or once you have a certain audience, you can do also a b testing, like present two alternatives to one part of your audience and another alternative to another part and just see what happens, you know, how it changes their behavior. And this can be very powerful.",
+      "id": "ep_8_ut_120"
+    },
+    {
+      "end": 4216034,
+      "speaker": "Jeff Heer",
+      "start": 4155922,
+      "text": "But I think about all the cool visualizations that are being put out there and all the work from journalistic shops, all of that usage data is results of basically a live experiment. And there may not have been variables manipulated, so it might be hard to draw contrast. But to do a b testing, as you describe, be very interesting, to be able to maybe in the future get things like eye tracking data or know where people were spending their time looking and what the perceptual effects of different elements were, but also to try and get at things that aren't just, you know, how long did I spend on the site? Or, you know, how accurately did I compare 1 bar in a bar chart to another bar. But really, there's ways to get a sense of what people are learning. Busy figuring out, you know, what are the right types of questions to ask participants, what are the types of measurements? We still have a lot to learn and a lot to learn from other disciplines, including psychology, about how to do this well. But I think especially when we start looking at larger audiences who aren't just analysts, it's really important.",
+      "id": "ep_8_ut_121"
+    },
+    {
+      "end": 4232614,
+      "speaker": "Enrico Bertini",
+      "start": 4216154,
+      "text": "Yeah. And we are still in a very preliminary phase where we are trying to develop the tools that will help us to better understand visualization. So even the tool set is not defined yet. Right. I think this is what you mentioned, what you wanted to say, Jeff. I mean, this.",
+      "id": "ep_8_ut_122"
+    },
+    {
+      "end": 4234258,
+      "speaker": "Jeff Heer",
+      "start": 4233594,
+      "text": "We need more.",
+      "id": "ep_8_ut_123"
+    },
+    {
+      "end": 4290274,
+      "speaker": "Enrico Bertini",
+      "start": 4234306,
+      "text": "Yeah, we need more. Okay. I think we can almost stop it here. I wanted to mention something before finishing. I cannot remember. Yeah, Jeff, I wanted to ask you, we have lots of listeners who are people who, I would say visualization novices, they get excited about visualization and they really don't know where to start. Start from, you are a professor, I'm sure you are in contact with many, with many students who just start understanding what visualization is and maybe they get excited about it. So do you have any suggestion to people who get excited about this, but they don't really know where to start from and even if they want to go through, I don't know, some academic curriculum or stuff like that. What are the options for and what do you suggest for novices?",
+      "id": "ep_8_ut_124"
+    },
+    {
+      "end": 4297510,
+      "speaker": "Jeff Heer",
+      "start": 4291014,
+      "text": "Well, I think first and foremost what I tell people to do, if you're interested in visualizations, then make visualizations.",
+      "id": "ep_8_ut_125"
+    },
+    {
+      "end": 4298194,
+      "speaker": "Enrico Bertini",
+      "start": 4297582,
+      "text": "Yeah.",
+      "id": "ep_8_ut_126"
+    },
+    {
+      "end": 4407684,
+      "speaker": "Jeff Heer",
+      "start": 4298654,
+      "text": "And hopefully in a way you can also get feedback from people. That's an important part of the learning. But, so when I say, well, people say, I'm interested in visualization and I say, well, great, what data? Yeah, what data is just happy scratching your head? What's the question that you're dying to know the answer to? And then, and then sometimes people, they go, no, I just liked pretty pictures. Okay, that's great. But you might want to, you know, I don't know if you want to take my class, but what is it you want to learn? Like what's something that you're just passionate about or exciting or what's something that you saw that you learned something new, like, yeah, I think it's, for me, a lot of the visualization is about the thrill of discovery and the thrill of learning. And this is true, both exploratory and also communicative stuff. Like what? I love communicative visualizations because they teach me something I didn't know or they give me a perspective on an issue that I didn't have before. And so it's finding interesting data sets or finding a data set that you already saw visualize and you thought was interesting. Well, how would you redesign it? That's a great way to start. Someone already found an interesting story, tell that same story in a different way, or can you tell a different story with that same data? And you don't have to have a deep technical skill to start here. I mean, you can draw it by hand if the data sets small enough, or you can manipulate it in excel and at least start playing with it there. You can use tools like Tableau, many eyes and a number of other free visualization tools and then eventually maybe start designing your own. Whether you want to use Protovis and D3 or use processing or whatever framework you're excited about. I think the practice of building visualization is the most important. And then once you start to get that going, you'll want to couple that with some of the more theoretical and conceptual aspects of the field. And for that I recommend looking at different academic curricula I think are still websites for classes on the web are probably still the best place to look for that.",
+      "id": "ep_8_ut_127"
+    },
+    {
+      "end": 4417844,
+      "speaker": "Enrico Bertini",
+      "start": 4408064,
+      "text": "This reminded me that several people asked whether you will ever give an infovis course on coursera or something similar.",
+      "id": "ep_8_ut_128"
+    },
+    {
+      "end": 4444836,
+      "speaker": "Jeff Heer",
+      "start": 4418744,
+      "text": "You know, I don't have any current plans to, but I would love to do that eventually. I think I am. I think. I think I'm a little shy. I think there's like copyright nightmare in the making. But assuming we can get past that, I would love to do that. And so I can't make any guarantees as to when that might happen, but it's certainly something I would be very excited to do.",
+      "id": "ep_8_ut_129"
+    },
+    {
+      "end": 4460014,
+      "speaker": "Enrico Bertini",
+      "start": 4444980,
+      "text": "Great. Great. So, and before finishing, I would love to mention that you told me when you visited Konstanz that you are going to open a startup, or open already a startup startup. Do you want to tell us something about it? What is it about?",
+      "id": "ep_8_ut_130"
+    },
+    {
+      "end": 4467010,
+      "speaker": "Jeff Heer",
+      "start": 4460834,
+      "text": "Sure. So we are nominally in stealth mode, so I won't say too much, but the name of our.",
+      "id": "ep_8_ut_131"
+    },
+    {
+      "end": 4469698,
+      "speaker": "Enrico Bertini",
+      "start": 4467042,
+      "text": "But you know, here, we need some scoop here, me and Moritz.",
+      "id": "ep_8_ut_132"
+    },
+    {
+      "end": 4523510,
+      "speaker": "Jeff Heer",
+      "start": 4469746,
+      "text": "Yeah, but no, it's not secret either. I know the name of our company is Trifacta, and the notion is we had this idea of an analytic trifecta that's people, data and computation. And so we basically want to build tools to make those three things work together more smoothly. And this is with my co founders, Joe Hellerstein from Berkeley and Sean Kendall from Stanford. And so we're really interested in these aspects of manipulating data, sort of data wrangling we talked about earlier, as well as other parts of the process. And the main goal is to be able to build tools that make working with data a really interactive experience, as opposed to just writing code in an editorial. And not only interactive, but the ability to really work with data at large scales. And so that's the teaser I'll give you for now. Keep your eyes peeled. We'll have more, hopefully coming out in the coming months.",
+      "id": "ep_8_ut_133"
+    },
+    {
+      "end": 4529114,
+      "speaker": "Enrico Bertini",
+      "start": 4523582,
+      "text": "So do you plan to develop any tools that will be available on the web and people will be able to play with?",
+      "id": "ep_8_ut_134"
+    },
+    {
+      "end": 4530502,
+      "speaker": "Jeff Heer",
+      "start": 4529934,
+      "text": "We'll see.",
+      "id": "ep_8_ut_135"
+    },
+    {
+      "end": 4537924,
+      "speaker": "Enrico Bertini",
+      "start": 4530558,
+      "text": "We'll see. Great. Okay. I don't know, Moritz, do you want to ask something else? Or. We can.",
+      "id": "ep_8_ut_136"
+    },
+    {
+      "end": 4539816,
+      "speaker": "Moritz Stefaner",
+      "start": 4538224,
+      "text": "I'm happy. It's been a great conversation.",
+      "id": "ep_8_ut_137"
+    },
+    {
+      "end": 4543248,
+      "speaker": "Enrico Bertini",
+      "start": 4539840,
+      "text": "It's been a great conversation. Of course. We could continue for another.",
+      "id": "ep_8_ut_138"
+    },
+    {
+      "end": 4543832,
+      "speaker": "Moritz Stefaner",
+      "start": 4543376,
+      "text": "Forever.",
+      "id": "ep_8_ut_139"
+    },
+    {
+      "end": 4551604,
+      "speaker": "Enrico Bertini",
+      "start": 4543888,
+      "text": "Forever. Jeff, thanks a lot. It was great having you here. It's. It's fantastic. I think it was a really nice episode.",
+      "id": "ep_8_ut_140"
+    },
+    {
+      "end": 4555712,
+      "speaker": "Jeff Heer",
+      "start": 4552704,
+      "text": "Well, thank you very much for having me. It's been a blast talking with you both.",
+      "id": "ep_8_ut_141"
+    },
+    {
+      "end": 4556944,
+      "speaker": "Enrico Bertini",
+      "start": 4555808,
+      "text": "Yeah. Okay.",
+      "id": "ep_8_ut_142"
+    },
+    {
+      "end": 4558856,
+      "speaker": "Moritz Stefaner",
+      "start": 4556984,
+      "text": "Yeah. Thanks so much. Very cool.",
+      "id": "ep_8_ut_143"
+    },
+    {
+      "end": 4560564,
+      "speaker": "Enrico Bertini",
+      "start": 4558920,
+      "text": "Thanks a lot. Bye, guys.",
+      "id": "ep_8_ut_144"
+    },
+    {
+      "end": 4561526,
+      "speaker": "Jeff Heer",
+      "start": 4561024,
+      "text": "Bye.",
+      "id": "ep_8_ut_145"
+    },
+    {
+      "end": 4562466,
+      "speaker": "Enrico Bertini",
+      "start": 4561600,
+      "text": "Fun. Bye.",
+      "id": "ep_8_ut_146"
+    }
+  ],
+  "confidence": 0.926666045905059,
+  "audio_duration": 4570,
+  "punctuate": true,
+  "format_text": true,
+  "dual_channel": false,
+  "webhook_url": null,
+  "webhook_status_code": null,
+  "webhook_auth": false,
+  "webhook_auth_header_name": null,
+  "speed_boost": false,
+  "auto_highlights_result": null,
+  "auto_highlights": false,
+  "audio_start_from": null,
+  "audio_end_at": null,
+  "word_boost": [],
+  "boost_param": null,
+  "filter_profanity": false,
+  "redact_pii": false,
+  "redact_pii_audio": false,
+  "redact_pii_audio_quality": null,
+  "redact_pii_policies": null,
+  "redact_pii_sub": null,
+  "speaker_labels": true,
+  "content_safety": false,
+  "iab_categories": true,
+  "content_safety_labels": {
+    "status": "unavailable",
+    "results": [],
+    "summary": {}
+  },
+  "language_detection": false,
+  "language_detection_threshold": null,
+  "language_confidence": null,
+  "custom_spelling": null,
+  "throttled": false,
+  "auto_chapters": true,
+  "summarization": false,
+  "summary_type": null,
+  "summary_model": null,
+  "custom_topics": false,
+  "topics": [],
+  "speech_threshold": null,
+  "speech_model": "best",
+  "chapters": [
+    {
+      "summary": "Jeff Heer is a professor at Stanford University. He is the inventor of several information visualization toolkits. Hare is trying to understand the role of visualization in the life cycle of data analysis. His research group as a whole is interested in figuring out how to make data analysis more effective.",
+      "gist": "Data Story #8",
+      "headline": "Jeff Heer is a professor at Stanford who specializes in information visualization",
+      "start": 11840,
+      "end": 193166,
+      "id": "ep_8_ch_0"
+    },
+    {
+      "summary": "The activity of data analysis is highly interactive. In academia, we have such a larger focus on using visualization as an exploratory tool. Lack of good tools can also be an impediment to people to use visualization for tasks.",
+      "gist": "Using visualization in data science",
+      "headline": "I remember a few, I think it was a few weeks ago,",
+      "start": 193270,
+      "end": 580644,
+      "id": "ep_8_ch_1"
+    },
+    {
+      "summary": "Jeff Heer: Can you briefly tell us what's the story behind so many doing making so many different toolkits? How did you go from Prefuse to Flare, Protovis and D3? I'm not sure whether we will be able to cover all of them.",
+      "gist": "Jeff Heer: The Story of Prefuse, Protovis,",
+      "headline": "Jeff Heer: We received a lot of questions about various visualization tools",
+      "start": 580764,
+      "end": 708300,
+      "id": "ep_8_ch_2"
+    },
+    {
+      "summary": " prefuse is the only real major java visualization framework out there. Flare has much richer facilities for animation. Use what's right for the job. The biggest reward is just seeing the amazing things that other folks come up with.",
+      "gist": "Building a data visualization framework in the future",
+      "headline": "Jeff Long developed prefuse to make it easier to create visualizations",
+      "start": 708482,
+      "end": 1020024,
+      "id": "ep_8_ch_3"
+    },
+    {
+      "summary": "Protovis is a declarative programming language. It aims to think about the result first and foremost. The language is great for teaching visualization. It avoids the huge stack of abstractions of other visualization languages.",
+      "gist": "Developing Protovis: The Visualization Language",
+      "headline": "I wrote prefuse and flair while a graduate student at Stanford",
+      "start": 1020884,
+      "end": 1336874,
+      "id": "ep_8_ch_4"
+    },
+    {
+      "summary": " D3, or data driven documents, was born out of our experiences with over two years of Protovis use. People bind data directly to elements within the web page, whether that's HTML tags or SVG tags. D3 integrates with web standards and allows you to use any of your other web based tools.",
+      "gist": "D3: The Future of Protovis",
+      "headline": "D3 is a data driven document generator for the web browser",
+      "start": 1338294,
+      "end": 1876874,
+      "id": "ep_8_ch_5"
+    },
+    {
+      "summary": "Jeff: I prefer the Protovis and D3 approach. The functional language specification just seems to fit visualization really well. Jeff: Do you think we will stay with D3 for a long time, or is there anything new in the horizon?",
+      "gist": "Flare vs. Protovis vs. D3: Which",
+      "headline": "Do you see any of these approaches being superior to the others",
+      "start": 1877414,
+      "end": 2242622,
+      "id": "ep_8_ch_6"
+    },
+    {
+      "summary": "What are the right levels of abstraction and tools that allow people to author stories to share with others? There's really no tool for these types of data driven stories at the moment. We have written a tool for doing this, which we currently call ellipsis. But it's still in some early stages.",
+      "gist": "Writing stories in a data visualization",
+      "headline": "There's really no authoring tool for these types of data driven stories",
+      "start": 2242798,
+      "end": 2496424,
+      "id": "ep_8_ch_7"
+    },
+    {
+      "summary": "Jeff Smith: How do I close the gap between practice and research? Smith: I'm a strong believer in open source software and making tools available. He says the opportunity for research, industry design, et cetera, to be in conversation has never been richer.",
+      "gist": "The gap between practice and research",
+      "headline": "Jeff Palette: The gap between practice and research needs addressing",
+      "start": 2496844,
+      "end": 2792352,
+      "id": "ep_8_ch_8"
+    },
+    {
+      "summary": "I think researchers have a lot to learn from practitioners. And I really hope, I know others are working on this, that we have a much higher representation of folks in the analytics industry and also visualization designers. Both could definitely profit a lot from more dialogue.",
+      "gist": "Ideas for a more vibrant visualization community",
+      "headline": "Jeff: I think researchers have a lot to learn from practitioners",
+      "start": 2792408,
+      "end": 2983856,
+      "id": "ep_8_ch_9"
+    },
+    {
+      "summary": "Jeff: Both function and aesthetics are important. People have very different points of emphasis when it comes to visualization. I think being very clear about what is a successful outcome for a visualization is important. Do you think in five years, we will still move towards more innovative visualization approaches?",
+      "gist": "The New Paradigm of Visualization",
+      "headline": "Benjamin Fry: There's a lot of debate about visualization on the web",
+      "start": 2984040,
+      "end": 3358694,
+      "id": "ep_8_ch_10"
+    },
+    {
+      "summary": "Jeff Smith: Why do you think visualization is so interesting now? He says the accessibility of data and the diversity of people interacting with data is at an interesting spot. He says visualization is not about answers, it's about questions. Smith: This requires a whole kind of mind shift in a whole set of different branches.",
+      "gist": "Jeff Hawkins on Visualization's",
+      "headline": "Why do you think visualization is so interesting now? I got questions",
+      "start": 3362514,
+      "end": 3677500,
+      "id": "ep_8_ch_11"
+    },
+    {
+      "summary": "Where do you think we are going? I don't think we're leaving the web. The consumerization of visualization, or within the field, what we've called visualization for the masses, or casual info viz. There is no integration of visualization maybe on operating system level yet.",
+      "gist": "Viz. Future of Visualization",
+      "headline": "Let's talk briefly about the future of visualization. Where do you think we are going",
+      "start": 3677572,
+      "end": 3941744,
+      "id": "ep_8_ch_12"
+    },
+    {
+      "summary": " visualization's obviously very powerful output devices for people to make sense of data, but they can be incredibly powerful contextualized input devices too. With new touch interfaces and so on, a big potential for making expressive tools for people as well.",
+      "gist": "How visualizations are shaping the world",
+      "headline": "Visualizations can be incredibly powerful contextualized input devices too",
+      "start": 3941824,
+      "end": 3986342,
+      "id": "ep_8_ch_13"
+    },
+    {
+      "summary": "One thing I haven't touched on yet is the more theoretical side of information visualization. A number of the projects in our group are focused on issues of perception and cognition. Even the tool set is not defined yet. There is a lot to explore and understand there.",
+      "gist": "The theoretical side of information visualization",
+      "headline": "One thing I haven't touched on yet is the more theoretical side of information visualization",
+      "start": 3986518,
+      "end": 4249264,
+      "id": "ep_8_ch_14"
+    },
+    {
+      "summary": "If you're interested in visualizations, then make visualizations. Practice of building visualization is the most important. Pair that with some of the more theoretical and conceptual aspects of the field. Would love to give an infovis course on coursera or something similar.",
+      "gist": "What to Do to Get Started in Visualization?",
+      "headline": "Jeff: Lots of listeners get excited about visualization but don't know where to start",
+      "start": 4250524,
+      "end": 4444836,
+      "id": "ep_8_ch_15"
+    },
+    {
+      "summary": "Trifacta aims to build tools that make working with data a really interactive experience. Do you plan to develop any tools that will be available on the web? We'll see. Keep your eyes peeled.",
+      "gist": "Tim Ferriss: Starting a Startup With",
+      "headline": "Moritz: I'm working on a startup called Trifacta",
+      "start": 4444980,
+      "end": 4531078,
+      "id": "ep_8_ch_16"
+    },
+    {
+      "summary": "Great. It's been a great conversation. Of course. We could continue for another. Jeff, thanks a lot. It was great having you here. I think it was a really nice episode.",
+      "gist": "Talking To Jeff and Moritz",
+      "headline": "Great. It's been a great conversation. I think it was a really nice episode",
+      "start": 4531166,
+      "end": 4562466,
+      "id": "ep_8_ch_17"
+    }
+  ],
+  "disfluencies": false,
+  "entity_detection": false,
+  "sentiment_analysis": false,
+  "sentiment_analysis_results": null,
+  "entities": null,
+  "speakers_expected": null,
+  "summary": null,
+  "custom_topics_results": null,
+  "episode_num": 8,
+  "episode_metadata": {
+    "speakers": [
+      "Enrico Bertini",
+      "Moritz Stefaner",
+      "Jeff Heer"
+    ],
+    "WPid": "103",
+    "url": "https://datastori.es/podlove/file/194/s/feed/c/mp3/datastories-08.mp3",
+    "episode_title": "Interview with Jeff Heer"
+  }
+}

@@ -1,0 +1,847 @@
+{
+  "id": "d55686f2-b8a4-47c3-a7a9-fe057021443e",
+  "language_model": "assemblyai_default",
+  "acoustic_model": "assemblyai_default",
+  "language_code": "en_us",
+  "status": "completed",
+  "audio_url": "https://datastori.es/podlove/file/6522/s/feed/c/mp3/155-flourish-with-duncan-clarke.mp3",
+  "utterances": [
+    {
+      "end": 10610,
+      "speaker": "Duncan Clark",
+      "start": 120,
+      "text": "What we wanted to do is make it possible to then string together different views of one or more visualization into an animating story. And then the different ways that you can tell that story are almost the detail.",
+      "id": "ep_155_ut_0"
+    },
+    {
+      "end": 43882,
+      "speaker": "Moritz Stefaner",
+      "start": 30190,
+      "text": "Hi, everyone. Welcome to a new welcome to another episode of data stories. My name is Moritz Stefaner, and I'm an independent designer of data visualizations. In fact, I work as a self employed truth and beauty operator out of my office here in the countryside in the north of Germany.",
+      "id": "ep_155_ut_1"
+    },
+    {
+      "end": 51970,
+      "speaker": "Enrico Bertini",
+      "start": 43986,
+      "text": "And I am Enrico Bertini. I am a professor at New York University in New York City, where I do research and teach data visualization.",
+      "id": "ep_155_ut_2"
+    },
+    {
+      "end": 62518,
+      "speaker": "Moritz Stefaner",
+      "start": 52130,
+      "text": "And on this podcast together, we talk about data visualization, data analysis, and generally the role data plays in our lives. And usually we do that together with the guests we invite on the show.",
+      "id": "ep_155_ut_3"
+    },
+    {
+      "end": 85318,
+      "speaker": "Enrico Bertini",
+      "start": 62614,
+      "text": "But before we start, just a quick note, our podcast is listener supported, so there's no ads. If you enjoyed the show, please consider supporting us with recurring payments on Patreon.com Datastories. Or if you prefer, you can also send one time donations using PayPal. Going to paypal? Me Datastories.",
+      "id": "ep_155_ut_4"
+    },
+    {
+      "end": 99490,
+      "speaker": "Moritz Stefaner",
+      "start": 85454,
+      "text": "Yeah. That's always very much appreciated. If you don't have any money to spare, that's fine, too. But maybe you can think about a retweet or a quick note on Instagram or maybe a star rating on iTunes. So anything helps to keep us the show going.",
+      "id": "ep_155_ut_5"
+    },
+    {
+      "end": 100806,
+      "speaker": "Enrico Bertini",
+      "start": 100310,
+      "text": "Yeah.",
+      "id": "ep_155_ut_6"
+    },
+    {
+      "end": 124370,
+      "speaker": "Moritz Stefaner",
+      "start": 100878,
+      "text": "So let's get started. Today we have another tool centric episode. It's been a while since we talked about tools, and there's so much exciting stuff happening. And one of the tools we had on our list for a long time and which we wanted to feature is flourish coming out of London. And so we have the CEO of Kiln and Flourish studio on the show, Duncan Clark. Hi, Duncan.",
+      "id": "ep_155_ut_7"
+    },
+    {
+      "end": 125106,
+      "speaker": "Enrico Bertini",
+      "start": 124450,
+      "text": "Hi, Duncan.",
+      "id": "ep_155_ut_8"
+    },
+    {
+      "end": 126266,
+      "speaker": "Duncan Clark",
+      "start": 125178,
+      "text": "Hi. Thanks for having me.",
+      "id": "ep_155_ut_9"
+    },
+    {
+      "end": 134802,
+      "speaker": "Moritz Stefaner",
+      "start": 126338,
+      "text": "Great to have you on. So can you tell us a bit about your background? How did you end up being where you are now and what are you working on right now?",
+      "id": "ep_155_ut_10"
+    },
+    {
+      "end": 142114,
+      "speaker": "Duncan Clark",
+      "start": 134906,
+      "text": "So I guess my background into it was a bit unusual. I originally studied classical music and got into publishing that way.",
+      "id": "ep_155_ut_11"
+    },
+    {
+      "end": 142538,
+      "speaker": "Moritz Stefaner",
+      "start": 142202,
+      "text": "Wow.",
+      "id": "ep_155_ut_12"
+    },
+    {
+      "end": 153598,
+      "speaker": "Duncan Clark",
+      "start": 142594,
+      "text": "And then from publishing, I got very interested in publishing around the environment and data and climate change. I ended up as a data journalist at the Guardian, working on climate stuff primarily.",
+      "id": "ep_155_ut_13"
+    },
+    {
+      "end": 154278,
+      "speaker": "Moritz Stefaner",
+      "start": 153654,
+      "text": "Wow. Yeah.",
+      "id": "ep_155_ut_14"
+    },
+    {
+      "end": 200830,
+      "speaker": "Duncan Clark",
+      "start": 154334,
+      "text": "And got very into data graphics that way, so that was my way in. And then quite the journey. Yeah, it was quite a round trip. And then the Guardian. Through that route, I was introduced to the co founder of what was originally kiln and now is also flourish, Robin Houston, who's a kind of very gifted developer and mathematician and visualization person. And so we got together, I guess, about eight years ago to try and explore what would happen if we put together a sort of journalist storytelling sensibility together with the more hardcore end of technology. So exploring things that at the time were very new, like Webgl, and the possibilities that were being opened up by people finally retiring ie eight and all those horrible old tools used to constrain us all.",
+      "id": "ep_155_ut_15"
+    },
+    {
+      "end": 218950,
+      "speaker": "Moritz Stefaner",
+      "start": 201530,
+      "text": "Yeah, I remember you won an information is beautiful prize for this beautiful animated shipping map that had like tens of thousands of little ships moving around in the world map with a nice narration. And that was at least when I was first aware of kiln, I think.",
+      "id": "ep_155_ut_16"
+    },
+    {
+      "end": 248704,
+      "speaker": "Duncan Clark",
+      "start": 219110,
+      "text": "Yeah. So that project went a bit viral, helped by the fact that Bill Gates and other bigwig sort of tweeted it. And, I mean, I should say that actually almost all the credit for that should go to my co founder, Robin, who did quite a few different bits of hard tech work on that, including the data streaming system. So it streams a gigabyte of data in and renders it in real time as the next one's downloading. And a lot of processing of bathymetry data to get this c looking interesting.",
+      "id": "ep_155_ut_17"
+    },
+    {
+      "end": 254984,
+      "speaker": "Moritz Stefaner",
+      "start": 248792,
+      "text": "Yeah, it was very impressive, for sure. We'll definitely link to it in the show notes. If it's still running.",
+      "id": "ep_155_ut_18"
+    },
+    {
+      "end": 256380,
+      "speaker": "Duncan Clark",
+      "start": 255112,
+      "text": "It's still that shipmap.org dot.",
+      "id": "ep_155_ut_19"
+    },
+    {
+      "end": 258100,
+      "speaker": "Moritz Stefaner",
+      "start": 256410,
+      "text": "Wonderful. Yeah. So we should.",
+      "id": "ep_155_ut_20"
+    },
+    {
+      "end": 259216,
+      "speaker": "Duncan Clark",
+      "start": 258840,
+      "text": "Yeah.",
+      "id": "ep_155_ut_21"
+    },
+    {
+      "end": 268540,
+      "speaker": "Moritz Stefaner",
+      "start": 259248,
+      "text": "And now you're working on a product actually called flourish. So what is flourish and who uses it and how? What is it good for?",
+      "id": "ep_155_ut_22"
+    },
+    {
+      "end": 385290,
+      "speaker": "Duncan Clark",
+      "start": 269050,
+      "text": "So, I mean, flourish very much grew out of everything we did as a kind of. I guess we were a micro agency, basically doing these high end bits of bespoke visualization work similar to what you and many others do so well today. And what we found is that we became partly a bit frustrated at the sense that we kept having to build everything from scratch every time. And very often it was only being used once. So there was a great deal of efficiency in the kind of D3 world and places like that, wherever reusable libraries were being contributed by lots of people. But then the actual turning that into a piece of content was often totally bespoke every time, and felt a bit wasteful for us as developers, but also kind of a bit exclusive, because we found that people could only afford to commission a kiln graphic if they had quite a lot of money and quite a lot of time. And so we decided, rather than trying to sort of expand kiln as an agency, that we would try and build a product that let people do kiln, like interactive visualization. And I mean, you mentioned Shipmap before. And Shipmap's quite typical of having an advanced visualization but also some kind of narrative layer. And in a way, what we were always interested in in our kiln days was this idea of how you properly do storytelling with interactive visuals. And people use that term in lots of different ways. And what it's always meant for us is actually a narrative with a beginning, a middle and an end. And so that might be an audio layer that talks you through the visual, or it might be a kind of step at tool where you're being guided through a visualization. And what we found is we did all these different projects at kiln, bespoke and with flourish. What we wanted to do was take that kind of workflow of how you make high end visualizations and not just charts and maps in quotes, but actual rich animating data stories too. And to construct a kind of tool that let people go beyond just basic visuals and do that more advanced stuff.",
+      "id": "ep_155_ut_23"
+    },
+    {
+      "end": 400210,
+      "speaker": "Enrico Bertini",
+      "start": 385950,
+      "text": "So this means that if I understand correctly, the main focus of the tool from the beginning has been more on the presentation side of visualization rather than say, data exploration and understanding, or you're trying to cover that part too.",
+      "id": "ep_155_ut_24"
+    },
+    {
+      "end": 456780,
+      "speaker": "Duncan Clark",
+      "start": 400510,
+      "text": "So to a degree we cover that. And I think that in a way, what we've always tried to do, the area we've always been interested in is making interactive visuals that have lots of different views of the data. And that, in a way, is a classic data exploration tool. But then the kind of particular kiln approach is saying, well, if you've got those different views, that should also be the basis of how you tell the story. So trying to slightly dissolve that distinction. But if put on the spot, then certainly it's true that we're more at the presentation and publishing end of visualization than the sort of business intelligence or exploratory end. And so we've put a lot of time into all the stuff around making sure everything's very mobile friendly and that the, the responsive embed codes work nicely and all that stuff, which is important when you come to actually publish. And that's very much our background in kiln, is the putting stuff out there for people to look at rather than internal tools.",
+      "id": "ep_155_ut_25"
+    },
+    {
+      "end": 515050,
+      "speaker": "Moritz Stefaner",
+      "start": 458800,
+      "text": "Like if we look, there's this whole landscape of data visualization tools. It's a zoo or jungle, however you want to call it. It's wild, for sure. Maybe you have traditional tools like Excel and PowerPoint and whatnot, right? Then you have all the cool custom coding in D3 observable react, whatnot. Then last year we discussed a lot about tools like charticulator and the project Lincoln prototype at Adobe that tried to formulate exactly. So these are more graphics grammar of graphics approaches, where you build something like a little recipe and you cook the graphics yourself. You have raw, which is also like template based. Why would you say, does flourish fit in? Or how do you set yourself apart from all the others in that space?",
+      "id": "ep_155_ut_26"
+    },
+    {
+      "end": 613760,
+      "speaker": "Duncan Clark",
+      "start": 515470,
+      "text": "So, I mean, if you were to boil it down to three things, what we wanted to do with flourish was to make, firstly, we wanted it to be easy. So we wanted it to be something that was approachable by people without particular technical and especially not coding skills. We wanted it to be hyper flexible. And that means that it's not just us that can make the templates, but there's an SDK for any developer to make templates. So the idea is it's a tool for non coders to make cool visualizations, but coders can create the templates. So it's a platform. It's a platform. And so a lot of our bigger customers, more engaged users, yes, they use all the off the shelf templates, but they're also using it as a way to organize their own internal templates in bigger newsrooms where you've got good interactive developers, but they're actually, the workflows are all bit confused because there's some code in GitHub that no one quite knows if they've still got access to or if it's got some custom variable that was particular for a project. And so it's kind of partly a workflow tool. And then the third bit is the storytelling. And going back to our kiln days, we've always been interested in the idea of visualizations that can tell a story or that you can use to tell a story. So whether or not that's a. A visualization with a play button that can actually talk you through it, or whether it's you standing in front of a big screen giving a presentation and you're doing the talking, or whether it's a scrolly telling piece, the idea is that those animations and those transitions are key part of the architecture and also a key part of the offering to non coders because there aren't really any other tools that are attempting to do that.",
+      "id": "ep_155_ut_27"
+    },
+    {
+      "end": 649340,
+      "speaker": "Enrico Bertini",
+      "start": 614580,
+      "text": "Yeah, it looks to me that what you just mentioned, the playback options are those that probably some of the most innovative things that you have introduced in flourish, and we haven't really seen much in other tools, Tableau is slowly catching up. Now, Tableau always had that function, but was never really prominent there. I'm not even sure how many people are aware of the fact that it's possible to do it in Tableau, but in flourish, it's definitely one of the main features. Right. So what role do you think it plays in flourish?",
+      "id": "ep_155_ut_28"
+    },
+    {
+      "end": 667108,
+      "speaker": "Duncan Clark",
+      "start": 649780,
+      "text": "So, I mean, I think that if you think of the different things that you can do with data, one of the things that you do with data is you use it to understand the world. And then the other thing you do with data is to use that understanding to communicate to other people about change. Or.",
+      "id": "ep_155_ut_29"
+    },
+    {
+      "end": 671492,
+      "speaker": "Enrico Bertini",
+      "start": 667164,
+      "text": "I like the way you're framing it, and so I want to use it in class.",
+      "id": "ep_155_ut_30"
+    },
+    {
+      "end": 675640,
+      "speaker": "Duncan Clark",
+      "start": 671596,
+      "text": "Okay. I'm not sure it's a very new thought, but. Yeah.",
+      "id": "ep_155_ut_31"
+    },
+    {
+      "end": 681784,
+      "speaker": "Enrico Bertini",
+      "start": 676140,
+      "text": "No, I mean, it's a nice way of saying exploratory and explanatory, right?",
+      "id": "ep_155_ut_32"
+    },
+    {
+      "end": 682704,
+      "speaker": "Duncan Clark",
+      "start": 681832,
+      "text": "Yeah, indeed.",
+      "id": "ep_155_ut_33"
+    },
+    {
+      "end": 686344,
+      "speaker": "Enrico Bertini",
+      "start": 682752,
+      "text": "But it's. Yeah. Sorry for interrupting.",
+      "id": "ep_155_ut_34"
+    },
+    {
+      "end": 815970,
+      "speaker": "Duncan Clark",
+      "start": 686392,
+      "text": "No, not at all. So what we always felt was that the really nice examples of the explanation, the sorts of things that would typically be handmade on the New York Times or the Guardian or the FT or whatever, they generally had animation involved and they generally had a proper narrative. And so it's kind of visualization in the service of narrative, or rather, you know, rather than the dashboard approach, wherever it might animate between views, but you're not actually stringing together a story. And so what we tried to do with flourish was define an architecture where it was a kind of story format agnostic. So that the architecture of a flourish template allows you to animate to a new state if the data changes or if the settings change or whatever. And then what we wanted to do is make it possible to then string together different views of one or more visualization into an animating story. And then. And actually, the different ways that you can tell that story are almost the detail. So if it's an audio led story, then you're just setting time codes on those different views and syncing it with some audio. And suddenly you've got what we call a talkie and what other people might call an interactive video or interactive presentation. But just as you could just as easily press full screen and actually give that presentation using a clicker to tell the story in a room. And then another thing we're just about to launch, which is in beta at the moment, is scrolly telling. Because, I mean, scroll telling, people tend to think of it as a sort of totally separate art. But actually, if you think of you've got a series of slides which transition. And all that's happening is the progression through that story is being triggered by the scroll of the page rather than the audio or rather than the next button. So in a way, where we're getting to now is just finally sort of showing what the plan always was, which was being able to tell stories in different ways once you could assemble those stories. So we focused first on the assembly, and now we're focusing on the presentation of those stories.",
+      "id": "ep_155_ut_35"
+    },
+    {
+      "end": 850840,
+      "speaker": "Moritz Stefaner",
+      "start": 816090,
+      "text": "Yeah, but I remember when I visited your office maybe one or two years ago, and you showed all these things in progress, I was really struck by how much sense it makes that you would structure a data visualization similar to a presentation in PowerPoint, or that a slide deck is actually a really good metaphor, both for actively telling a certain data story, like Hans Rosling style, or flipping through it on mobile. The slide deck is just such a good universal format, and I think you implemented that really beautifully.",
+      "id": "ep_155_ut_36"
+    },
+    {
+      "end": 896124,
+      "speaker": "Duncan Clark",
+      "start": 851840,
+      "text": "I mean, yeah, it's certainly interesting that the. I mean, there were so many bad PowerPoints in the world, just as there are so many bad, bad stories, bad novels, bad, whatever. But the fundamental idea of a PowerPoint presentation, or a keynote presentation or whatever, where you show one view at once and you make one point at a time, that's what a good PowerPoint presentation does, is it says there are ten things you need to understand. I'm going to tell you them one at a time so that you can focus on them and understand them. But then what you lose in those sorts of traditional presentations is any kind of object constancy with the visuals. And so that idea of being able to do step by step narrative storytelling, but whilst preserving the magic of interactive, animated visualization, that's the sort of holy grail that we've been. Yeah.",
+      "id": "ep_155_ut_37"
+    },
+    {
+      "end": 911228,
+      "speaker": "Moritz Stefaner",
+      "start": 896132,
+      "text": "And there's so many also, like, conventions we could borrow there, like having a title slide, having an ending slide, having chapter slides. You know, all things that are known, like conventions in the presentation world, would make a lot of sense in the data visualization world as well.",
+      "id": "ep_155_ut_38"
+    },
+    {
+      "end": 911452,
+      "speaker": "Duncan Clark",
+      "start": 911284,
+      "text": "Right.",
+      "id": "ep_155_ut_39"
+    },
+    {
+      "end": 911662,
+      "speaker": "Moritz Stefaner",
+      "start": 911476,
+      "text": "I.",
+      "id": "ep_155_ut_40"
+    },
+    {
+      "end": 928890,
+      "speaker": "Duncan Clark",
+      "start": 911716,
+      "text": "So, of course, and of course, we've accidentally ended up building something of a presentation tool, too, because immediately people could see that they could make these nice interactive stories. And they said, well, how do I add a title slide? So we thought, okay, so we need a sort of title slide template. And now we've been gradually adding more of that kind of stuff.",
+      "id": "ep_155_ut_41"
+    },
+    {
+      "end": 961220,
+      "speaker": "Enrico Bertini",
+      "start": 929050,
+      "text": "Yeah, I think that's one of the biggest gaps we have in visualization. There's so much focus on how to create the actual best single chart for something. But we seem to have neglected the fact that most often what you do is that you have some kind of a sequence or even multiple charts in the same page. Right. And even if you look at, I don't know, learning resources, like courses or books or stuff like that, there's not a lot of information about how to put things together. And ultimately, I think it's really, really important.",
+      "id": "ep_155_ut_42"
+    },
+    {
+      "end": 962576,
+      "speaker": "Duncan Clark",
+      "start": 961760,
+      "text": "Absolutely.",
+      "id": "ep_155_ut_43"
+    },
+    {
+      "end": 976348,
+      "speaker": "Enrico Bertini",
+      "start": 962728,
+      "text": "I think we don't even have a very clear description of what the design space is for. Multiple charts, representations with multiple charts. Right. And it's a recurring issue because the.",
+      "id": "ep_155_ut_44"
+    },
+    {
+      "end": 1054336,
+      "speaker": "Duncan Clark",
+      "start": 976404,
+      "text": "And it's interesting if you think about who trains on this stuff and who are considered the experts. There are a few edge cases, like Hans Rosling, who was recognized as this brilliant storyteller and as a brilliant visualizer. But generally, the people who are seen as brilliant speakers or brilliant presenters, they might be people who train on that specifically, and they might have no overlap, really, with the data world. It's almost like there's been this gray area in between the two that only a few people have been occupying. But of course, as we have more and more visualizations, what we hear from our users is that often the problem these days is that there are so many charts, so many dashboards, so many visualizations that the problem is no longer how do I visualize my data, but it's how do I get anyone to take any notice or interest in what we're trying to communicate? And so it's interesting things that we developed recently for kind of journalistic purposes, it turns out, actually have quite a lot of relevance in presentation. So, for example, we just made a you draw it type template similar to the ones that the New York Times pioneered. And so you just, it's like a line chart template, but you can hide a certain proportion of the line and you can draw it.",
+      "id": "ep_155_ut_45"
+    },
+    {
+      "end": 1056496,
+      "speaker": "Moritz Stefaner",
+      "start": 1054488,
+      "text": "That's a wonderful format. I love that one.",
+      "id": "ep_155_ut_46"
+    },
+    {
+      "end": 1093570,
+      "speaker": "Duncan Clark",
+      "start": 1056568,
+      "text": "I love that too. But what's interesting is whenever we've shown it to our more businessy end of users, they say, oh, wow, this would be amazing for engaging audiences because we talk about our monthly reports and no one actually pays any attention, but if we force them to guess it first. And so it's interesting that kind of how do you capture attention? How do you get people to engage, I think, is not exactly the new frontier of visualization, but with ever more data and ever more visuals, it is an ever growing part of the challenge of anyone who works in visualization.",
+      "id": "ep_155_ut_47"
+    },
+    {
+      "end": 1109338,
+      "speaker": "Moritz Stefaner",
+      "start": 1093730,
+      "text": "Yeah, yeah. I mean, obviously the templates you offer there, they're a big part of the flourish experience, let's say. Maybe let's give people a quick overview of what types of templates are available over what are typical flourish templates that people use.",
+      "id": "ep_155_ut_48"
+    },
+    {
+      "end": 1354076,
+      "speaker": "Duncan Clark",
+      "start": 1109434,
+      "text": "So we started off by saying, well, there are certain things we must have, so standard chart types, but with those ones, what we decided to do, and this was a bit of an example of some of the natural internal wrestles that we've had with different ways of doing things, is do we make a simple template for each chart type, or do we combine all the chart types in a single template so that we can support transitioning between the different views? And that would have been much quicker design decision. Exactly. So what we ended up doing is we put series charts, so things like line charts and bar charts and group bar charts and those kind of things in one template. And we made the whole task much harder by allowing arbitrary animation between those, which first is hard to code, but then also you realize, oh my goodness, I'm using flubber to flub the data points. And then someone tries to load you a large number of data points in and the whole thing falls over and that kind of thing. Whereas scatter plots, we put in a separate template because we felt that they more tended towards long format input data. And therefore from a user's perspective, it felt a bit like a different thing. But then we added a lot of richness to those, adding things like violin plots and box plots and beeswarm plots and all those things so you can animate between those. So those are the basic charts. And we did sort of standalone maps of the sort that you get on a lot of new sites where you have sort of geojson type maps. Then we added a kind of tile map collection of templates which take matte Boxgl, open source base and then do different visuals on top, a bit like some of them are based on deck gl, but some are just handmade. And then we started just adding more of the fun stuff. So bar chart races, line chart races, hierarchical visualizations where you can just quickly nest by different columns. Tree maps, tree maps and those kind of things work really nicely with the storytelling because the more you can interact and explore the graphic, the more views you can capture in your story. So that kind of thing's fun. But it's also because a lot of our users are journalists who see data visualization and interactive content generally as part of the same package. We also started throwing in templates which are less specifically about visualization. So photo sliders shown before and after Orlando. We're just working on a timeline system, an interactive quiz template where we ask, which enables users to create quizzes that the end user can be scored against and that kind of thing. So, yeah, it's a pretty broad collection, but as we've been getting further into the area of, in a way, the fun challenge of what do we add next? Rather than here are the things we must have. It's been really nice to go back and do some of the harder things which are closer to what we might have done back in our bespoke days. So, for example, we've just created. It's actually live, but we haven't promoted it yet. So you could dig around and find it a template that supports shipmap style animated dots, but now over a 3d vector tile base, of course. So that's really nice. And we've just got a new template which again, isn't live yet, but has supports arbitrary animation between maps and charts so that you can have a data point which has one or more shapes attached to it, and then you can morph from there into a chart. So you could go from, for example, a standard choropleth map into a hex map for an election cartogram, into a beeswarm plot to show how those different constituencies or states, whatever, score on some continuous metric.",
+      "id": "ep_155_ut_49"
+    },
+    {
+      "end": 1403820,
+      "speaker": "Enrico Bertini",
+      "start": 1354198,
+      "text": "Yeah. Duncan, I have a somewhat provocative question. It just occurred to me, there is a tension between when you start adding features to your software, you always think that your users are going to use this powerful visualization in the best possible way, and then, as usual, they start misusing and creating terrible things. So I'm wondering if you ever had these conversations internally and you are, and you are concerned with that. I think there are, I've heard, for instance, people within Tableau, they spend a lot of time thinking, how can we have good defaults? So that whatever people do by default is probably going to be good enough. Right. I'm wondering if you have anything like that within flourish, or at least you ever discussed that.",
+      "id": "ep_155_ut_50"
+    },
+    {
+      "end": 1530160,
+      "speaker": "Duncan Clark",
+      "start": 1403940,
+      "text": "Yeah, definitely. I mean, you often have a feature which is impossible to add without opening up a world of badness. So, for example, we added a thing recently where you could add an image to the background of a plot, and sometimes that's really useful. So you could do, for example, a scatter plot. You could, if you had lat long, you could upload a background map and actually then animate from a be swarm plot onto a point map. And so there are all sorts of. Or you might just have a very nice subtle gradient shade that kind of fits with house style or whatever. But of course, once you've done that, you will find that someone's made a, a chart that has some ridiculous image on the back of a kind of cat or something and you can't see any of the data points because the contrast is different. So sometimes there's a decision to be made about how opinionated any tool should be. And the nice thing about flourish, in a way as a tool to work on is that because everything is scoped at the template level, then you need to make those decisions for individual templates rather than the whole system. So we took the decision early on that the settings for a template were actually entirely determined by the template. So you can have a template that has very few settings or a template that has loads. So that allows you to have some levers with that a little bit. But I guess the other thing about defaults is for us, because flourish is very significantly about data presentation. A lot of our most active customers, a key part of it is being able to skin the whole thing with their own fonts and colors and defaults. We have this theming system which is kind of invisible unless you're very engaged with flourish. And that allows a big newsroom or whoever else to really make it their own. And so setting the visibility of the gridlines or not is something that then becomes a decision for their internal branding, visualization, style sheet kind of thing, rather than something that we have to take a view.",
+      "id": "ep_155_ut_51"
+    },
+    {
+      "end": 1556538,
+      "speaker": "Moritz Stefaner",
+      "start": 1531960,
+      "text": "Yeah, but I'm also super interested in this design process, how you design a good template or a whole good collection of templates. Because if you try to create a template for every possible visualization need, that's obviously going to be a bottomless pit. It becomes very enumerative in terms of, yeah, if you enumerate every possibility, that's got to take a few years, right?",
+      "id": "ep_155_ut_52"
+    },
+    {
+      "end": 1557106,
+      "speaker": "Duncan Clark",
+      "start": 1556594,
+      "text": "Yeah, completely.",
+      "id": "ep_155_ut_53"
+    },
+    {
+      "end": 1572626,
+      "speaker": "Moritz Stefaner",
+      "start": 1557138,
+      "text": "And then how is your process to decide like what, what makes it into being a template or which options you include in a template? Do you try it out internally? Do you use a test or do you go by your gut feeling? Like how do you figure things out?",
+      "id": "ep_155_ut_54"
+    },
+    {
+      "end": 1637660,
+      "speaker": "Duncan Clark",
+      "start": 1572658,
+      "text": "So we're very user driven and so we have a kind of, we've always had a kind of big button on the site where people can get in touch with us and obviously paying customers, we're always talking to and listening to as well. And so whenever someone says, oh, I wanted to be able to do this and I couldn't, unless it's a really crazy idea, then that always gets logged in our GitHub on the relevant template or as a proposal for a new template. And that's a useful discipline to get into because you add a lot of plus ones over the months and then you realize actually quite a lot of people want a particular thing. So you think, well, it's worth spending some time doing. But yeah, I think often deciding whether something is part of the same template or is a whole new template is one of the challenges. And there's not a kind of particular rhyme or reason to that beyond. Would it be useful to animate from one view to another? Because obviously animating between arbitrary templates is impossible. So that's one of the key things we considered.",
+      "id": "ep_155_ut_55"
+    },
+    {
+      "end": 1640510,
+      "speaker": "Moritz Stefaner",
+      "start": 1639710,
+      "text": "Interesting.",
+      "id": "ep_155_ut_56"
+    },
+    {
+      "end": 1657646,
+      "speaker": "Enrico Bertini",
+      "start": 1640630,
+      "text": "So, Duncan, I'm really interested also about what is the business model behind flourish. Right. So to better understand how things work financially and how you've been thinking about how to make this a viable product. Right?",
+      "id": "ep_155_ut_57"
+    },
+    {
+      "end": 1658294,
+      "speaker": "Duncan Clark",
+      "start": 1657798,
+      "text": "Yeah.",
+      "id": "ep_155_ut_58"
+    },
+    {
+      "end": 1665546,
+      "speaker": "Enrico Bertini",
+      "start": 1658382,
+      "text": "So I'm wondering if you can describe a little bit what happened behind the curtains and what the business model is.",
+      "id": "ep_155_ut_59"
+    },
+    {
+      "end": 1683190,
+      "speaker": "Duncan Clark",
+      "start": 1665618,
+      "text": "Yeah, so we did a. We took an investment round a few years ago, which enabled us to just have the freedom to focus on the product that we wanted to build rather than doing something which is too answerable to the early few users.",
+      "id": "ep_155_ut_60"
+    },
+    {
+      "end": 1686170,
+      "speaker": "Enrico Bertini",
+      "start": 1683570,
+      "text": "So you went the venture capital way, basically.",
+      "id": "ep_155_ut_61"
+    },
+    {
+      "end": 1768100,
+      "speaker": "Duncan Clark",
+      "start": 1686210,
+      "text": "Yeah, exactly. So we did that. And we also thought that would be a useful discipline for us because we were kind of transitioning from an agency into a product company we thought would be quite useful in a way to have to sort of commit to some external people that actually we're not going to just keep doing the agency stuff because obviously it's quite tempting. An interesting customer comes along with an interesting idea and wants to pay you to make it. It's quite tempting to do that. So this way it helped force us to actually really make the transition into being into a product company. And then since then we've just been selling flourish and, you know, we're pretty optimistic about the future. And, you know, people buy a very, a lot of users use it for free and we work with Google News lab to provide it free to sort of mainstream newsrooms. And that's partly because, you know, being ex journalists ourselves, we know that journalists always find a way to use stuff without paying anyway. So we might as well embrace that. But also from our perspective, the journalism part of flourish makes it very key to our. It's close to our hearts and we love seeing it being used in all these huge audience scenarios by big newsrooms. So that's really exciting.",
+      "id": "ep_155_ut_62"
+    },
+    {
+      "end": 1775112,
+      "speaker": "Enrico Bertini",
+      "start": 1768840,
+      "text": "So you basically have a freemium model where most of it is for free, and then there are specific functions that are.",
+      "id": "ep_155_ut_63"
+    },
+    {
+      "end": 1795480,
+      "speaker": "Duncan Clark",
+      "start": 1775256,
+      "text": "Yeah, exactly. So the free version is pretty generous, but then if you want to keep data private, then you can pay a little bit to use it, and then if you're a business and you want to be able to skin it into your own branding or use a live API or whatever else, then you upgrade.",
+      "id": "ep_155_ut_64"
+    },
+    {
+      "end": 1800844,
+      "speaker": "Enrico Bertini",
+      "start": 1795860,
+      "text": "Do you ever install flourish internally in a company, or it's always an external product?",
+      "id": "ep_155_ut_65"
+    },
+    {
+      "end": 1864076,
+      "speaker": "Duncan Clark",
+      "start": 1800972,
+      "text": "We decided early on that we were going to focus on the cloud version of flourish, mostly for the reason that when you're developing something really fast, then any kind of on prem installation is a kind of break. And also, I think our timing was quite nice because a lot of companies have been moving away from their previous approach to cloud, which was that it was just not something that they did. But we did also create. We created this new live API for flourish, which allows you to basically pull the templates into your local environment and treat them almost like a JavaScript library. So that also provides a way for people to use flourish without any data coming to us. So if any customers are particularly concerned about highly sensitive data, then that's another option. And so for now, that's the way we've handled the kind of, it's kind of semi on prem, I guess, because the templates are on your premises, but that obviously turns it into a codereghouse use case because it's an API.",
+      "id": "ep_155_ut_66"
+    },
+    {
+      "end": 1876684,
+      "speaker": "Moritz Stefaner",
+      "start": 1864188,
+      "text": "Yeah, but that's sort of interesting. You have all these easy ways to get started and just quickly upload a spreadsheet and try things out, but that you can still customize it and own it to a large degree if you want to go deep.",
+      "id": "ep_155_ut_67"
+    },
+    {
+      "end": 1901786,
+      "speaker": "Duncan Clark",
+      "start": 1876732,
+      "text": "Right, yeah, exactly. And so some of our biggest customers, they tend to use flourish not just as a visualization tool, but as a kind of interactive CMS almost. So, so they're using it in order to ensure that all interactive content that goes onto their website is neatly organized in one place, that the permissions are sorted, you know how to edit it, or. Exactly.",
+      "id": "ep_155_ut_68"
+    },
+    {
+      "end": 1903994,
+      "speaker": "Moritz Stefaner",
+      "start": 1901818,
+      "text": "I mean, if you're big, that's a huge challenge.",
+      "id": "ep_155_ut_69"
+    },
+    {
+      "end": 1931406,
+      "speaker": "Duncan Clark",
+      "start": 1904082,
+      "text": "Yeah, exactly. And, you know, some of our customers, they've sort of told us about the problem they're trying to solve is that they've just got all these kind of sprawling different relationships with different agencies all over the world, and there's code everywhere. No one really knows what's what. And some things are embedded interactively. Some things were made but then turned into a JPEG other things are responsive, other things aren't. And so they've just, it's just allowed them to kind of organize, streamline things.",
+      "id": "ep_155_ut_70"
+    },
+    {
+      "end": 1955504,
+      "speaker": "Moritz Stefaner",
+      "start": 1931598,
+      "text": "Yeah, that makes a whole lot of sense. And I know that a lot of organizations have that challenge, so there should be, should be a market for that, I'm sure. Yeah. One final point. We have to wrap up soon, but one thing you mentioned briefly before, but as podcast hosts, we are obviously very interested in talkies. So you mentioned this talkie format. Can you tell us a bit more about that? What's the idea here?",
+      "id": "ep_155_ut_71"
+    },
+    {
+      "end": 2045152,
+      "speaker": "Duncan Clark",
+      "start": 1955552,
+      "text": "Yeah, so this actually goes very far back. So the first project that I ever made with Robin, before we'd even come up with the name Kiln, was a project called Carbon Map, which was, I think it's still live on carbonmap.org dot. And this was an animated diffusion cartogram that tries to tell the, the story of responsibility for climate change through different views. And we wanted absolute data presentations, so we wanted to show, we didn't want to use a choropleth. So we made this kind of, this cartogram, and we put all these different views in it, and we had some buttons and some text and stuff, and we looked at it and we thought, this is great. It's quite cool and engaging, but it's quite hard to work out what it is. If you wanted to understand both how to use it and what story it contained, the kind of key views, then that's quite a lot to ask of people to dig in and discover that for themselves. So we came up with this idea that we'd make a video and we'd kind of tell the story of it, and we'd click around and show what it did. And we'd sort of put that over the top of it in some way, and the user would press play, and then when that introduction finished, it would fade out and you'd interact with it yourself. But then my co founder, Robin, had this better idea of, well, why don't we just take the audio file that would be on that video and actually just synchronize it with those views and add a play button.",
+      "id": "ep_155_ut_72"
+    },
+    {
+      "end": 2046048,
+      "speaker": "Moritz Stefaner",
+      "start": 2045296,
+      "text": "I like that.",
+      "id": "ep_155_ut_73"
+    },
+    {
+      "end": 2202946,
+      "speaker": "Duncan Clark",
+      "start": 2046144,
+      "text": "So first, that was hand coded into that particular project. So carbon map.org is still a kind of proto talkie, I guess. But the way that worked is we recorded a two minute audio file. You hit play, it basically tells you what the site's about, presses the buttons on your behalf, and you can obviously pause it and interact with it even while it's playing. And we thought, that's really interesting, at least we were intrigued by this approach, and so we decided to abstract out the code that we used to do that, and we created what was at the time an open source library. I mean, it's still an open source library, but it hasn't been maintained for ages, called Torquey js. And what that did was just simplify the process of attaching a mp3 file to your JavaScript and synchronizing events with time code. So we ended up doing that in lots of different projects, and they got more and more complicated. We made a project for the Guardian on World War one, which is just called First World War, and that was in kind of seven or eight different languages. It combined video and interactives and audio, so it's quite a rich big immersive project. But again, it was still using talkie under the hood to synchronize all the media with the JavaScript. So that approach became really kind of central to our whole storytelling visualization idea. And so when we set up flourish, we always knew that we wanted to support that in the architecture. So we launched flourish with just forward and back buttons on stories so that you progressed. And then finally after about a year, when we cleared a couple of weeks to work on it, we added an audio upload button and the capacity just to add a duration to each view. And that's pretty well it so that then the thing that you publish has a play button over the top. When you hit play, the animations basically play through at your specified time codes, and the audio does its thing so it feels like you're watching a video. And people often say, oh, I like this video about. But actually compared to a video though, it's got quite a few interesting advantages which aren't immediately obvious. One of them is much more lightweight. You've just got an audio file in JavaScript, it's responsive, so you can have completely different views on different devices, different aspect ratios or whatever. And crucially, it's interactive, so you can make a visualization that tells a story, and then the last thing that the voiceover might say is okay, so here you go. Now you can go and explore the data for yourself.",
+      "id": "ep_155_ut_74"
+    },
+    {
+      "end": 2210778,
+      "speaker": "Moritz Stefaner",
+      "start": 2203058,
+      "text": "Yeah, yeah. Or you could have forks in your narrative and decide for one thing or the other. And I think it's such an intriguing format.",
+      "id": "ep_155_ut_75"
+    },
+    {
+      "end": 2212330,
+      "speaker": "Duncan Clark",
+      "start": 2210914,
+      "text": "That's an interesting idea, such a simple.",
+      "id": "ep_155_ut_76"
+    },
+    {
+      "end": 2213314,
+      "speaker": "Moritz Stefaner",
+      "start": 2212370,
+      "text": "Idea at the same time.",
+      "id": "ep_155_ut_77"
+    },
+    {
+      "end": 2215354,
+      "speaker": "Duncan Clark",
+      "start": 2213362,
+      "text": "Right, choose your own adventure talkies.",
+      "id": "ep_155_ut_78"
+    },
+    {
+      "end": 2217266,
+      "speaker": "Moritz Stefaner",
+      "start": 2215402,
+      "text": "That sounds exactly, exactly.",
+      "id": "ep_155_ut_79"
+    },
+    {
+      "end": 2218362,
+      "speaker": "Duncan Clark",
+      "start": 2217378,
+      "text": "Yeah, I'm going to think about that.",
+      "id": "ep_155_ut_80"
+    },
+    {
+      "end": 2252022,
+      "speaker": "Moritz Stefaner",
+      "start": 2218386,
+      "text": "One simple idea, but I think that's really powerful and I'm really curious what could be done with that, especially coming from a podcasting perspective. So maybe listeners, if you have a good idea for like a data story that should be audified, I think there you have a really nice platform to do it. Cool. Yeah. So just to wrap things up, can you tell us a bit where you see the tool evolving? What are the things you're like thinking about mostly now, or what are things coming up in the immediate future or the long term future? Any hints?",
+      "id": "ep_155_ut_81"
+    },
+    {
+      "end": 2334562,
+      "speaker": "Duncan Clark",
+      "start": 2252126,
+      "text": "So there's a whole bunch of new templates coming out, like some of the ones I mentioned, draw your own lines and moving dot maps and that kind of thing. We've also just added a live data connector to the app so that, I mean, you could already do this with the API, but now as a non coder, it's possible to connect to a Google sheet or some other, some other data source that might be updating live. And we use that to, we sort of showcase that with the UK election in December and did a bunch of visuals with that scroll. Detailing is another big one. And then, I mean, I guess the other, the other sort of area where we're increasingly focused on is just automating everything and trying to make everything easier. Because as you add more and more different visualization options to a tool, then people start to say, this looks really powerful. I've got my spreadsheet, what shall I do? They can feel a bit overwhelmed. And also, especially if it's something like a hierarchical graphic where you've nested by columns, it's not immediately obvious that it's possible to get from your little spreadsheet to that fancy graphic. So one of the things we're working on at the moment is just making it possible to upload an arbitrary, real world, messy spreadsheet. And we kind of identify where the data is, what the column types are and stuff, and then we can sort of make the visualizations in advance, let you choose from them, rather than you having to do all the work.",
+      "id": "ep_155_ut_82"
+    },
+    {
+      "end": 2338466,
+      "speaker": "Moritz Stefaner",
+      "start": 2334706,
+      "text": "Wow, sounds great. Yeah. So check it out.",
+      "id": "ep_155_ut_83"
+    },
+    {
+      "end": 2343750,
+      "speaker": "Enrico Bertini",
+      "start": 2338498,
+      "text": "It's great to see more Dataviz tools being successful. Great job.",
+      "id": "ep_155_ut_84"
+    },
+    {
+      "end": 2344766,
+      "speaker": "Duncan Clark",
+      "start": 2343830,
+      "text": "Thank you very much.",
+      "id": "ep_155_ut_85"
+    },
+    {
+      "end": 2363050,
+      "speaker": "Moritz Stefaner",
+      "start": 2344878,
+      "text": "And it's really one where I like to send people who don't know much about coding and they want a bit unusual data visualization, something like exploratory, fluid, interactive. So it's always worth a look. And if your data fits one of the templates, well, it just takes five minutes, so definitely check it out.",
+      "id": "ep_155_ut_86"
+    },
+    {
+      "end": 2364310,
+      "speaker": "Duncan Clark",
+      "start": 2363910,
+      "text": "Cool.",
+      "id": "ep_155_ut_87"
+    },
+    {
+      "end": 2369970,
+      "speaker": "Moritz Stefaner",
+      "start": 2364350,
+      "text": "Thanks so much, Duncan, for joining us. We're really curious to see the tool evolve over the next few years.",
+      "id": "ep_155_ut_88"
+    },
+    {
+      "end": 2372550,
+      "speaker": "Duncan Clark",
+      "start": 2370070,
+      "text": "Well, thanks for having me and very nice to talk to you about.",
+      "id": "ep_155_ut_89"
+    },
+    {
+      "end": 2374666,
+      "speaker": "Enrico Bertini",
+      "start": 2372970,
+      "text": "Thanks so much. Bye, Duncan.",
+      "id": "ep_155_ut_90"
+    },
+    {
+      "end": 2375386,
+      "speaker": "Duncan Clark",
+      "start": 2374738,
+      "text": "Bye bye bye.",
+      "id": "ep_155_ut_91"
+    },
+    {
+      "end": 2376470,
+      "speaker": "Enrico Bertini",
+      "start": 2375418,
+      "text": "Take care. Bye.",
+      "id": "ep_155_ut_92"
+    },
+    {
+      "end": 2404046,
+      "speaker": "Moritz Stefaner",
+      "start": 2380930,
+      "text": "Hey folks, thanks for listening to data stories again. Before you leave, a few last notes. This show is crowdfunded and you can support us on patreon@patreon.com Datastories, where we publish monthly previews of upcoming episodes for our support us. Or you can also send us a one time donation via PayPal at PayPal me Datastories or as a free way.",
+      "id": "ep_155_ut_93"
+    },
+    {
+      "end": 2431422,
+      "speaker": "Enrico Bertini",
+      "start": 2404078,
+      "text": "To support the show. If you can spend a couple of minutes rating us on iTunes, that would be very helpful as well. And here's some information on the many ways you can get news directly from us. We are on Twitter, Facebook and Instagram, so follow us there for the latest updates. We have also a slack channel where you can chat with us directly. And to sign up, go to our home page at datastory ES and there you'll find a button at the bottom of the page.",
+      "id": "ep_155_ut_94"
+    },
+    {
+      "end": 2439454,
+      "speaker": "Moritz Stefaner",
+      "start": 2431566,
+      "text": "And there you can also subscribe to our email newsletter if you want to get news directly into your inbox and be notified whenever we publish a new episode.",
+      "id": "ep_155_ut_95"
+    },
+    {
+      "end": 2452078,
+      "speaker": "Enrico Bertini",
+      "start": 2439542,
+      "text": "That's right, and we love to get in touch with our listeners. So let us know if you want to suggest a way to improve the show or know any amazing people you want us to invite or even have any project you want us to talk about.",
+      "id": "ep_155_ut_96"
+    },
+    {
+      "end": 2458742,
+      "speaker": "Moritz Stefaner",
+      "start": 2452214,
+      "text": "Yeah, absolutely. Don't hesitate to get in touch. Just send us an email at mailatastory es.",
+      "id": "ep_155_ut_97"
+    },
+    {
+      "end": 2462590,
+      "speaker": "Enrico Bertini",
+      "start": 2458886,
+      "text": "That's all for now. Hear you next time, and thanks for listening to data stories.",
+      "id": "ep_155_ut_98"
+    }
+  ],
+  "confidence": 0.931677986958935,
+  "audio_duration": 2471,
+  "punctuate": true,
+  "format_text": true,
+  "dual_channel": false,
+  "webhook_url": null,
+  "webhook_status_code": null,
+  "webhook_auth": false,
+  "webhook_auth_header_name": null,
+  "speed_boost": false,
+  "auto_highlights_result": null,
+  "auto_highlights": false,
+  "audio_start_from": null,
+  "audio_end_at": null,
+  "word_boost": [],
+  "boost_param": null,
+  "filter_profanity": false,
+  "redact_pii": false,
+  "redact_pii_audio": false,
+  "redact_pii_audio_quality": null,
+  "redact_pii_policies": null,
+  "redact_pii_sub": null,
+  "speaker_labels": true,
+  "content_safety": false,
+  "iab_categories": true,
+  "content_safety_labels": {
+    "status": "unavailable",
+    "results": [],
+    "summary": {}
+  },
+  "language_detection": false,
+  "language_detection_threshold": null,
+  "language_confidence": null,
+  "custom_spelling": null,
+  "throttled": false,
+  "auto_chapters": true,
+  "summarization": false,
+  "summary_type": null,
+  "summary_model": null,
+  "custom_topics": false,
+  "topics": [],
+  "speech_threshold": null,
+  "speech_model": "best",
+  "chapters": [
+    {
+      "summary": "This week, we talk about data visualization, data analysis, and generally the role data plays in our lives. Our podcast is listener supported, so there's no ads. If you enjoyed the show, please consider supporting us with recurring payments on Patreon.",
+      "gist": "Data Stories: An Animated Story",
+      "headline": "If you enjoyed the show, please consider supporting us with recurring payments on Patreon",
+      "start": 120,
+      "end": 100806,
+      "id": "ep_155_ch_0"
+    },
+    {
+      "summary": "Today we have another tool centric episode. And we have the CEO of Kiln and Flourish studio on the show, Duncan Clark. Can you tell us a bit about your background? How did you end up where you are now?",
+      "gist": "Tools of the World",
+      "headline": "Today we have another tool centric episode with Duncan Clark from flourish",
+      "start": 100878,
+      "end": 259216,
+      "id": "ep_155_ch_1"
+    },
+    {
+      "summary": "F flourish grew out of everything we did as a kind of. micro agency doing bespoke visualization work. The main focus of the tool from the beginning has been more on the presentation side of visualization. It's more at the presentation and publishing end of visualization than the business intelligence or exploratory end.",
+      "gist": "The Future of Data Visualization: Flourance",
+      "headline": "Fold is a tool that lets you do interactive visualization of data",
+      "start": 259248,
+      "end": 613760,
+      "id": "ep_155_ch_2"
+    },
+    {
+      "summary": "F flourish allows you to string together different views of one or more visualization into an animating story. Another thing we're just about to launch, which is in beta at the moment, is scrolly telling. It's visualization in the service of narrative.",
+      "gist": "Tableau: Storytelling in Excel",
+      "headline": "Fold allows you to turn data visualization into an animated story",
+      "start": 614580,
+      "end": 1093570,
+      "id": "ep_155_ch_3"
+    },
+    {
+      "summary": "F flourish has a broad collection of templates available for storytelling. A lot of users are journalists who see data visualization and interactive content as part of the same package. New features include an interactive quiz template and a template which supports arbitrary animation between maps and charts.",
+      "gist": "Flubber: The data visualization templates",
+      "headline": "There are a number of different templates available for the flourish experience",
+      "start": 1093730,
+      "end": 1354744,
+      "id": "ep_155_ch_4"
+    },
+    {
+      "summary": "Duncan: There is a tension between when you start adding features to your software, and then users start misusing and creating terrible things. I'm also interested in how you design a good template or a whole good collection of templates.",
+      "gist": "Flare 2.8: The Design Process",
+      "headline": "There is a tension between when you start adding features and users misuse them",
+      "start": 1354872,
+      "end": 1637660,
+      "id": "ep_155_ch_5"
+    },
+    {
+      "summary": "Duncan: I'm really interested also about what is the business model behind flourish. So you basically have a freemium model where most of it is for free. Do you ever install flourish internally in a company, or it's always an external product?",
+      "gist": "Fooled: The Business model of",
+      "headline": "I'm interested in what is the business model behind flourish",
+      "start": 1639710,
+      "end": 1940542,
+      "id": "ep_155_ch_6"
+    },
+    {
+      "summary": "Kiln uses an audio file in JavaScript to tell a story. When you hit play, the animations basically play through at your specified time codes. You can pause it and interact with it even while it's playing. It's such an intriguing format.",
+      "gist": "Tell the Story in a Talkie",
+      "headline": "You mentioned this talkie format. Can you tell us more about that",
+      "start": 1940686,
+      "end": 2239198,
+      "id": "ep_155_ch_7"
+    },
+    {
+      "summary": "There's a whole bunch of new templates coming out, like some of the ones I mentioned. We've also just added a live data connector to the app. The other area where we're increasingly focused on is just automating everything. We're really curious to see the tool evolve over the next few years.",
+      "gist": "Dataviz: Future of the Tool",
+      "headline": "Can you tell us a bit where you see the Dataviz tool evolving",
+      "start": 2239254,
+      "end": 2376470,
+      "id": "ep_155_ch_8"
+    },
+    {
+      "summary": "Hey folks, thanks for listening to data stories again. This show is crowdfunded and you can support us on patreon@patreon. com Datastories. Here's some information on the many ways you can get news directly from us. Let us know if you want to suggest a way to improve the show.",
+      "gist": "Data Stories",
+      "headline": "This show is crowdfunded and you can support us on patreon",
+      "start": 2380930,
+      "end": 2462590,
+      "id": "ep_155_ch_9"
+    }
+  ],
+  "disfluencies": false,
+  "entity_detection": false,
+  "sentiment_analysis": false,
+  "sentiment_analysis_results": null,
+  "entities": null,
+  "speakers_expected": null,
+  "summary": null,
+  "custom_topics_results": null,
+  "episode_num": 155,
+  "episode_metadata": {
+    "speakers": [
+      "Duncan Clark",
+      "Moritz Stefaner",
+      "Enrico Bertini"
+    ],
+    "WPid": "1556",
+    "url": "https://datastori.es/podlove/file/6522/s/feed/c/mp3/155-flourish-with-duncan-clarke.mp3",
+    "episode_title": "Flourish with Duncan Clark"
+  }
+}

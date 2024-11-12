@@ -1,0 +1,602 @@
+{
+  "id": "9a983cf6-c569-4563-9cb5-faf9510b5991",
+  "language_model": "assemblyai_default",
+  "acoustic_model": "assemblyai_default",
+  "language_code": "en_us",
+  "status": "completed",
+  "audio_url": "https://datastori.es/podlove/file/4108/s/feed/c/mp3/101-surprise-maps.mp3",
+  "utterances": [
+    {
+      "end": 12514,
+      "speaker": "Michael Correll",
+      "start": 240,
+      "text": "Surprise maps by itself. Maybe you need to use them for a technical audience, but I think they can offer a lot of guidance to people. And in fact, sort of one thing that I've been looking at recently is how do we make data values ignorable?",
+      "id": "ep_101_ut_0"
+    },
+    {
+      "end": 58428,
+      "speaker": "Enrico Bertini",
+      "start": 16934,
+      "text": "Data stories is brought to you by click. Are you missing out on meaningful relationships hidden in your data? Unlock the old story with Qlik sense through personalized visualizations and dynamic dashboards, which you can download for free at Qlik. Hey, everyone. Welcome to a new episode of Data stories. Hey, Moritz.",
+      "id": "ep_101_ut_1"
+    },
+    {
+      "end": 59540,
+      "speaker": "Moritz Stefaner",
+      "start": 58516,
+      "text": "Hey, Enrico.",
+      "id": "ep_101_ut_2"
+    },
+    {
+      "end": 60436,
+      "speaker": "Enrico Bertini",
+      "start": 59692,
+      "text": "All good?",
+      "id": "ep_101_ut_3"
+    },
+    {
+      "end": 63980,
+      "speaker": "Moritz Stefaner",
+      "start": 60540,
+      "text": "Yep. Summer broke out over here, so things are really fine.",
+      "id": "ep_101_ut_4"
+    },
+    {
+      "end": 81812,
+      "speaker": "Enrico Bertini",
+      "start": 64052,
+      "text": "Yeah, yeah, yeah, yeah. It's awesome. So today we have another very interesting project episode. We're gonna talk about a very interesting technique that is called surprise maps. And we have on the show Michael Correll and Jeff Heer. Hey, guys. Welcome on the show.",
+      "id": "ep_101_ut_5"
+    },
+    {
+      "end": 82388,
+      "speaker": "Jeff Heer",
+      "start": 81948,
+      "text": "Hi.",
+      "id": "ep_101_ut_6"
+    },
+    {
+      "end": 82868,
+      "speaker": "Michael Correll",
+      "start": 82476,
+      "text": "Hi.",
+      "id": "ep_101_ut_7"
+    },
+    {
+      "end": 83984,
+      "speaker": "Jeff Heer",
+      "start": 82956,
+      "text": "Good to be back.",
+      "id": "ep_101_ut_8"
+    },
+    {
+      "end": 86708,
+      "speaker": "Enrico Bertini",
+      "start": 84484,
+      "text": "Jeff, you've been here a few times.",
+      "id": "ep_101_ut_9"
+    },
+    {
+      "end": 88064,
+      "speaker": "Jeff Heer",
+      "start": 86796,
+      "text": "Third time's the charm.",
+      "id": "ep_101_ut_10"
+    },
+    {
+      "end": 98140,
+      "speaker": "Enrico Bertini",
+      "start": 89324,
+      "text": "Can you guys briefly introduce yourself and then we can dive right in into describing what this project is about. Michael, you want to start?",
+      "id": "ep_101_ut_11"
+    },
+    {
+      "end": 117232,
+      "speaker": "Michael Correll",
+      "start": 98252,
+      "text": "Sure. So I'm a postdoc here at the University of Washington in the interactive data lab, and sort of my research focus is looking at presenting statistical techniques to non statistical audiences. And in particular, I've gotten interested in looking at sort of bias and uncertainty and how we can present uncertain information to the general public.",
+      "id": "ep_101_ut_12"
+    },
+    {
+      "end": 117920,
+      "speaker": "Enrico Bertini",
+      "start": 117368,
+      "text": "Jeff?",
+      "id": "ep_101_ut_13"
+    },
+    {
+      "end": 135656,
+      "speaker": "Jeff Heer",
+      "start": 118032,
+      "text": "Hi, I'm Jeff Heer. I'm an associate professor of computer science and engineering here at the University of Washington, where I direct the interactive data lab. And I'm also a co founder of Trifacta. And generally, I'm interested in visualization from low level software infrastructures all the way up to visual perception and cognition.",
+      "id": "ep_101_ut_14"
+    },
+    {
+      "end": 207784,
+      "speaker": "Enrico Bertini",
+      "start": 135800,
+      "text": "So we wanted to talk about this interesting technique that, as I said, is called surprise maps. And I have to say, the first time I saw it, I was like, finally, something that solves a very recurring problem that I see all the time. The basic idea, I think, behind surprise maps is to, rather than visualizing the value of something on a map directly, is to create a model and visualize how surprising the value in a given area is. And I have to say I was really excited to see this technique happening because I see this kind of problem all the time with maps, like choropleth maps, especially when I teach in class, my students build choropleth maps that are highly, highly correlated to population. And rather than visualizing the value or the signal that they're interested in, what they are actually showing is only population density. Mike, can you briefly describe the technique, and maybe using more details than mine, what is surprise maps and how it works?",
+      "id": "ep_101_ut_15"
+    },
+    {
+      "end": 265110,
+      "speaker": "Michael Correll",
+      "start": 207924,
+      "text": "Sure. Right. So you mentioned this. One of the problems with choropleth maps and things like that is you only have one variable that you can show on the map at a time, and often just the value of that variable is not very informative. Yeah. It can be highly correlated with other variables. There can be unequal amounts of variation. And so the whole idea with surprise maps is you build up models of what you expect to see in the data, and then rather than visualizing the values, what you do is visualize this metric called bayesian surprise, which is an information theoretic metric that looks at how much a particular value at a location changes your beliefs about the model. So if initially sort of everything you believe equally, you get data in, and all of a sudden one model is very prominent. You're looking at the things that caused you to shift your beliefs towards that new model. And so it's almost a saliency technique for where you should look in the map to find informative values. I guess that's the nickel tour.",
+      "id": "ep_101_ut_16"
+    },
+    {
+      "end": 274454,
+      "speaker": "Enrico Bertini",
+      "start": 265182,
+      "text": "Do you have any classic example of, say, choropleth map that has this kind of problem and it's solved by a surprise map?",
+      "id": "ep_101_ut_17"
+    },
+    {
+      "end": 344468,
+      "speaker": "Michael Correll",
+      "start": 274834,
+      "text": "Yeah. So the example that we use in the paper, which I really like, is there's this type of crime called mischief, which is, it's essentially any property crime where the intent is not theft. So, you know, vandalism counts as mischief. And if you visualize just the count of mischief per province in Canada, it's just correlated with population. So the high population territories like, or provinces like Ontario pop out. But then if you normalize to a per capita rate, you actually get the almost the opposite map. So these low population provinces are really sticking out with their high per capita rates. And neither of those maps really reflect what's going on, because some of those territories have such a small population that you expect a large amount of variance, you have a low sample size. And so surprise maps actually generate a map that's sort of in between both of those extremes. And it shows that, for instance, you actually have very high per capita rates in these prairie territories like Alberta and Manitoba. But they also have enough people in it that you really should maybe care about those high rates. It's hard to explain without pictures, but.",
+      "id": "ep_101_ut_18"
+    },
+    {
+      "end": 392724,
+      "speaker": "Moritz Stefaner",
+      "start": 344516,
+      "text": "Yeah, we can put the maps in the blog post and our listeners will be able to see that. And I like this example, too, because it shows that both the just showing the rare, like the amount of things, is often not that interesting. Your paper also starts with a great sentence. There's only limited utility in seeing the expected, which is like, really a good observation, I think. And so showing this surprise factor is super interesting. I think there's a really fundamental question I have here. So, bayesian reasoning, bayesian analysis, how does this actually work? Like, I hear things like belief and prior and posterior and model. Can you give me, like a really simple explanation of how all this plays together and how you end up with a surprise factor?",
+      "id": "ep_101_ut_19"
+    },
+    {
+      "end": 396068,
+      "speaker": "Michael Correll",
+      "start": 392884,
+      "text": "I can give it a shot. Yeah. I can try to see a PhD.",
+      "id": "ep_101_ut_20"
+    },
+    {
+      "end": 397580,
+      "speaker": "Moritz Stefaner",
+      "start": 396116,
+      "text": "In statistics in five minutes.",
+      "id": "ep_101_ut_21"
+    },
+    {
+      "end": 400184,
+      "speaker": "Enrico Bertini",
+      "start": 397612,
+      "text": "That's a good challenge. Go, Mike.",
+      "id": "ep_101_ut_22"
+    },
+    {
+      "end": 475484,
+      "speaker": "Michael Correll",
+      "start": 401644,
+      "text": "Right. So, in general, the backing of this is Bayes law, which is the probability of a given b is proportional to the probability of b given a times the probability of a. Right. But all that means is that you have some initial belief and bayesian space that's somewhat analogous to a probability, and you have an initial belief. You collect evidence from your data, and that gives you an updated belief. So now it's strong or weak evidence for or against your belief, and that modulates your probability, and that creates a new belief that is tempered by the evidence that is now your posterior. So you have your prior, which is your initial belief, and then you have your posterior, which is your new belief, after you've received the information. And how surprise works is that you have a bunch of models for which you have a set of beliefs that hopefully sum up to one. If we're dealing in probability space, and you collect data and you update your beliefs and create posteriors for each of those beliefs, and then what surprises is just a metric of the distance from your initial belief space to your new belief space? I guess that's the 1 minute 32nd version.",
+      "id": "ep_101_ut_23"
+    },
+    {
+      "end": 476632,
+      "speaker": "Enrico Bertini",
+      "start": 476024,
+      "text": "Awesome.",
+      "id": "ep_101_ut_24"
+    },
+    {
+      "end": 480832,
+      "speaker": "Moritz Stefaner",
+      "start": 476728,
+      "text": "So it's basically how much the data tells you that you didn't know before? In a way, yeah.",
+      "id": "ep_101_ut_25"
+    },
+    {
+      "end": 484964,
+      "speaker": "Michael Correll",
+      "start": 480888,
+      "text": "It's sort of how the data helps you disambiguate what you think is going on.",
+      "id": "ep_101_ut_26"
+    },
+    {
+      "end": 488728,
+      "speaker": "Moritz Stefaner",
+      "start": 486344,
+      "text": "Nice. Yeah, makes sense.",
+      "id": "ep_101_ut_27"
+    },
+    {
+      "end": 516550,
+      "speaker": "Jeff Heer",
+      "start": 488896,
+      "text": "My favorite part of the technique, as Michael formulated it, is dealing not just with expectation, in the form of is this uniformly distributed? Is there gaussian distribution? But also incorporating models that deal directly with variance and uncertainty. So, for example, given a smaller sample size, you'll expect higher variance. And so actually having a term to correct for that, I think was one of the nicest and most powerful things that corrects some of the standard problems we have with traditional choropleth maps.",
+      "id": "ep_101_ut_28"
+    },
+    {
+      "end": 517142,
+      "speaker": "Enrico Bertini",
+      "start": 516662,
+      "text": "Yeah.",
+      "id": "ep_101_ut_29"
+    },
+    {
+      "end": 535268,
+      "speaker": "Moritz Stefaner",
+      "start": 517238,
+      "text": "Can you tell us a bit about the background of the project, how did it all start? How did you come up with the idea, and how did you develop it ultimately? Were there multiple versions of it? Did you get it right on the first test, or did you have to tweak a lot or read a lot on statistics? How did it go?",
+      "id": "ep_101_ut_30"
+    },
+    {
+      "end": 602744,
+      "speaker": "Michael Correll",
+      "start": 535356,
+      "text": "So the thing that sort of got me thinking about it was I was actually looking at it from sort of a spatio temporal, sort of time series analysis kind of thing. The data set that we were looking at first is something called the coast project, where they're looking at sort of mortality rates for seabirds, essentially beachcombers that are combing the beach. And wherever they find a dead bird, they note it down. And so in that data set, what counts as an interesting feature is sort of not defined because you have different numbers of observers. There's more people combing the beaches around Seattle than are combing it in the Aleutian Islands, for instance. But there's also different base rates and things. And we were looking at what's a metric that lets us account for all the base rates of all of these different models, but still gives us something informative that we can show people. And we sort of realized after we tried applying it to spatial temporal data, that it works just as well for static choropleth maps. And it really addressed the problem, I think, that people have noticed all the time in these single step ones. So it was initially a spatio temporal technique, and we decided to just apply it wherever it was useful.",
+      "id": "ep_101_ut_31"
+    },
+    {
+      "end": 617282,
+      "speaker": "Moritz Stefaner",
+      "start": 603044,
+      "text": "Is it limited to maps? So, the paper is called surprise maps, but I could imagine it could also be used for any type of categorization of data. Or if you have a measure applied to different groups of a population, it could apply as well, probably, yeah.",
+      "id": "ep_101_ut_32"
+    },
+    {
+      "end": 641414,
+      "speaker": "Michael Correll",
+      "start": 617338,
+      "text": "I mean, so the metric can be used essentially for anything. Actually, we grab the metric from computer vision. So idy and baldy are the folks that we grabbed that metric from. And it can apply to discrete model cases, too. So, for instance, if you want to see what's the most interesting value in your table, for instance, that's making you disambiguate between models, you can make a surprise map for that as well.",
+      "id": "ep_101_ut_33"
+    },
+    {
+      "end": 704730,
+      "speaker": "Moritz Stefaner",
+      "start": 641994,
+      "text": "I have a practical question, because I often run into similar issues. So, for instance, now I'm working with word frequencies. Like, if you can think of a word cloud or something like this, like you want to summarize a text or mentions of specific words. And so if you just visualize. So the amount is the size, that's like the natural thing you would want to do. But then it's always the same. It's sort of as you write, it's the expected and you have to really dig for the unexpected. Interesting stuff, but so when you visualize more an indirect measure, like a trend or a relative development or something as related to a baseline, and my concern is always, do people understand that it's not now the actual amount that I'm showing, but something indirect. What's your observation there like? Do normal populations understand if something is darker or bigger that it's in this case not more but more than expected? So it's sort of this indirect way of thinking or this more abstract way of thinking. How do you deal with that?",
+      "id": "ep_101_ut_34"
+    },
+    {
+      "end": 741544,
+      "speaker": "Michael Correll",
+      "start": 704802,
+      "text": "Yeah, I agree. That's a big problem, especially for some of these metrics. It's hard to say what a Shannon bit of information means to a random person. What we did in the paper is a way of punting on that problem is always present the data next to the surprise map or use it as a saliency waiting as opposed to just showing it by itself, I think that helps people get a handle on it. I think that's in general true for things like residual plots as well, to really get people to understand them. You also want to show the model that you're generating the residuals from. At least that's my suspicion.",
+      "id": "ep_101_ut_35"
+    },
+    {
+      "end": 804796,
+      "speaker": "Jeff Heer",
+      "start": 742044,
+      "text": "Yeah, it's an interesting challenge in interpretation. And so a couple things to think about. So one is you can imagine using bayesian surprise not just as something that you directly visualize on the map, but even if you wanted to craft a more narrative tour, you could say look here first, and then provide some context relative to the actual underlying data and use that again as a saliency technique. It's really saying something about here's the things you might want to attend to first before you look at other parts of the data to help calibrate your understanding. Then the second point, which Michael was alluding to, is that underlying bayesian surprise is that you have to specify a set of models to know what's expected. You have to set up some baseline models in terms of what you will measure that expectation. And so for more savvy consumers of data visualizations, I think understanding something about those underlying models and how the beliefs are shifting among them is actually very informative. But I don't necessarily know how to convey that without having some basic statistical literacy as well.",
+      "id": "ep_101_ut_36"
+    },
+    {
+      "end": 821966,
+      "speaker": "Enrico Bertini",
+      "start": 804940,
+      "text": "So then you expect surprise maps to be used more in technical say, or scientific context, or you imagine them to be. Yeah, to be usable also for say more? Yeah, for the general public.",
+      "id": "ep_101_ut_37"
+    },
+    {
+      "end": 864766,
+      "speaker": "Jeff Heer",
+      "start": 822110,
+      "text": "Yeah, it's an interesting question. I'd like to hear Michael's take on it, too. But my feeling is it's twofold. So at one level, you can just use it as a way to direct attention. So even if people don't necessarily understand all the mechanisms behind it, if the surprise model was well crafted, you can still say, look at this province. Before that province, it's greater or less than expected, and then people can investigate for themselves. But for another class of audience that is more technical, you can imagine revealing more details about how that underlying model was constructed and how the beliefs are changing over different observations of data. And that can provide additional insight for directing and analysis, but again, probably not for a more general audience.",
+      "id": "ep_101_ut_38"
+    },
+    {
+      "end": 910222,
+      "speaker": "Michael Correll",
+      "start": 864910,
+      "text": "Yeah. I mean, so just to add on to what Jeff said, I think, yes, surprise maps by itself, maybe you need to use them for a technical audience, but I think they can offer a lot of guidance to people. And in fact, sort of one thing that I've been looking at recently is how do we make data values ignorable? Right? Like, how do we draw people's attention away from non statistically significant or outlier points or things we expect to be noise? And so I think bayesian surprise, just as it can be a saliency metric, it can also be a filtering metric by that measure. And so there, I think the consumers could be anyone. So treating it as guidance, as opposed to the chart that you look at, I think, is a way of presenting it to the general audience.",
+      "id": "ep_101_ut_39"
+    },
+    {
+      "end": 941104,
+      "speaker": "Enrico Bertini",
+      "start": 910358,
+      "text": "Yeah, I think another aspect that I really like here is the general idea that rather than visualizing data directly, you try to build a model first and then visualize data through the model. I think that's a general idea that has not been explored enough. In visualization, we tend to visualize data directly, but that's a clear example where using a model in between is actually going to be very beneficial. And I have a hunch that this kind of idea could be extended to many other situations.",
+      "id": "ep_101_ut_40"
+    },
+    {
+      "end": 944036,
+      "speaker": "Jeff Heer",
+      "start": 941644,
+      "text": "Can I just say something quickly on that point?",
+      "id": "ep_101_ut_41"
+    },
+    {
+      "end": 944548,
+      "speaker": "Enrico Bertini",
+      "start": 944100,
+      "text": "Go ahead.",
+      "id": "ep_101_ut_42"
+    },
+    {
+      "end": 962104,
+      "speaker": "Jeff Heer",
+      "start": 944636,
+      "text": "So I think you're right, Enrico, about the information visualization community. But I think in all fairness, both cartographers and statisticians have spent decades thinking hard about seeing data through a model. And so if we're late to the party, shame on us. But I think nevertheless, there's a great party to be had.",
+      "id": "ep_101_ut_43"
+    },
+    {
+      "end": 963854,
+      "speaker": "Enrico Bertini",
+      "start": 962454,
+      "text": "Yeah, that's true.",
+      "id": "ep_101_ut_44"
+    },
+    {
+      "end": 980518,
+      "speaker": "Michael Correll",
+      "start": 963974,
+      "text": "Yeah. I mean, certainly things like residual plots, even showing deviations from a model on a map, are things that both communities stats and cartography have been doing for a long time. But yeah, I think Infovis is a little late to the game here.",
+      "id": "ep_101_ut_45"
+    },
+    {
+      "end": 1002180,
+      "speaker": "Enrico Bertini",
+      "start": 980606,
+      "text": "Yeah, we definitely need to catch up there. It's a very important direction to explore. So if one of our listeners wants to actually use the tool and maybe integrate it in the, in his or her own workflow, how do you suggest them to use it? I guess you also have some code available somewhere on GitHub.",
+      "id": "ep_101_ut_46"
+    },
+    {
+      "end": 1069034,
+      "speaker": "Michael Correll",
+      "start": 1002292,
+      "text": "Yeah, there's a public GitHub repository that has a very simple working demo and some examples. I mean, the metric itself is just a callback library divergence. So there's a couple logs in there and you need to calculate some residuals, but it's reasonably straightforward. We didn't toolkit it just because how models are instantiated can vary so much from data set to data set that I'm not certain what, you know, what the right level of abstraction is for that, but it's reasonably easy to just sort of plug and play just using the code that we have. I noticed that some people have already started using them. So for an example, there's this project called Census Mapper, which looks at the canadian census, and one of the people over there, Jens von Bergmann, has started using bayesian surprise to visualize elements of the canadian census. They were just able to plug in our metric directly into their maps. We unfortunately don't have a toolkit that you can use, but we have some example code and the metric itself is easy to calculate.",
+      "id": "ep_101_ut_47"
+    },
+    {
+      "end": 1096878,
+      "speaker": "Enrico Bertini",
+      "start": 1069934,
+      "text": "I would love to see it applied to more cases. I think especially in journalism, choropleth maps are so, so common. So that's definitely one of the areas where I expect the technique to be adopted. At least I hope so. So what is next? Do you have plan? I guess you have plans to extend this work maybe to other situations. So what are your plans?",
+      "id": "ep_101_ut_48"
+    },
+    {
+      "end": 1125426,
+      "speaker": "Michael Correll",
+      "start": 1097046,
+      "text": "I mean, so for me, the most pressing thing, given my research directions, is how to actually make these maps consumable for the general audience. We sort of punted on this problem in the paper, so I've been looking at ways of how you can integrate surprise directly into these maps and present them in a straightforward way, and how we can nudge people towards ignoring or considering or being skeptical of data values using surprise.",
+      "id": "ep_101_ut_49"
+    },
+    {
+      "end": 1133922,
+      "speaker": "Enrico Bertini",
+      "start": 1125530,
+      "text": "Do you guys have any plans to study how people perceive these maps or something like that? Some sort of experimental work on that?",
+      "id": "ep_101_ut_50"
+    },
+    {
+      "end": 1146998,
+      "speaker": "Michael Correll",
+      "start": 1134018,
+      "text": "Yeah, we've done a little bit of experimental work on how people look at uncertainty in maps with surprise sort of being the tacit application of that. But yeah, we want to dig a little bit more in that space as well.",
+      "id": "ep_101_ut_51"
+    },
+    {
+      "end": 1151110,
+      "speaker": "Enrico Bertini",
+      "start": 1147046,
+      "text": "Jeff, do you have anything to add there on the future plans?",
+      "id": "ep_101_ut_52"
+    },
+    {
+      "end": 1225950,
+      "speaker": "Jeff Heer",
+      "start": 1151222,
+      "text": "I think in general, looking beyond just surprise maps, reasoning under uncertainty is this really gnarly problem. And I think visualization has a role to play, but we'll be fooling ourselves if we think visualization alone is going to be. So obviously modeling is part of it. But also I think differences in task, domain and outcome may be very important into how people make decisions here. So I think it's a grand challenge and a very difficult one. And so I'm just interested in anything where changes in visual representation actually cause an effect relative to some of these really strong heuristics and biases we have towards dealing with uncertainty. And so, I mean, there's a lot of papers out there that show, yeah, visualizations maybe kind of, or in some cases just don't change how we actually make decisions in the face of uncertain data. And so really trying to understand the right types of strategies, whether, whether it's in the case of surprise maps or some other works, do we actually suppress information that's likely to be misleading? So we're actually changing the sort of input into people's reasoning process. It's a fascinating issue and I'm excited to see folks like Mike, as well as other young researchers in the field start to really try and tackle these problems.",
+      "id": "ep_101_ut_53"
+    },
+    {
+      "end": 1263814,
+      "speaker": "Moritz Stefaner",
+      "start": 1226062,
+      "text": "Super important topic, and if you're more interested in dealing with how to deal with uncertainty, we have the episode with Alberto Cairo, which you could listen to. And also Amanda Cox had an amazing talk at Openviscon talking about visualizing uncertainty. And she can tell a lot of stories from last year from how the visualization of the election forecasts played out. And this is definitely a good talk to check out. And I agree, it's one of the big topics today in data and in visualization. So thanks for making progress there and teaching me a bit of bayesian analysis and hope to see you soon. Thanks, guys.",
+      "id": "ep_101_ut_54"
+    },
+    {
+      "end": 1264734,
+      "speaker": "Jeff Heer",
+      "start": 1263894,
+      "text": "Alright, thank you.",
+      "id": "ep_101_ut_55"
+    },
+    {
+      "end": 1266190,
+      "speaker": "Enrico Bertini",
+      "start": 1264814,
+      "text": "Thanks so much. Bye guys.",
+      "id": "ep_101_ut_56"
+    },
+    {
+      "end": 1266914,
+      "speaker": "Moritz Stefaner",
+      "start": 1266262,
+      "text": "Bye.",
+      "id": "ep_101_ut_57"
+    },
+    {
+      "end": 1281574,
+      "speaker": "Enrico Bertini",
+      "start": 1273974,
+      "text": "Hey guys, thanks for listening to data stories again. Before you leave, here are a few ways you can support the show and get in touch with us.",
+      "id": "ep_101_ut_58"
+    },
+    {
+      "end": 1296290,
+      "speaker": "Moritz Stefaner",
+      "start": 1281654,
+      "text": "First, we have a page on Patreon where you can contribute an amount of your choosing per episode. As you can imagine, we have some costs for running the show and we would love to make it a community driven project. You can find the page@patreon.com Datastories and.",
+      "id": "ep_101_ut_59"
+    },
+    {
+      "end": 1306894,
+      "speaker": "Enrico Bertini",
+      "start": 1296322,
+      "text": "If you can spend a couple of minutes rating us on iTunes, that would be extremely helpful. For the show, just search us in iTunes store or follow the link in our website.",
+      "id": "ep_101_ut_60"
+    },
+    {
+      "end": 1331032,
+      "speaker": "Moritz Stefaner",
+      "start": 1307274,
+      "text": "And we also want to give you some information on the many ways you can get news directly from us. We are, of course, on twitter@twitter.com Datastories. But we also have a Facebook page@Facebook.com, datastoriespodcast and we also have a newsletter. So if you want to get news directly into your inbox, go to our homepage data stories and look for the link that you find in the footer.",
+      "id": "ep_101_ut_61"
+    },
+    {
+      "end": 1352646,
+      "speaker": "Enrico Bertini",
+      "start": 1331168,
+      "text": "And finally, you can also chat directly with us and other listeners. Using Slack again, you can find a button to sign up at the bottom of our page. And we do love to get in touch with our listeners. So if you want to suggest a way to improve the show or know people you want us to invite or projects you want us to talk about, let us know.",
+      "id": "ep_101_ut_62"
+    },
+    {
+      "end": 1356514,
+      "speaker": "Moritz Stefaner",
+      "start": 1352750,
+      "text": "That's all for now. See you next time, and thanks for listening to data stories.",
+      "id": "ep_101_ut_63"
+    },
+    {
+      "end": 1377854,
+      "speaker": "Enrico Bertini",
+      "start": 1360374,
+      "text": "Data stories is brought to you by click. Are you missing out on meaningful relationships hidden in your data? Unlock the old story with Qlik sense through personalized visualizations and dynamic dashboards, which you can download for free at Qlik Datastories.",
+      "id": "ep_101_ut_64"
+    }
+  ],
+  "confidence": 0.935082146503315,
+  "audio_duration": 1378,
+  "punctuate": true,
+  "format_text": true,
+  "dual_channel": false,
+  "webhook_url": null,
+  "webhook_status_code": null,
+  "webhook_auth": false,
+  "webhook_auth_header_name": null,
+  "speed_boost": false,
+  "auto_highlights_result": null,
+  "auto_highlights": false,
+  "audio_start_from": null,
+  "audio_end_at": null,
+  "word_boost": [],
+  "boost_param": null,
+  "filter_profanity": false,
+  "redact_pii": false,
+  "redact_pii_audio": false,
+  "redact_pii_audio_quality": null,
+  "redact_pii_policies": null,
+  "redact_pii_sub": null,
+  "speaker_labels": true,
+  "content_safety": false,
+  "iab_categories": true,
+  "content_safety_labels": {
+    "status": "unavailable",
+    "results": [],
+    "summary": {}
+  },
+  "language_detection": false,
+  "language_detection_threshold": null,
+  "language_confidence": null,
+  "custom_spelling": null,
+  "throttled": false,
+  "auto_chapters": true,
+  "summarization": false,
+  "summary_type": null,
+  "summary_model": null,
+  "custom_topics": false,
+  "topics": [],
+  "speech_threshold": null,
+  "speech_model": "best",
+  "chapters": [
+    {
+      "summary": "Surprise maps can offer a lot of guidance to people. Are you missing out on meaningful relationships hidden in your data? Unlock the old story with Qlik sense through personalized visualizations and dynamic dashboards.",
+      "gist": "Qlik: Surprise Maps: How to Make Data Stories",
+      "headline": "Qlik sense helps you uncover hidden relationships hidden in your data",
+      "start": 240,
+      "end": 32154,
+      "id": "ep_101_ch_0"
+    },
+    {
+      "summary": "Hey, everyone. Welcome to a new episode of Data stories. Summer broke out over here, so things are really fine. All good? Yep.",
+      "gist": "Random Data Stories",
+      "headline": "Summer broke out over here, so things are really fine",
+      "start": 54284,
+      "end": 66384,
+      "id": "ep_101_ch_1"
+    },
+    {
+      "summary": "Today we're gonna talk about a very interesting technique that is called surprise maps. And we have on the show Michael Correll and Jeff Heer. Jeff's research focus is looking at presenting statistical techniques to non statistical audiences.",
+      "gist": "Projects: Surprise Mapping",
+      "headline": "Michael Correll and Jeff Heer talk about surprise maps on the show",
+      "start": 66964,
+      "end": 135656,
+      "id": "ep_101_ch_2"
+    },
+    {
+      "summary": " surprise maps is to create a model and visualize how surprising the value in a given area is. One of the problems with choropleth maps and things like that is often just the value of that variable is not very informative. It's almost a saliency technique for where you should look in the map to find informative values.",
+      "gist": "What are Surprise Maps?",
+      "headline": "Mike: Surprise maps are a technique that helps you visualize surprising values",
+      "start": 135800,
+      "end": 265110,
+      "id": "ep_101_ch_3"
+    },
+    {
+      "summary": "A surprise factor is a metric of the distance from your initial belief space to your new belief space. The technique involves incorporating models that deal directly with variance and uncertainty. Can you give us a simple explanation of how this works?",
+      "gist": "What is a Surprise Map?",
+      "headline": "Michael: Surprise factor is a metric of distance between your initial and new beliefs",
+      "start": 265182,
+      "end": 517142,
+      "id": "ep_101_ch_4"
+    },
+    {
+      "summary": "A new technique called bayesian surprise maps can be used to categorize data. The technique can be applied to spatial temporal data as well as static choropleth maps. The biggest challenge is getting people to understand what the data means to them.",
+      "gist": "Are surprise maps useful for data classification?",
+      "headline": "Michael Bayesian developed surprise maps to help people understand data",
+      "start": 517238,
+      "end": 986274,
+      "id": "ep_101_ch_5"
+    },
+    {
+      "summary": "There's a public GitHub repository that has a very simple working demo and some examples. The metric itself is just a callback library divergence. I would love to see it applied to more cases. I think especially in journalism, choropleth maps are so, so common.",
+      "gist": "Bayesian surprise in Data Science",
+      "headline": "There's a public GitHub repository that has a very simple working demo",
+      "start": 987294,
+      "end": 1086838,
+      "id": "ep_101_ch_6"
+    },
+    {
+      "summary": "Mike: The most pressing thing is how to make these maps consumable for the general audience. Jeff: Looking beyond just surprise maps, reasoning under uncertainty is this really gnarly problem. Mike: I'm excited to see other young researchers in the field start to tackle these problems.",
+      "gist": "Surprise Maps and their future",
+      "headline": "Mike: Understanding how people deal with uncertainty is a huge research challenge",
+      "start": 1087006,
+      "end": 1276734,
+      "id": "ep_101_ch_7"
+    },
+    {
+      "summary": "We have a page on Patreon where you can contribute an amount of your choosing per episode. If you can spend a couple of minutes rating us on iTunes, that would be extremely helpful. We also want to give you some information on the many ways you can get news directly from us.",
+      "gist": "How to support Data Stories Podcast",
+      "headline": "Before you leave, here are a few ways you can support the show",
+      "start": 1276854,
+      "end": 1377854,
+      "id": "ep_101_ch_8"
+    }
+  ],
+  "disfluencies": false,
+  "entity_detection": false,
+  "sentiment_analysis": false,
+  "sentiment_analysis_results": null,
+  "entities": null,
+  "speakers_expected": null,
+  "summary": null,
+  "custom_topics_results": null,
+  "episode_num": 101,
+  "episode_metadata": {
+    "speakers": [
+      "Michael Correll",
+      "Enrico Bertini",
+      "Moritz Stefaner",
+      "Jeff Heer"
+    ],
+    "WPid": "973",
+    "url": "https://datastori.es/podlove/file/4108/s/feed/c/mp3/101-surprise-maps.mp3",
+    "episode_title": "Surprise Maps with Michael Correll and Jeff Heer"
+  }
+}

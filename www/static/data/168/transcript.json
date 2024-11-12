@@ -1,0 +1,1230 @@
+{
+  "id": "7fae33be-d7db-488d-9486-697588b21a58",
+  "language_model": "assemblyai_default",
+  "acoustic_model": "assemblyai_default",
+  "language_code": "en_us",
+  "status": "completed",
+  "audio_url": "https://datastori.es/podlove/file/6968/s/feed/c/mp3/168-highlights-from-IEEE-vis-22-with-tamara-munzner.mp3",
+  "utterances": [
+    {
+      "end": 16250,
+      "speaker": "Tamara Munzner",
+      "start": 160,
+      "text": "Oklahoma University has this astounding history of science program and these archives. There was this part where he went into the climate controlled archives and brought out the books. And there was this room full of books where we had to like, of course, not touch, but look at these amazing source materials.",
+      "id": "ep_168_ut_0"
+    },
+    {
+      "end": 46270,
+      "speaker": "Enrico Bertini",
+      "start": 35450,
+      "text": "Hi everyone. Welcome to a new episode of data stories. My name is Enrico Bertini, and I am a professor at Northeastern University in Boston, where I do research and teach data visualization.",
+      "id": "ep_168_ut_1"
+    },
+    {
+      "end": 58850,
+      "speaker": "Moritz Stefaner",
+      "start": 46610,
+      "text": "That's right. And I'm Moritz Stefaner. I'm an independent designer of data visualization. In fact, I work as a self employed truth and beauty operator out of my office here in the countryside in the north of Germany.",
+      "id": "ep_168_ut_2"
+    },
+    {
+      "end": 69238,
+      "speaker": "Enrico Bertini",
+      "start": 59010,
+      "text": "And on this podcast, we talk about data visualization analysis, generally, the role data plays in our lives. And usually we do that together with a guest we invite on the show.",
+      "id": "ep_168_ut_3"
+    },
+    {
+      "end": 91298,
+      "speaker": "Moritz Stefaner",
+      "start": 69374,
+      "text": "And that's the same today. But before we start, just a quick note. Our podcast is listener supported, so there are no ads. But that also means if you do enjoy the show, you might consider supporting us. You can do that with recurring payments on patreon.com Datastories, or you can also send us one time donations on PayPal me Datastories.",
+      "id": "ep_168_ut_4"
+    },
+    {
+      "end": 112962,
+      "speaker": "Enrico Bertini",
+      "start": 91414,
+      "text": "Okay, that's right. So we can get started. The topic for today is a classic of data stories I think we missed only once or twice. We're going to do highlights from the I try police conference, and we have a friend of the show helping us to do that. We have Tamara Munzner with us. Hi, Tamara.",
+      "id": "ep_168_ut_5"
+    },
+    {
+      "end": 116034,
+      "speaker": "Tamara Munzner",
+      "start": 113146,
+      "text": "Hi. Thanks so much for having me. Great to see you again.",
+      "id": "ep_168_ut_6"
+    },
+    {
+      "end": 122826,
+      "speaker": "Enrico Bertini",
+      "start": 116162,
+      "text": "Tamara, can you briefly introduce yourself and then we can dive right into the highlights from this.",
+      "id": "ep_168_ut_7"
+    },
+    {
+      "end": 143906,
+      "speaker": "Tamara Munzner",
+      "start": 122978,
+      "text": "Sure. I'm Tamara Munzner and I'm a professor at the University of British Columbia computer science department, and I do visualization of many flavors. I am a long term fan of IEEE VIS, first started going in 1991, so it's been a few years, and I'm a fan of data stories as well.",
+      "id": "ep_168_ut_8"
+    },
+    {
+      "end": 147074,
+      "speaker": "Enrico Bertini",
+      "start": 144058,
+      "text": "So yes, we have a lot of things in common.",
+      "id": "ep_168_ut_9"
+    },
+    {
+      "end": 148750,
+      "speaker": "Moritz Stefaner",
+      "start": 147122,
+      "text": "Perfect match for the episode.",
+      "id": "ep_168_ut_10"
+    },
+    {
+      "end": 174460,
+      "speaker": "Enrico Bertini",
+      "start": 150650,
+      "text": "So I thought maybe I should spend a couple of words explaining what IEEE VIS is for any of our listeners who are not particularly familiar with it. So, Itripoli, this is a conference, international conference, that happens every year since, as you said, tamara, from the nineties, mid nineties or so, and no early nineties.",
+      "id": "ep_168_ut_11"
+    },
+    {
+      "end": 175836,
+      "speaker": "Tamara Munzner",
+      "start": 174500,
+      "text": "I guess the first one was 1990.",
+      "id": "ep_168_ut_12"
+    },
+    {
+      "end": 273780,
+      "speaker": "Enrico Bertini",
+      "start": 175908,
+      "text": "It depends how you kind. Yeah. Yes. And it tends to be pretty academic, is the main academic conference, but I like to say that it's nothing, only academic. There are a lot of events and things that happen in there, including industry tracks, and there's an art section. So over the years, it's been expanding in a way that is definitely, it is an academic flavor, but it's not only academic. And we tend to talk about a lot about the papers that get published and presented there. But there are many other events going on, and I think today Tamara is going to talk about some of these events. There are panels, there are workshops, there are keynotes, there are awards, and many, many other things. As I said, there is an art track, an industry track. So I also just want to say that summarizing what happened at this is basically impossible. So we're going to talk about a tiny, tiny fraction of what happened there this year. But yeah, I think it's better than nothing. And we will add links to videos and papers and documents. So definitely go to our blog post and check it out for if you want to dive right into. If you want to see the details of what we're going to talk about. So, Tamara, thanks so much for helping us with this. And I think we want to go through a number of different sections. And the first one is about keynotes and capstones.",
+      "id": "ep_168_ut_13"
+    },
+    {
+      "end": 376660,
+      "speaker": "Tamara Munzner",
+      "start": 274160,
+      "text": "Yeah, so there's the obvious ones, which were the main viz keynote in Capstone, and there were these sort of interesting parallels. So the keynote was Marti Hearst of Berkeley, and her talk was called show it or tell it. And it had this great framing context where using these large language models is now a thing. And so her framing context was that there were these dolly images as a bunch of the slide backgrounds, and she included the prompts that made them. And her whole point was that language should be considered co equal with the visualization part. So it was all about this sort of text and images working together towards a goal. And I very much liked it. It's exactly my jam. It's starting out with references to that Scott McLeod understanding comics, which still holds up to the test of time, all the way up to some book that I clearly have to read because it's called Proust in the squid with the tag of we were never born to read. So I'm like, oh my God, I have to read that. And I thought it was very nicely done. She really talked about language as a user interface for visualization, and that there may be ways of using it that instead of coding or a gui, what if you can just speak? A theme that others also talked about is the speed of improvement of natural language methods with these huge models these days with GPT and Dolly, and so she really wanted to draw the attention is community to the way in which text and visualization can work together. So I thought it was very well done and very engaging.",
+      "id": "ep_168_ut_14"
+    },
+    {
+      "end": 401486,
+      "speaker": "Moritz Stefaner",
+      "start": 376740,
+      "text": "Yeah, I think it's a huge, huge topic right now, both from, as you say, text understanding by machines, but also text generation. And then we have the whole topic of annotation and accessibility, where text plays another huge role. So I think it's probably one of the biggest big topics right now. And I guess she was a great match. She's a legend in information retrieval and text natural language processing. Right.",
+      "id": "ep_168_ut_15"
+    },
+    {
+      "end": 408550,
+      "speaker": "Tamara Munzner",
+      "start": 401598,
+      "text": "So, yeah. And she's been involved in viz for eons and had one of the very early courses in infovis.",
+      "id": "ep_168_ut_16"
+    },
+    {
+      "end": 431162,
+      "speaker": "Enrico Bertini",
+      "start": 408670,
+      "text": "Yeah, yeah. She's always been a little bit across. She's also done some really fundamental work in viz, so it's really interesting. Yeah, I agree. There's so much going on in NLP that is almost like having an effect everywhere, including invisalign. So I'm curious to see what is going to happen next.",
+      "id": "ep_168_ut_17"
+    },
+    {
+      "end": 447066,
+      "speaker": "Moritz Stefaner",
+      "start": 431346,
+      "text": "And she was citing a few scary statistics that like a fifth of people in some studies wanted to hide the graphics so they can read the text better. I think these are inconvenient truths for the database community, but we have to acknowledge that.",
+      "id": "ep_168_ut_18"
+    },
+    {
+      "end": 459840,
+      "speaker": "Tamara Munzner",
+      "start": 447098,
+      "text": "I guess I. Yeah, there's all kinds of great stuff about what happens when people do see both and how much text do you want? And thinking about a dial of a little bit of text. A lot of text, much to learn.",
+      "id": "ep_168_ut_19"
+    },
+    {
+      "end": 467520,
+      "speaker": "Moritz Stefaner",
+      "start": 459920,
+      "text": "So definitely a recommendation to watch this keynote. It's 45 minutes or whatever it is well spent. It's up on YouTube.",
+      "id": "ep_168_ut_20"
+    },
+    {
+      "end": 625306,
+      "speaker": "Tamara Munzner",
+      "start": 467680,
+      "text": "What if we leap all the way from the keynote to the capstone? Because those are the two bookends of the conference. Oh, it was so cool. So this guy, Kerry Magruder, who is this historian of science. So it turns out that although I did not know it before I got there, that Oklahoma University has this astounding history of science program and these archives, and he dug into the archives to come up with this talk on Galileo's telescope discoveries, thinking visually in the history of science. And the capstone didn't just start with the capstone. It started the night before where they had an open house at OU. And I was like, okay, yeah, maybe I'll see some demos. But there was this part where he went into the climate controlled archives and brought out the books, and there was this room full of books where we had to, of course, not touch, but look at these amazing source materials. And so seeing these physical books that you hear about them, but to actually see them with your own eyes and see the scale of some of them, some were huge in terms of fold out things, that was pretty magical. And the talk itself, I really did love. I thought it was one of the top three capstones I've seen at VIS in 30 years. I feel like sometimes people just sort of give their same old, same old talk, and sometimes people actually kind of rise to the occasion and really try to think about the intersection between what they're expert in and what the vis community might care about. And I feel like this was one of those where he had this sort of ternary triangular coordinate system where he thought about what it means to have naturalistic visual evidence, like what Galileo actually drew as logs when he looked at the moons of Jupiter through the lens, versus didactic purposes, which is what he put in the starry messenger book that's so famous, which is not a naturalistic picture at all. It's actually trying to specifically show things. And he talked about shadings of craters and the line of the sun versus evidential. And then he talked about how 40 years later, Hevelius came up with this full selenographia book, really trying to chart exactly what all is on the moons in terms of its craters. And I really liked this versus just a plain visual aid, which is just trying to help people see and think. And so I really appreciated the way he sort of unfolded these deeply historical things in a way that felt totally relevant for today. So I loved it. Many other people did, too.",
+      "id": "ep_168_ut_21"
+    },
+    {
+      "end": 634666,
+      "speaker": "Enrico Bertini",
+      "start": 625498,
+      "text": "Nice. And then what else? I think we have another keynote you wanted to talk about.",
+      "id": "ep_168_ut_22"
+    },
+    {
+      "end": 671460,
+      "speaker": "Tamara Munzner",
+      "start": 634858,
+      "text": "Yeah, there was. I mean, a lot of the workshops have keynotes, and there were several that I liked quite a bit, you know, just in passing. Jean Danielle Fiquette had one at the visual data analysis on scalability with progressive data science, and Sheelagh Carpendale had one, and viz guides on best practices considered harmful. But the one I want to go deeper into is the one from Casey Fiesler, which is at believe, which is one of my very favorite workshops. It's all about methods, and I'm a methods geek. And her talk was called data is research ethics beyond human subjects. And it was just a kind of.",
+      "id": "ep_168_ut_23"
+    },
+    {
+      "end": 672796,
+      "speaker": "Moritz Stefaner",
+      "start": 671500,
+      "text": "Best title so far.",
+      "id": "ep_168_ut_24"
+    },
+    {
+      "end": 730170,
+      "speaker": "Tamara Munzner",
+      "start": 672948,
+      "text": "Yeah, yeah. And it had some great taglines like Twitter as the fruit fly of this kind of research, because it's so easy for researchers to study. And it really went deep into there's all these sort of facile things you can say, like, well, ethics is what the ethics boards makes you think about. No, wrong. That's not what ethics is. It goes deeper. And if the data is public, everything's fine. No, wrong. Look at all these ways in which things can go to hell. So it was just a bunch of, like, you might think it's so simple. No, here's why it's more complex. I think one of the ideas that I hadn't quite heard before that I really liked is the idea of ethical debt, which is this analogy to technical debt, where you sort of don't deal and suddenly later it comes and whaps you upside the head. And so I liked that concept as a way to think about some of the ethical things of, if you don't do them early, they will come to bite you later.",
+      "id": "ep_168_ut_25"
+    },
+    {
+      "end": 730778,
+      "speaker": "Enrico Bertini",
+      "start": 730290,
+      "text": "Yeah.",
+      "id": "ep_168_ut_26"
+    },
+    {
+      "end": 735068,
+      "speaker": "Tamara Munzner",
+      "start": 730874,
+      "text": "And I like the way she closed it. She said, critique the things you love.",
+      "id": "ep_168_ut_27"
+    },
+    {
+      "end": 742868,
+      "speaker": "Enrico Bertini",
+      "start": 735164,
+      "text": "I love that. I love that. Yeah. Unfortunately, I missed it, but, yeah, I want to see the recording.",
+      "id": "ep_168_ut_28"
+    },
+    {
+      "end": 744772,
+      "speaker": "Tamara Munzner",
+      "start": 742964,
+      "text": "Yeah, definitely worth it.",
+      "id": "ep_168_ut_29"
+    },
+    {
+      "end": 790732,
+      "speaker": "Enrico Bertini",
+      "start": 744836,
+      "text": "I think the idea that data is people is something that has been kind of, like, discussed some time before. I think it's something that Dataviz struggles with. Right. The idea that you may have a visualization with lots of data points, and it may be trivialized, but then every single data point is a person. That's so common. And it's an interesting ethical dilemma. They're quite common in visualization, I would say. Yeah. And for ethical debt, I never heard of it, but it sounds. Yeah, I can certainly relate. When I think about projects I've been working on in the past, if you don't think about these things early enough than when you realize that there is a problem, it's typically too late.",
+      "id": "ep_168_ut_30"
+    },
+    {
+      "end": 800160,
+      "speaker": "Tamara Munzner",
+      "start": 790876,
+      "text": "Yeah. Her exact definition was the implied cost of not considering social or ethical implications or harms. Now, assuming you can fix them after you find out what they are.",
+      "id": "ep_168_ut_31"
+    },
+    {
+      "end": 801108,
+      "speaker": "Enrico Bertini",
+      "start": 800540,
+      "text": "Yeah.",
+      "id": "ep_168_ut_32"
+    },
+    {
+      "end": 803844,
+      "speaker": "Tamara Munzner",
+      "start": 801204,
+      "text": "And of course, sometimes not so easy.",
+      "id": "ep_168_ut_33"
+    },
+    {
+      "end": 816128,
+      "speaker": "Enrico Bertini",
+      "start": 803932,
+      "text": "Yeah, yeah, yeah, yeah, totally. And did she give any specific guidelines or, I don't know, does she have anything that people can read to consider for their projects? Something like that, yeah.",
+      "id": "ep_168_ut_34"
+    },
+    {
+      "end": 864394,
+      "speaker": "Tamara Munzner",
+      "start": 816144,
+      "text": "I mean, the whole talk was kind of full of lots of, you know, especially a lot of concrete examples of what can go wrong when you assume the easy, simple thing. And I mean, she wrapped up with saying questions to keep at the top of your mind are, what are the potential harms or negative impacts of the research? What can I do to mitigate these potential harms? Is there a benefit to the research, and who does it benefit? And I think these are all useful questions. But basically this is another take the 45 minutes of your life and just sit down and watch the video. It'll be well spent. I think a lot of what made the talk good was just the sheer number of concrete examples that help people see how assuming the simple thing is probably not going to work out so well.",
+      "id": "ep_168_ut_35"
+    },
+    {
+      "end": 866026,
+      "speaker": "Moritz Stefaner",
+      "start": 864522,
+      "text": "Sounds great. Yep.",
+      "id": "ep_168_ut_36"
+    },
+    {
+      "end": 886726,
+      "speaker": "Tamara Munzner",
+      "start": 866138,
+      "text": "And there were even more interesting keynotes as well that folks can check out for all the other workshops. For people that don't know. Viz has like the first two days, the Sunday and Monday are like eight parallel tracks. There's workshops and tutorials and symposia. So there's actually a. There's not just the main keynote, there's like, you know, eight more keynotes. So many of them are great.",
+      "id": "ep_168_ut_37"
+    },
+    {
+      "end": 910078,
+      "speaker": "Enrico Bertini",
+      "start": 886838,
+      "text": "Yeah. Because hosted event can have their own keynotes. And so why don't we talk about awards? There are also awards, there are many. And I think we want to focus on the ten years test of time award, which is an award that is given to papers that have been highly influential and highly cited in the last ten years, correct?",
+      "id": "ep_168_ut_38"
+    },
+    {
+      "end": 988292,
+      "speaker": "Tamara Munzner",
+      "start": 910174,
+      "text": "Yep. And there was one from VAST and that's a paper that I've cited many times, which I like quite a bit, on enterprise data analysis and visualization and interview study. And it's Sean Kandel, and Andreas Paepcke, Joe Hellerstein and Jeff Hareghe. It's basically like, let's go talk to people that are actually doing data analysis and vis in sort of business y settings and find out what there is to know. And this from a methods point of view, these interview studies where you are doing semi structured interviews and you do qualitative data analysis to try to figure out what are the themes and what could you learn. They often precede many building visualization projects and there was a time in vis when it would have been hard to publish those, when the only kind of work you could do is like, here's my new technique. And doing these kinds of studies to figure out but who is doing what now, what are they doing, what are the pain points, what needs to be done, I think is super valuable. And so of course they went off and they ended up founding Trifacta, which is a nice success story spin off, but based on the kinds of insights you get when you go talk to people about what they're doing. So great paper, very happy to see you get the test of time.",
+      "id": "ep_168_ut_39"
+    },
+    {
+      "end": 1054648,
+      "speaker": "Enrico Bertini",
+      "start": 988436,
+      "text": "I agree. I think this paper has been very influential for myself. Kind of like gave me the courage to work on similar studies and say, oh, we can do interview studies in our community, and they can also be very successful. And I agree with you, interviews are so relevant if they are done well and if they are done with the right audience at the right time. Right. And I think now it's more common to see this type of studies. And I agree, because learning what kind of problems people have in practice, or even the way people think about a problem in practice, I think it's really useful to inform how we frame research, the practical research that we do on top of these problems or issues or, yeah, when we learn more about what kind of problems people have or how they think about it. So I agree. Very influential and very useful. And then we have another one. That is one of your papers, Tamara, right?",
+      "id": "ep_168_ut_40"
+    },
+    {
+      "end": 1162538,
+      "speaker": "Tamara Munzner",
+      "start": 1054744,
+      "text": "Yeah, that was pretty fantastic. Michael Seidelmeyer and Mariah Meyer and I all did a paper on design study methodology at Infoviz ten years ago, and that one got the test of time this year. So in addition to sort of being personally gratifying, like, yay, somebody cared. I feel like it's kind of a testament of, like, because this idea of design studies as a way to say, let's do really, really problem driven research and try to valorize actually solving problems of people. And, wait, how do you do that? And this paper came out of, we did it wrong many times. And I mean, we also did it right many times. But trying to figure out a, what, you know, if you're just sort of striding through the wilderness trying to figure out, how do I even do this work? How do I do it successfully? How do I write a paper about it? We ended up coming up with a process that at least we found we were able to consistently get good results with. And I think one of the most useful parts of the paper is the giant list of 30 plus pitfalls of don't do this. Here's how to avoid it. And sometimes we did it wrong. Sometimes we were papers who did it wrong. Sometimes we read published papers who did it wrong. And so all the ways to get stuck, we wanted to help route people around those quagmires. And the nice thing is, there's just been this incredible explosion of work where there's a lot of really strong design studies these days where, and this is not the only methodology paper for it. There's a bunch of papers that continued on, some of from us, some from others, but the community has really done a whole lot of super strong work in these so called design studies. That's the part that's made us the.",
+      "id": "ep_168_ut_41"
+    },
+    {
+      "end": 1175162,
+      "speaker": "Moritz Stefaner",
+      "start": 1162554,
+      "text": "Happiest, maybe for people who are not familiar with what a design study is, or like, how it's different from maybe describing a technique or whatever. Can you quickly summarize what the gist of it is?",
+      "id": "ep_168_ut_42"
+    },
+    {
+      "end": 1290100,
+      "speaker": "Tamara Munzner",
+      "start": 1175266,
+      "text": "Yeah. So the gist of it is that you are doing, you're working on a real world problem, and you're trying to solve that problem of real people with real data sets. So it's typically the standard approach is that it's very collaborative, like, you just can't do it on your own. By theorizing, you have to actually talk to the people. Usually lots of trying to understand in the terms of another paper on the nested model. You're really trying to understand their abstractions, take what they do and cast that into more abstract language so that then you can think about how you could build a visualization system to solve it. So a lot of work on understanding their task and data at an abstract level, and then it's inevitable that to actually build something, it's got to be iterative. You've got to have rapid prototyping, really try many versions, check back in with the people. So there's often a kind of iterative development and deployment stage, and then often to try to figure out. So, hey, wait, did this work? You often really try to get people to use it in their daily work practice. It's a thing where you build it and then you watch what happens. Sometimes they use it the way you thought. Often they use it not the way you thought. But rather than trying to run an empirical study that's a controlled experiment in a lab where you've got a little stopwatch telling people, do this task, instead, you're like, here. Here is this tool. Let me see what happens. And they're often verified through these case studies of like, well, first they tried it on something they already understood. And look, it took them 15 minutes to figure out something that maybe would have taken them 10 hours without this tool. And then they used it to do different things that they had not already anticipated. And often it's describing the kinds of things they could do with this visualization tool that they would not have been able to do without it, or that would have taken them much, much longer. So you don't have to invent new techniques to do design studies.",
+      "id": "ep_168_ut_43"
+    },
+    {
+      "end": 1321306,
+      "speaker": "Moritz Stefaner",
+      "start": 1290260,
+      "text": "Yeah, that's really interesting because that's obviously close to the practitioner's work. Right. And figuring out what people need and then building it and then seeing if it worked. And, yeah, I think traditionally people might have said, well, that's just anecdotal, if you just do it once for a specific client and tailor something to their needs. Where's the big principle here? But I think your paper describes how you can generalize from single case explorations like this. Right?",
+      "id": "ep_168_ut_44"
+    },
+    {
+      "end": 1357606,
+      "speaker": "Tamara Munzner",
+      "start": 1321418,
+      "text": "Yeah. A big part of the paper is to say that what makes it research, as opposed to simply excellent practice, is the part where you reflect and you say, did you confirm existing guidelines? Did you refute them? Do you need to propose refinements of them? Do you need to propose entirely new ideas on how to do this work? And so it's that, what did you learn that is different than what the research world already knew about in terms of guidelines, is what I think is the part that makes it the research. But it's definitely true that a lot of practitioners very much follow these methods.",
+      "id": "ep_168_ut_45"
+    },
+    {
+      "end": 1379184,
+      "speaker": "Moritz Stefaner",
+      "start": 1357678,
+      "text": "Yeah. Yeah. But it's nice. It has so many facets to it. Like, to a practitioner, it could be sort of. The paper is almost like a guideline of how you could document your projects. Like. Yeah, like the how to or this is how the project was done. It provides a chapter structure, basically, almost to that. So it has a lot of nice facets. Well deserved.",
+      "id": "ep_168_ut_46"
+    },
+    {
+      "end": 1379980,
+      "speaker": "Tamara Munzner",
+      "start": 1379232,
+      "text": "Thank you.",
+      "id": "ep_168_ut_47"
+    },
+    {
+      "end": 1454146,
+      "speaker": "Enrico Bertini",
+      "start": 1380880,
+      "text": "Yeah, I think one thing that I like about that paper is that it seems like so you have a set of recommendations or pitfalls to avoid. Right. And I like the way you describe it at the beginning, saying, look, the three of us together, we have done like, x numbers of these projects. So we have learned something about what all the mistakes that we have done. Right. And I like this kind of premise. I think it's an interesting way to frame a paper. I just want to quickly mention about the awards. I wanted to highlight the fact that a lifetime achievement award has been awarded to Colin Ware. And this makes me really happy because we don't talk about the work of Colin much, but I think he had huge impact on visualization. So I'm really happy that he. That he got this award. I think he really deserves it, especially not only for the excellent research work that he has done over the years, but, of course, for his super influential book. I think pretty much everyone here has gone through the book maybe multiple times. And. Yeah, I think it's really deserved.",
+      "id": "ep_168_ut_48"
+    },
+    {
+      "end": 1459886,
+      "speaker": "Tamara Munzner",
+      "start": 1454218,
+      "text": "Yeah. And if you haven't, you should. Information visualization, perception for design. Read it. It. It's still amazing.",
+      "id": "ep_168_ut_49"
+    },
+    {
+      "end": 1464430,
+      "speaker": "Enrico Bertini",
+      "start": 1459998,
+      "text": "Yeah, I think it's, what, the fourth or fifth edition now something.",
+      "id": "ep_168_ut_50"
+    },
+    {
+      "end": 1464950,
+      "speaker": "Tamara Munzner",
+      "start": 1464510,
+      "text": "It's.",
+      "id": "ep_168_ut_51"
+    },
+    {
+      "end": 1501700,
+      "speaker": "Enrico Bertini",
+      "start": 1465030,
+      "text": "And I think it's the only book I can remember reading at the beginning of my PhD. That now is what I don't know many years ago. I want to know. And I'm still sifting through the same paper, the new edition, the same book. So it's pretty remarkable. I think there are many gems scattered throughout the book. So, yes. So I think we can maybe start talking about a few papers. Of course, this is a tiny, tiny portion of them. So, Tamara, you wanted to highlight a few sessions, maybe, and maybe specific papers within the sessions.",
+      "id": "ep_168_ut_52"
+    },
+    {
+      "end": 1656020,
+      "speaker": "Tamara Munzner",
+      "start": 1502200,
+      "text": "Yeah, I mean, what I really want to do is talk about all the papers, but I can't because I haven't even read them all. And I will encourage for folks who did register online, there's this fabulous browse by serendipity where you just keep, you can keep hitting the show me a new serendipity set. And it's just a way to really get a sense of the breadth of the papers, because there's hundreds and we are only covering a tiny few. Having said that, there was this session that made me super excited, which was on transforming tabular data and grammars, and there were several papers that I really liked in there. There was animated Vega light. So that was from Arvind Satyanarayan's group. So first author Jonathan Zong and Josh Pollock and Dylan Wootton, and they had this really nice kind of framing abstraction where you think about time both as a way to visually encode data as an encoding channel, but also as an event stream, and really reflecting on that dual nature. And so I found that to be a sort of interesting paper that, for those who don't know, Vega Lite is sort of built on top of D3. And there have been a number of projects originally coming out of Jeff Heer's group. And Arvind was a former PhD student with Jeff and is now an assistant professor at MIT. And so continuing this line of work of how it is that you can sort of think systematically about these things, I think is really one of the strengths of visualization. Another one that I liked in the very same session was from Andrew McNutt on no one grammar to rule them all. A survey of static visualization, dsls, where DSL is the acronym for domain specific languages, and it included, I mean, there's the paper itself, which sort of goes deep into a nice analysis of all these grammars. But he's got this great accompanying site, viz jsondessels dot netify app, where you can actually start playing around with these hundreds of systems yourself. And so it's been more and more these days, the thing in visualization that when there's a survey paper people build these interactive faceted browsing sites underneath it that lets you take all the data that they painstakingly gathered and browse it yourself for your purposes. And it's such a great thing that it's a thing in the field. There were, you know, this was not the only paper. There was some, unlike ML, there were several of these survey papers that let you browse underneath. Also, he had a zine. He made a zine for this. And he.",
+      "id": "ep_168_ut_53"
+    },
+    {
+      "end": 1658740,
+      "speaker": "Enrico Bertini",
+      "start": 1656060,
+      "text": "I think somewhere there's also a survey of. Survey.",
+      "id": "ep_168_ut_54"
+    },
+    {
+      "end": 1723182,
+      "speaker": "Tamara Munzner",
+      "start": 1658900,
+      "text": "Yeah. And there is even a survey of surveys. And Andrew actually made physical paper zines, one of which I have, which I love. He had a paper last year on zines, and he didn't get to hand them out. It was virtual. So he brought that paper zine, and this one, the other one that I really liked and that I noticed in my gigantic tweet stream has gotten just a huge amount of retweets and attention is this high Taylor system interactive transformation of visualization for hierarchical tabular data. And so that's Guozheng Li, Renfen, Li Zicheng, Wang Qi, Harold Liu, Min Liu and Guoren Wang. And what they did in this paper is they really, like, everyone in their pet cat thinks about tabular data. Right? Like tables, tables, tables. But they specifically thought about the fact that there's this hierarchical structure in tabular data in ways that you might really want to make use of. And ponder. And so I liked their sort of system for thinking systematically about these hierarchical tables. So another great one.",
+      "id": "ep_168_ut_55"
+    },
+    {
+      "end": 1771552,
+      "speaker": "Enrico Bertini",
+      "start": 1723296,
+      "text": "Nice. In general, I'm happy to see when there are new papers in viz that talk about more about how to specify something rather than how to visualize something. I think, understandably, in visualization, we have a really strong focus on how do you visualize this. Right. But we tend to forget that being able to specify what you want to visualize and how is at least equally important. And I think in general, I would love to see more research in that direction because effectively, somebody has to specify what they want to see and maybe also how they want to see it. Right. And I think this is a huge. This is an area where we can make a lot of improvements and being.",
+      "id": "ep_168_ut_56"
+    },
+    {
+      "end": 1776432,
+      "speaker": "Moritz Stefaner",
+      "start": 1771616,
+      "text": "It specific and it's something that's reinvented all the time.",
+      "id": "ep_168_ut_57"
+    },
+    {
+      "end": 1778568,
+      "speaker": "Enrico Bertini",
+      "start": 1776496,
+      "text": "All the time. Yeah, exactly.",
+      "id": "ep_168_ut_58"
+    },
+    {
+      "end": 1780260,
+      "speaker": "Moritz Stefaner",
+      "start": 1778624,
+      "text": "Hundreds of grammars.",
+      "id": "ep_168_ut_59"
+    },
+    {
+      "end": 1781528,
+      "speaker": "Enrico Bertini",
+      "start": 1781080,
+      "text": "Yes.",
+      "id": "ep_168_ut_60"
+    },
+    {
+      "end": 1784640,
+      "speaker": "Moritz Stefaner",
+      "start": 1781584,
+      "text": "This will keep going. I think that's the crazy part.",
+      "id": "ep_168_ut_61"
+    },
+    {
+      "end": 1785628,
+      "speaker": "Enrico Bertini",
+      "start": 1785180,
+      "text": "Yeah.",
+      "id": "ep_168_ut_62"
+    },
+    {
+      "end": 1806200,
+      "speaker": "Moritz Stefaner",
+      "start": 1785684,
+      "text": "But something like Vega lite, really, or also Ggplot really changed how everything is much more systematic, it seems to me, like, in describing visualizations than even five years ago. And I think the whole grammar trend has been super helpful in creating order. So we describe things.",
+      "id": "ep_168_ut_63"
+    },
+    {
+      "end": 1807948,
+      "speaker": "Enrico Bertini",
+      "start": 1806860,
+      "text": "Yeah, totally.",
+      "id": "ep_168_ut_64"
+    },
+    {
+      "end": 1814750,
+      "speaker": "Moritz Stefaner",
+      "start": 1808044,
+      "text": "It's got to be interesting how this develops, if there will be like one underlying. Well, the paper says there is no one grammar.",
+      "id": "ep_168_ut_65"
+    },
+    {
+      "end": 1818726,
+      "speaker": "Tamara Munzner",
+      "start": 1814790,
+      "text": "Paper says, yeah, no one to rule them all. Come on, haven't you read the word of the wings?",
+      "id": "ep_168_ut_66"
+    },
+    {
+      "end": 1826490,
+      "speaker": "Moritz Stefaner",
+      "start": 1818758,
+      "text": "Maybe a handful of them, maybe, maybe. Who knows? Grammars to bind them.",
+      "id": "ep_168_ut_67"
+    },
+    {
+      "end": 1847600,
+      "speaker": "Enrico Bertini",
+      "start": 1828670,
+      "text": "Yeah. The real challenge is that you need something that is simple enough for a human to create meaningful and expressive specifications, but at the same time, it's readable by the machine. So I think that's what is really challenging there. Yeah, who knows? Maybe it's gonna be all natural language at some point.",
+      "id": "ep_168_ut_68"
+    },
+    {
+      "end": 1852332,
+      "speaker": "Tamara Munzner",
+      "start": 1849020,
+      "text": "I'm not gonna hold. No, I don't think it will be.",
+      "id": "ep_168_ut_69"
+    },
+    {
+      "end": 1853988,
+      "speaker": "Moritz Stefaner",
+      "start": 1852396,
+      "text": "And if so, which language?",
+      "id": "ep_168_ut_70"
+    },
+    {
+      "end": 1855508,
+      "speaker": "Enrico Bertini",
+      "start": 1854084,
+      "text": "Which language? Right.",
+      "id": "ep_168_ut_71"
+    },
+    {
+      "end": 1856268,
+      "speaker": "Tamara Munzner",
+      "start": 1855564,
+      "text": "Esperanto.",
+      "id": "ep_168_ut_72"
+    },
+    {
+      "end": 1857244,
+      "speaker": "Moritz Stefaner",
+      "start": 1856324,
+      "text": "There's more than English.",
+      "id": "ep_168_ut_73"
+    },
+    {
+      "end": 1858360,
+      "speaker": "Enrico Bertini",
+      "start": 1857292,
+      "text": "Esperanto.",
+      "id": "ep_168_ut_74"
+    },
+    {
+      "end": 1862676,
+      "speaker": "Moritz Stefaner",
+      "start": 1859900,
+      "text": "There's your next year's paper. Esperanto for Wiz.",
+      "id": "ep_168_ut_75"
+    },
+    {
+      "end": 1865404,
+      "speaker": "Enrico Bertini",
+      "start": 1862828,
+      "text": "There you go. Yes.",
+      "id": "ep_168_ut_76"
+    },
+    {
+      "end": 1866350,
+      "speaker": "Tamara Munzner",
+      "start": 1865492,
+      "text": "Tempesthe.",
+      "id": "ep_168_ut_77"
+    },
+    {
+      "end": 1868896,
+      "speaker": "Enrico Bertini",
+      "start": 1867240,
+      "text": "Okay, so what's next?",
+      "id": "ep_168_ut_78"
+    },
+    {
+      "end": 1931274,
+      "speaker": "Tamara Munzner",
+      "start": 1869008,
+      "text": "Well, there was another one, speaking of people that do these kind of great websites, underlying papers, you know, there's been this trend to have, you know, more and more supplemental materials. It's not just this, like ten page PDF. Benjamin Bach is always doing these great papers like this. And so this year's favorite dashboard design patterns, it was Benjamin and Ewan Freeman and Alfie Abdul-Rahman. Chitai Chirkaide and Min Chen. Dashboard design patterns, GitHub IO. It's this thoughtful content, incredibly beautifully and thoroughly presented. So they went through and they did all this analysis of dashboard designs, and they have these 23 patterns that are hierarchically grouped into content and composition, and these seven genres. And I think this is a paper that's going to be super useful for a whole lot of practitioners and also advances the state of the art of treating dashboards as a research question. I feel like five years ago, dashboards were like the poor cousin, and it.",
+      "id": "ep_168_ut_79"
+    },
+    {
+      "end": 1936270,
+      "speaker": "Enrico Bertini",
+      "start": 1931282,
+      "text": "Was like, don't ever say the word dashboard. Right?",
+      "id": "ep_168_ut_80"
+    },
+    {
+      "end": 1955202,
+      "speaker": "Tamara Munzner",
+      "start": 1937490,
+      "text": "The d word. And more and more they're getting studied as things in and of themselves. There was the dashboard conspiracy paper a few years ago. You know, what do we talk about when we talk about dashboards? And so this continues in that vein. And I thought it was a great paper.",
+      "id": "ep_168_ut_81"
+    },
+    {
+      "end": 1955482,
+      "speaker": "Enrico Bertini",
+      "start": 1955266,
+      "text": "Yeah.",
+      "id": "ep_168_ut_82"
+    },
+    {
+      "end": 2008766,
+      "speaker": "Moritz Stefaner",
+      "start": 1955506,
+      "text": "And the site is, as you say, beautifully done and immediately useful. I can attest to that, because it breaks down all the decisions you can make or all the variations you could do on a dashboard, and that's immediately helpful when you want to design one, to think about how many of these strategies do I support, or do I just take one of each in each category, or are there different modes for it? What are the pros and cons of different approaches? And as you say, I like how they structure the content also. So they do something that good dashboards also do, and which they describe is to provide multiple, like, zoom levels. And there's the cheat sheet, and there's the quick summary, and then there's a page for each important topic, and then there's the full paper, and then there's the full table with all the dashboards they have been looked at and every single thing they have considered. And I think that's exemplary. Really nice.",
+      "id": "ep_168_ut_83"
+    },
+    {
+      "end": 2014486,
+      "speaker": "Enrico Bertini",
+      "start": 2008918,
+      "text": "Yeah, maybe old papers should be like that. It should be a new format, who knows?",
+      "id": "ep_168_ut_84"
+    },
+    {
+      "end": 2025878,
+      "speaker": "Moritz Stefaner",
+      "start": 2014598,
+      "text": "I think it's a really good genre of paper to say, like, well, here's a domain of things that people do, let's try and describe it and do some analysis on it. I think it's just awesome.",
+      "id": "ep_168_ut_85"
+    },
+    {
+      "end": 2070678,
+      "speaker": "Enrico Bertini",
+      "start": 2026054,
+      "text": "But I have to say that, yeah, I want to spend a few good words about the vis community. I think that's been a strong trend over the years, trying to make research not only meaningful also for, say, practitioners or meaningful in the real world, but also translating the research in a way that people who are not writing papers can actually consume it. And I think it's been getting better and better over the years, and I'm really happy to see this trend going. I think it's very, very relevant. And yeah, who knows? Maybe data stories played a little role over there. I like to think that's the case.",
+      "id": "ep_168_ut_86"
+    },
+    {
+      "end": 2074210,
+      "speaker": "Moritz Stefaner",
+      "start": 2070774,
+      "text": "Or maybe also that medium publication that you have also.",
+      "id": "ep_168_ut_87"
+    },
+    {
+      "end": 2079166,
+      "speaker": "Enrico Bertini",
+      "start": 2074670,
+      "text": "Exactly, exactly. Yeah, it's a good trend.",
+      "id": "ep_168_ut_88"
+    },
+    {
+      "end": 2081102,
+      "speaker": "Moritz Stefaner",
+      "start": 2079238,
+      "text": "Somewhat to blame for that trend.",
+      "id": "ep_168_ut_89"
+    },
+    {
+      "end": 2119050,
+      "speaker": "Tamara Munzner",
+      "start": 2081166,
+      "text": "Yeah, yeah, there's a lot of open science and open data, and there's even making the PDF's available publicly. And what's changed dramatically in recent years is it went from only a few, few PDF's on archive to, like, you know, three quarters of them on our archive, in part because it's allowed and encouraged and described in the submission materials of how to do that. You know, there's more and more open data where people say, you know, not just the study results, but, you know, the study stimuli, let's document everything and, you know, code analysis scripts. So I think this trend is really super heartening.",
+      "id": "ep_168_ut_90"
+    },
+    {
+      "end": 2157514,
+      "speaker": "Enrico Bertini",
+      "start": 2119400,
+      "text": "Yeah. Another thing that comes to mind, Tamara, I think that's true also for your book, that it's clearly like, coming as an academic angle, but it has huge impact also for practitioners. Right. And I felt that maybe it's a good time to talk about your book series. I think it's another. I don't know how to say something that is happening that I think can be described as things going between academia in the real world, so to speak, or practitioners. Right. Maybe you want to spend a couple of words about that. I think that would be useful.",
+      "id": "ep_168_ut_91"
+    },
+    {
+      "end": 2302724,
+      "speaker": "Tamara Munzner",
+      "start": 2157642,
+      "text": "Yeah, I would love to. So there's this book series Alberto Cairo and I are co editors of the AK Peters visualization series, which is like a searcy route ledge imprint and every year we have either a physical or a virtual table at Viz. So this year it was virtual but hot off the presses are a few new ones coming out. So Neil Richards has a book questions and Dataviz. He's someone who comes out of this Tableau community very much a practitioner. Lovely book of questions with some tentative answers and then even more questions unpacking all kinds of stuff about when to break the rules, when to go beyond standard chart types, what there is in life beyond a bar chart and then there's this other one that's going to be coming out within a month, I believe making with data it's all about data physicalization. So physical design and craft in a data driven world it's this kind of all star cast between the editors and the authors. So Samuel Huron and Till Nagel and Lora Oehlberg and Wes Willett and then a bazillion people that contributed and even the book cover itself is a data physicalization of the structure of the book so very meta because we all love meta. So super excited about that. I can't wait to get my physical copy. And Nigel Holmes, we have a book from on joyful infographics and he's someone who definitely comes out of the practitioner community did a lot of extremely high impact work and it's all about humor and joy and Jen Christensen is having a book coming out soon, building science graphics. She's been very active in things like Scientific American and many, many other places and Allie Torben actually did the covers to both Jen's book and Neil's book in a lovely circular way that the community all has ties to each other. We've got even more that are becoming out but those are the ones that are coming out just in the next two to three months. So we are very. I mean we want books from everyone. We want academics, we want practitioners, we want textbooks, we want beautiful books, we want everything in between. We want edited collections, we want single author manifestos. So if you want to write a book? We want to talk to you.",
+      "id": "ep_168_ut_92"
+    },
+    {
+      "end": 2304348,
+      "speaker": "Moritz Stefaner",
+      "start": 2302732,
+      "text": "Data sketches was in that series too, right?",
+      "id": "ep_168_ut_93"
+    },
+    {
+      "end": 2323032,
+      "speaker": "Tamara Munzner",
+      "start": 2304444,
+      "text": "Data sketches was in the series. That was a Shirley Wu and Nadieh Bramer. Utterly fantastic. One mobile data visualization came out recently. Another all star cast. It grew out of a dog stool workshop. I think books are great, and we need more.",
+      "id": "ep_168_ut_94"
+    },
+    {
+      "end": 2325968,
+      "speaker": "Moritz Stefaner",
+      "start": 2323096,
+      "text": "I totally agree, especially from such great people.",
+      "id": "ep_168_ut_95"
+    },
+    {
+      "end": 2337848,
+      "speaker": "Tamara Munzner",
+      "start": 2326104,
+      "text": "You know, Richard Brath, visualizing with text. That's another favorite. There was a visual analytics textbook from Christian Tominski and Heidi Schumann, interactive visual data analysis.",
+      "id": "ep_168_ut_96"
+    },
+    {
+      "end": 2350374,
+      "speaker": "Enrico Bertini",
+      "start": 2337944,
+      "text": "So maybe we need a separate episode just to talk about all these books. Okay, so what is next? Tamara? I got lost.",
+      "id": "ep_168_ut_97"
+    },
+    {
+      "end": 2362230,
+      "speaker": "Tamara Munzner",
+      "start": 2350462,
+      "text": "Yeah, I mean, there's so many papers. There's. We don't have time to really get into them, but I will just point out that probably of particular interested practitioners are making stuff go fast. So there was this Vega fusion paper.",
+      "id": "ep_168_ut_98"
+    },
+    {
+      "end": 2363062,
+      "speaker": "Enrico Bertini",
+      "start": 2362350,
+      "text": "Oh, yeah.",
+      "id": "ep_168_ut_99"
+    },
+    {
+      "end": 2620160,
+      "speaker": "Tamara Munzner",
+      "start": 2363166,
+      "text": "From Nicolas Kruchten and Jon Mease, Dominik Moritz, and also plotly resampler, making large time series go fast. And plotly from Jonas and Jeroen Van Der Donckt and Emiel Deprost and Sofie Van Hoecke. So, like, just, you know, my jaw kind of dropped at the demos. I'm like, wait, that was really fast. That was a lot of data. How did you get some second response for that data set? Holy moly. Yeah, so that was cool. And, well, I should. I mean, we also had some papers. I, of course, think they're fabulous and lovely work on them. And actually, both of them were originally published through TVCG and then presented at VIS, because that's a channel that a lot of work gets more and more coming in. There's a. The vis proceedings are a special issue of TVCG, but then also, any TVCG papers on viz that wannabe can be presented at IEEE viz. So there's a lovely relationship between journal and conference. TVCG is the journal Transactions on Visualization and computer graphics. Yeah, it's the journal. So we had one, which was sort of fun with deep graph models, or rather, graph neural networks, gnns. So our paper is called CorGIE, and it has various dog related menu items and corresponding. A graph to its embedding is where we came up with that acronym. And so it's all about trying to see the. Basically, it's, you know how when you go on a car trip with the kids in the back of the seat, and they keep saying, are we there yet? Are we there yet? It's answering the are we there yet? Question for people trying to train these ML models where you're like, has the model actually learned everything it's supposed to? Let's check visually. So, understanding the sort of topological structure of the original graph that supposedly is getting reflected in this high dimensional embedding in a latent space that you could then use to understand so kind of topology space and this latent feature space and attributes on the graph itself, how do you actually see what the heck is going on? Because of course, as you might guess, it's complicated. And any of these super high dimensional spaces that you're doing ML on, it really helps to try to see what's going on. So that was a fun project that was. First author is Zipeng Liu, he's now assistant professor at Beihang in Beijing, China. Yang Wang, who started out at Uber and is now at Facebook. J\u00fcrgen Bernard, who's now an assistant professor at Zurich University. So that was a fun one to present. And we had another one, which is called GEViTRec. So, data reconnaissance through recommendation using a domain specific visualization prevalence design space. First on that was Anamaria Crisan, who's now at Tableau Research, and Shannah Fisher, who was an undergrad at UBC at the time, Jennifer L. Gardy, who at the time was at UBC School of Population Public Health and BC center for Disease Control, but is now working for the Gates foundation on malaria stuff. And me and so, and Anna's got a great blog post on the Tableau engineering blog that's sort of the super easy to access and think about version. And then of course, there's the paper itself. So we were happy to have those both presented to the world. And Gevitrec is all about, how is it that you could recommend automatically. So let's say someone flings a pile of datasets in your lap, what is going on? You don't want to spend hours, weeks, days, months, kind of carefully designing a visualization. You just want to get a quick sense of what's there. So this world of automatic recommendation, where given data sets, you try to figure out, well, how are they connected up? How could we help you see where they intersect and overlap? And then after you get that quick look, you could decide where you want to go deeper. But having the system that's built in r, that just lets you type, show me what is there, and have that be something that you get in a second or two, is super useful for this thing we call data reconnaissance of what is going on in these data sets.",
+      "id": "ep_168_ut_100"
+    },
+    {
+      "end": 2652550,
+      "speaker": "Enrico Bertini",
+      "start": 2620980,
+      "text": "I like the term data reconnaissance. It really communicates what it is about. And yeah, there's been quite a few, quite a few papers lately about this idea of recommending plots. And I agree that is especially, it seems to be especially useful at the beginning. If you want to make sense of. You just want to know what's in here. Exactly. Right. And yeah, I like that. I think it's really useful. Wonderful. What is next?",
+      "id": "ep_168_ut_101"
+    },
+    {
+      "end": 2660274,
+      "speaker": "Tamara Munzner",
+      "start": 2653050,
+      "text": "So there were ten zillion other papers, but we should probably talk about some of the other stuff as well. Like maybe a few panels.",
+      "id": "ep_168_ut_102"
+    },
+    {
+      "end": 2661066,
+      "speaker": "Enrico Bertini",
+      "start": 2660402,
+      "text": "Yeah.",
+      "id": "ep_168_ut_103"
+    },
+    {
+      "end": 2713840,
+      "speaker": "Tamara Munzner",
+      "start": 2661218,
+      "text": "So one of the ones I liked a lot. So vis in practice is one of the workshops that really tries to connect practitioners and researchers and often bring in a bunch of the folks who kind of straddle that line between. And so they had a whole panel on integrating research and products. And I actually unfortunately didn't make it to the whole panel, but I came in like right as Richard Brath was giving this really fun talk about all the places where what you think you know what you're doing. If you just read the research, it just falls short. You know, things about 3d versus 2d. How many annotations could you cram into a single display? Just a lot of really nice, concrete examples of where he found he had to sort of adapt and refine and not just take for granted the advice you get from the research community. So I liked that talk.",
+      "id": "ep_168_ut_104"
+    },
+    {
+      "end": 2724732,
+      "speaker": "Enrico Bertini",
+      "start": 2715020,
+      "text": "Yeah, I think Richard has been in industry for many years, I guess a lot in finance or something like that. So yes, a lot of really.",
+      "id": "ep_168_ut_105"
+    },
+    {
+      "end": 2816050,
+      "speaker": "Tamara Munzner",
+      "start": 2724836,
+      "text": "So what used to be called oculuse, but it's now uncharted, is the consultancy. And then as a researcher, I cared a lot about this panel on how is it that we review papers at IEEE VIS and realizing that that might be a bit of insider pool for the non researchers, but for those who are interested in the review process, which I do care about because I'll be one of the overall papers chairs next year. So I suddenly care quite a bit about what's going on with review and thinking a lot about what various folks think. Lots of people. Cody Dunn, Alex Lex, Torsten Miller, Alvitta Ottley, Melanie Tory were the speakers. It was organized by Bob Laramie and Petra Isenberg and Tobias Isenberg. So I think if you are interested in those things, it's definitely worth seeing some of that. The part I'm going to tell you is that Melanie Tory had the most fantastic extended metaphor about what kind of a dog you should adopt as a pet compared to what kind of paper types you are reviewing as a vis reviewer so cute. Pictures of dogs pointing out that you want the best of both worlds, that a Labradoodle is both friendly and doesn't make you sneeze. And how does that connect up to the different kinds of hybrid paper types? And it shouldn't just be a monolithic, do this and nothing else. Papers don't have to be like purebred dogs. They can be hybrids. They can be mutts. So I liked that one.",
+      "id": "ep_168_ut_106"
+    },
+    {
+      "end": 2843024,
+      "speaker": "Enrico Bertini",
+      "start": 2816710,
+      "text": "I like that. I sympathize, because sometimes my students come to me and say, is this a technique paper or is a system paper? Is this? And I'm like, I don't know, let's just do the work. But they also like the fact that there's some guidance. I think it helps kind of like, reduce their anxiety, fitting in a specific box, especially at the beginning. Beginning is useful.",
+      "id": "ep_168_ut_107"
+    },
+    {
+      "end": 2890826,
+      "speaker": "Tamara Munzner",
+      "start": 2843152,
+      "text": "Yeah, early. I mean, guidance is always a trade off. There's always this question of, if you have no idea what to do, a path through the wilderness is great. Once you get more deep into things, you might find the guidance to be a bit more of a straightjacket. So I think guidance depends a lot on where the field is at. Paper types were, you know, in 2003. I'm like, we need paper types because it shouldn't all just be technique papers. But it's 2022. We already have these very fine grained idea of contributions in the call for papers. Now, it's not just monolithic types, but it's good to know what they are. So you can break the rules deliberately, knowing what the rules are. That was the thing Sheelagh talked about in her keynote at Viscom, which is, you should know what the rules are so you know how and when to break them.",
+      "id": "ep_168_ut_108"
+    },
+    {
+      "end": 2920788,
+      "speaker": "Moritz Stefaner",
+      "start": 2890978,
+      "text": "How does that work practically? Like, how do, is there any debate before the visconference among the organizers about if there will be a change in what formats or should be part of the conference? Is there any curation on that sense going on, or do you more react to, oh, we seem to be getting more papers that do something we haven't seen before. How do we deal with that? Or is that not even an issue?",
+      "id": "ep_168_ut_109"
+    },
+    {
+      "end": 2988072,
+      "speaker": "Tamara Munzner",
+      "start": 2920934,
+      "text": "Well, there was this giant spasm of introspection because the revised committee, which I was on for a while and then actually chaired for a while, was all about, should we integrate what used to be infovis, visual analytics, VAST and sci vis together. So as part of that whole revised work and of deciding exactly how to integrate them, we actually went super deep into this question of, well, what kinds of papers should there be? And how could you define the contributions? So we did actually think quite about that. We had a whole consultative process and we got the community together. So as a community, we already had a whole lot of discussion about that kind of a few years ago, pre pandemic. And then there is a group whose job it is to sort of analyze that data and look at it and see whether there are new ideas we should keep track of. We're probably not going to change instantly because we want to have a bit of stability, but we sort of tried to build into the new system this idea that you do go off and think and analyze and try to understand where the field's going and be out ahead of it and not lag behind like a dinosaur. So the short answer is, yeah, there.",
+      "id": "ep_168_ut_110"
+    },
+    {
+      "end": 2996304,
+      "speaker": "Moritz Stefaner",
+      "start": 2988096,
+      "text": "Could be, as you say, like, if certain papers just don't fit certain categories, they might just not land as well, you know?",
+      "id": "ep_168_ut_111"
+    },
+    {
+      "end": 3027190,
+      "speaker": "Tamara Munzner",
+      "start": 2996472,
+      "text": "Well, this is why there's now this really fine grained idea of contrast. It's not just like, here's six paper types. It's, you know, what kinds of things do you contribute? Did you propose a new technique? Did you propose a new abstraction? Are you providing a data set? So a lot of things that were sort of difficult to get academic credit for, like providing open benchmark data sets, are something you can really explicitly claim these days. So there is a lot more nuance there now.",
+      "id": "ep_168_ut_112"
+    },
+    {
+      "end": 3034270,
+      "speaker": "Moritz Stefaner",
+      "start": 3028210,
+      "text": "Yeah, that sounds like a good approach to think about the outcomes or the contribution, as you say, not the packaging.",
+      "id": "ep_168_ut_113"
+    },
+    {
+      "end": 3049230,
+      "speaker": "Enrico Bertini",
+      "start": 3034570,
+      "text": "Basically, I think you reminded me that that's the first episode we record about vis, that I don't have to explain what is cy vis VAST and infovis. And it feels really good.",
+      "id": "ep_168_ut_114"
+    },
+    {
+      "end": 3062154,
+      "speaker": "Tamara Munzner",
+      "start": 3051290,
+      "text": "Yep. It's unified now, all kinds of work. There's now these multiple different areas. Most are not exactly any of the old categories, but mashups of many.",
+      "id": "ep_168_ut_115"
+    },
+    {
+      "end": 3067978,
+      "speaker": "Enrico Bertini",
+      "start": 3062282,
+      "text": "Okay, I think you wanted to briefly talk about Altviz as well, Tamara.",
+      "id": "ep_168_ut_116"
+    },
+    {
+      "end": 3079362,
+      "speaker": "Tamara Munzner",
+      "start": 3068114,
+      "text": "Yeah, Altvis is this new workshop for those who know chi. There's alt chi, which is sort of a bunch of unusual papers that would never, that don't fit the standard academic mold. Speaking of paper types.",
+      "id": "ep_168_ut_117"
+    },
+    {
+      "end": 3080138,
+      "speaker": "Enrico Bertini",
+      "start": 3079426,
+      "text": "Yes.",
+      "id": "ep_168_ut_118"
+    },
+    {
+      "end": 3171930,
+      "speaker": "Tamara Munzner",
+      "start": 3080314,
+      "text": "And so a lot of what they're looking for is what's provocative, what's interesting, you know, last year's Elvis had this great version of, like, heavy metal logos, which was remarkably scholarly despite being hilarious. And so this year, my favorite Elvis paper was from Jo Wood, and it's called beyond the Walled garden, a visual essay in five chapters. And it sort of fits into this theme that actually Marti Hearst had in the keynote, which is about, what do these new models allow you to do? And I do love this sort of extended metaphor of. Of the walled garden, where if you work in the walled garden, you feel protected and you know your place and you belong. But what could be beyond that? And you know that, you know, the early work in visualization with Mackinlay and Bertin was all about the atomization of design, you know, reductionism, and really thinking about this question of visual variables. But what about expressivity and how this new technology could allow us to do things and how to even. You know, many people don't think of that as being visualization. They think about it as being graphics, but maybe not vis. Joe has actually made me rethink my hatred for Chernoff faces because of a point in that essay, which is interesting. I'm still not in love with, but at least I'm pondering. But his sort of central idea of our walled garden remains home, but those distant lands beckon. It was a sort of poetic and evocative visual essay, which is very different from a standard research paper.",
+      "id": "ep_168_ut_119"
+    },
+    {
+      "end": 3187942,
+      "speaker": "Enrico Bertini",
+      "start": 3172550,
+      "text": "This reminds me, Moritz Euroviz keynote, where he was also talking about, is this. Would we call this vis or not? I think that was inspiring. What is actually vis? Yeah, I think that's.",
+      "id": "ep_168_ut_120"
+    },
+    {
+      "end": 3188054,
+      "speaker": "Tamara Munzner",
+      "start": 3187966,
+      "text": "Yeah.",
+      "id": "ep_168_ut_121"
+    },
+    {
+      "end": 3210808,
+      "speaker": "Moritz Stefaner",
+      "start": 3188062,
+      "text": "And also this anti reductionism minimalism. And go more for sensual and metaphoric and semantic maximalism that is often a bit undefined, but really interesting. Right. And exactly as you say. Maybe it's outside of what this should even be looking at, or it's right at the core. You know, who knows?",
+      "id": "ep_168_ut_122"
+    },
+    {
+      "end": 3211768,
+      "speaker": "Enrico Bertini",
+      "start": 3210944,
+      "text": "Who knows?",
+      "id": "ep_168_ut_123"
+    },
+    {
+      "end": 3224280,
+      "speaker": "Moritz Stefaner",
+      "start": 3211904,
+      "text": "That makes it exciting, I guess. Yeah. That reminds me also of this effective, this taxonomy of effective data visualization.",
+      "id": "ep_168_ut_124"
+    },
+    {
+      "end": 3228404,
+      "speaker": "Tamara Munzner",
+      "start": 3225940,
+      "text": "Oh, affective. Yeah, it was one of the best papers.",
+      "id": "ep_168_ut_125"
+    },
+    {
+      "end": 3230348,
+      "speaker": "Moritz Stefaner",
+      "start": 3228572,
+      "text": "Not effective, but affective.",
+      "id": "ep_168_ut_126"
+    },
+    {
+      "end": 3231092,
+      "speaker": "Enrico Bertini",
+      "start": 3230404,
+      "text": "Effective.",
+      "id": "ep_168_ut_127"
+    },
+    {
+      "end": 3250292,
+      "speaker": "Moritz Stefaner",
+      "start": 3231196,
+      "text": "There was another cross connection to even look at. Okay, what are non analytic goals of data visualizations that are more like on the effective or emotional level? And how could we characterize those? What's a good language to talk about those? I thought that was also very timely on the whole arc, basically.",
+      "id": "ep_168_ut_128"
+    },
+    {
+      "end": 3255160,
+      "speaker": "Tamara Munzner",
+      "start": 3250436,
+      "text": "And that was a paper from several folks, including lace Padilla. So is it UC Merced?",
+      "id": "ep_168_ut_129"
+    },
+    {
+      "end": 3264900,
+      "speaker": "Enrico Bertini",
+      "start": 3256100,
+      "text": "Okay, so I couldn't identify any specific trend this year. Any other closing thoughts or maybe.",
+      "id": "ep_168_ut_130"
+    },
+    {
+      "end": 3303250,
+      "speaker": "Tamara Munzner",
+      "start": 3265020,
+      "text": "Yeah, I think the goofiest two things I saw in Oklahoma City were that there's this human made canal, and if you keep walking and you go way out and get a little bit lost, there's this part where there's giant horse sculptures that go diving into the canal and then coming back out and they're like three times life size. And it's quite surreal what is going on with the giant cavalcade of horses? And then they have a skeleton museum with hundreds and hundreds of animal skeletons, which I had fun visiting on Friday. Skeletonmuseum.com dot well worth your time if you're in Oklahoma City. City.",
+      "id": "ep_168_ut_131"
+    },
+    {
+      "end": 3316886,
+      "speaker": "Enrico Bertini",
+      "start": 3303870,
+      "text": "Yes. Okay. Well, I think that's it for today. Thanks so much, Tamara. Thanks for helping us go through lots of exciting new. Lots of exciting new.",
+      "id": "ep_168_ut_132"
+    },
+    {
+      "end": 3318410,
+      "speaker": "Tamara Munzner",
+      "start": 3316918,
+      "text": "Oh, thanks for having me.",
+      "id": "ep_168_ut_133"
+    },
+    {
+      "end": 3321326,
+      "speaker": "Enrico Bertini",
+      "start": 3319670,
+      "text": "It's always fun to have you on.",
+      "id": "ep_168_ut_134"
+    },
+    {
+      "end": 3328610,
+      "speaker": "Moritz Stefaner",
+      "start": 3321398,
+      "text": "So yeah, we'll try and collect all the PDF's and all the talks. Some of the talks should be up on YouTube.",
+      "id": "ep_168_ut_135"
+    },
+    {
+      "end": 3330168,
+      "speaker": "Enrico Bertini",
+      "start": 3328960,
+      "text": "So yeah, yeah.",
+      "id": "ep_168_ut_136"
+    },
+    {
+      "end": 3332696,
+      "speaker": "Moritz Stefaner",
+      "start": 3330264,
+      "text": "Hopefully you'll find a way to follow up on all that.",
+      "id": "ep_168_ut_137"
+    },
+    {
+      "end": 3339712,
+      "speaker": "Enrico Bertini",
+      "start": 3332768,
+      "text": "Yeah. Make sure to go to the show notes. There will be plenty of links over there. Okay, thank you.",
+      "id": "ep_168_ut_138"
+    },
+    {
+      "end": 3343352,
+      "speaker": "Tamara Munzner",
+      "start": 3339776,
+      "text": "All right, and see everyone in Melbourne, viz. 2023, Melbourne, Australia.",
+      "id": "ep_168_ut_139"
+    },
+    {
+      "end": 3349740,
+      "speaker": "Enrico Bertini",
+      "start": 3343416,
+      "text": "Oh yes, we forgot to mention that. Yep. See you in Melbourne next year. Bye bye.",
+      "id": "ep_168_ut_140"
+    },
+    {
+      "end": 3351500,
+      "speaker": "Tamara Munzner",
+      "start": 3350120,
+      "text": "All right, bye bye.",
+      "id": "ep_168_ut_141"
+    },
+    {
+      "end": 3379346,
+      "speaker": "Moritz Stefaner",
+      "start": 3356250,
+      "text": "Hey folks, thanks for listening to data stories again. Before you leave a few last notes, this show is crowdfunded and you can support us on patreon@patreon.com Datastories, where we publish monthly previews of upcoming episodes for our supporters. Or you can also send us a one time donation via PayPal at PayPal me Datastories or as a free way.",
+      "id": "ep_168_ut_142"
+    },
+    {
+      "end": 3407558,
+      "speaker": "Enrico Bertini",
+      "start": 3379378,
+      "text": "To support the show. If you can spend a couple of minutes rating us on iTunes, that would be very helpful as well. Well, and here's some information on the many ways you can get news directly from us. We are on Twitter, Facebook and Instagram, so follow us there for the latest updates. We have also a slack channel where you can chat with us directly. And to sign up, go to our home page at Datastory ES and there you'll find a button at the bottom of the page and there you can.",
+      "id": "ep_168_ut_143"
+    },
+    {
+      "end": 3414688,
+      "speaker": "Moritz Stefaner",
+      "start": 3407574,
+      "text": "Also subscribe to our email newsletter if you want to get news directly into your inbox and be notified whenever we publish a new episode.",
+      "id": "ep_168_ut_144"
+    },
+    {
+      "end": 3427388,
+      "speaker": "Enrico Bertini",
+      "start": 3414814,
+      "text": "That's right, and we love to get in touch with our listeners. So let us know if you want to suggest a way to improve the show or know any amazing people you want us to invite or even have any project you want us to talk about.",
+      "id": "ep_168_ut_145"
+    },
+    {
+      "end": 3434052,
+      "speaker": "Moritz Stefaner",
+      "start": 3427524,
+      "text": "Yeah, absolutely. Don't hesitate to get in touch. Just send us an email at mailatastory es.",
+      "id": "ep_168_ut_146"
+    },
+    {
+      "end": 3438360,
+      "speaker": "Enrico Bertini",
+      "start": 3434196,
+      "text": "That's all for now. See you next time, and thanks for listening to data stories.",
+      "id": "ep_168_ut_147"
+    }
+  ],
+  "confidence": 0.928556732529116,
+  "audio_duration": 3446,
+  "punctuate": true,
+  "format_text": true,
+  "dual_channel": false,
+  "webhook_url": null,
+  "webhook_status_code": null,
+  "webhook_auth": false,
+  "webhook_auth_header_name": null,
+  "speed_boost": false,
+  "auto_highlights_result": null,
+  "auto_highlights": false,
+  "audio_start_from": null,
+  "audio_end_at": null,
+  "word_boost": [],
+  "boost_param": null,
+  "filter_profanity": false,
+  "redact_pii": false,
+  "redact_pii_audio": false,
+  "redact_pii_audio_quality": null,
+  "redact_pii_policies": null,
+  "redact_pii_sub": null,
+  "speaker_labels": true,
+  "content_safety": false,
+  "iab_categories": true,
+  "content_safety_labels": {
+    "status": "unavailable",
+    "results": [],
+    "summary": {}
+  },
+  "language_detection": false,
+  "language_detection_threshold": null,
+  "language_confidence": null,
+  "custom_spelling": null,
+  "throttled": false,
+  "auto_chapters": true,
+  "summarization": false,
+  "summary_type": null,
+  "summary_model": null,
+  "custom_topics": false,
+  "topics": [],
+  "speech_threshold": null,
+  "speech_model": "best",
+  "chapters": [
+    {
+      "summary": "This is a new episode of data stories. We talk about data visualization analysis and the role data plays in our lives. Our podcast is listener supported, so there are no ads. If you do enjoy the show, you might consider supporting us.",
+      "gist": "Data Stories",
+      "headline": "This podcast is listener supported, so there are no ads",
+      "start": 160,
+      "end": 91298,
+      "id": "ep_168_ch_0"
+    },
+    {
+      "summary": "We're going to do highlights from the I try police conference. We have Tamara Munzner with us. The topic for today is a classic of data stories.",
+      "gist": "I Try Police: A Data Story",
+      "headline": "We're going to do highlights from the I try police conference",
+      "start": 91414,
+      "end": 116034,
+      "id": "ep_168_ch_1"
+    },
+    {
+      "summary": "Tamara Munzner is a professor at the University of British Columbia computer science department. Itripoli is a conference, international conference that happens every year. There are a lot of events and things that happen in there, including industry tracks, and there's an art section. summarizing what happened at this is basically impossible.",
+      "gist": "A Taste of ITripoli 2017",
+      "headline": "Itripoli is an international conference that happens every year",
+      "start": 116162,
+      "end": 265922,
+      "id": "ep_168_ch_2"
+    },
+    {
+      "summary": "The main viz keynote in Capstone was by Marti Hearst of Berkeley. She said language should be considered co equal with the visualization part. What if we leap all the way from the keynote to the capstone?",
+      "gist": "The Keynotes and Capstones",
+      "headline": "The main viz keynote in Capstone was by Marti Hearst of Berkeley",
+      "start": 266026,
+      "end": 626230,
+      "id": "ep_168_ch_3"
+    },
+    {
+      "summary": "A lot of the workshops have keynotes, and there were several that I liked quite a bit. But the one I want to go deeper into is the one from Casey Fiesler, which is all about methods. Her talk was called data is research ethics beyond human subjects.",
+      "gist": "The Big Data Conference",
+      "headline": "A lot of the workshops have keynotes, and there were several",
+      "start": 627250,
+      "end": 708470,
+      "id": "ep_168_ch_4"
+    },
+    {
+      "summary": "The talk was full of concrete examples of what can go wrong when you assume the easy, simple thing. There were even more interesting keynotes that folks can check out for all the other workshops. Take the 45 minutes of your life and just sit down and watch the video. It'll be well spent.",
+      "gist": "The World of Data: Ethical Debt",
+      "headline": "The talk was about ethical dilemmas in data visualization",
+      "start": 709690,
+      "end": 893558,
+      "id": "ep_168_ch_5"
+    },
+    {
+      "summary": "The ten years test of time award is given to papers that have been highly influential and highly cited in the last ten years. These interview studies where you are doing semi structured interviews and you do qualitative data analysis. They often precede many building visualization projects.",
+      "gist": "The Tracta 10 years Test of Time",
+      "headline": "A paper on interview study methodology got the ten years test of time award",
+      "start": 893614,
+      "end": 1162538,
+      "id": "ep_168_ch_6"
+    },
+    {
+      "summary": "A design study is a collaborative effort to solve a real world problem. To build something, it's got to be iterative. The paper describes how you can generalize from single case explorations. What makes it research, as opposed to simply excellent practice.",
+      "gist": "The Importance of a Design Study",
+      "headline": "Happiest, maybe for people not familiar with what a design study is",
+      "start": 1162554,
+      "end": 1411810,
+      "id": "ep_168_ch_7"
+    },
+    {
+      "summary": "A lifetime achievement award has been awarded to Colin Ware. Ware had huge impact on visualization. Read his book, Information visualization, perception for design.",
+      "gist": "Colin Ware's Lifetime Achievement Award",
+      "headline": "A lifetime achievement award has been awarded to Colin Ware for his visualization work",
+      "start": 1412910,
+      "end": 1488408,
+      "id": "ep_168_ch_8"
+    },
+    {
+      "summary": "Tamara: What I really want to do is talk about all the papers, but I can't because I haven't even read them all. There was this session that made me super excited, which was on transforming tabular data and grammars. This is an area where we can make a lot of improvements.",
+      "gist": "A Taste of the 2017 Conference",
+      "headline": "Tamara: There were hundreds of papers presented at SIGGRAPH",
+      "start": 1488464,
+      "end": 1868896,
+      "id": "ep_168_ch_9"
+    },
+    {
+      "summary": "This year's favorite dashboard design patterns, it was Benjamin and Ewan Freeman and Alfie Abdul-Rahman. They have 23 patterns that are hierarchically grouped into content and composition. The paper advances the state of the art of treating dashboards as a research question. And I'm really happy to see this trend going.",
+      "gist": "The Year's Favorite Dashboard Design Patterns",
+      "headline": "There's been a trend to have more and more supplemental materials in research",
+      "start": 1869008,
+      "end": 2131720,
+      "id": "ep_168_ch_10"
+    },
+    {
+      "summary": "There are a number of new books coming out that are going between academia and practitioners. We want books from academics, practitioners, textbooks, beautiful books, we want everything in between. Maybe we need a separate episode just to talk about all these books.",
+      "gist": "The Visualization Book Series",
+      "headline": "Alberto Cairo and I are co editors of the AK Peters visualization series",
+      "start": 2131800,
+      "end": 2344500,
+      "id": "ep_168_ch_11"
+    },
+    {
+      "summary": "There were papers on Vega fusion and plotly resampler. Both were originally published through TVCG and then presented at VIS. One paper was about data reconnaissance through recommendation using a domain specific visualization prevalence design space. Another was about deep graph neural networks.",
+      "gist": "Machine Learning in Data Visualization",
+      "headline": "Tamara: There's so many papers on making data go fast",
+      "start": 2346550,
+      "end": 2652550,
+      "id": "ep_168_ch_12"
+    },
+    {
+      "summary": " vis in practice is one of the workshops that really tries to connect practitioners and researchers. They had a whole panel on integrating research and products. I cared a lot about a panel on how is it that we review papers at IEEE VIS. I think guidance depends a lot on where the field is at.",
+      "gist": "Visible in Practice: Integrating Research and Products",
+      "headline": "Panel on integrating research and products at vis in practice was interesting",
+      "start": 2653050,
+      "end": 3062154,
+      "id": "ep_168_ch_13"
+    },
+    {
+      "summary": "Tamara: My favorite Elvis paper was from Jo Wood, a visual essay in five chapters. What about expressivity and how this new technology could allow us to do things. What are non analytic goals of data visualizations that are more like on the effective or emotional level?",
+      "gist": "Beyond the Walled Garden",
+      "headline": "Tamara: Lots of interesting papers presented at Altviz this year",
+      "start": 3062282,
+      "end": 3438360,
+      "id": "ep_168_ch_14"
+    }
+  ],
+  "disfluencies": false,
+  "entity_detection": false,
+  "sentiment_analysis": false,
+  "sentiment_analysis_results": null,
+  "entities": null,
+  "speakers_expected": null,
+  "summary": null,
+  "custom_topics_results": null,
+  "episode_num": 168,
+  "episode_metadata": {
+    "speakers": [
+      "Tamara Munzner",
+      "Enrico Bertini",
+      "Moritz Stefaner"
+    ],
+    "WPid": "1667",
+    "url": "https://datastori.es/podlove/file/6968/s/feed/c/mp3/168-highlights-from-ieee-vis-22-with-tamara-munzner.mp3",
+    "episode_title": "Highlights from IEEE VIS'22 with Tamara Munzner"
+  }
+}

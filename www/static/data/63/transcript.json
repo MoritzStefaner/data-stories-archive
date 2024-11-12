@@ -1,0 +1,1406 @@
+{
+  "id": "6267bc3f-e797-4fd9-8e1b-f8d2d7b8adfd",
+  "language_model": "assemblyai_default",
+  "acoustic_model": "assemblyai_default",
+  "language_code": "en_us",
+  "status": "completed",
+  "audio_url": "https://datastori.es/podlove/file/1420/s/feed/c/mp3/vis15-recap-with-Robert-kosara-and-johanna-fulda.mp3",
+  "utterances": [
+    {
+      "end": 33194,
+      "speaker": "Robert Kosara",
+      "start": 200,
+      "text": "Used to be that it was all analysis and exploration, and now the idea of just more presentation oriented visualization is really interesting. Data stories is brought to you by click, who allows you to explore the hidden relationships within your data that lead to meaningful insights. Let your instincts lead the way to create personalized visualizations and dynamic dashboards with Qlik sense, which you can download for free at click Datastories. That's Qlik Datastories.",
+      "id": "ep_63_ut_0"
+    },
+    {
+      "end": 172092,
+      "speaker": "Moritz Stefaner",
+      "start": 43894,
+      "text": "Hey guys, Enrico here for a special edition of data stories directly from the Itripolyvis conference, which has just taken place in Chicago. In this episode, I interview Robert Kosara from Tableau Software and Joanna Fulda, a graphic designer from Germany who is also a first timer for this conference. And together we go through part of the program from Tuesday to Thursday and highlight a few of the paper talks and events we have attended. But before we move on to the interview, I want to give you a little bit of background and introduction to the conference, just in case you're not familiar with it. The IT conference is the premier academic conference in visualization. This is where researchers like myself submit their papers and hopefully, if accepted, get to present the results. The origin of the event dates back to the early nineties and it has gone through several transformations. For instance, it used to be called this week and now its name is just this. But for the sake of the episode, what you need to know is that the conference hosts three main paper tracks, namely Infovis, SCIVIS, VAST and zyves, and is also full of other events, including panels, tutorials, a keynote and a capstone talk and an art program. So me, Robert and Joanna talk about some of the papers and events that we found interesting. And of course, this is just our partial and very personal view on the content of the event. If we did not mention a paper or a panel or tutorial, it doesn't necessarily mean it's not interesting or worthwhile. It just means that we probably didn't have time to attend it. So I really hope you'll enjoy this show. Without further ado, I'll give you Robert, Joanna and myself for a report on the IEEE visconference. Hey everyone, Enrico here. Welcome to the special edition data stories special edition from the visualization conference. This is by now a classic. And it's even more classic because in front of me I have Robert Kosara. Hey Robert, that's what, the third time we do that?",
+      "id": "ep_63_ut_1"
+    },
+    {
+      "end": 173584,
+      "speaker": "Robert Kosara",
+      "start": 172228,
+      "text": "I think so, yeah.",
+      "id": "ep_63_ut_2"
+    },
+    {
+      "end": 175464,
+      "speaker": "Moritz Stefaner",
+      "start": 173924,
+      "text": "Yeah. That's really cool.",
+      "id": "ep_63_ut_3"
+    },
+    {
+      "end": 183436,
+      "speaker": "Robert Kosara",
+      "start": 177604,
+      "text": "Yeah, it's the third time, right? Because last year was the second time in Paris and before that, we did it in this tiny room in.",
+      "id": "ep_63_ut_4"
+    },
+    {
+      "end": 184180,
+      "speaker": "Moritz Stefaner",
+      "start": 183580,
+      "text": "Yeah.",
+      "id": "ep_63_ut_5"
+    },
+    {
+      "end": 186236,
+      "speaker": "Robert Kosara",
+      "start": 184292,
+      "text": "Was it Seattle? I think it was Seattle.",
+      "id": "ep_63_ut_6"
+    },
+    {
+      "end": 199700,
+      "speaker": "Moritz Stefaner",
+      "start": 186420,
+      "text": "I don't remember. I hope audio quality is improving in the meantime, so hopefully this time is better. We are improving each year. And we also have a newcomer. Hi, Joanna. How are you?",
+      "id": "ep_63_ut_7"
+    },
+    {
+      "end": 200916,
+      "speaker": "Enrico Bertini",
+      "start": 199812,
+      "text": "I'm good, thank you.",
+      "id": "ep_63_ut_8"
+    },
+    {
+      "end": 215284,
+      "speaker": "Moritz Stefaner",
+      "start": 200980,
+      "text": "Joanna is a graphic designer. Right. You are trained in design and first timer at this. And she's joining us to talk about her impressions as a newcomer to the visualization.",
+      "id": "ep_63_ut_9"
+    },
+    {
+      "end": 216284,
+      "speaker": "Enrico Bertini",
+      "start": 215324,
+      "text": "As a first time visitor.",
+      "id": "ep_63_ut_10"
+    },
+    {
+      "end": 244016,
+      "speaker": "Moritz Stefaner",
+      "start": 216404,
+      "text": "As a first time visitor. And I think towards the end of the show, we're going to talk about your work as well, that you published this year of this, which is really nice. So we'll go through the whole program starting from Monday up to today. So I think if you're listening to this, it's important for you to know that that's not the whole program because there is one more half day at least.",
+      "id": "ep_63_ut_11"
+    },
+    {
+      "end": 247200,
+      "speaker": "Robert Kosara",
+      "start": 244160,
+      "text": "Tomorrow's Friday, so we're at the end of Thursday right now.",
+      "id": "ep_63_ut_12"
+    },
+    {
+      "end": 445474,
+      "speaker": "Moritz Stefaner",
+      "start": 247272,
+      "text": "Yeah, exactly. And I think it's also important to say that we're not talking about every single paper and not necessarily the papers that we're going to talk about are the best ones. It's just our personal selection. Shall we start, Robert? From Monday to Thursday? Okay. So on Monday, which is actually not the start of the main conference, what I mean is not the paper presentation started on Tuesday. Right. But on Monday there were at least a couple of interesting events. So I've been to the one tutorial, Tamara Munzner's tutorial. And you may remember Tamara from one of our past episodes. She's been talking about a lot of different things, and the tutorial was mostly about her way of teaching visualization through her fantastic book. This is also the book that I use in my own course, and it's a very nice description of the visualization, design space. And so I think the tutorial is basically a very short version of the book and full course. And I have to say, even though I know the book very, very well, of course, because I teach with this book, it's been really nice to be sitting there and being taught what I teach. It's a very interesting experience. And yeah, I don't have much more to say other than the. I think the great thing about the tutorial and the book itself is that it's a very nice description of the design space. And I think Tamara is a very unique way of describing this design space. What else? On Monday, I've also been in the. There is a new symposium of this, that is called visualization in data science, or for data science, I don't remember exactly. And that's a new symposium, and it's mostly about how to use visualization in data science. And I think it's a great thing to have a symposium like this because data science is a big thing right now. And I do believe that visualization can play a major role there. The symposium had a few invited speakers and a few papers as well. And I really enjoyed the fact that there were many, many different perspectives coming from people who are more on the theoretical side, people who are on the applied side. We had people from news corporations. We had people from data scientists that deal with game data, for instance, as well, of course, as many academics and so on. That's a good thing. I'm really looking forward to see how this symposium will develop in the future. So let's move on to the main program. On Tuesday, we had the keynote. So, Robert, you want to talk about the keynote? That was a very interesting one and maybe somewhat unusual.",
+      "id": "ep_63_ut_13"
+    },
+    {
+      "end": 545320,
+      "speaker": "Robert Kosara",
+      "start": 446054,
+      "text": "Yeah, for sure. But also in the sense that it was kind of supposed to be a thing. The keynote was Donna Cox, who is an artist who started working. I'm not sure if she would like that description necessarily, but she started working with data visualization in the eighties, and she has done a lot of really interesting work in turning data and very simple visualizations into real, into things that people actually want to watch. So she was involved in a number of IMAX productions about scientific data and astronomy, things like a tour of the universe and so on. And also she was talking about these projections they do inside planetariums where they have the whole dome basically to project into. And so she makes things that a lot of people actually end up watching, but of course, they have to be done in a way so that they are exciting and interesting. And she showed some of that work. And she also showed some footage from those movies. And she also had some really funny pictures of some early people back then. There was one picture in particular we liked. That was Pat Henry. Pat Henry in 1983. That was surprising. I hadn't seen that before. And also there's a great picture of her sitting on a cray. The cray had this thing where it had this little sitting area around the actual machine. This was a supercomputer. And she's sitting on there, and it's really funny because she's wearing these, like, early nineties clothes, and it's just a very funny picture.",
+      "id": "ep_63_ut_14"
+    },
+    {
+      "end": 567692,
+      "speaker": "Moritz Stefaner",
+      "start": 545432,
+      "text": "Yeah, I think some of the images there were really stunning, and just to make it clear for our listeners what kind of images she. She showed. I think there was a simulation of Harvick and Katrina in full three D and so highly scientific computation kind of stuff.",
+      "id": "ep_63_ut_15"
+    },
+    {
+      "end": 571028,
+      "speaker": "Robert Kosara",
+      "start": 567748,
+      "text": "Right. But also turned into real. Like a movie.",
+      "id": "ep_63_ut_16"
+    },
+    {
+      "end": 571908,
+      "speaker": "Moritz Stefaner",
+      "start": 571116,
+      "text": "Exactly.",
+      "id": "ep_63_ut_17"
+    },
+    {
+      "end": 581956,
+      "speaker": "Robert Kosara",
+      "start": 572076,
+      "text": "The original data wasn't that high resolution, and it wasn't. There weren't as many timestamps as you would need to really get a fluid animation, and so they turned it into something that looked like an actual movie.",
+      "id": "ep_63_ut_18"
+    },
+    {
+      "end": 582196,
+      "speaker": "Moritz Stefaner",
+      "start": 582020,
+      "text": "Yeah.",
+      "id": "ep_63_ut_19"
+    },
+    {
+      "end": 584724,
+      "speaker": "Robert Kosara",
+      "start": 582220,
+      "text": "So it was really fascinating to see the difference between the two.",
+      "id": "ep_63_ut_20"
+    },
+    {
+      "end": 588044,
+      "speaker": "Moritz Stefaner",
+      "start": 584804,
+      "text": "Yeah. And there was a narrator. Very well done. And.",
+      "id": "ep_63_ut_21"
+    },
+    {
+      "end": 591364,
+      "speaker": "Robert Kosara",
+      "start": 588204,
+      "text": "Oh, yes, of course, it was all very professionally, very professional.",
+      "id": "ep_63_ut_22"
+    },
+    {
+      "end": 603436,
+      "speaker": "Moritz Stefaner",
+      "start": 591484,
+      "text": "Yeah, yeah, absolutely. I think she's been talking about also whether these tools can be used to increase scientific knowledge in the population at large.",
+      "id": "ep_63_ut_23"
+    },
+    {
+      "end": 603748,
+      "speaker": "Robert Kosara",
+      "start": 603500,
+      "text": "Right.",
+      "id": "ep_63_ut_24"
+    },
+    {
+      "end": 611044,
+      "speaker": "Moritz Stefaner",
+      "start": 603796,
+      "text": "And also the role of literacy and stuff like that. I found it really, really interesting. Joanna, you want to say something about it?",
+      "id": "ep_63_ut_25"
+    },
+    {
+      "end": 622126,
+      "speaker": "Enrico Bertini",
+      "start": 611124,
+      "text": "My takeaway from that was basically that you need somebody like Benedict Cumberbatch to talk over that, to get the audience interested into supercomputers and models and science. So.",
+      "id": "ep_63_ut_26"
+    },
+    {
+      "end": 622350,
+      "speaker": "Robert Kosara",
+      "start": 622150,
+      "text": "Yeah.",
+      "id": "ep_63_ut_27"
+    },
+    {
+      "end": 628878,
+      "speaker": "Enrico Bertini",
+      "start": 622382,
+      "text": "You have to deliver it to the audience to get them interested, and they managed pretty well.",
+      "id": "ep_63_ut_28"
+    },
+    {
+      "end": 643142,
+      "speaker": "Moritz Stefaner",
+      "start": 629006,
+      "text": "Yeah, yeah, yeah. I think she had a really great message going from something that is so deeply technical and turn it into something that almost everyone can enjoy. Right. So I think there is something to learn there. Absolutely.",
+      "id": "ep_63_ut_29"
+    },
+    {
+      "end": 647574,
+      "speaker": "Enrico Bertini",
+      "start": 643238,
+      "text": "And even if you don't understand all the details of what happens in a superstorm.",
+      "id": "ep_63_ut_30"
+    },
+    {
+      "end": 648270,
+      "speaker": "Moritz Stefaner",
+      "start": 647654,
+      "text": "Yeah, exactly.",
+      "id": "ep_63_ut_31"
+    },
+    {
+      "end": 649794,
+      "speaker": "Enrico Bertini",
+      "start": 648302,
+      "text": "You get the picture.",
+      "id": "ep_63_ut_32"
+    },
+    {
+      "end": 659314,
+      "speaker": "Moritz Stefaner",
+      "start": 650574,
+      "text": "So let's move on to the first info, this section that was about projections. And I think, Robert, you want to talk about a particular paper.",
+      "id": "ep_63_ut_33"
+    },
+    {
+      "end": 749606,
+      "speaker": "Robert Kosara",
+      "start": 659614,
+      "text": "Yeah. So there was a paper. There were a number of good papers there, but one in particular was called probing projections, and what they did was they were looking at trying to. So the problem that you have when you. When you have a high dimensional space, when you have lots of dimensions, the other dimensions, there is a way to project those down to two or three dimensions that you can see them. And the idea is that you want to have the distances reflected in 2d, so that they give you a sense of what the distances are in 120 dimensions, or whatever the number is. And the problem is that. So this is called multidimensional scaling, and that's one of the techniques mds. Multidimensional scaling is one of the ways of doing that. But the problem is that nobody understands how it actually works. When you see that, you can see the distances, but it's really hard to understand, why are these points close together? Why are these far apart. What actually makes that difference and what they did was they built a little system that let you mouse over those, and it would show you how far away from some distribution the points were in different dimensions. And there's also some interaction that let you kind of push, that would let you increase the weight so you can actually see how far apart, especially outliers are, because outliers tend to be very far away from the rest of the data. And they had some interesting techniques there to show to keep them close together, but still give you a sense of what distances really were. So I really liked that because it gave you a sense of what was actually happening behind the scenes, which can be really difficult to understand when you're working with these techniques.",
+      "id": "ep_63_ut_34"
+    },
+    {
+      "end": 755994,
+      "speaker": "Moritz Stefaner",
+      "start": 749750,
+      "text": "Yeah, I think it's also a good example of the power of interaction. You just cannot do that without interaction.",
+      "id": "ep_63_ut_35"
+    },
+    {
+      "end": 764802,
+      "speaker": "Robert Kosara",
+      "start": 756934,
+      "text": "And very often you would just get the result. You would just get the static image. But in this case, they did some really clever interaction and mouse overs and things that work really well.",
+      "id": "ep_63_ut_36"
+    },
+    {
+      "end": 815140,
+      "speaker": "Moritz Stefaner",
+      "start": 764858,
+      "text": "Yeah. And multi dimensional scaling is one of those techniques that is used by almost every scientist around the world. So that's really clever and important, I guess. I think during the infovis session, there was also a bass session that was interesting. I've been there. And one of the papers I want to talk about, one of the papers that is called reducing snapshot to points. That's one of the papers from Jarke van Wijk that is always very creative and has interesting ideas. So that was particularly clever. So the idea there. So, by the way, that was one of the, I think it was the best paper award from the SCIVIS, VAST track, which is visual analytics and science.",
+      "id": "ep_63_ut_37"
+    },
+    {
+      "end": 815412,
+      "speaker": "Robert Kosara",
+      "start": 815172,
+      "text": "And.",
+      "id": "ep_63_ut_38"
+    },
+    {
+      "end": 936224,
+      "speaker": "Moritz Stefaner",
+      "start": 815468,
+      "text": "Science and technology. Yes. Thanks, Robert. And so the idea is the following. The problem is the following. So when you have a network that changes in time, how do you actually visualize that? So it's a complex network. You can use a graph to represent this network, but the graph itself changes in time. So typically what people do is to have either an animated network, maybe with a slider, so that you can go back and forth and see how these nodes and the links change in time. Another solution is to create a small multiples visualization. So you're just repeating the same thing, but just a different time. Time steps. Right. And again, the problem is that this is not very scalable. So what they do is actually they transform the network into multidimensional representation, so basically into a vector. And then they use multidimensional scaling to project the network in a scatter plot. So now, the scatter plot is plot of networks. Every single dot represents one network. Okay? And they also connect the dots temporally and color them temporally. And the result is pretty amazing. It's clever. It's very clever. Right. So it's one of those elegant and simple techniques that once you know how to do it, it's pretty obvious, but it's not obvious. And I think what is nice is that in the paper and in the presentation, they've been showing how you can spot a lot of interesting trends there. And of course, there is also a coordinated view of the original network that you can always see when you hover over the points. And it works surprisingly well. It's a very clever, very clever technique. Next one. So shall we talk about the panel on color mapping in this? That was a really good one, Robert.",
+      "id": "ep_63_ut_39"
+    },
+    {
+      "end": 1064258,
+      "speaker": "Robert Kosara",
+      "start": 936264,
+      "text": "Yeah, that was fun. So this was a panel of a number of people who are well known in the color research community, I guess, in particular in visualization. So one of the names that people might recognize is Cynthia Brewer. Who's the person behind color brewer? If you don't know, color brewer is called colorbrewer.org, comma, which takes you to colorbrewer dot two.org. now, for some reason, Cynthia Brewer is one of those people who you've heard of, almost certainly, but you never actually, I hadn't seen her before. I never actually met her. And so she talked a bit about how the color brewer came about and about some of the thinking behind it. And then Maureen Stone, who's been around for a long time in visualization doing color research, she talked about how she designed some of the color, the colors for, for Tableau, and that's actually based on Cynthia Brewer's colors. And then there were a few other people talking about how people use colors. And there's a lot of criticism of things like the rainbow color map. That is not a very good one because it has this problem that, first of all, it has all kinds of different hues. And the problem is that you don't know unless you're really familiar with it, you don't know what the order actually is. So does orange come after yellow and where is green? And so it's hard to remember that. So if you really, you want to try and look up the colors, it's hard. And also the luminance changes. So the colors have different brightnesses depending on what the hue is. And that's a problem because you end up seeing edges where there might not be edges in the image. But on the other hand, it's also very commonly used in certain areas of science because it tends to work for them. But so it's hard to kind of really come up with or I haven't seen an actual better solution that people actually want to use. But there's a lot of talk about it and there's a lot of paper that we want to talk about later, I think, that actually tried to do something about that as well. So there are interesting problems and there's a surprising amount of work still to be done in color, even though color research has been around for forever. Not very forever, actually, but for a while, though.",
+      "id": "ep_63_ut_40"
+    },
+    {
+      "end": 1065014,
+      "speaker": "Moritz Stefaner",
+      "start": 1064346,
+      "text": "Yeah.",
+      "id": "ep_63_ut_41"
+    },
+    {
+      "end": 1076552,
+      "speaker": "Robert Kosara",
+      "start": 1065354,
+      "text": "But especially visualization. It's so specific and so different from general color research that it's just still a very open problem and a very, very big space to do work in.",
+      "id": "ep_63_ut_42"
+    },
+    {
+      "end": 1077444,
+      "speaker": "Moritz Stefaner",
+      "start": 1076658,
+      "text": "Yeah. Yeah.",
+      "id": "ep_63_ut_43"
+    },
+    {
+      "end": 1080084,
+      "speaker": "Robert Kosara",
+      "start": 1077564,
+      "text": "It was a good discussion there on that panel. It was really fun.",
+      "id": "ep_63_ut_44"
+    },
+    {
+      "end": 1088476,
+      "speaker": "Moritz Stefaner",
+      "start": 1080164,
+      "text": "Yeah, I think it was really, really good. And I also never met Cynthia before. Yeah, that was good. Joanna, did you see the panel?",
+      "id": "ep_63_ut_45"
+    },
+    {
+      "end": 1088932,
+      "speaker": "Enrico Bertini",
+      "start": 1088540,
+      "text": "No.",
+      "id": "ep_63_ut_46"
+    },
+    {
+      "end": 1141520,
+      "speaker": "Moritz Stefaner",
+      "start": 1089028,
+      "text": "No, you were not there. Yeah. I remember asking maybe a somewhat tough question to the panelists at the end. I said, how is it? I mean, yeah, we all get it. The rainbow color map doesn't work. We've been telling this for ages now, but still, scientists use it all the time. Right. So it's, so my question is, I mean, scientists tend to be pretty clever. Right. And they communicate using these kind of color maps in their scientific journals. So how is it that they don't realize that this is a bad color map? Right. So either it's not true that it's so bad or they don't realize it, or, I don't know. I think it's an interesting kind of like social problem. Right.",
+      "id": "ep_63_ut_47"
+    },
+    {
+      "end": 1147128,
+      "speaker": "Robert Kosara",
+      "start": 1141672,
+      "text": "Well, I think it's, it, the way they use it is just different from the way we think about it.",
+      "id": "ep_63_ut_48"
+    },
+    {
+      "end": 1147520,
+      "speaker": "Moritz Stefaner",
+      "start": 1147176,
+      "text": "Yeah.",
+      "id": "ep_63_ut_49"
+    },
+    {
+      "end": 1175860,
+      "speaker": "Robert Kosara",
+      "start": 1147592,
+      "text": "It does certain things for them that are useful, otherwise they wouldn't be doing it. They're not, as you're saying, they're not stupid. So it's something that helps them even though it's, it's not what we would consider a good practice or a best practice, perhaps, but it helps them see things that they want to see, and they don't have the problems that we think they might have using that. So I think that's interesting to understand that use case better and really, because I think we're making too many assumptions when you think about that.",
+      "id": "ep_63_ut_50"
+    },
+    {
+      "end": 1204846,
+      "speaker": "Moritz Stefaner",
+      "start": 1175892,
+      "text": "Yeah. And by the way, this reminds me something I want to talk about later, that I think one of the main trends of the conference is that researchers are more and more trying to interact and doing their research together with practitioners, with people in the wild. And I think that's a really good thing. But we can talk about it later. Next, we have another panel. Right. This in the real world. Joanna, you wanted to talk about that?",
+      "id": "ep_63_ut_51"
+    },
+    {
+      "end": 1219308,
+      "speaker": "Enrico Bertini",
+      "start": 1204950,
+      "text": "Yeah, well, I just briefly mentioned that that was quite interesting because it was practitioners coming from different industry backgrounds and how they could need visualization designers for their industrial purposes.",
+      "id": "ep_63_ut_52"
+    },
+    {
+      "end": 1224596,
+      "speaker": "Moritz Stefaner",
+      "start": 1219436,
+      "text": "So you said it's weird that they call it vis in the real world as if the rest is not real world.",
+      "id": "ep_63_ut_53"
+    },
+    {
+      "end": 1242380,
+      "speaker": "Enrico Bertini",
+      "start": 1224740,
+      "text": "Well, when they teased their panel, it sounded a little offensive to all the scientists to tell, come to us, to the real world. But yeah, no, it was especially interesting. I found Jen Christensen from. Oh, yeah, Jen was there from the Scientific American. So she's the senior graphics editor there.",
+      "id": "ep_63_ut_54"
+    },
+    {
+      "end": 1248224,
+      "speaker": "Moritz Stefaner",
+      "start": 1242532,
+      "text": "Yeah, she was on the show a few episodes. Episodes ago.",
+      "id": "ep_63_ut_55"
+    },
+    {
+      "end": 1276204,
+      "speaker": "Enrico Bertini",
+      "start": 1248724,
+      "text": "Yeah. So she was talking about how they at the scientific American have to produce visualizations that are aesthetically pleasing, but still have to deliver the scientific background so they are deep but still have to be pretty, and how important it is to actually stick to those design principles and to know about them to make visualizations understandable. So that was the most interesting part of it I found.",
+      "id": "ep_63_ut_56"
+    },
+    {
+      "end": 1285544,
+      "speaker": "Moritz Stefaner",
+      "start": 1277344,
+      "text": "Nice. Next, infovis again, networks. Robert, you want to talk about that? There was a best paper there.",
+      "id": "ep_63_ut_57"
+    },
+    {
+      "end": 1297104,
+      "speaker": "Robert Kosara",
+      "start": 1285584,
+      "text": "Yes. So that's why I want to talk about that. I'm not really a networks person in general, but there was a paper, and I really liked that one. So the best paper, this is a paper called, depending on how you want to pronounce it, hola.",
+      "id": "ep_63_ut_58"
+    },
+    {
+      "end": 1297488,
+      "speaker": "Moritz Stefaner",
+      "start": 1297144,
+      "text": "Holler.",
+      "id": "ep_63_ut_59"
+    },
+    {
+      "end": 1454652,
+      "speaker": "Robert Kosara",
+      "start": 1297536,
+      "text": "Holler. Tim Dwyer presented that and he called it Holler, but it stands for human, like, orthogonal network layout. And it just a bit grating to me because it looks like the Spanish word hola. So since I'm learning Spanish right now, it was kind of hard to listen to him sometimes. But the paper is really good, and this was the best paper at Infovis that got the best paper award. And what they were doing is really interesting and kind of obvious as well. Like a lot of the really good work, it's something, when you see it, it's obvious, but it's really hard to come up with it yourself. And so what they were doing is. So there's a lot of work in how you lay out networks. There's a whole area, a whole area of research that's called graph drawing that does that all the time. And a lot of that or some of that work has also been done in infovis and invest. But what they were doing is, and what they do is basically, they try to come up with criteria. They say, well, we want to minimize the number of crossings of lines. We want to keep it compact. We want to do this or that. And those are all reasonable ideas. But the question that they asked is, what if you give somebody a network and you have them laid out by hand? What do actual humans do when you do that? And they weren't the first ones to do this. There was a paper in 2008, I think, that did that as well. It was actually quite interesting. But what they then did was that they had a particular one in mind. So they wanted to have a network that only had right angles, so they had certain constraints in how it would be laid out. So they watched what people would do, and then they came up with new criteria based on that. And they found some interesting ones. Like, for example, they found that when there is a small subtree in a network, then that subtree tends to be on the outside. And they had some other ideas about compactness and symmetry in there that were actually quite interesting. And then they actually created an algorithm that implemented that. So they really went out first to look at what people would kind of want by just watching them. And then now they have an algorithm that does essentially that. So this is a really good way. It's kind of, again, it seems obvious to see, well, what would people actually want to do and then actually do that on the computer. But that's what it did, and it's a really good idea. And it seems like a really nice algorithm, and it's reasonably fast. And because these algorithms tend to be very, very slow, this whole graph layout is very difficult. But it looks like a really good algorithm, and it's very well motivated. And the whole project, the whole paper just really fits together really well. It made a very, very nice package. I felt so. I thought this was really good. And Tim Dwyer just did a really good job explaining it and presenting it.",
+      "id": "ep_63_ut_60"
+    },
+    {
+      "end": 1455612,
+      "speaker": "Moritz Stefaner",
+      "start": 1454668,
+      "text": "He's the real expert.",
+      "id": "ep_63_ut_61"
+    },
+    {
+      "end": 1457024,
+      "speaker": "Robert Kosara",
+      "start": 1455668,
+      "text": "Oh, yeah, he's amazing.",
+      "id": "ep_63_ut_62"
+    },
+    {
+      "end": 1522214,
+      "speaker": "Moritz Stefaner",
+      "start": 1458964,
+      "text": "Nice. Last thing I want to talk about from Tuesday is, very quickly, there was a very interesting paper in the vis session called personal visualization and personal visual analytics by Melanie Tory and some other folks. And I just want to quickly mention that. So this is mostly a survey kind of paper looking at existing works on visualization used for personal data. And they created a nice taxonomy to describe these works according to some criteria. And I wanted to mention it because I think this is a new area for visualization, that is. There's not a lot of research right now in our community, but I think that a lot of people are actually experiencing visualization every single day with their devices. Right. The personal, this whole idea of using visualization for personal data, I think it's something that is really, really, really interesting. Shall we move on to Wednesday? Okay.",
+      "id": "ep_63_ut_63"
+    },
+    {
+      "end": 1525582,
+      "speaker": "Enrico Bertini",
+      "start": 1522294,
+      "text": "Shall we do the personal visualization related to that already?",
+      "id": "ep_63_ut_64"
+    },
+    {
+      "end": 1526638,
+      "speaker": "Moritz Stefaner",
+      "start": 1525718,
+      "text": "Yeah, sure.",
+      "id": "ep_63_ut_65"
+    },
+    {
+      "end": 1529526,
+      "speaker": "Enrico Bertini",
+      "start": 1526766,
+      "text": "So that was on Wednesday, a whole panel on personal visibility.",
+      "id": "ep_63_ut_66"
+    },
+    {
+      "end": 1530382,
+      "speaker": "Moritz Stefaner",
+      "start": 1529550,
+      "text": "Oh yeah, you're right.",
+      "id": "ep_63_ut_67"
+    },
+    {
+      "end": 1531874,
+      "speaker": "Enrico Bertini",
+      "start": 1530438,
+      "text": "Yes, sure.",
+      "id": "ep_63_ut_68"
+    },
+    {
+      "end": 1532982,
+      "speaker": "Moritz Stefaner",
+      "start": 1532294,
+      "text": "Absolutely.",
+      "id": "ep_63_ut_69"
+    },
+    {
+      "end": 1570236,
+      "speaker": "Enrico Bertini",
+      "start": 1533038,
+      "text": "Well, there was one thing about, because a lot of personal visualization is about tracking your footsteps and, I don't know, your heart rate and some really your body functionality things. But there was one paper where they looked at how people take notes with Evernote. They looked at Evernote users and that was kind of interesting was from Wesley Willett from the University of Calgary. Well, they did a study where they looked at Evernote users and how they used their notes. And yeah, it turned out that 70% of the notes taken are never touched ever again. So you write them and then you.",
+      "id": "ep_63_ut_70"
+    },
+    {
+      "end": 1571812,
+      "speaker": "Robert Kosara",
+      "start": 1570260,
+      "text": "It doesn't surprise me at all.",
+      "id": "ep_63_ut_71"
+    },
+    {
+      "end": 1591486,
+      "speaker": "Enrico Bertini",
+      "start": 1571988,
+      "text": "Don't do anything with them. So there is quite some potential for visualization to make them more accessible, to actually see what you wrote down, to make text, to connect them somehow, to show relationships or summarize them or make them easier to recall. Yeah, so a lot of people take notes all the time, but don't do much with it.",
+      "id": "ep_63_ut_72"
+    },
+    {
+      "end": 1598234,
+      "speaker": "Moritz Stefaner",
+      "start": 1591510,
+      "text": "So yeah, I do use Evernote. Do they have a tool that I can use?",
+      "id": "ep_63_ut_73"
+    },
+    {
+      "end": 1600914,
+      "speaker": "Enrico Bertini",
+      "start": 1598614,
+      "text": "Well, I forgot the name.",
+      "id": "ep_63_ut_74"
+    },
+    {
+      "end": 1603310,
+      "speaker": "Moritz Stefaner",
+      "start": 1601894,
+      "text": "We can find it later.",
+      "id": "ep_63_ut_75"
+    },
+    {
+      "end": 1613174,
+      "speaker": "Enrico Bertini",
+      "start": 1603462,
+      "text": "Yeah, we put it in the notes. Apparently some things that came out of that study are somehow included into Evernote now. So they have some little visualization features.",
+      "id": "ep_63_ut_76"
+    },
+    {
+      "end": 1613874,
+      "speaker": "Moritz Stefaner",
+      "start": 1613254,
+      "text": "Really?",
+      "id": "ep_63_ut_77"
+    },
+    {
+      "end": 1617936,
+      "speaker": "Enrico Bertini",
+      "start": 1614624,
+      "text": "It's still pretty tiny, but apparently it's getting there.",
+      "id": "ep_63_ut_78"
+    },
+    {
+      "end": 1620884,
+      "speaker": "Moritz Stefaner",
+      "start": 1618080,
+      "text": "That's really cool. Yeah, fantastic.",
+      "id": "ep_63_ut_79"
+    },
+    {
+      "end": 1622604,
+      "speaker": "Enrico Bertini",
+      "start": 1621264,
+      "text": "I forgot the name.",
+      "id": "ep_63_ut_80"
+    },
+    {
+      "end": 1762208,
+      "speaker": "Moritz Stefaner",
+      "start": 1625344,
+      "text": "So this is a good time to take a little break to talk about our sponsor. Qlik Datastories is brought to you by click, who allows you to explore the hidden relationships within your data that lead to meaningful insights. Let your instincts lead the way to create personalized visualizations and dynamic dashboards with Qlik sense, which you can download for free at www. Dot clic dot de data stories. That's Qlik dot de stories. I just want to quickly suggest you a nice read from the Qlik blog written by Qlik design specialist Murray Grigo-McMahon, which is called people are smart, data literacy and broad audiences. If you've been listening to data stories for a while, you know that this is a topic that we really like to talk about. In fact, we do have an episode coming up soon on this topic. So in the post, Marie explains what data literacy is and how we can design visualizations that stretch people's literacy without necessarily shying them away. And he takes a notable example from the BBC's 2015 UK general elections, in which a familiar map has been turned into a less familiar one by using what is called hexagonal binning. I don't know if you are familiar with that, but it's basically turning each area into an hexagon of the same size so that the number of seats won is much, much easier to perceive overall. And I really like his comment. He says, this is not a basic data visualization, yet it was used for a mass audience with very diverse levels of data literacy. The important thing here is that it was meaningful, fit the context, and extended a concept that was already well known. So this is a really, really good point. So I strongly suggest you to give it a read. If you are interested in this topic, you will find a link in our blog post. So thanks again to Qlik for sponsoring us. You can find out more on click at www. Dot clic dot Datastories. And now back to the show. So let's move on to Wednesday infovis applications. Robert, you wanted to talk about one specifically?",
+      "id": "ep_63_ut_81"
+    },
+    {
+      "end": 1927692,
+      "speaker": "Robert Kosara",
+      "start": 1762296,
+      "text": "Yeah, so there, we obviously have to skip a lot of papers here, but the one from this session that I picked is there's a paper that I thought was really well done and very well thought out. A bit like the one I just talked about was the graph layout that was called, and I'm trying to find the name right now. This is called visually comparing weather features and forecasts. This was work by some folks at University of Utah. I believe that Samuel Kinan and Miriam Meyer, and what they did was interesting because what they were looking at, actually a really big problem, is that when there are people who are coordinating firefighters that are fighting wildfires, large scale wildfires, and they get all kinds of data from different sources. So they have weather data and wind data and lots of different things, and humidity data, and it comes in totally, actually, much of it is visual, which is actually a problem because it's totally different ways of representing data. They use different color maps, they use different projections even of the space. And what they have to do is they have to look at a dozen of these things and figure out, taken together, what they tell them, where do you fight the fire? How do you do it? This is actually literally about life and death because they send people there and if they make the wrong decisions, people can die in those fires. And also they have to figure out who do evacuate and so on. So it's a real big problem. And the tools are really bad, apparently. And what they did was they built a system that was based on good decision making, basically. So it's this question we just talked about, about the rainbow color maps and so on. So they were trying to be smart in not just imposing their point of view, but they look at what's already there and kind of build new things that were, that used existing conventions, tried to inject their own a bit to make them better. And also, especially when there wasn't really a clear agreed upon standard to have a good default that really made sense and that was well done. And then they added some additional things, like they show these forecast, what are called spaghetti plots, so they can show multiple forecasts at the same time, so you can compare them and so on. And it looks like a really good, very well designed system because it takes the stuff that's already there and builds on top of that to show them all the data they get. And I really like the system and I like their approach of just being, of knowing what's there and not just, and not just assuming that you know better and then just kind of building something that really works for the people. So I felt it was a really good idea. And the system is online, you can play with it, but they also provided to the people. And I think it's actually being used.",
+      "id": "ep_63_ut_82"
+    },
+    {
+      "end": 2005946,
+      "speaker": "Moritz Stefaner",
+      "start": 1927788,
+      "text": "Yeah, I think this is a very good segue to the next one. I want to talk about that, actually. That tends to be one of my papers together with a bunch of people. And so that is a paper I think the title is about is bridging theory with practice. It's funny that I don't remember my own title, title of my own paper. So this is a study we have done, a long term study we have done with a group of climate scientists analyzing the images that they, the charts and images that they use in their papers, presentations and so on. And we've been coding this large collection of images and trying to come up with sort of taxonomy of design issues with these images. But that's not the interesting part, at least from my point of view. I think the interesting part is that after doing that, we've been, we went back to the climate science and discuss with them whether they agree or not with our collection of design issues. Right. And then we have this part that is called matches and mismatches between the visualization designers point of view and the climate scientist point of view. And in the paper we talk about this matches and mismatches. And of course we ended up talking about the rainbow color map.",
+      "id": "ep_63_ut_83"
+    },
+    {
+      "end": 2007290,
+      "speaker": "Robert Kosara",
+      "start": 2006090,
+      "text": "Yeah, there's no way around.",
+      "id": "ep_63_ut_84"
+    },
+    {
+      "end": 2008266,
+      "speaker": "Moritz Stefaner",
+      "start": 2007402,
+      "text": "Quite a lot, right?",
+      "id": "ep_63_ut_85"
+    },
+    {
+      "end": 2008970,
+      "speaker": "Robert Kosara",
+      "start": 2008290,
+      "text": "Yeah.",
+      "id": "ep_63_ut_86"
+    },
+    {
+      "end": 2089313,
+      "speaker": "Moritz Stefaner",
+      "start": 2009162,
+      "text": "And it's very, I have to say it's very interesting to see what's the reaction of scientists when you talk about their own work and whether they are. I think it's important to find a way to talk to them and not just go in there and say, hey, whatever you do is bullshit. Right. But I think that sometimes they're very receptive to suggestions and I've seen them adopting some of the solutions that we suggested and being really excited about discovering these new ways of visualizing data in a way that is much more clearer. I remember, for instance, they have this timelines plot with a lot of lines that they call spaghetti plots. And we just shown them that you can actually break them down in small multiples and using fading out all the other lines in every multiple and just showing also the, the average so that you can compare the currents timeline with the average also. And they loved it. And now they use it in their presentations and papers and so on. So I think that's another example of what I was saying before, that trying to work hand to hand with practitioners has become crucial, I think, to our profession. And it's fun. It's fun. I think it's very nice.",
+      "id": "ep_63_ut_87"
+    },
+    {
+      "end": 2139364,
+      "speaker": "Enrico Bertini",
+      "start": 2090093,
+      "text": "Well, a related paper in the same session was there matches, mismatches and methods from my group at UBC, from the infovis group. Matthew Bremer did a study there with some energy, with an energy company where they also tried to solve problems. So they had a working system and a lot of users, but it turned out that they, like the users, did some really weird workarounds because they couldn't see anything in this system. So they tried to improve that. And Matt did a lot of made suggestions, but also showed what the mismatches. So he also showed what doesn't work and how you. Yeah. How you would approach an improvement of that system, but yeah, including what's not working. So that was insightful to not only show what they ended up using, but also show what didn't end up in the system.",
+      "id": "ep_63_ut_88"
+    },
+    {
+      "end": 2168618,
+      "speaker": "Moritz Stefaner",
+      "start": 2139484,
+      "text": "Yeah, yeah. What scares me, quote unquote, what scares me the most about this project is Matthew Bremer, who is the PhD working on that. I think he spent what, three years doing that or something like that. So he's, I think it's the second time in a row that he comes at this and presents a paper that basically the time span of this project is two or three years. How does he do that? I think it's amazing.",
+      "id": "ep_63_ut_89"
+    },
+    {
+      "end": 2170266,
+      "speaker": "Enrico Bertini",
+      "start": 2168786,
+      "text": "Yeah, he does great work.",
+      "id": "ep_63_ut_90"
+    },
+    {
+      "end": 2373886,
+      "speaker": "Moritz Stefaner",
+      "start": 2170370,
+      "text": "Yeah, it's really amazing. And I want to also mention in this session that was probably my favorite paper from this viz is about a system called poemage or poemage, I don't know. I think they call it poemage, but poemage, but I would rather call it poemage. Somewhat French. And again, that's another paper from the group of Mariah Meyer. And I think it's an amazing, amazing project. So they pair up with poets and try to come up with a visualization tool that helps poets looking at poetry under different lenses. Right. And more as an inspiration kind of tool and for coming up with new ideas. Right. So there's, I guess there's no right or wrong there. It's just, well, just, it's not simple. It's coming up with tools that help people coming up with. With new ideas. Right. And it's, I think it's very, very, very well executed. Maybe a little hard to describe. But what they do, basically, the system is based on translating the words into sounds and then using sounds as the input to the visualization to find different kind of rhymes. And rhyme is not just the standard rhyme that we have in mind. I think poets have different ways of defining rhyme. So the work also includes understanding what is rhyme and then detecting rhyme and then visualizing rhyme. And so the visualization per se is not something too fancy or complicated. But I think the whole project is a very, very interesting concept. And also, as I said, very, very well executed. And the interface itself is somewhat poetic. And apart from that, I think they also discussed, I really enjoyed the discussion they've been discussing about different roles of visualization. And also, I think I remember the role of ambiguity and the fact that I think in general, every time in visualization, we talk about uncertainty or ambiguity, we consider it negative things and we try to avoid it. But in this case, ambiguity is actually a positive, positive thing. Right. Poets love ambiguity, and exposing ambiguity makes them excited. Right. And during the presentation, there was this. I think one of the visualizations were very cluttered, except for one line that is a clear outlier. And if I remember correctly, the poets were very excited about it that. Right. So they don't have a negative reaction to all this clutter. So it's, it seems like very good example of breaking some of the standard rules and showing that by doing that, you can come up with things that are really useful for some people, in this case for. For poets. So I think it's very inspiring. Very, very inspiring.",
+      "id": "ep_63_ut_91"
+    },
+    {
+      "end": 2398894,
+      "speaker": "Enrico Bertini",
+      "start": 2373910,
+      "text": "You brought up the question of how you can combine computation and poetry, because computation is something very rational, direct, and poetry not. So. Yeah, that's interesting. And it's not. Yeah. Mostly you use visualization to solve a problem or to get something to make something simpler. And in that case, it's not to solve poetry, but just to show new.",
+      "id": "ep_63_ut_92"
+    },
+    {
+      "end": 2407654,
+      "speaker": "Robert Kosara",
+      "start": 2398934,
+      "text": "Approaches to explore, I think. Yeah, that's actually a pretty good use. I mean, that makes a lot of sense. I didn't see the paper, but that sounds really.",
+      "id": "ep_63_ut_93"
+    },
+    {
+      "end": 2533402,
+      "speaker": "Moritz Stefaner",
+      "start": 2407734,
+      "text": "Yeah, yeah, yeah. Very interesting. Yeah, absolutely. So next one, perception. Infovis perception. So there was one paper titled spatial reasoning and data displays. I don't fully remember the details, but I remember it was a very interesting idea. I think the basic idea was. So there is an effect that they call lineup. So if you have a number, again, small multiples display with same type of plot repeated several times for different data segments. And so they show, basically, they create series of plots in small multiples displayed that look very similar. But there is one that is actually the only one that represents data that is statistically different. Right. And then they ask people which one it is. They ask people, participants in a study, to spot it. Right. So now, the goal of the study, if I understand correctly, is not to understand whether some visualization technique is better than another, but more looking into individual differences and personal traits and to see whether they have an effect on spotting these differences. And I think they've been looking things like spatial abilities. And also there are also all sorts of psychological cognitive tests out there that you can run to, to measure some personal traits and abilities. And I have to confess that I don't remember the results, but, yeah, there are some findings there, and I found the concept really interesting. So on Wednesday, I think the last thing we wanted to talk about is the panel you attended, Robert, that was solved problems in viz. So are there any solved problems in viz?",
+      "id": "ep_63_ut_94"
+    },
+    {
+      "end": 2536954,
+      "speaker": "Enrico Bertini",
+      "start": 2533498,
+      "text": "I liked your tweet about it where you said, solve problems. That's gonna be short.",
+      "id": "ep_63_ut_95"
+    },
+    {
+      "end": 2789720,
+      "speaker": "Robert Kosara",
+      "start": 2537034,
+      "text": "That's right. Yeah. So I was already joking about that before. And it was obviously an interesting. They tried to kind of be. To do something that was unusual, and the people would be like, what do you mean, solve problems? Because most of what academics talk about is things that are open questions and they want to keep working on them. And somebody said this on the panel, if you say that, oh, this is solved, then you might be taking somebody's work away and say, because somebody else might be working on it right now. And then it's just not considered polite to do that. And you might even yourself, you might come back later and say, oh, I realized there's something else I want to do in this area, and now I no longer consider it solved. So nobody actually talked about solved problems. Some of it was very academic, where people would pick on a word like, what does solve mean? What does a problem mean? What does visualization mean? And it became a bit academic. But there was one really interesting point that Penny Rheingans made. So this was organized by Bob Laramie, and there were a few people on there that were, that had been around for a while. There was Chris Johnson, Tom Ertl, Bill Rybarski. What am I forgetting? Somebody else and Robert Moorhead and Penny Rheingans. And what Penny did was really interesting. She said, well, she had this story about Richard Feynman, who when he was once challenged to explain something, he said, or he was asked a question, and he said, well, let me turn this into a freshman lecture. And he came back a few weeks later and said, no, I don't actually understand it because I can't turn it into a freshman lecture. So the idea of teaching is really interesting because the things we teach and that are in textbooks are the things that we at least understand pretty well. And you could consider not, maybe not solve entirely, but at least well understood. And so she looked at textbooks and including tamaras and a few other visualization textbooks and said, well, so what are we, what are the things you teach in a basic visualization course? And she had a number of things there. And that was a really interesting approach. I think that was a good way of thinking about it. The panel itself was kind of weird. So I was actually getting up a bit and agitating there because it was too, at some point I felt that, first of all, they were kind of too, too nice. There wasn't enough going on there. And I also like to tease them a bit because one of the things I noticed was that this panel, so I actually said that this panel, unsolved problems, is mostly scientific realization people. So does that mean that SCIVIS is solved? Is that what you're telling us? Because there was no one really on there who was doing info. And that's a really interesting question, though. What are the differences in that sense between infovis and SCIVIS, VAST and SCIVIS? And then also at some point, somebody made this really odd statement about, do we want to have users and customers of the work at the visconference, and somebody was basically saying, well, no, because they just kind of get in the way basically what they were saying. So I got up and said, well, this is silly. I mean, you can't do that because publishing things is nice and all, but you also want to get them out to actual people. And so I made a very strong statement about that, and they responded very well to that. So they said, well, yeah, of course that's something we actually want. It was strange because the people on the panel actually are doing a lot of work with other scientists, at least, so they're not necessarily selling things to the general public, but they do a lot of work with the main scientists. But I think overall it was a good idea. It was an interesting panel because of that, it didn't really lead to real answers. But that's kind of a typical thing you get at a conference, is that people talk about new questions, not so much really solved issues, but I think it's something that we should probably think more about and maybe really start thinking about what have we done? What can we actually show as results, even if they're not solving the problems, but at least making things approachable and usable. And there's a lot of stuff that we have in realization for that. So I think that idea, that approach, was a good one. It was very popular. There were lots of people in that room. It was a packed room there.",
+      "id": "ep_63_ut_96"
+    },
+    {
+      "end": 2790720,
+      "speaker": "Moritz Stefaner",
+      "start": 2789792,
+      "text": "Good title.",
+      "id": "ep_63_ut_97"
+    },
+    {
+      "end": 2793480,
+      "speaker": "Robert Kosara",
+      "start": 2790872,
+      "text": "I know it was a very, very good title, that's for sure.",
+      "id": "ep_63_ut_98"
+    },
+    {
+      "end": 2803014,
+      "speaker": "Moritz Stefaner",
+      "start": 2793672,
+      "text": "So, Robert, we forgot to do that earlier. Can you very quickly describe the difference between SCIVIS, VAST, SCIVIS, VAST and infovis for those who are not familiar with that?",
+      "id": "ep_63_ut_99"
+    },
+    {
+      "end": 2890240,
+      "speaker": "Robert Kosara",
+      "start": 2803054,
+      "text": "Yeah, of course. So the. Okay, I'll try this conference. Viz vis is now all uppercase letters, and it stands. And so the three letters V stand. So the problem is V stands for SCIVIS, VAST, which is another acronym, and it stands for, like you were saying earlier, it's visual analysis, science and technology. This is the youngest conference. And then I stands for infovis information visualization, which is mostly the visualization of data that's not physically located. It's not entirely true, but that's roughly what it is. And then there's the s at the end of this, which is scientific visualization, and which is also a bad term, but it basically means things that have physical locations, like data that comes out of a CT scanner or data that describes the flow of things, whether it's measured flow or simulated. But it's always tied to location and the reason this is different, this makes a difference, is because the techniques that are used are quite different. So you're looking at very different techniques when you do text analysis, which has nothing to do with dislocation, versus looking at a new way to render a CT scan in three D and cutting away certain parts so you can see the things you actually want to see. So those are the three main, those are the three kind of areas that are subsumed under the biz umbrella. And then there are a bunch of workshops and other things, like you were saying about the personal data and so on. These are kind of new things that are kind of coming into the fold as well.",
+      "id": "ep_63_ut_100"
+    },
+    {
+      "end": 2903040,
+      "speaker": "Moritz Stefaner",
+      "start": 2890312,
+      "text": "Yeah, yeah, exactly. Okay, let's move on to Thursday then. So Thursday we have another infovis session on human reasoning. Robert, you wanted to talk about the one on memorability.",
+      "id": "ep_63_ut_101"
+    },
+    {
+      "end": 2903584,
+      "speaker": "Robert Kosara",
+      "start": 2903232,
+      "text": "Yes.",
+      "id": "ep_63_ut_102"
+    },
+    {
+      "end": 2905712,
+      "speaker": "Moritz Stefaner",
+      "start": 2903624,
+      "text": "So this is, it was debated a bit.",
+      "id": "ep_63_ut_103"
+    },
+    {
+      "end": 3088810,
+      "speaker": "Robert Kosara",
+      "start": 2905888,
+      "text": "Oh, not just a bit. Yeah. So this was Michelle Borkins paper and her colleagues, and they had a paper in 2012 on memorability in visualization. I think it was 2012, maybe it was 2013, but they had this paper before on how memorable are certain types of charts taken from different sources, like news graphics and scientific visualizations and so on. And there was some criticism after that about whether they had actually tested that or whether they just tested the recognition of color, because some of them were more colorful than others. And what they were doing in this, this time around was looking at basically the question of what makes a good visualization? And it's a good question, of course, to ask. And their answer is that it's not just the visualization itself, like the encoded marks that show the data, but also the things around it. Like, the biggest thing they found, I think, was that the title makes a huge difference for what people actually remember. And then there are like text, right? So basically, text labels, axes and title were the three main things. And then there were other things in addition. Then there was like, data was like six or seven on the list. And so people. And so what they were showing to people wasn't just a naked chart, but they showed them the whole thing, like an entire part taken from an infographic or from a news graphic or from. From a figure in a paper. So it wasn't just the bars or whatever it was. And so people were arguing afterwards that, well, did you actually test it should be the data that speaks for itself, which may be true when you're doing analysis. But what they actually did in this case was they were looking at presentation. And I think presentation needs to be understood differently. And so that's why I like this paper a lot, because it really showed that when you're doing presentation, it's the whole package. You can't just assume that people will remember just the numbers because actually one of the few things they, or one of the things they won't actually remember that well, but they will remember the text that they put in, like the title and what you call a thing is going to be much more important perhaps, than the data. The data is there to kind of support the evidence. And of course you needed that to actually find the thing, to give it a title and to give it labels and so on. But, but what people actually take away isn't necessarily the data. So that's not exactly what they found, but that, that's essentially what, what I think we take from that. So I think that's really important for that. And as we do more presentation of data and more communication of data using visualization, I think we need to really understand that. And it's especially interesting because when you look at what journalists do, they talk about the annotation layer. If you talk to Alberto Cairo, he talks about the annotation layer. That's really crucial. And that's what people in journalism understand that we don't quite get yet is all the other things that are not just a pure depiction of the data that are incredibly important. And so I think that's why this paper is really important. I really like that because I think.",
+      "id": "ep_63_ut_104"
+    },
+    {
+      "end": 3095922,
+      "speaker": "Moritz Stefaner",
+      "start": 3088842,
+      "text": "What was interesting is also from the methodological standpoint, is that they've been using eye tracking technology to study.",
+      "id": "ep_63_ut_105"
+    },
+    {
+      "end": 3096934,
+      "speaker": "Robert Kosara",
+      "start": 3095978,
+      "text": "Yes, they had.",
+      "id": "ep_63_ut_106"
+    },
+    {
+      "end": 3112334,
+      "speaker": "Moritz Stefaner",
+      "start": 3097714,
+      "text": "I think it's the first time I see an eye tracking study based to study communication oriented visualization, these kind of presentations. And I think it's very interesting. I would love to see more of this kind of eye tracking studies.",
+      "id": "ep_63_ut_107"
+    },
+    {
+      "end": 3120294,
+      "speaker": "Robert Kosara",
+      "start": 3112714,
+      "text": "And it's hard too, because it's difficult. It's very hard to really draw conclusions from eye tracking. But. Yeah, absolutely agreed. Yeah.",
+      "id": "ep_63_ut_108"
+    },
+    {
+      "end": 3127002,
+      "speaker": "Moritz Stefaner",
+      "start": 3121394,
+      "text": "Next one, interactive systems. Robert, you wanted to talk about.",
+      "id": "ep_63_ut_109"
+    },
+    {
+      "end": 3132202,
+      "speaker": "Robert Kosara",
+      "start": 3127178,
+      "text": "Oh, yes. So there was this paper that I thought was also very clever.",
+      "id": "ep_63_ut_110"
+    },
+    {
+      "end": 3133170,
+      "speaker": "Moritz Stefaner",
+      "start": 3132258,
+      "text": "That's from Jeremy.",
+      "id": "ep_63_ut_111"
+    },
+    {
+      "end": 3218572,
+      "speaker": "Robert Kosara",
+      "start": 3133202,
+      "text": "He's working with Jeremy boy. Okay. Yeah, that's right. He had a really good paper at Kai too. I forget which one it was, but I like his stuff. So he had this, they were doing the idea is this, when you have a visualization online, a lot of people don't realize that it's interactive and they don't ever interact with it. And we know this from Tableau public because we see when people interact, and it's a tiny fraction of people. Most people just see the thing and never actually do anything. And so they actually try to do something about that to give people afferences, which is basically a way of saying something that suggests interactivity, like a hammer has a certain shape that tells you how to hold it and what to do with it. And so the idea is to add things to the visualization, to have little cues that tell you, here you can interact, here you can mouse over and see more data. Here you can filter, here you can zoom it, and things like that. And they tried a few of those things out, and some of them didn't work, which was interesting to see as well. And some of them didn't. Some of them did. And so it was good to see that because it was really interesting that they were actually able to get people to interact a bit more with some of their techniques. And it's important because you want to teach people more about that. And then once they get a sense that there is stuff that's interactive, to do more of that, and they get more out of the things they see online, they don't just look at them as printed versions of charts.",
+      "id": "ep_63_ut_112"
+    },
+    {
+      "end": 3228644,
+      "speaker": "Moritz Stefaner",
+      "start": 3218668,
+      "text": "Yeah. And they describe a whole design space, which is really useful as well. I think there is a webpage where they describe exactly how the design space looks like.",
+      "id": "ep_63_ut_113"
+    },
+    {
+      "end": 3230268,
+      "speaker": "Robert Kosara",
+      "start": 3228684,
+      "text": "That's right. Yeah, yeah. That's pretty good.",
+      "id": "ep_63_ut_114"
+    },
+    {
+      "end": 3242916,
+      "speaker": "Moritz Stefaner",
+      "start": 3230316,
+      "text": "And Jeremy had these beautiful hand drawn slides. I think he spent much, much more time drawing, creating the drawing for the slides than the slides. He spent so much time, actually, some.",
+      "id": "ep_63_ut_115"
+    },
+    {
+      "end": 3251124,
+      "speaker": "Robert Kosara",
+      "start": 3242940,
+      "text": "Of the chart, these hand draws charts kind of on the quotation marks. I think they were actually done with one of the papers from a few years ago that did.",
+      "id": "ep_63_ut_116"
+    },
+    {
+      "end": 3266752,
+      "speaker": "Moritz Stefaner",
+      "start": 3251904,
+      "text": "No, no, no. I think he did everything from scratch. He does that. Yeah, it's pretty amazing. Next one, we had another great one about Voyager, new system and Vega. They talked about Vega, right.",
+      "id": "ep_63_ut_117"
+    },
+    {
+      "end": 3314800,
+      "speaker": "Robert Kosara",
+      "start": 3266808,
+      "text": "Can we talk about that? Or do you want to take that so I can talk about it? So there is this. So these were two papers that were that kind of fit together because Voyager is built on top of Vega. And this is the work by the people at UW, the University of Washington, Jeff Harris group. And the Voyager paper was done together with folks at Tableau. But the idea is that Vega is this underlying technology that creates visualization implementations that you specify using essentially a JSON structure. But it's very rich and it's very clever in how it optimizes the flow of information. So it's actually faster than hand coding in D3. And Voyager is the system that sits on top of that, that lets you explore data more quickly by showing lots of charts, basically, and using Vega to build all of them.",
+      "id": "ep_63_ut_118"
+    },
+    {
+      "end": 3339340,
+      "speaker": "Moritz Stefaner",
+      "start": 3314832,
+      "text": "Yeah, I really like this idea of kind of like guided exploration. So the idea is that I think what you have right now with Tableau software is that you. So the paradigm behind Tableau is that you have an idea about what kind of chart you want to see and then you have to translate this idea into the specification until you get it right.",
+      "id": "ep_63_ut_119"
+    },
+    {
+      "end": 3341284,
+      "speaker": "Robert Kosara",
+      "start": 3339412,
+      "text": "Right. That's what you're looking for.",
+      "id": "ep_63_ut_120"
+    },
+    {
+      "end": 3372296,
+      "speaker": "Moritz Stefaner",
+      "start": 3341364,
+      "text": "Yeah, exactly. But Voyager is more like, hey, I don't know what is interesting here. Show me something that is interesting. Right. But it's also interactive. You can say something like, oh, I'm interested in this variable, but there might be some other variables that are associated to this one. And the system automatically suggests these charts to you. So the whole idea of a system that suggests charts, I find it really, really interesting. Right. And what else?",
+      "id": "ep_63_ut_121"
+    },
+    {
+      "end": 3382046,
+      "speaker": "Robert Kosara",
+      "start": 3372480,
+      "text": "Well, it makes it easier to explore more of the data. So it gives you a better way to just get a really, really good overview of what's in your data, not just things, you know, to look for.",
+      "id": "ep_63_ut_122"
+    },
+    {
+      "end": 3431762,
+      "speaker": "Moritz Stefaner",
+      "start": 3382110,
+      "text": "Yeah. And I found it really fascinating, the fact that. So they ran a user study on top of that, comparing, basically they recreated a mini Tableau with the same interface and compared Voyager to the Tableau version. I think they call it Polestar or something like that. And I think what they found is that, I think I've been, I've been asking at the end of the talk whether the people who use. So when the participants use Voyager, whether they find more information with it. Right. And the answer was actually that, no, it doesn't seem like they produce more information, but they produce different information. Right. Which is really interesting.",
+      "id": "ep_63_ut_123"
+    },
+    {
+      "end": 3432610,
+      "speaker": "Robert Kosara",
+      "start": 3431818,
+      "text": "Oh, yeah.",
+      "id": "ep_63_ut_124"
+    },
+    {
+      "end": 3438982,
+      "speaker": "Moritz Stefaner",
+      "start": 3432802,
+      "text": "I think that's a very interesting finding. Yeah. There was another panel.",
+      "id": "ep_63_ut_125"
+    },
+    {
+      "end": 3442550,
+      "speaker": "Robert Kosara",
+      "start": 3439078,
+      "text": "Yes, right. One more panel this year.",
+      "id": "ep_63_ut_126"
+    },
+    {
+      "end": 3444494,
+      "speaker": "Moritz Stefaner",
+      "start": 3442582,
+      "text": "We're talking about a lot of panels, actually.",
+      "id": "ep_63_ut_127"
+    },
+    {
+      "end": 3447286,
+      "speaker": "Robert Kosara",
+      "start": 3444534,
+      "text": "I wonder if there were more panels to see than last year or maybe.",
+      "id": "ep_63_ut_128"
+    },
+    {
+      "end": 3452654,
+      "speaker": "Moritz Stefaner",
+      "start": 3447310,
+      "text": "They're just much better. So I think you just came back from this panel.",
+      "id": "ep_63_ut_129"
+    },
+    {
+      "end": 3591326,
+      "speaker": "Robert Kosara",
+      "start": 3452694,
+      "text": "That's right. So this is a panel that I was the moderator on. I was actually the organizer, but this was called this, the next generation teaching across the researcher practitioner gap. This was organized by Marti Hearst and Eytan Adar and there was, Tamara Munzner was on there and Jon Schwabish and Ben Shneiderman was supposed to be on, but he couldn't make it because he's not here. But what we were talking about mostly was just basically different approaches to teaching visualization. And except for Jon Schwabish, this was all teaching at a university. So they were talking about different ideas for how to teach courses, what kinds of courses they teach, what kinds of approaches they have, which was quite interesting to see. And then Jon Schwabish talked about how he teaches people outside the university. So he does these courses for people who work in government, especially because he's in DC, but also in all kinds of organizations and doing all sorts of database work, either as a central part of their work or just because they have to do it every now and again. And it was really interesting. There were lots of people afterwards who had lots of questions and ideas about what else to do, how to teach the general public, like how to get more people to learn more about visualization and also to how to make it a bit more engaging, I guess, and how to approach teaching. And it's a common problem in academia that nobody tells you how to teach, which is good and bad. Yeah, you can talk about that. Absolutely. It was a huge problem for me in the beginning, okay, I'm supposed to teach now and I can make stuff up, you know, I can come up with things, but is that actually a good way of doing this or not? I don't know. And then you get the evaluations back and people say, oh, you know, you sucked or whatever, but it's hard for you to really do something based on that. So knowing, having a bit more, I think there needs to be more exchange of ideas people had and experiences where they said, well, we tried this and this and this and it didn't actually work, or we tried this and it worked pretty well. And it depends on the kinds of students you have, whether they're a technical background or whether they're coming from maybe more of an art design background or they're coming from a domain science or whatever. So there are lots of reasons why things work or don't work, but I think there needs to be more exchange of that and more support, especially for the incoming people who are just starting out.",
+      "id": "ep_63_ut_130"
+    },
+    {
+      "end": 3604440,
+      "speaker": "Moritz Stefaner",
+      "start": 3591390,
+      "text": "Yeah, yeah, yeah, I think, I mean, teaching this is really, really hard. I mean, my experience is that students just don't get it if you, if you present only theories with standard lectures.",
+      "id": "ep_63_ut_131"
+    },
+    {
+      "end": 3605000,
+      "speaker": "Robert Kosara",
+      "start": 3604512,
+      "text": "Oh, yeah.",
+      "id": "ep_63_ut_132"
+    },
+    {
+      "end": 3758350,
+      "speaker": "Moritz Stefaner",
+      "start": 3605072,
+      "text": "It just doesn't, doesn't translate in any practical skills. It's not even practical, even theoretical skills. Right. They just cannot learn it. I don't know why. And yeah, I've been experimenting myself quite a lot with my own course and every year I change quite a, quite a lot. And yeah, but I'm ready to experiment even more because I'm never satisfied with. But for sure, I mean, what, what is working much better in my own course is that I'll try to let them. I try to have a lot of practical work, because without a lot of practical work, there's just not a lot learning at all. And the second thing that I've noticed is that I'm trying to use a more of a mentorship kind of model where I do spend a lot of time criticizing their work. So what I actually do, I spend my time in class more for criticizing their own work rather than for lectures. At some point I have an initial period where I give lectures. And then the rest of the course, the students come in class with their current state of the project. And in front of the class I criticize the project and I find that this is much, much more effective than just teaching. I think we are almost at the end of our list. I just want to quickly mention that my former colleague and friend Peter Bach just presented a paper that is a user study on comparison of different visualizations, rudder charts against other charts. And one of these charts is the flower chart that has been created by Moritz. So the one for the Oed OECd. So that was fun. And Peter, when he presented in the fast forward, he introduced this paper, he said, we are gonna kill the rattler charm. It's actually much more nuanced than that. And I find it funny, I think. So Moritz, now you can read the paper and find that there is some scientific justification for the designs that you create, because it's pretty, it's very favorable for the flower chart. So before we conclude, since Joanna is here and tomorrow she's presenting her paper, I think it would be nice if you can talk briefly about your own work. So that's called what? Timeline curator.",
+      "id": "ep_63_ut_133"
+    },
+    {
+      "end": 3799464,
+      "speaker": "Enrico Bertini",
+      "start": 3758422,
+      "text": "Timeline curator. And it was motivated from my work, work at a newspaper where I worked in the graphical department and realized that timelines are something really unhandy to create and there's not really a good workflow for that. And so I came up with the idea that you could actually just build timelines based on natural language processing, so that you extract the temporal information from freeform text and just automatically generate timelines to make the work easier. Yeah, and that's timeline creator does that. So you insert freeform text and the temporal expressions are extracted and displayed on a visual timeline that can then be edited and adjusted. And. Yeah, it's an online tool.",
+      "id": "ep_63_ut_134"
+    },
+    {
+      "end": 3805036,
+      "speaker": "Moritz Stefaner",
+      "start": 3800124,
+      "text": "So you've also been interacting with a lot of experts, domain experts.",
+      "id": "ep_63_ut_135"
+    },
+    {
+      "end": 3816036,
+      "speaker": "Enrico Bertini",
+      "start": 3805140,
+      "text": "Yeah. We had some journalists actually using it and some people from the community using it. So we got quite some feedback. It was also work together with Tamara Munzner and Mat Brahma.",
+      "id": "ep_63_ut_136"
+    },
+    {
+      "end": 3816944,
+      "speaker": "Moritz Stefaner",
+      "start": 3816100,
+      "text": "That's great.",
+      "id": "ep_63_ut_137"
+    },
+    {
+      "end": 3821308,
+      "speaker": "Enrico Bertini",
+      "start": 3817324,
+      "text": "Yeah. That's gonna happen tomorrow. So. Didn't happen yet.",
+      "id": "ep_63_ut_138"
+    },
+    {
+      "end": 3830184,
+      "speaker": "Moritz Stefaner",
+      "start": 3821396,
+      "text": "Yeah. Data journalism is such an interesting, I haven't seen much this year on data journalism applied to data journalism. That's.",
+      "id": "ep_63_ut_139"
+    },
+    {
+      "end": 3831208,
+      "speaker": "Enrico Bertini",
+      "start": 3830304,
+      "text": "It should be more.",
+      "id": "ep_63_ut_140"
+    },
+    {
+      "end": 3832448,
+      "speaker": "Moritz Stefaner",
+      "start": 3831296,
+      "text": "There should be more. Yeah.",
+      "id": "ep_63_ut_141"
+    },
+    {
+      "end": 3859314,
+      "speaker": "Robert Kosara",
+      "start": 3832536,
+      "text": "Though there were a few journalists here, so I spoke to somebody from 538 and then Jen Christensen is here from Scientific Americans. Right? Yeah. Keep mixing this up. And then, so I know that people are here who are end up paying attention to what's happening here, but there are not a lot of people actually presenting stuff right now. But that might change next year again. And so it's always kind of back and forth.",
+      "id": "ep_63_ut_142"
+    },
+    {
+      "end": 3879714,
+      "speaker": "Moritz Stefaner",
+      "start": 3860334,
+      "text": "So, guys, let's wrap it up. Maybe we want to briefly mention any major trends or new things happened at this, this year. Did you, Robert, did you identify anything that is new or different or trends or whatever you want to say?",
+      "id": "ep_63_ut_143"
+    },
+    {
+      "end": 3951838,
+      "speaker": "Robert Kosara",
+      "start": 3880014,
+      "text": "So one thing that I think we were seeing more of is presentation of data. So there's not just so. It used to be that it was all analysis and exploration, and now the idea of presenting data, even though it wasn't directly about journalism, but there were a number of papers this year that talked about how to present data to people, and we mentioned a few of them, the memorability one and a few others. And also just the idea of kind of being closer to what people would do with the data. Like that one about using a study to figure out how to lay out a graph and then use that to build an algorithm. I think that idea of just more presentation oriented visualization is really interesting and that's going to become more important over time. And I think we need to understand how that is different from analysis. And I happen to have some opinions on that. And I actually have a. You wrote something, I have something forthcoming in this video points early next year that's going to talk a bit about that. And there's certainly much more to say about it, but I think that's a really interesting trend and it's actually happening now. So I think we're going to see a lot more of that going forward at CHI's and that viz and Eurovis. So that's really good to see. I really think it's important.",
+      "id": "ep_63_ut_144"
+    },
+    {
+      "end": 3996652,
+      "speaker": "Moritz Stefaner",
+      "start": 3951966,
+      "text": "Yeah, yeah, yeah, yeah, yeah. From my side, I think what I was just saying before I think I've seen a lot of research work done in somewhat in the wild, really trying to work very closely with people who have some kind of problem with data and with presentation. And I think that's another fantastic trend. I think in general, our community is a culture of working with domain experts, and it's very applied. But this year I have the sense that there is even more on that in terms of not just developing something for someone, but studying visualization in the world. Right. And I think that's a really good trend. Joanna, you want to say something?",
+      "id": "ep_63_ut_145"
+    },
+    {
+      "end": 4000964,
+      "speaker": "Enrico Bertini",
+      "start": 3996748,
+      "text": "Well, since this is my first visit, I can't compare to the previous ones, but I'm.",
+      "id": "ep_63_ut_146"
+    },
+    {
+      "end": 4002524,
+      "speaker": "Moritz Stefaner",
+      "start": 4001044,
+      "text": "So, how did you like it?",
+      "id": "ep_63_ut_147"
+    },
+    {
+      "end": 4015344,
+      "speaker": "Enrico Bertini",
+      "start": 4002684,
+      "text": "Yeah, it was actually my first real scientific conference, so I'm overwhelmed and there's so much happening and everyone is exhausted. Yeah. Well. But a lot of good takeaways and. Really interesting. I'm happy to be here.",
+      "id": "ep_63_ut_148"
+    },
+    {
+      "end": 4020296,
+      "speaker": "Moritz Stefaner",
+      "start": 4016284,
+      "text": "Okay, good. Thanks a lot for coming on the show.",
+      "id": "ep_63_ut_149"
+    },
+    {
+      "end": 4021136,
+      "speaker": "Robert Kosara",
+      "start": 4020440,
+      "text": "Thanks for having me.",
+      "id": "ep_63_ut_150"
+    },
+    {
+      "end": 4021544,
+      "speaker": "Enrico Bertini",
+      "start": 4021160,
+      "text": "Thank you.",
+      "id": "ep_63_ut_151"
+    },
+    {
+      "end": 4023376,
+      "speaker": "Moritz Stefaner",
+      "start": 4021584,
+      "text": "Oh, you didn't say anything for.",
+      "id": "ep_63_ut_152"
+    },
+    {
+      "end": 4041944,
+      "speaker": "Robert Kosara",
+      "start": 4023520,
+      "text": "Oh, yes, of course. Now this is my chance to get even with Andy. I haven't actually, I lost count, but I think I'm now again on par with him. With Andy Kirk. Yeah, that's right. Important to keep track of that and keep score.",
+      "id": "ep_63_ut_153"
+    },
+    {
+      "end": 4043088,
+      "speaker": "Moritz Stefaner",
+      "start": 4042104,
+      "text": "Okay. Yeah.",
+      "id": "ep_63_ut_154"
+    },
+    {
+      "end": 4051034,
+      "speaker": "Robert Kosara",
+      "start": 4043136,
+      "text": "So, yeah, thanks for, for including me here instead of Andy. That's really important for my ego, for sure.",
+      "id": "ep_63_ut_155"
+    },
+    {
+      "end": 4144534,
+      "speaker": "Moritz Stefaner",
+      "start": 4051854,
+      "text": "Okay. Thank you. Bye bye. Hey, guys, thanks for listening to data stories again. Before you leave, we have a request if you can spend a couple of minutes rating us on iTunes, that would be extremely helpful for the show. I also want to give you some information on the many ways you can get news directly from us. We are, of course, on twitter@twitter.com. we have a Facebook page@Facebook.com. data stories podcast. And we now also have a newsletter. So if you want to get news directly into your inbox, go to our homepage, datastory es and look for the link that you find on the right. One last thing I want to tell you is that we love to get in touch with our listeners, especially if you want to suggest way to improve the show. Amazing people you want us to invite or projects you want us to talk about. So do get in touch with us. That's all for now. See you next time. Thanks for listening to data stories. Data stories is brought to you by click, who allows you to explore the hidden relationships within your data that lead to meaningful insights. Let your instincts lead the way to create personalized visualizations and dynamic dashboards with Qlik sense, which you can download for free at Qlik Datastories. That's Qlik de data stories.",
+      "id": "ep_63_ut_156"
+    }
+  ],
+  "confidence": 0.921422099177796,
+  "audio_duration": 4145,
+  "punctuate": true,
+  "format_text": true,
+  "dual_channel": false,
+  "webhook_url": null,
+  "webhook_status_code": null,
+  "webhook_auth": false,
+  "webhook_auth_header_name": null,
+  "speed_boost": false,
+  "auto_highlights_result": null,
+  "auto_highlights": false,
+  "audio_start_from": null,
+  "audio_end_at": null,
+  "word_boost": [],
+  "boost_param": null,
+  "filter_profanity": false,
+  "redact_pii": false,
+  "redact_pii_audio": false,
+  "redact_pii_audio_quality": null,
+  "redact_pii_policies": null,
+  "redact_pii_sub": null,
+  "speaker_labels": true,
+  "content_safety": false,
+  "iab_categories": true,
+  "content_safety_labels": {
+    "status": "unavailable",
+    "results": [],
+    "summary": {}
+  },
+  "language_detection": false,
+  "language_detection_threshold": null,
+  "language_confidence": null,
+  "custom_spelling": null,
+  "throttled": false,
+  "auto_chapters": true,
+  "summarization": false,
+  "summary_type": null,
+  "summary_model": null,
+  "custom_topics": false,
+  "topics": [],
+  "speech_threshold": null,
+  "speech_model": "best",
+  "chapters": [
+    {
+      "summary": "Data stories is brought to you by click, who allows you to explore the hidden relationships within your data that lead to meaningful insights. Let your instincts lead the way to create personalized visualizations and dynamic dashboards with Qlik sense. Special edition of data stories directly from the Itripolyvis conference in Chicago.",
+      "gist": "Data Stories",
+      "headline": "Data stories comes directly from the Itripolyvis conference in Chicago",
+      "start": 200,
+      "end": 69374,
+      "id": "ep_63_ch_0"
+    },
+    {
+      "summary": "The IT conference is the premier academic conference in visualization. Robert, Joanna and myself report on the IEEE visconference. We talk about some of the papers and events that we found interesting.",
+      "gist": "IT Conference Report",
+      "headline": "The IEEE IT conference is the premier academic conference in visualization",
+      "start": 69994,
+      "end": 145804,
+      "id": "ep_63_ch_1"
+    },
+    {
+      "summary": "Enrico: Welcome to the special edition data stories special edition from the visualization conference. We also have a newcomer. Joanna is a graphic designer. She's joining us to talk about her impressions as a first time visitor. We'll go through the whole program starting from Monday up to today.",
+      "gist": "Data Story Special Edition",
+      "headline": "This is the third time we do this special edition from the visualization conference",
+      "start": 149744,
+      "end": 261934,
+      "id": "ep_63_ch_2"
+    },
+    {
+      "summary": "Robert: I've been to the one tutorial, Tamara Munzner's tutorial. The tutorial was mostly about her way of teaching visualization through her fantastic book. This is also the book that I use in my own course. It's a very nice description of the visualization, design space.",
+      "gist": "The Conference on Visibility",
+      "headline": "Robert: I've been to one tutorial about visualization from Monday to Thursday",
+      "start": 263474,
+      "end": 363664,
+      "id": "ep_63_ch_3"
+    },
+    {
+      "summary": "On Monday, I've also been in the. new symposium of this, that is called visualization in data science. And I do believe that visualization can play a major role there. I'm really looking forward to see how this symposium will develop in the future.",
+      "gist": "Using Visibility in Data Science",
+      "headline": "There is a new symposium about how to use visualization in data science",
+      "start": 364924,
+      "end": 432234,
+      "id": "ep_63_ch_4"
+    },
+    {
+      "summary": "Donna Cox is an artist who started working with data visualization in the eighties. She has done a lot of really interesting work in turning data and very simple visualizations into real, into things that people actually want to watch. You have to deliver it to the audience to get them interested, and they managed pretty well.",
+      "gist": "The Conference keynote",
+      "headline": "On Tuesday, we had the keynote. The keynote was Donna Cox on data visualization",
+      "start": 432934,
+      "end": 649794,
+      "id": "ep_63_ch_5"
+    },
+    {
+      "summary": "A paper called probing projections was looking at trying to. project distances down to two or three dimensions. Using multidimensional scaling is one of the ways of doing that. They had some interesting techniques there to show to keep them close together, but still give you a sense of what distances really were.",
+      "gist": "Projections and Multidimensional scaling",
+      "headline": "Robert: There was a paper about probing projections that I really liked",
+      "start": 650574,
+      "end": 776054,
+      "id": "ep_63_ch_6"
+    },
+    {
+      "summary": "One of the papers I want to talk about is called reducing snapshot to points. When you have a network that changes in time, how do you actually visualize that? It's one of those elegant and simple techniques that works surprisingly well.",
+      "gist": "Taking a snapshot of a network",
+      "headline": "Robert: How do you visualize a network that changes in time",
+      "start": 777994,
+      "end": 927314,
+      "id": "ep_63_ch_7"
+    },
+    {
+      "summary": "Robert: Panel on color mapping was really fun. There's a surprising amount of work still to be done in color, even though color research has been around for forever. But especially visualization. It's so specific and so different from general color research that it's just still a very open problem.",
+      "gist": "The panel on color mapping",
+      "headline": "Robert: Panel on color mapping was really good, Robert",
+      "start": 929864,
+      "end": 1196394,
+      "id": "ep_63_ch_8"
+    },
+    {
+      "summary": "Next, we have another panel. This in the real world. I found Jen Christensen from. the Scientific American. She was talking about how they at the scientific American have to produce visualizations that are aesthetically pleasing, but still have to deliver the scientific background.",
+      "gist": "Visualization Design in the Real World",
+      "headline": "Panel discussed how companies could need visualization designers for their industrial purposes",
+      "start": 1197734,
+      "end": 1278084,
+      "id": "ep_63_ch_9"
+    },
+    {
+      "summary": "Best paper at Infovis was about human, like, orthogonal network layout. What they were doing is really interesting and kind of obvious as well. It seems like a really nice algorithm, and it's reasonably fast.",
+      "gist": "The Best Paper at Infovis 2014",
+      "headline": "There was a paper at Infovis that got the best paper award",
+      "start": 1278904,
+      "end": 1459732,
+      "id": "ep_63_ch_10"
+    },
+    {
+      "summary": "There was a very interesting paper in the vis session called personal visualization and personal visual analytics. This whole idea of using visualization for personal data is really interesting. There's not a lot of research right now in our community. Shall we move on to Wednesday?",
+      "gist": "The Personalization of Visualization",
+      "headline": "Last thing I want to talk about from Tuesday is a very interesting paper on personal visualization",
+      "start": 1459908,
+      "end": 1525582,
+      "id": "ep_63_ch_11"
+    },
+    {
+      "summary": "Study looked at how people take notes with Evernote. 70% of the notes taken are never touched ever again. There is quite some potential for visualization to make them more accessible. Some things that came out of that study are somehow included into Evernotes now.",
+      "gist": "Personal Visibility at the World Conference",
+      "headline": "One paper looked at how people take notes with Evernote",
+      "start": 1525718,
+      "end": 1622604,
+      "id": "ep_63_ch_12"
+    },
+    {
+      "summary": "Qlik Datastories is brought to you by click, who allows you to explore the hidden relationships within your data that lead to meaningful insights. In the post, Marie explains what data literacy is and how we can design visualizations that stretch people's literacy without necessarily shying them away. Thanks again to Qlik for sponsoring us.",
+      "gist": "Sponsor: Qlik",
+      "headline": "Qlik is a tool that helps designers stretch people's data literacy",
+      "start": 1625344,
+      "end": 1751986,
+      "id": "ep_63_ch_13"
+    },
+    {
+      "summary": "A paper called visually comparing weather features and forecasts. This was work by some folks at University of Utah. They built a system that was based on good decision making. And I think it's actually being used.",
+      "gist": " infovis applications: Wednesday",
+      "headline": "Robert: One paper from Wednesday was visually comparing weather features and forecasts",
+      "start": 1752090,
+      "end": 1927692,
+      "id": "ep_63_ch_14"
+    },
+    {
+      "summary": "Trying to work hand to hand with practitioners has become crucial, I think, to our profession. Sometimes scientists are receptive to suggestions and I've seen them adopting some of the solutions that we suggested.",
+      "gist": "Climate science visualization: bridging theory and practice",
+      "headline": "The title of this paper is bridging theory with practice. So this is a study we have done",
+      "start": 1927788,
+      "end": 2089313,
+      "id": "ep_63_ch_15"
+    },
+    {
+      "summary": "Well, a related paper in the same session was there matches, mismatches and methods from my group at UBC. What scares me the most about this project is Matthew Bremer, who is the PhD working on that. How does he do that?",
+      "gist": "Mathematics of mismatches and methods",
+      "headline": "Matthew Bremer did a study with some energy, with an energy company",
+      "start": 2090093,
+      "end": 2171946,
+      "id": "ep_63_ch_16"
+    },
+    {
+      "summary": "A new visualization tool helps poets looking at poetry under different lenses. It's based on translating words into sounds and then using sounds as the input to the visualization. Poets love ambiguity, and exposing ambiguity makes them excited. I think it's very inspiring.",
+      "gist": "The Future of Poetry in Visualization",
+      "headline": "A group of Mariah Meyer have developed a visualization tool for poets",
+      "start": 2172090,
+      "end": 2410894,
+      "id": "ep_63_ch_17"
+    },
+    {
+      "summary": "The goal of the study is not to understand whether some visualization technique is better than another, but more looking into individual differences and personal traits. And I think they've been looking things like spatial abilities. There are also all sorts of psychological cognitive tests out there that you can run to.",
+      "gist": "Perception and data displays",
+      "headline": "So next one, perception. Infovis perception. So there was one paper titled spatial reasoning and data displays",
+      "start": 2411914,
+      "end": 2515114,
+      "id": "ep_63_ch_18"
+    },
+    {
+      "summary": "Robert Moorhead attended a panel on solved problems in viz. Some of it was very academic. But there was one really interesting point that Penny Rheingans made. She looked at textbooks and said, well, what are the things you teach in a basic visualization course?",
+      "gist": "Solved Problems in Visualization",
+      "headline": "Robert: Panel on solved problems in viz was interesting",
+      "start": 2519014,
+      "end": 2665914,
+      "id": "ep_63_ch_19"
+    },
+    {
+      "summary": "The panel itself was kind of weird. There wasn't enough going on there. It was an interesting panel because of that, it didn't really lead to real answers. But I think overall it was a good idea.",
+      "gist": "The Undoing SCIVIS panel",
+      "headline": "Panel on unsolved problems was interesting, but didn't lead to real answers",
+      "start": 2666294,
+      "end": 2793480,
+      "id": "ep_63_ch_20"
+    },
+    {
+      "summary": "SCIVIS, VAST, SCIVIS, VAST and infovis stands for visual analysis, science and technology. I stands for infovis information visualization, which is mostly the visualization of data that's not physically located. And then there are a bunch of workshops and other things that are kind of coming into the fold.",
+      "gist": "SCIVIS, VAST, Viscosity and Infovis",
+      "headline": "Can you very quickly describe the difference between SCIVIS, VAST, SCIVIS, VAST and infovis",
+      "start": 2793672,
+      "end": 2892004,
+      "id": "ep_63_ch_21"
+    },
+    {
+      "summary": "A paper in 2012 looked at memorability in visualization. It found that the title makes a huge difference for what people actually remember. When you're doing presentation, it's the whole package. Robert: I think presentation needs to be understood differently.",
+      "gist": "Visualization and its memorability",
+      "headline": "Michelle Borkins and colleagues have a paper on memorability in visualization",
+      "start": 2892584,
+      "end": 3120294,
+      "id": "ep_63_ch_22"
+    },
+    {
+      "summary": "Next one, interactive systems. A lot of people don't realize that a visualization is interactive and they don't ever interact with it. The idea is to add things to the visualization to tell you, here you can interact. It's important because you want to teach people more about that.",
+      "gist": "Interactive Systems in the Web",
+      "headline": "Next one, interactive systems. Robert, you wanted to talk about. So there was this paper that I thought was very clever",
+      "start": 3121394,
+      "end": 3258364,
+      "id": "ep_63_ch_23"
+    },
+    {
+      "summary": "Next one, we had another great one about Voyager, new system and Vega. Voyager is built on top of Vega. System automatically suggests charts to you. Makes it easier to explore more of the data.",
+      "gist": "Voyager: The System that Suggests Charts",
+      "headline": "Next one, we had another great one about Voyager, new system and Vega",
+      "start": 3258824,
+      "end": 3437654,
+      "id": "ep_63_ch_24"
+    },
+    {
+      "summary": "There was another panel this year. Different approaches to teaching visualization. There were lots of questions and ideas about what else to do. It's a common problem in academia that nobody tells you how to teach. There needs to be more exchange of ideas and more support.",
+      "gist": "The Next Generation Teaching in Visualization",
+      "headline": "Panel discussed different approaches to teaching visualization to general public",
+      "start": 3437734,
+      "end": 3743714,
+      "id": "ep_63_ch_25"
+    },
+    {
+      "summary": "Timeline curator lets you build timelines based on natural language processing. You insert freeform text and the temporal expressions are extracted and displayed on a visual timeline that can then be edited and adjusted. There hasn't been much data journalism applied to data journalism this year. That might change next year again.",
+      "gist": "Timeline Creator for Data Journalism",
+      "headline": "Timeline curator is a tool that automatically generates timelines based on natural language processing",
+      "start": 3745894,
+      "end": 3862994,
+      "id": "ep_63_ch_26"
+    },
+    {
+      "summary": "Robert: One thing that I think we were seeing more of is presentation of data. I think that idea of just more presentation oriented visualization is really interesting and that's going to become more important over time. Joanna: How did you like your first scientific conference?",
+      "gist": "Eurovis 2017",
+      "headline": "One thing that I think we were seeing more of is presentation of data",
+      "start": 3863334,
+      "end": 4054714,
+      "id": "ep_63_ch_27"
+    },
+    {
+      "summary": "Hey, guys, thanks for listening to data stories again. We have a request if you can spend a couple of minutes rating us on iTunes. Also want to give you some information on the many ways you can get news directly from us. We love to get in touch with our listeners, especially if you want to suggest way to improve the show.",
+      "gist": "Data Stories",
+      "headline": "Before you leave, we have a request if you can spend a couple of minutes rating us",
+      "start": 4057654,
+      "end": 4144534,
+      "id": "ep_63_ch_28"
+    }
+  ],
+  "disfluencies": false,
+  "entity_detection": false,
+  "sentiment_analysis": false,
+  "sentiment_analysis_results": null,
+  "entities": null,
+  "speakers_expected": null,
+  "summary": null,
+  "custom_topics_results": null,
+  "episode_num": 63,
+  "episode_metadata": {
+    "speakers": [
+      "Robert Kosara",
+      "Moritz Stefaner",
+      "Enrico Bertini",
+      "Johanna Fulda"
+    ],
+    "WPid": "421",
+    "url": "https://datastori.es/podlove/file/1420/s/feed/c/mp3/vis15-recap-with-robert-kosara-and-johanna-fulda.mp3",
+    "episode_title": "IEEE VIS\u201915 Recap with Robert Kosara and Johanna Fulda"
+  }
+}

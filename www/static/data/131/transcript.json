@@ -1,0 +1,1138 @@
+{
+  "id": "e406018d-9475-47d3-a932-714e4d2fc31a",
+  "language_model": "assemblyai_default",
+  "acoustic_model": "assemblyai_default",
+  "language_code": "en_us",
+  "status": "completed",
+  "audio_url": "https://datastori.es/podlove/file/5471/s/feed/c/mp3/131-peak-spotting.mp3",
+  "utterances": [
+    {
+      "end": 34082,
+      "speaker": "Enrico Bertini",
+      "start": 160,
+      "text": "Would you define that as a dashboard? I'm almost. Hi, everyone. Welcome to a new episode of Data stories. My name is Enrico Bertini and I am a professor at New York University where I do research in data visualization.",
+      "id": "ep_131_ut_0"
+    },
+    {
+      "end": 45482,
+      "speaker": "Moritz Stefaner",
+      "start": 34226,
+      "text": "Right. And my name is Moritz Stefaner and I'm an independent designer of data visualizations. And actually I work as a self employed truth and beauty operator out of my office here in the countryside in the north of Germany.",
+      "id": "ep_131_ut_1"
+    },
+    {
+      "end": 57432,
+      "speaker": "Enrico Bertini",
+      "start": 45626,
+      "text": "Yes. And in this podcast we talk about data visualization, analysis and generally the role that data plays in our lives. And usually we do that together with one or more guests.",
+      "id": "ep_131_ut_2"
+    },
+    {
+      "end": 80996,
+      "speaker": "Moritz Stefaner",
+      "start": 57626,
+      "text": "Yeah. That we invited on the show today. We're at a super special position, so usually you have to know we record through like an online recording tool. And Enrico is in New York, I'm on the countryside, but today we're both in Berlin, in the same room. We even have Florian, our sound engineer, around. And we have three guests here. So we used the opportunity to finally do a proper live recording, which is awesome.",
+      "id": "ep_131_ut_3"
+    },
+    {
+      "end": 87102,
+      "speaker": "Enrico Bertini",
+      "start": 81108,
+      "text": "I don't know when did we ever have three guests live? No, no, it's a first, right?",
+      "id": "ep_131_ut_4"
+    },
+    {
+      "end": 87990,
+      "speaker": "Christian Au",
+      "start": 87166,
+      "text": "Yeah, yeah.",
+      "id": "ep_131_ut_5"
+    },
+    {
+      "end": 88614,
+      "speaker": "Enrico Bertini",
+      "start": 88110,
+      "text": "Yes.",
+      "id": "ep_131_ut_6"
+    },
+    {
+      "end": 97262,
+      "speaker": "Moritz Stefaner",
+      "start": 88702,
+      "text": "And we're just coming out of information plus, which was great, which was on the weekend in my old alma mater, homeschool in FH Potsdam.",
+      "id": "ep_131_ut_7"
+    },
+    {
+      "end": 97790,
+      "speaker": "Christian Laesser",
+      "start": 97366,
+      "text": "Yeah.",
+      "id": "ep_131_ut_8"
+    },
+    {
+      "end": 102734,
+      "speaker": "Moritz Stefaner",
+      "start": 97870,
+      "text": "And was a good conference. I think we should do something about it when the videos are episode.",
+      "id": "ep_131_ut_9"
+    },
+    {
+      "end": 103950,
+      "speaker": "Enrico Bertini",
+      "start": 102782,
+      "text": "Yeah, we should do that.",
+      "id": "ep_131_ut_10"
+    },
+    {
+      "end": 113604,
+      "speaker": "Moritz Stefaner",
+      "start": 103990,
+      "text": "It was a really good conference. And now there's the Viz conference, the academic conference, and loads of events around it. There's an arts program, data stories listener meetup tonight.",
+      "id": "ep_131_ut_11"
+    },
+    {
+      "end": 115548,
+      "speaker": "Enrico Bertini",
+      "start": 113652,
+      "text": "So we are pumped up.",
+      "id": "ep_131_ut_12"
+    },
+    {
+      "end": 121532,
+      "speaker": "Moritz Stefaner",
+      "start": 115644,
+      "text": "And another meetup on Thursday. So Berlin is right now the center of gravity for data.",
+      "id": "ep_131_ut_13"
+    },
+    {
+      "end": 122964,
+      "speaker": "Enrico Bertini",
+      "start": 121556,
+      "text": "The center of gravity, yeah.",
+      "id": "ep_131_ut_14"
+    },
+    {
+      "end": 130292,
+      "speaker": "Moritz Stefaner",
+      "start": 123092,
+      "text": "And we said we want to use this opportunity to bring a few people together on an episode we wanted to do for a year, almost.",
+      "id": "ep_131_ut_15"
+    },
+    {
+      "end": 154208,
+      "speaker": "Enrico Bertini",
+      "start": 130356,
+      "text": "No, yeah, yeah, yeah. So that's, I have to confess that's one of my favorite data visualization projects out there. So I'm really happy to be talking about peak spotting. And we have the creators, all the creators of this project here. So we have Christian Au, Stefan Thiel and Christian Laesser here. Hi, guys.",
+      "id": "ep_131_ut_16"
+    },
+    {
+      "end": 155140,
+      "speaker": "Christian Au",
+      "start": 154384,
+      "text": "Hello.",
+      "id": "ep_131_ut_17"
+    },
+    {
+      "end": 158216,
+      "speaker": "Enrico Bertini",
+      "start": 155840,
+      "text": "And of course Moritz is also involved in the project.",
+      "id": "ep_131_ut_18"
+    },
+    {
+      "end": 163104,
+      "speaker": "Moritz Stefaner",
+      "start": 158328,
+      "text": "Yeah. I have this funny double role that I both have guests in the moderator today.",
+      "id": "ep_131_ut_19"
+    },
+    {
+      "end": 171062,
+      "speaker": "Enrico Bertini",
+      "start": 163272,
+      "text": "Let's see how this goes. So guys, maybe you can briefly introduce yourself. We can start with Christian.",
+      "id": "ep_131_ut_20"
+    },
+    {
+      "end": 182490,
+      "speaker": "Stephan Thiel",
+      "start": 171166,
+      "text": "Sure. My name is Christian Au. I have been the initiator and head of peak spotting at Deutsche Bahn. And since February of this year, a professor of strategy at the University of Applied Sciences and mines.",
+      "id": "ep_131_ut_21"
+    },
+    {
+      "end": 193358,
+      "speaker": "Christian Laesser",
+      "start": 182830,
+      "text": "So I'm the second Christian, Christian Laesser, and I'm a freelance data visualization and interaction designer here based in Berlin. And I did in this project user experience design mainly.",
+      "id": "ep_131_ut_22"
+    },
+    {
+      "end": 206730,
+      "speaker": "Christian Au",
+      "start": 193494,
+      "text": "And my name is Stefan Thiel. I'm co founder and managing director of studio NAND data visualization and interaction design studio here in Berlin. There's an extended team behind me that also worked on peak spotting, of course. So shout out to the team there as well.",
+      "id": "ep_131_ut_23"
+    },
+    {
+      "end": 208042,
+      "speaker": "Enrico Bertini",
+      "start": 206810,
+      "text": "And former guest.",
+      "id": "ep_131_ut_24"
+    },
+    {
+      "end": 211010,
+      "speaker": "Christian Au",
+      "start": 208186,
+      "text": "And former guest. Yeah, just looked it up. 2012.",
+      "id": "ep_131_ut_25"
+    },
+    {
+      "end": 211866,
+      "speaker": "Enrico Bertini",
+      "start": 211170,
+      "text": "2012.",
+      "id": "ep_131_ut_26"
+    },
+    {
+      "end": 219750,
+      "speaker": "Christian Au",
+      "start": 211938,
+      "text": "Wow. Number eleven of the episode. You guys did an amazing job, like doing data stories for so long. It's really great.",
+      "id": "ep_131_ut_27"
+    },
+    {
+      "end": 240012,
+      "speaker": "Enrico Bertini",
+      "start": 220290,
+      "text": "Yeah. So we want to talk about the project, of course. And I think we should start by describing peak spotting, what it is about. Yeah, I didn't mention that it's about visualizing the German trains. But Stefan, you can maybe start and explain to us what the project is about.",
+      "id": "ep_131_ut_28"
+    },
+    {
+      "end": 296340,
+      "speaker": "Christian Au",
+      "start": 240116,
+      "text": "Yeah, I mean, peak spotting helps manage the capacity of the vast German railway network. So as you can imagine, you have a large team of very diverse people that Christian can much better introduce in terms of their roles in managing this network. But I. From traffic control to yield management to traveler steering, so to say. So make sure the travelers pick the routes that they are going to be most happy with in their travel experience. So there's a large group of different people and we support them with an interactive visualization software that makes visible predictions of train loads 100 days into the future. So it's like a little glass bulb in the. Into the future. Looking into the future and figuring out what's going to happen in the network in a certain amount of days and to help people do actions about those potential bottlenecks. Where are they happening and when are they happening?",
+      "id": "ep_131_ut_29"
+    },
+    {
+      "end": 300680,
+      "speaker": "Enrico Bertini",
+      "start": 296420,
+      "text": "Yeah. Would you define that as a dashboard? I'm almost.",
+      "id": "ep_131_ut_30"
+    },
+    {
+      "end": 308860,
+      "speaker": "Moritz Stefaner",
+      "start": 308300,
+      "text": "Let's go.",
+      "id": "ep_131_ut_31"
+    },
+    {
+      "end": 343432,
+      "speaker": "Christian Au",
+      "start": 308900,
+      "text": "Right, yeah. Headfirst in, how would you call it? I would really call it an interactive interface. Interface application. It's a tool rather than the notion of a dashboard is always like showing people data they might care about one way or the other, but sometimes they don't even understand or are being picked up as users. That's all of what we are going to talk about. But it's really important to not treat this as a one way to the user, from the data to the user, but also for the users back to the data. And this is of course all the aspects we find fascinating about it. So it's an interactive application, has no.",
+      "id": "ep_131_ut_32"
+    },
+    {
+      "end": 347940,
+      "speaker": "Moritz Stefaner",
+      "start": 343456,
+      "text": "Speedometer, no speedometer not a dashboard, not yet.",
+      "id": "ep_131_ut_33"
+    },
+    {
+      "end": 355100,
+      "speaker": "Enrico Bertini",
+      "start": 349880,
+      "text": "No glossy graphics and 3d pie charts.",
+      "id": "ep_131_ut_34"
+    },
+    {
+      "end": 361980,
+      "speaker": "Christian Au",
+      "start": 355720,
+      "text": "We have a nicely animated, dynamic map, though, which serves a great purpose. But also we can talk about this later.",
+      "id": "ep_131_ut_35"
+    },
+    {
+      "end": 384282,
+      "speaker": "Moritz Stefaner",
+      "start": 362840,
+      "text": "At its core, basically it's an application where you can get an overview of 100 days in advance and just see, oh, what will be the worst days in terms of passenger loads. Go into a day, see a lot of different views on that day, understand the bottlenecks, different systemic problems, and then go into individual trains, even and individual train legs, and understand exactly how the booking situation is on these trains.",
+      "id": "ep_131_ut_36"
+    },
+    {
+      "end": 386530,
+      "speaker": "Enrico Bertini",
+      "start": 384386,
+      "text": "So how far ahead can you predict?",
+      "id": "ep_131_ut_37"
+    },
+    {
+      "end": 395162,
+      "speaker": "Christian Au",
+      "start": 386650,
+      "text": "Did the predictions always work 100 days into the future? From any given day you are looking at it. So there's always predictions generated for next hundred days.",
+      "id": "ep_131_ut_38"
+    },
+    {
+      "end": 398582,
+      "speaker": "Enrico Bertini",
+      "start": 395266,
+      "text": "That's based on some machine learning type of.",
+      "id": "ep_131_ut_39"
+    },
+    {
+      "end": 408438,
+      "speaker": "Christian Au",
+      "start": 398746,
+      "text": "Yes, it is. This model takes into account previous bookings, other contextual data at some point in the future, hopefully so. Yeah.",
+      "id": "ep_131_ut_40"
+    },
+    {
+      "end": 420690,
+      "speaker": "Stephan Thiel",
+      "start": 408494,
+      "text": "Yeah, it does. So there's actually quite a sophisticated model behind that that does the prediction for not only the trains, but also the lags on the train services and different booking classes, first and second class.",
+      "id": "ep_131_ut_41"
+    },
+    {
+      "end": 432226,
+      "speaker": "Christian Au",
+      "start": 421070,
+      "text": "Germany is also unique in terms of traveling. So that's why, I mean, people can always go on a train to travel. But you will tell a little bit, maybe, about this, right?",
+      "id": "ep_131_ut_42"
+    },
+    {
+      "end": 433290,
+      "speaker": "Stephan Thiel",
+      "start": 432298,
+      "text": "Yeah, sure.",
+      "id": "ep_131_ut_43"
+    },
+    {
+      "end": 439154,
+      "speaker": "Enrico Bertini",
+      "start": 433370,
+      "text": "Yeah, maybe, Christian, you can just explain how the project started. How did it start?",
+      "id": "ep_131_ut_44"
+    },
+    {
+      "end": 535502,
+      "speaker": "Stephan Thiel",
+      "start": 439242,
+      "text": "Yeah, so the idea was actually born, I think, around Christmas 2016. And we had on the 23 December in 2016, a situation where we predicted a very high load of passengers that wanted to use our train services. So it was actually the day with the highest amount of traveler that we ever had seen in the system. More than half a million people on a single day. And these people were planning to take one of our 800 plus train services. And there's a group of experts that Stefan already mentioned, revenue managers, people in traffic control, that were actually responsible for handling this load of passengers. So making sure that they are distributed equally, or at least distributed in a way on trains, that there is no overbooking or an overload. And that's something that's very peculiar about the German railway system. It's not like. Like other European railway systems or airlines where you have to book a seat in advance or a ticket, but it's rather a metro system where you can hop on and off at any point in time. So you don't need a reservation, you don't need a ticket, you can buy the ticket on the train, which is very convenient for customers, obviously, because you can at last minute decide that you're taking a train, but causes some issues on the side of the congestion. Yeah. Of the Deutsche Bahn, when you want to make sure that there's no overloading and overload can mean that there are basically more people than seats on the train, which is not that critical. Inconvenient, but not critical. But of course, from a certain point on, there are so many people on the train that you're not actually allowed to go further and have to stop. People have to get off the train, which is inconvenient for the customers and also causes delays in the whole system.",
+      "id": "ep_131_ut_45"
+    },
+    {
+      "end": 536170,
+      "speaker": "Enrico Bertini",
+      "start": 535566,
+      "text": "Sure.",
+      "id": "ep_131_ut_46"
+    },
+    {
+      "end": 573690,
+      "speaker": "Stephan Thiel",
+      "start": 536630,
+      "text": "So that was basically the challenge. And the more people you have in the system, the bigger the challenge is. And these experts that were managing the passenger load basically really had to focus on two quite simple questions at first sight. Where and when do we have situations in the network where we have critical overload situation? And unfortunately, so in December 2016, we had already a lot of sophisticated models that predicted the passenger load, but there were no tools or no adequate tools to really look at the stator. So the tools that existed back then were basically more or less. Table.",
+      "id": "ep_131_ut_47"
+    },
+    {
+      "end": 574914,
+      "speaker": "Enrico Bertini",
+      "start": 573770,
+      "text": "A spreadsheet.",
+      "id": "ep_131_ut_48"
+    },
+    {
+      "end": 593154,
+      "speaker": "Stephan Thiel",
+      "start": 575082,
+      "text": "Yeah, exactly. I mean, they look like spreadsheet with a lot of columns, so more than 30 columns, a lot of the color gray was involved, and it was always focusing on one train. So you basically had to choose a train, and then you saw the predictions for one train. What was missing was basically the view of the whole system. And it was also no trees, no forest.",
+      "id": "ep_131_ut_49"
+    },
+    {
+      "end": 595162,
+      "speaker": "Moritz Stefaner",
+      "start": 593242,
+      "text": "Yeah, exactly.",
+      "id": "ep_131_ut_50"
+    },
+    {
+      "end": 652026,
+      "speaker": "Stephan Thiel",
+      "start": 595346,
+      "text": "And it actually was also, I mean, when you wanted to look up a train or let's say three trains, you really had to go to each single train and basically take notes and that kind of stuff. So that was not really convenient. And so for this December 23, the day where we had this high amount of passengers, at the end of the day, everything worked out fine, but we realized that we need to upgrade our game. And actually, users were trying to empower themselves by printing out diagrams, path time diagrams, or marais diagrams, and highlighted with text markers, basically the passenger load of the train. So we saw that the users basically wanted additional ways of working with the data that we couldn't provide with the tools that were existing back then. And that was basically then kick starting this project or the idea of, well, let's see if we can bring in some real experts. The data was SWOT team. That basically helps us in getting better at that. Because we had good data, I can.",
+      "id": "ep_131_ut_51"
+    },
+    {
+      "end": 655790,
+      "speaker": "Enrico Bertini",
+      "start": 652058,
+      "text": "Confirm they look like a SWAT team almost.",
+      "id": "ep_131_ut_52"
+    },
+    {
+      "end": 680670,
+      "speaker": "Stephan Thiel",
+      "start": 658930,
+      "text": "So that was the idea. Basically. We had very good data model that we could use and access to data, which is extremely valuable as everyone knows who has been involved in these kind of projects. So we thought that there must be a way to really use this data and a better way to answer the questions, these basic questions that the users had in a more efficient way.",
+      "id": "ep_131_ut_53"
+    },
+    {
+      "end": 691270,
+      "speaker": "Enrico Bertini",
+      "start": 680790,
+      "text": "Yeah, I really like the fact that you started from questions because people normally start from data, but even the way you describe is people have these questions. And I think that's, I think that.",
+      "id": "ep_131_ut_54"
+    },
+    {
+      "end": 730624,
+      "speaker": "Moritz Stefaner",
+      "start": 691310,
+      "text": "Was a critical factor to get the project on a good path. I remember well, so Christian wrote this first email introducing the problem and, you know, the challenge and it was quite crisp and clear in terms of, okay, we have tried these things, we have this type of data, we know we can get this far with standard tools, but now we also know we have this additional need for custom visualizations. And then it was also clear, okay, this is a great opportunity to do something good if it's already so clear, you know, what the purpose of the tool is and why it's needed. Often clients approach me and they just think they need a visualization for various reasons, but sometimes not really the best solution.",
+      "id": "ep_131_ut_55"
+    },
+    {
+      "end": 749164,
+      "speaker": "Enrico Bertini",
+      "start": 730752,
+      "text": "I have to say after the fact, seeing the project for me was like, like, oh, finally some solid stuff out there is a real interactive visual, I would call it visual analytics system. It's evident that it's really, really useful to someone and I was also very.",
+      "id": "ep_131_ut_56"
+    },
+    {
+      "end": 767824,
+      "speaker": "Moritz Stefaner",
+      "start": 749212,
+      "text": "Eager to prove, finally, yeah, I wanted personally, it was also to prove that this type of web based, highly custom crafted visualization can deliver a value that is high enough, that justifies the extra work and the risk that goes into building something unique other than buying a ready made solution.",
+      "id": "ep_131_ut_57"
+    },
+    {
+      "end": 775280,
+      "speaker": "Enrico Bertini",
+      "start": 767872,
+      "text": "Yeah, and you know, sometimes some people may say, but that's a narrow set of people that you're serving, but they are really relevant role.",
+      "id": "ep_131_ut_58"
+    },
+    {
+      "end": 775648,
+      "speaker": "Stephan Thiel",
+      "start": 775360,
+      "text": "Right.",
+      "id": "ep_131_ut_59"
+    },
+    {
+      "end": 787800,
+      "speaker": "Enrico Bertini",
+      "start": 775704,
+      "text": "So I see a lot of potential for these somewhat narrow applications, but they do solve very complex and important problems that ultimately have an impact on a much larger, very large group of people.",
+      "id": "ep_131_ut_60"
+    },
+    {
+      "end": 795336,
+      "speaker": "Stephan Thiel",
+      "start": 787920,
+      "text": "And I think. So to your point, you know, where did we start? We actually didn't start with questions, but with decisions that people had asked.",
+      "id": "ep_131_ut_61"
+    },
+    {
+      "end": 796328,
+      "speaker": "Enrico Bertini",
+      "start": 795368,
+      "text": "Oh yeah, that's even better.",
+      "id": "ep_131_ut_62"
+    },
+    {
+      "end": 830576,
+      "speaker": "Stephan Thiel",
+      "start": 796384,
+      "text": "Yeah. How can you influence basically this load factor of trends? And then you basically talk about decisions that specific roles can take. And in order to answer this or make good decisions, they have to have some information or answer themselves questions. And that was the starting point. That also means, and I think that's something that probably when we talk about the users and how it is used, I think shows it's important to understand the specific user. And that then also means that the tools are used, because if you're not specific enough, then sometimes it looks great, but there is no direct connection to your everyday work. And that then means, means a lack of usage.",
+      "id": "ep_131_ut_63"
+    },
+    {
+      "end": 842480,
+      "speaker": "Enrico Bertini",
+      "start": 830648,
+      "text": "Yeah. So maybe we can talk a little bit about what happened next. So the SWOT team came and. I don't know. Moritz, you want to talk a little bit about the process that you guys followed?",
+      "id": "ep_131_ut_64"
+    },
+    {
+      "end": 942420,
+      "speaker": "Moritz Stefaner",
+      "start": 842560,
+      "text": "Sure. Yeah. Yeah. Because in the beginning I was most involved and there's often a role and take. It's like figuring out what to do and what the rough direction of everything is. So, yeah, Christian provided us with the data sets and the data samples. So that was important, having real data to work with, clear objectives. And then we did a lot of early experiments, quick prototyping. A lot actually in Tableau, which I often do anyways. But there was a nice, it was nice in this way that also the team at Deutsche Bahn and Christian had some experience with Tableau, so they could use it directly, test it out in realistic settings with real data. So we were in the position to really quickly try realistic prototypes and figure out which forms of visualization actually deliver which value. And then, as usual, you hit some wall with the premade tools and you get a bit frustrated why the color scales keep changing. And then you build your own sort of system in D3 and react. So we have a good setup by now to also quickly whip up custom design code. And I think we built this first prototype probably in a couple of months. I would say that already shows the main views that are also later present in the application. And this was the most important basis then to say, okay, this is something useful. This will be useful if we add the following features or if we make the following modifications. And then we went into this in a more structured production process with a larger team and really rolled out a first prototype after another few months, that later was the basis for the production version.",
+      "id": "ep_131_ut_65"
+    },
+    {
+      "end": 949380,
+      "speaker": "Enrico Bertini",
+      "start": 942510,
+      "text": "How does it work? You make sketches or you use what comes out of Tableau to get initial feedback from people.",
+      "id": "ep_131_ut_66"
+    },
+    {
+      "end": 970112,
+      "speaker": "Moritz Stefaner",
+      "start": 950600,
+      "text": "So we had. Yeah, so I had Tableau prototypes, a custom code prototype with different variations. At some point, we also printed out different UI elements, like, here's a map, here's a list, here's a calendar. How could we combine these? How would you go through these? When you search for.",
+      "id": "ep_131_ut_67"
+    },
+    {
+      "end": 972808,
+      "speaker": "Enrico Bertini",
+      "start": 970176,
+      "text": "And you show this to the end users and you get feedback and together.",
+      "id": "ep_131_ut_68"
+    },
+    {
+      "end": 991140,
+      "speaker": "Moritz Stefaner",
+      "start": 972864,
+      "text": "With them find out which combination of focus groups, which combination of views makes sense, which order of things makes sense. And this relatively quickly turned into this information hierarchy from left to right, drilling down through time, from left to right by going into descending panels, basically.",
+      "id": "ep_131_ut_69"
+    },
+    {
+      "end": 991708,
+      "speaker": "Enrico Bertini",
+      "start": 991260,
+      "text": "Okay.",
+      "id": "ep_131_ut_70"
+    },
+    {
+      "end": 1013560,
+      "speaker": "Moritz Stefaner",
+      "start": 991764,
+      "text": "Yeah, perfect. Yeah. And then later. So this is all quick and dirty, sort of also abstracting a bit from the really complicated stuff, defining the basic skeleton of the application and the basic workings. And then. Yeah. Then also people like Christian Laesser, for instance, came into play who can sort of get these rough sketches into something that actually works well.",
+      "id": "ep_131_ut_71"
+    },
+    {
+      "end": 1053535,
+      "speaker": "Christian Laesser",
+      "start": 1014620,
+      "text": "So I guess I came in when the first prototype was there, and this was really interesting to seeing the first prototype, how this already worked. And I worked, I guess, at the site architecture, first of all. So we refined a little bit, how do you drill down those to the trains? So this was really important, I guess, to really get something stable there. And then we went to the headquarters and interviewed the people again, did some. Yeah, some interviews, watched how they working, what other tools they are using. Really user centered, so to say.",
+      "id": "ep_131_ut_72"
+    },
+    {
+      "end": 1054047,
+      "speaker": "Enrico Bertini",
+      "start": 1053607,
+      "text": "Yeah.",
+      "id": "ep_131_ut_73"
+    },
+    {
+      "end": 1134984,
+      "speaker": "Christian Laesser",
+      "start": 1054143,
+      "text": "And then I did some wireframes, of course. But the good thing was that the prototype was already there, so it was more like refining how we would like to have it instead of really, like, building everything from sketch, from a design tool, like. Or from it. Yeah, from sketch or from Photoshop or something like that. So it was more like a ping pong. So this was really great for the beginning. And then I had the chance to really, like, when we were finished with the prototype, like the real prototype in June, to figure out, okay, what features should come next, how should we change certain things? So I did a lot of interviews. This was great. And we had opportunity to track a lot of things so we could combine the quality of research by asking people with tracking their behavior, because sometimes you ask them, but they don't really realize what they are doing because you do so many things automatically. Right. So we were able. So we did another visualization that visualize how they go through the whole system. So we figured out, when are they clicking, where? How do they search? And we realize there are other maybe user groups that also using the system in a different way.",
+      "id": "ep_131_ut_74"
+    },
+    {
+      "end": 1136976,
+      "speaker": "Enrico Bertini",
+      "start": 1135112,
+      "text": "So how many users are we talking about?",
+      "id": "ep_131_ut_75"
+    },
+    {
+      "end": 1139192,
+      "speaker": "Christian Laesser",
+      "start": 1137048,
+      "text": "Roughly speaking, that's a good question.",
+      "id": "ep_131_ut_76"
+    },
+    {
+      "end": 1142392,
+      "speaker": "Enrico Bertini",
+      "start": 1139296,
+      "text": "The order of, say, 510 20, to.",
+      "id": "ep_131_ut_77"
+    },
+    {
+      "end": 1149000,
+      "speaker": "Christian Au",
+      "start": 1142416,
+      "text": "Differentiate between the regular users that use it on a regular basis and the total amount of unique users that we have.",
+      "id": "ep_131_ut_78"
+    },
+    {
+      "end": 1157260,
+      "speaker": "Christian Laesser",
+      "start": 1149120,
+      "text": "So I guess unique users we had or we have 1600. Yeah, I would say groups, maybe have three. What do you think, Christian?",
+      "id": "ep_131_ut_79"
+    },
+    {
+      "end": 1214706,
+      "speaker": "Stephan Thiel",
+      "start": 1158240,
+      "text": "Yeah, I think they're heavy users, like in traffic control, who use it every day. And several times a day, I'd say a group of like around ten people. And then you have revenue management people who use it, depending on the day. For example, around Christmas and eastern, there is really a peak in the number of users that you have, probably 2030 additional users that work heavily with the tool. And then there were really a lot of people who also from top management just used it to understand how the traffic situation is basically on a specific day. Since it's always helpful if you communicate about how basically the passenger load is, not only to tell them, well, we have an average passenger load of x percent, but basically you can look at it, you see on a map where the passengers are actually going. So there are a lot of people that use it, probably on an on and off basis, but yeah, so these are the three types of groups, I'd say heavy users.",
+      "id": "ep_131_ut_80"
+    },
+    {
+      "end": 1257812,
+      "speaker": "Moritz Stefaner",
+      "start": 1214858,
+      "text": "One idea that Christian also brought in that I find really exciting is the idea of uxmetrics. And this is based on the Google Heart framework, which is like a bigger conceptual, but also technical framework, mostly a conceptual framework for how to, on the one hand, define very well which types of behavior you're aiming for at the users, but also defining how you measure if you get there. And often people just focus on how much views or how many views or volume. But sometimes you also want specific actions to happen or specific qualities of. And we are set up to both define it, but also measure it. So we understand if the design we do actually does the right thing.",
+      "id": "ep_131_ut_81"
+    },
+    {
+      "end": 1275080,
+      "speaker": "Christian Laesser",
+      "start": 1257996,
+      "text": "So I guess the hert framework stands for happiness, for engagement, adoption, retention and task success. So the good thing there is, so you set goals. For example, we have this comment window where you can put comments in there.",
+      "id": "ep_131_ut_82"
+    },
+    {
+      "end": 1278372,
+      "speaker": "Moritz Stefaner",
+      "start": 1277060,
+      "text": "Or part of a train.",
+      "id": "ep_131_ut_83"
+    },
+    {
+      "end": 1286060,
+      "speaker": "Christian Laesser",
+      "start": 1278516,
+      "text": "So what we would like to have that we want to figure out, okay, how can we increase this engagement, right, that you put more comments in there?",
+      "id": "ep_131_ut_84"
+    },
+    {
+      "end": 1286508,
+      "speaker": "Enrico Bertini",
+      "start": 1286140,
+      "text": "Yeah.",
+      "id": "ep_131_ut_85"
+    },
+    {
+      "end": 1339558,
+      "speaker": "Christian Laesser",
+      "start": 1286564,
+      "text": "So how do you then figure out, okay, you need a signal to really count how many people doing comments. So you have the goal you want to reach, to rise engagement. You have to signal the amount of comments, maybe how many, maybe people are looking for that comment or group that comment. And then you come up with a metrics that means like per month or so. And so what we do right now is like, we had the tracking in the beginning. That means you count everything, so to say. But then for specific feature, now we go with this kind of metrics to say in the beginning of these features, we say, okay, we want to reach this. And through a certain time after, like, developing those features, we are tracking the signals and then figuring out, okay, did it work? Should we change it? And so on.",
+      "id": "ep_131_ut_86"
+    },
+    {
+      "end": 1346662,
+      "speaker": "Enrico Bertini",
+      "start": 1339614,
+      "text": "So the ultimate goal is to see if you have to make some changes in the UI to say changes we.",
+      "id": "ep_131_ut_87"
+    },
+    {
+      "end": 1348110,
+      "speaker": "Moritz Stefaner",
+      "start": 1346686,
+      "text": "Make have the right effect.",
+      "id": "ep_131_ut_88"
+    },
+    {
+      "end": 1348510,
+      "speaker": "Christian Laesser",
+      "start": 1348230,
+      "text": "Yes.",
+      "id": "ep_131_ut_89"
+    },
+    {
+      "end": 1348942,
+      "speaker": "Enrico Bertini",
+      "start": 1348550,
+      "text": "Okay.",
+      "id": "ep_131_ut_90"
+    },
+    {
+      "end": 1362450,
+      "speaker": "Moritz Stefaner",
+      "start": 1349006,
+      "text": "And it's full data inception because now we have visualizations about our visualization. So we measure how people use our visualization, showing the data recursive.",
+      "id": "ep_131_ut_91"
+    },
+    {
+      "end": 1364246,
+      "speaker": "Christian Laesser",
+      "start": 1363910,
+      "text": "Yeah.",
+      "id": "ep_131_ut_92"
+    },
+    {
+      "end": 1408760,
+      "speaker": "Christian Au",
+      "start": 1364278,
+      "text": "And always. And it's also one important part is often, oftentimes complex features are built for a very long time and then they are made available to the user. So we decided to go a very lean approach to build something very, very basic and see how they're using it. So in the context of comments or notes, we looked at what are they entering in terms of text? And then this led for us to a more like to the inside that comments are more used, like a tagging system, let's say. And this is how this very small iterations contribute a lot to the evolution of those features across the app. So not doing everything at once, but really start with the MVP and then just build it out gradually from there on.",
+      "id": "ep_131_ut_93"
+    },
+    {
+      "end": 1419596,
+      "speaker": "Enrico Bertini",
+      "start": 1409340,
+      "text": "So then the system in play is in place, people are using it, I guess, very successfully. So what's coming up next? You're still working on the project, right?",
+      "id": "ep_131_ut_94"
+    },
+    {
+      "end": 1491498,
+      "speaker": "Christian Au",
+      "start": 1419668,
+      "text": "Yeah. I mean, the exciting thing about it is this long term effort. I, there's tons of different requirements, interests and other needs to look at similar or the same kind of data or similar data, or maybe even adding contextual data to what we are doing right now around the predictions, weather events in Germany. Those things also have a great impact on how the trains are being used. And so we have this setting for further development, which is organized loosely around iterations in which we say, like, okay, we gather for like one, couple of sprints and intense further development phase for around like one, one and a half months. Then we let it sit for a while, look at how it's used, and help use this to reinform the next stage of development. And then from all times, from all sides, there are impulses coming into the team like, hey, also this would be interesting, or it could be also build this. And then we have to also see how we not let it grow to in such an extreme way that the UI system becomes incoherent and that, you know, that the user interface remains unreal.",
+      "id": "ep_131_ut_95"
+    },
+    {
+      "end": 1492322,
+      "speaker": "Enrico Bertini",
+      "start": 1491594,
+      "text": "Feature creep.",
+      "id": "ep_131_ut_96"
+    },
+    {
+      "end": 1511440,
+      "speaker": "Christian Au",
+      "start": 1492386,
+      "text": "Exactly. So we need to make sure we also transition it into a nice modular system that can handle multiple different roles and workloads and requirements to usage and still have a unique, unique and coherent design system and also visual language that is consistent across the entire.",
+      "id": "ep_131_ut_97"
+    },
+    {
+      "end": 1523932,
+      "speaker": "Enrico Bertini",
+      "start": 1518260,
+      "text": "Maybe. I guess you get requests also from your users of features that they may want to have.",
+      "id": "ep_131_ut_98"
+    },
+    {
+      "end": 1562802,
+      "speaker": "Christian Au",
+      "start": 1524076,
+      "text": "Absolutely not just the users that are related. Sometimes it's really interesting which other departments within Deutsche Bahn are getting in contact with us because they find it also useful. And these are things that we would have never been able to estimate at the beginning of the project. It's like a little wave that kind of like a little like, yeah, a chain reaction that happens there because people see it and say, oh, that would be great for what I am doing. And so there's constantly new input arriving at our desks. And it's a sometimes also a challenge, but a nice one, to have to integrate all of this into peak sporting.",
+      "id": "ep_131_ut_99"
+    },
+    {
+      "end": 1593046,
+      "speaker": "Stephan Thiel",
+      "start": 1562906,
+      "text": "Yeah, and I probably would add that at the same time, I think that some tasks change of people that are working with the tool. So that also has to be reflected in the tool. There are sometimes changes in what kind of data can be used, probably a little more precise or additional data sources. So the tool basically, I think, needs to evolve with the needs of the users. And I think that's also the challenge, to make sure that you understand which user tasks probably have to be adapted or which have to be prioritized besides the long list of requests.",
+      "id": "ep_131_ut_100"
+    },
+    {
+      "end": 1648826,
+      "speaker": "Moritz Stefaner",
+      "start": 1593118,
+      "text": "Yeah, absolutely. I mean, one thing we should also mention is that, well, we are used to building quick projects and putting them on the web or in exhibitions. You know, we're more in this realm. And now we did the first time something in. Yeah, yeah, for sure. And also it was, it worked really well for a couple of reasons. You know, we're lucky that everything came together that way to build quickly such a focused product. But now we also have the task, of course, of integrating it with the larger corporate infrastructure, fulfilling all the requirements that software, the politics and these things are not to be underestimated. And if we think about, why don't we see more of these cool, innovative solutions? I think a big part is also what needs to go around. It is much bigger than the actual, like cool visualization. And it's a whole ecosystem, actually micro ecosystem, that needs to come together.",
+      "id": "ep_131_ut_101"
+    },
+    {
+      "end": 1701440,
+      "speaker": "Christian Au",
+      "start": 1648938,
+      "text": "And for a team that is mainly consisting of trained designers who of course also know technical things very well, but it's kind of, it can also be challenging or a little bit scary if you think about the actual potential that this application could have integrating it into the live operating systems. So right now we observe data and people do actions based on what they see. But what if the actions can be done directly from within the app or even at some point automatically, because, I mean, this is sort of the entire process on the long run that we are going through, is to figure out what processes can we observe that we can automate in a certain way. But then you're starting to have an impact on the actual railway system. And it's an exciting thing for such a well designed tool to kind of grow into that role, but also it's a very high responsibility.",
+      "id": "ep_131_ut_102"
+    },
+    {
+      "end": 1711100,
+      "speaker": "Enrico Bertini",
+      "start": 1702300,
+      "text": "Yeah, I think what you are mentioning here is a very interesting aspect of how visualization can be a way to transition intermediary way to transition to more automation.",
+      "id": "ep_131_ut_103"
+    },
+    {
+      "end": 1711588,
+      "speaker": "Christian Au",
+      "start": 1711180,
+      "text": "Right.",
+      "id": "ep_131_ut_104"
+    },
+    {
+      "end": 1721396,
+      "speaker": "Enrico Bertini",
+      "start": 1711684,
+      "text": "Because you need first to understand something, and then once you understand it better, now you can automate some of it, right? Is that correct, Christian?",
+      "id": "ep_131_ut_105"
+    },
+    {
+      "end": 1848264,
+      "speaker": "Stephan Thiel",
+      "start": 1721468,
+      "text": "Yeah, absolutely. I think that what Stefan also mentioned is that data visualization can be enormously helpful in different phases of working with complex data. And so I think that really, a lot of firms, at least in Germany, have invested a lot of money in the last five to ten years, and resources in bringing together large sets of data lakes, or whatever you call them. And now they are accessible and usable for fancy algorithms. But that is something to enable really people interact with the data where you need data visualization. And in the first stage, where it's not even about decisions, it's really about understanding complexity by providing the synopsis. And the other thing is really to de average the view, right, to give you the aggregate number, but also enable you quickly to understand what are the data points behind that, which is extremely important, because if you're looking at the whole system and say, well, the average passenger load is x, that doesn't really help you. You need to understand how the spread is between the trains. And then if you move on basically into a world where you add not only, you know, you don't only have complex data, but you add some sort of, of signals to the data that people should focus on. Because by techniques like machine learning, you identify interesting points, right? Whatever interesting means. It could be like data points where out of experience you think these are trains where you should really put a focus on. Data visualization is again crucial to make sure that you can do that quickly, quick filtering signal from the noise. And I think the final transition is indeed then what? Info plus was presented by Fernanda and Martin from Google that if you are in the last phase where you have automized decisions, you need some sort of way to explain to users what happened, because, I mean, these still are, even if we don't look at decisions like, you know, the train has to start to stop here. But even revenue decisions or yield decisions, there needs to be some sort of explanation on why the system decided to do something. If you don't have that, people won't trust the system. And since the people that are responsible for that stay the same, they need some sort of help transitioning in a world where more and more algorithms really, you know, make decisions, or at least are part of the decision making.",
+      "id": "ep_131_ut_106"
+    },
+    {
+      "end": 1851712,
+      "speaker": "Enrico Bertini",
+      "start": 1848312,
+      "text": "Yeah, I guess you don't want to mess up with the railway system, right?",
+      "id": "ep_131_ut_107"
+    },
+    {
+      "end": 1855488,
+      "speaker": "Stephan Thiel",
+      "start": 1851896,
+      "text": "No. And even with the revenue side. Right. So if it's not about safety, but.",
+      "id": "ep_131_ut_108"
+    },
+    {
+      "end": 1918644,
+      "speaker": "Christian Au",
+      "start": 1855504,
+      "text": "If it's, you know, losing money, and that's what. But that was also one observation that we had in the user interviews, let's say a traffic control or something like that. There was a very human observation that I made of Deutsche Bahn because I assumed many more decisions were already kind of automated in a way. But I realized many decisions on a daily basis have to be done by humans, and they need to write that kind of information. They can make these decisions on how they want to, you know, if a train should leave earlier or wait a few minutes or something like that, they do these decisions, they make these decisions, and that's also fine. Like, if they decide it in this way, it's a very critical phase of two minutes. They decide in a certain way, that's fine. They don't get any, like, bad consequences because it's a high pressure situation, but it's a very human system. So that also changed my perspective as a traveler on this network. And imagine if you as a traveler, even get this kind of information on why something happens in the network in a certain way that would be extending, even peak spotting to the public, you.",
+      "id": "ep_131_ut_109"
+    },
+    {
+      "end": 1955900,
+      "speaker": "Stephan Thiel",
+      "start": 1918652,
+      "text": "Know, and it's actually amazing if you look at, I mean, some of the people working with the tools, they do this type of job for now, ten or 20 years. And sometimes the way that they, based on intuition, experience, make decisions is actually, well, really good, right? Amazingly well compared to what you would have if you just used an algorithm. So you also need to somehow take this knowledge and intuition and gut feeling that you probably can't even put in an algorithm and make sure that it's still accounted for, or some sort of a hybrid decision making that presents people information that the data or the algorithms come up with, but also leaves room for their decision making, a better informed decision making.",
+      "id": "ep_131_ut_110"
+    },
+    {
+      "end": 1997870,
+      "speaker": "Enrico Bertini",
+      "start": 1956310,
+      "text": "That's a very exciting conjunction between people, data, algorithms. My sense is that we're still discovering how to do that, right? Absolutely. That's one of those projects that help probably everyone understand how to do that better. I think that's another reason why it's exciting. I think another interesting aspect is that here you are innovating within a really big corporation, not corporation, organization. How do you make, how do you move steps within? I'm surprised that you managed to do something so innovative in such a big organization. How do you do that?",
+      "id": "ep_131_ut_111"
+    },
+    {
+      "end": 2000230,
+      "speaker": "Christian Au",
+      "start": 1998570,
+      "text": "You stay under the radar.",
+      "id": "ep_131_ut_112"
+    },
+    {
+      "end": 2002154,
+      "speaker": "Enrico Bertini",
+      "start": 2001130,
+      "text": "Stealth mode.",
+      "id": "ep_131_ut_113"
+    },
+    {
+      "end": 2009858,
+      "speaker": "Christian Au",
+      "start": 2002242,
+      "text": "Stealth mode. The data visualization squad comes in and stays very stealth mode.",
+      "id": "ep_131_ut_114"
+    },
+    {
+      "end": 2022280,
+      "speaker": "Enrico Bertini",
+      "start": 2009994,
+      "text": "I mean, I would love to see more projects like this blossom. Right? I mean. I mean, I would encourage our listeners, if you see any opportunity to do anything like that. I would love to see more of.",
+      "id": "ep_131_ut_115"
+    },
+    {
+      "end": 2103016,
+      "speaker": "Christian Au",
+      "start": 2022320,
+      "text": "That, because besides the design process, we can also talk about a little bit about this, but I would like to talk about the organizational aspects first. The most crucial thing is you need to have someone like Christian who knows where to get what from the organization, what kind of data, what kind of support in managing parts of the infrastructure or making sure we have a fast way through some decisions or something like that. Right. You need someone who's very, who's an ambassador within the organization, then understands the value that is about to be created and is also, frankly, being able to take on risk that is involved with this process. Because innovation is always like, I mean, in the end, it's all good. It's innovative. Yay. But it means also you can fail. Innovation is controlled failing. You try out things and they go wrong. So you need someone within the organization who acts like an ambassador and knows the organization very well and can make sure you don't get too much attention too early. You need to stay under the radar, to be left alone, to be able to get to a concrete result. And once that result is done, you show it to the organization, and then people will get all kinds of like, you will get attention, and then you have to moderate that. But before that, you will never get to that point. If you have too much attention too early in the process, that's super important.",
+      "id": "ep_131_ut_116"
+    },
+    {
+      "end": 2136802,
+      "speaker": "Stephan Thiel",
+      "start": 2103168,
+      "text": "Yeah, I think that's right. I mean, looking from the internal perspective for organization, you need some put that leg space. So that really depends on the setting if you're setting up a project like this. So in my case, basically, my boss was very willing to give us a lot of space and saying, I mean, it sounds great. Go ahead. We started actually with quite a small budget, which was very helpful because, I mean, well, it enables you to just start and then based on workshops, come up with something that is tangible and then you can create, in our case, I think, excitement and people willing to say, oh, you know, that looks interesting.",
+      "id": "ep_131_ut_117"
+    },
+    {
+      "end": 2141402,
+      "speaker": "Moritz Stefaner",
+      "start": 2136906,
+      "text": "That comes a step further, small snowball first and hopefully turns into a bigger one.",
+      "id": "ep_131_ut_118"
+    },
+    {
+      "end": 2169308,
+      "speaker": "Stephan Thiel",
+      "start": 2141506,
+      "text": "And then we had also, I mean, probably you mentioned Moritz, the pieces of the puzzle that have to come together. We had also really a good team on Deutsche Bahn of the people that were representatives of the roles that we were designing the tool for. So in all the workshops, there was always, for each role, someone who was representative, who basically tried to give feedback on what is useful, what is helpful, and was really open minded in doing that, which is needs to be there. And yeah, I think that existed in this case.",
+      "id": "ep_131_ut_119"
+    },
+    {
+      "end": 2195598,
+      "speaker": "Christian Laesser",
+      "start": 2169484,
+      "text": "I guess what I found as a designer was really great that we didn't had NDA. So to say Christian was really open and to say, hey, we put it into the light, right? We bring it to awards. We want to show it. We show what we do here. Of course we have to fake the data, but we were able to really present the tool because I guess a lot of companies doing those kinds of tools, but you don't see them.",
+      "id": "ep_131_ut_120"
+    },
+    {
+      "end": 2197530,
+      "speaker": "Enrico Bertini",
+      "start": 2195654,
+      "text": "Yeah, that's a really good point.",
+      "id": "ep_131_ut_121"
+    },
+    {
+      "end": 2203094,
+      "speaker": "Christian Laesser",
+      "start": 2198550,
+      "text": "Was really bold from you to say, hey, I show it to everybody.",
+      "id": "ep_131_ut_122"
+    },
+    {
+      "end": 2203590,
+      "speaker": "Enrico Bertini",
+      "start": 2203182,
+      "text": "Yeah.",
+      "id": "ep_131_ut_123"
+    },
+    {
+      "end": 2249838,
+      "speaker": "Stephan Thiel",
+      "start": 2203670,
+      "text": "Well, again, that's also decision in the case of Deutsche Baum, where you have to go to your boss and ask, I have to give this credit probably then to my boss back then. But yeah, I think that's probably true. Right. I was also wondering in how many cases you have these type of applications that are just not shown to the outside world because people are still, at least in Germany, very skeptical about sharing. I mean, not the real data because we're not showing the real data, but about showing these kind of tools. On the other hand, what I've also heard that people at Deutsche Bahn think it's good to share it because it also attracts talent. Right. I mean, of course it's good if you see that an organization develops innovative tools and works with certain type of technology. So that's actually something that companies should be more interested in because they want.",
+      "id": "ep_131_ut_124"
+    },
+    {
+      "end": 2256326,
+      "speaker": "Moritz Stefaner",
+      "start": 2249854,
+      "text": "To Airbnb, Salesforce, they put their tools out in the world. They know it's a proof of competence.",
+      "id": "ep_131_ut_125"
+    },
+    {
+      "end": 2263182,
+      "speaker": "Christian Au",
+      "start": 2256358,
+      "text": "Yes, exactly. But in Germany, not many corporations understand that point, especially in Germany.",
+      "id": "ep_131_ut_126"
+    },
+    {
+      "end": 2279112,
+      "speaker": "Enrico Bertini",
+      "start": 2263286,
+      "text": "Yeah, I want to see more organizations like that competing on this, designing and realizing this type of tools. It's a great, great trend. And I guess the overarching lesson learned is find good people within organizations to work with.",
+      "id": "ep_131_ut_127"
+    },
+    {
+      "end": 2299766,
+      "speaker": "Stephan Thiel",
+      "start": 2279176,
+      "text": "Well, and probably just to add the piece of the puzzle that is also important. The SWAT team. Right. So I think that we, in our case, really had a great team. I mean, looking at people sitting here at the table that came up with really great visualizations that people really liked. And of course, that's also crucial, having a really great product that depends on the experts that know what they do and can create a lot of excitement.",
+      "id": "ep_131_ut_128"
+    },
+    {
+      "end": 2306490,
+      "speaker": "Moritz Stefaner",
+      "start": 2299928,
+      "text": "But alone, it's not enough. So it's necessary, but not sufficient. That's the thing. That's the thing. Yeah.",
+      "id": "ep_131_ut_129"
+    },
+    {
+      "end": 2320186,
+      "speaker": "Enrico Bertini",
+      "start": 2306650,
+      "text": "Okay. Well, thanks so much. That's been a lot of fun interviewing you live for real. For real, yeah. Congratulations for this great project, and I'm looking forward to hearing more about what.",
+      "id": "ep_131_ut_130"
+    },
+    {
+      "end": 2321850,
+      "speaker": "Christian Au",
+      "start": 2320298,
+      "text": "Thanks so much for having us.",
+      "id": "ep_131_ut_131"
+    },
+    {
+      "end": 2322626,
+      "speaker": "Moritz Stefaner",
+      "start": 2322010,
+      "text": "Thank you.",
+      "id": "ep_131_ut_132"
+    },
+    {
+      "end": 2349886,
+      "speaker": "Enrico Bertini",
+      "start": 2322698,
+      "text": "Bye bye. Hey, folks, thanks for listening to data stories again. Before you leave a few last notes, this show is now completely crowdfunded. So you can support us by going on Patreon. That's patreon.com Datastories. And if you can spend a couple of minutes reading us on iTunes, that would be extremely helpful for the show.",
+      "id": "ep_131_ut_133"
+    },
+    {
+      "end": 2375796,
+      "speaker": "Moritz Stefaner",
+      "start": 2349958,
+      "text": "And here's also some information on the many ways you can get news directly from us. We are, of course, on twitter@twitter.com. Datastories. We have a Facebook page@Facebook.com dot all in one word. And we also have a Slack channel where you can chat with us directly. And to sign up, you can go to our homepage datastory eas, and there is a button at the bottom of the page.",
+      "id": "ep_131_ut_134"
+    },
+    {
+      "end": 2391628,
+      "speaker": "Enrico Bertini",
+      "start": 2375988,
+      "text": "And we also have an email newsletter. So if you want to get news directly into your inbox and be notified whenever we publish an episode, you can go to our home page data store and look for the link you find at the bottom in the footer.",
+      "id": "ep_131_ut_135"
+    },
+    {
+      "end": 2403828,
+      "speaker": "Moritz Stefaner",
+      "start": 2391684,
+      "text": "So one last thing we want to tell you is that we love to get in touch with our listeners, especially if you want to suggest a way to improve the show or amazing people you want us to invite or even projects you want us to talk about.",
+      "id": "ep_131_ut_136"
+    },
+    {
+      "end": 2413120,
+      "speaker": "Enrico Bertini",
+      "start": 2403964,
+      "text": "Yeah, absolutely. And don't hesitate to get in touch with us. It's always a great thing to hear from you. So see you next time, and thanks for listening today. The stories.",
+      "id": "ep_131_ut_137"
+    }
+  ],
+  "confidence": 0.928719496837663,
+  "audio_duration": 2424,
+  "punctuate": true,
+  "format_text": true,
+  "dual_channel": false,
+  "webhook_url": null,
+  "webhook_status_code": null,
+  "webhook_auth": false,
+  "webhook_auth_header_name": null,
+  "speed_boost": false,
+  "auto_highlights_result": null,
+  "auto_highlights": false,
+  "audio_start_from": null,
+  "audio_end_at": null,
+  "word_boost": [],
+  "boost_param": null,
+  "filter_profanity": false,
+  "redact_pii": false,
+  "redact_pii_audio": false,
+  "redact_pii_audio_quality": null,
+  "redact_pii_policies": null,
+  "redact_pii_sub": null,
+  "speaker_labels": true,
+  "content_safety": false,
+  "iab_categories": true,
+  "content_safety_labels": {
+    "status": "unavailable",
+    "results": [],
+    "summary": {}
+  },
+  "language_detection": false,
+  "language_detection_threshold": null,
+  "language_confidence": null,
+  "custom_spelling": null,
+  "throttled": false,
+  "auto_chapters": true,
+  "summarization": false,
+  "summary_type": null,
+  "summary_model": null,
+  "custom_topics": false,
+  "topics": [],
+  "speech_threshold": null,
+  "speech_model": "best",
+  "chapters": [
+    {
+      "summary": "New episode of Data stories features three guests. Enrico Bertini is a professor at New York University doing research in data visualization. Moritz Stefaner is an independent designer of data visualizations. Berlin is right now the center of gravity for data.",
+      "gist": "Data Stories: Peak Spotting",
+      "headline": "Data stories podcast features three guests discussing data visualization, analysis and analysis",
+      "start": 160,
+      "end": 142680,
+      "id": "ep_131_ch_0"
+    },
+    {
+      "summary": "Christian Au, Stefan Thiel and Christian Laesser here. And of course Moritz is also involved in the project. I have this funny double role that I both have guests in the moderator today. Let's see how this goes.",
+      "gist": "In the Elevator With Christian Au",
+      "headline": "Christian Au: Hi, guys. Hello. I have this funny double role today",
+      "start": 143080,
+      "end": 164980,
+      "id": "ep_131_ch_1"
+    },
+    {
+      "summary": "Christian Au has been the initiator and head of peak spotting at Deutsche Bahn. Stefan Thiel is a freelance data visualization and interaction designer based in Berlin. Number eleven of the episode.",
+      "gist": "In the Elevator With Christian Au and Stefan Thiel",
+      "headline": "Stefan Thiel is a freelance data visualization and interaction designer based in Berlin",
+      "start": 166160,
+      "end": 220898,
+      "id": "ep_131_ch_2"
+    },
+    {
+      "summary": "peak spotting helps manage the capacity of the vast German railway network. An interactive visualization software makes visible predictions of train loads 100 days into the future. It's an interactive application, has no. Speedometer, no speedometer not a dashboard.",
+      "gist": " peak spotting",
+      "headline": "Peak spotting helps manage the capacity of the vast German railway network",
+      "start": 220994,
+      "end": 420690,
+      "id": "ep_131_ch_3"
+    },
+    {
+      "summary": "Christian: The idea was actually born around Christmas 2016. More than half a million people were planning to take one of our 800 plus train services. Users wanted additional ways of working with the data that we couldn't provide with the tools that were existing back then. The project aims to make rail travel more efficient.",
+      "gist": "The passenger load management project",
+      "headline": "Christian: The project started around Christmas 2016 for Deutsche Bahn",
+      "start": 421070,
+      "end": 831072,
+      "id": "ep_131_ch_4"
+    },
+    {
+      "summary": "Moritz: We did a lot of early experiments, quick prototyping. You make sketches or you use what comes out of Tableau to get initial feedback from people. And then we went into this in a more structured production process with a larger team. That later was the basis for the production version.",
+      "gist": "Deutsche Bahn's initial design process",
+      "headline": "The SWOT team provided us with the data sets and the data samples",
+      "start": 831176,
+      "end": 1214706,
+      "id": "ep_131_ch_5"
+    },
+    {
+      "summary": "Uxmetrics is based on the Google Heart framework, which stands for happiness, for engagement, adoption, retention and task success. Small iterations contribute a lot to the evolution of those features across the app. The project is a long term effort.",
+      "gist": "How to Build a Happy User Experience with Uxmetrics",
+      "headline": "One idea that Christian also brought in that I find really exciting is uxmetrics",
+      "start": 1214858,
+      "end": 1722156,
+      "id": "ep_131_ch_6"
+    },
+    {
+      "summary": "Data visualization can be enormously helpful in different phases of working with complex data. A lot of firms have invested a lot of money in the last five to ten years in bringing together large sets of data lakes. Data visualization is crucial to make sure that you can do that quickly.",
+      "gist": "Exploring the data of the future with data visualization",
+      "headline": "Data visualization can be enormously helpful in different phases of working with complex data",
+      "start": 1722188,
+      "end": 1807486,
+      "id": "ep_131_ch_7"
+    },
+    {
+      "summary": " Info plus was presented by Fernanda and Martin from Google. If you are in the last phase where you have automized decisions, you need some sort of way to explain to users what happened. Many decisions on a daily basis have to be done by humans, and they need to write that kind of information.",
+      "gist": "The Final Transition from Human to Computational Decisions",
+      "headline": "If you have automized decisions, you need some sort of explanation",
+      "start": 1807638,
+      "end": 1976330,
+      "id": "ep_131_ch_8"
+    },
+    {
+      "summary": "I'm surprised that you managed to do something so innovative in such a big organization. How do you do that? You stay under the radar. The data visualization squad stays very stealth mode. I would love to see more projects like this blossom.",
+      "gist": "Inventing with data in a big organization",
+      "headline": "You are innovating within a really big corporation, not corporation, organization",
+      "start": 1977630,
+      "end": 2022280,
+      "id": "ep_131_ch_9"
+    },
+    {
+      "summary": "Christian: The most crucial thing is you need to have someone like Christian who knows where to get what from the organization. If you have too much attention too early in the process, that's super important. Germany is very skeptical about sharing.",
+      "gist": "The Innovation Process at Deutsche Bahn",
+      "headline": "Christian: You need someone who's an ambassador within the organization",
+      "start": 2022320,
+      "end": 2324350,
+      "id": "ep_131_ch_10"
+    },
+    {
+      "summary": "This show is now completely crowdfunded. You can support us by going on patreon. com Datastories. And here's also some information on the many ways you can get news directly from us. Don't hesitate to get in touch with us.",
+      "gist": "Data Stories",
+      "headline": "This show is now completely crowdfunded",
+      "start": 2329630,
+      "end": 2413120,
+      "id": "ep_131_ch_11"
+    }
+  ],
+  "disfluencies": false,
+  "entity_detection": false,
+  "sentiment_analysis": false,
+  "sentiment_analysis_results": null,
+  "entities": null,
+  "speakers_expected": null,
+  "summary": null,
+  "custom_topics_results": null,
+  "episode_num": 131,
+  "episode_metadata": {
+    "speakers": [
+      "Enrico Bertini",
+      "Moritz Stefaner",
+      "Christian Au",
+      "Christian Laesser",
+      "Stephan Thiel"
+    ],
+    "WPid": "1288",
+    "url": "https://datastori.es/podlove/file/5471/s/feed/c/mp3/131-peak-spotting.mp3",
+    "episode_title": "Peak Spotting"
+  }
+}

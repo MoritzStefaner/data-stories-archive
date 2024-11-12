@@ -1,0 +1,1436 @@
+{
+  "id": "f5104371-b726-4db0-b789-5b586f4b32a5",
+  "language_model": "assemblyai_default",
+  "acoustic_model": "assemblyai_default",
+  "language_code": "en_us",
+  "status": "completed",
+  "audio_url": "https://datastori.es/podlove/file/1086/s/feed/c/mp3/data-stories-57-our-world-in-data-w-max-roser.mp3",
+  "utterances": [
+    {
+      "end": 11474,
+      "speaker": "Max Roser",
+      "start": 160,
+      "text": "With quantitative information, you don't necessarily get the perception of people right. No one has like a correct worldview. But I think without this information, there is not a chance for that in the first place.",
+      "id": "ep_57_ut_0"
+    },
+    {
+      "end": 31114,
+      "speaker": "Moritz Stefaner",
+      "start": 13454,
+      "text": "This episode of data stories is sponsored by visualizing well being, the wiki Progress data visualization Contest 2015. To find out more, visit the Wiki Progress website@wikiprogress.org or their Facebook page, or you can also follow them on Twitter wikiprogress.",
+      "id": "ep_57_ut_1"
+    },
+    {
+      "end": 47794,
+      "speaker": "Enrico Bertini",
+      "start": 41494,
+      "text": "Hey everyone, data stories number 57, summer edition. It's so hot here.",
+      "id": "ep_57_ut_2"
+    },
+    {
+      "end": 56932,
+      "speaker": "Moritz Stefaner",
+      "start": 50854,
+      "text": "Actually, it's not that hot here anymore. I want to stress that it's actually quite rainy.",
+      "id": "ep_57_ut_3"
+    },
+    {
+      "end": 77184,
+      "speaker": "Enrico Bertini",
+      "start": 57108,
+      "text": "Yeah, well, it's expected, for the record. So let's go straight to our guest today because we have enough weather. It's hot here and cold there. We have Max Roser from University of Oxford. Hi Max, how are you?",
+      "id": "ep_57_ut_4"
+    },
+    {
+      "end": 79180,
+      "speaker": "Max Roser",
+      "start": 77684,
+      "text": "Hi, Enrico. Very good.",
+      "id": "ep_57_ut_5"
+    },
+    {
+      "end": 138284,
+      "speaker": "Enrico Bertini",
+      "start": 79292,
+      "text": "So we invited Max. He has a very interesting project. He's an economist from University of Oxford, and he has a project called our World in data. And he collects information about human developments on social, economic and environmental history of human beings, and trying to present these things in very nice crafted website with visualizations and try to tell stories about how humans have evolved during the last centuries, I guess maybe even longer than that. And that's very interesting. So we want to talk about how he does that. What are the goals of this project, how to find data and many other related topics. So, Max, do you want to introduce yourself briefly to tell about what's your background, what you're trying to do, and maybe we can dive into your projects?",
+      "id": "ep_57_ut_6"
+    },
+    {
+      "end": 181774,
+      "speaker": "Max Roser",
+      "start": 140344,
+      "text": "Yeah. Well, as you said, I'm an economist here at the university. My actuarial research is on, on economic inequality. Shouldn't say my actual research, right. This is also part of the work that I'm doing here. But the stuff that ends up in academic papers is an economic inequality. And my background is in economics. And when I studied philosophy, that is really far away from data visualization. But I guess at least the interest in human development and the kind of questions of what matters for a good life, what matters for a good society have some relevance in this background as well.",
+      "id": "ep_57_ut_7"
+    },
+    {
+      "end": 194094,
+      "speaker": "Enrico Bertini",
+      "start": 182154,
+      "text": "Nice. So can you tell us a little bit about your project, our world in data, what it is about, what you're trying to do there?",
+      "id": "ep_57_ut_8"
+    },
+    {
+      "end": 261614,
+      "speaker": "Max Roser",
+      "start": 194834,
+      "text": "Sure. The idea is to give a very long term overview of human development and to show how we got to where we are right now. So to take each aspect that matters for our life, poverty, violence, education, wars, global health, and to go back to the academic literature and to pull out the data that is out there. That is out there and produced by amazing researchers around the world, but then is kind of published often enough in an obscure journal that is only available and known really to very specialized audience in that field. And the idea is to bring it out of this world and to graphically show what the long term trends are and present all of that on a website that is open access and heavy on data visualization so that everyone can understand what is going on there.",
+      "id": "ep_57_ut_9"
+    },
+    {
+      "end": 266102,
+      "speaker": "Moritz Stefaner",
+      "start": 261774,
+      "text": "It reminded me quite a bit of we had this big school atlas. Do you know Dirk as welt atlas?",
+      "id": "ep_57_ut_10"
+    },
+    {
+      "end": 268310,
+      "speaker": "Max Roser",
+      "start": 266158,
+      "text": "Probably, exactly, yeah.",
+      "id": "ep_57_ut_11"
+    },
+    {
+      "end": 287548,
+      "speaker": "Moritz Stefaner",
+      "start": 268462,
+      "text": "And so it's like 100 pages or so, a big geographic, but also like political, all the natural reasons, resources of the world, migration, you know, like it's this atlas of the world, but it's mostly map based. But your project is like an atlas, I think, but data atlas. Is that a fair description?",
+      "id": "ep_57_ut_12"
+    },
+    {
+      "end": 312982,
+      "speaker": "Max Roser",
+      "start": 287716,
+      "text": "No, it is a fair description. Like, I think I was even at school, I was kind of surprised why people didn't find these atlases more interesting. I think they're really fascinating things. Right? And then you, then you're just like, you treat them not really well, throw them around and forget about them afterwards. But they're actually amazing publications and often beautiful data visualizations, right?",
+      "id": "ep_57_ut_13"
+    },
+    {
+      "end": 313446,
+      "speaker": "Enrico Bertini",
+      "start": 313078,
+      "text": "Yeah.",
+      "id": "ep_57_ut_14"
+    },
+    {
+      "end": 327674,
+      "speaker": "Max Roser",
+      "start": 313510,
+      "text": "So it's something like an historical atlas or so if you want. Yeah, it's like an atlas. It's like a museum in some respect as well, right? A graphical display of how the past led us to where we are now.",
+      "id": "ep_57_ut_15"
+    },
+    {
+      "end": 336694,
+      "speaker": "Enrico Bertini",
+      "start": 327814,
+      "text": "Can you give us some examples of the web pages, projects and visualizations that you created?",
+      "id": "ep_57_ut_16"
+    },
+    {
+      "end": 477480,
+      "speaker": "Max Roser",
+      "start": 338914,
+      "text": "Sure. It's just a question where to start. One topic that I often like to present in presentations is, I guess, violence and war. It's just fascinating how much we actually know and how good the data often is in this field. So we have, for example, very good data on homicides. We can go really far back and have some idea of the levels of violence, even in prehistoric societies, because archaeologists go out and look at graves and bodies of people who died tens of thousands of years ago and try to figure out basically in a CSI way, what the cause of death for these guys were. And based on these records, you have some historical estimates what the level of human violence was in the distant past. And then it's kind of my job to go through each of these publications. I did this, I guess, last spring or so, where I was reading all of these archaeology papers, trying to dig out the information on how many people died in due to the violence of their contemporaries and present that then visually, that's one example. But then you can go, even you can go a bit closer to where we are now. And you look at the records of homicides that, at least for European countries, is often surprisingly good. There's a criminologist at Cambridge University, Manuel Eisner, who stitched all that data from the records together to present time series over the last seven centuries. So you can go all the way back to prehistory, and then it takes you closer to where we are today. And then, of course, for the last decades and years, we have data from the statistical offices that presents much better information, much more reliable information. But the idea is always to bring all of that together in one place.",
+      "id": "ep_57_ut_17"
+    },
+    {
+      "end": 482524,
+      "speaker": "Moritz Stefaner",
+      "start": 477632,
+      "text": "And what's the big picture when we look at homicides? Has it become better or worse?",
+      "id": "ep_57_ut_18"
+    },
+    {
+      "end": 532362,
+      "speaker": "Max Roser",
+      "start": 484184,
+      "text": "Well, human violence, it might be surprising. It is surprising to a lot of people that I tell this to is way lower than it was in the past. So from all of the evidence that we have, and there's, of course, a fascinating book by Steven Pinker, which is called the better angels of our nature, the empirical evidence that we have suggests that this is the most peaceful time in our species existence. This is not to say that we should be, I don't know, content with the current situation and sit back and congratulate ourselves and pat ourselves on the shoulder. It's just showing where we are relative to the past. It is not making a strong point that we are already there where we want to be.",
+      "id": "ep_57_ut_19"
+    },
+    {
+      "end": 546554,
+      "speaker": "Moritz Stefaner",
+      "start": 532548,
+      "text": "Yeah, but it's something that doesn't match. Like the common intuition that everything is getting worse and, you know, gun deaths and violence and wars everywhere. You know, you just need to switch on the tv and you see some bombs.",
+      "id": "ep_57_ut_20"
+    },
+    {
+      "end": 547534,
+      "speaker": "Max Roser",
+      "start": 547014,
+      "text": "Exactly.",
+      "id": "ep_57_ut_21"
+    },
+    {
+      "end": 561492,
+      "speaker": "Moritz Stefaner",
+      "start": 547574,
+      "text": "Falling somewhere. Right. And I discussed the Pinker book with a few people, and basically nobody believes it. Everybody seems like, ah, these numbers, they must be made up. Or he's using that specific subset of data that proves his point, but.",
+      "id": "ep_57_ut_22"
+    },
+    {
+      "end": 563624,
+      "speaker": "Max Roser",
+      "start": 561598,
+      "text": "Exactly. Everybody knows the Indians.",
+      "id": "ep_57_ut_23"
+    },
+    {
+      "end": 576192,
+      "speaker": "Moritz Stefaner",
+      "start": 563664,
+      "text": "They were super living in harmony. And the Native Americans. Then you look at these numbers, and you're like, oh, my God. A third of them died in wars or by being killed by their neighbors, basically.",
+      "id": "ep_57_ut_24"
+    },
+    {
+      "end": 666456,
+      "speaker": "Max Roser",
+      "start": 576368,
+      "text": "Exactly. You have this very strong feeling. A lot of people have this very strong feeling of nostalgia for a more harmonious, more quiet, more peaceful past. But the actual empirical record shows that this is really nothing but nostalgia, and it's nothing new. Right. I think the media is partly to blame for that, because the focus is very much on negative events. And it is not presenting the kind of research that, for example, Manuel Eisner is putting out. But it is something that predates modern media by centuries or millennia. If you go back to our religious tests texts, if you go back to the Bible, you have the same kind of idea of like a peaceful past in the Garden of Eden and then the destruction of that once harmonious place. And in the future, Armageddon is waiting for us. It's a very common theme in a lot of these ancient views on world history. The Greeks had the idea of the golden age. The Indians have similar ideas. I guess even if you go to the Lord of the Rings. Right, you have this kind of idea that it is just a very deep seated belief in people, that the past was more harmonious.",
+      "id": "ep_57_ut_25"
+    },
+    {
+      "end": 706172,
+      "speaker": "Enrico Bertini",
+      "start": 666600,
+      "text": "Yeah. I think flipping through the pages of your website, such a refreshing experience compared to what you get from, let's say, standard media. It's in stark contrast with what you get from the standard media. So it's really nice. And I think you have several of these presentations of web pages where you basically, the basic message behind that is very positive in many, many cases. I guess it's not just about violence. There are many things that are going better. Right? At least looking at the data.",
+      "id": "ep_57_ut_26"
+    },
+    {
+      "end": 713584,
+      "speaker": "Max Roser",
+      "start": 706348,
+      "text": "Exactly. Yeah. Well, at least looking at data, that's the kind of thing where we know something about how things are changing.",
+      "id": "ep_57_ut_27"
+    },
+    {
+      "end": 760982,
+      "speaker": "Enrico Bertini",
+      "start": 714204,
+      "text": "Well, I think this is what is interesting here, and I would love to discuss more because I think in the podcast, we've been discussing with a lot of people about the value of data and. Yeah, I mean, discussing something using data as evidence and assuming that data is a stronger argument compared to other ways of putting forward an argument is something that we discussed several times. And I think here is also interesting because I think in your case, you are, the basic assumption is that what you are, I mean, the messages that you are delivering through your projects are totally based on data. Right?",
+      "id": "ep_57_ut_28"
+    },
+    {
+      "end": 823704,
+      "speaker": "Max Roser",
+      "start": 761158,
+      "text": "That's true. But I think, I mean, on the website, I'm trying to bring text and data together so you get some background information on how reliable this data is and what the data quality actually is. I think that's something that is different from a lot of other sources on human development, where you have one individual visualization that shows you some trend, but you have no idea where this measure actually comes from, or maybe just a reference to the source, but not a real discussion on how reliable this information actually is and what the limitations of the data reliability is in the project. I'm trying to put both together the quantitative information and a qualitative text that give some perspective on how good this data is actually measuring what we are interested in.",
+      "id": "ep_57_ut_29"
+    },
+    {
+      "end": 856906,
+      "speaker": "Moritz Stefaner",
+      "start": 824164,
+      "text": "Yeah, I agree. So, probably the best way to look at it is really as one of these subpages, like on world population growth, or human height, or topic pages, where you introduce a topic, then you have a series of charts. They're all sourced. Where does the data come from? How can I cite this article? There's external links to the papers. So the findings or the datasets you present are always embedded in this context of interpretation, right?",
+      "id": "ep_57_ut_30"
+    },
+    {
+      "end": 884664,
+      "speaker": "Max Roser",
+      "start": 857050,
+      "text": "Exactly. And for example, like you mentioned, the one on world population, and for the long term trends on world population, we have some estimates, but they are like, there's quite a big disagreement when we go a couple of centuries back. And what I try to do then is to just present all of the data that we have so that the reader has an idea of the range of uncertainty that is associated with these estimates.",
+      "id": "ep_57_ut_31"
+    },
+    {
+      "end": 926284,
+      "speaker": "Moritz Stefaner",
+      "start": 885124,
+      "text": "Can we talk a bit about curation? So what's your criterion for including a dataset? Is it like, are you looking for, let's say, world population? Are you looking for completeness? Or are you looking for something surprising? Does it need to support your basic message that the world is becoming a better place? What if the data shows it's actually becoming just an okay place? Or like a so so place? Like, where do you draw the border? Or like, have you excluded datasets because you felt like they were not interesting or fishy, or don't support your message? Like, what's your inclusion criteria?",
+      "id": "ep_57_ut_32"
+    },
+    {
+      "end": 973828,
+      "speaker": "Max Roser",
+      "start": 927184,
+      "text": "I mean, there are many aspects. There are many aspects where things are not improving or actually getting worse, and then they're also shown there. It's not just showing trends that are getting. Like, where things are getting better. My own research topic, economic inequality, is one aspect where in some countries, things are getting much worse. In the US, incomes for the bottom 50, 60% of the population are stagnating while the gains are going to the top. And then this evidence is also shown on the website, or one of the more recent ones is the entry on suicides, where there's also no clear trend into either direction. There's very different trends in different countries.",
+      "id": "ep_57_ut_33"
+    },
+    {
+      "end": 977984,
+      "speaker": "Moritz Stefaner",
+      "start": 973916,
+      "text": "So you also publish bad news? I was just wanted to make sure.",
+      "id": "ep_57_ut_34"
+    },
+    {
+      "end": 1013284,
+      "speaker": "Max Roser",
+      "start": 979244,
+      "text": "Of course, yes. It is like, it includes quite a lot of bad news. And even with these trends on homicides and wars that we mentioned before, violence is still very high, right? We had these discussions over the last years also, particularly in the US. But violence level in. In many countries are still very high, and then this is also presented. It's just about the direction of change. It is not about whether we should be complacent and sit back and do nothing.",
+      "id": "ep_57_ut_35"
+    },
+    {
+      "end": 1018364,
+      "speaker": "Moritz Stefaner",
+      "start": 1014104,
+      "text": "So what other criteria do you have for including or not including your data set?",
+      "id": "ep_57_ut_36"
+    },
+    {
+      "end": 1130394,
+      "speaker": "Max Roser",
+      "start": 1019144,
+      "text": "I guess one fundamental criterion is that I want to show the development until now or until very recently. So I don't include stuff that is just of historic interest. That is something that is kind of left out. And then I'm mostly relying on the experts in each field. So I'm always trying to connect with researchers who are experts on the topics that I don't know so much about and get their assessment on which data is reliable. Like, I read the review articles by experts in the field that make recommendations of which data sources to choose. And this is then also shown on the website, so that other people who are interested in data visualization can then go to the website and have an idea of what actual reliable data is and what is maybe considered less good news, because often you have these conflicts. Some data sets try to maximize coverage both in the time dimension and in the geographical dimension, but that often comes at the cost of having less reliable data. For example, economic inequality often has that problem. There are estimates where you can't really compare the differences between countries because one is measuring actually income inequality, where the other one is actually measuring consumption inequality, and then they're both presented as. As economic inequality. And you have to go back to the literature to find out what these problems are with different data sets.",
+      "id": "ep_57_ut_37"
+    },
+    {
+      "end": 1138194,
+      "speaker": "Moritz Stefaner",
+      "start": 1132734,
+      "text": "So much of this data is country based, but then countries split up and merge.",
+      "id": "ep_57_ut_38"
+    },
+    {
+      "end": 1140234,
+      "speaker": "Max Roser",
+      "start": 1139494,
+      "text": "True.",
+      "id": "ep_57_ut_39"
+    },
+    {
+      "end": 1147724,
+      "speaker": "Moritz Stefaner",
+      "start": 1141334,
+      "text": "So anything that goes back ten or 20 years is usually huge problem, right? It's like, what's your experience there?",
+      "id": "ep_57_ut_40"
+    },
+    {
+      "end": 1176878,
+      "speaker": "Max Roser",
+      "start": 1148864,
+      "text": "True, it's not easy. But then, on the other hand, there are actually a lot of researchers who spend their lives kind of solving these problems, right? So we can actually rely on the work of these guys, and they have thought about these problems often and did great jobs, often to, by stitching together data, different data sources, and getting rid of the problems.",
+      "id": "ep_57_ut_41"
+    },
+    {
+      "end": 1196034,
+      "speaker": "Enrico Bertini",
+      "start": 1177006,
+      "text": "So can you describe how you go about finding this data set and creating a new project? So do you start from the idea, then you, let's say, read the papers and then search for the data sets? I'm just, how does this work?",
+      "id": "ep_57_ut_42"
+    },
+    {
+      "end": 1214694,
+      "speaker": "Max Roser",
+      "start": 1196994,
+      "text": "Like, what I actually like, what I did over the last couple of years, it started as a kind of book project and was just gathering data for that book. And this data gathering got a bit out of hands and led to this web project.",
+      "id": "ep_57_ut_43"
+    },
+    {
+      "end": 1219538,
+      "speaker": "Moritz Stefaner",
+      "start": 1216234,
+      "text": "So you only made the website to avoid writing a book, is that correct?",
+      "id": "ep_57_ut_44"
+    },
+    {
+      "end": 1223934,
+      "speaker": "Max Roser",
+      "start": 1219666,
+      "text": "Yeah. Four years of procrastination. Exactly, yeah.",
+      "id": "ep_57_ut_45"
+    },
+    {
+      "end": 1228454,
+      "speaker": "Moritz Stefaner",
+      "start": 1225954,
+      "text": "Very productive way of not writing a book.",
+      "id": "ep_57_ut_46"
+    },
+    {
+      "end": 1243514,
+      "speaker": "Max Roser",
+      "start": 1231714,
+      "text": "So I have this small software that I actually like a lot. It has a weird name. It's called Circus Ponies notebook. I'm not sure if you guys have heard of that before.",
+      "id": "ep_57_ut_47"
+    },
+    {
+      "end": 1244414,
+      "speaker": "Enrico Bertini",
+      "start": 1243594,
+      "text": "Say it again.",
+      "id": "ep_57_ut_48"
+    },
+    {
+      "end": 1336714,
+      "speaker": "Max Roser",
+      "start": 1245074,
+      "text": "It's called notebook, and it's from a software company that is called circus Ponies. I like this thing a lot. It's just a note taking software, kind of, and you can have one book of notes, and in this different notes, you can add different pages. And then I have, I think now it's like 600 pages or something on 600 topics where just whenever I come across some interesting research paper, I just throw it into this notebook. You can store PDF's there, you can store images there. And so this notebook is kind of my, my offline version of this, our world and data project and stuff that I come across on Twitter and stuff that I come across in presentations is all going into that one. And then when I start writing a project, I have a kind of base to go about drafting the data entry. And then I mostly start with the really boring task of cataloguing all of the data sources that are out there. So, for example, on inequality, it's probably like twelve different data sources. And I go describe which countries are included, what is the time coverage, which measures are included, what do other researchers say about these data sources? Who is using these kind of data sources? And that is all also on the web. So if someone like, I'm hopefully saving someone else's boring 5 hours or so.",
+      "id": "ep_57_ut_49"
+    },
+    {
+      "end": 1340962,
+      "speaker": "Moritz Stefaner",
+      "start": 1336874,
+      "text": "By going through these data sources, basically data librarianship, right?",
+      "id": "ep_57_ut_50"
+    },
+    {
+      "end": 1341734,
+      "speaker": "Enrico Bertini",
+      "start": 1341058,
+      "text": "Yeah.",
+      "id": "ep_57_ut_51"
+    },
+    {
+      "end": 1345730,
+      "speaker": "Moritz Stefaner",
+      "start": 1342754,
+      "text": "Everything's like annotated properly and.",
+      "id": "ep_57_ut_52"
+    },
+    {
+      "end": 1347098,
+      "speaker": "Max Roser",
+      "start": 1345922,
+      "text": "Exactly, yeah.",
+      "id": "ep_57_ut_53"
+    },
+    {
+      "end": 1365524,
+      "speaker": "Moritz Stefaner",
+      "start": 1347266,
+      "text": "So most super important. I agree. It's so often I see some chart and I think like, yeah, well, I can't really see the data. I don't really know where it's coming from. You know, it could be any, any chart here, you know? So if you're really serious about the content of the chart, you want to be able to follow up on the data, right?",
+      "id": "ep_57_ut_54"
+    },
+    {
+      "end": 1409374,
+      "speaker": "Max Roser",
+      "start": 1365824,
+      "text": "Exactly. Yeah. And I guess also a problem, right? Like some of these data visualizations that float around are really beautiful, but then not very reliable. Right. And just because it is a bit weird, I mean, you guys know that better than anyone, but people have a lot of trust as soon as it is data and as soon as it is visualized, right. We actually have a kind of extra responsibility just because people trust these data visualizations so very much more than text for some reason. And yeah, this is then discussed in this data section in each data entry on the website.",
+      "id": "ep_57_ut_55"
+    },
+    {
+      "end": 1420404,
+      "speaker": "Moritz Stefaner",
+      "start": 1410314,
+      "text": "And just very practically speaking, how do you go from a note to putting it on the web? How did you, how did you set up the technical system to be able to publish so much data?",
+      "id": "ep_57_ut_56"
+    },
+    {
+      "end": 1492064,
+      "speaker": "Max Roser",
+      "start": 1422544,
+      "text": "Well, I really have not a strong background in this field, so I started very small just with one of these hosted WordPress.com accounts and then at some point switched over to one that I host myself. But it's still based on WordPress, which to me this was all very foreign territory. But the web is so very useful in making it easy to get started there. It is really not magic. You can build it slowly from something small. At some point I got a bit more interested in it and then switched from static visualizations to something with these Google charts at some point that they are maybe not that beautiful, I'm not a huge fan of them. And then switched to D3 and JavaScript and build it on top of this technology.",
+      "id": "ep_57_ut_57"
+    },
+    {
+      "end": 1497476,
+      "speaker": "Moritz Stefaner",
+      "start": 1492364,
+      "text": "But you started very simple like hosted WordPress with mostly static images.",
+      "id": "ep_57_ut_58"
+    },
+    {
+      "end": 1499144,
+      "speaker": "Max Roser",
+      "start": 1497580,
+      "text": "Right, exactly.",
+      "id": "ep_57_ut_59"
+    },
+    {
+      "end": 1507984,
+      "speaker": "Moritz Stefaner",
+      "start": 1499644,
+      "text": "Into it and text. And with each, every time you would work on it, you continue to refine your techniques and learn new stuff.",
+      "id": "ep_57_ut_60"
+    },
+    {
+      "end": 1526834,
+      "speaker": "Max Roser",
+      "start": 1508394,
+      "text": "Exactly. That is how it happened. I mean the beginning was just that I used other people's data visualizations and copy pasted it on the web around a common theme or topic and slowly build it from there. Cool.",
+      "id": "ep_57_ut_61"
+    },
+    {
+      "end": 1561164,
+      "speaker": "Moritz Stefaner",
+      "start": 1526874,
+      "text": "I think that's kind of amazing because it's not your area of expertise, but you're just driven by this idea that you want to set up the site with all this cool data that, yeah, that you actually like now have this huge repository of like adaptive charts and like they have like a coherent style and a recurring system how they are presented. And I think it's really cool that you as an amateur, let's say, in this field, yeah, sure, yeah, surely a professional. But in this field, absolutely. You started off as an amateur and now you can build this huge atlas. I think that's kind of cool.",
+      "id": "ep_57_ut_62"
+    },
+    {
+      "end": 1588642,
+      "speaker": "Max Roser",
+      "start": 1561284,
+      "text": "Yeah, but it's this whole, I mean it is just a very kind of supportive community, this data visualization community, right. Put up like, I mean, like this was all like how much time people spend on helping each other on forums. That is like for, for an economist, this is kind of hard to understand. People put in so much, so much work. Right. It's amazing.",
+      "id": "ep_57_ut_63"
+    },
+    {
+      "end": 1597026,
+      "speaker": "Moritz Stefaner",
+      "start": 1588738,
+      "text": "And of course D3 lives from this example culture. And see, I built something here. You can take it. And. And this is all there, right?",
+      "id": "ep_57_ut_64"
+    },
+    {
+      "end": 1615414,
+      "speaker": "Max Roser",
+      "start": 1597090,
+      "text": "Yeah, exactly. There are free books. Right. When you mentioned D3, one of the books that helped me a lot was Scott Murray's book on D3, and it's just available for free on the web, and you can just work through the book yourself.",
+      "id": "ep_57_ut_65"
+    },
+    {
+      "end": 1618946,
+      "speaker": "Moritz Stefaner",
+      "start": 1616314,
+      "text": "Yeah, yeah, that's a great one.",
+      "id": "ep_57_ut_66"
+    },
+    {
+      "end": 1724064,
+      "speaker": "Enrico Bertini",
+      "start": 1619130,
+      "text": "Yeah. I also like a lot the. The style that you have, the presentation style that you have right now, that it's basically some sort of PowerPoint slide deck or something like this. But I really like the way you implemented it because there's not too much to read, but I think you are using words in a clever way. It's just enough to understand exactly what you are watching, but also very careful because you have data sources, you have notes, so you also provide legends to make sure that people know how to interpret what they are seeing. And I think what is really interesting is also you have a very nice narrative because some of the slide decks are, what, up to 20 or even more slides, and I never got lost. I really like it. You have a very nice narrative. So do you have. Does this just come natural to you or you have any, I don't know, techniques or strategies on how to create this nice narrative? I'm asking because I think this is an aspect of visualization that people don't appreciate enough. And also, there are not a lot of guidelines on how to do this properly, but in the end, this counts almost as much as the encoding itself. Right. So I believe that we have an obsession for encoding, and we tend to forget about all the rest. Right. But all the rest, it's super important. Right. And in this case, I think narrative is a huge aspect of what you are doing. So, yeah.",
+      "id": "ep_57_ut_67"
+    },
+    {
+      "end": 1808794,
+      "speaker": "Max Roser",
+      "start": 1725764,
+      "text": "I'm not quite sure how to answer that. Like, in these presentations, like, the aspect that we talked about before is these data entries that are much more detailed and kind of. Much more academic treatments of very individual topics. And then I have these presentations that cut across these different topics and bring them in perspective. So there's one on violence that takes you all from the archaeological evidence that we talked about in the beginning to war deaths today. And it's, I don't know, like, maybe it's like I give quite a lot of talks and maybe it's a bit based on the experience from what works in a presentation. I guess that's some kind of writing advice that a lot of people give. Right. Like you should imagine just telling the story to someone else, and then things fall into places and you write it up in the way that you would explain it to someone who you respect. And maybe this kind of. Maybe these many presentations that I give on the topic make it possible to give the presentation some kind of narrative. I'm not sure if I have more advice.",
+      "id": "ep_57_ut_68"
+    },
+    {
+      "end": 1823264,
+      "speaker": "Enrico Bertini",
+      "start": 1809654,
+      "text": "Yeah, but are you actually using these same set of slides in your talks, or when you create these ones, you are specifically thinking about a different way to consume that?",
+      "id": "ep_57_ut_69"
+    },
+    {
+      "end": 1843094,
+      "speaker": "Max Roser",
+      "start": 1824164,
+      "text": "No, it's true. The ones that are on the web, they should be understandable without any explanation added to them. So it's always a visualization in the center of each slide and a bit of text that links them together and that puts them in context.",
+      "id": "ep_57_ut_70"
+    },
+    {
+      "end": 1846834,
+      "speaker": "Enrico Bertini",
+      "start": 1843214,
+      "text": "And do you ever test them before publishing?",
+      "id": "ep_57_ut_71"
+    },
+    {
+      "end": 1874534,
+      "speaker": "Max Roser",
+      "start": 1850374,
+      "text": "I discuss it a lot with colleagues here. That's kind of the only testing, I guess I do. And then that's the nice thing about publishing something on the web. You can just change it once you realize that it doesn't work. That's another aspect where the web is helpful, that you get a lot of feedback and people tell you when they're not happy with something or when they don't understand something.",
+      "id": "ep_57_ut_72"
+    },
+    {
+      "end": 1887534,
+      "speaker": "Moritz Stefaner",
+      "start": 1874834,
+      "text": "Yeah. You're also quite active on Twitter. You have lots of followers and you post a lot of charts. And I think I also witnessed a few discussions, like when you post something and then people might start a fight about it or point out errors.",
+      "id": "ep_57_ut_73"
+    },
+    {
+      "end": 1889026,
+      "speaker": "Max Roser",
+      "start": 1887874,
+      "text": "Yeah, yeah, of course.",
+      "id": "ep_57_ut_74"
+    },
+    {
+      "end": 1895658,
+      "speaker": "Moritz Stefaner",
+      "start": 1889170,
+      "text": "And I think that's a nice way of self correcting in a way. Just like pushing it out and then see what happens.",
+      "id": "ep_57_ut_75"
+    },
+    {
+      "end": 1940976,
+      "speaker": "Max Roser",
+      "start": 1895746,
+      "text": "Right, exactly. This works on Twitter really nicely, and it also works on the website itself, where you have a feedback button and people get back to me. And then it's often the aspect that helps me a lot is that you present the research that some researcher really cares about a lot, and by making it available to a larger audience, they get very excited often and are very supportive in supporting this whole project. Right. That's quite nice that you can kind of build a community there on Twitter.",
+      "id": "ep_57_ut_76"
+    },
+    {
+      "end": 1974538,
+      "speaker": "Moritz Stefaner",
+      "start": 1941080,
+      "text": "I'd like to get back to one point you mentioned before, you just said it in passing, but you said your actual research is about income inequality. I was wondering, like, the thing you do here, is it a spare time project or is it like half hobby, half supporting your research, or is it part of your research job? What's the reception in the academic world, the project you do like, how is it perceived? I'm asking basically for Enrico because he has the same problem with blogging.",
+      "id": "ep_57_ut_77"
+    },
+    {
+      "end": 1977472,
+      "speaker": "Enrico Bertini",
+      "start": 1974666,
+      "text": "That's what I was going to say.",
+      "id": "ep_57_ut_78"
+    },
+    {
+      "end": 1986684,
+      "speaker": "Moritz Stefaner",
+      "start": 1977628,
+      "text": "But in academia, do people see that as an interesting hobby to have, or is it actually valued and respected? What's your perception?",
+      "id": "ep_57_ut_79"
+    },
+    {
+      "end": 2026234,
+      "speaker": "Max Roser",
+      "start": 1986984,
+      "text": "Well, it definitely started as a kind of hobby. I started it four years ago or so, and then I just did it in my spare time in the evenings or so. But this is fortunately not the case anymore since basically this year, last year we applied for a grant and I have a small research grant now for 2015. So now it is taking up maybe half of my time at the university. So half of the time I'm doing economic inequality, half of the time I'm doing this.",
+      "id": "ep_57_ut_80"
+    },
+    {
+      "end": 2039884,
+      "speaker": "Moritz Stefaner",
+      "start": 2026574,
+      "text": "But you have to bootstrap that on your own time, basically in the first few years, prove that it's interesting, and built the foundation without any funding or any institutional help, more or less.",
+      "id": "ep_57_ut_81"
+    },
+    {
+      "end": 2097409,
+      "speaker": "Max Roser",
+      "start": 2040704,
+      "text": "It slowly got better. It's definitely better this year. But the situation was also kind of improving over the last year. Some people at the university were super supportive of it. The guy that I'm working most closely with, like two people, Tony Atkinson and David Hendry, two senior economists here at the university, they very much saw the need for this kind of project. Generally, it is often, I mean, some people don't appreciate it much. Like particularly in economics, it is very much, the culture is very much focused on publishing in very few specific journals and getting publications there. This is what gets you tenure and this is what gets you at a good university. And they don't care much for this kind of project, but, well, I guess that's always the case, right?",
+      "id": "ep_57_ut_82"
+    },
+    {
+      "end": 2112385,
+      "speaker": "Moritz Stefaner",
+      "start": 2097601,
+      "text": "So it's not a traditional publication, it's not a textbook either or. It's not like purely educational. You know, you don't really know what it is. It's like, it's a new thing and so. Exactly, it falls fit into existing categories of what gets funded.",
+      "id": "ep_57_ut_83"
+    },
+    {
+      "end": 2112569,
+      "speaker": "Max Roser",
+      "start": 2112409,
+      "text": "Right?",
+      "id": "ep_57_ut_84"
+    },
+    {
+      "end": 2122468,
+      "speaker": "Moritz Stefaner",
+      "start": 2112601,
+      "text": "So I think it would be hard to just, with this idea to build this website to get funding that from traditional research and funders. Right? Is that true?",
+      "id": "ep_57_ut_85"
+    },
+    {
+      "end": 2151116,
+      "speaker": "Max Roser",
+      "start": 2122596,
+      "text": "Yeah, that's very much true, unfortunately. I mean, like now we have this grant from the Nafil foundation in London, and they are very supportive of it, but generally it is research goes into kind of primary research, where you come up with actually new research. And this project is more about communicating research. And I don't really get it. I think, like there should be research for this. Kind of like a third of the.",
+      "id": "ep_57_ut_86"
+    },
+    {
+      "end": 2157156,
+      "speaker": "Moritz Stefaner",
+      "start": 2151140,
+      "text": "Money should directly go into communicating existing stuff. Right. That's like my perception.",
+      "id": "ep_57_ut_87"
+    },
+    {
+      "end": 2200884,
+      "speaker": "Max Roser",
+      "start": 2157300,
+      "text": "I would think so. Like it is, it is sad, right? Like these, like there are people who spend their lives doing amazing research at the universities, and then it doesn't get communicated. Like, one study last year from is super interesting. There was a study by the World bank where they looked at their own World bank policy reports and they looked at who is actually reading that kind of stuff that they're getting out there, and they found that 31%, like a third of their reports, was never downloaded even once. It's absurd. You spend so much time on this research and then it just lies around on some server.",
+      "id": "ep_57_ut_88"
+    },
+    {
+      "end": 2276954,
+      "speaker": "Enrico Bertini",
+      "start": 2201574,
+      "text": "No, I guess that's a huge problem. And I'm happy that you mentioned it because it's probably true in many other areas of science and research. Right? And, yeah, I don't know, we need a few hundreds or thousands max rosers for every area of research. Right. So I think in the past, me and Moritz discussed quite a few times climate science, which is another area that is really important for humans. Right. And there's lots of research and there are also a lot of failed attempts to, in my opinion, to communicate this research to the population at large. And you could say the same for, I don't know, healthcare or, I don't know, security and many other areas. So true. I mean, there are lots of researchers, lots of interesting research out there, but not a lot of, or enough people taking the lead or responsibility to take this information and put it in a way, first of all, making it accessible and then proposing it in a way that people can easily consume it, the same way you are doing with your project.",
+      "id": "ep_57_ut_89"
+    },
+    {
+      "end": 2301906,
+      "speaker": "Max Roser",
+      "start": 2279834,
+      "text": "Like when the website. I'm always taking the long term view, so I might as well take the long term view now. And I guess if we look back over the last two decades or so, I think things are changing in the right direction. Right. Like the whole blog culture, Twitter that you mentioned before is making it much easier to follow what is actually happening in universities. I mean, I was.",
+      "id": "ep_57_ut_90"
+    },
+    {
+      "end": 2303242,
+      "speaker": "Enrico Bertini",
+      "start": 2301930,
+      "text": "Yeah, yeah, yeah. Absolutely.",
+      "id": "ep_57_ut_91"
+    },
+    {
+      "end": 2320744,
+      "speaker": "Max Roser",
+      "start": 2303418,
+      "text": "Right. Like, this is something that is new and. Or like, I mean, TED talks and these kind of things where researchers have an audience that is bigger than it was just a couple of years ago. So we are slowly getting there, but it could go faster. Yeah.",
+      "id": "ep_57_ut_92"
+    },
+    {
+      "end": 2387394,
+      "speaker": "Enrico Bertini",
+      "start": 2322604,
+      "text": "Yeah. Which I think, in the end, it's also a big challenge for researchers. Right. Because they used to be exposed only to internal criticism. Right. And I think, I mean, people are pretty smart and sometimes they pose questions that an academic wouldn't pose. Right, absolutely. So I think this is a very positive trend. I think it's. Personally, I believe that it's much, much harder to convince people of your research that are not from academia, right. People who are not from academia, and especially because you have to use a different language and they may have a completely different worldview. Right. So, I mean, I think that academics share a lot of basic rules and ways of seeing things and. Yeah, I mean, when, when you have to communicate to a much larger audience, things get. Get complicated. I don't know.",
+      "id": "ep_57_ut_93"
+    },
+    {
+      "end": 2422030,
+      "speaker": "Max Roser",
+      "start": 2387934,
+      "text": "Yes, that's definitely true. So it's also, it is helping both sides in this way. Right. It's hopefully helping the public that learns about new research, but it also helps the researcher because you have to. Yeah. You're confronted with someone who is not buying your assumptions that are kind of used in this field as easily as the guy who read the same textbook that you know. Right.",
+      "id": "ep_57_ut_94"
+    },
+    {
+      "end": 2423126,
+      "speaker": "Enrico Bertini",
+      "start": 2422102,
+      "text": "Yeah, yeah, yeah.",
+      "id": "ep_57_ut_95"
+    },
+    {
+      "end": 2425782,
+      "speaker": "Max Roser",
+      "start": 2423270,
+      "text": "So it's beneficial for both, I guess. Yeah, yeah.",
+      "id": "ep_57_ut_96"
+    },
+    {
+      "end": 2431514,
+      "speaker": "Moritz Stefaner",
+      "start": 2425838,
+      "text": "But it's cool. And you're right, it's great that it's happening. I'm just so impatient when I see it happen.",
+      "id": "ep_57_ut_97"
+    },
+    {
+      "end": 2451894,
+      "speaker": "Enrico Bertini",
+      "start": 2433814,
+      "text": "So this is a good time to stop for a moment and talk about our sponsor visualizing well being, the wiki progress data visualization contest 2015. Hey, Moritz, I guess you know something about this contest. I know that you are involved. Can you explain us a little bit about what the contest is about and how it works?",
+      "id": "ep_57_ut_98"
+    },
+    {
+      "end": 2559644,
+      "speaker": "Moritz Stefaner",
+      "start": 2452014,
+      "text": "Yeah, sure. So it's a contest run by my friends and colleagues at the OECD and Wiki progress, and it's about visualizing well being. And some of you might know it's a topic that I'm sort of involved in. And. Yeah, so I'm a judge for this competition. They were so kind to ask me to judge and also so kind to sponsor the podcast. So we'll tell you a bit about how the contest works. The aim of the competition is to increase awareness of well being measurement, and to show how a focus on people's wellbeing, rather than, say, economic growth alone or so, can provide a more meaningful and nuanced view of societal change and progress. So of course, that fits well. Also, the topic of our episode, how the world is actually becoming a better or a worse place, or a different one. And now you're asked, in order to participate, to ask to create an infographic or a visualization that addresses one or more of the following questions. For instance, how do well being levels vary between countries or within countries? Like, are old people doing better? Or men or women and so on? Or why is it important to look beyond purely economic indicators, such as GDP, for a better picture of people's current or future well being? And how can the multidimensionality of wellbeing be effectively communicated to the general public. So there's many different factors that play into well being. How can we communicate all this visually? And in principle, you're free to use any publicly available data. There will be some suggestions for datasets on the competition website and also on our world in data.org dot. You will find some interesting data on this, I'm sure, but you're also free to pick your own data set, maybe generate your own data set, or find your own ones and so on.",
+      "id": "ep_57_ut_99"
+    },
+    {
+      "end": 2562384,
+      "speaker": "Enrico Bertini",
+      "start": 2559944,
+      "text": "So when is the deadline for submissions?",
+      "id": "ep_57_ut_100"
+    },
+    {
+      "end": 2673600,
+      "speaker": "Moritz Stefaner",
+      "start": 2562504,
+      "text": "Deadline is August 24, so you still have a few weeks, so that's good, but don't wait too long. Good data visualization takes a few iterations and you will ask, what can I win? And you can actually win a trip to Mexico in October. Mid October, yeah. And so that can be a big thing unless you're from Mexico and it's a small thing for many people. I think it's a great opportunity. And you will also, of course, be awarded with a certificate of recognition. And yeah, you'll get a whole trip and a paid flight, of course. And the competition is open to all individuals, both amateurs and professionals. And they would especially like to encourage the participation of young people. And in fact, actually, one of the prizes will be reserved specifically for people under 26. So I think that's a nice thing too. So even if you're a beginner or like fresh to the field, don't be afraid to submit something. You'll have a chance, definitely of winning something. And the judges will be a really nice team, a great jury. So first of all, we have Stephanie Posavec. You know her, she's been on the show before. We also have Kim Reese. She's been on data stories as well. And then there's me. And I think that will be a great jury. And I think from the like judges, you can already guess we are looking for something that's really clear and interesting, but also rigorous design wise and data treatment wise. And that is just interesting and not like run of the mill bar chart, but something that's thought provoking, powerful, interesting and original.",
+      "id": "ep_57_ut_101"
+    },
+    {
+      "end": 2693644,
+      "speaker": "Enrico Bertini",
+      "start": 2673712,
+      "text": "Great. So to find out more, you can visit the Wikiprogress website that is just wikiprogress.org, or even go to the Facebook or Twitter page or handle that is wikipedia, just add wikiprogress. So let's go back to the show.",
+      "id": "ep_57_ut_102"
+    },
+    {
+      "end": 2736654,
+      "speaker": "Moritz Stefaner",
+      "start": 2694054,
+      "text": "There's another thing I'd like to come back to, which is really fascinating about your project. And we touched on it a little, but I think we can expand on that a bit more. Is this unfounded pessimism or the data supported optimism that you transport? And I was wondering if you have any ideas about why so many people have this intuitive idea that the world is actually getting much worse. And why is that in so stark contrast to the data you present. So is it that the data is just measuring a part of reality? And actually, maybe the data itself is biased? Or is it more that people's perception is actually wrong? What's your take on that?",
+      "id": "ep_57_ut_103"
+    },
+    {
+      "end": 2824100,
+      "speaker": "Max Roser",
+      "start": 2737994,
+      "text": "Right. I think, like, we started talking about it before with this very strong sense for nostalgia. And I guess one fundamental aspect of our mind is what psychologists call negativity bias. And you can, like, if you think about how you would. How you would design the mind of a human, of your child, let's say, and you would ask yourself, would you make sure that your child pays as much attention to opportunities as it pays to threats? Then the answer is obvious. You would. Threats are way more important for your child to notice than opportunities. If you miss an opportunity, then it's too bad. If you miss a threat that can hurt really bad or maybe even cost your life. In this way, humans are predisposed and have this very strong sense for possible threats. I guess that's something that was always around and always shaped our perception of the world. You can go back, like, there's these fun quotes, right? You can go back to ancient Egypt, and people are not satisfied with their contemporaries, and things are getting worse than they were in the past.",
+      "id": "ep_57_ut_104"
+    },
+    {
+      "end": 2826084,
+      "speaker": "Moritz Stefaner",
+      "start": 2824132,
+      "text": "End of the world is always around the corner. Right?",
+      "id": "ep_57_ut_105"
+    },
+    {
+      "end": 2837584,
+      "speaker": "Max Roser",
+      "start": 2826164,
+      "text": "Exactly. And I guess that's partly due to this strong focus on negative events and threats.",
+      "id": "ep_57_ut_106"
+    },
+    {
+      "end": 2844656,
+      "speaker": "Moritz Stefaner",
+      "start": 2837624,
+      "text": "You mean we are looking for negative news that's like, already, like a biological fact. More or less.",
+      "id": "ep_57_ut_107"
+    },
+    {
+      "end": 2845336,
+      "speaker": "Max Roser",
+      "start": 2844800,
+      "text": "Exactly.",
+      "id": "ep_57_ut_108"
+    },
+    {
+      "end": 2846664,
+      "speaker": "Moritz Stefaner",
+      "start": 2845400,
+      "text": "Looking for negative stuff.",
+      "id": "ep_57_ut_109"
+    },
+    {
+      "end": 2872114,
+      "speaker": "Max Roser",
+      "start": 2846784,
+      "text": "Exactly. We pay more attention to that. And that's, of course, something where the media and the market, if you will, can connect to this is the kind of news, and these are the kind of books that people get really excited about and interested in because it fits this kind of framework of our perception.",
+      "id": "ep_57_ut_110"
+    },
+    {
+      "end": 2883454,
+      "speaker": "Moritz Stefaner",
+      "start": 2872414,
+      "text": "I think also catastrophic events make a better narrative because they're surprising, they're extreme, they're unseen before, they're out of the ordinary.",
+      "id": "ep_57_ut_111"
+    },
+    {
+      "end": 2884342,
+      "speaker": "Max Roser",
+      "start": 2883614,
+      "text": "Exactly.",
+      "id": "ep_57_ut_112"
+    },
+    {
+      "end": 2898984,
+      "speaker": "Moritz Stefaner",
+      "start": 2884438,
+      "text": "But they're so little positive, like sudden, sudden positive events. You know, it never, like, rains, money somewhere, or like thousands of people are suddenly healed. It's more like, yeah, a plane drops somewhere or something.",
+      "id": "ep_57_ut_113"
+    },
+    {
+      "end": 2974664,
+      "speaker": "Max Roser",
+      "start": 2899064,
+      "text": "Exactly. Like a lot of these. A lot of these negative events are very much actually events, right? They're actually news in one moment of time, like they're breaking news on CNN. And you can switch to the. To where the catastrophe, the accident happened today. Whereas a lot of these aspects that I look at at the website are long term trends where the change is much more gradual over time. There's never, like the CNN news that says chart mortality fell by 0.005% today. It just never makes the news. It's never an event. It's some trend that underlies current events. And you were mentioning Enrico, you were mentioning climate change before, right? They have exactly the same problem on the other side, if you will, because it is not about a single event in climate. It is one long term trend that is underlying the development and that never actually has a headline and never a breaking news. So these long term trends are much more difficult to see and to communicate. And you only understand them if you actually do empirical data, work on long term changes.",
+      "id": "ep_57_ut_114"
+    },
+    {
+      "end": 2985808,
+      "speaker": "Enrico Bertini",
+      "start": 2974784,
+      "text": "Yeah, yeah. And we're also very bad at delayed rewards. Right? Humans are not very good at thinking long term. This is also very interesting. Right?",
+      "id": "ep_57_ut_115"
+    },
+    {
+      "end": 2986484,
+      "speaker": "Max Roser",
+      "start": 2985856,
+      "text": "True.",
+      "id": "ep_57_ut_116"
+    },
+    {
+      "end": 2994724,
+      "speaker": "Enrico Bertini",
+      "start": 2986864,
+      "text": "So if we don't see an effect, an immediate effect of our actions, we just don't, don't care, which is a big problem.",
+      "id": "ep_57_ut_117"
+    },
+    {
+      "end": 3026234,
+      "speaker": "Max Roser",
+      "start": 2995964,
+      "text": "And we think that it actually doesn't matter. Also, we were very bad at noticing these long term trends, and we were very bad as intuitive statisticians. This is the kind of point that Kahneman and these researchers at the border between economics and psychology were making. These biases are just very strong, and we are bad in. In measuring quantitative aspects with our normal perception.",
+      "id": "ep_57_ut_118"
+    },
+    {
+      "end": 3040934,
+      "speaker": "Moritz Stefaner",
+      "start": 3026274,
+      "text": "Yeah, but how our animal nature sort of prevents us from intuitively seeing the slow, long developments. Do you think it can be fixed, like with cognition, or what's the way to fix this?",
+      "id": "ep_57_ut_119"
+    },
+    {
+      "end": 3048614,
+      "speaker": "Max Roser",
+      "start": 3042834,
+      "text": "I think the way to fix it is good old statistics, daily dose statistics.",
+      "id": "ep_57_ut_120"
+    },
+    {
+      "end": 3052904,
+      "speaker": "Enrico Bertini",
+      "start": 3049524,
+      "text": "But even there, we know that it's not that easy. Right?",
+      "id": "ep_57_ut_121"
+    },
+    {
+      "end": 3054744,
+      "speaker": "Max Roser",
+      "start": 3053764,
+      "text": "What do you mean?",
+      "id": "ep_57_ut_122"
+    },
+    {
+      "end": 3086124,
+      "speaker": "Enrico Bertini",
+      "start": 3055724,
+      "text": "Well, again, this is something we discussed several times on the show. First of all, on the one hand, for some people, some people are too easily. They very easily change their mind when data is presented as in support or in favor of an argument. Right? So you have this whole section of people who, whatever the numbers show, they believe it.",
+      "id": "ep_57_ut_123"
+    },
+    {
+      "end": 3087912,
+      "speaker": "Max Roser",
+      "start": 3087344,
+      "text": "True.",
+      "id": "ep_57_ut_124"
+    },
+    {
+      "end": 3100192,
+      "speaker": "Enrico Bertini",
+      "start": 3088008,
+      "text": "But then you have the exact opposite as well. You have people who just don't care. They don't want to hear that. They don't want to see that. Right? And I don't know which one is more troublesome.",
+      "id": "ep_57_ut_125"
+    },
+    {
+      "end": 3103280,
+      "speaker": "Moritz Stefaner",
+      "start": 3100248,
+      "text": "Consume information that matches the preconceived notion, right?",
+      "id": "ep_57_ut_126"
+    },
+    {
+      "end": 3104008,
+      "speaker": "Enrico Bertini",
+      "start": 3103312,
+      "text": "Yeah, exactly.",
+      "id": "ep_57_ut_127"
+    },
+    {
+      "end": 3104552,
+      "speaker": "Moritz Stefaner",
+      "start": 3104056,
+      "text": "Yeah.",
+      "id": "ep_57_ut_128"
+    },
+    {
+      "end": 3106752,
+      "speaker": "Max Roser",
+      "start": 3104688,
+      "text": "But then I think the, I mean.",
+      "id": "ep_57_ut_129"
+    },
+    {
+      "end": 3113644,
+      "speaker": "Enrico Bertini",
+      "start": 3106808,
+      "text": "So if it were just here are the numbers and people react to that, maybe it would be easier.",
+      "id": "ep_57_ut_130"
+    },
+    {
+      "end": 3154948,
+      "speaker": "Max Roser",
+      "start": 3116464,
+      "text": "It is true that with quantitative information you don't necessarily get the perception of people. Right. And like, no one has like a correct worldview. But I think if without this information, there's not a chance for that in the first place, I think you do need the quantitative information to understand these long term trends. People otherwise wouldn't understand what we wouldn't know about climate change if we didn't measure these things as good as we possibly can.",
+      "id": "ep_57_ut_131"
+    },
+    {
+      "end": 3179762,
+      "speaker": "Enrico Bertini",
+      "start": 3155116,
+      "text": "Yeah, but even there, the discussion is so heated and polarized that there are people claiming that they have a scientific background and they know why it's not like that. Right. So it's, I mean, in my experience and the way I see this, that it's not as easy as numbers tell the truth and people believe it. It's very far from that.",
+      "id": "ep_57_ut_132"
+    },
+    {
+      "end": 3182818,
+      "speaker": "Moritz Stefaner",
+      "start": 3179858,
+      "text": "No, but still, some data is better than no data.",
+      "id": "ep_57_ut_133"
+    },
+    {
+      "end": 3185014,
+      "speaker": "Enrico Bertini",
+      "start": 3182866,
+      "text": "Yeah, exactly. Yeah. Some data is better.",
+      "id": "ep_57_ut_134"
+    },
+    {
+      "end": 3188370,
+      "speaker": "Moritz Stefaner",
+      "start": 3186154,
+      "text": "Maybe even faulty data is better than no data.",
+      "id": "ep_57_ut_135"
+    },
+    {
+      "end": 3191974,
+      "speaker": "Enrico Bertini",
+      "start": 3188442,
+      "text": "I don't know. Well, that's a strong statement, right?",
+      "id": "ep_57_ut_136"
+    },
+    {
+      "end": 3216102,
+      "speaker": "Moritz Stefaner",
+      "start": 3192914,
+      "text": "Yeah, no, but for instance, like the homicide rates, I think they present a really strong argument that is really counterintuitive and I think they could be a really interesting case study of like presenting these statistics to people who have strong beliefs about that. You know, a few hundred years ago, life was much more harmonic. And that could be a nice way to test that, actually.",
+      "id": "ep_57_ut_137"
+    },
+    {
+      "end": 3251444,
+      "speaker": "Max Roser",
+      "start": 3216238,
+      "text": "Exactly. And I think the data, they come with huge mismeasurement, with huge uncertainty. But then it is also true that people did care a lot about violence and homicides, even back in the day, and they made an effort of gathering this evidence and collecting the cases where people were murdered. So we do actually in fact know something. And I think the magnitude of change over these centuries is bigger than the uncertainty that is associated with the data.",
+      "id": "ep_57_ut_138"
+    },
+    {
+      "end": 3258344,
+      "speaker": "Moritz Stefaner",
+      "start": 3251484,
+      "text": "Right. I mean, the trends are so extreme that even if you doubt, like by a magnitude of like an order of ten, you doubt that's still a trend.",
+      "id": "ep_57_ut_139"
+    },
+    {
+      "end": 3259708,
+      "speaker": "Max Roser",
+      "start": 3258764,
+      "text": "Exactly.",
+      "id": "ep_57_ut_140"
+    },
+    {
+      "end": 3261384,
+      "speaker": "Enrico Bertini",
+      "start": 3259876,
+      "text": "Yeah, that's pretty strong.",
+      "id": "ep_57_ut_141"
+    },
+    {
+      "end": 3263580,
+      "speaker": "Moritz Stefaner",
+      "start": 3263124,
+      "text": "Interesting.",
+      "id": "ep_57_ut_142"
+    },
+    {
+      "end": 3297844,
+      "speaker": "Enrico Bertini",
+      "start": 3263612,
+      "text": "So do you have stories of people who have seen your visualizations, your website, and have had this kind of haha. Moment and realize that the world is good, humans are good in the right direction or stuff like that? I certainly had this kind of feeling the first time I saw Hans Rosling presenting his work. So yeah, I'm pretty sure that there are plenty of people who, I don't know, stumble into your work and are surprised.",
+      "id": "ep_57_ut_143"
+    },
+    {
+      "end": 3376186,
+      "speaker": "Max Roser",
+      "start": 3299024,
+      "text": "True. I'm not sure it would be nice to hear these kind of stories because it was the same for me. I guess a lot of the motivation comes from these researchers, like Hans Rosling for global health and demographics, or Steven Pinker for violence. And it is really an important perspective for me. It really changed the way that I look at the world. Like I said before, I studied philosophy, that's kind of the gloomiest academic discipline that there is. And there is this very strong anti modern strain, at least in continental philosophy that I studied. And I'm quite far away from this perspective now. And I guess it is partly empirical evidence and research that that changed my worldview. So I guess one candidate for your answer would be me. I'm not sure how many other people, or if anyone of our listeners.",
+      "id": "ep_57_ut_144"
+    },
+    {
+      "end": 3380410,
+      "speaker": "Moritz Stefaner",
+      "start": 3376210,
+      "text": "So if any of you, if Max Rosa changed your life, let him know.",
+      "id": "ep_57_ut_145"
+    },
+    {
+      "end": 3381454,
+      "speaker": "Enrico Bertini",
+      "start": 3380482,
+      "text": "Let us know.",
+      "id": "ep_57_ut_146"
+    },
+    {
+      "end": 3383482,
+      "speaker": "Max Roser",
+      "start": 3382834,
+      "text": "Who knows?",
+      "id": "ep_57_ut_147"
+    },
+    {
+      "end": 3396838,
+      "speaker": "Moritz Stefaner",
+      "start": 3383538,
+      "text": "Who knows? That's great. I mean, what's next? I assume you will keep the project up and keep extending it. Will you also write your book? Is that a thing?",
+      "id": "ep_57_ut_148"
+    },
+    {
+      "end": 3486814,
+      "speaker": "Max Roser",
+      "start": 3397006,
+      "text": "Yeah, I would hope that both can happen. Well, the funding runs out in December, and I'm currently running around trying to find funding for the next year. Ideally, I would like to find funding for another three years to keep the project going here at the university, but I wasn't successful so far. And a big change was that since May or so for the last two months, I'm finally not alone in this project anymore. I have now a small team of researchers that support me, and very crucially, finally a guy who actually understands data visualization and who is an expert in the field, Zdenek Hynek from the Czech Republic. He's based in London, and he now supports our world in data and can do things that I was just not capable of. So that's great. And I would like to keep this team together and continue this work. And if I find the time, then I would also like to go back to the book. I have some kind of draft of the book, but this is also getting out of hands just as the data collection got out of hands, and I guess I have to cut it down to some multiple volumes. But I'm also working on the book. Yeah.",
+      "id": "ep_57_ut_149"
+    },
+    {
+      "end": 3493014,
+      "speaker": "Enrico Bertini",
+      "start": 3487154,
+      "text": "So are there other good news that you will be collecting in the future?",
+      "id": "ep_57_ut_150"
+    },
+    {
+      "end": 3535750,
+      "speaker": "Max Roser",
+      "start": 3495314,
+      "text": "I'm not sure. What are we working on now? Like these days we were looking into cancer, where, like, things are, like, in some aspects of health, things have improved dramatically. And cancer, child mortality, things like that is huge, right? Like, if you like child mortality, like in countries before, before they entered what is called the health transition, roughly a third or more of the children died before their fifth birthday. In some countries, it was probably more than every second child that died before the fifth birthday.",
+      "id": "ep_57_ut_151"
+    },
+    {
+      "end": 3539254,
+      "speaker": "Moritz Stefaner",
+      "start": 3535782,
+      "text": "That's the only reason why the average life expectancy has been so low.",
+      "id": "ep_57_ut_152"
+    },
+    {
+      "end": 3539470,
+      "speaker": "Max Roser",
+      "start": 3539294,
+      "text": "Right.",
+      "id": "ep_57_ut_153"
+    },
+    {
+      "end": 3547702,
+      "speaker": "Moritz Stefaner",
+      "start": 3539502,
+      "text": "So people. That's a common misconception, actually. So there were people in the middle ages who were 50, 60 years old, right?",
+      "id": "ep_57_ut_154"
+    },
+    {
+      "end": 3548446,
+      "speaker": "Max Roser",
+      "start": 3547798,
+      "text": "Of course, yes.",
+      "id": "ep_57_ut_155"
+    },
+    {
+      "end": 3554078,
+      "speaker": "Moritz Stefaner",
+      "start": 3548470,
+      "text": "But the average is so low because half of the population died before the first birthday.",
+      "id": "ep_57_ut_156"
+    },
+    {
+      "end": 3610504,
+      "speaker": "Max Roser",
+      "start": 3554206,
+      "text": "Exactly, yeah. Although the life, like you have some data for, at least for the country that I'm in the UK, you have also data on the life expectancy, not at birth, but the life expectancy at older ages, like life expectancy of 30 year olds, 40 year olds, and it also went up there. So the biggest gains were due to changes of the mortality patterns at a very young age, but mortality also changed at a later age. And I think one other aspect there is that, like someone who was 50 or 60 years old back in the middle ages, or even 100 years ago, was in much worse health than people who are today 50 or 60. This is another aspect. 50 is the new 30 or something. Health conditions also improved.",
+      "id": "ep_57_ut_157"
+    },
+    {
+      "end": 3613664,
+      "speaker": "Moritz Stefaner",
+      "start": 3610964,
+      "text": "And cancer, how is the trend there?",
+      "id": "ep_57_ut_158"
+    },
+    {
+      "end": 3663246,
+      "speaker": "Max Roser",
+      "start": 3614004,
+      "text": "Cancer is a bit of a tricky one, because, of course, it is a very common cause of death. And as a reason for death, as a cause for death, it is increasing. But then we have to die at something, so we will die of the condition that we make least progress against, and that is cancer. So you have to be careful of how you analyze the data. And if you age, adjust, for example, cancer. So you take it out that people just live longer and then will develop cancer later in life. Then it's actually a lot of forms of cancer are decreasing, most prominently lung cancer, because smoking went down so massively. Yeah, it's going down, but also other forms of cancer are decreasing. Yeah.",
+      "id": "ep_57_ut_159"
+    },
+    {
+      "end": 3699274,
+      "speaker": "Enrico Bertini",
+      "start": 3663350,
+      "text": "Wow. But again, let's say, I want to go back to something I asked you before, because I'm really curious. So let's say that now you want to publish your next project on cancer. Right? So what is the process? So you start from searching for some papers or all the papers that talk about that. Then from the papers you, you search references to these is databases or data sets or how does it work? And sometimes, I guess, you have to contact the scientists directly to get this data.",
+      "id": "ep_57_ut_160"
+    },
+    {
+      "end": 3761150,
+      "speaker": "Max Roser",
+      "start": 3699574,
+      "text": "Yes. I think cancer is such a complicated topic, and I'm not an expert on the topic at all, so I try to come up with something useful so that you have kind of a basis to talk with someone in a kind of meaningful way. And then I'm trying to connect to people who actually experts in the field. And for example, here at Oxford, there is a research institute that is focusing on non communicable diseases like cancer. And then there are people who are actually helping out on these aspects so that I get these kind of aspects. Right. And on cancer, one of the researchers that now works with me, Lindsay Lee, she's focusing on health, and she has a stronger background in these aspects. So it's very much a collaborative effort. Right. Like, it wouldn't be possible by anyone to have the overview of all of these different topics. Yeah.",
+      "id": "ep_57_ut_161"
+    },
+    {
+      "end": 3764334,
+      "speaker": "Moritz Stefaner",
+      "start": 3761342,
+      "text": "And every time you learn something new, that's the.",
+      "id": "ep_57_ut_162"
+    },
+    {
+      "end": 3791594,
+      "speaker": "Max Roser",
+      "start": 3764494,
+      "text": "Yeah, exactly. It's fun. Yeah. It's like. Yeah, you get an overview of the field. You meet new people that do stuff that you have never thought that. That people would actually do research on. Right. And you like, for example, the archaeological evidence on homicides. I had no idea that people spent their lives researching these kind of aspects.",
+      "id": "ep_57_ut_163"
+    },
+    {
+      "end": 3810052,
+      "speaker": "Enrico Bertini",
+      "start": 3791754,
+      "text": "Okay, so, well, I think we covered a lot of different topics. That's very interesting. And before we conclude, can you just tell to our listeners where to find your work? And there is a specific URL.",
+      "id": "ep_57_ut_164"
+    },
+    {
+      "end": 3825044,
+      "speaker": "Max Roser",
+      "start": 3810108,
+      "text": "Right, exactly. All of this information is available on a website called ourworldindata.org dot. So just one word, our world in data. And this is where all of that information is presented.",
+      "id": "ep_57_ut_165"
+    },
+    {
+      "end": 3829304,
+      "speaker": "Enrico Bertini",
+      "start": 3825124,
+      "text": "Is there a starting point, a specific path they can follow?",
+      "id": "ep_57_ut_166"
+    },
+    {
+      "end": 3857614,
+      "speaker": "Max Roser",
+      "start": 3829964,
+      "text": "I guess these presentations that you and I were talking about earlier are a good starting point. So there's one presentation that gives an overview on global health, one that has given overview on poverty in the world and the world income distribution. So the distribution across all individuals in the world over the last 200 years. There's one on Africa, just focusing on what is happening there, and the one on violence that we mentioned before.",
+      "id": "ep_57_ut_167"
+    },
+    {
+      "end": 3897964,
+      "speaker": "Enrico Bertini",
+      "start": 3858154,
+      "text": "That's great. Well, thanks a lot, Max, for coming on the show. That's amazing work. And please don't give up. Don't stop. I really hope you'll manage to get. Get funding, extra funding soon. Yeah. If you have a few hundreds of thousands at least, to spare, or at least even just ideas where to look for. And let Max, and also myself know. No, let Max know because this is an important project and it really needs to. To exist and go. Thanks a lot, Max.",
+      "id": "ep_57_ut_168"
+    },
+    {
+      "end": 3899580,
+      "speaker": "Max Roser",
+      "start": 3898004,
+      "text": "Yeah. Thank you. Thank you for having me on the show.",
+      "id": "ep_57_ut_169"
+    },
+    {
+      "end": 3900820,
+      "speaker": "Moritz Stefaner",
+      "start": 3899612,
+      "text": "Thanks so much. Bye bye.",
+      "id": "ep_57_ut_170"
+    },
+    {
+      "end": 3901524,
+      "speaker": "Max Roser",
+      "start": 3900892,
+      "text": "Bye bye.",
+      "id": "ep_57_ut_171"
+    },
+    {
+      "end": 3902384,
+      "speaker": "Enrico Bertini",
+      "start": 3901564,
+      "text": "Bye bye.",
+      "id": "ep_57_ut_172"
+    },
+    {
+      "end": 3922644,
+      "speaker": "Moritz Stefaner",
+      "start": 3905484,
+      "text": "This episode of Data stories is sponsored by visualizing well being, the wiki Progress data visualization Contest 2015. To find out more, visit the wiki progress website@wikiprogress.org or their Facebook page. Or you can also follow them on twitter wikiprogress.",
+      "id": "ep_57_ut_173"
+    }
+  ],
+  "confidence": 0.929887304633654,
+  "audio_duration": 3923,
+  "punctuate": true,
+  "format_text": true,
+  "dual_channel": false,
+  "webhook_url": null,
+  "webhook_status_code": null,
+  "webhook_auth": false,
+  "webhook_auth_header_name": null,
+  "speed_boost": false,
+  "auto_highlights_result": null,
+  "auto_highlights": false,
+  "audio_start_from": null,
+  "audio_end_at": null,
+  "word_boost": [],
+  "boost_param": null,
+  "filter_profanity": false,
+  "redact_pii": false,
+  "redact_pii_audio": false,
+  "redact_pii_audio_quality": null,
+  "redact_pii_policies": null,
+  "redact_pii_sub": null,
+  "speaker_labels": true,
+  "content_safety": false,
+  "iab_categories": true,
+  "content_safety_labels": {
+    "status": "unavailable",
+    "results": [],
+    "summary": {}
+  },
+  "language_detection": false,
+  "language_detection_threshold": null,
+  "language_confidence": null,
+  "custom_spelling": null,
+  "throttled": false,
+  "auto_chapters": true,
+  "summarization": false,
+  "summary_type": null,
+  "summary_model": null,
+  "custom_topics": false,
+  "topics": [],
+  "speech_threshold": null,
+  "speech_model": "best",
+  "chapters": [
+    {
+      "summary": "With quantitative information, you don't necessarily get the perception of people right. This episode of data stories is sponsored by visualizing well being, the wiki Progress data visualization Contest 2015.",
+      "gist": "Visible Well-Being",
+      "headline": "With quantitative information, you don't necessarily get the perception of people right",
+      "start": 160,
+      "end": 31114,
+      "id": "ep_57_ch_0"
+    },
+    {
+      "summary": "We have Max Roser from University of Oxford. He has a project called our World in data. He collects information about human developments on social, economic and environmental history of human beings. What are the goals of this project, how to find data and many other related topics.",
+      "gist": "Data stories",
+      "headline": "Max Roser is an economist from University of Oxford working on data visualization",
+      "start": 41494,
+      "end": 182934,
+      "id": "ep_57_ch_1"
+    },
+    {
+      "summary": "The idea is to give a very long term overview of human development and to show how we got to where we are right now. The project is open access and heavy on data visualization. Can you give us some examples of the web pages, projects and visualizations that you created?",
+      "gist": "Our World in Data: Data atlas",
+      "headline": "Your project aims to give a very long term overview of human development",
+      "start": 183434,
+      "end": 341814,
+      "id": "ep_57_ch_2"
+    },
+    {
+      "summary": "The empirical evidence suggests that this is the most peaceful time in our species existence. A lot of people have this strong feeling of nostalgia for a more harmonious, more quiet, more peaceful past. The media is partly to blame for that, because the focus is very much on negative events.",
+      "gist": "The violence of human history",
+      "headline": "One topic that I often like to present in presentations is violence and war",
+      "start": 343274,
+      "end": 713584,
+      "id": "ep_57_ch_3"
+    },
+    {
+      "summary": "On the website, I'm trying to bring text and data together so you get some background information on how reliable this data is and what the data quality actually is. The findings or the datasets you present are always embedded in this context of interpretation.",
+      "gist": "The Value of Data in Human Development",
+      "headline": "Your website is entirely based on data, right? That's true",
+      "start": 714204,
+      "end": 884664,
+      "id": "ep_57_ch_4"
+    },
+    {
+      "summary": "There are many aspects where things are not improving or actually getting worse, and then they're also shown there. Even with these trends on homicides and wars, violence is still very high. It's just about the direction of change.",
+      "gist": "The World Is a Better Place",
+      "headline": "Can you talk a bit about curation of your data sets",
+      "start": 885124,
+      "end": 1013284,
+      "id": "ep_57_ch_5"
+    },
+    {
+      "summary": "I don't include stuff that is just of historic interest. And then I'm mostly relying on the experts in each field. Some data sets try to maximize coverage both in the time dimension and in the geographical dimension. But that often comes at the cost of having less reliable data.",
+      "gist": "Including or not including data sets in my data visualization",
+      "headline": "You rely on experts in each field to decide which data sets are reliable",
+      "start": 1014104,
+      "end": 1176878,
+      "id": "ep_57_ch_6"
+    },
+    {
+      "summary": "The website was created to avoid writing a book. It started as a book project and was just gathering data for that book. The data gathering got a bit out of hands and led to this web project. People trust data more than text.",
+      "gist": "How to Write a Book without writing a book",
+      "headline": "You only made the website to avoid writing a book, is that correct",
+      "start": 1177006,
+      "end": 1399534,
+      "id": "ep_57_ch_7"
+    },
+    {
+      "summary": "How do you go from a note to putting it on the web? How did you set up the technical system to be able to publish so much data? You started off as an amateur and now you can build this huge atlas.",
+      "gist": "Building a data visualization site from scratch",
+      "headline": "How did you go from a note to putting it on the web",
+      "start": 1402154,
+      "end": 1940976,
+      "id": "ep_57_ch_8"
+    },
+    {
+      "summary": "Enrico: Is it a spare time project or is it like half hobby, half supporting your research. What's the reception in the academic world, the project you do like, how is it perceived. This project is more about communicating research.",
+      "gist": "The Income inequality blog",
+      "headline": "Your research is about income inequality and how is it perceived in academia",
+      "start": 1941080,
+      "end": 2410310,
+      "id": "ep_57_ch_9"
+    },
+    {
+      "summary": "You're confronted with someone who is not buying your assumptions that are kind of used in this field. So it's beneficial for both, I guess. I'm just so impatient when I see it happen.",
+      "gist": "In the Elevator With Science Students",
+      "headline": "You're confronted with someone who is not buying your assumptions that are kind of used",
+      "start": 2410342,
+      "end": 2431514,
+      "id": "ep_57_ch_10"
+    },
+    {
+      "summary": "The wiki progress data visualization contest 2015 is open for submissions. The aim of the contest is to increase awareness of well being measurement. One of the prizes is a trip to Mexico in October. Deadline for submissions is August 24.",
+      "gist": "Visualizing Wellbeing",
+      "headline": "The wiki progress data visualization contest is about visualizing well being",
+      "start": 2433814,
+      "end": 2691084,
+      "id": "ep_57_ch_11"
+    },
+    {
+      "summary": "Is this unfounded pessimism or the data supported optimism that you transport? One fundamental aspect of our mind is what psychologists call negativity bias. Humans are not very good at thinking long term. Do you think it can be fixed?",
+      "gist": "Why Do People Think the World Is Getting Worse?",
+      "headline": "Many people have an intuitive idea that the world is getting worse",
+      "start": 2691984,
+      "end": 3143144,
+      "id": "ep_57_ch_12"
+    },
+    {
+      "summary": "People otherwise wouldn't understand what we wouldn't know about climate change if we didn't measure these things as good as we possibly can. It's not as easy as numbers tell the truth and people believe it. But still, some data is better than no data.",
+      "gist": "Do Numbers Tell the Truth about Climate Change?",
+      "headline": "People otherwise wouldn't understand what we wouldn't know about climate change if not measured accurately",
+      "start": 3143844,
+      "end": 3263580,
+      "id": "ep_57_ch_13"
+    },
+    {
+      "summary": "Max Rosa's work changed the way he looks at the world. Funding runs out in December, and he's trying to find funding for the next year. Will you also write your book? Is that a thing?",
+      "gist": "How Data Visualization Changed My Life",
+      "headline": "Max Rosa says data visualization changed his perspective on the world",
+      "start": 3263612,
+      "end": 3486814,
+      "id": "ep_57_ch_14"
+    },
+    {
+      "summary": "In some aspects of health, things have improved dramatically. The biggest gains were due to changes of the mortality patterns at a very young age. Health conditions also improved. And cancer, how is the trend there? A lot of forms of cancer are decreasing.",
+      "gist": "Good news for health in the future",
+      "headline": "Child mortality, cancer, things like that is huge",
+      "start": 3487154,
+      "end": 3663750,
+      "id": "ep_57_ch_15"
+    },
+    {
+      "summary": "When you want to publish your next project on cancer, what is the process? You start from searching for some papers or all the papers that talk about that. And then you connect to people who actually experts in the field. Every time you learn something new, that's the fun.",
+      "gist": "How to publish a book about cancer",
+      "headline": "You start from searching for papers that talk about cancer. Right? So what is the process",
+      "start": 3663822,
+      "end": 3791594,
+      "id": "ep_57_ch_16"
+    },
+    {
+      "summary": "All of this information is available on a website called ourworldindata. org dot. Is there a starting point, a specific path they can follow? This episode of Data stories is sponsored by visualizing well being, the wiki Progress data visualization Contest 2015.",
+      "gist": "Visible Wellbeing: Our World in Data",
+      "headline": "Can you tell listeners where they can find Max's data visualization work",
+      "start": 3791754,
+      "end": 3922644,
+      "id": "ep_57_ch_17"
+    }
+  ],
+  "disfluencies": false,
+  "entity_detection": false,
+  "sentiment_analysis": false,
+  "sentiment_analysis_results": null,
+  "entities": null,
+  "speakers_expected": null,
+  "summary": null,
+  "custom_topics_results": null,
+  "episode_num": 57,
+  "episode_metadata": {
+    "speakers": [
+      "Max Roser",
+      "Moritz Stefaner",
+      "Enrico Bertini"
+    ],
+    "WPid": "351",
+    "url": "https://datastori.es/podlove/file/1086/s/feed/c/mp3/data-stories-57-our-world-in-data-w-max-roser.mp3",
+    "episode_title": "Visualizing Human Development w/ Max Roser"
+  }
+}

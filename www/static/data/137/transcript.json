@@ -1,0 +1,923 @@
+{
+  "id": "04e42603-7c33-4c60-819d-c50eff34f69d",
+  "language_model": "assemblyai_default",
+  "acoustic_model": "assemblyai_default",
+  "language_code": "en_us",
+  "status": "completed",
+  "audio_url": "https://datastori.es/podlove/file/5626/s/feed/c/mp3/137-visualizing-earth-with-cameron-beccario.mp3",
+  "utterances": [
+    {
+      "end": 7210,
+      "speaker": "Cameron Beccario",
+      "start": 200,
+      "text": "I built like a prototype version just for wind over Tokyo. That worked out pretty nice. And I'm like, oh, I should do the whole planet.",
+      "id": "ep_137_ut_0"
+    },
+    {
+      "end": 168882,
+      "speaker": "Moritz Stefaner",
+      "start": 26630,
+      "text": "Hi, everyone. Welcome to a new episode of Data stories. My name is Moe Stefaner, and I'm an independent designer of data visualizations. I actually work as a self employed truth and beauty operator out of my office here in the countryside in the north of Germany. And usually I do this podcast together with Enrico Bertini. He's a professor at NYU in New York. And together on this podcast, we talk about data visualization, data analysis, and generally the role data plays in our lives today. Enrico could not make it because we have a special guest on the show, which I will introduce in a minute. He's in Tokyo, so we could not make the time zones work. It's always a challenge to do these recordings across the world, so Enrico will listen to it himself later, and I'll just do the conversation today. Before we start, just a quick note. Our podcast is now fully listener supported, so there's no ads. And we run this whole thing just based on your contributions as a listener. So if you do enjoy the show, please consider supporting us. You can do that with either recurring payments, so you can make a little donation every time we publish an episode, and you can do that on patreon.com Datastories, or you can also send us a one time donation on PayPal me Datastories. It always makes us happy when we see a new patron or if we receive a little donation through PayPal. Yeah, and another thing I wanted to mention before we start, there's now a Dataviz society. So Amy Cecil, Mollie Pettit, and Elijah Meeks, who we had on the show in the past, if you might remember, member founded the state of Is society. It already has a few thousand members, actually. And there's a very active slack community, and everybody's very excited and enthusiastic about this new organization to exchange and help each other out and share knowledge and so on. And so this might be interesting for you listeners as well. So we'll put the link in the show notes. It's on datavisualizationsociety.com. and there's also a forum where you can apply to join and founders will get back to you with an invite. So, and I think, yeah, I'm really curious what comes out of that. So, yeah, that's it for just the front matter. So let's get to our main topic. Our guest today is Cameron Beccario. Hi, Cameron.",
+      "id": "ep_137_ut_1"
+    },
+    {
+      "end": 169530,
+      "speaker": "Cameron Beccario",
+      "start": 168986,
+      "text": "Hello.",
+      "id": "ep_137_ut_2"
+    },
+    {
+      "end": 199454,
+      "speaker": "Moritz Stefaner",
+      "start": 169650,
+      "text": "And the topic we want to talk about is one of Cameron's projects, it's called Earth or Earth Dot nullschool.net. and it's a really stunning visualization of global weather conditions and like the state of the whole planet. And it's dynamic and it's pretty much real time, at least on a planetary scale. I would say it's just an amazing project. But before we talk about that, Cameron, can you tell us a bit about yourself, your background, what you're currently doing and so on?",
+      "id": "ep_137_ut_3"
+    },
+    {
+      "end": 290770,
+      "speaker": "Cameron Beccario",
+      "start": 199542,
+      "text": "Sure. So I'm a software engineer by training. I've done that most of my career. I'm from Iowa in the United States originally, and graduated school, went to Microsoft, worked on compilers, developer tools. Got tired of that after a little while, quit my job, moved to Tokyo to do completely, something completely different. I actually studied the language. I studied japanese full time for a year, took some time off work, and since then I've done a number of different jobs. All engineering software, worked in finance, did stock trading platform, worked in like a small boutique company that built like inventory tracking systems for eels and things like that. My current role, I work at a company called, indeed, it's a job search engine. I'm an engineering manager here. I actually don't do so much coding anymore for the job. On the job, I've got a team of about 16 engineers, and we build the part of the site that collects data about companies. So reviews, ratings, salaries, photos, logos, that kind of stuff. And then we make it available to job seekers so they can find out what companies to work for and which ones to avoid. That's kind of what I'm doing. And so this particular project, Earth, is something I do on the side, right?",
+      "id": "ep_137_ut_4"
+    },
+    {
+      "end": 306686,
+      "speaker": "Moritz Stefaner",
+      "start": 290850,
+      "text": "Yeah. And I'm also super curious about your Japan experiences. So maybe at the end we will have an opportunity to talk about that as well. But yeah, before let's talk about the project. So what is Earth and what does it show and which layers of information does it reveal?",
+      "id": "ep_137_ut_5"
+    },
+    {
+      "end": 392730,
+      "speaker": "Cameron Beccario",
+      "start": 306878,
+      "text": "So Earth is like this hobby project of mine. It's a visualization of the planet. You open up Earth dot nullschool.net comma, and you're immediately shown the globe. And there's colors that show the wind velocity and also streamline like little particles streaming around in an animation that shows the current wind conditions. And it is current. It's not real time. It's like what a forecast model has constructed. And the forecast model, the default one you see is called the GFS, the global forecast system. It produces data at three hour time steps. So when you open up the site, you're seeing something within a three hour window of now. It actually started out that way just being wind. And over the, over time, I've added a number of additional layers, so temperature and precipitation, particulates like PM 25, chemical layers like carbon monoxide, and also ocean currents, waves, etcetera, etcetera, kind of anything I can get my hands on. The most recently added layer, Washington, the aurora. So you can see sort of a prediction of what the current aurora is. That was pretty fun to pull in.",
+      "id": "ep_137_ut_6"
+    },
+    {
+      "end": 397874,
+      "speaker": "Moritz Stefaner",
+      "start": 392810,
+      "text": "Yeah, that's really cool. And it's this beautiful ring over the poles. It's just nice.",
+      "id": "ep_137_ut_7"
+    },
+    {
+      "end": 399842,
+      "speaker": "Cameron Beccario",
+      "start": 397922,
+      "text": "And that one updates every five minutes.",
+      "id": "ep_137_ut_8"
+    },
+    {
+      "end": 423830,
+      "speaker": "Moritz Stefaner",
+      "start": 399946,
+      "text": "Yeah. And all this information is just hidden behind this little menu. So if you go to the site earth dot nullschool.net, it says Earth on the bottom left. And if you open that, you get access to all these different controls. And it's sort of, it's a bit like opening like the trunk or the, the motor, like the engine flap, and then you see, oh, wow, I can change all these parameters. Quite nice. Yeah.",
+      "id": "ep_137_ut_9"
+    },
+    {
+      "end": 450738,
+      "speaker": "Cameron Beccario",
+      "start": 423990,
+      "text": "I wanted to keep it sort of simple, partly because my css and HTML skills are pretty bad, and I just wanted it to be kind of also a very clean view, like when you visit the site. And so I was hoping that people would kind of explore and follow their curiosity and poke around on the globe and rotate it, maybe click on the word earth, and then see, wow, all this extra stuff pops up.",
+      "id": "ep_137_ut_10"
+    },
+    {
+      "end": 462290,
+      "speaker": "Moritz Stefaner",
+      "start": 450834,
+      "text": "Yeah, it's definitely a pleasant surprise when you see that. Yeah. And I mean generally, I think I know the project for a few years now. I think it's five years old by now. Is that right?",
+      "id": "ep_137_ut_11"
+    },
+    {
+      "end": 465962,
+      "speaker": "Cameron Beccario",
+      "start": 462330,
+      "text": "That's right, yeah. December 2013 is when it was launched.",
+      "id": "ep_137_ut_12"
+    },
+    {
+      "end": 507026,
+      "speaker": "Moritz Stefaner",
+      "start": 466066,
+      "text": "Yeah. And I just remember when I saw that, how I was so blown away that just a single person like you can just assemble all this data or get their hands on all this data, display it in this interactive form. And you said it's not real real time, but I would say on a planetary scale, like 3 hours is pretty much real time. I think that's just so amazing. On the one hand you can get the data, but also you're able to display it in the browser in this very dynamic form. So can you tell us a bit about where you get the data from and how much work goes into the preprocessing? Because this part is often so hidden. Right. It's like you just think that fell from the sky, but probably didn't or did it.",
+      "id": "ep_137_ut_13"
+    },
+    {
+      "end": 531932,
+      "speaker": "Cameron Beccario",
+      "start": 507218,
+      "text": "Right. I started the project not even sure that this data even existed. I was like, it would be so nice to have wind data for the whole planet because I built a prototype version just for wind over Tokyo. And that, that worked out pretty nice. And I'm like, oh, I should do the whole planet. That seems like a good next step. Not even knowing if the data, probably.",
+      "id": "ep_137_ut_14"
+    },
+    {
+      "end": 535628,
+      "speaker": "Moritz Stefaner",
+      "start": 532036,
+      "text": "The Wattenberg Vegas wind map was the initial inspiration.",
+      "id": "ep_137_ut_15"
+    },
+    {
+      "end": 546340,
+      "speaker": "Cameron Beccario",
+      "start": 535724,
+      "text": "It was, yes. I remember seeing that and just being so shocked at how awesome it looked. And when I had one of these.",
+      "id": "ep_137_ut_16"
+    },
+    {
+      "end": 551760,
+      "speaker": "Moritz Stefaner",
+      "start": 546380,
+      "text": "Face melt moments when you see that map for the first time, you're like, whoa, right? Oh my God.",
+      "id": "ep_137_ut_17"
+    },
+    {
+      "end": 561128,
+      "speaker": "Cameron Beccario",
+      "start": 551860,
+      "text": "Yeah, so it was cool. And I replicated that for Tokyo and then decided, oh, I'll do the whole planet next, why not? That'll be pretty neat to see.",
+      "id": "ep_137_ut_18"
+    },
+    {
+      "end": 562400,
+      "speaker": "Moritz Stefaner",
+      "start": 561224,
+      "text": "And then the world.",
+      "id": "ep_137_ut_19"
+    },
+    {
+      "end": 680430,
+      "speaker": "Cameron Beccario",
+      "start": 562560,
+      "text": "Yeah. And so thankfully I stumbled upon NOAA, the US government, National Oceanographic and Atmospheric Association, I think it says, and they run a weather model that assimilates all of this data from satellites and boats and buoys and airplanes and stationary stations, blah, blah, blah. And they feed it into a model which they run on a supercomputer, and then it outputs like a twelve day forecast or a 15 day forecast in three hour steps. And then they make all of the data and they do this four times a day. So they generate a new 15 day forecast every four times a day, and they make all of the data available on the Internet, free, public domain. And I stumbled onto that and I'm like, okay, this is it, this is what I gotta use. But it was using formats I'd never heard of before, like rib format. I'm like, what's that? I don't know how to read that. Luckily there's a lot of open source projects produced by scientists and other institutions that can read grip files, and so I use that to pull out the data that I want, translate it to JSON, and then use that in the browser. Thankfully, there's not really any data cleaning that has to happen, that kind of thing. The hardest part is downloading these massive files and then just even the setup of it, even understanding what was in the files, the terminology, it was very hard to figure out.",
+      "id": "ep_137_ut_20"
+    },
+    {
+      "end": 716722,
+      "speaker": "Moritz Stefaner",
+      "start": 681370,
+      "text": "Yeah, that's generally with just GIS, geographic information system data, there's lots of old formats, they all have crazy acronyms, and it's very intimidating at the beginning in my experience. But then, as you say, there's usually a tool kit for Python, for JavaScript, for Java, for some language that you will be able to just input this and hopefully get something manageable out, right? And then just as a tip, don't be scared by the acronyms. Just google them and find one tool that seems to be solid in terms of dealing with that type of data.",
+      "id": "ep_137_ut_21"
+    },
+    {
+      "end": 742524,
+      "speaker": "Cameron Beccario",
+      "start": 716836,
+      "text": "Right. And then, like, once I got it to the point where it could be visualized, it just came up sort of just beautiful. From day one, I'm like, wow, this is awesome. That's amazing. So, thankfully, like, not too much. The data is pretty clean like it is. You know, it's a product produced by the us government for forecasters, forecasters, meteorologists, to use for actual weather forecasts. So it's got to be solidified.",
+      "id": "ep_137_ut_22"
+    },
+    {
+      "end": 765780,
+      "speaker": "Moritz Stefaner",
+      "start": 742682,
+      "text": "And so you're downloading the data, putting it on a server, but then you also need to visualize it. Right. And I think the animation works really well. It's really smooth, really pleasant. So can you tell us a bit about both the technology you used there, but also, did you have to tweak it a lot, or did you come up with this pretty much straight away? And the rest was just picking the colors or the particle lengths.",
+      "id": "ep_137_ut_23"
+    },
+    {
+      "end": 849730,
+      "speaker": "Cameron Beccario",
+      "start": 769060,
+      "text": "So the visualization that you see is actually four layers. It's like four Dom elements sitting on top of each other. The bottom layer is a 2D canvas, and that's where I use D3 to render a geojson file of all the coastlines and the coastlines and the rivers and that kind of stuff. There's a layer above it, which is Webgl canvas, and those are the colors that you see. So that's the color palette for the data that you see. There's another 2d canvas on top of that where the animation happens. Okay, that's not Webgl. It's just simple. Draw a line from here to here, from here to here, from here, like 50, 00, 10,000 times per frame. And then there's an SVG layer on top of that to sort of. To put the annotations, and there's a few annotations, and there's also, like, a nice, clean edge, anti aliased edge around the globe to make it look nice and neat. Because I was using techniques at the time that made it look a bit ragged, and so I wanted to hide that. And so, yeah, four layers.",
+      "id": "ep_137_ut_24"
+    },
+    {
+      "end": 851702,
+      "speaker": "Moritz Stefaner",
+      "start": 850830,
+      "text": "That's crazy.",
+      "id": "ep_137_ut_25"
+    },
+    {
+      "end": 852570,
+      "speaker": "Cameron Beccario",
+      "start": 851766,
+      "text": "Why not?",
+      "id": "ep_137_ut_26"
+    },
+    {
+      "end": 867770,
+      "speaker": "Moritz Stefaner",
+      "start": 854310,
+      "text": "Yeah, yeah. But you use the technology that works best for that specific part of the graphic that you want to achieve. Right. And that probably makes it so smooth in the end that you never had to compromise. But it's sort of insane that you have four different output layers.",
+      "id": "ep_137_ut_27"
+    },
+    {
+      "end": 908730,
+      "speaker": "Cameron Beccario",
+      "start": 868390,
+      "text": "Yeah. Part of that is, you know, I entered this project as a novice you know, I started it, I kicked it off wanting to learn JavaScript and learn data visualization to a degree. So I'm probably doing it very smart way. Probably. But I use D3 for all the map projections. It's great, just great. Although for the Webgl canvas, I had to re implement the projections in the fragment shader to match what D3 is doing. It wasn't so bad, but it's actually pretty fun.",
+      "id": "ep_137_ut_28"
+    },
+    {
+      "end": 912790,
+      "speaker": "Moritz Stefaner",
+      "start": 908770,
+      "text": "But depending on your definition of fun.",
+      "id": "ep_137_ut_29"
+    },
+    {
+      "end": 918870,
+      "speaker": "Cameron Beccario",
+      "start": 915690,
+      "text": "It was good to finally get it working. It took a while.",
+      "id": "ep_137_ut_30"
+    },
+    {
+      "end": 932270,
+      "speaker": "Moritz Stefaner",
+      "start": 920290,
+      "text": "I can imagine. Yeah. That's crazy. And we should mention, you have a great open Visconf talk from two or three years ago, I think, where you really go through all these different layers, I don't know if the Webgl was part of that already at this point.",
+      "id": "ep_137_ut_31"
+    },
+    {
+      "end": 934870,
+      "speaker": "Cameron Beccario",
+      "start": 933810,
+      "text": "It was not.",
+      "id": "ep_137_ut_32"
+    },
+    {
+      "end": 999650,
+      "speaker": "Moritz Stefaner",
+      "start": 935810,
+      "text": "But all the other layers, you go there, explain really well how you set this up. And I found that super interesting. And. Yeah, so if the listeners are interested in a more detailed breakdown of all the technology, it's definitely worth watching. Yeah. So just looking back now. So it has run a while, five years, as you said, it evolved a bit over time. You said you added more data layers, you started to tweak the whole thing. I also saw last, like a couple of weeks ago, you put out videos which were amazing, like a one year time lapse of the wind over the Pacific or something like this. Super interesting to look at and really just beautiful. So looking over the whole project, how was it received overall? I'm especially curious how it was received among the scientific community. I know it's pretty well known in the data visualization world, but did it also get feedback from outside?",
+      "id": "ep_137_ut_33"
+    },
+    {
+      "end": 1031272,
+      "speaker": "Cameron Beccario",
+      "start": 999990,
+      "text": "Quite a bit. Early on, there was a little bit of criticism from some meteorologists about the meaning of the streamlines, because the animation is an animation of an instant, you know, frozen in time of the wind field. And so the particles that you actually see moving aren't, you know, they're not meteorological. Like, they don't have any meaning. It's not like the wind is actually moving that way. So that's a little bit, yeah, that's a little bit, yeah.",
+      "id": "ep_137_ut_34"
+    },
+    {
+      "end": 1040377,
+      "speaker": "Moritz Stefaner",
+      "start": 1031416,
+      "text": "It's also faster than, let's say you had a, you had a thing that would fly like a balloon or something, right. It wouldn't fly as fast as these lines are moving, right?",
+      "id": "ep_137_ut_35"
+    },
+    {
+      "end": 1047969,
+      "speaker": "Cameron Beccario",
+      "start": 1040463,
+      "text": "No, no, not at all. Yeah. That would be terrifying if it was. Everything would be destroyed on the planet.",
+      "id": "ep_137_ut_36"
+    },
+    {
+      "end": 1058489,
+      "speaker": "Moritz Stefaner",
+      "start": 1048589,
+      "text": "Exactly. And so they had concern that it might be misleading because it seems like such a literal way to display it. But then it's. If you read it literally, it's very wrong.",
+      "id": "ep_137_ut_37"
+    },
+    {
+      "end": 1135940,
+      "speaker": "Cameron Beccario",
+      "start": 1058949,
+      "text": "Yeah. In fact, that's right. Yes. Now, most people, they're nothing. I don't really get a lot of feedback from people who are interpreting it literally. Actually, the meteorologist feedback criticism was more like, this isn't really a technique that we use in meteorology for forecasting. They want to see the evolution of the wind field over time or something like that. Going back, though, there's not so many folks who sort of interpret it literally. Some do. And they think, for example, that this is an actual satellite image of the Earth, or it's literally live second by second. Or as you said, the speed of the wind. That's the particles moving at that speed on the ground, everything would be supersonic. So it was a bit surprising to see those kinds of reactions. But mostly. Mostly, I think people get it. And whenever I try to explain sort of the, you know, the intricacies or the subtleties, they're more like, yeah, yeah, whatever. Yeah, it's cool, right? Looks neat. Good job.",
+      "id": "ep_137_ut_38"
+    },
+    {
+      "end": 1137300,
+      "speaker": "Moritz Stefaner",
+      "start": 1136360,
+      "text": "Good job.",
+      "id": "ep_137_ut_39"
+    },
+    {
+      "end": 1204316,
+      "speaker": "Cameron Beccario",
+      "start": 1139880,
+      "text": "But it was pretty well received. There's some outreach from various institutions like scripps. I did a hackathon with them to add some data that they had. There's a program called Argo, which is an international program that sends robotic buoys throughout the ocean to record ocean information. And so they wanted to visualize some stuff. There's also a boat called Tara, which is a scientific sailing ship that goes around the planet on two year expeditions, sampling things. So they reached out and wanted to do a partnership. Also, the imagery from the site has been used on the COVID of some reports in journals like Nature, climate change, a report by the National Academies of Sciences, engineering and medicine, report by Royal Society, etcetera. For the aesthetics. Not for the science, but for the aesthetics.",
+      "id": "ep_137_ut_40"
+    },
+    {
+      "end": 1221268,
+      "speaker": "Moritz Stefaner",
+      "start": 1204508,
+      "text": "Yeah, but that's so interesting. Also about this application, if you zoom in, you get this almost generative design, artworks, especially if you pick one of the crazier data layers. At the same time, it is based on measurements and observational data.",
+      "id": "ep_137_ut_41"
+    },
+    {
+      "end": 1238080,
+      "speaker": "Cameron Beccario",
+      "start": 1221444,
+      "text": "Yeah, this is how the planet actually looks, in a sense. And so it's a little. I tell people, like, the beauty is in the data, it's in the models that generate the data. It's not so much my treatment of it. You know, I just pick the colors.",
+      "id": "ep_137_ut_42"
+    },
+    {
+      "end": 1240720,
+      "speaker": "Moritz Stefaner",
+      "start": 1239380,
+      "text": "Well, yeah.",
+      "id": "ep_137_ut_43"
+    },
+    {
+      "end": 1266388,
+      "speaker": "Cameron Beccario",
+      "start": 1242100,
+      "text": "And put it on a globe. So it's. Yeah, I definitely feel like standing on the shoulders of giants in this sense, because you know that the systems that generate this data are incredibly expensive, and it's incredibly sophisticated by various built by very smart people. And I take their data and put it on the web.",
+      "id": "ep_137_ut_44"
+    },
+    {
+      "end": 1287826,
+      "speaker": "Moritz Stefaner",
+      "start": 1266444,
+      "text": "Yeah, but if nobody had built such an accessible visualization, it would just be in a cryptic GIS database, and there would just be maybe thousands of people worldwide who can actually see it that really explore it. Just so. I think there's a huge value in taking all this data and just making a. Putting it into a form that's immediately accessible and attractive.",
+      "id": "ep_137_ut_45"
+    },
+    {
+      "end": 1301550,
+      "speaker": "Cameron Beccario",
+      "start": 1287898,
+      "text": "Yeah, that's a lot of feedback that I get from scientists. They're like, hey, this is great for outreach. We wouldn't necessarily use it for science, but for communicating what we're doing. We'd love to use that tool.",
+      "id": "ep_137_ut_46"
+    },
+    {
+      "end": 1309350,
+      "speaker": "Moritz Stefaner",
+      "start": 1302130,
+      "text": "Right. You mentioned before you also had a few crazier usages that you're aware of.",
+      "id": "ep_137_ut_47"
+    },
+    {
+      "end": 1334548,
+      "speaker": "Cameron Beccario",
+      "start": 1309810,
+      "text": "Yeah, someone sent me a tweet. They're like, hey, your wind map is on a can of beer. And I'm like, what? And, yeah, sure enough, there's a brewery in Brooklyn that put an image of the wind map on their beer, and I immediately contacted them, like, can I have some beer?",
+      "id": "ep_137_ut_48"
+    },
+    {
+      "end": 1336876,
+      "speaker": "Moritz Stefaner",
+      "start": 1334724,
+      "text": "Yeah, you owe me a bit here.",
+      "id": "ep_137_ut_49"
+    },
+    {
+      "end": 1346310,
+      "speaker": "Cameron Beccario",
+      "start": 1336948,
+      "text": "Yeah. And they drank it all, unfortunately, and it was all gone. And also some, like, board shorts. Like surfboard shorts.",
+      "id": "ep_137_ut_50"
+    },
+    {
+      "end": 1348338,
+      "speaker": "Moritz Stefaner",
+      "start": 1347010,
+      "text": "Oh, yeah, I can see that.",
+      "id": "ep_137_ut_51"
+    },
+    {
+      "end": 1358970,
+      "speaker": "Cameron Beccario",
+      "start": 1348394,
+      "text": "Yeah, that was also pretty cool. I have two pairs of it. Two pairs of them. So I don't surf.",
+      "id": "ep_137_ut_52"
+    },
+    {
+      "end": 1366640,
+      "speaker": "Moritz Stefaner",
+      "start": 1359130,
+      "text": "Yeah. And are you, like, okay with that? Is it fine if someone just takes a screenshot and uses it, or are you. They could have asked.",
+      "id": "ep_137_ut_53"
+    },
+    {
+      "end": 1390788,
+      "speaker": "Cameron Beccario",
+      "start": 1367140,
+      "text": "They could have asked and they made amends after I brought it up. I do like, you know, it's nice when people give you credit and kind of acknowledge it as hearing and, you know, reach out and, you know, seek permission, at least put the URL or something. Right, yeah, yeah. So most people do that. They definitely reach out and say, hey, can we. Can we do something? And, you know, it's fine.",
+      "id": "ep_137_ut_54"
+    },
+    {
+      "end": 1410078,
+      "speaker": "Moritz Stefaner",
+      "start": 1390884,
+      "text": "Yeah. But that also shows people just take it also just as an aesthetic product or as an artwork or, like an artistic exploration. Right, right. Because probably the beer company didn't really care about the atmospheric conditions at a given point in time. They just saw a cool visual to use.",
+      "id": "ep_137_ut_55"
+    },
+    {
+      "end": 1461578,
+      "speaker": "Cameron Beccario",
+      "start": 1410134,
+      "text": "Right, right. There's actually. There's been quite a. Not many, but some artists who will, you know, incorporate it into their. Into their artwork or into their shows, or will be inspired by the visuals that they see and construct new artwork on top of it. And then there's folks who take sort of the open source version of the site and adapt it to their needs. So, you know, bird and birdwatchers, someone built a version that shows whale migrations. There's others who have used it for boat racing and firefighting. A lot of educators, I was surprised, sort of a lot of how many educators use it in their classrooms from first grade all the way up to graduate school. I didn't expect that when I started this.",
+      "id": "ep_137_ut_56"
+    },
+    {
+      "end": 1472002,
+      "speaker": "Moritz Stefaner",
+      "start": 1461714,
+      "text": "That's great. Yeah. Cool. So I've seen the code is up on GitHub. Is it easy to swap out a data layer or bring in your own data or is that difficult?",
+      "id": "ep_137_ut_57"
+    },
+    {
+      "end": 1485090,
+      "speaker": "Cameron Beccario",
+      "start": 1472186,
+      "text": "The version up on GitHub is an older version, back when I was, it's a version of the site back when you could tell I didn't know how to code in JavaScript. It's pretty bad.",
+      "id": "ep_137_ut_58"
+    },
+    {
+      "end": 1497486,
+      "speaker": "Moritz Stefaner",
+      "start": 1487510,
+      "text": "Any project I look at that is older than two years makes me cringe horribly. Probably even the ones now I will cringe, will make me cringe in two years. That's the nature of how it goes.",
+      "id": "ep_137_ut_59"
+    },
+    {
+      "end": 1506130,
+      "speaker": "Cameron Beccario",
+      "start": 1497598,
+      "text": "If you don't look back on your code from six weeks ago and go, oh my God, what was I thinking? What was I think, right? You're not really growing.",
+      "id": "ep_137_ut_60"
+    },
+    {
+      "end": 1507478,
+      "speaker": "Moritz Stefaner",
+      "start": 1506430,
+      "text": "Yeah, true.",
+      "id": "ep_137_ut_61"
+    },
+    {
+      "end": 1508622,
+      "speaker": "Cameron Beccario",
+      "start": 1507534,
+      "text": "Yeah, yeah.",
+      "id": "ep_137_ut_62"
+    },
+    {
+      "end": 1511850,
+      "speaker": "Moritz Stefaner",
+      "start": 1508646,
+      "text": "So you don't need to apologize. That's what I'm trying to say.",
+      "id": "ep_137_ut_63"
+    },
+    {
+      "end": 1526614,
+      "speaker": "Cameron Beccario",
+      "start": 1512750,
+      "text": "I think there have been people who have swapped out data layers. One of the more interesting ones that I saw was plate tectonics. Someone built interesting sort of the movement of the plate tectonics. That was pretty interesting. Mm hmm.",
+      "id": "ep_137_ut_64"
+    },
+    {
+      "end": 1541350,
+      "speaker": "Moritz Stefaner",
+      "start": 1526702,
+      "text": "Cool. Yeah, nice. So it's been running for five years. Is the project for you? Is it pretty much done and you're ready to move on and just let it go, or do you want to keep extending it, or where are you at with the project?",
+      "id": "ep_137_ut_65"
+    },
+    {
+      "end": 1543350,
+      "speaker": "Cameron Beccario",
+      "start": 1541650,
+      "text": "It's never going to be done.",
+      "id": "ep_137_ut_66"
+    },
+    {
+      "end": 1545870,
+      "speaker": "Moritz Stefaner",
+      "start": 1544610,
+      "text": "It's software.",
+      "id": "ep_137_ut_67"
+    },
+    {
+      "end": 1600218,
+      "speaker": "Cameron Beccario",
+      "start": 1546930,
+      "text": "No, it's more like my obsession now. It's kind of the sandbox where I can try, you know, all kinds of different technologies. Whatever tech out there sounds interesting, kind of fits in somewhere, Webgl or AWS or color palettes, making them look nice, et cetera, et cetera. So it's become this area where I can just test out new ideas or build new skills, and I want to keep adding more data and make it more accessible and maybe make it really easy for people to add their own data layers. There's so much, I see all the flaws and I want to fix them all, unfortunately. So I'm going to keep going on it.",
+      "id": "ep_137_ut_68"
+    },
+    {
+      "end": 1621402,
+      "speaker": "Moritz Stefaner",
+      "start": 1600234,
+      "text": "No, but it's great. I think it's just nice how well this whole project has worked out for you. At least that's my perception of it. Just something you tried out. And then it became this long story of this long going project that led to so many connections and ideas and reuses and so on. So I think that's just a fantastic development.",
+      "id": "ep_137_ut_69"
+    },
+    {
+      "end": 1690770,
+      "speaker": "Cameron Beccario",
+      "start": 1621546,
+      "text": "Yeah. But it does give me some concern. I see a lot of other data phys practitioners who come out with wildly different visualizations, different projects, and they're amazing. And it seems like how much growth is happening as each of those projects get published. And I'm like, I'm the windmap guy. And that's like my only project. I mean, there's a lot of, like I said, there's a lot of components in there that are personally appealing for me to work on. But in terms of like, wildly new things I can show folks, yeah, this is it. I guess I'm comfortable with that. But it's not like you get invited to, you know, talk at conferences, say more than once. Right. Because everybody's already familiar with it. Right. Which is fine. Well, I mean, it's familiar enough in a sense.",
+      "id": "ep_137_ut_70"
+    },
+    {
+      "end": 1693238,
+      "speaker": "Moritz Stefaner",
+      "start": 1691310,
+      "text": "So you're saying it's a curse and a blessing.",
+      "id": "ep_137_ut_71"
+    },
+    {
+      "end": 1696022,
+      "speaker": "Cameron Beccario",
+      "start": 1693334,
+      "text": "Yeah. Yeah, totally.",
+      "id": "ep_137_ut_72"
+    },
+    {
+      "end": 1721166,
+      "speaker": "Moritz Stefaner",
+      "start": 1696206,
+      "text": "I was also thinking if like, if you were to do it today, if you were, if you would even just put out a visualization of the world, you know, with one button to click, you know, because now everybody talks about there needs to be a story or you need to somehow make it interesting, needs to work on mobile, you know? So maybe you wouldn't even publish it the same way today or would you? I think that's an interesting thing to think about.",
+      "id": "ep_137_ut_73"
+    },
+    {
+      "end": 1724694,
+      "speaker": "Cameron Beccario",
+      "start": 1721278,
+      "text": "I would publish it exactly the same way.",
+      "id": "ep_137_ut_74"
+    },
+    {
+      "end": 1726090,
+      "speaker": "Moritz Stefaner",
+      "start": 1724862,
+      "text": "Yeah, that's good.",
+      "id": "ep_137_ut_75"
+    },
+    {
+      "end": 1764600,
+      "speaker": "Cameron Beccario",
+      "start": 1728750,
+      "text": "One itch that this project scratches for me is sort of an artistic, aesthetic need to just create something that I find visually appealing. And I don't want to clutter the page with text or buttons or social network buttons. I like the clean, I don't know, I like the clean view that you get right from the beginning and it's something you could just put on your wall and be done. I wouldn't really change that.",
+      "id": "ep_137_ut_76"
+    },
+    {
+      "end": 1780790,
+      "speaker": "Moritz Stefaner",
+      "start": 1765220,
+      "text": "It still works. But I think the side guys maybe has developed in a direction where you wouldn't even do something like that in that form anymore. Although I think it's wonderful. I think you should put it out today the same way. Totally agree.",
+      "id": "ep_137_ut_77"
+    },
+    {
+      "end": 1791170,
+      "speaker": "Cameron Beccario",
+      "start": 1781170,
+      "text": "I would redo the menu. It's horrible. The menu is terrible. Especially on mobile. Please don't visit on mobile. I mean, the visualization works, but not the menu. It's terrible.",
+      "id": "ep_137_ut_78"
+    },
+    {
+      "end": 1794250,
+      "speaker": "Moritz Stefaner",
+      "start": 1791210,
+      "text": "It works well on mobile, actually. Like just performance wise.",
+      "id": "ep_137_ut_79"
+    },
+    {
+      "end": 1810400,
+      "speaker": "Cameron Beccario",
+      "start": 1794370,
+      "text": "Yeah, I wanted to make sure it worked well on mobile, but my CSS skills are nothing. Not good enough to, to make the menu look really nice. That's, that's kind of like the next thing I want to. Yeah, that's one of the flaws that I really want to fix.",
+      "id": "ep_137_ut_80"
+    },
+    {
+      "end": 1812420,
+      "speaker": "Moritz Stefaner",
+      "start": 1810940,
+      "text": "Details, details.",
+      "id": "ep_137_ut_81"
+    },
+    {
+      "end": 1813140,
+      "speaker": "Cameron Beccario",
+      "start": 1812500,
+      "text": "Yeah.",
+      "id": "ep_137_ut_82"
+    },
+    {
+      "end": 1824116,
+      "speaker": "Moritz Stefaner",
+      "start": 1813300,
+      "text": "Anyways, great project. I'd love to talk to you in five years about it, how it has developed. Then probably it's like 5d autogram VR, ar.",
+      "id": "ep_137_ut_83"
+    },
+    {
+      "end": 1830620,
+      "speaker": "Cameron Beccario",
+      "start": 1824188,
+      "text": "Oh, ar would be amazing, right? Yeah, that would be so amazing. Yeah, that's on the list.",
+      "id": "ep_137_ut_84"
+    },
+    {
+      "end": 1835324,
+      "speaker": "Moritz Stefaner",
+      "start": 1830660,
+      "text": "Something for. Yeah, a good plan for the year. Like an AR version, maybe like three.",
+      "id": "ep_137_ut_85"
+    },
+    {
+      "end": 1839840,
+      "speaker": "Cameron Beccario",
+      "start": 1835372,
+      "text": "Years from now at my rate, the rate that I go getting through my feature list.",
+      "id": "ep_137_ut_86"
+    },
+    {
+      "end": 1868146,
+      "speaker": "Moritz Stefaner",
+      "start": 1840540,
+      "text": "Can we briefly chat a bit about Japan as well? Sure, sure. We always try to get, as you might know, we try to have sort of an international view also on data visualization, but we don't really have a good grip on what's happening in China and what's happening in Japan, what's happening in Asia in general. And so I'm super curious, like is there interesting data visualization work happening in Japan? Or let's say also generally creative code, front end development things.",
+      "id": "ep_137_ut_87"
+    },
+    {
+      "end": 1868746,
+      "speaker": "Cameron Beccario",
+      "start": 1868258,
+      "text": "Right.",
+      "id": "ep_137_ut_88"
+    },
+    {
+      "end": 1878754,
+      "speaker": "Moritz Stefaner",
+      "start": 1868858,
+      "text": "And we're just not that aware or is it not that popular? Like what's your perspective? I don't know if you have a good overview, but I'm just curious about anything from this direction.",
+      "id": "ep_137_ut_89"
+    },
+    {
+      "end": 1973034,
+      "speaker": "Cameron Beccario",
+      "start": 1878842,
+      "text": "I don't have a good overview. I'm a bit isolated in kind of the work that I do and, and my language skills. But in my office at, indeed, we hosted the Dataviz Japan data visualization Japan group, they do an annual meetup. It's like a mini conference. We did that a couple of years. That's probably the largest group that I know here in Japan that's doing Dataviz, or our Datavis practitioners in my experience, and take this with a grain of salt, that's just based on my own observations. Dataviz practitioners tend to be in institutions like universities or are part of tv and news organizations, which in Japan tend to be quite conservative in the sense that they change slowly. I don't really see many say freelancers. Right. Shirley Wu was actually out here a year ago and she spent, I believe three months or something like that. And I remember she remarked it, how hard it was to find Dataviz practitioners, particularly women here. I think also there's more I also see Dataviz coming out of design studios, but it's more of an artistic bend to it. But again, like I said, this is just my observations.",
+      "id": "ep_137_ut_90"
+    },
+    {
+      "end": 1974130,
+      "speaker": "Moritz Stefaner",
+      "start": 1973162,
+      "text": "Right? Yeah.",
+      "id": "ep_137_ut_91"
+    },
+    {
+      "end": 1975538,
+      "speaker": "Cameron Beccario",
+      "start": 1974250,
+      "text": "I don't even know if it's reality or not.",
+      "id": "ep_137_ut_92"
+    },
+    {
+      "end": 1986458,
+      "speaker": "Moritz Stefaner",
+      "start": 1975554,
+      "text": "So it might also just be harder to find or we don't have the right terms to look for it maybe or something. Yeah, I'm super curious. So, listeners, if you know somebody cool from Japan, let us know.",
+      "id": "ep_137_ut_93"
+    },
+    {
+      "end": 1988362,
+      "speaker": "Cameron Beccario",
+      "start": 1986514,
+      "text": "Yeah, let me know, too.",
+      "id": "ep_137_ut_94"
+    },
+    {
+      "end": 1999764,
+      "speaker": "Moritz Stefaner",
+      "start": 1988506,
+      "text": "We're all happy to learn more. Yeah. In my feeling, it would be such a good match in terms of there is this design seven s, of course, in Japan.",
+      "id": "ep_137_ut_95"
+    },
+    {
+      "end": 2000964,
+      "speaker": "Cameron Beccario",
+      "start": 1999892,
+      "text": "Oh, it's amazing.",
+      "id": "ep_137_ut_96"
+    },
+    {
+      "end": 2005620,
+      "speaker": "Moritz Stefaner",
+      "start": 2001132,
+      "text": "There should be great data visualization from Japan. There must be.",
+      "id": "ep_137_ut_97"
+    },
+    {
+      "end": 2036782,
+      "speaker": "Cameron Beccario",
+      "start": 2005780,
+      "text": "Oh, yeah. I've seen some that are just astonishing, like the Tohoku earthquake that happened in 2011. Great data visualization that showed sort of the progression of all the, the earthquakes and then the aftershocks that happened. It was astonishing. I'll send you the link. Yeah, that would be great. That was pretty cool. So I'm sure it's out here, right? Just maybe not as visible as, say, like elsewhere.",
+      "id": "ep_137_ut_98"
+    },
+    {
+      "end": 2070226,
+      "speaker": "Moritz Stefaner",
+      "start": 2036846,
+      "text": "Yeah. Yeah. And as you say, language is often the biggest barrier. But again, listeners, if you have any pointers, we are super curious. Yeah. So thanks so much, Cameron. That was super interesting. I love your projects. One of my all time favorites. I was happy to learn a bit more about it. If you want to go more in depth, the Openvisconf talk is great. We'll link the video, and other than that, just go to the site, zoom in, pan, change the layers, try to break it, enjoy the beauty of data. Really, thanks so much.",
+      "id": "ep_137_ut_99"
+    },
+    {
+      "end": 2070714,
+      "speaker": "Cameron Beccario",
+      "start": 2070298,
+      "text": "Thank you.",
+      "id": "ep_137_ut_100"
+    },
+    {
+      "end": 2073990,
+      "speaker": "Moritz Stefaner",
+      "start": 2070762,
+      "text": "Curious to talk in five years when we have the AR version.",
+      "id": "ep_137_ut_101"
+    },
+    {
+      "end": 2077746,
+      "speaker": "Cameron Beccario",
+      "start": 2074850,
+      "text": "Oh, boy. Yeah. Thanks for, thanks for having me.",
+      "id": "ep_137_ut_102"
+    },
+    {
+      "end": 2078503,
+      "speaker": "Moritz Stefaner",
+      "start": 2077818,
+      "text": "Thanks, Cameron.",
+      "id": "ep_137_ut_103"
+    },
+    {
+      "end": 2079359,
+      "speaker": "Cameron Beccario",
+      "start": 2078561,
+      "text": "Bye bye.",
+      "id": "ep_137_ut_104"
+    },
+    {
+      "end": 2104505,
+      "speaker": "C",
+      "start": 2084099,
+      "text": "Hey, folks, thanks for listening to data stories again. Before you leave, a few last notes. This show is now completely crowdfunded. So you can support us by going on Patreon. That's patreon.com Datastories. And if you can spend a couple of minutes rating us on iTunes, that would be extremely helpful for the show.",
+      "id": "ep_137_ut_105"
+    },
+    {
+      "end": 2130366,
+      "speaker": "Moritz Stefaner",
+      "start": 2104627,
+      "text": "And here's also some information on the many ways you can get news directly from us. We're, of course, on twitter@twitter.com. Datastories. We have a Facebook page@Facebook.com. data storiespodcast, all in one word. And we also have a slack channel where you can chat with us directly. And to sign up, you can go to our homepage datastory es. And there is a button at the bottom of the page.",
+      "id": "ep_137_ut_106"
+    },
+    {
+      "end": 2146238,
+      "speaker": "C",
+      "start": 2130518,
+      "text": "And we also have an email newsletter, so if you want to get news directly into your inbox and be notified whenever we publish an episode, you can go to our home page Datastories es and look for the link you find at the bottom in the footer.",
+      "id": "ep_137_ut_107"
+    },
+    {
+      "end": 2158404,
+      "speaker": "Moritz Stefaner",
+      "start": 2146334,
+      "text": "So one last thing we want to tell you is that we love to get in touch with our listeners, especially if you want to suggest a way to improve the show or amazing people you want us to invite, ize, even projects you want us to talk about.",
+      "id": "ep_137_ut_108"
+    },
+    {
+      "end": 2167620,
+      "speaker": "C",
+      "start": 2158492,
+      "text": "Yeah, absolutely. And don't hesitate to get in touch with us. It's always a great thing to hear from you, so see you next time, and thanks for listening to data stories.",
+      "id": "ep_137_ut_109"
+    }
+  ],
+  "confidence": 0.929657486958084,
+  "audio_duration": 2178,
+  "punctuate": true,
+  "format_text": true,
+  "dual_channel": false,
+  "webhook_url": null,
+  "webhook_status_code": null,
+  "webhook_auth": false,
+  "webhook_auth_header_name": null,
+  "speed_boost": false,
+  "auto_highlights_result": null,
+  "auto_highlights": false,
+  "audio_start_from": null,
+  "audio_end_at": null,
+  "word_boost": [],
+  "boost_param": null,
+  "filter_profanity": false,
+  "redact_pii": false,
+  "redact_pii_audio": false,
+  "redact_pii_audio_quality": null,
+  "redact_pii_policies": null,
+  "redact_pii_sub": null,
+  "speaker_labels": true,
+  "content_safety": false,
+  "iab_categories": true,
+  "content_safety_labels": {
+    "status": "unavailable",
+    "results": [],
+    "summary": {}
+  },
+  "language_detection": false,
+  "language_detection_threshold": null,
+  "language_confidence": null,
+  "custom_spelling": null,
+  "throttled": false,
+  "auto_chapters": true,
+  "summarization": false,
+  "summary_type": null,
+  "summary_model": null,
+  "custom_topics": false,
+  "topics": [],
+  "speech_threshold": null,
+  "speech_model": "best",
+  "chapters": [
+    {
+      "summary": "Moe Stefaner: Welcome to a new episode of Data stories. We talk about data visualization, data analysis, and the role data plays in our lives today. Our guest today is Cameron Beccario. Our podcast is now fully listener supported, so there's no ads. Please consider supporting us.",
+      "gist": "Data Stories",
+      "headline": "Our podcast is now fully listener supported, so there's no ads",
+      "start": 200,
+      "end": 167978,
+      "id": "ep_137_ch_0"
+    },
+    {
+      "summary": "Cameron is a software engineer by training. His current role is at a job search engine. His project, Earth, is something he does on the side. Cameron also studied Japanese full time for a year. Maybe at the end we will have an opportunity to talk about that.",
+      "gist": "Cameron on his",
+      "headline": "Cameron's latest project is a stunning visualization of global weather conditions",
+      "start": 168034,
+      "end": 297562,
+      "id": "ep_137_ch_1"
+    },
+    {
+      "summary": "Earth is a visualization of the planet. It shows the wind velocity and also streamline like little particles streaming around in an animation that shows the current wind conditions. The most recently added layer, Washington, the aurora. On the one hand you can get data, but also you're able to display it in a dynamic form.",
+      "gist": "The world of Earth in an interactive visualization",
+      "headline": "Earth dot nullschool. net is a visualization of the planet",
+      "start": 297746,
+      "end": 753584,
+      "id": "ep_137_ch_2"
+    },
+    {
+      "summary": "The visualization that you see is actually four layers. It's like four Dom elements sitting on top of each other. Early on, there was a little bit of criticism from some meteorologists about the meaning of the streamlines. How was the project received among the scientific community?",
+      "gist": "How to make a 4-layer weather visualization with WebGL",
+      "headline": "The visualization that you see is actually four layers",
+      "start": 753712,
+      "end": 1200700,
+      "id": "ep_137_ch_3"
+    },
+    {
+      "summary": "Not for the science, but for the aesthetics. If you zoom in, you get this almost generative design, artworks. At the same time, it is based on measurements and observational data. I think there's a huge value in taking all this data and putting it into a form that's immediately accessible.",
+      "gist": "The Planet in a Web-based Visibility",
+      "headline": "The visualization is based on measurements and observational data. At the same time, it is generative",
+      "start": 1200820,
+      "end": 1302870,
+      "id": "ep_137_ch_4"
+    },
+    {
+      "summary": "A brewery in Brooklyn put an image of the wind map on their beer. Some artists incorporate it into their. Into their artwork or into their shows. Others have used it for boat racing and firefighting. It's nice when people give you credit and kind of acknowledge it.",
+      "gist": "The Open Source Wind Map",
+      "headline": "You mentioned before you also had a few crazier usages",
+      "start": 1303450,
+      "end": 1463226,
+      "id": "ep_137_ch_5"
+    },
+    {
+      "summary": "The windmap project has been running for five years. Is it pretty much done and you're ready to move on or do you want to keep extending it? There's so much flaws and I want to fix them all, unfortunately.",
+      "gist": "The Future of Data Science",
+      "headline": "Is the project for you done or do you want to keep extending it",
+      "start": 1463418,
+      "end": 1813140,
+      "id": "ep_137_ch_6"
+    },
+    {
+      "summary": "Anyways, great project. I'd love to talk to you in five years about it. Like an AR version, maybe like three. Years from now at my rate, the rate that I go getting through my feature list.",
+      "gist": "Autogram VR: Five Years From Now",
+      "headline": "I'd love to talk to you in five years about how this project has developed",
+      "start": 1813300,
+      "end": 1839840,
+      "id": "ep_137_ch_7"
+    },
+    {
+      "summary": "Can we briefly chat a bit about Japan as well? Like is there interesting data visualization work happening in Japan? And we're just not that aware or is it not that popular? If you know somebody cool from Japan, let us know.",
+      "gist": "Is Data visualization popular in Japan?",
+      "headline": "Is there interesting data visualization work happening in Japan? I'm curious",
+      "start": 1840540,
+      "end": 2079359,
+      "id": "ep_137_ch_8"
+    },
+    {
+      "summary": "This show is now completely crowdfunded. You can support us by going on patreon. com Datastories. And if you can spend a couple of minutes rating us on iTunes, that would be extremely helpful for the show. Don't hesitate to get in touch with us.",
+      "gist": "How to Subscribe to Data Stories",
+      "headline": "This show is now completely crowdfunded and can be supported on Patreon",
+      "start": 2084099,
+      "end": 2167620,
+      "id": "ep_137_ch_9"
+    }
+  ],
+  "disfluencies": false,
+  "entity_detection": false,
+  "sentiment_analysis": false,
+  "sentiment_analysis_results": null,
+  "entities": null,
+  "speakers_expected": null,
+  "summary": null,
+  "custom_topics_results": null,
+  "episode_num": 137,
+  "episode_metadata": {
+    "speakers": [
+      "Cameron Beccario",
+      "Moritz Stefaner"
+    ],
+    "WPid": "1328",
+    "url": "https://datastori.es/podlove/file/5626/s/feed/c/mp3/137-visualizing-earth-with-cameron-beccario.mp3",
+    "episode_title": "Visualizing Earth with Cameron Beccario"
+  }
+}

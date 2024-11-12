@@ -1,0 +1,660 @@
+{
+  "id": "a5f1c0cc-ff80-47f4-b700-b7744d1c9cdd",
+  "language_model": "assemblyai_default",
+  "acoustic_model": "assemblyai_default",
+  "language_code": "en_us",
+  "status": "completed",
+  "audio_url": "https://datastori.es/podlove/file/4591/s/feed/c/mp3/110-whats-going-on-in-this-graph-with-sharon-hessney-and-michael-gonchar.mp3",
+  "utterances": [
+    {
+      "end": 5074,
+      "speaker": "Sharon Hessney",
+      "start": 200,
+      "text": "That's where we really wanted them to go to after. What do you notice? What do you wonder?",
+      "id": "ep_110_ut_0"
+    },
+    {
+      "end": 34792,
+      "speaker": "Enrico Bertini",
+      "start": 24614,
+      "text": "Hey, everyone, welcome to a new episode of data stories. My name is Enrico Bertini. I am a professor at NYU in New York City, and I do research in data visualization.",
+      "id": "ep_110_ut_1"
+    },
+    {
+      "end": 38808,
+      "speaker": "Moritz Stefaner",
+      "start": 34928,
+      "text": "My name is Moritz Stefaner, and I'm an independent designer of data visualizations.",
+      "id": "ep_110_ut_2"
+    },
+    {
+      "end": 44568,
+      "speaker": "Enrico Bertini",
+      "start": 38896,
+      "text": "And together we talk about data visualization, analysis, and generally the role data plays in our lives.",
+      "id": "ep_110_ut_3"
+    },
+    {
+      "end": 87186,
+      "speaker": "Moritz Stefaner",
+      "start": 44696,
+      "text": "And usually we do that. And today, again, with a few special guests we invite on the show. But before we start, a few updates from our side. So, as you might have heard last episode, we are fully crowdfunded now. So no more sponsorship. Our ads. It's you, the listeners, financing the show. This is great for us. And, yeah, please keep going. You can support us on patreon.com Datastories. And basically, the way it works is you can pledge to contribute a couple of dollars or more, as you like, per episode. And this is how we finance the audio editing and all the work that goes into producing the show.",
+      "id": "ep_110_ut_4"
+    },
+    {
+      "end": 127528,
+      "speaker": "Enrico Bertini",
+      "start": 87270,
+      "text": "Yeah, exactly. And today we talk about, I think, one of our favorite topics. Again, definitely a recurring topic. It's a recurring topic, but every time it's a different angle. And this is also today, a little different angle. We're going to talk about data literacy and how people read or even create graphs, whether they understand them, if they can understand them correctly. Yeah, and all these kind of things. Right Moritz. We have done this. I don't remember exactly how many episodes like that we had, but it's a recurring theme and I think a very important one.",
+      "id": "ep_110_ut_5"
+    },
+    {
+      "end": 159862,
+      "speaker": "Moritz Stefaner",
+      "start": 127656,
+      "text": "And it's a super important one because we think so much about, oh, what's the best way to display this data? And what sort of intricate, complicated solution could I come up with? And. Yeah, and it's like super interesting to hear and see what do normal people think of these complex graphics? Do they actually get them when they encounter them in a newspaper or a magazine? And what are they looking for? So I'm always super pleased to see real feedback from real people looking at complex data graphics. Yep.",
+      "id": "ep_110_ut_6"
+    },
+    {
+      "end": 183750,
+      "speaker": "Enrico Bertini",
+      "start": 159998,
+      "text": "And so today we have two guests to talk about that, and they are the main people behind a very interesting project happening at the New York Times that is called what's going on in this graph? And you're gonna learn in a moment more about how this works. And we have Sharon Hessney and Michael Gonchar. Hi, Michael. Hi, Sharon. How are you?",
+      "id": "ep_110_ut_7"
+    },
+    {
+      "end": 184054,
+      "speaker": "Moritz Stefaner",
+      "start": 183822,
+      "text": "Hi.",
+      "id": "ep_110_ut_8"
+    },
+    {
+      "end": 184550,
+      "speaker": "Michael Gonchar",
+      "start": 184094,
+      "text": "Hello.",
+      "id": "ep_110_ut_9"
+    },
+    {
+      "end": 185166,
+      "speaker": "Sharon Hessney",
+      "start": 184662,
+      "text": "Hello.",
+      "id": "ep_110_ut_10"
+    },
+    {
+      "end": 198054,
+      "speaker": "Enrico Bertini",
+      "start": 185270,
+      "text": "So, Sharon and Michael, can you briefly introduce yourself and tell us a little bit about what's your background and what's your current position and what's your role in this project?",
+      "id": "ep_110_ut_11"
+    },
+    {
+      "end": 224252,
+      "speaker": "Michael Gonchar",
+      "start": 198214,
+      "text": "I'm Michael Goncher. I am the deputy editor at the New York Times Learning Network. And the Learning Network is a part of NewYorkTimes.com that is devoted to helping teachers and students teach and learn with the New York Times. So we write lesson plans and we create activities for students and have contests to help teachers and students in classrooms use the content all over the paper. From the New York Times.",
+      "id": "ep_110_ut_12"
+    },
+    {
+      "end": 242778,
+      "speaker": "Sharon Hessney",
+      "start": 224388,
+      "text": "And I'm Sharon Hessney, and I've been a teacher for 20 years in New York, Minneapolis, and in Boston. And I'm the one who has always used graphs in the classroom to have kids. Kids have some understanding of data in context.",
+      "id": "ep_110_ut_13"
+    },
+    {
+      "end": 243426,
+      "speaker": "Enrico Bertini",
+      "start": 242906,
+      "text": "Perfect.",
+      "id": "ep_110_ut_14"
+    },
+    {
+      "end": 259770,
+      "speaker": "Moritz Stefaner",
+      "start": 243530,
+      "text": "Great. So can you tell us a bit about your joint project? What's going on in this graph? It's a good question. What's the basic idea of this experiment you're running? And can you tell us a bit how the whole project came about and how you got it on the way together?",
+      "id": "ep_110_ut_15"
+    },
+    {
+      "end": 363308,
+      "speaker": "Michael Gonchar",
+      "start": 259922,
+      "text": "Well, it started since 2012, we've run a feature called what's going on in this picture, you can see the similarity in the name where we take New York Times photojournalism. We strip it of its caption and the article that it was connected with. And we asked students, what's going on in this picture? And teachers have told us over the years that they really think it's not just helping students visual literacy, but it's helping them with close reading to support their interpretations and analyses with evidence from the text, in this case, a photograph. And it's really been used across subject matters. So not just in social studies classrooms or english classrooms, but also science classrooms and even ell classrooms or adult ell classrooms. So that was, I think, the beginning of this journey that we're now taking with Sharon and the American Statistical association. We tried that out with what's going on in this poem once. And then it was during the election that we ran a lesson plan written by math for America educator Patrick Connor, who writes some math lessons for us. And he used a contest that the ASA was holding related to predicting voting percentages, predicting the electoral college numbers, and the popular vote in the 2016 election. And I think it was through that lesson plan where we featured the ASA contest that we then began this conversation about how can we work together? And through that, we came up with this idea of what? About what's going on in this graph, since the Times has really such a wealth of different data visualization projects, either through the upshot or elsewhere in the paper.",
+      "id": "ep_110_ut_16"
+    },
+    {
+      "end": 377012,
+      "speaker": "Moritz Stefaner",
+      "start": 363476,
+      "text": "And can you tell us a bit how it plays out over the weeks? So this is set up in iterations. Every month, I think you pick a graphic that will be the topic. Is that right, Sharon?",
+      "id": "ep_110_ut_17"
+    },
+    {
+      "end": 492722,
+      "speaker": "Sharon Hessney",
+      "start": 377188,
+      "text": "Yes. So, on the second Tuesday of every month, and we announce it in advance, we release a graph from the New York Times, from the archives, and in the release, we asked students to answer the following questions, preferably in order. Okay, what do you notice in this graph? What do you wonder, and what's the story behind this graph? And the students get it early in the morning. They often do it in class. Maybe some of them do his homework. And we get the responses in and between 09:00 a.m. and 02:00 p.m. eastern Standard Time. We have live moderators who have a discussion with the students about their responses. Now, we really hope within the classroom that the teacher has actually had students discuss the responses, and then the end result is they send them in. We give our responses. Sometimes they answer back, sometimes other students answer back. And we do that for that period of time on Tuesday. What's going on with this graph is archived forever, so students can answer it at any time. But we get a lot of additional answers between Tuesday and Friday, because on Friday is what we call we give the reveal. We tell where the graph came from. We give a little summary of the responses that students gave. We ask them some questions that they may or may not have thought of, and in the end, we give them what are called stat nuggets. So, three statistical terms that we give a definition that would be very understandable to non statisticians. Okay. And then explain where you see those terms in the graph. And then it goes on the archives, and people continue to respond.",
+      "id": "ep_110_ut_18"
+    },
+    {
+      "end": 501734,
+      "speaker": "Moritz Stefaner",
+      "start": 492898,
+      "text": "So when you publish it, first, it's sort of taken a bit out of context. It's just the pure graphic without much caption and explanation around it.",
+      "id": "ep_110_ut_19"
+    },
+    {
+      "end": 518824,
+      "speaker": "Sharon Hessney",
+      "start": 502034,
+      "text": "Yeah. So we take things out that would tell you what's going on with this graph. They don't know where it comes from. We hope that they won't search. But even if they do search, we still want to know, what do you think is going on in the graph? Sometimes that's the main question.",
+      "id": "ep_110_ut_20"
+    },
+    {
+      "end": 519456,
+      "speaker": "Moritz Stefaner",
+      "start": 518904,
+      "text": "Really?",
+      "id": "ep_110_ut_21"
+    },
+    {
+      "end": 543378,
+      "speaker": "Sharon Hessney",
+      "start": 519600,
+      "text": "Yeah, because it's not what is this graph? Okay. It's what's going on. We want the interpretation and context, and sometimes we actually emphasize things. So in the second graph, the Y x line was very important. We made it darker so that people would refer to it. Okay. Because we know that that's where the key of what's going on in this graph is.",
+      "id": "ep_110_ut_22"
+    },
+    {
+      "end": 583500,
+      "speaker": "Michael Gonchar",
+      "start": 543536,
+      "text": "And we removed some information. There's a little bit of an art, I find, and Sharon's been doing this for the three graphs so far, and I think it's sort of figured it out. But what to remove and what to keep so that the graph has enough information so students aren't just guessing willy nilly. But there's not so much explanation in there, because, for example, for that nutrition graph that Sharon was talking about, there were additional boxes in there that the times put in in order to help readers better understand what's going on the graph. We removed some of those so that there was a little bit more mystery and a little bit more work and digging that students had to do. But we didn't want to remove too much, because clearly, students need to be able to make sense out of the graph with the information that we give them.",
+      "id": "ep_110_ut_23"
+    },
+    {
+      "end": 589984,
+      "speaker": "Moritz Stefaner",
+      "start": 583652,
+      "text": "So it's sort of the art of making a good, interesting riddle that is still solvable to some degree. Right?",
+      "id": "ep_110_ut_24"
+    },
+    {
+      "end": 591304,
+      "speaker": "Michael Gonchar",
+      "start": 590284,
+      "text": "Exactly.",
+      "id": "ep_110_ut_25"
+    },
+    {
+      "end": 605876,
+      "speaker": "Moritz Stefaner",
+      "start": 591804,
+      "text": "Maybe let's give a brief overview to our listeners who might not have seen the whole series, like, what the graphics up to now have been. So you published three iterations, or this whole process you just described happened three times already, right?",
+      "id": "ep_110_ut_26"
+    },
+    {
+      "end": 606584,
+      "speaker": "Sharon Hessney",
+      "start": 605940,
+      "text": "Yes.",
+      "id": "ep_110_ut_27"
+    },
+    {
+      "end": 613458,
+      "speaker": "Moritz Stefaner",
+      "start": 606954,
+      "text": "So the first one was, I think, a map of precipitation or rain across the United States.",
+      "id": "ep_110_ut_28"
+    },
+    {
+      "end": 702642,
+      "speaker": "Sharon Hessney",
+      "start": 613626,
+      "text": "Yeah. So the first one was a map, and most students don't think of maps as graphs, but in this case, it's a graph with location. And the question the graph answered would be, how long would it take for 50 inches of rain to fall in each of these areas in the United States? And 50 inches was the amount of rain that fell with the hurricane in Houston. Okay, so we had a couple things that were going on there. We had an unequal scale intervals for a number of years. We had the issue of arity area versus density in the map, and in the stat nuggets, we talked as maps, as graphs, and what are variables and what are quantitative variables. Now, for each of the other two graphs, we had other issues. So the first one was a map. The second one was a scatter plot. The third one was a time series. I bet the fourth one's going to be even something different. And each bringing up different kinds of graphs and different statistical issues and also different contexts, very different kinds of things. We've had, basically, climate change. We've had nutrition. And the last one was on labor shortage, each of them selected because we think that the students will see themselves in the graph. There's something that strikes them that I. How do I compare to what's in the graph? How can I analyze it in terms of myself?",
+      "id": "ep_110_ut_29"
+    },
+    {
+      "end": 729844,
+      "speaker": "Enrico Bertini",
+      "start": 702778,
+      "text": "So this is something I really like, because I think in most of the conversations that we had so far about visualization, literacy, the focus tends to be on how good is this graph at communicating something, but there is not a lot of focus on what do you actually get out of it in the first place. And that's what I really like here. I think it's a different angle and a very useful one. A very, very useful one.",
+      "id": "ep_110_ut_30"
+    },
+    {
+      "end": 783032,
+      "speaker": "Michael Gonchar",
+      "start": 729924,
+      "text": "Well, I mean, just connected to that. I mean, I wanted to emphasize, I think, the importance to this whole project. Of the three questions that Sharon introduced before, what do you notice? What do you wonder? And then trying to make sense of it, what do you think is going on in this graph? We purposefully picked really open ended questions to encourage students to think it's not about, it's not meant to be a gotcha, kind of, you didn't get the right answer. We want students to peel away the layers of an onion, essentially, and see if they can go deeper and try to put together, like you used the word before, riddle. Put together the riddle. Put together the puzzle. And it also not to get. It also should be fun. So, because it is that kind of a conversation that students should be having, whether online or in the classroom, they should be working together to solve this riddle.",
+      "id": "ep_110_ut_31"
+    },
+    {
+      "end": 812944,
+      "speaker": "Moritz Stefaner",
+      "start": 783088,
+      "text": "So can you tell us a bit about a few, like, conversations students had or some of the questions that were raised, some of the observations that were made? I mean, they're all accessible in the comments thread on the respective pages. So, dear listeners, please check them out. There's, like, often dozens and hundreds, I think, of comments for some of the graphics, but do you remember a few notable discussions that entailed from the graphics?",
+      "id": "ep_110_ut_32"
+    },
+    {
+      "end": 984354,
+      "speaker": "Sharon Hessney",
+      "start": 813364,
+      "text": "Yeah. Well, let's talk about the last one that was just done a week and a half ago, which was, listen to this title. Labor shortage gives wonders an edge. Workers an edge. I mean, that doesn't really sound very exciting. Labor shortages. And so what it was, it even gets less exciting. Seven OECD countries and their labor participation rates from 1980 to the present. That doesn't sound exciting either. The first thing we did was, okay, so let's, you know, give them a little knowledge. We had a glossary of what is an OECD country? Okay, what is OECD? And secondly, what, how do we define labor participation? Okay, so they now this doesn't sound very engaging until you take a quick look at the kind of boring looking time series. You see that Japan has had consistently very high labor participation, pretty much staying flat at over 95%. Okay. And you see the United States being dead last of the seven countries and going down at an increasing rate. So you think to yourself, hmm, we're going down, and we're worse than everybody else. What's going on? I'm going to be in the labor force very soon. And so this is a graph that you wouldn't normally think that most students would be very interested in. Certainly the one, you know, about what foods are healthy seemed a lot more interesting, you know, especially since there were, like, pictures of food and stuff in that one. But the. The students were really engaged, and many just analyzed it, you know, on the very basic level of kind of what I just told you. Okay. But then when what was going on in this graph resulted in a very interesting discussion, and not one that was necessarily statistical. So these graphs can, this. These graphs can absolutely be used in classes other than math, in history classes, in english classes. So, you know, some kids quickly went to things like, oh, you know, jobs being shipped overseas or technology, and then we, in our moderation, said, you know, what made you say that? What makes us different than other countries? Okay, we're always talking about variation in statistics. Someone to the other extreme and said things like, well, Americans are just lazy. Okay, we're not up for new ideas. Okay? And there was some discussion about those kinds of things. We kept a list. There were over 30 reasons people thought why this was happening. And there was clearly concern on the part of the students who were responding, and that's where we really wanted them to go to after. What do you notice? What do you wonder? What is this really saying to you? And we were pleasingly surprised at a graph that was not fun at all, how engaged the students were.",
+      "id": "ep_110_ut_33"
+    },
+    {
+      "end": 1007308,
+      "speaker": "Moritz Stefaner",
+      "start": 985574,
+      "text": "Yeah. And it's super interesting because once you start to engage with the patterns, you look for the underlying causes. And then, of course, there's also an interesting conversation to be had about, do you over extrapolate just from this line graph, or do you, like, over interpret the results, maybe? Or do you speculate? How much can you speculate on the causes just by looking at the numbers and so on? Right.",
+      "id": "ep_110_ut_34"
+    },
+    {
+      "end": 1043255,
+      "speaker": "Sharon Hessney",
+      "start": 1007476,
+      "text": "And along the way, we got involved. This will happen with every graph, like, confusions, confusion between number and proportion. So the labor participation rate is a percentage. So they said, oh, the rate. Their labor participation rate is decreasing. There are fewer people in the labor force. Wrong. You need to know the population for that time period. That's a very, very common mistake in understanding the difference between percentage and number.",
+      "id": "ep_110_ut_35"
+    },
+    {
+      "end": 1053151,
+      "speaker": "Moritz Stefaner",
+      "start": 1043359,
+      "text": "It's also just the man I just noticed. So it's a more specific data set than the man aged 25 to 54. So that might play a role, too. Right?",
+      "id": "ep_110_ut_36"
+    },
+    {
+      "end": 1080548,
+      "speaker": "Sharon Hessney",
+      "start": 1053247,
+      "text": "And it was surprising how few people picked up on that. Like, let us say one person of the hundreds of responses. And that's really significant. So in the reveal on Friday, we ask that question. So it included men. What would happen if we included women? Do you think it would be different? Okay. It didn't come out. Believe it or not, it didn't come out.",
+      "id": "ep_110_ut_37"
+    },
+    {
+      "end": 1081324,
+      "speaker": "Moritz Stefaner",
+      "start": 1080676,
+      "text": "Interesting.",
+      "id": "ep_110_ut_38"
+    },
+    {
+      "end": 1090946,
+      "speaker": "Enrico Bertini",
+      "start": 1081404,
+      "text": "So can you describe briefly what is it in this case that you reveal on Friday? So what pieces of information are missing from the original exercise?",
+      "id": "ep_110_ut_39"
+    },
+    {
+      "end": 1092130,
+      "speaker": "Sharon Hessney",
+      "start": 1091050,
+      "text": "We give them the article.",
+      "id": "ep_110_ut_40"
+    },
+    {
+      "end": 1092894,
+      "speaker": "Enrico Bertini",
+      "start": 1092242,
+      "text": "So.",
+      "id": "ep_110_ut_41"
+    },
+    {
+      "end": 1151604,
+      "speaker": "Sharon Hessney",
+      "start": 1096754,
+      "text": "What'S going on in this graph? And everything on the learning network is free. And when we use an article, it's free. So they have access to this, which they wouldn't probably normally have unless they had some sort of subscription, which schools do have. Okay. So we give them the article, which they can read. Okay. We summarize the responses, a few sentences, because, realize what usually happens is you come into your class at 945, you respond to this, you're done by 957, and you don't look at it again. Okay. So we give a couple summaries. Then we do raise the questions that we feel you should answer. Like, what if it included women? Or how about if the population increased? What would happen to the percentage? And then the end are these stat nuggets, which are, you know, just a few words with their definition and how they're used purposely written for non statisticians.",
+      "id": "ep_110_ut_42"
+    },
+    {
+      "end": 1179694,
+      "speaker": "Enrico Bertini",
+      "start": 1152464,
+      "text": "Yeah. And so from the way you described how the students react, it looks to me that they. So most of them, if I understand correctly, the first reaction is not to criticize the chart or the statistics, but just to explain, try to find an explanation for the message rather than questioning the message itself. Is that correct?",
+      "id": "ep_110_ut_43"
+    },
+    {
+      "end": 1194314,
+      "speaker": "Sharon Hessney",
+      "start": 1179994,
+      "text": "I would say absolutely. And it's done on purpose. You know, it's really easy to say, you know, statistics, lies. No, we're trying to show, you know, take a look at it, be critical, think critically of it. Okay.",
+      "id": "ep_110_ut_44"
+    },
+    {
+      "end": 1194818,
+      "speaker": "Enrico Bertini",
+      "start": 1194394,
+      "text": "Yeah.",
+      "id": "ep_110_ut_45"
+    },
+    {
+      "end": 1207774,
+      "speaker": "Sharon Hessney",
+      "start": 1194906,
+      "text": "And then what is happening because of where these graphs come from. They come from the New York Times. Then we can explain it. We're not going to the immediate. Well, it lies. Okay. No, there's something here to understand. Yeah.",
+      "id": "ep_110_ut_46"
+    },
+    {
+      "end": 1238176,
+      "speaker": "Moritz Stefaner",
+      "start": 1207934,
+      "text": "I think that's the main thing. That really comes through. There's so many questions you can ask and which you might, I don't know, research and like, so once this question pops up, well, how about what happens if we include the women? I think you can find that out by searching maybe on Wikipedia or some other places online. Right. So. And I think that's actually what you should do with any graph that sort of piques your interest. Like, sort of dig a little deeper and understand a bit. How was it before? Like, what if we look at different countries and just go on this quest yourself of finding.",
+      "id": "ep_110_ut_47"
+    },
+    {
+      "end": 1238312,
+      "speaker": "Sharon Hessney",
+      "start": 1238200,
+      "text": "Yeah.",
+      "id": "ep_110_ut_48"
+    },
+    {
+      "end": 1276964,
+      "speaker": "Enrico Bertini",
+      "start": 1238328,
+      "text": "Or even you, you just change the data. Right. You visualize some different pieces of information. You try to disaggregate in some way. So that's. Yeah, I think that that's what is really interesting of graphs when they are used for communication purposes in newspapers. And I think this is somewhat related to our previous episode. Right. So the idea that graphs are a form of rhetoric as much as any other form of communication. Right. And trying to see the graph from a different perspective than the author requires some effort.",
+      "id": "ep_110_ut_49"
+    },
+    {
+      "end": 1306286,
+      "speaker": "Michael Gonchar",
+      "start": 1277624,
+      "text": "And you could imagine, and with that particular graph, you can imagine what it would convey if you had started the y axis at zero instead of at 87%. So with it starting at 87%, it looks like the United States is so incredibly low compared to the rest of the world. Well, first of all, this is only including, I think, six other OECD countries, and it starts at 87%. So that's an interesting way of looking at that.",
+      "id": "ep_110_ut_50"
+    },
+    {
+      "end": 1336596,
+      "speaker": "Moritz Stefaner",
+      "start": 1306350,
+      "text": "Yeah. And it's a very tall chart. So it's made for drama, in a way. Can I ask a bit about how the actual online conversation goes? So you post it on the New York Times website and then people can comment in the comment section. I noticed there are moderators as well. So some of you will look for some questions, or will also some moderators clear up common misconceptions? Or what's the role of the moderators overall during that week from Monday to.",
+      "id": "ep_110_ut_51"
+    },
+    {
+      "end": 1398804,
+      "speaker": "Sharon Hessney",
+      "start": 1336620,
+      "text": "Friday, to move the conversation along and not to be the authority. We don't want them to look at us. So what made you say that? Have you considered, that's a great comment, it's moving it forward. And have you considered is the one which kind of says, well, this is the next step, do you want to take it? Okay. And we don't comment on everyone. We kind of find ones where we think we want to bring the conversation forward and hoping that the students will have an opportunity to read it, because as I kind of described what happens sometimes they respond, and then they immediately go to the pythagorean theorem, are not on the graph anymore and don't see it. We hope at least their teachers will see it and say, gee, sue, did you see that? The New York Times responded to you yesterday. Gee, let's read what they said. And I think that probably does happen.",
+      "id": "ep_110_ut_52"
+    },
+    {
+      "end": 1512564,
+      "speaker": "Michael Gonchar",
+      "start": 1399144,
+      "text": "So this moderation formula that we use with what's going on, this graph came from our sister feature, what's going on in this picture? And we've been able to study the results of that for the past, I think, five years. And one thing that we've noticed is that I think student comments have definitely become more sophisticated over time. And I think there's a couple of reasons for that. One is certainly because of the moderation that Sharon was talking about, that the moderators push the conversation forward, they validate students, and they ask them to dig deeper. But another thing that goes on in the conversation that I think is important to realize is that students have a chance to read what other students have to say. So we have students participating from very different types of schools all around the country and often all around the world. And so when a student from one school, in one environment sometimes can have a very superficial response to the photograph or to the graph, and they're not really sure how to dig deeper, and another school immediately, Sharon, can probably attest to this, that some schools come on, and you'll see a whole group of 30 students coming on at once, and they have very sophisticated analyses. Well, the student from the first school can see the comments from the student from the other school. And we think that just kind of bridging that gap between different schools of different qualities and different neighborhoods from different backgrounds provides a way for students to learn how to do better. And we've actually tracked some students in what's going on in this picture over time. And we could see the language that they use. They often borrow from other students or from the moderators, and they start using words, interpret and analyze the implications using a stronger vocabulary. And they're going deeper. They're starting to make predictions and a deeper analysis. And I think it comes from this online conversation and from the moderation.",
+      "id": "ep_110_ut_53"
+    },
+    {
+      "end": 1554380,
+      "speaker": "Moritz Stefaner",
+      "start": 1513064,
+      "text": "Yeah, that's very interesting. Generally, does it go like you just had three runs so far, so it's a bit hard, probably, to paint a big picture already, but does it go as planned? And I think you, you had probably certain expectations coming from the experience with what's going on in this picture. Is it pretty much like the conversations and the responses going the same way, or do you feel the statistical discussion is different than the photographic discussion? What's your current feeling so far? Probably, again, you can't really tell that much with just three graphics out so far. But what are your first impressions?",
+      "id": "ep_110_ut_54"
+    },
+    {
+      "end": 1645724,
+      "speaker": "Michael Gonchar",
+      "start": 1554512,
+      "text": "Well, a couple of impressions that I have. I mean, first of all, our first, what's going on in this graph? I think Sharon had over 500 comments, and the two that followed were in the multiple hundreds as well. That wasn't our experience with what's going in this picture in the first year. The first year, I think we started with maybe 80 or 110 comments per photograph. We're now averaging over 1000 comments per photograph. Another thing that's with what's going on in this picture, we're just able to do it once a month this year. And so one of the challenges the teachers have told us is it's just hard to remember which Tuesday is it again, that the graph is coming on. So despite that challenge, I think we're really excited about the enthusiasm that teachers have shown. One of the things that I'm hoping to see, I do see a little bit of this, and, Sharon, you could talk about it more, probably, but I'm hoping to see even more replies from students to other students so that there is even more of a conversation between students and what's going on in this picture. We found that some students have actually adopted the language of the moderator, so we only have live moderation on the first day, but other students will come on. There's one school in New Jersey that tends to come on every week for what's going on in this picture, and they just play the role of moderator to students from around the world, saying, oh, what gives you, what's the evidence you have to make that interpretation? Have you considered. Exactly. And so I'm hoping that develops in what's going on in this group graph as well.",
+      "id": "ep_110_ut_55"
+    },
+    {
+      "end": 1690838,
+      "speaker": "Enrico Bertini",
+      "start": 1645764,
+      "text": "Yeah, that's very interesting. I think I have to say, even myself as a teacher, I noticed that if you teach students how to ask the right questions, then the old thinking process gets much better. So, one thing I wanted to ask you, did you already start recognizing some patterns in terms of what students get right, what students get wrong, or strategies that tend to lead to positive or negative outcomes? I'm just wondering if it's gonna be possible at some point in this project to abstract away from the specifics and maybe, I don't know, create some instructions or guidelines. I don't know, something like that.",
+      "id": "ep_110_ut_56"
+    },
+    {
+      "end": 1780476,
+      "speaker": "Sharon Hessney",
+      "start": 1690926,
+      "text": "Well, it's only been three weeks, so we're really at the anecdote stage and not in the survey stage. We're noticing an increase in quality of responses. Now, I'm not really concerned in quality as far is a more in depth understanding of statistics and a more in depth understanding of context. That could be because of the graphs we select. I hope it's not because people are kind of backing away from it. And, you know, we're only keeping the better quality ones because we really want, we want the doors to be open. Almost all the math standards in the country now include statistics. That includes reading graphs. That includes reading graphs in context. It's not a subject that gets taught directly from textbooks, and it's kind of usually difficult for a teacher to do it on their own, especially if they're not trained. So here's an avenue to do it. We're kind of answering a need that's out there, and it's now a matter of getting it out to the world that here it is. The New York Times has always had some of the best graphics in journalism, and so we're really, we're getting the best of the best, but graphs that relate to students, and that should be the best expectation of actually having teachers use it instead of leaving understanding graphs and context for the day before the local state test or something like that and not doing a very good job.",
+      "id": "ep_110_ut_57"
+    },
+    {
+      "end": 1827872,
+      "speaker": "Moritz Stefaner",
+      "start": 1780660,
+      "text": "Yeah. And I think it's so great that you provide this framework also, that makes it really easy for, as you say, teachers who have thought about these things already and, well, how could I teach more in this direction? You basically give them the whole framework, and every month they have one interesting graphic to discuss and get sort of all the benefits from having this wider online discussion. And, yeah, I think it's so great that you teach students to really critically look at data and graphics, and I think often the takeaway will be that, well, if you take it apart and discuss it with others and just keep asking questions, it's not so complicated or intimidating anymore. After all, it's all doable, right? And, yeah, I think it's great.",
+      "id": "ep_110_ut_58"
+    },
+    {
+      "end": 1867904,
+      "speaker": "Sharon Hessney",
+      "start": 1827968,
+      "text": "It's also interdisciplinary. So, you know, the first one was science, the next one was just kind of common culture, and the third one was economics. I got a suspicion that this coming month is going to be english language based about literature. I don't know, but I have that suspicion. And, you know, we're really hoping that some english teachers are going to jump on. We know we've had some already. So using graphics in classes and in fields that you normally don't expect it is one of the things that we want to introduce. They get archived and so that teachers can always go back, you know, oh, gee, I missed that one. I can do it later.",
+      "id": "ep_110_ut_59"
+    },
+    {
+      "end": 1870864,
+      "speaker": "Moritz Stefaner",
+      "start": 1867984,
+      "text": "Exactly. Yeah. That's wonderful. Yeah. And.",
+      "id": "ep_110_ut_60"
+    },
+    {
+      "end": 1871056,
+      "speaker": "Michael Gonchar",
+      "start": 1870904,
+      "text": "Yeah.",
+      "id": "ep_110_ut_61"
+    },
+    {
+      "end": 1900196,
+      "speaker": "Moritz Stefaner",
+      "start": 1871080,
+      "text": "And hopefully students see how universal, really, this basic toolbox of statistics and graphical communication and analytic thinking. That's an excellent point. So you will keep going, right? It's once per month, every second Tuesday until May. So it's a couple of additions that you can still take part in. Dear listeners, I think I will drop by for one, just see how much I can figure out for myself. Exactly.",
+      "id": "ep_110_ut_62"
+    },
+    {
+      "end": 1901224,
+      "speaker": "Sharon Hessney",
+      "start": 1900260,
+      "text": "Please respond.",
+      "id": "ep_110_ut_63"
+    },
+    {
+      "end": 1912014,
+      "speaker": "Moritz Stefaner",
+      "start": 1901964,
+      "text": "December 12 is a good opportunity. Or January 9. Yeah, we might see you in the comment section on what's going on in this graph.",
+      "id": "ep_110_ut_64"
+    },
+    {
+      "end": 2009544,
+      "speaker": "Enrico Bertini",
+      "start": 1912914,
+      "text": "Yeah. And before we conclude, I want to briefly mention a few related episodes. So the first one is 104, visualization literacy in elementary school, where we discussed with Basak Alper and Nathalie Riche about a very nice project they developed on how to teach students in high school, in elementary school how to create visualization. And then number 97, the calling bullshit one. There was a particularly funny one on how to call bullshit on shaky statistics and graphics. And then number 88, redesigning visualizations on Makeover Monday, which is somewhat similar to this episode. So Andy Cribble and Andy Cotgreave basically created this project where every Monday people can submit redesigns of a given chart that they publish. And then we had number 69, data visualization literacy, with Jeremy Boy, Helen Kennedy and Andy Kirk. And this is an episode where we described and discussed a little bit of the research side of literacy. And the last one is number 33, the heleMeViz one with Jon Schwabish, where we talked about his project where he used to publish graphic and ask people how to improve on this graphic. And then there will be a lot of interesting discussion. So if you're interested in this topic and you want to get more of it, we strongly suggest you to listen to some or even all of these related episodes.",
+      "id": "ep_110_ut_65"
+    },
+    {
+      "end": 2024434,
+      "speaker": "Moritz Stefaner",
+      "start": 2009624,
+      "text": "So, yeah, thanks so much. It's a wonderful project. Maybe we should do another show when it's all wrapped up, at least this first phase. And you can tell us a bit about your observations after running a few of these. So that would be great.",
+      "id": "ep_110_ut_66"
+    },
+    {
+      "end": 2025506,
+      "speaker": "Michael Gonchar",
+      "start": 2024514,
+      "text": "That'd be great. Thank you.",
+      "id": "ep_110_ut_67"
+    },
+    {
+      "end": 2031122,
+      "speaker": "Moritz Stefaner",
+      "start": 2025570,
+      "text": "Yeah. Thanks so much, Sharon and Michael. And, yeah, we'll be following it from afar. Thanks so much.",
+      "id": "ep_110_ut_68"
+    },
+    {
+      "end": 2031866,
+      "speaker": "Enrico Bertini",
+      "start": 2031178,
+      "text": "Thanks so much.",
+      "id": "ep_110_ut_69"
+    },
+    {
+      "end": 2032546,
+      "speaker": "Sharon Hessney",
+      "start": 2031930,
+      "text": "Thank you. Bye.",
+      "id": "ep_110_ut_70"
+    }
+  ],
+  "confidence": 0.942488557053008,
+  "audio_duration": 2042,
+  "punctuate": true,
+  "format_text": true,
+  "dual_channel": false,
+  "webhook_url": null,
+  "webhook_status_code": null,
+  "webhook_auth": false,
+  "webhook_auth_header_name": null,
+  "speed_boost": false,
+  "auto_highlights_result": null,
+  "auto_highlights": false,
+  "audio_start_from": null,
+  "audio_end_at": null,
+  "word_boost": [],
+  "boost_param": null,
+  "filter_profanity": false,
+  "redact_pii": false,
+  "redact_pii_audio": false,
+  "redact_pii_audio_quality": null,
+  "redact_pii_policies": null,
+  "redact_pii_sub": null,
+  "speaker_labels": true,
+  "content_safety": false,
+  "iab_categories": true,
+  "content_safety_labels": {
+    "status": "unavailable",
+    "results": [],
+    "summary": {}
+  },
+  "language_detection": false,
+  "language_detection_threshold": null,
+  "language_confidence": null,
+  "custom_spelling": null,
+  "throttled": false,
+  "auto_chapters": true,
+  "summarization": false,
+  "summary_type": null,
+  "summary_model": null,
+  "custom_topics": false,
+  "topics": [],
+  "speech_threshold": null,
+  "speech_model": "best",
+  "chapters": [
+    {
+      "summary": "Enrico Bertini is a professor at NYU in New York City. Moritz Stefaner is an independent designer of data visualizations. Together they talk about data visualization, analysis, and the role data plays in our lives.",
+      "gist": "Data Stories",
+      "headline": "This week we talk about data visualization, analysis, and generally data",
+      "start": 200,
+      "end": 50696,
+      "id": "ep_110_ch_0"
+    },
+    {
+      "summary": "Today we talk about one of our favorite topics. We're going to talk about data literacy and how people read or even create graphs. We are fully crowdfunded now. You can support us on patreon. com Datastories.",
+      "gist": "Data Literacy",
+      "headline": "This week we talk about data literacy and how people read graphs",
+      "start": 50840,
+      "end": 158794,
+      "id": "ep_110_ch_1"
+    },
+    {
+      "summary": "Today we have two guests to talk about a very interesting project happening at the New York Times. The project is called what's going on in this graph? And you're gonna learn in a moment more about how this works.",
+      "gist": "What's Going on in The New York Times?",
+      "headline": "Sharon Hessney and Michael Gonchar discuss New York Times graph project",
+      "start": 159134,
+      "end": 185166,
+      "id": "ep_110_ch_2"
+    },
+    {
+      "summary": "Michael Goncher is deputy editor at the New York Times Learning Network. Sharon Hessney is a teacher who has always used graphs in the classroom to have kids understand data in context. Every month, they release a graph from the Times, from the archives, and students answer questions.",
+      "gist": "What's Going on in This Graph?",
+      "headline": "Michael Goncher is deputy editor at the New York Times Learning Network",
+      "start": 185270,
+      "end": 591304,
+      "id": "ep_110_ch_3"
+    },
+    {
+      "summary": "Three iterations of the interactive project have been published. Each brings up different kinds of graphs and different statistical issues. Students are asked to put together the riddle. What do they get out of the project?",
+      "gist": "Three iterations of the Data Visualization Project",
+      "headline": "You've published three iterations of the graph, and students have discussed them",
+      "start": 591804,
+      "end": 813740,
+      "id": "ep_110_ch_4"
+    },
+    {
+      "summary": "Seven OECD countries and their labor participation rates from 1980 to the present. United States is dead last of the seven countries and going down at an increasing rate. These graphs can absolutely be used in classes other than math.",
+      "gist": "Labor Participation Rates in the OECD",
+      "headline": "Seven OECD countries and their labor participation rates from 1980 to the present",
+      "start": 813772,
+      "end": 1081324,
+      "id": "ep_110_ch_5"
+    },
+    {
+      "summary": "The students are given an article and asked to answer questions about a graph. Most of the students' first reaction is not to criticize the chart or the statistics, but to find an explanation for the message. graphs are a form of rhetoric as much as any other form of communication.",
+      "gist": "What is it in this case that you reveal on Friday?",
+      "headline": "You use graphs from the New York Times to help students understand statistics",
+      "start": 1081404,
+      "end": 1309834,
+      "id": "ep_110_ch_6"
+    },
+    {
+      "summary": "The New York Times invites students to post photos and comment in the comment section. One thing that we've noticed is that student comments have become more sophisticated over time. And I think it comes from this online conversation and from the moderation.",
+      "gist": "Commenting at The New York Times",
+      "headline": "Can I ask a bit about how the actual online conversation goes",
+      "start": 1313494,
+      "end": 1514648,
+      "id": "ep_110_ch_7"
+    },
+    {
+      "summary": "We're averaging over 1000 comments per photograph. We're noticing an increase in quality of responses. Almost all the math standards in the country now include statistics. That includes reading graphs in context. Here's an avenue to do it.",
+      "gist": "The New York Times Graphic",
+      "headline": "Sharon: We've had three runs so far on this project",
+      "start": 1514816,
+      "end": 1912014,
+      "id": "ep_110_ch_8"
+    },
+    {
+      "summary": "A few related episodes. 104, visualization literacy in elementary school. 88, redesigning visualizations on Makeover Monday. 33, the heleMeViz one with Jon Schwabish. Maybe we should do another show when it's all wrapped up.",
+      "gist": "Data and visualization literacy episodes",
+      "headline": "A few related episodes discuss visualization literacy in elementary school",
+      "start": 1912914,
+      "end": 2025034,
+      "id": "ep_110_ch_9"
+    },
+    {
+      "summary": "Thank you. And, yeah, we'll be following it from afar. Thanks so much. Bye.",
+      "gist": "Brexit vote close",
+      "headline": "Sharon and Michael: Thanks so much. And, yeah, we'll be following it from afar",
+      "start": 2025074,
+      "end": 2032546,
+      "id": "ep_110_ch_10"
+    }
+  ],
+  "disfluencies": false,
+  "entity_detection": false,
+  "sentiment_analysis": false,
+  "sentiment_analysis_results": null,
+  "entities": null,
+  "speakers_expected": null,
+  "summary": null,
+  "custom_topics_results": null,
+  "episode_num": 110,
+  "episode_metadata": {
+    "speakers": [
+      "Sharon Hessney",
+      "Enrico Bertini",
+      "Moritz Stefaner",
+      "Michael Gonchar"
+    ],
+    "WPid": "1070",
+    "url": "https://datastori.es/podlove/file/4591/s/feed/c/mp3/110-whats-going-on-in-this-graph-with-sharon-hessney-and-michael-gonchar.mp3",
+    "episode_title": "What's Going On In This Graph? with Michael Gonchar and Sharon Hessney"
+  }
+}

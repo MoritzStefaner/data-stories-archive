@@ -1,0 +1,727 @@
+{
+  "id": "db6b5e12-ad53-45cb-8148-0c22011c5545",
+  "language_model": "assemblyai_default",
+  "acoustic_model": "assemblyai_default",
+  "language_code": "en_us",
+  "status": "completed",
+  "audio_url": "https://datastori.es/podlove/file/5384/s/feed/c/mp3/128-visual-perception-and-visualization-with-steve-haroz.mp3",
+  "utterances": [
+    {
+      "end": 8010,
+      "speaker": "Steve Haroz",
+      "start": 280,
+      "text": "Never feel ashamed to ask someone where their guideline or where their visualization idea comes from.",
+      "id": "ep_128_ut_0"
+    },
+    {
+      "end": 36194,
+      "speaker": "Enrico Bertini",
+      "start": 27430,
+      "text": "Hi, everyone. Welcome to a new episode of Data stories. My name is Enrico Bertini, and I am a professor at NYU in New York, where I do research in data visualization.",
+      "id": "ep_128_ut_1"
+    },
+    {
+      "end": 40810,
+      "speaker": "Moritz Stefaner",
+      "start": 36362,
+      "text": "Yeah, and my name is Moritz Stefaner, and I'm an independent designer of data visualizations.",
+      "id": "ep_128_ut_2"
+    },
+    {
+      "end": 52410,
+      "speaker": "Enrico Bertini",
+      "start": 40890,
+      "text": "Yes, and on this podcast, we talk about data visualization, analysis, and generally the role that data plays in our lives. And usually we do that together with a guest we invite on the show.",
+      "id": "ep_128_ut_3"
+    },
+    {
+      "end": 71808,
+      "speaker": "Moritz Stefaner",
+      "start": 52530,
+      "text": "Who we will bring on in a minute. But before we start, just a quick note. As you might know, podcast is listener supported. There are no ads. So if you do enjoy the show, please consider supporting us. You can do that on patreon.com Datastories, or you can also send us one time donations on PayPal me Datastories.",
+      "id": "ep_128_ut_4"
+    },
+    {
+      "end": 131858,
+      "speaker": "Enrico Bertini",
+      "start": 71944,
+      "text": "Yes. And this is great. From time to time, we receive new notifications of someone who sent some one time donation, and it's a really good feeling. And so you have these two options now. So let's get started. I'm very happy to have a friend today on the show we have Steve Rose, and Steve is an expert in visualization and also in vision science and visual perception. And if you are active on Twitter, you may have seen him being very active sometime. And people say, maybe we should ask Steve what he thinks about this thing whenever we get close to some perception issue. So. And Steve has a PhD in perception and attention, and. Yeah. So I'm very happy to have him on the show. Hi, Steve. Welcome.",
+      "id": "ep_128_ut_5"
+    },
+    {
+      "end": 133458,
+      "speaker": "Steve Haroz",
+      "start": 131994,
+      "text": "Hi. Excited to be here.",
+      "id": "ep_128_ut_6"
+    },
+    {
+      "end": 143258,
+      "speaker": "Enrico Bertini",
+      "start": 133554,
+      "text": "Yes. So, can you briefly introduce yourself and tell us what is your background and especially your current position, what you generally work on?",
+      "id": "ep_128_ut_7"
+    },
+    {
+      "end": 247836,
+      "speaker": "Steve Haroz",
+      "start": 143394,
+      "text": "Sure. So, yeah, as you said, my PhD is in perception and attention, specifically for data visualization. And I. I'm a research scientist at INRIA, just outside Paris. And what I try to do is understand how our visual system, how our brain perceives and aggregates and selectively prioritizes visual information. Now, that visual information could be a natural scene, a picture of a forest or something, but it could also be something more abstract or something artificial, like a data visualization. And so what I ask is, how does that visual information impact what actions we take, how we make decisions, and what we remember and learn? Say, for example, that you have two baskets of fruit, and you want to compare and choose which basket has the most fruit in it, or the ripest fruit, or the biggest fruit. Or you want to avoid the basket that has a rotten fruit in it, that comparison, that aggregation, that selective grouping is all part of that vision science, visual processing. And likewise, imagine you have a data visualization where you have a whole bunch of countries visualized on a scatter plot with maybe population and GDP, and they're changing over time and maybe they're colored by continent. You want to compare? Well, which is growing faster, Africa or Asia, that would also use sort of the same systems, the same mechanisms in terms of how you, you are going about making a choice of which one's bigger, which one's growing faster, and what your brain is doing.",
+      "id": "ep_128_ut_8"
+    },
+    {
+      "end": 306754,
+      "speaker": "Enrico Bertini",
+      "start": 247988,
+      "text": "Yes, I think what is interesting of visual perception is that I would say it's one of those main souls of visualization. There is a long tradition, I agree, right, long tradition of studying how our perception works, so that if we understand the mechanisms, maybe we can use this knowledge to. Yeah, to make smart decisions or better decisions about how to design effective visualization. So can you walk us through a little bit about how vision science can inform visualization and maybe how a little bit, what is the history behind perception and visualization? There are a few books out there, a few people who've been working in this area, and you are definitely one of the prominent people out there who is working in this space. So what can vision science do for visualization?",
+      "id": "ep_128_ut_9"
+    },
+    {
+      "end": 414354,
+      "speaker": "Steve Haroz",
+      "start": 306922,
+      "text": "Sure. Well, first, I think let's sort of understand what vision science is. It's a really, really broad field. It's the study of how we see how our vision works. And that encompasses everything from the physical optics and biology of the eye, the neuroscience of the retina and the brain, as well as sort of higher level psychology and cognitive science in terms of perception and attention, memory, learning and reasoning. And so with visualization, we have this transfer from digital information to some sort of action, some sort of decision, some sort of learned information where the image is the medium. And so vision science is sort of the second half of that. There's the computer science side of generating the image itself, and then the vision science side of, okay, what happens after that image leaves the monitor? And I think one of the goals with the intersection of vision science and data visualization is trying to be able to predict and give some sort of informed suggestion of how well people are going to be able to perform some task or make use of information in a visualization based on the visual features that are used, based on the layout that's used, without having to go through and run a particular pairwise experiment on every single exact instance of a visualization, with every single dataset, with every single scenario. So the goal is that it can be predictive and hopefully avoid some overlapping effort or some redundant effort with testing.",
+      "id": "ep_128_ut_10"
+    },
+    {
+      "end": 430990,
+      "speaker": "Enrico Bertini",
+      "start": 414442,
+      "text": "Yeah, I'm wondering if you can give us maybe a practical example of something that can be, that we learned from visual perception that helps us design better visual representations. Maybe you have a favorite. I don't know.",
+      "id": "ep_128_ut_11"
+    },
+    {
+      "end": 541120,
+      "speaker": "Steve Haroz",
+      "start": 431730,
+      "text": "It's hard to pick a favorite. I mean, I think the standard example of perception and visualization goes back to Cleveland and McGill, which is the mid eighties. And what they did was they said, okay, well, let's say you have a bar graph or a dot plot or a pie chart, and we're going point to two items, two datums from this, and say which one is bigger, or what is the ratio of size between these two? And what's nice about that paper is that it references back some work from Stevens, who was a psychologist back in the sixties, or maybe even earlier than that. And they had this old literature saying, well, there should be differences in terms of discriminability, there should be differences in terms of perceived size. So as you increase something linearly, does your percept of that also increase linearly? The answer is not always, and it differs for different visual features. Length behaves bit differently than, say, for example, angle or area. And so the sort of connection of that, to me, is sort of the birth there of, for one, in general, just visualization as a distinct field, even though it wasn't when that paper was first published. I mean, a lot of the distinctness of visualization roots out from that particular study. But there's also some really great work by Simpkin and hasty that compared bar graphs with stacked bar graphs with pie charts. And a lot of work has sort of followed through from these examples of sort of referencing. How does the visual system perceive? How does that perception work? What are the limitations? What is the discriminability? And now, what does that mean for making a graph?",
+      "id": "ep_128_ut_12"
+    },
+    {
+      "end": 547388,
+      "speaker": "Enrico Bertini",
+      "start": 542060,
+      "text": "And this is ultimately anchored on, what is that? Psychophysics.",
+      "id": "ep_128_ut_13"
+    },
+    {
+      "end": 610176,
+      "speaker": "Steve Haroz",
+      "start": 547484,
+      "text": "Right, psychophysics in general. But I would take it a little more broadly. That's why I say I'm a vision scientist, rather than saying a cognitive scientist or a psychophysicist, is that there's also the really important component, not just of the low level perception, but also of the sort of higher level cognitive science aspect of, and selective attention, picking one subset from the graph that you're looking at. Otherwise you have to pay attention to everything, and you're sort of overloaded or making a comparison which may be different from individual percepts or even the question of what happens when you have lots of stuff on the screen at once and you're not just comparing the precision of discrimination of individual items, but you're comparing sets or groups of items at the same time. So it goes beyond the sort of low level systems and more into the higher level aspects of cognitive science as well.",
+      "id": "ep_128_ut_14"
+    },
+    {
+      "end": 646278,
+      "speaker": "Moritz Stefaner",
+      "start": 610288,
+      "text": "Yeah, that's something I wanted to mention as well, because often people concentrate just on, well, do people read lengths or positions more precisely? Or how bad are colors exactly for encoding magnitudes? But what's happening, of course, as you say, is like people see an overall image and sort of associate maybe with natural scenes or read chunks of information at once. And as a designer, I feel it's like you operate much more on that level, like on the aggregate or on the overall gestalt of something. But there it seems harder to make definitive statements about what works better.",
+      "id": "ep_128_ut_15"
+    },
+    {
+      "end": 646638,
+      "speaker": "Enrico Bertini",
+      "start": 646414,
+      "text": "How.",
+      "id": "ep_128_ut_16"
+    },
+    {
+      "end": 647526,
+      "speaker": "Moritz Stefaner",
+      "start": 646654,
+      "text": "Is that true?",
+      "id": "ep_128_ut_17"
+    },
+    {
+      "end": 736260,
+      "speaker": "Steve Haroz",
+      "start": 647678,
+      "text": "Yeah, it's definitely the more complicated the or the more large range of dimensions by which you can manipulate an image, the harder it can be to control an experiment and the harder it can be to answer a very clear, definitive, precise question. One of the common things that happens with goes by a wide variety of names. Things like holistic perception, or ensemble coding and summary statistics, or global perception. Or even they sometimes will call it textures. That goes back to like the seventies, or they called it like high level textures back in the day. But the general question with some of these is the aggregation a common process, a distinct process? Are we as good at aggregating as we are at perceiving a single item? Do we always aggregate, or do we look at individual items one at a time, maybe sequentially or serially? And if we don't, if we look at multiple items at the same time, how many of those items are we grabbing at once? And then how do we segment those? So how do we say, I'm going to compare this group to that group? How well can our brain actually do that segmentation, especially if the edges and the boundaries are kind of noisy? What affects our ability to segment well?",
+      "id": "ep_128_ut_18"
+    },
+    {
+      "end": 766490,
+      "speaker": "Enrico Bertini",
+      "start": 736840,
+      "text": "Yeah, I think I have a similar concern with, in general, how to apply whatever we learn in visual perception to actual visualization practice. I remember myself reading even multiple times, Colin Ware book, which is probably the most classic book on visual perception applied to visualization. Highly recommended, by the way, to anyone who is interested in this area.",
+      "id": "ep_128_ut_19"
+    },
+    {
+      "end": 768610,
+      "speaker": "Steve Haroz",
+      "start": 766790,
+      "text": "Highly recommended by Enrico.",
+      "id": "ep_128_ut_20"
+    },
+    {
+      "end": 773570,
+      "speaker": "Enrico Bertini",
+      "start": 770470,
+      "text": "That's interesting. Does it mean you wouldn't recommend.",
+      "id": "ep_128_ut_21"
+    },
+    {
+      "end": 855404,
+      "speaker": "Steve Haroz",
+      "start": 774010,
+      "text": "I think it can be an interesting start. Okay. The intriguing thing about that book is, it's very representative of our understanding of vision science from the eighties and maybe a little bit the early nineties. But I believe the book was written in the nineties and there's been some updates. But a big aspect of vision science now are things like global perception, ensemble coding. What are the. What is the capacity of attention? Or what is the resource limit of attention is kind of a heated debate in the field. Right. How much stuff can you do at once? How many items on the screen can you pay attention to at once? So that's one of things that's developed a lot in the past 20 years, that when the book was first written, that was still an early idea, an early concept. The other part of it is with things that have developed more recently, is looking at visual features or tasks in a less dichotomous and a less sort of binary way. A task is not either, is not always going to be either easy or hard, as they call it, sometimes pre attentive or I guess I don't know what the alternative would be like. Non pre attentive instead.",
+      "id": "ep_128_ut_22"
+    },
+    {
+      "end": 856380,
+      "speaker": "Moritz Stefaner",
+      "start": 855452,
+      "text": "Post attentive.",
+      "id": "ep_128_ut_23"
+    },
+    {
+      "end": 958184,
+      "speaker": "Steve Haroz",
+      "start": 856540,
+      "text": "Yeah, post attentive. I guess I don't know what. What the alternative is, but we now think of it more as what is the degree of attentional demand? Or what is the resource usage of attention? Or how quickly are we able to shift attention between multiple items? So the field of vision science has gone from this more sort of dichotomous view of tasks with visual features being either really easy or really hard. So imagine if you're looking at a graph of maybe a bar graph or something, or maybe, let's say a heat map, and you want to identify an item in the heat map that's an outlier. But you don't know. You want to do that. You do, but you don't know before you're looking at the image. Right. In that case, what are the things that allow you to find something highlighted, something that's going to pop out, obviously something like color. If you have a whole bunch of reds, red cells in a heat map and one of them is blue, sure, that's going to pop out right away. But when you have maybe some reds and greens and purples and there's this one blue cell there, are you necessarily going to see it? The answer is it's this sort of gradation of difficulty. As you vary the contrast, as you vary the amount of variance in the image itself. Right. Basically the noisiness or the number of groups in the data, it gradually becomes harder and harder to find an outlier. That's something that if you go back to some of the early eighties or mid seventies of vision science, that's something that they kind of didn't quite understand just yet. So that's a relatively recent, late eighties, early nineties development of the field.",
+      "id": "ep_128_ut_24"
+    },
+    {
+      "end": 980650,
+      "speaker": "Moritz Stefaner",
+      "start": 958312,
+      "text": "Can I ask something about interpersonal differences and maybe even intercultural differences, because this is something I'm always wondering about. So there has been in psychology quite this paper that caused quite a stir that sort of posited that all the experiments are basically done on one very small, like, subset of humans, which is.",
+      "id": "ep_128_ut_25"
+    },
+    {
+      "end": 985190,
+      "speaker": "Enrico Bertini",
+      "start": 980690,
+      "text": "Like male or the weird psychology.",
+      "id": "ep_128_ut_26"
+    },
+    {
+      "end": 988978,
+      "speaker": "Moritz Stefaner",
+      "start": 985970,
+      "text": "The weird, yeah, it's w e I r d. Yeah.",
+      "id": "ep_128_ut_27"
+    },
+    {
+      "end": 997936,
+      "speaker": "Steve Haroz",
+      "start": 988994,
+      "text": "I mean, basically psychology is the study of psychology undergraduates. That's what we're doing. We're studying psychology undergraduates because they're the ones who are participating in the experiments.",
+      "id": "ep_128_ut_28"
+    },
+    {
+      "end": 1022748,
+      "speaker": "Moritz Stefaner",
+      "start": 998058,
+      "text": "And like now from your knowledge of, like, vision science and the field. And so what do you think? Like, which part, like, does generalize across, like, wider populations or humans worldwide? And which parts do you say? Like? Well, that would be worth looking more into intercultural or interpersonal differences. Like, is there good new research that sort of mitigates these issues?",
+      "id": "ep_128_ut_29"
+    },
+    {
+      "end": 1106540,
+      "speaker": "Steve Haroz",
+      "start": 1022844,
+      "text": "It's an interesting question because it sort of varies. Bye. Sort of the subfield. So in general, the lower level that you go, basic things like luminance perception, color perception, even angle and curvature, those are going to be standard across pretty much any population. I can't think of a reason those would vary too much. There are some questions about how language might affect our categorization and our discriminability of color. So maybe, for example, if a culture has one word for blue and green, there's some early data that seems to suggest that for them, that makes a very bad categorical boundary. They have a very tough time differentiating blues and greens. And so that could be a case of sort of the language working its way down and affecting your ability to make a decision there or to find something, to find a segmentation boundary or something that should pop out. Whereas as you go higher level, as you go into decision making and reasoning or things that are substantially affected by education, by culture, by language, as that becomes more and more of an issue, then you have more and more and more impact from individual differences.",
+      "id": "ep_128_ut_30"
+    },
+    {
+      "end": 1116950,
+      "speaker": "Moritz Stefaner",
+      "start": 1107710,
+      "text": "And that makes the research much harder, of course. Right. Because then it's much harder to design a neat experiment. That way you can exclude all the confounding factors.",
+      "id": "ep_128_ut_31"
+    },
+    {
+      "end": 1240290,
+      "speaker": "Steve Haroz",
+      "start": 1117030,
+      "text": "Well, in some ways, yes. In some ways, no. A key difference between different fields in psychology is what kind of experiment design you're going to use. So, for example, if you do something called a within subject experiment design, as opposed to a between subject and experiment design, with a within subject experiment design, what you're doing is you're having each person who's in the experiment participating in each of the conditions. So, you know, let's say you're comparing discriminability or precision of length versus precision in position. In that case, if you have a person test both of those conditions, what you can do is extract one value of the difference. And so that way, if there's some weird property where, you know, maybe it's not even a elaborate individual cultural thing, maybe this person's just not paying attention and being sloppy on the experiment, right. And they're just, you know, sometimes they look, sometimes, you know, they've fallen asleep and they're just, you know, choosing, you know, the first option. In that case, when you subtract the differences, whatever's gonna happen in one condition is likely to happen in the other condition. And so you sort of subtract away the problem. You cancel out the problem. And so that's one way that you can mitigate that issue is with this within subject design, having them hit both scenarios. The other side is that you've often kind of got to look at what it is that you're asking. Sometimes you are asking a question of what happens in western cultures when they're looking at graphs. And in that case, it might be okay, and it's just worth sort of adding the caveat, you know, here's the population we had be transparent, be open about it. We tested university students and at a, at a western European or an American university, and that's what we have. But who knows? Maybe someplace where their writing works in a different direction or where their counting system is different. Some of those results might not apply.",
+      "id": "ep_128_ut_32"
+    },
+    {
+      "end": 1249570,
+      "speaker": "Enrico Bertini",
+      "start": 1240670,
+      "text": "Yeah. And what I was trying to ask you before we went to a little bit of a tangent is I was just curious.",
+      "id": "ep_128_ut_33"
+    },
+    {
+      "end": 1253046,
+      "speaker": "Steve Haroz",
+      "start": 1251070,
+      "text": "That's fine. Tangents are good.",
+      "id": "ep_128_ut_34"
+    },
+    {
+      "end": 1328546,
+      "speaker": "Enrico Bertini",
+      "start": 1253158,
+      "text": "No, we started with the book. Right. So let's go back to what I was trying to say. I was trying to say. So one problem that I personally have with vision science applied to visualization is that all these super fascinating concepts about how visual perception works, right? But at the end of the day, what I would like to get out of it is like, it should help me make decisions, I would say predictive decisions, about what is going to work best in a visualization design. And I often see that there is a big gap between all this knowledge that is out there, even when it's framed in the realm of data visualization and actually applying it to real projects. I think me and you add a bit of a debate already in the past about that. You seem to be, please correct me if I'm wrong, but you seem to say that's not actually what we should do or the way we should do it. We should just research how things work, right? And then how this is going to be applied. It's a different problem. And I tend to have a little bit of a different view. But yeah, I wouldn't say. What do you think?",
+      "id": "ep_128_ut_35"
+    },
+    {
+      "end": 1516380,
+      "speaker": "Steve Haroz",
+      "start": 1328578,
+      "text": "I wouldn't say we should just research how things work. But I do think how things work is an important situation. The way I see it is that applied visualization or a practitioner's visualization case is sort of like medicine, the field of medicine, where you're trying to solve some business analytics problem or some journalistic communications problem, you're trying to solve some sort of problem, whereas vision science is in this analogy, would be something like biology or chemistry, where you're just trying to say, okay, well, how does this protein interact on this membrane? And so they're necessarily often going to be these very small granular problems in vision science, whereas you're going to have these big complicated problems in data visualization. Now there's going to be some varying levels of complexity in between. But what I've seen a lot in data visualization is people will have these very complicated, very confounded comparisons that they're making in their experiments. And so they'll say, well, we took this one visualization technique and we changed 37 different things about it. And now we have the second visualization technique and we compare them and then we conclude, therefore all visualizations should be, should have the second property that we changed this way, and they don't go through and reduce the complexity and make sure that the thing that they think they're manipulating is in fact what's causing the difference there. But you could also look at it in terms of these sort of confounded experiments. So imagine you have a red sphere and a blue box, and you want to know which of these is going to move the most dirt out of the way when it's dropped. And so you drop one, maybe the red sphere, and it moves, a whole lot of dust and sand gets pushed up and moved out of the way. And then you drop the box and it drops a small amount. And therefore you conclude without any hesitation that there's a special type of gravity called red gravity. And red gravity moves dirt out the most effectively. And then if you ask, well, are we sure that we should be rushing to generalize and that rush to generalize, I mean, it's tempting. I completely understand it. I think every researcher does it perhaps more than they should. And that's in any field, that's not visualization specific. It's even in vision science, it's even in biology and chemistry. But we should be asking ourselves, well, are we sure that it's always going to apply in these other scenarios? And we should give a reason why it shouldn't just be. Well, it happened this time, therefore, by the law of induction, I declare that it will always happen and anything remotely related or anything similar to this. And that's, you know, that's oftentimes not true.",
+      "id": "ep_128_ut_36"
+    },
+    {
+      "end": 1584672,
+      "speaker": "Moritz Stefaner",
+      "start": 1516800,
+      "text": "Yeah, but I mean, for, I think the problem is this over generalization. I mean, if you just want to find out if you should, in a given case, take the, the blue square or the red circle or what it was without rushing to this conclusion that you should always take it, then the comparison might be fine. I think all the interesting, to me, data visualization problems are super, or are maybe fundamentally irreducible in a sense that finding out what the best chart is to communicate poverty statistics, you know, or something like this, is like basically a question that's in my mind, not, cannot be reduced to a quantifiable measurement. In the end, because it's about humans, it's about communication, it's about context, it's about culture. And so I think some basic research can help then, and maybe getting better hunches of what good directions might be but two or three given solutions, I think it will always be super hard to quantify differences there. Oh, absolutely. What's your take on that for these more complex settings?",
+      "id": "ep_128_ut_37"
+    },
+    {
+      "end": 1664976,
+      "speaker": "Steve Haroz",
+      "start": 1584696,
+      "text": "I agree. One of the tough things is going from the general research to a very, very specific scenario where every facet of that scenario has not been studied yet, which is virtually always. Yeah, the research gives a prediction in some general, abstract sense, or at least that's what good research I think should do when it comes to a specific scenario. Like you said, what graph best conveys information about poverty statistics? Or let's maybe even reframe that. What graph causes people to change their behavior, to change their action even more complicated. Yeah. So there's a lot of components. And so while some people may differentiate applied research versus basic or core research, I think of it as more complicated, multifaceted problems versus simpler problems. And so sometimes the simpler problems once you add a whole bunch of complexity to it, there's other sources that impact what it is that you're trying to get. And the original 1 may not, it may have had an effect, but it was such a small effect, it was drowned out by a thousand other things. So it may not apply, but it becomes substantially less relevant.",
+      "id": "ep_128_ut_38"
+    },
+    {
+      "end": 1684756,
+      "speaker": "Enrico Bertini",
+      "start": 1665098,
+      "text": "But I'm wondering if it's fair to say maybe we can look at this from a different angle. Right. So I guess, Moritz, when you are designing a solution for a given problem, I guess maybe implicitly or explicitly, you apply some of the knowledge that you have about how visual perception works, right? Oh, sure, yeah, hopefully.",
+      "id": "ep_128_ut_39"
+    },
+    {
+      "end": 1687540,
+      "speaker": "Moritz Stefaner",
+      "start": 1684828,
+      "text": "I mean, hopefully, right? One would hope so.",
+      "id": "ep_128_ut_40"
+    },
+    {
+      "end": 1712610,
+      "speaker": "Enrico Bertini",
+      "start": 1687660,
+      "text": "Right? I guess. And maybe one way to say to see that is that we can't know in advance how this knowledge is going to be helpful in the future. But once we know these things, since we have a general culture of how perception works, the more of it we have, the more in the future we can. There are chances that when you are designing something, you'll use it in some way. Right.",
+      "id": "ep_128_ut_41"
+    },
+    {
+      "end": 1714566,
+      "speaker": "Steve Haroz",
+      "start": 1713030,
+      "text": "Do you think that's fair?",
+      "id": "ep_128_ut_42"
+    },
+    {
+      "end": 1715398,
+      "speaker": "Enrico Bertini",
+      "start": 1714758,
+      "text": "Right.",
+      "id": "ep_128_ut_43"
+    },
+    {
+      "end": 1716518,
+      "speaker": "Steve Haroz",
+      "start": 1715534,
+      "text": "Yeah, I completely agree.",
+      "id": "ep_128_ut_44"
+    },
+    {
+      "end": 1724890,
+      "speaker": "Enrico Bertini",
+      "start": 1716574,
+      "text": "So maybe the link is not always necessarily direct, but by the fact that you have this knowledge, then ultimately, ultimately you will end up using it. Right?",
+      "id": "ep_128_ut_45"
+    },
+    {
+      "end": 1727258,
+      "speaker": "Moritz Stefaner",
+      "start": 1724930,
+      "text": "Yeah. But can I make a counterpoint here?",
+      "id": "ep_128_ut_46"
+    },
+    {
+      "end": 1729458,
+      "speaker": "Enrico Bertini",
+      "start": 1727354,
+      "text": "Yeah, absolutely. That's fun.",
+      "id": "ep_128_ut_47"
+    },
+    {
+      "end": 1794352,
+      "speaker": "Moritz Stefaner",
+      "start": 1729514,
+      "text": "Go ahead. Because. So I think a lot of research in the past has focused on the precision of individual, like, visual variables, like in decoding quantity information. Right. So that's the easiest accessible thing. It's easy to measure. It's a bit like the drunken person searching for the keys under the lamppost because there's light. And so if they are there, they would be easier to find. Yeah, the classic sort of dilemma there. But I think, for instance, a big power of good visual displays is that you can do visual calculations, sort of sum up neighboring areas or sum up areas that have similar properties and do all these chunking and holistic recognition tasks, as Steve mentioned before. And I think they are bit harder. They don't have such crisp rules to them yet. Maybe or so crisp findings that now we have a whole culture of people just claiming a bar chart is the best visualization for any quantitative visualization problem.",
+      "id": "ep_128_ut_48"
+    },
+    {
+      "end": 1795160,
+      "speaker": "Enrico Bertini",
+      "start": 1794416,
+      "text": "I totally agree.",
+      "id": "ep_128_ut_49"
+    },
+    {
+      "end": 1802280,
+      "speaker": "Moritz Stefaner",
+      "start": 1795240,
+      "text": "And so I think there is some sort of a bias there towards easy rules if you just follow that route.",
+      "id": "ep_128_ut_50"
+    },
+    {
+      "end": 1916600,
+      "speaker": "Steve Haroz",
+      "start": 1802360,
+      "text": "Yeah, I mean, I agree. I agree with Moritz. I mean, the challenge, the challenge there is that to a certain extent, the research needs to start with, whether you call it the low hanging fruit or whether you just call it the first step. It's very difficult to study the aggregate of a thousand items if you have no idea how you know, what is our discriminability of one item versus another. And so the challenge there is, and this is one of the goals of any sort of good experiment design, is sort of isolating your variables where you want to make sure it is in fact the aggregate that makes the difference and it's not the individual items. So if you compare something really unclear, some really unclear visual feature like depth or something like that, and you compare that with length and you say ah, 1000 items in depth is on average is going to be harder to discriminate compared with 1000 positions in two D. And you could say, well yeah, but that has nothing to do with the aggregation process. That's more than likely just the fact that the individual items are less precise. On the other hand, there are cases where the aggregation precision or the selection precision or the grouping precision has nothing to do with the individual item precision. They kind of can be sort of independent. Just for example, picking out which pair of visual features is going to group strongest, I'm not sure, but that might be distinct from which visual feature is most precise. And so it comes down to a question of, you kind of have to attack all angles, but it's usually easiest to start with. The simplest problem.",
+      "id": "ep_128_ut_51"
+    },
+    {
+      "end": 1936280,
+      "speaker": "Moritz Stefaner",
+      "start": 1917060,
+      "text": "Yeah, it makes sense from your experience with vision and research and so on. Are there any things that people keep doing where you say like as a vision researcher, I don't know why people keep doing that or this type of charter I don't know about. Also like specific, I don't know encodings or techniques. Any, any specific?",
+      "id": "ep_128_ut_52"
+    },
+    {
+      "end": 2000984,
+      "speaker": "Steve Haroz",
+      "start": 1937180,
+      "text": "Yeah, I don't know about things that people are doing, but I will say it's more things that people are saying and it's the certainty with which, with which they say them. A lot of the, I guess you could call it popsicle visualization knowledge is unclear where it came from. A lot of these sort of standard guidelines, I've tried to dig into sort of the origins of some of these things and it's extraordinarily difficult to find. And what's even more fun is when you'll find one group of people openly declaring that something is true the second you meet them, you know, you're in a malicious mood and you want to kind of mess with people, just play naive. You know, when you speak to people about visualization, oftentimes one of the first things that's going to be out of the mouth is going to be chart chunk bad. Pie chart bad. And I'll just go, oh, really? Oh, I didn't know that. Why is that? And just stare. Just.",
+      "id": "ep_128_ut_53"
+    },
+    {
+      "end": 2002780,
+      "speaker": "Moritz Stefaner",
+      "start": 2001032,
+      "text": "And there goes your evening, right?",
+      "id": "ep_128_ut_54"
+    },
+    {
+      "end": 2036126,
+      "speaker": "Steve Haroz",
+      "start": 2003280,
+      "text": "And, oh, you know, usually for the most part, people have no idea. They heard it somewhere. They read it in a book somewhere. And it's not necessarily that it's true or false, but if you believe something so passionately, if you're going to call something out on a routine basis, if you're going to claim something in a book, it's worth knowing where that information came from. And oftentimes it's just someone's opinion, just someone put down some idea. It became dogma. And there was a catchy phrase to it.",
+      "id": "ep_128_ut_55"
+    },
+    {
+      "end": 2039246,
+      "speaker": "Moritz Stefaner",
+      "start": 2036158,
+      "text": "You know, there's like a good way of referring to it. And there you go.",
+      "id": "ep_128_ut_56"
+    },
+    {
+      "end": 2043970,
+      "speaker": "Steve Haroz",
+      "start": 2039278,
+      "text": "Chart junk. It's junk. Of course it must be bad. How could it be good? It's junky.",
+      "id": "ep_128_ut_57"
+    },
+    {
+      "end": 2086289,
+      "speaker": "Moritz Stefaner",
+      "start": 2047190,
+      "text": "Same with cooking, by the way. So some, you know, there's a lot of these traditional techniques and, like, rules of thumb in cooking. And, for instance, people tell you you need to fry your meat, really, like in a hot pan so the pores close. You know, it's like something you learn when you learn cooking. But then if you look at the science, it doesn't really make sense, right? And it's not really a thing like this pour closing thing that would play any role in, like, preserving the moisture of the meat. But other things do have a basis, like, like old traditions. They do make sense, right? So, but sure, it's totally worth, like, looking into, if we can verify.",
+      "id": "ep_128_ut_58"
+    },
+    {
+      "end": 2214720,
+      "speaker": "Steve Haroz",
+      "start": 2086409,
+      "text": "The dogma may not necessarily be wrong, but I think one of the big challenges for visualization, because it's got this big interplay with the visualization practitioners and the visualization research, in some ways, that's a very good thing of finding ways to apply the research. The potentially negative outcome of that is that some of the dogma of the popular science of the practitioners feeds its way back into the research community. And that limits what questions people ask. Or people assume that it's already a solved thing and they try to build off of it, and things don't work all too well. So Robert Kosara recently had a paper, I think it was Robert Kosara and Drew Skau, where they were looking at 3d pie charts. And best I can tell, it was just like a year or two ago. But best I can tell, that was the first time anyone's ever looked at it. And people have been proclaiming it loudly from atop the mountain for however many years or decades even. And no one had any clue if that was true. And the reasoning behind why they said it was true was totally nonsense. This idea that in a pie chart that's three d, the front wedge is going to be to take up a is larger in the image and therefore you'll misperceive it as larger compared with the stuff in the back. That's gonna look smaller. And that would be true if our visual system had never encountered depth before. Right. When someone walks away from you down the hall, you don't screech in horror as you watch your friend shrink before your very eyes. No, your visual system is very good at compensation, compensating for changes in depth and how that impacts changes in size. That's linear perspective. Now, it doesn't necessarily do so perfectly. There are lots of questions about can there be introduced some subtle biases, but the notion that it's smaller on the image, therefore it's perceived as smaller, there's not really much basis there.",
+      "id": "ep_128_ut_59"
+    },
+    {
+      "end": 2246560,
+      "speaker": "Moritz Stefaner",
+      "start": 2216020,
+      "text": "Yeah, and I think that's a really good development because as you say, for many years people have been repeating the rules just maybe again over generalized by what maybe was angles can be read a bit less good than lengths, became to never use pie charts. And then the last few years, maybe there's a bit of a rollback there in terms of, okay, what do we actually know and can we verify all these rules of thumb we have built up?",
+      "id": "ep_128_ut_60"
+    },
+    {
+      "end": 2300898,
+      "speaker": "Steve Haroz",
+      "start": 2247180,
+      "text": "It's an interesting idea of what happens now if you write a visualization guideline, a book of visualization guidelines, but only based on empirical research, what if you build a visualization guideline? It's not a book of guidelines, not on aesthetics, not on preferences, not on culture, just purely based on what's more likely to change behavior, what's more likely to impact someone's decision, what's going to cause a bias, and what do we know from the empirical literature? And it's in that sense, perhaps it's a good thing for the researchers, but bad for the practitioners. We're actually still pretty early in the field. I think visualization is a fairly young field, so there's sort of a lot of open questions there. And what's important is that we don't jump to the assumption that a lot of them are already solved when in fact a lot of them are already assumed to be solved.",
+      "id": "ep_128_ut_61"
+    },
+    {
+      "end": 2323300,
+      "speaker": "Enrico Bertini",
+      "start": 2300994,
+      "text": "Yeah, yeah, I agree. There is so much more to do and I really hope, I think there is a lot of activity right now in this area. And I'm really looking forward to seeing more of that. Right. And you are certainly one of the main players there. So I'm looking forward to seeing what is gonna come out of your work.",
+      "id": "ep_128_ut_62"
+    },
+    {
+      "end": 2325980,
+      "speaker": "Steve Haroz",
+      "start": 2324720,
+      "text": "I hope good things.",
+      "id": "ep_128_ut_63"
+    },
+    {
+      "end": 2327760,
+      "speaker": "Enrico Bertini",
+      "start": 2327160,
+      "text": "Sure.",
+      "id": "ep_128_ut_64"
+    },
+    {
+      "end": 2330020,
+      "speaker": "Moritz Stefaner",
+      "start": 2327880,
+      "text": "No pressure. No pressure.",
+      "id": "ep_128_ut_65"
+    },
+    {
+      "end": 2344958,
+      "speaker": "Steve Haroz",
+      "start": 2331000,
+      "text": "That happens sometimes on twitter where people will get to a question and I'll have to say, well, you know, look, we just don't know the answer to that yet. And they go, oh, okay, why don't you go ahead and research that now? Oh, sure. Yeah, you got it. Yeah. But how about you take care of.",
+      "id": "ep_128_ut_66"
+    },
+    {
+      "end": 2347170,
+      "speaker": "Moritz Stefaner",
+      "start": 2344974,
+      "text": "Writing my next week? You can send some results.",
+      "id": "ep_128_ut_67"
+    },
+    {
+      "end": 2370130,
+      "speaker": "Enrico Bertini",
+      "start": 2348470,
+      "text": "Yeah, yeah. So I'm wondering, wrapping up, if you can maybe give a few suggestions to our listeners. Say somebody who wants to learn more about how to apply vision science to visualization. What, what are the best sources to learn more about that and eventually how to apply them in practice?",
+      "id": "ep_128_ut_68"
+    },
+    {
+      "end": 2537516,
+      "speaker": "Steve Haroz",
+      "start": 2370630,
+      "text": "Well, for learning more about that, it's a bit tough. The Colin Ware book you mentioned, I think right now is still one of the better options of learning perception in the context of visualization. But what I would urge people is just study the perception on its own and consider coming to some of your own conclusions. There's some really good sensation and perception textbooks out there, one I can think of off the top of my head. It's called sensation and perception. And I think Jeremy Wolf is the first author of the textbook. And just study the perception itself if you want to kind of dive in there. But as far as what people can sort of take away, like I said, never feel ashamed to ask someone where their guideline or where their visualization idea comes from. Maybe you want to do a visualization a certain way. You think it looks cool, you think it fits a brand best, you think it's most engaging or stunning, and someone tells you, oh, no, no, no, this has chart junk in it, or this has, this uses this technique, which we all know is the bad technique. Tm the bad technique. So if someone tells you that, just ask, oh, why is that? Why is this good and this bad? Why is one thing going to be better than another? And is it that necessarily going to be true? For the impact that I want to have, if the impact I want to have is allow people to precisely read individual items, then, okay, maybe some of the, as you said, Marie, it's the visualization research literature that's looking at individual item discriminability. In that case, maybe it would apply. But then, hey, why not use a table? Whereas if you're asking a more aggregated task, are the countries in Asia, which are plotted individually, on average, doing better than the countries in some other continent, Africa. In that case, there's some new research. There's research I did with Lei Yuan and Steven Franconeri that kind of looked at some of these more complicated scenarios where we are aggregating data and then making the comparison and asking what visual features are we using? What proxies are we using? Are we necessarily actually taking the average or are we doing something else? So as you get to these more sort of complicated questions, the field is gradually pushing into that. And so we might be able to answer those questions better and better as the future comes. But always feel free to ask, how do you know?",
+      "id": "ep_128_ut_69"
+    },
+    {
+      "end": 2554372,
+      "speaker": "Enrico Bertini",
+      "start": 2537588,
+      "text": "Yeah, that's great. Well, thanks so much. That's great advice. And thanks so much for coming on the show. I hope this is instilling at least some curiosity in our listeners. To dive a little deeper in visual perception is certainly fascinating.",
+      "id": "ep_128_ut_70"
+    },
+    {
+      "end": 2555780,
+      "speaker": "Moritz Stefaner",
+      "start": 2554516,
+      "text": "Super fascinating topic.",
+      "id": "ep_128_ut_71"
+    },
+    {
+      "end": 2557476,
+      "speaker": "Enrico Bertini",
+      "start": 2555820,
+      "text": "Super fascinating topic.",
+      "id": "ep_128_ut_72"
+    },
+    {
+      "end": 2558252,
+      "speaker": "Moritz Stefaner",
+      "start": 2557588,
+      "text": "Endless.",
+      "id": "ep_128_ut_73"
+    },
+    {
+      "end": 2569464,
+      "speaker": "Enrico Bertini",
+      "start": 2558396,
+      "text": "It's a wormhole. Okay. Best of luck with your work. Looking forward to seeing more coming from your side. And thank you. Thanks so much.",
+      "id": "ep_128_ut_74"
+    },
+    {
+      "end": 2570664,
+      "speaker": "Steve Haroz",
+      "start": 2569552,
+      "text": "Thanks. This was a lot of fun.",
+      "id": "ep_128_ut_75"
+    },
+    {
+      "end": 2571768,
+      "speaker": "Enrico Bertini",
+      "start": 2570752,
+      "text": "Yeah. Bye, Steve.",
+      "id": "ep_128_ut_76"
+    },
+    {
+      "end": 2572940,
+      "speaker": "Steve Haroz",
+      "start": 2571864,
+      "text": "Bye bye.",
+      "id": "ep_128_ut_77"
+    },
+    {
+      "end": 2597946,
+      "speaker": "Enrico Bertini",
+      "start": 2577520,
+      "text": "Hey, folks, thanks for listening to data stories again. Before you leave a few last notes, this show is now completely crowdfunded. So you can support us by going on Patreon. That's patreon.com Datastories. And if you can spend a couple of minutes reading us on iTunes, that would be extremely helpful for the show.",
+      "id": "ep_128_ut_78"
+    },
+    {
+      "end": 2623832,
+      "speaker": "Moritz Stefaner",
+      "start": 2598058,
+      "text": "And here's also some information on the many ways you can get news directly from us. We are, of course, on twitter@twitter.com. Datastories. We have a Facebook page@Facebook.com. datastoriespodcast. All in one word. And we also have a slack channel where you can chat with us directly. And to sign up, you can go to our homepage datastory. And there is a button at the bottom of the page.",
+      "id": "ep_128_ut_79"
+    },
+    {
+      "end": 2639688,
+      "speaker": "Enrico Bertini",
+      "start": 2623976,
+      "text": "And we also have an email newsletter. So if you want to get news directly into your inbox and be notified whenever we publish an episode, you can go to our home page Datastories es and look for the link you find at the bottom in the footer.",
+      "id": "ep_128_ut_80"
+    },
+    {
+      "end": 2651844,
+      "speaker": "Moritz Stefaner",
+      "start": 2639784,
+      "text": "So one last thing we want to tell you is that we love to get in touch with our listeners, especially if you want to suggest a way to improve the show or amazing people you want us to invite or even projects you want us to talk about.",
+      "id": "ep_128_ut_81"
+    },
+    {
+      "end": 2661060,
+      "speaker": "Enrico Bertini",
+      "start": 2651932,
+      "text": "Yeah, absolutely. And don't hesitate to get in touch with us. It's always a great thing to hear from you. So see you next time, and thanks for listening to data stories.",
+      "id": "ep_128_ut_82"
+    }
+  ],
+  "confidence": 0.935897557803467,
+  "audio_duration": 2671,
+  "punctuate": true,
+  "format_text": true,
+  "dual_channel": false,
+  "webhook_url": null,
+  "webhook_status_code": null,
+  "webhook_auth": false,
+  "webhook_auth_header_name": null,
+  "speed_boost": false,
+  "auto_highlights_result": null,
+  "auto_highlights": false,
+  "audio_start_from": null,
+  "audio_end_at": null,
+  "word_boost": [],
+  "boost_param": null,
+  "filter_profanity": false,
+  "redact_pii": false,
+  "redact_pii_audio": false,
+  "redact_pii_audio_quality": null,
+  "redact_pii_policies": null,
+  "redact_pii_sub": null,
+  "speaker_labels": true,
+  "content_safety": false,
+  "iab_categories": true,
+  "content_safety_labels": {
+    "status": "unavailable",
+    "results": [],
+    "summary": {}
+  },
+  "language_detection": false,
+  "language_detection_threshold": null,
+  "language_confidence": null,
+  "custom_spelling": null,
+  "throttled": false,
+  "auto_chapters": true,
+  "summarization": false,
+  "summary_type": null,
+  "summary_model": null,
+  "custom_topics": false,
+  "topics": [],
+  "speech_threshold": null,
+  "speech_model": "best",
+  "chapters": [
+    {
+      "summary": "On this podcast, we talk about data visualization, analysis, and generally the role that data plays in our lives. As you might know, podcast is listener supported. So if you do enjoy the show, please consider supporting us.",
+      "gist": "Data Stories",
+      "headline": "This podcast is listener supported, so if you enjoy the show please consider supporting us",
+      "start": 280,
+      "end": 86300,
+      "id": "ep_128_ch_0"
+    },
+    {
+      "summary": "Steve Rose is an expert in visualization and also in vision science and visual perception. Steve has a PhD in perception and attention, and. So I'm very happy to have him on the show.",
+      "gist": "Steve Rose on Perception and Attention",
+      "headline": "Steve Rose is an expert in visualization and visual perception",
+      "start": 88120,
+      "end": 134234,
+      "id": "ep_128_ch_1"
+    },
+    {
+      "summary": "My PhD is in perception and attention, specifically for data visualization. What I try to do is understand how our visual system, how our brain perceives and aggregates and selectively prioritizes visual information. One of the goals with the intersection of vision science and data visualization is to be predictive.",
+      "gist": "How vision science informs data visualization",
+      "headline": "Your PhD is in perception and attention, specifically for data visualization",
+      "start": 134402,
+      "end": 665260,
+      "id": "ep_128_ch_2"
+    },
+    {
+      "summary": "Are we as good at aggregating as we are at perceiving a single item? How quickly are we able to shift attention between multiple items? The field of vision science has gone from this more sort of dichotomous view of tasks with visual features being either really easy or really hard.",
+      "gist": "Measuring the complexity of visual perception",
+      "headline": "One of the common questions in vision science is how well do we segment",
+      "start": 666040,
+      "end": 958184,
+      "id": "ep_128_ch_3"
+    },
+    {
+      "summary": "There are questions about how language might affect our categorization and our discriminability of color. A key difference between different fields in psychology is what kind of experiment design you're going to use. Could be worth looking more into intercultural or interpersonal differences.",
+      "gist": "Introversion and psychology differences",
+      "headline": "Can I ask something about interpersonal differences and maybe even intercultural differences",
+      "start": 958312,
+      "end": 1254958,
+      "id": "ep_128_ch_4"
+    },
+    {
+      "summary": "One problem that I personally have with vision science applied to visualization is that all these super fascinating concepts about how visual perception works. But at the end of the day, what I would like to get out of it is like, it should help me make decisions. The problem is this over generalization.",
+      "gist": "Data Visualization: More Quantified, Less Generalization",
+      "headline": "There is a big gap between vision science and applying it to real projects",
+      "start": 1255014,
+      "end": 1669572,
+      "id": "ep_128_ch_5"
+    },
+    {
+      "summary": "Moritz: When you are designing a solution for a given problem, you apply some of the knowledge that you have about how visual perception works. He says research needs to start with the simplest problem. Moritz: There is a culture of people claiming a bar chart is the best visualization for any quantitative visualization problem.",
+      "gist": "Ideas about how visual perception works",
+      "headline": "Moritz: When you are designing a solution for a given problem",
+      "start": 1669716,
+      "end": 2159194,
+      "id": "ep_128_ch_6"
+    },
+    {
+      "summary": "This idea that in a pie chart that's three d, the front wedge is going to be to take up a is larger in the image and therefore you'll misperceive it as larger. We're still pretty early in the field of visualization. There are a lot of open questions there.",
+      "gist": "No visualization guidelines, please",
+      "headline": "Your visual system is very good at compensation for changes in depth",
+      "start": 2159242,
+      "end": 2349782,
+      "id": "ep_128_ch_7"
+    },
+    {
+      "summary": "Steve: What are the best sources to learn more about how to apply vision science to visualization? Marie: Just study the perception on its own and consider coming to some of your own conclusions. Last few notes: This show is now completely crowdfunded.",
+      "gist": "The Best Sources for Learning Visual Perception",
+      "headline": "Steve: To dive a little deeper in visual perception is certainly fascinating",
+      "start": 2349846,
+      "end": 2661060,
+      "id": "ep_128_ch_8"
+    }
+  ],
+  "disfluencies": false,
+  "entity_detection": false,
+  "sentiment_analysis": false,
+  "sentiment_analysis_results": null,
+  "entities": null,
+  "speakers_expected": null,
+  "summary": null,
+  "custom_topics_results": null,
+  "episode_num": 128,
+  "episode_metadata": {
+    "speakers": [
+      "Steve Haroz",
+      "Enrico Bertini",
+      "Moritz Stefaner"
+    ],
+    "WPid": "1266",
+    "url": "https://datastori.es/podlove/file/5384/s/feed/c/mp3/128-visual-perception-and-visualization-with-steve-haroz.mp3",
+    "episode_title": "Visual Perception and Visualization with Steve Haroz"
+  }
+}

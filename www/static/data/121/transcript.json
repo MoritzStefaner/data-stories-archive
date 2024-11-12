@@ -1,0 +1,891 @@
+{
+  "id": "4efb8a1d-8231-4004-9c7b-71332878bb61",
+  "language_model": "assemblyai_default",
+  "acoustic_model": "assemblyai_default",
+  "language_code": "en_us",
+  "status": "completed",
+  "audio_url": "https://datastori.es/podlove/file/5095/s/feed/c/mp3/121-vega-lite-and-altair.mp3",
+  "utterances": [
+    {
+      "end": 7554,
+      "speaker": "Dominik Moritz",
+      "start": 160,
+      "text": "We built Vega Lite because we needed a language to start to reason about visualization and to quickly generate lots of visualizations.",
+      "id": "ep_121_ut_0"
+    },
+    {
+      "end": 33828,
+      "speaker": "Moritz Stefaner",
+      "start": 26774,
+      "text": "Hi, everyone. Welcome to a new episode of Data stories. My name is Moritz Stefaner, and I'm an independent designer, designer of data visualizations.",
+      "id": "ep_121_ut_1"
+    },
+    {
+      "end": 41636,
+      "speaker": "Enrico Bertini",
+      "start": 33956,
+      "text": "And I am Enrico Bertini. I am a professor at NYU in New York City, where I do research in data visualization.",
+      "id": "ep_121_ut_2"
+    },
+    {
+      "end": 53784,
+      "speaker": "Moritz Stefaner",
+      "start": 41820,
+      "text": "Yeah, and on this podcast, we talk about data visualization, data analysis, and generally the role data plays in our lives. And usually we do that together with guests or more that we invite on the show.",
+      "id": "ep_121_ut_3"
+    },
+    {
+      "end": 101644,
+      "speaker": "Enrico Bertini",
+      "start": 54244,
+      "text": "Yes. And before we start, a quick note, as usual, our podcast, as you may know by now, is completely listener supported, so there's no ads. And if you enjoyed the show, please consider supporting us with recurring payments, which you can do on patreon.com Datastories. Or now you can also send us one time donations on PayPal me Datastories. And yeah, we really hope that you can support us. We've been trying for a few months now, and yeah, it would be nice to have a little bit more support. So if you enjoy listening to the show. So, yeah, please consider donating even just a few dollars. That's helpful.",
+      "id": "ep_121_ut_4"
+    },
+    {
+      "end": 125160,
+      "speaker": "Moritz Stefaner",
+      "start": 102904,
+      "text": "Yeah, absolutely. And thanks so much to everybody who is already chipping in. We have like 80 or 90 people are supporting us already, which is great. But if you as a listener can also join, that would be fantastic, because we still have not met our goal yet. So the way it's currently, it's not fully sustainable. We're actually not, you know, where we need to be.",
+      "id": "ep_121_ut_5"
+    },
+    {
+      "end": 126704,
+      "speaker": "Enrico Bertini",
+      "start": 125232,
+      "text": "Not a break even yet.",
+      "id": "ep_121_ut_6"
+    },
+    {
+      "end": 144110,
+      "speaker": "Moritz Stefaner",
+      "start": 126864,
+      "text": "Not breaking even yet. So please give it a second thought in case you're not supporting us already. Anyways, let's get started. Today we have not one, not two. We have three special guests to talk about, two topics that sort of go together. And we needed to have everybody on.",
+      "id": "ep_121_ut_7"
+    },
+    {
+      "end": 145446,
+      "speaker": "Enrico Bertini",
+      "start": 144222,
+      "text": "Let's see how it goes.",
+      "id": "ep_121_ut_8"
+    },
+    {
+      "end": 154030,
+      "speaker": "Moritz Stefaner",
+      "start": 145550,
+      "text": "Yeah, so it's five of us total. So this will be interesting. So let's bring everybody on. So the first one is DominiK Moritz. Hi, DominiK.",
+      "id": "ep_121_ut_9"
+    },
+    {
+      "end": 154694,
+      "speaker": "Dominik Moritz",
+      "start": 154142,
+      "text": "Hey.",
+      "id": "ep_121_ut_10"
+    },
+    {
+      "end": 157558,
+      "speaker": "Moritz Stefaner",
+      "start": 154814,
+      "text": "And then we have \u201cHam\u201d Wongsuphasawat.",
+      "id": "ep_121_ut_11"
+    },
+    {
+      "end": 158086,
+      "speaker": "Jacob Vanderplas",
+      "start": 157686,
+      "text": "Hey.",
+      "id": "ep_121_ut_12"
+    },
+    {
+      "end": 158942,
+      "speaker": "Enrico Bertini",
+      "start": 158150,
+      "text": "Hi, ham.",
+      "id": "ep_121_ut_13"
+    },
+    {
+      "end": 162750,
+      "speaker": "Moritz Stefaner",
+      "start": 159038,
+      "text": "Hi. And finally, Jacob Vanderplass.",
+      "id": "ep_121_ut_14"
+    },
+    {
+      "end": 163086,
+      "speaker": "Enrico Bertini",
+      "start": 162862,
+      "text": "Hi.",
+      "id": "ep_121_ut_15"
+    },
+    {
+      "end": 163974,
+      "speaker": "Kanit 'Ham' Wongsuphasawat",
+      "start": 163110,
+      "text": "It's good to be here.",
+      "id": "ep_121_ut_16"
+    },
+    {
+      "end": 167438,
+      "speaker": "Moritz Stefaner",
+      "start": 164054,
+      "text": "Hi, Jacob. Can you introduce yourself briefly?",
+      "id": "ep_121_ut_17"
+    },
+    {
+      "end": 194462,
+      "speaker": "Kanit 'Ham' Wongsuphasawat",
+      "start": 167566,
+      "text": "Yeah, so I'm an astronomer by training, and I'm working right now at the University of Washington e Science Institute, which is kind of an institute between departments on campus. And our goal is to, to kind of promote the data science tools and software engineering practice on campus and connect people around the university who are doing research in different areas.",
+      "id": "ep_121_ut_18"
+    },
+    {
+      "end": 201062,
+      "speaker": "Moritz Stefaner",
+      "start": 194598,
+      "text": "Cool. It sounds like a great job to have hem. How about you? What are you working on?",
+      "id": "ep_121_ut_19"
+    },
+    {
+      "end": 226736,
+      "speaker": "Jacob Vanderplas",
+      "start": 201158,
+      "text": "Sure. So I'm currently a PhD student at the University of Washington in the interactive data lab and I work with Professor Jeffrey Heer and I'm actually in my last year so hopefully she can graduate soon. And also a co author of Vega Lite that we're going to talk about today. And my research focus is on augmenting data visualization tools with automated chart design recommendation. So I actually use Vega lite a lot in my research.",
+      "id": "ep_121_ut_20"
+    },
+    {
+      "end": 233768,
+      "speaker": "Moritz Stefaner",
+      "start": 226880,
+      "text": "And finally we have DominiK Moritz, somebody who always gives me funny name associations.",
+      "id": "ep_121_ut_21"
+    },
+    {
+      "end": 235256,
+      "speaker": "Enrico Bertini",
+      "start": 233856,
+      "text": "Because it seems to be a mixture.",
+      "id": "ep_121_ut_22"
+    },
+    {
+      "end": 239424,
+      "speaker": "Moritz Stefaner",
+      "start": 235280,
+      "text": "Of me and my collaborator Dominikus, which is always weird.",
+      "id": "ep_121_ut_23"
+    },
+    {
+      "end": 277430,
+      "speaker": "Dominik Moritz",
+      "start": 239464,
+      "text": "We have to come up with a good triangle scheme there. I'm also a PhD student at the University of Washington in the same lab that ham is also in. I'm actually co advised by Jeffrey Hair and Bell Howe and together we're working on at this intersection of databases and data visualization. So more broadly I'm working on the user experience of working with big data because visualizing large data requires rethinking the back end but also the front end. So I'm working on different challenges there. And in my work I'm using Vega Lite to start to be able to reason about visualization.",
+      "id": "ep_121_ut_24"
+    },
+    {
+      "end": 309820,
+      "speaker": "Moritz Stefaner",
+      "start": 277582,
+      "text": "Right. And so the reason why we have you on today is we want to talk about two different developments that sort of go together very closely and are sort of maybe even two sides of the same coin. And one we mentioned already is Vega-lite, and we will talk about that in a minute. And the other one is Altair, which is a toolkit for data visualization in Python, and for that uses Vega Lite in a very effective and interesting way. But let's start, let's say from the, the backend first. DominiK, can you tell us a bit what is Vega Lite and what it's good for and why we should care?",
+      "id": "ep_121_ut_25"
+    },
+    {
+      "end": 357934,
+      "speaker": "Dominik Moritz",
+      "start": 309932,
+      "text": "Yeah, of course. Vega lite is, as we say it, a high level grammar for interactive graphics. So it says that it provides a concise syntax for rapidly creating interactive visualizations. And these visualizations, they support data exploration and analysis at the same time. The way we've designed this language is that it's an extension of the grammar of graphics. And so that way we have high level declarative language. But we extended this grammar of graphics and added these primitives to also support interactions. So you can actually compose interactions through small components that you add to a visualization I think we'll talk more about the details of how this works in this podcast.",
+      "id": "ep_121_ut_26"
+    },
+    {
+      "end": 365402,
+      "speaker": "Moritz Stefaner",
+      "start": 358594,
+      "text": "But the main idea is you just describe in a specific language how like structurally, how a chart would work.",
+      "id": "ep_121_ut_27"
+    },
+    {
+      "end": 458394,
+      "speaker": "Dominik Moritz",
+      "start": 365538,
+      "text": "Yes, that's correct. So we have a few principles that drive the design of this language that we use. The first one is that we use composition over templates, which means that instead of having a specific chart type, like a scatter plot, we actually compose a scatter plot out of these basic building blocks of the grammar of graphics, which are the marks. So for a scatterplot, it's a point and encoding, which defines how data is mapped to properties of the mark. So for a scatterplot, we would modify the X and the Y position of the mark. And then there's some other things like scales and axes and legends that also work in the grammar of graphics. Yeah, so that's one of the design principles. The other is that we use sensible defaults. So these descriptions of the visualization can be very concise, because as a developer or designer, you can omit these details and the system automatically has some smart defaults. Then the next one is programmatic generation and sharing. Vega-lite was designed so that you can build tools with it. And also it's a data format that you can use to exchange visualizations between different tools. And the last one is that we leverage Vega, which is the underlying execution engine, and also a visualization language, but it's much more low level.",
+      "id": "ep_121_ut_28"
+    },
+    {
+      "end": 486608,
+      "speaker": "Enrico Bertini",
+      "start": 459494,
+      "text": "Yeah, this is great. I really like the fact that this is leveraging the grammar of graphics because this seems to be like the right level of abstraction. Right. You can, I think, similarly to what happened with GGplot two, I think one thing that I like there is that it's very easy to create default. Default charts, but then you have as much, can you say expressivity, expression, whatever.",
+      "id": "ep_121_ut_29"
+    },
+    {
+      "end": 487000,
+      "speaker": "Jacob Vanderplas",
+      "start": 486656,
+      "text": "Yeah.",
+      "id": "ep_121_ut_30"
+    },
+    {
+      "end": 488064,
+      "speaker": "Moritz Stefaner",
+      "start": 487072,
+      "text": "Expressiveness.",
+      "id": "ep_121_ut_31"
+    },
+    {
+      "end": 497718,
+      "speaker": "Enrico Bertini",
+      "start": 488224,
+      "text": "Expressiveness. Thank you. Expressiveness. As you, as you like. Right. And I think that's, that's the, that's what I really love.",
+      "id": "ep_121_ut_32"
+    },
+    {
+      "end": 499774,
+      "speaker": "Moritz Stefaner",
+      "start": 497766,
+      "text": "Shall we briefly explain the grammar of graphics?",
+      "id": "ep_121_ut_33"
+    },
+    {
+      "end": 502454,
+      "speaker": "Enrico Bertini",
+      "start": 499854,
+      "text": "Yeah, maybe we should do that. Yeah, yeah.",
+      "id": "ep_121_ut_34"
+    },
+    {
+      "end": 570970,
+      "speaker": "Jacob Vanderplas",
+      "start": 502534,
+      "text": "So for the grammar of graphics, the idea is that we provide a language that are like set of different words that you can combine into a code classification for visualization. In a way, it's kind of like in English or any language, you have words like now and verbs that you can combine to sentence to describe what visualization look like. Right. So grammar of graphic is similar to like this kind of language for describing graphics. So you combine things like data. How do you transform them, how do you encode them? Using different graphical marks like bar or area or line, and then how you map the data to property of this mark. So that's like the basics idea. So one of the things that we might want to compare to would be comparing to a different approach called like chart template. Like you might call things like bar chart or area chart or histogram. That's like a name, but in a grammar based approach, if you want to create histogram, then you want to think that you actually want to use bar mark to encode bin data field and account. And that's basically histogram. So it's like more like building blocks that just kind of like Lego that you combine and build like buildings in bagel. In this case we build resources.",
+      "id": "ep_121_ut_35"
+    },
+    {
+      "end": 586614,
+      "speaker": "Moritz Stefaner",
+      "start": 571082,
+      "text": "Yeah, I think it's so nice that it's like really treating visual language on the language level and thinks about the combinatorial possibilities and the infinite expressiveness we have by. Yeah, as you say, combining nouns and verbs and adjectives, basically.",
+      "id": "ep_121_ut_36"
+    },
+    {
+      "end": 615376,
+      "speaker": "Enrico Bertini",
+      "start": 588394,
+      "text": "Yeah. So one thing I wanted to ask you is can you also describe a little bit about how this works with interaction? Because that's a really, really new element there that you couldn't find in other, as far as I can tell in previous systems they're based on the grammar of graphics and it looks to me much harder, by the way. So can you briefly describe how this works when you enter the world of interaction?",
+      "id": "ep_121_ut_37"
+    },
+    {
+      "end": 732706,
+      "speaker": "Dominik Moritz",
+      "start": 615560,
+      "text": "Yes. So we extended the grammar of graphics. So we're still building on all the building blocks that exist there. But we've added this new building block which are selections is what we call them. And we talked about them in our Vega lite paper at Viz a couple of years ago. And the idea is that a selection captures points of interest that are somehow selected and they could be selected through hovering or clicking on points. And then there's different selection types. So we have a single selection which contains a single point, multi selection which contains multiple points, and interval selections which contain a range. And then using these selections you can drive some of the encoding. So for instance, you can say if a point is in the selection, then color it, otherwise color it by, for instance, some variable. And if the point is not in the selection, then use gray. And so that way you can use the selection to drive the encoding. But you can do this not just within a single specification, but also multiple specifications. Yeah. In addition to the extension to the grammar of graphics with selections, we also introduced an algebra for composing charts into larger multi view displays. And that's really when the power of interaction comes in, another way to use selections is to filter data or change the scales. And so that way, with these building blocks, with these primitives, you can build interactions like cross filtering or overview in detail. Zooming and panning. We don't have a zoom and pan template, but you can build zooming and panning by composing an interval selection and then driving a scale.",
+      "id": "ep_121_ut_38"
+    },
+    {
+      "end": 812496,
+      "speaker": "Enrico Bertini",
+      "start": 732890,
+      "text": "Yeah, that's very cool. Which also brings me to so one thing that I really like about that is the fact that now you are transitioning this old system to other environments, such as the world of Jupyter notebooks and Python in general. And this is this kind of environment that is typically used by data scientists as well as many other environments like that. I'm thinking about r and similar environments. One of the things that we lack the most there is interaction capabilities. And I remember when I saw that you were moving to the Jupyter notebook space, I was really excited exactly for that, because finally you have a very coherent and well designed system to not only bring easily visualization to everyone, but also interaction. And so maybe that's also a good time to introduce Altair and Jake, maybe, since you seem to be the main person behind this porting of Vega Lite to the Python world. So what is Altair and what is happening there?",
+      "id": "ep_121_ut_39"
+    },
+    {
+      "end": 942904,
+      "speaker": "Kanit 'Ham' Wongsuphasawat",
+      "start": 812640,
+      "text": "Yeah, so essentially, basically what Altair is, is a Python API to create these JSON grammar's specifications within this Vega like grammar. And it was, Altair was really the brainchild of Brian Granger, who's part of the Jupiter project. And he and I, there was a data structures meetup at Berkeley a few years back, and he and I started working on Altair. And I've really been fortunate to have the time to run with it recently. But the nice part about Vega lite is that the grammar is specified in a very direct way in this JSON schema format. Through JSON schema, I can look at any JSON output and say whether it's a valid chart or not. I can also use the JSON schema to prescriptively say how we can construct a valid chart. So the idea with Altair is to give a Python API that will let you construct valid JSON specifications. And so that's a low level thing. And then what we decided to do is once we had that low level infrastructure in place where we could generate and validate basically Vega lite charts, we started building a Python API on top of it that was more user oriented. And it's, I've been really drawn to this grammatical approach to visualization, it's really, it's really opened new worlds, especially with the interactive piece of it. And so it's been quite fun. And Altair is progressing. And the real benefit here is that we in the python world, we get to benefit from everything that ham and Dom and collaborators are doing in Vega lite. Every time there's a new Vega lite release, we can update our Altair code. And the nice thing about Altair is the bulk of it is automatically generated from the schema file, so we can run our code generation scripts, and we get a new version of Altair every time Vega lite comes up.",
+      "id": "ep_121_ut_40"
+    },
+    {
+      "end": 964540,
+      "speaker": "Moritz Stefaner",
+      "start": 943404,
+      "text": "Yeah, this is great about these, working with standards and having these clear ideas, how everything is structured, that you can now, in parallel, work from both ends. And also if, let's say, you now specify a Vega Lite chart, maybe in two years there's a new cool renderer that could take the same specification, but draw it in a more effective way or more beautiful way.",
+      "id": "ep_121_ut_41"
+    },
+    {
+      "end": 997442,
+      "speaker": "Kanit 'Ham' Wongsuphasawat",
+      "start": 964612,
+      "text": "Yeah, absolutely. We're really excited about that component of portability. And so, for example, we have this summer, we have a Google summer of code student who's going to be working on creating a Matplotlib renderer for Vega lite specifications. So then Altair, or anything that outputs Vega Lite would be able to render that in Matplotlib, which for a lot of researchers, Matplotlib is sort of this core tool that can create any sort of plot that you want. And so it's nice to have that bridge.",
+      "id": "ep_121_ut_42"
+    },
+    {
+      "end": 1070502,
+      "speaker": "Moritz Stefaner",
+      "start": 997578,
+      "text": "Yeah. And, I mean, to me personally, what's very exciting is that it's being integrated into Jupyter lab. And Jupyter is an interesting, like, generally interesting toolkit for exploratory data analysis, I would say maybe even, like, explorable explanations. You know, these long websites where you could try out interactive simulations and explain really complex topics through a stepwise combination of code and text and visuals. Like, you know, this format that we all love, I think. And there's a lot of really interesting developments. There's Jupyterlab, there's Colab from Google, which has an interesting approach as well to collaborative coding. There's a new observable toolkit or platform from Mike Bostock and his team, which we will surely also talk about in data stories. And I think these are all exciting, really new ways to actually deal with data and to communicate with data. Jake, what's your take on this? Do you see Altair? Yeah, you can use it in Python in let's say traditional python or do you see it as mostly being used in interactive notebooks? Where is this all headed?",
+      "id": "ep_121_ut_43"
+    },
+    {
+      "end": 1112954,
+      "speaker": "Kanit 'Ham' Wongsuphasawat",
+      "start": 1070638,
+      "text": "Yeah, so mostly it's right now used in interactive notebooks. And that's mainly because with the Vega lite JS renderer you need a JavaScript engine attached to your Python engine. I haven't found a great solution to ah, that's true, yeah, to running JavaScript and Python together. Aside from the notebook, there's also some things in like Adam is a text editor that's sort of based in the whole JavaScript world and so there's this hydrogen plugin that lets you use that. But I've gotten a few emails from more traditional Python coders who are saying pretty mad that they can't use Altair in Pycharm or something. I'm like well figure out how to run JavaScript in Pycharm and then we'll talk.",
+      "id": "ep_121_ut_44"
+    },
+    {
+      "end": 1136214,
+      "speaker": "Moritz Stefaner",
+      "start": 1114174,
+      "text": "Yeah, but that is interesting that everything runs in the browser now. And as you say, Atom is written is like in JavaScript, it's a text editor used, made for coding, written in JavaScript. So it's a very interesting development, I would say. Yeah, so let's say. So I can use it most easily, I guess, in Jupyterlab. Right? So if I want to play with Altair or what's the best way to get it?",
+      "id": "ep_121_ut_45"
+    },
+    {
+      "end": 1166552,
+      "speaker": "Kanit 'Ham' Wongsuphasawat",
+      "start": 1136294,
+      "text": "Jupyterlab is probably the easiest, but we also support Jupyter notebook and colab. And I know someone's gotten it working in Sagemaker, someone just got it working in Kaggle kernels. So there are all these notebook environments out there and we're working on supporting as many of them as we can because that's the real, you know, the python side. We can produce validated JSON strings and from there you need some way to render it. You need that engine that runs the code that Dom and Ham are working on.",
+      "id": "ep_121_ut_46"
+    },
+    {
+      "end": 1168200,
+      "speaker": "Moritz Stefaner",
+      "start": 1166688,
+      "text": "Right, right, yeah.",
+      "id": "ep_121_ut_47"
+    },
+    {
+      "end": 1193284,
+      "speaker": "Jacob Vanderplas",
+      "start": 1168272,
+      "text": "And Vega Lite works pretty well on both Jewel Lab and observable too for observable because it's a JavaScript environment, you can just directly use Vega Lite and also for Jupyterlab if you have like if you save your visualization file in VL JSON, like VR JSON which is basically Vega file,, you can actually double click that into a lab and open it. And it ships with Vega and Vega Lite to render the visual station too.",
+      "id": "ep_121_ut_48"
+    },
+    {
+      "end": 1240424,
+      "speaker": "Moritz Stefaner",
+      "start": 1194574,
+      "text": "Yeah. And so for the end user, so what I'm thinking about, so I'm a practitioner, so I like to explore data, play with data, make new charts and so on so. And traditionally you would say there's either you take tools like Tableau for instance, like more GUI based tools, or Excel, where you have typically predefined chart types. Tableau is a bit, even on the grammar of graphics train I would say. But there's also limits in terms of what, what's possible, right? So it's not a totally free environment. Or you would say, yeah, if you want to do whatever you want you can use D3, for instance, to render your own stuff. Like where would you locate your approach with Vega Lite and Altair in that ecosystem, or in that maybe two extreme poles?",
+      "id": "ep_121_ut_49"
+    },
+    {
+      "end": 1292674,
+      "speaker": "Dominik Moritz",
+      "start": 1240884,
+      "text": "I think one of the beautiful things about Vega-lite and this whole Vega stack is that these are all tools that are building on each other. Saltaire generates Vega Lite. Vega Lite then is a compiler that compiles to Vega. And Vega itself is also a declarative language which is at a lower abstraction level than Vega lite. So the specifications are usually in order of magnitude longer. But also Vega is quite expressive. You can probably make all the charts that you would want to create in there. And so one option, if Vega-lite doesn't offer what you want, is to generate the Vega and then modify the Vega by hand to adjust it to exactly the positions of the axes and scales that you want.",
+      "id": "ep_121_ut_50"
+    },
+    {
+      "end": 1300782,
+      "speaker": "Moritz Stefaner",
+      "start": 1293014,
+      "text": "So you could use a simple tool to quickly create like the basic Vega you want, but then do the last tweaks by hand, for instance.",
+      "id": "ep_121_ut_51"
+    },
+    {
+      "end": 1324034,
+      "speaker": "Dominik Moritz",
+      "start": 1300878,
+      "text": "Yeah, and Vega Lite Vega-lite itself was also built as a language to be generated by UI tools. Ham for instance, when we were working on the Voyager tool, which was a research project here at UW, we built Vega Lite because we needed a language to start to reason about visualization and to quickly generate lots of visualizations.",
+      "id": "ep_121_ut_52"
+    },
+    {
+      "end": 1325446,
+      "speaker": "Jacob Vanderplas",
+      "start": 1324974,
+      "text": "Yeah.",
+      "id": "ep_121_ut_53"
+    },
+    {
+      "end": 1330794,
+      "speaker": "Dominik Moritz",
+      "start": 1325510,
+      "text": "And so I can imagine that there are other UI tools in the future that generate Vega Lite.",
+      "id": "ep_121_ut_54"
+    },
+    {
+      "end": 1370470,
+      "speaker": "Jacob Vanderplas",
+      "start": 1331774,
+      "text": "Yeah, and not even in the future because if you go to Voyager, to today, it's pretty much like you can create build by drag and drops similar to what you can do in the core UI of Tableau. And that's not surprising because in fact that's a collaboration between us at UW and Tableau in terms of doing research. But what we do different in voyagers besides like creating what people drag and drop, we try to augmented with recommendation. And that's possible because Vega Lite is basically a JSON format and basically that's a JavaScript object, right. You can write other programs to make recommendation by generating this JavaScript object and then render them using Vega and Vega Lite.",
+      "id": "ep_121_ut_55"
+    },
+    {
+      "end": 1378582,
+      "speaker": "Dominik Moritz",
+      "start": 1370622,
+      "text": "And this JSON is really compatible with any programming language under the sun, which I think helped its integration into so many tools.",
+      "id": "ep_121_ut_56"
+    },
+    {
+      "end": 1379790,
+      "speaker": "Enrico Bertini",
+      "start": 1378678,
+      "text": "Yeah, that's very interesting.",
+      "id": "ep_121_ut_57"
+    },
+    {
+      "end": 1390824,
+      "speaker": "Kanit 'Ham' Wongsuphasawat",
+      "start": 1379862,
+      "text": "So for example, Altair has been ported to r via the reticulate package. So now you can write r code that generates Python code that generates Vega lite.",
+      "id": "ep_121_ut_58"
+    },
+    {
+      "end": 1392624,
+      "speaker": "Enrico Bertini",
+      "start": 1391204,
+      "text": "It's all connected.",
+      "id": "ep_121_ut_59"
+    },
+    {
+      "end": 1396264,
+      "speaker": "Moritz Stefaner",
+      "start": 1394524,
+      "text": "It's toolkit inception.",
+      "id": "ep_121_ut_60"
+    },
+    {
+      "end": 1451034,
+      "speaker": "Dominik Moritz",
+      "start": 1399444,
+      "text": "Yeah. If you think about all the internals that are also within these tools, Vega Lite itself has an internal representation that it compiles before generating Vega. Vega has internal representations before it then uses different renderers. So we currently have a canvas and an SVG renderer. So for vector graphics and pixel graphics, there's an experimental WebGl renderer. Maybe after the summer there will be a matplotlib renderer. And so I can imagine having all these declarative languages at all these different levels allows you to also swap out what tool or library, what implementation you actually want to use. And so every part of this whole stack is exchangeable, which I think is, as Enrico said earlier, it's a beauty of having standards and also open source, of course.",
+      "id": "ep_121_ut_61"
+    },
+    {
+      "end": 1453802,
+      "speaker": "Moritz Stefaner",
+      "start": 1451114,
+      "text": "And so it's transparent. Right?",
+      "id": "ep_121_ut_62"
+    },
+    {
+      "end": 1454194,
+      "speaker": "Kanit 'Ham' Wongsuphasawat",
+      "start": 1453898,
+      "text": "Yeah.",
+      "id": "ep_121_ut_63"
+    },
+    {
+      "end": 1457574,
+      "speaker": "Dominik Moritz",
+      "start": 1454234,
+      "text": "Everything we do is all under OpenBSD license.",
+      "id": "ep_121_ut_64"
+    },
+    {
+      "end": 1507164,
+      "speaker": "Enrico Bertini",
+      "start": 1457874,
+      "text": "Yeah. I think another interesting idea connected to what just Ham said is the fact that with such a neat declarative language now, you can also afford having computational methods to explore solutions for visualization. Right. And it's interesting because I think there used to be a lot of interest in doing that in the early nineties. Then we kind of like lost an interest in having computations support the generation of effective graphics. Right. And yeah, maybe there is more to explore there. It looks to me that Vega lite and all the ecosystem seems to also support this kind of research endeavor. It's really interesting. I would love to see more people doing that.",
+      "id": "ep_121_ut_65"
+    },
+    {
+      "end": 1526000,
+      "speaker": "Jacob Vanderplas",
+      "start": 1507624,
+      "text": "Oh yeah, definitely. Like my own thesis is like doing that and like, Dom is doing more on that. And also other people at the lab, and I think there are also people in other lab that try to do like conversation interface that kind of generate Vega light as well. So that's.",
+      "id": "ep_121_ut_66"
+    },
+    {
+      "end": 1546262,
+      "speaker": "Enrico Bertini",
+      "start": 1526032,
+      "text": "Yeah, yeah. And even for creativity purposes. Right. You can imagine a situation where you want to just be inspired to create some. Some kind of chart that nobody has seen before. Right. So I don't know if it makes sense, but I think that there is. I really like this intersection of computation.",
+      "id": "ep_121_ut_67"
+    },
+    {
+      "end": 1547926,
+      "speaker": "Moritz Stefaner",
+      "start": 1546318,
+      "text": "And creativity into the game.",
+      "id": "ep_121_ut_68"
+    },
+    {
+      "end": 1556990,
+      "speaker": "Enrico Bertini",
+      "start": 1547990,
+      "text": "Yeah, whatever. Right? Yeah, why not? It's like, maybe it's bullshit. I don't know, but I think it's worth exploring.",
+      "id": "ep_121_ut_69"
+    },
+    {
+      "end": 1600264,
+      "speaker": "Moritz Stefaner",
+      "start": 1557062,
+      "text": "So there's a lot of examples on the websites but my feeling was because it's very focused on statistical graphics and the scatter plots and the line charts and so on. And I personally of course I like to invent new stuff or do interesting lines and Sankeys and connected scatter plots and all the fancy charts. So how easy would it be to do more custom, let's say chart types in this type of environment or more custom renderings? Is that like part of the plan or is there more of an obstacle there in terms of. I would have to understand the whole ecosystem or the whole framework to actually extend the chart type types that are possible.",
+      "id": "ep_121_ut_70"
+    },
+    {
+      "end": 1666228,
+      "speaker": "Jacob Vanderplas",
+      "start": 1600604,
+      "text": "Yeah. So I think we can look at this as different level. One level is like given the primitive that we have we can already combine new examples. Actually there are some examples on a website that are community examples because, because we didn't create them. But they basically use the primitive that we have in order to create new chart type that we didn't create ourselves. But then at the another level is like there are some primitive that we haven't added to Vega lite because we haven't got time then adding that is feasible. For example now we actually have map and that's actually done by undergrad student who work with us and help us Vega live with projection and then Geotf so that we can draw a map. So yes we can add more primitive too, but that would be a little harder than just compiling example because one part of the grammar is like we are designing a language and if you add new primitive to the language, if you interact with other part of the language. So you need to be a bit careful about how things gonna interact with other part. But once you add the power is combinatorial because you can combine it with other building blocks in the language.",
+      "id": "ep_121_ut_71"
+    },
+    {
+      "end": 1667504,
+      "speaker": "Moritz Stefaner",
+      "start": 1666336,
+      "text": "Yeah, yeah, yeah.",
+      "id": "ep_121_ut_72"
+    },
+    {
+      "end": 1689220,
+      "speaker": "Enrico Bertini",
+      "start": 1667844,
+      "text": "So yeah, and yeah, I have another I am curious about how do you guys coordinate this whole thing? It looks massive and I'm amazed that. Yeah. How can you coordinate all this work and make so much progress? It's really fascinating to see what has been happening during the last few years in this space.",
+      "id": "ep_121_ut_73"
+    },
+    {
+      "end": 1767902,
+      "speaker": "Dominik Moritz",
+      "start": 1689412,
+      "text": "Yeah, so for Vega and Vega Lite we have four lead authors which are ham, me, Arvind who now graduated and will be joining MIT as an assistant professor and Jeff our advisor. And the four of us have been working on this core, Vega, Vega Lite, the language and the implementation of the compilers and so on behind these tools. But then there's because all these tools are open source and we encourage people to help us. We've had a lot of the under, a lot of undergraduates help us here at UW, but also people at the Wikimedia foundation and, and other people from just the open source community contributing different aspects. Let it be examples or documentation or code changes, libraries that supported extensions, plugins into other programming languages or tools. Yeah. And we hope that this, to answer your question about how do we manage this, how do we, how do we fit that into our time? Our hope is that as this system grows, as this ecosystem grows, we add more people and. Yeah. And extend the community of people who are directly contributing to these tools.",
+      "id": "ep_121_ut_74"
+    },
+    {
+      "end": 1799804,
+      "speaker": "Jacob Vanderplas",
+      "start": 1768078,
+      "text": "Yeah. First I think we know that a lot of companies already use Vega and Vega Lite in their tools or products. So for example, I'm going to grad it and join and we hope to continue using Vega lion and continue back to the community. And the other part that you might be curious, like how do we organize issue? I guess we can say that for both Vega, Vega Lite and also Altair, we pretty much live on GitHub and we raise issue and discuss a lot there.",
+      "id": "ep_121_ut_75"
+    },
+    {
+      "end": 1827518,
+      "speaker": "Enrico Bertini",
+      "start": 1800384,
+      "text": "Yeah, that's another aspect. I think that the involvement with the community is crucial for these kind of projects. I always admire people who have managed to be so involved with the community and really follow. I think this is partly one of the reasons why D3 has been so popular. Right. I think Mike has been amazing at just being very, very engaged with the community. It seems to be one of the ingredients that is needed to make this kind of project successful. Right.",
+      "id": "ep_121_ut_76"
+    },
+    {
+      "end": 1843704,
+      "speaker": "Moritz Stefaner",
+      "start": 1827606,
+      "text": "And there's so much work going into examples and documentation and discussions and so, yeah, we really appreciate all the efforts there, but now, yeah, it's amazing to see them now pay off and coming together in such a beautiful way.",
+      "id": "ep_121_ut_77"
+    },
+    {
+      "end": 1845644,
+      "speaker": "Dominik Moritz",
+      "start": 1844244,
+      "text": "Yeah, I think we're really big challenges.",
+      "id": "ep_121_ut_78"
+    },
+    {
+      "end": 1858024,
+      "speaker": "Moritz Stefaner",
+      "start": 1845684,
+      "text": "Often like to make space in academia for this type of thing that is not immediately leads to a paper, but will lead to five papers later. You know, it's like these delayed gratifications are difficult to fit in.",
+      "id": "ep_121_ut_79"
+    },
+    {
+      "end": 1897914,
+      "speaker": "Dominik Moritz",
+      "start": 1858324,
+      "text": "I think we've been incredibly lucky. So by we I mean ham, Arvind [Satyanarayan] and me, that Jeff allows us to or encourages us to really build tools that people can use and spend time on, on improving them and work on the open source aspects of them and also writing papers. But that's not the only output of our research and that worked really well with previous tools that Jeff has also worked on like D3 and Protovis and so on. And yeah, I think we're just in a very lucky position that all these, a lot of lucky coincidences came together, that Vega-lite and, and the whole Vega ecosystem is where it is right now.",
+      "id": "ep_121_ut_80"
+    },
+    {
+      "end": 1965264,
+      "speaker": "Moritz Stefaner",
+      "start": 1898034,
+      "text": "Yeah, absolutely. And I'm really excited how all this plays out. I became a big fan of Jupyter notebooks and this whole ecosystem over this year, and if you're not familiar with it, definitely check it out. It's very exciting. Once you get the hang of this interactive programming paradigm, you get sort of addicted and everything else feels a bit wrong. I'm really excited to see where all this is headed. If you want to get just a brief impression how these things work. There's a nice demo of exploring Seattle weather. I know it's a sad topic, but there's a few good charts around this sad data set, both on the Altair side and on the Vega documentation side. So you can get a sense how these charts are structured there and what you can learn about rainfall, mostly. And I think these are a really good start just to see, in principle, what's possible and how things are structured. And then if you get excited about it, I think the documentation is great. Kudos to the Altair documentation. It was very easy to get started.",
+      "id": "ep_121_ut_81"
+    },
+    {
+      "end": 1978196,
+      "speaker": "Kanit 'Ham' Wongsuphasawat",
+      "start": 1966244,
+      "text": "Yeah, thanks. Altair's side. We've had a lot of community contributions, too, and that's been awesome. Great to see people I've never met in real life come along and add examples and things like that.",
+      "id": "ep_121_ut_82"
+    },
+    {
+      "end": 1981628,
+      "speaker": "Moritz Stefaner",
+      "start": 1978260,
+      "text": "Yeah, yeah. But that might be another sign that you're up to something great, so.",
+      "id": "ep_121_ut_83"
+    },
+    {
+      "end": 1982716,
+      "speaker": "Enrico Bertini",
+      "start": 1981716,
+      "text": "Yeah, exactly.",
+      "id": "ep_121_ut_84"
+    },
+    {
+      "end": 1983464,
+      "speaker": "Moritz Stefaner",
+      "start": 1982740,
+      "text": "Keep going.",
+      "id": "ep_121_ut_85"
+    },
+    {
+      "end": 1990548,
+      "speaker": "Enrico Bertini",
+      "start": 1984284,
+      "text": "The excitement is there. You can feel it. Let's keep it, everyone. So great work.",
+      "id": "ep_121_ut_86"
+    },
+    {
+      "end": 2012368,
+      "speaker": "Moritz Stefaner",
+      "start": 1990676,
+      "text": "Excellent. So let's hope a few of our listeners check it out, send us some examples. If you make interesting tear or Vega lite charts, that would be fun. And, yeah, if you have any questions, ping us or our guests on Twitter. And thanks so much for joining us, guys. Well, we'll see. Maybe we do another episode in two years and see how things have developed.",
+      "id": "ep_121_ut_87"
+    },
+    {
+      "end": 2013136,
+      "speaker": "Enrico Bertini",
+      "start": 2012416,
+      "text": "Yeah, exactly.",
+      "id": "ep_121_ut_88"
+    },
+    {
+      "end": 2015844,
+      "speaker": "Moritz Stefaner",
+      "start": 2013160,
+      "text": "We have 3d renderers and VR and everything.",
+      "id": "ep_121_ut_89"
+    },
+    {
+      "end": 2022084,
+      "speaker": "Dominik Moritz",
+      "start": 2017264,
+      "text": "You're joking, but last week at Openviscon, somebody actually showed that.",
+      "id": "ep_121_ut_90"
+    },
+    {
+      "end": 2028044,
+      "speaker": "Moritz Stefaner",
+      "start": 2022664,
+      "text": "It's true. It's true. So I should not joke about these things. They just become true.",
+      "id": "ep_121_ut_91"
+    },
+    {
+      "end": 2030704,
+      "speaker": "Dominik Moritz",
+      "start": 2029224,
+      "text": "Do you want to talk about something else?",
+      "id": "ep_121_ut_92"
+    },
+    {
+      "end": 2034892,
+      "speaker": "Enrico Bertini",
+      "start": 2030824,
+      "text": "Reality is going faster than imagination, Moritz.",
+      "id": "ep_121_ut_93"
+    },
+    {
+      "end": 2037708,
+      "speaker": "Moritz Stefaner",
+      "start": 2034988,
+      "text": "That's true. Yeah. Thanks so much.",
+      "id": "ep_121_ut_94"
+    },
+    {
+      "end": 2038820,
+      "speaker": "Enrico Bertini",
+      "start": 2037796,
+      "text": "Okay, thank you.",
+      "id": "ep_121_ut_95"
+    },
+    {
+      "end": 2039684,
+      "speaker": "Kanit 'Ham' Wongsuphasawat",
+      "start": 2038892,
+      "text": "Yeah, thank you.",
+      "id": "ep_121_ut_96"
+    },
+    {
+      "end": 2040236,
+      "speaker": "Dominik Moritz",
+      "start": 2039764,
+      "text": "Thank you.",
+      "id": "ep_121_ut_97"
+    },
+    {
+      "end": 2043044,
+      "speaker": "Enrico Bertini",
+      "start": 2040300,
+      "text": "Bye, guys. Thanks for joining us. Bye bye. Bye.",
+      "id": "ep_121_ut_98"
+    },
+    {
+      "end": 2044544,
+      "speaker": "Moritz Stefaner",
+      "start": 2043124,
+      "text": "Bye bye.",
+      "id": "ep_121_ut_99"
+    },
+    {
+      "end": 2069523,
+      "speaker": "Enrico Bertini",
+      "start": 2049124,
+      "text": "Hey, folks, thanks for listening to data stories again. Before you leave a few last notes, this show is now completely crowdfunded so you can support us by going on Patreon. That's patreon.com Datastories. And if you can spend a couple of minutes reading us on iTunes, that would be extremely helpful for the show.",
+      "id": "ep_121_ut_100"
+    },
+    {
+      "end": 2095406,
+      "speaker": "Moritz Stefaner",
+      "start": 2069643,
+      "text": "And here's also some information on the many ways you can get news directly from us. We're, of course, on twitter@twitter.com. Datastories. We have a Facebook page@Facebook.com. data stories, podcast all in one word. And we also have a slack channel where you can chat with us directly. And to sign up, you can go to our homepage datastory es. And there is a button at the bottom of the page.",
+      "id": "ep_121_ut_101"
+    },
+    {
+      "end": 2111268,
+      "speaker": "Enrico Bertini",
+      "start": 2095550,
+      "text": "And we also have an email newsletter. So if you want to get news directly into your inbox and be notified whenever we publish an episode, you can go to our home page Datastories es and look for the link you find at the bottom in the footer.",
+      "id": "ep_121_ut_102"
+    },
+    {
+      "end": 2123412,
+      "speaker": "Moritz Stefaner",
+      "start": 2111356,
+      "text": "So one last thing we want to tell you is that we love to get in touch with our listeners, especially if you want to suggest a way to improve the show or amazing people you want us to invite or even projects you want us to talk about.",
+      "id": "ep_121_ut_103"
+    },
+    {
+      "end": 2132604,
+      "speaker": "Enrico Bertini",
+      "start": 2123508,
+      "text": "Yeah, absolutely. And don't hesitate to get in touch with us. It's always a great thing to hear from you. So see you next time, and thanks for listening to data stories.",
+      "id": "ep_121_ut_104"
+    }
+  ],
+  "confidence": 0.909023873921458,
+  "audio_duration": 2141,
+  "punctuate": true,
+  "format_text": true,
+  "dual_channel": false,
+  "webhook_url": null,
+  "webhook_status_code": null,
+  "webhook_auth": false,
+  "webhook_auth_header_name": null,
+  "speed_boost": false,
+  "auto_highlights_result": null,
+  "auto_highlights": false,
+  "audio_start_from": null,
+  "audio_end_at": null,
+  "word_boost": [],
+  "boost_param": null,
+  "filter_profanity": false,
+  "redact_pii": false,
+  "redact_pii_audio": false,
+  "redact_pii_audio_quality": null,
+  "redact_pii_policies": null,
+  "redact_pii_sub": null,
+  "speaker_labels": true,
+  "content_safety": false,
+  "iab_categories": true,
+  "content_safety_labels": {
+    "status": "unavailable",
+    "results": [],
+    "summary": {}
+  },
+  "language_detection": false,
+  "language_detection_threshold": null,
+  "language_confidence": null,
+  "custom_spelling": null,
+  "throttled": false,
+  "auto_chapters": true,
+  "summarization": false,
+  "summary_type": null,
+  "summary_model": null,
+  "custom_topics": false,
+  "topics": [],
+  "speech_threshold": null,
+  "speech_model": "best",
+  "chapters": [
+    {
+      "summary": "Data stories is a podcast about data visualization, data analysis, and generally the role data plays in our lives. The show is completely listener supported, so there's no ads. If you enjoyed the show, please consider supporting us with recurring payments or one time donations.",
+      "gist": "Data Stories",
+      "headline": "Data stories podcast is completely listener supported, so there's no ads",
+      "start": 160,
+      "end": 134734,
+      "id": "ep_121_ch_0"
+    },
+    {
+      "summary": "Today we have not one, not two. special guests to talk about, two topics that sort of go together. DominiK Moritz, \u201cHam\u201d Wongsuphasawat, Jacob Vanderplas. They are all working at the intersection of databases and data visualization. Let's see how it goes.",
+      "gist": "Five Minutes in Data Science: Vega Lite and Big Data",
+      "headline": "Today we have three special guests to talk about data visualization and databases",
+      "start": 134814,
+      "end": 300670,
+      "id": "ep_121_ch_1"
+    },
+    {
+      "summary": "Vega lite is a high level grammar for interactive graphics. It provides a concise syntax for rapidly creating interactive visualizations. These visualizations support data exploration and analysis at the same time. It's a data format that you can use to exchange visualizations between different tools.",
+      "gist": "Vega lite",
+      "headline": "Vega Lite is a concise syntax for rapidly creating interactive visualizations",
+      "start": 300782,
+      "end": 497718,
+      "id": "ep_121_ch_2"
+    },
+    {
+      "summary": "Grammar of graphic is similar to like this kind of language for describing graphics. So you combine things like data. How do you transform them, how do you encode them? Using different graphical marks like bar or area or line. It's like treating visual language on the language level.",
+      "gist": "Grammatical structure of graphics",
+      "headline": "Grammar of graphics is similar to language for describing graphics",
+      "start": 497766,
+      "end": 588914,
+      "id": "ep_121_ch_3"
+    },
+    {
+      "summary": "We extended the grammar of graphics with selections. Using these selections you can drive some of the encoding. Another way to use selections is to filter data or change the scales. Finally you have a very coherent and well designed system to bring easily visualization to everyone, but also interaction.",
+      "gist": "Quantum visualization in the World of Interaction",
+      "headline": "Can you briefly describe how this works when you enter the world of interaction",
+      "start": 588994,
+      "end": 792752,
+      "id": "ep_121_ch_4"
+    },
+    {
+      "summary": "Altair is a Python API to create these JSON grammar's specifications within this Vega like grammar. Every time there's a new Vega lite release, we can update our Altair code. Where is this all headed? Do you see it mostly being used in interactive notebooks?",
+      "gist": "Vega Lite: The Python API",
+      "headline": "Altair is porting Vega Lite to the Python world",
+      "start": 792928,
+      "end": 1195310,
+      "id": "ep_121_ch_5"
+    },
+    {
+      "summary": "Vega Lite Vega-lite was also built as a language to be generated by UI tools. Every part of this whole stack is exchangeable, which is a beauty of having standards and also open source. Everything we do is all under OpenBSD license.",
+      "gist": "Vega 2.8: The Open Source",
+      "headline": "Dom: Vega Lite and Altair are all open source tools",
+      "start": 1195462,
+      "end": 1667504,
+      "id": "ep_121_ch_6"
+    },
+    {
+      "summary": "For Vega and Vega Lite we have four lead authors. The involvement with the community is crucial for these kind of projects. I'm really excited to see where all this is headed. How do you coordinate all this work and make so much progress?",
+      "gist": "How do we coordinate the whole Vega ecosystem?",
+      "headline": "How do you guys coordinate this whole thing? It looks massive",
+      "start": 1667844,
+      "end": 2028044,
+      "id": "ep_121_ch_7"
+    },
+    {
+      "summary": "Do you want to talk about something else? Reality is going faster than imagination, Moritz. That's true. Thanks so much. Bye bye.",
+      "gist": "Putin on Real World",
+      "headline": "Moritz: Reality is going faster than imagination, Moritz",
+      "start": 2029224,
+      "end": 2044544,
+      "id": "ep_121_ch_8"
+    },
+    {
+      "summary": "This show is now completely crowdfunded so you can support us by going on patreon. com Datastories. Here's also some information on the many ways you can get news directly from us. We love to get in touch with our listeners, especially if you want to suggest a way to improve the show.",
+      "gist": "How to Subscribe to Data Stories",
+      "headline": "This show is completely crowdfunded so you can support us by going on Patreon",
+      "start": 2049124,
+      "end": 2132604,
+      "id": "ep_121_ch_9"
+    }
+  ],
+  "disfluencies": false,
+  "entity_detection": false,
+  "sentiment_analysis": false,
+  "sentiment_analysis_results": null,
+  "entities": null,
+  "speakers_expected": null,
+  "summary": null,
+  "custom_topics_results": null,
+  "episode_num": 121,
+  "episode_metadata": {
+    "speakers": [
+      "Dominik Moritz",
+      "Moritz Stefaner",
+      "Enrico Bertini",
+      "Jacob Vanderplas",
+      "Kanit 'Ham' Wongsuphasawat"
+    ],
+    "WPid": "1192",
+    "url": "https://datastori.es/podlove/file/5095/s/feed/c/mp3/121-vega-lite-and-altair.mp3",
+    "episode_title": "Declarative Visualization with Vega-Lite and Altair with Dominik Moritz, Jacob Vanderplas, Kanit \u201cHam\u201d Wongsuphasawat"
+  }
+}

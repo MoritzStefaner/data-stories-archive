@@ -1,0 +1,716 @@
+{
+  "id": "0c5df32a-889c-4f1f-9ff0-4e1f00fa4434",
+  "language_model": "assemblyai_default",
+  "acoustic_model": "assemblyai_default",
+  "language_code": "en_us",
+  "status": "completed",
+  "audio_url": "https://datastori.es/podlove/file/6244/s/feed/c/mp3/151-future-data-interfaces-with-david-sheldon-hicks.mp3",
+  "utterances": [
+    {
+      "end": 12050,
+      "speaker": "David Sheldon-Hicks",
+      "start": 120,
+      "text": "The screen and data becomes incredibly important because it's become so important in our lives. We're all living our lives through screens. We're all living our lives through data. We're experiencing the world through aggregated data, and we're all told the power of that.",
+      "id": "ep_151_ut_0"
+    },
+    {
+      "end": 45950,
+      "speaker": "Moritz Stefaner",
+      "start": 31690,
+      "text": "Hi, everyone. Welcome to a new episode of Data stories. My name is Moritz Stefaner, and I'm an independent designer of data visualizations. In fact, I work as a self employed truth in beauty operator out of my office here in the countryside in the beautiful north of Germany.",
+      "id": "ep_151_ut_1"
+    },
+    {
+      "end": 55322,
+      "speaker": "Enrico Bertini",
+      "start": 46610,
+      "text": "Yes. And I am Enrico Bertini. I am a professor at NYU in New York City, where I do research and teach data visualization.",
+      "id": "ep_151_ut_2"
+    },
+    {
+      "end": 65798,
+      "speaker": "Moritz Stefaner",
+      "start": 55506,
+      "text": "Right. And on this podcast, we talk about data visualization, data analysis, and generally the role data plays in our lives. And usually we do that to together with the guests we invite on the show.",
+      "id": "ep_151_ut_3"
+    },
+    {
+      "end": 88870,
+      "speaker": "Enrico Bertini",
+      "start": 65974,
+      "text": "But before we start, a quick note. Our podcast is listener supported, so there's no ads. And if you enjoy the show, please consider supporting us with recurring payments on patreon.com Datastories. Or if you prefer, you also have an option to send one time donations on PayPal. Me Datastories.",
+      "id": "ep_151_ut_4"
+    },
+    {
+      "end": 110146,
+      "speaker": "Moritz Stefaner",
+      "start": 89030,
+      "text": "Yeah. And any contribution is really super appreciated. If you don't have any spare money, just retweet our announcements or follow us on social media. That's fine, too. So anything helps to keep the show running. Anyways, enough about us and the show. Let's get started with our guest. We have a very special guest today, David Sheldon Hicks. Hi, David.",
+      "id": "ep_151_ut_5"
+    },
+    {
+      "end": 110898,
+      "speaker": "Enrico Bertini",
+      "start": 110218,
+      "text": "Hi, David.",
+      "id": "ep_151_ut_6"
+    },
+    {
+      "end": 112498,
+      "speaker": "David Sheldon-Hicks",
+      "start": 110994,
+      "text": "Hello. Thank you for having me.",
+      "id": "ep_151_ut_7"
+    },
+    {
+      "end": 127324,
+      "speaker": "Moritz Stefaner",
+      "start": 112594,
+      "text": "So David is a bit from a different field from what we usually draw our guests from, but you'll see in a minute how related it actually is to what we do. So, David, can you tell us a bit about what you do and what your company territory studio does?",
+      "id": "ep_151_ut_8"
+    },
+    {
+      "end": 172376,
+      "speaker": "David Sheldon-Hicks",
+      "start": 127522,
+      "text": "Sure. So, yeah, my name's David. We've been running territory studio now for nine years, almost ten years, summer next year, which is really exciting. And we, I mean, I always struggle with describing what we do, but, and because people just don't believe us. But essentially, we are a specialist in using data, using technology, holograms, fictional user interfaces in storytelling, most specifically for film. But we work across all sorts of different projects. We've been fortunate to work with charities and automotive companies, computer games, but really using that vision of the future and using data and technology to tell those stories, essentially.",
+      "id": "ep_151_ut_9"
+    },
+    {
+      "end": 210116,
+      "speaker": "Moritz Stefaner",
+      "start": 172488,
+      "text": "Right. And of course, this is something we're super interested in because as data visualization specialists, we're often actually asked to make something look like age of Ultron or, you know, like, futuristic and, like, information rich. And so I think our clients often have these Hollywood science fiction scenes in mind when they think about the future of data interaction. I think the work you do often really shapes also how we develop technology based on what these future visions are just to give people an idea. Can you tell us a few of the more well known movies maybe that you were part of with your work?",
+      "id": "ep_151_ut_10"
+    },
+    {
+      "end": 228952,
+      "speaker": "David Sheldon-Hicks",
+      "start": 210308,
+      "text": "Yeah, sure. So it's actually quite scary to me that you see our work as kind of influencing the work that you do. So in terms of the Sci-Fi and fictional side of things that we've been working on most recently, we've been really proud of working on Blade Runner 2049.",
+      "id": "ep_151_ut_11"
+    },
+    {
+      "end": 229928,
+      "speaker": "Moritz Stefaner",
+      "start": 229056,
+      "text": "That's amazing.",
+      "id": "ep_151_ut_12"
+    },
+    {
+      "end": 251412,
+      "speaker": "David Sheldon-Hicks",
+      "start": 230064,
+      "text": "That was a very cool project. And the Martian ex machina, Guardians of the Galaxy. We've really been blessed with some quite special projects. More recently, we worked on Black Mirror. So it's quite a long credit list and it almost sounds made up when I say it out loud. But, yeah, we're very, very fortunate.",
+      "id": "ep_151_ut_13"
+    },
+    {
+      "end": 270160,
+      "speaker": "Moritz Stefaner",
+      "start": 251516,
+      "text": "This is awesome. So can you tell us a bit how this type of works? Like, how do you work with the directors or the producers? What's your brief? Or what's the process? Do you come in at the end and just fit in the screens to whatever the actors do? Or how are you involved in these productions, really?",
+      "id": "ep_151_ut_14"
+    },
+    {
+      "end": 469558,
+      "speaker": "David Sheldon-Hicks",
+      "start": 270500,
+      "text": "It can really change from project to project. I guess there's a few key examples as to how it might work for us. So with something like the Martian, we were approached just as the script was completing and we got a read of the script, understood the intent of the movie. Obviously, we did our research and read the book as well. And then we went and sat with the art department. And the art department are really responsible for the physical build of the film sets. So anything that is put in front of the camera and the actors at the time of shooting. And often our work is actually live in front of the actors. It's not put in afterwards on green screen. It's a practical. Like a prop. Exactly, exactly. So with the Martian, you've got those scenes with the large mission control and the large screens there and also the ball pen where you might have 200 different workstations. And what we're doing there is we're trying to understand the data that NASA might put on those screens. So there's a research phase where. And Ridley Scott was really smart in doing this. He put us in touch with a whole team at Jet propulsion labs in the US and a gentleman, Dave Lavery, who heads up one of those teams, was really generous with his time, and he would just spend hours with us on the phone, write really long emails, just explaining what all that data means and how. How their roles interact with that data and what it is that they're looking for, and then how there might be a knock on effect. And the fascinating thing that I found around the way that NASA works is they don't use too much in the way of software interpretation of that data, actually, that what they really want to understand is the validity of the data that's coming through. How much can it be trusted, and how much interpretation do they have to apply to that? So we spent a lot of time truly trying to understand the roles at NASA and then the sorts of data that they're looking at. But then you have this challenge, of course, which is you have a film director that needs to entertain and tell a story. So we sit between those two roles, really. We're wanting to not underplay just the incredible complexity that it would take in, you know, sending someone up to Mars and then recalculating the trajectory of getting somebody to slingshot around the earth and back to. Back to Mars in the. In the time window. And you really can't underplay that because not many people believe you'd want to go back for Matt Damon. So that's often a trick. But they truly wanted to use this as a film that, as much as possible, could be bedded in reality. And in some ways, based on their projections for where technology and the types of data that they'd be looking at would be 50 years or so in the future. So we, we wanted to be true to them. And, you know, so often with our more fantastical films, we're having to make data up, you know, because data doesn't exist for some of the things that we're doing. But in this case, we just had somebody willing to feed us all of that data, feed us the correct calculations to go up on those screens.",
+      "id": "ep_151_ut_15"
+    },
+    {
+      "end": 470486,
+      "speaker": "Moritz Stefaner",
+      "start": 469734,
+      "text": "That's cool.",
+      "id": "ep_151_ut_16"
+    },
+    {
+      "end": 483536,
+      "speaker": "David Sheldon-Hicks",
+      "start": 470598,
+      "text": "So that, you know, we celebrate those kind of external collaborations whenever we can get them, because in all honesty, it means that we're doing less work. So if we can. If we can spend less time guessing.",
+      "id": "ep_151_ut_17"
+    },
+    {
+      "end": 489808,
+      "speaker": "Moritz Stefaner",
+      "start": 483568,
+      "text": "What the data might be, just a much more interesting texture than anything made up. Right. It's like, more like, more interesting, simply.",
+      "id": "ep_151_ut_18"
+    },
+    {
+      "end": 652308,
+      "speaker": "David Sheldon-Hicks",
+      "start": 489904,
+      "text": "Yeah. And I think the imperfections in that data as well are just more authentic to the storytelling. So I think so us understanding that data and how people use it and interpret it was really key. But then again, then we're sitting at this visual translation for Ridley to understand when he uses particular things to tell a point in the story beats. And that's really tricky because some of this stuff isn't immediately recognizable to a mass audience. So for certain specialists in the area, yes, that might be absolutely the way that they would do things. But how do you, in a three second beat tell that moment really concisely? So story and authenticity sometimes come up against one another and we have to find just interesting solutions for that. That hopefully doesn't take us too far away from reality but equally still tells that story effectively and efficiently. And so that was the tightrope that we trod. Whereas with a movie like, let's say, ready player one or guardians of the Galaxy what you're doing is you're using data as a form of expression, really. You're thinking about the characters in the film. You're thinking about the worlds that are being built and you're using the representation of data as a means to talking about that person's role. It might even say something about their point in society. In Blade Runner, we had different technologies and different data sets that would only be accessible across certain strata in society. And the elites, the corporate elites would have a very bespoke and unique version of that data set as opposed to everyone else that might have access to another which is not too dissimilar from reality. Today, I would say unique access to data just means that certain people have a very unique and advantageous view of the world. So we really use it as an expression of character and place and it becomes far more textual than it does become true to the realities of it. Then we find that actually we still need to keep to the formatting of data to keep it grounded, to keep it bedded and so that we don't completely lose the audience. Of course, if you're designing an interface and a data set for a walking talking tree there's not an awful lot of research that we can do around that. But we can base it on a character that might be looking at navigation systems and make some assumptions around the basic design DNA that might fall into that. So we're constantly playing these between those opposites.",
+      "id": "ep_151_ut_19"
+    },
+    {
+      "end": 669340,
+      "speaker": "Moritz Stefaner",
+      "start": 652364,
+      "text": "I think that's a challenge, right? Needs to be plausible and, like, sufficiently complex. But at the same time, often it's just visible, like, for half a second. So people need to get the gist of it without even thinking. Right. And I think that's. It seems like such a huge challenge. Really?",
+      "id": "ep_151_ut_20"
+    },
+    {
+      "end": 671560,
+      "speaker": "David Sheldon-Hicks",
+      "start": 669500,
+      "text": "Yeah. It has to be a visual shorthand.",
+      "id": "ep_151_ut_21"
+    },
+    {
+      "end": 679618,
+      "speaker": "Moritz Stefaner",
+      "start": 672260,
+      "text": "Like a signal more than actually a formulated design, really. More like a sign of sorts.",
+      "id": "ep_151_ut_22"
+    },
+    {
+      "end": 762992,
+      "speaker": "David Sheldon-Hicks",
+      "start": 679804,
+      "text": "Absolutely. Absolutely. Because filmmaking is, it does have to be very efficient. It has to get a lot across in a short space of time, but we always want to build in these layers of meaning. So as a team, we will always do this research and we will always try to, when given the time and the all clear in terms of information security and NDAs and all those sorts of things, we will speak to, you know, we'll speak to NASA, we will speak to military technology specialists, people that can give us a unique insight in terms of where technology is headed or where data might be used for certain roles within a film. And that's crucial to us because we found that by really thinking about the actor's character and then translating that back to reality and understanding real world roles, we immediately bleed out design that has meaning. We, you know, through osmosis almost. We're not overthinking the design. It kind of naturally flows. So the more and more research we can do, the more that we can better ourselves in reality and truly understand the material that we're designing for, the better that we find our work. And that's so important to film because there's a sense that if you get it right, people will come back and watch it and watch it over and over again, and they will discover those.",
+      "id": "ep_151_ut_23"
+    },
+    {
+      "end": 772020,
+      "speaker": "Moritz Stefaner",
+      "start": 763056,
+      "text": "And all the details and. Yeah, and it's also so satisfying if all the details make sense and not like you look into the details, you realize, oh, it was just made up, you know?",
+      "id": "ep_151_ut_24"
+    },
+    {
+      "end": 791712,
+      "speaker": "David Sheldon-Hicks",
+      "start": 772920,
+      "text": "Yeah. So we always try and hold our stand or hold ourselves to a high standard of design, but sometimes timeframes really do work against us, and we have to, you know, flow in data. That's quite generic, but hopefully has enough research behind it that at least it formats in the right way. That's always our hope.",
+      "id": "ep_151_ut_25"
+    },
+    {
+      "end": 828772,
+      "speaker": "Enrico Bertini",
+      "start": 791856,
+      "text": "So one thing I was wondering, David, is how where do you take inspirations for your user interfaces? And do you actually end up interacting with some researchers, maybe, to get inspiration about what is the current cutting edge of research in this space? Right. Yeah, I think there's an interesting interplay between different figures. So I guess some researchers take inspirations from. From science fiction. Right. But then maybe people like you may go back to researchers and. And see what they're currently doing. So I'm curious if this happens in your case.",
+      "id": "ep_151_ut_26"
+    },
+    {
+      "end": 888330,
+      "speaker": "David Sheldon-Hicks",
+      "start": 828916,
+      "text": "Yeah, so we do. Whenever possible, we will. We will try and use, like I say, external consultants to influence the work that we're doing on ex machina that you know, that was a good notable example. We used a code consultant, and the code consultant confessed that by no means would he know what the code looks like for machine learning and kind of deep thinking and a female robotic character. But he could make a good guess in terms of the formatting of the code and some of the context was used. And the beautiful thing about working with him is he was able to give us a couple of Easter eggs so that when people paused it on the dvd, they could compile the code and run a couple of programs that would send them to books about artificial intelligence. So those kind of extra, just levels of detail for the people that care, and they're really the people that we want to reward with some of the work that we're doing. It's lovely to drop in those kind of extra levels of meaning when we can.",
+      "id": "ep_151_ut_27"
+    },
+    {
+      "end": 901250,
+      "speaker": "Moritz Stefaner",
+      "start": 888790,
+      "text": "How about the interaction part? So, minority report, probably one of these things you have, I might guess, a love hate relationship or a plain hate relationship, who knows?",
+      "id": "ep_151_ut_28"
+    },
+    {
+      "end": 1015824,
+      "speaker": "David Sheldon-Hicks",
+      "start": 901990,
+      "text": "Well, I think the plain hate. Yeah, the hate relationship comes from the fact that everyone references it. Exactly. The beautiful thing about film directors is they always reference it as, let's not go over the same ground. You know, it's the same with Iron man. Whilst they're wonderful examples, directors are always looking for their next unique opportunity to create something new. So they're a wonderful client in that respect. The tricky thing is, you know, having to recreate the wheel every time is quite a tiring challenge. But minority report was wonderful in that it started to help people think about data and interactions beyond the obvious in storytelling. So the reality in our field, I guess, was that before minority report and a few other examples, there's a film called the island that also had a wonderful touchscreen display and object based interactions, which. Which worked really well, which is a bit before minority report. It's the first example I can think of those films really considered. Well, look, the way that people use data at the moment is really boring. You know, I don't really want to watch a film about someone typing at a keyboard and using an excel spreadsheet. Doesn't sound particularly entertaining. But you have this problem in that film directors have to echo our experiences of the world. Now they're making, you know, whilst they might be talking about science fiction, it's actually being used as a way to have a conversation about where we're headed and where we are now. So screen and data becomes incredibly important because it's become so important in our lives. We're all living our lives through screens. We're living our lives through data. We're experiencing the world through aggregated data, and we're all told the power of that and the storytelling opportunity. So directors can't shy away from this format. They can't shy away from the need to use it in their films.",
+      "id": "ep_151_ut_29"
+    },
+    {
+      "end": 1022892,
+      "speaker": "Moritz Stefaner",
+      "start": 1015872,
+      "text": "But even in the fiction setting, you still need to think about, how do I show that, that WhatsApp message somebody receives?",
+      "id": "ep_151_ut_30"
+    },
+    {
+      "end": 1023960,
+      "speaker": "Enrico Bertini",
+      "start": 1023076,
+      "text": "Exactly.",
+      "id": "ep_151_ut_31"
+    },
+    {
+      "end": 1176600,
+      "speaker": "David Sheldon-Hicks",
+      "start": 1024460,
+      "text": "Yeah. And, you know, we worked with Charlie Brooker last year on Black Mirror, and he's a great example of really thinking about the impact of technology on our lives and what that means for storytelling. So that's been fascinating to see his process. But in fact, all the directors and showrunners that we work with, they all think in that way, and they're looking for their unique opportunity to make comment on our use of technology, what it says about society and where we're all headed. So it's incredibly important to them and they can't repeat or ground. But the beautiful thing about minority report is it gave the actors an opportunity to be more physical and to be more expressive. And so we went over the shoulder, looking down at their screen. We were seeing the data and the content at the same time that we were seeing Tom Cruise waving his hands around. And suddenly that becomes a really interesting narrative device. So that really laid out the gauntlet that said to us, how do we make our daily roles in terms of using data and engaging the screens and use of technology? How do we make that engaging for entertainment purposes and telling a story? And that's really been our challenge ever since. At territory studio, we are constantly thinking about how do we stay authentic to the medium, but then how do we kind of keep pushing it? And for me, the kind of the high point is creating work that's truly iconic, that lives with people. I've worked on a few James Bond films now, and whilst they're all cutting edge, they date incredibly quickly. And that's not just our work. I think that's, you know, the film in general, it's such a unique slice in time. And I think that's okay. You know, I think it's fine for. We almost look back on that work with nostalgia. We can date a movie just very quickly looking, looking at some of those films. Yeah, but I think if we can, creating iconic work that resonates with people for time is a great ambition to have, and that's one that we hold really true to our hearts. So when Blade Runner came through, that was a unique opportunity to not only work on just an incredible film IP with an incredible director, but it was a chance to create some work that had real meaning in the film. The use of technology was part of that world. Building the data that they were looking at was saying something about the state of society and just really questioning, is this where we all want to be headed? And that was a fascinating question to think about.",
+      "id": "ep_151_ut_32"
+    },
+    {
+      "end": 1225062,
+      "speaker": "Moritz Stefaner",
+      "start": 1176900,
+      "text": "Yeah, and I think that's such a good example. Like, you mentioned the aging aspect of certain looks or how quickly something looks dated or not. And I think probably your industry is very short lived in that you say, like, oh, that's so spring 2018 or something like this. Right? And so how do you keep things fresh? And how do you, like, also escape? Maybe the typical visual cliches and tropes people might often go for when they first think of, like, future user interfaces. There's a beautiful, like, 99% invisible episode where they talk about that most future screens are mostly blue. Like, blue seems to be the color of the future, but by repeating it again, again, it becomes old. Then you need something fresh. Right. And how do you keep things fresh?",
+      "id": "ep_151_ut_33"
+    },
+    {
+      "end": 1390580,
+      "speaker": "David Sheldon-Hicks",
+      "start": 1225206,
+      "text": "Well, I mean, first of all, we listened to that blog, and then we, so our first project, Everett Territory, was for Prometheus, and we made them all pink and orange as a reaction to that. And in Guardians of the Galaxy, we used every single palette that we possibly could because it was such a luminous, vibrant palette for the film. So I think we always question our process. I think that's kind of the key. And to be, be very aware of your influences. I think what we've learned from working with film directors especially, is to question your springboard, your brief. I think kind of forming the right brief at the very beginning becomes very important to that, and then just being aware of your environmental conditions that maybe could influence your creative process. So Ridley Scott, when he was briefing us in on Prometheus, said, just please forget about minority report, get off Pinterest, ignore Instagram, forget about Iron man. What I want, you know, when I briefed, you know, talked to Geiger, and working with Geiger, originally it was all about nature and nature meeting machines. Now you're already working with the machines. So how do we bring some nature to that? And he was fascinated by the colorways, the movements, the dynamic systems that you see in coral reefs, in underwater sea life. So he really wanted that to be an inspiration, and that's quite an artistic inspiration to the way in which we use data in the film. And you can see that in the kind of the textual qualities of the holograms and the, the screens that we created, there's a real luminosity and color overlays and vibrancy to it all that steps away from as much as possible the cyan and everything. So, so that's something that I've learned from all film directors, is to truly, you know, get the brief right at the beginning and give your team a fighting chance that they can create something original. I think one of the other things is, like, we've kind of covered already is this notion of just not living in your world, but understanding the people that truly are going to be using this data in a real world context. So talking to NASA, working with the military, you know, a good friend of mine, a friend of mine now works at an anti terrorism unit in London. So just pulling on all these other outside influences that take you away from Photoshop and illustrator, take you away from what can be done with the tools, and start understanding the roles and the ways in which that data will be used, that immediately gives you a different way of approaching each project. So I think that's key. And I think just turning off Instagram, turning off Pinterest, not following the trends, has to be the way that you achieve that.",
+      "id": "ep_151_ut_34"
+    },
+    {
+      "end": 1439094,
+      "speaker": "Enrico Bertini",
+      "start": 1390660,
+      "text": "Yeah. David, I have a question regarding the relationship between future or futuristic interfaces and what actually ends up becoming real, real interfaces, real products. I think there is a tension there between, say, what is feasible or not feasible yet from the technological standpoint and what is actually not a good interface. Right. And I think some, a couple of good examples of what is happening right now. I think voice interfaces and VR AR have been around for a little bit. Right. And used to be considered futuristic, and now they're kind of like taking over a little bit. So there's a little bit of attention there. So what's your take there?",
+      "id": "ep_151_ut_35"
+    },
+    {
+      "end": 1647990,
+      "speaker": "David Sheldon-Hicks",
+      "start": 1439262,
+      "text": "Yeah, so I think actually we're running at similar problems. And because we are, because we are maybe a little bit ahead of the curve in terms of how quickly we can deliver film, release those ideas first, and then products come through afterwards. The reason I know this is because we work across both. So we're working with automotive companies, we're working with Sony and Microsoft, you know, so we, we're all looking at the same white papers. We're all looking at where technology is headed. We're all understanding the trajectory. And so you're building out design solutions for that. Also, these tech companies have realized that you need to build out a new team solution, a new creative team solution for some of these new technologies coming through. You know, historically, when we thought about data and user interfaces. It's been mostly two D and it's. And it's been a use. Graphic design has really been kind of the leading design logic that's prevailed. Obviously, human centered design is coming from a slightly different place, but they're all skill sets that feel quite familiar. You know, they're coming from other areas of kind of strategy or data visualization or they're all kind of pre established. I think with some of these new technologies that's coming through, there needs to be a different team mix. I'm definitely seeing this with VR and AR. The assumption that we can just take UI and Ux from existing skill sets and apply that over the top of video content, it's just not right. I actually think that spatial design needs to really come into this and actually architects can add a lot to this conversation. Or industrial designers. I think the work that we were doing with Steven Spielberg on ready player one, he was really interested in object based systems that got away from a scrolling menu and you just started thinking about maybe sharing a file in the same way that you might throw someone an apple. There's a different opportunity there. And why do we assume that the same layer and use of data and interaction can be applied that we're seeing with flat screen work? I don't think that's the case and I think it's a missed opportunity, but I think we're running at the same. We're applying the same solution because we've got the same creative team and I think we need to change that a little bit. I do think there's a wonderful opportunity for bringing together maybe a film director, a game designer and an architect and seeing what solutions would come from that team. I think that would be really interesting. And we've been playing with that here because we get to build out bespoke teams for film projects. We then take those teams, augment them a little bit and apply them to real world projects. And it's creating some really interesting results and things that we're getting to solutions far quicker because we're getting through all the bad ideas far quicker too. And it's just applying several different lenses on the same problem. And I think it's a really fun and interesting way of working because we've learned so much from external consultants and fully researching the problem. It's been a really fun way to work. But yeah, I think that problem is a unique one, it's a new one and I think somebody will crack it soon. But I still don't think it's been quite solved yet.",
+      "id": "ep_151_ut_36"
+    },
+    {
+      "end": 1676004,
+      "speaker": "Moritz Stefaner",
+      "start": 1648930,
+      "text": "But I was thinking of that, too, when you mentioned set design, that, well, a part of the set is already virtual, like it's done in post. And then you have your on screen designs that are part of the physical set, and everything starts to blend. Right. And at some point, you're just creating this world, you know, and you just give the actors an environment to play in. But the whole world of the movie at some point is digital. Right. And so, yeah, that's a really interesting way of telling stories.",
+      "id": "ep_151_ut_37"
+    },
+    {
+      "end": 1711480,
+      "speaker": "David Sheldon-Hicks",
+      "start": 1676132,
+      "text": "That's so bizarre, actually, because we have clients in very different sectors. So we've got a lot of games clients, we've got film clients, tv clients, but we've had also got tech brands and automotive brands. And I can just see a moment when all these conversations merge bizarrely. I think digital product specialists, data scientists, storytellers, it's all getting incredibly close, and I think there could be a lot more sharing of ideas across those different fields to move us forwards.",
+      "id": "ep_151_ut_38"
+    },
+    {
+      "end": 1717668,
+      "speaker": "Enrico Bertini",
+      "start": 1712020,
+      "text": "It's kind of like technological tipping point when things converge all at once. Right?",
+      "id": "ep_151_ut_39"
+    },
+    {
+      "end": 1768940,
+      "speaker": "David Sheldon-Hicks",
+      "start": 1717844,
+      "text": "It definitely is. It definitely is. And I think the tools are starting to get out of the way. That's the wonderful thing. I think people see sometimes digital tools as actually a barrier, but actually, if your knowledge base is a good point, they just kind of meld away in the same way that a pencil and paper does. So if you can remove the level of translation, then I think you can just focus on the creativity and the ideas, and you're in a much better place. Equally, I was talking to a friend more recently who actually argued the opposite, and I think there's some truth in this, too, which is the investment that it takes to learn, say, a musical instrument, you earning those stripes, you getting to a level of specialism and experience that can only be learn through years and years of really hard work.",
+      "id": "ep_151_ut_40"
+    },
+    {
+      "end": 1777072,
+      "speaker": "Moritz Stefaner",
+      "start": 1769800,
+      "text": "If you would, like, publish a while and now everybody would say, I don't get it. It's like, that's work, you know, it's way too much work to learn.",
+      "id": "ep_151_ut_41"
+    },
+    {
+      "end": 1806118,
+      "speaker": "David Sheldon-Hicks",
+      "start": 1777176,
+      "text": "Yeah, exactly. But I think there's something in that. I think that kind of challenging people to get past an interface just, it has reward in itself. So kind of learning a musical instrument or learning an interface and learning a level of specialism and nuance, that can be a really special thing, too. So I think things will start to fragment out and section out, and it will become a really interesting time in the next ten years.",
+      "id": "ep_151_ut_42"
+    },
+    {
+      "end": 1852040,
+      "speaker": "Enrico Bertini",
+      "start": 1806294,
+      "text": "I'm wondering if this is what is happening with voice interfaces. Right. I used to be, at least for me personally, it used to be like I never use voice at all. But now after seeing Alexa for some time, right now I go back. Now I'm using Siri and I did and never used it for. For many, many years. Right. So there's also this social component that as you see more people using a certain technology now, you got, you try to go the extra mile and learn a little bit how to use it. And the more you use it, the easier it gets. So it's like, I think we maybe sometimes make the mistake thinking that using a mouse and a keyboard and a screen just came natural to us.",
+      "id": "ep_151_ut_43"
+    },
+    {
+      "end": 1875414,
+      "speaker": "David Sheldon-Hicks",
+      "start": 1852700,
+      "text": "Yeah, there's definitely. There's definitely moments of transparency that's coming through with voice. That's incredible. Obviously, I struggle with contributing to voice because it doesn't leave me with much work in a film, but I thought, I thought her was a really interesting movie, you know, building up a relationship with an OS and talking to it the whole time. Spin.",
+      "id": "ep_151_ut_44"
+    },
+    {
+      "end": 1877170,
+      "speaker": "Moritz Stefaner",
+      "start": 1875462,
+      "text": "Sorry. Say, as well. Yeah.",
+      "id": "ep_151_ut_45"
+    },
+    {
+      "end": 1913470,
+      "speaker": "David Sheldon-Hicks",
+      "start": 1879070,
+      "text": "Far better reference. Thank you. I think they're all really, really interesting. I think that transparency and just that always on digital layer, I think that's just going to come through more and more where you have displays embedded in surfaces. So it looks like a wooden table, but when you choose, it just suddenly becomes a surface, a digital surface that you can work with, with. So you don't really need to have devices. You maybe go up to something, a wall or a table, and it knows who you are and it automatically feeds you all of the software systems that you need for that day.",
+      "id": "ep_151_ut_46"
+    },
+    {
+      "end": 1941490,
+      "speaker": "Moritz Stefaner",
+      "start": 1913770,
+      "text": "Yeah, yeah. And in order to show it, you always have to make it, like, tangible and visible. Right. I was just thinking, like, if the ultimate evolution is brain computer interfaces, this will be really hard to show. Right. And like the. The same, of course, with minority report. You know, all these big gestures in space, you know, it's. Everybody sees what you're looking at, everybody sees what you're doing. This, in reality, it wouldn't work for your private email, right?",
+      "id": "ep_151_ut_47"
+    },
+    {
+      "end": 1952222,
+      "speaker": "David Sheldon-Hicks",
+      "start": 1942070,
+      "text": "No, no. I mean, I think minority report would really annoy me because, you know, it just looks like exercise. That looks like you, you know, I don't need that.",
+      "id": "ep_151_ut_48"
+    },
+    {
+      "end": 1956700,
+      "speaker": "Moritz Stefaner",
+      "start": 1952246,
+      "text": "On top of work, you have massive arms like biceps.",
+      "id": "ep_151_ut_49"
+    },
+    {
+      "end": 1959280,
+      "speaker": "David Sheldon-Hicks",
+      "start": 1956860,
+      "text": "That's miss telling me a dream, I think. Yeah.",
+      "id": "ep_151_ut_50"
+    },
+    {
+      "end": 1985702,
+      "speaker": "Moritz Stefaner",
+      "start": 1960940,
+      "text": "What are some classic future data interfaces from the past? I love just retro futurism. What are some total classics that maybe we missed out on? Or where you say, oh, that was really, really good and maybe underrated at the time, and we just realized now how. How well put together that old vision of the future was like, what are some of your favorites?",
+      "id": "ep_151_ut_51"
+    },
+    {
+      "end": 2220430,
+      "speaker": "David Sheldon-Hicks",
+      "start": 1985806,
+      "text": "Well, the one that sticks out to me from my childhood is war games, which is about a teenage boy with a, you know, a dial up modem. And some of our listeners might not know what that is, but essentially it was a modem that connected to your telephone line and made a very funny sound before logging in. So that was the early days of Internet. And the story goes that this teenage hacker hacked into the nuclear control system of the us government and simulates world war three, which obviously causes lots of panic and pandemonium. But it was my first exposure to seeing how the depiction of data on screens really had a significant meaning in that storytelling moment that couldn't really be told any other way. You know, there are moments in a film where I think only dialogue will do or character interaction, you know, and most of the time we want to see people, but there are other moments that it has to be a big visual effect shot. You know, I need to see the death dial blowing up. I don't want to hear somebody telling me about that. I want to see it. And there are just other moments where only data will really effectively tell that story. Beat. And so for me, that film, and I think also things like Star wars, you know, if you think about Star wars and the mission briefing when they're kind of approaching the Death Star, to kind of send that torpedo down the little shaft, you had to use data to tell that story. That had to be a visualization. It couldn't really be described in any other way. And there's a, you know, with the countdown to the Death Star coming around the moon and destroying the rebel base, all of those moments are kind of really told with data and information. And I think that's quite wonderful that a graphic designer or a data visualization tool can be used to tell quite a significant moment in a film. The other one that really sticks out to me, and I think is probably the reason that territory studio even exists, is the moment where r projects a hologram of Princess Leia to Obi Wan Kenobi and new Skywalker. And at that moment, I thought, I want that. I want 3d holograms for real. I just think that seeing stories told projected in front of an audience in the same way that you might go to a theater in the round and three dimensionally, people are there, vehicles are there, worlds are being built in full color. But you can see that as a shared experience. And it's all three dimensional with all the polish that you get from filmmaking, but all of the dynamism that you get from theatre and live performance, I think that would be truly special. So that captured me that moment. And then the 3d chess that's on the Millennium Falcon, those two moments really captured me, and I just thought, that's a wonderful dream. And so when we ended up working on things like Ghost in the Shell, where we were creating the holograms for the cityscapes or holographic displays, more recently for ready player one and Pacific Rim, that was my moment to kind of, you know, dive into a little bit of that daydreaming and play back what that could look like. And I'm sure we're not far from it now. It feels like technology and experiments and R and D projects are coming through that. In my lifetime, I might see a three dimensional projection of a story or a three dimensional articulation of a key bit of data, and that three dimensions might actually change all of our interpretations of that, that bit of information and change something for the good or, you know, whatever it might be. But I think that's fascinating. I find that fascinating.",
+      "id": "ep_151_ut_52"
+    },
+    {
+      "end": 2238112,
+      "speaker": "Moritz Stefaner",
+      "start": 2221330,
+      "text": "Is that ultimately your vision, that we are all in this space, like, there's like a virtual space overlaid the real world and we all experience that virtual layer together, is that sort of your perfect vision for how to, how to consume your creations ultimately, I think so.",
+      "id": "ep_151_ut_53"
+    },
+    {
+      "end": 2249544,
+      "speaker": "David Sheldon-Hicks",
+      "start": 2238216,
+      "text": "Somebody said to me, why am I so hung up on holograms? And I, what is it with you and the holograms? Yeah, mister holograms over here. Holograms are cool.",
+      "id": "ep_151_ut_54"
+    },
+    {
+      "end": 2250660,
+      "speaker": "Moritz Stefaner",
+      "start": 2249592,
+      "text": "I could see it.",
+      "id": "ep_151_ut_55"
+    },
+    {
+      "end": 2346372,
+      "speaker": "David Sheldon-Hicks",
+      "start": 2251000,
+      "text": "I think I'm excited by paradigm shifts. I think that's what truly inspires me. So I remember when I was graduating from university, I was really interested in the deconstructivist movement. So, you know, people like Karl Jenks or, you know, some of the architects that are working in those fields where it was a complete shift, they were moving on from post modernism and to a completely different field. And I think technology inspires that. If you think about the Gutenberg Bible and movable type or photography and its impact on fine artists, those shifts in technology, or those shifts in techniques and tools, or just the changing a structure in some way, it shifts the creative community, it shifts the design community, and suddenly you have to respond in a completely different way. And it just creates this flurry of energy and brand new work. And that fascinates me. I think that that technology shift that inspires creativity is just. It's just beautiful. And I like being a part of that, I think we really relish the kind of the constant shifting that we're seeing at the moment, the constant innovation that's coming out globally. And if we can apply design and data and animation to that and ride that wave, we'll constantly be producing work. Hopefully, that really resonates with people and feels as though it's telling good stories.",
+      "id": "ep_151_ut_56"
+    },
+    {
+      "end": 2374152,
+      "speaker": "Enrico Bertini",
+      "start": 2346516,
+      "text": "Yeah. David, I'm wondering if we can conclude by maybe giving suggestions to our listeners. I'm wondering if anyone wants to pursue similar careers. Seems a little bit unconventional. Right. So what would be the. I'm tempted to say the right path, but there's probably not right path. Right, but let's say there's someone listening to this and being really excited. What would be possible paths.",
+      "id": "ep_151_ut_57"
+    },
+    {
+      "end": 2518090,
+      "speaker": "David Sheldon-Hicks",
+      "start": 2374296,
+      "text": "Yeah. So we were going through a strategic meeting earlier today, and we were trying to define what it is that we're looking for in people now. And actually we have. It's almost like we've got 100 people here in London, there's about 20 in San Francisco. And the closest thing I can get to is mad inventor. So somebody who is really interested and passionate about a lot of different things. So we've got a great designer here, Sam Kwon. And he came from a traditional graphic design background. He's learned how to do interfaces for films. He constantly researches data and new tools, and just has a broader field of interest beyond design and animation that I think just makes his work really, really rich. And I would say that of everyone here, they all seem to be generalists in that they can design and animate or tell stories or storyboard or whatever it might be, but then they kind of drill down really deep into specialisms in a very geeky, nerdy way. And we just look after these people and make sure that they have everything that they need. So I think somebody with. With a natural interest and intrigue in the world and this area of specialism, whether it be storytelling, design, data, technology, I think you kind of need to be across a few of those different things. I was definitely. I trained. I trained and had this kind of left brain, right brain, equal balance. I did art and photography, but I mixed that up with maths and physics. And I think my parents just naturally thought that I'd become an architect. You know, I think that was kind of the path laid out for me. And I was absolutely horrified at how long it took an architect to graduate, and then even more concerned that how long it would take for one project to be built. So I thought maybe graphics might be a way of quickly iterating through that, speeding up the process. But I do think that there's an equal amount of creativity and logic that's required for this real intrigue and interest, but a care for creativity and craft, too. We are constantly treading that fine line between storytelling and authenticity around the data, so someone that kind of crosses those two areas would be ideal for us.",
+      "id": "ep_151_ut_58"
+    },
+    {
+      "end": 2522690,
+      "speaker": "Moritz Stefaner",
+      "start": 2518210,
+      "text": "Yeah. And I think you will find that profile quite often in the data visualization community.",
+      "id": "ep_151_ut_59"
+    },
+    {
+      "end": 2524618,
+      "speaker": "Enrico Bertini",
+      "start": 2522810,
+      "text": "Yeah, exactly. I was about to say the same.",
+      "id": "ep_151_ut_60"
+    },
+    {
+      "end": 2526338,
+      "speaker": "Moritz Stefaner",
+      "start": 2524674,
+      "text": "Well, it brings us all together. Right.",
+      "id": "ep_151_ut_61"
+    },
+    {
+      "end": 2527962,
+      "speaker": "David Sheldon-Hicks",
+      "start": 2526434,
+      "text": "Well, the good news is we're very.",
+      "id": "ep_151_ut_62"
+    },
+    {
+      "end": 2533866,
+      "speaker": "Moritz Stefaner",
+      "start": 2528026,
+      "text": "Extending the technical side and also not wanting to give up on one of those two sides.",
+      "id": "ep_151_ut_63"
+    },
+    {
+      "end": 2545510,
+      "speaker": "David Sheldon-Hicks",
+      "start": 2533938,
+      "text": "Yeah. Well, we have a recruitment section on our website. We are very much looking for good people. So, yeah, we're very busy. Very, very busy. So please email in.",
+      "id": "ep_151_ut_64"
+    },
+    {
+      "end": 2549662,
+      "speaker": "Moritz Stefaner",
+      "start": 2545670,
+      "text": "That would be lovely. If a new career comes out of this podcast for somebody.",
+      "id": "ep_151_ut_65"
+    },
+    {
+      "end": 2552942,
+      "speaker": "David Sheldon-Hicks",
+      "start": 2549766,
+      "text": "I'm hoping at least ten people let.",
+      "id": "ep_151_ut_66"
+    },
+    {
+      "end": 2554450,
+      "speaker": "Enrico Bertini",
+      "start": 2552966,
+      "text": "Us know if these happens.",
+      "id": "ep_151_ut_67"
+    },
+    {
+      "end": 2576962,
+      "speaker": "Moritz Stefaner",
+      "start": 2555670,
+      "text": "Cool. Wonderful. Yeah. Thanks so much for joining us. I see so many cross connections now, and I think it's very clear that it's about much more than just putting a few glowing rectangles on the screen somewhere. And really wonderful what you're doing with your studio and can't wait to see the next few of your designs. In the meantime. Thanks so much and see you soon.",
+      "id": "ep_151_ut_68"
+    },
+    {
+      "end": 2579634,
+      "speaker": "David Sheldon-Hicks",
+      "start": 2577066,
+      "text": "Oh, thank you so much. It's been an absolute pleasure talking with you.",
+      "id": "ep_151_ut_69"
+    },
+    {
+      "end": 2581138,
+      "speaker": "Moritz Stefaner",
+      "start": 2579682,
+      "text": "Yeah, wonderful. Thank you.",
+      "id": "ep_151_ut_70"
+    },
+    {
+      "end": 2583830,
+      "speaker": "Enrico Bertini",
+      "start": 2581194,
+      "text": "Thank you. Thanks so much. Bye bye bye.",
+      "id": "ep_151_ut_71"
+    },
+    {
+      "end": 2611646,
+      "speaker": "Moritz Stefaner",
+      "start": 2588530,
+      "text": "Hey folks, thanks for listening to data stories again. Before you leave, a few last notes, this show is crowdfunded and you can support us on patreon@patreon.com Datastories, where we publish monthly previews of upcoming episodes for our supporters. Or you can also send us a one time donation via PayPal at PayPal me Datastories or as a free way.",
+      "id": "ep_151_ut_72"
+    },
+    {
+      "end": 2639032,
+      "speaker": "Enrico Bertini",
+      "start": 2611678,
+      "text": "To support the show. If you can spend a couple of minutes rating us on iTunes, that would be very helpful as well. And here's some information on the many ways you can get news directly from us. We are on Twitter, Facebook and Instagram, so follow us there for the latest updates. We have also a slack channel where you can chat with us directly. And to sign up, go to our home page at Datastory ES and there you'll find a button at the bottom of the page.",
+      "id": "ep_151_ut_73"
+    },
+    {
+      "end": 2647064,
+      "speaker": "Moritz Stefaner",
+      "start": 2639176,
+      "text": "And there you can also subscribe to our email newsletter if you want to get news directly into your inbox and be notified whenever we publish a new episode.",
+      "id": "ep_151_ut_74"
+    },
+    {
+      "end": 2659678,
+      "speaker": "Enrico Bertini",
+      "start": 2647152,
+      "text": "That's right, and we love to get in touch with our listeners. So let us know if you want to suggest a way to improve the show or know any amazing people you want us to invite. I or even have any project you want us to talk about.",
+      "id": "ep_151_ut_75"
+    },
+    {
+      "end": 2666342,
+      "speaker": "Moritz Stefaner",
+      "start": 2659814,
+      "text": "Yeah, absolutely. Don't hesitate to get in touch. Just send us an email at mailatastory es.",
+      "id": "ep_151_ut_76"
+    },
+    {
+      "end": 2670190,
+      "speaker": "Enrico Bertini",
+      "start": 2666486,
+      "text": "That's all for now. See you next time, and thanks for listening to data stories.",
+      "id": "ep_151_ut_77"
+    }
+  ],
+  "confidence": 0.937379360937289,
+  "audio_duration": 2679,
+  "punctuate": true,
+  "format_text": true,
+  "dual_channel": false,
+  "webhook_url": null,
+  "webhook_status_code": null,
+  "webhook_auth": false,
+  "webhook_auth_header_name": null,
+  "speed_boost": false,
+  "auto_highlights_result": null,
+  "auto_highlights": false,
+  "audio_start_from": null,
+  "audio_end_at": null,
+  "word_boost": [],
+  "boost_param": null,
+  "filter_profanity": false,
+  "redact_pii": false,
+  "redact_pii_audio": false,
+  "redact_pii_audio_quality": null,
+  "redact_pii_policies": null,
+  "redact_pii_sub": null,
+  "speaker_labels": true,
+  "content_safety": false,
+  "iab_categories": true,
+  "content_safety_labels": {
+    "status": "unavailable",
+    "results": [],
+    "summary": {}
+  },
+  "language_detection": false,
+  "language_detection_threshold": null,
+  "language_confidence": null,
+  "custom_spelling": null,
+  "throttled": false,
+  "auto_chapters": true,
+  "summarization": false,
+  "summary_type": null,
+  "summary_model": null,
+  "custom_topics": false,
+  "topics": [],
+  "speech_threshold": null,
+  "speech_model": "best",
+  "chapters": [
+    {
+      "summary": "This is a new episode of Data stories. We talk about data visualization, data analysis, and the role data plays in our lives. We have a very special guest today, David Sheldon Hicks. If you enjoy the show, please consider supporting us with recurring payments on patreon. com Datastories.",
+      "gist": "Data Stories",
+      "headline": "Data stories podcast is listener supported, so any contribution is super appreciated",
+      "start": 120,
+      "end": 109546,
+      "id": "ep_151_ch_0"
+    },
+    {
+      "summary": "David is a specialist in using data, using technology, holograms, fictional user interfaces in storytelling, most specifically for film. Our clients often have these Hollywood science fiction scenes in mind when they think about the future of data interaction. I think the work you do often really shapes also how we develop technology.",
+      "gist": "What is a data visualization studio?",
+      "headline": "David is a specialist in using data to tell fictional stories for film",
+      "start": 109578,
+      "end": 252148,
+      "id": "ep_151_ch_1"
+    },
+    {
+      "summary": "We're trying to understand the data that NASA might put on those screens. Often our work is actually live in front of the actors. We celebrate those kind of external collaborations whenever we can get them. It means that we're doing less work.",
+      "gist": "How The Martian Was Made: The Art Department",
+      "headline": "How do you work with the directors or the producers on these projects",
+      "start": 252204,
+      "end": 547420,
+      "id": "ep_151_ch_2"
+    },
+    {
+      "summary": "In Blade Runner, we had different technologies and different data sets that would only be accessible across certain strata in society. Today, we really use it as an expression of character and place. It has to be a visual shorthand. But at the same time, often it's just visible.",
+      "gist": "How To Design a Film Character's Interface",
+      "headline": "Using data to express character and place in a film is a huge challenge",
+      "start": 547720,
+      "end": 791712,
+      "id": "ep_151_ch_3"
+    },
+    {
+      "summary": "Where do you take inspirations for your user interfaces? And do you actually end up interacting with some researchers, maybe, to get inspiration about what is the current cutting edge of research in this space? Whenever possible, we will.",
+      "gist": "Do You Take Inspiration From Your Users?",
+      "headline": "David: Where do you take inspirations for your user interfaces",
+      "start": 791856,
+      "end": 888330,
+      "id": "ep_151_ch_4"
+    },
+    {
+      "summary": " minority report was wonderful in that it started to help people think about data and interactions beyond the obvious in storytelling. At territory studio, we are constantly thinking about how do we stay authentic to the medium. The high point is creating work that's truly iconic, that lives with people.",
+      "gist": "In the Elevator With Minority Report",
+      "headline": "Minority report challenged filmmakers to think about data and interactions in storytelling",
+      "start": 888790,
+      "end": 1178644,
+      "id": "ep_151_ch_5"
+    },
+    {
+      "summary": "How do you keep things fresh? Maybe the typical visual cliches and tropes people might often go for when they first think of, like, future user interfaces. I think forming the right brief at the very beginning becomes very important to that. Also being aware of your environmental conditions that maybe could influence your creative process.",
+      "gist": "How To Keep The Visual Code Updated",
+      "headline": "How do you keep things fresh when designing future user interfaces",
+      "start": 1178692,
+      "end": 1391020,
+      "id": "ep_151_ch_6"
+    },
+    {
+      "summary": "There is a tension between what is feasible or not feasible from the technological standpoint and what is actually not a good interface. With some of these new technologies that's coming through, there needs to be a different team mix. I think that problem is a unique one, it's a new one and I think somebody will crack it soon.",
+      "gist": "The Future of Interfaces",
+      "headline": "David, I have a question regarding the relationship between future or futuristic interfaces",
+      "start": 1391100,
+      "end": 1647990,
+      "id": "ep_151_ch_7"
+    },
+    {
+      "summary": "Digital product specialists, data scientists, storytellers, it's all getting incredibly close. It's kind of like technological tipping point when things converge all at once. And I think the tools are starting to get out of the way. It will become a really interesting time in the next ten years.",
+      "gist": "How Will Digital Interfaces Affect Film?",
+      "headline": "I think digital tools are starting to get out of the way for creativity",
+      "start": 1648930,
+      "end": 1959280,
+      "id": "ep_151_ch_8"
+    },
+    {
+      "summary": "What are some classic future data interfaces from the past? I love just retro futurism. What are some total classics that maybe we missed out on? And how well put together that old vision of the future was like.",
+      "gist": "What are some classic future data interfaces from the past?",
+      "headline": "What are some classic future data interfaces from the past? I love retro futurism",
+      "start": 1960940,
+      "end": 2103820,
+      "id": "ep_151_ch_9"
+    },
+    {
+      "summary": "David: I want 3d holograms for real. Seeing stories told projected in front of an audience in the same way that you might go to a theater in the round. I think I'm excited by paradigm shifts. And that technology shift that inspires creativity is just beautiful.",
+      "gist": "The Future of Human Design Is In Holograms",
+      "headline": "David: I think technology inspires creativity. I think I'm excited by paradigm shifts",
+      "start": 2104600,
+      "end": 2353660,
+      "id": "ep_151_ch_10"
+    },
+    {
+      "summary": "We are constantly treading that fine line between storytelling and authenticity around the data. Someone that crosses those two areas would be ideal for us. We have a recruitment section on our website. If a new career comes out of this podcast for somebody, let us know.",
+      "gist": "Want to work on Data Stories? Here!",
+      "headline": "Datastories is looking for people to pursue different career paths",
+      "start": 2353700,
+      "end": 2670190,
+      "id": "ep_151_ch_11"
+    }
+  ],
+  "disfluencies": false,
+  "entity_detection": false,
+  "sentiment_analysis": false,
+  "sentiment_analysis_results": null,
+  "entities": null,
+  "speakers_expected": null,
+  "summary": null,
+  "custom_topics_results": null,
+  "episode_num": 151,
+  "episode_metadata": {
+    "speakers": [
+      "David Sheldon-Hicks",
+      "Moritz Stefaner",
+      "Enrico Bertini"
+    ],
+    "WPid": "1484",
+    "url": "https://datastori.es/podlove/file/6244/s/feed/c/mp3/151-future-data-interfaces-with-david-sheldon-hicks.mp3",
+    "episode_title": "Future Data Interfaces with David Sheldon-Hicks"
+  }
+}

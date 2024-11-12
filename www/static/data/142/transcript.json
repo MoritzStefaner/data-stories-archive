@@ -1,0 +1,772 @@
+{
+  "id": "477242e2-95a6-41e7-a4ce-1852494fea0c",
+  "language_model": "assemblyai_default",
+  "acoustic_model": "assemblyai_default",
+  "language_code": "en_us",
+  "status": "completed",
+  "audio_url": "https://datastori.es/podlove/file/5645/s/feed/c/mp3/142-data-is-personal-with-evan-peck.mp3",
+  "utterances": [
+    {
+      "end": 10090,
+      "speaker": "Evan Peck",
+      "start": 200,
+      "text": "And so we really found in the interviews, when people would find a personal connection to a graph, it almost didn't matter what else was in the graph.",
+      "id": "ep_142_ut_0"
+    },
+    {
+      "end": 39154,
+      "speaker": "Moritz Stefaner",
+      "start": 29430,
+      "text": "Hi, everyone. Welcome to a new episode of Data stories. My name is Enrico Bertini, and I am a professor at New York University, where I teach and do research in data visualization.",
+      "id": "ep_142_ut_1"
+    },
+    {
+      "end": 50018,
+      "speaker": "Enrico Bertini",
+      "start": 39322,
+      "text": "That's right. And I'm Moritz Stefaner, and I'm an independent designer of data visualizations. And I work as a self employed truth and beauty operator out of my office here in the countryside in the north of Germany.",
+      "id": "ep_142_ut_2"
+    },
+    {
+      "end": 61546,
+      "speaker": "Moritz Stefaner",
+      "start": 50114,
+      "text": "Yes. And on this podcast, we talk about data visualization, analysis, and more generally, the role data plays in our lives. And usually we do that together with a guest we invite on the show.",
+      "id": "ep_142_ut_3"
+    },
+    {
+      "end": 87390,
+      "speaker": "Enrico Bertini",
+      "start": 61698,
+      "text": "Who we will bring on in a second. But before we start, just a quick note. Our podcast is listener supported. That means there's no ads. And that also means if you do enjoy the show, please consider supporting us. And you can do that either with recurring payments on patreon.com Datastories, or you can also send us a one time donation. That's great, too. You can do that on Paypal dot me Datastories.",
+      "id": "ep_142_ut_4"
+    },
+    {
+      "end": 113192,
+      "speaker": "Moritz Stefaner",
+      "start": 87770,
+      "text": "Okay, so let's get started. Today we talk about a very interesting project. It's one of my favorite research projects that have been published lately, and it's called data is personal. And it's about interesting interview study about interviewing 42 people in rural America to understand how they read data visualizations, and to talk about that we have on the show, Evan Peck. Hey, Evan, welcome on the show.",
+      "id": "ep_142_ut_5"
+    },
+    {
+      "end": 114580,
+      "speaker": "Evan Peck",
+      "start": 113306,
+      "text": "Hi. Thanks for having me.",
+      "id": "ep_142_ut_6"
+    },
+    {
+      "end": 115764,
+      "speaker": "Moritz Stefaner",
+      "start": 114660,
+      "text": "How are you doing?",
+      "id": "ep_142_ut_7"
+    },
+    {
+      "end": 118320,
+      "speaker": "Evan Peck",
+      "start": 115812,
+      "text": "Well, how are you doing? Very good.",
+      "id": "ep_142_ut_8"
+    },
+    {
+      "end": 128556,
+      "speaker": "Moritz Stefaner",
+      "start": 119140,
+      "text": "So, can you briefly introduce yourself, tell us a little bit about what is your background, maybe the current position, your main interest in activities and so on?",
+      "id": "ep_142_ut_9"
+    },
+    {
+      "end": 215840,
+      "speaker": "Evan Peck",
+      "start": 128708,
+      "text": "Yeah, sure. So, I am a professor of computer science at Bucknell University. Bucknell is a fairly small institution in central Pennsylvania with all undergraduates. So a little bit more actually teaching focused than many institutions. But my primary research is in data visualization. It hasn't always. So I actually did graduate school at Tufts University in the Boston area under Robert Jacob. And actually, at the time, I was studying brain computer interfaces. And that's probably what most people maybe even know me better for. And so over the last five or six years, I've sort of been on this journey from creating these adaptive systems, these systems that adapt to our brain activity, to slowly these more recent projects, which are looking not only at data visualization visualization, but kind of more broadly. How can we get people to pay attention to data. How can we get people to value data and care about data? And so that's sort of the long kind of trajectory I've been on. And then in terms of other activities I'm interested in, and I think this is pretty related, you'll see, is I've also been pretty involved in how can we teach undergraduate students how to think more carefully about the systems they create? Specifically, computer science majors think carefully about who their systems amplify, who their systems leave out. And so I have had a little bit more of an educational kind of slant to some of my work as well.",
+      "id": "ep_142_ut_10"
+    },
+    {
+      "end": 225120,
+      "speaker": "Enrico Bertini",
+      "start": 216220,
+      "text": "That's great. I love that you have all these different angles coming together. And maybe data visualization is also sort of a brain computer interface to some degree.",
+      "id": "ep_142_ut_11"
+    },
+    {
+      "end": 226500,
+      "speaker": "Moritz Stefaner",
+      "start": 225780,
+      "text": "Right.",
+      "id": "ep_142_ut_12"
+    },
+    {
+      "end": 230600,
+      "speaker": "Enrico Bertini",
+      "start": 226660,
+      "text": "I'm also taking a mental note here. I need to talk about brain computer interface.",
+      "id": "ep_142_ut_13"
+    },
+    {
+      "end": 235880,
+      "speaker": "Evan Peck",
+      "start": 231340,
+      "text": "Yeah, I could probably sculpt a much longer story of how all these threads tie together, but.",
+      "id": "ep_142_ut_14"
+    },
+    {
+      "end": 249200,
+      "speaker": "Enrico Bertini",
+      "start": 238680,
+      "text": "But let's focus on the data is personal project that Enrico mentioned briefly already. Can you give us a quick round on what's the project about and how did it work?",
+      "id": "ep_142_ut_15"
+    },
+    {
+      "end": 293110,
+      "speaker": "Evan Peck",
+      "start": 249360,
+      "text": "Yeah, so the project sort of came about, I would say, from a, I mean, this is sort of related to some of my previous work. I mean, one thing you realize when you start doing kind of physiological data, even back in graduate school, is how different people are and how messy that data is. And so coming from that framing, I always brought that to data visualization, that people seem to bring different backgrounds, different experiences to when they see data and approach data. And honestly, this sort of came from one of these haunting suspicions I've had that maybe people just generally don't care about data as much as I would like them to.",
+      "id": "ep_142_ut_16"
+    },
+    {
+      "end": 296618,
+      "speaker": "Moritz Stefaner",
+      "start": 295770,
+      "text": "Bummer.",
+      "id": "ep_142_ut_17"
+    },
+    {
+      "end": 390668,
+      "speaker": "Evan Peck",
+      "start": 296754,
+      "text": "Yeah, right? And if I'm investing all this time doing research and data visualizations, and then you kind of just meet someone somewhere and they say, what do you do? And I say, I do research and data visualization. And their eyes glaze over with the kind of like experiences from back when they were in middle school, when they had to interpret charts for exams or something like that. I started to become concerned that while there's all this wonderful research in data visualization, man, there's kind of an important prerequisite there. And that prerequisite is that people are willing to pay attention to it in the first place. So that sort of intersected with being here in rural Pennsylvania and also just personally rethinking my role as a researcher who wants to impact the people in the community in which I live. And the people around me and thinking about how if I'm doing all this research and data visualization and no one around here is even paying attention to it, what does it matter to those people? So that was sort of, kind of, I would say some of the high level motivation here was I want the work I do to impact people, and if no one's willing to pay attention to it in the first place, that's a problem. So maybe I need to go out and just bring data visualizations to people in my community and understand what do people pay attention to? What do they value? How does that align with what we know in the research community, and how does that differ?",
+      "id": "ep_142_ut_18"
+    },
+    {
+      "end": 420746,
+      "speaker": "Moritz Stefaner",
+      "start": 390844,
+      "text": "Yeah, I love that there are so many levels of many reasons why this is so important. I think partly is also because visualization research has a strong tradition of looking at people as if they at a very low level, low level perception kind of analysis. Right. Which is, of course, very important. But on the other hand, as soon as you look at more sophisticated actual humans, things are different. Right?",
+      "id": "ep_142_ut_19"
+    },
+    {
+      "end": 440126,
+      "speaker": "Enrico Bertini",
+      "start": 420898,
+      "text": "So there's no notion of people being different, really. So if you look at the typical textbook data vis knowledge, rarely you hear about, oh, but this might actually be, except maybe color blindness, you know, might be different for different people. Usually it's. This is the rule, this is how it works. This is better than that, right?",
+      "id": "ep_142_ut_20"
+    },
+    {
+      "end": 530449,
+      "speaker": "Evan Peck",
+      "start": 440258,
+      "text": "Yeah. And I think that, I mean, I'd say one thing is that I think this is a little bit of, comes from kind of the historical trajectory of data visualization a little bit in which, I mean, probably more than ten years ago, the main target was analysts, people who have statistical background, people who we can assume are going to try to pay attention to data and interpret it. And then I think when I, you know, data visualization started popping up all over the web, I think some of the stories we tell about the field have changed, too. So I think you can probably look at the first three sentences of lots of proposals and papers and see that the, as data increases, you know, that common kind of like hook at the beginning, that we want everyone to pay attention to data. And data visualization is really wonderful for doing that, and I totally believe that story. But that also means some of those assumptions we've baked in before are a little bit trickier. We can't really assume everyone has a lot of statistical background, and we can't assume they're willing to pay attention to it. But a lot of our studies, I mean, a lot of my studies in the past, you pay someone to sit down in front of a computer, and you give them $10, and they're incentivized by $10 to stare at a screen of my data visualization for 20 minutes or something, or something like that. And obviously, the web works just a tad differently.",
+      "id": "ep_142_ut_21"
+    },
+    {
+      "end": 536929,
+      "speaker": "Enrico Bertini",
+      "start": 533349,
+      "text": "I wish I could get $10 just for looking at the database.",
+      "id": "ep_142_ut_22"
+    },
+    {
+      "end": 548957,
+      "speaker": "Moritz Stefaner",
+      "start": 539389,
+      "text": "Yes. So, Evan, maybe we could. Can you describe the study in a bit more details? What did you guys actually do there?",
+      "id": "ep_142_ut_23"
+    },
+    {
+      "end": 653532,
+      "speaker": "Evan Peck",
+      "start": 549093,
+      "text": "This is one of those studies in which it isn't one really nice, clean question. So it's a little bit different from a lot of behavioral studies in which you really try to control a lot of factors. This was sort of what's going on here question. So what we did is we picked out ten data visualizations from across the web, and they varied. And we had maps and bar graphs and line charts and infographics. So we tried to vary kind of what kind of visualization. We varied their styles, we varied what sources they came from, and we printed them out on ten pieces of paper. And we brought them to places in our community. We brought them to a construction site, and we brought them to a local farmers market as well. And we would have people come by and we would ask them to take a look at the ten data visualizations and rank them one to ten based on how useful they thought each data visualization was to them. And then we talked to them a little bit, then they didn't know this coming. But after a while, we would actually reveal the sources of the data visualizations later on. So we had some from government sources, some from news outlets, some from pharmaceutical companies, and then we would ask, do you want to re rank your charts in any way? Talk to them some more? And so this is very kind of a qualitative study. And so, actually, that's important for the rest of this conversation, because while I think I'll be talking a lot about some of the things that we saw, it's really important that all of these, I sort of think of them as breadcrumbs to things that need to be looked at a lot more.",
+      "id": "ep_142_ut_24"
+    },
+    {
+      "end": 671762,
+      "speaker": "Moritz Stefaner",
+      "start": 653716,
+      "text": "Sure. Yeah. Makes a lot of sense. So, and just one clarification, I think you said you asked them to how useful they were or how much they liked. Was that exactly what you asked them, or.",
+      "id": "ep_142_ut_25"
+    },
+    {
+      "end": 685230,
+      "speaker": "Evan Peck",
+      "start": 671826,
+      "text": "Yeah, it was useful. And we did a lot. Yeah, we did a lot of pilots with this. Okay. And that's. That's another thing to be aware of, right. When you're. When you're thinking about this, however you frame this question is probably gonna change how people respond.",
+      "id": "ep_142_ut_26"
+    },
+    {
+      "end": 686074,
+      "speaker": "Moritz Stefaner",
+      "start": 685570,
+      "text": "Okay.",
+      "id": "ep_142_ut_27"
+    },
+    {
+      "end": 708500,
+      "speaker": "Evan Peck",
+      "start": 686122,
+      "text": "Yeah, probably. I mean, we don't know for sure, but when we ran the pilots, we found this to be the nicest. We found useful to be kind of the right amount of ambiguous enough that people kind of were applying their own sense of values while still giving them a little bit of guidance on the task.",
+      "id": "ep_142_ut_28"
+    },
+    {
+      "end": 727988,
+      "speaker": "Moritz Stefaner",
+      "start": 708620,
+      "text": "I see. So maybe we should start talking about what you found there. Right. I think that you have a long list of very interesting findings. Yeah. Can you walk us through the main things that you found through the study?",
+      "id": "ep_142_ut_29"
+    },
+    {
+      "end": 766760,
+      "speaker": "Evan Peck",
+      "start": 728124,
+      "text": "Yeah. So there are lots of little nuggets all over the place, so maybe I'll hit the highlight reel. So, the big one and the piece that we really lead off the paper with the title is the fact that data is personal. So what happens is, when you look at how people rank these ten charts from the beginning without knowing any source information, we did these histograms. We actually tried to do some statistical analysis of it. We did this plot with, like, confidence intervals. And what's actually kind of funny is they were so messy, they were so unclear that actually, when we originally submitted the papers, the reviewers almost unanimously told us to take the charts out.",
+      "id": "ep_142_ut_30"
+    },
+    {
+      "end": 774524,
+      "speaker": "Enrico Bertini",
+      "start": 769700,
+      "text": "Yeah, but the fact that it's so unclear that there is no point is an interesting point.",
+      "id": "ep_142_ut_31"
+    },
+    {
+      "end": 775188,
+      "speaker": "Moritz Stefaner",
+      "start": 774532,
+      "text": "It's the point.",
+      "id": "ep_142_ut_32"
+    },
+    {
+      "end": 1073900,
+      "speaker": "Evan Peck",
+      "start": 775324,
+      "text": "Right, right, exactly. Because. Yeah, the reviewers, like, we agree with you. We need to find out what these other stories are. So we took out those plots, and so there are a bunch of stories. I mean, the big takeaway is, and this is going to come to no shock to most people, people are different. It turns out people have different values, different perceptions. One of the big things that we saw that came up a lot. So these ten graphs, and I don't think I mentioned this before, we actually. They were all based on drug abuse in the United States. In particular, they're based on the opioid crisis. And where we're from in central Pennsylvania, like, a lot of the United States, has been hit pretty hard by this crisis. Opioid abuse is fairly rampant. So we had something like a third of our participants told us they had been personally impacted to a high degree by drug abuse in their own life or in people that they love or care for. And so we really found in the interviews where when people would find a personal connection into a graph, it almost didn't matter what else was in the graph. It almost didn't matter the data, it almost didn't matter the colors, whether it was a bar graph or an infographic, those were the things that mattered to people. We had someone telling us that the most important person in their life was an alcoholic. And so that person ranked highly. The graphs that referred to alcohol. And this is, in some sense, nothing, I guess, not surprising. But at the same time, it's something that I just rarely think about when I design a data visualization. And it's also something that's almost. It's so hard to account for, you know, these personal stories. And what kind of blew our mind was how often these came up, because you have to remember, these are people. I mean, they're meeting us for the first time. We've known these people for three minutes, five minutes, and people were telling us about, yeah, alcohol abuse issues. They were talking to us about drug abuse with people they've cared about. We had a couple people tell us about friends they had lost to opioids. And so one thing that kind of struck us later on, we were looking at and counting the number of people who referred to these personal situations because we had no questions in our interview protocol that specifically poked at this. It made us wonder how many other people had similar stories and just didn't voice it to the researcher. They met three minutes ago. So this is partially why we saw this as really one of the overriding themes of this study. It wasn't just from what we saw, but it was because we saw that in a study that wasn't specifically looking for it. So I think there was a lot of unseen data there, too. So that was sort of, I think, for us, a really significant moment. And then once you start thinking with that lens, you start seeing it all over the place. So you can see this in. We have a lot of graphs, really, the geography. We have a couple maps. And actually, originally, I thought the maps were going to be really clear winners. It's the United States. A map of the United States. It's a familiar entity. The maps are beautiful. They're these beautiful heat maps. I expected people to kind of, like, jump in them. I thought they were going to be kind of our most highly ranked. And they're really, they're pretty divisive. And in fact, most people thought they were pretty mediocre. And the reason why, when we looked at their interview transcripts is they thought they were, like, really cluttered and busy and confusing. And we think it's because they were actually trying to find their home state rapidly. They're interested in Pennsylvania. They're interested in where they live. Yeah. And so we're giving this big overview. The United States is an overview. And the piece you care about is one piece of data there. And so they actually saw the overview as really distracting to the piece they cared about. And this was also really interesting to me because, I mean, how many data visualizations have I designed where you start the overview and then let people dig into the details afterwards? Right. This is just kind of like our common, you know, this is our common kind of framing for a lot of our design. And I think maybe what this suggests something that we should dig into more. If you have a personal detail, if you have some sort of personal framing, that might be more important to lead off a chart with. I know this is something the New York Times has played around with a little bit in some of their charts. It'd be really fascinating to see, you know, has this, you know, if, if their engagement kind of numbers in the way they record engagement, if they see a difference.",
+      "id": "ep_142_ut_33"
+    },
+    {
+      "end": 1117094,
+      "speaker": "Moritz Stefaner",
+      "start": 1073940,
+      "text": "Yeah, this is, yeah, this is, this is very often overlooked. And in a way, when visualization is used for communication, I think people come with a prior. That is basically, where is the information that I'm looking for. Right. And there's, there's in your, in your writing, in your blog post that you, you've wrote after publishing the paper, there's a quote that I really like from this. I think you said 65, 70 years old, high school graduate. And he says, these two maps are ranked low because I like them less. It's the whole country. It's so huge. You naturally look at your state. It's too busy. I'm not ripped with those. I really like that.",
+      "id": "ep_142_ut_34"
+    },
+    {
+      "end": 1152312,
+      "speaker": "Enrico Bertini",
+      "start": 1117142,
+      "text": "Yeah. I think that's a great observation, that having an overview is nothing for everybody. The primary task. And, yeah, we seem to take it as a given all the time. Right? Yeah. I did something similar in a project for the OCD, sort of a regional version of the better life index. And there we also identified that everybody will want to look up their own region. So what we did is detect where the user came from in the browser through the ip, and then present that region and then give the option to go further up, but start at the lowest level. And so. And that was very successful, I think.",
+      "id": "ep_142_ut_35"
+    },
+    {
+      "end": 1193930,
+      "speaker": "Evan Peck",
+      "start": 1152376,
+      "text": "Yeah, yeah. That's sort of my hunch, too. This seems like a way that might, something that might be really effective. I'm also curious about it at sort of the platform level, too. If you are, I don't know if you are on a search page and there are a bunch of thumbnails, are you more interested if that thumbnail is your state than the entire country? So that's one piece I'm curious about is what are these steps that, what are the decisions that people are making before they are engaged with your visualization at all? What are the barriers or what are the paths that we're creating that either.",
+      "id": "ep_142_ut_36"
+    },
+    {
+      "end": 1220918,
+      "speaker": "Enrico Bertini",
+      "start": 1193970,
+      "text": "Encourage people or framing? As you said before, you mentioned this point with the geographic reference, and you have this great example with two line charts that show very similar information, but one has America in the title. So some people jumped at it in terms of, oh, that is more relevant to me being in America. Right. And so these are just very little like small framing tricks that establish that connection, basically.",
+      "id": "ep_142_ut_37"
+    },
+    {
+      "end": 1238460,
+      "speaker": "Evan Peck",
+      "start": 1221054,
+      "text": "Yeah, that one was really interesting because both those lying there, both the data was about America. One just had it really clearly in the title. So we had this really fantastic quote where someone said, well, I ranked higher because I live in America and they're both about America, but one just showcased it more.",
+      "id": "ep_142_ut_38"
+    },
+    {
+      "end": 1239556,
+      "speaker": "Enrico Bertini",
+      "start": 1238580,
+      "text": "Right, right.",
+      "id": "ep_142_ut_39"
+    },
+    {
+      "end": 1239868,
+      "speaker": "Evan Peck",
+      "start": 1239668,
+      "text": "Yeah.",
+      "id": "ep_142_ut_40"
+    },
+    {
+      "end": 1258716,
+      "speaker": "Enrico Bertini",
+      "start": 1239884,
+      "text": "It was like just one way of saying, yeah, this is relevant to you because we have this thing in common, or this is why it could matter to you. Right. Very simple, but very effective as it seems super interesting. Any other findings? You said you have a lot, so.",
+      "id": "ep_142_ut_41"
+    },
+    {
+      "end": 1294966,
+      "speaker": "Evan Peck",
+      "start": 1258908,
+      "text": "Yeah, keep asking. Yeah, so, I mean, there are lots of kind of little pieces in the paper, but I think kind of the interesting twist there because up until that point, you have to remember they were ranking these graphs entirely without knowing where they appeared, without knowing where the source was. And so one thing I was really interested in, so for the people that don't know, Pennsylvania is one of the very politically contentious states. You're going to hear a lot about it, a whole lot in the next couple years. It's one of these states where, depending on how it swings, it often has a pretty.",
+      "id": "ep_142_ut_42"
+    },
+    {
+      "end": 1296790,
+      "speaker": "Moritz Stefaner",
+      "start": 1294998,
+      "text": "Is it a traditional swing state?",
+      "id": "ep_142_ut_43"
+    },
+    {
+      "end": 1433060,
+      "speaker": "Evan Peck",
+      "start": 1296830,
+      "text": "Yes, it is. Yes. And so we sort of intentionally picked some sources that were politically on both sides of the spectrum and also some government sources. We picked some that were sort of almost by a rehab center, people that were less sort of official. And so we actually revealed the sources to people at this point and said, well, do you want to re rank any of these? And so I sort of expected that people were really going to gravitate very hardly very hard towards their political identity. We recorded their political identity at the end of the study. And so I sort of expected that a lot of people were going to change that. People who identified as liberal were going to really kind of gravitate to the graphs from more liberal news outlets. People who identified, identified as conservative. We're going to gravitate towards graphs for more conservative news outlets. And that sort of happened, but with much fewer people than we expected. Actually, most of the people decided they didn't need to change anything. After the sources were revealed, they were fine. And after we asked them about it, there were a couple things. We think a couple things were happening. One, and we aren't the first to see this, is that people really believe that data is objective and not just data, but they would use data and data visualization, or charts and graphs synonymously. So not only is data objective, but any data visualization is objective. So there's no kind of notion that we hear things like information is information, so there's no understanding of the design process. Right. Of all the decisions people make along the path, along the way, I think that's especially disturbing. Heidi Kong had a really great paper at our conference recently where she found how much just the title of a data visualization can influence how people interpret that data visualization. But I think there's this illusion with data right now where people just think it's objective. And so people say it's the same data no matter where it shows up. So why would I ever change my rankings?",
+      "id": "ep_142_ut_44"
+    },
+    {
+      "end": 1436256,
+      "speaker": "Enrico Bertini",
+      "start": 1435400,
+      "text": "Wow.",
+      "id": "ep_142_ut_45"
+    },
+    {
+      "end": 1452180,
+      "speaker": "Evan Peck",
+      "start": 1436448,
+      "text": "Yeah. So as a researcher, this was a roller coaster ride for me, because when I first glanced at the data, I was like, this is wonderful. People aren't gravitating towards their political, their political identities. This is great. And then you start reading into it more, and you say, oh, no, this is not good at all.",
+      "id": "ep_142_ut_46"
+    },
+    {
+      "end": 1480330,
+      "speaker": "Moritz Stefaner",
+      "start": 1453560,
+      "text": "Yeah, yeah, yeah, yeah. We found something very similar a few years back. We had a study on. We had a very similar study on persuasion. And it was really interesting to find that for some group of people, the feedback was the same. It was like I changed my mind, or I didn't change my mind, because data is data, and data is the truth.",
+      "id": "ep_142_ut_47"
+    },
+    {
+      "end": 1481030,
+      "speaker": "Evan Peck",
+      "start": 1480410,
+      "text": "Right.",
+      "id": "ep_142_ut_48"
+    },
+    {
+      "end": 1528940,
+      "speaker": "Moritz Stefaner",
+      "start": 1482770,
+      "text": "However, what we found back then is that, paradoxically, people who actually have more information about the topic, right. They are those who are less swayed by data. And then there are also situations where if there is data, that goes against their intuition. Right. What you present to them can actually backfire. Right. They believe something even less if you show them data that goes against what they believe. Yeah. It's a very well known effect in persuasion research. I think it's called something like backfire. Backfire effect or something like that. I don't remember exactly, but, yeah, it's complicated.",
+      "id": "ep_142_ut_49"
+    },
+    {
+      "end": 1558290,
+      "speaker": "Evan Peck",
+      "start": 1529280,
+      "text": "Yeah, it's a mess. What we ended up doing is we tried to figure out if there are any commonalities among people changed their mind. Or changed the rankings at all. And our definition changed. The ranking was change anything. And we found that basically, the more education you've had, the more likely you are to change your rankings. At least with our group, again, small sample size, we have no idea how widely generalizable this is.",
+      "id": "ep_142_ut_50"
+    },
+    {
+      "end": 1559694,
+      "speaker": "Moritz Stefaner",
+      "start": 1559190,
+      "text": "Sure.",
+      "id": "ep_142_ut_51"
+    },
+    {
+      "end": 1612314,
+      "speaker": "Evan Peck",
+      "start": 1559782,
+      "text": "But at least in this case. And so I don't want to make kind of claims that this will happen everywhere or this is even repeatable, but I do think the interesting part to me is we had a lot. We had, I think, I want to say a third of our participants had never been exposed to college of any kind. And if you remove those participants from our study, the stories that come out of our study look very different. The data looks very, very different. And at least in my background and from many of the research studies that I've read in the past, I think we have a habit of almost many of the participants we include in our studies are very often their educational floor is partway through college.",
+      "id": "ep_142_ut_52"
+    },
+    {
+      "end": 1613390,
+      "speaker": "Enrico Bertini",
+      "start": 1612442,
+      "text": "Right, right.",
+      "id": "ep_142_ut_53"
+    },
+    {
+      "end": 1645768,
+      "speaker": "Evan Peck",
+      "start": 1615290,
+      "text": "So it made me just reflect on how would other studies look differently if this significant portion of the population was represented in them. So that kind of jumped out to me. The one other piece that we think is going on is we actually think there might be sort of like an anchoring effect. This idea that I made a decision initially, and now I don't want to change my mind. I mean, this is what you're saying.",
+      "id": "ep_142_ut_54"
+    },
+    {
+      "end": 1653060,
+      "speaker": "Enrico Bertini",
+      "start": 1645784,
+      "text": "Admit you have your influence by the information revealed afterwards, so you want to stick to it.",
+      "id": "ep_142_ut_55"
+    },
+    {
+      "end": 1673240,
+      "speaker": "Evan Peck",
+      "start": 1653460,
+      "text": "Yeah, I sort of suspect I'd love to go back and do this study, starting out with the sources and see how different those same people would have ranked things. I suspect it's pretty different. And we even had a couple people who'd tell us flat out, why didn't you change your mind? They'd say, well, once I make a decision, I don't change my mind.",
+      "id": "ep_142_ut_56"
+    },
+    {
+      "end": 1701490,
+      "speaker": "Enrico Bertini",
+      "start": 1674980,
+      "text": "But can I ask something? So, as a designer. So the design did not have any effect, or at least people did not explicitly refer to the design when reflecting on their choices or, like, or the chart type, because up to now you just mentioned basically the topic and the wording, you know, like, not the actual, like, what you would consider core of our practice.",
+      "id": "ep_142_ut_57"
+    },
+    {
+      "end": 1707290,
+      "speaker": "Evan Peck",
+      "start": 1701650,
+      "text": "Yeah, sure. No, it did. No, I don't want to pretend like it didn't. Okay.",
+      "id": "ep_142_ut_58"
+    },
+    {
+      "end": 1709630,
+      "speaker": "Enrico Bertini",
+      "start": 1707330,
+      "text": "That's partly good news, I guess.",
+      "id": "ep_142_ut_59"
+    },
+    {
+      "end": 1754380,
+      "speaker": "Evan Peck",
+      "start": 1710050,
+      "text": "So you can see some, if you look at kind of like the distribution, how people rank data, you can actually see there's a slight gravitation towards the simple line graphs and bar charts, which is actually kind of nice. I mean, people kind of gravitate towards these kind of like, workhorse graphs that we very often rely on. That was pretty nice. Obviously, distributions are very messy. Something like the infographic was. We had this one infographic that received are the most number of number one rankings, which means they thought. It means they thought it was the best. It also received the most number of ten rankings, which means they thought it was the worst.",
+      "id": "ep_142_ut_60"
+    },
+    {
+      "end": 1760176,
+      "speaker": "Enrico Bertini",
+      "start": 1756280,
+      "text": "So it's the most polarizing, which basically.",
+      "id": "ep_142_ut_61"
+    },
+    {
+      "end": 1807040,
+      "speaker": "Evan Peck",
+      "start": 1760208,
+      "text": "Just reflects all of our conversations about infographics as a community. Exactly. And even with. I will say also even with all this kind of data is personal. The graph that was ranked the lowest initially was the one that was, I think, visually the hardest to understand, but it was about county level information. See, you would think that actually that people might see that had maybe the finest grained picture. If they had really looked and found it, they could have found information about their specific county in there, but that was ranked low because it was just really challenging for people to decipher. So it's not that the design was irrelevant, that's for sure.",
+      "id": "ep_142_ut_62"
+    },
+    {
+      "end": 1841140,
+      "speaker": "Enrico Bertini",
+      "start": 1807740,
+      "text": "The design definitely sort of hard to untangle afterwards because obviously all of the graphics come as a package. Sort of different factors might affect different things. And the other thing is like this, explicit. If you ask people to post rationalize their decision, some things might come up more than others. Do you have any thoughts on that? Like which types of things are people more ready to argue explicitly as being the reason for their choice maybe than others?",
+      "id": "ep_142_ut_63"
+    },
+    {
+      "end": 1893592,
+      "speaker": "Evan Peck",
+      "start": 1842360,
+      "text": "Yeah, I think so. We, so we did, in our qualitative process, we did coding of people's perceptions. We basically went through and based on people's answers, we assigned these tags, and they were tags that. That bubbled up, that were like clarity and color. So things like clarity and color rose up to the top quite a bit. One interesting thing about clarity is, I think when we talk about clarity, often when we design visualizations, we talk about it in the context of how well do people understand the data. And I think from our interviews, we got the sense that people were using clarity in the context of. How quickly can I just get the idea of what this data visualization is about, which is a little bit different.",
+      "id": "ep_142_ut_64"
+    },
+    {
+      "end": 1899096,
+      "speaker": "Enrico Bertini",
+      "start": 1893736,
+      "text": "The topic and the main gist of the story, rather than reading the data. Precisely. Right, right.",
+      "id": "ep_142_ut_65"
+    },
+    {
+      "end": 1901360,
+      "speaker": "Evan Peck",
+      "start": 1899128,
+      "text": "It's sort of like, how quickly can I just get into this?",
+      "id": "ep_142_ut_66"
+    },
+    {
+      "end": 1901808,
+      "speaker": "Enrico Bertini",
+      "start": 1901480,
+      "text": "Right.",
+      "id": "ep_142_ut_67"
+    },
+    {
+      "end": 1961114,
+      "speaker": "Evan Peck",
+      "start": 1901864,
+      "text": "Yeah, so that, so I think things with, you know, clear titles, I would probably suggest things like that, but, yeah, absolutely. Because we would ask people, you know, if they rank the two line graphs differently or maps differently, we would ask them about those specifically. And every question you ask is like a nudge in some direction or another. And that's why I often say that this study is just breadcrumbs to future studies, because there's so many things going on here. If we went to the same farmers market this summer and interviewed 42 different people, would we see exactly the same thing? I would think the dominant themes would arise, but. But these people are very different from very different backgrounds and very different educational backgrounds and socioeconomic backgrounds and experience with charts and graphs. So I think there is a lot to untangle.",
+      "id": "ep_142_ut_68"
+    },
+    {
+      "end": 2004682,
+      "speaker": "Moritz Stefaner",
+      "start": 1961242,
+      "text": "Yeah, no, that's very interesting. And I think zooming out from the details of the study, I think one thing that struck me as really important in your paper is the fact that you. You've been reflecting about whether we are excluding some people when we design visualization. Right. I think each of us, when we do our work, we have some prototypical reader in mind or user in mind. Right. But it may be either far from actual readers and people, or that typical reader excludes some people that maybe shouldn't exclude. Right, right. And I think that's a. That's a very interesting angle.",
+      "id": "ep_142_ut_69"
+    },
+    {
+      "end": 2129098,
+      "speaker": "Evan Peck",
+      "start": 2004826,
+      "text": "Yeah. I mean, this is. And this kind of goes back to what we were talking about at the beginning, that as we've started pitching data visualization as a way of communicating data to all people, and as the decisions we make in 2019 are more often reliant on data, whether it is. You know, I talked to a sociologist around here before I did this study, and because I wanted to get a sense of, you know, is this even an interesting idea of analyzing how people look at data? And she said, absolutely. And it impacts the medical decisions they make. It impacts whether some people are going to for profit colleges. You're basically comparing data of different education after high school. And so you're making lots of tiny data decisions all the time. And if our big pitch as a field is that we have this, I'm gonna say this technology that helps people understand data, well, if it's meant to help everyday people understand data, we better make sure it works for everyday people. Because if it only works for some people, if it only works for people who've been to college, that means we've built something that amplifies all the people who've been to college even more than they've been amplified their education already. So this is the scary part. I mean, this is a story we're seeing all across computer science. And with these tech companies right now, too, where people just not reflecting enough on the platforms they're creating and who those platforms are empowering and who they're not. And that's my biggest concern right now. I would say with data visualization as a field is it's very possible that the answer is, you know, we're okay. Actually, our designs do work for everyone or work reasonably well for everyone. But the fact that we can't answer that question definitively in any shape or form is a little bit terrifying to me, given how. How reliant we are on data right now.",
+      "id": "ep_142_ut_70"
+    },
+    {
+      "end": 2153912,
+      "speaker": "Enrico Bertini",
+      "start": 2129234,
+      "text": "Yeah. And I'm thinking, really, like, the intrinsic interest in the data or in parts of the data needs always to be considered when you test any visualization. Right. I think too often people just take a car as dataset or titanic survivorship or something to test the technique, but the results might be totally different in case somebody actually cares about the contents of the data set.",
+      "id": "ep_142_ut_71"
+    },
+    {
+      "end": 2219520,
+      "speaker": "Evan Peck",
+      "start": 2154096,
+      "text": "Yeah, I think you're absolutely right. I think that's important because, actually, there's been a lot of awesome work about, I think, how people reason with data kind of within, given those assumptions we talked about in the past, that you're paying attention to, to the data and that you're looking at a chart. There's been a lot of work in how people with different kind of personality traits reason with data, how people with different cognitive traits reason with data. So it's not like we're ignoring this topic, but I think now the different question is, what happens when you zoom out? How do people arrive at data? What platforms does it arrive on? If you take the same data visualization and put it on the New York Times versus a government website versus a blog, how does that change the way people pay attention to it and interpret it? I mean, those are the questions I think are really interesting to me right now, because to me, they just seem. They seem like prerequisites to you even having a chance to understand the data. Are you willing to spend your attention on it? And that still seems like an unknown?",
+      "id": "ep_142_ut_72"
+    },
+    {
+      "end": 2262556,
+      "speaker": "Moritz Stefaner",
+      "start": 2220380,
+      "text": "Yeah, I think you. You, yeah, you opened up Pandora's box here, and there are so many possible follow up questions and studies, and it's super interesting. I really, really love this research. Congratulations. I think maybe we should conclude by. I'm wondering if you can briefly mention what are the implications for actual visualization practitioners. Right. So is there anything actual practitioners can extract from your work, work that may actually guide them a little bit better in the way they design and develop data visualizations?",
+      "id": "ep_142_ut_73"
+    },
+    {
+      "end": 2399230,
+      "speaker": "Evan Peck",
+      "start": 2262668,
+      "text": "Yeah, I think that. And again, we need to look into these a little bit more carefully to understand how, you know, their effects, how much they generalize. But my hunch is that if you, for example, have, if you know something about the people you're delivering information to, what we talked before, that overview, then details on demand, it might be worth flipping that a bit to front the personal details. I would say any piece of information. I mean, sort of like the titles we talked about earlier, that reference one title that referenced America and one that didn't, that seems sort of implicit. I think if I were designing a data visualization, I might say, well, I don't need to say America. That's sort of implicit here. Well, it might actually matter a lot, right? Yeah. It might not be so obvious. And so I think those are, I think, the clearest implications from our study. The one other piece, I'd say, and this is a little bit. I'd say this isn't something we research directly in the study, but this is something I've been talking to people about who are interested in, who teach data visualization is just using a process that actually engages the people you are working to design the data visualization for. I think that we run a lot of data visualization training courses that rely so heavily on design principles and not on design process. And actually, I think this is probably much worse in academia than in practice. I actually think that it's very likely that the design process is much more common in industry than it is in academia. But I think that engaging your stakeholders and designing alongside, I mean, things that the design community has been doing for many years, even aside from understanding kind of the research implications or how generalizable it is or the effect size, we got so much information. There is nothing tricky about. There's nothing complicated about the setup of the study. We brought data visualizations to people and talked to them. I mean, that's how I could describe our study if I really wanted to simplify it. We talk to people.",
+      "id": "ep_142_ut_74"
+    },
+    {
+      "end": 2401962,
+      "speaker": "Moritz Stefaner",
+      "start": 2400930,
+      "text": "To actual people.",
+      "id": "ep_142_ut_75"
+    },
+    {
+      "end": 2404870,
+      "speaker": "Enrico Bertini",
+      "start": 2402066,
+      "text": "That was a great tip. Talk to actual people.",
+      "id": "ep_142_ut_76"
+    },
+    {
+      "end": 2409710,
+      "speaker": "Evan Peck",
+      "start": 2407090,
+      "text": "So how about that? Talk to people.",
+      "id": "ep_142_ut_77"
+    },
+    {
+      "end": 2444254,
+      "speaker": "Moritz Stefaner",
+      "start": 2413770,
+      "text": "I think it's a perfect way to conclude this episode. Talk to actual people, guys. Okay. Thanks so much, Evan. I think that's. That's been really, really interesting, and I urge everyone listening to take a look at your work, your paper. You also have a blog post published, more than one blog post. Right. And we're gonna put everything in our show notes and. Yeah, thanks so much.",
+      "id": "ep_142_ut_78"
+    },
+    {
+      "end": 2445564,
+      "speaker": "Evan Peck",
+      "start": 2444382,
+      "text": "Great. Thank you.",
+      "id": "ep_142_ut_79"
+    },
+    {
+      "end": 2446144,
+      "speaker": "Enrico Bertini",
+      "start": 2445662,
+      "text": "Thank you.",
+      "id": "ep_142_ut_80"
+    },
+    {
+      "end": 2472456,
+      "speaker": "Moritz Stefaner",
+      "start": 2446192,
+      "text": "Bye bye. Hey, folks, thanks for listening to data stories again. Before you leave, a few last notes. This show is now completely crowdfunded, so you can support us by going on Patreon. That's patreon.com Datastories. And if you can spend a couple of minutes reading us on iTunes, that would be extremely helpful for the show.",
+      "id": "ep_142_ut_81"
+    },
+    {
+      "end": 2498356,
+      "speaker": "Enrico Bertini",
+      "start": 2472568,
+      "text": "And here's also some information on the many ways you can get news directly from us. We are, of course, on twitter@twitter.com. Datastories. We have a Facebook page@Facebook.com. data stories, podcast all in one word. And we also have a slack channel where you can chat with us directly. And to sign up, you can go to our homepage, datastory eas. And there is a button at the bottom of the page.",
+      "id": "ep_142_ut_82"
+    },
+    {
+      "end": 2514228,
+      "speaker": "Moritz Stefaner",
+      "start": 2498508,
+      "text": "And we also have an email newsletter. So if you want to get news directly into your inbox and be notified whenever we published an episode, you can go to our home page, Datastories es and look for the link you find at the bottom in the footer.",
+      "id": "ep_142_ut_83"
+    },
+    {
+      "end": 2526364,
+      "speaker": "Enrico Bertini",
+      "start": 2514324,
+      "text": "So one last thing we want to tell you is that we love to get in touch with our listeners, especially if you want to suggest a way to improve the show or amazing people you want us to invite or even projects you want us to talk about.",
+      "id": "ep_142_ut_84"
+    },
+    {
+      "end": 2535560,
+      "speaker": "Moritz Stefaner",
+      "start": 2526452,
+      "text": "Yeah, absolutely. And don't hesitate to get in, in touch with us. It's always a great thing to hear from you. So see you next time, and thanks for listening to data stories.",
+      "id": "ep_142_ut_85"
+    }
+  ],
+  "confidence": 0.939489623829041,
+  "audio_duration": 2546,
+  "punctuate": true,
+  "format_text": true,
+  "dual_channel": false,
+  "webhook_url": null,
+  "webhook_status_code": null,
+  "webhook_auth": false,
+  "webhook_auth_header_name": null,
+  "speed_boost": false,
+  "auto_highlights_result": null,
+  "auto_highlights": false,
+  "audio_start_from": null,
+  "audio_end_at": null,
+  "word_boost": [],
+  "boost_param": null,
+  "filter_profanity": false,
+  "redact_pii": false,
+  "redact_pii_audio": false,
+  "redact_pii_audio_quality": null,
+  "redact_pii_policies": null,
+  "redact_pii_sub": null,
+  "speaker_labels": true,
+  "content_safety": false,
+  "iab_categories": true,
+  "content_safety_labels": {
+    "status": "unavailable",
+    "results": [],
+    "summary": {}
+  },
+  "language_detection": false,
+  "language_detection_threshold": null,
+  "language_confidence": null,
+  "custom_spelling": null,
+  "throttled": false,
+  "auto_chapters": true,
+  "summarization": false,
+  "summary_type": null,
+  "summary_model": null,
+  "custom_topics": false,
+  "topics": [],
+  "speech_threshold": null,
+  "speech_model": "best",
+  "chapters": [
+    {
+      "summary": "This is a new episode of Data stories. We talk about data visualization, analysis, and more generally, the role data plays in our lives. If you do enjoy the show, please consider supporting us.",
+      "gist": "Data Stories",
+      "headline": "This podcast is listener supported. That means there's no ads",
+      "start": 200,
+      "end": 87390,
+      "id": "ep_142_ch_0"
+    },
+    {
+      "summary": "Today we talk about a very interesting project. It's one of my favorite research projects that have been published lately. And it's about interesting interview study about interviewing 42 people in rural America. To talk about that we have on the show, Evan Peck.",
+      "gist": "Data is Personal: An Interviewing Project",
+      "headline": "Today we talk about a very interesting project. It's called data is personal",
+      "start": 87770,
+      "end": 118320,
+      "id": "ep_142_ch_1"
+    },
+    {
+      "summary": "Professor of computer science at Bucknell University. Primary research is in data visualization. Also involved in teaching undergraduate students how to think more carefully about the systems they create. Maybe data visualization is also sort of a brain computer interface.",
+      "gist": "Meet the Data Visualization Professor",
+      "headline": "Your primary research is in data visualization, but it hasn't always been",
+      "start": 119140,
+      "end": 244392,
+      "id": "ep_142_ch_2"
+    },
+    {
+      "summary": "The project aims to bring data visualizations to people in rural Pennsylvania. The aim is to understand what do people pay attention to? What do they value? And if no one is paying attention to it in the first place, that's a problem.",
+      "gist": "The Audience of Data Visualization",
+      "headline": "This project explores how different people approach data and how visualization can help",
+      "start": 244496,
+      "end": 539957,
+      "id": "ep_142_ch_3"
+    },
+    {
+      "summary": "Evan: Can you describe the study in a bit more details? What did you guys actually do there? Evan: We picked out ten data visualizations from across the web. We would ask people to rank them one to ten based on how useful they thought each data visualization was. This is very kind of a qualitative study.",
+      "gist": "How data visualizations were rated in a study",
+      "headline": "Researchers asked people to rank ten data visualizations based on how useful they were",
+      "start": 540053,
+      "end": 709400,
+      "id": "ep_142_ch_4"
+    },
+    {
+      "summary": "Researchers found that data is personal. People have different values, different perceptions. When people would find a personal connection into a graph, it almost didn't matter what else was in the graph. There was a lot of unseen data there, too.",
+      "gist": "The Study of the Opioid Crisis",
+      "headline": "The study looked at how people rank graphs based on drug abuse",
+      "start": 712740,
+      "end": 1126248,
+      "id": "ep_142_ch_5"
+    },
+    {
+      "summary": "The visualization seems like a way that might be really effective. I'm also curious about it at sort of the platform level, too. What are the decisions that people are making before they are engaged with your visualization at all?",
+      "gist": "How to Encourage People to View Your Data?",
+      "headline": "I'm curious about how to encourage people to use geographic visualization",
+      "start": 1126304,
+      "end": 1255360,
+      "id": "ep_142_ch_6"
+    },
+    {
+      "summary": "Pennsylvania is one of the very politically contentious states. People gravitate towards graphs for more conservative news outlets. What you present to them can actually backfire. We found something similar a few years back on persuasion.",
+      "gist": "Power of Data in Persuasion",
+      "headline": "Pennsylvania is one of the very politically contentious states",
+      "start": 1256060,
+      "end": 1673240,
+      "id": "ep_142_ch_7"
+    },
+    {
+      "summary": "The design did not have any effect, or at least people did not explicitly refer to the design when reflecting on their choices. People gravitate towards simple line graphs and bar charts. The graph that was ranked lowest initially was the one that was visually the hardest to understand. Different factors might affect different things.",
+      "gist": "The Secret to Designing Infographics",
+      "headline": "People did not explicitly refer to the design when reflecting on their choices",
+      "start": 1674980,
+      "end": 1964114,
+      "id": "ep_142_ch_8"
+    },
+    {
+      "summary": "The study raises questions about whether we are excluding some people when we design visualization. If our big pitch as a field is that we have this technology that helps people understand data, we better make sure it works for everyday people. How reliant we are on data right now.",
+      "gist": "Does Data Visualization Include Some People?",
+      "headline": "You've been reflecting about whether we are excluding some people when we design visualization",
+      "start": 1964162,
+      "end": 2238420,
+      "id": "ep_142_ch_9"
+    },
+    {
+      "summary": "Evan: Is there anything actual practitioners can extract from your work that may actually guide them a little bit better in the way they design and develop data visualizations? Evan: We use a process that actually engages the people you are working to design the data visualization for.",
+      "gist": "A message for data visualizations practitioners",
+      "headline": "What are the implications for actual visualization practitioners from this study",
+      "start": 2239360,
+      "end": 2447420,
+      "id": "ep_142_ch_10"
+    },
+    {
+      "summary": "This show is now completely crowdfunded, so you can support us by going on patreon. com Datastories. Here's some information on the many ways you can get news directly from us. We love to get in touch with our listeners, especially if you want to suggest a way to improve the show.",
+      "gist": "Data Stories",
+      "headline": "This show is now completely crowdfunded, so you can support us by going on Patreon",
+      "start": 2452040,
+      "end": 2535560,
+      "id": "ep_142_ch_11"
+    }
+  ],
+  "disfluencies": false,
+  "entity_detection": false,
+  "sentiment_analysis": false,
+  "sentiment_analysis_results": null,
+  "entities": null,
+  "speakers_expected": null,
+  "summary": null,
+  "custom_topics_results": null,
+  "episode_num": 142,
+  "episode_metadata": {
+    "speakers": [
+      "Evan Peck",
+      "Moritz Stefaner",
+      "Enrico Bertini"
+    ],
+    "WPid": "1334",
+    "url": "https://datastori.es/podlove/file/5645/s/feed/c/mp3/142-data-is-personal-with-evan-peck.mp3",
+    "episode_title": "Data Is Personal with Evan Peck"
+  }
+}

@@ -1,0 +1,1162 @@
+{
+  "id": "ffc4a493-8231-4605-8a2c-ecad51e60ffa",
+  "language_model": "assemblyai_default",
+  "acoustic_model": "assemblyai_default",
+  "language_code": "en_us",
+  "status": "completed",
+  "audio_url": "https://datastori.es/podlove/file/6988/s/feed/c/mp3/169-data-conversations-with-vidya-setlur.mp3",
+  "utterances": [
+    {
+      "end": 7850,
+      "speaker": "Vidya Setlur",
+      "start": 240,
+      "text": "People want additional information in addition to something that specifically answers or satisfies their intent.",
+      "id": "ep_169_ut_0"
+    },
+    {
+      "end": 42730,
+      "speaker": "Moritz Stefaner",
+      "start": 27670,
+      "text": "Hi everyone. Welcome to a new episode of Data stories. My name is Moritz Stefaner. I'm an independent designer of data visualizations. In fact, I work as a self employed truth and beauty operator out of my office here in the beautiful countryside in the north of Germany.",
+      "id": "ep_169_ut_1"
+    },
+    {
+      "end": 51210,
+      "speaker": "Enrico Bertini",
+      "start": 43350,
+      "text": "I am Enrico Bertini. I am an associate professor at Northeastern University in Boston, where I do research and teach data visualization.",
+      "id": "ep_169_ut_2"
+    },
+    {
+      "end": 63194,
+      "speaker": "Moritz Stefaner",
+      "start": 51590,
+      "text": "Exactly. And on this podcast together, we talk about data visualization, data analysis, and generally the role data plays in our lives. And usually we do that with a guest we invite on the show.",
+      "id": "ep_169_ut_3"
+    },
+    {
+      "end": 90472,
+      "speaker": "Enrico Bertini",
+      "start": 63282,
+      "text": "Yes. But before we start with our guest, a quick note. Our podcast is listener supported, so there's no ads. If you enjoy the show, please consider supporting us with recurring payments on patreon.com Datastories. Or if you prefer, you can also send one time donations on PayPal by following the link on the to PayPal me Datastories.",
+      "id": "ep_169_ut_4"
+    },
+    {
+      "end": 101480,
+      "speaker": "Moritz Stefaner",
+      "start": 90616,
+      "text": "Yeah, in the last few days we've just seen a few new donations coming. That's always a great feeling and always wonderful. Much appreciated. Especially if you send us a little funny note along with it. It always makes us smile.",
+      "id": "ep_169_ut_5"
+    },
+    {
+      "end": 103264,
+      "speaker": "Enrico Bertini",
+      "start": 101520,
+      "text": "Yes, thank you, thank you.",
+      "id": "ep_169_ut_6"
+    },
+    {
+      "end": 170488,
+      "speaker": "Moritz Stefaner",
+      "start": 103392,
+      "text": "Also, if you can afford it and do the recurring thing on Patreon, this definitely keeps us going and it's again, much appreciated. So let's get started. We have a cool topic today. We'll talk about language and data visualization and all that surrounds that. But before we dive into that quick note on the information is beautiful awards. So some of you might remember we had Amanda Makulec from the Data Visualization Society on the show a few weeks, months, can't remember ago. And we mentioned that the awards are being rebooted. They're a bit like the mini oscars of data visualization. Really tried to celebrate all the diversity and variety and excellence in the field. And now the winners are announced. We didn't win anything, Enrico. Right, unfortunately. But a lot of other great people, which is awesome too. And yeah, on the website you can see all the winners. Shout out to our podcast colleague, Alli Torban, who won community leader. Much deserved congratulations. Lots of other great people.",
+      "id": "ep_169_ut_7"
+    },
+    {
+      "end": 173260,
+      "speaker": "Enrico Bertini",
+      "start": 170584,
+      "text": "Yeah, it's great to see this event is back.",
+      "id": "ep_169_ut_8"
+    },
+    {
+      "end": 177520,
+      "speaker": "Moritz Stefaner",
+      "start": 173780,
+      "text": "Yeah, it's just nice to have a celebration, you know?",
+      "id": "ep_169_ut_9"
+    },
+    {
+      "end": 178468,
+      "speaker": "Enrico Bertini",
+      "start": 178020,
+      "text": "Yeah.",
+      "id": "ep_169_ut_10"
+    },
+    {
+      "end": 184772,
+      "speaker": "Moritz Stefaner",
+      "start": 178524,
+      "text": "Every once in a while, excited about what's happening in all the different facets of database.",
+      "id": "ep_169_ut_11"
+    },
+    {
+      "end": 186560,
+      "speaker": "Enrico Bertini",
+      "start": 184836,
+      "text": "Yeah, exactly.",
+      "id": "ep_169_ut_12"
+    },
+    {
+      "end": 192764,
+      "speaker": "Moritz Stefaner",
+      "start": 186900,
+      "text": "Yeah. But let's go to the main topic. Our guest today is Vidya Setlur. Hi, Vidya. Thanks for joining us.",
+      "id": "ep_169_ut_13"
+    },
+    {
+      "end": 193516,
+      "speaker": "Enrico Bertini",
+      "start": 192772,
+      "text": "Hi, Vidya.",
+      "id": "ep_169_ut_14"
+    },
+    {
+      "end": 196284,
+      "speaker": "Vidya Setlur",
+      "start": 193668,
+      "text": "Hi, Moritz and Enrico. Thanks for having me.",
+      "id": "ep_169_ut_15"
+    },
+    {
+      "end": 206940,
+      "speaker": "Moritz Stefaner",
+      "start": 196412,
+      "text": "Yeah, welcome on the show and thanks so much for joining us. Can you tell us a bit about you? What's your background? What are you excited about? Currently working on?",
+      "id": "ep_169_ut_16"
+    },
+    {
+      "end": 257040,
+      "speaker": "Vidya Setlur",
+      "start": 207280,
+      "text": "Sure. So I'm Vidya Setlur. I head Tableau research. I've been with Tableau for ten years. I got a PhD from northwestern. My background is in natural language processing and computer graphics, so I'm generally interested in the problem space of understanding the semantics of data and how that can help inform meaningful visual depiction of information. So Tableau has been the perfect place for leveraging that skillset. Before I joined Tableau, I was at Nokia Research for seven years. I manage a wonderful team of interdisciplinary research scientists who work on problems in the space of applied ML, multimodal interfaces, HCI techniques, augmented reality and so forth.",
+      "id": "ep_169_ut_17"
+    },
+    {
+      "end": 260356,
+      "speaker": "Moritz Stefaner",
+      "start": 257860,
+      "text": "Already back in the day, augmented reality.",
+      "id": "ep_169_ut_18"
+    },
+    {
+      "end": 263042,
+      "speaker": "Vidya Setlur",
+      "start": 260548,
+      "text": "I know. It's all coming back full circle.",
+      "id": "ep_169_ut_19"
+    },
+    {
+      "end": 279142,
+      "speaker": "Moritz Stefaner",
+      "start": 263236,
+      "text": "Oh, yeah. Oh, yeah. Yeah. What's nice too today is that we have a true long distance call all around the world. Enrico is on the east coast, in the US. I'm in Europe. And where are you based, Vidya? Right now?",
+      "id": "ep_169_ut_20"
+    },
+    {
+      "end": 302070,
+      "speaker": "Vidya Setlur",
+      "start": 279206,
+      "text": "Right now I'm actually in Mumbai in India. I'm teaching at the Jio institute, teaching a course on data visualization, but incorporating aspects of semantics and intent, some of the NLP with data visualization stuff, to a class of 60 students. So it's been a really great experience.",
+      "id": "ep_169_ut_21"
+    },
+    {
+      "end": 308230,
+      "speaker": "Moritz Stefaner",
+      "start": 302850,
+      "text": "Nice. Yeah. So that's a little break from your usual research work at Tableau.",
+      "id": "ep_169_ut_22"
+    },
+    {
+      "end": 358220,
+      "speaker": "Vidya Setlur",
+      "start": 308530,
+      "text": "Sort of. I mean, I'm still kind of doing both, but it's been really refreshing to interact with the local population and for me, it's just a way of sharing what I have learned over the years with people from my home country, India, and just helping them understand the value of data visualization and why it's important. So I feel like India has reached that stage now where everybody understands the value of data visualization, but they don't necessarily have the training and the access to resources. So it's a really great opportunity to get the local population energized and understand the importance of the field.",
+      "id": "ep_169_ut_23"
+    },
+    {
+      "end": 370384,
+      "speaker": "Enrico Bertini",
+      "start": 359000,
+      "text": "Yeah, there's so much going on in India. I actually visited last summer and for the first time. Yes. For a wedding. So for an indian wedding, that's the best. That was really, really special.",
+      "id": "ep_169_ut_24"
+    },
+    {
+      "end": 373180,
+      "speaker": "Moritz Stefaner",
+      "start": 370472,
+      "text": "A good way to get started. Yep.",
+      "id": "ep_169_ut_25"
+    },
+    {
+      "end": 375160,
+      "speaker": "Enrico Bertini",
+      "start": 373880,
+      "text": "The full package.",
+      "id": "ep_169_ut_26"
+    },
+    {
+      "end": 379740,
+      "speaker": "Vidya Setlur",
+      "start": 375280,
+      "text": "The full package. If you gotta go to a wedding, you gotta go to an indian wedding, you know?",
+      "id": "ep_169_ut_27"
+    },
+    {
+      "end": 433574,
+      "speaker": "Enrico Bertini",
+      "start": 380320,
+      "text": "Yes, exactly. So, vidya, I think one reason why we wanted to have you on the show is because you recently published this book together with Bridget Cogley called Functional Aesthetics. And reading these books, me and Moritz realized that there's a lot in the book that is related to semantics and language, which, interestingly, is not that much discussed that much in the world of data visualization and data analysis as well. So we thought we would focus this specific episode on the relationship between semantics and language and data visualization. So maybe we can start by exploring or understanding what are the main connections between data visualization and language. And how did you get into this specific topic?",
+      "id": "ep_169_ut_28"
+    },
+    {
+      "end": 660624,
+      "speaker": "Vidya Setlur",
+      "start": 433752,
+      "text": "Yeah, I honestly got into this topic kind of serendipitously. In general, I think information is meaningful when you understand what it's about, the context of it, it gets enriched by additional information, and when you have a better understanding of that information, you can figure out meaningful ways of communicating what that information is about. And given that we are very strong visual creatures, a very logical place to start is conveying that information visually to a user. So a lot of my previous work before I joined Tableau was exploring the space of figuring out how to effectively communicate large pixel megapixel imagery on small mobile screen devices. This was a time when smartphones were big, and that was primarily the work I did at Nokia. And there are a lot of connections to data visualization from the graphics space. In a lot of respects, I would say it's a much more tractable problem, because in the graphics world, trying to find semantics within pixels of information, but with data visualization, there's a lot more structure and built in semantics already that is provided. Right. We know the chart type, we know the mark type, we know the attributes, we might know the attribute types. So there's a lot that we can start off with. So it really gives an extra foothold in terms of coming up with semantically meaningful ways of depicting that information. So I kind of started my journey at Tableau, exploring ways in which we could provide smarter defaults to data visualization. So we noticed that on Tableau, public users spent a lot of time going to the web trying to find images, creating icons and associating them with sports visualizations, with their favorite sports teams, or flags or other types of icons. And so this was a project that I started with Jock McKinley when I joined Tableau is can we actually figure out a way to use natural language techniques to effectively query image databases, get back these images, and use graphics techniques to come up with a visually consistent, yet aesthetic palette of icons, and automatically suggest that to the user. So these were these little, you know, micro problems along the flow of analysis where I was exploring how can we provide reasonable defaults to reduce the friction so that people don't have to step out of their workflow, do these manually intensive tasks and come back. And so that's where I started. And then moving on, I started exploring natural language interaction with data, which we can talk about in more detail in a bit. But there is this general structure of using language and grammar for both defining charts and also asking questions of charts, because at the end of the day, data visualizations are a manifestation of visual communication. So communication is the underlying theme. And the best way to think about communication is through language.",
+      "id": "ep_169_ut_29"
+    },
+    {
+      "end": 678592,
+      "speaker": "Moritz Stefaner",
+      "start": 660752,
+      "text": "Yeah, I think that's. Yeah, there's so many cross connections there, right. It's like language shapes our thinking so much. And also when we talk about data visualizations, often we say, oh, you need to get into a dialogue with the data, or you need to interrogate the data or have a conversation, even the.",
+      "id": "ep_169_ut_30"
+    },
+    {
+      "end": 680040,
+      "speaker": "Enrico Bertini",
+      "start": 678616,
+      "text": "Metaphors that we use.",
+      "id": "ep_169_ut_31"
+    },
+    {
+      "end": 722208,
+      "speaker": "Moritz Stefaner",
+      "start": 680160,
+      "text": "Yeah, exactly. And that all shows us already that implicitly this is happening. And I think what's fascinating is that your work makes it explicit and really creates that tight link between language and visuals. And it's very, very interesting. And I guess Eviza is a project that was sort of seminal there, both for you personally, but then also probably for the field in terms of, for the first time allowing in the paper, it says it's a prototype system that enables a user to have a conversation with their data using natural language. That sounds like really exciting. So can you tell us a bit about it, how it came about and how it developed?",
+      "id": "ep_169_ut_32"
+    },
+    {
+      "end": 747360,
+      "speaker": "Vidya Setlur",
+      "start": 722384,
+      "text": "Yeah, for sure. So the name actually Ibiza is inspired by the MIT chatbot assistant Eliza. And I love the project so much that my vanity license plate is also called Eliza. True Bay area techie at heart.",
+      "id": "ep_169_ut_33"
+    },
+    {
+      "end": 751800,
+      "speaker": "Enrico Bertini",
+      "start": 748340,
+      "text": "But you should send us a picture so we can put it in the blog post.",
+      "id": "ep_169_ut_34"
+    },
+    {
+      "end": 1070370,
+      "speaker": "Vidya Setlur",
+      "start": 752620,
+      "text": "We should do that. Yeah. And I bump into people randomly at grocery stores saying, oh, I saw your car in the parking lot, so you must be somewhere in the store. So it's great. Yeah. So the underlying premise of what I think what made Eviza interesting, Washington, communicating with data and asking questions of data using natural language was not a new problem. People have done it for years. I mean, the database community started with it, where they had these pseudo SQL statements and they were asking questions of their data. What made Eviza unique? And I want to acknowledge that it was a collaboration with other members of the research team, was we were really looking at not just single queries to data and getting back a response, as you indicated. More, it's an actual conversation with data. So, for example, if I am talking with you and I'm talking about my evening here in Mumbai, you will respond and you will ask me a follow up question. You might say, what is the time? And I might say, it's 830 in the night. So there's this back and forth exchange where questions are nothing. Restate it every time. We build on the previous context and knowledge and have this sort of natural progression of dialogue between me and yourselves. And so I was really interested in emulating that human to human conversation behavior with respect to a computer around data. So I looked at what we call language pragmatics, which is looking at the context of the previous query. So if I ask, show me the large earthquakes near California, my follow up question is, how about near Texas? I'm not restating. Show me large earthquakes near Texas, because that's kind of unnatural. So that was kind of the first, I would say, novel contribution of that work is just really implementing this pragmatics model in the context of an analytical conversation. The second insight with building the system, which actually got Tableau leadership excited, was there was a previous concern that these natural language systems needed to be perfect. They needed to completely understand what the user was saying and they needed to generate a perfect answer. Otherwise people would get annoyed. And I think some of it largely came from systems like Microsoft Clippy and other places where if the system constantly made an error, then people would get annoyed. But if you actually think about the nature of human to human conversation, our conversation patterns are not perfect. I might. I mean, well, Enrico, you thought I was in Bangalore, and I said, no, I'm actually in Mumbai. And I corrected you, but I was not offensive, right? I mean, it was just a conversation. Hopefully I didn't offend you. So how could we actually emulate that? So if a system can make a guesstimate, going back to the earthquake example, maybe the system comes up with a reasonable guesstimate of what a large earthquake might mean and might set it up to a magnitude of six and greater on the Richter scale and surfaces. That reasoning back to me and says, hey, you said large. I wasn't quite sure what you meant, but I took a guess and I assumed you said six or greater, and I might come back to the system and say, no, actually, I live in California, right by the earthquake fault. And I'm not joking. So large earthquakes, to me, is anything four or greater. And I might tweak the slider that the computer produces to me, and to me, that was. And when we actually tested it with users, a, users were actually not bothered when they had to correct the system because it was just a small tweak in a slider, and b, the system actually remembered that setting. So that when a user asked, you know, about large, in a subsequent interaction, the system remembered that, and the users were delighted by that. It's like, oh, you know, actually you remember the context, right? So if Enrico remembers that I'm actually in Mumbai, I'd be like, you know, that's great, Enrico. You have a great memory, right? I mean, I'm actually going to compliment you. So it turned out people actually loved that sort of back and forth interaction. So something that was previously viewed as a hindrance or a limitation was actually a strength in terms of modeling human to human dialogue, in terms of a human to computer dialogue with respect to data. And as I indicated, you know, data is a lot more tractable because it's not trying to make a model of the entire universe, the universe for the system are the bounds of the data. All of that made it a very tractable problem to move the work forward, including productization.",
+      "id": "ep_169_ut_35"
+    },
+    {
+      "end": 1117456,
+      "speaker": "Enrico Bertini",
+      "start": 1070990,
+      "text": "Yeah, that's one aspect that I really like of the type of research that you and your team have done over the years. That is not, I mean, the technical contribution is remarkable. But what is really interesting is that you have done a lot of also human factors type of research on top of it, and trying to understand what happens when people interact with this type of, quote unquote intelligent systems. And I think there's so much to do in that direction and really understanding how users behavior also changes as they learn how to work with these machines. One thing that comes to mind is, I guess, even the way we use Google, we just adapt because we know that we don't ask Google the questions in the same way we would ask.",
+      "id": "ep_169_ut_36"
+    },
+    {
+      "end": 1120344,
+      "speaker": "Vidya Setlur",
+      "start": 1117488,
+      "text": "To a person or to Alexa, even.",
+      "id": "ep_169_ut_37"
+    },
+    {
+      "end": 1137360,
+      "speaker": "Enrico Bertini",
+      "start": 1120432,
+      "text": "Or to Alexa. Exactly right. So I was wondering if you observed the same kind of behavior where after a while, people just know how to ask the things so that they will get the information or the results that they want.",
+      "id": "ep_169_ut_38"
+    },
+    {
+      "end": 1253836,
+      "speaker": "Vidya Setlur",
+      "start": 1137660,
+      "text": "That's a really excellent question and insight. So what we have found over the years, even with search systems and natural language interfaces, is people don't like to be wrong. They don't like failure, so they will adapt to the computer speak of the system. Humans really understand very quickly what a system can or cannot do and readjust their model and their view of their interactions with the system, which is good in a way, because then you don't have too many frustrated users, hopefully, and they sort of adapt to whatever the system can support. But there is a downside to it when you're looking at the telemetry data of how people are using systems, the window of opportunity to understand what are the types of queries the system cannot support and what would make for kind of useful extensions and improvements to the system is a very narrow time window. What we have found is within a couple of days, people will change from asking questions that the system does not understand or partially understand to only the questions and the repertoire of analytical functions that the system can support. And this includes search. And so you immediately see a drop off of failure rates for all these users. So we really have to catch these new users within a one to three day window, which makes it kind of challenging when we're using customer data and telemetry data to help inform how we can improve the system.",
+      "id": "ep_169_ut_39"
+    },
+    {
+      "end": 1281480,
+      "speaker": "Moritz Stefaner",
+      "start": 1253988,
+      "text": "Yeah, that's a tricky aspect, is the discoverability in terms of what can I even ask? It's a bit like with gesture interfaces, where you just try and figure out, okay, maybe swiping works, maybe zooming, right, it's the same with language, because first probably you ask anything, and then you realize, yeah, it can't quite do everything, and then you're like, yeah, that makes sense, there must be some limitation, but then you need to figure out what is the vocabulary?",
+      "id": "ep_169_ut_40"
+    },
+    {
+      "end": 1282744,
+      "speaker": "Vidya Setlur",
+      "start": 1281640,
+      "text": "Yeah, exactly.",
+      "id": "ep_169_ut_41"
+    },
+    {
+      "end": 1324290,
+      "speaker": "Moritz Stefaner",
+      "start": 1282912,
+      "text": "What does work. So that's a fascinating challenge. So one part I'm really interested in is also this transfer between research and then the putting it into the product. And yes, Eviza in some way found its place in Tableau as ask data or probably some further development. But I guess it started with Eviza. I'm curious, how does this work? How did this specific prototype and piece of research make it into being part of a product, and what's the process there, and how did this work? I want to learn all about the process.",
+      "id": "ep_169_ut_42"
+    },
+    {
+      "end": 1663220,
+      "speaker": "Vidya Setlur",
+      "start": 1325600,
+      "text": "Sure. So, as mentioned, I mean, when I joined Tableau back in the day, I was fortunate enough to interact with Chris Stolte and Christian Chabot and Pat Hanrahan, the co founders of the company. And we were having these conversations when I joined Tableau, where Chris Stolte said, you know, NLP is really hard, Vidya, I don't know how we can actually crack that Nuthenne. Even if we do crack the nut in research, how are we actually going to productize it? So it works for any customer, right? Because we are not. Tableau doesn't cater to a very specific vertical. And there are previous systems, like IBM Watson, that have catered to very specific verticals, including chess or healthcare. But Tableau, in a sense, is more of a generalist type of platform. So that was kind of the problem. But when I demoed Eviza, it's kind of funny because the story there was, I was in California and everybody else was in Seattle. And back then, for various reasons, I was using voice to talk with Eviza. I just thought it would be so cool to talk to the data with voice. I mean, you could do text or voice. That was not kind of the main part of the story, but I was like, yeah, I'm going to demo this with voice. And I asked everybody to mute themselves. And I did my whole demo and I said, you know, don't interrupt me in between because it's going to catch your voice and mess up my demo. So I did my demo for ten minutes, and then I had to rush off to a doctor's appointment, so I just said, bye. I didn't even wait for Q and A and I didn't make. I didn't really think about it, right. And late in the night, you know, I get an email from Chris Stolte. Okay, can you demo this to Tom Walker, who at that time was making the call in terms of which teams are funded and stuff like that. So, long story short, Tableau leadership got really excited about the project and they decided, okay, I think it's time that we invest in NLP. And this was also a time where the tech industry was hedging its bets in this space. And this is, I think, one of the things, I don't think it's one criteria that indicates or dictates what makes a successful tech transfer. It's a multitude of factors. You need to have some sort of perspective that you can show that it works, and the market needs to be ready for that, the customers need to be ready for that, and the company needs to be ready. So there's so much that has. The stars need to align. And we were fortunate enough that everything did align. But the problem back then was Tableau was not known to be an NLP company. I was the only NLP person in the entire company, and it was a very small startup. So how do you actually convince people who are working in companies like Google to come and join Tableau and work on NLP? So we made the decision to look for smallish startups in the Bay Area because I'm based in the, I tried to see if we can acquire some seed technology as foundation, and then I could help build some of the stuff that I had in Eviza on top of that platform. So after, you know, several months of vetting various startups that I was involved in, and this is the other piece, you know, when you're talking about doing tech transfer research projects, you have to be all in. So that might involve doing technical due diligence for startups, interviewing people, you have to be all in. You have to show that you are motivated to make it work. There is kind of a larger sociological aspect to this. So, long story short, we identified this startup called Cleargraph and they came on board and I moved from research and joined the product team, starting first as a lead engineer working on production quality code. While I was always writing code, it's very humbling to write production quality code with your peers, including junior people, critiquing and reviewing your code. But it was really good for my soul, definitely improved my coding chops after that. And I soon enough, I became the engineering manager on the team. So I was responsible for all the release planning, working closely with the PM's, doing code reviews, writing code myself, sneaking in features from Eviza into the product, and writing papers. Melanie Tory, who is currently at Northeastern, was a very close collaborator of mine, and so she and I would buddy up in figuring out the research aspects of the project. How do we actually support intent, understanding and semantics so that we can build on top of this platform? And so I stayed in the team for a few releases of ask data and then ultimately move back to research.",
+      "id": "ep_169_ut_43"
+    },
+    {
+      "end": 1677912,
+      "speaker": "Moritz Stefaner",
+      "start": 1665360,
+      "text": "And the way it's implemented. Now, what can you ask ask data like, let's say the earthquake data set. What are some of the questions you could ask where you would get a meaningful chart back?",
+      "id": "ep_169_ut_44"
+    },
+    {
+      "end": 1765144,
+      "speaker": "Vidya Setlur",
+      "start": 1678056,
+      "text": "Yeah, so ask data connects natural language utterances to tableaus visqlite command stack, and the feature leverages show me to display the top recommended chart that show me suggests. So we do leverage some of the Tableau underlying architecture and combine it with the parser and the natural language input that's part of ask data. So that being said, we support, um, five basic analytical functions that are tied to Tableau's core analytical stack. You know, you can ask questions about aggregations and groupings and drill downs, filters and sorting and various combinations of that. We also have vague concepts, kind of like the, the large and the near in the earthquake example, also implemented. But they are numerical vape concepts. So it understands things like low sales, expensive wines, and comes up with the guesstimate and shows a widget. And as a user I can refine those settings. And it also supports these follow up questions, so some of the pragmatics behavior as well.",
+      "id": "ep_169_ut_45"
+    },
+    {
+      "end": 1767780,
+      "speaker": "Moritz Stefaner",
+      "start": 1765232,
+      "text": "Wow. Yeah, that sounds quite useful.",
+      "id": "ep_169_ut_46"
+    },
+    {
+      "end": 1782412,
+      "speaker": "Enrico Bertini",
+      "start": 1770720,
+      "text": "It was interesting for me to hear that in initially, the prototype was meant to be used through voice. I don't know if it's actually possible to do that with ask data or.",
+      "id": "ep_169_ut_47"
+    },
+    {
+      "end": 1838882,
+      "speaker": "Vidya Setlur",
+      "start": 1782436,
+      "text": "Is it only by decided? We decided to do text. From a business standpoint, it makes sense. If people are all at their desk talking to their data, it may annoy their neighbor in the queue cubicle. No, I mean, to me, voice to text translation is more or less a solved problem. I was just using a off the shelf API to do that, so it was more of a footnote. And I just thought it would be cool to use my voice and talk to the data. It was more of a cool effect. But I am exploring, you know, voice with data stories, actually now as part of my, my research portfolio, just in the space of text and charts. So it'll probably come back to me full circle.",
+      "id": "ep_169_ut_48"
+    },
+    {
+      "end": 1851712,
+      "speaker": "Enrico Bertini",
+      "start": 1839026,
+      "text": "Yeah. And I was also curious to hear from you. I really like this story that you started in research and then went to engineering and I guess now you're back full time in research, correct?",
+      "id": "ep_169_ut_49"
+    },
+    {
+      "end": 1852300,
+      "speaker": "Vidya Setlur",
+      "start": 1851736,
+      "text": "Yeah.",
+      "id": "ep_169_ut_50"
+    },
+    {
+      "end": 1870500,
+      "speaker": "Enrico Bertini",
+      "start": 1853360,
+      "text": "And this is really fascinating. I'm wondering if you can give us a little bit more details about what it takes to go from a research prototype to an actual product. I guess the last mile is probably really miles.",
+      "id": "ep_169_ut_51"
+    },
+    {
+      "end": 1875900,
+      "speaker": "Vidya Setlur",
+      "start": 1874560,
+      "text": "It's a big hike.",
+      "id": "ep_169_ut_52"
+    },
+    {
+      "end": 1879654,
+      "speaker": "Moritz Stefaner",
+      "start": 1876670,
+      "text": "Yeah. How many years did it take altogether? Like.",
+      "id": "ep_169_ut_53"
+    },
+    {
+      "end": 1880790,
+      "speaker": "Enrico Bertini",
+      "start": 1879702,
+      "text": "Yeah, exactly.",
+      "id": "ep_169_ut_54"
+    },
+    {
+      "end": 1881958,
+      "speaker": "Moritz Stefaner",
+      "start": 1880870,
+      "text": "Kicking it off.",
+      "id": "ep_169_ut_55"
+    },
+    {
+      "end": 2013692,
+      "speaker": "Vidya Setlur",
+      "start": 1882134,
+      "text": "It was about two years. It was about. We shipped our first feature on time, I would say a little over a year. And then we had, that was kind of the minimal, viable feature that we wanted to get out to market. And then we added more to it and we had these constant releases that we sent out. But, you know, back to the question, you have to be all in. So if you want the right type of sausage to come out, you need to be part of the messy sausage making. It's very hard to sit in research and try to get the team to build a product based on what you would like to see. You have to roll up your sleeves and be part of that process for a lot of reasons, because unlike research, engineering works very fast. Every day there are stand ups, every day there are decisions being made by sitting outside the team. You're not part of that conversation. You're not part of those serendipitous decisions where it's like, oh, there is a bug. How do we fix it? Oh, by the way, but if we fix this, we can add this additional feature that doesn't happen by setting up a formal meeting every week. So you lose out on a lot of that if you're not part of the team. And then the second thing is when you're part of the team and you're writing code and being part of the process as a team member, there is a whole notion of trust that is and credibility that is built. I will say that, you know, engineers are great people, but they are very skeptical of us researchers. They're like, yeah, you know, you guys are all smart, you write papers, but, you know, when rubber has to hit the road, I don't know that, man. You know? So, you know, you have to spend some time with the team and building that credibility in order for them, them to take you seriously.",
+      "id": "ep_169_ut_56"
+    },
+    {
+      "end": 2015000,
+      "speaker": "Moritz Stefaner",
+      "start": 2013756,
+      "text": "Get the street cred.",
+      "id": "ep_169_ut_57"
+    },
+    {
+      "end": 2081199,
+      "speaker": "Vidya Setlur",
+      "start": 2015540,
+      "text": "Exactly. And I think it's a really good opportunity, especially when you are in industry research, to work on code. There's nothing as empowering as being able to have an idea and being able to make it real. It may not be the perfect prototype, but it's super power if you can actually take an idea and implement something and show it beyond a PowerPoint deck. And when you join a team like that, you understand the complexities and processes that go into shipping a feature. It's much more than what meets the eye. There's so much that goes into stake, the performance. You can't have regressions. You got to build a very sophisticated test suite, and you have to listen to customers, you have to be very careful of release planning. So there's so much that goes on and you kind of develop a profound respect for the engineering profession, and it's a way of bringing that back into research.",
+      "id": "ep_169_ut_58"
+    },
+    {
+      "end": 2109692,
+      "speaker": "Moritz Stefaner",
+      "start": 2082899,
+      "text": "And how do you then balance not getting lost in the weeds? This is very much like in the trenches and the frog's eye perspective, basically. But how do you keep that vision then and not get lost in the. This doesn't work and that doesn't work and then that's broken. Because engineering is fundamentally a lot about fixing something that's broken. How do you keep that big?",
+      "id": "ep_169_ut_59"
+    },
+    {
+      "end": 2150870,
+      "speaker": "Vidya Setlur",
+      "start": 2109796,
+      "text": "I think it's very important to have a good working relationship with the PM on the team because at the end of the day, the PM is the one that really hashes out the roadmap for the feature. And what does it look like over the years and being involved in the those conversations and going back to that document that a PM would write on the roadmap and the strategy of the feature kind of keeps you honest. And I think it's just a calibration. There are some days when I would be lost in the weeds because my code wouldn't work and you just can't sleep when your code doesn't work. You want to get it working.",
+      "id": "ep_169_ut_60"
+    },
+    {
+      "end": 2152010,
+      "speaker": "Moritz Stefaner",
+      "start": 2150950,
+      "text": "It's not good.",
+      "id": "ep_169_ut_61"
+    },
+    {
+      "end": 2214680,
+      "speaker": "Vidya Setlur",
+      "start": 2152700,
+      "text": "But we made a conscious decision where I continued to publish while being on an engineering team and in fact, actually getting some engineers to be on papers and patents with me. And so when you try to balance off writing code where you're kind of in the weeds and the trenches of the process, but at the same time you're working on, you know, the research aspects of it and you have to articulate that in prose, that really helps you look at the bigger picture holistically. And that combined with fundamental. Fundamental. Yes, yes. And being very grounded about what you do. And I think it's a double word score when you have a feature and it is backed and supported by well done research. Right. I think that's the best of both worlds.",
+      "id": "ep_169_ut_62"
+    },
+    {
+      "end": 2217884,
+      "speaker": "Moritz Stefaner",
+      "start": 2215820,
+      "text": "Or it invites new research. Right.",
+      "id": "ep_169_ut_63"
+    },
+    {
+      "end": 2306440,
+      "speaker": "Enrico Bertini",
+      "start": 2217932,
+      "text": "And of course, yeah, that's so interesting. So maybe zooming out a little bit, one thing I wanted to ask you, I think what is really interesting is that when I think about Tableau, to me, Tableau is like the thing that basically introduced a specific type of interaction for people to create visualizations. Before Tableau it was basically excel and a few other things. And Tableau introduced this idea that you basically select attributes and you drag them into a panel and now you have some visualizations out there. Right. And then you have now with advisor and as data you have a new type of interaction. I was wondering, I always felt that this space where trying to figure out how to express what we have in our mind so that the machine can understand it, that produce data analytics and visualizations is a really interesting space. And at the same time it doesn't seem to be as I would say, it's not as much explored as the visual side of things. But it seems to me that is at least equally relevant, if not even more relevant. How do we express our intent? How do we tell a machine what we want? Right.",
+      "id": "ep_169_ut_64"
+    },
+    {
+      "end": 2307392,
+      "speaker": "Vidya Setlur",
+      "start": 2306480,
+      "text": "Yes. Right.",
+      "id": "ep_169_ut_65"
+    },
+    {
+      "end": 2331570,
+      "speaker": "Enrico Bertini",
+      "start": 2307496,
+      "text": "And what I just said, I think Tableau and then eviza for me are two really strong milestones. I would say these are two milestones in this sense because they introduce new, completely new paradigms on how to express what is my intent and what I would like to. What I would like the machine to do for me, basically, right?",
+      "id": "ep_169_ut_66"
+    },
+    {
+      "end": 2491442,
+      "speaker": "Vidya Setlur",
+      "start": 2332390,
+      "text": "Yeah. And I think there is a spectrum of the type of analytical intents that people express and what is supported. So to your point, something like a direct manipulation type interface like Tableau can be very concrete, right? I click on a bunch of attributes and I drag them to rows and shelves. There's very little ambiguity in terms of what the user wants to see in terms of the charts. Right. And even with that, the level of ambiguity is what specific chart do I want to see? And kind of show me has that rule based recommendation model where it'll suggest a top chart, but it'll also highlight, you know, other charts that are also viable. Now, with language, you can definitely be a bit much more abstract in terms of how you express your intent. It can be vague, it can be fuzzy, and there could also be new paradigms of analytical intent. So, you know, one of the, one of my papers that was, was presented at Viz, where Aimen Gaba and Cindy and others collaborated with me was just exploring the language of comparisons and how you can actually interpret comparisons and show meaningful representations. And I would argue that through language, the whole space of comparisons can be pretty complex and nuanced when compared to direct manipulation. There's cardinality. You can compare one to one, one to n, n to n. You can be very specific or vague about the concepts. You know, if I say, when is the safest time to fly? You might, you know, the data might indicate the morning, but there is an implicit intent there that I not only want morning as my answer, but I probably want to see how much safer is it to fly in the morning compared to other times of the day. Right. I mean, if flying in the afternoon is slightly worse than the morning, I want to see that. Right. I want to see the whole distribution. So there's so many explicit and implicit ways of expressing intent that one could do more easily with language, as opposed to a direct manipulation interface, which kind of. Of opens up a range of interesting problems and opportunities. Yeah.",
+      "id": "ep_169_ut_67"
+    },
+    {
+      "end": 2513460,
+      "speaker": "Enrico Bertini",
+      "start": 2491466,
+      "text": "And I guess if I remember well, you also have kind of like a mix of. I don't remember if this is true for advisor or as data, but I have seen systems where there's a natural language component, but then you can also interact with some elements of the sentence through direct manipulation. Is that correct?",
+      "id": "ep_169_ut_68"
+    },
+    {
+      "end": 2606234,
+      "speaker": "Vidya Setlur",
+      "start": 2513540,
+      "text": "That's right. So, in general, we have found that the pattern of developing mixed initiative systems tends to be effective because there are certain things that I just want to tweak directly. You know, going back to the earthquake example, if the system comes back with a Richter magnitude of six and greater. I may not want to type saying, actually, I want large to be interpreted as four and greater. It's a lot easier for me to just grab the slider and tweak it down to four. Right. So there are certain things that lends itself a lot more convenient to just click on marks. If I just want to see some data in a particular region and I see an outlier, it's just easier for me to click on the outlier rather than asking a question. Or I might click on it, you know, it's called deitic, referencing where you circle. Maybe you lasso, select some points and say, tell me more about this. And this is a very complex concept. What does this mean? It's hard to express that in language. I mean, we do this all the time as humans. Right? We point at things and say this. We don't explain and describe the object that we are pointing to. So I think there is a place for every sort of interaction, and the key challenge is to figure out which flavors of interaction lend itself better for certain types of questions and intent.",
+      "id": "ep_169_ut_69"
+    },
+    {
+      "end": 2635130,
+      "speaker": "Enrico Bertini",
+      "start": 2606322,
+      "text": "Yeah, that's so interesting. Yeah. I'm now curious new ideas pop in my mind. So, going back to voice, I'm wondering if you ever explored the voice channel as an output. Right. So what if I want to communicate data through, say, Alexa? Right. Alexa is telling me, rather than visualizing something, it's telling me something about the data. How do you communicate data verbally?",
+      "id": "ep_169_ut_70"
+    },
+    {
+      "end": 2857290,
+      "speaker": "Vidya Setlur",
+      "start": 2635550,
+      "text": "Yeah. So we actually had a paper at CHi last year where we explored analytical chat bots using this grecian model of cooperative conversation. And we essentially studied the behavior of three flavors of chatbots using slack, where it's text based input, and the output is a combination of text and images. We had just a text chatbot, which did not have any provision for any sort of imagery or charts. And then we had a pure voice based chatbot that was using the echo device. And so we first did kind of wizard of Oz studies to just understand the expectations with respect to these various mediums. It's kind of the Marshall McLuhan paradigm of medium is the message. Right. And it was very interesting, particularly with voice, but not surprising, if you think about it. So, people's working memory is very limited. So if I ask you, what are the most expensive wines in Napa? And this voice chat bot goes on and gives me a speech about all the, you know, the top five wines, by the time it tells me the last one, I would have forgotten the first one. And so what we realized is people. And this is something that has been studied in kind of general voice chat bots. It will give you a snippet of information saying, you know, the most expensive wine is this. Do you want to hear about the others? And so it's like a follow up question, almost like this, back and forth, and you're like, sure, tell me the next one. And so it's like conversation chunking. The other thing that we noticed was the issue around trust when people we were using. So we implemented these chatbots, and they all shared a common parser. So while we knew that the performance of all these chatbots were comparable to one another, we found that people trusted voice chat bots less when compared to the text ones. So they wanted the voice chat bot to repeat the question just to make sure. Just to make sure they got it right. They got it, exactly. And so it's very interesting. So we found a lot of differences, and we also found the types of intents that people tend to ask of text versus voice chat bots to be different. With voice, it's almost always these fact finding questions with single responses. Kind of like how you ask Google, tell me what the weather is going to be, right? So it's like these single ones. What are the sales looking like today for this region? But with other types of chat bots, the questions are definitely much more complex. They are much more compound. People tend to chain multiple questions together. So it kind of goes back to that. Humans adapting to the computer speak of the system. But the new insight we learned was humans also adapt to their own limitations of interacting with the system because they know that they have a limited working memory, and so they figure out, okay, to circumvent my limited working memory, let me simplify the types of questions that I will ask of these voice chat bots.",
+      "id": "ep_169_ut_71"
+    },
+    {
+      "end": 2871646,
+      "speaker": "Moritz Stefaner",
+      "start": 2858990,
+      "text": "Very interesting. Yeah. And do you think, like, I think we touched a bit on that, but, like, some of your systems respond with a chart, and then others respond with an answer, or, like, a fact.",
+      "id": "ep_169_ut_72"
+    },
+    {
+      "end": 2872254,
+      "speaker": "Vidya Setlur",
+      "start": 2871838,
+      "text": "Yeah.",
+      "id": "ep_169_ut_73"
+    },
+    {
+      "end": 2878446,
+      "speaker": "Moritz Stefaner",
+      "start": 2872302,
+      "text": "Like, how? When is what being asked for or what was better?",
+      "id": "ep_169_ut_74"
+    },
+    {
+      "end": 2880886,
+      "speaker": "Vidya Setlur",
+      "start": 2878478,
+      "text": "When. I mean, does it depend on the.",
+      "id": "ep_169_ut_75"
+    },
+    {
+      "end": 2882734,
+      "speaker": "Moritz Stefaner",
+      "start": 2880918,
+      "text": "People or on the task or.",
+      "id": "ep_169_ut_76"
+    },
+    {
+      "end": 2921058,
+      "speaker": "Vidya Setlur",
+      "start": 2882902,
+      "text": "I think it's all of the above. When. When you have the luxury of a text interface with real estate, people want the single answer, but they might want additional context that supports the answer. They might want the distribution of other regions. How? Well, it's like, especially these superlative questions, the cheapest wine or the best selling product. People want to know how much better or worse is that answer when compared to the rest of the data distribution is very important to people.",
+      "id": "ep_169_ut_77"
+    },
+    {
+      "end": 2935466,
+      "speaker": "Moritz Stefaner",
+      "start": 2921194,
+      "text": "It's the same when you search for a product, you always get these big tables with the feature comparison, and still the winner is marked. Right. But you want to see the full matrix. So just know that everything's correct, even though everything is made up anyways on these sites.",
+      "id": "ep_169_ut_78"
+    },
+    {
+      "end": 3004590,
+      "speaker": "Vidya Setlur",
+      "start": 2935538,
+      "text": "Yeah. So this is not a new paradigm. I mean, search systems have been, and recommendation systems have been doing it for ages. Right. Like, if I go to Google and I type in my flight status number, it's a fact finding question. Right? I type in my flight number and it'll get me the status. But there are other documents beneath it. The page just doesn't contain only my answer. There are articles that support my query, and there's other stuff going on. The same thing with something like Amazon. I might be very specific, and I want like a polka dot, you know, pink shoe made out of this brand. Right. And maybe there's only one pink polka dot pair of shoes, but Amazon will show other related stuff, and you could argue that's just their business model because they want to entice you to buy more stuff. But it's also just context. People want additional information in addition to something that specifically answers or satisfies their intent.",
+      "id": "ep_169_ut_79"
+    },
+    {
+      "end": 3021190,
+      "speaker": "Moritz Stefaner",
+      "start": 3004710,
+      "text": "Yeah, yeah. There's also some generosity in providing a bit more around it than just literally what you ask for. Right. It's like the thing you actually ask for is like the bare minimum, basically, and it's good to provide something extra with it.",
+      "id": "ep_169_ut_80"
+    },
+    {
+      "end": 3026300,
+      "speaker": "Vidya Setlur",
+      "start": 3021310,
+      "text": "Yeah. If somebody asks you, how are you doing? And you say, I'm fine, and you just stop there.",
+      "id": "ep_169_ut_81"
+    },
+    {
+      "end": 3030700,
+      "speaker": "Moritz Stefaner",
+      "start": 3028560,
+      "text": "That's a German way of answering.",
+      "id": "ep_169_ut_82"
+    },
+    {
+      "end": 3035864,
+      "speaker": "Vidya Setlur",
+      "start": 3034800,
+      "text": "That is so funny.",
+      "id": "ep_169_ut_83"
+    },
+    {
+      "end": 3051776,
+      "speaker": "Moritz Stefaner",
+      "start": 3035912,
+      "text": "Okay, no follow up. Yeah, but, exactly. And then we're back to these flows and the processes, and there's actually, like that. There's actually like a mutual process going on.",
+      "id": "ep_169_ut_84"
+    },
+    {
+      "end": 3090960,
+      "speaker": "Vidya Setlur",
+      "start": 3051808,
+      "text": "And I think that's called cooperative conversation. And Grice Grice came up with these principles around cooperative conversation. There is a back and forth, there is a give and take. There is a notion of manner and relation and the quality of the content and the amount of content, keeping it very relevant, but making sure you're polite. So there's so much that's going on, and we have found that. But to a large extent, a lot of those cooperative conversation maxims hold good even in the context of analytical chatbots.",
+      "id": "ep_169_ut_85"
+    },
+    {
+      "end": 3114770,
+      "speaker": "Moritz Stefaner",
+      "start": 3091780,
+      "text": "Yeah, that's interesting. Yeah. Also in the book, you mentioned this idea of register and tone, like in natural language. It's not just what is said, but also how it's said and certain choice or formulations of words, they suggest a certain, maybe social status between the participants or, you know, all these little things. There's so many nuances between the lines, basically.",
+      "id": "ep_169_ut_86"
+    },
+    {
+      "end": 3173200,
+      "speaker": "Vidya Setlur",
+      "start": 3114850,
+      "text": "Yeah. Right. I mean, yeah. And I think with register, you know, at least in the book, we focused a lot on kind of the visual representation and how do you actually set the tone and the mood. But I've also been very lately interested in, you know, data storytelling and the types of words and the choices of words that you use in these stories can also set the tone. And it depends on the audience. I mean, the running joke when we wrote the book, actually, and Bridget will laugh about this, is she would always tell me, Vidya, you need to lower the register when you're writing your chapter, because this is not just a PhD audience. So I appreciated her candidacy feedback, and I use it all the time now. It's like you have to figure out who your audience is and find the right level of information and how that is communicated back to the user.",
+      "id": "ep_169_ut_87"
+    },
+    {
+      "end": 3179980,
+      "speaker": "Moritz Stefaner",
+      "start": 3174540,
+      "text": "So it's both about content, but also, again, the forum in which the framing, right?",
+      "id": "ep_169_ut_88"
+    },
+    {
+      "end": 3214828,
+      "speaker": "Vidya Setlur",
+      "start": 3180060,
+      "text": "The framing, the presentation, the use of color, there are other visual elements. Is it playful? Is it more formal? And you can even have that with voice or chatbot interaction. If a chatbot greets you, saying, hi, welcome. This is data that you can ask versus just giving me a meta table and saying, what question would you like to ask? That's a very different sort of tone, and it really influences how people interact with these systems and the system's expectations.",
+      "id": "ep_169_ut_89"
+    },
+    {
+      "end": 3245904,
+      "speaker": "Enrico Bertini",
+      "start": 3215004,
+      "text": "So, Vidya, one thing I'm curious about. Do you see a role of language as a way to, say, help people interpret data visualizations, maybe through annotations or some sort of guidance? Yes, I believe there is. I can't recall if you're doing that type of research, but I've seen similar things either from Tableau or other researchers. And this idea that you can generate accessibility, obviously, right.",
+      "id": "ep_169_ut_90"
+    },
+    {
+      "end": 3247340,
+      "speaker": "Moritz Stefaner",
+      "start": 3245992,
+      "text": "Providing alternative.",
+      "id": "ep_169_ut_91"
+    },
+    {
+      "end": 3248984,
+      "speaker": "Enrico Bertini",
+      "start": 3247840,
+      "text": "Yeah, exactly.",
+      "id": "ep_169_ut_92"
+    },
+    {
+      "end": 3250768,
+      "speaker": "Moritz Stefaner",
+      "start": 3249112,
+      "text": "Accessing the same info.",
+      "id": "ep_169_ut_93"
+    },
+    {
+      "end": 3428100,
+      "speaker": "Vidya Setlur",
+      "start": 3250944,
+      "text": "Right. So, actually, when we were writing the book, we had a chapter on, you know, text and charts, and, you know, we were curious whether because, you know, a lot of the practitioners and even we have been told about, you know, this whole data Inc. Ratio, right. I mean, thanks to Tufte and other books, it's like, oh, you know, you don't want to add too much text. The charts want to speak for themselves, just add a little bit. And then we did this project which was a. This paper that was presented by Chase Stokes from UC Berkeley, where we really wanted to understand, right? It's like, is there a notion of over texting? Is there a notion of too much text is too bad? And it turns out, no. People actually love text. And quite often there are so many semantic levels of text, right? There's text that describes very low level statistical properties all the way to text, that describes key takeaways. And there's been some work that I've done with Manish in that space as well. But, yeah, to your point, I think there is a very exciting opportunity around, you know, figuring out how text can be used, along with charts, as a first class citizen, for people to understand their data. And they can be pretty effective, you know, text annotations and titles and descriptions as scaffolds to the user. And this kind of comes back to something, I think, that Moritz you were alluding to at the beginning of this podcast was this cold slate problem where users struggle in terms of what they can ask of the data, and you can use text in conjunction with recommendations, saying, you know what, you asked about this, this is the answer. But there are all these other things that you can ask. And so, yeah, I think it can really be an effective way of scaffolding the conversation. It's also very helpful for answering a more complex analytical intents, especially these why questions. I think why questions are very hard. We haven't really cracked that nut. It's like, why is this phenomena happening? If I am looking at the pound and Us dollar fluctuation around Brexit, and I say, why is this drop happening? The data does not really have an answer, and I have to go outside, probably use natural language, go to access web articles and come up with a summary of my understanding of what happened, and bring that back and formulate a very pithy annotation to the user. So supporting these why questions is going to be a place where text is definitely going to play a very important role.",
+      "id": "ep_169_ut_94"
+    },
+    {
+      "end": 3463720,
+      "speaker": "Moritz Stefaner",
+      "start": 3429040,
+      "text": "How do you feel about the whole new generation of deep learning based models in this context, like GPT-3 the transformer model? So there's a whole, seems to be a whole paradigm shift in that space. And like, GPT-3 is a large language model trained on all of the Internet, as it seems that seems to be able to answer, like, a lot of these common sense based questions, or is it all just pretend knowledge? What's your feeling?",
+      "id": "ep_169_ut_95"
+    },
+    {
+      "end": 3522950,
+      "speaker": "Vidya Setlur",
+      "start": 3464500,
+      "text": "But language models have really come a long way over the recent years, and GPT-3 has been extremely promising for answering and learning certain types of intents and questions. And being able to reason about information, and even just learning stuff that goes above and beyond the initial training set. I have observed, though, with these large language models, when it comes to data analysis and data exploration, is that their capabilities around numeracy and understanding the numeracy aspects of data is still very limited. I am sure with systems like Dal E, the graphicacy aspect might be teachable at some point. We might get to a point where we ask a question and it'll learn to generate an effective chart.",
+      "id": "ep_169_ut_96"
+    },
+    {
+      "end": 3529154,
+      "speaker": "Moritz Stefaner",
+      "start": 3524050,
+      "text": "So Dali generates images based on prompts or text.",
+      "id": "ep_169_ut_97"
+    },
+    {
+      "end": 3585210,
+      "speaker": "Vidya Setlur",
+      "start": 3529322,
+      "text": "The numerical understanding of data phenomena is still a hard problem to learn because it's extremely nuanced. But I don't know, it might head to a place where it is. So, that being said, being able to take these traditional grammar based approaches that I have used as well in a lot of my research, and retrofitting it with large language models can satisfy a good number of analytical intents. But at this point, I have found that you still have to augment these language models with additional logic that might come from these grammars or heuristics to solve numerical understanding of data that these models simply are unable to do or can do in a limited fashion.",
+      "id": "ep_169_ut_98"
+    },
+    {
+      "end": 3605742,
+      "speaker": "Moritz Stefaner",
+      "start": 3585370,
+      "text": "Yeah, yeah. But they could add that aspect of providing somebody hints with, when does the gold price drop, generally? Right. And might that be related to that specific piece of data I have here? But you're right, probably the synthesis needs to happen.",
+      "id": "ep_169_ut_99"
+    },
+    {
+      "end": 3618770,
+      "speaker": "Vidya Setlur",
+      "start": 3605846,
+      "text": "Yeah. So I think that is where we are. But if we talk in a couple years, it might be different. I mean, this area is pretty cutting edge, and things have been evolving quite quickly, which is exciting.",
+      "id": "ep_169_ut_100"
+    },
+    {
+      "end": 3629090,
+      "speaker": "Enrico Bertini",
+      "start": 3620270,
+      "text": "This is a space where I feel like something's gonna happen. Something's gonna happen. You can almost feel it in the air.",
+      "id": "ep_169_ut_101"
+    },
+    {
+      "end": 3631234,
+      "speaker": "Vidya Setlur",
+      "start": 3630690,
+      "text": "Yeah.",
+      "id": "ep_169_ut_102"
+    },
+    {
+      "end": 3632350,
+      "speaker": "Enrico Bertini",
+      "start": 3631322,
+      "text": "Or maybe not.",
+      "id": "ep_169_ut_103"
+    },
+    {
+      "end": 3649746,
+      "speaker": "Moritz Stefaner",
+      "start": 3634250,
+      "text": "Because, as you say, it feels like, oh, there must be, like, an amazing application for all this stuff. But at the same time, sometimes things look like 95% finish, but you never get to the 99.9 that you need, but you just get stuck at the 95. Right.",
+      "id": "ep_169_ut_104"
+    },
+    {
+      "end": 3705902,
+      "speaker": "Vidya Setlur",
+      "start": 3649818,
+      "text": "It's like. It's a bit of smoking mirrors. But I will say that, you know, these language models have surpassed the initial notion of just being smoking mirrors. They actually work pretty well for a certain flavor of questions and just language understanding. So I think the challenge and the opportunity is to get them to really understand data and just the numerical understanding of data. But as I indicated, I think it's a very tractable problem because it's already figured out to understand the knowledge of the world. Right. So when you know, certain properties and attributes of the data. You know, figuring out the numerical understanding of concepts is probably teachable.",
+      "id": "ep_169_ut_105"
+    },
+    {
+      "end": 3722764,
+      "speaker": "Moritz Stefaner",
+      "start": 3705966,
+      "text": "Yeah. And this combination of systems is interesting, I think, to say, like, maybe there's different modules or agents that keep each other in check, or there's a statistical proficiency module that makes sure all the outputs are statistically correct.",
+      "id": "ep_169_ut_106"
+    },
+    {
+      "end": 3723604,
+      "speaker": "Vidya Setlur",
+      "start": 3722932,
+      "text": "That's right.",
+      "id": "ep_169_ut_107"
+    },
+    {
+      "end": 3731588,
+      "speaker": "Moritz Stefaner",
+      "start": 3723692,
+      "text": "Otherwise sends a new prompt that forces the model to update or something like that. Fascinating.",
+      "id": "ep_169_ut_108"
+    },
+    {
+      "end": 3760784,
+      "speaker": "Enrico Bertini",
+      "start": 3731684,
+      "text": "I thought maybe we could wrap it up with our last question for Vidya. Maybe you can tell our listeners if they want to learn more about how to use language in data visualization, what are the interesting directions? And I would say even practically. Right. Say I'm a database designer practitioner listening to this. How do I learn to use. To even be more aware of the role of language in data visualization?",
+      "id": "ep_169_ut_109"
+    },
+    {
+      "end": 3766260,
+      "speaker": "Vidya Setlur",
+      "start": 3760952,
+      "text": "Yeah, I will say, other than your book, I guess. Yeah, I know. I was like, shameless plug there.",
+      "id": "ep_169_ut_110"
+    },
+    {
+      "end": 3769040,
+      "speaker": "Enrico Bertini",
+      "start": 3767500,
+      "text": "That was an easy one.",
+      "id": "ep_169_ut_111"
+    },
+    {
+      "end": 3860140,
+      "speaker": "Vidya Setlur",
+      "start": 3769340,
+      "text": "Read the book. Because, I mean, jokes apart, the book has a pretty extensive bibliography of resources from various language disciplines, starting from kind of traditional NLP and information literature all the way to American sign language. Because that's Bridget's background. That's fascinating too, by the way. Right, right. And that is kind of how we bonded. So I would start with that, and I would encourage readers to have a look at some of the recent work that's come in this space. I mean, there's a sizable number of papers in the space of language and visual analysis that is being published at conferences like viz and CHI's, even Euroviz. So that's another represent, you know, recommendation. A lot of people ask me about just kind of core NLP stuff, but, you know, there's plenty of courses on coursera to just understand language models and intent. So if people are very serious about implementing or trying out natural language algorithms, you know, there are python libraries, there's course lectures, including, you know, some really good ones by Chris Manning from Stanford. So I would start with those and then kind of work one's way down to reading the state of the art literature in this space concerning visual analysis.",
+      "id": "ep_169_ut_112"
+    },
+    {
+      "end": 3893668,
+      "speaker": "Moritz Stefaner",
+      "start": 3860520,
+      "text": "Cool. The whole world out there to discover. It's one of these things. Once you open that box, it's a Pandora's box, right? Fits into it. Yeah, it's a big box, but a really fascinating one. And I think one that has been underappreciated. Like, everybody's just focused on the visuals and the visuals, visual encoding and perception. And language is more than half of what we do. Right. Like a chart with zero labels is nothing. Right. So it needs that language context.",
+      "id": "ep_169_ut_113"
+    },
+    {
+      "end": 3941742,
+      "speaker": "Vidya Setlur",
+      "start": 3893724,
+      "text": "Yeah, exactly. And what I tell people is when people think about NLP and viz, they always almost think about chatbots and talking with data. But there's so many other opportunities in the analytical workflow where natural language processing can help. It can help with intelligent data transformations under the hood, it can help with joining of tables, especially semantic joins where the columns of values may not be identical, but they are related. So there. And, you know, coming up with meaningful encodings for data. So there's so many sub processes as part of that analytical, analytical workflow where semantics and language understanding is very useful, in addition to kind of the more obvious applications that we talked about.",
+      "id": "ep_169_ut_114"
+    },
+    {
+      "end": 3943878,
+      "speaker": "Moritz Stefaner",
+      "start": 3941806,
+      "text": "So you're not going to get bored anytime soon?",
+      "id": "ep_169_ut_115"
+    },
+    {
+      "end": 3947170,
+      "speaker": "Vidya Setlur",
+      "start": 3944014,
+      "text": "No, no, I'm going strong here.",
+      "id": "ep_169_ut_116"
+    },
+    {
+      "end": 3964694,
+      "speaker": "Moritz Stefaner",
+      "start": 3947990,
+      "text": "Sounds like it. Awesome. Yeah, no, I think that's really great advice. And, yeah, hopefully our listeners will now always look for the conversations and the dialogues, the register and the tone, because once you've seen it, you can't unsee it.",
+      "id": "ep_169_ut_117"
+    },
+    {
+      "end": 3968118,
+      "speaker": "Vidya Setlur",
+      "start": 3964862,
+      "text": "Exactly. Exactly. Yeah.",
+      "id": "ep_169_ut_118"
+    },
+    {
+      "end": 3979430,
+      "speaker": "Moritz Stefaner",
+      "start": 3968174,
+      "text": "Wonderful. Yeah, that was really nice. Thanks for shedding light on all this fascinating stuff and especially this practical experience.",
+      "id": "ep_169_ut_119"
+    },
+    {
+      "end": 3985222,
+      "speaker": "Vidya Setlur",
+      "start": 3979550,
+      "text": "No, it's great talking about it with you both. I enjoyed the conversation.",
+      "id": "ep_169_ut_120"
+    },
+    {
+      "end": 3991704,
+      "speaker": "Moritz Stefaner",
+      "start": 3985366,
+      "text": "Wonderful. And we'll check back in a few years how things have developed, right? Yeah, wonderful.",
+      "id": "ep_169_ut_121"
+    },
+    {
+      "end": 3992660,
+      "speaker": "Vidya Setlur",
+      "start": 3991792,
+      "text": "That's right.",
+      "id": "ep_169_ut_122"
+    },
+    {
+      "end": 3993488,
+      "speaker": "Enrico Bertini",
+      "start": 3992960,
+      "text": "Okay.",
+      "id": "ep_169_ut_123"
+    },
+    {
+      "end": 3995592,
+      "speaker": "Moritz Stefaner",
+      "start": 3993544,
+      "text": "Thanks so much and yeah, see you soon.",
+      "id": "ep_169_ut_124"
+    },
+    {
+      "end": 4006952,
+      "speaker": "Vidya Setlur",
+      "start": 3995656,
+      "text": "Yeah. Thank you so much for having me and I really enjoyed it and I look forward to listening to it and all the other podcasts that you come out with. So I'm a big fan. So thank you very much.",
+      "id": "ep_169_ut_125"
+    },
+    {
+      "end": 4008432,
+      "speaker": "Enrico Bertini",
+      "start": 4007016,
+      "text": "Thank you. Thanks so much.",
+      "id": "ep_169_ut_126"
+    },
+    {
+      "end": 4009024,
+      "speaker": "Moritz Stefaner",
+      "start": 4008536,
+      "text": "Thank you.",
+      "id": "ep_169_ut_127"
+    },
+    {
+      "end": 4009912,
+      "speaker": "Vidya Setlur",
+      "start": 4009072,
+      "text": "All right, take care.",
+      "id": "ep_169_ut_128"
+    },
+    {
+      "end": 4011300,
+      "speaker": "Enrico Bertini",
+      "start": 4009976,
+      "text": "Bye bye, Vidya.",
+      "id": "ep_169_ut_129"
+    },
+    {
+      "end": 4039282,
+      "speaker": "Moritz Stefaner",
+      "start": 4016210,
+      "text": "Hey, folks, thanks for listening to data stories again. Before you leave, a few last notes. This show is crowdfunded and you can support us on patreon@patreon.com Datastories, where we publish monthly previews of upcoming episodes for our supporters. Or you can also send us a one time donation via PayPal at PayPal Me Datastories or as a free way.",
+      "id": "ep_169_ut_130"
+    },
+    {
+      "end": 4067226,
+      "speaker": "Enrico Bertini",
+      "start": 4039306,
+      "text": "To support the show. If you can spend a couple of minutes rating us on iTunes, that would be very helpful as well. And here's some information on the many ways you can get news directly from us. We are on Twitter, Facebook and Instagram, so follow us there for the latest updates. We have also a slack channel where you can chat with us directly. And to sign up, go to our home page at Datastory ES and there you'll find a button at the bottom of the page and there.",
+      "id": "ep_169_ut_131"
+    },
+    {
+      "end": 4074670,
+      "speaker": "Moritz Stefaner",
+      "start": 4067258,
+      "text": "You can also subscribe to our email newsletter if you want to get news directly into your inbox and be notified whenever we publish a new episode.",
+      "id": "ep_169_ut_132"
+    },
+    {
+      "end": 4087318,
+      "speaker": "Enrico Bertini",
+      "start": 4074770,
+      "text": "That's right, and we love to get in touch with our listeners. So let us know if you want to suggest a way to improve the show or know any amazing people you want us to invite or even have any project you want us to talk about.",
+      "id": "ep_169_ut_133"
+    },
+    {
+      "end": 4094006,
+      "speaker": "Moritz Stefaner",
+      "start": 4087454,
+      "text": "Yeah, absolutely. Don't hesitate to get in touch. Just send us an email at mailatastory es.",
+      "id": "ep_169_ut_134"
+    },
+    {
+      "end": 4098330,
+      "speaker": "Enrico Bertini",
+      "start": 4094158,
+      "text": "That's all for now. See you next time, and thanks for listening to data stories.",
+      "id": "ep_169_ut_135"
+    }
+  ],
+  "confidence": 0.929954498077308,
+  "audio_duration": 4106,
+  "punctuate": true,
+  "format_text": true,
+  "dual_channel": false,
+  "webhook_url": null,
+  "webhook_status_code": null,
+  "webhook_auth": false,
+  "webhook_auth_header_name": null,
+  "speed_boost": false,
+  "auto_highlights_result": null,
+  "auto_highlights": false,
+  "audio_start_from": null,
+  "audio_end_at": null,
+  "word_boost": [],
+  "boost_param": null,
+  "filter_profanity": false,
+  "redact_pii": false,
+  "redact_pii_audio": false,
+  "redact_pii_audio_quality": null,
+  "redact_pii_policies": null,
+  "redact_pii_sub": null,
+  "speaker_labels": true,
+  "content_safety": false,
+  "iab_categories": true,
+  "content_safety_labels": {
+    "status": "unavailable",
+    "results": [],
+    "summary": {}
+  },
+  "language_detection": false,
+  "language_detection_threshold": null,
+  "language_confidence": null,
+  "custom_spelling": null,
+  "throttled": false,
+  "auto_chapters": true,
+  "summarization": false,
+  "summary_type": null,
+  "summary_model": null,
+  "custom_topics": false,
+  "topics": [],
+  "speech_threshold": null,
+  "speech_model": "best",
+  "chapters": [
+    {
+      "summary": "Moritz Stefaner is an independent designer of data visualizations. Enrico Bertini is an associate professor at Northeastern University in Boston. They talk about data visualization, data analysis, and the role data plays in our lives. If you enjoy the show, please consider supporting us with recurring payments on patreon. com.",
+      "gist": "Data Stories",
+      "headline": "If you enjoy the show, please consider supporting us with recurring payments on Patreon",
+      "start": 240,
+      "end": 112060,
+      "id": "ep_169_ch_0"
+    },
+    {
+      "summary": "The Data Visualization Society awards are being rebooted. They're a bit like the mini oscars of data visualization. Now the winners are announced. We didn't win anything, Enrico. But a lot of other great people, which is awesome too.",
+      "gist": "Information is Beautiful Awards 2013",
+      "headline": "The Data Visualization Society recently announced its annual awards",
+      "start": 112700,
+      "end": 187276,
+      "id": "ep_169_ch_1"
+    },
+    {
+      "summary": "Our guest today is Vidya Setlur, head of Tableau research. Her background is in natural language processing and computer graphics. Currently based in Mumbai in India, teaching a course on data visualization. Hopes to get local population energized and understand the importance of the field.",
+      "gist": "Interview",
+      "headline": "Our guest today is Vidya Setlur, head of Tableau research",
+      "start": 187308,
+      "end": 381820,
+      "id": "ep_169_ch_2"
+    },
+    {
+      "summary": "This episode focuses on the relationship between semantics and language and data visualization. Vidya: At the end of the day, data visualizations are a manifestation of visual communication. The best way to think about communication is through language.",
+      "gist": "Data Visualization and Semantics",
+      "headline": "This episode focuses on the relationship between semantics and language and data visualization",
+      "start": 383460,
+      "end": 695754,
+      "id": "ep_169_ch_3"
+    },
+    {
+      "summary": "Eviza is a prototype system that enables a user to have a conversation with their data using natural language. The name Ibiza is inspired by the MIT chatbot assistant Eliza. What made Eviza unique? Looking at the context of the previous query.",
+      "gist": "Talking to a Computer in a Natural Language",
+      "headline": "Eviza is a prototype system that lets users interact with data using natural language",
+      "start": 695802,
+      "end": 1070370,
+      "id": "ep_169_ch_4"
+    },
+    {
+      "summary": "People will adapt to the computer speak of the system. Humans really understand very quickly what a system can or cannot do. The window of opportunity to understand what are the types of queries the system cannot support is a very narrow time window.",
+      "gist": "How Will People Use Google Now?",
+      "headline": "You've done a lot of research looking at how people interact with intelligent systems",
+      "start": 1070990,
+      "end": 1288780,
+      "id": "ep_169_ch_5"
+    },
+    {
+      "summary": "Vidya Vidya: One part I'm really interested in is this transfer between research and then the putting it into the product. Tableau doesn't cater to a very specific vertical. How do you convince people who are working in companies like Google to come and join Tableau and work on NLP?",
+      "gist": "Immigration from Tableau to Eviza",
+      "headline": "One part I'm interested in is transfer between research and then the product",
+      "start": 1289920,
+      "end": 1839750,
+      "id": "ep_169_ch_6"
+    },
+    {
+      "summary": "You started in research and then went to engineering and now you're back full time in research. Give us some details about what it takes to go from a research prototype to an actual product. How do you balance not getting lost in the weeds?",
+      "gist": "Going From Research to Product in Software",
+      "headline": "You started in research and then went to engineering",
+      "start": 1840330,
+      "end": 2224800,
+      "id": "ep_169_ch_7"
+    },
+    {
+      "summary": "How do we express our intent? How do we tell a machine what we want? Right. Tableau and then eviza for me are two really strong milestones. They introduce new, completely new paradigms on how to express what is my intent.",
+      "gist": "Intro to Data & Visualizations",
+      "headline": "Tableau and eviza introduce new paradigms for creating visualizations",
+      "start": 2226140,
+      "end": 2381650,
+      "id": "ep_169_ch_8"
+    },
+    {
+      "summary": "With language, you can definitely be a bit much more abstract in terms of how you express your intent. The whole space of comparisons can be pretty complex and nuanced when compared to direct manipulation. The key challenge is to figure out which flavors of interaction lend itself better for certain types of questions and intent.",
+      "gist": "Introspection and language in the Big Data",
+      "headline": "Language can be a better way to express analytical intent than direct manipulation",
+      "start": 2382910,
+      "end": 2611138,
+      "id": "ep_169_ch_9"
+    },
+    {
+      "summary": "We explored analytical chat bots using this grecian model of cooperative conversation. We found that people trusted voice chat bots less when compared to the text ones. People tend to chain multiple questions together. With voice, it's almost always these fact finding questions with single responses.",
+      "gist": "Videogab Bots: The Voice Channel",
+      "headline": "So what if I want to communicate data through Alexa? Right. How do you communicate data verbally",
+      "start": 2611274,
+      "end": 3044080,
+      "id": "ep_169_ch_10"
+    },
+    {
+      "summary": "And then we're back to these flows and the processes. There's actually like a mutual process going on. And I think that's called cooperative conversation. To a large extent, a lot of those cooperative conversation maxims hold good even in the context of analytical chatbots.",
+      "gist": "In the World of Chatbots, Cooperation",
+      "headline": "Grice Grice came up with principles around cooperative conversation",
+      "start": 3044120,
+      "end": 3093372,
+      "id": "ep_169_ch_11"
+    },
+    {
+      "summary": "Also in the book, you mentioned this idea of register and tone, like in natural language. It's not just what is said, but also how it's said and certain choice or formulations of words. And it depends on the audience.",
+      "gist": "On register and tone in data storytelling",
+      "headline": "Also in the book, you mentioned this idea of register and tone",
+      "start": 3093396,
+      "end": 3214828,
+      "id": "ep_169_ch_12"
+    },
+    {
+      "summary": "Vidya: Do you see a role of language as a way to help people interpret data visualizations, maybe through annotations or some sort of guidance? Vidya: People actually love text. It's also helpful for answering more complex analytical intents, especially these why questions.",
+      "gist": "Do Text and Charts Matter in Data Visualizations?",
+      "headline": "Do you see a role of language in helping people interpret data visualizations",
+      "start": 3215004,
+      "end": 3428100,
+      "id": "ep_169_ch_13"
+    },
+    {
+      "summary": "GPT-3 has been extremely promising for answering and learning certain types of intents and questions. But their capabilities around numeracy and understanding the numeracy aspects of data is still very limited. This is a space where I feel like something's gonna happen.",
+      "gist": "Deep Learning and the Language Models",
+      "headline": "How do you feel about deep learning based models in this context",
+      "start": 3429040,
+      "end": 3731588,
+      "id": "ep_169_ch_14"
+    },
+    {
+      "summary": "Vidya: If people want to learn more about how to use language in data visualization, what are the interesting directions? He says language is more than half of what we do. There's so many other opportunities in the analytical workflow where natural language processing can help.",
+      "gist": "Using Language in Data Visualization",
+      "headline": "Vidya: Maybe listeners want to learn more about language in data visualization",
+      "start": 3731684,
+      "end": 4018986,
+      "id": "ep_169_ch_15"
+    },
+    {
+      "summary": "This show is crowdfunded and you can support us on patreon@patreon. com Datastories. You can also subscribe to our email newsletter to get news directly into your inbox. Let us know if you want to suggest a way to improve the show.",
+      "gist": "Data Stories",
+      "headline": "This show is crowdfunded and you can support us on patreon",
+      "start": 4019178,
+      "end": 4098330,
+      "id": "ep_169_ch_16"
+    }
+  ],
+  "disfluencies": false,
+  "entity_detection": false,
+  "sentiment_analysis": false,
+  "sentiment_analysis_results": null,
+  "entities": null,
+  "speakers_expected": null,
+  "summary": null,
+  "custom_topics_results": null,
+  "episode_num": 169,
+  "episode_metadata": {
+    "speakers": [
+      "Vidya Setlur",
+      "Moritz Stefaner",
+      "Enrico Bertini"
+    ],
+    "WPid": "1672",
+    "url": "https://datastori.es/podlove/file/6988/s/feed/c/mp3/169-data-conversations-with-vidya-setlur.mp3",
+    "episode_title": "Data Conversations with Vidya Setlur"
+  }
+}

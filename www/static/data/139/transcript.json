@@ -1,0 +1,595 @@
+{
+  "id": "d1c8055e-49b0-4049-b012-be02ef014381",
+  "language_model": "assemblyai_default",
+  "acoustic_model": "assemblyai_default",
+  "language_code": "en_us",
+  "status": "completed",
+  "audio_url": "https://datastori.es/podlove/file/5635/s/feed/c/mp3/139-immersive-analytics-with-tim-dwyer.mp3",
+  "utterances": [
+    {
+      "end": 3850,
+      "speaker": "Tim Dwyer",
+      "start": 160,
+      "text": "It's so different to working on a desktop or even a touchscreen device.",
+      "id": "ep_139_ut_0"
+    },
+    {
+      "end": 128864,
+      "speaker": "Enrico Bertini",
+      "start": 23190,
+      "text": "Hi everyone. Welcome to a new episode of Data stories. My name is Enrico Bertini and I am a professor at NYU where I teach and do research in data visualization. And I normally do this podcast together with Moritz Stefaner, who is an independent designer of data visualizations working from Germany. But Moritz is not with me today. And in this podcast we typically talk about data visualization, analysis, and generally the role data plays in our life. And usually we do that together with a guest we invite on the show. But before we start, a very quick note, our podcast is listener supported, so there's no ads anymore. And if you enjoy the show, please consider supporting us with recurring payments on patreon.com Datastories. Or if you prefer, you can also send one time donations on PayPal me Datastories. And I also want to thank all those of you who are already subscribed to Patreon, our Patreon, or send one time donations. Thanks so much. That's always, always appreciated. So let's get started with the topic of today. So today we're going to talk about immersive visualization. What is immersive visualization? You're going to discover it in a moment. And we have another special guest today to talk about this topic. He's a real expert on immersive visualization and analytics. I think that's the way he likes to describe it. We're going to hear it from him in a moment. We have Tim Dwyer, who is a professor of data visualization and immersive analytics from Monash University from Australia. Hey Tim, welcome on the show.",
+      "id": "ep_139_ut_1"
+    },
+    {
+      "end": 130768,
+      "speaker": "Tim Dwyer",
+      "start": 128952,
+      "text": "Hi Enrico. Thank you for having me.",
+      "id": "ep_139_ut_2"
+    },
+    {
+      "end": 140104,
+      "speaker": "Enrico Bertini",
+      "start": 130904,
+      "text": "So we normally ask our guests to start by giving a little bio. Can you tell us a little bit about yourself? What are your main interests and background?",
+      "id": "ep_139_ut_3"
+    },
+    {
+      "end": 309820,
+      "speaker": "Tim Dwyer",
+      "start": 140232,
+      "text": "Sure. So I've been doing data visualization research in various forms, I guess since 2001, one when I started my PhD back. I guess when I first got into it, I was mostly, I was coming from being a software engineer, so I was mostly interested in visualizing software, and that led me to trying to visualize networks. So the relationships in software and much of my PhD work was on that. So when I was doing that, at first it was, I guess, the first wave of immersive visualization technology. So back when we had the first generation of graphics cards on PCs, and so 3d graphics was much more accessible. So I was using 3d graphics for my network visualizations and learned a lot about what worked and what didn't work in network visualization in immersive environments and trying to use them in conservative ways rather than getting lost in the space. And in those days, I guess we were doing all this on flat screens, which was a fundamental problem, really, visualizing 3d environments on a flat screen. Obviously, you lose a lot. And that was at the time I finished my PhD. I guess the whole community, the whole information visualization community, was moving away from that first wave of 3d excitement because the limitations on flat screens were becoming obvious. So I put it behind me and myself, and I really think all of us became a lot more conservative about doing data visualization on flat screens and really trying to work hard to make practical visualization tools. But I guess in the last five or six years, since these new wave of headsets have started to appear commercially and really become quite affordable and made really immersive visualization, VR and also augmented reality with devices like the HoloLens. Since those devices have become commodity, we now have access to really, really good technology that allows us to explore these spaces with low latency, therefore less motion sickness, and really good hand and head tracking so that you can interact well. And it's much more compelling now, I believe. So our whole group at Monash, most of the people in our group are doing work in these kind of immersive spaces, and we're really excited about it.",
+      "id": "ep_139_ut_4"
+    },
+    {
+      "end": 325254,
+      "speaker": "Enrico Bertini",
+      "start": 309980,
+      "text": "Yes. And so how would you define immersive visualization? Is it mostly about wearing goggles or. There's more than that. Is it broader than that?",
+      "id": "ep_139_ut_5"
+    },
+    {
+      "end": 332530,
+      "speaker": "Tim Dwyer",
+      "start": 325412,
+      "text": "I think it is a lot broader than that. I sometimes forget to say that because I am right now, so excited about the AR.",
+      "id": "ep_139_ut_6"
+    },
+    {
+      "end": 344922,
+      "speaker": "Enrico Bertini",
+      "start": 332610,
+      "text": "I think that's what, when people hear about immersive visualization, I think the first thing they think is wearing goggles, right? I guess. I don't know. At least that's the first thing that comes to my mind.",
+      "id": "ep_139_ut_7"
+    },
+    {
+      "end": 422182,
+      "speaker": "Tim Dwyer",
+      "start": 345066,
+      "text": "Yeah, I think that's true. Although this word immersion has a lot of definitions depending on where you're coming to it from. In the game community, there's all sorts of different types of immersion, narrative immersion, for example, being immersed in the game's story. Then there's, I think they call it mechanical immersion, where you. Where just the physical movements you make when you control the game, you become immersed in that task. And so the game theory behind game design and that sort of thing has much broader senses of immersion. But the AR and VR community also talk about immersion in the. In the sense of the presence you have in the VR environment. So in talking about immersive analytics or immersive data visualization. I guess we're going for a much broader definition and there have been a lot of people involved in this book. Can I do a plug? Our book on immersive analytics, edited by myself, Kim Marriott, Bruce Thomas, Falk Schreiber, Nathalie Henry Riche, Takayuki Itoh. Did I leave anyone out? I don't think so.",
+      "id": "ep_139_ut_8"
+    },
+    {
+      "end": 424294,
+      "speaker": "Enrico Bertini",
+      "start": 422206,
+      "text": "We're going to put it in the show notes anyway.",
+      "id": "ep_139_ut_9"
+    },
+    {
+      "end": 477798,
+      "speaker": "Tim Dwyer",
+      "start": 424382,
+      "text": "Oh great. Okay, so that just recently came out and we put a lot of effort into the introduction defining immersive analytics broadly and being sure not to leave anyone out. So another contributor to this book that I think works in the broader definition is Bong Xianli at Microsoft. She's very interested in multi touch, large multi touch, large screen, multi touch and pen interaction supporting devices. And they offer a type of immersion as well. You know, on large touchscreens you have the physical immersion with the large scale gestures you do to interact. And they can immerse a larger number of people than just a single user as well. So I see those as being, as being immersive as well.",
+      "id": "ep_139_ut_10"
+    },
+    {
+      "end": 493270,
+      "speaker": "Enrico Bertini",
+      "start": 477854,
+      "text": "Yeah, yeah. I like the way you're describing this because it's not only about the output, right. It's not only about how you actually sense things with your eyes, but it's more of a holistic experience, right?",
+      "id": "ep_139_ut_11"
+    },
+    {
+      "end": 542458,
+      "speaker": "Tim Dwyer",
+      "start": 493390,
+      "text": "Definitely, definitely. And that's really where I think the difference between traditional data visualization and these, well, as it's now realized in tools that are widely used, like Tableau and Microsoft Power Bi and those sort of things. So there's becoming a well established kind of understanding of what data visualization means in a very broad user base. But I think the new technologies are enabling us to reimagine what working with data is like. And we talk about trying to reduce or minimize the divide between people and data by really immersing them in the tasks and immersing them in, well, placing the data in the space around them.",
+      "id": "ep_139_ut_12"
+    },
+    {
+      "end": 579706,
+      "speaker": "Enrico Bertini",
+      "start": 542554,
+      "text": "Yeah. So that's what I'm curious to hear about. Right. Because the way you described it is like we started, we had the early days of information visualization where people explored 3d, but the technology was really not good for that. And now we are back into having better technology. So people like you are exploring this idea again. Right? But why visualize data in an immersive environment? Right? What's the idea there?",
+      "id": "ep_139_ut_13"
+    },
+    {
+      "end": 582042,
+      "speaker": "Tim Dwyer",
+      "start": 579898,
+      "text": "Okay, so, and I don't mean to.",
+      "id": "ep_139_ut_14"
+    },
+    {
+      "end": 583290,
+      "speaker": "Enrico Bertini",
+      "start": 582066,
+      "text": "Put you on the spot there.",
+      "id": "ep_139_ut_15"
+    },
+    {
+      "end": 844988,
+      "speaker": "Tim Dwyer",
+      "start": 583370,
+      "text": "No, no, not at all. No, it's absolutely the central question and I think there are many, many applications, and it depends on the specific type of immersion we're talking about. Let's go with the augmented reality one. That's the one that actually gets me personally most excited in terms of the potential to change data visualization and how it affects our lives. In some ways, augmented reality at the moment, the state of the art, I guess, is the. The Hololens two is about to come out, which has a better field of view and all sorts of other improvements. That's from Microsoft, obviously. Then there's the magic leap is also out recently that has a pretty good field of view. So these devices overlay the world around us with graphics. And the potential for data visualization is to use those graphics to represent data that's hidden in the environment around us, or to enable us to work in our natural work environments, but be informed by all sorts of hidden data and information that normally we just rely on our imperfect memories to support us. So the kind of applications, well, it's huge, ultimately, when at the moment, these headsets are still a little bit clunky and dorky looking, I would say. But in the not too distant future, they will get smaller and smaller and lighter weight and more powerful. And ultimately, you know, I'm wearing glasses right now. And ultimately, I believe, and I think most of our community believes, that headsets will be about as cumbersome as a pair of spectacles. And when that happens, why would you not do data visualization everywhere you go? So why not, when you're in the supermarket, why not be informed about the health information of different products and have data visualizations available to allow you to compare the relative merits of different products? Or I, you know, the materials that went into that product? What's the, what's its provenance? Where in the world has it come from all this information that's normally hidden, and you have to go out and search for, or go away from your environment, go home to your computer, or stand there in the aisles looking it up on your phone or something very awkwardly. Now, we can do it seamlessly without people being aware that we're of what we're looking at. Other applications, more work related, I guess on the factory floor, engineers can have headsets that the classic AR application is sort of seeing inside machines, getting x ray vision inside of machines. But for data visualization, think about looking at machines and being informed. Well, one example I guess I can talk about right now, we're working with a manufacturer of mass spectrometry instruments. So these devices are about the size of a photocopier, and they sit on a workbench in a laboratory. And that laboratory, it's a chemistry lab, so you need to wear safety glasses. So already, actually putting on a Hololens, for example, is not that cumbersome compared to the eye protection you would have to wear anyway. And so you can be guided in maintaining the machine, but also you can see the output of these machines as they're smart devices. They're network enabled. So your headset can talk directly to the machine and get the output of the analysis it's doing. And put that directly in your headset, which is really exciting. So you don't need to go away to the computer that is linked to analyze the results of your analysis. You can see it right there while you're working in the lab. Other examples like that, a bit more. It will take longer for this to be realized. But imagine in surgery.",
+      "id": "ep_139_ut_16"
+    },
+    {
+      "end": 846920,
+      "speaker": "Enrico Bertini",
+      "start": 845124,
+      "text": "Oh, yeah, that's huge.",
+      "id": "ep_139_ut_17"
+    },
+    {
+      "end": 888734,
+      "speaker": "Tim Dwyer",
+      "start": 847620,
+      "text": "Yeah. Surgeons can look at not just the medical imagery overlaid on the patient, for example, but think about abstract data that we talk about in information visualization. The patient's records, the drugs that they've been taking for, you know, weeks, up until the surgery of their whole lives. It's all available there, right there, without them having to. They can use natural gestures to interact with this. They don't need to. They don't need to go away to a non sterile computer. They can. They can do this seamlessly in the process of working with a patient, which, you know, could potentially be revolutionary.",
+      "id": "ep_139_ut_18"
+    },
+    {
+      "end": 889182,
+      "speaker": "Enrico Bertini",
+      "start": 888822,
+      "text": "Yeah.",
+      "id": "ep_139_ut_19"
+    },
+    {
+      "end": 913738,
+      "speaker": "Tim Dwyer",
+      "start": 889246,
+      "text": "And then there's all sorts of other environments, too, that are currently hard to. Hard to support with computer technology. Think about mines, farms, all of these places where your hands are busy working in the world around you. You can now be informed by data while you do it. Sure. That's the vision.",
+      "id": "ep_139_ut_20"
+    },
+    {
+      "end": 938580,
+      "speaker": "Enrico Bertini",
+      "start": 913914,
+      "text": "That's really exciting. And now that you are describing it, you're making me more excited about this idea. I think, in a way, in my mind, there's always this dichotomy between augmented reality versus virtual reality and the way you describe it to me. I don't know if you agree. I guess you agree. AR seems to be way more interesting from the point of view of data visualization, right?",
+      "id": "ep_139_ut_21"
+    },
+    {
+      "end": 1097794,
+      "speaker": "Tim Dwyer",
+      "start": 938880,
+      "text": "Yeah, well, sure. There is this continuum, though. So there's this milgram's AR VR continuum describes how at one end you have pure virtual reality, where you're immersed in this virtual space, and at the other end you have augmented reality, where you have graphics overlaid on the world around you. But there's all sorts of, there's all sorts of places along that line and also branching off that. Now, AR VR talk about a more complex design space for immersive technologies. So mixed reality is the classic one, or extended reality is another word that we're seeing more regularly. So the combination of these virtual worlds and reality and the world around us, and how you mix them together, not only with the display technology, but also with things like haptic feedback, so devices that allow you to feel the graphics as if they are real objects in the world. And so the distinction, in some sense, it's not so useful to think of it as a strict divide, but as a blending between bringing virtual constructs into the world around us and immersing yourself in a virtual world. And I should say that in the lab, we're already kind of, we're already mixing this up a lot. So when we do our studies at the moment, we do a lot of work in virtual reality, simply because the virtual reality devices that we have have distinct advantages in terms of having a wider field of view and that sort of thing. That's especially it. Also, the controllers that you get with standard VR devices are tracked very accurately and give you all sorts of ways to interact, different buttons and triggers on the controller that we can experiment with. And so what we tend to do is we simulate augmented reality environments in virtual reality. So we will create screens hanging in the virtual space as if they're actual physical screens. But in fact, what we're interested in is the combination of those screensh and augmented reality. So that allows us to kind of imagine and envision the future a bit more than we can with working within the limitations of the current AR technology.",
+      "id": "ep_139_ut_22"
+    },
+    {
+      "end": 1128356,
+      "speaker": "Enrico Bertini",
+      "start": 1097962,
+      "text": "I see, I see. So, and what would you say are the main challenges in this space? I guess, as you said, the technology has been improving a lot lately, but I guess there are challenges, probably still several challenges from the technological standpoint. But then you also have the specific challenges of how do you do data visualization in these new spaces, which I guess it's huge, right?",
+      "id": "ep_139_ut_23"
+    },
+    {
+      "end": 1230092,
+      "speaker": "Tim Dwyer",
+      "start": 1128468,
+      "text": "Yeah, it really is. And so I often think not just in terms of data visualization, but in terms of human computer interaction. There is so much to figure out. It's so different to working on a desktop or even even a touchscreen device. The diversity of interactions you can perform is so huge. And we often encounter, when we're building little prototype data visualization tools, we often encounter challenges with designing a particular way of interacting. For example, think about applying filtering and data visualization, which you might do with a slider on a desktop. What does a slider look like in VR? Is it even appropriate? Are there better ways to do it? And all these classic design challenges or UI challenges that were kind of solved on the desktop 30, 40 years ago, we kind of need to rethink. And that's actually really, really exciting. And, you know, from an HCI perspective, it's like being in the 1980s. Again, in terms of the possible research questions, it's really exciting. So, you know, there's a tension here. We can't say that these possibilities that I was describing before, like the virtual surgery one or, sorry, the augmented reality surgery one, are going to be available tomorrow. There are a lot of challenges to solve first, but I think we can really start to, using the current technologies, we can really start to see what those things are going to look like and explore the space.",
+      "id": "ep_139_ut_24"
+    },
+    {
+      "end": 1271090,
+      "speaker": "Enrico Bertini",
+      "start": 1230246,
+      "text": "Yeah, I think in a way, we could draw an analogy. Initially, desktop user interfaces were very different, and then we converged to a few standards or defaults, and I guess the same kind of happened with phones. Even if it looks to me maybe it was a little bit more rapid, I don't see why I probably the same may happen in this space where initially people just explore widely, and then we may converge to a few, a few, I don't know, defaults or maybe not.",
+      "id": "ep_139_ut_25"
+    },
+    {
+      "end": 1272850,
+      "speaker": "Tim Dwyer",
+      "start": 1271790,
+      "text": "I think you're right.",
+      "id": "ep_139_ut_26"
+    },
+    {
+      "end": 1281262,
+      "speaker": "Enrico Bertini",
+      "start": 1273150,
+      "text": "Are there in this space? Because maybe the options, the design space is much larger or. I don't know.",
+      "id": "ep_139_ut_27"
+    },
+    {
+      "end": 1428220,
+      "speaker": "Tim Dwyer",
+      "start": 1281446,
+      "text": "I think it's still more open. But I think that the way it will happen is that there are already real world applications for, for example, augmented reality devices that are already yielding real benefits. So, you know, in the building industry, I know that architects, for example, are using HoloLens to allow their clients to walk through the space as it's being built and see what it will look like with the final design, final CAD models kind of overlaid on the building site around them. And once you think about that a little bit and think about all the places where, for example, builders are currently relying on phone cameras to take pictures of before and after they've done their job, once you can make that completely, seamlessly sewn into the technology they're wearing in the helmet or something, it starts to become really powerful. And the kind of seeing through walls and seeing the wiring, the building information model overlaid on the construction site, those things are happening right now. And so there are specific industrial applications that are leading the way. And I think that will, as with many technologies, start to filter into the consumer space as the technologies get better. And of course, the other place where it's happening right now is in gaming. So VR games are already commercial, well worth a lot of money, I believe. And so for the manufacturers of those, the developers of those games and devices. So it's happening. And I think for data visualization, the implications are that these are immersive technologies are coming, and of course, the large touchscreens have been around a long time as well, and also becoming more compelling. Devices like the Microsoft Surface hub are really cool. I'm trying to buy one right now for our lab. Yeah. So the opportunities for collaboration and working with computers as we've worked with whiteboards and things in the past is really exciting.",
+      "id": "ep_139_ut_28"
+    },
+    {
+      "end": 1476650,
+      "speaker": "Enrico Bertini",
+      "start": 1428520,
+      "text": "Very good. So I would like to switch gear a little bit, because I'm curious to hear from you more about the type of research that is happening in your lab. I know by reading your papers that you are doing some really interesting scientific experiments on top of these novel technologies and ways of interacting with visualization. Can you give us a little bit of a preview? I know it's not easy to describe these things in a podcast, but maybe can you select a couple of problems you've been addressing in your lab? And I would be curious to hear what we are learning in this space from the scientific standpoint.",
+      "id": "ep_139_ut_29"
+    },
+    {
+      "end": 1720024,
+      "speaker": "Tim Dwyer",
+      "start": 1477030,
+      "text": "Sure. So the really hands on work is being done by our students and postdoctoral researchers. So one in particular I think that is interesting to talk about is our now former student, Yalong Yang's work on exploring flow maps. So, maps of movements of people or trade overlaid on a cartographic map. So this is something that the visualization community has been talking about for a long time in the context of 2d maps. In fact, there were those really early, those really early handmade flow maps by, was it? Oh, goodness, we'll have to look that up later. In the 19th century, there were flow maps hand drawn. And more recently, in the last decade or so, people have started to automate the generation of these flow maps on 2d, overlaying lines and arrows on the map to show these movements. And we wondered what it would be like to show flows on the globe. So the globe is obviously a 3d artifact, which, if you try and flatten it onto a screen, has all sorts of problems. So the classic map projections, you always lose something in terms of having to distort the map to flatten it onto a screen or onto a printed map. So what if you didn't do that? What if you brought back the, again, ancient concept of a physical globe, a 3d globe that sits on your desk and brought that into the VR environment. And so Yolong built a number of different realizations of flow maps in VR. So again, with the long term vision of being able to use these types of visualizations using augmented reality and overlaid on the world around us, but for the time being, using virtual reality for the better field of view and so forth. And so he built a globe that you could interact with by grabbing with your controller and moving it around with your hand. Also, he had projections on flat surfaces, as if they were in order to compare with what you might do on a traditional screen, and also surfaces that curve around you, and then an inside out globe where you stand inside the globe, and you can move around and look around and see the globe from the inside out, reversed so that the geography is in the familiar orientation, but really immersive. So there was a range of degrees of immersion there, if you like. On the one hand, you've got the exocentric globe, where it's the traditional globe, where you stand outside the globe and move it around, and at the other extreme, you're completely immersed inside the globe. And he did a couple of studies, firstly doing traditional map navigation tasks and comparisons as well. So comparing the areas of different regions and trying to figure out the directions you would need to travel from one region to another. And he had a large number of participants in his experiment. And we learned a lot, actually, some surprising things. So I was really excited about the most, about the most immersive condition. We called it the hamster ball, actually, because you were inside the globe and walking around like a hamster insider.",
+      "id": "ep_139_ut_30"
+    },
+    {
+      "end": 1752348,
+      "speaker": "Enrico Bertini",
+      "start": 1720192,
+      "text": "Sorry for interrupting. Let me just say to our listeners that we have in our show notes, links to videos that Tim and his group created to show how these things work. So definitely you should check out. Here's a nice, nice vimeo video on origin destination flow maps. I think it would be easier to understand our conversation here. If you can stop for a moment and take a look at this video, if you can. But yes, please go ahead.",
+      "id": "ep_139_ut_31"
+    },
+    {
+      "end": 1995344,
+      "speaker": "Tim Dwyer",
+      "start": 1752444,
+      "text": "Yeah, I should explain that while I'm talking, I'm waving my hands to try and sketch the space. I was really excited about this most immersive condition where you're inside the globe and looking out. But that one, actually, that one failed. It was interesting. So it turned out to be too immersive. Once the visualization fills your whole field of view and you need to look around you to see. I just turned away from the microphone to look behind myself. That didn't work on radio either. Anyway, so as soon as you have to look around and you can't fit the whole visualization in your field of view, it slows you down also when it's extremely immersive and you have problems with motion sickness, again. So actually, the hamstable condition failed. But the one that really worked was the traditional globe. And that was kind of surprising, because when you think about it, a globe, you only see half of the globe at any one time. And to see the other side, you have to turn it around. But what we found was that, at least for the tasks we were exploring, you can always arrange the globe so that you can see at least three points at a time. So it worked really well. And it was nice when you think about it, because it means that this ancient technology, back in the Renaissance, every self respecting scholar had a globe in their office. I guess potentially it brings that technology back. And once we have ar, we can summon globes into the world. And I'm using my hands again to gesture, sorry, but you can imagine having a globe in front of you that you can share with somebody else and point to it and compare countries. There are these websites that allow you to. To explore different projections of the map. And it's always surprising to see just how different, for example, the scale of countries is to what you see in the very distorted Mercator direction. And as Australians, we always feel a bit ripped off. You know, Australia is bigger than the Mercator projection, really does justice. But when you have a globe, obviously you don't have that distortion problem. And you can see that Australia is much bigger than many people might imagine. So that was his first study. This was Yalong's first study with just looking at these globes without the information overlays, without those flows over the top. And then in his second study, we explored the design space of how you would show movements of people overlaid on these different. On these different immersive visualizations of the globe. There again, you've got a very large design space in terms of, well, do you have the flows drawn as lines flat on the surface of the map or the globe, which is the traditional data visualization way to do it? Or you also have the possibility of raising them up and as curves or like rocket trajectories above the surface of the globe. And if you do that, what's the mapping? What's the most sensible mapping from, say, size of the flow to height? We tried different things, for example, elevating the line more if it was a larger flow, but actually the one that worked out best was simply making the flow curves, the elevation, be proportional to the distance. And what that did was it reduced a lot of the clutter so that the long flows rose above the short local flows. So, yeah, we learned a lot from those studies.",
+      "id": "ep_139_ut_32"
+    },
+    {
+      "end": 1996000,
+      "speaker": "Enrico Bertini",
+      "start": 1995472,
+      "text": "Sure.",
+      "id": "ep_139_ut_33"
+    },
+    {
+      "end": 2071170,
+      "speaker": "Tim Dwyer",
+      "start": 1996120,
+      "text": "And some surprising things as well. Things that we thought would work well, didn't work at all, and things that we think that, in hindsight, I guess we should have expected, but did work well, like the globe, and like this sensible mapping of distance to height of these flows. And we're doing more and more of these kinds of things. You know, as we said before, once you start thinking about it, there's the design space for data visualization in immersive spaces is huge, and not just the encodings of the data into the spatial arrangement of objects in the environment, but also the interaction space. So we're presenting. My colleague Arno Prizeau, who is a research fellow in our lab, is presenting a paper at CHI in, where is it? Glasgow in a few weeks. That one was called skeptics and highlight planes. And so in that paper, we explore different ways of interacting with three d point clouds. Scatter plots in 3D.",
+      "id": "ep_139_ut_34"
+    },
+    {
+      "end": 2074522,
+      "speaker": "Enrico Bertini",
+      "start": 2071210,
+      "text": "So more abstract kind of visualization?",
+      "id": "ep_139_ut_35"
+    },
+    {
+      "end": 2145452,
+      "speaker": "Tim Dwyer",
+      "start": 2074626,
+      "text": "Yeah, yeah. So, direct mapping of quantitative data to three quantitative dimensions to the three spatial dimensions. So, traditionally, on 2d screens, you have scatter plots where you can map two spatial dimensions to an xy cartesian plane. In 3D, you can map three spatial dimensions to XYZ. But how do you explore these? When we started off, we talked about the problems of data visualization in three D and three D spaces, things like perspective distortion and occlusion and things like that. And so this paper, in this paper, we were thinking about the interaction you would need to move around in these spaces to overcome some of those problems. So one possibility, and this is where the word skaptics comes from, is to use haptic feedback of the controller. So this is using standard HTC vive headsets, which you can buy for $1,000 or something. And they come.",
+      "id": "ep_139_ut_36"
+    },
+    {
+      "end": 2150380,
+      "speaker": "Enrico Bertini",
+      "start": 2145556,
+      "text": "So that's the kind of controllers you get when you buy a Google type of technology?",
+      "id": "ep_139_ut_37"
+    },
+    {
+      "end": 2265976,
+      "speaker": "Tim Dwyer",
+      "start": 2150460,
+      "text": "That's right, yeah. You get these controllers. Yeah, they look like game controllers in a sense, but you grip them, you hold them in your hands, and they have buttons and triggers. When you hold them and you've got your VR headset on, they feel quite natural. They feel like the trigger feels like you're really gripping things. But also they have vibrotactile feedback, so they have little buzzers inside that you can control to adjust the intensity and the frequency of the buzzing. And so we explored different ways to use that vibro tactile feedback to help you to feel where the data was in space. And that was really interesting. And it turned out to be really helpful because you could, for example, feel holes inside dense clouds of data and feel behind clusters and use your hands to explore the space. And, yeah, that was, again, really interesting. We compared it against other ways to see inside dense clouds of data. For example, the other part of the title there is highlight planes. So slicing the volumes of data points with a plane that you can move around with your controller and see inside. And that worked well as well. Definitely in both cases, you need some sort of interaction, but kind of the takeaway of that paper, actually, is that both of those interactions improve your ability to see inside these dense clouds of data. And they're not mutually exclusive. You can have both types of interaction. You can add this haptic feedback to all sorts of interactions. So you should do it.",
+      "id": "ep_139_ut_38"
+    },
+    {
+      "end": 2325384,
+      "speaker": "Enrico Bertini",
+      "start": 2266088,
+      "text": "Yeah, yeah, yeah. And I think what is really interesting of this space is that, as we were saying at the beginning, it's not only about how to visualize something. It's that now you also have innovative ways to interact with the data. Right. Which includes optic feedback, a completely different way of moving your hands. Right. And it comes with an additional layer of complexity, but also exciting opportunities in this sense. And I think it's great that people like you are not only developing these new spaces and technologies, but also trying to figure out from the beginning what is it that works and what doesn't work, and how can we attach numbers to these things, right. Which I think is really important. The scientific work needs to go in parallel with the technological work. Right?",
+      "id": "ep_139_ut_39"
+    },
+    {
+      "end": 2368988,
+      "speaker": "Tim Dwyer",
+      "start": 2325472,
+      "text": "Yeah, for sure. And this is why I say it's like the 1980s in terms of needing to explore all this stuff from scratch, the way people experimented with many different designs of mouse before they became really ubiquitous, and it converged on the type of mouse pretty much everybody uses every day. Now, there was a lot of work that happened in university labs, but also in commercial research labs to make that happen that I think people just aren't aware of these days. It's the technology is so ubiquitous that people forget that actually, once upon a time, there were genuine research topics.",
+      "id": "ep_139_ut_40"
+    },
+    {
+      "end": 2411704,
+      "speaker": "Enrico Bertini",
+      "start": 2369124,
+      "text": "Yes. So, Tim, I would like to ask you one last question more about how do you actually develop data visualization with these new technologies? So I can imagine some of our listeners now, after listening to you describing these crazy projects, maybe they want to try them out what would be the minimal amount of technology, both from, I would say, the hardware standpoint to get started. And then once you have the hardware in your hands, how do you get started with the actual software?",
+      "id": "ep_139_ut_41"
+    },
+    {
+      "end": 2516692,
+      "speaker": "Tim Dwyer",
+      "start": 2411832,
+      "text": "Sure, it's really quite accessible now. And I think this is the other big change. People have been doing research on AR and VR, not just visualization, but just interaction for a while now, a long time now. Decades, really. But what's changed is that these devices are really, you have high quality devices that are relatively cheap. So from the hardware point of view, you have fairly low cost headsets. At the extreme end, you can do it with a phone and a Google cardboard type device, which is very cheap. So a cardboard kind of frame that sits on your face like a headset, but you can slide your phone into. And so you could start off with that. If you have a phone, you could start developing apps which work with those kind of cheap slide in headsets to start exploring visualization. But it's not the full experience for the full experience. So for the full experience, you probably want a dedicated headset, but those are also getting relatively cheap. So since Microsoft now has this Windows mixed reality framework, that's kind of an outcome of their work with HoloLens. But there are now all sorts of third party manufacturers creating VR headsets using the same technology. So I think Dell and Asus all have quite low cost headset devices that you can get and deliver quite good immersive experience with full head tracking and handheld controllers like the ones we were talking about before.",
+      "id": "ep_139_ut_42"
+    },
+    {
+      "end": 2519616,
+      "speaker": "Enrico Bertini",
+      "start": 2516876,
+      "text": "These are all virtual reality headsets, right?",
+      "id": "ep_139_ut_43"
+    },
+    {
+      "end": 2716496,
+      "speaker": "Tim Dwyer",
+      "start": 2519728,
+      "text": "Those are virtual reality headsets, yeah. At the high end, we use in our lab, we've got a bunch of Samsung Odyssey's headsets, which probably more. So the cheap ones are a couple hundred dollars, but the Samsung Odysseys are more about $1,000. And then the HTC vives are really still probably the best. So those are a little bit more. Again, different types of tracking devices. So they have lighthouses, they're called, that you need to affix to the walls, whereas the windows mixed reality framework ones use inside out tracking. So they've got cameras in their headset, and the headset knows where it is by looking at the space around it. So there's a whole range depending on how much you want to spend and whether you want the best possible devices or just something to try it out. From the software side, this is all VR. If you want to explore AR, then magic Leap and HoloLens are available for a few thousand dollars each. And as we said before, they're getting better and better. But the field of view is still limited, which is why we do a lot of our research in VR on the software side, that's also becoming easier and easier. So we use the unity game engine to build a lot of our VR visualizations. And on top of that, we've built a library of standard data visualization tools. So being able to produce these scatter plots and traditional bar charts and, and things like that is now very easy. Using this IATK, the immersive analytics toolkit that my colleague Maxime Cordeil has been producing has been putting together along with, I should say, people from the University of South Australia, Andrew Cunningham in particular. So those guys have built this very now quite extensive framework of standard data visualization tools that are available from inside the Unity Game engine editor. So pretty much with drag and drop you can construct line charts and bar charts and things like that very easily inside the Unity Game editor. It's almost like Tableau in VR. That's where we're heading. That's available on GitHub, and you can get it for free right now. So what else should I say? That's only one of a number of toolkits I know at the Infovis conference last year, there were several such toolkits available. DXR was another one. But yeah, as you said before, I think the progression is similar to what we saw on with the standard desktop data visualization tools, that there was a variety of toolkits available and then commercial software became available, and now it's everywhere.",
+      "id": "ep_139_ut_44"
+    },
+    {
+      "end": 2748580,
+      "speaker": "Enrico Bertini",
+      "start": 2716648,
+      "text": "Yeah, yeah. It's my hope that people will keep tinkering with these technologies and try out different data visualization things. I think the more we have to go through this phase where people do crazy things, right? And through the crazy things sometimes we come up with, we discover really interesting solutions and applications. So I think that's a really exciting field for data visualization in general.",
+      "id": "ep_139_ut_45"
+    },
+    {
+      "end": 2760410,
+      "speaker": "Tim Dwyer",
+      "start": 2748700,
+      "text": "Yeah, I think so. The other thing I haven't mentioned at all, actually, is collaboration. So we're starting to do more and more work on collaborative data visualization in VR and AR. So.",
+      "id": "ep_139_ut_46"
+    },
+    {
+      "end": 2762430,
+      "speaker": "Enrico Bertini",
+      "start": 2760570,
+      "text": "Seems natural, right?",
+      "id": "ep_139_ut_47"
+    },
+    {
+      "end": 2799534,
+      "speaker": "Tim Dwyer",
+      "start": 2762810,
+      "text": "It is natural, and it's a much better experience for collaboratively working with data than one person at the keyboard and the screen and the other people looking over their shoulders. In VR, you have the potential to have data instantiated in the world around you, to walk around it and have this shared experience, and you might be in the same room, you might be on different sides of the world, but feel as though you're there, present in the data. So that's really exciting. That's what a lot of the research we're doing right now is about.",
+      "id": "ep_139_ut_48"
+    },
+    {
+      "end": 2801130,
+      "speaker": "Enrico Bertini",
+      "start": 2799662,
+      "text": "Collocation, basically.",
+      "id": "ep_139_ut_49"
+    },
+    {
+      "end": 2803094,
+      "speaker": "Tim Dwyer",
+      "start": 2801470,
+      "text": "Well, collaboration.",
+      "id": "ep_139_ut_50"
+    },
+    {
+      "end": 2807158,
+      "speaker": "Enrico Bertini",
+      "start": 2803142,
+      "text": "Collaboration, virtual collocation, something like that.",
+      "id": "ep_139_ut_51"
+    },
+    {
+      "end": 2816240,
+      "speaker": "Tim Dwyer",
+      "start": 2807254,
+      "text": "Yeah. So yes, you might be co located in the same room physically, or you might be in different rooms, but feel as though you're co located.",
+      "id": "ep_139_ut_52"
+    },
+    {
+      "end": 2847328,
+      "speaker": "Enrico Bertini",
+      "start": 2816580,
+      "text": "Okay. Well, thanks so much, Tim. I feel like we always started scratching the surface, right? There's so much to say about immersive data visualization. And as I said, I'm really curious to see more coming from your lab and other labs, what creative people come up with. Thanks so much for sharing with us some of the details of your work and your perspective. I think that's really exciting and useful.",
+      "id": "ep_139_ut_53"
+    },
+    {
+      "end": 2915600,
+      "speaker": "Tim Dwyer",
+      "start": 2847504,
+      "text": "Thanks, Enrico. And I should say, too, yeah, it's definitely, there are lots of people doing this, not just our lab. We had a bit of a head start, but now there are lots and lots of people in this space. And I should shout out to lots of people, Christophe Hurter, does great stuff and had a fantastic presentation at VIS last year demonstrating the data visualization in front of a huge audience, which was very impressive. Yeah, really compelling. I mentioned Microsoft before and Mongxin Li, but also her colleagues Nathalie Henry Riche and Steve Drucker are doing lots of immersive data visualization. Buck, who's now in Edinburgh, did a lot of work with us, but has also now continued that on. Oh, so many people. And I'm gonna feel bad for all the people I forgot to mention later, but there are lots. And thank you to all of them and their contributions to our book, but also all the wonderful work and papers that they're writing now and that I look forward to seeing at CHI's and infovis later this year.",
+      "id": "ep_139_ut_54"
+    },
+    {
+      "end": 2918088,
+      "speaker": "Enrico Bertini",
+      "start": 2915740,
+      "text": "Okay, perfect. Thanks so much, Tim.",
+      "id": "ep_139_ut_55"
+    },
+    {
+      "end": 2918816,
+      "speaker": "Tim Dwyer",
+      "start": 2918144,
+      "text": "Thanks, Enrico.",
+      "id": "ep_139_ut_56"
+    },
+    {
+      "end": 2945026,
+      "speaker": "Enrico Bertini",
+      "start": 2918888,
+      "text": "Bye bye bye. Hey, folks, thanks for listening to data stories again. Before you leave a few last notes, this show is now completely crowdfunded, so you can support us by going on Patreon. That's patreon.com Datastories. And if you can spend a couple of minutes rating us on iTunes, that would be extremely helpful for the show.",
+      "id": "ep_139_ut_57"
+    },
+    {
+      "end": 2970188,
+      "speaker": "C",
+      "start": 2945138,
+      "text": "And here's also some information on the many ways you can get news directly from us. We're, of course, on twitter@twitter.com. Datastories. We have a Facebook page@Facebook.com. data stories podcast all in one word. And we also have a slack channel where you can chat with us directly. And to sign up, you can go to our homepage, datastory.com dot, and there is a button at the bottom of.",
+      "id": "ep_139_ut_58"
+    },
+    {
+      "end": 2986788,
+      "speaker": "Enrico Bertini",
+      "start": 2970204,
+      "text": "The page and we also have an email newsletter. So if you want to get news directly into your inbox and be notified whenever we publish an episode, you can go to our home page Datastore es and look for the link you find at the bottom in the footer.",
+      "id": "ep_139_ut_59"
+    },
+    {
+      "end": 2998918,
+      "speaker": "C",
+      "start": 2986884,
+      "text": "So one last thing we want to tell you is that we love to get in touch with our listeners, especially if you want to suggest a way to improve the show or amazing people you want us to invite or even projects you want us to talk about.",
+      "id": "ep_139_ut_60"
+    },
+    {
+      "end": 3008110,
+      "speaker": "Enrico Bertini",
+      "start": 2999014,
+      "text": "Yeah, absolutely. And don't hesitate to get in touch with us. It's always a great thing to hear from you, so see you next time, and thanks for listening to data stories.",
+      "id": "ep_139_ut_61"
+    }
+  ],
+  "confidence": 0.931672606103618,
+  "audio_duration": 3018,
+  "punctuate": true,
+  "format_text": true,
+  "dual_channel": false,
+  "webhook_url": null,
+  "webhook_status_code": null,
+  "webhook_auth": false,
+  "webhook_auth_header_name": null,
+  "speed_boost": false,
+  "auto_highlights_result": null,
+  "auto_highlights": false,
+  "audio_start_from": null,
+  "audio_end_at": null,
+  "word_boost": [],
+  "boost_param": null,
+  "filter_profanity": false,
+  "redact_pii": false,
+  "redact_pii_audio": false,
+  "redact_pii_audio_quality": null,
+  "redact_pii_policies": null,
+  "redact_pii_sub": null,
+  "speaker_labels": true,
+  "content_safety": false,
+  "iab_categories": true,
+  "content_safety_labels": {
+    "status": "unavailable",
+    "results": [],
+    "summary": {}
+  },
+  "language_detection": false,
+  "language_detection_threshold": null,
+  "language_confidence": null,
+  "custom_spelling": null,
+  "throttled": false,
+  "auto_chapters": true,
+  "summarization": false,
+  "summary_type": null,
+  "summary_model": null,
+  "custom_topics": false,
+  "topics": [],
+  "speech_threshold": null,
+  "speech_model": "best",
+  "chapters": [
+    {
+      "summary": "Enrico Bertini is a professor at NYU where he teaches and do research in data visualization. In this podcast we typically talk about data visualization, analysis, and generally the role data plays in our life. If you enjoy the show, please consider supporting us with recurring payments on patreon. com Datastories.",
+      "gist": "Data Stories",
+      "headline": "Data stories podcast is listener supported, so there are no ads anymore",
+      "start": 160,
+      "end": 91720,
+      "id": "ep_139_ch_0"
+    },
+    {
+      "summary": "Enrico: What is immersive visualization? You're going to discover it in a moment. We have another special guest today to talk about this topic. Tim Dwyer is a professor of data visualization and immersive analytics from Australia.",
+      "gist": "Immersive Visualization",
+      "headline": "Today we're going to talk about immersive visualization",
+      "start": 92140,
+      "end": 130768,
+      "id": "ep_139_ch_1"
+    },
+    {
+      "summary": "I've been doing data visualization research since 2001, one when I started my PhD back. How would you define immersive visualization? Is it mostly about wearing goggles or. Is it broader than that?",
+      "gist": "Immersive visualization: The science of data visualization",
+      "headline": "How would you define immersive visualization, VR and AR",
+      "start": 130904,
+      "end": 392826,
+      "id": "ep_139_ch_2"
+    },
+    {
+      "summary": "Our book on immersive analytics, edited by myself, Kim Marriott, Bruce Thomas, Falk Schreiber, Nathalie Henry Riche, Takayuki Itoh. New technologies are enabling us to reimagine what working with data is like. Why visualize data in an immersive environment?",
+      "gist": "In the Elevator: Immersive Analytics",
+      "headline": "So in talking about immersive analytics or immersive data visualization, there are many applications",
+      "start": 392978,
+      "end": 597900,
+      "id": "ep_139_ch_3"
+    },
+    {
+      "summary": "The potential for data visualization is to represent data that's hidden in the environment around us. It could enable us to work in our natural work environments, but be informed by hidden data. At the moment, these headsets are still a little bit clunky and dorky looking. But in the not too distant future, they will get smaller and smaller.",
+      "gist": "Augmented-Reality Headsets: The Future of Data Visual",
+      "headline": "Augmented reality has huge potential for data visualization and how it affects our lives",
+      "start": 597980,
+      "end": 1099306,
+      "id": "ep_139_ch_4"
+    },
+    {
+      "summary": "How do you do data visualization in these new spaces? There is so much to figure out. It's so different to working on a desktop or even a touchscreen device. There are a lot of challenges to solve first. But there are already real world applications for augmented reality devices.",
+      "gist": "Data visualization in the 21st century",
+      "headline": "There are challenges in how do you do data visualization in new VR environments",
+      "start": 1099458,
+      "end": 1429552,
+      "id": "ep_139_ch_5"
+    },
+    {
+      "summary": "Timothy Stanley: I'm curious to hear about the type of research that is happening in your lab. One in particular is interesting to talk about is Yalong Yang's work on exploring flow maps. The long term vision is to use augmented reality, but for the time being, using virtual reality for the better field of view.",
+      "gist": "Immersive Map Visualization",
+      "headline": "Tim: I'm curious about some of the research being done in your lab",
+      "start": 1429736,
+      "end": 2144280,
+      "id": "ep_139_ch_6"
+    },
+    {
+      "summary": "VR controllers have vibrotactile feedback to help you to feel where the data was in space. Now you also have innovative ways to interact with the data. You can add this haptic feedback to all sorts of interactions. The scientific work needs to go in parallel with the technological work.",
+      "gist": "How to See Inside a dense cloud of data",
+      "headline": "You get these controllers when you buy Google VR headsets",
+      "start": 2144580,
+      "end": 2369916,
+      "id": "ep_139_ch_7"
+    },
+    {
+      "summary": "Timothy Keen: How do you actually develop data visualization with these new technologies? Keen: From the hardware point of view, you have fairly low cost headsets. From the software side, this is all VR. Keen: I think that's a really exciting field for data visualization in general.",
+      "gist": "How to Develop Data Visualization in AR, VR &",
+      "headline": "How do you actually develop data visualization with new VR and AR technologies",
+      "start": 2370108,
+      "end": 2749508,
+      "id": "ep_139_ch_8"
+    },
+    {
+      "summary": "We're starting to do more and more work on collaborative data visualization in VR and AR. In VR, you have the potential to have data instantiated in the world around you. There are lots of people doing this, not just our lab.",
+      "gist": "In the Elevator with Tim Cook",
+      "headline": "We're starting to do more and more work on collaborative data visualization in VR",
+      "start": 2749564,
+      "end": 2920140,
+      "id": "ep_139_ch_9"
+    },
+    {
+      "summary": "This show is now completely crowdfunded, so you can support us by going on patreon. com Datastories. If you can spend a couple of minutes rating us on iTunes, that would be extremely helpful for the show. And don't hesitate to get in touch with us.",
+      "gist": "How to Subscribe to Data Stories",
+      "headline": "This show is now completely crowdfunded, so you can support us on Patreon",
+      "start": 2924600,
+      "end": 3008110,
+      "id": "ep_139_ch_10"
+    }
+  ],
+  "disfluencies": false,
+  "entity_detection": false,
+  "sentiment_analysis": false,
+  "sentiment_analysis_results": null,
+  "entities": null,
+  "speakers_expected": null,
+  "summary": null,
+  "custom_topics_results": null,
+  "episode_num": 139,
+  "episode_metadata": {
+    "speakers": [
+      "Tim Dwyer",
+      "Enrico Bertini"
+    ],
+    "WPid": "1329",
+    "url": "https://datastori.es/podlove/file/5635/s/feed/c/mp3/139-immersive-analytics-with-tim-dwyer.mp3",
+    "episode_title": "Immersive Analytics with Tim Dwyer"
+  }
+}

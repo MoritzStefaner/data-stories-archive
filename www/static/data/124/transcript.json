@@ -1,0 +1,1127 @@
+{
+  "id": "1e474b12-e905-474d-bad0-790ceb298179",
+  "language_model": "assemblyai_default",
+  "acoustic_model": "assemblyai_default",
+  "language_code": "en_us",
+  "status": "completed",
+  "audio_url": "https://datastori.es/podlove/file/5206/s/feed/c/mp3/124-xenographics.mp3",
+  "utterances": [
+    {
+      "end": 9594,
+      "speaker": "Maarten Lambrechts",
+      "start": 200,
+      "text": "It took me a while to understand how the maps works, but once I got into it, it really felt quite natural to interpret the data that's in there.",
+      "id": "ep_124_ut_0"
+    },
+    {
+      "end": 35676,
+      "speaker": "Moritz Stefaner",
+      "start": 28814,
+      "text": "Hi, everyone. Welcome to a new episode of Data stories. My name is Mauricio Stefan, and I'm an independent designer of data visualizations.",
+      "id": "ep_124_ut_1"
+    },
+    {
+      "end": 41956,
+      "speaker": "Enrico Bertini",
+      "start": 35780,
+      "text": "And I am Enrico Bertini, and I am a professor at NYU in New York City, and I do research in data visualization.",
+      "id": "ep_124_ut_2"
+    },
+    {
+      "end": 53092,
+      "speaker": "Moritz Stefaner",
+      "start": 42100,
+      "text": "And on this podcast we talk about data visualization as well, but also data analysis and generally the role data plays in our lives. And usually we do that together with the guests we invite on the show.",
+      "id": "ep_124_ut_3"
+    },
+    {
+      "end": 75850,
+      "speaker": "Enrico Bertini",
+      "start": 53228,
+      "text": "But before we start, a quick note, our podcast is listener supported, so there's no ads. So if you enjoyed the show, you may want to consider supporting us with recovery payments on patreon.com Datastories. Or now you can also send us one time donations on PayPal. And it's Paypal me Datastories.",
+      "id": "ep_124_ut_4"
+    },
+    {
+      "end": 84730,
+      "speaker": "Moritz Stefaner",
+      "start": 76042,
+      "text": "That's right. And yeah, let's get started. Let's dive right in. We do have a guest today. Our guest today is Marteen Lambrecht from Belgium. Hi, Marteen.",
+      "id": "ep_124_ut_5"
+    },
+    {
+      "end": 85522,
+      "speaker": "Enrico Bertini",
+      "start": 84802,
+      "text": "Hey, Marteen.",
+      "id": "ep_124_ut_6"
+    },
+    {
+      "end": 86250,
+      "speaker": "Maarten Lambrechts",
+      "start": 85618,
+      "text": "Hi there.",
+      "id": "ep_124_ut_7"
+    },
+    {
+      "end": 115664,
+      "speaker": "Moritz Stefaner",
+      "start": 86362,
+      "text": "Thanks for joining us. So you might know Marteen from some of his projects, such as rock and pole, which illustrates quite nicely the variability in polling and why you should not trust polling results about elections to the second number behind the comma or also visualizations of the Euro search song contest, which I quite enjoyed. Right. So, Marteen, can you tell us a bit about you, your background and. Yeah, anything else?",
+      "id": "ep_124_ut_8"
+    },
+    {
+      "end": 156998,
+      "speaker": "Maarten Lambrechts",
+      "start": 115784,
+      "text": "Okay, so I'm a freelancer. I'm based in Belgium, and I usually call myself a data journalist and a visualization consultant. So I have a couple of years of experience working in me as a data journalist. But one and a half year ago I turned freelancer. And so now I also do a lot of work outside of media. And what I do is I design and I develop visualizations, static and interactive ones. I help to develop visualization tools, software, and I also give trainings and workshops on data journalism, data visualization, and the communication of numbers in general.",
+      "id": "ep_124_ut_9"
+    },
+    {
+      "end": 164222,
+      "speaker": "Moritz Stefaner",
+      "start": 157166,
+      "text": "Right. And you can find all these materials on the project on martinlambrechts.com. i hope that was pronounced the right way.",
+      "id": "ep_124_ut_10"
+    },
+    {
+      "end": 165166,
+      "speaker": "Maarten Lambrechts",
+      "start": 164318,
+      "text": "Yeah, it's okay.",
+      "id": "ep_124_ut_11"
+    },
+    {
+      "end": 185034,
+      "speaker": "Moritz Stefaner",
+      "start": 165230,
+      "text": "Yeah, sort of. And what we want to talk about specifically today, so we could talk about these projects as well. Maybe we will do it another time or your courses. But you also run a site called Xeno Graphics Xenographics. So can you tell us a bit about, like, what is a xenographic and what's the site about?",
+      "id": "ep_124_ut_12"
+    },
+    {
+      "end": 286462,
+      "speaker": "Maarten Lambrechts",
+      "start": 185794,
+      "text": "So, casino graphics is a website where I collect weird charts, but not only weird charts that are very weird looking, but also have some kind of potential to effectively communicate data. So I started the site a couple of weeks ago in preparation for my talk on the subject at openvisconference. And what I did at the conference was showing a lot of examples of these weird charts, but also sharing some insights I gathered during the collection of all these examples of weird looking charts. The name comes from Greek, so xenos in Greek means stranger. And so xenographics are strange charts are weird charts. One definition you could attach to xenographics is that xenographics are charts that someone hasn't seen before. So in a lot of cases, this is. Well, this is actually very subjective. If you take, for example, a scatterplot, for all of us in our audience, this usually isn't xenographic because most people listening to data stories, I think, already have seen scatter plots. But for a lot of people out there, a scatterplot is something weird and is a xenographic one. Definition I also use, for example, graphics, is that a xenographic is simply what is published on xeno graphics on the site I use to collect all these examples.",
+      "id": "ep_124_ut_13"
+    },
+    {
+      "end": 288454,
+      "speaker": "Moritz Stefaner",
+      "start": 286518,
+      "text": "So that makes it easy.",
+      "id": "ep_124_ut_14"
+    },
+    {
+      "end": 316326,
+      "speaker": "Maarten Lambrechts",
+      "start": 288574,
+      "text": "Yeah, so it's just a subjective collection of charts that I hadn't seen before or that I think are interesting in any way. There's one constraint I use at casino graphics, and that is that the charts should work in static media. So I don't consider interactivity because then it would open the design space a little bit too much, I think.",
+      "id": "ep_124_ut_15"
+    },
+    {
+      "end": 365094,
+      "speaker": "Enrico Bertini",
+      "start": 316470,
+      "text": "Yeah, there will be a can of worms, but I guess it's one of those things where you know it when you see it, right? So what is, as you know, graphics. So, Marteen, so I'm going to ask you to give us a few examples of some of the graphics that you collected, and I realize that it's probably going to be hard to describe them in a podcast. So I really encourage our listeners to, if you want, just stop for a moment and go to our website and check. We're going to put some of the images there for sure, those that we're going to discuss. So if you want to make it easier to follow this conversation, you may want to do that. But anyway, Marteen, I'm counting on your description skills.",
+      "id": "ep_124_ut_16"
+    },
+    {
+      "end": 403726,
+      "speaker": "Maarten Lambrechts",
+      "start": 365214,
+      "text": "Okay, I'll have a go at it. So one of the more interesting examples is called a braided graph, and it's actually an area chart where the areas aren't stacked in the y direction, but in the z dimension. So you have one area in front of the other, and the order of stacking is determined by the data. So you have the smallest data always in front. And when you see the chart, it kind of gives you the impression that those areas are interwoven into each other.",
+      "id": "ep_124_ut_17"
+    },
+    {
+      "end": 435146,
+      "speaker": "Moritz Stefaner",
+      "start": 403830,
+      "text": "It looks super weird. It's totally broken because all these areas, you think you look at one section of the chart, it looks normal, like one is in front of the other. But then when the values, like, cross, they just cross, and it doesn't make any sense anymore. Visually, it's so insane. Yeah, but it's. Yeah, you can. I think you can decipher it, but it looks more like either a programming error or a conceptual art, or you.",
+      "id": "ep_124_ut_18"
+    },
+    {
+      "end": 446522,
+      "speaker": "Enrico Bertini",
+      "start": 435170,
+      "text": "Have to imagine it as a 3d. In a 3d version where it's like, I don't know. Well, I'll stop here. It's too hard to describe what I have in mind on a podcast.",
+      "id": "ep_124_ut_19"
+    },
+    {
+      "end": 448654,
+      "speaker": "Maarten Lambrechts",
+      "start": 446658,
+      "text": "Yeah, it's definitely weird.",
+      "id": "ep_124_ut_20"
+    },
+    {
+      "end": 450240,
+      "speaker": "Enrico Bertini",
+      "start": 449184,
+      "text": "Definitely weird.",
+      "id": "ep_124_ut_21"
+    },
+    {
+      "end": 468604,
+      "speaker": "Maarten Lambrechts",
+      "start": 450352,
+      "text": "Yeah. It's actually a chart in two 5D. You put it on two dimensions, but you're using part of the third dimension for the stacking. So that's one example I like. Another one is called the many to many relational parallel coordinate plots.",
+      "id": "ep_124_ut_22"
+    },
+    {
+      "end": 474160,
+      "speaker": "Moritz Stefaner",
+      "start": 469904,
+      "text": "The name should already give a hint that something is going on there, and.",
+      "id": "ep_124_ut_23"
+    },
+    {
+      "end": 478154,
+      "speaker": "Enrico Bertini",
+      "start": 474192,
+      "text": "It's assuming that people know what that parallel coordinate plot is, by the way.",
+      "id": "ep_124_ut_24"
+    },
+    {
+      "end": 484678,
+      "speaker": "Maarten Lambrechts",
+      "start": 478264,
+      "text": "Indeed, for many people, parallel coordinates are already xenographic, so this goes one step further.",
+      "id": "ep_124_ut_25"
+    },
+    {
+      "end": 486198,
+      "speaker": "Moritz Stefaner",
+      "start": 484766,
+      "text": "Graphic. Yeah, yeah.",
+      "id": "ep_124_ut_26"
+    },
+    {
+      "end": 531324,
+      "speaker": "Maarten Lambrechts",
+      "start": 486246,
+      "text": "So the way this works is that you don't put the axis of the parallel coordinates just next to each other, but you arrange them in a way that you can see directly the relationship between the different dimensions in the data sets. So in a parallel coordinate plot, you might have one dimension on the left and another one far to the right. So you don't really see the relationship between those two dimensions. So you can rearrange these axes in different ways, for example, in a star shape or more like a hexagon shape. And then you can see the relationships between every combination of dimensions in your data.",
+      "id": "ep_124_ut_27"
+    },
+    {
+      "end": 536104,
+      "speaker": "Moritz Stefaner",
+      "start": 533504,
+      "text": "Yeah, super crazy. It looks super crazy.",
+      "id": "ep_124_ut_28"
+    },
+    {
+      "end": 540914,
+      "speaker": "Enrico Bertini",
+      "start": 536184,
+      "text": "The star shape is actually an hive plot, right? Isn't that the same thing?",
+      "id": "ep_124_ut_29"
+    },
+    {
+      "end": 548862,
+      "speaker": "Maarten Lambrechts",
+      "start": 542174,
+      "text": "Yeah, there are multiple arrangements, and one is indeed similar to hive plots.",
+      "id": "ep_124_ut_30"
+    },
+    {
+      "end": 552654,
+      "speaker": "Moritz Stefaner",
+      "start": 548958,
+      "text": "Yeah, I think similar to Christmas stars.",
+      "id": "ep_124_ut_31"
+    },
+    {
+      "end": 615444,
+      "speaker": "Maarten Lambrechts",
+      "start": 552814,
+      "text": "Yeah. And the others are more like, I don't know, like gems or jewelry. And then one of my favorites is called the Od map. OD stands for origin destination map, and it's a kind of a fractal map. So you have a big map divided into cells, and in every cell you have a mini copy of the big map. And in these mini maps, you again have the cells, and they are colored according to some value. People moving from the whole country to this particular cell on the map, or moving out of this particular cell to other cells in the big map. Yeah. And I think it took me a while to understand how that map works, but once I got into it, it really felt quite natural to interpret the data that's in there.",
+      "id": "ep_124_ut_32"
+    },
+    {
+      "end": 617328,
+      "speaker": "Moritz Stefaner",
+      "start": 615984,
+      "text": "It's like map inception.",
+      "id": "ep_124_ut_33"
+    },
+    {
+      "end": 617536,
+      "speaker": "Maarten Lambrechts",
+      "start": 617376,
+      "text": "Right?",
+      "id": "ep_124_ut_34"
+    },
+    {
+      "end": 625884,
+      "speaker": "Moritz Stefaner",
+      "start": 617560,
+      "text": "It's like a map. And then the same map is inside the map. The question is, is there another small map inside the small cells? What happens if you zoom in?",
+      "id": "ep_124_ut_35"
+    },
+    {
+      "end": 630136,
+      "speaker": "Maarten Lambrechts",
+      "start": 626944,
+      "text": "I think it is possible to do it, but I think it should work.",
+      "id": "ep_124_ut_36"
+    },
+    {
+      "end": 630512,
+      "speaker": "Enrico Bertini",
+      "start": 630200,
+      "text": "Yeah.",
+      "id": "ep_124_ut_37"
+    },
+    {
+      "end": 646568,
+      "speaker": "Moritz Stefaner",
+      "start": 630568,
+      "text": "Maybe you can show three variables that way. Fun fact, I also saw that one for brain imaging. So I saw a brain that was made up out of a lot of small brains, and then you could talk about the connectivity of the brain areas in that way. So it was the same principle in 3d.",
+      "id": "ep_124_ut_38"
+    },
+    {
+      "end": 654048,
+      "speaker": "Maarten Lambrechts",
+      "start": 646696,
+      "text": "Yeah. It's just origin destination, but not for geographical locations, but for parts of the brain.",
+      "id": "ep_124_ut_39"
+    },
+    {
+      "end": 704886,
+      "speaker": "Moritz Stefaner",
+      "start": 654176,
+      "text": "Yeah. Crazy stuff. So at Openvisconf way, I saw your talk as well. Really nice talk. We hope we can link to it maybe when the video is out. So we will update the blog post. So if you listen to this, maybe two or three months on, you might also check out the video. And there you presented a really nice way to maybe formalize a bit, like what the differences between these different xenographics are, or how they could be maybe put in order. And I think that's so interesting. Like, first to collect all this crazy stuff, but then also to think about, okay, what are recurring principles, or are some of them more weird than others? So you invented this five star scale. Can you briefly walk us through it? Like, what the different levels are of weirdness?",
+      "id": "ep_124_ut_40"
+    },
+    {
+      "end": 715726,
+      "speaker": "Maarten Lambrechts",
+      "start": 705030,
+      "text": "Okay, so I have a five star system, and the one star xenographics are only mildly weird. They are not that weird.",
+      "id": "ep_124_ut_41"
+    },
+    {
+      "end": 717394,
+      "speaker": "Moritz Stefaner",
+      "start": 715830,
+      "text": "Funky, yeah.",
+      "id": "ep_124_ut_42"
+    },
+    {
+      "end": 815610,
+      "speaker": "Maarten Lambrechts",
+      "start": 718894,
+      "text": "So the one star xenographics have to do with how we consume information today. We used to consume a lot of information on. On big and wide screens. Now we have small and vertical screens. And this obviously has consequences for the kind of charts we make. The example I used during my talk was this traditional semicircle visualization of the composition of a parliament. And semicircle has a horizontal layout, so it's more wide and it is high. And if you use it on smaller screens, you run into trouble because the size of the screen and the orientation don't fit the visualization. So the first technique for making these xenographics is turning the chart 90 degrees so it's not horizontal anymore, but vertical. Or if you have, for example, a map showing a geographical area that runs east to west for long distances, then you also can use this technique to flip the axis, and then you have the north arrow pointing left or right instead of up. And people will be a little bit confused when they see these charts, especially for the map, because they are used to having the north up. But it makes total sense to rotate the map on these vertical screens because then you can show much more detail. There's much more room for putting labels in there.",
+      "id": "ep_124_ut_43"
+    },
+    {
+      "end": 821266,
+      "speaker": "Moritz Stefaner",
+      "start": 815642,
+      "text": "For example, I've sometimes also seen scatter plots rotated 45 degrees. So it's like a diamond.",
+      "id": "ep_124_ut_44"
+    },
+    {
+      "end": 822242,
+      "speaker": "Maarten Lambrechts",
+      "start": 821450,
+      "text": "Yeah.",
+      "id": "ep_124_ut_45"
+    },
+    {
+      "end": 833114,
+      "speaker": "Moritz Stefaner",
+      "start": 822418,
+      "text": "Similar in a way that, okay, it's actually a learned thing, but just by giving it that extra twist, you might gain something, but you're also risking a bit. Yeah. Alienation. But it's a mild alienation.",
+      "id": "ep_124_ut_46"
+    },
+    {
+      "end": 861246,
+      "speaker": "Maarten Lambrechts",
+      "start": 833234,
+      "text": "Yeah. You have to weigh the balances, the advantages and the disadvantages. But I think in a lot of cases, especially in a news environment where people consume a lot of information on these smaller screens, it makes sense to do it, and people are able to relearn interpreting these charts. So for the smaller screens, I think in a lot of cases, it makes a lot of sense to do it.",
+      "id": "ep_124_ut_47"
+    },
+    {
+      "end": 872956,
+      "speaker": "Moritz Stefaner",
+      "start": 861390,
+      "text": "Okay. So if you want to just tip your toe in the weirdness Xeno river, your first entrance might be just flipping axes or just changing geometry, basically, right?",
+      "id": "ep_124_ut_48"
+    },
+    {
+      "end": 880492,
+      "speaker": "Maarten Lambrechts",
+      "start": 872980,
+      "text": "Yeah. Okay. And then we are going into the two star xenographic. So these are a little bit weirder.",
+      "id": "ep_124_ut_49"
+    },
+    {
+      "end": 881464,
+      "speaker": "Moritz Stefaner",
+      "start": 880628,
+      "text": "Okay.",
+      "id": "ep_124_ut_50"
+    },
+    {
+      "end": 939644,
+      "speaker": "Maarten Lambrechts",
+      "start": 882044,
+      "text": "And they all have to do with how you can fit the same data in a smaller space or how you can fit more data into the same space. So it's all about densifying your charts. And there are techniques for doing that, and one of them is to, for example, if you have a long bar chart, you can cut up the categorical axis and place the bars on top of each other. There's one example on the side. It's called piled bars. So you just stack the bars on top of each other. You can do the same thing for long time series. You can cut up the longer time series and then just stack the parts of the time series on top of each other. And another example of this technique are the horizon charts. They apply the same principle of, of cutting up axes and then stacking things on top of each other.",
+      "id": "ep_124_ut_51"
+    },
+    {
+      "end": 941624,
+      "speaker": "Enrico Bertini",
+      "start": 940384,
+      "text": "Yeah, that's great.",
+      "id": "ep_124_ut_52"
+    },
+    {
+      "end": 954248,
+      "speaker": "Moritz Stefaner",
+      "start": 941664,
+      "text": "And you can get so far just with like, if you have a little less respect of your original child, just say, yeah, I can cut it into pieces. Why not? Suddenly you have this whole new design space in front of you, right?",
+      "id": "ep_124_ut_53"
+    },
+    {
+      "end": 975644,
+      "speaker": "Maarten Lambrechts",
+      "start": 954376,
+      "text": "Yeah, true. But I saw that it doesn't work for all datasets. If you have, for example, a lot of bars that have the same lengths and then you stack them on top of each other, they will obscure each other and you won't be able to place labels on the bars, for example. So, yeah, it's a nice technique, but it doesn't work for all datasets.",
+      "id": "ep_124_ut_54"
+    },
+    {
+      "end": 976464,
+      "speaker": "Moritz Stefaner",
+      "start": 975724,
+      "text": "Okay.",
+      "id": "ep_124_ut_55"
+    },
+    {
+      "end": 990144,
+      "speaker": "Maarten Lambrechts",
+      "start": 977004,
+      "text": "And the point I made there during my talk was that I like Horizon charts a lot and they are around for like ten years already, maybe a little more, but they are still quite rare. So.",
+      "id": "ep_124_ut_56"
+    },
+    {
+      "end": 991716,
+      "speaker": "Moritz Stefaner",
+      "start": 991084,
+      "text": "That's true.",
+      "id": "ep_124_ut_57"
+    },
+    {
+      "end": 1002102,
+      "speaker": "Maarten Lambrechts",
+      "start": 991780,
+      "text": "The reason, the reason for this, I think, is what I call xenographobia. So I invented a lot of words in my preparation for a talk.",
+      "id": "ep_124_ut_58"
+    },
+    {
+      "end": 1009474,
+      "speaker": "Moritz Stefaner",
+      "start": 1002158,
+      "text": "So this is whole universities for the study of graphic in ten years. Yeah, I can see that.",
+      "id": "ep_124_ut_59"
+    },
+    {
+      "end": 1016342,
+      "speaker": "Maarten Lambrechts",
+      "start": 1009854,
+      "text": "So xenographobia is the fear of weird charts. And a lot of people suffer from xenographobia.",
+      "id": "ep_124_ut_60"
+    },
+    {
+      "end": 1017190,
+      "speaker": "Moritz Stefaner",
+      "start": 1016398,
+      "text": "It's widespread.",
+      "id": "ep_124_ut_61"
+    },
+    {
+      "end": 1072173,
+      "speaker": "Maarten Lambrechts",
+      "start": 1017262,
+      "text": "Yeah, yeah. In the general public. People usually, well, a lot of people are scared away when they see a chart they haven't seen before. They are not willing to do the effort to study a little bit. But also in newsrooms, for example, you have visual journalists coming up with nice ideas, but then the editor says, well, yeah, but our readers won't understand. Can you please just make a bar chart? So, yeah, the fear of weird charts is real. And it's a problem because when we don't publish these weird charts, the public will not be exposed to these weird charts and the level of graphicacy will stay as low as it is today. So I think we have to put more of these weird charts out there.",
+      "id": "ep_124_ut_62"
+    },
+    {
+      "end": 1073086,
+      "speaker": "Enrico Bertini",
+      "start": 1072293,
+      "text": "Yeah, yeah.",
+      "id": "ep_124_ut_63"
+    },
+    {
+      "end": 1100446,
+      "speaker": "Moritz Stefaner",
+      "start": 1073110,
+      "text": "And it seems to be like a common idea that, you know, some people have that idea that any chart should be self explaining without any explanation whatsoever. Right. And should be understood in like milliseconds. Right. And if you take that serious. Yeah. Then you will always make a bar chart for sure, because you have no other chance. But you could have a much more effective solution that just takes 30 seconds to learn, like the OD map. And then it pays off big time.",
+      "id": "ep_124_ut_64"
+    },
+    {
+      "end": 1115514,
+      "speaker": "Maarten Lambrechts",
+      "start": 1100550,
+      "text": "Yeah. It's all about return on investment. I think we can help the readers by explaining to them how the charts work. With annotations or little text or an animation, if we are in digital medium.",
+      "id": "ep_124_ut_65"
+    },
+    {
+      "end": 1124798,
+      "speaker": "Moritz Stefaner",
+      "start": 1116734,
+      "text": "Yeah, but I mean, if you say you don't want anything where you have to learn anything, it's not even thinking about return on investment. But it's just like, I just want the free stuff.",
+      "id": "ep_124_ut_66"
+    },
+    {
+      "end": 1125486,
+      "speaker": "Maarten Lambrechts",
+      "start": 1124886,
+      "text": "Yeah.",
+      "id": "ep_124_ut_67"
+    },
+    {
+      "end": 1133444,
+      "speaker": "Moritz Stefaner",
+      "start": 1125630,
+      "text": "It's like I don't want to invest anything whatsoever. Right. And then that sort of limits maybe the type of results you can get.",
+      "id": "ep_124_ut_68"
+    },
+    {
+      "end": 1139812,
+      "speaker": "Maarten Lambrechts",
+      "start": 1133524,
+      "text": "Yeah. Then you can't expect to gain a lot of insights if you want everything for free, so.",
+      "id": "ep_124_ut_69"
+    },
+    {
+      "end": 1140892,
+      "speaker": "Moritz Stefaner",
+      "start": 1139948,
+      "text": "Exactly.",
+      "id": "ep_124_ut_70"
+    },
+    {
+      "end": 1157384,
+      "speaker": "Enrico Bertini",
+      "start": 1141068,
+      "text": "But would you say that there are some xenographics that, even though are not conventional by definition, it's pretty straightforward to learn how to read them, whereas some others require more effort?",
+      "id": "ep_124_ut_71"
+    },
+    {
+      "end": 1161894,
+      "speaker": "Maarten Lambrechts",
+      "start": 1157974,
+      "text": "I think so. Because if you take the horizon chart.",
+      "id": "ep_124_ut_72"
+    },
+    {
+      "end": 1166918,
+      "speaker": "Enrico Bertini",
+      "start": 1161934,
+      "text": "Pile bars is probably pretty straightforward. Right, yeah, yeah. It's weird. They're PI.",
+      "id": "ep_124_ut_73"
+    },
+    {
+      "end": 1168054,
+      "speaker": "Moritz Stefaner",
+      "start": 1167046,
+      "text": "PI to something.",
+      "id": "ep_124_ut_74"
+    },
+    {
+      "end": 1170526,
+      "speaker": "Enrico Bertini",
+      "start": 1168174,
+      "text": "Yeah, exactly. Right. Whereas.",
+      "id": "ep_124_ut_75"
+    },
+    {
+      "end": 1171166,
+      "speaker": "Moritz Stefaner",
+      "start": 1170590,
+      "text": "I don't know.",
+      "id": "ep_124_ut_76"
+    },
+    {
+      "end": 1173350,
+      "speaker": "Enrico Bertini",
+      "start": 1171230,
+      "text": "Probably. Yeah, yeah.",
+      "id": "ep_124_ut_77"
+    },
+    {
+      "end": 1181022,
+      "speaker": "Maarten Lambrechts",
+      "start": 1173502,
+      "text": "But if you take the horizon charts, for example, I don't think they are too hard to understand once you get it.",
+      "id": "ep_124_ut_78"
+    },
+    {
+      "end": 1182518,
+      "speaker": "Enrico Bertini",
+      "start": 1181038,
+      "text": "Yeah, it's the same situation. Everything.",
+      "id": "ep_124_ut_79"
+    },
+    {
+      "end": 1182990,
+      "speaker": "Maarten Lambrechts",
+      "start": 1182606,
+      "text": "Yeah.",
+      "id": "ep_124_ut_80"
+    },
+    {
+      "end": 1191774,
+      "speaker": "Enrico Bertini",
+      "start": 1183062,
+      "text": "I don't even think people need an explanation of how an horizon chart works. It's just pretty straightforward. Straightforward, right. Where it's darker, it's higher and.",
+      "id": "ep_124_ut_81"
+    },
+    {
+      "end": 1198490,
+      "speaker": "Moritz Stefaner",
+      "start": 1192514,
+      "text": "Yeah, but they are kind of tricky. They are kind of tricky. Yeah, they are.",
+      "id": "ep_124_ut_82"
+    },
+    {
+      "end": 1200974,
+      "speaker": "Maarten Lambrechts",
+      "start": 1198602,
+      "text": "Yeah. Especially when you have negative values.",
+      "id": "ep_124_ut_83"
+    },
+    {
+      "end": 1219094,
+      "speaker": "Moritz Stefaner",
+      "start": 1202274,
+      "text": "Yeah, yeah, exactly. But I think some, you can explain what you want and they just don't make any sense. They're just really hard to, like, wrap your head around, even like. And others are more like, once you get the hang of them, you're like, oh, yeah, that sort of works. But that might be personal as well. Right.",
+      "id": "ep_124_ut_84"
+    },
+    {
+      "end": 1226006,
+      "speaker": "Maarten Lambrechts",
+      "start": 1219174,
+      "text": "I mean, yeah. It also depends on how much experience your readers have in reading charts.",
+      "id": "ep_124_ut_85"
+    },
+    {
+      "end": 1243194,
+      "speaker": "Moritz Stefaner",
+      "start": 1226110,
+      "text": "Yeah. Anyways, bigger topic, let's stick to the star scale first. So we have two stars. Like making things more tricky in terms of stacking, packing, squeezing. Right. So what would be the three star version?",
+      "id": "ep_124_ut_86"
+    },
+    {
+      "end": 1266048,
+      "speaker": "Maarten Lambrechts",
+      "start": 1243984,
+      "text": "The three star graphics all share the characteristic that they marry or cross breed two visualization types together. So one easy way of explaining is you could have a scatterplot of pie charts, for example, which actually exists.",
+      "id": "ep_124_ut_87"
+    },
+    {
+      "end": 1267804,
+      "speaker": "Moritz Stefaner",
+      "start": 1266176,
+      "text": "You could do that. Yeah.",
+      "id": "ep_124_ut_88"
+    },
+    {
+      "end": 1270124,
+      "speaker": "Enrico Bertini",
+      "start": 1268464,
+      "text": "I don't actually like it.",
+      "id": "ep_124_ut_89"
+    },
+    {
+      "end": 1280924,
+      "speaker": "Maarten Lambrechts",
+      "start": 1272184,
+      "text": "But I also showed an example of a scatterplot of bar charts and also a scatterplot of line charts.",
+      "id": "ep_124_ut_90"
+    },
+    {
+      "end": 1285248,
+      "speaker": "Moritz Stefaner",
+      "start": 1282224,
+      "text": "This is a spark bar chart, which is kind of smart.",
+      "id": "ep_124_ut_91"
+    },
+    {
+      "end": 1310000,
+      "speaker": "Maarten Lambrechts",
+      "start": 1285376,
+      "text": "Yeah. One way of doing it is making small multiples and then encode information in where you place the small multiples on the canvas. The other technique is really fitting one visualization into another. So then you could have shoehorning it in. Yeah. A bar chart of tree maps, or a tree map of bar charts.",
+      "id": "ep_124_ut_92"
+    },
+    {
+      "end": 1333858,
+      "speaker": "Moritz Stefaner",
+      "start": 1310192,
+      "text": "It's like, oh, you're giving me ideas. You could have a whole zoo, like a whole, like, evolution tree, basically, and just. You could do genetic algorithm. Oh, my God. Anyways, moving on. That's a smart strategy, though. Just cross brief two things that work and see what comes out of the combination. Four stars.",
+      "id": "ep_124_ut_93"
+    },
+    {
+      "end": 1451718,
+      "speaker": "Maarten Lambrechts",
+      "start": 1334026,
+      "text": "Four stars is. Well, it's a technique that's quite common. It's just adding dimensions to the chart. Yeah, that's very good. One champion of this technique was Hans Rosling with his bubble charts. If you take an animated bubble chart, then you have five dimensions in there. So you have xy, the size of the bubbles, the color of the bubbles, and then the animation is time. So Hans Rosling actually popularized what before was a xenographic, because no one, or almost no one had ever seen the bubble chart. And so he managed, it's true, to add dimensions to what basically is a scatterplot and then popularize it. So adding dimensions is the fourth technique, and you can take this very far. If you use techniques like glyphs, you can come up with icons where you can map a lot of dimensions to. And one known technique are the Chernoff faces. So you encode data in two faces, like the shape of the mouth or the color of the skin, or the shape of the nose or the hair. And you can take this technique very far. You can map, like, 20 dimensions onto these faces. But then, of course, comes the question, should you? Is it still interpretable? Because you can pack a lot of dimensions in there, but if people can't read it, then it doesn't make sense, of course. So adding dimensions will lead to weird charts. If you take a traditional chart and you just start add stuff. Yeah, start adding dimensions, then you will end up with xenographics, which might work, but in a lot of cases won't work.",
+      "id": "ep_124_ut_94"
+    },
+    {
+      "end": 1474082,
+      "speaker": "Moritz Stefaner",
+      "start": 1451836,
+      "text": "I mean, there's a whole body of work also coming from accurate. And starting with La L, the weekly newspaper editions, this magazine, I think they made 1020 of these really super elaborate glyph charts. And now I think there's a whole genre of Italian style infographics with lots of data dimensions, right.",
+      "id": "ep_124_ut_95"
+    },
+    {
+      "end": 1508988,
+      "speaker": "Maarten Lambrechts",
+      "start": 1474258,
+      "text": "Yeah. They basically take a database and then map every dimension in the database to these beautiful glyphs. Yeah. You sometimes end up with art, but I think if I look at these pieces, I notice myself, looking back between the glyphs and the legends a lot, because there's no way of easy interpreting the numbers there. You have to look back to the legend to see what's going on there, but they definitely have their own style. And. Yeah, it's a beautiful style.",
+      "id": "ep_124_ut_96"
+    },
+    {
+      "end": 1516300,
+      "speaker": "Moritz Stefaner",
+      "start": 1509176,
+      "text": "Yeah. And finally, what's the five star method? Now we're really curious, like, what's the crown of chart evolution?",
+      "id": "ep_124_ut_97"
+    },
+    {
+      "end": 1615168,
+      "speaker": "Maarten Lambrechts",
+      "start": 1516452,
+      "text": "Yeah. To make these five star xenographics, I came up with a matrix where you cross, for example, geography with time, and then you will end up with techniques that show the geography of time. One example of that is when you morph the geometry of the map to represent travel times, then you will end up with a map that's not showing the geography, but it's actually showing time. And you can mix these, you can call them data aspects in a lot of ways. So you have time, you have geography, but you also have flow, for example, or you have networks, or you have hierarchies. And then you also have things like uncertainty in your data distributions, correlations. And you can all mix these things together, and then you will have something that's showing you more than just one aspect of your data. It will show you more than just the hierarchy, but it can show you, for example, the evolution over time of a hierarchy. Or the uncertainty in maps, for example, is also something that fits into this matrix. So, yeah, I came up with this matrix, and then I tried to fill up every combination with the examples I already had on my site, but there are still a lot of blanks.",
+      "id": "ep_124_ut_98"
+    },
+    {
+      "end": 1617944,
+      "speaker": "Moritz Stefaner",
+      "start": 1615296,
+      "text": "Ah, there's still uncharted space.",
+      "id": "ep_124_ut_99"
+    },
+    {
+      "end": 1621232,
+      "speaker": "Maarten Lambrechts",
+      "start": 1618104,
+      "text": "Yeah. It's still work in progress, so there.",
+      "id": "ep_124_ut_100"
+    },
+    {
+      "end": 1624776,
+      "speaker": "Enrico Bertini",
+      "start": 1621248,
+      "text": "Is a generative aspect to it, which is cool, right?",
+      "id": "ep_124_ut_101"
+    },
+    {
+      "end": 1655288,
+      "speaker": "Maarten Lambrechts",
+      "start": 1624920,
+      "text": "Yeah. I use the matrix also to hunt down new xenographics. For example, if I see that there's a gap in the combination of uncertainty with hierarchy, for example, then I just start googling with these terms, and sometimes I end up with, well, then I find a research paper that was actually studying this combination and how you can visualize it, and then I have another example for the site. So it's a good framework.",
+      "id": "ep_124_ut_102"
+    },
+    {
+      "end": 1676736,
+      "speaker": "Enrico Bertini",
+      "start": 1655456,
+      "text": "So one thing I noticed is that many of the graphics that you are collecting actually come from the research community, which, of course, is very close to my art. And so. But I also know that you have opinions about research and practice gap, and I would love to hear what your thoughts on that are.",
+      "id": "ep_124_ut_103"
+    },
+    {
+      "end": 1711552,
+      "speaker": "Maarten Lambrechts",
+      "start": 1676920,
+      "text": "Yeah. So I'm in the field of data visualization for a couple of years now, and I do like new and innovative techniques. But when in doing my research for xenographics, I went through a whole lot of papers, and I found a lot of interesting techniques that I didn't know before. And so I think this gap is real. There is not a lot of information flowing from what has been researched to the people in the field. And I think this only there was.",
+      "id": "ep_124_ut_104"
+    },
+    {
+      "end": 1717032,
+      "speaker": "Moritz Stefaner",
+      "start": 1711568,
+      "text": "A podcast where we could talk about this. No, but you're right.",
+      "id": "ep_124_ut_105"
+    },
+    {
+      "end": 1720920,
+      "speaker": "Enrico Bertini",
+      "start": 1717128,
+      "text": "With a researcher and a practitioner, that would be crazy.",
+      "id": "ep_124_ut_106"
+    },
+    {
+      "end": 1722444,
+      "speaker": "Moritz Stefaner",
+      "start": 1720952,
+      "text": "I mean, that would never work.",
+      "id": "ep_124_ut_107"
+    },
+    {
+      "end": 1822780,
+      "speaker": "Maarten Lambrechts",
+      "start": 1725664,
+      "text": "So I think there's a problem there. This is, I think, actually one of the reasons why we don't see much of these xenographics going into mainstream, because. Because people in the field often don't know about these interesting techniques. So I talked about this with Till Nagel. He's a researcher at the University of Potsdam, and he's Mannheim by now. Okay. Yeah, that's true. Yeah. And he had four points that we could use to tackle this gap, to make a bridge between the two fields. And the first one is that he said that researchers should not only publish their papers, but they also should make an effort to publicize their work so they could create a website for their new technique they invented, or provide some code snippets, or make a tool to make the new visualization types, for example. Then he said that practitioners should read the papers. And I fully agree with this. I find it fascinating going through all these research papers. There's a lot that's been studied. So that's what I'm going to do from now on. I will try to follow what's happening in the research field. And then he had a message for the tool builders. So people who make visualization tools, that they should implement these new techniques that have proven to be effective, that can.",
+      "id": "ep_124_ut_108"
+    },
+    {
+      "end": 1824184,
+      "speaker": "Moritz Stefaner",
+      "start": 1822812,
+      "text": "Make a huge difference.",
+      "id": "ep_124_ut_109"
+    },
+    {
+      "end": 1840314,
+      "speaker": "Maarten Lambrechts",
+      "start": 1824954,
+      "text": "One excellent example there is raw graphs. So they made a tool with which you can make a lot of these weird charts that were very hard to do before. True. So they did an excellent job there.",
+      "id": "ep_124_ut_110"
+    },
+    {
+      "end": 1856154,
+      "speaker": "Moritz Stefaner",
+      "start": 1840394,
+      "text": "And I think D3 also helped a lot in popularizing more experimental types of approaches. And Mike has implemented a lot of these algorithms that were previously just described in papers or just available as Java classes or something.",
+      "id": "ep_124_ut_111"
+    },
+    {
+      "end": 1896388,
+      "speaker": "Maarten Lambrechts",
+      "start": 1856494,
+      "text": "Yeah, that's true. I think Mike is an excellent example of what till calls in betweeners, people who have a foot in both worlds. So he came from a research background, but then went to work at the New York Times. So he's a perfect example of someone in between. And I think with xenographics, I also try to make a bridge between the two worlds. And maybe, maybe it's time for the people in between to step up and be more public about what they see on both sides of that gap between research and practice.",
+      "id": "ep_124_ut_112"
+    },
+    {
+      "end": 1921726,
+      "speaker": "Enrico Bertini",
+      "start": 1896516,
+      "text": "Yeah, I just wanted to quickly say that I think many of these things are going in the right direction. So there are more and more researchers who are actually publishing the results on the web and making nice blog posts on medium or having nice web pages, as well as researchers who are. So, for instance, diva Rose has been collecting for a number of years now for every vis conference, all the papers that are available online.",
+      "id": "ep_124_ut_113"
+    },
+    {
+      "end": 1923086,
+      "speaker": "Maarten Lambrechts",
+      "start": 1921830,
+      "text": "Yeah, that helped me, actually, a lot.",
+      "id": "ep_124_ut_114"
+    },
+    {
+      "end": 1978614,
+      "speaker": "Enrico Bertini",
+      "start": 1923110,
+      "text": "And I just saw that the same thing. Somebody has done the same thing for Eurovis has been going on, like, during the last few days. So things are changing, and these are all really, really good advice. And I do think that having some of these techniques implemented in tools that people can readily try out is also crucial, crucial aspect. Yeah. I'm wondering why people don't create more stuff that goes, say, directly into Jupyter notebook where you. So that's something I've been thinking about quite a lot recently. Why don't we do more of this stuff where you open Jupyter notebook, you load a library and bam, you have it in front of you. Right. I think we should try to do more. No, right. I mean, you want to make it as, you want to lower the barrier to. Not even to adoption, just to trying things out as much as you can.",
+      "id": "ep_124_ut_115"
+    },
+    {
+      "end": 2015498,
+      "speaker": "Moritz Stefaner",
+      "start": 1978694,
+      "text": "Yeah. I mean, I think a big challenge is that some of these, Marteen, as you said already, some of these techniques work quite well in a specific case, and you can tweak them to make them work, you know. Well, but it's really hard to build them into a generic tool because they're so weird. And if you have ever built, like, a generic, like, bar chart component, you know, you will appreciate the work that has gone into, like, software that just takes random inputs and makes a chart because it's super hard. And also, so I'm really, you know, we had the guys from data and Lisa from data rapper and the podcast and so on.",
+      "id": "ep_124_ut_116"
+    },
+    {
+      "end": 2015874,
+      "speaker": "Enrico Bertini",
+      "start": 2015546,
+      "text": "Yeah.",
+      "id": "ep_124_ut_117"
+    },
+    {
+      "end": 2023650,
+      "speaker": "Moritz Stefaner",
+      "start": 2015954,
+      "text": "And it's so hard to build, even for simple charts, like a working universal implementation. And I think that's a big challenge. Right.",
+      "id": "ep_124_ut_118"
+    },
+    {
+      "end": 2023978,
+      "speaker": "Maarten Lambrechts",
+      "start": 2023722,
+      "text": "Yeah.",
+      "id": "ep_124_ut_119"
+    },
+    {
+      "end": 2035920,
+      "speaker": "Moritz Stefaner",
+      "start": 2024026,
+      "text": "What's your take on that, Marteen? Like, do you think the examples you collect will be one offs mostly, or do some of them have the potential to be new chart types? Really?",
+      "id": "ep_124_ut_120"
+    },
+    {
+      "end": 2118944,
+      "speaker": "Maarten Lambrechts",
+      "start": 2036112,
+      "text": "I think some of them definitely have potential. And what I saw was also that some researchers, they provided GGplot packages or ggplot extensions, so you can quite easily make them in r. About the research examples that are on xenographics. Well, it depends. Some of them are very specific, tailored to a very specific kind of data, so you can see them as like, how do you call them, domain specific visualizations. So they only work for a very specific type of data. But sometimes these domain specific visualization can also spill over to other fields that have datasets that are alike. And I think there's also value in there. But you're right, some of them are maybe a bit too weird to work really well. But yeah, I just want to collect them so people can see for themselves if they like them or that they can work for the day they themselves have. So.",
+      "id": "ep_124_ut_121"
+    },
+    {
+      "end": 2146960,
+      "speaker": "Moritz Stefaner",
+      "start": 2120044,
+      "text": "Exactly. And not everything has to work for everything. Right. So. Because if this is your goal, then be happy with your bar chart. But for any specific case, there will always be a better solution. And I think it's great that you're providing now this or enhancing our vocabulary with this great collection, and I hope it will just grow. And so thanks for keeping data with weird. I think it's an important mission.",
+      "id": "ep_124_ut_122"
+    },
+    {
+      "end": 2168116,
+      "speaker": "Maarten Lambrechts",
+      "start": 2147072,
+      "text": "Okay, no problem. Maybe I should mention that on the site there's a submit link. So people who have made weird charts of know of examples of weird charts that not, that are not on the site already, they can just submit their, their work or the xenographics they have found and then I can include them also in the collection.",
+      "id": "ep_124_ut_123"
+    },
+    {
+      "end": 2169100,
+      "speaker": "Moritz Stefaner",
+      "start": 2168240,
+      "text": "Awesome. That's great.",
+      "id": "ep_124_ut_124"
+    },
+    {
+      "end": 2169780,
+      "speaker": "Maarten Lambrechts",
+      "start": 2169132,
+      "text": "That's perfect.",
+      "id": "ep_124_ut_125"
+    },
+    {
+      "end": 2171084,
+      "speaker": "Enrico Bertini",
+      "start": 2169892,
+      "text": "Yeah, yeah, yeah.",
+      "id": "ep_124_ut_126"
+    },
+    {
+      "end": 2191356,
+      "speaker": "Moritz Stefaner",
+      "start": 2171164,
+      "text": "Cool. I'm just waiting for somebody to train a neural net to generate new ones based on the examples you have already. Cool. Thanks so much for joining us, Marteen. We are really looking forward to seeing your collection grow and being further inspired by it. I think it's a great resource.",
+      "id": "ep_124_ut_127"
+    },
+    {
+      "end": 2192644,
+      "speaker": "Enrico Bertini",
+      "start": 2191420,
+      "text": "Thanks so much, Marteen.",
+      "id": "ep_124_ut_128"
+    },
+    {
+      "end": 2194910,
+      "speaker": "Maarten Lambrechts",
+      "start": 2192724,
+      "text": "Okay, thank you. Thanks for having me. Me.",
+      "id": "ep_124_ut_129"
+    },
+    {
+      "end": 2195790,
+      "speaker": "Moritz Stefaner",
+      "start": 2194982,
+      "text": "Thanks so much.",
+      "id": "ep_124_ut_130"
+    },
+    {
+      "end": 2196486,
+      "speaker": "Enrico Bertini",
+      "start": 2195902,
+      "text": "Bye bye.",
+      "id": "ep_124_ut_131"
+    },
+    {
+      "end": 2196998,
+      "speaker": "Moritz Stefaner",
+      "start": 2196550,
+      "text": "Bye bye.",
+      "id": "ep_124_ut_132"
+    },
+    {
+      "end": 2198434,
+      "speaker": "Maarten Lambrechts",
+      "start": 2197046,
+      "text": "Okay, bye.",
+      "id": "ep_124_ut_133"
+    },
+    {
+      "end": 2223452,
+      "speaker": "Enrico Bertini",
+      "start": 2203014,
+      "text": "Hey, folks, thanks for listening to data stories again. Before you leave a few last notes, this show is now completely crowdfunded, so you can support us by going on Patreon. That's patreon.com Datastories. And if you can spend a couple of minutes reading us on iTunes, that would be extremely helpful for the show show.",
+      "id": "ep_124_ut_134"
+    },
+    {
+      "end": 2249300,
+      "speaker": "Moritz Stefaner",
+      "start": 2223548,
+      "text": "And here's also some information on the many ways you can get news directly from us. We are, of course, on twitter@twitter.com. Datastories. We have a Facebook page@Facebook.com. datastoriespodcast. All in one word. And we also have a Slack channel where you can chat with us directly. And to sign up, you can go to our homepage datastory eas, and there is a button at the bottom of the page.",
+      "id": "ep_124_ut_135"
+    },
+    {
+      "end": 2265162,
+      "speaker": "Enrico Bertini",
+      "start": 2249452,
+      "text": "And we also have an email newsletter. So if you want to get news directly into your inbox and be notified whenever we publish an episode, you can go to our home page Datastore es and look for the link you find at the bottom in the footer.",
+      "id": "ep_124_ut_136"
+    },
+    {
+      "end": 2277322,
+      "speaker": "Moritz Stefaner",
+      "start": 2265258,
+      "text": "So one last thing we want to tell you is that we love to get in touch with our listeners, especially if you want to suggest a way to improve the show or amazing people you want us to invite or even projects you want us to talk about.",
+      "id": "ep_124_ut_137"
+    },
+    {
+      "end": 2286514,
+      "speaker": "Enrico Bertini",
+      "start": 2277418,
+      "text": "Yeah, absolutely. And don't hesitate to get in touch with us. It's always a great thing to hear from you. You. So see you next time, and thanks for listening to data stories.",
+      "id": "ep_124_ut_138"
+    }
+  ],
+  "confidence": 0.920328533708852,
+  "audio_duration": 2295,
+  "punctuate": true,
+  "format_text": true,
+  "dual_channel": false,
+  "webhook_url": null,
+  "webhook_status_code": null,
+  "webhook_auth": false,
+  "webhook_auth_header_name": null,
+  "speed_boost": false,
+  "auto_highlights_result": null,
+  "auto_highlights": false,
+  "audio_start_from": null,
+  "audio_end_at": null,
+  "word_boost": [],
+  "boost_param": null,
+  "filter_profanity": false,
+  "redact_pii": false,
+  "redact_pii_audio": false,
+  "redact_pii_audio_quality": null,
+  "redact_pii_policies": null,
+  "redact_pii_sub": null,
+  "speaker_labels": true,
+  "content_safety": false,
+  "iab_categories": true,
+  "content_safety_labels": {
+    "status": "unavailable",
+    "results": [],
+    "summary": {}
+  },
+  "language_detection": false,
+  "language_detection_threshold": null,
+  "language_confidence": null,
+  "custom_spelling": null,
+  "throttled": false,
+  "auto_chapters": true,
+  "summarization": false,
+  "summary_type": null,
+  "summary_model": null,
+  "custom_topics": false,
+  "topics": [],
+  "speech_threshold": null,
+  "speech_model": "best",
+  "chapters": [
+    {
+      "summary": "Mauricio Stefan is an independent designer of data visualizations. Enrico Bertini is a professor at NYU in New York City. On this podcast we talk about data visualization as well as data analysis. Our podcast is listener supported, so there's no ads.",
+      "gist": "Data Stories",
+      "headline": "This podcast is listener supported, so there are no ads",
+      "start": 200,
+      "end": 76914,
+      "id": "ep_124_ch_0"
+    },
+    {
+      "summary": "Our guest today is Marteen Lambrecht from Belgium. He usually calls himself a data journalist and a visualization consultant. You might know Marteen from some of his projects, such as rock and pole. And what we want to talk about specifically today is these projects.",
+      "gist": "Freelance Data Visualization",
+      "headline": "Our guest today is Marteen Lambrecht from Belgium",
+      "start": 77034,
+      "end": 174194,
+      "id": "ep_124_ch_1"
+    },
+    {
+      "summary": "Casino graphics is a website where I collect weird charts. Xenographics are charts that someone hasn't seen before. The name comes from Greek, so xenos in Greek means stranger. The charts should work in static media. I don't consider interactivity.",
+      "gist": "What is a Xenographic Chart?",
+      "headline": "Xenographics are charts that someone hasn't seen before",
+      "start": 174854,
+      "end": 325382,
+      "id": "ep_124_ch_2"
+    },
+    {
+      "summary": "Marteen: I'm going to ask you to give us a few examples of some of the graphics that you collected. It's probably going to be hard to describe them in a podcast. I encourage listeners to go to our website and check out the images.",
+      "gist": "Weird Graphics",
+      "headline": "Marteen, give us a few examples of some of the graphics you collected",
+      "start": 325478,
+      "end": 812814,
+      "id": "ep_124_ch_3"
+    },
+    {
+      "summary": "There's much more room for putting labels in there. For example, I've sometimes also seen scatter plots rotated 45 degrees. The fear of weird charts is real. I think we have to put more of these weird charts out there.",
+      "gist": "The fear of xenographobia",
+      "headline": "Xeno river: The fear of weird charts is widespread in graphic design",
+      "start": 812964,
+      "end": 1140892,
+      "id": "ep_124_ch_4"
+    },
+    {
+      "summary": "Would you say that there are some xenographics that, even though are not conventional by definition, it's pretty straightforward to learn how to read them? Some others require more effort. It also depends on how much experience your readers have in reading charts.",
+      "gist": "Xenographics: How Easy Do They Read?",
+      "headline": "Some xenographics are straightforward to read whereas others require more effort",
+      "start": 1141068,
+      "end": 1226754,
+      "id": "ep_124_ch_5"
+    },
+    {
+      "summary": "The three star graphics marry or cross breed two visualization types together. Adding dimensions is the fourth technique, and you can take this very far. Now we're really curious, like, what's the crown of chart evolution?",
+      "gist": "Five star infographics",
+      "headline": "Three star graphics marry two visualization types together",
+      "start": 1227174,
+      "end": 1655288,
+      "id": "ep_124_ch_6"
+    },
+    {
+      "summary": "Many of the graphics that you are collecting actually come from the research community. There is a gap between research and practice in the field of data visualization. Marteen suggests four ways to bridge the gap.",
+      "gist": "The research and practice gap",
+      "headline": "Many of the graphics that you are collecting come from the research community",
+      "start": 1655456,
+      "end": 2023978,
+      "id": "ep_124_ch_7"
+    },
+    {
+      "summary": "Marteen: Do you think the examples you collect will be one offs mostly, or do some of them have the potential to be new chart types? Some of them are maybe a bit too weird to work really well. People who have made weird charts of know of examples of weird charts can submit their work.",
+      "gist": "Weird Chart Examples in Ggplot",
+      "headline": "Marteen: Some of the examples are too weird to work really well",
+      "start": 2024026,
+      "end": 2198434,
+      "id": "ep_124_ch_8"
+    },
+    {
+      "summary": "This show is now completely crowdfunded, so you can support us by going on patreon. com Datastories. Here's some information on the many ways you can get news directly from us. We love to get in touch with our listeners, especially if you want to suggest a way to improve the show.",
+      "gist": "How to Subscribe to Data Stories",
+      "headline": "This show is now completely crowdfunded, so you can support us on Patreon",
+      "start": 2203014,
+      "end": 2286514,
+      "id": "ep_124_ch_9"
+    }
+  ],
+  "disfluencies": false,
+  "entity_detection": false,
+  "sentiment_analysis": false,
+  "sentiment_analysis_results": null,
+  "entities": null,
+  "speakers_expected": null,
+  "summary": null,
+  "custom_topics_results": null,
+  "episode_num": 124,
+  "episode_metadata": {
+    "speakers": [
+      "Maarten Lambrechts",
+      "Moritz Stefaner",
+      "Enrico Bertini"
+    ],
+    "WPid": "1222",
+    "url": "https://datastori.es/podlove/file/5206/s/feed/c/mp3/124-xenographics.mp3",
+    "episode_title": "Xenographics with Maarten Lambrechts"
+  }
+}

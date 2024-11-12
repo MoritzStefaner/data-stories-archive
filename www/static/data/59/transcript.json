@@ -1,0 +1,1308 @@
+{
+  "id": "1d7a53ed-667e-4189-b4e6-92d4169e3636",
+  "language_model": "assemblyai_default",
+  "acoustic_model": "assemblyai_default",
+  "language_code": "en_us",
+  "status": "completed",
+  "audio_url": "https://datastori.es/podlove/file/1203/s/feed/c/mp3/behind-the-scenes-of-whats-really-warming-the-world-with-the-Bloomberg-team-ds59.mp3",
+  "utterances": [
+    {
+      "end": 8034,
+      "speaker": "Eric Roston",
+      "start": 200,
+      "text": "Different people working for different institutions in different countries at different times all come up with the same answer.",
+      "id": "ep_59_ut_0"
+    },
+    {
+      "end": 32154,
+      "speaker": "Moritz Stefaner",
+      "start": 9734,
+      "text": "Data stories is brought to you by Qlik, who allows you to explore the hidden relationships within your data that lead to meaningful insights. Let your instincts lead the way to create personalized visualizations and dynamic dashboards with Qlik sense, which you can download for free at Qlik.de/datastories . That's Qlik.de/datastories.",
+      "id": "ep_59_ut_1"
+    },
+    {
+      "end": 60914,
+      "speaker": "Enrico Bertini",
+      "start": 42124,
+      "text": "Hi, everyone. Enrico here. This is a special episode that I'm recording directly from Bloomberg. They have beautiful spaces here. And I am together with Eric Roston and Blacki Migliozzi. I hope I pronounced it right. It sounds Italian.",
+      "id": "ep_59_ut_2"
+    },
+    {
+      "end": 61654,
+      "speaker": "Blacki Migliozzi",
+      "start": 60954,
+      "text": "It is.",
+      "id": "ep_59_ut_3"
+    },
+    {
+      "end": 91354,
+      "speaker": "Enrico Bertini",
+      "start": 62594,
+      "text": "And we want to talk about this really, really interesting project that they published a few days or weeks ago on the Bloomberg website called what's really warming the world? It's about climate change. Very interesting project. And so Eric is a reporter here at Bloomberg, and Blacki is part of the data visualization group here at Bloomberg. Right, correct.",
+      "id": "ep_59_ut_4"
+    },
+    {
+      "end": 92418,
+      "speaker": "Blacki Migliozzi",
+      "start": 91434,
+      "text": "Bloomberg graphics.",
+      "id": "ep_59_ut_5"
+    },
+    {
+      "end": 96762,
+      "speaker": "Enrico Bertini",
+      "start": 92546,
+      "text": "Bloomberg graphics. And well, welcome on the show.",
+      "id": "ep_59_ut_6"
+    },
+    {
+      "end": 98010,
+      "speaker": "Eric Roston",
+      "start": 96858,
+      "text": "Thank you. Thanks for having us.",
+      "id": "ep_59_ut_7"
+    },
+    {
+      "end": 98786,
+      "speaker": "Blacki Migliozzi",
+      "start": 98042,
+      "text": "Thank you.",
+      "id": "ep_59_ut_8"
+    },
+    {
+      "end": 128442,
+      "speaker": "Enrico Bertini",
+      "start": 98970,
+      "text": "So before we start the interview, I want to just give a summary of what the project is about and to make sure that our listeners are everyone on the same page. So if you can stop for a moment and go to the web page and check, just pause for a moment and go to Bloomberg.com. and do you have a simple URL that people can type?",
+      "id": "ep_59_ut_9"
+    },
+    {
+      "end": 131734,
+      "speaker": "Blacki Migliozzi",
+      "start": 128498,
+      "text": "It's Bloomberg.com graphics.",
+      "id": "ep_59_ut_10"
+    },
+    {
+      "end": 170354,
+      "speaker": "Enrico Bertini",
+      "start": 132274,
+      "text": "Graphics. 2015, what's warming the world? Or just google it? Bloomberg. I tried Bloomberg climate visualization and it does work great. First up, I'll try to describe for a moment what the project is about and how it looks like. So the project starts when you go to this webpage. And there is a very nice title, what's really warm in the world. And there is one timeline that goes from 1880 to 2014. There is one single timeline, and it's about what the average temperature in the world?",
+      "id": "ep_59_ut_11"
+    },
+    {
+      "end": 171194,
+      "speaker": "Eric Roston",
+      "start": 170504,
+      "text": "Yes.",
+      "id": "ep_59_ut_12"
+    },
+    {
+      "end": 293824,
+      "speaker": "Enrico Bertini",
+      "start": 171894,
+      "text": "So now this is a really nice scrollable visualization. You can scroll and every time you scroll, you have a new piece of information. So when you scroll the first time you have, is it the earth's orbit that is causing this increase, steep increase in temperature? And you have two lines. One is the observed increase in temperature and one is the orbital changes. And it doesn't look like this is affecting the temperature at all. And the next one is it the sun? And you have exactly the same thing. Very similar. Next one, again is, is it volcanoes? And it doesn't seem to be volcanoes. Then you have, is it all three of these things combined? And it doesn't look like it is. And then you have. So if it's not nature, is it deforestation? And it doesn't look like there is a strong correlation between this line about land use. And again, the observed change in temperature, then you have. Or ozone pollution, and it's not. Or aerosol pollution. So going on. No, it's really greenhouse gases. And we get to this page where you have two lines, again with the observed temperature and greenhouse gases. And it's the first line that actually shows a strong correlation between the two trends. And then you can see for yourself the comparison between all these lines and what's their direction and what's the impact of human factors, and then you can compare and contrast these two things. And then what I really, really like is that the page ends with a methodology section where you actually describe the science behind this thing. So one thing that I would really, really love to talk about is, what's the science behind this? And I would start from a little bit of background. So how did the project start at all?",
+      "id": "ep_59_ut_13"
+    },
+    {
+      "end": 332746,
+      "speaker": "Eric Roston",
+      "start": 297524,
+      "text": "Let me think. I would say about a year and a half ago. Internally, we decided that we were very interested in climate change. We wanted to produce some visual aids that would help people who are very busy and smart and want to understand, but it's complex to give them some easy step by step instructions, as it were. And those conversations, ultimately, they weren't organic enough, and we decided we just got to start doing them. So, Blacki, why don't you talk about the first one?",
+      "id": "ep_59_ut_14"
+    },
+    {
+      "end": 381554,
+      "speaker": "Blacki Migliozzi",
+      "start": 332810,
+      "text": "Yeah. So the first one that Tom, Randall and I and Eric worked on was the hottest year on record. 2014 was the hottest year on record. And basically we knew that the data was about to come out that was going to show, very likely show, that it was going to be the hottest year ever recorded. And we wanted to have something prepared for that. And we basically published something that doesn't look at all like any normal climate chart that you would see on, like in the IPCC report or something. And it got a lot of good reactions, basically. So.",
+      "id": "ep_59_ut_15"
+    },
+    {
+      "end": 393344,
+      "speaker": "Eric Roston",
+      "start": 382694,
+      "text": "So there's two main. The two first questions about climate change are, is the world getting warmer? And so we answered that one in December.",
+      "id": "ep_59_ut_16"
+    },
+    {
+      "end": 396628,
+      "speaker": "Enrico Bertini",
+      "start": 394484,
+      "text": "That's what everyone wants to know, right?",
+      "id": "ep_59_ut_17"
+    },
+    {
+      "end": 461434,
+      "speaker": "Eric Roston",
+      "start": 396676,
+      "text": "Is the world getting warmer? And yes, the world is getting warmer. If you run the annual records back to the middle or the third quarter of the 18 hundreds, then you can see the trend. The next question is, what's causing it? And so that was the next place to go. And so we went there. But it's hard. Right. And so many, I don't know if listeners are familiar with what the intergovernmental panel on climate change is. It's the un sponsored group of climate, basically the entire world climate science community. And every six or seven years they put out four 2000 page compendiums of climate science. And since we're on audio here, you can't see it. So what I'm going to do, it's sort of shaped like a phone book but with much denser paper. So I'm going to drop this onto the table from about 18 inches and that'll give you a sense. Ready? Three, two, one. It's a big book.",
+      "id": "ep_59_ut_18"
+    },
+    {
+      "end": 462734,
+      "speaker": "Enrico Bertini",
+      "start": 461554,
+      "text": "It's a big book.",
+      "id": "ep_59_ut_19"
+    },
+    {
+      "end": 469314,
+      "speaker": "Eric Roston",
+      "start": 464994,
+      "text": "But the initial graphics, the core, not.",
+      "id": "ep_59_ut_20"
+    },
+    {
+      "end": 470146,
+      "speaker": "Enrico Bertini",
+      "start": 469354,
+      "text": "All of it, right?",
+      "id": "ep_59_ut_21"
+    },
+    {
+      "end": 471346,
+      "speaker": "Eric Roston",
+      "start": 470210,
+      "text": "No, this is one quarter of it.",
+      "id": "ep_59_ut_22"
+    },
+    {
+      "end": 473614,
+      "speaker": "Blacki Migliozzi",
+      "start": 471370,
+      "text": "One quarter we just dropped is one quarter.",
+      "id": "ep_59_ut_23"
+    },
+    {
+      "end": 539060,
+      "speaker": "Eric Roston",
+      "start": 474474,
+      "text": "So. But there's one graphic in particular that puts forward the idea that here's the observed line, the observed temperature for the last 130 years or so. Here's what we observe about how volcanoes and the sun and one or two other things influence the temperature. Here's what we understand about how human influences affected the temperature. And you see very quickly that basically the natural factors are flat lines. They come nowhere near the rise in temperatures we see. And the man made forcings go right above it. They go higher even than the observed temperature. But when you net out, you basically subtract out the cooler natural forcings from the man made ones. And it tracks the observed line just about exactly.",
+      "id": "ep_59_ut_24"
+    },
+    {
+      "end": 548228,
+      "speaker": "Blacki Migliozzi",
+      "start": 539172,
+      "text": "So like we put a graphic out showing it, it is getting hotter. And then we basically attempted to make a graphic that is explaining its.",
+      "id": "ep_59_ut_25"
+    },
+    {
+      "end": 585408,
+      "speaker": "Eric Roston",
+      "start": 548356,
+      "text": "And so the next trick is. So we have these four volumes of 2000 pages each or so, 1500. I don't even know. How do you make that simple? And so the plan became to take the several thousand pages of scientific investigation and graft it into one of the most beloved and longstanding detective stories the english language has produced in the last half a century. And of course, I'm talking about where's spot? By Eric Hill.",
+      "id": "ep_59_ut_26"
+    },
+    {
+      "end": 587084,
+      "speaker": "Enrico Bertini",
+      "start": 585536,
+      "text": "Can you drop this one?",
+      "id": "ep_59_ut_27"
+    },
+    {
+      "end": 592558,
+      "speaker": "Eric Roston",
+      "start": 588694,
+      "text": "This is a single volume. It's about twelve pages long.",
+      "id": "ep_59_ut_28"
+    },
+    {
+      "end": 593134,
+      "speaker": "Enrico Bertini",
+      "start": 592646,
+      "text": "Yep.",
+      "id": "ep_59_ut_29"
+    },
+    {
+      "end": 594118,
+      "speaker": "Eric Roston",
+      "start": 593214,
+      "text": "So here we go. Ready?",
+      "id": "ep_59_ut_30"
+    },
+    {
+      "end": 595134,
+      "speaker": "Blacki Migliozzi",
+      "start": 594166,
+      "text": "18 inches again.",
+      "id": "ep_59_ut_31"
+    },
+    {
+      "end": 640262,
+      "speaker": "Eric Roston",
+      "start": 595254,
+      "text": "Oh, 18 inches. Here we go. Just for comparison. So spot is. Spot is the compelling story of a mother dog who can't find her son's spot. That spot? He hasn't eaten his supper. Where can he be? Is he behind the door? No. Is he inside the clock? And it's like a pop up. But there's flaps. You lift, and there's animals hiding. Is he in the piano? No. And then you get to the end, it says, there's spot. He's hiding under the rug. And you lift it, and it says, there's a turtle that says, try the basket. So then Sally goes over to the basket, leaps for the basket, opens it up, and there's.",
+      "id": "ep_59_ut_32"
+    },
+    {
+      "end": 641594,
+      "speaker": "Blacki Migliozzi",
+      "start": 640318,
+      "text": "Wait, don't spoil it.",
+      "id": "ep_59_ut_33"
+    },
+    {
+      "end": 668784,
+      "speaker": "Eric Roston",
+      "start": 643404,
+      "text": "So there's spot. And that was the sort of narrative model that we thought made sense. What's causing global warming? Is it the ozone? No, it's not the ozone. And that approach was very simple and got very immediately, just immediately, it got to the most basic answers that people have about the space.",
+      "id": "ep_59_ut_34"
+    },
+    {
+      "end": 736874,
+      "speaker": "Enrico Bertini",
+      "start": 669384,
+      "text": "Yeah, this is. Well, that's the reason why I believe that's very important work. And honestly, I haven't seen a lot of examples of science translated in such a beautiful way. And that is, at the same, accurate, based on what scientists produce, information produced by scientists, but at the same time translated in a way that is not only understandable, it's also engaging. And just a few days I was talking about the problem. I think one problem I see in visualization is that we talk a lot about how to do, how to make the right chart, but we don't talk enough about what's the narrative, what's the story. Oh, there is a big deal about storytelling, visual storytelling, but I don't believe that there are a lot of people trying to understand or dissect the problem of how do you actually engage people in a nice and accurate scientific story. So this is what I believe is really nice in this project. So what were the challenges from the visualization point of view? Blake?",
+      "id": "ep_59_ut_35"
+    },
+    {
+      "end": 747856,
+      "speaker": "Blacki Migliozzi",
+      "start": 736994,
+      "text": "Well, so, I mean, it's actually a very simple visualization. It's really just like a scrolly line chart. You know, we do this a lot.",
+      "id": "ep_59_ut_36"
+    },
+    {
+      "end": 749000,
+      "speaker": "Enrico Bertini",
+      "start": 747880,
+      "text": "It's called scrolly telling.",
+      "id": "ep_59_ut_37"
+    },
+    {
+      "end": 802562,
+      "speaker": "Blacki Migliozzi",
+      "start": 749032,
+      "text": "Right. Scrolling. Right. We do this a lot. One of our team members, Adam Pearce, built, like, a library for it, a graph scroll. But basically, whenever it's the right format, we don't want to overuse it. But whenever it's the right format, we do kind of jump into this scrolly telling. So, I mean, technically, I think that the challenge was sort of how do you present this material in a way that wasn't overwhelming. We went with this children's book narrative, but trying to keep that in a way that was keeping the science straight and making it so that you don't have to. Like, we didn't really want the user to really drill in.",
+      "id": "ep_59_ut_38"
+    },
+    {
+      "end": 803294,
+      "speaker": "Eric Roston",
+      "start": 802658,
+      "text": "Right.",
+      "id": "ep_59_ut_39"
+    },
+    {
+      "end": 834524,
+      "speaker": "Blacki Migliozzi",
+      "start": 803634,
+      "text": "It doesn't really matter what the hover state, like, the actual number is on, let's say, a year. We did, for example, try out several different things, several different approaches. Like, we had at one point, like sort of a tooltip that was showing you the temperature gap, and that was kind of visual flair, but at the same time, it was like, it was too much.",
+      "id": "ep_59_ut_40"
+    },
+    {
+      "end": 839024,
+      "speaker": "Enrico Bertini",
+      "start": 835784,
+      "text": "So is it because you want people to focus more on the trends?",
+      "id": "ep_59_ut_41"
+    },
+    {
+      "end": 842728,
+      "speaker": "Blacki Migliozzi",
+      "start": 839064,
+      "text": "Yeah, exactly. That was kind of a big conclusion we came to. Right.",
+      "id": "ep_59_ut_42"
+    },
+    {
+      "end": 849104,
+      "speaker": "Enrico Bertini",
+      "start": 842896,
+      "text": "So the more stuff you add, the less you see the main trend. And the trend is the story. Right.",
+      "id": "ep_59_ut_43"
+    },
+    {
+      "end": 875578,
+      "speaker": "Blacki Migliozzi",
+      "start": 849224,
+      "text": "And the data we. There's a lot of subtleties in working with, like, anomalies, for example. And this data in particular, the observed was on a different baseline than the NASA model. So making sure that these things lined up right was actually a lot of the work. So, for example, making sure that the.",
+      "id": "ep_59_ut_44"
+    },
+    {
+      "end": 877282,
+      "speaker": "Enrico Bertini",
+      "start": 875706,
+      "text": "Data points were comparable.",
+      "id": "ep_59_ut_45"
+    },
+    {
+      "end": 877938,
+      "speaker": "Blacki Migliozzi",
+      "start": 877378,
+      "text": "Yeah.",
+      "id": "ep_59_ut_46"
+    },
+    {
+      "end": 879562,
+      "speaker": "Enrico Bertini",
+      "start": 878066,
+      "text": "The time series were comparable.",
+      "id": "ep_59_ut_47"
+    },
+    {
+      "end": 884802,
+      "speaker": "Eric Roston",
+      "start": 879618,
+      "text": "No, that wasn't the issue as much because they all came from the same model. We'll talk about that in a minute.",
+      "id": "ep_59_ut_48"
+    },
+    {
+      "end": 982674,
+      "speaker": "Blacki Migliozzi",
+      "start": 884858,
+      "text": "Yeah, but the observed temperature relative to the, you know, the model like data, the observed temperature was on this, like, 1951 to 1980 baseline, which is basically that, the average of that. And so when I say a baseline, it's really just this vertical shift. So, which is, in a way, it's almost arbitrary. I don't want to say that, but it needs to, when you're comparing, like, two different data sets, they need to be on the same baseline and these datasets weren't. And, you know, I did, you know, sat on the phone with a NASA scientist, like, talking to him about how to calculate the correct baseline, thought I did that. Right. And when we even walked in and like, you know, the day before, we thought we were going to publish and we all had a discussion, came to the conclusion we should recalculate baseline one more time. And I didn't, like, I could have, I swear to you, we walked, we walked out of NASA. I was like, oh, my God, we got to scramble to recalculate this stuff. And I did it, and I really couldn't even tell the difference visually. But at least it's important to be, have that right. Correct methodology, even if it's so simple. It's such a change that you can't even visually tell the difference. To make sure that the methodology we took to even just shift the baselines to be on the same baseline, that has to be correct. So it's sort of out of respect to all the work that they've done in NASA. Sure.",
+      "id": "ep_59_ut_49"
+    },
+    {
+      "end": 995190,
+      "speaker": "Enrico Bertini",
+      "start": 983334,
+      "text": "Yeah. I mean, this is an aspect of this kind of projects that I'm really interested in, because me, if I were you, I would be super scared to be wrong. Right. And it's easy to be wrong.",
+      "id": "ep_59_ut_50"
+    },
+    {
+      "end": 998084,
+      "speaker": "Eric Roston",
+      "start": 995302,
+      "text": "Most of journalism is about living in terror.",
+      "id": "ep_59_ut_51"
+    },
+    {
+      "end": 1010192,
+      "speaker": "Enrico Bertini",
+      "start": 999544,
+      "text": "Yeah. Every time I talk to journalists who do this kind of work, they just tell me, yeah, I'll try my best, but then I might actually be wrong. And at some point I just need to publish it.",
+      "id": "ep_59_ut_52"
+    },
+    {
+      "end": 1025284,
+      "speaker": "Eric Roston",
+      "start": 1010248,
+      "text": "Right. You don't publish it if you, if you have any doubts. But. But the amount of effort that goes into checking and rechecking and getting other people to criticize it before you publish is. That's just part and parcel of what we do.",
+      "id": "ep_59_ut_53"
+    },
+    {
+      "end": 1043328,
+      "speaker": "Enrico Bertini",
+      "start": 1025664,
+      "text": "So, Eric, can we talk a little bit more about the scientific part? So I guess if I understand correctly, this data comes from a model. This is data coming. It's modeling. It's not just measurements. Right?",
+      "id": "ep_59_ut_54"
+    },
+    {
+      "end": 1068256,
+      "speaker": "Eric Roston",
+      "start": 1043416,
+      "text": "Correct. So there's basically two parts of it. Part of it is the observed temperature series that goes back to 1880, which is approximately around the time that basically thermometers became common around the world. And we got our first glimpse of actual mercury readings of what the temperature was all over the place.",
+      "id": "ep_59_ut_55"
+    },
+    {
+      "end": 1171744,
+      "speaker": "Moritz Stefaner",
+      "start": 1068400,
+      "text": "Hey, everybody, this is Moritz. As you know, I'm not with Enrico today, but I can tell you a bit about our sponsor. So today again, data stories is brought to you by Qlik, who allows you to explore the hidden relationships within your data that lead to meaningful insights. And as we mentioned last time, very recently, Qlik announced the general availability of Qlik Sense 2.0. And the highlights are there's a whole new version of Qlik Sense enterprise. There's the new Qlik data market. That's a data as a service cloud offering, and basically it gives you direct access to a lot of external data sources directly from within the application that you can add to your visualizations in a very easy and, and affordable and secure way. There's also new analytics platform. The new main features include smart load, so a lot of help in importing data and joining data sets, smart data compression and much improved print and export capabilities. And another interesting thing, Qlik was recently named top ten innovative growth company by Forbes. So Forbes always has a long list of 100 companies that are the most innovative ones and click ended up in the top ten. So that's quite an achievement. And they have a blog post on their site where you can explore this data set of the top 100 global innovative growth companies. And, yeah, we'll link that from the post. And if you're interested in the product, there's a free trial up at Qlik deries. Check it out and take a look. And now back to the show.",
+      "id": "ep_59_ut_56"
+    },
+    {
+      "end": 1180940,
+      "speaker": "Enrico Bertini",
+      "start": 1172324,
+      "text": "So how do we know that we have accurate temperature readings starting from 1880?",
+      "id": "ep_59_ut_57"
+    },
+    {
+      "end": 1181624,
+      "speaker": "Eric Roston",
+      "start": 1181012,
+      "text": "Sure.",
+      "id": "ep_59_ut_58"
+    },
+    {
+      "end": 1183668,
+      "speaker": "Enrico Bertini",
+      "start": 1182204,
+      "text": "I'm really curious about it.",
+      "id": "ep_59_ut_59"
+    },
+    {
+      "end": 1231164,
+      "speaker": "Eric Roston",
+      "start": 1183716,
+      "text": "Yeah. Because the technology changes the kinds of thermometer changes, where the thermometers are changes. So it's not just getting a reading from the thermometer and then the next thermometer, they have to know where every thermometer has always been and what kind of thermometer it is, so that when either the thermometer itself is moved or there's a new thermometer that replaces the old one because there's a better technology, they understand what basically the error bars for each kind of measurement technology is. And so when they process these decades long temperature records, they would not be able to do it without understanding, basically, the shortcomings and limitations of each measurement technology.",
+      "id": "ep_59_ut_60"
+    },
+    {
+      "end": 1232284,
+      "speaker": "Enrico Bertini",
+      "start": 1231324,
+      "text": "Okay. Yeah.",
+      "id": "ep_59_ut_61"
+    },
+    {
+      "end": 1233492,
+      "speaker": "Eric Roston",
+      "start": 1232364,
+      "text": "So that's.",
+      "id": "ep_59_ut_62"
+    },
+    {
+      "end": 1235948,
+      "speaker": "Enrico Bertini",
+      "start": 1233508,
+      "text": "It's recorded somewhere since.",
+      "id": "ep_59_ut_63"
+    },
+    {
+      "end": 1236940,
+      "speaker": "Eric Roston",
+      "start": 1236116,
+      "text": "Yeah.",
+      "id": "ep_59_ut_64"
+    },
+    {
+      "end": 1238060,
+      "speaker": "Enrico Bertini",
+      "start": 1237132,
+      "text": "Okay.",
+      "id": "ep_59_ut_65"
+    },
+    {
+      "end": 1243172,
+      "speaker": "Blacki Migliozzi",
+      "start": 1238252,
+      "text": "Is it statistical still, even then? I'm sure, you know, like, yeah, there's.",
+      "id": "ep_59_ut_66"
+    },
+    {
+      "end": 1357184,
+      "speaker": "Eric Roston",
+      "start": 1243228,
+      "text": "A whole, it's basically, it's a whole field dedicated to cleaning up old thermometer data. So, but in terms of. So that's where the, that's where the black line comes from. That's the observed line that answers the first question. How do we know it's warming? We know it's warming because the temperature is higher and it keeps getting higher. What the model is, is, if you want to take the broadest view, is what computation has done to science is it's opened sort of a third leg of investigation. There used to be, there's empirical observation, and there's thinking and hypotheses and theory. What computation has done has created a sort of middle ground where what scientists can do is look at the natural phenomena, whatever they're looking at, and reduce it to explain it with mathematics to show the dynamics. And then using, basically just relying on computation, they can set these equations together in these massive, massive pieces of software that we call models, like hundreds and hundreds of thousands of lines of code, and you need a supercomputer to run them. And that's what a simulation is. So they simulate how the world works. I don't know how many. I asked them because I was writing about it. How many equations are in the NASA Goddard Institute for Space Studies, model two. Model E. Two. There's about 500,000 lines of code in it and embedded in those are their best attempts to explain how the world works.",
+      "id": "ep_59_ut_67"
+    },
+    {
+      "end": 1362484,
+      "speaker": "Blacki Migliozzi",
+      "start": 1359124,
+      "text": "So I was gonna say, but it's not just them. Right? It's this CMIP.",
+      "id": "ep_59_ut_68"
+    },
+    {
+      "end": 1441296,
+      "speaker": "Eric Roston",
+      "start": 1362604,
+      "text": "Right. So, around the world. Around the world, there's about. So just to be clear, so the computer. I'm sorry. The climate scientists we work with on this project are NASA scientists who work for a unit that's in Manhattan, a NASA unit in Manhattan called the Goddard Institute, or GISS. It's abbreviated. The easiest frame of reference for most people will be that it actually inhabits the building above Tom's restaurant on 112th and Broadway, which was famously the exterior shot for the Seinfeld cafe. And before that, it was famous because there was a Suzanne Vega song about it. So there are about 30 different research groups around the world who experiment on these models, and these 30 groups have created more than 60 separate models and models. They focus on different things. Some are longer, some are shorter. The research groups have different areas of interest. So to keep the whole climate modeling research community sort of on the same page, there's a centralized project called the.",
+      "id": "ep_59_ut_69"
+    },
+    {
+      "end": 1445528,
+      "speaker": "Blacki Migliozzi",
+      "start": 1441480,
+      "text": "Couple Model inner comparison project, phase phase five.",
+      "id": "ep_59_ut_70"
+    },
+    {
+      "end": 1448320,
+      "speaker": "Eric Roston",
+      "start": 1445576,
+      "text": "We just call it phase five because it sounds like Star Trek.",
+      "id": "ep_59_ut_71"
+    },
+    {
+      "end": 1449648,
+      "speaker": "Enrico Bertini",
+      "start": 1448352,
+      "text": "Say it again. Is it an acronym?",
+      "id": "ep_59_ut_72"
+    },
+    {
+      "end": 1456904,
+      "speaker": "Blacki Migliozzi",
+      "start": 1449696,
+      "text": "Yeah, that's. CMIP is the acronym Coupled Model Intercomparison Project, phase five. Yeah.",
+      "id": "ep_59_ut_73"
+    },
+    {
+      "end": 1595364,
+      "speaker": "Eric Roston",
+      "start": 1457604,
+      "text": "And so what that central body of this professional community does is one of the things it does is it comes up with what you should do with your model. And because they need objective tests that they can apply to every model that's been written, both to evaluate the models and to evaluate what we actually know about how the climate works. So what this graphic is based on is the observed temperature data and the model results for one of those phase five experiments that they call the historical experiment. And so what they do in that experiment is they ask the scientists to model, to see how well their model reproduces the temperature of the last hundred 30 years or so, and additionally to go basically climate factor by climate factor, to see if each factor that influences the climate might be responsible for the observed temperature rise that we see. So they're asked to look at the orbital changes of the earth, because one sort of talking point you see among climate deniers, or skeptics, or whatever we're calling them today, is, oh, the climate always changes. And that's true. The earth's climate always changes, because anywhere from 26,000 to 100,000 years, changes in the earth's orbit have an effect on how much solar radiation we're getting. But you can see on the scale of 130 years in the first slide here, it's basically a flat line. And, well, in another, and also people say, well, maybe it's the sun, because the sun is actually the source of all our power, as Eric idle once said. And except that it's not causing this warming. And you go, we went forcing by forcing, that's what the scientists call them, are climate forcings. And once you see the outsized influence of the greenhouse gases, that's kind of game, set, match.",
+      "id": "ep_59_ut_74"
+    },
+    {
+      "end": 1599180,
+      "speaker": "Enrico Bertini",
+      "start": 1595524,
+      "text": "So let me try to rephrase what you said just to make sure I understand.",
+      "id": "ep_59_ut_75"
+    },
+    {
+      "end": 1600020,
+      "speaker": "Eric Roston",
+      "start": 1599292,
+      "text": "Okay, sorry.",
+      "id": "ep_59_ut_76"
+    },
+    {
+      "end": 1623214,
+      "speaker": "Enrico Bertini",
+      "start": 1600092,
+      "text": "So basically, what happens is that climate modelers create mathematical models to describe climate, right. But then, of course, they have to check that this model is accurate. And in order to check, they use measurements, data that we do have. Right? Is that correct?",
+      "id": "ep_59_ut_77"
+    },
+    {
+      "end": 1639554,
+      "speaker": "Eric Roston",
+      "start": 1623514,
+      "text": "Yeah. There's two parts of it, I think. One is, yes, they're checking their work against observed data, but they're also checking their models against each other to. Just to test how good the models are.",
+      "id": "ep_59_ut_78"
+    },
+    {
+      "end": 1679004,
+      "speaker": "Blacki Migliozzi",
+      "start": 1639594,
+      "text": "There's like 61 simulations, right? So you can imagine it's like 61 different times. You had, like, a physics engine written and everybody kind of agreed ahead of time. We're going to factor in these things in the physics. So you can imagine 61 different times, 61 simulations, all different code bases, people run the same historical experiment. The thing is that it's done different times with different organizations. So many, you know, 61. But they kind of all kind of lead to the same sort of consensus.",
+      "id": "ep_59_ut_79"
+    },
+    {
+      "end": 1686788,
+      "speaker": "Eric Roston",
+      "start": 1679124,
+      "text": "Different people working for different institutions in different countries at different times, all come up with the same answer.",
+      "id": "ep_59_ut_80"
+    },
+    {
+      "end": 1701296,
+      "speaker": "Blacki Migliozzi",
+      "start": 1686836,
+      "text": "So that's the CMIP. That's one important part about the CMIP project, right. Is that, like, there's this historical component to just see if what, if what we are able to model, you know, can reproduce what we historically see.",
+      "id": "ep_59_ut_81"
+    },
+    {
+      "end": 1725064,
+      "speaker": "Eric Roston",
+      "start": 1701400,
+      "text": "And we actually had completely. We had. We have an entirely second set of data. Like, we. It wasn't a foregone conclusion that we were going to use this particular. You have to be careful about the difference between data and modeling results. Yeah, we were. We could just as easily have done this with another group's modeling results, but we didn't for almost, you know, convenience. Yeah.",
+      "id": "ep_59_ut_82"
+    },
+    {
+      "end": 1731972,
+      "speaker": "Enrico Bertini",
+      "start": 1726004,
+      "text": "This actually makes me think about why not doing this with observational data directly.",
+      "id": "ep_59_ut_83"
+    },
+    {
+      "end": 1738964,
+      "speaker": "Eric Roston",
+      "start": 1732148,
+      "text": "Because what we have, the observational data we have is there, which is.",
+      "id": "ep_59_ut_84"
+    },
+    {
+      "end": 1766686,
+      "speaker": "Enrico Bertini",
+      "start": 1739044,
+      "text": "Maybe I should describe what I mean by observational data just to make sure that everyone understands. I mean, so what you show in the graph is information coming from the simulation that you get out of the mode except for. Except for the temperature. The black line. Right. But in principle, one could measure these things and use these measurements in the.",
+      "id": "ep_59_ut_85"
+    },
+    {
+      "end": 1803142,
+      "speaker": "Eric Roston",
+      "start": 1766710,
+      "text": "Chart, but probably not, right. I would describe it less as measurement than understanding of how each thing works. Like some of them, we can. Like the sun, we can certainly measure. Volcanoes are. There's a lot of little volcanoes. There have been papers over the last few years about how they missed some of the little volcanoes. But for some of the forcings, yes, for all of them, no. Some of them are very difficult, and they just have to make estimates based on what has been observed and the temperature potential of each forcing.",
+      "id": "ep_59_ut_86"
+    },
+    {
+      "end": 1807580,
+      "speaker": "Blacki Migliozzi",
+      "start": 1803198,
+      "text": "So when we say a forcing, too, you can imagine that that's like the input to the simulation.",
+      "id": "ep_59_ut_87"
+    },
+    {
+      "end": 1808076,
+      "speaker": "Enrico Bertini",
+      "start": 1807692,
+      "text": "Yeah.",
+      "id": "ep_59_ut_88"
+    },
+    {
+      "end": 1854348,
+      "speaker": "Blacki Migliozzi",
+      "start": 1808140,
+      "text": "They run that simulation five times on a supercomputer because. Big number crunching machine. But you input these forcings that sort of align with what we do. Observe volcanoes. They happen regularly enough in this simulation that it lines up with the same, you know, regularity of how it happens on earth, but the output ends up being the response to those forcings in, like, the temperature. So everything you're seeing on this, too, is always just temperature responses to the input, which was, let's say, increasing greenhouse gases or so what you call forcings.",
+      "id": "ep_59_ut_89"
+    },
+    {
+      "end": 1857980,
+      "speaker": "Enrico Bertini",
+      "start": 1854436,
+      "text": "Is what you have here in the graph, like land use, ozone.",
+      "id": "ep_59_ut_90"
+    },
+    {
+      "end": 1872332,
+      "speaker": "Eric Roston",
+      "start": 1858132,
+      "text": "Yeah, there are. There are natural forcings, and there are anthropogenic or man made forcings. And the scientists, like everyone, anyone who's ever worked with sciences scientists, know that.",
+      "id": "ep_59_ut_91"
+    },
+    {
+      "end": 1873744,
+      "speaker": "Enrico Bertini",
+      "start": 1872388,
+      "text": "I work a lot with them.",
+      "id": "ep_59_ut_92"
+    },
+    {
+      "end": 1882340,
+      "speaker": "Eric Roston",
+      "start": 1874284,
+      "text": "Well, so they go ballistic. If you call the actual lines on the chart forcing. They are the temperature response to the forcings.",
+      "id": "ep_59_ut_93"
+    },
+    {
+      "end": 1890504,
+      "speaker": "Blacki Migliozzi",
+      "start": 1882412,
+      "text": "It's after the, like, you input the forcing you out, like you run a simulation, and the output is you're seeing the response on temperature.",
+      "id": "ep_59_ut_94"
+    },
+    {
+      "end": 1904164,
+      "speaker": "Enrico Bertini",
+      "start": 1891284,
+      "text": "So these colored lines that we see are basically the predicted temperature, if you would take into account only this forcing. Is that correct?",
+      "id": "ep_59_ut_95"
+    },
+    {
+      "end": 1909668,
+      "speaker": "Eric Roston",
+      "start": 1904204,
+      "text": "Yeah. For each new page, the whole world is held constant except for that forcing.",
+      "id": "ep_59_ut_96"
+    },
+    {
+      "end": 1910824,
+      "speaker": "Enrico Bertini",
+      "start": 1909756,
+      "text": "Okay. Yeah.",
+      "id": "ep_59_ut_97"
+    },
+    {
+      "end": 1962824,
+      "speaker": "Blacki Migliozzi",
+      "start": 1911494,
+      "text": "He said, you know, we have anthropogenic forcings and, you know, natural forcings. The natural forcings are the orbit, the sun, the volcanoes. These are things that we can, you know, within reason, say that, you know, humans aren't having an impact on these things versus, you know, this comparison to the anthropogenic ones, which. So, like, for example, we combined. We were like, okay, let's. Let's show these natural ones combined. We were lucky enough that they ran the model with the natural forcings combined. So it wasn't something that we just, like, munch some data. Believe me, I tried for a second, and I was like, this is too hard. We were like, we basically reached out to NASA, and we're like, do you guys have this data? And they were like, oh, yeah, we have that. You know, here. I'm, like, trying to.",
+      "id": "ep_59_ut_98"
+    },
+    {
+      "end": 1996234,
+      "speaker": "Enrico Bertini",
+      "start": 1964494,
+      "text": "No, it's very nice. I love it. And I have to confess that. So let me tell you about my reaction to this graph. So I got into the page, I read what's really warm in the world, and I scroll through, and only at the end, I realized that this data came from a model. Right. And my gut reaction was like, yeah, but this is just a model, right?",
+      "id": "ep_59_ut_99"
+    },
+    {
+      "end": 1996854,
+      "speaker": "Eric Roston",
+      "start": 1996274,
+      "text": "Yeah.",
+      "id": "ep_59_ut_100"
+    },
+    {
+      "end": 2008538,
+      "speaker": "Enrico Bertini",
+      "start": 1997314,
+      "text": "And then I read the details, and I was much more convinced, but my gut reaction was like, well, that's not data. Right, right. So I think it's very interesting to discuss.",
+      "id": "ep_59_ut_101"
+    },
+    {
+      "end": 2063382,
+      "speaker": "Eric Roston",
+      "start": 2008626,
+      "text": "What do we consider to talk about that? So, I think this is the observed temperature line is data. The lines that reflect how each of the forcings have affected the climate. Those reflect our best understanding of what happened. Yeah, like, we don't know. We don't have special thermometers that only measure solar energy. There's also only one planet. We don't have, a planet where we can turn up the sulfur pollution. So it's a very important distinction. I think it's a very common response to anything having to do with climate models and among thoughtful people and also among people who just want the whole thing to go away. Oh, it's just models. It doesn't exist.",
+      "id": "ep_59_ut_102"
+    },
+    {
+      "end": 2065966,
+      "speaker": "Enrico Bertini",
+      "start": 2063438,
+      "text": "Yeah. It's an easy criticism.",
+      "id": "ep_59_ut_103"
+    },
+    {
+      "end": 2091393,
+      "speaker": "Eric Roston",
+      "start": 2066030,
+      "text": "Yes. But my glib response is always, no one ever says, oh, hedge funds report that they make buckets and buckets of money, but they're just using models so that money's not real. Drug stores use models to figure out where they should put the diapers and where they should put their thermometers.",
+      "id": "ep_59_ut_104"
+    },
+    {
+      "end": 2092093,
+      "speaker": "Enrico Bertini",
+      "start": 2091473,
+      "text": "Sure.",
+      "id": "ep_59_ut_105"
+    },
+    {
+      "end": 2097400,
+      "speaker": "Eric Roston",
+      "start": 2092553,
+      "text": "But nobody would say that the thermometers aren't really in aisle six, because it's only because of models.",
+      "id": "ep_59_ut_106"
+    },
+    {
+      "end": 2098880,
+      "speaker": "Enrico Bertini",
+      "start": 2097512,
+      "text": "Yeah, yeah, yeah, yeah.",
+      "id": "ep_59_ut_107"
+    },
+    {
+      "end": 2111504,
+      "speaker": "Eric Roston",
+      "start": 2099072,
+      "text": "And to take it. To take it out of even the computer setting, you know, like, if I eat vegetables and exercise a lot, I'll lose weight. Like, that's a model. That's what we're talking about when we talk about models.",
+      "id": "ep_59_ut_108"
+    },
+    {
+      "end": 2156082,
+      "speaker": "Enrico Bertini",
+      "start": 2111544,
+      "text": "Sure, sure. And, Blecky, I wanted to ask you something more about the design decision. So it looks to me that you kind of, like, at a deliberate design decisions, not to explain too much from the very beginning. Right. Because the graphics is organized in a way that you are very easily attracted, and the steps are very natural and fluid and engaging. So I guess if you explain too much too early, you just break the flow, I guess. Right. So was that a deliberate decision? You get all the information you want at the end. Right. I really like, yeah, we provided even the data.",
+      "id": "ep_59_ut_109"
+    },
+    {
+      "end": 2184448,
+      "speaker": "Blacki Migliozzi",
+      "start": 2156138,
+      "text": "Right. So we published that. Yeah, yeah. I mean, that was totally deliberate. I mean, a big thing, like I said, was that we didn't want to provide details on demand. We didn't want you to, like, basically just get hung up on one slide. And we also wanted you just to understand trends. Right. So to just kind of tie that into the narrative of the. What you're stepping through. Right. So you understand. Okay, this basically is around the zero line. This is around the zero line. This one, for some reason, goes a.",
+      "id": "ep_59_ut_110"
+    },
+    {
+      "end": 2185504,
+      "speaker": "Eric Roston",
+      "start": 2184456,
+      "text": "Little below the zero line.",
+      "id": "ep_59_ut_111"
+    },
+    {
+      "end": 2198288,
+      "speaker": "Blacki Migliozzi",
+      "start": 2185544,
+      "text": "You know, that's what kind of mattered. Right. A big thing, too, with that animation was just to, like, show that these, you know, these lines actually combine together and you can see that net effect with the animation.",
+      "id": "ep_59_ut_112"
+    },
+    {
+      "end": 2198648,
+      "speaker": "Enrico Bertini",
+      "start": 2198376,
+      "text": "Sure.",
+      "id": "ep_59_ut_113"
+    },
+    {
+      "end": 2208972,
+      "speaker": "Blacki Migliozzi",
+      "start": 2198696,
+      "text": "Right. So, I mean, yeah, it's a lot. It's. We try to be very light handed on the, you know, like providing extra information.",
+      "id": "ep_59_ut_114"
+    },
+    {
+      "end": 2227864,
+      "speaker": "Enrico Bertini",
+      "start": 2209068,
+      "text": "I think this is one of the biggest challenges for this kind of graphics being engaging, but at the same time accurate. And it's a very fine balance between these two things. And again, I think these graphics is the nice solution.",
+      "id": "ep_59_ut_115"
+    },
+    {
+      "end": 2230764,
+      "speaker": "Blacki Migliozzi",
+      "start": 2228884,
+      "text": "The 95% confidence interval.",
+      "id": "ep_59_ut_116"
+    },
+    {
+      "end": 2231244,
+      "speaker": "Eric Roston",
+      "start": 2230804,
+      "text": "Right.",
+      "id": "ep_59_ut_117"
+    },
+    {
+      "end": 2235932,
+      "speaker": "Blacki Migliozzi",
+      "start": 2231364,
+      "text": "Oh, that was something that was almost like a record NASA wanted.",
+      "id": "ep_59_ut_118"
+    },
+    {
+      "end": 2239988,
+      "speaker": "Eric Roston",
+      "start": 2235988,
+      "text": "Right. They were like, well, before we even talked to them, we knew we wanted.",
+      "id": "ep_59_ut_119"
+    },
+    {
+      "end": 2244956,
+      "speaker": "Blacki Migliozzi",
+      "start": 2240076,
+      "text": "Absolutely. But, you know, they really, they were emphasizing it because it's so for those.",
+      "id": "ep_59_ut_120"
+    },
+    {
+      "end": 2258132,
+      "speaker": "Enrico Bertini",
+      "start": 2244980,
+      "text": "Who are not listen, who are listening and don't have the graphics in front, you are talking about the fact that these lines that are factors, they have a band around describing the 95%, to.",
+      "id": "ep_59_ut_121"
+    },
+    {
+      "end": 2260836,
+      "speaker": "Blacki Migliozzi",
+      "start": 2258148,
+      "text": "Use NASA's words, the error envelope.",
+      "id": "ep_59_ut_122"
+    },
+    {
+      "end": 2323634,
+      "speaker": "Eric Roston",
+      "start": 2260980,
+      "text": "Yeah. Well, one way to think about it, and one way to think about this whole problem in general, or the science, however you want to define it, is that we understand climate change really well. It's a science that's been around for several decades now. The fundamental physics, understanding of the physics have not changed for decades. What we don't understand is climate variability. We don't understand with as much confidence as we'd like, the boundaries of the system. So what that uncertainty bars, what those. What the dots around each line are showing you is that because we understand climate, but we don't understand weather. So we know with 95% confidence that the right answer is in that area, but we just don't understand weather enough to be able to do it.",
+      "id": "ep_59_ut_123"
+    },
+    {
+      "end": 2342770,
+      "speaker": "Enrico Bertini",
+      "start": 2325974,
+      "text": "So I want to conclude with a couple of quick questions. So one is, I think another thing that strikes me is the fact that I guess this data is available, right? So another person could have just access.",
+      "id": "ep_59_ut_124"
+    },
+    {
+      "end": 2346114,
+      "speaker": "Eric Roston",
+      "start": 2342842,
+      "text": "They still can. The data, the data is all linked to in the methodology.",
+      "id": "ep_59_ut_125"
+    },
+    {
+      "end": 2359654,
+      "speaker": "Enrico Bertini",
+      "start": 2346274,
+      "text": "And I think we need more of these kind of projects out there. So if, I don't know, somebody's listening and wants to do something along these lines with this flavor, what, what would be your recommendations?",
+      "id": "ep_59_ut_126"
+    },
+    {
+      "end": 2364274,
+      "speaker": "Eric Roston",
+      "start": 2360634,
+      "text": "Well, we. We're not done by any stretch of the imagination. We have.",
+      "id": "ep_59_ut_127"
+    },
+    {
+      "end": 2365694,
+      "speaker": "Enrico Bertini",
+      "start": 2364314,
+      "text": "That's my second question.",
+      "id": "ep_59_ut_128"
+    },
+    {
+      "end": 2400862,
+      "speaker": "Eric Roston",
+      "start": 2366074,
+      "text": "This is a very important year for the global climate change debate. We've already seen the unorthodox step of the bishop of Rome weighing in, in just a couple of days, actually, or maybe it's next week. There's an important UN meeting on development finance in September. There's, the UN General assembly is going to take up sustainable development goals. And then at the end of the year is the Paris climate talks, when 193 nations are going to figure out how to sit down and save the world.",
+      "id": "ep_59_ut_129"
+    },
+    {
+      "end": 2411222,
+      "speaker": "Blacki Migliozzi",
+      "start": 2401038,
+      "text": "Also, the success of these two graphics kind of has led us to kind of develop a series, which we hope, basically, there's more coming from us on this. Sure.",
+      "id": "ep_59_ut_130"
+    },
+    {
+      "end": 2431206,
+      "speaker": "Eric Roston",
+      "start": 2411358,
+      "text": "I think that this space is so rich and so broad and there's so much good work to do that there's plenty of opportunity for anyone with skills like Blacki's and the ability to ask really dumb questions.",
+      "id": "ep_59_ut_131"
+    },
+    {
+      "end": 2445790,
+      "speaker": "Enrico Bertini",
+      "start": 2431350,
+      "text": "So. You guys listening to that? Yeah. Search for interesting problems like this one. Data is probably available. If not, I guess scientists are almost always willing to cooperate as long as.",
+      "id": "ep_59_ut_132"
+    },
+    {
+      "end": 2452732,
+      "speaker": "Eric Roston",
+      "start": 2445862,
+      "text": "Well, particularly in the case of a federal, us federal agency. They're actually. They're public servants.",
+      "id": "ep_59_ut_133"
+    },
+    {
+      "end": 2453376,
+      "speaker": "Enrico Bertini",
+      "start": 2452838,
+      "text": "Oh, yeah.",
+      "id": "ep_59_ut_134"
+    },
+    {
+      "end": 2462944,
+      "speaker": "Eric Roston",
+      "start": 2453480,
+      "text": "These are publicly funded agencies, and they. I've always, in my career as a science writer, been grateful to their willingness to work with us.",
+      "id": "ep_59_ut_135"
+    },
+    {
+      "end": 2464672,
+      "speaker": "Blacki Migliozzi",
+      "start": 2463024,
+      "text": "We couldn't have done it without the.",
+      "id": "ep_59_ut_136"
+    },
+    {
+      "end": 2469624,
+      "speaker": "Eric Roston",
+      "start": 2464688,
+      "text": "Help of Kate and Kate Marvel and Gavin Schmidt from NASA.",
+      "id": "ep_59_ut_137"
+    },
+    {
+      "end": 2477696,
+      "speaker": "Blacki Migliozzi",
+      "start": 2469704,
+      "text": "Yeah, I mean, a lot of emails back and forth, a lot of getting on the phone asking them. They were just incredibly helpful.",
+      "id": "ep_59_ut_138"
+    },
+    {
+      "end": 2507746,
+      "speaker": "Eric Roston",
+      "start": 2477880,
+      "text": "The response has been overwhelming, and we're very grateful that people have found value in it. And on Twitter in particular, one of the funny things that happened is a lot of people credited NASA for doing it. And me, I'm happy for Blacki and NASA to take credit. I'll take it blame as much as anybody wants. But this is. It's not a NASA project. However, I give them all the credit, but they don't bear any responsibility for whatever's wrong with it.",
+      "id": "ep_59_ut_139"
+    },
+    {
+      "end": 2518258,
+      "speaker": "Enrico Bertini",
+      "start": 2507850,
+      "text": "So do you think this is having an impact? Do you think some people, do you have anecdotal evidence that some people look at this and think, well, oh, wow.",
+      "id": "ep_59_ut_140"
+    },
+    {
+      "end": 2536548,
+      "speaker": "Eric Roston",
+      "start": 2518346,
+      "text": "No, certainly, certainly when Moby treated, Moby tweeted it out. Oh, yeah. Obama's top two climate advisors tweeted it out. Really? The Vatican science agency tweeted it out.",
+      "id": "ep_59_ut_141"
+    },
+    {
+      "end": 2538864,
+      "speaker": "Enrico Bertini",
+      "start": 2536716,
+      "text": "Congratulations, guys. I didn't.",
+      "id": "ep_59_ut_142"
+    },
+    {
+      "end": 2591014,
+      "speaker": "Eric Roston",
+      "start": 2539684,
+      "text": "That's like, I mean, that was fun. And it's gratifying when people are sort of ingesting your work. But what is important is we're in a period of phenomenal change in this issue. Basically, this week I wrote a story about a contingent of Republicans in Washington who have had it with the basically denial campaign that's been a Republican Party policy for a long time. And they said, look, we're conservatives, and the best thing, the thing we're best at is creating conservative solutions to problems. So why don't we just do that? And between that and some of the religious activity there is, I would not be surprised if there were big breaks in this conversation in the next six months to two years.",
+      "id": "ep_59_ut_143"
+    },
+    {
+      "end": 2600994,
+      "speaker": "Enrico Bertini",
+      "start": 2591994,
+      "text": "Nice. Well, guys, thanks a lot. That's great and fascinating work. Thanks for making these charts and these stories.",
+      "id": "ep_59_ut_144"
+    },
+    {
+      "end": 2602402,
+      "speaker": "Eric Roston",
+      "start": 2601074,
+      "text": "Thank you very much for your interest.",
+      "id": "ep_59_ut_145"
+    },
+    {
+      "end": 2604522,
+      "speaker": "Enrico Bertini",
+      "start": 2602458,
+      "text": "Thanks for coming on the show. That's amazing.",
+      "id": "ep_59_ut_146"
+    },
+    {
+      "end": 2606614,
+      "speaker": "Eric Roston",
+      "start": 2604578,
+      "text": "And if anyone's still listening, thank you.",
+      "id": "ep_59_ut_147"
+    },
+    {
+      "end": 2612360,
+      "speaker": "Enrico Bertini",
+      "start": 2607554,
+      "text": "Yeah, we are looking forward to see what else you guys are, are able to produce.",
+      "id": "ep_59_ut_148"
+    },
+    {
+      "end": 2618576,
+      "speaker": "Blacki Migliozzi",
+      "start": 2612432,
+      "text": "Can I give a shameless plug? Is that okay? Yeah, sure. You know, we are also, Bloomberg graphics is hiring, so.",
+      "id": "ep_59_ut_149"
+    },
+    {
+      "end": 2619400,
+      "speaker": "Enrico Bertini",
+      "start": 2618720,
+      "text": "Oh, sure.",
+      "id": "ep_59_ut_150"
+    },
+    {
+      "end": 2620000,
+      "speaker": "Blacki Migliozzi",
+      "start": 2619472,
+      "text": "Of course.",
+      "id": "ep_59_ut_151"
+    },
+    {
+      "end": 2628112,
+      "speaker": "Enrico Bertini",
+      "start": 2620072,
+      "text": "Yes. So if you want to be, you want to work with Bloomberg, so how can they contact you?",
+      "id": "ep_59_ut_152"
+    },
+    {
+      "end": 2636548,
+      "speaker": "Blacki Migliozzi",
+      "start": 2628288,
+      "text": "I'll send out a link to you. But we. Yeah, the graphics team specifically is looking to expand several positions.",
+      "id": "ep_59_ut_153"
+    },
+    {
+      "end": 2638052,
+      "speaker": "Enrico Bertini",
+      "start": 2636656,
+      "text": "Okay, perfect.",
+      "id": "ep_59_ut_154"
+    },
+    {
+      "end": 2650664,
+      "speaker": "Eric Roston",
+      "start": 2638188,
+      "text": "And also a shout out to our colleagues, Wes Kosovo, who is the head of the graphics section, Mario Giovann, who also runs the section Tom Randall, who I work with very closely in the reporting side.",
+      "id": "ep_59_ut_155"
+    },
+    {
+      "end": 2654544,
+      "speaker": "Blacki Migliozzi",
+      "start": 2651524,
+      "text": "Everyone else sitting next to me in the graphics.",
+      "id": "ep_59_ut_156"
+    },
+    {
+      "end": 2656940,
+      "speaker": "Enrico Bertini",
+      "start": 2656124,
+      "text": "Thanks a lot.",
+      "id": "ep_59_ut_157"
+    },
+    {
+      "end": 2657420,
+      "speaker": "Eric Roston",
+      "start": 2657012,
+      "text": "Thank you.",
+      "id": "ep_59_ut_158"
+    },
+    {
+      "end": 2685864,
+      "speaker": "Enrico Bertini",
+      "start": 2657452,
+      "text": "Bye bye. Data stories is brought to you by clicking who allows you to explore the hidden relationships within your data that lead to meaningful insights. Let your instincts lead the way to create personalized visualizations and dynamic dashboards with Qlik sense, which you can download for free at Qlik Datastories. That's Qlik Datastories.",
+      "id": "ep_59_ut_159"
+    }
+  ],
+  "confidence": 0.92436998748435,
+  "audio_duration": 2686,
+  "punctuate": true,
+  "format_text": true,
+  "dual_channel": false,
+  "webhook_url": null,
+  "webhook_status_code": null,
+  "webhook_auth": false,
+  "webhook_auth_header_name": null,
+  "speed_boost": false,
+  "auto_highlights_result": null,
+  "auto_highlights": false,
+  "audio_start_from": null,
+  "audio_end_at": null,
+  "word_boost": [],
+  "boost_param": null,
+  "filter_profanity": false,
+  "redact_pii": false,
+  "redact_pii_audio": false,
+  "redact_pii_audio_quality": null,
+  "redact_pii_policies": null,
+  "redact_pii_sub": null,
+  "speaker_labels": true,
+  "content_safety": false,
+  "iab_categories": true,
+  "content_safety_labels": {
+    "status": "unavailable",
+    "results": [],
+    "summary": {}
+  },
+  "language_detection": false,
+  "language_detection_threshold": null,
+  "language_confidence": null,
+  "custom_spelling": null,
+  "throttled": false,
+  "auto_chapters": true,
+  "summarization": false,
+  "summary_type": null,
+  "summary_model": null,
+  "custom_topics": false,
+  "topics": [],
+  "speech_threshold": null,
+  "speech_model": "best",
+  "chapters": [
+    {
+      "summary": "Enrico: This is a special episode that I'm recording directly from Bloomberg. We want to talk about a project that they published a few days or weeks ago on the Bloomberg website called what's really warming the world? It's about climate change.",
+      "gist": "What's Really Warming the World?",
+      "headline": "This episode is brought to you by Qlik, who helps you visualize data",
+      "start": 200,
+      "end": 98786,
+      "id": "ep_59_ch_0"
+    },
+    {
+      "summary": "The project uses Bloomberg. com graphics. 2015, what's warming the world? Every time you scroll, you have a new piece of information. The page ends with a methodology section where you actually describe the science behind this thing.",
+      "gist": "What's Warming the World?",
+      "headline": "Bloomberg Climate visualization shows correlation between temperature and greenhouse gases",
+      "start": 98970,
+      "end": 282736,
+      "id": "ep_59_ch_1"
+    },
+    {
+      "summary": "The project started about a year and a half ago. The team wanted to produce some visual aids that would help people understand climate change. Blacki: What's the science behind this?",
+      "gist": "The Science of Climate Change",
+      "headline": "The project started about a year ago with an interest in climate change",
+      "start": 282850,
+      "end": 332746,
+      "id": "ep_59_ch_2"
+    },
+    {
+      "summary": "2014 was the hottest year on record. Is the world getting warmer? And yes, the world is getting warmer. The next question is, what's causing it? And so the next trick is. How do you make that simple?",
+      "gist": "The Hottest Year on Record",
+      "headline": "The two first questions about climate change are, is the world getting warmer",
+      "start": 332810,
+      "end": 580624,
+      "id": "ep_59_ch_3"
+    },
+    {
+      "summary": "Eric Hill: How do you engage people in a nice and accurate scientific story? Hill: One problem I see in visualization is that we don't talk enough about what's the narrative. And honestly, I haven't seen a lot of examples of science translated in such a beautiful way.",
+      "gist": "Where's Spot?: The Story of Science",
+      "headline": "Eric Hill writes about how to translate science into visual storytelling",
+      "start": 580704,
+      "end": 731534,
+      "id": "ep_59_ch_4"
+    },
+    {
+      "summary": "Blake: The challenge was how do you present this material in a way that wasn't overwhelming. The data in particular, the observed was on a different baseline than the NASA model. Correct methodology, even if it's so simple, has to be correct.",
+      "gist": "What were the challenges of presenting the science?",
+      "headline": "Blake: The challenge was presenting this material in a way that wasn't overwhelming",
+      "start": 732154,
+      "end": 1025284,
+      "id": "ep_59_ch_5"
+    },
+    {
+      "summary": "Moritz: This is data coming. It's modeling. Part of it is the observed temperature series that goes back to 1880. And we got our first glimpse of actual mercury readings of what the temperature was all over the place.",
+      "gist": "The science of global warming",
+      "headline": "This data comes from a model; it's not just measurements",
+      "start": 1025664,
+      "end": 1074632,
+      "id": "ep_59_ch_6"
+    },
+    {
+      "summary": "Qlik announced the general availability of Qlik Sense 2.0. The new main features include smart load, smart data compression and much improved print and export capabilities. Qlik was recently named top ten innovative growth company by Forbes. There's a free trial up at Qlik deries.",
+      "gist": "Qlik Named Top 10 Global Innovative Growth Companies",
+      "headline": "Qlik recently announced the general availability of Qlik Sense 2.0",
+      "start": 1074728,
+      "end": 1170144,
+      "id": "ep_59_ch_7"
+    },
+    {
+      "summary": "How do we know that we have accurate temperature readings starting from 1880? A whole field dedicated to cleaning up old thermometer data. To keep the whole climate modeling research community sort of on the same page, there's a centralized project called the Couple Model inner comparison project.",
+      "gist": "The Couple Model Intercomparison Project",
+      "headline": "How do we know that we have accurate temperature readings starting from 1880? Sure",
+      "start": 1170234,
+      "end": 1706728,
+      "id": "ep_59_ch_8"
+    },
+    {
+      "summary": "Graph is information coming from the simulation that you get out of the mode except for temperature. There are natural forcings, and there are anthropogenic or man made forcings. Some of the forcings are very difficult to estimate. This makes me think about why not doing this with observational data directly.",
+      "gist": "Putting the forcing in the climate",
+      "headline": "You have to be careful about comparing data and modeling results",
+      "start": 1706776,
+      "end": 1968998,
+      "id": "ep_59_ch_9"
+    },
+    {
+      "summary": "The observed temperature line is data. The lines that reflect how each of the forcings have affected the climate are models. It's a common response to anything having to do with climate models. What do we consider to discuss that?",
+      "gist": "Oh, It's Just a Model!",
+      "headline": "So let me tell you about my reaction to this graph. And my gut reaction was like, this is just a model",
+      "start": 1969046,
+      "end": 2112136,
+      "id": "ep_59_ch_10"
+    },
+    {
+      "summary": "The graphics are organized in a way that you are very easily attracted, and the steps are very natural and fluid and engaging. Was that a deliberate decision? You get all the information you want at the end. We try to be very light handed on the extra information.",
+      "gist": "NASA's Climate Graphics",
+      "headline": "The graphics are very engaging, but they are accurate, right",
+      "start": 2112240,
+      "end": 2323634,
+      "id": "ep_59_ch_11"
+    },
+    {
+      "summary": "This is a very important year for the global climate change debate. The success of these two graphics kind of has led us to kind of develop a series. And I think we need more of these kind of projects out there.",
+      "gist": "A Lesson from the Climate Charts",
+      "headline": "This is a very important year for the global climate change debate",
+      "start": 2325974,
+      "end": 2614672,
+      "id": "ep_59_ch_12"
+    },
+    {
+      "summary": "Bloomberg graphics is hiring. The graphics team specifically is looking to expand several positions. Let your instincts lead the way to create personalized visualizations and dynamic dashboards with Qlik sense.",
+      "gist": "Bloomberg Graphics is Hiring",
+      "headline": "Bloomberg graphics is hiring, so how can they contact you",
+      "start": 2614808,
+      "end": 2685864,
+      "id": "ep_59_ch_13"
+    }
+  ],
+  "disfluencies": false,
+  "entity_detection": false,
+  "sentiment_analysis": false,
+  "sentiment_analysis_results": null,
+  "entities": null,
+  "speakers_expected": null,
+  "summary": null,
+  "custom_topics_results": null,
+  "episode_num": 59,
+  "episode_metadata": {
+    "speakers": [
+      "Eric Roston",
+      "Moritz Stefaner",
+      "Enrico Bertini",
+      "Blacki Migliozzi",
+      ""
+    ],
+    "WPid": "348",
+    "url": "https://datastori.es/podlove/file/1072/s/feed/c/mp3/datastories-58.mp3",
+    "episode_title": "Behind the Scenes of \"What's Really Warming The World?\" with the Bloomberg Team"
+  }
+}

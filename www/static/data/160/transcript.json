@@ -1,0 +1,987 @@
+{
+  "id": "55f011bd-027b-440a-b4b7-b272e98fc7d9",
+  "language_model": "assemblyai_default",
+  "acoustic_model": "assemblyai_default",
+  "language_code": "en_us",
+  "status": "completed",
+  "audio_url": "https://datastori.es/podlove/file/6700/s/feed/c/mp3/160-visualising-covid-19-with-carl-bergstrom.mp3",
+  "utterances": [
+    {
+      "end": 16394,
+      "speaker": "Carl Bergstrom",
+      "start": 160,
+      "text": "This is a sort of unprecedented crisis, and we need all hands on deck, and there's so much talent out there. The thing, though, that you do need when you have all hands on deck is, you know, there's a guy who's really good at pulling up rigging, and that guy shouldn't insist on piloting the ship.",
+      "id": "ep_160_ut_0"
+    },
+    {
+      "end": 45980,
+      "speaker": "Moritz Stefaner",
+      "start": 35644,
+      "text": "Hi, everyone. Welcome to a new episode of Data Stories. My name is Enrico Bertini, and I am a professor at New York University where I do research and teach data visualization.",
+      "id": "ep_160_ut_1"
+    },
+    {
+      "end": 56644,
+      "speaker": "Enrico Bertini",
+      "start": 46132,
+      "text": "That's right. And I'm Moritz Stefaner. I'm an independent designer of data visualizations. In fact, I work as a self employed truth and beauty operator out of my office here in the countryside in the north of Germany.",
+      "id": "ep_160_ut_2"
+    },
+    {
+      "end": 68074,
+      "speaker": "Moritz Stefaner",
+      "start": 56724,
+      "text": "Yes. And on this podcast, we talk about data visualization, analysis, and more generally the role data plays in our. And usually we do that together with a guest we invite on the show.",
+      "id": "ep_160_ut_3"
+    },
+    {
+      "end": 88322,
+      "speaker": "Enrico Bertini",
+      "start": 68194,
+      "text": "Yeah. But before we start, just a quick note. Our podcast is listener supported. That means there are no ads, which is great. That also means if you do enjoy the show, you could consider supporting us. You can do that with either recurring payments on patreon.com Datastories, or you could also send us a one time donation on Paypal me Datastories.",
+      "id": "ep_160_ut_4"
+    },
+    {
+      "end": 130326,
+      "speaker": "Moritz Stefaner",
+      "start": 88458,
+      "text": "Yes. So thanks all those of you who are already donating. And if you're listening to this show and, and you can't, that's totally fine, too. Maybe you may want to send every once in a while a message on Twitter or any other social media about data stories, and that would be more than enough. So let's get started with the main topic today. So I guess you won't be surprised. I think we finally caved in. We are going to cover visualizing Covid-19 and I'm really excited to have probably the best person we could have on the show, Carl Bergstrom, on the show. Hi, Carl.",
+      "id": "ep_160_ut_5"
+    },
+    {
+      "end": 131502,
+      "speaker": "Carl Bergstrom",
+      "start": 130430,
+      "text": "Hi. How are you doing?",
+      "id": "ep_160_ut_6"
+    },
+    {
+      "end": 160008,
+      "speaker": "Moritz Stefaner",
+      "start": 131638,
+      "text": "Very good. So I'm very happy to have you here. And you are probably the person I've been following more closely during these crazy times. And you've done a lot of work. And I can say that you are both at the same time an expert in epidemiology and in data visualization. And maybe some of our listeners remember that you've been on our show already in the past to talk about bullshit, which is really important. Right.",
+      "id": "ep_160_ut_7"
+    },
+    {
+      "end": 163236,
+      "speaker": "Carl Bergstrom",
+      "start": 160166,
+      "text": "There seems to be a lot of it going around right now, data and.",
+      "id": "ep_160_ut_8"
+    },
+    {
+      "end": 185980,
+      "speaker": "Moritz Stefaner",
+      "start": 163260,
+      "text": "Bullshit, and there's no shortage of that right now. And you've been so helpful basically tweeting new information every day and talking about how we should reason about data in these crazy times. So we normally ask our guests to briefly introduce themselves. Can you give us a very brief introduction, then we can dive right in.",
+      "id": "ep_160_ut_9"
+    },
+    {
+      "end": 236032,
+      "speaker": "Carl Bergstrom",
+      "start": 186092,
+      "text": "Sure. I'm Carl Bergstrom. I'm a professor in the department of biology at the University of Washington. And I've worked on all kinds of things over the years, but I spent a decade working on basically epidemiology of emerging infectious diseases from about 2000 to about 2010. And my interest there actually pulled me into the directions of network theory. And maybe not an expert in data visualization, but at least an expert student or something like that. Passionate student of the field. Anyway, now that we have the current Covid-19 crisis, of course, I've, you know, it's like riding a bike. You don't forget how to do this stuff. And I dove back in with all my time and energy working on trying to figure out what on earth are we going to do about the current situation, how we're going to get everybody back to work and play and all of that.",
+      "id": "ep_160_ut_10"
+    },
+    {
+      "end": 276558,
+      "speaker": "Moritz Stefaner",
+      "start": 236088,
+      "text": "Yeah, great. Okay, Carl, I think there are many iconic visualizations. I think me and Moritz, when we were preparing for the show, we were like, what should we talk about first? There's been so much going on, but I think probably the most iconic visual representation that we have seen from the very beginning is the famous flatten the curve. And apparently even just this super simple graph, we could talk for hours just about what is accurate, not accurate there, what works, what doesn't work, and also the many different little variants that we have seen around. So what do you think about the flatten the curve visualization?",
+      "id": "ep_160_ut_11"
+    },
+    {
+      "end": 522854,
+      "speaker": "Carl Bergstrom",
+      "start": 276726,
+      "text": "So I became really excited about the flat in the curve visualization and wrote a thread that I think on Twitter, I don't know, a couple of months ago, more than that now, probably that really launched that into the popular consciousness, and soon we were seeing it everywhere. The reason I was excited about it was you have to kind of look back to where we were and what people were talking about at the time that this graphic started to take off. At the time we had this sense the top epidemiologists in the world had now seen that, wow, we're going to be facing a global pandemic, who I think hadn't declared it one yet, but it was pretty clear with the spread in Iran and Italy and other places that we weren't going to be able to control the pandemic and that we were going to look at, at least without extraordinary measures. We were going to see a large fraction of the population getting infected. And so there was this notion that, well, maybe we should just get it over with as quickly as possible. We were still hoping that the case fatality rate was substantially lower than we think it is now. So we're still hoping it was a 10th of a percent or lower. And so people were saying, let's just, you know, I mean, why not just, you know, Boris Johnson's phrase was take it on the chin, right? And which he did. Which he did, so why not do that? And for those of us in the epidemiology community, when we were seeing the, the dramatic need for intensive care for people that were infected with this, and we knew that we'd massively overshoot healthcare capacity if we let this thing continue to spread at a basic reproductive number or not of three or something like that. Like it was. And so there was this intense need to sort of shift the thinking and the discussion from just thinking about who was going to get infected to thinking about the timing, the relative timing of when they were going to get infected and how that would affect healthcare capacity. And so I thought that as that started to take off, I thought, wow, this is an example of a very, very simple data visualization that is already changing minds. And I think the history of it was there was a visualization from mid 2010s report that the CDC put out about planning for a future pandemic. And it's a visualization about the goals of community mitigation. And it shows a top peak without mitigation and shows so much smaller the lower curve with mitigation and says it talks about how the goal is to delay the peak and to reduce the maximum demand on the healthcare capacity. And then it also mentions also reducing the total number of cases. And then there were other versions that were drawn. And the version that I saw that really, I thought really clicked for people was a version that was put together by an epidemiology professor, Drew Harris. And that's the red and blue diagram that many people saw. And what happened in this diagram was he did one extremely simple thing that was missing in previous diagrams. And it was, he added a dashed line for healthcare capacity, very prominently, right? Yeah, a very prominent line, dark, labeled healthcare capacity. And that little change, I thought, really made it click for a lot of people that I was talking to and following, and that it wasn't just this sort of abstract, oh, we're going to lower the total, you know, the intensity of the epidemic, which kind of felt good, but we were going to knock it below this critical level that was going to keep us able to actually treat people who needed to be treated. And when this happened, this was right where things were getting really horrible in Lombardy and other parts of Italy. And so we were actually hearing these stories about people having to triage ventilators and that kind of thing. And so that healthcare capacity line made the effect of lowering the curve really visceral in combination with these stories.",
+      "id": "ep_160_ut_12"
+    },
+    {
+      "end": 530694,
+      "speaker": "Enrico Bertini",
+      "start": 523354,
+      "text": "And I think what's also interesting about this one, it looks a bit clunky, like it's not over designed. And also, the curves are a bit, like, wobbly wonky.",
+      "id": "ep_160_ut_13"
+    },
+    {
+      "end": 531506,
+      "speaker": "Carl Bergstrom",
+      "start": 531074,
+      "text": "Right.",
+      "id": "ep_160_ut_14"
+    },
+    {
+      "end": 543578,
+      "speaker": "Enrico Bertini",
+      "start": 531570,
+      "text": "For better or for worse, it helps with getting across. It's just about a concept, you know, because some other graphics looked so, like, perfect gaussian curves and stylized and, like, fine fonts.",
+      "id": "ep_160_ut_15"
+    },
+    {
+      "end": 544122,
+      "speaker": "Carl Bergstrom",
+      "start": 543746,
+      "text": "Right.",
+      "id": "ep_160_ut_16"
+    },
+    {
+      "end": 548504,
+      "speaker": "Enrico Bertini",
+      "start": 544178,
+      "text": "And nice, soft colors that people thought took it maybe too literally.",
+      "id": "ep_160_ut_17"
+    },
+    {
+      "end": 738374,
+      "speaker": "Carl Bergstrom",
+      "start": 549244,
+      "text": "Right. I think we may have made a mistake in some of the ones we developed of that. Yeah. So just to. And we should come back to this, because there's some other nice examples where people did a good job of really showing that it was just a concept. And I think, actually, that would have been a better way to go throughout. Something kind of interesting happened, though, in between. I talked to Drew, and I believe he was inspired by a figure that Rosamund Pierce did for the economist very early in the pandemic, which was essentially a redrawing of the original CDC diagram. But there's an interesting thing that happened as you went from the CDC diagram to the Rosamund Pearce diagram, which is that the CDC diagram has different areas under the two curves. So the curve, if you don't control the pandemic, has a large area, and then there's a much smaller area. If you take the various control measures, then as you go to Rosamund Pearce's diagram in the Economist, there may be a slight difference in the area. I haven't measured them, but the areas look almost exactly the same. And it's an interesting design question. And then if you go, and then you look at Drew Harris's version, which I believe was predominantly circulated on the Internet, and that was the one that I wrote about and said, here's where somebody who understood a concept and understood a little bit of visualization drew one line, namely the healthcare capacity line, and he's going to save thousands or more lives by drawing this one line, just by drawing his craft. And I thought that was fascinating and interesting. But anyway, he carries over the issue where the two curves are of approximately the same size. And that was a really interesting trade off because it focuses your attention on just one aspect of the diagram. But then later downstream, it created some confusion that we're actually still dealing with right now. It's still a talking point right now. People are saying, oh, well, mitigation doesn't reduce the total number of cases. And then they often point back to these diagrams and then we have to say, yes, we've been saying for two and a half months it does, and here's why. And so on and so on. But there was an advantage to drawing that, to doing that, because what you want to try to do with, if you want to have one diagram, one point, then the CDC graph, though more accurate, tries to make multiple points with a single diagram. And what this is sort of saying is like, look, even if you don't reduce the total number of cases, it's still absolutely critical. The relative timing of those. Do they all happen at the same time or are they spread out enough that we can handle them all? And so there are valid reasons for doing that. It's just an interesting case. And I think with this whole diagram, we've seen this a lot. It's an interesting case of a lot of downstream consequences to something that we, you know, put into place and messaged early on to get one message across and then is maybe taken too seriously later and then comes back to create further communication challenges.",
+      "id": "ep_160_ut_18"
+    },
+    {
+      "end": 772242,
+      "speaker": "Enrico Bertini",
+      "start": 738994,
+      "text": "Yeah, yeah. But that was so interesting to follow. And still to this day, I see some Twitter discussions where people refer to the graphic and point out individual aspects of some flattening the curve graphic they have seen, like areas being equal or the, I don't know, the maximum capacity just barely being reached or just slightly overshooting there. That could be totally different depending on design choices, but are not really the main point. It's terribly hard to get something so conceptual on the right level of abstraction, apparently.",
+      "id": "ep_160_ut_19"
+    },
+    {
+      "end": 994826,
+      "speaker": "Carl Bergstrom",
+      "start": 772378,
+      "text": "That's right. I wanted to come up with a clean version that I thought that various media outlets could use. And so I worked with designer Esther Kim, who just wrote me and volunteered her services to do something like this. And we came up with a couple of versions and we chose a sort of a very clean, you know, professional looking aesthetic and that one. And we released a couple of iterations of that. And we tried to get some of the things that were, that we thought were wrong in previous versions. Right. So we had, you know, the things we talked, we went through a lot of rounds of this, of course, but the things we talked about were, you know, we wanted to have the. We wanted to make sure that the areas under the curve were visually different. Our second iteration of that was better than our first. We wanted to show that, you know, you still might exceed healthcare capacity, that just simply, you know, putting the mitigations into effect wasn't going to be complete panacea. So we exceed healthcare capacity a little bit, even in the case where you've got mitigated, you know, in later versions, we kind of tried to give a better sense of the sort of time dynamic flow by putting in an arrow to the progression of the curves and these kinds of things. In all of this, there is one big thing that got swept under the rug, and it's because we didn't know, I think, exactly what was going to happen with this pandemic. And that was the issue of what were the approximate volumes under the curve. Are we talking about a situation where about 70% of the population gets infected? Or are we talking about a situation where three or 4% of the population gets infected, either quickly followed by sort of rapid control, or more slowly followed by more gradual control? And that's also caused a lot of confusion in retrospect, because there's been all of this conversation about how flattening the curve is equivalent to herd immunity. And this is absolutely not what we had in mind. But the diagrams don't make this clear, because the number of cases, because these were meant to be conceptual diagrams, the number of cases that's never labeled on the axis. So the heights of these curves are never labeled. So while we were always thinking that these were cases where this takes off and then you act strongly to control it, that's not made clear in any of the diagrams. And so if I were able to go back in time and redo this, even with the diagrams that I was involved in creating, I would want to somehow figure out how to message the fact that both of the curves shown are then limited, not by reaching herd immunity, but limited by strong controls that are being implemented. And because we didn't do that, because we couldn't foresee where this debate going to go, and we didn't know what was going to happen either, I mean, back then, it wasn't at all clear that we were going to be able to control this pandemic at all in the west, because we weren't able to, I knew we wouldn't be able to institute lockdown measures on the same scale as they had in Wuhan. We just simply weren't able to foresee what the conversation was going to be doing right now. And so we're still playing catch up in response to that and still having to go and explain to people, no, flattening the curve does not mean you're going to let it go to herd immunity. Yes, we understand that. If you, if you flattened the curve and then let it go to herd immunity, you'd have a pandemic that went for two years. That's basic algebra that we can do, et cetera, et cetera.",
+      "id": "ep_160_ut_20"
+    },
+    {
+      "end": 999826,
+      "speaker": "Enrico Bertini",
+      "start": 994930,
+      "text": "There's a lot of, like, fixing the burning plane during flight type situation.",
+      "id": "ep_160_ut_21"
+    },
+    {
+      "end": 1066130,
+      "speaker": "Carl Bergstrom",
+      "start": 1000010,
+      "text": "Yeah, that. And I mean, the other thing that you have going on is, you know, we were not data visualization professionals, most of us developing these graphs. And that was also an issue. And if there had been a way, and it's usually going to be the case. Right. I mean, it's. These data visualizations are tools that practitioners in all fields are using. There's limited amounts of training for the practitioners that are their own domain experts on the vis side. And so they're trying to communicate things as best as they can. Then that gets out there and takes off. And at that point, you can try to pull in designers like I did with Esther. But still, this would have been a conversation that would have been, given the most graphs aren't this important, but given the importance of this graph, it would have been something that if we could have, if we could have sat down and had a crack team of epidemiologists sitting down with a crack team of designers, we could have probably headed some of this stuff off. And then there's other stuff that we just never would have seen and we'd still be playing catch up on.",
+      "id": "ep_160_ut_22"
+    },
+    {
+      "end": 1082364,
+      "speaker": "Enrico Bertini",
+      "start": 1066162,
+      "text": "And that's just the nature and finding the right angle, like understanding what exactly are the points you have to communicate now and get across, and what are the things people might misunderstand. It's also hard for professionals. These things are always easy in hindsight, but it's.",
+      "id": "ep_160_ut_23"
+    },
+    {
+      "end": 1085208,
+      "speaker": "Carl Bergstrom",
+      "start": 1083864,
+      "text": "Yes, right, exactly.",
+      "id": "ep_160_ut_24"
+    },
+    {
+      "end": 1088784,
+      "speaker": "Moritz Stefaner",
+      "start": 1085296,
+      "text": "There's never been so much real time testing of a visualization.",
+      "id": "ep_160_ut_25"
+    },
+    {
+      "end": 1089764,
+      "speaker": "Enrico Bertini",
+      "start": 1088864,
+      "text": "Exactly.",
+      "id": "ep_160_ut_26"
+    },
+    {
+      "end": 1094800,
+      "speaker": "Moritz Stefaner",
+      "start": 1091104,
+      "text": "It's literally like you can publish and see what happens and, like, flatten the curve.",
+      "id": "ep_160_ut_27"
+    },
+    {
+      "end": 1112262,
+      "speaker": "Enrico Bertini",
+      "start": 1094832,
+      "text": "There's 20 different designs, you know, or more. And that's I find so fascinating to compare all these different design variations and figure out which one works in which context, why there's animations, there's simulations, there's comic strips. It's become a meme, right?",
+      "id": "ep_160_ut_28"
+    },
+    {
+      "end": 1129954,
+      "speaker": "Carl Bergstrom",
+      "start": 1112398,
+      "text": "Yeah, right. It has. It was fun to promote this, and then within a few days, see it, the version I'd created or versions other people had created. You'd see them on great big screens behind politicians that were talking. It was kind of wild.",
+      "id": "ep_160_ut_29"
+    },
+    {
+      "end": 1141724,
+      "speaker": "Enrico Bertini",
+      "start": 1130604,
+      "text": "No? And it's become the sort of theme in March, like, yeah, we need to flatten the curve. Everybody referred to that. And that's an intrinsically graphic metaphor. Right. Like a visual.",
+      "id": "ep_160_ut_30"
+    },
+    {
+      "end": 1145204,
+      "speaker": "Carl Bergstrom",
+      "start": 1141804,
+      "text": "Isn't it amazing? Yeah, it really was.",
+      "id": "ep_160_ut_31"
+    },
+    {
+      "end": 1146024,
+      "speaker": "Moritz Stefaner",
+      "start": 1145324,
+      "text": "Yeah.",
+      "id": "ep_160_ut_32"
+    },
+    {
+      "end": 1162028,
+      "speaker": "Carl Bergstrom",
+      "start": 1147204,
+      "text": "Yeah. So, yeah, there's one other one I'll just mention really quickly. You know, you kind of alluded to this earlier, was that the, that kind of doing more cartoon style can be quite effective. So there was a really nice animated version that was developed.",
+      "id": "ep_160_ut_33"
+    },
+    {
+      "end": 1167304,
+      "speaker": "Enrico Bertini",
+      "start": 1162076,
+      "text": "We'll put all of these in the blog post. You can compare different design variations.",
+      "id": "ep_160_ut_34"
+    },
+    {
+      "end": 1245060,
+      "speaker": "Carl Bergstrom",
+      "start": 1167884,
+      "text": "This reminds me of that old. So there have been these various packages for R and for mathematic and other things that sort of XKcdify graphs, and they add a little bit of jitter to the axes and make the curves a little bit freehand looking and sometimes some little shading. And so this one takes that approach and does that very effectively. It's completely clear looking at this, that this, this is just a, you know, this is a back of a napkin sketch. And you should not be using this for like forecasting or anything like that. It's a picture of a concept. And I think that is more effective than the, than the sharper versions that I developed at conveying that particular aspect. I mean, we wanted something that print and television and stuff could put up. And we, when we developed ours, the whole idea was, let's just put this out there under a Creative Commons license and make sure that every single blog, every single newspaper, every single news program that wants a copy of this can just take one. They don't have to have an internal designer do it. They can take one that's fairly well done. And so we chose on purpose to make ours sharp in this sense. But I think ultimately one of the most successful ones is this cartoon one, because it carries that sense of, it does a much better job of messaging that this is a concept picture, not a forecast or anything like that.",
+      "id": "ep_160_ut_35"
+    },
+    {
+      "end": 1297592,
+      "speaker": "Enrico Bertini",
+      "start": 1245132,
+      "text": "Yeah, I totally agree. And that's so interesting to see. I think the other thing that clicked for many people from the Washington Post, the simulator they put out, because looking at curves is one thing, but understanding with the forces and the dynamics behind why certain developments play out the way they do in a simulation, and they showed really well how moderate distancing, extensive distancing, no distancing at all, how that would lead to different types of curves as well. There was a bit closer to actual outcomes and actual data, and you would understand a bit better. Ah, this is why these curves look the way they do. And everybody became, you know, had a crash course in epidemiology. Of course, it's been amazing for you. These things are clear. But we all had to catch up on very basic concepts, and visualization's the.",
+      "id": "ep_160_ut_36"
+    },
+    {
+      "end": 1373790,
+      "speaker": "Carl Bergstrom",
+      "start": 1297608,
+      "text": "Way to do that. You know, there's another one that I saw that I really quite liked, that Steve Goodrow, a colleague of mine, and his collaborators put together. It was in, I don't remember whether it was in the post or the times or one of these, but it's this visualization of what happens if you go outside of your bubble. And so the idea was that, that each of us are in these little family bubbles right now, and we're kind of socially distancing, we're isolating within their little family groups. And then he's looking at the spread of how it's crash course in percolation theory, really, and it's all animated. And then you can see, well, what happens if each little bubble contacts one other friend somewhere else. And then all of a sudden you start to connect a bigger giant component. What happens if each bubble connects only two friends? Two friends and everyone's social distancing? What could the problem possibly be? And then you see, boom, like, you know, now suddenly you get this, you know, complete giant component in the graph. And so I think a lot of these visualizations, I mean, you know, good luck trying to explain percolation theory and the existence of a giant component and all that using the mathematics. But this one little picture just makes it so clear and you can, and it's interactive and you can play with it. And I think that's been tremendously effective communicating.",
+      "id": "ep_160_ut_37"
+    },
+    {
+      "end": 1412076,
+      "speaker": "Moritz Stefaner",
+      "start": 1373972,
+      "text": "I have to say that playing with the simulators has been probably the most interesting experience for me as well. My personal experience has been to really understand how sensitive some parameters are. Right. Very little time changes can have a huge impact on the results and the other way around and also how they interact. I think there's something special in interacting with the visualization in a way that you can see the results of your changes in real time. That makes it somewhat visceral and you understand it in a sort of visceral way that I think is really, really useful.",
+      "id": "ep_160_ut_38"
+    },
+    {
+      "end": 1413384,
+      "speaker": "Carl Bergstrom",
+      "start": 1412180,
+      "text": "That's right. I agree.",
+      "id": "ep_160_ut_39"
+    },
+    {
+      "end": 1417224,
+      "speaker": "Enrico Bertini",
+      "start": 1414324,
+      "text": "Yeah. For the next pandemic, we'll have much better graphics.",
+      "id": "ep_160_ut_40"
+    },
+    {
+      "end": 1432716,
+      "speaker": "Carl Bergstrom",
+      "start": 1420844,
+      "text": "Unfortunately, I'm pessimistic that we're going to have much better epidemiology, but the theory may be better but I mean, we've been screaming from the rooftop for decades.",
+      "id": "ep_160_ut_41"
+    },
+    {
+      "end": 1433540,
+      "speaker": "Moritz Stefaner",
+      "start": 1432740,
+      "text": "Or something like that.",
+      "id": "ep_160_ut_42"
+    },
+    {
+      "end": 1439864,
+      "speaker": "Enrico Bertini",
+      "start": 1433572,
+      "text": "Yeah. They need tangible proof. Until they take it serious, it's the same.",
+      "id": "ep_160_ut_43"
+    },
+    {
+      "end": 1443732,
+      "speaker": "Carl Bergstrom",
+      "start": 1441524,
+      "text": "Hopefully, people will take it seriously in the future.",
+      "id": "ep_160_ut_44"
+    },
+    {
+      "end": 1463368,
+      "speaker": "Enrico Bertini",
+      "start": 1443868,
+      "text": "Yeah. Moving forward in time. So we had flattened the curve, we had the washing post simulator mid March, I would say, which played a big role. We had fantastic coverage from financial Times team John Burn-Murdoch and team, I think they, they did daily updates for six weeks now or something like this. Amazing.",
+      "id": "ep_160_ut_45"
+    },
+    {
+      "end": 1464776,
+      "speaker": "Carl Bergstrom",
+      "start": 1463416,
+      "text": "Yeah, those were tremendously important.",
+      "id": "ep_160_ut_46"
+    },
+    {
+      "end": 1488336,
+      "speaker": "Enrico Bertini",
+      "start": 1464880,
+      "text": "Yeah. And kept refining their output. Their methodology also really, I think, explained well the data choices they made in terms of what made it into certain charts or when they were ready to do certain types of charts. So I think they were also super thoughtful in terms of what type of information is, how reliable, at which point in time and so on.",
+      "id": "ep_160_ut_47"
+    },
+    {
+      "end": 1489524,
+      "speaker": "Carl Bergstrom",
+      "start": 1488440,
+      "text": "Yeah, definitely.",
+      "id": "ep_160_ut_48"
+    },
+    {
+      "end": 1515524,
+      "speaker": "Enrico Bertini",
+      "start": 1490144,
+      "text": "And Carl, do you know that, did they sort of pioneer that logarithmic wave like chart where you would start each country, you would align all the countries by their 100th or 50th case and then do a log scale in the vertical axis and then compare the trajectories? Is that something. Has that been around before or was it invented now for Covid?",
+      "id": "ep_160_ut_49"
+    },
+    {
+      "end": 1516704,
+      "speaker": "Moritz Stefaner",
+      "start": 1516104,
+      "text": "Do you have a.",
+      "id": "ep_160_ut_50"
+    },
+    {
+      "end": 1627758,
+      "speaker": "Carl Bergstrom",
+      "start": 1516744,
+      "text": "You know, I don't know if it was invented for Covid. There's a pretty interesting issue there, though, around the aligning of charts. So there's been. There was a ton of fighting that went on and it still continues to some degree, but a ton of arguing about whether or not one should normalize the number of cases by population size. And so what was at stake was that if you do normalize by population size, then as long as you take China off the graph, the US looks really good. If you don't normalize by population size, then the US looks the worst, whether you put China on the graph or not. So depending on this has been one of the huge challenges. And of course, trickles or more roars through into the data visualization is that this entire pandemic has been so heavily politicized in ways that none of us expected. We always thought that if the big one ever hit, which it has now, that people would pull together and be trying to figure out how to fight it. Not that the very existence of the pandemic would be a political issue, which of course, it has been in the US and the UK, and the severity and what's the death rate? Like it's just a flu or all of this business. So there's been all of this argument that's really drawn that's really based not in, you know, about how to visualize things. That's based not in aesthetic or kind of data revelation concerns, but just based in pure politics. And then people who want to say, look, the US is doing an amazing job in the response, and why are.",
+      "id": "ep_160_ut_51"
+    },
+    {
+      "end": 1635172,
+      "speaker": "Enrico Bertini",
+      "start": 1627766,
+      "text": "The Democrats start with the conclusion and then try and find the best and then try to reset, illustrates your conclusion that you had all along. Right?",
+      "id": "ep_160_ut_52"
+    },
+    {
+      "end": 1642468,
+      "speaker": "Carl Bergstrom",
+      "start": 1635268,
+      "text": "And so there's been a ton of this in Dataviz. And of course, famously the White House.",
+      "id": "ep_160_ut_53"
+    },
+    {
+      "end": 1648732,
+      "speaker": "Enrico Bertini",
+      "start": 1642516,
+      "text": "Put out this graphic where they did this really funny cubic curve fit.",
+      "id": "ep_160_ut_54"
+    },
+    {
+      "end": 1650908,
+      "speaker": "Carl Bergstrom",
+      "start": 1648788,
+      "text": "Oh my gosh, that was true.",
+      "id": "ep_160_ut_55"
+    },
+    {
+      "end": 1654544,
+      "speaker": "Enrico Bertini",
+      "start": 1650956,
+      "text": "Even eyeballing does not even compute.",
+      "id": "ep_160_ut_56"
+    },
+    {
+      "end": 1666594,
+      "speaker": "Carl Bergstrom",
+      "start": 1655284,
+      "text": "Yeah, right. Well, they've got a cubic with a second derivative that changes sign three times, which is impossible. Someone pointed out that this could be an exponentiated cubic, in which case it would actually, that would actually be possible.",
+      "id": "ep_160_ut_57"
+    },
+    {
+      "end": 1669034,
+      "speaker": "Enrico Bertini",
+      "start": 1667014,
+      "text": "Maybe it's a mathematical innovation.",
+      "id": "ep_160_ut_58"
+    },
+    {
+      "end": 1694984,
+      "speaker": "Carl Bergstrom",
+      "start": 1669934,
+      "text": "It was impressive. I had thought it was a cubic with the addition of magic marker to kind of round out the tale, but I think perhaps it's an exponentiated cubic in that case. It's still a completely ridiculous thing to do when trying to model the pandemic. And the idea that the US's pandemic projection is the default fit a trend line in excel is horrifying.",
+      "id": "ep_160_ut_59"
+    },
+    {
+      "end": 1699940,
+      "speaker": "Enrico Bertini",
+      "start": 1695564,
+      "text": "But coming back to the population question, should we normalize for population or not?",
+      "id": "ep_160_ut_60"
+    },
+    {
+      "end": 1839646,
+      "speaker": "Carl Bergstrom",
+      "start": 1700092,
+      "text": "Yeah, right, right. So this is a big question, and I think it, of course, partly depends on what question you want to know the answer to. If you want to know how many cases are there in the US, then obviously you don't normalize. If you want to know how likely am I to know someone who died, then maybe you do want some kind of normalized version. But the thing that's really sort of key here is that there are different ways to normalize. And what you need to do, if you're going to allow comparisons of the severity of the pandemic, you need to align the start points of the different countries so that you start not from a constant number, but from a constant frequency. So the idea is that you could think about, like how fast is a wildfire burning? And if you take a wildfire that's burning through an enormous national forest, and you normalize by the size of the national forest, even if it's burning very, very fast, it'll seem to be burning slowly. The same wildfire in the hundred acre woods is going to seem to be ripping through. But of course, it doesn't really matter. What really matters is what's happening at the perimeter of the fire, right where it's expanding, it doesn't really matter. The severity isn't influenced by how far it can go in the future. And so what you want to do is you want to get some way of picturing how fast is this thing expanding. And so a way that you can do that is you can align these graphs so it's perfectly fine to normalize. But if you do align them not at a fixed number of cases, because that's a non normalized alignment, but align them at a fraction, align them. When one person in 10,000 is infected, start there. Or one person in 100,000, or whatever number you want to start at one person in a million and align them all at that point. And then you can get the. So if you used a normalized graph, use a normalized alignment. If you use a non normalized graph, use a non normalized alignment. And that's a way to sort of get the best of both worlds so that you can go ahead and do that normalization if you want it. If you do that, then you will no longer get this result where the United States seems to be much, much better than everyone else just because it's big.",
+      "id": "ep_160_ut_61"
+    },
+    {
+      "end": 1844838,
+      "speaker": "Enrico Bertini",
+      "start": 1839710,
+      "text": "Right? Right. Yeah. So many subtleties to really think of there, right?",
+      "id": "ep_160_ut_62"
+    },
+    {
+      "end": 1911824,
+      "speaker": "Moritz Stefaner",
+      "start": 1844966,
+      "text": "Carl, my intuition regarding normalization has been, and I'm wondering if I can check this with you live right now. My intuition was like, I kept thinking about thinking in terms of countries doesn't make much sense, because when I look at how cases spread out in a country, they tend to be, you typically have something going on in a very small region. Right. And very little going on in the rest. So one can claim that, of course, countries matter because they have different laws, different rules, different way they react. But on the other hand, I think it's also, correct me if I'm wrong, I think the virus doesn't care too much about borders, right. And it tends to spread in this kind of like, strong clustered way, tends to be really strong in a small area and then much less in other areas. Even if you are within a country. It's definitely true for Italy, for the US, and for other countries, I guess.",
+      "id": "ep_160_ut_63"
+    },
+    {
+      "end": 2000484,
+      "speaker": "Carl Bergstrom",
+      "start": 1911984,
+      "text": "I think that's exactly the right intuition. And I think that when you combine, because that is what the virus is doing and your intuition is also right, that then given that it's doing that, aggregating up to countries of very different sizes creates kind of misleading perspectives. So I worked with Ben Kerr, who's a professor in the department of biology here, at the University of Washington. And he came up with a nice visualization that I can give you a link to a Twitter thread where we show that. We show a set of almost exactly what you just described, Enrico. We show a set of different kind of smaller outbreaks, each of which running essentially by itself within a larger country. And if you then plot these on one of these, on one of these normalized graphs, and you don't align it properly, then you have this country where the epidemic is spreading. You have these different outbreaks in the country that are occurring at different times. And so then the country is doing better than any of its subregions. When you do this normalization, then once you align it correctly, then you see that they're all doing the same. But I think that's right. And that's what you've put your finger on, is sort of the underlying biology of why this kind of alignment is necessary and why just taking the size of a country, most of which hasn't been hit yet, you can't just use that and divide something out and say, this country is doing well.",
+      "id": "ep_160_ut_64"
+    },
+    {
+      "end": 2012116,
+      "speaker": "Enrico Bertini",
+      "start": 2000564,
+      "text": "I mean, I think that's generally one thing that has been hard to grasp in the beginning, is that absolute numbers are much less important than velocity or, like, change rate. Right. And that's exactly right.",
+      "id": "ep_160_ut_65"
+    },
+    {
+      "end": 2012516,
+      "speaker": "Carl Bergstrom",
+      "start": 2012180,
+      "text": "Yeah.",
+      "id": "ep_160_ut_66"
+    },
+    {
+      "end": 2014734,
+      "speaker": "Enrico Bertini",
+      "start": 2012580,
+      "text": "Took a while to wrap everybody but his head around.",
+      "id": "ep_160_ut_67"
+    },
+    {
+      "end": 2038994,
+      "speaker": "Carl Bergstrom",
+      "start": 2014814,
+      "text": "Well, I mean, exponential. Understanding exponentials is just really hard. Right. This is why in that famous old story where somebody wants a grain of rice on each square of the chessboard. Right. This is why the king gets taken in. We're just really not good at thinking about that, unfortunately. This is. It's the same sort of thing. This is the exact same kind of exponential process.",
+      "id": "ep_160_ut_68"
+    },
+    {
+      "end": 2107940,
+      "speaker": "Enrico Bertini",
+      "start": 2039854,
+      "text": "There's a wider issue here, which I think has been super interesting to think about, and it has been interesting to also to see everybody's reactions to the pandemic and everybody having to stay home. And I think many people turn to the numbers just to make sense of what's going on, like, just for therapeutic reasons, or also because I think many people like us, who work in tech and have other expertises, but they can work with numbers and with curves. Felt like, oh, maybe I can sort of have a contribution here and publish some charts myself or make arguments based on numbers or get into modeling. There are a few medium thick pieces from definitely not epidemiologists who were explaining to epidemiologists all the things they're getting wrong, apparently. So what has been your experience there? I mean, you've been in the middle of a few Twitter fights about all these things. Are you going out of this saying, oh, listen, folks, you should really just let the experts speak? Or do you think it's actually good that people start to work with the data, even if they make mistakes? Like, where do you land here?",
+      "id": "ep_160_ut_69"
+    },
+    {
+      "end": 2241794,
+      "speaker": "Carl Bergstrom",
+      "start": 2108012,
+      "text": "I think this is a sort of unprecedented crisis, and we need all hands on deck, so there's so much talent out there. The thing, though, that you do need when you have all hands on deck is there's a guy who's really good at pulling up rigging, and that guy shouldn't insist on piloting the ship. Indeed, come up, help raise the sales. But just because you once, I don't know, sailed a little dinghy doesn't mean you're ready to take over the wheel from the captain and that he's an idiot. So there's this balance of. So I think having everybody working on this, having people coming up with clever ideas that are outside of the box, even the fact that people don't have epidemiological training can be real assets at times. Because, of course, we have certain ways that we've been taught to think about things, and they leave us with some blind spots. So all of that's been very, very powerful to have people that are not coming from within that community come and say, look, I want to help. And then there's just right and wrong ways to do it. I mean, so, of course, you always have these bad actors that have essentially political motivations. They've already decided the conclusion, and they're just going to put together whatever story they can and say, oh, epidemiologists are stupid. They don't realize that there's exponential growth or something, just complete non starter. You see an awful lot of that. That's not helpful. Obviously, you see other people that are well meaning and have always known more stats than the other people in their hedge fund. And so they figure they also know more stats than any epidemiologist. And then they come in with a little bit of the arrogance that may come with the culture, and that can be frustrating. It gets problematic if this sort of takes off. And I'm thinking of in its very worst form, you can get sort of elon musk types that are just spreading complete bollocks and then essentially being worshipped by a certain segment of tech bros that love their teslas and so on.",
+      "id": "ep_160_ut_70"
+    },
+    {
+      "end": 2247854,
+      "speaker": "Enrico Bertini",
+      "start": 2242574,
+      "text": "Also, in Germany, last two weeks, the big conspiracy theories really kicked in.",
+      "id": "ep_160_ut_71"
+    },
+    {
+      "end": 2460434,
+      "speaker": "Carl Bergstrom",
+      "start": 2248394,
+      "text": "Oh, yeah. Okay. Yeah. I mean, there's been all of that. But then, on the other hand, there's all these people that are not really epidemiologists. There's this group led by uriel on very good systems biologist in Israel, that came up with some really creative, outside of the box ways to sort of start to get people back to school. I've kind of gone back and forth with them about some iterations of their ideas. One of them is just extremely clever, and I'd never heard from an epidemiologist. And it's like, well, look, this disease, it takes about five days before you, from when you get it to when you become transmissible, and sometime around then, usually a couple days after that, you start to show symptoms. So let's stagger the weeks that the kids are at school. So let's have kids at school, split the kids in half, have half the kids at school one week. Any kid that gets infected that week will show symptoms and become transmissible in the second week when they're at home and just stagger back and forth like that. And that way you'll never have somebody, some kid getting it at school and then going all the way through to being transmissible at school, because by the time they're back at school again, they will have either gone through the course of the disease or they will have sort of shown the symptoms and you'll be able to keep them home. So this was just this creative idea that I'd never. They started out with other ideas that I didn't think worked as well, and then they came to this one. And so that's a perfectly good idea of, good example of really smart people coming in and doing that. On the directly visualization side, I worked with guy named David Yu, who's a hockey analyst, and he had been looking at the IhME model, which maybe we can talk about a little bit. One of the models that was used really heavily in kind of planning the us response. And rather than try to do his own forecasting, he just wanted to understand what this model was doing. And he reached out to me and said, hey, I've been watching this model, and it seems to be doing these weird things. Do you understand what it's doing? And I said, no, I don't really understand. And then what he'd been doing was keeping, keeping logs of what that model's predictions were every day, given the data that it had at the time, instead of just giving, they were updating every few days. And so all I was ever seeing was their instantaneous snapshot. He was keeping their whole record of what data it had and what predictions it made, given those data, and then how those predictions changed, given the new data. And it was a really nice bit of model forensics, if you will. And so he's put together a really good website now that automates all of this, called Covid dash projections.com comma, that lets you go and actually look how various models are performing over time and how they're updating and gives you a much deeper understanding of what these forecasting models are doing. And it's really just because he was able to do a great job of wrangling the data from all of this, do some, I thought, quite nice visualization and provide insights so that now all the professional epidemiologists that I know who are trying to understand all these models and predictions and what to go with are working based on his. On his contributions. So I think there's a lot of room for. For people to come in and make really useful contributions. And this may be a little bit of credentialism or something on my part. I personally think it works better if people come and do that. If they then reach out to epidemiologists and say, hey, this is what I'm thinking. Am I missing anything here? Etcetera? And the alternative, of course, is get yourself a medium account and write about how all epidemiologists are stupid and we should defund the field. But anyway, that's plenty of both to go around.",
+      "id": "ep_160_ut_72"
+    },
+    {
+      "end": 2476126,
+      "speaker": "Moritz Stefaner",
+      "start": 2460774,
+      "text": "Yeah. I was personally a little taken aback by. There have been a few articles out there where basically, I call it the shut the fuck up movement, where the whole argument was, you shouldn't even attempt to publish anything, which I find it a little extreme, honestly.",
+      "id": "ep_160_ut_73"
+    },
+    {
+      "end": 2521316,
+      "speaker": "Carl Bergstrom",
+      "start": 2476230,
+      "text": "Yeah. No, I think that is a mistake. I mean, I think it's. I mean, obviously, it is an all hands on deck situation. And within the epidemiology community, struggling with, first of all, having anybody care about what we do here. Because usually what we've been doing for a long time has been dealing with problems that people care about a lot, but they're somewhere else. But now every person in the United States or the UK or wherever it is, this has completely turned all of our lives upside down. So everybody cares all the time. So we're dealing with that. And then we're also dealing with the fact that this all has been so heavily politicized. And so people have gotten really frustrated, particularly.",
+      "id": "ep_160_ut_74"
+    },
+    {
+      "end": 2522396,
+      "speaker": "Moritz Stefaner",
+      "start": 2521340,
+      "text": "It's a shame, honestly.",
+      "id": "ep_160_ut_75"
+    },
+    {
+      "end": 2524844,
+      "speaker": "Carl Bergstrom",
+      "start": 2522540,
+      "text": "It's a dreadful shame. It's terrible.",
+      "id": "ep_160_ut_76"
+    },
+    {
+      "end": 2527104,
+      "speaker": "Moritz Stefaner",
+      "start": 2524964,
+      "text": "It's so useless.",
+      "id": "ep_160_ut_77"
+    },
+    {
+      "end": 2533956,
+      "speaker": "Carl Bergstrom",
+      "start": 2527644,
+      "text": "It's amazing. People have gotten so frustrated with the bad actors. I think that some of the shut the fuck movement.",
+      "id": "ep_160_ut_78"
+    },
+    {
+      "end": 2534844,
+      "speaker": "Moritz Stefaner",
+      "start": 2534020,
+      "text": "Yeah, of course.",
+      "id": "ep_160_ut_79"
+    },
+    {
+      "end": 2544624,
+      "speaker": "Carl Bergstrom",
+      "start": 2534964,
+      "text": "Is coming from. From that frustration, but not all of it. And then. Yeah, anyway, that's what fields do. They protect themselves. Yeah.",
+      "id": "ep_160_ut_80"
+    },
+    {
+      "end": 2551724,
+      "speaker": "Moritz Stefaner",
+      "start": 2544924,
+      "text": "Okay. I think we have to wrap up soon. Yeah. Anything else to say?",
+      "id": "ep_160_ut_81"
+    },
+    {
+      "end": 2851830,
+      "speaker": "Carl Bergstrom",
+      "start": 2551884,
+      "text": "Oh, boy. We could go on for a few days, right? We should do it, right? Totally. You know, I guess the one thing, I'll just put an idea out there and then people can think about it. The one thing that we've talked about a lot in epidemiology is how you communicate about risk and uncertainty. And it's a real big issue for us because we want to help people realize that risks are on their way, but we also don't want to lose credibility by being the boy that cried wolf. So you take something like the 2009 pandemic of h one n one swine flu, and at some point we all said, hey, look, this is real. There's a new flu pandemic coming. Flu pandemics are bad. This is going to be a problem. And we were right that there was a pandemic coming, and it infected pandemic numbers of people. That's the definition of a pandemic. It's just the scope, not the severity. But it did not turn out to be severe. It turned out to be less severe than an ordinary seasonal flu. And we got very lucky there. But there was some soul searching afterwards about whether we'd sort of cried wolf, because we said, oh, this is going to be. This is going to be really serious. This is a major health event. And then it turned out essentially not to be, even though lots of people were infected. And so we think a lot about how do you communicate these kinds of risks? How do you best express uncertainties. We hadn't done enough thinking about how do you do that in this extremely politically charged environment where if you specify ranges of things, you're not going to be seen as interesting or as credible or as worthy of news time as someone who comes in and says, oh, this is going to be the worst thing ever. The Chinese are hiding all the deaths. It's going to be 10% mortality. Half of America is going to be dead. Dead. Or alternatively say, this isn't even as bad as a common cold. The Democrats are hoaxing us to try to get Trump out of office. The people who come in with these strong, certain, and usually fringe numbers are the ones that are getting all the press on social media. So I think we haven't done enough thinking about how to message uncertainty while simultaneously dealing with the issue that people don't want uncertainty told to them. They want certain answers. So there have just been a lot of issues about how do you talk about uncertainty, and how do you show uncertainty? How do you visualize uncertainty in graphs? And so when we look at the forecasting sites, for example, they all have different ways of trying to show cones of uncertainty into the future. And so without going into a lot of detail, there's been sort of very variable success, I think, in doing that. One thing, that when you put up uncertainty ranges, people tend to think of those as being something like confidence intervals on what happens in the future. And so the upper bound would sort of be a worst case and the lower bound would be a best case. And so if you take something like the IhME model that has been very widely used in the United States to set us policy until it started giving numbers lower than we were actually getting and making Trump look bad, they used their uncertainty ranges for something different. They were kind of a technical uncertainty range for a curve fit that they were making that had some very strange properties that instead of having a cone of uncertainty that expands out in time the way a hurricane trajectory does, they have this cone of uncertainty that actually shrinks towards zero because they're fitting the curve to a case where this has completely gone away at some time in the future. You have these backwards cones of uncertainty that people didn't really know how to interpret, interpret quite understandably, because we're not used to seeing such things. And so I think if it would have been very good to think through more carefully the impact that our visualizations have on the way that people interpret the uncertainty that we're facing. So, I mean, early on, for example, there were, in Washington state, there were going to be no deaths today with 95% probability under this model. Well, that's not the case anymore. Right. And indeed, 70% of the time, the actual number of deaths is laid outside of the 95% uncertainty range for the IHME model. So it wasn't really confidence interval. So what that just simply drawing these pictures out, once you are dealing with something that has such enormous policy implications, actually shapes the way that people make life or death decisions about things. And so after this is all over, we can go back and think more about how do we use the grammar of visualization to convey messages about uncertainty, which I know is a big area in visualization and one that I don't know a lot about, but it's something that we definitely need to figure out how to keep moving forward with.",
+      "id": "ep_160_ut_82"
+    },
+    {
+      "end": 2857544,
+      "speaker": "Moritz Stefaner",
+      "start": 2851942,
+      "text": "Yeah, the good news is that there are some really good researchers out there who are working exactly in this area.",
+      "id": "ep_160_ut_83"
+    },
+    {
+      "end": 2863604,
+      "speaker": "Carl Bergstrom",
+      "start": 2857584,
+      "text": "Right. I've seen some of that, but I'm just, I'm so far from an expert and it's, you know, when things slow down, I need to learn more about that.",
+      "id": "ep_160_ut_84"
+    },
+    {
+      "end": 2888764,
+      "speaker": "Moritz Stefaner",
+      "start": 2864144,
+      "text": "Yeah, perfect. Well, again, fas, we could go on forever, but for sure. Carl, thanks for coming on the show. Thanks for explaining all these things, but especially thanks for being such a, such an active and great voice on, on Twitter, social media and other, other sources has been, at least I have to say personally, has been really useful being able to get information from you.",
+      "id": "ep_160_ut_85"
+    },
+    {
+      "end": 2907240,
+      "speaker": "Carl Bergstrom",
+      "start": 2889224,
+      "text": "I'm really glad to hear that. Yeah, thanks for having me on. It's great to talk to you guys again. And you're right. I mean, this topic, like, there are so many amazing, you know, theses or whatever to be written from this. I think there's a book in the change the curve, the flatten the curve part. And there's a very good thesis in every other topic we've discussed.",
+      "id": "ep_160_ut_86"
+    },
+    {
+      "end": 2912468,
+      "speaker": "Enrico Bertini",
+      "start": 2907432,
+      "text": "Lots of opportunities to learn for everybody, I think, extreme situations.",
+      "id": "ep_160_ut_87"
+    },
+    {
+      "end": 2918384,
+      "speaker": "Moritz Stefaner",
+      "start": 2912596,
+      "text": "Yeah, I have to say it's very humbling, honestly, I'm no longer certain on any of it.",
+      "id": "ep_160_ut_88"
+    },
+    {
+      "end": 2980586,
+      "speaker": "Carl Bergstrom",
+      "start": 2921364,
+      "text": "Yeah, I think, you know, we've been joking with this film and joking about the sort of Dunning Kruger effect. And there's a paper about the Dunning DK 19 as this parallel pandemic to Covid-19 and so on. But I sometimes think that I kind of got myself right into the sweet spot for that as far as datavis is concerned. Right. So it's like, you know, with, the whole problem with DKE is if you know a bit, then you think you know a lot and you're dangerous. And so, you know, we complain in epidemiology about people who know just a little bit, just enough to be dangerous. But I think I may have sort of gotten myself into that spot with visualization and say, oh, I know how to do this. I've thought about this. I'm not a professional, but who would need to be a professional anyway? I find myself like, you know, repeatedly thinking, oh, how hard can it be to visualize this well and putting things out there and then trying to, trying to clean up after myself in real time.",
+      "id": "ep_160_ut_89"
+    },
+    {
+      "end": 2988018,
+      "speaker": "Moritz Stefaner",
+      "start": 2980650,
+      "text": "Yeah. Yeah. Carl, I actually forgot to ask you, is your book out yet? Oh, oh, so the book comes out in August?",
+      "id": "ep_160_ut_90"
+    },
+    {
+      "end": 3022124,
+      "speaker": "Carl Bergstrom",
+      "start": 2988186,
+      "text": "Oh, yeah, no, no, thank you. Book comes out on August 4 and. Yeah, so it's, you know, it's strange because we wrote it pre Covid so it feels like it, it feels like it belongs to a different time. But on the other hand, historical. Yeah. Yeah. But on the other hand, it, you know, the, one of the things the book says is that if people don't understand data visualization and don't understand how to think about numbers, then we're headed toward a major crisis. So I guess it's, I guess it's now casting or something, but.",
+      "id": "ep_160_ut_91"
+    },
+    {
+      "end": 3024950,
+      "speaker": "Moritz Stefaner",
+      "start": 3024374,
+      "text": "Okay.",
+      "id": "ep_160_ut_92"
+    },
+    {
+      "end": 3029614,
+      "speaker": "Carl Bergstrom",
+      "start": 3025022,
+      "text": "Thanks so much. Great, guys. Thank you so much. Good to talk to you and I'll catch up soon. Take care.",
+      "id": "ep_160_ut_93"
+    },
+    {
+      "end": 3030630,
+      "speaker": "Enrico Bertini",
+      "start": 3029654,
+      "text": "Yeah, perfect. Thanks.",
+      "id": "ep_160_ut_94"
+    },
+    {
+      "end": 3031542,
+      "speaker": "Moritz Stefaner",
+      "start": 3030662,
+      "text": "Bye bye. Thank you.",
+      "id": "ep_160_ut_95"
+    },
+    {
+      "end": 3032754,
+      "speaker": "Carl Bergstrom",
+      "start": 3031598,
+      "text": "Bye bye.",
+      "id": "ep_160_ut_96"
+    },
+    {
+      "end": 3059102,
+      "speaker": "Enrico Bertini",
+      "start": 3037294,
+      "text": "Hey folks, thanks for listening to data stories again. Before you leave, a few last notes. This show is crowdfunded and you can support us on patreon@patreon.com Datastories, where we publish monthly previews of upcoming episodes for our support us. Or you can also send us a one time donation via Paypalaypal me Datastories.",
+      "id": "ep_160_ut_97"
+    },
+    {
+      "end": 3087756,
+      "speaker": "Moritz Stefaner",
+      "start": 3059278,
+      "text": "Or as a free way to support the show. If you can spend a couple of minutes rating us on iTunes, that would be very helpful as well. And here's some information on the many ways you can get news directly from us. We are on Twitter, Facebook and Instagram, so follow us there for the latest updates. We have also a slack channel where you can chat with us directly. And to sign up, go to our home page at Datastory ES and there you'll find a button at the bottom of the page.",
+      "id": "ep_160_ut_98"
+    },
+    {
+      "end": 3095788,
+      "speaker": "Enrico Bertini",
+      "start": 3087900,
+      "text": "And there you can also subscribe to our email newsletter if you want to get news directly into your inbox and be notified whenever we publish a new episode.",
+      "id": "ep_160_ut_99"
+    },
+    {
+      "end": 3108432,
+      "speaker": "Moritz Stefaner",
+      "start": 3095876,
+      "text": "That's right, and we love to get in touch with our listeners. So let us know if you want to suggest a way to improve the show or know any amazing people you want us to invite or even have any project you want us to talk about.",
+      "id": "ep_160_ut_100"
+    },
+    {
+      "end": 3115096,
+      "speaker": "Enrico Bertini",
+      "start": 3108568,
+      "text": "Yeah, absolutely. Don't hesitate to get in touch. Just send us an email at mailatastory Es.",
+      "id": "ep_160_ut_101"
+    },
+    {
+      "end": 3118904,
+      "speaker": "Moritz Stefaner",
+      "start": 3115240,
+      "text": "That's all for now. See you next time, and thanks for listening to data stories.",
+      "id": "ep_160_ut_102"
+    }
+  ],
+  "confidence": 0.932494954746136,
+  "audio_duration": 3128,
+  "punctuate": true,
+  "format_text": true,
+  "dual_channel": false,
+  "webhook_url": null,
+  "webhook_status_code": null,
+  "webhook_auth": false,
+  "webhook_auth_header_name": null,
+  "speed_boost": false,
+  "auto_highlights_result": null,
+  "auto_highlights": false,
+  "audio_start_from": null,
+  "audio_end_at": null,
+  "word_boost": [
+    "aisch",
+    "altviz",
+    "bertin",
+    "bremer",
+    "buli",
+    "chi",
+    "CartoDB",
+    "coursera",
+    "Datastories",
+    "datavis",
+    "Enrico",
+    "fernanda",
+    "few",
+    "heer",
+    "IEEE",
+    "konstanz",
+    "kosara",
+    "lev",
+    "liv",
+    "makulec",
+    "malofiej",
+    "manovich",
+    "mapnik",
+    "mccandless",
+    "miriah",
+    "moere",
+    "Moritz",
+    "munzner",
+    "NAND",
+    "nadieh",
+    "nagel",
+    "nation",
+    "paolo",
+    "posavec",
+    "Protovis",
+    "Qlik",
+    "ricarte",
+    "rosling",
+    "stefaner",
+    "szafir",
+    "tabelautrifacta",
+    "tilemill",
+    "till",
+    "Tufte",
+    "tversky",
+    "vande",
+    "viegas",
+    "visweek",
+    "wattenberg",
+    "ziemkiewicz",
+    "choropleth",
+    "choroplethdanielle",
+    "datavis",
+    "hackathons",
+    "infosthetics",
+    "infovis",
+    "interactive",
+    "visualisation",
+    "visualisingdata",
+    "visualization"
+  ],
+  "boost_param": "high",
+  "filter_profanity": false,
+  "redact_pii": false,
+  "redact_pii_audio": false,
+  "redact_pii_audio_quality": null,
+  "redact_pii_policies": null,
+  "redact_pii_sub": null,
+  "speaker_labels": true,
+  "content_safety": false,
+  "iab_categories": true,
+  "content_safety_labels": {
+    "status": "unavailable",
+    "results": [],
+    "summary": {}
+  },
+  "language_detection": false,
+  "language_detection_threshold": null,
+  "language_confidence": null,
+  "custom_spelling": [
+    {
+      "from": [
+        "bergston"
+      ],
+      "to": "Bergstrom"
+    },
+    {
+      "from": [
+        "erico"
+      ],
+      "to": "Enrico"
+    },
+    {
+      "from": [
+        "datavis"
+      ],
+      "to": "datavis"
+    }
+  ],
+  "throttled": false,
+  "auto_chapters": true,
+  "summarization": false,
+  "summary_type": null,
+  "summary_model": null,
+  "custom_topics": false,
+  "topics": [],
+  "speech_threshold": null,
+  "speech_model": "best",
+  "chapters": [
+    {
+      "summary": "On this podcast, we talk about data visualization, analysis, and more generally the role data plays in our. lives. Our podcast is listener supported. If you do enjoy the show, you could consider supporting us.",
+      "gist": "Data Stories: The Future of Visualization",
+      "headline": "This is a sort of unprecedented crisis, and we need all hands on deck",
+      "start": 160,
+      "end": 106944,
+      "id": "ep_160_ch_0"
+    },
+    {
+      "summary": "We are going to cover visualizing Covid-19. Carl Bergstrom is an expert in epidemiology and in data visualization. There seems to be a lot of it going around right now, data and. Bullish. Can you give us a brief introduction?",
+      "gist": "Covid-19",
+      "headline": "Carl Bergstrom is an expert in epidemiology and data visualization",
+      "start": 107064,
+      "end": 237044,
+      "id": "ep_160_ch_1"
+    },
+    {
+      "summary": "Carl Safina: The flatten the curve visualization is one of the most iconic visualizations of the pandemic. He says it was created by epidemiologist Drew Harris, who added a dashed line for healthcare capacity. Safina says the simple visualization is already changing minds.",
+      "gist": "The Flat-In-The Curve",
+      "headline": "Carl Lombardy: There are many iconic data visualization related to pandemic",
+      "start": 237864,
+      "end": 565264,
+      "id": "ep_160_ch_2"
+    },
+    {
+      "summary": "An interesting thing happened as you went from the CDC diagram to the Rosamund Pearce diagram. The CDC diagram has different areas under the two curves. Later downstream, it created some confusion that we're actually still dealing with right now.",
+      "gist": "The CDC diagram and Rosamund Pearce's",
+      "headline": "CDC diagram has different areas under two curves than Rosamund Pearce diagram",
+      "start": 566564,
+      "end": 845324,
+      "id": "ep_160_ch_3"
+    },
+    {
+      "summary": "We didn't know exactly what was going to happen with this pandemic. There's been all of this conversation about how flattening the curve is equivalent to herd immunity. We're still playing catch up in response to that. These data visualizations are tools that practitioners in all fields are using.",
+      "gist": "The Wuhan Pandemic",
+      "headline": "In all of this, there is one big thing that got swept under the rug",
+      "start": 846664,
+      "end": 1147676,
+      "id": "ep_160_ch_4"
+    },
+    {
+      "summary": "Doing more cartoon style can be quite effective. One of the most successful ones is this cartoon one, because it carries that sense of, it does a much better job of messaging that this is a concept picture, not a forecast. For the next pandemic we'll have much better graphics.",
+      "gist": "The Poverty of Data Visualizations",
+      "headline": "Doing more cartoon style can be quite effective. You know, you kind of alluded to this earlier",
+      "start": 1147740,
+      "end": 1444324,
+      "id": "ep_160_ch_5"
+    },
+    {
+      "summary": "There was a ton of fighting about whether or not one should normalize the number of cases by population size. The entire pandemic has been so heavily politicized in ways that none of us expected. The idea that the US's pandemic projection is the default fit a trend line in excel is horrifying.",
+      "gist": "Pandemic Data Visualization",
+      "headline": "The pandemic has been heavily politicized in ways that none of us expected",
+      "start": 1444404,
+      "end": 1694984,
+      "id": "ep_160_ch_6"
+    },
+    {
+      "summary": "Should we normalize for population or not? There are different ways to normalize. If you're going to allow comparisons of the severity of the pandemic, you need to align the start points of the different countries.",
+      "gist": "Should we normalize for population or not?",
+      "headline": "Should we normalize for population or not? This is a big question",
+      "start": 1695564,
+      "end": 1844838,
+      "id": "ep_160_ch_7"
+    },
+    {
+      "summary": "Carl: When I look at how cases spread out in a country, they tend to be, you typically have something going on in a very small region. But aggregating up to countries of very different sizes creates misleading perspectives. Understanding exponentials is just really hard.",
+      "gist": "How countries affect the spread of Ebola",
+      "headline": "Carl, my intuition regarding normalization has been,",
+      "start": 1844966,
+      "end": 2038994,
+      "id": "ep_160_ch_8"
+    },
+    {
+      "summary": "Many people turn to the numbers to make sense of what's going on. Do you think it's actually good that people start to work with the data, even if they make mistakes? I think this is a sort of unprecedented crisis, and we need all hands on deck.",
+      "gist": "The Pandemic of Twitter",
+      "headline": "Many people turn to the numbers to make sense of what's going on",
+      "start": 2039854,
+      "end": 2535868,
+      "id": "ep_160_ch_9"
+    },
+    {
+      "summary": "From that frustration, but not all of it. Yeah. Yeah, anyway, that's what fields do. They protect themselves. I think we have to wrap up soon.",
+      "gist": "The Fight for Fields",
+      "headline": "From that frustration, but not all of it. Yeah. Yeah, anyway, that's what fields do. They protect themselves",
+      "start": 2535956,
+      "end": 2550356,
+      "id": "ep_160_ch_10"
+    },
+    {
+      "summary": "The one thing that we've talked about a lot in epidemiology is how you communicate about risk and uncertainty. We want to help people realize that risks are on their way, but we also don't want to lose credibility by being the boy that cried wolf.",
+      "gist": "No More Waiting: Communication of Uncertainties",
+      "headline": "How do you communicate risk and uncertainty in today's politically charged environment",
+      "start": 2550420,
+      "end": 2865440,
+      "id": "ep_160_ch_11"
+    },
+    {
+      "summary": "Carl, thanks for coming on the show again. Your book comes out in August. Lots of opportunities to learn for everybody, I think, extreme situations. If people don't understand data visualization, then we're headed toward a crisis.",
+      "gist": "Carl Dunning on Data Visualization",
+      "headline": "Fas: Carl, thanks for coming on the show again",
+      "start": 2865512,
+      "end": 3040070,
+      "id": "ep_160_ch_12"
+    },
+    {
+      "summary": "This show is crowdfunded and you can support us on patreon@patreon. com Datastories. We are on Twitter, Facebook and Instagram, so follow us there for the latest updates. Let us know if you want to suggest a way to improve the show.",
+      "gist": "Data Stories",
+      "headline": "This show is crowdfunded and you can support us on patreon",
+      "start": 3040262,
+      "end": 3118904,
+      "id": "ep_160_ch_13"
+    }
+  ],
+  "disfluencies": false,
+  "entity_detection": false,
+  "sentiment_analysis": false,
+  "sentiment_analysis_results": null,
+  "entities": null,
+  "speakers_expected": null,
+  "summary": null,
+  "custom_topics_results": null,
+  "episode_num": 160,
+  "episode_metadata": {
+    "speakers": [
+      "Carl Bergstrom",
+      "Moritz Stefaner",
+      "Enrico Bertini"
+    ],
+    "WPid": "1599",
+    "url": "https://datastori.es/podlove/file/6700/s/feed/c/mp3/160-visualising-covid-19-with-carl-bergstrom.mp3",
+    "episode_title": "Visualizing COVID-19 with Carl Bergstrom"
+  }
+}

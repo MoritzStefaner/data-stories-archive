@@ -1,0 +1,1889 @@
+{
+  "id": "18e6c592-ccd4-449f-aabe-19a66533e8f1",
+  "language_model": "assemblyai_default",
+  "acoustic_model": "assemblyai_default",
+  "language_code": "en_us",
+  "status": "completed",
+  "audio_url": "https://datastori.es/podlove/file/138/s/feed/c/mp3/Datastories-22.mp3",
+  "utterances": [
+    {
+      "end": 18526,
+      "speaker": "Enrico Bertini",
+      "start": 12280,
+      "text": "And we have two fantastic guests today from New York Times, Mike Bostock and Sean Carter. Hi, guys. How are you?",
+      "id": "ep_22_ut_0"
+    },
+    {
+      "end": 19810,
+      "speaker": "Mike Bostock",
+      "start": 18598,
+      "text": "Hey, it's good to be here.",
+      "id": "ep_22_ut_1"
+    },
+    {
+      "end": 22130,
+      "speaker": "Shan Carter",
+      "start": 20270,
+      "text": "Hi, it's great to be here.",
+      "id": "ep_22_ut_2"
+    },
+    {
+      "end": 24130,
+      "speaker": "Moritz Stefaner",
+      "start": 22710,
+      "text": "Hey, Mike. Heyshon.",
+      "id": "ep_22_ut_3"
+    },
+    {
+      "end": 27850,
+      "speaker": "Enrico Bertini",
+      "start": 24470,
+      "text": "Yeah. I let you guys introduce yourself. Mike, you want to start?",
+      "id": "ep_22_ut_4"
+    },
+    {
+      "end": 39490,
+      "speaker": "Mike Bostock",
+      "start": 28590,
+      "text": "Sure. I'm Mike Bostock. I'm a graphics editor at the New York Times. What else do you want to know? I created this D3 visualization toolkit.",
+      "id": "ep_22_ut_5"
+    },
+    {
+      "end": 56740,
+      "speaker": "Shan Carter",
+      "start": 39910,
+      "text": "I'm Sean Carter. I'm also a graphics editor of the New York Times. I've been here since about 2006, and before that I worked at several other papers in California and basically worked in newspapers ever since college.",
+      "id": "ep_22_ut_6"
+    },
+    {
+      "end": 64740,
+      "speaker": "Moritz Stefaner",
+      "start": 58400,
+      "text": "So, Sean, you have mostly a journalism background, or do you have like, also design or computer science in the mix?",
+      "id": "ep_22_ut_7"
+    },
+    {
+      "end": 82130,
+      "speaker": "Shan Carter",
+      "start": 66840,
+      "text": "Yeah, my mom was a graphic designer, so growing up, I was kind of exposed to that. And then in school I studied economics and worked at our college paper. But most of my journalism training has kind of been on the job training. I don't have a degree in it or anything.",
+      "id": "ep_22_ut_8"
+    },
+    {
+      "end": 99294,
+      "speaker": "Enrico Bertini",
+      "start": 84150,
+      "text": "So you guys are mostly. So you are the people at New York Times who are mostly dealing with the interactive part, right? So you're mostly developing the visualizations that go on the website, right? Is that correct?",
+      "id": "ep_22_ut_9"
+    },
+    {
+      "end": 113390,
+      "speaker": "Mike Bostock",
+      "start": 99342,
+      "text": "That's right. Primarily we do interactive graphics. I mean, Sean and I are both based in San Francisco, whereas the rest of the department is obviously in Manhattan. And we tend to focus more on the interactives for the website.",
+      "id": "ep_22_ut_10"
+    },
+    {
+      "end": 123910,
+      "speaker": "Moritz Stefaner",
+      "start": 115450,
+      "text": "Can you tell us a bit more about the team? I mean, not everybody might be familiar with how huge and unique the direct graphics team is.",
+      "id": "ep_22_ut_11"
+    },
+    {
+      "end": 158410,
+      "speaker": "Shan Carter",
+      "start": 124330,
+      "text": "Yeah, the graphics department is close to 30 people, and we do everything from, like, basically almost every map or chart or explanatory diagram that you see in the printed paper. And online is our responsibility. And I'd say we split about maybe a third of the people do kind of online mostly. About a third of the people do half and half. And about a third of the people do mostly just print work.",
+      "id": "ep_22_ut_12"
+    },
+    {
+      "end": 172736,
+      "speaker": "Moritz Stefaner",
+      "start": 158750,
+      "text": "Interesting. Yeah. And what's roughly, I mean, quantity is not the primary measure, of course, but roughly. So people have an idea. Like, how many graphics do you produce? Like a day or a week or.",
+      "id": "ep_22_ut_13"
+    },
+    {
+      "end": 217700,
+      "speaker": "Mike Bostock",
+      "start": 172848,
+      "text": "We work on a variety of different graphics, like on different timescales. You know, we'll work on some that are daily graphics, some that might take a week or two weeks, others that might take a month. I think for me personally, I'm most happy working on a graphic that takes about two weeks, maybe three weeks at most, because it's enough time to really do something interesting, but it's not so much time that you get sick of it and want to work on something else. So we work on a mix of those things. I mean, I think by nature of Sean and I working out of San Francisco, we tend to do a little bit more longer term graphics, by which I mean that sort of two to four week cycle, rather than the rest of the department, but we do a mix of things.",
+      "id": "ep_22_ut_14"
+    },
+    {
+      "end": 233020,
+      "speaker": "Enrico Bertini",
+      "start": 218800,
+      "text": "And how does it work? Do you normally. So are you free to get to come up with your own ideas, or you get some instructions from new York, and then you work on some ideas that they suggest, or how does it work? How does a new project start?",
+      "id": "ep_22_ut_15"
+    },
+    {
+      "end": 286720,
+      "speaker": "Shan Carter",
+      "start": 235680,
+      "text": "Yeah, I'd say, like, most of the projects kind of start with some sort of, uh, either a news event or an article that a reporter's working on. Um, but from that, I. It's usually kind of like more of a prompt than an assignment. And so it's kind of like, here's this story we're working on. Um, we think it has a great opportunity for some sort of, you know, statistical analysis or map or diagram. And then from there, our department kind of like, does independent research, reporting and writing, and, you know, builds the graphic up from scratch. Not to say that there aren't ideas that we, that, like, any one person could come up with and just say, hey, I think this would be an interesting thing, you know, for the paper, and we can easily pitch stuff, but most of the things are kind of in response to, like, the news of the day or upcoming news events.",
+      "id": "ep_22_ut_16"
+    },
+    {
+      "end": 295320,
+      "speaker": "Moritz Stefaner",
+      "start": 287020,
+      "text": "So usually there's also an article planned or in the works, and you sort of dock onto that and take the same theme and work with that.",
+      "id": "ep_22_ut_17"
+    },
+    {
+      "end": 306690,
+      "speaker": "Shan Carter",
+      "start": 297030,
+      "text": "Yeah, exactly. Like, for instance, elections is pretty free form. We just know that the elections are happening. So we brainstorm a lot of ideas ourselves.",
+      "id": "ep_22_ut_18"
+    },
+    {
+      "end": 310854,
+      "speaker": "Moritz Stefaner",
+      "start": 307950,
+      "text": "They are sort of predictable, like, schedule wise as well.",
+      "id": "ep_22_ut_19"
+    },
+    {
+      "end": 318090,
+      "speaker": "Mike Bostock",
+      "start": 310982,
+      "text": "Right. When you think ahead of time, you do some preparation for it, whereas obviously, for breaking news, you have no idea it's coming.",
+      "id": "ep_22_ut_20"
+    },
+    {
+      "end": 319490,
+      "speaker": "Moritz Stefaner",
+      "start": 318510,
+      "text": "Exactly.",
+      "id": "ep_22_ut_21"
+    },
+    {
+      "end": 331744,
+      "speaker": "Enrico Bertini",
+      "start": 320630,
+      "text": "So normally, part of your work includes also finding the data that you need to create a visualization out of it. Or normally, you get some data already from the persons who have.",
+      "id": "ep_22_ut_22"
+    },
+    {
+      "end": 360890,
+      "speaker": "Mike Bostock",
+      "start": 331792,
+      "text": "It's a mix of both. It depends on the topic. I mean, sometimes you have a researcher that's doing research in this particular field, and they have a data set, and they think that it would make an interesting graphic, and so they're providing the data to us for us to work on, whereas in other cases, we might be doing a visualization of data that's publicly accessible, or it's just simply historical data, like the swing states graphic. I mean, there's polling data that you can look up or census data, things like that.",
+      "id": "ep_22_ut_23"
+    },
+    {
+      "end": 389590,
+      "speaker": "Shan Carter",
+      "start": 362150,
+      "text": "Yeah, occasionally we will collect data ourselves, like send someone down to New Orleans to visit every house on a block and gather some sort of sample of how people are doing reconstruction or something like that. Much more of the data is like stuff we're finding from researchers or, like Mike said, from publicly accessible sources or from companies that collect data, like Netflix, for instance.",
+      "id": "ep_22_ut_24"
+    },
+    {
+      "end": 391930,
+      "speaker": "Enrico Bertini",
+      "start": 390970,
+      "text": "Okay, sure.",
+      "id": "ep_22_ut_25"
+    },
+    {
+      "end": 407050,
+      "speaker": "Shan Carter",
+      "start": 392050,
+      "text": "But it is our. Like, the people in our department are generally, more often than not, the ones, you know, getting that data or finding the data sources. And I'd say that's almost half the job. It's like cleaning the data. Cleaning it up.",
+      "id": "ep_22_ut_26"
+    },
+    {
+      "end": 411678,
+      "speaker": "Mike Bostock",
+      "start": 407130,
+      "text": "Yeah. Even when data is provided to us, there's usually a ton of work to actually get it into a usable format.",
+      "id": "ep_22_ut_27"
+    },
+    {
+      "end": 415726,
+      "speaker": "Enrico Bertini",
+      "start": 411734,
+      "text": "Sure, of course. I can imagine that. Yeah, sure.",
+      "id": "ep_22_ut_28"
+    },
+    {
+      "end": 514950,
+      "speaker": "Mike Bostock",
+      "start": 415838,
+      "text": "Like, I had an interesting experience on this map that we did recently of illegal immigration across the US Mexico border. And the story was about the border Patrol agents that had increased in staffing. And so we had data that was the number of agents per border patrol sector. And so in order to create a map of this, we needed to know what the boundaries were for each of the border patrol sectors. But just looking that up was extremely difficult. And we had contacts that we were working with that didn't provide us with the data. And so I ended up doing some searching. I found this PDF file that had the map embedded in it. And I knew that D3 supported the projection that was required to create this map. And so I spent a couple hours trying to figure out exactly what the projection parameters were. I eventually discovered that this map had been distorted, like stretched vertically by 12%, which is why none of my projections lined up. But then eventually I found, through sort of a lucky Google query, a server on a mil domain, like an ArcGIS server, that was returning the cartographic boundaries for each patrol sector in some ESRI format. It had this totally inscrutable query interface. Anyway, eventually got it to spit out a separate boundary file for each of these sectors that I was then able to write a custom script to turn that into standard geojson format and then finally make the map out of it. Sometimes there's a lot of work that just goes into getting the data for a particular graphic.",
+      "id": "ep_22_ut_29"
+    },
+    {
+      "end": 526550,
+      "speaker": "Enrico Bertini",
+      "start": 516130,
+      "text": "Yeah. Yeah. That's the reason why I was asking that. It looks like that's almost always the case. Right. So people working in visualization have to spend a lot of time dealing with data.",
+      "id": "ep_22_ut_30"
+    },
+    {
+      "end": 528870,
+      "speaker": "Shan Carter",
+      "start": 527650,
+      "text": "Yeah, for sure.",
+      "id": "ep_22_ut_31"
+    },
+    {
+      "end": 548392,
+      "speaker": "Moritz Stefaner",
+      "start": 529330,
+      "text": "How do you deal with, like once the visualization is done with QA, is there also like fact checking? I mean, I know you have quite thorough fact checking for the articles. Do you also have that for the visualizations? So will people click through and like, you know, look at some of the tooltips and look up the numbers if they are correct? Stuff like that?",
+      "id": "ep_22_ut_32"
+    },
+    {
+      "end": 583320,
+      "speaker": "Shan Carter",
+      "start": 548456,
+      "text": "Yeah, internally we'll do that. We don't do it as much. It's kind of like spot checking, but making sure that all your programming is correct. If you have confidence in your original data set, you know, like you're not making an error in it. So we do kind of spot check that, like internally it does seem a little bit different than an article where you're rewriting stuff. Or hopefully when you're doing a data visualization, you're not having false presentation of the core data that you have.",
+      "id": "ep_22_ut_33"
+    },
+    {
+      "end": 584020,
+      "speaker": "Moritz Stefaner",
+      "start": 583400,
+      "text": "Sure.",
+      "id": "ep_22_ut_34"
+    },
+    {
+      "end": 600912,
+      "speaker": "Shan Carter",
+      "start": 584520,
+      "text": "But in terms of the data collection, we also vet our sources and make sure that the data set that we've been given is properly collected and ask them about their, their techniques and collecting it and making sure that there's nothing wrong or misleading in the core data.",
+      "id": "ep_22_ut_35"
+    },
+    {
+      "end": 655358,
+      "speaker": "Mike Bostock",
+      "start": 601096,
+      "text": "Ultimately, it's our own responsibility to make sure that the data is correct. We don't rely on the copy desk to find errors in our data. We have to do that ourselves. But one of the things that I like to do should sort of ease my sanity is to have a fairly well automated process for going from the raw data from the primary source to the data that actually gets incorporated in the graphic. And that way you can actually easily inspect that process to make sure that you didn't. Because the most likely cause of errors is that you hand edited something and you made like a slight mistake. Like you have, like sublime text has this great feature where you can have multiple cursors open, right? So you're like editing like a thousand things at the same time. But then you didn't realize that there was one mismatch of the query that you used, like in some off screen cursor. And so you like edit, oh, it.",
+      "id": "ep_22_ut_36"
+    },
+    {
+      "end": 657518,
+      "speaker": "Moritz Stefaner",
+      "start": 655374,
+      "text": "Didn'T wrap around or something like that.",
+      "id": "ep_22_ut_37"
+    },
+    {
+      "end": 677782,
+      "speaker": "Mike Bostock",
+      "start": 657574,
+      "text": "So if I have a make file instead that documents or that automates this process that goes like directly from whatever the raw data is that we downloaded from the primary source, like from the census or whatever was shipped to us from the researcher, then it's much easier to inspect that process for correctness than it is to follow every individual fact in the dataset.",
+      "id": "ep_22_ut_38"
+    },
+    {
+      "end": 681694,
+      "speaker": "Moritz Stefaner",
+      "start": 677886,
+      "text": "Yeah. And you can reproduce the graphic once the data changes, stuff like that.",
+      "id": "ep_22_ut_39"
+    },
+    {
+      "end": 682742,
+      "speaker": "Mike Bostock",
+      "start": 681742,
+      "text": "Yeah, exactly.",
+      "id": "ep_22_ut_40"
+    },
+    {
+      "end": 708030,
+      "speaker": "Moritz Stefaner",
+      "start": 682926,
+      "text": "Yeah. There was a great question from Twitter which really fits that theme from Kathryn Mulbranden. She does visualizing economics, and she asks, when posting a graphic online, should you also post the dataset used in it? Why or why not? If not, I think that's a really intriguing question. Do you think the New York Times should also make the raw data available that was used for the graphic?",
+      "id": "ep_22_ut_41"
+    },
+    {
+      "end": 717706,
+      "speaker": "Shan Carter",
+      "start": 709090,
+      "text": "I know that some, I think the WNYC folks, like John Keefe's team, has a little link at the bottom so you can sort of download the dataset.",
+      "id": "ep_22_ut_42"
+    },
+    {
+      "end": 718590,
+      "speaker": "Moritz Stefaner",
+      "start": 717818,
+      "text": "Okay.",
+      "id": "ep_22_ut_43"
+    },
+    {
+      "end": 761600,
+      "speaker": "Shan Carter",
+      "start": 719490,
+      "text": "Which I think it's a cool idea. We've never really discussed it or had a lot of demand for that. My thinking is that if that is useful to you, it's fairly easy to extract it from the source of the page. And in some cases, we don't actually have the rights to redistribute the source data in that way. Like if we've purchased a dataset from AP or something, or this researcher has agreed to let us visualize it, but not necessarily anybody else. And then, I know, Mike, we kind of point, try to point people towards where we got the data, the original sources, and that's usually like a more complete data set as well.",
+      "id": "ep_22_ut_44"
+    },
+    {
+      "end": 798478,
+      "speaker": "Mike Bostock",
+      "start": 761940,
+      "text": "I mean, my personal philosophy is that we shouldn't be responsible for republishing data because generally there's a whole bunch of transformation and aggregation that goes into the data that we use for the final graphic that makes it different than the data that is published by the primary source. And so if you want to reuse that data set, then there may be certain assumptions that are made in the original data set or that are a side effect of this transformation process that may not be clear to you. So generally it's safer to go to the primary source and make sure that you understand the primary data set if you're going to make a graphic on it.",
+      "id": "ep_22_ut_45"
+    },
+    {
+      "end": 802478,
+      "speaker": "Moritz Stefaner",
+      "start": 798654,
+      "text": "Yeah. Probably would need some extra documentation as well, like how the.",
+      "id": "ep_22_ut_46"
+    },
+    {
+      "end": 814780,
+      "speaker": "Mike Bostock",
+      "start": 802574,
+      "text": "Yeah, and so it's very much a responsibility to make it clear where the data comes from. But I think we do that by linking to the primary sources rather than being the middleman and republishing the data.",
+      "id": "ep_22_ut_47"
+    },
+    {
+      "end": 827320,
+      "speaker": "Moritz Stefaner",
+      "start": 816160,
+      "text": "Yeah, but you know what I like about that thought is that it sort of says, well, already the data transformation is sort of a journalistic act. Maybe that could also be of value or that.",
+      "id": "ep_22_ut_48"
+    },
+    {
+      "end": 828464,
+      "speaker": "Mike Bostock",
+      "start": 827360,
+      "text": "Right. So maybe we should publish.",
+      "id": "ep_22_ut_49"
+    },
+    {
+      "end": 848780,
+      "speaker": "Moritz Stefaner",
+      "start": 828512,
+      "text": "People might want to use that output. Maybe. Yeah. I found, who knows but it's interesting that you say you didn't have much request for that, so people didn't really come to you until, I don't know, the swing states graphic or so could I use the same data set and do you have that or. That's not a common request.",
+      "id": "ep_22_ut_50"
+    },
+    {
+      "end": 882910,
+      "speaker": "Shan Carter",
+      "start": 850920,
+      "text": "Yeah, I guess it's not something we really figured out internally. And I know that I have seen some people just take those data sets and revisualize it as kind of experiments and just cool to see in some cases. Like I said, I'm not sure that we have the rights to kind of like make that public for everybody, but it is an extra level of work on top and I think it's like, admiral, I think it's cool, but I haven't seen a ton of demand personally for it, so we haven't taken the extra step to do that each time.",
+      "id": "ep_22_ut_51"
+    },
+    {
+      "end": 916810,
+      "speaker": "Mike Bostock",
+      "start": 884330,
+      "text": "Yeah, I mean, I think the thing I would prefer to do is sort of document our process, like in the form of a tutorial or an example or to like share. Here's like, for example, I made this let's make a map tutorial that shows how we use data from natural Earth to make maps or to take data from the us national atlas. And so that way you're sort of describing a general process for getting access to data rather than just providing access to this one specific data set that we used by that graphic.",
+      "id": "ep_22_ut_52"
+    },
+    {
+      "end": 926540,
+      "speaker": "Moritz Stefaner",
+      "start": 917270,
+      "text": "Yeah, and I mean, Sean, you're right in the end. I mean, inspect source and you're good to go anyways if you're technically inclined. And.",
+      "id": "ep_22_ut_53"
+    },
+    {
+      "end": 928116,
+      "speaker": "Mike Bostock",
+      "start": 926620,
+      "text": "Yeah, yeah.",
+      "id": "ep_22_ut_54"
+    },
+    {
+      "end": 931400,
+      "speaker": "Shan Carter",
+      "start": 928148,
+      "text": "Most of our, most of our data sets we load as TSV files.",
+      "id": "ep_22_ut_55"
+    },
+    {
+      "end": 935160,
+      "speaker": "Moritz Stefaner",
+      "start": 932900,
+      "text": "Shouldn't be too hard to figure out how to. Actually.",
+      "id": "ep_22_ut_56"
+    },
+    {
+      "end": 950070,
+      "speaker": "Shan Carter",
+      "start": 939420,
+      "text": "I'm not encouraging. No, but I mean, it is with publicly accessible data. I think that's great that people could use that to make their own stuff. I love seeing people kind of remix our graphics. I think it's really cool.",
+      "id": "ep_22_ut_57"
+    },
+    {
+      "end": 984956,
+      "speaker": "Moritz Stefaner",
+      "start": 950190,
+      "text": "Yeah. About the style of work. I mean, you started off with a few really nice, very deep and exploratory visualizations. Like, for instance, the 512th past to the White House, which showed a totally new way of thinking about how the course of statewide elections could influence the end result or what options certain outcomes leave, like a decision tree type approach or the swing states. Like a long. How would you call that type of diagram? Is it like a stack stream thing?",
+      "id": "ep_22_ut_58"
+    },
+    {
+      "end": 990516,
+      "speaker": "Mike Bostock",
+      "start": 985068,
+      "text": "Diagram. But it's not really flow. I mean, it's really just a line chart. I guess it's just.",
+      "id": "ep_22_ut_59"
+    },
+    {
+      "end": 992460,
+      "speaker": "Moritz Stefaner",
+      "start": 990628,
+      "text": "But it also has different widths.",
+      "id": "ep_22_ut_60"
+    },
+    {
+      "end": 992892,
+      "speaker": "Mike Bostock",
+      "start": 992500,
+      "text": "Right.",
+      "id": "ep_22_ut_61"
+    },
+    {
+      "end": 1048792,
+      "speaker": "Moritz Stefaner",
+      "start": 992996,
+      "text": "So, yeah, but it was very interesting to see how different swing states changed their voting results over the years. And it's very deep data and very exploratory. And I was really excited about this whole, you know, I love this exploratory approaches anyway, so I was excited to see that in the times. And now a few of the newer graphics I found were a bit more handmade and a bit more, let's say, stylized and to the point, like there was a map on Asian countries, how they perform GDP wise and how they change, or the map of the Oscar contenders, like how all these different actors play together. So is that a general trend? Are you now, at this point in time, looking more on a few more, let's say, more handcrafted graphics, or will you go back to deep data as well? Or what's your feeling?",
+      "id": "ep_22_ut_62"
+    },
+    {
+      "end": 1136240,
+      "speaker": "Mike Bostock",
+      "start": 1048896,
+      "text": "I think it's simply harder to do a good exploratory graphic, and that is because an exploratory graphic, well, it sort of implies that you're doing exploration, which means that you're doing some amount of work to extract the insight from that graphic. Whereas if you have an explanatory or expository graphic, you're sort of presenting upfront, like, here's what the conclusion is, or here's what the interesting insight is from this data. And I think even in the case of the graphics that you're describing as exploratory, our goal is to give an overview that presents something interesting, like with the 512 paths. Just by looking at the beginning, you can see the importance of winning Florida and Ohio compared to some of the states with fewer electoral votes. So there's like a conclusion that you can see even if you don't click on it, even if you don't just notice that it's an interactive graphic. But the reason why exploratory is hard is because trying to find that balance where you have some initial insight that you want to show in the overview, but there's also sort of a really rich data set that facilitates further insight. If you play with it, I mean, it's just something hard. Not every data set has that level of depth to it. So sometimes you just want to show those initial insights as quickly as possible and not make people work for it. So I think we would always love to do more exploratory data sets. It's just a question of finding the right opportunity to make them.",
+      "id": "ep_22_ut_63"
+    },
+    {
+      "end": 1177224,
+      "speaker": "Shan Carter",
+      "start": 1138250,
+      "text": "I think the elections are kind of a unique opportunity for those kind of exploratory data graphics. One, because people are kind of inherently pretty interested in that data before they even see your graphic. So it's something that the whole country is interested in up front, and also it's something that we've done several years in the past. So we have a lot of accumulated knowledge, ideas and insights about what works and what doesn't. So it's a lot easier for us to kind of come up with new, new ideas and kind of strike that balance that Mike is talking about because we're so familiar with the dataset and we've done it, you know, year after or every two years, basically.",
+      "id": "ep_22_ut_64"
+    },
+    {
+      "end": 1196350,
+      "speaker": "Mike Bostock",
+      "start": 1177392,
+      "text": "Yeah, like with the 512. Whereas, like, you know, people have their own hunches as to how these particular states are going to go, either because they live there or they have relatives or friends that live there. You know, they have their own particular context that they want to incorporate into that visualization, and so that encourages them to explore it.",
+      "id": "ep_22_ut_65"
+    },
+    {
+      "end": 1197858,
+      "speaker": "Moritz Stefaner",
+      "start": 1197170,
+      "text": "Yeah.",
+      "id": "ep_22_ut_66"
+    },
+    {
+      "end": 1220234,
+      "speaker": "Enrico Bertini",
+      "start": 1197994,
+      "text": "So do you guys have any, do you guys have an idea of how much these more exploratory, interactive visualizations are used by your readers? Are they actually really engaging with this kind of more interactive visualizations? Do you have any, do you ever try to see, I don't know, maybe logging what they do or even having anecdotal evidence of what they do?",
+      "id": "ep_22_ut_67"
+    },
+    {
+      "end": 1284456,
+      "speaker": "Mike Bostock",
+      "start": 1220362,
+      "text": "Yeah, that's a great question. It's something that I have been wanting to work on for a while, but I haven't really gotten around to it yet. I mean, I would say there are a lot of challenges in terms of doing analytics on our graphics because every graphic is different. Right? Some graphics aren't exploratory. So measuring how much time people spend exploring a graphic and then trying to compare two different graphics, one of which is exploratory and one of which isn't, you know, it's comparing apples to oranges. On the other hand, there are lots of things that we could be drawing from data that we're not really collecting right now. So that is one of the areas that I've been thinking of doing some more infrastructure work because I do have some background in that. For example, the project Cube that I did for square was really about doing event logging and analysis of those. And so maybe in the future, we'll be setting up sort of more custom analytics for our graphics so that we can understand how people interact with them and try to quantify some of their success. Yeah, I think.",
+      "id": "ep_22_ut_68"
+    },
+    {
+      "end": 1308150,
+      "speaker": "Enrico Bertini",
+      "start": 1284528,
+      "text": "Which introduces actually another more generic question that I have. So how much feedback do you get from, from your readers? I mean, do you know how people interpret the stuff you do, do you know how able they are to read the stuff that you produce? So do you get any kind of feedback or is just you. You put it there and then you. You hope that it's gonna be the best? I mean.",
+      "id": "ep_22_ut_69"
+    },
+    {
+      "end": 1431754,
+      "speaker": "Shan Carter",
+      "start": 1310650,
+      "text": "We do. I mean, I feel like in this day and age, it's easy to see feedback on stuff on Twitter or like, oh, yeah, through comments or whatnot. And so I think pretty quickly, when we publish a graphic, we tend to see, like, some sort of reaction, whether it's positive or negative. We do have kind of feedback. Sometimes people will actually email us. We have a small feedback button on each graphic. And some graphics actually are sort of like comment based, where people are leaving comments. I'm sure some of the graphics are kind of complicated, and people don't spend the time to engage with them or find it too hard, too difficult to understand or something, but we don't get a lot of negative feedback along those lines. And maybe those people are out there and they're just not taking the time to feedback. But the kind of feedback that I generally really spend time looking for is if something's hard to use in terms of the UI. I feel like time spent learning how to use a graphic is kind of time wasted, whereas time learning, time spent understanding a graphic. We're using these complicated chart forms because they allow a more complex understanding of the data set. And so I feel like that's worthwhile time. So if people are confused as to how to use a graphic, or the buttons don't make sense to them, or there's too many buttons, or they didn't understand that the slider did something, those are the sorts of reactions that I'm really keen and really look for. But the kind of, like, I don't know, we don't get a ton of feedback in terms of what's too complicated to see. I mean, we keep that in mind as we're developing the graphic to try to make it understandable to the highest number of people, but also to have the level of insight that we're looking to show with the data.",
+      "id": "ep_22_ut_70"
+    },
+    {
+      "end": 1432578,
+      "speaker": "Moritz Stefaner",
+      "start": 1431882,
+      "text": "Yeah.",
+      "id": "ep_22_ut_71"
+    },
+    {
+      "end": 1497250,
+      "speaker": "Mike Bostock",
+      "start": 1432754,
+      "text": "One bit of feedback that I think is very interesting to observe is whether or not people discover certain interactions or certain modes of interaction. So, like, with the 512 paths graphic, for example, we got a lot of people that said they liked it, but then they either asked for something or they made some sort of comment. They made it clear that they didn't realize that it was interactive, which was interesting because, and I think that might have been sort of somewhat an artifact of the design. Right. Like you have this big data graphic in the middle of the page, and then we had these buttons across the top that were white with a little gray outline against the white background. So they weren't sort of very visually salient. And people are trained to sort of immediately leap past all the ads and other distracting content to, like, the big data graphic in the center. And so maybe those people then didn't discover the other interactive components around it. And so that's something that they tell you explicitly because they don't even realize it themselves. Right. It's just sort of something that you have to distract by hearing how they talk about the graphic.",
+      "id": "ep_22_ut_72"
+    },
+    {
+      "end": 1516770,
+      "speaker": "Moritz Stefaner",
+      "start": 1497910,
+      "text": "Yeah. And I think that's very a good observation that often the more specific, specifically the people tweet about it, the more you understand that they actually went deep and found, like, all individual insights. And if they just write, wow, awesome new thing, you're never really sure how long they look.",
+      "id": "ep_22_ut_73"
+    },
+    {
+      "end": 1533780,
+      "speaker": "Shan Carter",
+      "start": 1517470,
+      "text": "Yeah, exactly. The best feedback is when they're like, when they respond to some insight rather than saying, oh, wow. That's ultimately our goal is to educate people on something, not just impress them with some technical features.",
+      "id": "ep_22_ut_74"
+    },
+    {
+      "end": 1546260,
+      "speaker": "Mike Bostock",
+      "start": 1534320,
+      "text": "Sometimes I wonder when I tweet something and then I see that it's retweeted immediately and it's like, well, how could you? It's taken at least a few minutes to understand it, but it's like they're already retweeting it.",
+      "id": "ep_22_ut_75"
+    },
+    {
+      "end": 1548710,
+      "speaker": "Moritz Stefaner",
+      "start": 1546610,
+      "text": "Yeah. It means people trust you.",
+      "id": "ep_22_ut_76"
+    },
+    {
+      "end": 1552922,
+      "speaker": "Mike Bostock",
+      "start": 1552610,
+      "text": "Yeah.",
+      "id": "ep_22_ut_77"
+    },
+    {
+      "end": 1570082,
+      "speaker": "Moritz Stefaner",
+      "start": 1552946,
+      "text": "But it's very interesting because, I mean, you do try to, I think, in each new graphic, find a new sort of visual form or try out stuff. And it's really interesting which type of people respond to what or how broadly these things are understood or not. It's hard to find out.",
+      "id": "ep_22_ut_78"
+    },
+    {
+      "end": 1632760,
+      "speaker": "Mike Bostock",
+      "start": 1570146,
+      "text": "I think that, yeah, I mean, you're touching on a really interesting point, which is trying to come up with language that is familiar but also sort of expanding our vocabulary so that we can convey these things in the most effective way. Like, one of the things that Jeff Heer and I, my advisor at Stanford talked about, it was like this. What is this grammar of interactive graphics? It's like we have a grammar of graphics that describes static graphics. We tend to be fairly familiar with sort of the standard chart typology of bar charts and pie charts and area charts and things like that. But I don't know if we quite have the same sort of established vocabulary of modes of interaction. Right. Like we have the ability to do brushing or panning and zooming. And there are some standard things that we have. But at the same time, it seems like a lot of these graphics, you kind of want to come up with something new that's tailored specifically to what it is that you're trying to show. And then the challenge is, if you make it custom to this graphic, how do you still make it recognizable at the same time so that it's intuitive?",
+      "id": "ep_22_ut_79"
+    },
+    {
+      "end": 1635892,
+      "speaker": "Enrico Bertini",
+      "start": 1635460,
+      "text": "Sure.",
+      "id": "ep_22_ut_80"
+    },
+    {
+      "end": 1636276,
+      "speaker": "Shan Carter",
+      "start": 1635956,
+      "text": "Sure.",
+      "id": "ep_22_ut_81"
+    },
+    {
+      "end": 1660260,
+      "speaker": "Enrico Bertini",
+      "start": 1636348,
+      "text": "I think, yeah. I think you might be familiar with some of the research that has been done in the past in this area, but I agree with you. There's not really kind of a grammar that formally defines what kind of interactions you can have. That's definitely really interesting, but probably more complicated. Much more complicated.",
+      "id": "ep_22_ut_82"
+    },
+    {
+      "end": 1668656,
+      "speaker": "Moritz Stefaner",
+      "start": 1660960,
+      "text": "Yeah. But also visual forms. And I really like how you also try and expand the vocabulary in this area.",
+      "id": "ep_22_ut_83"
+    },
+    {
+      "end": 1694350,
+      "speaker": "Mike Bostock",
+      "start": 1668688,
+      "text": "Yeah. So it's like we have this trade off between, do I want to use the native button, which everybody knows what it looks like but is kind of maybe a little bit ugly or doesn't sort of fit in with the rest of our flow, you know? Or like, we did the NFL draft last week, and there was a debate that we had of the slider. It's like, are we going to use the native slider, or are we going to write a custom slider that looks better and is sort of more integrated with the design?",
+      "id": "ep_22_ut_84"
+    },
+    {
+      "end": 1713030,
+      "speaker": "Enrico Bertini",
+      "start": 1696290,
+      "text": "Yeah, but this is something I wanted to ask you guys. So how do you decide where is the boundaries between something that is familiar but it's not really working well for your purposes or something that is a little bit less familiar, but it's just perfect. So how do you set the boundaries between these two things?",
+      "id": "ep_22_ut_85"
+    },
+    {
+      "end": 1791710,
+      "speaker": "Shan Carter",
+      "start": 1714970,
+      "text": "I think, like, a lot of our, like, when we're doing something, like, kind of, like, weird or new, our goal is not to, like, create something novel to catch people's attention. Generally, it's more that we're trying to kind of, like, as simply as we can convey the essence of the core truth that we're trying to convey in the graphic. So with that 512 pass, for instance, that kind of novel visual form came out of my desire to show you all the past available. Right. So it's kind of in response to some question or some idea that we're trying to convey. And so I think if that's your goal, then I don't think. I mean, that seems to me like a very, like, I don't know, like, a fairly. Everybody would enjoy, like, something that is easier to understand or, like, conveys more information in a smaller amount of time or is just, like, better at conveying something more complicated. So that's our goal. Our goal is not necessarily primarily to create something that's, like, new or different. And so I think in kind of aiming your sights at that, it helps you kind of orient in that kind of weird space where you're doing something nobody has seen before.",
+      "id": "ep_22_ut_86"
+    },
+    {
+      "end": 1812270,
+      "speaker": "Moritz Stefaner",
+      "start": 1792810,
+      "text": "And how do you like, what would be a typical workflow? Maybe let's stick with the 512 paths. Did you start with something fairly standard and then develop more into this very unique representation, or did you have the three idea from the beginning and then just, let's say, tweak the details? How did that come about?",
+      "id": "ep_22_ut_87"
+    },
+    {
+      "end": 1822978,
+      "speaker": "Shan Carter",
+      "start": 1814290,
+      "text": "Yeah, I kind of, like, we started just kind of building it and the early versions of it.",
+      "id": "ep_22_ut_88"
+    },
+    {
+      "end": 1825470,
+      "speaker": "Moritz Stefaner",
+      "start": 1823074,
+      "text": "Or would you first, like, scribble?",
+      "id": "ep_22_ut_89"
+    },
+    {
+      "end": 1834350,
+      "speaker": "Shan Carter",
+      "start": 1825890,
+      "text": "Yeah, this one, there was no, like, papers. Well, there, Mike, you did some paper sketches. That's farther along.",
+      "id": "ep_22_ut_90"
+    },
+    {
+      "end": 1854490,
+      "speaker": "Mike Bostock",
+      "start": 1834770,
+      "text": "I mean, I think generally we start prototyping with code because we're dealing with data, and you don't know what the graphic is going to look like unless you're using real data. And to do a hand sketch with real data is extraordinarily tedious, which sort of negates the benefit of doing it with pencil and paper in the first place.",
+      "id": "ep_22_ut_91"
+    },
+    {
+      "end": 1861406,
+      "speaker": "Moritz Stefaner",
+      "start": 1856350,
+      "text": "Unless you're Stephanie Posavec, then you can pull it off, then you can.",
+      "id": "ep_22_ut_92"
+    },
+    {
+      "end": 1914150,
+      "speaker": "Mike Bostock",
+      "start": 1861438,
+      "text": "Maybe. But generally, I like we start by doing these very minimalist prototypes where we sort of try to cut as many features as possible to just get the raw data graphic on the screen to see what it looks like. And then we can use that to explore the design space fairly quickly and do a whole bunch of iterations and try different branches. And then once we sort of get a sense of what parts of it are working well and what parts need to be improved, you know, we start doing sort of less drastic iterations. We're converging towards what our final design is, and then we can start to add all of those, you know, extra bells or not really bells and whistles, but, like, the elements that are sort of more tedious to implement but that are critical for user understanding. You know, things like abstract.",
+      "id": "ep_22_ut_93"
+    },
+    {
+      "end": 1922270,
+      "speaker": "Moritz Stefaner",
+      "start": 1914190,
+      "text": "It's a lot like a sculpting approach that you would make the core or the core features first and then progress towards the beginning.",
+      "id": "ep_22_ut_94"
+    },
+    {
+      "end": 1966340,
+      "speaker": "Mike Bostock",
+      "start": 1922310,
+      "text": "So, like, for the 512 paths graphic, I mean, Sean gave this talk at a visualized conference in New York City, and you can see a whole bunch of iterations that he went through. But the funny thing for me, looking back at all of the hundreds of versions that that graphic went through, is that the first version ended up being remarkably similar to the final version that we published, even though we went through a whole bunch of different variations in between. But there was a critical thing missing. So the first version was, again, a tree layout, where you're sort of looking at the entire space of possible outcomes, but then you're truncating the paths when the decision is made, when the threshold crosses 270 electoral votes or 269 for a tie.",
+      "id": "ep_22_ut_95"
+    },
+    {
+      "end": 1968320,
+      "speaker": "Moritz Stefaner",
+      "start": 1967080,
+      "text": "Because it doesn't matter anymore.",
+      "id": "ep_22_ut_96"
+    },
+    {
+      "end": 1979424,
+      "speaker": "Mike Bostock",
+      "start": 1968360,
+      "text": "Exactly. It doesn't matter if Obama wins Florida and Ohio. Nothing else matters beyond that. Right. Because he already has more than 270 electoral votes. But the key thing that was missing.",
+      "id": "ep_22_ut_97"
+    },
+    {
+      "end": 1992360,
+      "speaker": "Moritz Stefaner",
+      "start": 1979472,
+      "text": "From the first, it's 100% game theory, by the way. It's like, you know, as you would do a chess tree or something like this. I love that about it. It shows that whole game development of the election. So it's kind of nice.",
+      "id": "ep_22_ut_98"
+    },
+    {
+      "end": 2018230,
+      "speaker": "Mike Bostock",
+      "start": 1992480,
+      "text": "Yeah, I mean, I think was successful because it did capture the overview of the entire space. Like, when people were talking about it on television, they would always throw out a couple scenarios. But the problem is you have a couple scenarios, but it's out of 512 or more. And so just poking out a couple examples doesn't give you any sense of what the overall space of possibilities are.",
+      "id": "ep_22_ut_99"
+    },
+    {
+      "end": 2052340,
+      "speaker": "Shan Carter",
+      "start": 2020330,
+      "text": "And actually, the first commit on that was basically just the buttons and then some text readout, because I was trying to wrap my head around exactly that problem because I was frustrated, too. I was like, oh, I've seen four different scenarios, but then I'd see other people's scenarios, and then you quickly lose track of them all. And so I was just kind of like, well, how many are there? Let's just look at it. The first one had no visual representation, and so it just kind of evolved from there.",
+      "id": "ep_22_ut_100"
+    },
+    {
+      "end": 2066290,
+      "speaker": "Moritz Stefaner",
+      "start": 2053360,
+      "text": "It's a fun example of how the spirits I view is really interesting, but only if you pre structured. Right? And, as you say, make sure you just throw the relevant stuff and leave out and prune away all the stuff that doesn't matter anymore.",
+      "id": "ep_22_ut_101"
+    },
+    {
+      "end": 2117858,
+      "speaker": "Mike Bostock",
+      "start": 2066910,
+      "text": "So, for example, that first tree layout, even though it was very similar to the final graphic that we ended up publishing, the thing that it was missing is that those decision nodes, like the Florida and Ohio example, they didn't have any more visual prominence than the other nodes that, you know, were the leaf nodes, like these very unlikely possibilities. And so the challenge there was to try to keep this simple structure, but to weight the tree so that the likelihood of the paths somehow corresponded to its visual prominence. And that's really what gave it the quick, almost like pre attentive response. Like, you just look at this and you can see, like, the important parts of the tree are more visually prominent than the less important parts. Yeah.",
+      "id": "ep_22_ut_102"
+    },
+    {
+      "end": 2176350,
+      "speaker": "Shan Carter",
+      "start": 2117874,
+      "text": "And I think that was a good one of, like, where we were are, there's, like, kind of a mantra we have in our department that I think Amanda, for Amanda Cox first said is like, it's easier to kind of make a thousand graphics and pick the best one than to just make the best one from the beginning, you know? So, like, we try to, like, just, like, if we have an idea, we try to try it out as quickly as possible, and then it's much easier to choose to see if it's working or not with the real data. And, like, Mike and I use D3 and kind of the web as our kind of prototyping medium. Amanda and Kevin Quailey and some others use r a lot because they find that really quick for prototyping. It's just kind of whatever. You can make a graphic as quickly as possible, like, the minimum viable graphic as quickly as possible, and not feel like you've invested too much into it so you can throw it away easily, I feel like. So whatever kind of satisfies that in terms of prototyping, that works well for us.",
+      "id": "ep_22_ut_103"
+    },
+    {
+      "end": 2180650,
+      "speaker": "Enrico Bertini",
+      "start": 2176470,
+      "text": "So you normally don't use a lot of prepared prototyping, right?",
+      "id": "ep_22_ut_104"
+    },
+    {
+      "end": 2194752,
+      "speaker": "Shan Carter",
+      "start": 2181750,
+      "text": "Not really. I mean, we do sketch out for the more explanatory diagrams, but not for data visualization because like Mike said, it's hard to sketch out what data will look like on paper with a pencil.",
+      "id": "ep_22_ut_105"
+    },
+    {
+      "end": 2242550,
+      "speaker": "Mike Bostock",
+      "start": 2194816,
+      "text": "So I used paper sketching in the 512 paths, but that was just for the transition animation. So when you change the states, right, like, if you switched from Virginia goes Republican to Virginia goes Democrat, it does this transition where it basically regrows part of the tree that was previously pruned and then prunes a new part of the tree. And so, like, some nodes come up and some nodes come down. And it was pretty complicated and more complicated than I could just sort of think of it in my head. So I ended up writing it down with a couple of scenarios to try to figure out what the appropriate transition was between these two different states of the tree. And so in that case, I was using paper not so much to sketch out the design, but to sort of increase my working memory so that I could design the appropriate transition.",
+      "id": "ep_22_ut_106"
+    },
+    {
+      "end": 2255640,
+      "speaker": "Enrico Bertini",
+      "start": 2243890,
+      "text": "So this is something you do for yourself in order to understand better how it should work, rather than as a way to communicate to some others how you think it would work. Yeah. Okay, good.",
+      "id": "ep_22_ut_107"
+    },
+    {
+      "end": 2284100,
+      "speaker": "Shan Carter",
+      "start": 2256060,
+      "text": "And we will sometimes take screenshots of our prototypes and bring it into illustrator if I want to play around with annotation placements or UI elements. So I'll then use illustrator to kind of like mock up different scenarios with those sorts of things, but generally with the, the data graphic, it's just hard to do that without the actual data. I find that you get better results by working with the real stuff.",
+      "id": "ep_22_ut_108"
+    },
+    {
+      "end": 2329044,
+      "speaker": "Moritz Stefaner",
+      "start": 2284600,
+      "text": "I find these hybrid workflows really fascinating. Maybe until two years ago or so, I programmed everything, even the text labels, and it was, I don't know, maybe just some sort of code ethics or something like this. That's only real work if it's programmed. But now, the last few years, I really learned to appreciate all this, how much better it can work if you do few things by hand and sort of. Yeah, get the best of both worlds. And I mean, before the show, we discussed a bit how the, for instance, for this Asia map, like how you had this sort of hybrid workflow between coding stuff, then using these results, but then optimizing a few things by hand. So what's your take on this type of.",
+      "id": "ep_22_ut_109"
+    },
+    {
+      "end": 2491210,
+      "speaker": "Mike Bostock",
+      "start": 2329132,
+      "text": "We're really lucky, this space that we're working in and that we have these fixed data sets. So we have the opportunity to incorporate human tweaking and adjustment to improve the quality of our graphics. I mean, certainly in spaces where the dataset is not defined ahead of time, you don't have the opportunity to sort of, maybe if used mechanical Turk, you know, you can't incorporate human correction, like. But in our cases, because we know these data sets ahead of time, we can. And so then the challenge becomes sort of how, what's the most efficient process? Right? Like, you have a choice and you want to maximize quality for amount of unit time development work. So you have a choice between doing sort of the fully automated approach, which would require you to implement a potentially complex algorithm, potentially like some open research areas, versus doing things by hand and trying to find which parts of the problem are best solved by the computer and which parts of the problem are best solved by hand is really kind of the interesting challenge to producing the best graphic in the least available time. So in the case of the cartogram you mentioned, you know, we were starting with this continuous area cartogram algorithm, the Gassner Newman algorithm, and it does a distortion of geography, but it's continuous. So it's just distorting the boundaries of each of the provinces of China or these countries in Asia. And then on top of that, we're overlaying this. Hexagonal grid to produce the final sort of discrete cartogram. And the challenge was overlaying that hexagonal grid introduced a lot of error. And so we could sort of throw away the Gassner Neumann algorithm and design a new algorithm from scratch for solving this problem, which be a whole lot of work. Or we could sort of take the output of this existing sort of off the shelf algorithm and then just doing a little bit of hand correction, end up with a high quality result that didn't have any apparent error. So that's what we ended up doing. I still think it would be interesting to go back and design a discrete algorithm for that particular problem, because it ended up being quite tedious because I chose very small hexagons. If I had chosen larger hexagons, it would have been a much easier graphic to make. So sort of a classic noob mistake. So Ralph Straumann is this swiss cartographer who was one who made this hexagonal cartogram that was part of the inspiration for this graphic. And he helped me by explaining the process that he used to make the graphic. And so when I finally published it, he commented like, oh, your hexagons were really small. And I was like, I didn't know.",
+      "id": "ep_22_ut_110"
+    },
+    {
+      "end": 2494790,
+      "speaker": "Moritz Stefaner",
+      "start": 2493510,
+      "text": "He could have told you before.",
+      "id": "ep_22_ut_111"
+    },
+    {
+      "end": 2495490,
+      "speaker": "Shan Carter",
+      "start": 2494870,
+      "text": "Right.",
+      "id": "ep_22_ut_112"
+    },
+    {
+      "end": 2515446,
+      "speaker": "Moritz Stefaner",
+      "start": 2496430,
+      "text": "That's interesting. And technically, what's your, like, really on this sort of file format level? Like, how, how do you, let's say, bounce results between data web processing D3 and illustrator? Do you, like, create svgs in D3, open them in illustrator, save them back, stuff like that?",
+      "id": "ep_22_ut_113"
+    },
+    {
+      "end": 2535226,
+      "speaker": "Mike Bostock",
+      "start": 2515638,
+      "text": "It's almost all done in D3, although there is one example getting a lot of background noise. That's Enrico. Okay, there we go. Thanks.",
+      "id": "ep_22_ut_114"
+    },
+    {
+      "end": 2537390,
+      "speaker": "Shan Carter",
+      "start": 2535258,
+      "text": "Enrico is somebody in the car?",
+      "id": "ep_22_ut_115"
+    },
+    {
+      "end": 2629262,
+      "speaker": "Mike Bostock",
+      "start": 2537970,
+      "text": "Another sort of interesting example of this hybrid computer human approach to graphics is the network diagram that we did on the Oscar contenders. And that started out as just a standard force directed graph layout, you know, where you just plug in the network and it automatically lays out the entire graph for you. But while that was fairly good, it really was not as good as you could do by hand. And so I was collaborating with Alicia DeSantis on making the print version of that graphic, and she ended up taking the output that we had in SVG and putting it into illustrator. And then she did a whole bunch of tweaking to that network, and then she showed me the draft for print, and I was like, wow, that looks so much better than the version that I had been making for the web. And so then I had to figure out how to incorporate those improvements back into the version of the web so that it looked better. And so the way that I did that is I ended up implementing sort of an editor interface for the graph that would sort of start with the initial output of the force directed graph layout algorithm and then allow me to just sort of move things around in the browser and then save it back out to the data file. So in a sense, it was like a very limited custom version of illustrator that I wrote in the graphic to just move the nodes around, but with.",
+      "id": "ep_22_ut_116"
+    },
+    {
+      "end": 2635486,
+      "speaker": "Moritz Stefaner",
+      "start": 2629286,
+      "text": "The constraints implemented, like what can go where or also the line drawing being automated, of course.",
+      "id": "ep_22_ut_117"
+    },
+    {
+      "end": 2645810,
+      "speaker": "Mike Bostock",
+      "start": 2635518,
+      "text": "Right. So it was very specific to this particular problem, so I could just move around the actors and the sort of connecting splines and the labels and such like that.",
+      "id": "ep_22_ut_118"
+    },
+    {
+      "end": 2657828,
+      "speaker": "Moritz Stefaner",
+      "start": 2646430,
+      "text": "Yeah, that's a luxurious workflow. Of course, if you have time to build your own custom tools that are really the best to make one graphic on point, I think that's really fantastic.",
+      "id": "ep_22_ut_119"
+    },
+    {
+      "end": 2699040,
+      "speaker": "Mike Bostock",
+      "start": 2657924,
+      "text": "Well, yeah, I mean, that is kind of the challenge is like figuring out when you're building a tool, sort of what is the minimal instantiation of the tool that gives you just what you need. Because if you sort of overgeneralize, like if you overbuild your tools, you can spend a lot of time building this thing that you're really just going to throw away at the end of the graphic. Like there's no value in the tool itself. The value is only in the output of the tool. So sort of having a foundation like tools like D3 that make it faster for you to build these things is sort of what makes it a viable approach. But you also have to be ruthless about only implementing what you actually need for the graphic.",
+      "id": "ep_22_ut_120"
+    },
+    {
+      "end": 2753720,
+      "speaker": "Moritz Stefaner",
+      "start": 2699420,
+      "text": "Yeah, I mean, there is always this danger that you built this swiss army knife type thing. You can do a lot of cool stuff once you start building tools and frameworks. I mean, we could move on. Talking about D3, I mean, people are surely very curious to hear what your perspective on D3 and how the whole thing developed, where you see it going. So I think that could be interesting to discuss. So we did have Jeff on the show maybe, I don't know, half a year ago. So we covered all the pre D3 stuff with him anyway. So our listeners should be familiar. Yeah, should be familiar with proto vis and, you know, all the precursors and so on. So can you give us a quick run through of the history of the three and where it is now?",
+      "id": "ep_22_ut_121"
+    },
+    {
+      "end": 2882794,
+      "speaker": "Mike Bostock",
+      "start": 2754260,
+      "text": "Sure, that takes me back a few years. So let's see, when I joined I Stanford's PhD program in computer science in 2008. Jeff, let's see. One of the first classes that they make you take is called cs 300. It's a survey class, and basically, like, every professor does one lecture to talk about their area of research. And so it's a great way to get a sense of sort of the entire space of research opportunities and computer science. And Jeff at the time was still finishing his PhD at Berkeley, but he had already gotten offered a job as a professor at Stanford. And so he came to give his CS 300 lecture on information visualization. And it was actually somewhat embarrassingly, I mean, the first time I really learned about visualization as being a research field. Prior to that, I had an interest in visualization. You know, I had done some stuff at Google, and, you know, I owned every book by Tufte, and it was something that I knew that I was interested in, but I didn't really realize that it was something that I could focus on as part of my PhD studies. So right after he gave his lecture, I was like, this is amazing. Like, this is what I want to do. Like, will you be my advisor? And so he then joined, I guess it was in the winter quarter and taught the CS 448 B data visualization class. And Protovis was my final project for that class. So there are several sort of earlier homework assignments, smaller projects, but then the culmination of the class is like a four or five week project where you implement something and then you write an academic style paper to accompany whatever it is that you made. And so that ended up being the Protovis paper that was accepted to the IEEE infovis conference. And let's see.",
+      "id": "ep_22_ut_122"
+    },
+    {
+      "end": 2885762,
+      "speaker": "Moritz Stefaner",
+      "start": 2882962,
+      "text": "And you had the framework implemented as a prototype as well, right?",
+      "id": "ep_22_ut_123"
+    },
+    {
+      "end": 2892630,
+      "speaker": "Mike Bostock",
+      "start": 2885786,
+      "text": "Yeah. The prototype of Protovis, that's sort of a tongue to twister, was implemented as part of that class.",
+      "id": "ep_22_ut_124"
+    },
+    {
+      "end": 2906650,
+      "speaker": "Moritz Stefaner",
+      "start": 2893530,
+      "text": "Yeah. Wow. Yeah. That must have been a lot of work, right? Because, I mean, obviously, or did you, like, in the beginning, already know, like, how this thing would work, you just wrote it down or.",
+      "id": "ep_22_ut_125"
+    },
+    {
+      "end": 2974870,
+      "speaker": "Mike Bostock",
+      "start": 2906770,
+      "text": "Because writing a framework like that is. No, I mean, I had an idea very early on that I wanted to build this sort of bottom up approach to visualization, which is that I saw a lot of the existing approaches, sort of took more of this top down approach where they tried to sort of at a very high level, describe how it's sort of a language of visualization or grammar of graphics. And what I wanted to do was more sort of build it up from these visual components, because I just find it more approachable or more intuitive to think about the discrete visual elements that comprise the visualization that I'm making, rather than thinking about it more in mathematical terms of these mapping dimensions of data to visual encodings. And so the whole goal of Protovis was to try to come up with a simple language that expressed visualizations as graphical marks. Forgot what I was going to say after that.",
+      "id": "ep_22_ut_126"
+    },
+    {
+      "end": 3003712,
+      "speaker": "Moritz Stefaner",
+      "start": 2975610,
+      "text": "Yeah, but it's really nice to explain how visualization works, I think. So. I still use it when I teach. I still use this cheat sheet from portal wiz because it's so nice in a sense that you could say like, okay, here's different types of graphical marks you can use. They can have static properties and dynamic ones, and the dynamic ones might depend on data or they order in a list. So all these basic things are very nicely laid out there. And I think that also makes the basis for D3's logic of organization.",
+      "id": "ep_22_ut_127"
+    },
+    {
+      "end": 3079008,
+      "speaker": "Mike Bostock",
+      "start": 3003776,
+      "text": "I mean, the challenge is to try to just have this very simple representation, which is a direct mapping from your data to these graphical elements, rather than something that's more abstract than that. But at the same time, it can't be so low level that it's extraordinarily tedious to work with, right? I mean, people want to make visualizations quickly, they don't want to spend any more time than they have to making these things. So having a language that strikes the right balance between sort of being accessible, easy to learn, being efficient, which is like fast to create whatever it is that you want to create, and also being expressive, like having the ability to express all of the different possible types of visualization you might want to make, those are the three main dimensions or criteria we were looking at in designing a language in terms of going from Protovis to D3. I think the real thing there that I was trying to accomplish was to make it even more expressive without giving up this efficiency. So the main limitation of Protovis was because it defined this language of graphical marks. Anything that wasn't in that predefined language, you wouldn't be able to make. So some simple examples of that.",
+      "id": "ep_22_ut_128"
+    },
+    {
+      "end": 3085114,
+      "speaker": "Moritz Stefaner",
+      "start": 3079064,
+      "text": "It was like a sandbox world, right? So you had, you had circles and rectangles and now deal with it.",
+      "id": "ep_22_ut_129"
+    },
+    {
+      "end": 3170790,
+      "speaker": "Mike Bostock",
+      "start": 3085242,
+      "text": "And so, you know, I loved some aspects of the language, but at the same time, when I wanted to do certain things, like if I wanted, you know, stroked or dashed strokes, you know, or if I wanted a gradient or something or a clipping path or various other things that the browser was perfectly capable of doing, but Protovis could not support because it wasn't built into the language. So my options were to sort of keep incrementally adding features to the Protovis language, or to try to rethink it and somehow still capture the essence of Protovis without simultaneously incorporating the representation. And so that's really how D3 came about, is to try to basically solve a smaller problem, which is this mapping from data now not to a custom graphical language, but to an existing representation, which is the document object model. So how to capture that mapping without needing to also specify the entire graphical language? And the beauty of that is that as new functionality is added to web standards, that functionality is immediately available when you use it in D3. And you don't have to learn sort of a proprietary representation, you just learn the standard representations. And you can take advantage of all of these existing tools in this ecosystem that are all based on web standards, like your element inspector and your JavaScript console that's built into your web browser.",
+      "id": "ep_22_ut_130"
+    },
+    {
+      "end": 3188244,
+      "speaker": "Moritz Stefaner",
+      "start": 3171490,
+      "text": "So what do you say? D3 is more like a toolkit. So I always perceived it more like a toolbox of things. You can freely combine and just see what comes out of the combination rather than this more framework. Yes, this chart type and you can customize.",
+      "id": "ep_22_ut_131"
+    },
+    {
+      "end": 3306580,
+      "speaker": "Mike Bostock",
+      "start": 3188332,
+      "text": "Yeah, it's definitely, I definitely wouldn't call it a framework or a platform or any sort of monolithic thing. One of the ways that we talked about it was this idea of a visualization kernel, which is basically sort of what is the essence of visualization? Like what is the smallest but still central problem that you can solve, that applies to basically every situation that occurs when you have visualization. And so that's where you get this concept of mapping data to a scene graph, to the document object model. Like whenever you have a declarative representation of a graphic, be that SVG or HTML or any other sort of scene graph, you have this problem, which is you have data, right? You have some abstract, hierarchical or tabular data, and you need to somehow transform that. You need to create a scene graph from that data. Or likewise, if you're already showing a graphic and you want to show a different view, or you want to support some sort of interaction or animation, you need to transform that existing scene graph to correspond to whatever your new data is. And so that was really the core problem that we were trying to solve with D3, is to express these transformations of the document object model based on data. And that's really where you get the concept of the data join. And these three sort of enter, update and exit sub selections, they represent the three different possibilities when you're joining data to an existing scene graph. But then on top of that visualization kernel, there are all sorts of higher level primitives or abstractions or components that you want in order to make common types of visualization. And so in that sense, on top of this kernel, you have sort of an unbounded toolbox of different things that you can plug in, but the key is different layouts.",
+      "id": "ep_22_ut_132"
+    },
+    {
+      "end": 3312696,
+      "speaker": "Moritz Stefaner",
+      "start": 3306920,
+      "text": "There's a huge mapping library by now, also due to Jason Davis passion, let's say.",
+      "id": "ep_22_ut_133"
+    },
+    {
+      "end": 3383570,
+      "speaker": "Mike Bostock",
+      "start": 3312768,
+      "text": "Jason has done tremendous amount of work on our D3 geo module, which has just been really exciting. But yeah, I mean, the idea is that you have this sort of unbounded set of components that you can use. And the key point though is that they're all, they're modular, they're decoupled. So you have the kernel at one level, which is this very small thing that's just trying to map your data to a scene graph. And then on top of that you have these other components that you can pick and choose. And I think even though, you know, there's been some people talk about D3 having sort of a steep learning curve and having difficulty understanding what the concept is of a data join. Once you understand that concept, which admittedly is fairly foreign, but it's kind of what gives it its power. Like you've sort of mastered like everything to D3 that you need to start using it. But beyond that, you can sort of pick up these individual components as you want to increase your expressiveness and start to incorporate other standard visualization algorithms.",
+      "id": "ep_22_ut_134"
+    },
+    {
+      "end": 3421118,
+      "speaker": "Moritz Stefaner",
+      "start": 3384310,
+      "text": "And, I mean, I think the main point is you have so many examples that for anything you want to do, there's already an example that's like 50% of it, and you can just take that and customize it until you're sort of close to what you want to get to. Yeah, I mean, one thing I found tricky, so I've been using quite a bit of these three lately, but one thing I found tricky is to scale it to really complex applications that have lots of different views and different tabs or screens and lots of options. But probably that's more finding the right patterns for yourself to implement all these conditionals and these different.",
+      "id": "ep_22_ut_135"
+    },
+    {
+      "end": 3452910,
+      "speaker": "Mike Bostock",
+      "start": 3421174,
+      "text": "Yeah, I mean, D3 being the sort of low level tool that it is, this visualization kernel, it doesn't presuppose a particular high level design for your application. So if you have a complicated application, you'll need to sort of solve that problem on your own. Like D3 doesn't solve that problem for you. Now there are things that you can use and there are sort of some standard patterns and things for building these larger applications, but I haven't sort of tackled that problem myself.",
+      "id": "ep_22_ut_136"
+    },
+    {
+      "end": 3470364,
+      "speaker": "Moritz Stefaner",
+      "start": 3453300,
+      "text": "Yeah, yeah, but it's tricky. There's also a conceptual decision in a sense of, okay, when do I make it two or three different svgs and when do I keep it in the same svg? You know, that's hard to, you know, or these types of decisions, like at what level do I introduce distinctions and so on.",
+      "id": "ep_22_ut_137"
+    },
+    {
+      "end": 3471732,
+      "speaker": "Mike Bostock",
+      "start": 3470412,
+      "text": "Yeah, that can be a challenge.",
+      "id": "ep_22_ut_138"
+    },
+    {
+      "end": 3495194,
+      "speaker": "Moritz Stefaner",
+      "start": 3471876,
+      "text": "I think we still need to figure that out, like how to use it best. But I think it's safe to say it's the, I think up to now it's been the most successful or most popular, let's say, visualization toolkit framework. I checked sometime in January and I saw it was like on place eight or so on GitHub, like the most starred project. So it's hugely successful.",
+      "id": "ep_22_ut_139"
+    },
+    {
+      "end": 3506994,
+      "speaker": "Mike Bostock",
+      "start": 3495282,
+      "text": "It's been pretty amazing to see how many people are using it. And just that wiki on D3 is all publicly editable and so everybody just can add their examples to that gallery.",
+      "id": "ep_22_ut_140"
+    },
+    {
+      "end": 3509830,
+      "speaker": "Moritz Stefaner",
+      "start": 3507042,
+      "text": "That's hundreds of examples. It's just amazing.",
+      "id": "ep_22_ut_141"
+    },
+    {
+      "end": 3523642,
+      "speaker": "Shan Carter",
+      "start": 3512090,
+      "text": "Yeah. I mean, from my standpoint, D3 was the only visualization framework I was ever able to use. Like sort of in production. I kind of played around with even Protovis before and like some of the other ones.",
+      "id": "ep_22_ut_142"
+    },
+    {
+      "end": 3524154,
+      "speaker": "Moritz Stefaner",
+      "start": 3523746,
+      "text": "Sure.",
+      "id": "ep_22_ut_143"
+    },
+    {
+      "end": 3548660,
+      "speaker": "Shan Carter",
+      "start": 3524242,
+      "text": "And one of the things that always struck me is, like, with a lot of the other ones, you can always tell when you see an example out there of what framework was used to make it because there's always some telltale sign because it's a little like too rigid or whatever. But with D3, a lot of times it's like you'd have to inspect the source and check for the D3 object to see because you weren't sure. There are some telltale signs, but it's so expressive that you can do so much with it.",
+      "id": "ep_22_ut_144"
+    },
+    {
+      "end": 3591954,
+      "speaker": "Moritz Stefaner",
+      "start": 3549480,
+      "text": "It brings no visual defaults. I mean, maybe the axes are sort of, once you see one of these D3 axes, you might recognize them, but that's it. That's true. We have a few questions from Twitter as well. Anna Schneider. She asks, what do you think of Vega, and will it change how you use or teach D3? So probably we should explain. So Vega is a fairly new development, again from Jeff hare or his startup company Trifacta, and they do something interesting, but I'm not sure if I understand even properly what they're doing. But it's sort of an abstraction on top of these three or other frameworks of how you can describe charts and their contents.",
+      "id": "ep_22_ut_145"
+    },
+    {
+      "end": 3606226,
+      "speaker": "Mike Bostock",
+      "start": 3592042,
+      "text": "Sure, I can take a crack. I mean, for full disclosure, I'm a technical advisor to Trifacta, but I'm not directly involved with this Vega project, although I've been helping Jeff a little bit with the design.",
+      "id": "ep_22_ut_146"
+    },
+    {
+      "end": 3606946,
+      "speaker": "Moritz Stefaner",
+      "start": 3606338,
+      "text": "Sure.",
+      "id": "ep_22_ut_147"
+    },
+    {
+      "end": 3697058,
+      "speaker": "Mike Bostock",
+      "start": 3607098,
+      "text": "Basically what Vega does is it's a strictly declarative language. So unlike D3, which sort of tries to be as declarative in terms of minimizing control flow, like you don't have a lot of if statements or for loops when you write D3 code, Vega is strictly JSON, so it's only declarative. I guess there's a small exception for that in terms of the interaction handlers, but generally speaking, philosophically, it's only declarative. And then the other thing that's different about Vega is that it's actually, it is a higher level abstraction. It's higher level than D3. So it's more like grammar of graphics a little bit in that you have a definition of what your dimensions of data are and then these transformations. And so it's able to do things like provide axes for you automatically rather than you needing to sort of wire those up with scales like you would do with D3. So for me, Vega is really sort of the perfect or at least a much improved output interface for a lot of exploratory data analysis tools. So for example, if you're using r or if you're using pandas, people have already written interfaces on top of Vega. There's this project called clickme for r and something called Vincent for pandas that basically lets you generate Vega D3 visualizations from these exploratory tools. And I think.",
+      "id": "ep_22_ut_148"
+    },
+    {
+      "end": 3700490,
+      "speaker": "Moritz Stefaner",
+      "start": 3697154,
+      "text": "So would you say it's almost like a ggplot replacement or something like that?",
+      "id": "ep_22_ut_149"
+    },
+    {
+      "end": 3749050,
+      "speaker": "Mike Bostock",
+      "start": 3700530,
+      "text": "I think you could write sort of ggplot two Vega to D3 if you wanted to as well. But I mean, more generally, getting back to this visualization kernel, it's always been my hope that people would build higher level abstractions on top of D3. Yes, and that way they can pick sort of a different point along the spectrum between sort of the most expressive but lowest level tool to the most efficient, highest level tool. But then you correspondingly have to give up some of your expressiveness. So you can't be as expressive in Vega as you can in D3, but at the same time your specifications can be smaller and it can provide a lot more automatic functionality for you.",
+      "id": "ep_22_ut_150"
+    },
+    {
+      "end": 3763574,
+      "speaker": "Moritz Stefaner",
+      "start": 3752150,
+      "text": "Yeah, it's very interesting and this idea that, yeah, it's something you can combine with other tools or establish these pipelines. I think that makes it very, very fascinating to think about that because traditionally.",
+      "id": "ep_22_ut_151"
+    },
+    {
+      "end": 3815320,
+      "speaker": "Mike Bostock",
+      "start": 3763622,
+      "text": "D3 hasn't really been designed for exploratory visualization. It's really for these types of custom visualizations like we do at the New York Times. But you heard earlier, I do use it for exploratory visualization, but to me that only works. A. I'm very familiar with D3 already having written it. And we cut all of these corners in our iteration, in our early prototypes. So we're not trying to solve sort of the more tedious tasks of visualization just to get a sense of what the raw data graphic looks like. And that's what enables us to use D3 for exploratory visualization, even though on its surface it might seem only more appropriate for more custom data graphics.",
+      "id": "ep_22_ut_152"
+    },
+    {
+      "end": 3829730,
+      "speaker": "Moritz Stefaner",
+      "start": 3816980,
+      "text": "Yeah, and I mean, it's not for everybody to customize everything. Some people just want a quick line chart based on some data. And I think Vega bridges exactly that, that sort of gap.",
+      "id": "ep_22_ut_153"
+    },
+    {
+      "end": 3861160,
+      "speaker": "Mike Bostock",
+      "start": 3829890,
+      "text": "The other aspect that I like of using D3 for exploratory visualization is as we're doing this iterative design process and we start to converge on our final design, I don't have to throw away whatever it is that I made using the exploratory tool to finally start producing the final graphic. Right. I've got a starting platform for building that final graphic and I can just sort of. It allows me to transition very easily from the exploratory stage of the design process to more the refinement stage when we're actually making the final graphic.",
+      "id": "ep_22_ut_154"
+    },
+    {
+      "end": 3922010,
+      "speaker": "Moritz Stefaner",
+      "start": 3862060,
+      "text": "Yeah, that's interesting. Yeah. So I think this space is still wide open. Yeah, totally. So little update on Enrico. So they kicked him out of the room. I read this on Skype chat now and he's on the street, but we hope we can have him join sometime soon when he finds a Starbucks or something. Just for those of you who might be wondering why he's so quiet, I could also dial him in with phone maybe. We'll see. He will be back. We can have a few more questions. So Lynn Cherny, she asks, are there more D3 books in the works or more tutorials that are especially targeted towards more advanced users? So we've seen a lot of D3 getting started in D3 tutorials, I think. I mean, that makes sense too, because everybody needs to get started, but now there's also need for more advanced stuff. So are there any plans you're aware of or are you writing on something yourself?",
+      "id": "ep_22_ut_155"
+    },
+    {
+      "end": 3931018,
+      "speaker": "Mike Bostock",
+      "start": 3922130,
+      "text": "Well, just on Friday I released a new article that I wrote that explains the internal workings of selections called how selections.",
+      "id": "ep_22_ut_156"
+    },
+    {
+      "end": 3942360,
+      "speaker": "Moritz Stefaner",
+      "start": 3931034,
+      "text": "Yeah, that works very informative for me. It was like, ah, groups. I had sort of this visceral feel on groups, but I couldn't name it.",
+      "id": "ep_22_ut_157"
+    },
+    {
+      "end": 3942856,
+      "speaker": "Mike Bostock",
+      "start": 3942400,
+      "text": "That's great.",
+      "id": "ep_22_ut_158"
+    },
+    {
+      "end": 3945480,
+      "speaker": "Moritz Stefaner",
+      "start": 3942928,
+      "text": "So now I can point to.",
+      "id": "ep_22_ut_159"
+    },
+    {
+      "end": 3996640,
+      "speaker": "Mike Bostock",
+      "start": 3945520,
+      "text": "Yeah, so the goal there was to really describe how selections are implemented rather than just how to use selections. And I think it is interesting, sort of as D3 has gotten more established and more people are using it, the demand shifts a little bit from just sort of why should I be using this tool and how do I get started to. I've already decided to use this tool, but how do I really master it and get the most out of it? And so in that case, you know, when you have a doc or an article like how selections work, you know, it takes a little bit more work, it's a longer document, it's more technical. And so if you don't already have a motivation to use D3, it might not resonate with you. But I think for the people that are using D3 already, it provides that really more detailed information that helps them get to the next level with their use of the tool.",
+      "id": "ep_22_ut_160"
+    },
+    {
+      "end": 4010524,
+      "speaker": "Moritz Stefaner",
+      "start": 3997820,
+      "text": "And a few advanced patterns could be interesting, like this cookbook type thing where you have recurring problems and you need a smart solution to higher level patterns. Maybe.",
+      "id": "ep_22_ut_161"
+    },
+    {
+      "end": 4046860,
+      "speaker": "Mike Bostock",
+      "start": 4010572,
+      "text": "Yeah, definitely. I think there's definitely demand, increasing demand now for more of these intermediate or advanced level tutorials. Now I try to write tutorials, sort of like whenever I have a chance, in addition to these examples and stuff that I'm releasing. I think eventually, maybe if I have enough of these tutorials, I can somehow string them together and make them into a cohesive, comprehensive book. But just the idea of starting out trying to write a book is a little bit too daunting. I mean, it's a huge amount of work.",
+      "id": "ep_22_ut_162"
+    },
+    {
+      "end": 4048484,
+      "speaker": "Moritz Stefaner",
+      "start": 4047020,
+      "text": "It's a huge task. Yeah.",
+      "id": "ep_22_ut_163"
+    },
+    {
+      "end": 4076806,
+      "speaker": "Mike Bostock",
+      "start": 4048532,
+      "text": "So I enjoy right now, like sort of the more rapid release cycle of sort of getting a bunch of feedback, like seeing types of questions that people ask either on the mailing list or on stack overflow, or looking at talks that people are giving and trying to identify what are the issues that people are commonly running into. And then write a tutorial that tries to address those issues specifically or just a demo.",
+      "id": "ep_22_ut_164"
+    },
+    {
+      "end": 4084638,
+      "speaker": "Moritz Stefaner",
+      "start": 4076998,
+      "text": "So often things have just been cleared up with you just putting out one thing that shows how to use that specific stacking.",
+      "id": "ep_22_ut_165"
+    },
+    {
+      "end": 4095000,
+      "speaker": "Mike Bostock",
+      "start": 4084814,
+      "text": "It's so much fun for me to do that because it's not a lot of work to create a these demos, but you can just get it out there and then people are so happy to understand how things work.",
+      "id": "ep_22_ut_166"
+    },
+    {
+      "end": 4107100,
+      "speaker": "Moritz Stefaner",
+      "start": 4096980,
+      "text": "So how is the community? So is it mostly you and Jason Davis? So that's what I gather from following with one eye. Or are there more people involved in the core development of the.",
+      "id": "ep_22_ut_167"
+    },
+    {
+      "end": 4183123,
+      "speaker": "Mike Bostock",
+      "start": 4107140,
+      "text": "In terms of core development, I would say that Jason and I are probably like mid nineties in terms of how much of the code that we've written, like 90% or something like that. We do get a variety of other contributions from people in terms of like pull requests to fix bugs or to add small features. Lots of people have edited the wiki to add additional documentation or to add their own examples and things like that. I think part of it is a reflection of D3's design in a way, like because it is focused on this visualization kernel, the core of it is pretty small. It's not this giant framework that needs to expand whenever you want to add a new feature to it. It's a low level thing and most of those features that you want can already be supported. It's just a question of making the right example or teaching you how to do that. But I think there is an opportunity for more people to write plugins, these additional layouts, or even chart types or behaviors or reusable components like the axis and the brush. So there is a D3 plugins repository as well, where some people have been contributing more higher level components for reuse.",
+      "id": "ep_22_ut_168"
+    },
+    {
+      "end": 4193875,
+      "speaker": "Moritz Stefaner",
+      "start": 4183291,
+      "text": "Yeah, makes sense in a way. It's interesting because the model seems very similar to jquery. So do you follow what's happening with jquery right now?",
+      "id": "ep_22_ut_169"
+    },
+    {
+      "end": 4195359,
+      "speaker": "Mike Bostock",
+      "start": 4193987,
+      "text": "They just have the jquery.",
+      "id": "ep_22_ut_170"
+    },
+    {
+      "end": 4215030,
+      "speaker": "Moritz Stefaner",
+      "start": 4197370,
+      "text": "Exactly. And they sort of have now these two versions, 1.9. X is still supporting older browsers and it seems to become very tricky right now to manage jquery just because it has been adopted so widely and you know, you run into all these issues with backwards compatibility and so on.",
+      "id": "ep_22_ut_171"
+    },
+    {
+      "end": 4248096,
+      "speaker": "Mike Bostock",
+      "start": 4215530,
+      "text": "Yeah, well, I took sort of a hard nosed stance early on by rejecting, you know, that is eight and below by basically saying like, I'm only going to support. This was true of Protovis as well, actually. So like in 2008, like only supporting browsers that support web standards and everyone was like, oh, that's ridiculous at the time. But now of course, you know, you win because ie nine is now like, I think just past usage of ie eight and like ie ten and they've got like auto updates set up.",
+      "id": "ep_22_ut_172"
+    },
+    {
+      "end": 4252840,
+      "speaker": "Moritz Stefaner",
+      "start": 4248168,
+      "text": "But yeah, it's still an issue. Like, you know, when I work with big corporate clients, they often have.",
+      "id": "ep_22_ut_173"
+    },
+    {
+      "end": 4255608,
+      "speaker": "Mike Bostock",
+      "start": 4252880,
+      "text": "Yeah, definitely. There are still pockets of resistance.",
+      "id": "ep_22_ut_174"
+    },
+    {
+      "end": 4259448,
+      "speaker": "Moritz Stefaner",
+      "start": 4255664,
+      "text": "Whenever you have a central it department, you have lots of I eight still.",
+      "id": "ep_22_ut_175"
+    },
+    {
+      "end": 4300170,
+      "speaker": "Mike Bostock",
+      "start": 4259624,
+      "text": "But like, what we do in the New York Times, for example, is that we just use screenshots of our graphics as the fallback for ie eight and below. So it's not like they're not seeing anything. And in fact, the way that we design our graphics is such that the static view of the graphic is supposed to convey all of the important points. Right. So the idea of interaction is that it's just adding sort of an extra layer of depth to the graphic if you want to explore it and extract more insight from it. But you should be able to get the main points of a graphic just by looking at the static representation, which is what makes doing the screenshot a viable approach and being minimal.",
+      "id": "ep_22_ut_176"
+    },
+    {
+      "end": 4325956,
+      "speaker": "Moritz Stefaner",
+      "start": 4300210,
+      "text": "It's an identity check anyway. Anyways, like if you don't get it from a picture, probably you don't get it with a drop down as well. Yeah, that's a good point. Yeah, yeah, yeah, it's interesting. Yeah. And like talking about the future, for instance, Sam Leach and a few other people asked, what he asked specifically, where do you think or hope D3 will be in one, two or five years, even from now? Like, do you even think in these.",
+      "id": "ep_22_ut_177"
+    },
+    {
+      "end": 4420440,
+      "speaker": "Mike Bostock",
+      "start": 4325988,
+      "text": "Dimensions really so much? Like on a day to day basis? Like, I mean, you never know what technology is going to be like in five years. There is one thing that I would really hope, though, which is not actually directly related to my sort of development plans for D3, but in terms of sort of more broadly, like, the space for web based data visualization. And that is that I hope that the browser vendors continue to make improvements to their rendering and engines. There's still a lot of room for improvement in terms of performance and the quality when rendering SVG. And SVG has this nice property that is a purely declarative representation of a scene graph. And that means it's possible to take that declarative representation and then push it all the way down to the graphics hardware. And that would greatly improve rendering performance and also even improve the quality wherever you have things like full scene anti aliasing versus getting these little small seams between adjacent polygons and things like that. And there was actually a project at Nvidia called nv path rendering where somebody implemented this. I don't know what the status of that project is, but it was super exciting when I saw him demonstrating a very complex SVG at 200 frames per second, just rotating it around and transforming it. And so I would love to see that happen, to basically improve our ability to use larger data sets and to do more rich transitions and animation without having to resort to the low level complexity of Webgl.",
+      "id": "ep_22_ut_178"
+    },
+    {
+      "end": 4434860,
+      "speaker": "Moritz Stefaner",
+      "start": 4421540,
+      "text": "Yeah. How do you see Webgl? Do you think in maybe two or three years every browser will support it and it's going to be like the, the default high end rendering thing on the web? Or do you think it's going to stay?",
+      "id": "ep_22_ut_179"
+    },
+    {
+      "end": 4509496,
+      "speaker": "Mike Bostock",
+      "start": 4435020,
+      "text": "I don't know. I mean, initially I was very bearish because I never expected Microsoft to support it because Microsoft's got this relationship with DirectX and wanting to support that rather than OpenGL, which is the basis of WebGL. But then it turned out, I don't know if they've confirmed this, but there's been some rumor of them supporting, supporting Webgl in Ie eleven, which is very surprising to me. I mean, there's still a question of whether Apple will support Webgl on mobile Safari, which they haven't done yet. There's a question of whether they're doing that for security reasons, or whether they want to sort of hamstring your ability to write compelling apps in the web browser versus selling them on the App Store. But that's all conjecture on my part. So, I mean, my personal hope, despite Webgl being amazing, and I love that it exists, I would really hope that we still have improvements to SVG because it's so much easier to use. And so having taken better advantage of the graphics hardware while still sticking with this easy to use graphical declarative representation presentation would be really useful.",
+      "id": "ep_22_ut_180"
+    },
+    {
+      "end": 4512740,
+      "speaker": "Moritz Stefaner",
+      "start": 4509648,
+      "text": "By the way. Enrico? Enrico, are you back? Yes, I'm back.",
+      "id": "ep_22_ut_181"
+    },
+    {
+      "end": 4516416,
+      "speaker": "Enrico Bertini",
+      "start": 4513400,
+      "text": "I was kicked out quite rudely.",
+      "id": "ep_22_ut_182"
+    },
+    {
+      "end": 4518624,
+      "speaker": "Moritz Stefaner",
+      "start": 4516488,
+      "text": "Where are you now? On the street somewhere.",
+      "id": "ep_22_ut_183"
+    },
+    {
+      "end": 4521952,
+      "speaker": "Enrico Bertini",
+      "start": 4518752,
+      "text": "I actually managed to come back almost to where I was before.",
+      "id": "ep_22_ut_184"
+    },
+    {
+      "end": 4524020,
+      "speaker": "Mike Bostock",
+      "start": 4522016,
+      "text": "I hope they don't kick me out again.",
+      "id": "ep_22_ut_185"
+    },
+    {
+      "end": 4526780,
+      "speaker": "Enrico Bertini",
+      "start": 4524320,
+      "text": "That was the only solution I found.",
+      "id": "ep_22_ut_186"
+    },
+    {
+      "end": 4530592,
+      "speaker": "Moritz Stefaner",
+      "start": 4527200,
+      "text": "They're not going to be so friendly if they find you the second time around.",
+      "id": "ep_22_ut_187"
+    },
+    {
+      "end": 4532180,
+      "speaker": "Mike Bostock",
+      "start": 4530696,
+      "text": "Yeah, yeah, yeah.",
+      "id": "ep_22_ut_188"
+    },
+    {
+      "end": 4534588,
+      "speaker": "Enrico Bertini",
+      "start": 4533080,
+      "text": "I shouldn't talk too loud.",
+      "id": "ep_22_ut_189"
+    },
+    {
+      "end": 4537780,
+      "speaker": "Moritz Stefaner",
+      "start": 4534744,
+      "text": "Yeah, sorry, Enrico. Understood.",
+      "id": "ep_22_ut_190"
+    },
+    {
+      "end": 4539684,
+      "speaker": "Enrico Bertini",
+      "start": 4537900,
+      "text": "Was quite weird anyway.",
+      "id": "ep_22_ut_191"
+    },
+    {
+      "end": 4540440,
+      "speaker": "Mike Bostock",
+      "start": 4539772,
+      "text": "Yeah.",
+      "id": "ep_22_ut_192"
+    },
+    {
+      "end": 4546080,
+      "speaker": "Moritz Stefaner",
+      "start": 4540980,
+      "text": "Good to have you back. Yes, sorry, do you have any more questions concerning D3?",
+      "id": "ep_22_ut_193"
+    },
+    {
+      "end": 4554324,
+      "speaker": "Enrico Bertini",
+      "start": 4547100,
+      "text": "I have tons of questions. No, I mean, yeah, it's the first time I will have the opportunity to listen to the stories actually.",
+      "id": "ep_22_ut_194"
+    },
+    {
+      "end": 4555840,
+      "speaker": "Mike Bostock",
+      "start": 4554412,
+      "text": "That's right, yeah.",
+      "id": "ep_22_ut_195"
+    },
+    {
+      "end": 4561640,
+      "speaker": "Enrico Bertini",
+      "start": 4557060,
+      "text": "Okay, so did you go through some of the questions from Twitter or.",
+      "id": "ep_22_ut_196"
+    },
+    {
+      "end": 4567276,
+      "speaker": "Moritz Stefaner",
+      "start": 4562300,
+      "text": "Yeah, yeah, we got these pretty much covered. Like the past, present, future. We have it down.",
+      "id": "ep_22_ut_197"
+    },
+    {
+      "end": 4571836,
+      "speaker": "Enrico Bertini",
+      "start": 4567468,
+      "text": "Okay. Okay, good. I don't know.",
+      "id": "ep_22_ut_198"
+    },
+    {
+      "end": 4587668,
+      "speaker": "Moritz Stefaner",
+      "start": 4571868,
+      "text": "So, Mike, is there still anything. So would you consider the framework to be now complete? In the rest is details. It's not a framework. It's too good. But. Or is there still something where it's like, oh, this part is still really missing? And once I will tackle that.",
+      "id": "ep_22_ut_199"
+    },
+    {
+      "end": 4599940,
+      "speaker": "Mike Bostock",
+      "start": 4587724,
+      "text": "Yeah. In terms of, you know, the core of D3, in terms of, you know, transforming the document object model based on data, I think that's pretty stable. I don't expect there to be too many changes to that in the near future.",
+      "id": "ep_22_ut_200"
+    },
+    {
+      "end": 4601876,
+      "speaker": "Moritz Stefaner",
+      "start": 4600060,
+      "text": "Yeah, you shouldn't change that anymore.",
+      "id": "ep_22_ut_201"
+    },
+    {
+      "end": 4705730,
+      "speaker": "Mike Bostock",
+      "start": 4601988,
+      "text": "But there's still, you know, that entire space of what the higher level components are that you build on top of it. So things like the layouts and the behaviors and the, you know, SVG components, like sort of, you know, interpolators for lines and areas, things like that, the other sort of little bits that you can compose together to produce your visualization. I think that space is unbounded. Right. There's an infinite number of things that we could implement there, and so it's just a question of identifying, like, what the most useful components are and then designed convenient but flexible API to support that. So I think there will be an increasing amount of development in that space going forward. And then also in terms of what I want to do with D3, there's a huge education component as well, just making sure that people find it easy to use, understand best practices, whether that's best practices in terms of how to organize your code. Like you mentioned, you had difficulty with sort of more complex applications, like, that's something that we could try to solve. Or visualization practices as well, like what are appropriate ways to design transitions or to label your graphics. There are all sorts of interesting problems in terms of just labeling scatter plots, for example. We could provide better algorithms to solve that problem. So I think of D3 as this kernel that solves the smallest problem, and then we can identify other problems that we need to solve that then builds on top of that platform.",
+      "id": "ep_22_ut_202"
+    },
+    {
+      "end": 4721240,
+      "speaker": "Moritz Stefaner",
+      "start": 4706750,
+      "text": "Yeah, no, that makes a whole lot of sense. I think it's going to be super important to keep the core as clear as possible, and, as you say, explain it as clearly as possible, and then people will just advance it on themselves.",
+      "id": "ep_22_ut_203"
+    },
+    {
+      "end": 4728844,
+      "speaker": "Enrico Bertini",
+      "start": 4721700,
+      "text": "So, Moritz, did you ask to Mike, the question from Robert. From Robert Kosara?",
+      "id": "ep_22_ut_204"
+    },
+    {
+      "end": 4732080,
+      "speaker": "Moritz Stefaner",
+      "start": 4728932,
+      "text": "Oh, yeah. No, I haven't yet. So you can ask it.",
+      "id": "ep_22_ut_205"
+    },
+    {
+      "end": 4735960,
+      "speaker": "Enrico Bertini",
+      "start": 4732580,
+      "text": "So Robert Kosara is asking, when does my boss leave?",
+      "id": "ep_22_ut_206"
+    },
+    {
+      "end": 4740480,
+      "speaker": "Mike Bostock",
+      "start": 4736540,
+      "text": "Well, the answer is not very often right now, because I have a nine month old daughter.",
+      "id": "ep_22_ut_207"
+    },
+    {
+      "end": 4746212,
+      "speaker": "Enrico Bertini",
+      "start": 4742060,
+      "text": "Oh, well, so we know something about that. Me and Moritz.",
+      "id": "ep_22_ut_208"
+    },
+    {
+      "end": 4747640,
+      "speaker": "Mike Bostock",
+      "start": 4746276,
+      "text": "Yeah, yeah, yeah, yeah.",
+      "id": "ep_22_ut_209"
+    },
+    {
+      "end": 4750484,
+      "speaker": "Moritz Stefaner",
+      "start": 4747940,
+      "text": "But that makes it even more crazy.",
+      "id": "ep_22_ut_210"
+    },
+    {
+      "end": 4752160,
+      "speaker": "Mike Bostock",
+      "start": 4750612,
+      "text": "Yeah, yeah, yeah.",
+      "id": "ep_22_ut_211"
+    },
+    {
+      "end": 4758564,
+      "speaker": "Enrico Bertini",
+      "start": 4753020,
+      "text": "Some people say that you're more productive when you are kids. I still have to understand whether it's true or not.",
+      "id": "ep_22_ut_212"
+    },
+    {
+      "end": 4762948,
+      "speaker": "Mike Bostock",
+      "start": 4758652,
+      "text": "Yeah. You have to be very motivated to get things done quickly because you don't know what you.",
+      "id": "ep_22_ut_213"
+    },
+    {
+      "end": 4763676,
+      "speaker": "Shan Carter",
+      "start": 4763084,
+      "text": "Exactly.",
+      "id": "ep_22_ut_214"
+    },
+    {
+      "end": 4785858,
+      "speaker": "Moritz Stefaner",
+      "start": 4763748,
+      "text": "You're more time efficient. I think for me it worked out like that, that I was chopping up my work then in really little pieces that I made sure I would manage to do and got much more smart about like what I do when I. Because it could like, it could be over any time. You have to make sure to do the important stuff first and stuff like that. Nice. Okay.",
+      "id": "ep_22_ut_215"
+    },
+    {
+      "end": 4787450,
+      "speaker": "Enrico Bertini",
+      "start": 4785994,
+      "text": "Should we stop here, Moritz?",
+      "id": "ep_22_ut_216"
+    },
+    {
+      "end": 4792830,
+      "speaker": "Moritz Stefaner",
+      "start": 4787530,
+      "text": "Yeah, I mean, we are at 90 minutes almost. I mean, we could go on for hours.",
+      "id": "ep_22_ut_217"
+    },
+    {
+      "end": 4796310,
+      "speaker": "Enrico Bertini",
+      "start": 4794210,
+      "text": "I'm looking forward to listen.",
+      "id": "ep_22_ut_218"
+    },
+    {
+      "end": 4800738,
+      "speaker": "Moritz Stefaner",
+      "start": 4797130,
+      "text": "Yeah, it was a nice episode, so you can enjoy it, I guess.",
+      "id": "ep_22_ut_219"
+    },
+    {
+      "end": 4804528,
+      "speaker": "Enrico Bertini",
+      "start": 4800794,
+      "text": "I'm really sorry, guys. It's been a really weird here.",
+      "id": "ep_22_ut_220"
+    },
+    {
+      "end": 4820952,
+      "speaker": "Moritz Stefaner",
+      "start": 4804664,
+      "text": "No worries, no worries. Anything else you want to add? Like, did we forget to ask something really obvious or do you want to sneak in something like little. Any announcement? Self promotion. Come on.",
+      "id": "ep_22_ut_221"
+    },
+    {
+      "end": 4824980,
+      "speaker": "Enrico Bertini",
+      "start": 4820976,
+      "text": "Do they need any self promotion? More than that.",
+      "id": "ep_22_ut_222"
+    },
+    {
+      "end": 4830100,
+      "speaker": "Mike Bostock",
+      "start": 4827720,
+      "text": "You want to add anything, Sean? Okay.",
+      "id": "ep_22_ut_223"
+    },
+    {
+      "end": 4834260,
+      "speaker": "Shan Carter",
+      "start": 4831360,
+      "text": "I think we covered most everything.",
+      "id": "ep_22_ut_224"
+    },
+    {
+      "end": 4837320,
+      "speaker": "Moritz Stefaner",
+      "start": 4835000,
+      "text": "That's good. Cool.",
+      "id": "ep_22_ut_225"
+    },
+    {
+      "end": 4837488,
+      "speaker": "Shan Carter",
+      "start": 4837360,
+      "text": "Yeah.",
+      "id": "ep_22_ut_226"
+    },
+    {
+      "end": 4861122,
+      "speaker": "Moritz Stefaner",
+      "start": 4837504,
+      "text": "It was fantastic to have you. Very interesting. We're going to put up a post, hope to include as many of the links we talked about as possible. I think listeners will have to see the graphics in parallel, hopefully. It was great hearing the inside story. Maybe we can do one in a year or so. Talking about before. That's all Webgl based.",
+      "id": "ep_22_ut_227"
+    },
+    {
+      "end": 4862070,
+      "speaker": "Shan Carter",
+      "start": 4861186,
+      "text": "Yeah, right.",
+      "id": "ep_22_ut_228"
+    },
+    {
+      "end": 4864710,
+      "speaker": "Moritz Stefaner",
+      "start": 4863450,
+      "text": "It could be fun.",
+      "id": "ep_22_ut_229"
+    },
+    {
+      "end": 4865978,
+      "speaker": "Mike Bostock",
+      "start": 4865090,
+      "text": "All right, sounds great.",
+      "id": "ep_22_ut_230"
+    },
+    {
+      "end": 4867474,
+      "speaker": "Moritz Stefaner",
+      "start": 4866034,
+      "text": "Ok, doke, thanks so much.",
+      "id": "ep_22_ut_231"
+    },
+    {
+      "end": 4869722,
+      "speaker": "Shan Carter",
+      "start": 4867602,
+      "text": "Yeah, yeah. Thanks for having us on.",
+      "id": "ep_22_ut_232"
+    },
+    {
+      "end": 4872190,
+      "speaker": "Moritz Stefaner",
+      "start": 4869826,
+      "text": "Yeah, thanks for joining and cheers.",
+      "id": "ep_22_ut_233"
+    },
+    {
+      "end": 4874386,
+      "speaker": "Mike Bostock",
+      "start": 4872570,
+      "text": "Bye. Bye. Bye, guys. Bye.",
+      "id": "ep_22_ut_234"
+    }
+  ],
+  "confidence": 0.929198858244796,
+  "audio_duration": 4882,
+  "punctuate": true,
+  "format_text": true,
+  "dual_channel": false,
+  "webhook_url": null,
+  "webhook_status_code": null,
+  "webhook_auth": false,
+  "webhook_auth_header_name": null,
+  "speed_boost": false,
+  "auto_highlights_result": null,
+  "auto_highlights": false,
+  "audio_start_from": null,
+  "audio_end_at": null,
+  "word_boost": [],
+  "boost_param": null,
+  "filter_profanity": false,
+  "redact_pii": false,
+  "redact_pii_audio": false,
+  "redact_pii_audio_quality": null,
+  "redact_pii_policies": null,
+  "redact_pii_sub": null,
+  "speaker_labels": true,
+  "content_safety": false,
+  "iab_categories": true,
+  "content_safety_labels": {
+    "status": "unavailable",
+    "results": [],
+    "summary": {}
+  },
+  "language_detection": false,
+  "language_detection_threshold": null,
+  "language_confidence": null,
+  "custom_spelling": null,
+  "throttled": false,
+  "auto_chapters": true,
+  "summarization": false,
+  "summary_type": null,
+  "summary_model": null,
+  "custom_topics": false,
+  "topics": [],
+  "speech_threshold": null,
+  "speech_model": "best",
+  "chapters": [
+    {
+      "summary": "And we have two fantastic guests today from New York Times, Mike Bostock and Sean Carter. Hi, guys. How are you? Hey, it's good to be here.",
+      "gist": "With The New York Times's Mike Bostock",
+      "headline": "Mike Bostock and Sean Carter join us from The New York Times",
+      "start": 12280,
+      "end": 24918,
+      "id": "ep_22_ch_0"
+    },
+    {
+      "summary": "Sean Carter and Mike Bostock are graphics editors at the New York Times. Primarily they do interactive graphics for the website. Most of their training has been on the job training.",
+      "gist": "The New York Times Graphic Design Team",
+      "headline": "Sean Carter and Mike Bostock do interactive graphics for The New York Times",
+      "start": 24974,
+      "end": 113390,
+      "id": "ep_22_ch_1"
+    },
+    {
+      "summary": "The graphics department is close to 30 people, and we do everything from, like, basically almost every map or chart or explanatory diagram that you see in the printed paper. We work on a variety of different graphics, like on different timescales. Most of the projects start with some sort of, uh, either a news event or an article.",
+      "gist": "How Does a Graphics Team Work?",
+      "headline": "The direct graphics department is close to 30 people",
+      "start": 115450,
+      "end": 415726,
+      "id": "ep_22_ch_2"
+    },
+    {
+      "summary": "There's a lot of work that goes into getting the data for a particular graphic. Is there also like fact checking for the visualizations? Ultimately, it's our own responsibility to make sure that the data is correct.",
+      "gist": "Does ArcGIS Code Include Proof-of-Data?",
+      "headline": "How do you deal with, like once the visualization is done with QA",
+      "start": 415838,
+      "end": 683430,
+      "id": "ep_22_ch_3"
+    },
+    {
+      "summary": "When posting a graphic online, should you also post the dataset used in it? Why or why not? Do you think the New York Times should also make the raw data available that was used for the graphic?",
+      "gist": "Should The New York Times Post the Data Used in a Graphic?",
+      "headline": "Should New York Times post dataset used in graphic on its website",
+      "start": 683510,
+      "end": 1197858,
+      "id": "ep_22_ch_4"
+    },
+    {
+      "summary": "Do you have an idea of how much these more exploratory, interactive visualizations are used by your readers? Are they actually really engaging with this kind of more interactive visualization? Maybe in the future, we'll be setting up more custom analytics for our graphics.",
+      "gist": "Does Squarespace Have Any Analytics for Our Graphics?",
+      "headline": "Do you guys have an idea of how much interactive visualizations are used",
+      "start": 1197994,
+      "end": 1284456,
+      "id": "ep_22_ch_5"
+    },
+    {
+      "summary": "When we publish a graphic, we tend to see some sort of reaction, whether it's positive or negative. The kind of feedback that I generally really spend time looking for is if something's hard to use in terms of the UI. Our goal is to educate people on something, not just impress them.",
+      "gist": "How Much Feedback Do You Get From Your Readers?",
+      "headline": "Jeff Heer: How much feedback do you get from your readers",
+      "start": 1284528,
+      "end": 1791710,
+      "id": "ep_22_ch_6"
+    },
+    {
+      "summary": "Mike: Did you start with something fairly standard and then develop more into this very unique representation. From the first, it's 100% game theory, by the way. The first version was remarkably similar to the final version that we published. But there was a critical thing missing.",
+      "gist": "The Design Process of the Presidential Graphic",
+      "headline": "Did you start with something fairly standard and then develop more into this unique representation",
+      "start": 1792810,
+      "end": 2396806,
+      "id": "ep_22_ch_7"
+    },
+    {
+      "summary": "The challenge was overlaying that hexagonal grid to produce the final discrete cartogram. It ended up being quite tedious because I chose very small hexagons. It's almost all done in D3, although there is one example getting a lot of background noise.",
+      "gist": "Making a Cartogram with a Hexagonal Grid",
+      "headline": "We used a discrete algorithm to produce the final discrete cartogram",
+      "start": 2396998,
+      "end": 2537390,
+      "id": "ep_22_ch_8"
+    },
+    {
+      "summary": "Another interesting example of this hybrid computer human approach to graphics is the network diagram that we did on the Oscar contenders. Of course, if you have time to build your own custom tools that are really the best to make one graphic on point, I think that's really fantastic. But you also have to be ruthless about only implementing what you actually need.",
+      "gist": "The hybrid computer-human approach to graphics",
+      "headline": "Another sort of interesting example of this hybrid computer human approach to graphics is network diagram",
+      "start": 2537970,
+      "end": 2713450,
+      "id": "ep_22_ch_9"
+    },
+    {
+      "summary": "Jeff: Can you give us a quick run through of the history of D3 and where it is now? The goal of Protovis was to come up with a simple language that expressed visualizations as graphical marks. D3's challenge is to try to create a language that strikes the right balance between being accessible and efficient.",
+      "gist": "D3 and the visualization field",
+      "headline": "Talking about D3, I mean, people are surely very curious to hear what's behind it",
+      "start": 2713530,
+      "end": 3396798,
+      "id": "ep_22_ch_10"
+    },
+    {
+      "summary": "D3 doesn't presuppose a particular high level design for your application. One thing I found tricky is to scale it to really complex applications. I think we still need to figure that out, like how to use it best.",
+      "gist": "D3: The Most Popular Visualization Framework",
+      "headline": "One thing I found tricky with D3 is scaling it to complex applications",
+      "start": 3396854,
+      "end": 3559940,
+      "id": "ep_22_ch_11"
+    },
+    {
+      "summary": "Vega is a strictly declarative language. Unlike D3, it's a higher level abstraction. For me, Vega is the perfect output interface for a lot of exploratory data analysis tools. Enrico: The space is still wide open.",
+      "gist": "Vega vs. D3: Will it Change How You Use",
+      "headline": "Anna Schneider asks what do you think of Vega, a new visualization language",
+      "start": 3561400,
+      "end": 3896032,
+      "id": "ep_22_ch_12"
+    },
+    {
+      "summary": "Are there more D3 books in the works or more tutorials that are especially targeted towards more advanced users? I think there's definitely demand, increasing demand now for more of these intermediate or advanced level tutorials.",
+      "gist": "D3: More Intermediate Tutorials",
+      "headline": "Are there more D3 books in the works or more tutorials for advanced users",
+      "start": 3896056,
+      "end": 4095000,
+      "id": "ep_22_ch_13"
+    },
+    {
+      "summary": "D3 is focused on this visualization kernel, the core of it is pretty small. There is an opportunity for more people to write plugins, these additional layouts, or even chart types or behaviors. There are still pockets of resistance to supporting older browsers.",
+      "gist": "D3.1",
+      "headline": "So how is the community? So is it mostly you and Jason Davis",
+      "start": 4096980,
+      "end": 4311380,
+      "id": "ep_22_ch_14"
+    },
+    {
+      "summary": "Where do you think D3 will be in one, two or five years? I hope that the browser vendors continue to make improvements to their rendering and engines. There's still a lot of room for improvement in terms of performance and the quality when rendering SVG.",
+      "gist": "D3 and the future of SVG",
+      "headline": "I hope that the browser vendors continue to make improvements to their rendering engines",
+      "start": 4311500,
+      "end": 4509496,
+      "id": "ep_22_ch_15"
+    },
+    {
+      "summary": "By the way. Enrico, are you back? Yes, I'm back. I was kicked out quite rudely. Where are you now? On the street somewhere. I hope they don't kick me out again.",
+      "gist": "Kicking the homeless out of the asylum",
+      "headline": "Enrico: I hope they don't kick me out again",
+      "start": 4509648,
+      "end": 4555840,
+      "id": "ep_22_ch_16"
+    },
+    {
+      "summary": "Mike: Would you consider the framework to be now complete? In the rest is details. There's still, you know, that entire space of what the higher level components are that you build on top of it. And then also in terms of what I want to do with D3, there's a huge education component.",
+      "gist": "D3: Is the Framework Complete?",
+      "headline": "Would you consider the framework to be now complete? In the rest is details",
+      "start": 4557060,
+      "end": 4721240,
+      "id": "ep_22_ch_17"
+    },
+    {
+      "summary": "When does my boss leave? Well, the answer is not very often right now, because I have a nine month old daughter. Some people say that you're more productive when you are kids. You have to be very motivated to get things done quickly.",
+      "gist": "When Does My Boss Leave?",
+      "headline": "Robert Kosara asks when does my boss leave? Moritz answers",
+      "start": 4721700,
+      "end": 4784994,
+      "id": "ep_22_ch_18"
+    },
+    {
+      "summary": "Okay. Should we stop here, Moritz? Yeah, I mean, we are at 90 minutes almost. I'm really sorry, guys. It's been a really weird here. Yeah, it was a nice episode, so you can enjoy it.",
+      "gist": "A Very Strange Episode",
+      "headline": "Moritz: Should we stop here, Moritz",
+      "start": 4785122,
+      "end": 4806020,
+      "id": "ep_22_ch_19"
+    },
+    {
+      "summary": "Sean: I think we covered most everything. We're going to put up a post, hope to include as many of the links we talked about as possible. Maybe we can do one in a year or so. It could be fun. Thanks for having us on.",
+      "gist": "WWE12",
+      "headline": "Anything else you want to add? Like, did we forget to ask something really obvious",
+      "start": 4807640,
+      "end": 4874386,
+      "id": "ep_22_ch_20"
+    }
+  ],
+  "disfluencies": false,
+  "entity_detection": false,
+  "sentiment_analysis": false,
+  "sentiment_analysis_results": null,
+  "entities": null,
+  "speakers_expected": null,
+  "summary": null,
+  "custom_topics_results": null,
+  "is_deleted": null,
+  "episode_num": "22",
+  "episode_metadata": {
+    "speakers": [
+      "Enrico Bertini",
+      "Mike Bostock",
+      "Shan Carter",
+      "Moritz Stefaner"
+    ],
+    "WPid": "89",
+    "url": "https://datastori.es/podlove/file/138/s/feed/c/mp3/datastories-22.mp3",
+    "episode_title": "NYT Graphics and D3 with Mike Bostock and Shan Carter"
+  }
+}

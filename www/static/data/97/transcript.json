@@ -1,0 +1,1026 @@
+{
+  "id": "e2873c44-8847-4959-89f5-bae0300f2138",
+  "language_model": "assemblyai_default",
+  "acoustic_model": "assemblyai_default",
+  "language_code": "en_us",
+  "status": "completed",
+  "audio_url": "https://datastori.es/podlove/file/3895/s/feed/c/mp3/97-calling-bullshit-with-carl-bergstrom-and-jevin-west.mp3",
+  "utterances": [
+    {
+      "end": 6274,
+      "speaker": "Carl Bergstrom",
+      "start": 160,
+      "text": "You know, bullshit. Once it gets out there, once falsehoods get out there, it's really hard to clean up the system.",
+      "id": "ep_97_ut_0"
+    },
+    {
+      "end": 52106,
+      "speaker": "Moritz Stefaner",
+      "start": 10814,
+      "text": "Are you missing out on meaningful relationships hidden in your data? Unlock the whole story with Qlik sense through personalized visualizations and dynamic dashboards, which you can download for free at Qlik Datastories. That's Qlik Datastories. Hey, everyone, it's a new data stories. Hi, Enrico.",
+      "id": "ep_97_ut_1"
+    },
+    {
+      "end": 54034,
+      "speaker": "Enrico Bertini",
+      "start": 52210,
+      "text": "Hey, Moritz. How's it going?",
+      "id": "ep_97_ut_2"
+    },
+    {
+      "end": 55556,
+      "speaker": "Moritz Stefaner",
+      "start": 54154,
+      "text": "Good, very good.",
+      "id": "ep_97_ut_3"
+    },
+    {
+      "end": 57296,
+      "speaker": "Enrico Bertini",
+      "start": 55650,
+      "text": "Excited for this episode.",
+      "id": "ep_97_ut_4"
+    },
+    {
+      "end": 99900,
+      "speaker": "Moritz Stefaner",
+      "start": 57440,
+      "text": "Yeah, it's another good one, I think. So shall we dive right in? Yeah, we should. Yeah. So there's a couple of connections here. That's a really interesting one. So it's the second one in a series, basically. So some of you might recall we had Alberto Cairo on the show to talk about trumpery and misinformation. And now we have a second one in this series of. Yeah, how the relation of data and truth and lying and bullshitting maybe, too. And so we have two real experts here in the latter area, in the area of bullshitting. And it's Carl Bergstrom and Jevin Vest. Hi, guys.",
+      "id": "ep_97_ut_5"
+    },
+    {
+      "end": 100660,
+      "speaker": "Carl Bergstrom",
+      "start": 100012,
+      "text": "Hi, Moritz.",
+      "id": "ep_97_ut_6"
+    },
+    {
+      "end": 101628,
+      "speaker": "Jevin West",
+      "start": 100692,
+      "text": "Hi, Moritz. How are you doing?",
+      "id": "ep_97_ut_7"
+    },
+    {
+      "end": 101980,
+      "speaker": "Enrico Bertini",
+      "start": 101676,
+      "text": "Hi, guys.",
+      "id": "ep_97_ut_8"
+    },
+    {
+      "end": 102668,
+      "speaker": "Jevin West",
+      "start": 102012,
+      "text": "Hi, Enrico.",
+      "id": "ep_97_ut_9"
+    },
+    {
+      "end": 111322,
+      "speaker": "Moritz Stefaner",
+      "start": 102756,
+      "text": "Great to have you on. Can you briefly introduce yourself? Who are you? What are you doing? What's your area of expertise besides bullshitting, maybe.",
+      "id": "ep_97_ut_10"
+    },
+    {
+      "end": 155244,
+      "speaker": "Carl Bergstrom",
+      "start": 111418,
+      "text": "So this is Jevin. I'm an assistant professor at the University of Washington. I co direct what's called the data lab in the information school. Kind of our core area there is data science around social issues. So we work in developmental economics, we work in the science of science, we work in computational social science, we work in data curation. So everything around sort of the social issues of data science. And we have ten PhD students, other faculty, postdocs, et cetera. And so this particular course that Carl and I are going to talk to you about is sort of, I can think central to sort of what we try to do in our lab and also on the education front.",
+      "id": "ep_97_ut_11"
+    },
+    {
+      "end": 175744,
+      "speaker": "Jevin West",
+      "start": 155864,
+      "text": "So I'm Carl Bergstrom. I'm a professor of biology at the University of Washington, and I trained as an evolutionary biologist, but I do a lot of work on the structure of science and how that impacts the conclusions that we draw these days. Jeff and I worked together for a number of years on things around data visualization, data analysis, and the likes.",
+      "id": "ep_97_ut_12"
+    },
+    {
+      "end": 189876,
+      "speaker": "Moritz Stefaner",
+      "start": 176044,
+      "text": "Yeah, and that's also how we know each other, coincidentally, because we've been working together eight years ago on a project called Verilforum Eigenfactor, where we looked at information flow in science, exciting project and, yeah, it's great to connect again.",
+      "id": "ep_97_ut_13"
+    },
+    {
+      "end": 209690,
+      "speaker": "Carl Bergstrom",
+      "start": 189980,
+      "text": "Yeah, that project is, you know, even today, after that many years, it's still, people still, I think, are looking at that and use that as sort of a model for many other projects that sort of have spurred out of the science of science. So this is. Yeah, it's a really fun connection that's being made right now. The audience doesn't know how special it is, but I hope they do now.",
+      "id": "ep_97_ut_14"
+    },
+    {
+      "end": 223770,
+      "speaker": "Moritz Stefaner",
+      "start": 209882,
+      "text": "And there's another connection, even, because last time, like last episode, we had Jacque Van weich on the show, and he invented the hierarchical edge bundling technique that we used in that project. So lots of connections all over.",
+      "id": "ep_97_ut_15"
+    },
+    {
+      "end": 224786,
+      "speaker": "Enrico Bertini",
+      "start": 223802,
+      "text": "It's all connected.",
+      "id": "ep_97_ut_16"
+    },
+    {
+      "end": 226722,
+      "speaker": "Carl Bergstrom",
+      "start": 224890,
+      "text": "The universe is connected. It's all connected.",
+      "id": "ep_97_ut_17"
+    },
+    {
+      "end": 252784,
+      "speaker": "Moritz Stefaner",
+      "start": 226898,
+      "text": "Exactly. But today we talk about a different topic. So the two of you launched a course together at the University of Washington, and it's called calling bullshit. It's a very bold title, and I hear the course has sort of raised a lot of attention before it even started. Right. And, yeah, why don't you tell us a bit about it, how you came up with the idea and what you cover in the course.",
+      "id": "ep_97_ut_18"
+    },
+    {
+      "end": 309822,
+      "speaker": "Carl Bergstrom",
+      "start": 252944,
+      "text": "Sure. So Carl and I for several years have been sharing examples of bullshit that we find in science and things that we find in social media. And pretty soon the file was getting so big and the examples were getting so egregious that we thought we should teach a course on this and transfer some of these skills that we learn in our daily lives of peer reviewing papers and reports and proposals and see if we can. It could be probably the most important skill that students learn. And today of all times, people are throwing data everywhere on their own website, in news stories, and somehow data almost looks more truthy than even sort of these rhetorical arguments, because there have been lots of courses in the humanities and philosophy that have been talking about critical reasoning and data reasoning. But the focus of this class will be sort of the ways in which data can be manipulated.",
+      "id": "ep_97_ut_19"
+    },
+    {
+      "end": 350780,
+      "speaker": "Jevin West",
+      "start": 309958,
+      "text": "Yeah. So just kind of take you through what the class does in a brief summary. We start out by just thinking about what bullshit is in the first place. There's actually a reasonable amount of philosophy written on what bullshit is and some argumentation about whether bullshit is in the eye of the producer or the eye of the beholder. Been a nice debate in the philosophy literature. We think about the way we're talking about calling bullshit, and so we think about the way that calling bullshit is itself a speech act. It's not a proposition, it's an active thing that you do that has a certain force. And so we talk about that and we talk about how to do that without being an asshole, which is, I think, kind of important, too.",
+      "id": "ep_97_ut_20"
+    },
+    {
+      "end": 352044,
+      "speaker": "Moritz Stefaner",
+      "start": 350852,
+      "text": "Yeah, yeah.",
+      "id": "ep_97_ut_21"
+    },
+    {
+      "end": 405290,
+      "speaker": "Jevin West",
+      "start": 352204,
+      "text": "So from there we go, we look at how do you spot bullshit in the first place? How can you be on the lookout for it? And we try to just instill these habits of mind where you're constantly thinking as you're reading stuff, whether it's in the New York Times or on Facebook or, you know, whatever. Is this right? Does this make sense? Is this even feasible? And getting in the habits of sort of digging deeper into things that you actually care about, digging deeper before you share something stupid, for example. And then we go on, we talk about correlation and causation, because that's a common area for bullshit, essentially. We talk about statistical traps and the kinds of things that can trip people up. We look at as we're going forward, we're going to be looking at visualization and the way that people mislead others with visualizations. We are going to talk about big data and the way that the sort of cult of big data is used to promulgate extreme bullshit.",
+      "id": "ep_97_ut_22"
+    },
+    {
+      "end": 505064,
+      "speaker": "Carl Bergstrom",
+      "start": 405402,
+      "text": "Well, I mean, the other thing is we want to sort of even talk about the ethics of calling bullshit because in a lot of cultures, it's really scary for an individual, especially younger students that we talk a lot with, to call bullshit, but we want them to be able to call bullshit and also receive the calling of bullshit. So we'll talk about the ethics of calling bullshit. We'll talk about some of the ways we call it the natural ecology of bullshit. So the environments in which this kind of information falsehoods really fly faster. So we'll talk about their social media environments and talk about some of the papers that are being written by researchers in this area. But what's crazy is you would mentioned this sort of class took off when we released the course on January 11. We went to bed and that night thinking, well, I hope a couple of our friends think this is cool because we put a lot of effort into it. And we woke up and there was just tens of thousands of people from all over the world. And it's just when we registered the class, it was registered within a minute. So I think it's really resonating. And we want to take advantage of this moment where critical reasoning and data reasoning is now cool with students. So that's sort of what we're trying to take advantage of. But the other thing I wanted, since you guys are on the radio, this is a question. I'm going to flip back at you guys, because you guys know language is better than Carl and I. When we in the English language call bullshit, and calling bullshit, it carries a certain weight and there's very few synonyms that sort of, sort of, you know, mirror that particular calling. And so is there in other languages. Do you know how is it used? And I think it would be useful because you have such an international audience for this, for this show, you know, how else is there different ways in which it's used in these different languages?",
+      "id": "ep_97_ut_23"
+    },
+    {
+      "end": 527664,
+      "speaker": "Enrico Bertini",
+      "start": 506084,
+      "text": "That's a great question. I have to think about it. I don't think there is an equivalent in Italian, but maybe in the slang from the region I come from, there's something similar, but I'm not sure I can say that. Yeah, it's pretty rude.",
+      "id": "ep_97_ut_24"
+    },
+    {
+      "end": 532584,
+      "speaker": "Moritz Stefaner",
+      "start": 528684,
+      "text": "It's a worse word than bullshit. It's really bad.",
+      "id": "ep_97_ut_25"
+    },
+    {
+      "end": 534544,
+      "speaker": "Enrico Bertini",
+      "start": 533404,
+      "text": "Yeah, yeah.",
+      "id": "ep_97_ut_26"
+    },
+    {
+      "end": 539204,
+      "speaker": "Moritz Stefaner",
+      "start": 536764,
+      "text": "In German, we actually use the english word.",
+      "id": "ep_97_ut_27"
+    },
+    {
+      "end": 539572,
+      "speaker": "Carl Bergstrom",
+      "start": 539244,
+      "text": "Oh, really?",
+      "id": "ep_97_ut_28"
+    },
+    {
+      "end": 547212,
+      "speaker": "Moritz Stefaner",
+      "start": 539588,
+      "text": "I don't think there is like a German word. Yeah, as far as I would say so.",
+      "id": "ep_97_ut_29"
+    },
+    {
+      "end": 598820,
+      "speaker": "Carl Bergstrom",
+      "start": 547348,
+      "text": "I know in Swedish that the skitbra, there's very different versions of it, but it's sort of over time, has. Has lost its sweariness. It's actually a quite neutral term that still means something, but it's not like for, I imagine this, at least from my swedish friends. If you said it online, it wouldn't be a problem. But it sounds like an Italian. It's different. And then German. I'm already learning something on the show. Right. On how we use it. I mean, the reason why we care about this is that we do. We're working with some individuals to translate our course material into other languages and we want to be sensitive to how it's being used. So again, a lot of our content is going to be pretty, you know, it deals with statistics, machine learning. It does. It deals with logical fallacies, which, you know, that's translatable from one language to another. But there's this calling part that if we want to make this okay in society, we need to be careful of the different languages.",
+      "id": "ep_97_ut_30"
+    },
+    {
+      "end": 622312,
+      "speaker": "Moritz Stefaner",
+      "start": 598892,
+      "text": "Yeah, that's true. So maybe we start with the meaning of the word. Really? Like how. How in your view, or in the view of researchers, is bullshit different from lying or from hoaxes or pranks or just misinformation, propaganda? You know, there's like a lot of words that all deal with misinformation or wrong information. How is bullshit special?",
+      "id": "ep_97_ut_31"
+    },
+    {
+      "end": 697292,
+      "speaker": "Jevin West",
+      "start": 622488,
+      "text": "That's a great question. We've thought about that a fair bit. Our idea with bullshit is that it's bullshit is what someone produces when they are indifferent to the truth. They're not trying to trick you. They don't care one way or another. They're just indifferent. They're just blustering. They just want you to think that they know what they're talking about. And so they use big words, they make stuff up and they just kind of babble on. And this is kind of what makes it so dangerous, according to this, or philosophers of bullshit, is that it is this indifference to the truth with a liar. You know, where that liar stands with the bullshitter. There's just, there's, there's no connection at all. And I think that kind of bullshit can be very common. It's what we train students to do. If they're running out of time and they haven't started their term paper yet, they aren't actually trying to tell you anything. They're just trying to make you think that they've read the book and know what they're talking about. And we do that a lot ourselves. I believe in normal interactions with people because we're trying to make a good impression about ourselves. We're not actually interested in the message we're sending. We're trying to say, like, I'm smart, I'm really cool, I did this amazing thing, whatever, and that's when we start making bullshit.",
+      "id": "ep_97_ut_32"
+    },
+    {
+      "end": 710284,
+      "speaker": "Moritz Stefaner",
+      "start": 697388,
+      "text": "So there's a fine line between just, let's say, trying to impress somebody or like, exaggerating maybe a bit, and then at some point, if you do that too much, you enter the bullshit territory, is what you say.",
+      "id": "ep_97_ut_33"
+    },
+    {
+      "end": 748488,
+      "speaker": "Jevin West",
+      "start": 710324,
+      "text": "I think that's basically right. The thing that we really stress in the course is that there's a. Is that bullshit? And calling bullshit are really different things. Bullshit is kind of narrow, but calling bullshit is really broad. You can call bullshit on a lie. You can also call bullshit on injustice. Something's wrong about the way that the laws are set up. You say that's bullshit. What we want to stress in the class is not only to look at this kind of narrow sense bullshit, because I do think that social media is a particularly virulent place for that to promulgate, but we want to stress that even for things that are lies or whatever, where people are deliberately trying to deceive you, how do you detect that and how do you refute it?",
+      "id": "ep_97_ut_34"
+    },
+    {
+      "end": 772608,
+      "speaker": "Enrico Bertini",
+      "start": 748616,
+      "text": "Yeah. So do you think that in order to do some bullshit, you have to also some carelessness, you just don't care? Right? So you're talking about something, and you, you don't even think about whether you're right or wrong. You just pretend. I'm wondering if it. If it gets some. Some. If it takes some specific kind of personality to do that. Right.",
+      "id": "ep_97_ut_35"
+    },
+    {
+      "end": 775320,
+      "speaker": "Jevin West",
+      "start": 772776,
+      "text": "There's certainly a personality spectrum.",
+      "id": "ep_97_ut_36"
+    },
+    {
+      "end": 777456,
+      "speaker": "Carl Bergstrom",
+      "start": 775512,
+      "text": "So we're a bullshit ers.",
+      "id": "ep_97_ut_37"
+    },
+    {
+      "end": 781830,
+      "speaker": "Jevin West",
+      "start": 777560,
+      "text": "Yeah. I'd be very surprised if there were people that never bullshit it. But maybe.",
+      "id": "ep_97_ut_38"
+    },
+    {
+      "end": 821812,
+      "speaker": "Carl Bergstrom",
+      "start": 781902,
+      "text": "Well, in regards to that, I guess I would actually assume that everyone, to some extent, bullshits because there's, you know, we have limited resources for time and whatever you're trying to go after. And one of the things that Carl and I have been talking about in our class as an assignment is to help students become bullshit neutral. So, you know, we live in Seattle and everyone's trying to be carbon neutral. Could we, you know, teach people to start to, you know, clean up as much of the bullshit that they create? If they create. We're all creating bullshit. Can we figure out ways of refuting bullshit throughout the day and sort of cleaning it up? So that sort of starts with the assumption that everyone's sort of creating, for the most part, creating bullshit.",
+      "id": "ep_97_ut_39"
+    },
+    {
+      "end": 825564,
+      "speaker": "Enrico Bertini",
+      "start": 821868,
+      "text": "So that's kind of like sustainable bullshit thing. Yeah, sustainable.",
+      "id": "ep_97_ut_40"
+    },
+    {
+      "end": 827224,
+      "speaker": "Carl Bergstrom",
+      "start": 825724,
+      "text": "Got it. Yeah, exactly.",
+      "id": "ep_97_ut_41"
+    },
+    {
+      "end": 860258,
+      "speaker": "Jevin West",
+      "start": 827884,
+      "text": "You know, it's interesting, Kevin keeps coming back to these sort of conservation metaphors. And I'm coming around to this. There's this idea. You know, in the 1970s, we had to really get people to care about their physical environment in the United States. People just threw their trash anywhere and nobody cared. And we had these pretty heavy public information and public relation campaigns to say, let's not lit our environment. This is our country. It's beautiful. Let's not make it full of crap. And Jevin keeps coming back to these ideas, which I think are not completely crazy. That we need to do the same thing about our information environment in the late 2010s.",
+      "id": "ep_97_ut_42"
+    },
+    {
+      "end": 866186,
+      "speaker": "Moritz Stefaner",
+      "start": 860346,
+      "text": "Yeah. No. We live in information ecologies, and we have to clean that myself. I totally agree.",
+      "id": "ep_97_ut_43"
+    },
+    {
+      "end": 907454,
+      "speaker": "Carl Bergstrom",
+      "start": 866250,
+      "text": "Yeah, we are. And actually, a big part of that. I mean, you guys are the experts on this, is on the information visualization. Because anyone, you know, most of the public might not deeply understand a p value or deeply understand a nearest neighbor algorithm or whatever that they're hearing about in some sort of technical science paper. But they do think they understand visualization, and they do think they can create visualization. Well, and I mean, you guys know this better than we do, but, you know, there's just so much. There's so much manipulation and sometimes nefarious and sometimes non nefarious examples just on the visualization side. So if you guys. You two are responsible for helping clean that up, too.",
+      "id": "ep_97_ut_44"
+    },
+    {
+      "end": 914174,
+      "speaker": "Enrico Bertini",
+      "start": 909594,
+      "text": "I don't know if we can get this responsibility, but it's a big job.",
+      "id": "ep_97_ut_45"
+    },
+    {
+      "end": 918850,
+      "speaker": "Carl Bergstrom",
+      "start": 916034,
+      "text": "Partly with the show and the other things you're writing about.",
+      "id": "ep_97_ut_46"
+    },
+    {
+      "end": 973492,
+      "speaker": "Jevin West",
+      "start": 918922,
+      "text": "Morris, you had an article that I read recently that I really liked where you talked about the problems with a lot of data visualization. You kind of broke things up into two categories. And one of the categories that you talked about was number decoration. And it was just these dashboards that essentially are providing five or six numbers, or maybe eight, but they've got all these fancy pictures and speed dials and all of this kind of stuff on it. And this strikes me as really classic bullshit, because the idea is that there's all this decoration on there, and none of it is serving to actually convey any extra information. All it's doing is making you think, wow, that designer is really good. She's got a wonderful eye for color, and she can really use that program or whatever it is, which is bullshit. It's communicating about the communicator in the guise of communicating information. And I thought that was really interesting.",
+      "id": "ep_97_ut_47"
+    },
+    {
+      "end": 1022140,
+      "speaker": "Moritz Stefaner",
+      "start": 973588,
+      "text": "No, there's definitely something to it. Also, the other side, if you just put out numbers and say, well, the numbers, they speak for themselves. I don't do anything to them. But how you select those numbers and in which context you sort of drop the right numbers or not, and which ones you leave out can. Can be bullshitting too. Just by a totally undecorated dataset might be bullshitting too, right? So are there any, like, you must have studied a lot of, like, different types of bullshit. Are there any tips on how you can detect bullshit? Like, sure. I feel there's like, at some point you develop a certain sense of, ah, this might be bullshit, even if you know nothing about the domain. Really? Yeah, because there are certain communication patterns, maybe, or some tricks people play. Are there some patterns you have identified that can help detect bullshit?",
+      "id": "ep_97_ut_48"
+    },
+    {
+      "end": 1124496,
+      "speaker": "Jevin West",
+      "start": 1022252,
+      "text": "Definitely. We've done some introspection, trying to think about what is it that we're actually doing when we sense that something is bullshit. And one of the most important ones is just to look at a claim. And if it seems too good or too bad to be true, it probably is. Even if the claim supports whatever side you like, supports whatever beliefs you have, if the effect size is really big, maybe implausibly big, it's probably bullshit, and you need to look into what's going on there. So that's one of the things we're really teaching our students to think about, is always question that and be really well aware of confirmation bias. The idea that if somebody comes and says, wow, something I don't believe is really true, then I'll say bullshit. But if someone says, oh, this thing I believe is true, then I'm likely to just say, oh, yeah, sure, that's got to be right. And so checking out all of those kinds of things I think is super important. One of the things we're really stressing in the class is that because since we're thinking about the way people bullshit with facts and figures and algorithms and statistical analyses, is that you don't have to necessarily understand the statistical analysis at the heart of a claim. If you just think carefully about what you think of the statistical analysis as a black box and you think carefully about, well, what are the data that go in? Are those reasonable? Are they selected in a fair way? Are they even capable of supporting the kind of claims that are going to be made? And then you look at what comes out, you say, is this reasonable? Is it the right order of magnitude? Is it fairly presented? And so we really think that we can teach people to call bullshit without having to unpack the big data algorithm that's being used or whatever it is in the center to kind of drive things through.",
+      "id": "ep_97_ut_49"
+    },
+    {
+      "end": 1190266,
+      "speaker": "Carl Bergstrom",
+      "start": 1124560,
+      "text": "Yeah, I mean, just to give you just a quick little easy example that when we talk to freshman students at a university, they hear averages all the time. And if they understand, I know it sounds so basic, something you learn in middle school, the difference between mean, median and modes, they'll get a sense of when people are manipulating these kinds of very simple metrics to tell the story that they want. So if you ask a lot of people, you say, so what's the mean income in the United States that tells a much different story than something that is closer to the median. And so it's these kinds of things, it's sort of teaching them really, I mean, because we really want wide reach with this content at first, and then we'll probably splinter into more, maybe more sophisticated material that we can get a lot by just teaching people to do what Carl said question when it sounds too good to be true, that's probably one of the biggest ones. The other things in spotting bullshit is just asking about where the source is coming from, who is telling me this, why are they telling me this? And what do they have to gain from what they're telling me? It's kind of a cynical view, but we need to be a little cynical in today's digital environments.",
+      "id": "ep_97_ut_50"
+    },
+    {
+      "end": 1198268,
+      "speaker": "Enrico Bertini",
+      "start": 1190370,
+      "text": "Yeah, no, I have to say, and bullshit can you, can almost. Imagine this as a pipeline. Things can happen at every stage of this pipeline.",
+      "id": "ep_97_ut_51"
+    },
+    {
+      "end": 1199072,
+      "speaker": "Carl Bergstrom",
+      "start": 1198346,
+      "text": "That's right.",
+      "id": "ep_97_ut_52"
+    },
+    {
+      "end": 1206124,
+      "speaker": "Enrico Bertini",
+      "start": 1199208,
+      "text": "Timed right, so one could almost draw this pipeline and figure out what kind of bullshit can be created.",
+      "id": "ep_97_ut_53"
+    },
+    {
+      "end": 1212444,
+      "speaker": "Carl Bergstrom",
+      "start": 1208504,
+      "text": "Yeah, there is a food chain. Bullshit comes out.",
+      "id": "ep_97_ut_54"
+    },
+    {
+      "end": 1234694,
+      "speaker": "Enrico Bertini",
+      "start": 1213704,
+      "text": "So another case that comes into my mind when I'm reading scientific articles is that the question seems reasonable. The outcome seems to confirm the initial hypothesis. But the way this has been done is so complex and unnecessarily complex that you just have to. It's a huge leap of faith. Right. Would you call this bullshit as well?",
+      "id": "ep_97_ut_55"
+    },
+    {
+      "end": 1257084,
+      "speaker": "Jevin West",
+      "start": 1234854,
+      "text": "That's a hard question. It depends a lot on whether the complexity is because I don't know, the subject area, or whether the complexity is because the person's actually done something kind of stupid. And so if I'm reading a quantum entanglement paper, it's going to be exactly like you described, but it's not going to be bullshit. It's going to be the fact that I don't understand quantum entanglement despite my best effort.",
+      "id": "ep_97_ut_56"
+    },
+    {
+      "end": 1257728,
+      "speaker": "Enrico Bertini",
+      "start": 1257174,
+      "text": "Yeah, yeah.",
+      "id": "ep_97_ut_57"
+    },
+    {
+      "end": 1279424,
+      "speaker": "Jevin West",
+      "start": 1257816,
+      "text": "If I'm reading a paper in evolutionary theory and it's like that, then something's very wrong. And then, yes, there's probably some bullshit here. There's no reason that we need to go through all of this messy apparatus to show that these data lead to this claim. And if someone is doing all this messy apparatus, they've got to be hiding something or they've really incompetent.",
+      "id": "ep_97_ut_58"
+    },
+    {
+      "end": 1289470,
+      "speaker": "Enrico Bertini",
+      "start": 1279584,
+      "text": "I think more specifically, I was thinking about those cases where it's clearly overly complex and it seems to hide something behind complexity. Right, right.",
+      "id": "ep_97_ut_59"
+    },
+    {
+      "end": 1336308,
+      "speaker": "Jevin West",
+      "start": 1289502,
+      "text": "No, I think there's a fair bit of that that goes on. And I think in the kind of big data arena that seems to be particularly common now, we're really vulnerable in big data because you take something like a deep learning algorithm, and even the authors don't understand what the hell it's actually doing. You get this input and then it does some stuff, and then you don't know why it does that. No one knows why it does that, but then it does a thing on the output. It makes, you know, it can. It can all of a sudden paint these beautiful pic, you know, take a photograph and paint these beautiful pictures in the style of different artists or whatever and really understands how it's working. And so I think we need to be particularly skeptical there even of stuff we're doing ourselves to just make sure that it's actually doing what we think and we're not kind of ascribing more power to this than it actually has.",
+      "id": "ep_97_ut_60"
+    },
+    {
+      "end": 1378362,
+      "speaker": "Carl Bergstrom",
+      "start": 1336396,
+      "text": "Yeah. And one thing, I just want to build on what you're saying, Enrico, because you brought up the scholarly communication bit. You know, Carl has been writing a lot recently about publication bias, along with other people in the literature right now. And this is really important because this is a sort of a form of bullshit going on in science where we tend to only publish things that have this arbitrary value of 0.05. And if that's all that we're seeing, we're not. I mean, it's really a clouded picture of reality. And I think it's a really, it's a dangerous sort of rut that we're in right now in science. Not to say that, you know, we all, we're very careful because when we talk about this, we don't want the general public to think science is completely broken. It's just this is something within science.",
+      "id": "ep_97_ut_61"
+    },
+    {
+      "end": 1380274,
+      "speaker": "Enrico Bertini",
+      "start": 1378418,
+      "text": "That we, it's the only hope we have.",
+      "id": "ep_97_ut_62"
+    },
+    {
+      "end": 1381620,
+      "speaker": "Carl Bergstrom",
+      "start": 1380434,
+      "text": "Yeah, that's right.",
+      "id": "ep_97_ut_63"
+    },
+    {
+      "end": 1385976,
+      "speaker": "Enrico Bertini",
+      "start": 1381762,
+      "text": "That's the way I see it. We didn't invent any alternatives so far.",
+      "id": "ep_97_ut_64"
+    },
+    {
+      "end": 1389204,
+      "speaker": "Moritz Stefaner",
+      "start": 1386080,
+      "text": "Like democracy. Right. That's pretty bad, but better than.",
+      "id": "ep_97_ut_65"
+    },
+    {
+      "end": 1391240,
+      "speaker": "Enrico Bertini",
+      "start": 1390344,
+      "text": "Exactly. Right.",
+      "id": "ep_97_ut_66"
+    },
+    {
+      "end": 1507844,
+      "speaker": "Jevin West",
+      "start": 1391272,
+      "text": "Exactly like democracy. That's, you know, what's the worst system, except for all the alternatives? I mean, I think this, one of the things we're going to talk about a lot in the class is this issue of publication bias and how bullshit comes perhaps unintentionally into science. And that may be bullshit more largely construed rather than this kind of narrow definition we were talking about before. But teaching people how to be skeptical of things even that they see in the published literature, even in a really good journal, just by understanding the fact that you can't publish something unless you get a positive result. And so if there's something a lot of people were working on, and it's not actually true, then, and you'll still see those false positives coming up in the literature, and you won't necessarily see the negatives because it's very hard to get those published. And then that can give you this really, really confusing picture. There was a remarkable study in the New England Journal of Medicine, I believe, that was done about ten years ago, where somebody at the FDA looked at all of the clinical trials of antidepressants. And so if you look at the published literature, you see that there's almost all of the clinical trials of antidepressants were successful. But if you look at what had actually been registered with the FDA, more than half of the trials had been unsuccessful. And some of the ones that were reported as successful were just reported as successful by manipulating the desired outcomes that they were measuring and things like this. And so if you had the whole picture that the FDA had, you get a very, very different story. At least half of these things aren't working than the one that was in the published literature that scientists had access to. So I think this kind of thing is quite common. It's just usually we don't have that information in the background, so we don't know the FDA knows, and we could look at that. Usually, we don't know what people have sitting in their desk drawers. It's called the desk drawer effect. Right.",
+      "id": "ep_97_ut_67"
+    },
+    {
+      "end": 1533182,
+      "speaker": "Moritz Stefaner",
+      "start": 1509264,
+      "text": "Yeah, it's super interesting. I mean, you mentioned biases before. I was thinking about maybe, like, maybe we are bullshitting ourselves quite often as well. Like, we come into the world with preconceived notions, and we just collect more information that confirms our preconceived notions. And so we're in these bubbles, and we think everything's fine. So, basically, that's like self bullshitting, right? Does that happen to you?",
+      "id": "ep_97_ut_68"
+    },
+    {
+      "end": 1544464,
+      "speaker": "Jevin West",
+      "start": 1533318,
+      "text": "Neil Postman, the American sociologist, his third law of bullshit turns out to be that at any given time, the. The source of bullshit that we have to be most concerned with is ourselves.",
+      "id": "ep_97_ut_69"
+    },
+    {
+      "end": 1547100,
+      "speaker": "Enrico Bertini",
+      "start": 1546164,
+      "text": "Absolutely.",
+      "id": "ep_97_ut_70"
+    },
+    {
+      "end": 1575834,
+      "speaker": "Carl Bergstrom",
+      "start": 1547212,
+      "text": "I think it's spot on. I mean, it's one of the things. One of the many reasons that Carl and I wanted to put together this course, because we wanted to get better at calling bullshit on ourselves, because there's so many times when we're working on some project or some paper, and we're humans, so we want something to show up to land in nature that we're human, but we have to be careful of that. We got to do a better job of calling bullshit on ourselves as much as even just things that we see in our digital environments.",
+      "id": "ep_97_ut_71"
+    },
+    {
+      "end": 1584666,
+      "speaker": "Enrico Bertini",
+      "start": 1575994,
+      "text": "So there is also the famous sentence from Feynman, you are the easiest person to be fooled. Right. Or something like that. Richard Feynman.",
+      "id": "ep_97_ut_72"
+    },
+    {
+      "end": 1591178,
+      "speaker": "Carl Bergstrom",
+      "start": 1584810,
+      "text": "Yeah, no, I kind of recollect it. I don't know. I can't think of it verbatim, but, yeah, no, I think that's spot on.",
+      "id": "ep_97_ut_73"
+    },
+    {
+      "end": 1602050,
+      "speaker": "Moritz Stefaner",
+      "start": 1591266,
+      "text": "Do you have any striking examples of what's the biggest bullshit you've encountered? Or, like, the weirdest stories people made other people believe? Do you have any. Any good anecdotes?",
+      "id": "ep_97_ut_74"
+    },
+    {
+      "end": 1732866,
+      "speaker": "Carl Bergstrom",
+      "start": 1602162,
+      "text": "Yeah, so, I mean, this is more of a us centric example, and it's not within science, but it's a. It's a pretty sad story about just a ridiculous spreading of bullshit. So you guys have probably heard of pizzagate. So this is this situation where there were some false news stories about a restaurant in Washington, DC, housing a child, you know, sex ring that was being run by, you know, Hillary Clinton. Of course, this was complete false. And even. Even those that had. Were promulgating this were saying, okay, later on they said, okay, it was false. It's not true that there was a young man from the Carolinas, came with a gun and came, guns ablazing into this restaurant. Well, he found it wasn't true. And he, of course, felt bad. He was trying to do what was. He was trying to save some kids. Well, the worst part, the worst part is that not too long ago, a couple of weeks after this had been even refuted by those that were pushing this falsehood, there were protests outside the White House with t shirts saying, pizzagate is real. This is a conspiracy to cover this up. People still believe this. So this goes along with the Brandolini asymmetry principle, which is that bullshit. Once it gets out there, once falsehoods get out there, it's really hard to clean up the system. So, you know, once falsehood flies, the truth comes limping after sort of thing. So this is. This is an example that we really, you know, these are. These kinds of examples are real. These are affecting people's lives. It's sort of life or death. We even see tweets from, you know, these saber rattling tweets from the, like, pakistani Israeii defense or the pakistani defense minister tweeting back to Israel saying, you know, don't forget we have nukes, too, because they were responding to a fake news article. So foreign preservation is at stake here, as well as democracy and everything else. So that's where they're silly. But then they can really move up to some serious consequences. So this is something we're concerned about.",
+      "id": "ep_97_ut_75"
+    },
+    {
+      "end": 1760192,
+      "speaker": "Enrico Bertini",
+      "start": 1733050,
+      "text": "So another thing that we wanted to ask you. I think at the beginning, you mentioned that an important part of the course is to teach students how to actually call bullshit. So can you tell us more about what the strategies are there, how to do properly? I really like the fact that you are considering the ethics side of this problem, and I'm curious to hear, how do you do it properly? So teach us how to call bullshit in the right way.",
+      "id": "ep_97_ut_76"
+    },
+    {
+      "end": 1847814,
+      "speaker": "Jevin West",
+      "start": 1760328,
+      "text": "Well, I'll tell you a little bit about technique, and maybe Jevin can tell you a little bit about ethics if he wants to add anything. One of my favorite ways of calling bullshit, because it's effective both to popular audiences and to technical audiences, is reductio ad absurdity. And so what the idea is, you say, okay, if I follow from the same premises you're using to get your result, then these ridiculous results also follow. And one of my favorite examples, there was a paper that was published, I think, kind of as a joke, but no one's admitted that. It was a joke in nature about a little over ten years ago, where a group of statisticians did linear regressions on the hundred meter dash times of men and women. And so the 100 meters dash times of women were getting better faster than the 100 meters dash times of men. And so the conclusion of the nature paper was that based on these linear regressions, the women would start running faster than men around 21 62. And so a bunch of people wrote in to try to debunk this. There's a beautiful letter from a Texas high school statistics class that explains what's wrong with this. But my favorite response is reductio, where somebody says, well, you know, that's really cool. It's really interesting to see that. But you've missed the really exciting thing because your model predicts that there's going to be a really fantastic race in around 26 50 when people will actually record negative times in the 100 meters.",
+      "id": "ep_97_ut_77"
+    },
+    {
+      "end": 1942574,
+      "speaker": "Carl Bergstrom",
+      "start": 1850034,
+      "text": "Yeah, it's a perfect. Yeah, yeah. On the ethics side, I mean, we keep it pretty simple for the students in our class. We say that you can't have ad hominem attacks, so you don't attack the person, you attack the argument. And that right there sort of, there's a lot of other, these sort of other minor things, but that's one of the biggest things. And also there has to be some sort of respect and civility in a room where there's going to be people with divergent or lots of different backgrounds and expertise. And so there needs to be a respect for that kind of expertise. One of the things that we're, again, being very careful about, because we do attack things in science, we don't want students to feel have their grounding completely shaken with saying that nothing out there is true. It's all bullshit. So we're sort of doing that balance act. So I think that goes along with the ethics of refutation, too, that you have to have some grounding in what's true. And philosophers for centuries have been talking about this problem. When you can't reconcile on a third party, if you can't reconcile on a third party. And right now we can't, at least in the US, we can't really reconcile even on media anymore. The only thing you can do is dialogue. So create. Basically the sort of ethical thing to do is to agree to talk and to talk in a civil way. But the main one is sort of not attacking character and sort of attacking.",
+      "id": "ep_97_ut_78"
+    },
+    {
+      "end": 1993048,
+      "speaker": "Jevin West",
+      "start": 1942614,
+      "text": "Argument, giving people the idea, look, if I call bullshit on you, Jevin, that's not a diss. I'm not saying that you're stupid or something like that, even though I may be. And then you have to interpret that as not being an insult. And you say, oh, he thinks that this argument doesn't hold. And we do this to each other all the time, of course. And so far so good. Jevin was referring to this issue of kind. Kind of confusion or just the bad state of affairs we have in the United States where people can't even agree on the baseline for how to talk about things. And this, I think, has become a really enormous problem in the US. It's been described as epistemic tribalism, where people not only disagree on what to do, given the facts, but they disagree on the facts. And they even disagree on the procedures by which we should find the facts.",
+      "id": "ep_97_ut_79"
+    },
+    {
+      "end": 1994040,
+      "speaker": "Moritz Stefaner",
+      "start": 1993136,
+      "text": "Talk about facts.",
+      "id": "ep_97_ut_80"
+    },
+    {
+      "end": 1994672,
+      "speaker": "Enrico Bertini",
+      "start": 1994072,
+      "text": "Yeah.",
+      "id": "ep_97_ut_81"
+    },
+    {
+      "end": 2020094,
+      "speaker": "Moritz Stefaner",
+      "start": 1994848,
+      "text": "No, and that's also the bit, also the knife to a gunfight problem, in a sense, that if you have a very capable bullshitter, he has, or they have a much bigger arsenal of things they can do than somebody who is sincere. Right. So if you have a very capable bullshitter, they can do maneuvers to always, you know, it's like a wet piece of soap or like a fish, you know, it always jumps away, whatever you do.",
+      "id": "ep_97_ut_82"
+    },
+    {
+      "end": 2028770,
+      "speaker": "Jevin West",
+      "start": 2020434,
+      "text": "I was involved in the efforts to sort of refute intelligent design creationism in the US in the early two thousands.",
+      "id": "ep_97_ut_83"
+    },
+    {
+      "end": 2030594,
+      "speaker": "Moritz Stefaner",
+      "start": 2028922,
+      "text": "These are hard discussions. Right.",
+      "id": "ep_97_ut_84"
+    },
+    {
+      "end": 2043814,
+      "speaker": "Jevin West",
+      "start": 2030674,
+      "text": "It's really hard, very dangerous to debate these guys. You have a sort of world renowned evolutionary biologist on one side and some snake who's willing to lie through his teeth on the other side, and the snake wins every time.",
+      "id": "ep_97_ut_85"
+    },
+    {
+      "end": 2055212,
+      "speaker": "Enrico Bertini",
+      "start": 2044194,
+      "text": "It's not that hard for a bullshitter, for a professional bullshitter to play with people's mind. Right. If you know how to do it, it's not that hard. Right, right. So that's also an issue there.",
+      "id": "ep_97_ut_86"
+    },
+    {
+      "end": 2055864,
+      "speaker": "Jevin West",
+      "start": 2055268,
+      "text": "Right?",
+      "id": "ep_97_ut_87"
+    },
+    {
+      "end": 2093464,
+      "speaker": "Enrico Bertini",
+      "start": 2056764,
+      "text": "Yeah. I just wanted to ask you something related to calling bullshit again, to the ethics and how to do it properly. I think that's a very fine line and it's very hard to walk. Right. So one thing that I noticed in the past is that, for instance, one problem is whether you do it in public or in private. Right. That's one issue. Right, good point. And another aspect is whether you give the person that I think my rule of thumb, I always give the benefit of the doubt, right. It's possible that the person. Right. I think that that's a very important thing. Right. Even in those cases where it creates pure bullshit. Right?",
+      "id": "ep_97_ut_88"
+    },
+    {
+      "end": 2093952,
+      "speaker": "Moritz Stefaner",
+      "start": 2093544,
+      "text": "But.",
+      "id": "ep_97_ut_89"
+    },
+    {
+      "end": 2113502,
+      "speaker": "Enrico Bertini",
+      "start": 2094048,
+      "text": "Okay, I just want to give you the benefit of the doubt. Right. So tell me, what's your story? Why did you do. Why do you say that? Right? And I think that's very important because our. We are always tempted to just say, come on, that's bullshit. It's so easy to say that, right? That's our gut reaction. And. Yeah, I don't know.",
+      "id": "ep_97_ut_90"
+    },
+    {
+      "end": 2146180,
+      "speaker": "Carl Bergstrom",
+      "start": 2113598,
+      "text": "I agree 100%, Enrico. And I think we're going to bring you as a guest speaker into our class when we get in this section, because I think you're really. You got it right. I think it's. We should. That's something we should tell the students. I mean, always. That's sort of rule number two, you know, give the person the benefit of the doubt and then. And then move on from there. But I think that's. That's a great way to do it. And also just, you know, one thing we do in science is if we see something wrong, at least a lot of people do. They'll. They'll email the author directly, and if they have a public conversation, at least they're not broadsided.",
+      "id": "ep_97_ut_91"
+    },
+    {
+      "end": 2188528,
+      "speaker": "Jevin West",
+      "start": 2146332,
+      "text": "We do this on the website when we have a bunch of case studies. And if we're talking about an academic paper, we always write the author and offer them an attempt, offer them space on our webpage to. Before we post, we say, here's what we've. Here's what we're going to put up. And you can have space to say anything you want. You can call us jerks. You can do anything you want to in that space. And so it also gives them a chance to say to us, like, hey, you've totally misunderstood what I did. Go back and look carefully. We haven't had that happen yet. But just that notion of creating this open way for people to be able to talk and having enough respect to give somebody the chance to respond, I think is remarkably important. Yeah.",
+      "id": "ep_97_ut_92"
+    },
+    {
+      "end": 2206616,
+      "speaker": "Moritz Stefaner",
+      "start": 2188696,
+      "text": "One good strategy. So. I have kids, Enrico. You have kids, too, Carl. I know you have kids, too. So kids are pretty good at cutting through our bullshit just by asking why. And if you keep asking why long enough, the raw bullshit dissolves into Moritz.",
+      "id": "ep_97_ut_93"
+    },
+    {
+      "end": 2226956,
+      "speaker": "Carl Bergstrom",
+      "start": 2206640,
+      "text": "I can tell you my five year old, even just this week, was wondering about the tooth fairy. He wasn't so sure about it. He wanted to know, how is it that the tooth fairy could go to every house in one night and, you know, and get all, you know, pay for all the teeth. And then the Easter bunny, he's been quite. He's been questioning. You're right. They do a good job of sort of questioning those things.",
+      "id": "ep_97_ut_94"
+    },
+    {
+      "end": 2232024,
+      "speaker": "Moritz Stefaner",
+      "start": 2227060,
+      "text": "That's true. The tooth fairy is the first bullshit we encountered.",
+      "id": "ep_97_ut_95"
+    },
+    {
+      "end": 2237784,
+      "speaker": "Enrico Bertini",
+      "start": 2233564,
+      "text": "And Santa, of course, they go handy in end.",
+      "id": "ep_97_ut_96"
+    },
+    {
+      "end": 2240504,
+      "speaker": "Moritz Stefaner",
+      "start": 2238924,
+      "text": "This is very dull start.",
+      "id": "ep_97_ut_97"
+    },
+    {
+      "end": 2275032,
+      "speaker": "Enrico Bertini",
+      "start": 2242804,
+      "text": "Well, I could go on forever if I want. It's such a fun topic and so tricky. Right? Because I think, I mean, the real problem is that both on the side of the bullshitter and the person who has to call bullshit, you have to go against your natural inclination. Right. It looks to me that our brains are not very good at doing both things. So it's like resisting bullshit and criticizing bullshit in a proper way. These are two hard things to do. Do.",
+      "id": "ep_97_ut_98"
+    },
+    {
+      "end": 2299160,
+      "speaker": "Carl Bergstrom",
+      "start": 2275128,
+      "text": "They definitely are. They definitely are. And, you know, you have an audience here, and if people have ideas and they want to share it, I mean, they. We're trying to be as active as we can on our Twitter account on the calling bull. They can go to our website, callingbullshit.org, or we have a sanitized version, too. If people don't like the use of bullshit we have, it's called callingbull.org. but what we're trying to do is just. Yeah.",
+      "id": "ep_97_ut_99"
+    },
+    {
+      "end": 2301564,
+      "speaker": "Jevin West",
+      "start": 2299272,
+      "text": "Wrote a script to take out all the bad words.",
+      "id": "ep_97_ut_100"
+    },
+    {
+      "end": 2302822,
+      "speaker": "Moritz Stefaner",
+      "start": 2302214,
+      "text": "Wonderful.",
+      "id": "ep_97_ut_101"
+    },
+    {
+      "end": 2339322,
+      "speaker": "Carl Bergstrom",
+      "start": 2302878,
+      "text": "That was fun. So, yeah, because we really want to aim this at high schoolers and like you said, more. It's even just, our kids are good at this. Maybe, you know, be sort of treating, you know, teaching these kinds of skills. It's even just real basic digital skills on, you know, doing, you know, a little bit of filtering themselves. And I think they do. I think we should give them more credit than we do. So. So the idea is just trying to create a discussion around. This is sort of one of our big missions, and anytime people have ideas, we'll pass other people's tools that they have through the channel. So just basically, let's keep the conversation going.",
+      "id": "ep_97_ut_102"
+    },
+    {
+      "end": 2357246,
+      "speaker": "Moritz Stefaner",
+      "start": 2339418,
+      "text": "Yeah, that's wonderful. Thanks for collecting all this material. The website already has really great articles, lots of links to all the philosophical papers. I was enjoying those quite a bit, so make sure to check those out. And will you also post the videos I've seen? There's a few video lectures already. You keep posting more.",
+      "id": "ep_97_ut_103"
+    },
+    {
+      "end": 2371086,
+      "speaker": "Jevin West",
+      "start": 2357350,
+      "text": "Yeah, we will. We're going to be posting the lectures as they occur. So we're, we're, right now we've done four lectures in the class. We've got first ones up, second one's coming up. As you know, there's a lot of editing and production and such to do. So we're lagging by a couple of.",
+      "id": "ep_97_ut_104"
+    },
+    {
+      "end": 2391352,
+      "speaker": "Carl Bergstrom",
+      "start": 2371110,
+      "text": "Weeks and yeah, we'll be releasing the week number two in a couple days and then we'll have, you know, week three will be after that. Yep. But we'll be posting these and then just the other thing is we'll have a full version of the course in the fall, a three credit version, which there will even be more content, but we'll just keep pushing content from based on ideas that other people have and things that we find in the literature.",
+      "id": "ep_97_ut_105"
+    },
+    {
+      "end": 2403936,
+      "speaker": "Moritz Stefaner",
+      "start": 2391488,
+      "text": "Yeah, it's wonderful. It's such a simple idea, but nobody has tackled it that head on, I think, in teaching, in academia, and I think it's a great initiative on your part.",
+      "id": "ep_97_ut_106"
+    },
+    {
+      "end": 2418014,
+      "speaker": "Carl Bergstrom",
+      "start": 2404080,
+      "text": "Well, thank you so much, guys. Thanks for having us. This has been fun. I'm glad that you had sent this invitation because it gave me a chance to look at other people that you guys are interviewing on the show. Guys, got something good going yourself. So thanks for having us.",
+      "id": "ep_97_ut_107"
+    },
+    {
+      "end": 2418702,
+      "speaker": "Moritz Stefaner",
+      "start": 2418094,
+      "text": "Thanks for coming.",
+      "id": "ep_97_ut_108"
+    },
+    {
+      "end": 2419150,
+      "speaker": "Enrico Bertini",
+      "start": 2418758,
+      "text": "Thank you.",
+      "id": "ep_97_ut_109"
+    },
+    {
+      "end": 2420446,
+      "speaker": "Moritz Stefaner",
+      "start": 2419182,
+      "text": "Yeah, thanks a lot.",
+      "id": "ep_97_ut_110"
+    },
+    {
+      "end": 2421310,
+      "speaker": "Jevin West",
+      "start": 2420510,
+      "text": "Alright, take care.",
+      "id": "ep_97_ut_111"
+    },
+    {
+      "end": 2421862,
+      "speaker": "Moritz Stefaner",
+      "start": 2421382,
+      "text": "Bye.",
+      "id": "ep_97_ut_112"
+    },
+    {
+      "end": 2422502,
+      "speaker": "Enrico Bertini",
+      "start": 2421958,
+      "text": "Bye, guys.",
+      "id": "ep_97_ut_113"
+    },
+    {
+      "end": 2423354,
+      "speaker": "Carl Bergstrom",
+      "start": 2422558,
+      "text": "Bye bye.",
+      "id": "ep_97_ut_114"
+    },
+    {
+      "end": 2438054,
+      "speaker": "Enrico Bertini",
+      "start": 2430454,
+      "text": "Hey guys, thanks for listening to data stories again. Before you leave, here are a few ways you can support the show and get in touch with us.",
+      "id": "ep_97_ut_115"
+    },
+    {
+      "end": 2452766,
+      "speaker": "Moritz Stefaner",
+      "start": 2438134,
+      "text": "First, we have a page on Patreon where you can contribute an amount of your true per episode. As you can imagine, we have some costs for running the show and we would love to make it a community driven project. You can find the page@patreon.com Datastories and.",
+      "id": "ep_97_ut_116"
+    },
+    {
+      "end": 2463394,
+      "speaker": "Enrico Bertini",
+      "start": 2452790,
+      "text": "If you can spend a couple of minutes rating us on iTunes, that would be extremely helpful for the show. Just search us in iTunes store or follow the link in our website.",
+      "id": "ep_97_ut_117"
+    },
+    {
+      "end": 2487488,
+      "speaker": "Moritz Stefaner",
+      "start": 2463734,
+      "text": "And we also want to give you some information on the many ways you can get news directly from us. We're of course on twitter@twitter.com Datastories but we also have a Facebook page@Facebook.com, datastoriespodcast and we also have a newsletter. So if you want to get news directly into your inbox, go to our homepage data stories and look for the link that you find in the footer.",
+      "id": "ep_97_ut_118"
+    },
+    {
+      "end": 2509116,
+      "speaker": "Enrico Bertini",
+      "start": 2487616,
+      "text": "And finally, you can also chat directly with us and other listeners using Slideshow lack again, you can find a button to sign up at the bottom of our page. And we do love to get in touch with our listeners. So if you want to suggest a way to improve the show or know amazing people, you want us to invite or projects you want us to talk about, let us know.",
+      "id": "ep_97_ut_119"
+    },
+    {
+      "end": 2536734,
+      "speaker": "Moritz Stefaner",
+      "start": 2509220,
+      "text": "That's all for now. See you next time, and thanks for listening to data stories data stories is brought to you by click. Are you missing out on meaningful relationships hidden in your data? Unlock the whole story with Qlik sense through personalized visualizations and dynamic dashboards, which you can download for free at Qlik Datastories. That's Qlik Datastories.",
+      "id": "ep_97_ut_120"
+    }
+  ],
+  "confidence": 0.928730414681261,
+  "audio_duration": 2537,
+  "punctuate": true,
+  "format_text": true,
+  "dual_channel": false,
+  "webhook_url": null,
+  "webhook_status_code": null,
+  "webhook_auth": false,
+  "webhook_auth_header_name": null,
+  "speed_boost": false,
+  "auto_highlights_result": null,
+  "auto_highlights": false,
+  "audio_start_from": null,
+  "audio_end_at": null,
+  "word_boost": [],
+  "boost_param": null,
+  "filter_profanity": false,
+  "redact_pii": false,
+  "redact_pii_audio": false,
+  "redact_pii_audio_quality": null,
+  "redact_pii_policies": null,
+  "redact_pii_sub": null,
+  "speaker_labels": true,
+  "content_safety": false,
+  "iab_categories": true,
+  "content_safety_labels": {
+    "status": "unavailable",
+    "results": [],
+    "summary": {}
+  },
+  "language_detection": false,
+  "language_detection_threshold": null,
+  "language_confidence": null,
+  "custom_spelling": null,
+  "throttled": false,
+  "auto_chapters": true,
+  "summarization": false,
+  "summary_type": null,
+  "summary_model": null,
+  "custom_topics": false,
+  "topics": [],
+  "speech_threshold": null,
+  "speech_model": "best",
+  "chapters": [
+    {
+      "summary": "Are you missing out on meaningful relationships hidden in your data? Unlock the whole story with Qlik sense through personalized visualizations and dynamic dashboards. That's Qlik Datastories.",
+      "gist": "Qlik Deata Stories: Truth or Liability?",
+      "headline": "Are you missing out on meaningful relationships hidden in your data",
+      "start": 160,
+      "end": 63616,
+      "id": "ep_97_ch_0"
+    },
+    {
+      "summary": "Carl Bergstrom and Jevin Vest talk about the relation of data and truth and lying. Their core area is data science around social issues. The course is central to what they try to do in their lab and also on the education front.",
+      "gist": "In the Elevator With Data and Truth",
+      "headline": "Carl Bergstrom and Jevin Vest discuss data and lying on the show",
+      "start": 63680,
+      "end": 227894,
+      "id": "ep_97_ch_1"
+    },
+    {
+      "summary": "The University of Washington's new course is called calling\u00a0bullying. The focus of the class will be the ways in which data can be manipulated. The class aims to teach students how to spot and call\u00a0bullies. It has already attracted tens of thousands of registered students.",
+      "gist": "Calling BS: The New Science Course",
+      "headline": "Two University of Washington professors have launched a new course on data manipulation",
+      "start": 228714,
+      "end": 473436,
+      "id": "ep_97_ch_2"
+    },
+    {
+      "summary": "In German, we actually use the english word. I don't think there is an equivalent in Italian. We're working with some individuals to translate our course material into other languages. We want to be sensitive to how it's being used.",
+      "gist": "\"Callous\" in English vs German",
+      "headline": "Carl: We need to be careful of how we use the term in different languages",
+      "start": 473460,
+      "end": 599796,
+      "id": "ep_97_ch_3"
+    },
+    {
+      "summary": "How is \"bullying\" different from lying or from hoaxes or pranks or just misinformation, propaganda? Our idea is that it's what someone produces when they are indifferent to the truth. One of the things that Carl and I have been talking about in our class as an assignment is to help students become\u00a0bullied neutral.",
+      "gist": "Philosophers of Stuff: What Is BS?",
+      "headline": "Kevin Jevin: How do you distinguish between lying, misinformation, propaganda",
+      "start": 599900,
+      "end": 918850,
+      "id": "ep_97_ch_4"
+    },
+    {
+      "summary": "Morris: One of the problems with a lot of data visualization is number decoration. He says the idea is that there's all this decoration on there, and none of it is serving to actually convey any extra information. Morris: How you select numbers and in which context can also be a problem.",
+      "gist": "Data Visualization, Decorated or Unreadable",
+      "headline": "Morris: Number decoration can be a problem with data visualization",
+      "start": 918922,
+      "end": 994350,
+      "id": "ep_97_ch_5"
+    },
+    {
+      "summary": "There are certain communication patterns, maybe, or some tricks people play. One of the most important ones is just to look at a claim. If it seems too good or too bad to be true, it probably is. Other tips: Ask where the source is coming from, why are they telling me this?",
+      "gist": "Can You Tell When Stuff's Just BS?",
+      "headline": "Are there some patterns you have identified that can help detect bogus claims",
+      "start": 994382,
+      "end": 1396684,
+      "id": "ep_97_ch_6"
+    },
+    {
+      "summary": "Teaching people how to be skeptical of things even that they see in the published literature. The source of BS that we have to be most concerned with is ourselves. One of the many reasons that Carl and I wanted to put together this course is to get better at calling BS on ourselves.",
+      "gist": "The Source of BS in Science",
+      "headline": "One of the topics of this course is publication bias in science",
+      "start": 1397264,
+      "end": 1591178,
+      "id": "ep_97_ch_7"
+    },
+    {
+      "summary": "\"Once falsehoods get out there, it's really hard to clean up the system, \" he says. These kinds of examples are real. These are affecting people's lives. It's sort of life or death.",
+      "gist": "The Biggest BS",
+      "headline": "Do you have any striking examples of what people made other people believe",
+      "start": 1591266,
+      "end": 1732866,
+      "id": "ep_97_ch_8"
+    },
+    {
+      "summary": "An important part of the course is to teach students how to actually call ridiculous. One of my favorite ways of calling ridiculous is reductio ad absurdity. There has to be some sort of respect and civility in a room. The only thing you can do is dialogue.",
+      "gist": "Callousness in Science",
+      "headline": "An important part of the course is to teach students how to call\u00a0concerns",
+      "start": 1733050,
+      "end": 2057076,
+      "id": "ep_97_ch_9"
+    },
+    {
+      "summary": "Carl: Give the person the benefit of the doubt and then move on from there. Kids are pretty good at cutting through our BS just by asking why. Creating an open way for people to talk and having enough respect to give somebody the chance to respond is remarkably important.",
+      "gist": "Callousness in Science",
+      "headline": "Carl Weinberg: Calling out fake news is a delicate balancing act",
+      "start": 2057100,
+      "end": 2240504,
+      "id": "ep_97_ch_10"
+    },
+    {
+      "summary": "We're trying to be as active as we can on our Twitter account on the calling bull. org website. We really want to aim this at high schoolers and like you said, more. Will you also post the videos I've seen? There's a few video lectures already.",
+      "gist": "Calling Bull: The Blanket",
+      "headline": "The calling bull course is aimed at high schoolers and more",
+      "start": 2242804,
+      "end": 2433214,
+      "id": "ep_97_ch_11"
+    },
+    {
+      "summary": "We have a page on Patreon where you can contribute an amount of your true per episode. If you can spend a couple of minutes rating us on iTunes, that would be extremely helpful. We also want to give you some information on the many ways you can get news directly from us. And we do love to get in touch with our listeners.",
+      "gist": "Data Stories",
+      "headline": "Before you leave, here are a few ways you can support the show",
+      "start": 2433334,
+      "end": 2536734,
+      "id": "ep_97_ch_12"
+    }
+  ],
+  "disfluencies": false,
+  "entity_detection": false,
+  "sentiment_analysis": false,
+  "sentiment_analysis_results": null,
+  "entities": null,
+  "speakers_expected": null,
+  "summary": null,
+  "custom_topics_results": null,
+  "episode_num": 97,
+  "episode_metadata": {
+    "speakers": [
+      "Carl Bergstrom",
+      "Moritz Stefaner",
+      "Enrico Bertini",
+      "Jevin West"
+    ],
+    "WPid": "930",
+    "url": "https://datastori.es/podlove/file/3895/s/feed/c/mp3/97-calling-bullshit-with-carl-bergstrom-and-jevin-west.mp3",
+    "episode_title": "Calling Bullshit with Carl Bergstrom and Jevin West"
+  }
+}

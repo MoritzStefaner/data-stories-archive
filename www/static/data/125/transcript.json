@@ -1,0 +1,638 @@
+{
+  "id": "bda66696-8cfd-441a-82ed-6cdf20a339f2",
+  "language_model": "assemblyai_default",
+  "acoustic_model": "assemblyai_default",
+  "language_code": "en_us",
+  "status": "completed",
+  "audio_url": "https://datastori.es/podlove/file/5215/s/feed/c/mp3/125-sheelagh-carpendale.mp3",
+  "utterances": [
+    {
+      "end": 4970,
+      "speaker": "Sheelagh Carpendale",
+      "start": 240,
+      "text": "I am learning all the time and I can learn from everybody.",
+      "id": "ep_125_ut_0"
+    },
+    {
+      "end": 33698,
+      "speaker": "Enrico Bertini",
+      "start": 24070,
+      "text": "Hey, everyone, welcome to a new episode of Data stories. My name is Enrico Bertini and I am a professor at New York University where I they do research in data visualization.",
+      "id": "ep_125_ut_1"
+    },
+    {
+      "end": 37978,
+      "speaker": "Moritz Stefaner",
+      "start": 33834,
+      "text": "And my name is Moritz Stefaner and I'm an independent designer of data visualizations.",
+      "id": "ep_125_ut_2"
+    },
+    {
+      "end": 47906,
+      "speaker": "Enrico Bertini",
+      "start": 38074,
+      "text": "And on this podcast we talk about data visualization, analysis, and generally the role that data plays in our lives. And usually we do that together with a guest we invite on the show.",
+      "id": "ep_125_ut_3"
+    },
+    {
+      "end": 102034,
+      "speaker": "Moritz Stefaner",
+      "start": 48058,
+      "text": "That's right. But before we start, just a quick note. Our podcast is listener supported, so you might notice there are no ads interrupting us and you get the best enjoyment of the show. If you do enjoy the show, you could consider supporting us. You can do that with either recurring payments on patreon.com Datastories. So basically you can pledge a dollar or two or three or as much as you can afford for each episode that we put out. Or if this is too much of a commitment for you, you can also send us just a one time donation on Paypal me Datastories and just send a little bit of money away. Please consider doing that in case you, well, you have a good time listening to us or maybe even learn something for your professional life, especially. Then, I think a little payback would be in order, but that's totally optional. But we are, as we said, just listener support, so every dollar counts for us.",
+      "id": "ep_125_ut_4"
+    },
+    {
+      "end": 126464,
+      "speaker": "Enrico Bertini",
+      "start": 102122,
+      "text": "Morris, you are dispensing such good advice to our listeners. So let's get started. So today I'm really happy to have a person on the show who we wanted to have for a long time. She's definitely one of my all time favorite researchers, professors, and a constant source of inspiration. We have Sheelagh Carpentel on the show. Hi, Sheelagh. Welcome on the show.",
+      "id": "ep_125_ut_5"
+    },
+    {
+      "end": 129936,
+      "speaker": "Sheelagh Carpendale",
+      "start": 126552,
+      "text": "Hi, how are you? I'm good, thank you.",
+      "id": "ep_125_ut_6"
+    },
+    {
+      "end": 137280,
+      "speaker": "Enrico Bertini",
+      "start": 130128,
+      "text": "So, Sheelagh, we always ask our guests to introduce themselves. So can you give us a little bit of a short bio?",
+      "id": "ep_125_ut_7"
+    },
+    {
+      "end": 186686,
+      "speaker": "Sheelagh Carpendale",
+      "start": 137440,
+      "text": "Okay, well, I'm a professor in computer science here at the University of Calgary and I have been here for 19 years. I think one of the. Yeah, it's a long time. One of the most important things for as far as the short bio goes is that I was initially in the arts world. I went to art school and design school before I switched and did a couple of degrees in computer science. And I have actually really found that both backgrounds are super useful in doing information visualization research. And just kind of an added note, I have, after all these years, decided that I will switch universities and come fall, I will be at, at Simon Fraser University in Vancouver.",
+      "id": "ep_125_ut_8"
+    },
+    {
+      "end": 189170,
+      "speaker": "Enrico Bertini",
+      "start": 186798,
+      "text": "Wow. Wow. That's a big change.",
+      "id": "ep_125_ut_9"
+    },
+    {
+      "end": 193342,
+      "speaker": "Sheelagh Carpendale",
+      "start": 190230,
+      "text": "It's a very big change. It's a very big change.",
+      "id": "ep_125_ut_10"
+    },
+    {
+      "end": 193718,
+      "speaker": "Enrico Bertini",
+      "start": 193406,
+      "text": "Nice.",
+      "id": "ep_125_ut_11"
+    },
+    {
+      "end": 194550,
+      "speaker": "Moritz Stefaner",
+      "start": 193774,
+      "text": "That's exciting.",
+      "id": "ep_125_ut_12"
+    },
+    {
+      "end": 295680,
+      "speaker": "Enrico Bertini",
+      "start": 194670,
+      "text": "So, Sheelagh. Yeah. What I really like of your work, among many other things, is exactly this kind of mixed background that you have between art and computer science and many other things. And I can tell you how many things I learned from you over the years, and it's been always a constant source of inspiration. As I said at the beginning and before starting, I also want to mention that I realized that preparing for this show, I realized that we had lots of people on the show previously who actually had experiences in your lab. Right. So we had Chris Collins back then, Marion Dork, Petra Eisenberg. I'm not even sure I'm mentioning all of them. Alice Thudt, Dominic Osbower. So many people. So it's fantastic. Yeah. And a few weeks ago, I personally visited your lab, and I loved it. You gave us a great tour of your lab. We spent some time there, and I finally thought we should definitely have Sheelagh on the show. That's been a long time coming. So I would like to start with, I think the other day when I was visiting your lab, I kept thinking one of the most, one of the things that characterizes Sheelagh's work is pushing the boundaries. Right. I see your work as it's like, for me, it's like, it's not the traditional things that we see around. It's really like you're pushing the boundaries in so many directions. It looks to me you have a mix of art, psychology, philosophy, computer science. So I'm wondering if you can briefly talk about what is your approach to visualization and maybe your philosophy.",
+      "id": "ep_125_ut_13"
+    },
+    {
+      "end": 399944,
+      "speaker": "Sheelagh Carpendale",
+      "start": 295800,
+      "text": "Right. Well, you see, I actually think, you know, it's well known in science that to be successful, you have to be innovative, inventive, etcetera. But in science, we tend to think that, I don't know how people are going to pick this up, but by osmosis or something. To be good, you must be inventive. But, you know, so where does it come from? Yeah, in design school and art school, but particularly in design school, it's something that you practice. And so that has been super useful. And so when I started being a professor, I did start right away actually introducing all kinds of different practices and also, like, adjusting practices to incorporate design thinking. I mean, I think that one of the things that I do a lot is what I think of as observation for design. So I kind of have, it's a mashup of ethnographic approaches, which, with all the rigor of qualitative studies, but also always keeping your eyes and mind open for those moments where you see that something could help, where you see somebody struggling with their own data or struggling explaining it, like you think, okay, maybe there we can do something. So. Yes. So the combination of, you know, watching and actively using design thinking in our whole ideation process, also actually really encouraging students to give themselves a bit of time in that. In that period of the research.",
+      "id": "ep_125_ut_14"
+    },
+    {
+      "end": 417560,
+      "speaker": "Enrico Bertini",
+      "start": 400072,
+      "text": "Yeah, yeah, I really like that. I think we have this notion that visualization can be learned by following a whole bunch of rules, and this never seems to work. And. Yeah, right. I mean, it's frustrating, but that's not the way it works. I'm sorry.",
+      "id": "ep_125_ut_15"
+    },
+    {
+      "end": 486194,
+      "speaker": "Sheelagh Carpendale",
+      "start": 418980,
+      "text": "I know that actually, just a week or two ago, I was so. I know that, like, in the nineties, when I was looking up just, like, casual design textbooks, not like ones that were, like, fabulous or anything, they all had in their front piece or in the first paragraph of the first chapter or somewhere right at the beginning, they had kind of two statements, and one that if you wanted to be a designer, you would be very foolish not to know and understand all of the guidelines and all of the rules that everybody before you had made, but that you would be even more foolish if you followed them. I was looking for somewhere so I could have a quote for this. I couldn't. These days. I couldn't find it. They all are spouting their guidelines, like, everybody should follow them. And I thought, really, you should know. You shouldn't follow them. You should know them. You should know them because they inform how you don't follow them. And if you don't follow them, you should know why not?",
+      "id": "ep_125_ut_16"
+    },
+    {
+      "end": 520118,
+      "speaker": "Enrico Bertini",
+      "start": 486282,
+      "text": "Yeah, that's perfect advice and similar to some of the things that I tell my own students. So maybe we can start by. I would like to dive right in into some of your projects, so maybe we can start from the work you and your students have been doing on sketching. I think that's a very interesting, very interesting direction. And I think you've been studying how sketching works and how it relates to data visualization. So can you talk a little bit about it?",
+      "id": "ep_125_ut_17"
+    },
+    {
+      "end": 757240,
+      "speaker": "Sheelagh Carpendale",
+      "start": 520214,
+      "text": "Yeah. Okay. So, well, one of the things that I did very, very actively do when I first became a professor, like, really encourage everybody to sketch, and we didn't kind of look at it formally. We sometimes. I know. You know how in art school you'll have, you know, a life drawing night where everybody gets together and just practices drawing? Well, we've sometimes had, like, data sketching nights where we have a small bit of data and we all get together and sketch it. Right, just to kind of, whatever, limber up, keep your mind going, thinking of new ways of doing things. And then at one point, we thought, you know, we actually should, like, run a study about this. We should actually look at how people sketch and how people sketch who aren't necessarily infovis people. Right. So we ran a more formal study, and we gave them one of my favorite little data sets. I think it still exists at the back of SPSF. So if you have that software, you also have the data set. It's about manners. It's about whether it's polite to, like, burp in a classroom or in a church or. So. Yes, exactly. So it's kind of nice because simple manners like that, you can think of everybody as an expert, so we don't have to worry about finding data experts. And it's also, it's amusing. So people are working with this data set. You hear them chuckling to themselves. Right? So people drew us all kinds of fabulous sketches. And. Yeah. So one of the things in analyzing what we got, one of the things that we did is look at how numeric some of these sketches were. And, you know, how some of them got increasingly abstract. So all the way to, some of them were actual comic strips. And I know that when I first picked up one of the comic strips, my thought was, I guess this person was not particularly into the data. You know, I mean, it's very nice. They drew us a comic strip, okay? But then we did another. We had also asked people if they found anything interesting about the data to just tell us about it. And people wrote us quite a lot. Everybody wrote about half a page and some more. And we characterized the kinds of things they told us. And, you know, they ranged all from the very particular, like, one person saying, I can't believe that anybody rated it as non zero to fall asleep in a job interview all the way to people kind of making sort of suggestions of things like, you know, things that could lead to future research, some sort of little loosey goosey conjectures. Right. And the interesting thing, and now actually, so this I have to be careful about on a podcast, is there was nothing. This is not, this is a qualitative study, so this is not a correlation. This is just something that would be, again, like, worth exploring further. The people who drew us comics, they also had really interesting things to say about the data. Quite often, some of the more profound things. So in drawing us comics, they hadn't just blown off the data, they had actually thought about it pretty deeply. So that was really interesting and has actually fed a whole new stream of things that I'm doing with Benjamin Bach and Nathalie Henry Riche on data comics.",
+      "id": "ep_125_ut_18"
+    },
+    {
+      "end": 765060,
+      "speaker": "Moritz Stefaner",
+      "start": 758140,
+      "text": "So this was not just a user study, but actually for yours, an idea, like an idea generation tool, basically.",
+      "id": "ep_125_ut_19"
+    },
+    {
+      "end": 771210,
+      "speaker": "Sheelagh Carpendale",
+      "start": 765140,
+      "text": "Oh, I think actually all the best studies are generative.",
+      "id": "ep_125_ut_20"
+    },
+    {
+      "end": 774262,
+      "speaker": "Moritz Stefaner",
+      "start": 772990,
+      "text": "They make an end point.",
+      "id": "ep_125_ut_21"
+    },
+    {
+      "end": 778262,
+      "speaker": "Enrico Bertini",
+      "start": 774446,
+      "text": "They make you think about something and then you know what you want to do next.",
+      "id": "ep_125_ut_22"
+    },
+    {
+      "end": 780558,
+      "speaker": "Sheelagh Carpendale",
+      "start": 778366,
+      "text": "Right? Yes, they make you think.",
+      "id": "ep_125_ut_23"
+    },
+    {
+      "end": 797910,
+      "speaker": "Moritz Stefaner",
+      "start": 780734,
+      "text": "But usually people confront others with a finished product or two of them or three, and say, like, do you prefer this or that? Or watch them interact with, like, something made already, but you turn that on its head basically by saying, now you make something and then we talk about what you made.",
+      "id": "ep_125_ut_24"
+    },
+    {
+      "end": 832816,
+      "speaker": "Sheelagh Carpendale",
+      "start": 798030,
+      "text": "That's right. And I find that so much more interesting because so to me, you know, one of the things that's fascinating about this type of work is I am learning all the time and I can learn from everybody. All of our participants are, you know, sometimes they're, you know, it's mind blowing. So, yeah, I think it's. I do actually think it's a really important distinction to call them participants because I think that they are, they're giving some of their time and, and some of their effort, and it can be totally inspiring.",
+      "id": "ep_125_ut_25"
+    },
+    {
+      "end": 834088,
+      "speaker": "Enrico Bertini",
+      "start": 833008,
+      "text": "Yeah, yeah, yeah.",
+      "id": "ep_125_ut_26"
+    },
+    {
+      "end": 876380,
+      "speaker": "Moritz Stefaner",
+      "start": 834104,
+      "text": "I think that seems to go through all of your work is like this experience aspect of, okay, there is actually somebody who is creating this graphic, but there's also somebody experiencing the visualization. So I think in all of your projects, there's always this, this component quite present. If you just scroll through like your huge project list on the website, I think there's always this, this aspect there and really thinking about, ok, what is the user experience of data? Maybe that also ties into another topic you've been working on quite a bit, is this idea of active readings, of visualizations that also the consumption can be an active process. Right?",
+      "id": "ep_125_ut_27"
+    },
+    {
+      "end": 1013456,
+      "speaker": "Sheelagh Carpendale",
+      "start": 876540,
+      "text": "Yeah, I think that we are really familiar. We have now started to become cognizant of the fact that visualization literacy is not automatic, not for everybody, and that maybe we have to actually think about this. And so one of the projects we did, again, it was the same thing. We gave them a very simple social network about who was friends with who and asked them to do things like, you know, arrange a seating for a dinner party so there wouldn't be conflicts. Right. And just let them do as they will. And they naturally used all kinds of simple aids of, you know, writing on top of the visualization, making notes on some other piece of paper, various kinds of ways of helping themselves figure out what they wanted to do. And this is very akin to what is taught as active reading of text. So an active reading of text, they will sort of help people. Like, okay, first look for, you know, the nouns of the sentences, or first, you know, like, they will give people ideas of how to actually get a deeper reading of the text. So, yes, so we were. We were interested in what people naturally do and then thinking about whether we can actually support that technologically. So we just took one of the kind of more encompassing ideas of what the people did in our qualitative study and provided a digital tool with free form annotation, which is a simple thing for us to provide digitally. And people certainly used it, and they actually were slower because I think they got a much more in depth understanding of the graph. So that, again, is conjecture. They were much more accurate. So I think it really did help support their thinking process, and I think that it's something that we should think about in trying to help people read visualizations.",
+      "id": "ep_125_ut_28"
+    },
+    {
+      "end": 1045036,
+      "speaker": "Enrico Bertini",
+      "start": 1013608,
+      "text": "So, Sheelagh, so it's really hard to cover everything here. So I would like to briefly cover one of your projects that is more about developing some visualizations. There are so many that I've seen in your lab, it's hard to pick and choose. So maybe we can talk about the one about visualizing northern lights with your scientific laborator. I think I was really impressed by that one. Can you describe it for our listeners?",
+      "id": "ep_125_ut_29"
+    },
+    {
+      "end": 1237310,
+      "speaker": "Sheelagh Carpendale",
+      "start": 1045228,
+      "text": "Okay, so we worked with Eric Donovan, who studies. He's an astrophysicist, and he studies the northern lights or the aurora borealis. And he has actually a really active website called Aurora Max. So we wanted to work with his data in a kind of outreach way. So, I mean, sometimes when you're focusing on data, you're focusing on trying to expose new factors in the data for scientific insight. But this time, we were focusing on making the data kind of accessible for people in a public space, like in a science center or in a gallery. So we made what are called kyograms. And that's a word that actually Eric was already using with his group. It comes from an inuit word, but essentially what it is, is like, for the whole, he's got cameras all over the north straight pointing into the night sky and taking pictures of the night sky and the aurora happening in all its glory. And it takes a strip through that and just one, like, one pixel for each frame. Of the video. So you kind of have, like. Yes, a quick access version of the. Excuse me, of the video. So we could actually take these Kia grams and line them up so that essentially you have a night sky histogram. And you can see all kinds of things in the night sky histogram. Like, you can see when the full moon was, because the sky is actually quite a bit lighter. You can see where the aurora was active. You can see how the nights are really long in the middle of the winter and get shorter as you come towards spring. You can see all kinds of things just from the histogram. And because, of course, the data itself is so intrinsically beautiful, so is the histogram. But you can actually. You can touch one or click on one and it will open up. And you can see that particular video. And you can use the Kia gram to control which part of the video. So you can go and select the most active parts. One of the things that we did with this that was also pretty cool is we used proxemic interaction. So that is that as a person was walking by, the sensors would sense their motion and respond to them. So we have, like, videos of people walking by and out of the corner of their eye, they see the display responding to them. And you can always tell when it's related to your own movement. And it would actually, like, invite them. And so that, you know, when they moved up to it, it could show them that they could open it up and actually control the access themselves if they want.",
+      "id": "ep_125_ut_30"
+    },
+    {
+      "end": 1251390,
+      "speaker": "Moritz Stefaner",
+      "start": 1237650,
+      "text": "Yeah, it's nice because for these natural phenomena, you also often need to be in exactly the right spot and do the right thing to even be able to experience them. So it's nice that you translate that in the interaction with the actual piece.",
+      "id": "ep_125_ut_31"
+    },
+    {
+      "end": 1273620,
+      "speaker": "Sheelagh Carpendale",
+      "start": 1252170,
+      "text": "Yes, because the chances. I mean, I know that people. I mean, here one does see the northern lights quite a lot of. Yeah, it's quite amazing and wonderful. But sometimes somebody will come, and they will come during the times of year that normally you would get to see it, and it just doesn't happen.",
+      "id": "ep_125_ut_32"
+    },
+    {
+      "end": 1283792,
+      "speaker": "Moritz Stefaner",
+      "start": 1276880,
+      "text": "These are beautiful. Like, these rearranged images are really beautiful. Is it related to slit scan techniques?",
+      "id": "ep_125_ut_33"
+    },
+    {
+      "end": 1284536,
+      "speaker": "Sheelagh Carpendale",
+      "start": 1283856,
+      "text": "Yes, it is.",
+      "id": "ep_125_ut_34"
+    },
+    {
+      "end": 1286848,
+      "speaker": "Moritz Stefaner",
+      "start": 1284608,
+      "text": "In fact, it sounds quite similar, right?",
+      "id": "ep_125_ut_35"
+    },
+    {
+      "end": 1288306,
+      "speaker": "Sheelagh Carpendale",
+      "start": 1286904,
+      "text": "Yes, it is quite similar.",
+      "id": "ep_125_ut_36"
+    },
+    {
+      "end": 1315110,
+      "speaker": "Moritz Stefaner",
+      "start": 1288448,
+      "text": "Yeah, it's beautiful. And I love this, taking original photo material, but then sort of warping it in that way that suddenly new patterns, like, in this case, time is being mapped onto space, and suddenly you see the same thing, but in a totally different way. It's like flipping it 90 degrees, basically. It's like whoop. What happened there? But you still see the original material in the plots. It's very nice.",
+      "id": "ep_125_ut_37"
+    },
+    {
+      "end": 1343690,
+      "speaker": "Enrico Bertini",
+      "start": 1315230,
+      "text": "Yeah. I would strongly encourage our listeners, if they can, to stop and take a look at the images of what we're talking about in our show notes because it's very hard to describe with words. Right. But it's stunning. It's one of the things that, like, when I saw it in your life, it made me pause and it's just, just beautiful. And I think you also briefly recounted the story of how your collaborator reacted the first time you saw it.",
+      "id": "ep_125_ut_38"
+    },
+    {
+      "end": 1367870,
+      "speaker": "Sheelagh Carpendale",
+      "start": 1344670,
+      "text": "Yeah, he was kind of, I mean, it was quite, that was quite wonderful because, I mean, yeah, I knew I wasn't like, normally when you're collaborating with a scientist, you are actually trying to help them further science. And this time we had actually decided to take a different take on it and that was actually really satisfying that he found it. That he found it very moving.",
+      "id": "ep_125_ut_39"
+    },
+    {
+      "end": 1371898,
+      "speaker": "Moritz Stefaner",
+      "start": 1368570,
+      "text": "That's great. Best possible outcome.",
+      "id": "ep_125_ut_40"
+    },
+    {
+      "end": 1374190,
+      "speaker": "Enrico Bertini",
+      "start": 1371954,
+      "text": "Yeah, exactly.",
+      "id": "ep_125_ut_41"
+    },
+    {
+      "end": 1419940,
+      "speaker": "Moritz Stefaner",
+      "start": 1374490,
+      "text": "Maybe we can talk a bit wider. Again, fantastic projects. There's like 20 on the website. So you're very prolific person, but you also have great collaborators, I think, and you seem to have a good way of running your lab. It seems like there's so much great output there. And as Enrico said already, it's often very like out of the box lateral thinking, especially compared to the rest of information visualization research. Maybe we can talk a bit about like, in your view, what are some of the, maybe the myths or some of the beliefs that everybody has about data visualization that seem to hold us up in being actually creative and innovative with it? And how can we sort of break these chains?",
+      "id": "ep_125_ut_42"
+    },
+    {
+      "end": 1554614,
+      "speaker": "Sheelagh Carpendale",
+      "start": 1422000,
+      "text": "That's a very interesting, difficult question because it's hard to know. I do think that what we were talking about at the beginning is trying to actually set yourself up to. To always be open to noticing the distinctions, the little catches where you might actually be able to do something different and be willing to investigate those, to giving yourself space for ideation, I think that's actually really important. I think, you know, I do find like the integration of design thinking with infovis as being like super rich. What else can be specific about that? I think, you know, we have a tendency in the community to, well, maybe actually step back a bit. And one of the things I think that we have to recognize is that this business that we are trying to do, which is to take some data which has a kind of probably fairly, you know, simplistic, perhaps just numbers, or perhaps it's also numbers and text. It may be more complex, but it has a representation. And what we are actually trying to do is come up with a new representation. And this is non trivial thinking, not an easy thing. The easier thing is to actually look at existing representations and trying to figure out, like, how to work with them. But actually being able to think fresh is something that I think we should value more as a community. And I don't think. I think we've got a little bit stuck. There were some, you know, great innovators around the development of the printing press, and they came up with all of our standard visualizations and we still mostly use them. They've been around for some 400 years.",
+      "id": "ep_125_ut_43"
+    },
+    {
+      "end": 1558246,
+      "speaker": "Moritz Stefaner",
+      "start": 1554702,
+      "text": "The 19th century was maybe even more innovative than we are now.",
+      "id": "ep_125_ut_44"
+    },
+    {
+      "end": 1640850,
+      "speaker": "Sheelagh Carpendale",
+      "start": 1558358,
+      "text": "I would say in many ways, yes, but I think that we have to recognize that we actually also, they had the printing press and that was pretty cool and they really made good use of it and they did new things. Right. We have a computer, this is also pretty cool, and we can do new things, but a lot of those new things are in spaces that people don't expect. Well, like interaction. So we were just talking just before about, you know, incorporating proxemic interaction into visualization. I think one of the things is to value more how bye changing how something responds to you, that you're actually changing how you can understand it. I think to some extent, you know, all of the talk we did about active reading that was showing that that give people a bit of space, that they will be active with it and that. So I think valuing changes in interaction more is something important to do as a community. I also think we have got really chicken about 3D. There's all kinds of stuff about never do 3D.",
+      "id": "ep_125_ut_45"
+    },
+    {
+      "end": 1645450,
+      "speaker": "Moritz Stefaner",
+      "start": 1641790,
+      "text": "It's like a burnt field. Nobody wants to go there.",
+      "id": "ep_125_ut_46"
+    },
+    {
+      "end": 1649894,
+      "speaker": "Enrico Bertini",
+      "start": 1647590,
+      "text": "This is where the opportunities are, right?",
+      "id": "ep_125_ut_47"
+    },
+    {
+      "end": 1706916,
+      "speaker": "Sheelagh Carpendale",
+      "start": 1649942,
+      "text": "Well, some. Not all, but some. But what I actually think is that, you know, we've been doing 2d for hundreds of years, right? So we've got moderately good at it. And actually, I have to admit we kind of suck at 3D. But all of the stuff that we're doing in physicalization and all the stuff we've done on constructivism shows that actually there are lots of things about 3D that are really useful for people. So I think it's a question that we haven't got it right. So I do think that we make lots of mistakes. It does seem that we more naturally get it right when we do it in physicalizations, which is cool and super exciting, but that we shouldn't be so scared of trying to actually do it right in three D. I think this.",
+      "id": "ep_125_ut_48"
+    },
+    {
+      "end": 1750608,
+      "speaker": "Moritz Stefaner",
+      "start": 1706948,
+      "text": "All still plays together. Also with that point you briefly mentioned before is this idea that, well, reading a visualization can be a very, like, can take a while and can be a very active process and sort of nonlinear. And often there's this idea that every single data visualization needs to be understood immediately, like within split seconds, and otherwise it's a bad chart, you know, and then there's this whole literature around, like how to make good charts, not the bad ones. And I think this sort of forgets that maybe depending on the context or the purpose, any time you need to understand something can be totally fine, or it can be even rewarding to spend some time with something and not figure it out in the first split second.",
+      "id": "ep_125_ut_49"
+    },
+    {
+      "end": 1771172,
+      "speaker": "Sheelagh Carpendale",
+      "start": 1750744,
+      "text": "In fact, I actually often talk to my students about how one of the best and most brilliant visualizations that has ever been invented is the Alphabet. It visualizes our spoken word and my goodness, it is complex and it's weird.",
+      "id": "ep_125_ut_50"
+    },
+    {
+      "end": 1772788,
+      "speaker": "Moritz Stefaner",
+      "start": 1771236,
+      "text": "Takes years to learn.",
+      "id": "ep_125_ut_51"
+    },
+    {
+      "end": 1861736,
+      "speaker": "Sheelagh Carpendale",
+      "start": 1772924,
+      "text": "It takes years to learn. And we were so lucky that one of our members of our community came up with something as brilliant as this. Nobody would understand it in 20 minutes, right? I mean, I think that there is a difference between ease of understanding and power of understanding in that we need to think about the power side as well and that, you know, everybody makes their child learn how to read and learn the Alphabet because they know how it's going to empower them through their whole life. I mean, yeah, I doubt that we are going to come up with something like that in our community, but we should not preclude the possibility because we want everything to be understandable in 20 minutes. So I think that there is, I guess, I mean, yeah, I guess my thing is like, I think we need to value interaction more. I think we need to think about the power representation and looking at what we can do to empower people. And I think that we need to have a better understanding of how personally empowering and how expanding it can be for a whole research area to incorporate really good qualitative research.",
+      "id": "ep_125_ut_52"
+    },
+    {
+      "end": 1885290,
+      "speaker": "Enrico Bertini",
+      "start": 1861928,
+      "text": "Yeah, yeah, I think that's very important. And I'm looking forward to seeing what else is coming up in the, in future years. I personally myself, learning a lot about how to do more qualitative research, how to introduce more interaction, and also, yeah, look beyond these boundaries that we set for ourselves. I think sometimes they are a little too strict.",
+      "id": "ep_125_ut_53"
+    },
+    {
+      "end": 1913540,
+      "speaker": "Sheelagh Carpendale",
+      "start": 1887950,
+      "text": "Yeah, I mean, I think that really we're at the beginning of, it's only been whatever, 20, 2025 years that we've been doing visualization on computers, and computers are still changing themselves. The potential and the power that we have available is amazing. And we need to kind of, I don't know, revel in it. Sure.",
+      "id": "ep_125_ut_54"
+    },
+    {
+      "end": 1917000,
+      "speaker": "Enrico Bertini",
+      "start": 1916280,
+      "text": "Okay. Sure.",
+      "id": "ep_125_ut_55"
+    },
+    {
+      "end": 1917264,
+      "speaker": "Sheelagh Carpendale",
+      "start": 1917040,
+      "text": "Yeah.",
+      "id": "ep_125_ut_56"
+    },
+    {
+      "end": 1939680,
+      "speaker": "Moritz Stefaner",
+      "start": 1917312,
+      "text": "So much potential. But it's also to get on the ground. You know, it's like, I think there's often this also this innovator's dilemma that you might have something better, but is it so good or so much better that people switch over to it? Right. And I think that often this crucial point is like, does it reward you so much that it's worth the effort of breaking out of your comfort zone?",
+      "id": "ep_125_ut_57"
+    },
+    {
+      "end": 1986328,
+      "speaker": "Sheelagh Carpendale",
+      "start": 1939800,
+      "text": "Well, yeah, and I don't think it necessarily needs to for us. So I think that we need to be willing to think about things that are different just because they're different and we're trying to actually understand. Well, maybe, you know, the first time I do some new thing and it needs some more exploration and it needs to get out there because maybe one of you is going to actually say, oh, yeah, well, that's kind of cool, but really, you should have done it like this. Right? And then we think, oh, yeah, now. But we need to be able to share with each other our beginning attempts that are maybe not as polished as something that's been around for many, many decades. Right? Yeah.",
+      "id": "ep_125_ut_58"
+    },
+    {
+      "end": 2021060,
+      "speaker": "Moritz Stefaner",
+      "start": 1986384,
+      "text": "Oh, absolutely. Yeah. In that sense, let's keep the dialogue going and flowing. I really like what you're doing there for bringing these often so unconnected fields together, and not just by talking about it, but by actually doing it. I think that's a huge value and a huge achievement. And we're really excited to see what you will be doing in Vancouver. Maybe we to get you back on in a few years to see how that switch has played out. It's very exciting. I think that you're moving there and, yeah. Thanks so much for joining us.",
+      "id": "ep_125_ut_59"
+    },
+    {
+      "end": 2022116,
+      "speaker": "Sheelagh Carpendale",
+      "start": 2021140,
+      "text": "Okay. Thank you.",
+      "id": "ep_125_ut_60"
+    },
+    {
+      "end": 2024228,
+      "speaker": "Enrico Bertini",
+      "start": 2022188,
+      "text": "Thank you, Sheelagh. Bye bye.",
+      "id": "ep_125_ut_61"
+    },
+    {
+      "end": 2025200,
+      "speaker": "Sheelagh Carpendale",
+      "start": 2024324,
+      "text": "Bye bye.",
+      "id": "ep_125_ut_62"
+    },
+    {
+      "end": 2050080,
+      "speaker": "Enrico Bertini",
+      "start": 2029660,
+      "text": "Hey, folks, thanks for listening to data stories again. Before you leave, a few last notes, this show is now completely crowdfunded, so you can support us by going on Patreon. That's patreon.com Datastories. And if you can spend a couple of minutes reading us on iTunes, that would be extremely helpful for the show.",
+      "id": "ep_125_ut_63"
+    },
+    {
+      "end": 2075962,
+      "speaker": "Moritz Stefaner",
+      "start": 2050200,
+      "text": "And here's also some information on the many ways you can get news directly from us. We are, of course, on twitter@twitter.com. Datastories. We have a Facebook page@Facebook.com. datastoriespodcast. All in one word. And we also have a Slack channel where you can chat with us directly. And to sign up, you can go to our homepage datastory eas, and there is a button at the bottom of the page.",
+      "id": "ep_125_ut_64"
+    },
+    {
+      "end": 2091824,
+      "speaker": "Enrico Bertini",
+      "start": 2076106,
+      "text": "And we also have an email newsletter. So if you want to get news directly into your inbox and be notified whenever we publish an episode, you can go to our home page Datastore es and look for the link you find at the bottom in the footer.",
+      "id": "ep_125_ut_65"
+    },
+    {
+      "end": 2103964,
+      "speaker": "Moritz Stefaner",
+      "start": 2091922,
+      "text": "So one last thing we want to tell you is that we love to get in touch with our listeners, especially if you want to suggest a way to improve the show or amazing people you want us to invite or even projects you want us to talk about.",
+      "id": "ep_125_ut_66"
+    },
+    {
+      "end": 2113180,
+      "speaker": "Enrico Bertini",
+      "start": 2104052,
+      "text": "Yeah, absolutely. And don't hesitate to get in touch with us. It's always a great thing to hear from you. So see you next time, and thanks for listening to data stories.",
+      "id": "ep_125_ut_67"
+    }
+  ],
+  "confidence": 0.940432829194882,
+  "audio_duration": 2122,
+  "punctuate": true,
+  "format_text": true,
+  "dual_channel": false,
+  "webhook_url": null,
+  "webhook_status_code": null,
+  "webhook_auth": false,
+  "webhook_auth_header_name": null,
+  "speed_boost": false,
+  "auto_highlights_result": null,
+  "auto_highlights": false,
+  "audio_start_from": null,
+  "audio_end_at": null,
+  "word_boost": [],
+  "boost_param": null,
+  "filter_profanity": false,
+  "redact_pii": false,
+  "redact_pii_audio": false,
+  "redact_pii_audio_quality": null,
+  "redact_pii_policies": null,
+  "redact_pii_sub": null,
+  "speaker_labels": true,
+  "content_safety": false,
+  "iab_categories": true,
+  "content_safety_labels": {
+    "status": "unavailable",
+    "results": [],
+    "summary": {}
+  },
+  "language_detection": false,
+  "language_detection_threshold": null,
+  "language_confidence": null,
+  "custom_spelling": null,
+  "throttled": false,
+  "auto_chapters": true,
+  "summarization": false,
+  "summary_type": null,
+  "summary_model": null,
+  "custom_topics": false,
+  "topics": [],
+  "speech_threshold": null,
+  "speech_model": "best",
+  "chapters": [
+    {
+      "summary": "On this podcast we talk about data visualization, analysis, and generally the role that data plays in our lives. Our podcast is listener supported, so you might notice there are no ads interrupting us. If you do enjoy the show, you could consider supporting us.",
+      "gist": "Data Stories",
+      "headline": "Our podcast is listener supported, so every dollar counts for us",
+      "start": 240,
+      "end": 105870,
+      "id": "ep_125_ch_0"
+    },
+    {
+      "summary": "Sheelagh Carpentel is one of my all time favorite researchers, professors, and a constant source of inspiration. Welcome on the show.",
+      "gist": "Sheelagh Carpentel on The Discovery Podcast",
+      "headline": "We have Sheelagh Carpentel on the show today",
+      "start": 107970,
+      "end": 129936,
+      "id": "ep_125_ch_1"
+    },
+    {
+      "summary": "Sheelagh O'Brien is a computer science professor at the University of Calgary. She says her mixed background in art and computer science is useful for information visualization research. She will be moving to Simon Fraser University in Vancouver in fall.",
+      "gist": "Sheelagh on the Computer Science Podcast",
+      "headline": "Sheelagh is a professor in computer science at the University of Calgary",
+      "start": 130128,
+      "end": 260030,
+      "id": "ep_125_ch_2"
+    },
+    {
+      "summary": "Sheelagh's work is a mix of art, psychology, philosophy, computer science. She says visualization can't be learned by following a whole bunch of rules. She encourages students to give themselves a bit of time in that.",
+      "gist": "In the Elevator With Sheelagh",
+      "headline": "I'm wondering what is your approach to visualization and maybe your philosophy",
+      "start": 260570,
+      "end": 506430,
+      "id": "ep_125_ch_3"
+    },
+    {
+      "summary": "Professor has been studying how sketching works and how it relates to data visualization. People drew us all kinds of fabulous sketches. The people who drew us comics, they also had really interesting things to say about the data. This is just something that would be worth exploring further.",
+      "gist": "Sketching and data visualization",
+      "headline": "You've been studying how sketching works and how it relates to data visualization",
+      "start": 506510,
+      "end": 865560,
+      "id": "ep_125_ch_4"
+    },
+    {
+      "summary": "Researchers say visualization literacy is not automatic, not for everybody. People naturally use aids of writing on top of the visualization, making notes. This is very akin to what is taught as active reading of text. We provided a digital tool with free form annotation. People certainly used it, and they actually were slower.",
+      "gist": "How to read visualizations?",
+      "headline": "We have now become cognizant of the fact that visualization literacy is not automatic",
+      "start": 866020,
+      "end": 1013456,
+      "id": "ep_125_ch_5"
+    },
+    {
+      "summary": "Sheelagh, I would like to briefly cover one of your projects that is more about developing some visualizations. Can you talk about the one about visualizing northern lights with your scientific laborator?",
+      "gist": "Exploring the northern lights with a computer",
+      "headline": "Sheelagh, one of your projects is about developing some visualizations",
+      "start": 1013608,
+      "end": 1374190,
+      "id": "ep_125_ch_6"
+    },
+    {
+      "summary": "There's so much great output there. It's often very like out of the box lateral thinking. What are some of the myths or beliefs that hold us up in being creative and innovative with data visualization? Being able to think fresh is something that I think we should value more.",
+      "gist": "Getting it out of the Data Visualization Box",
+      "headline": "You're prolific with your data visualization projects. There's like 20 on the website",
+      "start": 1374490,
+      "end": 1586490,
+      "id": "ep_125_ch_7"
+    },
+    {
+      "summary": "Well, like interaction. I think one of the things is to value more how bye changing how something responds to you. I also think we have got really chicken about 3D. But all of the stuff that we're doing in physicalization and all the stuff we've done on constructivism shows that there are lots of things about3D that are really useful for people.",
+      "gist": "3-D in Visualization",
+      "headline": "I think we have got really chicken about 3D visualization",
+      "start": 1587350,
+      "end": 1708372,
+      "id": "ep_125_ch_8"
+    },
+    {
+      "summary": "Sheelagh: There is a difference between ease of understanding and power of understanding. She says we need to think about the power representation and looking at what we can do to empower people. Sheelagh: I'm looking forward to seeing what else is coming up in the, in future years.",
+      "gist": "Ease of understanding and power of visualization",
+      "headline": "There's this idea that every data visualization needs to be understood immediately",
+      "start": 1708436,
+      "end": 2025200,
+      "id": "ep_125_ch_9"
+    },
+    {
+      "summary": "This show is now completely crowdfunded, so you can support us by going on patreon. com Datastories. Here's also some information on the many ways you can get news directly from us. We love to get in touch with our listeners, especially if you want to suggest a way to improve the show.",
+      "gist": "How to Subscribe to Data Stories",
+      "headline": "This show is now completely crowdfunded, so you can support us on Patreon",
+      "start": 2029660,
+      "end": 2113180,
+      "id": "ep_125_ch_10"
+    }
+  ],
+  "disfluencies": false,
+  "entity_detection": false,
+  "sentiment_analysis": false,
+  "sentiment_analysis_results": null,
+  "entities": null,
+  "speakers_expected": null,
+  "summary": null,
+  "custom_topics_results": null,
+  "episode_num": 125,
+  "episode_metadata": {
+    "speakers": [
+      "Sheelagh Carpendale",
+      "Enrico Bertini",
+      "Moritz Stefaner"
+    ],
+    "WPid": "1224",
+    "url": "https://datastori.es/podlove/file/5215/s/feed/c/mp3/125-sheelagh-carpendale.mp3",
+    "episode_title": "Researching the Boundaries of InfoVis with Sheelagh Carpendale"
+  }
+}

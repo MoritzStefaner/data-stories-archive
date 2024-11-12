@@ -1,0 +1,790 @@
+{
+  "id": "e9187078-7305-4fc6-82bb-437372c60870",
+  "language_model": "assemblyai_default",
+  "acoustic_model": "assemblyai_default",
+  "language_code": "en_us",
+  "status": "completed",
+  "audio_url": "https://datastori.es/podlove/file/5342/s/feed/c/mp3/127-storytelling-with-data-with-cole-nussbaumer-knaflic.mp3",
+  "utterances": [
+    {
+      "end": 7330,
+      "speaker": "Cole Nussbaumer Knaflic",
+      "start": 240,
+      "text": "When I took data and made it something people could see, it hit home in different ways.",
+      "id": "ep_127_ut_0"
+    },
+    {
+      "end": 36390,
+      "speaker": "Enrico Bertini",
+      "start": 26750,
+      "text": "Hi, everyone. Welcome to a new episode of Data stories. My name is Enrico Bertini, and I am a professor at NYU in New York City, where I do research in data visualization.",
+      "id": "ep_127_ut_1"
+    },
+    {
+      "end": 41586,
+      "speaker": "Moritz Stefaner",
+      "start": 36690,
+      "text": "Right. And my name is Moritz Stefaner, and I'm an independent designer of data visualizations.",
+      "id": "ep_127_ut_2"
+    },
+    {
+      "end": 52674,
+      "speaker": "Enrico Bertini",
+      "start": 41778,
+      "text": "And in this podcast, we talk about data visualization, analysis, and generally the role that data plays in our lives. And usually we do that together with a guest we invite on the show.",
+      "id": "ep_127_ut_3"
+    },
+    {
+      "end": 102904,
+      "speaker": "Moritz Stefaner",
+      "start": 52802,
+      "text": "Right. But before we start, just a quick note, as usual. Our podcast, as you might know, is listener supported, so there are no ads. But that also means if you do enjoy the show, please consider supporting us. You can either do that with recurring payments on patreon.com Datastories so you can set up a recurring donation. Basically every time we publish an episode, a little thank you or you can send us a one time donation on Paypal me Datastories. And if you don't have any spare money, that can happen too. We are also happy about any about a review. First of all, it's totally fine, right? But if you have the time, you can maybe write a review on iTunes or send a nice tweet or something. That makes us happy, too. So anything helps. Yeah. Yeah. So what's going on, Enrico? Any news?",
+      "id": "ep_127_ut_4"
+    },
+    {
+      "end": 169150,
+      "speaker": "Enrico Bertini",
+      "start": 103032,
+      "text": "It's all good. So the semester is starting here, so it's a little bit of a busy time, but it's good to be back. And I also have a little bit of an announcement, so I now can finally make it public. I have been working for several months on a coursera course on information visualization, and this is now public. Awesome. We are all really excited. So actually, it's not even just a course. Coursera is a thing that is called specialization, and a specialization is a group of courses. So if you want to learn about information visualization, that's basically a sort of evolved version, online version of the course that I've been teaching here at NYU for a number of years, and plus additional things that I normally don't do in class. So it's all brand new. Wow. And yeah, we are really excited about it. So if you are curious, we're going to put a link in the show notes and go there. It's free if you want. Right?",
+      "id": "ep_127_ut_5"
+    },
+    {
+      "end": 169502,
+      "speaker": "Cole Nussbaumer Knaflic",
+      "start": 169190,
+      "text": "Wow.",
+      "id": "ep_127_ut_6"
+    },
+    {
+      "end": 178410,
+      "speaker": "Enrico Bertini",
+      "start": 169566,
+      "text": "So the way Coursera works is that if you want to get a certificate, in the end, you have to pay some amount.",
+      "id": "ep_127_ut_7"
+    },
+    {
+      "end": 182478,
+      "speaker": "Moritz Stefaner",
+      "start": 180190,
+      "text": "But just consuming the course is fine.",
+      "id": "ep_127_ut_8"
+    },
+    {
+      "end": 187646,
+      "speaker": "Enrico Bertini",
+      "start": 182574,
+      "text": "Consuming the course is fine. So just go there and let me know if you like it or not.",
+      "id": "ep_127_ut_9"
+    },
+    {
+      "end": 200350,
+      "speaker": "Moritz Stefaner",
+      "start": 187838,
+      "text": "I think that's one of the really crazy developments of the Internet age. You can learn from anybody around the world. It's so cool. I learned linear algebra from an MIT professor and at the time that blew my mind.",
+      "id": "ep_127_ut_10"
+    },
+    {
+      "end": 201410,
+      "speaker": "Enrico Bertini",
+      "start": 200430,
+      "text": "It's like, wow.",
+      "id": "ep_127_ut_11"
+    },
+    {
+      "end": 210028,
+      "speaker": "Moritz Stefaner",
+      "start": 202230,
+      "text": "And now you can learn database from Enrico. So look at that. That's perfect. That's awesome. I'll take a look at the course for sure.",
+      "id": "ep_127_ut_12"
+    },
+    {
+      "end": 214020,
+      "speaker": "Enrico Bertini",
+      "start": 210134,
+      "text": "Yeah, please do. Yeah.",
+      "id": "ep_127_ut_13"
+    },
+    {
+      "end": 215536,
+      "speaker": "Moritz Stefaner",
+      "start": 214440,
+      "text": "Anything else?",
+      "id": "ep_127_ut_14"
+    },
+    {
+      "end": 234168,
+      "speaker": "Enrico Bertini",
+      "start": 215688,
+      "text": "No, I think we just briefly want to reiterate that we will be in Berlin for Infoplus and Itripoli vez, and we are trying to set up a meetup. So if you happen to be in the region, come visit us. Right?",
+      "id": "ep_127_ut_15"
+    },
+    {
+      "end": 240250,
+      "speaker": "Moritz Stefaner",
+      "start": 234304,
+      "text": "October 22, evening, Berlin, 2018. I should mention.",
+      "id": "ep_127_ut_16"
+    },
+    {
+      "end": 255286,
+      "speaker": "Enrico Bertini",
+      "start": 242310,
+      "text": "Yes. And look, even if you are not participating to any of these conferences, you can still come to the meetup. So let us know because we want to see as many people as possible. Right?",
+      "id": "ep_127_ut_17"
+    },
+    {
+      "end": 256262,
+      "speaker": "Moritz Stefaner",
+      "start": 255398,
+      "text": "Totally.",
+      "id": "ep_127_ut_18"
+    },
+    {
+      "end": 267630,
+      "speaker": "Enrico Bertini",
+      "start": 256446,
+      "text": "Okay. So without further ado, we can introduce our guest for today. I'm really, really happy to have Cole Nussbaumer Naflik on the show. Hey, Cole, how are you?",
+      "id": "ep_127_ut_19"
+    },
+    {
+      "end": 268334,
+      "speaker": "Moritz Stefaner",
+      "start": 267670,
+      "text": "Hey, Cole.",
+      "id": "ep_127_ut_20"
+    },
+    {
+      "end": 270026,
+      "speaker": "Cole Nussbaumer Knaflic",
+      "start": 268422,
+      "text": "Hi there. I'm great, thanks.",
+      "id": "ep_127_ut_21"
+    },
+    {
+      "end": 283962,
+      "speaker": "Enrico Bertini",
+      "start": 270138,
+      "text": "So we've been meeting each other a few times in the US or even around the world. I can't remember several times we said you should come over and. Yeah, I'm so happy that you are on the show, finally.",
+      "id": "ep_127_ut_22"
+    },
+    {
+      "end": 285954,
+      "speaker": "Cole Nussbaumer Knaflic",
+      "start": 284026,
+      "text": "Yeah, I'm excited to be talking with you both.",
+      "id": "ep_127_ut_23"
+    },
+    {
+      "end": 294950,
+      "speaker": "Moritz Stefaner",
+      "start": 286122,
+      "text": "Yes, finally we have storytelling with data on data. Stories needed to happen at some point, right? Needed to end the big crossover.",
+      "id": "ep_127_ut_24"
+    },
+    {
+      "end": 312238,
+      "speaker": "Enrico Bertini",
+      "start": 296450,
+      "text": "So Cole is an instructor, an author, a podcaster, and probably much more than that. So can you briefly introduce yourself and let our listeners know a little bit about you and what you do in visualization?",
+      "id": "ep_127_ut_25"
+    },
+    {
+      "end": 382850,
+      "speaker": "Cole Nussbaumer Knaflic",
+      "start": 312414,
+      "text": "Sure. So I help people and organizations make graphs that make sense. I wrote a book called storytelling with data, a data visualization guide for business professionals that was published just about three years ago now. And I spend most of my time, or I should say we spend most of our time. Historically, it's been just me, but have been growing a small team over the past year. We spend most of our time teaching workshops where we'll go into an organization and spend half a day or a day with a group talking about how do you make a graph that makes sense? Right? So it's data visualization best practices, but then going beyond just the dataviz and thinking really about our audience and our message and how do we not just show data, but weave data into a story? So most of this is private workshops, but then we also do public workshops. We have some in the US coming up in San Francisco, Milwaukee, New York, London in the fall, and then we'll be also hitting Australia, New Zealand in 2019.",
+      "id": "ep_127_ut_26"
+    },
+    {
+      "end": 385926,
+      "speaker": "Moritz Stefaner",
+      "start": 383310,
+      "text": "Wow. Real world tour. Really?",
+      "id": "ep_127_ut_27"
+    },
+    {
+      "end": 386806,
+      "speaker": "Cole Nussbaumer Knaflic",
+      "start": 385998,
+      "text": "Yeah. That's cool.",
+      "id": "ep_127_ut_28"
+    },
+    {
+      "end": 394126,
+      "speaker": "Moritz Stefaner",
+      "start": 386878,
+      "text": "Yeah. So maybe a bit about your background. So how did you actually get started with Wiz and how did you catch.",
+      "id": "ep_127_ut_29"
+    },
+    {
+      "end": 575980,
+      "speaker": "Cole Nussbaumer Knaflic",
+      "start": 394158,
+      "text": "A. Yeah, so my background educationally is in mathematics. Out of undergrad, I started working in the exciting world of banking. It was credit risk management, and so was doing technical stuff of building statistical models to forecast. When is somebody not going to pay us? How much are they not going to pay? Doing scenario testing to try to understand whether our reserve levels were adequate and what sort of scenarios we'd need to adjust. And so, for me, the visualization piece really started off as a way to bring some creativity into an environment that otherwise didn't seem so creative to me. And then I started to see that when I took data and made it something people could see, it just, it hit home in different ways. And I also found that when I spent more time playing around with how I showed the data, people tended to spend more time looking at the data. So it was this self reinforcing cycle of some creativity and mixing that with the data piece. Then the subprime crisis happened, and banking was not such an awesome place to be. So I stepped back. This was 2007. Stepped back and thought, okay, what are the skills I have? Where else might I apply those? And started just applying to jobs. And I came across this one description for people analyst. That was super, because I'd never really thought of the idea of applying data to people, right, to employees, and ended up getting this job at Google. When the people analytics team there, which is an analytics team in HR, it was just forming. So it was tiny, and it was really interesting to see all the parallels between what I'd been doing in the banking world and what we could do with people data. So you figure somebody defaulting on a loan, deciding not to pay you, it's actually quite similar to somebody deciding they're going to leave the organization and not work there anymore. And so started applying some of these same sort of statistics to people data. And then the visualization piece stuck with me through that in terms of just continuing to play around at first and sort of became our team's go to person for brainstorming or sketching out different ideas. And then at one point, we were building an internal training program at Google, and I got asked, would you like to build a course on data visualization, which was really fun because it meant I could pause and start to do some research and understand why do some of the things, why do some of the things I've landed on through trial and error over time? Why do some work and some don't? And what's some of the theory behind how people see? And that's really where sort of everything started.",
+      "id": "ep_127_ut_30"
+    },
+    {
+      "end": 609210,
+      "speaker": "Enrico Bertini",
+      "start": 576320,
+      "text": "Yeah, very nice. And I'm just curious to, to know a little bit more about, I think when I look at the type of work that you do, you seem to be one of those lucky people who managed to set up and own a business in visualization. Right. And that's great. So how did this work? How did you think about initially, about setting up a business on your own and make it successful?",
+      "id": "ep_127_ut_31"
+    },
+    {
+      "end": 761954,
+      "speaker": "Cole Nussbaumer Knaflic",
+      "start": 609350,
+      "text": "Yeah, I've been very fortunate because there was never a point where I thought, you know what? Hey, I'm going to just go on my own and do this. It sort of just came about out of the work that I was doing at Google. So developed a course at Google. It was a short course focused on how do you make a good graph. Basically traveled to our offices around the world teaching this, and then started recognizing, I guess first off, a couple people reached out outside of Google to say, hey, can you come to talk to our organization or can you come speak at this conference? So I started speaking on these topics outside of Google. This would have been back like 2000, 920 ten, and started recognizing, hey, this isn't a need. That's just at Google. And even at Google, one of the things I was interested in seeing was the participants at the trainings. We'd have engineers and salespeople, people, people with totally different backgrounds and skill sets and desire reasons for wanting to be communicating with data, and came to recognize that the core lessons are the core lessons. They're not specific to a given role or a given industry. And really these are things that anyone could be doing to have greater impact when they are communicating with data. And so had the opportunity to do a couple conference sessions outside of Google, and was lucky that word just sort of spread from there. I'd started a blog around the same time, so I had people, something to refer people to. And then I was very lucky in that I had a super supportive management chain at Google. They said, you know what? We totally support this. Do this in your off time, use your own equipment, create your own materials, and see where it takes you. And so for the first year, plus, I was using every vacation minute I had to go and talk to anybody who wanted to listen to me because I still, at that point, couldn't believe people wanted to hear what I had to say about how to do this. And so, yeah, it was all over the place at the beginning. And then I made the decision to leave Google in 2012 because at that point, I'd seen the ramp up, I'd seen that there's demand there, I'd seen that I could connect with the demand and that there seemed to be a market here. So by the time I left Google, it was already sort of proven. So I didn't have to make that jump that most people have to make when it comes to going from corporate world and secure job to really risky starting it on your own, because I'd already been able to do a lot of that while I was at Google, which was really fortunate.",
+      "id": "ep_127_ut_32"
+    },
+    {
+      "end": 779998,
+      "speaker": "Moritz Stefaner",
+      "start": 762002,
+      "text": "Yeah, it sounds like a very organic, like, gradually building it up and building up momentum until you could make the leap. Yeah, yeah, that's cool. Yeah. And then you went into self employment and probably started to work on the book as well, probably because that must have taken a while.",
+      "id": "ep_127_ut_33"
+    },
+    {
+      "end": 819350,
+      "speaker": "Cole Nussbaumer Knaflic",
+      "start": 780134,
+      "text": "Yeah. The workshops came first. Right. And so it grew out of what started as a 90 minutes course at Google to half a day. And then before long, I found I had more than what I wanted to say then I could say in half a day, and then it was a day. And so over time, the lessons that I was teaching codified, and that's really what the book came out of, is taking the lessons that I cover in workshops and expanding on those and showing them through various examples across different industries and, yeah. Spending a lot of time writing and reworking and trying to make it something that makes sense to somebody else.",
+      "id": "ep_127_ut_34"
+    },
+    {
+      "end": 832374,
+      "speaker": "Moritz Stefaner",
+      "start": 820810,
+      "text": "Yeah. I think the bookmate was probably the biggest breakthrough, in a sense, that it suddenly made you popular to a much wider audience again, or at least on my radar. You appear with the book.",
+      "id": "ep_127_ut_35"
+    },
+    {
+      "end": 833222,
+      "speaker": "Cole Nussbaumer Knaflic",
+      "start": 832462,
+      "text": "Yeah.",
+      "id": "ep_127_ut_36"
+    },
+    {
+      "end": 839958,
+      "speaker": "Moritz Stefaner",
+      "start": 833406,
+      "text": "Is that sort of. Was that like another. Like, was it just another small step or was it really like this quantum leap?",
+      "id": "ep_127_ut_37"
+    },
+    {
+      "end": 863210,
+      "speaker": "Cole Nussbaumer Knaflic",
+      "start": 840014,
+      "text": "In a way, I think for me, it was part of the natural evolution. It didn't feel like a huge step at the time. I mean, it felt like a great accomplishment to get it out there, and it was a ton of work, and I've definitely been thrilled by the success, but for me, it was just continuing on this goal of wanting to share what I've learned and help more people be successful, and the book was a way to get that message out there more broadly.",
+      "id": "ep_127_ut_38"
+    },
+    {
+      "end": 911926,
+      "speaker": "Enrico Bertini",
+      "start": 863700,
+      "text": "Yeah, yeah. And your book has been really successful, and it's I don't know. When I personally think about, say, maybe sometimes I think I should write a this book. Terrified you should. I don't have much more to say. Right. There's so many books out there, and I don't. I don't want to repeat what others have done. Right. But. But your book seems to hit a really good nail, and I really like the way you structure it and the kind of information that you have there. So I was curious to hear from you what went through your mind when you had to design your own book. And maybe you can tell us a little bit about what you think is unique, what kind of information one can find there and can't find in other books.",
+      "id": "ep_127_ut_39"
+    },
+    {
+      "end": 966454,
+      "speaker": "Cole Nussbaumer Knaflic",
+      "start": 912038,
+      "text": "Yeah. And I appreciate that. So I think, for me, one of my big goals with the book is just making sure that it is accessible so anybody could pick it up and take something from it. Somebody who's been working with data for decades, there should be a tip or a trick or something to think about in a new way. Or if you're somebody who hasn't been working with data and it's becoming part of your role as data, is for many roles there, that there's not any sort of barrier to entry, and it's not intimidating. So I strongly believe that anyone can get good at communicating effectively with data. So I think accessibility is one thing for me that makes the book different from others that I've seen also just the practical application. These are things that you can apply to your next report or presentation immediately.",
+      "id": "ep_127_ut_40"
+    },
+    {
+      "end": 967254,
+      "speaker": "Enrico Bertini",
+      "start": 966502,
+      "text": "Useful, basically.",
+      "id": "ep_127_ut_41"
+    },
+    {
+      "end": 1040930,
+      "speaker": "Cole Nussbaumer Knaflic",
+      "start": 967302,
+      "text": "Yeah. Yeah. It's not pie in the sky theory. It's here's what you should think about when you use color and how you can direct attention or what might be distracting. And I think, for me, maybe the third component that differentiates storytelling with data is that storytelling piece. A lot of the data visualization books go much more in depth than I do, for sure, into visualizing data. But for me, there was a gap between. And then actually, on the other side, there are a lot of books that talk about presentations, right, of building presentations or giving presentations. But what I didn't see was anything that really connected the two of those in a way that really spoke to me. How do you not only visualize the data effectively, but then weave that into a story and bring in components of narrative and plot and tension? And so that, for me, is probably the biggest differentiating piece, though I will also say the book was written, published three years ago, written four years ago. And for me, the storytelling piece, the way I teach it now, and talk about it now I feel like is much more nuanced. I was still really trying to figure it out at that point.",
+      "id": "ep_127_ut_42"
+    },
+    {
+      "end": 1044050,
+      "speaker": "Moritz Stefaner",
+      "start": 1042070,
+      "text": "It's a moving target, for sure.",
+      "id": "ep_127_ut_43"
+    },
+    {
+      "end": 1064110,
+      "speaker": "Cole Nussbaumer Knaflic",
+      "start": 1045590,
+      "text": "So we're going on some projects now to try to address that because I think there's such power there. And I'm a strong believer that there is an incredible, incredible amount of value to be obtained by work that's already being done that just maybe isn't being communicated as effectively as it could. And that's really what I want to try to change.",
+      "id": "ep_127_ut_44"
+    },
+    {
+      "end": 1134254,
+      "speaker": "Moritz Stefaner",
+      "start": 1064850,
+      "text": "Yeah, that's also something I was thinking about because I guess everybody has their home turf. And for me, it's interesting to hear now you have this background in the corporate world and in banking, you know, and so that totally makes sense to me. And also love the examples you show on the side or also the redesign examples. These SWD challenge, like, loads of. We can talk about this one as well, but often, like, the go to format seems to be, it's a single chart and it has some annotations, like a cool title, maybe, and, you know, some. Some explanatory text. And I think it's. That's brilliant because it's like one of these. Yeah. Eternal, like, formats that totally work. Right. And probably also the first thing you want to understand how to do. Right, right. But then on the other hand, there's all these cool new media and animations and gifs and interactive features and scroll telling and so on. So how do you see the role of these different, more advanced formats in data driven storytelling? Is it like, not even necessary? Or is it like, yeah, what's your take on that?",
+      "id": "ep_127_ut_45"
+    },
+    {
+      "end": 1273510,
+      "speaker": "Cole Nussbaumer Knaflic",
+      "start": 1134342,
+      "text": "Yeah, no, it's a great question and I will say you see more static from me probably because of the way you're seeing it. Right. So when it's on the blog or in the book, it sort of has to be static for that. And the way that we're teaching, I definitely agree with the point that you have to get good there before you move on to some of these other sort of more nuanced ways of telling story. I definitely, though, see there being roles of animation and interactivity. So when we go through live, oftentimes we'll look at how do you build a graph if you have the benefit of being live in front of your audience, you know, you maybe start by showing just the axes so that you can talk your audience through what they're going to be looking at before you actually get to data and you can start layering on data in these ways. Where, you know, you talk about a bit of context, and you layer in the data that supports it or illustrates it and build up in a way where you can actually get to something that's really dense or complicated. But when you build it piece by piece and you're walking your audience through it, whether it's live or in a GIF or something of that sort, it no longer feels complicated because of these steps you've taken to make it accessible through the animation. Interactivity. I go back and forth on this because in a business setting, at least, I think too often we try to go for interactivity when it's not really what's needed. One of my anecdotes that I see, or observations, I guess, that I see again and again, are analysts in a business setting being too passive. Meaning put data out there and say, here, audience, you know better than me, or you know what you want to do with this. Do with it what you will. Which I think is dangerous for a number of reasons. One, I think if you're the one analyzing the data, you're actually in a unique position to be driving value based on that data and helping promote specific understanding or driving for specific actions or discussions to be had out of that. And I think interactivity, where I see that playing in, is sometimes we say, well, we're not sure what our audience wants. We're just gonna give them everything, give them the ability to sort of drill through it.",
+      "id": "ep_127_ut_46"
+    },
+    {
+      "end": 1275690,
+      "speaker": "Moritz Stefaner",
+      "start": 1273550,
+      "text": "Everybody gets their dropping kitchen sink.",
+      "id": "ep_127_ut_47"
+    },
+    {
+      "end": 1313666,
+      "speaker": "Cole Nussbaumer Knaflic",
+      "start": 1277910,
+      "text": "Maybe that works sometimes. But oftentimes, you'll have mixed audiences, where some people are gonna drill and they want that interactivity, and they'll go through it to their heart's content, which is great, but you'll turn off parts of your audience that maybe aren't as inclined to do that. And so one actual nice thing, when it comes to interactivity, there's lots of great examples, this in the media, but where you maybe have a headline and a couple of big takeaways, but then also allow for the interactivity. So the person who's inclined to dig can do so, but the person who isn't still gets that high level something interesting out of it. I don't know.",
+      "id": "ep_127_ut_48"
+    },
+    {
+      "end": 1325128,
+      "speaker": "Moritz Stefaner",
+      "start": 1313738,
+      "text": "Yeah, that's interesting. And, I mean, the other, obviously, the other go to forward in cover settings is, of course, the dashboard. That's obviously the catch all solution. Like how we have a dashboard for that.",
+      "id": "ep_127_ut_49"
+    },
+    {
+      "end": 1332760,
+      "speaker": "Enrico Bertini",
+      "start": 1325264,
+      "text": "Yeah, dashboards are a thing, right? I've been discovering that. Yeah. Right.",
+      "id": "ep_127_ut_50"
+    },
+    {
+      "end": 1333488,
+      "speaker": "Cole Nussbaumer Knaflic",
+      "start": 1332920,
+      "text": "Well, yeah.",
+      "id": "ep_127_ut_51"
+    },
+    {
+      "end": 1347280,
+      "speaker": "Moritz Stefaner",
+      "start": 1333504,
+      "text": "But quite often when people build a dashboard, like, in my experience, it's limited I don't have so much corporate experience, but when quite often myself. Oh, that could have been like a simple, like a couple of slides, like just summarizing the key facts.",
+      "id": "ep_127_ut_52"
+    },
+    {
+      "end": 1347664,
+      "speaker": "Enrico Bertini",
+      "start": 1347320,
+      "text": "Yeah.",
+      "id": "ep_127_ut_53"
+    },
+    {
+      "end": 1352944,
+      "speaker": "Moritz Stefaner",
+      "start": 1347752,
+      "text": "Or it could have been a super focused app that does one thing really well, things mediocre.",
+      "id": "ep_127_ut_54"
+    },
+    {
+      "end": 1392628,
+      "speaker": "Cole Nussbaumer Knaflic",
+      "start": 1353112,
+      "text": "Yeah. And I tend to draw a distinction between exploratory visualization for exploratory and visualization for explanatory. And for me, dashboards fit more on the exploratory side, where I can see tremendous value in. You know, you're monitoring something, so you need to see a bunch of data all together and be able to quickly look through and see where are things in line with our expectations? Where are they not in line with our expectations. But the challenge is people take that and then they try to communicate with it. And I think that's where dashboards break down, because that's not the role of the dashboard, the dashboards to monitor. But then once you find the interesting things, then you take them out of the dashboard and you apply the storytelling, the explanation, the rest of it to it to make it make sense, and.",
+      "id": "ep_127_ut_55"
+    },
+    {
+      "end": 1394604,
+      "speaker": "Moritz Stefaner",
+      "start": 1392644,
+      "text": "Then you come back into play. Right?",
+      "id": "ep_127_ut_56"
+    },
+    {
+      "end": 1395116,
+      "speaker": "Enrico Bertini",
+      "start": 1394772,
+      "text": "Yeah.",
+      "id": "ep_127_ut_57"
+    },
+    {
+      "end": 1399300,
+      "speaker": "Moritz Stefaner",
+      "start": 1395148,
+      "text": "Give tips how to make it more interesting and compelling and get it to the point.",
+      "id": "ep_127_ut_58"
+    },
+    {
+      "end": 1446432,
+      "speaker": "Enrico Bertini",
+      "start": 1399380,
+      "text": "Yeah, yeah, yeah. And, Cole, I think this is related to something I wanted to say earlier. One thing that I really like about your work, and I personally learned by looking at your work, is the idea that you, you never stop at just what is the right chart for this thing? You start from a chart, but then you start. So the way I picture this, in my mind, you are dialing, moving the dials of attention. How do I draw attention to the right thing? And this is so important, and very few people are talking about that. And it's crucial because you want to tune your graph in a way that you're directing attention to the right thing. I don't know if that's the way you see it, but that's the way I perceive it when I see your work.",
+      "id": "ep_127_ut_59"
+    },
+    {
+      "end": 1525566,
+      "speaker": "Cole Nussbaumer Knaflic",
+      "start": 1446536,
+      "text": "Yeah. Now, the tuning analogy is really nice for me. It's iterating, right? It's looking at the data one way, looking at it another way, giving yourself the flexibility and the time to do that, and really asking yourself for any given data that you're communicating. What is it that I want my audience to pay attention to? What do I want them to see? What do I want them to do with this? And then taking steps to ensure that that happens. Because I think too often we communicate for ourselves or for our project, or for our data. Data. When really, when it comes to explanatory communication, we should be communicating first and foremost for our audience. And so a lot of the examples I encounter, I don't know the context. Right. Companies will share examples with me prior to workshops, and then we go through and we don't know the context. We don't necessarily know where somebody's supposed to focus. And so we end up showing many different options of, well, what if we wanted to look here and we wanted you to see this? Well, here's a way that we might do that. Coming down to what sort of graph do we choose? How do we focus attention? What clutter do we get rid of? But there's not a single right view. There is never a single right view. Any data can be graphed countless different ways. And so it means being really clear when you're communicating with data on what you want your audience to see and then taking thoughtful steps in the way that you design the data to help facilitate that.",
+      "id": "ep_127_ut_60"
+    },
+    {
+      "end": 1534062,
+      "speaker": "Enrico Bertini",
+      "start": 1525678,
+      "text": "Yeah, yeah. And I guess that's part of what you try to do also in your challenge, right? Maybe you want to talk about it.",
+      "id": "ep_127_ut_61"
+    },
+    {
+      "end": 1747398,
+      "speaker": "Cole Nussbaumer Knaflic",
+      "start": 1534166,
+      "text": "The storytelling with data challenge. And I imagine we can link to the things that we mentioned in your show notes. There's actually one going right now. I'm not sure when this will air, but there's one running at the beginning of September through the 12th. But don't worry if we are past that once this goes live, because there will be another one next month. The challenge, it actually was initially born out of a very specific scenario, which was I was in New York City at the time. I was riding the subway and was scrolling through my feedly and I came across a graph from The Economist, and it was on hurricanes. And I was looking at it realizing, like, you know, hey, I would have done this one thing differently and I would have done something else differently, but didn't have time to put that out there or do anything with it. So I thought, you know what? I'm just going to put that out there and see and ask people, what would you do? How might you redesign? And so just put a post out saying, here's some data, critique it and redesign it, and had like 60 people respond back and redesign this particular graph from the Economist. And so I took all of those and I put them all into a single image and then reposted those back along with people's commentary and critique. And then I started thinking, well, wouldn't it be cool to do that with different graph types? So that was one thing because just the sort of archival inspiration sort of that could be built off of that, I thought could be a cool thing. And then probably the bigger impetus I would say for it, though, was this idea of allowing people a space to practice, right? So to get good at data visualization, like anything else, it's something you need to practice and work at and get feedback and iterate. And I find sometimes people are hesitant to do that in their day jobs because the stakes are sort of high, right? So to change something or do something differently can be maybe a little more scary or intimidating. So I thought, well, what if I just put out, you know, once a month we try out a different graph type or we do a makeover and it's a safe space, right? Nobody's going to say, hey, you did that wrong. But rather, it might offer constructive feedback. And so the challenge is just that. So it started at the beginning of the year, and the beginning of each month, we pick a graph type, or like I said, sometimes it's been a makeover. And so for January, an example, we said, go out, make a line graph. You know, if you need some data, here's 300 publicly available data sources. Go find something of interest. If you want to use something from work, that's great. Just make sure you're not sharing anything sensitive and make a line graph and share it back with us. And so over time, we've done various different visuals, line graphs, basic bars, square area graphs. Scatter plot is on my list to come soon. And so people share them, they email them to us. I also welcome people to post on social media using the hashtag swdchallenge. And then in the second half of each month, we collect all of these, we put them together, and we share them back. And so for me, the sort of output or the thing this drives is twofold. One is this safe space to practice in that I talked about. But then, secondly, just having a spot to be able to go through. So if somebody is looking for inspiration or ideas on how someone else has designed a bar chart before, they now have dozens of examples that they can scroll through to see what are they like, what might they emulate, what are maybe pitfalls that some people fell into that they can avoid? A. And so we have a page now on the site that's devoted to this, where you can go through and see the monthly archives and all of the different visuals created in response.",
+      "id": "ep_127_ut_62"
+    },
+    {
+      "end": 1762430,
+      "speaker": "Enrico Bertini",
+      "start": 1747494,
+      "text": "Very nice. So I think we can conclude this episode without talking about your podcast as well. I've been looking forward to talk about that I think you are the first podcaster we have on the show, I guess.",
+      "id": "ep_127_ut_63"
+    },
+    {
+      "end": 1763302,
+      "speaker": "Cole Nussbaumer Knaflic",
+      "start": 1762550,
+      "text": "Very cool.",
+      "id": "ep_127_ut_64"
+    },
+    {
+      "end": 1765022,
+      "speaker": "Enrico Bertini",
+      "start": 1763406,
+      "text": "Moritz, did we ever do.",
+      "id": "ep_127_ut_65"
+    },
+    {
+      "end": 1767350,
+      "speaker": "Moritz Stefaner",
+      "start": 1765126,
+      "text": "I couldn't think of of another one. So, yeah.",
+      "id": "ep_127_ut_66"
+    },
+    {
+      "end": 1772178,
+      "speaker": "Enrico Bertini",
+      "start": 1770210,
+      "text": "So how is your podcast going?",
+      "id": "ep_127_ut_67"
+    },
+    {
+      "end": 1872700,
+      "speaker": "Cole Nussbaumer Knaflic",
+      "start": 1772274,
+      "text": "Yeah, it's going great. It's going slow lately because I've been on a little bit of a pause. My family moved over the summer, so the podcast was one of the things got back shelved, but it will come back, and the podcast has been a ton of fun. It actually, it was my husband's idea. He is super into podcasts, and I. I try different things for being able to get stuff out there, and was recognizing that people like to learn in different ways. And so let's test some different ways of getting content out there. And the podcast is one avenue of that. Right? And so part of me was like, well, data visualization, that's a pretty visual thing. Is anyone gonna wanna listen to? But it turns out people do, which is fun. And so the podcast is really just an extension of the work and is inspired either from questions that come up or conversations that I'm having. So there are episodes on the beauty of constraints and how we often complain about constraints of we don't have enough time, or we don't have enough slides, or we don't have enough, whatever it is. And actually how that can be a beautiful thing in terms of the solutions that it helps us come up with, or the art of feedback. How do we give good feedback when it comes to critiquing data visualization? There's one on common myths that get propagated, and that one was good, or it depends has been, I think, probably the most popular one, which is interesting to me, because it doesn't really answer anything. Right. The answer to everything is it depends.",
+      "id": "ep_127_ut_68"
+    },
+    {
+      "end": 1886110,
+      "speaker": "Moritz Stefaner",
+      "start": 1874760,
+      "text": "No, but I like it, and it's just you. And it's a challenge, I mean, alone, to keep people like, engaged. But it works, I think you prepare it well and it's well produced. So kudos to your husband.",
+      "id": "ep_127_ut_69"
+    },
+    {
+      "end": 1889030,
+      "speaker": "Cole Nussbaumer Knaflic",
+      "start": 1887450,
+      "text": "I'll be happy to hear that.",
+      "id": "ep_127_ut_70"
+    },
+    {
+      "end": 1901970,
+      "speaker": "Moritz Stefaner",
+      "start": 1890370,
+      "text": "No, it's definitely a recommendation. Yeah, yeah, yeah. I think we should wrap up soon, but we cannot let you go without some advice for our listeners, so you need to share some of your secrets.",
+      "id": "ep_127_ut_71"
+    },
+    {
+      "end": 1988336,
+      "speaker": "Cole Nussbaumer Knaflic",
+      "start": 1902090,
+      "text": "Sure. Advice. Okay. So I'd say my first beat of advice would be practice when it comes to visualizing data. Don't be intimidated by good work that you see other people doing, because there's probably a whole lot of crappy work behind the scenes that you didn't see. And we don't often see that part. So I think people sometimes get intimidated. But I think my top advice would be get feedback and get feedback from somebody who is unfamiliar with what you're trying to communicate. And you can do that in a couple ways. Talk someone through your graph, right? Practice talking through it how you would explain it to someone else. It gets us both comfortable doing that in a way that makes sense. And then based on the questions that are posed, you can figure out, does that mean I need to adjust how I'm talking about it, or adjust how I'm showing the data? Or a second way is actually just create a graph or a slide and put it in front of somebody else and have them talk you through their thought process, where they pay attention, what conclusions they make can be really useful for figuring out whether the visual you're creating is serving its intention or if it isn't, give you pointers on where might you concentrate your iterations. And I think just recognizing that it takes iterating and looking at the data one way and looking at it another way to figure out a view that's going to help you create that aha moment in your audience that we all seek when we're visualizing and communicating with data.",
+      "id": "ep_127_ut_72"
+    },
+    {
+      "end": 2001158,
+      "speaker": "Moritz Stefaner",
+      "start": 1988448,
+      "text": "That's a great tip. So don't be shy. Don't make it perfect before you show it. Anybody else be in a dialogue early? I think that's a really great tip. Cool. Thanks so much, Cole.",
+      "id": "ep_127_ut_73"
+    },
+    {
+      "end": 2002054,
+      "speaker": "Cole Nussbaumer Knaflic",
+      "start": 2001254,
+      "text": "Thanks for having me.",
+      "id": "ep_127_ut_74"
+    },
+    {
+      "end": 2016222,
+      "speaker": "Moritz Stefaner",
+      "start": 2002062,
+      "text": "That was super nice and super interesting. We'll put a ton of links to all your stuff in the show, notes to all your prolific outputs. And yeah, thanks for sharing your insights and your journey with us.",
+      "id": "ep_127_ut_75"
+    },
+    {
+      "end": 2018770,
+      "speaker": "Cole Nussbaumer Knaflic",
+      "start": 2016286,
+      "text": "Yeah, thanks for having me. It's been fun chatting with you both.",
+      "id": "ep_127_ut_76"
+    },
+    {
+      "end": 2021126,
+      "speaker": "Enrico Bertini",
+      "start": 2019110,
+      "text": "Thank you, Cole. Bye bye.",
+      "id": "ep_127_ut_77"
+    },
+    {
+      "end": 2022010,
+      "speaker": "Moritz Stefaner",
+      "start": 2021198,
+      "text": "Bye bye.",
+      "id": "ep_127_ut_78"
+    },
+    {
+      "end": 2046650,
+      "speaker": "Enrico Bertini",
+      "start": 2026230,
+      "text": "Hey, folks, thanks for listening to data stories again. Before you leave, a few last notes, this show is now completely crowdfunded, so you can support us by going on Patreon. That's patreon.com Datastories. And if you can spend a couple of minutes reading us on iTunes, that would be extremely helpful for the show.",
+      "id": "ep_127_ut_79"
+    },
+    {
+      "end": 2071808,
+      "speaker": "Moritz Stefaner",
+      "start": 2046770,
+      "text": "And here's also some information on the many ways you can get news directly from us. We are, of course, on twitter@twitter.com. daily stories. We have a Facebook page@Facebook.com. data storiespodcast all in one word. And we also have a slack channel where you can chat with us directly. And to sign up, you can go to our homepage datastory eas and there is a button at the bottom of.",
+      "id": "ep_127_ut_80"
+    },
+    {
+      "end": 2088368,
+      "speaker": "Enrico Bertini",
+      "start": 2071824,
+      "text": "The page and we also have an email newsletter, so if you want to get news directly into your inbox and be notified whenever we publish an episode, you can go to our home page Datastories es and look for the link you find at the bottom in the footer.",
+      "id": "ep_127_ut_81"
+    },
+    {
+      "end": 2100544,
+      "speaker": "Moritz Stefaner",
+      "start": 2088464,
+      "text": "So one last thing we want to tell you is that we love to get in touch with our listeners, especially if you want to suggest a way to improve the show or amazing people you want us to invite or even projects you want us to talk about.",
+      "id": "ep_127_ut_82"
+    },
+    {
+      "end": 2109720,
+      "speaker": "Enrico Bertini",
+      "start": 2100632,
+      "text": "Yeah, absolutely. And don't hesitate to get in touch with us. It's always a great thing to hear from you, so see you next time, and thanks for listening to data stories.",
+      "id": "ep_127_ut_83"
+    }
+  ],
+  "confidence": 0.939371999999998,
+  "audio_duration": 2119,
+  "punctuate": true,
+  "format_text": true,
+  "dual_channel": false,
+  "webhook_url": null,
+  "webhook_status_code": null,
+  "webhook_auth": false,
+  "webhook_auth_header_name": null,
+  "speed_boost": false,
+  "auto_highlights_result": null,
+  "auto_highlights": false,
+  "audio_start_from": null,
+  "audio_end_at": null,
+  "word_boost": [],
+  "boost_param": null,
+  "filter_profanity": false,
+  "redact_pii": false,
+  "redact_pii_audio": false,
+  "redact_pii_audio_quality": null,
+  "redact_pii_policies": null,
+  "redact_pii_sub": null,
+  "speaker_labels": true,
+  "content_safety": false,
+  "iab_categories": true,
+  "content_safety_labels": {
+    "status": "unavailable",
+    "results": [],
+    "summary": {}
+  },
+  "language_detection": false,
+  "language_detection_threshold": null,
+  "language_confidence": null,
+  "custom_spelling": null,
+  "throttled": false,
+  "auto_chapters": true,
+  "summarization": false,
+  "summary_type": null,
+  "summary_model": null,
+  "custom_topics": false,
+  "topics": [],
+  "speech_threshold": null,
+  "speech_model": "best",
+  "chapters": [
+    {
+      "summary": "This week, we talk about data visualization, analysis, and the role that data plays in our lives. Our podcast, as you might know, is listener supported, so there are no ads. If you do enjoy the show, please consider supporting us.",
+      "gist": "Data Stories: When I Started Drawing With Data",
+      "headline": "Our podcast is listener supported, so if you enjoy the show, please consider supporting us",
+      "start": 240,
+      "end": 99976,
+      "id": "ep_127_ch_0"
+    },
+    {
+      "summary": "Enrico: I have been working for several months on a coursera course on information visualization, and this is now public. Even if you are not participating in any of these conferences, you can still come to the meetup. October 22, evening, Berlin, 2018.",
+      "gist": "Publication of my Coursera course on Information visualization",
+      "headline": "Enrico has been working on a Coursera course on information visualization",
+      "start": 100048,
+      "end": 256262,
+      "id": "ep_127_ch_1"
+    },
+    {
+      "summary": "Cole Nussbaumer Naflik is on the show today. I'm really, really happy to have him on. We've been meeting a few times in the US or around the world. Yeah, I'm excited to be talking with you both.",
+      "gist": "Ke$ha on the Radio",
+      "headline": "Okay. So without further ado, we can introduce our guest for today",
+      "start": 256446,
+      "end": 285954,
+      "id": "ep_127_ch_2"
+    },
+    {
+      "summary": "Cole: I help people and organizations make graphs that make sense. I wrote a book called storytelling with data, a data visualization guide for business professionals. We have some in the US coming up in San Francisco, Milwaukee, New York, London in the fall, and then we'll be also hitting Australia, New Zealand in 2019.",
+      "gist": "In the Elevator With Data Visualization's Lead",
+      "headline": "Cole is an instructor, an author, a podcaster",
+      "start": 286122,
+      "end": 387530,
+      "id": "ep_127_ch_3"
+    },
+    {
+      "summary": "A. Wiz: The visualization piece really started off as a way to bring some creativity into an environment that otherwise didn't seem so creative to me. At Google, we were building an internal training program on data visualization. That's really where sort of everything started.",
+      "gist": "Inventing the People Data Team",
+      "headline": "How did you get started with data visualization at Google",
+      "start": 388550,
+      "end": 578192,
+      "id": "ep_127_ch_4"
+    },
+    {
+      "summary": "The visualization expert left Google in 2012 to start a business on his own. His book takes the lessons he learned at Google and expands on them across different industries. He says the leap from corporate world to starting a business was organic.",
+      "gist": "How to Start a Business in Data visualization",
+      "headline": "You set up and own a business in visualization after leaving Google",
+      "start": 578256,
+      "end": 895694,
+      "id": "ep_127_ch_5"
+    },
+    {
+      "summary": "One of my big goals with the book is just making sure that it is accessible so anybody could pick it up and take something from it. These are things that you can apply to your next report or presentation immediately. I strongly believe that anyone can get good at communicating effectively with data.",
+      "gist": "Designing Your Own Data Book",
+      "headline": "One of your goals with this book is making sure it's accessible",
+      "start": 895822,
+      "end": 976410,
+      "id": "ep_127_ch_6"
+    },
+    {
+      "summary": "The third component that differentiates storytelling with data is that storytelling piece. How do you not only visualize the data effectively, but then weave that into a story? We're going on some projects now to try to address that.",
+      "gist": "Storytelling with Data",
+      "headline": "Third component that differentiates storytelling with data is that storytelling piece",
+      "start": 976750,
+      "end": 1064110,
+      "id": "ep_127_ch_7"
+    },
+    {
+      "summary": "For me, it's interesting to hear now you have this background in the corporate world and in banking, you know, and so that totally makes sense to me. And also love the examples you show on the side or also the redesign examples. Eternal, like, formats that totally work.",
+      "gist": "The Future of Data in a Web World",
+      "headline": "I love the examples you show on the side or also the redesign examples",
+      "start": 1064850,
+      "end": 1111726,
+      "id": "ep_127_ch_8"
+    },
+    {
+      "summary": "There's all these cool new media and animations and gifs and interactive features and scroll telling. How do you see the role of these different, more advanced formats in data driven storytelling?",
+      "gist": "The Role of Animation in Data-",
+      "headline": "How do you see the role of more advanced formats in data driven storytelling",
+      "start": 1111918,
+      "end": 1206130,
+      "id": "ep_127_ch_9"
+    },
+    {
+      "summary": "In a business setting, at least, I think too often we try to go for interactivity when it's not really what's needed. Sometimes we say, well, we're not sure what our audience wants. And so one actual nice thing, when it comes to interactivity, is allow for the interactivity.",
+      "gist": "Interactivity in the Business World",
+      "headline": "I think too often we try to go for interactivity when it's not needed",
+      "start": 1207190,
+      "end": 1314594,
+      "id": "ep_127_ch_10"
+    },
+    {
+      "summary": "The other go to forward in cover settings is, of course, the dashboard. I tend to draw a distinction between exploratory visualization for exploratory and visualization for explanatory. Give tips how to make it more interesting and compelling and get it to the point.",
+      "gist": "Exploring the Data With a Dashboard",
+      "headline": "The other go to forward in cover settings is, of course, the dashboard",
+      "start": 1314642,
+      "end": 1400644,
+      "id": "ep_127_ch_11"
+    },
+    {
+      "summary": "Cole: When it comes to explanatory communication, we should be communicating first and foremost for our audience. He says you want to tune your graph in a way that you're directing attention to the right thing. Cole: There is never a single right view. Any data can be graphed countless different ways.",
+      "gist": "The Right Chart for Your Data",
+      "headline": "Cole: Communication should be first and foremost for your audience",
+      "start": 1400692,
+      "end": 1531734,
+      "id": "ep_127_ch_12"
+    },
+    {
+      "summary": "There's a storytelling with data challenge going from September through the 12th. Once a month, people get to redesign a different graph type. The idea is to give people a safe space to practice and get feedback.",
+      "gist": "The Storytelling With Data Challenge",
+      "headline": "The storytelling with data challenge encourages people to improve their data visualization skills",
+      "start": 1531782,
+      "end": 1748410,
+      "id": "ep_127_ch_13"
+    },
+    {
+      "summary": "Moritz: How is your podcast going? It's going great. It was my husband's idea. How do we give good feedback when it comes to critiquing data visualization? We cannot let you go without some advice for our listeners.",
+      "gist": "Your Podcaster Secrets",
+      "headline": "We cannot conclude this episode without talking about your podcast",
+      "start": 1748790,
+      "end": 1903498,
+      "id": "ep_127_ch_14"
+    },
+    {
+      "summary": "Cole: My top advice would be practice when it comes to visualizing data. Don't make it perfect before you show it. This show is now completely crowdfunded, so you can support us by going on Patreon. com. We love to hear from listeners, so see you next time.",
+      "gist": "Data Stories: How to Visualize Data (podcast",
+      "headline": "Cole: Practice when it comes to visualizing data. Don't make it perfect before you show it",
+      "start": 1903554,
+      "end": 2109720,
+      "id": "ep_127_ch_15"
+    }
+  ],
+  "disfluencies": false,
+  "entity_detection": false,
+  "sentiment_analysis": false,
+  "sentiment_analysis_results": null,
+  "entities": null,
+  "speakers_expected": null,
+  "summary": null,
+  "custom_topics_results": null,
+  "episode_num": 127,
+  "episode_metadata": {
+    "speakers": [
+      "Cole Nussbaumer Knaflic",
+      "Enrico Bertini",
+      "Moritz Stefaner"
+    ],
+    "WPid": "1256",
+    "url": "https://datastori.es/podlove/file/5342/s/feed/c/mp3/127-storytelling-with-data-with-cole-nussbaumer-knaflic.mp3",
+    "episode_title": "Storytelling with Data with Cole Nussbaumer Knaflic"
+  }
+}

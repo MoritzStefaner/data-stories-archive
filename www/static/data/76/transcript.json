@@ -1,0 +1,1484 @@
+{
+  "id": "d7f4fd94-00ef-47e3-a110-e537f4e38d41",
+  "language_model": "assemblyai_default",
+  "acoustic_model": "assemblyai_default",
+  "language_code": "en_us",
+  "status": "completed",
+  "audio_url": "https://datastori.es/podlove/file/2505/s/feed/c/mp3/76-bocoup-and-openvis-conference.mp3",
+  "utterances": [
+    {
+      "end": 8554,
+      "speaker": "Yannick Assogba",
+      "start": 200,
+      "text": "Part of Openviz is the open source part, but also sort of opening up the community. And if you don't take risks, you sort of stay with the same community that we have.",
+      "id": "ep_76_ut_0"
+    },
+    {
+      "end": 32274,
+      "speaker": "Enrico Bertini",
+      "start": 11294,
+      "text": "This episode is sponsored by CartoDB. Car two DB is an open, powerful and intuitive platform for discovering and predicting the key facts underlying the massive location data in our world. With CartoDB you can design and analyze beautiful and insightful maps, check out incredible location intelligence projects and get started for free at CartoDB.",
+      "id": "ep_76_ut_1"
+    },
+    {
+      "end": 49380,
+      "speaker": "Moritz Stefaner",
+      "start": 45764,
+      "text": "Hi everyone. It's a new data stories. Hi Enrico. How are you doing today?",
+      "id": "ep_76_ut_2"
+    },
+    {
+      "end": 52076,
+      "speaker": "Enrico Bertini",
+      "start": 49452,
+      "text": "Hey, I'm doing great. Beautiful day today.",
+      "id": "ep_76_ut_3"
+    },
+    {
+      "end": 56864,
+      "speaker": "Moritz Stefaner",
+      "start": 52260,
+      "text": "Very nice. That's great to hear. So, anything new in New York town?",
+      "id": "ep_76_ut_4"
+    },
+    {
+      "end": 66070,
+      "speaker": "Enrico Bertini",
+      "start": 57564,
+      "text": "No, no, nothing special. Nothing new from. Yeah, since last episode. Yeah, moving on, moving on.",
+      "id": "ep_76_ut_5"
+    },
+    {
+      "end": 123696,
+      "speaker": "Moritz Stefaner",
+      "start": 66142,
+      "text": "Yeah. So two updates from our side we can talk about. We have a slack channel. So Slack is a chat application and you can register at the bottom of our website, datastory es. And yeah, you can chat with us and other guests. It's usually quite fun. We discuss the episodes, you can suggest guests, so feel free to join this chat. And second, on our website we now have a team page. It's not just Enrico and I doing the show, as you might think, but there's actually also Destry, who's our producer and helps us a lot with the organization and the contents for the episodes. And Florian, who does an amazing job at making something audible out of the often quite messed up audio files we produce. And yeah, we're very grateful for the help. Thanks Florian. Thanks Destry. And now we have a team page on the website and you can read a bit more about them and get in touch with them. So thanks so much.",
+      "id": "ep_76_ut_6"
+    },
+    {
+      "end": 138696,
+      "speaker": "Enrico Bertini",
+      "start": 123840,
+      "text": "Yeah, I think it's crazy. We never really even mentioned them on the show, so I think it was about time. So thanks Dastri and Florian. I mean, this show cannot happen without you, so that's very important.",
+      "id": "ep_76_ut_7"
+    },
+    {
+      "end": 142736,
+      "speaker": "Moritz Stefaner",
+      "start": 138840,
+      "text": "Yeah, that's true. So, yeah, shall we dive into the episode?",
+      "id": "ep_76_ut_8"
+    },
+    {
+      "end": 144296,
+      "speaker": "Enrico Bertini",
+      "start": 142840,
+      "text": "Absolutely, go on.",
+      "id": "ep_76_ut_9"
+    },
+    {
+      "end": 150934,
+      "speaker": "Moritz Stefaner",
+      "start": 144400,
+      "text": "So today we have not one, not two, we have three special guests and it's the whole team from Boku. Hi, everyone.",
+      "id": "ep_76_ut_10"
+    },
+    {
+      "end": 151518,
+      "speaker": "Irene Ros",
+      "start": 151054,
+      "text": "Hello.",
+      "id": "ep_76_ut_11"
+    },
+    {
+      "end": 152086,
+      "speaker": "Jim Vallandingham",
+      "start": 151606,
+      "text": "Hello.",
+      "id": "ep_76_ut_12"
+    },
+    {
+      "end": 156590,
+      "speaker": "Moritz Stefaner",
+      "start": 152190,
+      "text": "So that was homosynchronous. So that's a good sign for team spirit, I would say.",
+      "id": "ep_76_ut_13"
+    },
+    {
+      "end": 156950,
+      "speaker": "Enrico Bertini",
+      "start": 156662,
+      "text": "Yeah.",
+      "id": "ep_76_ut_14"
+    },
+    {
+      "end": 163678,
+      "speaker": "Moritz Stefaner",
+      "start": 156982,
+      "text": "So can you maybe introduce yourself individually, briefly, what you do, what you're working on, what your specialties are? Sure.",
+      "id": "ep_76_ut_15"
+    },
+    {
+      "end": 195324,
+      "speaker": "Irene Ros",
+      "start": 163726,
+      "text": "I can go first. I'm Irene Ross and I am the director of data Visa Beaucoup and I've been there for about five years and I'm a developer by trade. I like making engaging and informative visualization work, and I also help run Openvisconf, which hopefully you've either seen the videos for or have been to. We just ran one a few weeks ago, and when I don't do data visualization, I like to think about food, which is delicious.",
+      "id": "ep_76_ut_16"
+    },
+    {
+      "end": 199360,
+      "speaker": "Enrico Bertini",
+      "start": 198424,
+      "text": "Who goes next?",
+      "id": "ep_76_ut_17"
+    },
+    {
+      "end": 200704,
+      "speaker": "Moritz Stefaner",
+      "start": 199432,
+      "text": "Jim, maybe you are next.",
+      "id": "ep_76_ut_18"
+    },
+    {
+      "end": 226260,
+      "speaker": "Jim Vallandingham",
+      "start": 200824,
+      "text": "All right, I'll go. My name is Jim Vallandigham. I'm part of the Boku Datavis team, and I'm also a developer by trade and moved into Dataviz as part of a way to increase the potency, the power of the applications we were building. And I've been with the team for about a year and we've been involved in a lot of different projects and it's been a lot of fun.",
+      "id": "ep_76_ut_19"
+    },
+    {
+      "end": 236084,
+      "speaker": "Yannick Assogba",
+      "start": 226452,
+      "text": "And I'm Yannick Sagva, also on the Dataviz team at Boku. And yeah, I design and develop data visualizations and have fun doing it with these other fine folklore.",
+      "id": "ep_76_ut_20"
+    },
+    {
+      "end": 249158,
+      "speaker": "Irene Ros",
+      "start": 237694,
+      "text": "I have to give a shout out to our fourth teammate who isn't here, Peter, who joined us recently, Peter Vishai, and he built some pretty cool stuff for Openviz, which maybe we'll talk about later, but he's here in spirit.",
+      "id": "ep_76_ut_21"
+    },
+    {
+      "end": 249550,
+      "speaker": "Jim Vallandingham",
+      "start": 249286,
+      "text": "Cool.",
+      "id": "ep_76_ut_22"
+    },
+    {
+      "end": 253462,
+      "speaker": "Moritz Stefaner",
+      "start": 249582,
+      "text": "But overall it's four people, plus probably a few freelancers, plus minus.",
+      "id": "ep_76_ut_23"
+    },
+    {
+      "end": 265143,
+      "speaker": "Irene Ros",
+      "start": 253558,
+      "text": "Yep. A lot of other folks on the Boku team actually jump in and help us on projects whenever we have something fun that needs doing or when we have too many fun things to do.",
+      "id": "ep_76_ut_24"
+    },
+    {
+      "end": 274743,
+      "speaker": "Moritz Stefaner",
+      "start": 266523,
+      "text": "So can you tell us a bit about what is Booku? How long does it exist? What do you do? What are your main fields of activity?",
+      "id": "ep_76_ut_25"
+    },
+    {
+      "end": 329874,
+      "speaker": "Irene Ros",
+      "start": 275083,
+      "text": "Sure. Booku has been around for a while, I want to say six or seven years. I've been there for about five. And we're basically an open web technology and design company, and we're primarily a consultancy, so people come to us from all kinds of industries and from academia as well, an awful lot actually, to help them build whatever they need, build with technology, anything from websites to robots. And generally we use open source technologies to do that. And then sometimes we actually end up producing new open source technologies, often actually as a result of that work, or we actually get directly hired to create open source technology. It's pretty core to our mission to basically help move the technology space into using open practices from engineering to the way we talk to each other. So far it's worked out pretty well.",
+      "id": "ep_76_ut_26"
+    },
+    {
+      "end": 349312,
+      "speaker": "Moritz Stefaner",
+      "start": 330174,
+      "text": "So can you give us a few examples just to understand a bit concretely, when you say frameworks, what types of things. Have you been working on or commissioned projects? I know you also do a lot of self commissioned work. Can you give us a brief overview of the. Yeah, a little project gallery and maybe we can dive into a few in detail.",
+      "id": "ep_76_ut_27"
+    },
+    {
+      "end": 409120,
+      "speaker": "Irene Ros",
+      "start": 349488,
+      "text": "Yeah, sure, we'd be happy to. So we have quite a few projects on our Dataviz page and we thought of a couple that might be interesting to touch on. And obviously Boku has work in other types of services, so from web application development to training, things like that. But we've done some really interesting projects anywhere from just open source tools like working with Jeff Heer's team on Voyager and Lyra, to a little bit in journalism, things like Global Post or the Guardian several years ago. And we've been enjoying working with text. It's one of the kind of themes that we've realized was happening since we did stereotypes last year, and we've also been doing a bunch of teaching. Jim and Janik just did a really great text analysis and visualization workshop for Openvizconf. So just a few dimension.",
+      "id": "ep_76_ut_28"
+    },
+    {
+      "end": 418124,
+      "speaker": "Enrico Bertini",
+      "start": 409272,
+      "text": "So why don't we dive into some of these projects? That would be nice. Maybe we can start with Voyager and Lyra.",
+      "id": "ep_76_ut_29"
+    },
+    {
+      "end": 448928,
+      "speaker": "Jim Vallandingham",
+      "start": 418424,
+      "text": "Yeah, Voyager and Lyra are both interesting projects that we've been able to work with Jeff here and his team, and it's been really exciting to be part of this, this growing ecosystem of tools around helping to automate the communication of data through data visualizations. So I think you guys have already heard about Voyager a little bit, right?",
+      "id": "ep_76_ut_30"
+    },
+    {
+      "end": 452904,
+      "speaker": "Enrico Bertini",
+      "start": 449056,
+      "text": "Yeah. Maybe you can briefly describe what Voyager and Lyra are.",
+      "id": "ep_76_ut_31"
+    },
+    {
+      "end": 516773,
+      "speaker": "Jim Vallandingham",
+      "start": 452984,
+      "text": "Sure. Yeah. Voyager is a tool that you give it a, a data file and it starts automatically generating visualizations of the different facets of the data, ones that are produced through a recommendation system. So it can take into account some of the actions that the user takes. So you select a particular variable that you're interested in and more visualizations pop up showing you different dimensions rotated around that dimension. And Lyra is kind of an advanced tool for developing quite beautiful and powerful visualizations without coding specifically. And they've recently introduced the ability to harness interactions in the underlying spec Vega. So that interactive capabilities will be part of these tools and part of the, the way you work with them in the very short future, which is really pretty exciting stuff.",
+      "id": "ep_76_ut_32"
+    },
+    {
+      "end": 525553,
+      "speaker": "Moritz Stefaner",
+      "start": 517673,
+      "text": "And what is your role? So I know these projects that come out of a research lab from Jeff Heer, which we had on the show.",
+      "id": "ep_76_ut_33"
+    },
+    {
+      "end": 608966,
+      "speaker": "Jim Vallandingham",
+      "start": 525713,
+      "text": "Yeah. To be clear, all credit goes to them. We were fortunate to get a Mozilla night grant for Voyager and use that opportunity to work with them and bring up some of the capabilities in terms of performance and some of the capabilities in terms of UX and UI design. We have a very talented designer, Jess, that helped with prototyping some new looks and centering the flow of the tool and that we were able to implement. And then with another coworker, Katham White, we were able to really speed up the UI and the data processing part. So trying to make it come out of a little bit more robust, a little bit more user friendly, and a little more applicable to the general public. A ways ago, I don't know if you've seen recently a post from Lisa, is that right? She tried out twelve different tools, including Voyager and Lyra, and making the same graph over and over again. Really interesting thing, but highlights some of the capabilities that these tools have, which is kind of fun.",
+      "id": "ep_76_ut_34"
+    },
+    {
+      "end": 640020,
+      "speaker": "Enrico Bertini",
+      "start": 609110,
+      "text": "Yeah, I think that's a very interesting model. And as you can imagine, being a professor myself, I'm very much interested in knowing more how this happens, and I'm really glad to see that this is actually happening. That there are tools that are originally developed in the lab, mostly to be prototypes, and there are people like you that are basically helping researchers transition these tools to something that a much broader set of people can access and use. That's amazing.",
+      "id": "ep_76_ut_35"
+    },
+    {
+      "end": 654768,
+      "speaker": "Jim Vallandingham",
+      "start": 640172,
+      "text": "Yeah, it was a lot of fun and certainly something we want to do more of. Yeah, because you're right, there's tons of tools out there that could be useful to a larger community, and they just need a little love, a little care.",
+      "id": "ep_76_ut_36"
+    },
+    {
+      "end": 673524,
+      "speaker": "Enrico Bertini",
+      "start": 654896,
+      "text": "So, Jim, you've been mentioning the work that you've done on the tool itself. I'm wondering, do you also provide services in terms of making this tool available on the web and making sure that it's easy to, say, download, install, find documentation? Are you also taking care of this part?",
+      "id": "ep_76_ut_37"
+    },
+    {
+      "end": 767512,
+      "speaker": "Jim Vallandingham",
+      "start": 674024,
+      "text": "Yeah, in certain circumstances. I think Jeff here's team for this particular project has done a really good job in trying to organize documentation and stuff around Vega. They have their own tool, their own GitHub, repo and stuff like that. For another project with Santiago Ortiz, we were working on his Moebio framework, and a large portion of that was developing plans around how to form a community and how to engage and allow for other external collaborators to come in and improve the tool and work with the tool. So for that project, it's a code based framework that allows you to kind of take a data set, turn it into its basic forms, like a number list or a string list, and then use those forms to visualize it. And Janik and I worked a lot with the improving documentation, improving the stories around how it might be used and, you know, making like getting it set up prepared for open source usage. You know, picking a license is, you know, a subtle but very critical piece of the puzzle for open source tools. And so that turned out to be a rather lengthy communication, but very fruitful eventually.",
+      "id": "ep_76_ut_38"
+    },
+    {
+      "end": 785044,
+      "speaker": "Moritz Stefaner",
+      "start": 767608,
+      "text": "Yeah, yeah, I think that's a really fascinating topic. Like, having a good idea is one thing, or having something that works for one paper or to try something out is one thing, but actually having a product and building a community around something, building a sustainable thing is such a different.",
+      "id": "ep_76_ut_39"
+    },
+    {
+      "end": 788780,
+      "speaker": "Jim Vallandingham",
+      "start": 785524,
+      "text": "Yeah, it's a challenge for everybody involved.",
+      "id": "ep_76_ut_40"
+    },
+    {
+      "end": 799344,
+      "speaker": "Enrico Bertini",
+      "start": 788892,
+      "text": "Yeah, no, but so important. At the same time, I think you are covering a super important role and I would love to see more of that happening. Maybe we should talk more offline.",
+      "id": "ep_76_ut_41"
+    },
+    {
+      "end": 801356,
+      "speaker": "Jim Vallandingham",
+      "start": 799844,
+      "text": "Yeah, yeah, definitely.",
+      "id": "ep_76_ut_42"
+    },
+    {
+      "end": 802068,
+      "speaker": "Enrico Bertini",
+      "start": 801540,
+      "text": "Yeah.",
+      "id": "ep_76_ut_43"
+    },
+    {
+      "end": 822994,
+      "speaker": "Moritz Stefaner",
+      "start": 802156,
+      "text": "And what do you think? Like, what is the main value you can bring? Like with the, like, coming more from a general web development and communications and maybe open source background, what do you think? What are the main components that are missing in research? Prototypes, homemade DIY solutions that you can bring to the table? I think you mentioned a few, but.",
+      "id": "ep_76_ut_44"
+    },
+    {
+      "end": 867826,
+      "speaker": "Jim Vallandingham",
+      "start": 823114,
+      "text": "Yeah, I think I liked, I didn't get a chance to see, but I remember you had a workshop about everything but the visualization. Yes, I think more of that providing insight into what is needed is the first step. It's just a lot of people aren't ready to take on or realize what it means to open source a project. And the requirement in terms of time and commitment, in terms of documentation, and if you want it to be successful, and so revealing that demonstrating that in successful projects in the past and guiding that into the future. I don't know. Irene, if you had other comments.",
+      "id": "ep_76_ut_45"
+    },
+    {
+      "end": 938536,
+      "speaker": "Irene Ros",
+      "start": 867890,
+      "text": "Yeah, I can jump in. I think. Certainly one of the easiest misconceptions to make about open source is that you just open your code and then that's the end, the story. And that's actually just the beginning of the story because it takes so much more effort to actually get people interested and create enough materials for them to observe the way your project grows and evolves. I mean, if you think about D3, I'm always so amazed at how much work Mike Vostok does. He's there every day. You can always ask him a question. He's answered thousands of questions online. And that's a huge part of why D3, I think, is so popular. Um, even, you know, obviously it's an amazing tool, but it also has this continuing thread over time. And so part of our work, um, aside from both making the code a lot better. So everyone, um, is really good architect, and that's a big piece of it, just making maintainable code. And that's well documented and tested. Um, a big piece is also figuring out how to weave all of, all of those different parts together, how to bring a community, what kind of assets we should create to try and get people on board. It's a really big part of that.",
+      "id": "ep_76_ut_46"
+    },
+    {
+      "end": 984052,
+      "speaker": "Moritz Stefaner",
+      "start": 938600,
+      "text": "Yeah, it's true. And, I mean, of course, we feel the same with data stories, and we were just talking about it so great that we have some help now, because in the first few years, we were thinking like, yeah, we're just doing a podcast, and, you know, we just record something and put it online. But there's so much work around it in terms of communication and documentation, just being present and making it a thing, you know, that. Yeah, it can be more than what you would think of as the actual work, let's say. And the other thing is, I think often things, some things just get picked up and develop a dynamic and others don't. Or sometimes it takes years, and something comes out of the, you know, out of the woods, and you were like, it was there all the time. You could have used it all the time, but, you know, and these dynamics are also hard to grasp sometimes.",
+      "id": "ep_76_ut_47"
+    },
+    {
+      "end": 993724,
+      "speaker": "Irene Ros",
+      "start": 984108,
+      "text": "Yeah. I mean, even D3 before D3 was Protovis, before Protovis was flare. Right. There's a whole history to that project eventually evolving.",
+      "id": "ep_76_ut_48"
+    },
+    {
+      "end": 995180,
+      "speaker": "Moritz Stefaner",
+      "start": 993764,
+      "text": "It didn't fall from the tree either.",
+      "id": "ep_76_ut_49"
+    },
+    {
+      "end": 995904,
+      "speaker": "Irene Ros",
+      "start": 995252,
+      "text": "Yeah.",
+      "id": "ep_76_ut_50"
+    },
+    {
+      "end": 997140,
+      "speaker": "Jim Vallandingham",
+      "start": 996444,
+      "text": "Nothing.",
+      "id": "ep_76_ut_51"
+    },
+    {
+      "end": 997984,
+      "speaker": "Moritz Stefaner",
+      "start": 997252,
+      "text": "Yep.",
+      "id": "ep_76_ut_52"
+    },
+    {
+      "end": 999068,
+      "speaker": "Jim Vallandingham",
+      "start": 998324,
+      "text": "Yeah.",
+      "id": "ep_76_ut_53"
+    },
+    {
+      "end": 1026412,
+      "speaker": "Moritz Stefaner",
+      "start": 999196,
+      "text": "No, but it's great. And I think it's a great model to, as an agency, to take these things and say you work on the professionalization, let's say, of these research tools. The third big part is obviously also, you do a lot of self commissioned projects and experiments and, you know, try to push things yourself. I remember the Stereotropes project, which was a nice take on this direction. So maybe, Janik, maybe you can tell us a bit about this one.",
+      "id": "ep_76_ut_54"
+    },
+    {
+      "end": 1132000,
+      "speaker": "Yannick Assogba",
+      "start": 1026468,
+      "text": "Sure. I can maybe give a quick description of it first and then sort of tell you sort of how we ended up doing it. So Stereotropes is a web based project and visualization of tropes, or these descriptions of tropes from tvtropes.com. and those are really descriptions of characters and themes that appear in, in film and in media often and repeatedly, that we sort of recognize and sort of have these amusing names like Papa Wolf or Mama Bear or the damsel in distress or the scary black man or something like that. And these are things you see in lots of different media. And there's this really interesting community out on tvtobes.org, comma, that sort of documents and records and describes and sort of has this discussion around these things and captures them. So we became interested in sort of using visualization, and when we're doing sort of self commissioned work, we can sort of go to different places using visualizations to look at this aspect of culture and sort of examine it and put it under a bit of a light. So it basically provides an interface to sort of look through about 100 of the most used tropes in film and television and particularly through the lens of gender. What is it? What kinds of things are associated with female tropes and male tropes? So we actually start with these two lists that they have of always male tropes, always female character tropes, and wanted to examine that and see how are these characters described? What is it saying about the portrayal of men in media and of women in media? And how does that differ across different kinds of things?",
+      "id": "ep_76_ut_55"
+    },
+    {
+      "end": 1141592,
+      "speaker": "Moritz Stefaner",
+      "start": 1132152,
+      "text": "And did you develop and identify all these tropes yourself? Or are there already trope collections with an API that you can connect to, or how does this work?",
+      "id": "ep_76_ut_56"
+    },
+    {
+      "end": 1192564,
+      "speaker": "Yannick Assogba",
+      "start": 1141728,
+      "text": "So that's one nice part. These descriptions are developed by this community. So it is people looking at media, critiquing it in community and trying to figure out what these things are from an access point of view. The API is Irene scraping the data and cleaning it up. And actually there was some help from a project called DB tropes that we could shout out, but a mix of sort of pulling that together. It's actually a wiki. So on one hand, it's a very interesting, engaging community go to. You can spend hours on tvtropes.org and I have, and it's a wiki of people documenting these things across a lot of different media and where they appear and how they relate to each other. And some are very common. And you read these things and you're like, oh yeah, I've seen that in like ten movies or something, or the hot scientist or something.",
+      "id": "ep_76_ut_57"
+    },
+    {
+      "end": 1196316,
+      "speaker": "Enrico Bertini",
+      "start": 1192644,
+      "text": "Can you maybe give us some examples? Are there anything you.",
+      "id": "ep_76_ut_58"
+    },
+    {
+      "end": 1220664,
+      "speaker": "Yannick Assogba",
+      "start": 1196460,
+      "text": "Yeah, so I'm sure like ones that may be quite familiar. Are things like a femme fatale or a hot scientist, for example, or dumb muscle, a sort of strong but otherwise unintelligent, typically male character, or a screaming woman who just sort of appears and just screams and has no words or lines in a film.",
+      "id": "ep_76_ut_59"
+    },
+    {
+      "end": 1223036,
+      "speaker": "Moritz Stefaner",
+      "start": 1221764,
+      "text": "I have a whole movie in my.",
+      "id": "ep_76_ut_60"
+    },
+    {
+      "end": 1269464,
+      "speaker": "Yannick Assogba",
+      "start": 1223060,
+      "text": "Head already it's happening, but some are a bit more subtle. So, like, one that I like and find funny is the beard of evil. And just this common trope of, like, the more evil characters having beards and sort of, what does that say? So there's quite a few, and they're pretty funny. And what we did is take the descriptions of them and pull out adjectives. So using some NLP stuff, pull out some adjectives, and then see what kinds of adjectives are most associated with. A particular trope is one thing you can examine on the site and also with male tropes overall versus female tropes. So what kinds of things tend to be used to describe roles that women are often put into or men?",
+      "id": "ep_76_ut_61"
+    },
+    {
+      "end": 1311044,
+      "speaker": "Moritz Stefaner",
+      "start": 1270604,
+      "text": "It's interesting. It's almost like a digital humanities project in a sense, that it's a topic you would typically write an essay about, like, maybe five years ago and now, you know, 2014 or when you did it, you make a database, and suddenly you look at all these tropes as a whole and analyze which are the outliers, which are the typical ones. So I think that's a very timely approach here. And a good topic. Yeah, I'm actually working on a narrative pattern collection right now, so it's basically, it could be very similar. So some of the narration patterns, if you take them to the extreme, might become a trope. And then these two projects might need.",
+      "id": "ep_76_ut_62"
+    },
+    {
+      "end": 1330274,
+      "speaker": "Jim Vallandingham",
+      "start": 1314344,
+      "text": "I like just exploring. Like, beard of evil shows up in Disney movies. Lion King, scar, it has a little beard of evil, and Pocahontas, the bad guy in there, also beard of evil. Since I have a beard.",
+      "id": "ep_76_ut_63"
+    },
+    {
+      "end": 1336594,
+      "speaker": "Moritz Stefaner",
+      "start": 1333014,
+      "text": "You should sue all of them. All of this. Yeah.",
+      "id": "ep_76_ut_64"
+    },
+    {
+      "end": 1361290,
+      "speaker": "Jim Vallandingham",
+      "start": 1337414,
+      "text": "Inappropriate use of beard. But, yeah, it's fun to see the spots where they show up, and then you come back and you think about, that does make sense. That is a trope. That is something that I've seen over and over again. I didn't realize it's been ingrained into my conscious of how I should react to this character.",
+      "id": "ep_76_ut_65"
+    },
+    {
+      "end": 1408234,
+      "speaker": "Irene Ros",
+      "start": 1361402,
+      "text": "One of the best things that came out of stereotypes is that we actually had a lot of conversations with people who have nothing to do with technology. They were just really curious about the things we were finding in the data. And because it was a tool, they could go back and read things and look at the movies where things appeared and everything was so cross linked. We were certainly accused of making a rabbit hole, that it was really nice to just have conversations about culture and gender and media really separate. I almost feel like that was the greatest testament to stereotypes, being a good project, a lot of people didn't talk about it necessarily outside of our community. It just helps them dig in and think about these topics.",
+      "id": "ep_76_ut_66"
+    },
+    {
+      "end": 1420754,
+      "speaker": "Enrico Bertini",
+      "start": 1409854,
+      "text": "So how do projects like this one start, and how do you decide whether it's a good enough project to commit on it?",
+      "id": "ep_76_ut_67"
+    },
+    {
+      "end": 1463424,
+      "speaker": "Irene Ros",
+      "start": 1421494,
+      "text": "Well, so we generally come up with ideas for things like this ourselves, and we're actually starting to think about our next one, so we're pretty excited about that. And we have some brainstorm sessions. We all think about data that we want to explore a lot of the times. We'll do some data analysis in advance and just see is there anything interesting there. We also do a lot of prototyping, so that's a big part, actually, of the projects we work on, as we do a lot of prototyping around both the analysis and some of the information design. So we kind of narrow it down until we feel like we hit the right mark or we give up on that dataset and go to something else. It's pretty iterative.",
+      "id": "ep_76_ut_68"
+    },
+    {
+      "end": 1505880,
+      "speaker": "Moritz Stefaner",
+      "start": 1464084,
+      "text": "And how do you, I'm always interested practically, how do you balance all this? Okay, so you live in Boston and you have a studio there, so probably that costs a bit of money. And so how do you balance doing commercial commissions with the more long term? I guess a Knight foundation grant is probably a bit more long term, a bit more calculable. Then you organize a conference that we will talk about in a minute as well. And then the open source activities and the self commissioned stuff, like how do you, do you have like quotas, like, or do you say on Friday we just work on fun stuff, or do you sort of have different periods of activities? How do you organize this balance? I'm super curious about this.",
+      "id": "ep_76_ut_69"
+    },
+    {
+      "end": 1516564,
+      "speaker": "Irene Ros",
+      "start": 1505992,
+      "text": "Sure. Yeah. So we generally, when we work on commercial work, we only work on one project at a time at Boku. That's something that we do for the sanity of all of our staff.",
+      "id": "ep_76_ut_70"
+    },
+    {
+      "end": 1519284,
+      "speaker": "Moritz Stefaner",
+      "start": 1517624,
+      "text": "That's a very smart idea.",
+      "id": "ep_76_ut_71"
+    },
+    {
+      "end": 1573074,
+      "speaker": "Irene Ros",
+      "start": 1520184,
+      "text": "Yeah, it's really hard to switch context. And so, you know, we have commercial work that is the majority of our time, and we have a construct that we call perch time, which I know in some environments is called benchmark. We don't look at it that way. It's really our time for learning and our time for creating things that we're excited about exploring. And so we have an amazing financial director shout out to jasmine, who helps us keep track of all the numbers. And we've been really, really fortunate that we've had a ton of really exciting work that some of the open source work ends up being commercial work at the same time and things like that. So it's a balance, but we're really excited about our field, so we really want to make time for all kinds of projects. And it's really the blend, honestly, that makes it work really well.",
+      "id": "ep_76_ut_72"
+    },
+    {
+      "end": 1593384,
+      "speaker": "Moritz Stefaner",
+      "start": 1573614,
+      "text": "And if you have just one active project at a time, how do you deal with this huge padding at the beginning, at the end of projects where you're basically done, but there's still a couple of revisions or you can almost start. We just need the data, and then it doesn't come for weeks. Like, how do you deal with that? It might be a very specific question, but I want to improve my own practice.",
+      "id": "ep_76_ut_73"
+    },
+    {
+      "end": 1659046,
+      "speaker": "Irene Ros",
+      "start": 1593504,
+      "text": "It certainly happened. So we have a model called continued access that we actually just started where it's access to one of the folks on the team at a smaller amount of time and obviously a more favorable rate. And that's anywhere from assisting with engineering tasks and fixing bugs and things like that to actually just helping think through, you know, higher level problems or architecture, things like that. And so that's kind of one way that often projects will, you know, once they're done, we'll sort of transition to that mode. But then earlier on in the beginning of projects, we generally do kind of a research phase where, you know, we make sure we do a lot of conversations before we kick off to make sure everything that we need to get started is there. And we'll wait if it's not. And then once we do get going, we can generally hit the ground running. That's always what we strive for, but we'll spend a lot of time doing research and design and a lot of prototyping before we kind of jump into the full on development. In the end, it always saves us time. So that works out pretty well.",
+      "id": "ep_76_ut_74"
+    },
+    {
+      "end": 1672280,
+      "speaker": "Jim Vallandingham",
+      "start": 1659150,
+      "text": "Yeah, it's about communication. Communicating with a client, communicating back and forth, getting everybody on the same page is the hard part, I guess. And data access is, is obviously part of that.",
+      "id": "ep_76_ut_75"
+    },
+    {
+      "end": 1705234,
+      "speaker": "Yannick Assogba",
+      "start": 1672312,
+      "text": "I've often found that the start of projects, there's a bunch of getting to know the client and their context that you can do while waiting for data as you poke at them to be like, oh, yeah, send that thing that you said you had when we first started talking. But then there's getting to know more about their field. I think one thing that's interesting about technology in the computing space is getting to dive into different other fields a little bit. So reading up on that stuff on which we are not experts is also a fun use of some of that initial time.",
+      "id": "ep_76_ut_76"
+    },
+    {
+      "end": 1822614,
+      "speaker": "Enrico Bertini",
+      "start": 1705534,
+      "text": "This is the right time to take a little break and talk about our sponsor, CartoDB. CartoDb is a web based application that allows you to load location data displayed using a lot of different geographical mapping methods, and then discover new information and generate new insights by using many of the functionalities they provide. And today I want to talk about a specific one they have recently introduced. This is called the data observatory. What is the data observatory? Well, it's an additional layer that allows you to augment your data by providing additional measurements of populations, jobs, commerce, and many other interesting location based dimensions that you can find directly within CartoDB. And as you can imagine, this is very powerful because you're no longer restricted to the information that is already contained in your data, but you can expand it with many different measurements. So there is one example that I found really interesting that you can find in CartoDB's website that shows how this works exactly. You can, for instance, select one specific location on a map, and CartoodB would provide for you. How many people can reach this point from a walking distance? And for each block around this point, what is the per capita income, median age, and other measurements? So it's very, very powerful. If you want to see how this works and get more information about how the data observatory works, you can go to the link CartoDB.com data and find more information. And now back to the show. Product development is not the only thing that you do. So you also teach courses, right? And of course, you're also organizing Openviz that we want to talk about. So maybe can you tell us a little bit about your courses, what you teach and how, and maybe we can move on to open this?",
+      "id": "ep_76_ut_77"
+    },
+    {
+      "end": 1871974,
+      "speaker": "Irene Ros",
+      "start": 1823154,
+      "text": "Yeah, sure. So we have kind of a variety of different workshops at Boku that we teach. We've recently switched to a shorter format where they're actually kind of an afternoon, three hour workshop that is a part of a series. Sometimes it doesn't have to be, but we've taught some workshops around user centered design already that were really great. We actually partnered with a nonprofit in New York and did some design work for some of their projects while teaching design. And then our team, more specifically, has a lot of material around D3. So we've done anything from half day to kind of three, four day classes around D3. And then more recently for Openvizconf, Jim and Janik developed a workshop around text analysis and visualization, which was amazing. Maybe I'll let them talk about that.",
+      "id": "ep_76_ut_78"
+    },
+    {
+      "end": 1950236,
+      "speaker": "Jim Vallandingham",
+      "start": 1872384,
+      "text": "Yeah, it was a lot of fun. Yeah, I mean Yannick had had a lot of textviz and text analysis experience in the mini eyes projects and in stereotypes. And so we kind of wrapped that together in terms of starter course in learning how to do some analysis in NLTK, a python package, and then transitioned into kind of a fun couple hour explosion of data. Vis mostly a lot of the textviz stuff comes from the academic field. So it was a chance to introduce people from industry to some of that work. And we got people excited about implementing perhaps open source or open varieties of some of the tools that you see from the academic world again to try to bridge that gap a little bit better. But I think it turned out really well. It was a full day, was a lot of work, a lot of practice, a lot of cutting of content, as you probably can guess. But everybody had a good time. The hardest part is getting everybody on the Wi Fi and downloading data always ruins the workshop and the local web.",
+      "id": "ep_76_ut_79"
+    },
+    {
+      "end": 1952220,
+      "speaker": "Moritz Stefaner",
+      "start": 1950260,
+      "text": "Server took up the other half. Right?",
+      "id": "ep_76_ut_80"
+    },
+    {
+      "end": 1954264,
+      "speaker": "Jim Vallandingham",
+      "start": 1952412,
+      "text": "Yeah, exactly, exactly.",
+      "id": "ep_76_ut_81"
+    },
+    {
+      "end": 1988382,
+      "speaker": "Enrico Bertini",
+      "start": 1955444,
+      "text": "Yeah. No, but I have to say text based is such a fascinating area. And you're right, there has been quite a, quite a bit of research in this area for a few years. We had Chris Collins on the show a few months back and he does amazing, amazing type of research. Yeah, we love his work, but I would love to see more practical tools coming up and I think that's a very interesting space and yeah, I would love to see more.",
+      "id": "ep_76_ut_82"
+    },
+    {
+      "end": 2002054,
+      "speaker": "Yannick Assogba",
+      "start": 1988438,
+      "text": "I'll make another shout out for listeners. As you mentioned at the end, we basically, one of the exercises we gave was like hey, let's take some papers for some visualizations we know we like, and let's make open source, JavaScript, web enabled versions of this.",
+      "id": "ep_76_ut_83"
+    },
+    {
+      "end": 2003222,
+      "speaker": "Enrico Bertini",
+      "start": 2002174,
+      "text": "Oh yeah, that's a great idea.",
+      "id": "ep_76_ut_84"
+    },
+    {
+      "end": 2014962,
+      "speaker": "Yannick Assogba",
+      "start": 2003238,
+      "text": "If you're looking for a project to do, find a paper or ping us if you want to make my favorite text visualizations from researchers and just make one and that could be cool.",
+      "id": "ep_76_ut_85"
+    },
+    {
+      "end": 2048384,
+      "speaker": "Jim Vallandingham",
+      "start": 2015018,
+      "text": "And we had small groups, we had 30 people in the workshop and everybody broke up into small groups and there were some attendee contributed concepts as well that were very successful. But I was very impressed at how much progress people made in the time that we allotted for that, that kind of hands on implementation. We had about 2 hours for that and it was a lot of fun. And so hopefully we can send some links of the projects that were kind of works in progress.",
+      "id": "ep_76_ut_86"
+    },
+    {
+      "end": 2062970,
+      "speaker": "Enrico Bertini",
+      "start": 2048464,
+      "text": "Oh yeah, that would be nice. I would love to see these projects. No, but again, I think Textviz is a very, very interesting area and I would love to see more happening on the product side of things. Absolutely.",
+      "id": "ep_76_ut_87"
+    },
+    {
+      "end": 2067754,
+      "speaker": "Moritz Stefaner",
+      "start": 2063082,
+      "text": "And now that we have transcripts for the podcast, I mean, you know, there's ample opportunity.",
+      "id": "ep_76_ut_88"
+    },
+    {
+      "end": 2071970,
+      "speaker": "Jim Vallandingham",
+      "start": 2067794,
+      "text": "There you go. Yeah, well, that's what. That's what we did at Openviz.",
+      "id": "ep_76_ut_89"
+    },
+    {
+      "end": 2087294,
+      "speaker": "Enrico Bertini",
+      "start": 2072122,
+      "text": "That's one of the reasons why we started collecting, creating transcripts. A few months or even years down the line, we're gonna have a very interesting repository, and hopefully people. Yeah, we'll just play with it.",
+      "id": "ep_76_ut_90"
+    },
+    {
+      "end": 2093423,
+      "speaker": "Moritz Stefaner",
+      "start": 2088503,
+      "text": "You did something amazing for the Openviscon video archives. I just saw that.",
+      "id": "ep_76_ut_91"
+    },
+    {
+      "end": 2094015,
+      "speaker": "Jim Vallandingham",
+      "start": 2093463,
+      "text": "Yes.",
+      "id": "ep_76_ut_92"
+    },
+    {
+      "end": 2102495,
+      "speaker": "Moritz Stefaner",
+      "start": 2094159,
+      "text": "And we should talk about the conference anyway, so maybe. But let's talk about that video archive, because I think it's such a smart idea. Can you. Who built that and how did you do it?",
+      "id": "ep_76_ut_93"
+    },
+    {
+      "end": 2138984,
+      "speaker": "Irene Ros",
+      "start": 2102639,
+      "text": "Yeah, so this was actually a build by Peter. It was his first boku project, and we had the transcripts from Openviz, which were really amazing. It was so great to have that resource. Last year, we tried to more automatically extract some of the text using a few tools we found, and it did not so great a job. Not surprisingly, things like WebGl are not easily detectable, and so there was a lot of manual correction to that version. And then in this situation, we were really, really fortunate that our transcriber, Amanda, did such a great job.",
+      "id": "ep_76_ut_94"
+    },
+    {
+      "end": 2144338,
+      "speaker": "Moritz Stefaner",
+      "start": 2140804,
+      "text": "So during the conference, she live transcribed as well, right?",
+      "id": "ep_76_ut_95"
+    },
+    {
+      "end": 2154662,
+      "speaker": "Jim Vallandingham",
+      "start": 2144476,
+      "text": "Yeah, it was mesmerizing, too. Everybody was, you know, it was great and bad. Everybody wanted to watch the transcripts float up on the screen. It was impressive stuff.",
+      "id": "ep_76_ut_96"
+    },
+    {
+      "end": 2246174,
+      "speaker": "Irene Ros",
+      "start": 2154718,
+      "text": "It was so popular. We really didn't expect that. We kind of wanted to make it accessible to people who couldn't be there. And because the transcripts were also being streamed live online, so that you could just go and watch them on the website. And some people did. It was really interesting. They kind of pieced together things from Twitter and from the transcripts, people were posting photos, so it was fun. But, yeah, Peter took the. The transcripts we had and using TF IDF scores for individual terms and bigrams, picked out some of the top n for all of the different talks. And then kind of, we all came up with this concept of this sort of film strip of thumbnails. There were, I think, 30 thumbnails being taken for each of the talks. And we actually used for inspiration one of the New York times pieces around fashion shows that sort of had this slidey accordion that we really liked. So it was a little bit inspired by that. And then some of Jannik's work on stereotypes around kind of the gender panel that kind of compared male and female individual adjectives, inspired a little bit of the term layout for the words, and then kind of the rest of the touches came together from Peter. So, yeah, it was really fun to build, and the terms were very, very telling of the talks. Having seen them, it was actually really exciting to see. Wow, these are so on point. So we felt like it would be a useful way to get into the talks.",
+      "id": "ep_76_ut_97"
+    },
+    {
+      "end": 2271684,
+      "speaker": "Moritz Stefaner",
+      "start": 2246554,
+      "text": "Yeah. And you quickly get a sense of what is the talk about, but also, does it have different chapters that are wildly different, or what's the narrative structure? And for the key concepts you might be interested in, you see where they appear in the talk, so you can just jump to that point where they talk about networks or something. And so I think it's an amazing use of data to make talk video more accessible. Great job.",
+      "id": "ep_76_ut_98"
+    },
+    {
+      "end": 2272316,
+      "speaker": "Irene Ros",
+      "start": 2271804,
+      "text": "Thanks.",
+      "id": "ep_76_ut_99"
+    },
+    {
+      "end": 2286116,
+      "speaker": "Moritz Stefaner",
+      "start": 2272420,
+      "text": "Open this conference in general. I mean, it's a big thing that could probably keep you busy full time already. So can you tell us a bit about the conference? It's been around for a few years. Three or four maybe.",
+      "id": "ep_76_ut_100"
+    },
+    {
+      "end": 2435788,
+      "speaker": "Irene Ros",
+      "start": 2286180,
+      "text": "Yeah, this was our fourth. Yeah, it's definitely our baby. We're very proud of it. We started it as a way to both bring together actual practitioners in the data visualization space to learn how to actually do the work. I think, especially at the time that I was new to data visualization a while back, it was hard to figure out, how do I do some of these things? And I shadowed people around and watched them. But we really wanted to make a place where that was kind of the norm and the culture and kind of shift our community towards being a more open, transparent community about how we do the work. We love talking about our process and the tools that we use, and we wanted more people to do that. And so we ran the first one at the Museum of Science in Boston, which was an amazing place, and it's really grown every year. We've managed to kind of increase the number of people that we can let in. This year sold out really quickly, which was amazing for us, but also we want to make sure everybody can come. So that's a great, great problem to have. And, you know, there's lots of work that goes in towards putting the program together. So we have a committee of seven people that the three of us are on, and then we also have non boku folks. So Lynn Cherny is my co chair. And then we have Gabriel Florent and Nicholas Diacon and Alex Growl, who have helped us tremendously over the years. And we spend a lot of time months, definitely putting the program together. So we have an open call that goes out and we try to think of kind of topics that we think might be interesting and list those. And then we do. We reach out to a lot of people and try to talk to them about their work and see if they're interested in submitting. And then everything goes into our big submission queue. We had about a little over 200 talk submissions this year, which was pretty incredible. Yeah, we never budget enough time because everyone waits for the last minute to submit their talks. Please don't do that. I'm just kidding. And so we spend weeks really reviewing things, and we'll often actually build tools around our reviewing process because every year we evolve it a little bit. And there's really not great off the shelf tools for doing some of the kind of reviewing that we do.",
+      "id": "ep_76_ut_101"
+    },
+    {
+      "end": 2438424,
+      "speaker": "Moritz Stefaner",
+      "start": 2435876,
+      "text": "It's a great chance for data visualization, obviously.",
+      "id": "ep_76_ut_102"
+    },
+    {
+      "end": 2442784,
+      "speaker": "Irene Ros",
+      "start": 2438844,
+      "text": "It's so tempting. It's really tempting.",
+      "id": "ep_76_ut_103"
+    },
+    {
+      "end": 2447820,
+      "speaker": "Moritz Stefaner",
+      "start": 2443724,
+      "text": "Multi dimensional, like, you know, trade offs being balanced in real time.",
+      "id": "ep_76_ut_104"
+    },
+    {
+      "end": 2473004,
+      "speaker": "Jim Vallandingham",
+      "start": 2447892,
+      "text": "Exactly, exactly. Well, that's. The conference itself is kind of the nexus point of so many disciplines. Databases is the overlap of so many disciplines. So highlighting each of those areas in a conference organization is difficult and something that I think Irene and Lynn do a great job every year at achieving.",
+      "id": "ep_76_ut_105"
+    },
+    {
+      "end": 2516654,
+      "speaker": "Moritz Stefaner",
+      "start": 2473084,
+      "text": "This selection process is very unique because usually there's two competing models. Let's say the one is, let's say the design or business conference model, where some committee reaches out to people and invites them, and then they talk about whatever they want, or they have a rough briefing, but in principle, yeah, they're just invited as people. Or in academia, you would submit a paper and then the paper gets accepted or not, or maybe sometimes an abstract. And so yours seems to be sort of halfway in between, in the sense that people need to apply with a topic and like an idea of a talk, but then it's just this idea. And then if you get accepted, you do the full talk. Right? Is that on purpose or how did you come up with that model?",
+      "id": "ep_76_ut_106"
+    },
+    {
+      "end": 2584234,
+      "speaker": "Irene Ros",
+      "start": 2517114,
+      "text": "Yeah, I mean, it is a, we wanted to make the barrier to applying as low as possible. A paper is certainly a pretty high barrier to get in. And we also did not want to just do an invitation only conference because we're aware of our own biases and our own networks. In a sense, if we only invited people for four years, we would run out of people to invite. And it's still really hard because we bring so many multidisciplinary people to speak from completely different fields. It's still really hard to find them. But we're always surprised to receive applications from people we've never heard of. And it's actually really important. We have lots of principles we try to uphold, and one of them is to bring in people who are new to the field or who are completely outside of our kind of direct community to share what they know. And so we always look for people who maybe none of us have ever heard of but are going to come there and just knock everybody's socks off. And that happens all the time. And it's so great when it does.",
+      "id": "ep_76_ut_107"
+    },
+    {
+      "end": 2586946,
+      "speaker": "Moritz Stefaner",
+      "start": 2584394,
+      "text": "Yeah, that's the best. Of course. Yeah.",
+      "id": "ep_76_ut_108"
+    },
+    {
+      "end": 2642224,
+      "speaker": "Enrico Bertini",
+      "start": 2587010,
+      "text": "That's such an important thing. And I've been organizing myself a few very small events, and it's always hard to come up with the right principles. And you're totally right. We all have our own biases, and we see them in data stories, by the way. Right. We are always, always discussing this thing. Right. Who should we invite next and how are we going too much into this direction or that direction? And. Yeah, and by the way, that's one reason why we like receiving suggestions from listeners who they want to see next. That's, that's very important. And so hard. It's so hard to find the right balance. Right. Because on the one hand, you do want to be kind of like the editor of something, right? I mean, you want to give a style to the event that you are, that you are organizing, but at the same time, you don't want the event to be closed or to fully reflect your own biases. Right.",
+      "id": "ep_76_ut_109"
+    },
+    {
+      "end": 2642872,
+      "speaker": "Irene Ros",
+      "start": 2642304,
+      "text": "Absolutely.",
+      "id": "ep_76_ut_110"
+    },
+    {
+      "end": 2643784,
+      "speaker": "Enrico Bertini",
+      "start": 2642928,
+      "text": "It's so hard.",
+      "id": "ep_76_ut_111"
+    },
+    {
+      "end": 2680928,
+      "speaker": "Moritz Stefaner",
+      "start": 2643864,
+      "text": "And of course, you run a higher risk if you, you know, you let somebody speak. Nobody has ever let let speak before. You know, it's like, yeah, you're putting yourself out there in a sense that, yeah, you're risking a bit, but I think then the beautiful thing is in summit pays off. So I think this year you had the most diverse program ever. Like, you know, it was just super mixed up and super colorful, like, overall, like, both from topics and people. And I also feel it was, content wise, maybe the best edition so far. Right? I mean, is that, I mean, it was my impression, at least. So it seems to pay off, right?",
+      "id": "ep_76_ut_112"
+    },
+    {
+      "end": 2770796,
+      "speaker": "Irene Ros",
+      "start": 2681096,
+      "text": "Yeah. There's a lot of work to. The editorializing part is really interesting because it is such attention and the way that the program comes together, we always have a top end of talks that are at least two to three times bigger than the actual space that we have. And then we actually kind of drop the, you know, obviously we remember who the people were but we go to a more conceptual planning level where we start thinking about, okay, this is a talk about systems. And then we're going to bring in design for, you know, real time craft, you know, spacecraft operation. And how do those things weave together. And the ordering matters a lot. So we do try to create kind of a two day flow through all these different topics. And sometimes certain talks won't make it because they don't fit as well into the flow and others will. And so that's a pretty big piece of it. And then as far as some newer folks and how to support them, we actually offer. We talk to our speakers a lot beforehand. Once they're accepted, they have complete access to me and everybody else at Boku and on the committee if they wanted to. We've done anything from like coaching sessions to run throughs to let's just brainstorm about your topic. Our speakers have been so engaged. It's really been amazing. And I'm like so grateful that every year they come and they're just right there with us the whole time. So I think that's a really big part of it. People appreciate being there and speaking to the audience.",
+      "id": "ep_76_ut_113"
+    },
+    {
+      "end": 2821870,
+      "speaker": "Enrico Bertini",
+      "start": 2770940,
+      "text": "Yeah, yeah. And I have to say another aspect that is very important for me is that you are mixing academics and practitioners. And I see this as one of the most interesting aspects or feature of Openviz. I have to confess I've been kind of jealous the last two editions because I really wanted to participate and I think I missed the deadline for last year for a few seconds or so. But. No, I mean, that's great. Thanks for organizing it and for organizing it it this way, because I think I'm a big, big proponent of mixing people from different backgrounds, as I said, especially from academia and practitioners, because there are not many opportunities to let these people talk to each other and it's so, so important.",
+      "id": "ep_76_ut_114"
+    },
+    {
+      "end": 2837904,
+      "speaker": "Irene Ros",
+      "start": 2822022,
+      "text": "Absolutely. I mean, we all have dipped our toes in academic publishing at one point or another, and so we're familiar with these communities. You know, I would love to go to infovis if I could find a way to afford it, but I just read the proceeds afterwards.",
+      "id": "ep_76_ut_115"
+    },
+    {
+      "end": 2848764,
+      "speaker": "Enrico Bertini",
+      "start": 2839324,
+      "text": "They should literally make it harder for academics and easier for practitioners, right? It's kind of like practitioner discount. They should do something like that.",
+      "id": "ep_76_ut_116"
+    },
+    {
+      "end": 2851036,
+      "speaker": "Jim Vallandingham",
+      "start": 2848804,
+      "text": "Get on the committee and get that figured out.",
+      "id": "ep_76_ut_117"
+    },
+    {
+      "end": 2872812,
+      "speaker": "Enrico Bertini",
+      "start": 2851100,
+      "text": "I mean, it's counterintuitive, right? You expect people depending on you from business to be wealthier than people from academia. But what happens in practice is that academics, professors like me, they already have budgeted money to go to these events. Right. But you don't. So that's. Yeah, that's a tricky issue.",
+      "id": "ep_76_ut_118"
+    },
+    {
+      "end": 2891574,
+      "speaker": "Jim Vallandingham",
+      "start": 2872948,
+      "text": "You mentioned we had Chris Collins and a few other academic people this time around. And so, yeah, having that bridge is at least a start in opening up these two still fairly isolated parts of the Datavis community.",
+      "id": "ep_76_ut_119"
+    },
+    {
+      "end": 2892650,
+      "speaker": "Enrico Bertini",
+      "start": 2891724,
+      "text": "It's getting better.",
+      "id": "ep_76_ut_120"
+    },
+    {
+      "end": 2921100,
+      "speaker": "Yannick Assogba",
+      "start": 2892722,
+      "text": "I wanted to make a quick comment about what Moritz said about risk. And I think sort of taking some risks is important in. I think part of Openviz is the open source part, but also sort of opening up the community. And if you don't take risks, you sort of stay with the same community that we have. And that's a part of what we'd like to see evolve as well. How can that be more diverse and more grown? And that means new people, which means you haven't heard them before. So sometimes we just have to. To take those chances and they pay off.",
+      "id": "ep_76_ut_121"
+    },
+    {
+      "end": 2928184,
+      "speaker": "Jim Vallandingham",
+      "start": 2921132,
+      "text": "They pay off like naughty stock. I hadn't heard naughty talk before, and she destroyed it.",
+      "id": "ep_76_ut_122"
+    },
+    {
+      "end": 2929700,
+      "speaker": "Irene Ros",
+      "start": 2928684,
+      "text": "Survey says.",
+      "id": "ep_76_ut_123"
+    },
+    {
+      "end": 2932584,
+      "speaker": "Jim Vallandingham",
+      "start": 2929852,
+      "text": "Same for lots of folks.",
+      "id": "ep_76_ut_124"
+    },
+    {
+      "end": 2952680,
+      "speaker": "Moritz Stefaner",
+      "start": 2933284,
+      "text": "I mean, the talks are all online already, so, dear listeners, you can check them out. You can just browse through that amazing text visualization tool and pick the topics you like and jump somewhere. I would assume all of them are pretty much great. Do you have any favorites, like, from this year? If you spontaneously one talk, you want to highlight, but it's difficult. I know.",
+      "id": "ep_76_ut_125"
+    },
+    {
+      "end": 2954528,
+      "speaker": "Irene Ros",
+      "start": 2952792,
+      "text": "We can't. We can't love them all.",
+      "id": "ep_76_ut_126"
+    },
+    {
+      "end": 2973244,
+      "speaker": "Jim Vallandingham",
+      "start": 2954576,
+      "text": "Love them all. They all provide different. Kyle McDonald blew everybody away with machine learning. Nadieh's. You can't miss her slides and you can't miss her talk. Marie goes. Story flow was amazing. Basically, everybody, you can't miss. Go watch them. All right now it's Friday.",
+      "id": "ep_76_ut_127"
+    },
+    {
+      "end": 2976548,
+      "speaker": "Enrico Bertini",
+      "start": 2974624,
+      "text": "Enough task for the weekend.",
+      "id": "ep_76_ut_128"
+    },
+    {
+      "end": 2980904,
+      "speaker": "Jim Vallandingham",
+      "start": 2976736,
+      "text": "Just. Yeah, turn off. Turn off slack. Turn off your phone. Watch the movies.",
+      "id": "ep_76_ut_129"
+    },
+    {
+      "end": 2982628,
+      "speaker": "Irene Ros",
+      "start": 2981564,
+      "text": "Forget Netflix.",
+      "id": "ep_76_ut_130"
+    },
+    {
+      "end": 2984756,
+      "speaker": "Jim Vallandingham",
+      "start": 2982716,
+      "text": "Forget Netflix. Yeah, this is better.",
+      "id": "ep_76_ut_131"
+    },
+    {
+      "end": 2987564,
+      "speaker": "Enrico Bertini",
+      "start": 2984820,
+      "text": "Yeah. Binge watch. Open this. Yeah.",
+      "id": "ep_76_ut_132"
+    },
+    {
+      "end": 2990692,
+      "speaker": "Jim Vallandingham",
+      "start": 2987724,
+      "text": "Adam Pearce. Adam Pearce. We got Adam Pearce. That's amazing.",
+      "id": "ep_76_ut_133"
+    },
+    {
+      "end": 3001308,
+      "speaker": "Moritz Stefaner",
+      "start": 2990748,
+      "text": "No, but it's true. I mean, you can learn so much about data visualization with, like, a couple of conferences and then picking the right talks. I mean, it's the best way to learn.",
+      "id": "ep_76_ut_134"
+    },
+    {
+      "end": 3003004,
+      "speaker": "Jim Vallandingham",
+      "start": 3001476,
+      "text": "Yeah. Yeah.",
+      "id": "ep_76_ut_135"
+    },
+    {
+      "end": 3008040,
+      "speaker": "Moritz Stefaner",
+      "start": 3003344,
+      "text": "Cool. Anything else? Any closing remarks, statements?",
+      "id": "ep_76_ut_136"
+    },
+    {
+      "end": 3014456,
+      "speaker": "Enrico Bertini",
+      "start": 3008112,
+      "text": "Enrico, I just want to know what is happening next year. I mean, I want to participate this time. I will miss it.",
+      "id": "ep_76_ut_137"
+    },
+    {
+      "end": 3016992,
+      "speaker": "Moritz Stefaner",
+      "start": 3014560,
+      "text": "How do we not miss it next year? That's our question.",
+      "id": "ep_76_ut_138"
+    },
+    {
+      "end": 3021088,
+      "speaker": "Enrico Bertini",
+      "start": 3017128,
+      "text": "I'm going to submit something. So if I can, I would submit it now.",
+      "id": "ep_76_ut_139"
+    },
+    {
+      "end": 3046464,
+      "speaker": "Irene Ros",
+      "start": 3021136,
+      "text": "We will definitely send you guys a note when the call opens for proposals, because we'd certainly love to have you guys submit and spread the word. I don't know, but this is going to be our fifth year, which is a pretty big deal. So we've already started kind of brainstorming for fun things we can do. I don't even know yet where it's going to be, but I know that having an IMAX theater screen definitely set the bar pretty high.",
+      "id": "ep_76_ut_140"
+    },
+    {
+      "end": 3055020,
+      "speaker": "Jim Vallandingham",
+      "start": 3048644,
+      "text": "We forgot to mention it. It was in the aquarium, the IMAX aquarium this year, which was quite impressive.",
+      "id": "ep_76_ut_141"
+    },
+    {
+      "end": 3057064,
+      "speaker": "Moritz Stefaner",
+      "start": 3055052,
+      "text": "So we need holograms next year.",
+      "id": "ep_76_ut_142"
+    },
+    {
+      "end": 3058942,
+      "speaker": "Jim Vallandingham",
+      "start": 3057644,
+      "text": "Holograms. Yeah.",
+      "id": "ep_76_ut_143"
+    },
+    {
+      "end": 3060354,
+      "speaker": "Irene Ros",
+      "start": 3059108,
+      "text": "Hologram visualization.",
+      "id": "ep_76_ut_144"
+    },
+    {
+      "end": 3064614,
+      "speaker": "Jim Vallandingham",
+      "start": 3060474,
+      "text": "Please submit a Todd everybody has a VR kit.",
+      "id": "ep_76_ut_145"
+    },
+    {
+      "end": 3066614,
+      "speaker": "Irene Ros",
+      "start": 3064914,
+      "text": "Google cardboard for everyone.",
+      "id": "ep_76_ut_146"
+    },
+    {
+      "end": 3068906,
+      "speaker": "Jim Vallandingham",
+      "start": 3067394,
+      "text": "Google cardboard, everybody.",
+      "id": "ep_76_ut_147"
+    },
+    {
+      "end": 3069546,
+      "speaker": "Moritz Stefaner",
+      "start": 3068970,
+      "text": "Smell of rain.",
+      "id": "ep_76_ut_148"
+    },
+    {
+      "end": 3073534,
+      "speaker": "Jim Vallandingham",
+      "start": 3069570,
+      "text": "Turn it on. Watch out. That's Mart's behind you.",
+      "id": "ep_76_ut_149"
+    },
+    {
+      "end": 3076042,
+      "speaker": "Yannick Assogba",
+      "start": 3074634,
+      "text": "Face swapped with somebody else.",
+      "id": "ep_76_ut_150"
+    },
+    {
+      "end": 3076538,
+      "speaker": "Irene Ros",
+      "start": 3076098,
+      "text": "That's right.",
+      "id": "ep_76_ut_151"
+    },
+    {
+      "end": 3077026,
+      "speaker": "Enrico Bertini",
+      "start": 3076586,
+      "text": "Yeah.",
+      "id": "ep_76_ut_152"
+    },
+    {
+      "end": 3077814,
+      "speaker": "Jim Vallandingham",
+      "start": 3077130,
+      "text": "Yeah.",
+      "id": "ep_76_ut_153"
+    },
+    {
+      "end": 3116894,
+      "speaker": "Irene Ros",
+      "start": 3079154,
+      "text": "So, yeah, so we'll see. We've also, this was the first year we did workshops, and they went really, really well. And so I'm sure we'll explore doing those again and next year. It's always nice to have. We always wish Openviz was a longer event, but then it's hard to make just a longer conference because we also try to keep it really, really affordable. So it's really kind of at that threshold for us. And so if we can make it a bigger event somehow, you know, come hang out with us. Let's do a hack day. Let's work on projects together. You know, we're open to ideas, too, so you can always email openvizconfocu.com and go straight to my mailbox.",
+      "id": "ep_76_ut_154"
+    },
+    {
+      "end": 3118266,
+      "speaker": "Moritz Stefaner",
+      "start": 3117754,
+      "text": "Good to know.",
+      "id": "ep_76_ut_155"
+    },
+    {
+      "end": 3124210,
+      "speaker": "Enrico Bertini",
+      "start": 3118290,
+      "text": "So, Irene, can you summarize how people can participate other than, of course, just registering and coming?",
+      "id": "ep_76_ut_156"
+    },
+    {
+      "end": 3177374,
+      "speaker": "Irene Ros",
+      "start": 3124362,
+      "text": "Sure. Yeah. So this was our first year. We actually have a slack channel that we started. Jim's been running that. It's been amazing to have folks hang out there. People have coordinated things during the conference and exchanged notes and things like that. So that's still happening. We also obviously release all of the data for the video visualization so the transcripts are shared, as is Peter's code. So if anybody wanted to remix that in some way, that would be great. I know there's been a lot of other visualizations of the tweets that were happening. They were really for both, just a lot of really good content there. We also, last year was the first time we tried to do kind of some collaborative note taking, and we did that again this year. I don't think it was as successful because people were just paying attention, which is great. So there are still some notes for some of the talks and they kind of aggregate links together.",
+      "id": "ep_76_ut_157"
+    },
+    {
+      "end": 3179996,
+      "speaker": "Jim Vallandingham",
+      "start": 3178924,
+      "text": "Yeah, we have the transcripts. Yeah.",
+      "id": "ep_76_ut_158"
+    },
+    {
+      "end": 3194156,
+      "speaker": "Irene Ros",
+      "start": 3180020,
+      "text": "And some things are, and we had the transcripts. I think that was definitely one of the reasons it was less used. But those are just some. I think we're super open to growing that community, however our community wants it to grow.",
+      "id": "ep_76_ut_159"
+    },
+    {
+      "end": 3212646,
+      "speaker": "Enrico Bertini",
+      "start": 3194260,
+      "text": "Well, perfect. Thanks a lot. I mean, it's fantastic what you guys are doing, both in terms of your company and open this conference. I'm very much looking forward what happens next. And as I said, I would definitely participate. Next year, we'll be looking for your.",
+      "id": "ep_76_ut_160"
+    },
+    {
+      "end": 3217034,
+      "speaker": "Moritz Stefaner",
+      "start": 3212670,
+      "text": "Proposal that's now on the air. And that's the fact.",
+      "id": "ep_76_ut_161"
+    },
+    {
+      "end": 3220914,
+      "speaker": "Enrico Bertini",
+      "start": 3219854,
+      "text": "It's a test.",
+      "id": "ep_76_ut_162"
+    },
+    {
+      "end": 3223518,
+      "speaker": "Moritz Stefaner",
+      "start": 3222254,
+      "text": "We'll check back in half.",
+      "id": "ep_76_ut_163"
+    },
+    {
+      "end": 3227474,
+      "speaker": "Enrico Bertini",
+      "start": 3223566,
+      "text": "You can use this snippet against me in a few months.",
+      "id": "ep_76_ut_164"
+    },
+    {
+      "end": 3231838,
+      "speaker": "Moritz Stefaner",
+      "start": 3229174,
+      "text": "So thanks so much for coming. It's been great having you.",
+      "id": "ep_76_ut_165"
+    },
+    {
+      "end": 3232438,
+      "speaker": "Yannick Assogba",
+      "start": 3231926,
+      "text": "Thank you.",
+      "id": "ep_76_ut_166"
+    },
+    {
+      "end": 3233038,
+      "speaker": "Jim Vallandingham",
+      "start": 3232486,
+      "text": "Thanks a lot.",
+      "id": "ep_76_ut_167"
+    },
+    {
+      "end": 3236046,
+      "speaker": "Irene Ros",
+      "start": 3233086,
+      "text": "Thanks for having us and for doing this podcast. It's great.",
+      "id": "ep_76_ut_168"
+    },
+    {
+      "end": 3238350,
+      "speaker": "Enrico Bertini",
+      "start": 3236150,
+      "text": "Thank you. Bye bye.",
+      "id": "ep_76_ut_169"
+    },
+    {
+      "end": 3239634,
+      "speaker": "Jim Vallandingham",
+      "start": 3238542,
+      "text": "Bye bye.",
+      "id": "ep_76_ut_170"
+    },
+    {
+      "end": 3252350,
+      "speaker": "Enrico Bertini",
+      "start": 3242654,
+      "text": "Hey guys, thanks for listening to data stories again. Before you leave, we have a request if you can spend a couple of minutes rating us on iTunes, that would be extremely helpful for the show.",
+      "id": "ep_76_ut_171"
+    },
+    {
+      "end": 3283108,
+      "speaker": "Moritz Stefaner",
+      "start": 3252462,
+      "text": "And here's also some information on the many ways you can get news directly from us. We're, of course, on twitter@twitter.com. Datastories. We have a Facebook page all in one word, and we also have an email newsletter. So if you want to get news directly into your inbox and be notified whenever we publish an episode, you can go to our homepage datastory es and look for the link that you find on the bottom in the footer.",
+      "id": "ep_76_ut_172"
+    },
+    {
+      "end": 3295216,
+      "speaker": "Enrico Bertini",
+      "start": 3283196,
+      "text": "So one last thing that we want to tell you is that we love to get in touch with our listeners, especially if you want to suggest a way to improve the show or amazing people you want us to invite or even projects you want us to talk about.",
+      "id": "ep_76_ut_173"
+    },
+    {
+      "end": 3304564,
+      "speaker": "Moritz Stefaner",
+      "start": 3295320,
+      "text": "Yeah, absolutely. So don't hesitate to get in touch with us. It's always a great thing for us. And that's all for now. See you next time, and thanks for listening to data stories.",
+      "id": "ep_76_ut_174"
+    },
+    {
+      "end": 3337334,
+      "speaker": "Enrico Bertini",
+      "start": 3307904,
+      "text": "This episode is sponsored by CartoDB. CartoDB is an open, powerful and intuitive platform for discovering and predicting the key facts underlying the massive location data in our world. With cartodB, analyzing and designing beautifully insightful maps has never been easier. Check out incredible location intelligence projects and get started for free@CartoDB.com. gallery that's CartoDB.com gallery.",
+      "id": "ep_76_ut_175"
+    }
+  ],
+  "confidence": 0.93201022487778,
+  "audio_duration": 3337,
+  "punctuate": true,
+  "format_text": true,
+  "dual_channel": false,
+  "webhook_url": null,
+  "webhook_status_code": null,
+  "webhook_auth": false,
+  "webhook_auth_header_name": null,
+  "speed_boost": false,
+  "auto_highlights_result": null,
+  "auto_highlights": false,
+  "audio_start_from": null,
+  "audio_end_at": null,
+  "word_boost": [],
+  "boost_param": null,
+  "filter_profanity": false,
+  "redact_pii": false,
+  "redact_pii_audio": false,
+  "redact_pii_audio_quality": null,
+  "redact_pii_policies": null,
+  "redact_pii_sub": null,
+  "speaker_labels": true,
+  "content_safety": false,
+  "iab_categories": true,
+  "content_safety_labels": {
+    "status": "unavailable",
+    "results": [],
+    "summary": {}
+  },
+  "language_detection": false,
+  "language_detection_threshold": null,
+  "language_confidence": null,
+  "custom_spelling": null,
+  "throttled": false,
+  "auto_chapters": true,
+  "summarization": false,
+  "summary_type": null,
+  "summary_model": null,
+  "custom_topics": false,
+  "topics": [],
+  "speech_threshold": null,
+  "speech_model": "best",
+  "chapters": [
+    {
+      "summary": "This episode is sponsored by CartoDB. Car two DB is an open, powerful and intuitive platform for discovering and predicting the key facts underlying the massive location data in our world. With CartoDB you can design and analyze beautiful and insightful maps.",
+      "gist": "OpenViz: The Location Intelligence Community",
+      "headline": "Part of Openviz is the open source part, but also sort of opening up the community",
+      "start": 200,
+      "end": 54252,
+      "id": "ep_76_ch_0"
+    },
+    {
+      "summary": "On our website we now have a team page. It's not just Enrico and I doing the show, but there's also Destry, who's our producer. And now we have a slack channel where you can chat with us and other guests. So, shall we dive into the episode?",
+      "gist": "New York Town",
+      "headline": "On our website we have a slack channel where you can chat with us",
+      "start": 54348,
+      "end": 144296,
+      "id": "ep_76_ch_1"
+    },
+    {
+      "summary": "Irene Ross is the director of data visualization at Boku. Jim Beaucoup is a developer by trade. When I don't do data visualization, I like to think about food. Who goes next?",
+      "gist": "Boku team at OpenVinConf",
+      "headline": "So today we have not one, not two, we have three special guests",
+      "start": 144400,
+      "end": 200704,
+      "id": "ep_76_ch_2"
+    },
+    {
+      "summary": "Jim Vallandigham: I'm part of the Boku Datavis team. Yannick Sagva: I design and develop data visualizations. Peter Vishai: He built some pretty cool stuff for Openviz. Overall it's four people, plus probably a few freelancers, plus minus.",
+      "gist": "A little about the Boku Dataviz Team",
+      "headline": "Jim Vallandigham is part of the Boku Datavis team",
+      "start": 200824,
+      "end": 265143,
+      "id": "ep_76_ch_3"
+    },
+    {
+      "summary": "Booku has been around for a while, I want to say six or seven years. It's basically an open web technology and design company. We're primarily a consultancy. Sometimes we actually end up producing new open source technologies.",
+      "gist": "Boku: An Open Source Company",
+      "headline": "Booku is an open web technology and design company",
+      "start": 266523,
+      "end": 414400,
+      "id": "ep_76_ch_4"
+    },
+    {
+      "summary": "Voyager and Lyra are tools that help to automate the communication of data through data visualizations. The Mozilla team used a Mozilla night grant to improve the capabilities of the tools. There are tons of tools out there that could be useful to a larger community, and they just need a little love.",
+      "gist": "What is the Mozilla Nightly Grant for VIRGINE and",
+      "headline": "Voyager and Lyra are tools that help automate data visualizations",
+      "start": 414552,
+      "end": 654768,
+      "id": "ep_76_ch_5"
+    },
+    {
+      "summary": "Jim: Do you also provide services in terms of making this tool available on the web. What are the main components that are missing in research? Prototypes, homemade DIY solutions that you can bring to the table. Many people aren't ready to take on or realize what it means to open source a project.",
+      "gist": "Vega: What is the Open Source Community?",
+      "headline": "Jim: Do you also provide services in terms of making this tool available online",
+      "start": 654896,
+      "end": 1023188,
+      "id": "ep_76_ch_6"
+    },
+    {
+      "summary": "Stereotropes is a web based project and visualization of tropes, or descriptions of tropes from tvtropes. com. It provides an interface to sort of look through about 100 of the most used tropes in film and television. Did you develop and identify all these tropes yourself?",
+      "gist": "Stereotes: The Visualization of tropes",
+      "headline": "Stereotropes is a web based project and visualization of tropes",
+      "start": 1023236,
+      "end": 1408234,
+      "id": "ep_76_ch_7"
+    },
+    {
+      "summary": "We generally come up with ideas for things like this ourselves. We do a lot of prototyping around both the analysis and some of the information design. We narrow it down until we feel like we hit the right mark or we give up. It's pretty iterative.",
+      "gist": "Projects in the Making",
+      "headline": "How do you decide whether a project is good enough for a commit",
+      "start": 1409854,
+      "end": 1463424,
+      "id": "ep_76_ch_8"
+    },
+    {
+      "summary": "How do you balance doing commercial commissions with the more long term? And then the open source activities and the self commissioned stuff? How do you organize this balance?",
+      "gist": "Boku's Commercial and Open Source Workbalance",
+      "headline": "How do you balance doing commercial commissions with the more long term self commissioned projects",
+      "start": 1464084,
+      "end": 1705234,
+      "id": "ep_76_ch_9"
+    },
+    {
+      "summary": "The data observatory allows you to augment your data by providing additional measurements of populations, jobs, commerce, and many other interesting location based dimensions. If you want to see how this works, go to the link CartoDB. com data and find more information.",
+      "gist": "Exploring CartoDB's Data Observatory",
+      "headline": "CartoDb is a web based application that allows you to load location data",
+      "start": 1705534,
+      "end": 1800384,
+      "id": "ep_76_ch_10"
+    },
+    {
+      "summary": "And now that we have transcripts for the podcast, I would love to see more happening on the product side of things. For Openvizconf, Jim and Janik developed a workshop around text analysis and visualization, which was amazing. If you're looking for a project to do, find a paper or ping us.",
+      "gist": "OpenViz: Teaching and Development",
+      "headline": "You also teach courses and organize Openviz conferences",
+      "start": 1800724,
+      "end": 2096223,
+      "id": "ep_76_ch_11"
+    },
+    {
+      "summary": "Peter: Who built that video archive? It was actually a build by Peter. The transcripts were also being streamed live online, so that you could just go and watch them on the website. I think it's an amazing use of data to make talk video more accessible.",
+      "gist": "The Video Archive at OpenViz",
+      "headline": "The video archive for the OpenViz conference was incredibly popular",
+      "start": 2096263,
+      "end": 2280024,
+      "id": "ep_76_ch_12"
+    },
+    {
+      "summary": "This was the fourth annual data visualization conference. It brings together practitioners in the space to learn how to do the work. The selection process is very unique because usually there's two competing models. We had about a little over 200 talk submissions this year.",
+      "gist": "The Conference on Data Visualization",
+      "headline": "The Data Visualization Conference is a great chance for data visualization practitioners",
+      "start": 2280804,
+      "end": 2619244,
+      "id": "ep_76_ch_13"
+    },
+    {
+      "summary": "This year's Boku summit had the most diverse program ever. It's so hard to find the right balance. The editorializing part is really interesting. People appreciate being there and speaking to the audience.",
+      "gist": "Boku Conference 2018: The Diversity Program",
+      "headline": "This year's Boku Summit had the most diverse program ever",
+      "start": 2619544,
+      "end": 2771620,
+      "id": "ep_76_ch_14"
+    },
+    {
+      "summary": "Openviz mixes academics and practitioners. I see this as one of the most interesting aspects or feature of Openviz. They should literally make it harder for academics and easier for practitioners. Having that bridge is at least a start in opening up these two fairly isolated parts of the Datavis community.",
+      "gist": "OpenViz: Mixing Academics and Practicians",
+      "headline": "You are mixing academics and practitioners in Openviz",
+      "start": 2771652,
+      "end": 2892650,
+      "id": "ep_76_ch_15"
+    },
+    {
+      "summary": "The talks are all online already, so, dear listeners, you can check them out. Do you have any favorites, like, from this year? They all provide different. How can that be more diverse and more grown?",
+      "gist": "OpenViz 2017: A Year of Risk",
+      "headline": "I wanted to make a quick comment about what Moritz said about risk",
+      "start": 2892722,
+      "end": 2971776,
+      "id": "ep_76_ch_16"
+    },
+    {
+      "summary": "Turn off slack. Watch the movies. Binge watch. Open this. You can learn so much about data visualization with a couple of conferences. I mean, it's the best way to learn.",
+      "gist": "Friday: Binge Watch the Weekends",
+      "headline": "You can learn so much about data visualization with a few conferences",
+      "start": 2971800,
+      "end": 3004164,
+      "id": "ep_76_ch_17"
+    },
+    {
+      "summary": "Enrico: We need holograms next year. Holograms. Please submit a proposal. This is going to be our fifth year. We've already started brainstorming for fun things we can do. If we can make it a bigger event somehow, you know, come hang out with us.",
+      "gist": "OpenViz Confocu 2019: What to Do Next Year",
+      "headline": "Enrico: We need holograms next year. Holograms. Google cardboard for everyone. I think everybody has a VR kit",
+      "start": 3004904,
+      "end": 3118266,
+      "id": "ep_76_ch_18"
+    },
+    {
+      "summary": "We actually have a slack channel that we started. People have coordinated things during the conference and exchanged notes. We're super open to growing that community, however our community wants it to grow. Next year, we'll be looking for your. Proposal that's now on the air.",
+      "gist": "How to Attend the Conference 2019",
+      "headline": "Irene, can you summarize how people can participate in this conference",
+      "start": 3118290,
+      "end": 3245502,
+      "id": "ep_76_ch_19"
+    },
+    {
+      "summary": "Before you leave, we have a request if you can spend a couple of minutes rating us on iTunes. Here's also some information on the many ways you can get news directly from us. Don't hesitate to get in touch with us. It's always a great thing for us.",
+      "gist": "Data Stories",
+      "headline": "If you can spend a couple of minutes rating us on iTunes, that would be extremely helpful",
+      "start": 3245638,
+      "end": 3304564,
+      "id": "ep_76_ch_20"
+    },
+    {
+      "summary": "This episode is sponsored by CartoDB. CartoDB is an open, powerful and intuitive platform for discovering and predicting the key facts underlying the massive location data. With cartodB, analyzing and designing beautifully insightful maps has never been easier.",
+      "gist": "CartoDB",
+      "headline": "CartoDB is an open, powerful and intuitive platform for analyzing location data",
+      "start": 3307904,
+      "end": 3337334,
+      "id": "ep_76_ch_21"
+    }
+  ],
+  "disfluencies": false,
+  "entity_detection": false,
+  "sentiment_analysis": false,
+  "sentiment_analysis_results": null,
+  "entities": null,
+  "speakers_expected": null,
+  "summary": null,
+  "custom_topics_results": null,
+  "episode_num": 76,
+  "episode_metadata": {
+    "speakers": [
+      "Yannick Assogba",
+      "Enrico Bertini",
+      "Moritz Stefaner",
+      "Irene Ros",
+      "Jim Vallandingham"
+    ],
+    "WPid": "645",
+    "url": "https://datastori.es/podlove/file/2505/s/feed/c/mp3/76-bocoup-and-openvis-conference.mp3",
+    "episode_title": "Bocoup and OpenVis Conference"
+  }
+}

@@ -1,0 +1,682 @@
+{
+  "id": "4ec4a618-9cec-473c-bd68-45a10be14e55",
+  "language_model": "assemblyai_default",
+  "acoustic_model": "assemblyai_default",
+  "language_code": "en_us",
+  "status": "completed",
+  "audio_url": "https://datastori.es/podlove/file/4734/s/feed/c/mp3/113-what-makes-a-visualization-memorable-with-michelle-borkin.mp3",
+  "utterances": [
+    {
+      "end": 14274,
+      "speaker": "Michelle Borkin",
+      "start": 280,
+      "text": "Put a title on your graph, annotate the important things, label your axes, pick appropriate visual encodings, and if you do all those things were taught in elementary school, people will understand your visualization.",
+      "id": "ep_113_ut_0"
+    },
+    {
+      "end": 128578,
+      "speaker": "Enrico Bertini",
+      "start": 33964,
+      "text": "Hey, everyone. Welcome to a new episode of data stories. So this is Enrico today, without Moritz. I'm gonna do a solo show. And before we start, let me remind you that we finally started our crowdsourcing initiative, which means that data stories is now completely, fully funded by our listeners. So if you enjoy what we are doing here, you're joined listening to data stories. Please consider helping us with this. You can go to patreon.com Datastories. You'll find our page, and you can pledge some amount in on Patreon. How does it work? Let me explain that in a few words. So you can basically set up a certain amount, a few dollars that you pledge to pay for every time we publish a new episode. And typically, we publish two episodes per month. So you should think of that amount multiplied by two for every, every month. So, once again, if you enjoy what we are doing and you want to support us, please consider going on Patreon and pledge some amount for us. And now we have another special guest. It's my pleasure to have Michelle Borkin on the show. She's a professor from Northeastern University and one of my favorite researchers in visualization. And we're going to talk about a lot of interesting topic. I'm really excited to, to have you on the show. Michel, welcome on the show.",
+      "id": "ep_113_ut_1"
+    },
+    {
+      "end": 134866,
+      "speaker": "Michelle Borkin",
+      "start": 128746,
+      "text": "Hi. Thank you for having me. I'm blushing from the introduction, so we.",
+      "id": "ep_113_ut_2"
+    },
+    {
+      "end": 152214,
+      "speaker": "Enrico Bertini",
+      "start": 134890,
+      "text": "Normally ask our guests to introduce themselves. So can you give us a little bit of information about your background? What's your current position? What are your interests? And then we can dive right into the main topics.",
+      "id": "ep_113_ut_3"
+    },
+    {
+      "end": 191054,
+      "speaker": "Michelle Borkin",
+      "start": 152544,
+      "text": "Sure thing. I'm an assistant professor at Northeastern University in Boston in the College of Computer and Information Science. I am interested in data visualization, and that's my area of expertise. And I work across disciplines and do a lot of applied applications across the sciences and astronomy and physics and medical imaging, and most people for my background don't know. I'm an astrophysicist by training and an avid amateur astronomer, and my PhD is actually in applied physics. Fell madly in love with visualization early on, and have slowly drifted across fields and boundaries.",
+      "id": "ep_113_ut_4"
+    },
+    {
+      "end": 226564,
+      "speaker": "Enrico Bertini",
+      "start": 191174,
+      "text": "Yeah, perfect. So I have to start with asking you, how does an astronomer become a data visualization expert and researcher? That's one of the many aspects I love about your background. And, yeah, I mean, it looks to me that if these can attract a person from astronomy and convince a person to go from looking at stars to looking at visualizations. It's a really good sign for our field. So how did this happen?",
+      "id": "ep_113_ut_5"
+    },
+    {
+      "end": 491538,
+      "speaker": "Michelle Borkin",
+      "start": 227944,
+      "text": "It's interesting. I'll first say coffee conversations, coffee breaks at like the IEEE viz conference. It is amazing how many people in our community have backgrounds in other fields, psychology, engineering. I know other people in physics and astronomy, so I'm not as unique in that regards. But certainly my switch has been quite dramatic and recent. How did I get from astrophysics to computer science? It started when I was an undergraduate. I was all set. I went to Harvard. I was doing a true astrophysics undergraduate honors thesis program working with Alyssa Goodman, who's a professor of astronomy at Harvard. And it was one of those serendipitous instances where Alyssa was invited to be a guest at a workshop. It was in fall of 2015, if I remember correctly, when I was an undergraduate as a junior. Alissa goes to this NIH NSF workshop, and it was sponsored. I should pull up the names. It had people like Chris Johnson, Tamara Munzner, Hanspeter Pfister, all gathered, sponsored by NSF and NIH, to talk about grand challenges in visualization. I've heard others refer to this jokingly as the how computer science has failed the sciences meeting. But it is amazing how many projects and collaborations have come out of that series of workshops Alyssa Goodman was invited to present about challenges in astronomy visualization. It just so happened, one of the workshop panelists who was there was Michael Halley, who was from the surgical planning lab at Brigham and women's Hospital in Boston. And as the story has been told to me by Alyssa Goodman, Michael Halley was so excited seeing her challenges, and she was talking about radio astronomy. And you have these multidimensional data sets, and they're not spatial, and they don't know how look at them. And Mike goes running up to her after her talk and was like, we need to talk. They go get a drink, and I don't have it. But Alyssa sketched for me what Mike and Alyssa put on a napkin. It was all the parallels between astronomy, imaging and medical imaging, and everything from the image processing, the image registration, the segmentation algorithms, the visualization challenges were nearly identical. So they have this conversation. They come back. I grabbed coffee at Starbucks with Alyssa. I'm a junior undergraduate trying to figure out my thesis research, and she was telling me, oh, you can study how young stars are ejected from nebula, or look at the hierarchical collapse in structure as gas forms on to do star formation and then we get distracted, and she tells me the story about this crazy radiology researcher running up to her after her talk. And I said, that's what I want to do for my thesis. I still remember, she looks at me like, what? I'm like, no, that's what I'm going to do for my thesis. And I hopped on the m two shuttle bus with all the other premeds and started trekking over to Brigham and women's hospital, learning about medical imaging, but then in the process about 3d slicers, ITK VTK, how you do 3D Rendering. And it was, it blew my mind. And then brought that technology back to the astronomers over at Harvard, and for my undergraduate thesis, did novel research in the IC 348 star forming region and Perseus star forming region. And with all these algorithms and image processing tools and 3d visualization techniques from the medical community, we instantly started making these discoveries as hooked. I had submitted applications ago, graduate school in astrophysics, and I retracted my applications because I was so in love with the visualization and computer graphics. I said, I don't know what I want to do now, and was offered a research position for a couple years at the now rebrand. It was initially the initiative in innovative computing at Harvard to be a research assistant, and Mike Halley said, hey, there's this really great conference happening. It's this thing called IEEE vis. You should go that. And they paid for me. It goes Ieee vis 2006 in Baltimore. And that changed my career. I just couldn't believe other people were interested in this and did the same kind of stuff. And from then on, that slowly started my shift over into visualization.",
+      "id": "ep_113_ut_6"
+    },
+    {
+      "end": 495746,
+      "speaker": "Enrico Bertini",
+      "start": 491666,
+      "text": "Yeah, this is where you got the vis fever, I guess.",
+      "id": "ep_113_ut_7"
+    },
+    {
+      "end": 498618,
+      "speaker": "Michelle Borkin",
+      "start": 495810,
+      "text": "Yes, exactly, exactly.",
+      "id": "ep_113_ut_8"
+    },
+    {
+      "end": 673614,
+      "speaker": "Enrico Bertini",
+      "start": 498746,
+      "text": "Yeah, no, I think that's fantastic. And there are so many connections between science and visualization, and I actually regret that we don't talk, maybe even enough about that, because scientists are using visualization in so many ways for their work and a lot for communication purposes, of course, in their papers. And when they give talks, every time I get to collaborate or work with some scientists, they are so much interested in how do I actually visualize this and how do I put it in my next paper. They are so much interesting. I think that what scientists, the biggest need of a scientist, at least from my experience, is how do I communicate this information to others when I publish them, when I publish this data in a paper, or I have to give a presentation? And they seem to have a lot of respect for visualization designers, because I guess they understand that it's not easy. It's actually very easy to create very bad charts. So. And so. Speaking of which, maybe we can start our conversation. So there are lots of things that I would like to cover in this episode. I don't know how much time, if we can cover all of them in the scope of one episode. But one thing that I really like about your work, and probably one of the first pieces of work that I noticed from your side, is that paper that you published where you compare different visualization to visualize medical information coming from the. If. I don't want to make too many mistakes here, but I guess you were, you were comparing different ways to visualize arteries in the heart. And I think that what I have to say, that's one of my favorite papers ever in visualization, because I hope I'll try to summarize what you did, and you tell me if I get, if I get it wrong. But basically, I guess you've been trying to visualize data coming from the art and showing particular features of the arteries, and then you realized, oh, but there are different ways I can visualize that. And what I really like is that you have a design space where you have mainly a combination of two options. One is what color map do I use? And one is the. Is the classic rainbow color map, and another one is a proper quote, unquote proper color map. And then even more interesting from my point of view, is that you have a 3d representation of the arteries and a sort of flattened version of it that transforms 3d in 2d. Right. And then you compare these conditions and you find. And you find something really interesting, but I don't want to say it. So maybe you can describe.",
+      "id": "ep_113_ut_9"
+    },
+    {
+      "end": 675250,
+      "speaker": "Michelle Borkin",
+      "start": 674554,
+      "text": "Sure.",
+      "id": "ep_113_ut_10"
+    },
+    {
+      "end": 686720,
+      "speaker": "Enrico Bertini",
+      "start": 675402,
+      "text": "I don't want to steal your job, but. So can you describe this work maybe a little bit better than me and. Yeah. And tell the story behind it?",
+      "id": "ep_113_ut_11"
+    },
+    {
+      "end": 896664,
+      "speaker": "Michelle Borkin",
+      "start": 686912,
+      "text": "Yeah. So that was in graduate school, and that was a fantastic project where that work, and I have some other publications and work was when I started my graduate program, and I did applied physics and have an expertise in computational fluid dynamics. So I started, I joined this project where there is an established collaboration of physicists at Harvard modeling blood flow through the heart and then trying to see how they could make that a clinical diagnostic tool or tool to help cardiologists in the hospital to do more effective heart disease diagnostics. So it was fascinating because my first part of that project was, how do I represent the fluid dynamic simulation for physicists? But then I realized very rapidly it was this incredible experience for me. What I realized is the doctors need a completely different visualization, what the physicists need to understand the fluid dynamics, completely different set of tasks than what the doctors do, different environments, different circumstances. So it was this design study to figure out what do the doctors need to see of this data to diagnose a patient? And that's where the flattening came in. I started out with three D. Three D was conventional for the doctors, for state of the art, for looking at this blood flow information in the arteries and looking for areas of heart disease and blocked arteries. But the 3D, when I went round to the hospital, so I did a true immersion study with the doctors. I am so lucky to have great collaborators. And I went on rounds through the cardiology wing, sat in on procedures for stent insertion. I watched how they did this with patients, and I noticed 3D had some issues. For instance, there's an occlusion problem. You have to interact with the model or have a movie rotating to see all the data. Also, if a doctor is all in scrubs and they're in a procedure, and they need to be looking at this information, if their hands are literally in the patient by their heart, they can't rotate the darn model on the screen. So that was the inspiration for doing something that's two d and flat and went through many, many, many iterations to get to the final version of this too flattened artery visualization. And the doctors looked at this and they're like, well, I don't know. Even though they helped me design it, we figured out the right layout, how to do the projection, and that led to this user study of understanding. The main motive was 3d versus two d. The color was an interesting side effect where I learned, oh, divergent color map, this is much more appropriate. And pick the proper color space. And they're like, no, it has to be rainbow. I'm like, but in class, I was taught that we can't do rainbow. And that became a between subjects factor in the study to look at rainbow. And I did not expect the paper to have as much impact as it has on proving just how bad rainbow was. So for the short summary of the results was that on average, people, participants in the user study I did at Harvard Medical School, were less accurate with the 3d representation. It was like about 30 or 40% of the diseased regions they could find in a certain amount of time, versus 60%. But then simply changing the color, and that was with rainbow, and changing it out of rainbow got the accuracy in the 2d, up to over 90% accurate in finding all the disease regions. And that, I love that results. It was a great, clean result.",
+      "id": "ep_113_ut_12"
+    },
+    {
+      "end": 965644,
+      "speaker": "Enrico Bertini",
+      "start": 897124,
+      "text": "Yeah, it's just perfect. I think if I remember correctly, I remember attending your talk back then, and you had like, so we have an improvement with the color. We have an improvement with 2d versus 3d. But when we put these two together, it's even more. It's a compound effect. Right. And if I remember correctly. So tell me if I'm wrong. Another thing that struck me as really important is that you've been testing this with medical students, and if I remember correctly, they had to identify issues in the arteries. Right? So this literally means that being more accurate means finding or not finding important issues in a person's artery. Right. So I was like, yes, that's an example where this is clearly impactful, clearly important. Right. It's just. It's not just a number. There's people's life behind this study. Right. I don't know. In retrospect, it may look trivial, but it's not at all.",
+      "id": "ep_113_ut_13"
+    },
+    {
+      "end": 974864,
+      "speaker": "Michelle Borkin",
+      "start": 966624,
+      "text": "No. I remember after I gave that presentation for the paper, there was a lot of things on Twitter to the effect of the rainbow color map is killing people.",
+      "id": "ep_113_ut_14"
+    },
+    {
+      "end": 975764,
+      "speaker": "Enrico Bertini",
+      "start": 975024,
+      "text": "Yeah.",
+      "id": "ep_113_ut_15"
+    },
+    {
+      "end": 1003062,
+      "speaker": "Michelle Borkin",
+      "start": 976904,
+      "text": "No, but it is true that vis has a huge impact on scientific discovery and in the medical field, how you present the data to a doctor, be it how you annotate a radiology x ray scan to presenting patient data, it could be text data or data from a chart, has a big impact on how a doctor diagnoses a patient and if they're going to have a false positive, false negative or miss something really important.",
+      "id": "ep_113_ut_16"
+    },
+    {
+      "end": 1063464,
+      "speaker": "Enrico Bertini",
+      "start": 1003198,
+      "text": "Yeah, yeah. And yeah, I would love to see more of that. Unfortunately, I don't know why. I don't know. I have to say that for some reason, it's hard to find studies out there that shows an impact. Such an, can I say, important impact. I don't know if it makes sense, but work that it's clearly related to something important in the world. Right. So this is saving people's life. Right. And it's not necessarily a criticism. I think it's really hard to find, to ideate this kind of studies and find yourself into this kind of situation. But I would love to see more of that because I think this is where visualization shines, at least from the research point of view. Right. When you can demonstrate that by using proper design, visualizations that are properly designed, you can literally save people's life, at least in principle. I think that's big.",
+      "id": "ep_113_ut_17"
+    },
+    {
+      "end": 1129988,
+      "speaker": "Michelle Borkin",
+      "start": 1064404,
+      "text": "No, it is big. I'm very excited because I've reopened that project and the NSF was lovely enough to give me some money to do this through the smart, connected health program and my graduate graduate student Aditya Pande, in collaboration with my collaborator Jeffrey Young at the Brigham over in Boston. We're looking at arteries in the brain now and looking at. And it's a lot harder, it's a lot more complicated with it's different physics and different shapes of the arteries. And we're right now actively working to look at artery projection techniques, 2d versus 3d. We're looking at all sorts of other interesting perception, perception and cognition principles, but we're opening up the book on that and also looking at that important step where I left off with the heart artery work of, okay, you can diagnose a patient and find something interesting, and you might be able to prove 2d is more efficient and accurate. But then how do you take that to the next step? How you do the surgical planning, or how you link it back to other cases where the 3d visualization is essential?",
+      "id": "ep_113_ut_18"
+    },
+    {
+      "end": 1131396,
+      "speaker": "Enrico Bertini",
+      "start": 1130116,
+      "text": "Sure. Yep.",
+      "id": "ep_113_ut_19"
+    },
+    {
+      "end": 1145810,
+      "speaker": "Michelle Borkin",
+      "start": 1131500,
+      "text": "And that's a lot of recurrent work now, is how do you visually link and represent effective abstract or 2d representations in conjunction with brushing and linking and the like with 3d renderings? That's my current active project.",
+      "id": "ep_113_ut_20"
+    },
+    {
+      "end": 1157934,
+      "speaker": "Enrico Bertini",
+      "start": 1145922,
+      "text": "Sure, sure. Well, just to clarify that I don't think that 3d is always bad, or even the rainbow color map is always bad. I think there are very few sweep generalizations one can make in visualization.",
+      "id": "ep_113_ut_21"
+    },
+    {
+      "end": 1169628,
+      "speaker": "Michelle Borkin",
+      "start": 1158314,
+      "text": "Exactly. That's right. A lot of people think I'm completely. A lot of people think I'm anti 3d. I'm like, no, not at all. I do a lot of 3d imaging.",
+      "id": "ep_113_ut_22"
+    },
+    {
+      "end": 1215008,
+      "speaker": "Enrico Bertini",
+      "start": 1169676,
+      "text": "It's really important. Yeah, I would love to see more really good ones, really good 3d visualizations. I want to switch gear a little bit because there is another piece of work that you are famous for, and I want to make sure that we have enough time to cover it because I suspect we'll need a little bit more time to discuss that. So another very popular piece of research that you've done in recent years is the one about memorability. And you published a few papers. I remember the first time when you published your first paper on memorability. It went really big around the visconference, and there was the famous dinosaur meme that you can talk about.",
+      "id": "ep_113_ut_23"
+    },
+    {
+      "end": 1218284,
+      "speaker": "Michelle Borkin",
+      "start": 1215136,
+      "text": "Oh, dinosaurs. No dinosaurs.",
+      "id": "ep_113_ut_24"
+    },
+    {
+      "end": 1230444,
+      "speaker": "Enrico Bertini",
+      "start": 1218784,
+      "text": "So maybe you can explain that briefly. So what is visualization research on memorability? I mean, we could cover ten episodes with that, but yeah, let's see what we can do.",
+      "id": "ep_113_ut_25"
+    },
+    {
+      "end": 1476312,
+      "speaker": "Michelle Borkin",
+      "start": 1232224,
+      "text": "I can give you the short summary. It's interesting because a big part of my work is visualization for scientists and working with doctors. But my other love and passion is evaluation studies. I wish I had taken psychology as an undergraduate, because I think it's fascinating how people see and perceive color and shape, and how these low level perceptual and cognitive principles can impact how you see a graph and how you do visualization. And that comes up all the time. In my other work, for example, the artery visualization work, that was a scientific application, but also a perceptual site, the memorability work taps into that for me. Whereas extreme, in depth, big data evaluation studies, the memorability at a high level is thinking through. We know gestalt principles, we know color theory, but what happens if we start looking at the impact of higher level, other cognitive principles? And in this case, it's sort of memorability. And one question you can ask is, what makes a visualization memorable, or what makes it recognizable is another term to use or easy to recall. These are all these low level memory principles. That work was a tangent. I never, ever expected my trajectory on visualization, cognition, and memorability to turn into the body of publication and knowledge it has become. I also started at this conference in, it was in Seattle, I think that was 2012, and I had just gotten into visualization evaluation. I was sitting in the back row in the evaluation session, and there were a few other papers about visualization, cognition and memorability. And I remember sitting in the background, I just happened to be sitting next to a few very senior people in our field. I will not say their names. And I sat there listening to them rip apart the papers in the session, completely destroy them. And I sat there with my jaw dropped, gawking at these senior researchers. And part of it was how smart they were that they could easily pick up on things in the study design or the datasets or the stimuli that I didn't even think of. And that was like, whoa. And started making me question studies and what we know about visualization cognition. So that happened. And then one month later, as a special seminar at the Radcliffe Institute for Advanced Study at Harvard, it was hosted as Hanspeter Pfister, Alyssa Goodman, and Bernice Ragout. It's all about data visualization and the interface of algorithms and computers and people, and happened to meet Aud Oliva, and she is an expert in computer vision, perception and cognition over at MIT. And it was amazing learning from her studies on visual. You know, her work on vision and saliency models, all for natural images. So then the question was, well, what happens if we start looking at memory and visualizations taking this very rigorous approach that the cognitive psychologists have been using on this other work and the work to date that all of us, we have a whole project called Mass viz Massviz mit.edu. in this large collaboration we have looked at how do people recognize features? This becomes important, for example, with applications of teaching. If you want someone to understand and remember things, it could be marketing, it could be. But I always make the argument that even if I'm publishing an image, a visualization in a journal paper, I want someone to remember it, but I also want them to understand it and understand the right things. Measuring visualization comprehension is really hard. I've done lots of pilot turks, really hard. So the memorability was just a baby step in the right direction towards comprehension.",
+      "id": "ep_113_ut_26"
+    },
+    {
+      "end": 1521462,
+      "speaker": "Enrico Bertini",
+      "start": 1476448,
+      "text": "Okay, so can you briefly describe what does it take to study memorabilia? So I think one interesting aspect of the way you've been doing this is that you've been testing how people. So I think you have a very large set, you create a large library of visualizations of different types and you have different kind of categories and you've been exposing people to large sets of these charts and visualizations. And then you try to see how memorable these are and then try to figure out why some are more memorable than others. And I don't remember exactly how many images you have in your database, but I think it's really, really large. It's what, in the order of, of.",
+      "id": "ep_113_ut_27"
+    },
+    {
+      "end": 1614192,
+      "speaker": "Michelle Borkin",
+      "start": 1521518,
+      "text": "Thousands or so, yeah, almost 6000 visualizations. And that was that. All the memorabilia work, I call it a labor of love that it was so much work to build this data set, which is why we're so happy to put it online and make it available to everybody. Almost 6000 visualizations scraped from news media websites, government websites. We went through visually to get some infographic visualizations, nature. And we went through some journal publications to build this massive database of visualizations. And the approach here was a lot of the studies to date had focused on small data sets or things people made and we were trying to do a different approach where we want visualizations in the wild or from the wild natural ones, we haven't messed around with them, we haven't played with them. But yeah, it was almost 6000 visualizations and then we crowdsourced that to sort it into. Is it a single plot versus multiple? What type of graph is it? Is it a bar chart, is it a pie chart? Went all the way down and then we did a subset of a few hundred where we manually annotated and painted each image to say, where are the axes? Where are the labels? Where's the title? Where's the pie chart? And the annotations on the pie chart. And it was a team of wonderful students, including azalea Vo and Chelsea yee, myself, other grad students and postdocs folks at Harvard, to build and annotate the dataset.",
+      "id": "ep_113_ut_28"
+    },
+    {
+      "end": 1619744,
+      "speaker": "Enrico Bertini",
+      "start": 1614288,
+      "text": "So all this metadata is included in the, in the public data set that you created, right?",
+      "id": "ep_113_ut_29"
+    },
+    {
+      "end": 1620272,
+      "speaker": "Michelle Borkin",
+      "start": 1619824,
+      "text": "Yes.",
+      "id": "ep_113_ut_30"
+    },
+    {
+      "end": 1620928,
+      "speaker": "Enrico Bertini",
+      "start": 1620368,
+      "text": "Fantastic.",
+      "id": "ep_113_ut_31"
+    },
+    {
+      "end": 1621768,
+      "speaker": "Michelle Borkin",
+      "start": 1620976,
+      "text": "All of it's there.",
+      "id": "ep_113_ut_32"
+    },
+    {
+      "end": 1633320,
+      "speaker": "Enrico Bertini",
+      "start": 1621856,
+      "text": "So maybe we should link this in the show notes, but maybe you can briefly mention what, how, how does one find this page? What's the title of the web? Does the website as a name or something?",
+      "id": "ep_113_ut_33"
+    },
+    {
+      "end": 1707930,
+      "speaker": "Michelle Borkin",
+      "start": 1633392,
+      "text": "Yep, it's Massviz. Massviz. Oh my gosh. I know. Like, I'm gonna miss, misspell it. Yeah. Mass. M a s s v I s. We had an argument over Zres Massvis mit.edu the address for our project. And we have there all this huge database, which we then used in our series of papers to do these experiments, to understand what visual features people attend to and remember. And all the results of our studies are online. It turns out my big takeaway after our series of papers is put a title on your graph, annotate the important things, label your axes, pick appropriate visual encodings, and if you do all those things were taught in elementary school, people will understand your visualization. Don't make it cluttered. And then the other piece of it is, don't be afraid to highlight things with color. You know, appropriate use of color. But, you know, color helps. Images and icons, when used appropriately, can help people remember the information and draw their attention in good ways. There's a lot of interesting design principles.",
+      "id": "ep_113_ut_34"
+    },
+    {
+      "end": 1785704,
+      "speaker": "Enrico Bertini",
+      "start": 1708042,
+      "text": "Yeah, perfect. So I really like that because there are a number of guidelines that people can read and use and remember when they are developing their own projects. And that's really useful. And it also reminds me a very interesting idea that I think it's something that I've been rediscovering over the years, is that I think we, as visualization experts and designers, we tend to focus a lot on how to actually encode the data. Right. But all these contextual elements are as important as the encoding part. Right. So a good title, a good legend, a good pair of axes, and good annotations. I mean, I think I've been teaching visualization for quite a number of years now, and I think only very, very recently I started introducing the problem of annotations. Right. But annotations are incredibly important because they basically guide you, guide the reader's attention into what is important. So all this contextual, it looks to me that part of the results that you obtain from your research is kind of like corroborating this idea that contextual elements matter a lot. Right?",
+      "id": "ep_113_ut_35"
+    },
+    {
+      "end": 1814056,
+      "speaker": "Michelle Borkin",
+      "start": 1786004,
+      "text": "Exactly, exactly. Providing context and effectively communicating your message. These are all really important. And in the second paper we wrote in the series about visualization, recognition and recall, I even, in the conclusion, made sure we put in quotations from existing design guidelines, including many from Tufte's books, to say, look, this has been said, and here's the reason why. And you should really listen to these design guidelines.",
+      "id": "ep_113_ut_36"
+    },
+    {
+      "end": 1846920,
+      "speaker": "Enrico Bertini",
+      "start": 1814180,
+      "text": "Perfect. So. And so, I think there is a, there is a somewhat technical question that I always wanted to ask you. I hope it's appropriate for the podcast. Let's try not to make it too long, but I'm curious about it. So what's the difference between. So it looks to me that you can memorize at least two different things. You can memorize the chart itself, how it appears, the shape. Right. The graphical part of it, but you can also memorize, somewhat independently, the content and the message, right?",
+      "id": "ep_113_ut_37"
+    },
+    {
+      "end": 1847480,
+      "speaker": "Michelle Borkin",
+      "start": 1846992,
+      "text": "Yes.",
+      "id": "ep_113_ut_38"
+    },
+    {
+      "end": 1871140,
+      "speaker": "Enrico Bertini",
+      "start": 1847592,
+      "text": "So, did you find. I don't know. I'm not even sure what to ask you, but I think, what is the difference between the two? And did you find anything in your studies that, that actually highlights the difference between these two things? Right. Because I can remember the shape of the graph, but don't remember what the graph is about. Right. And what is the difference there?",
+      "id": "ep_113_ut_39"
+    },
+    {
+      "end": 1971602,
+      "speaker": "Michelle Borkin",
+      "start": 1871292,
+      "text": "What's happening is it taps into sort of the dual process or dual coding theory, where this is established concept that when we receive information, we have two channels, one for visual information and one for semantic or text or verbal information. And these are processed and stored in different parts of our brain. And this is the case where the visual is much lower level. Again, things sort of gestalt principle of pop out and shape grouping. Your brain can easily pick up shape and remember shape really well, and clusters of shape. So that's sort of one piece, that's the. Okay, is the trend line in that bar chart going up or down, and then the other part of your brain takes in the semantic information, and it's a different channel for processing of what was the title and what was the subject of this visualization. And this is where it gets interesting, where you have these two things. In the ideal well designed visualization, these should be complementary and enforce one another, and that semantic information should be there to help you remember what is the subject of this visualization. And then if you remember the trend lines going up, then the shape part, then you're like, oh, I remember that. And that's sort of where we also saw human recognizable objects coming into play. Because if you had a label or even colors, colors relating appropriately, like a graph about water being blue, is going to help you remember, oh, blue. This might be something about water or the environment. So the ideal set of design principles lets you have the two channels enforcing one another to help you.",
+      "id": "ep_113_ut_40"
+    },
+    {
+      "end": 2001464,
+      "speaker": "Enrico Bertini",
+      "start": 1971658,
+      "text": "Yeah, yeah. And yeah, this reminds me, we could go on forever. But I think that's another overlooked issue in visualization that what is the semantic value of the encoding that you're using? Right, so some colors are clearly linked to some semantics, some shapes remind you of something. So. Right, yeah, we could record a whole new episode only about that. But maybe you can briefly mention the story, the funny story about the dinosaur.",
+      "id": "ep_113_ut_41"
+    },
+    {
+      "end": 2026160,
+      "speaker": "Michelle Borkin",
+      "start": 2002604,
+      "text": "So the dinosaur, a quick comment on the last concept. I really think there are, there's so many studies to be had and so much work in this space. And even this year at Viz, I was excited to see a lot of papers all about text importance and semantics that I encourage folks in the community to do more research in this area because there's a lot to be done.",
+      "id": "ep_113_ut_42"
+    },
+    {
+      "end": 2026888,
+      "speaker": "Enrico Bertini",
+      "start": 2026232,
+      "text": "Absolutely.",
+      "id": "ep_113_ut_43"
+    },
+    {
+      "end": 2133712,
+      "speaker": "Michelle Borkin",
+      "start": 2026976,
+      "text": "The dinosaur story, what happened for anyone who was not at Vis or has not read the papers we put out, it just so happens that some of the most memorable visualizations in our data set came from a couple scientific journal papers about dinosaurs and evolution of dinosaurs. And these, we had lots of images and lots of animals in our data set, but these particular ones, somehow people like dinosaurs and dinosaurs are unique. They don't look, you know, a monkey and a cow and a dog and a cat might start to blur together over time, but a dinosaur sticks out. And in a lot of the papers and presentations that my collaborators and I give on the subject, we of course are just showing here the most memorable visualization, and they of course have dinosaurs in them. So please, for anyone listening, putting dinosaurs in your visualization does not automatically make it better and more memorable. That's not the point. We even have examples in the data set of a couple infographics and one news media article where they had dinosaurs in there, but horribly used, not relevant to the visualization at all, and no one remembered them and no one understood them. So I even have have quantitative evidence to say this does not work out all the time. Don't just randomly put dinosaurs in there. Yeah, I should just note that the effective visualizations that we had where people remembered the visualization and had dinosaurs were things like phylogenetic, evolutionary diagrams, where the icon of the dinosaur was helping you encode what the species was. So instead of saying T. Rex, it was a picture of a T. Rex with the label T. Rex. And it was enforcing, okay, we care about this dinosaur, and we're gonna have you remember it more effectively.",
+      "id": "ep_113_ut_44"
+    },
+    {
+      "end": 2141408,
+      "speaker": "Enrico Bertini",
+      "start": 2133888,
+      "text": "Sure, yeah, yeah. I mean, that was a funny, funny situation.",
+      "id": "ep_113_ut_45"
+    },
+    {
+      "end": 2157550,
+      "speaker": "Michelle Borkin",
+      "start": 2141496,
+      "text": "Oh, yes. And don't think I have not received many gag gifts since then of dinosaurs. Even buy a dinosaur collar for our cat to wear because he thought this was so funny. And. Yeah. So, embracing the dinosaurs, I was wondering if the.",
+      "id": "ep_113_ut_46"
+    },
+    {
+      "end": 2163714,
+      "speaker": "Enrico Bertini",
+      "start": 2157582,
+      "text": "If the. If the main logo of your lab would be a dinosaur, and then you would just produce mugs.",
+      "id": "ep_113_ut_47"
+    },
+    {
+      "end": 2170334,
+      "speaker": "Michelle Borkin",
+      "start": 2164934,
+      "text": "Everyone will remember my lab. That's a good idea. I'm gonna think about that.",
+      "id": "ep_113_ut_48"
+    },
+    {
+      "end": 2181994,
+      "speaker": "Enrico Bertini",
+      "start": 2170454,
+      "text": "You should do that. I mean, that was a perfect meme, everyone. I mean, I'm sure many people still remember that. I have seen the dinosaur used, even after a few years.",
+      "id": "ep_113_ut_49"
+    },
+    {
+      "end": 2183234,
+      "speaker": "Michelle Borkin",
+      "start": 2182294,
+      "text": "I know.",
+      "id": "ep_113_ut_50"
+    },
+    {
+      "end": 2208534,
+      "speaker": "Enrico Bertini",
+      "start": 2185694,
+      "text": "That was so much fun. So maybe we can conclude you can tell us a little bit more about what is happening in your lab. And I know you are part of the. How is it called? Nuviz. Right. I think it's a larger consortium. And so I'm curious to hear what is happening in your lab. What are you focused on? What is happening at Northeastern? Sure.",
+      "id": "ep_113_ut_51"
+    },
+    {
+      "end": 2322682,
+      "speaker": "Michelle Borkin",
+      "start": 2208614,
+      "text": "So, my lab, very exciting. We keep growing, love recruiting new people, and we're working on all sorts of applications for computer decision support systems and medical diagnostics. That includes the stroke and artery visualization work. I have a lot of collaborations with psychologists, including some at Northeastern, and we're looking at how to do effective visualization design with low level evaluation studies. Also, a growing interest kind of just naturally grew out of all the projects at the same time. Interest in timelines, in time series visualization. My PhD student, Misha Schwab, is taking the lead on that. And we're also interested in interaction techniques and how people interact with timelines and 3d visualizations. And I also. A large part of my time is spent on the glue visualization project. And Glue is a multidimensional data visualization open source project, and it grew out work in astronomy, where we had big data sets, and we had three D and two D, and we had statistical plots, and they came from different telescopes. And each telescope has their own coordinate system and their own file formats, and the metadata is never in the same format, even though it's supposed to be. And we also have simulations and we want to compare a simulation of a galaxy to a real observation of a galaxy. And there's been no tool to do that. And so myself and Tom Robitai, Chris Boma, Alyssa Goodman, a whole huge collaboration of the, of us came together to say, let's make a tool for scientists where they can bridge this gap between different types of data dimensions and visual encodings and representations. So in that work we're doing a lot of novel brushing and linking methodologies and selection techniques. And that's a whole other interest of mine, is working with scientists on this tool.",
+      "id": "ep_113_ut_52"
+    },
+    {
+      "end": 2325946,
+      "speaker": "Enrico Bertini",
+      "start": 2322778,
+      "text": "So that's our whole Python library, is that correct?",
+      "id": "ep_113_ut_53"
+    },
+    {
+      "end": 2400868,
+      "speaker": "Michelle Borkin",
+      "start": 2326050,
+      "text": "Yeah. So it's all built in Python, and it's a GUI tool, open source. You can download@glueviz.org dot. What makes it unique is we're building it so it's highly customizable. You can write your own plugins for your own scientific file format, and we're trying to do novel linking abilities and make it so you can do really easy drag and drop visualizations. The hardest challenge I have with astronomers, doctors, physicists I work with is this barrier of, okay, I have this data set, but now what do I do with it? And if I want to make even a 3d visualization or I want to do a vector field, how do I do that in a really easy way? And many of these users, some of them are experts, some of them are really novice, they don't want to write Python code to do this, or they don't want to write Nar. So this is a drag and drop, boom, there's your data option for doing this. And for those expert users, it's highly customizable and you can control everything with command line and you can do batch processing. So if you don't want to use it as a GUI tool, you don't have to. There are other ways to do this. As an expert user.",
+      "id": "ep_113_ut_54"
+    },
+    {
+      "end": 2441160,
+      "speaker": "Enrico Bertini",
+      "start": 2400956,
+      "text": "Yeah, this is exactly what I would like to see more development in future years in visualization. I think that we made a lot of progress in terms of creating amazing libraries that people can use and libraries that make it much easier to create good visualizations, but there are not a lot of tools that people can use just to load the dataset and. Yeah, and display it. And there are so many domains that require specific tools to do that. Right, exactly. I don't know why this is not, not happening at a large scale yet. With a few exceptions, of course. Yeah, I would like to see more of that. In general, I think it would be really, really useful.",
+      "id": "ep_113_ut_55"
+    },
+    {
+      "end": 2460284,
+      "speaker": "Michelle Borkin",
+      "start": 2441272,
+      "text": "Yeah, so llama and glue is being developed primarily to support the James Webb space Telescope, which is going to be Hubble's follow on. But the whole thing is being built to be domain agnostic, and anyone from any domain can use this visualization tool. But I completely agree with you.",
+      "id": "ep_113_ut_56"
+    },
+    {
+      "end": 2502384,
+      "speaker": "Enrico Bertini",
+      "start": 2460724,
+      "text": "So one last question I want to ask you is regarding. So if some of our listeners want to work with scientists and do visualization with scientists. Right. So this could be in research settings, but also not necessarily in research, just in general. People want to work in the area, maybe people who are passionate about science and passionate about visualization. There are quite a few ones like that out there. So what's the best way to do that? And what are, do you think there are any, can you, can you give us some, some tips on what is the best way to work with a scientist? I think you kind of wear both hats, right?",
+      "id": "ep_113_ut_57"
+    },
+    {
+      "end": 2503124,
+      "speaker": "Michelle Borkin",
+      "start": 2502464,
+      "text": "Yeah.",
+      "id": "ep_113_ut_58"
+    },
+    {
+      "end": 2510192,
+      "speaker": "Enrico Bertini",
+      "start": 2503664,
+      "text": "And you've been working with scientists yourself as a visualization researcher. So what's the best way to do that?",
+      "id": "ep_113_ut_59"
+    },
+    {
+      "end": 2570142,
+      "speaker": "Michelle Borkin",
+      "start": 2510368,
+      "text": "I think there's a couple, one angle to take and one piece of advice is pick something you're passionate about. I know a lot of folks in the community who have a strong interest in biology or genomics or chemistry, and if you have a passion yourself, because working with scientists means you have to learn to speak their language, you have to learn about their research. So pick something you're passionate about, and that makes a very big difference. The other piece of advice is scientists. You know, a lot of them want to work with visualization experts. They need help and they're open minded and enthusiastic. So a lot of it is a bit of a social networking date matching kind of game. And talk with your local scientists in your departments or at your research institutions and schmooze. And people love to talk about their own work. Ask them, hey, where are you working on? And you do this enough and you'll find naturally good collaborators and interesting projects to work on.",
+      "id": "ep_113_ut_60"
+    },
+    {
+      "end": 2587166,
+      "speaker": "Enrico Bertini",
+      "start": 2570238,
+      "text": "Perfect. Well, thanks so much, Michelle. I think, again, that's another one of those situations where we could go on forever. So I think we'll have you on again. I don't know, after some time, because I feel like we just started scratching the surface of many.",
+      "id": "ep_113_ut_61"
+    },
+    {
+      "end": 2589274,
+      "speaker": "Michelle Borkin",
+      "start": 2587230,
+      "text": "I'm happy you come on anytime.",
+      "id": "ep_113_ut_62"
+    },
+    {
+      "end": 2592652,
+      "speaker": "Enrico Bertini",
+      "start": 2590374,
+      "text": "Thanks so much. Bye, Michelle.",
+      "id": "ep_113_ut_63"
+    },
+    {
+      "end": 2593104,
+      "speaker": "Michelle Borkin",
+      "start": 2592718,
+      "text": "Thanks.",
+      "id": "ep_113_ut_64"
+    },
+    {
+      "end": 2593768,
+      "speaker": "Enrico Bertini",
+      "start": 2593184,
+      "text": "Thank you.",
+      "id": "ep_113_ut_65"
+    },
+    {
+      "end": 2594520,
+      "speaker": "Michelle Borkin",
+      "start": 2593856,
+      "text": "Bye bye.",
+      "id": "ep_113_ut_66"
+    },
+    {
+      "end": 2620180,
+      "speaker": "Enrico Bertini",
+      "start": 2594552,
+      "text": "Bye bye. Hey, folks, thanks for listening to data stories again. Before you leave a few last notes, this show is now completely crowdfunded, so you can support us by going on Patreon. That's patreon.com Datastories and if you can spend a couple of minutes reading us on iTunes, that would be extremely helpful for the show.",
+      "id": "ep_113_ut_67"
+    },
+    {
+      "end": 2646060,
+      "speaker": "Moritz Stefaner",
+      "start": 2620292,
+      "text": "And here's also some information on the many ways you can get news directly from us. We are, of course, on twitter@twitter.com. Datastories. We have a Facebook page@Facebook.com. datastoriespodcast all in one word. And we also have a slack channel where you can chat with us directly. And to sign up, you can go to our homepage datastory es. And there is a button at the, the bottom of the page.",
+      "id": "ep_113_ut_68"
+    },
+    {
+      "end": 2661932,
+      "speaker": "Enrico Bertini",
+      "start": 2646212,
+      "text": "And we also have an email newsletter. So if you want to get news directly into your inbox and be notified whenever we published an episode, you can go to our home page Datastore es and look for the link you find at the bottom in the footer.",
+      "id": "ep_113_ut_69"
+    },
+    {
+      "end": 2674068,
+      "speaker": "Moritz Stefaner",
+      "start": 2662028,
+      "text": "So one last thing we want to tell you is that we love to get in touch with our listeners, especially if you want to suggest a way to improve the show or amazing people you want us to invite or if projects you want us to talk about.",
+      "id": "ep_113_ut_70"
+    },
+    {
+      "end": 2683284,
+      "speaker": "Enrico Bertini",
+      "start": 2674156,
+      "text": "Yeah, absolutely. And don't hesitate to get in touch with us. It's always a great thing to hear from you. So see you next time, and thanks for listening to data stories.",
+      "id": "ep_113_ut_71"
+    }
+  ],
+  "confidence": 0.927037289889522,
+  "audio_duration": 2692,
+  "punctuate": true,
+  "format_text": true,
+  "dual_channel": false,
+  "webhook_url": null,
+  "webhook_status_code": null,
+  "webhook_auth": false,
+  "webhook_auth_header_name": null,
+  "speed_boost": false,
+  "auto_highlights_result": null,
+  "auto_highlights": false,
+  "audio_start_from": null,
+  "audio_end_at": null,
+  "word_boost": [],
+  "boost_param": null,
+  "filter_profanity": false,
+  "redact_pii": false,
+  "redact_pii_audio": false,
+  "redact_pii_audio_quality": null,
+  "redact_pii_policies": null,
+  "redact_pii_sub": null,
+  "speaker_labels": true,
+  "content_safety": false,
+  "iab_categories": true,
+  "content_safety_labels": {
+    "status": "unavailable",
+    "results": [],
+    "summary": {}
+  },
+  "language_detection": false,
+  "language_detection_threshold": null,
+  "language_confidence": null,
+  "custom_spelling": null,
+  "throttled": false,
+  "auto_chapters": true,
+  "summarization": false,
+  "summary_type": null,
+  "summary_model": null,
+  "custom_topics": false,
+  "topics": [],
+  "speech_threshold": null,
+  "speech_model": "best",
+  "chapters": [
+    {
+      "summary": "Enrico: Welcome to a new episode of data stories. Data stories is now completely, fully funded by our listeners. If you enjoy what we are doing and you want to support us, please consider going on Patreon and pledge some amount for us.",
+      "gist": "Data Stories",
+      "headline": "Data stories is now completely, fully funded by our listeners",
+      "start": 280,
+      "end": 105116,
+      "id": "ep_113_ch_0"
+    },
+    {
+      "summary": "Michelle Borkin is a professor from Northeastern University and one of my favorite researchers in visualization. We're going to talk about a lot of interesting topic. Michel, welcome on the show.",
+      "gist": "Michelle Borkin on the Show",
+      "headline": "Michelle Borkin is a professor of visualization at Northeastern University",
+      "start": 105260,
+      "end": 130226,
+      "id": "ep_113_ch_1"
+    },
+    {
+      "summary": "Alissa Kohn is an assistant professor at Northeastern University in Boston. Her PhD is in applied physics, but she fell in love with data visualization early on. How did she make the switch from astronomy to computer science?",
+      "gist": "How data visualization broke through the STEM field",
+      "headline": "Perseus is an assistant professor at Northeastern University in Boston",
+      "start": 130250,
+      "end": 563918,
+      "id": "ep_113_ch_2"
+    },
+    {
+      "summary": "In this episode, Jarrett looks at a paper that compares different ways to visualize arteries in the heart. The goal was to help cardiologists in the hospital to do more effective heart disease diagnostics. What was the inspiration for doing something that's two d and flat?",
+      "gist": "Flat vs 3-D Heart Disease visualization",
+      "headline": "You published a paper comparing different ways to visualize arteries in the heart",
+      "start": 563966,
+      "end": 1096298,
+      "id": "ep_113_ch_3"
+    },
+    {
+      "summary": "We're right now actively working to look at artery projection techniques, 2d versus 3d. How do you visually link and represent effective abstract or 2d representations in conjunction with brushing and linking and the like with 3d renderings? I would love to see more really good ones, really good 3d visualizations.",
+      "gist": "2d vs 3-D in medical visualization",
+      "headline": "We're looking at artery projection techniques, 2d versus 3d",
+      "start": 1096346,
+      "end": 1178744,
+      "id": "ep_113_ch_4"
+    },
+    {
+      "summary": "Another popular piece of research that you've done in recent years is the one about memorability. What is visualization research on memorability? This becomes important, for example, with applications of teaching. Measuring visualization comprehension is really hard.",
+      "gist": "The Neuroscience of Visualization and Memorability",
+      "headline": "Another very popular piece of research that you've done is the one about memorability",
+      "start": 1180204,
+      "end": 1476312,
+      "id": "ep_113_ch_5"
+    },
+    {
+      "summary": "Almost 6000 visualizations scraped from news media websites, government websites. And we went through some journal publications to build this massive database of visualizations. All this metadata is included in the, in the public data set that you created.",
+      "gist": "What it's Take to Study Memoirs",
+      "headline": "You've been exposing people to large sets of charts and visualizations",
+      "start": 1476448,
+      "end": 1621768,
+      "id": "ep_113_ch_6"
+    },
+    {
+      "summary": "A good title, a good legend, and good annotations. All these contextual elements are as important as the encoding part. Providing context and effectively communicating your message. These are all really important.",
+      "gist": "In the Elevator With Tufte",
+      "headline": "You say contextual elements are as important as encoding data in a visualization",
+      "start": 1621856,
+      "end": 1816184,
+      "id": "ep_113_ch_7"
+    },
+    {
+      "summary": "In the ideal well designed visualization, these should be complementary and enforce one another. The brain has two channels, one for visual information and one for semantic or text or verbal information. The ideal set of design principles lets you have the two channels enforcing one another to help you.",
+      "gist": "Can You Memorize a Graph?",
+      "headline": "You can memorize the chart itself, how it appears, the shape",
+      "start": 1816264,
+      "end": 1995944,
+      "id": "ep_113_ch_8"
+    },
+    {
+      "summary": "Some of the most memorable visualizations in our data set came from a couple scientific journal papers about dinosaurs and evolution of dinosaurs. Putting dinosaurs in your visualization does not automatically make it better and more memorable. There's so many studies to be had and so much work in this space.",
+      "gist": "The Memorable Visualizations of the Dinosaur",
+      "headline": "Putting dinosaurs in your visualization does not automatically make it better or more memorable",
+      "start": 1996764,
+      "end": 2187070,
+      "id": "ep_113_ch_9"
+    },
+    {
+      "summary": "A large part of James' time is spent on the glue visualization project. Glue is a multidimensional data visualization open source project. James would like to see more development in future years in visualization.",
+      "gist": "What is the work in your lab?",
+      "headline": "A large part of your time is spent on the glue visualization project",
+      "start": 2187182,
+      "end": 2460284,
+      "id": "ep_113_ch_10"
+    },
+    {
+      "summary": "Michelle: If some of our listeners want to work with scientists and do visualization with scientists. What's the best way to do that? She says pick something you're passionate about. And talk with your local scientists in your departments or at your research institutions.",
+      "gist": "How to Work with Scientists",
+      "headline": "Some listeners want to work with scientists and do visualization with scientists",
+      "start": 2460724,
+      "end": 2595324,
+      "id": "ep_113_ch_11"
+    },
+    {
+      "summary": "This show is now completely crowdfunded, so you can support us by going on patreon. com Datastories. Here's some information on the many ways you can get news directly from us. We love to get in touch with our listeners, especially if you want to suggest a way to improve the show.",
+      "gist": "How to Subscribe to Data Stories Podcast",
+      "headline": "This show is now completely crowdfunded, so you can support us on Patreon",
+      "start": 2599744,
+      "end": 2683284,
+      "id": "ep_113_ch_12"
+    }
+  ],
+  "disfluencies": false,
+  "entity_detection": false,
+  "sentiment_analysis": false,
+  "sentiment_analysis_results": null,
+  "entities": null,
+  "speakers_expected": null,
+  "summary": null,
+  "custom_topics_results": null,
+  "episode_num": 113,
+  "episode_metadata": {
+    "speakers": [
+      "Michelle Borkin",
+      "Enrico Bertini",
+      "Moritz Stefaner"
+    ],
+    "WPid": "1099",
+    "url": "https://datastori.es/podlove/file/4734/s/feed/c/mp3/113-what-makes-a-visualization-memorable-with-michelle-borkin.mp3",
+    "episode_title": "What Makes A Visualization Memorable? with Michelle Borkin"
+  }
+}

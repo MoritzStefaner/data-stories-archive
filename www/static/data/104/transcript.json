@@ -1,0 +1,953 @@
+{
+  "id": "d502a21b-afae-4421-845a-214e162a698c",
+  "language_model": "assemblyai_default",
+  "acoustic_model": "assemblyai_default",
+  "language_code": "en_us",
+  "status": "completed",
+  "audio_url": "https://datastori.es/podlove/file/4255/s/feed/c/mp3/104-visualization-literacy-in-elementary-school-with-basak-alper-and-nathalie-riche.mp3",
+  "utterances": [
+    {
+      "end": 12874,
+      "speaker": "Basak Alper",
+      "start": 320,
+      "text": "Children can start from the more concrete representation and using smooth animated transitions, observe how the concrete representation becomes the more abstract representation.",
+      "id": "ep_104_ut_0"
+    },
+    {
+      "end": 195410,
+      "speaker": "Enrico Bertini",
+      "start": 17574,
+      "text": "Data stories is brought to you by click. Are you missing out on meaningful relationships hidden in your data? Unlock the old story with Qlik sense through personalized visualizations and dynamic dashboards, which you can download for free at clic Datastories. Hey everyone, welcome to a new episode of Data stories. Today is only a episode without Moritz. Moritz is on vacation. Hey Moritz, you'll enjoy listening to this one. And before I introduce our special guest for today, I want to briefly mention our Patreon crowdfunding initiative. So what we are trying to do in the show is to go ads free and you can support the show by going on Patreon. And this is patreon.com Datastories and you can pledge some amount that will be. So the way Patreon works is that you can decide to offer to us a certain little amount of money in the order of two, three, four or $5. And we charge you this amount every time we publish an episode. It's a very neat system and you can sign up and if you don't like it, you can also just stop it anytime. And basically for the price of a latte or coffee every two weeks. You support the show. So if you are interested, and you are interested, if you like our show and you're interested in supporting us, just go to patreon.com Datastories and you'll find all the information about why we are doing this and how it works. So now let me start with our guest for today. So for today we are talking about a very nice project that has been recently published in a paper at the CHI conference, the main human computer interaction conference. And the project is called C\u2019est la vis and it's a very important topic. It's about visualization literacy, how to basically teach people how to read and also make visualization. But in this particular case, what is really nice is that the authors have been working on how to teach visualization at the elementary school level to kids. So that's very nice. And on the show I have two of the authors of the paper. We have Basak Alper and Nathalie Riche.",
+      "id": "ep_104_ut_1"
+    },
+    {
+      "end": 196278,
+      "speaker": "Nathalie Riche",
+      "start": 195432,
+      "text": "Thank you, Enrico.",
+      "id": "ep_104_ut_2"
+    },
+    {
+      "end": 197110,
+      "speaker": "Basak Alper",
+      "start": 196326,
+      "text": "Thank you.",
+      "id": "ep_104_ut_3"
+    },
+    {
+      "end": 210154,
+      "speaker": "Enrico Bertini",
+      "start": 197262,
+      "text": "As usual in the show we ask our guests to introduce themselves. So Basak and Nathalie, can you briefly introduce yourself and tell us what is your background, your main interest, maybe your current position?",
+      "id": "ep_104_ut_4"
+    },
+    {
+      "end": 264180,
+      "speaker": "Basak Alper",
+      "start": 210894,
+      "text": "So I'll start. Currently I'm a data visualization researcher and developer at Jet Propulsion Laboratory of NASA. And I work with engineers who operate the rover on Mars and try to help them design information visualization dashboards and other software tools to help them process vast amounts of data coming from the rover. Prior to that, I completed my PhD at UC Santa Barbara at Media Arts and Technology program, working on data visualization and human computer interaction. And Nathalie has been a mentor for me since 2010, since my internship at Microsoft Research.",
+      "id": "ep_104_ut_5"
+    },
+    {
+      "end": 298038,
+      "speaker": "Enrico Bertini",
+      "start": 264292,
+      "text": "Nice. And yeah, I've actually been visiting JPL a few years back, and it's an amazing place I really enjoy. Yeah, very, very nice. Maybe we should get some other people from JPL in the future as well to talk about what is going on at NASA. I think we actually had Rachel Binx a few years back, and I think at that time she was working at NASA as well, and then she left. I don't know if your path crossed any time.",
+      "id": "ep_104_ut_6"
+    },
+    {
+      "end": 299886,
+      "speaker": "Basak Alper",
+      "start": 298166,
+      "text": "No, I started recently.",
+      "id": "ep_104_ut_7"
+    },
+    {
+      "end": 303510,
+      "speaker": "Enrico Bertini",
+      "start": 300070,
+      "text": "Okay. Okay. So, Nathalie, can you briefly introduce yourself?",
+      "id": "ep_104_ut_8"
+    },
+    {
+      "end": 380944,
+      "speaker": "Nathalie Riche",
+      "start": 303622,
+      "text": "Sure. So, I'm a researcher at Microsoft Research, and I do data visualization. I've been kind of thinking about data and how complex data can be visualized, and I've been just, I think, fascinated by the way you can help people explore their data and just watching people discover new things they didn't know about their data. So my PhD was in computer science, and I was in the Aviz lab in, in. I was working with social scientists there. I also did part of my PhD in Australia, which is really cool experience to have two PhDs, I guess. But then when I started at Microsoft research, I started working with more end users, I guess, to just the regular people, rather than researchers in neuroscience or social science. And so naturally, my interest kind of went around storytelling, the way you could communicate with data. So that's mostly what I'm doing these days. And that naturally led to how do you teach people to better read and understand visualization and also create them?",
+      "id": "ep_104_ut_9"
+    },
+    {
+      "end": 410790,
+      "speaker": "Enrico Bertini",
+      "start": 381064,
+      "text": "Yeah. Perfect. So, can you tell us a little bit about what the project syllabus is? I've been. So, to prepare for the show, I've been reading through the pages of your paper and was really astonished by the amount of work that you've done. Done. So I have to say, this paper, as I said at the beginning, has been recently published at the CHI's conference, and you also got an award for it, an honorable mention award, which is very prestigious. So congratulations for that.",
+      "id": "ep_104_ut_10"
+    },
+    {
+      "end": 411318,
+      "speaker": "Basak Alper",
+      "start": 410862,
+      "text": "Thank you.",
+      "id": "ep_104_ut_11"
+    },
+    {
+      "end": 411846,
+      "speaker": "Nathalie Riche",
+      "start": 411366,
+      "text": "Thank you.",
+      "id": "ep_104_ut_12"
+    },
+    {
+      "end": 428784,
+      "speaker": "Enrico Bertini",
+      "start": 411910,
+      "text": "And so you've been studying visual literacy in school, but also building a tool. So the project is very rich. Can you give us a little bit of an overview of the project.",
+      "id": "ep_104_ut_13"
+    },
+    {
+      "end": 511638,
+      "speaker": "Basak Alper",
+      "start": 428934,
+      "text": "I'll start with describing how the project emerged and then maybe Nathalie can elaborate on what we did in the end. Summarize. Yes, I'm a Fulbright scholar and upon completing my PhD, I had to go back to Turkey and I started a postdoc there at the user interfaces lab. And we got a grant to develop educational tools for tablet devices because education Ministry of Education was distributing free tablets to schools, but they didn't know what to do with them. So being a visualization researcher, I started to think about visualization related topics and I started to look at textbooks. I gathered a bunch of textbooks and noticed that they are very, very rich in visual representation of data, even in very early grades, like even in pre k. And children start to learn about formal visualizations such as histograms and bar charts as early as third grade. Then Nathalie and I started to talk about what role visualizations play in early education and how much kids learn about formal visualizations, how they are taught about visualizations and what is the level of expected visualization literacy at this level. And C\u2019est la vis has begun, basically.",
+      "id": "ep_104_ut_14"
+    },
+    {
+      "end": 573804,
+      "speaker": "Nathalie Riche",
+      "start": 511806,
+      "text": "Yeah. So it was interesting because I think it was just a set of different events kind of happening concurrently. One part is that Basak started her postdoc there and we stayed very close after our internship. I really enjoy working with her and so we kept conversation going there. One other kind of event is that I had kids starting preschool, so I actually was looking at blocks and having them make bar chart with blocks in some ways. And I guess the last set of events is that, you know, there were like this more and more infographics every day in the news. And I guess I was just annoyed by the amount of incorrect charts out there. So all of these together kind of made that project very compelling at the time. I think also we were very inspired by your work, Enrico, you know, the deceptive visualization paper.",
+      "id": "ep_104_ut_15"
+    },
+    {
+      "end": 574992,
+      "speaker": "Enrico Bertini",
+      "start": 574544,
+      "text": "Yes.",
+      "id": "ep_104_ut_16"
+    },
+    {
+      "end": 579336,
+      "speaker": "Nathalie Riche",
+      "start": 575048,
+      "text": "So all of that together, we thought there's really something compelling.",
+      "id": "ep_104_ut_17"
+    },
+    {
+      "end": 604550,
+      "speaker": "Enrico Bertini",
+      "start": 579400,
+      "text": "Yeah, I think that's a space where there is so much work to do. And I think going back to, I mean, starting from kids seems like a very natural and approach. It makes a lot of sense. Right. Kind of like go to the root of the problem. Save people before they. They are exposed to bad charts. Let's teach kids how to do things properly in the first place rather than correct afterwards. Right?",
+      "id": "ep_104_ut_18"
+    },
+    {
+      "end": 605254,
+      "speaker": "Basak Alper",
+      "start": 604702,
+      "text": "Exactly.",
+      "id": "ep_104_ut_19"
+    },
+    {
+      "end": 608794,
+      "speaker": "Enrico Bertini",
+      "start": 605294,
+      "text": "Yeah. It's better to prevent than to solve a problem.",
+      "id": "ep_104_ut_20"
+    },
+    {
+      "end": 613914,
+      "speaker": "Nathalie Riche",
+      "start": 609854,
+      "text": "Exactly. I mean, I like how you put it right. Save the next generation.",
+      "id": "ep_104_ut_21"
+    },
+    {
+      "end": 647354,
+      "speaker": "Enrico Bertini",
+      "start": 614614,
+      "text": "Yeah. Yeah, that's a very important goal. And even, I mean, I think literacy is one of those issues or topics that has been. It's incredibly important, but there is not a lot of work out there. And, yeah, and starting from kids is just perfect. So can you walk us through some of the phases of the project? As I said, the paper is very rich and you've been through a lot of different phases. So can you explain to us what happened in the project?",
+      "id": "ep_104_ut_22"
+    },
+    {
+      "end": 685728,
+      "speaker": "Nathalie Riche",
+      "start": 647794,
+      "text": "Sure. I mean, we started, as Basak said briefly, but we started by just looking at what's out there. So mostly textbooks at that time. I also started sitting down with teachers in my kids school trying to understand what sort of material or activities they were using. So the first phase was really trying to kind of understand is visualization literacy even taught and how. And then I guess Basak also did a number of interviews there. Perhaps you want to talk a little bit about those.",
+      "id": "ep_104_ut_23"
+    },
+    {
+      "end": 780654,
+      "speaker": "Basak Alper",
+      "start": 685896,
+      "text": "Yeah, I started informal interviews back in Turkey. We did not include these in the paper because we didn't want to kind of, you know, because then we had to kind of talk about the consistency between us educational material and turkish educational material. Although we observed they are very, very similar, we didn't want to bring another kind of confound in the study. But informally, I started to talk to teachers and we realized visualizations play a key role. You know, they have to explain things with visuals all the time and they have to teach visualizations. But there is, how should I say, you know, but in terms of using, making use of interactive tools, they don't do anything novel with the interactivity. They still use, you know, whatever there was ten years ago, still relying on static images and still kind of explaining one visual representation and then later in months later introducing another complexity level of visualization. Things progress very gradually. They don't make use of interactivity. We noticed these discrepancies very early on, and C\u2019est la vis started to shape.",
+      "id": "ep_104_ut_24"
+    },
+    {
+      "end": 798868,
+      "speaker": "Nathalie Riche",
+      "start": 780734,
+      "text": "Okay, yeah, I mean, if I can say a little bit more there, what we learned from just, you know, looking at these tons of materials, sitting down with teachers and interviewing them is that there's not really a formal plan to teach visualization literacy. It kind of happens.",
+      "id": "ep_104_ut_25"
+    },
+    {
+      "end": 799628,
+      "speaker": "Basak Alper",
+      "start": 798956,
+      "text": "Exactly.",
+      "id": "ep_104_ut_26"
+    },
+    {
+      "end": 810344,
+      "speaker": "Nathalie Riche",
+      "start": 799716,
+      "text": "And it's very surprising because there is, though, a lot of material out of those books that we looked at. I don't know how many pages, Basak.",
+      "id": "ep_104_ut_27"
+    },
+    {
+      "end": 812144,
+      "speaker": "Basak Alper",
+      "start": 810644,
+      "text": "5000 pages.",
+      "id": "ep_104_ut_28"
+    },
+    {
+      "end": 829524,
+      "speaker": "Nathalie Riche",
+      "start": 814204,
+      "text": "Out of them. More than half had actual visualization in them. But yet there's like no program that actually is dedicated to those. So that was extremely surprising to us. We're kind of like, we have to do something about this.",
+      "id": "ep_104_ut_29"
+    },
+    {
+      "end": 845718,
+      "speaker": "Enrico Bertini",
+      "start": 829644,
+      "text": "Sure, sure. Yeah. So basically what you are saying is that. So the way visualization is introduced is mostly by using charts or diagrams to teach other topics, right? Is that correct?",
+      "id": "ep_104_ut_30"
+    },
+    {
+      "end": 848074,
+      "speaker": "Nathalie Riche",
+      "start": 845846,
+      "text": "Right. To teach like, math.",
+      "id": "ep_104_ut_31"
+    },
+    {
+      "end": 878792,
+      "speaker": "Basak Alper",
+      "start": 849334,
+      "text": "So very, very simple visual representations of data is used to explain abstract concepts. They are used to make a concrete picture of an abstract concept. And later they are actually taught about formal visualizations, like how to make a bar chart, how to read a bar chart. They are explicitly taught this to children, but, yeah, the materials used and all are very simple.",
+      "id": "ep_104_ut_32"
+    },
+    {
+      "end": 897524,
+      "speaker": "Enrico Bertini",
+      "start": 878928,
+      "text": "Okay. Yeah, I see. And so what did you find in terms of the type of visualizations or material that is used in class? Is it substantially different from what we are used to see or. It's somewhat similar.",
+      "id": "ep_104_ut_33"
+    },
+    {
+      "end": 962650,
+      "speaker": "Basak Alper",
+      "start": 898104,
+      "text": "We noticed basically there are a lot of pictograms are being used in early grades. Free form pictograms, structured pictograms. Basically, a pictogram is like representing numbers with visual icons. Those are very, very common, but as grades progress, they are introduced to more and more abstract visual representations, such as histograms and bar charts and venn diagrams. There is a, you know, a very formal breakdown in the paper, which is too many details to go through here, but there is a rich variety. Some of the visualizations are, you know, like, for instance, bar charts are the most common formal visualization that we encounter in elementary schools. But some of the visualizations that are used in elementary schools are not very common. For instance, fraction diagrams, they use it all the time, but it is not something we use later in life.",
+      "id": "ep_104_ut_34"
+    },
+    {
+      "end": 985454,
+      "speaker": "Enrico Bertini",
+      "start": 962762,
+      "text": "I see. Yeah, I think that's what surprised me also the first time I saw this kind of charts in my kids classroom. Right. So they have their walls. On their walls, they have these kind of large, very large diagrams, but they tend to be much more concrete than the abstract charts that we use in our. Yeah, in our work.",
+      "id": "ep_104_ut_35"
+    },
+    {
+      "end": 998518,
+      "speaker": "Nathalie Riche",
+      "start": 985534,
+      "text": "Right, well, I guess they're. They're closer to, like, infographics. You know, they're closer to the. Yeah, those kind of representation for like, the wide audience that designer love. Right.",
+      "id": "ep_104_ut_36"
+    },
+    {
+      "end": 1026010,
+      "speaker": "Enrico Bertini",
+      "start": 998606,
+      "text": "Yeah, yeah, yeah, yeah, yeah. And there is also a kind of, like, it looks to me that most of the time these items are countable so that there is a direct connection between what you see and what you can actually mentally count. Right. By pointing your finger to these objects and. Yeah. So when I look at the pictograms and examples that you have in your paper, it looks similar to me to what I have observed in my kids classroom.",
+      "id": "ep_104_ut_37"
+    },
+    {
+      "end": 1054004,
+      "speaker": "Nathalie Riche",
+      "start": 1026122,
+      "text": "Yeah. I mean, I think it's pretty much a good slice. You know, in fact, between all of the authors, we've kind of looked at materials from the US, from France, from Turkey. So I, you know, it might not be exhaustive, but I think we have a pretty good representative idea of what's taught right now to kids in the. In the world, I guess.",
+      "id": "ep_104_ut_38"
+    },
+    {
+      "end": 1065840,
+      "speaker": "Enrico Bertini",
+      "start": 1055544,
+      "text": "Yeah. And they also. So I see from your paper that you've also been looking into tangible objects. So can you tell us a little bit more about it?",
+      "id": "ep_104_ut_39"
+    },
+    {
+      "end": 1120026,
+      "speaker": "Nathalie Riche",
+      "start": 1065952,
+      "text": "Yeah, so we didn't, you know, we didn't really look at this in more depth. I think first it was quite tedious to code the graphics, so grabbing actual tangibles in the classroom, in addition, was kind of another endeavor. But we encountered a lot of them just going in the classroom and teaching and, like, sitting down with the teachers. So a lot of these, again, are like, you know, very similar to what you said about the pictograph, that you could build visualization where you could actually count and put your finger and manipulate each element of them. And those occur mostly in early grades, preschool, k grade one, and then they tend to disappear from the classrooms.",
+      "id": "ep_104_ut_40"
+    },
+    {
+      "end": 1120790,
+      "speaker": "Enrico Bertini",
+      "start": 1120200,
+      "text": "I see.",
+      "id": "ep_104_ut_41"
+    },
+    {
+      "end": 1144794,
+      "speaker": "Basak Alper",
+      "start": 1120862,
+      "text": "We also noticed in the textbooks there were a lot of exercises which required kids to work with tangible objects first and then draw pictures of these tangible objects. So kind of, you know, encouraging kids to work with something more concrete, but then creating a more abstract representation of it later on. We encountered many exercises as such.",
+      "id": "ep_104_ut_42"
+    },
+    {
+      "end": 1158322,
+      "speaker": "Enrico Bertini",
+      "start": 1145674,
+      "text": "Yeah. So after this initial analysis, you decided that it would be useful to create an interactive tool to support some of the work that teachers do in class, right? Is that correct?",
+      "id": "ep_104_ut_43"
+    },
+    {
+      "end": 1205692,
+      "speaker": "Basak Alper",
+      "start": 1158418,
+      "text": "That's correct. But there is. The important thing we noticed looking at this visual material was like, we noticed there is this progression towards more and more abstract representation. Like I said, in the tangible case, there is an exercise which requires kids to work with the tangible object and then draw it, and then from that tangible drawing, making it look like more like a continuous bar chart rather than, you know, discrete elements. You know, it progresses like that, but it progresses, you know, in time, very gradually over the grades. But there is no tool to explain children that actually, you know, this representation corresponds to this representation.",
+      "id": "ep_104_ut_44"
+    },
+    {
+      "end": 1206276,
+      "speaker": "Enrico Bertini",
+      "start": 1205788,
+      "text": "Okay.",
+      "id": "ep_104_ut_45"
+    },
+    {
+      "end": 1239570,
+      "speaker": "Basak Alper",
+      "start": 1206340,
+      "text": "And here how they are, you know, correspond to each other using some interactivity or animation. There was nothing like that. And then at that point, it hit us, you know, there is this, you know, tablet devices being distributed in schools, and tablets are becoming more and more commonplace in classrooms, and we can actually make use of interactivity and animations to teach kids how different abstraction level visualizations correspond to or map to each other.",
+      "id": "ep_104_ut_46"
+    },
+    {
+      "end": 1240362,
+      "speaker": "Enrico Bertini",
+      "start": 1239722,
+      "text": "I see.",
+      "id": "ep_104_ut_47"
+    },
+    {
+      "end": 1278444,
+      "speaker": "Nathalie Riche",
+      "start": 1240458,
+      "text": "Right. I mean, I guess what's really interesting there is that it's all implicit and it occurs really over years. That's what Basak was explaining. And then we said, well, perhaps it would help if we actually explain that to the kids, right. That there is different ways to represent the same data. And so that's why you have to pay attention to the encoding. And then that was kind of the motivating factor for us, that perhaps we could actually help improve the way it's taught. So that's why we got this idea to start implementing something.",
+      "id": "ep_104_ut_48"
+    },
+    {
+      "end": 1284056,
+      "speaker": "Enrico Bertini",
+      "start": 1280064,
+      "text": "And that's basically the basis of the self prototype, right?",
+      "id": "ep_104_ut_49"
+    },
+    {
+      "end": 1284872,
+      "speaker": "Basak Alper",
+      "start": 1284160,
+      "text": "Exactly.",
+      "id": "ep_104_ut_50"
+    },
+    {
+      "end": 1288168,
+      "speaker": "Enrico Bertini",
+      "start": 1284968,
+      "text": "Okay, so can you describe how self works?",
+      "id": "ep_104_ut_51"
+    },
+    {
+      "end": 1344036,
+      "speaker": "Basak Alper",
+      "start": 1288336,
+      "text": "So self is a prototype to teach kids how to interpret and construct bar charts. And we defined an abstraction spectrum starting from freeform pictograms leading to bar charts. And there are individual visualizations in between. And children can start from the more concrete representation and using smooth, animated transitions, observe how the concrete representation becomes the more abstract representation. Or they can view side by side a more concrete representation and abstract representation. And using interactive highlights, brushing and linking techniques, they can understand how one visualization corresponds to the other.",
+      "id": "ep_104_ut_52"
+    },
+    {
+      "end": 1345108,
+      "speaker": "Enrico Bertini",
+      "start": 1344140,
+      "text": "I see, right.",
+      "id": "ep_104_ut_53"
+    },
+    {
+      "end": 1390518,
+      "speaker": "Nathalie Riche",
+      "start": 1345156,
+      "text": "And what's interesting about it is we started by just thinking about the kids, right. We started thinking about designing those apps that they would use. But then we quickly realized, kind of hanging out with teachers that we actually needed to help them create those exercises so they could match whatever they were teaching. And also, you know, kind of vary and control sort of level of difficulty or complexity. So that we ended up actually realizing we needed also the other interface for the teachers to author those exercises. So that's kind of what we have, the student experience and then the teacher experience.",
+      "id": "ep_104_ut_54"
+    },
+    {
+      "end": 1398942,
+      "speaker": "Enrico Bertini",
+      "start": 1390646,
+      "text": "Sure. So basically, you ended up creating an authoring system that helps teachers create the exercise in the first place, right?",
+      "id": "ep_104_ut_55"
+    },
+    {
+      "end": 1443354,
+      "speaker": "Basak Alper",
+      "start": 1399038,
+      "text": "Yes. And the authoring part is equally important because we did a survey with the teachers later and we asked them, like, how they gather visual material, you know, how they customize visual material. And a lot of teachers expressed the need that, you know, it takes them a lot of time to find the right visual context. They said, you know, and it is very hard for teachers to create interactive material. That's why they are not used very much in classrooms. And whatever interactive material out there is, you know, has a specific visual context. But teachers often need to turn, like a real life experience into a math problem.",
+      "id": "ep_104_ut_56"
+    },
+    {
+      "end": 1443954,
+      "speaker": "Enrico Bertini",
+      "start": 1443514,
+      "text": "Sure.",
+      "id": "ep_104_ut_57"
+    },
+    {
+      "end": 1486372,
+      "speaker": "Basak Alper",
+      "start": 1444034,
+      "text": "That's why it is really important for them to customize the visual iconography, you know, something happened in the classroom. Now, the teacher needs to turn this thing into a math problem, but it is very hard to go and find something that is exactly what they are looking for out there, readily available. So we realized it is very important to provide an altering tool to help teachers customize the look and feel, the visual iconography, so they can match, you know, the kids experience, real life experience in the classroom to the educational material.",
+      "id": "ep_104_ut_58"
+    },
+    {
+      "end": 1515538,
+      "speaker": "Enrico Bertini",
+      "start": 1486468,
+      "text": "Sure. And this is presented to the. To the students as a. As an exercise. Right. So one question I have is, do they see it as a sort of game? Do they like the fact that it's an interactive, interactive kind of like software they can play with? And there is a clear. I guess there is a clear goal, and they get feedback on whether they're doing well or not, if it's correct or not. Right. So how do they react not to.",
+      "id": "ep_104_ut_59"
+    },
+    {
+      "end": 1518632,
+      "speaker": "Basak Alper",
+      "start": 1515626,
+      "text": "Observations in the classroom? So I'll let her explain.",
+      "id": "ep_104_ut_60"
+    },
+    {
+      "end": 1519268,
+      "speaker": "Enrico Bertini",
+      "start": 1518738,
+      "text": "Okay.",
+      "id": "ep_104_ut_61"
+    },
+    {
+      "end": 1537064,
+      "speaker": "Nathalie Riche",
+      "start": 1519356,
+      "text": "Yeah. So what's interesting, in fact, was fascinating that I didn't really realize before I sit down in the classroom, is that the activities where the kids have to figure out the rules themselves seem to be very engaging to the kids.",
+      "id": "ep_104_ut_62"
+    },
+    {
+      "end": 1540220,
+      "speaker": "Enrico Bertini",
+      "start": 1537684,
+      "text": "So can you give us an example?",
+      "id": "ep_104_ut_63"
+    },
+    {
+      "end": 1557482,
+      "speaker": "Nathalie Riche",
+      "start": 1540332,
+      "text": "Yeah. So, for example, like, my daughter was, like, in preschool, and then we, you know, I sat down with her, with our new teacher to see how she would do. And then the teacher started grabbing, like, a couple of small, you know, toys, like figurines of different colors.",
+      "id": "ep_104_ut_64"
+    },
+    {
+      "end": 1558154,
+      "speaker": "Enrico Bertini",
+      "start": 1557578,
+      "text": "Yeah.",
+      "id": "ep_104_ut_65"
+    },
+    {
+      "end": 1637424,
+      "speaker": "Nathalie Riche",
+      "start": 1558274,
+      "text": "And then she started putting them, you know, all of the blues together and then all of the one that are red together. And then, you know, she would just put one there. And then she asked my daughter, well, what do you think we should do next? And then she would give her one of those little figurine, and then my daughter, you know, she was like three or four at the time, and then she started piling them in color. Right. Because she saw what the teacher was doing, and so she was kind of emulating that behavior. And then at the end, the teacher was like, so what did you think we did? Why did we do it this way? And then my daughter, you know, all small that she was. She could actually explain, well, I put the same color together. And, you know, it was very kind of enlightening for me because it's like, wow, why don't you just tell her we're grouping by color? She kind of had to figure it out herself. And so then she was really engaged. In fact, I hadn't seen her that engaged to do, you know, those kind of little exercises or activities before. So with Cela vis, we kind of tried different ways to engage the kids. And I guess, you know, probably not every way is in there, but one of them is to just pair them. The two of two kids together.",
+      "id": "ep_104_ut_66"
+    },
+    {
+      "end": 1637984,
+      "speaker": "Enrico Bertini",
+      "start": 1637544,
+      "text": "Yeah.",
+      "id": "ep_104_ut_67"
+    },
+    {
+      "end": 1675264,
+      "speaker": "Nathalie Riche",
+      "start": 1638064,
+      "text": "Each with one tablet, though, because we don't want them to fight. Yeah. And we just tell them to explore. So we just didn't tell them anything. Oh, not what the tool was. Nothing. And the, usually we started that with the animation ones. And then what's very interesting is that the kids started to engage with each other and then try to figure out, well, what do you think it's doing? And then try to figure out that actually by themselves, that the visualization were all about the same data but different ways to represent it.",
+      "id": "ep_104_ut_68"
+    },
+    {
+      "end": 1675952,
+      "speaker": "Enrico Bertini",
+      "start": 1675344,
+      "text": "Yeah.",
+      "id": "ep_104_ut_69"
+    },
+    {
+      "end": 1677840,
+      "speaker": "Nathalie Riche",
+      "start": 1676088,
+      "text": "So that was very intriguing.",
+      "id": "ep_104_ut_70"
+    },
+    {
+      "end": 1678472,
+      "speaker": "Enrico Bertini",
+      "start": 1677912,
+      "text": "Yeah.",
+      "id": "ep_104_ut_71"
+    },
+    {
+      "end": 1740044,
+      "speaker": "Nathalie Riche",
+      "start": 1678608,
+      "text": "And other. But then we tried also other versions. Like, one of them is actually sort of a game. Basak designed that one. It's really cool. It's like a cat, and you have to. And he's thinking about what he wants to eat, and it's kind of. You have to match what he's thinking in his head. Like three fish, you know, and then a bottle of milk. And you basically have to create the bar chart that match that. And then once you manage to do that to create it, then the cat is, like, super happy and he's like, you know, laughing and stuff. So it's more like a game type of method. And then that worked with some. With some of the kids, too, I guess it perhaps. I mean, I'm unsure about that, but talking with the teachers, it sounded like perhaps their focus is more on managing to complete the game and, you know, make the cat laugh rather than really understand the visualization part.",
+      "id": "ep_104_ut_72"
+    },
+    {
+      "end": 1741584,
+      "speaker": "Enrico Bertini",
+      "start": 1740944,
+      "text": "Yes.",
+      "id": "ep_104_ut_73"
+    },
+    {
+      "end": 1767076,
+      "speaker": "Nathalie Riche",
+      "start": 1741704,
+      "text": "So. But in general. Yeah. I started going into the classroom and realizing, in fact, teachers don't have the time and bandwidth to actually tell kids what to do and then kind of tell them if they did it correct or not. So we needed to have, like, exercises that could either go without any instruction or kind of. The kids could figure it out themselves.",
+      "id": "ep_104_ut_74"
+    },
+    {
+      "end": 1767944,
+      "speaker": "Enrico Bertini",
+      "start": 1767200,
+      "text": "Yep.",
+      "id": "ep_104_ut_75"
+    },
+    {
+      "end": 1771504,
+      "speaker": "Nathalie Riche",
+      "start": 1768244,
+      "text": "And, you know, it's tricky with kids who don't know how to read.",
+      "id": "ep_104_ut_76"
+    },
+    {
+      "end": 1797244,
+      "speaker": "Enrico Bertini",
+      "start": 1773644,
+      "text": "Yeah, yeah. But I think there is so much potential with this kind of interactive technologies and. Yeah. As you said. And the fact that there's. There's. There is an opportunity to teach kids without having a pre predefined set of steps, but they kind of, like, implicitly learn by exploring the. Yeah. The visualization space. Right.",
+      "id": "ep_104_ut_77"
+    },
+    {
+      "end": 1929936,
+      "speaker": "Basak Alper",
+      "start": 1797364,
+      "text": "Yes. There is a lot of potential about interactive tools. But there is also a lot of hesitation expressed by the teachers. They were like, oh, they are going to toy with this thing. They won't learn the concepts. They were really, really hesitant about whether it will work or not. But then we observed, like kids were expressing, you know, visual visualization literacy concepts, explaining things to each other, which indicated that they are actually understanding. That was the basically biggest finding from the observation study, which made us think that, you know, this approach has significant potential. It might really work. Unlike what teachers were thinking, that, you know, it will lead to isolation. And verbalization is key in classroom. If kids don't verbalize what they learn, you know, it is not effective. But kids were talking to each other. Kids were verbalizing key visualization literacy concepts. So it was really encouraging. And some of the, you know, although, like, how to teach children is not very. How to teach children visualizations is not very clearly formalized. The level of visualization literacy expected is high. You know, it's grade four. They are expected to interpret, you know, axes with infrequent tick marks. You know, Axis is not marked, you know, at every point, such as, you know, Axis marked as like 510 15, like infrequent tick marks. Like that. They are expected to interpret those. They are expected to interpret an icon representing like three elements. Yes, like the concept of ki, as it is called. And we had exercises trying to teach kids these, trying to introduce kids to these concepts, and we observed that they were able to interpret them accurately.",
+      "id": "ep_104_ut_78"
+    },
+    {
+      "end": 1935608,
+      "speaker": "Enrico Bertini",
+      "start": 1930040,
+      "text": "So you actually do see an improvement in the kids in, I mean, we.",
+      "id": "ep_104_ut_79"
+    },
+    {
+      "end": 1956474,
+      "speaker": "Basak Alper",
+      "start": 1935616,
+      "text": "Cannot say improvements because we didn't do a comparative study, but based on, we had one teacher observing other kids using the tool, and that teacher was very impressed with kids grasp of the concept of key. The concept of infrequent tick marks on the axis.",
+      "id": "ep_104_ut_80"
+    },
+    {
+      "end": 1956994,
+      "speaker": "Enrico Bertini",
+      "start": 1956594,
+      "text": "Sure.",
+      "id": "ep_104_ut_81"
+    },
+    {
+      "end": 2023874,
+      "speaker": "Nathalie Riche",
+      "start": 1957074,
+      "text": "Yeah. I mean, I think, you know, a lot of the fact that teachers are a bit wary of those technologies is because most kids, they kind of just sit down by themselves in front of those technologies and then, you know, in front of the computer, even in the classroom, in some of the exercises that they have, they're just by themselves, and then they do the tool, and then that's it. Usually they don't really talk, you know, to the screen even. Lots of the teachers were saying they don't even ask questions. They're kind of struggling without any, you know, sort of asking for help behavior which stresses the teachers out, I think. And then the teacher don't have much feedback either, because, you know, one thing is that each teacher I think those people are just so impressive. They have, like, a mental model of every kid. It's way to learn, like, it's, you know, difficulty and strengths. And so when you put the kids in front of this computer screen, the teacher is kind of losing a lot of that feedback. So I think that that's why the pairing them together and, like, still having the teacher.",
+      "id": "ep_104_ut_82"
+    },
+    {
+      "end": 2024388,
+      "speaker": "Enrico Bertini",
+      "start": 2023914,
+      "text": "Yeah.",
+      "id": "ep_104_ut_83"
+    },
+    {
+      "end": 2078034,
+      "speaker": "Nathalie Riche",
+      "start": 2024506,
+      "text": "You know, could grasp what's going on there was very impressive. Now, clearly, the pair up, like, having those two people together and the fact that they could talk and discover the important concept rather than just being taught about them was very. I mean, it sounded from the teachers feedback that it was a very interesting concept for them. So I think for this visualization literacy, like, teaching the key, for example, all of what they were doing was just explaining to them what the key is and then giving them exercises. And basically what the teacher in grade three was saying is that, you know, it takes me a week to teach them the thing, and it's just, you know, they understand it. But then if I come back two weeks later, they just forgot to look at the key.",
+      "id": "ep_104_ut_84"
+    },
+    {
+      "end": 2078962,
+      "speaker": "Enrico Bertini",
+      "start": 2078174,
+      "text": "Oh.",
+      "id": "ep_104_ut_85"
+    },
+    {
+      "end": 2096974,
+      "speaker": "Nathalie Riche",
+      "start": 2079138,
+      "text": "So, I mean, it's not like they don't understand the concept. It's just they don't pay attention. And so when they discover it in the tool, like, you know, they're trying to figure out, well, why doesn't it match? Like, why isn't the cat laughing? Oh, because that's. There is the key. Somehow it's stuck in their head.",
+      "id": "ep_104_ut_86"
+    },
+    {
+      "end": 2098338,
+      "speaker": "Enrico Bertini",
+      "start": 2097554,
+      "text": "Okay.",
+      "id": "ep_104_ut_87"
+    },
+    {
+      "end": 2103778,
+      "speaker": "Nathalie Riche",
+      "start": 2098466,
+      "text": "So when we came back, like, two weeks later, because I wanted to do that for that teacher.",
+      "id": "ep_104_ut_88"
+    },
+    {
+      "end": 2103986,
+      "speaker": "Basak Alper",
+      "start": 2103826,
+      "text": "Right.",
+      "id": "ep_104_ut_89"
+    },
+    {
+      "end": 2113890,
+      "speaker": "Nathalie Riche",
+      "start": 2104010,
+      "text": "Like, see if that still is the case for app. Right. That we come back two weeks later and they just totally forgot it. They still thought about the key.",
+      "id": "ep_104_ut_90"
+    },
+    {
+      "end": 2114290,
+      "speaker": "Enrico Bertini",
+      "start": 2113962,
+      "text": "Sure.",
+      "id": "ep_104_ut_91"
+    },
+    {
+      "end": 2133262,
+      "speaker": "Nathalie Riche",
+      "start": 2114362,
+      "text": "So I don't know if that's the experience that marked them or if it was just one off thing, but the teachers were all excited about that part, that perhaps it's a nice way that it will stick. They will have just discovered this by themselves and they will remember it.",
+      "id": "ep_104_ut_92"
+    },
+    {
+      "end": 2173736,
+      "speaker": "Enrico Bertini",
+      "start": 2133318,
+      "text": "Yeah, that's very interesting. I think, in general, the idea that is not only about how do you design a tool, but there is a whole intervention and how you actually instruct people to use this tool. Right. So in this case, given the same tool, you have different outcomes if you let students work on their own or you pair them up with other students. So that's very interesting. So one question I have is, so if, say, I want to use your tool at home or suggest my kids teacher to use it in class, can we do that. So can other people use it?",
+      "id": "ep_104_ut_93"
+    },
+    {
+      "end": 2183244,
+      "speaker": "Basak Alper",
+      "start": 2173840,
+      "text": "Yes, it is available online. We can share you a link. It is https://cestlavis.github.io/.",
+      "id": "ep_104_ut_94"
+    },
+    {
+      "end": 2188370,
+      "speaker": "Enrico Bertini",
+      "start": 2183714,
+      "text": "Okay. And this works on what, on iPads or what?",
+      "id": "ep_104_ut_95"
+    },
+    {
+      "end": 2233310,
+      "speaker": "Nathalie Riche",
+      "start": 2188442,
+      "text": "Yeah, so that's the key we did it with. So you need a touch tablet, I guess, because otherwise then you can't touch objects. So that's less interesting. And we use the tablet because that's the right format for a kid, right? Yeah, it works on chrome. And basically you can access either the exercise that, that we've created online, so you can share the URL, in fact, with other people. And you can also, if you access the authoring version, then you can create your own series of exercises. Right. With your styles and whatever kind of sequence you want. And then it will also create a URL that you could share with other people. So it's all web.",
+      "id": "ep_104_ut_96"
+    },
+    {
+      "end": 2258906,
+      "speaker": "Enrico Bertini",
+      "start": 2233502,
+      "text": "Okay. Web based. Perfect. Yep, perfect. Okay. So I just want to conclude by asking you if you have any future plans on how to extend or use this project, what could be done next? I mean, that's a very, as I said at the beginning, very important and there is so much more work to do. So what's your ideas on how, what can be done in the future?",
+      "id": "ep_104_ut_97"
+    },
+    {
+      "end": 2316722,
+      "speaker": "Basak Alper",
+      "start": 2259050,
+      "text": "So one thing, you know, working at NASA right now, one application area for this approach that I notice is like to teach people complicated visualizations. We have a lot of operators looking at complicated dashboards and we want to use more abstract visualizations, say like parallel lines. But our operators are not familiar with that visualization, so we can use a similar approach. Hey, you know, this is how you look at bunch of bar charts and this is how they map to the parallel lines. Visualization, it can be used as a educational training tool. The same approach can be used for training for complicated visualizations. That's one, you know, area that I want to explore in the future. And I'm sure Natalie has others too.",
+      "id": "ep_104_ut_98"
+    },
+    {
+      "end": 2340594,
+      "speaker": "Nathalie Riche",
+      "start": 2316818,
+      "text": "Yeah, I mean, I totally want to stay with kids, you know, my daughter Emma was my like, debugger. Yeah, she's really good at breaking things, by the way. But since she did that, she was just four. But she's just creating charts all the time now. Like charts of how happy or unhappy. She's six.",
+      "id": "ep_104_ut_99"
+    },
+    {
+      "end": 2342142,
+      "speaker": "Enrico Bertini",
+      "start": 2341094,
+      "text": "Okay. Yeah.",
+      "id": "ep_104_ut_100"
+    },
+    {
+      "end": 2388784,
+      "speaker": "Nathalie Riche",
+      "start": 2342238,
+      "text": "So she created a chart of when she's happy with us or unhappy because we've been not nice. You know, it's in our kitchen. It's pretty cool. I mean, I'm just fascinated with teaching that early about visualization literacy because I think it's beyond just using visualization, it's also to just think more critically about what you receive, you know? And I think that I want to just pursue that in that age range. I think that's as important as learning to read and count is just kind of reflect that what you can read or, you know, the sort of material you can access actually might just be incorrect or incomplete.",
+      "id": "ep_104_ut_101"
+    },
+    {
+      "end": 2390180,
+      "speaker": "Enrico Bertini",
+      "start": 2389324,
+      "text": "Yes.",
+      "id": "ep_104_ut_102"
+    },
+    {
+      "end": 2430694,
+      "speaker": "Nathalie Riche",
+      "start": 2390372,
+      "text": "And I have lots of ideas that also go beyond just, you know, just using the tablet. So kind of thinking about using ar, VR tangibles. So kind of try to fit more different variety of activities. Yeah. And still working with the school that my kids are in, this french American school, because I think they have a lot of the teachers there really try to create their own material all the time. So I think there's lots of opportunity to just try things with them and then see in, like, in the field, how does it go? Right. Like, does it work?",
+      "id": "ep_104_ut_103"
+    },
+    {
+      "end": 2528780,
+      "speaker": "Enrico Bertini",
+      "start": 2432074,
+      "text": "Yeah, yeah, I think I have to say I didn't start experimenting with my kids yet, but I'm happy to hear that you are doing that. Maybe we should talk more about it and. Yeah, but I think it's a very fascinating topic and, yeah, if you're listening to this and you have kids and you are experimenting with your kids and visualization, let us know. I think that's, that's an amazing opportunity to teach an important skill very early on and I think that there is a lot to discover there. We just don't know exactly how to teach kids to do this properly. And. Yeah, it's super, super fascinating. Well, okay. Thanks so much for coming on the show. That's, congratulations for this beautiful project and thanks for moving this steps towards, yeah. Learning more about how to teach visualization to kids. I hope there will be more work in this direction in the future. Actually, we had a couple of episodes in the past that are related to this topic. We had one whole episode on visualization literacy in general, and we also had on episode 87, we had a whole show and a book called these Kids. So if you didn't listen to it, it's a very nice episode on a little book that has been designed to teach visualization to kids. So thanks so much, Basak and Nathalie, for coming on the show.",
+      "id": "ep_104_ut_104"
+    },
+    {
+      "end": 2531468,
+      "speaker": "Basak Alper",
+      "start": 2528892,
+      "text": "Thank you so much for having us. Enrico.",
+      "id": "ep_104_ut_105"
+    },
+    {
+      "end": 2539022,
+      "speaker": "Nathalie Riche",
+      "start": 2531556,
+      "text": "Yeah, thanks, Enrico. It's a really cool project, dear, to our hearts, I think. I'm glad we could just talk about it.",
+      "id": "ep_104_ut_106"
+    },
+    {
+      "end": 2541062,
+      "speaker": "Enrico Bertini",
+      "start": 2539158,
+      "text": "Yes, thanks so much.",
+      "id": "ep_104_ut_107"
+    },
+    {
+      "end": 2541798,
+      "speaker": "Basak Alper",
+      "start": 2541158,
+      "text": "Thank you.",
+      "id": "ep_104_ut_108"
+    },
+    {
+      "end": 2542518,
+      "speaker": "Nathalie Riche",
+      "start": 2541886,
+      "text": "Thank you.",
+      "id": "ep_104_ut_109"
+    },
+    {
+      "end": 2543334,
+      "speaker": "Enrico Bertini",
+      "start": 2542606,
+      "text": "All the best.",
+      "id": "ep_104_ut_110"
+    },
+    {
+      "end": 2544126,
+      "speaker": "Basak Alper",
+      "start": 2543414,
+      "text": "Thank you.",
+      "id": "ep_104_ut_111"
+    },
+    {
+      "end": 2569484,
+      "speaker": "Enrico Bertini",
+      "start": 2544230,
+      "text": "Bye. Bye bye. Data stories is brought to you by Qlik are you missing out on meaningful relationships hidden in your data. Unlock the old story with Qlik sense through personalized visualizations and dynamic dashboards, which you can download for free at Qlik dot de slash Datastories.",
+      "id": "ep_104_ut_112"
+    }
+  ],
+  "confidence": 0.924849610050581,
+  "audio_duration": 2570,
+  "punctuate": true,
+  "format_text": true,
+  "dual_channel": false,
+  "webhook_url": null,
+  "webhook_status_code": null,
+  "webhook_auth": false,
+  "webhook_auth_header_name": null,
+  "speed_boost": false,
+  "auto_highlights_result": null,
+  "auto_highlights": false,
+  "audio_start_from": null,
+  "audio_end_at": null,
+  "word_boost": [],
+  "boost_param": null,
+  "filter_profanity": false,
+  "redact_pii": false,
+  "redact_pii_audio": false,
+  "redact_pii_audio_quality": null,
+  "redact_pii_policies": null,
+  "redact_pii_sub": null,
+  "speaker_labels": true,
+  "content_safety": false,
+  "iab_categories": true,
+  "content_safety_labels": {
+    "status": "unavailable",
+    "results": [],
+    "summary": {}
+  },
+  "language_detection": false,
+  "language_detection_threshold": null,
+  "language_confidence": null,
+  "custom_spelling": null,
+  "throttled": false,
+  "auto_chapters": true,
+  "summarization": false,
+  "summary_type": null,
+  "summary_model": null,
+  "custom_topics": false,
+  "topics": [],
+  "speech_threshold": null,
+  "speech_model": "best",
+  "chapters": [
+    {
+      "summary": "Data stories is brought to you by click. Are you missing out on meaningful relationships hidden in your data? Unlock the old story with Qlik sense through personalized visualizations and dynamic dashboards. Today is only a episode without Moritz.",
+      "gist": "Data Stories",
+      "headline": "Are you missing out on meaningful relationships hidden in your data",
+      "start": 320,
+      "end": 66974,
+      "id": "ep_104_ch_0"
+    },
+    {
+      "summary": "What we are trying to do in the show is to go ads free. You can support the show by going on Patreon. com Datastories. For the price of a latte or coffee every two weeks, you support our show.",
+      "gist": "Thank you for Supporting the Patreon Initiative",
+      "headline": "You can support the show by going on Patreon. com",
+      "start": 67474,
+      "end": 142164,
+      "id": "ep_104_ch_1"
+    },
+    {
+      "summary": "For today we are talking about a project that has been recently published in a paper at the CHI conference. It's about visualization literacy, how to teach people how to read and also make visualization. On the show I have two of the authors of the paper.",
+      "gist": "How to teach visualization to kids",
+      "headline": "This week we talk about a project aimed at teaching visualization at elementary school level",
+      "start": 142904,
+      "end": 197110,
+      "id": "ep_104_ch_2"
+    },
+    {
+      "summary": "Currently I'm a data visualization researcher and developer at Jet Propulsion Laboratory of NASA. I work with engineers who operate the rover on Mars and try to help them design information visualization dashboards. Maybe we should get some other people from JPL in the future to talk about what is going on at NASA.",
+      "gist": "Meet the Data Visualization Researchers at NASA",
+      "headline": "Basak and Nathalie are data visualization researchers at NASA",
+      "start": 197262,
+      "end": 299886,
+      "id": "ep_104_ch_3"
+    },
+    {
+      "summary": "Nathalie: I'm a researcher at Microsoft Research, and I do data visualization. My interest kind of went around storytelling, the way you could communicate with data. How do you teach people to better read and understand visualization and also create them?",
+      "gist": "In the Elevator With Data Visualization",
+      "headline": "Nathalie is a researcher at Microsoft Research who does data visualization",
+      "start": 300070,
+      "end": 382248,
+      "id": "ep_104_ch_4"
+    },
+    {
+      "summary": "Enrico Basak: I was really astonished by the amount of work that you've done. You've been studying visual literacy in school, but also building a tool. Starting from kids seems like a very natural and approach. Save the next generation.",
+      "gist": "Projects for Students: Starting from Kids",
+      "headline": "Your paper on early visual literacy was recently published at CHI's conference",
+      "start": 382336,
+      "end": 631766,
+      "id": "ep_104_ch_5"
+    },
+    {
+      "summary": "Basak: Can you walk us through some of the phases of the project? The first phase was really trying to understand is visualization literacy even taught and how. There's not really a formal plan to teach visualization literacy. Things progress very gradually. They don't make use of interactivity.",
+      "gist": "The project of visualization literacy",
+      "headline": "The paper is very rich and you've been through a lot of phases",
+      "start": 631950,
+      "end": 1056992,
+      "id": "ep_104_ch_6"
+    },
+    {
+      "summary": "Self is a prototype to teach kids how to interpret and construct bar charts. It uses interactivity and animations to teach children how different abstraction level visualizations correspond to or map to each other. The tool is intended to support some of the work that teachers do in class.",
+      "gist": "Interactive visualizations for teachers",
+      "headline": "Self is an interactive tool to help teachers teach children abstract visualizations",
+      "start": 1057048,
+      "end": 1614102,
+      "id": "ep_104_ch_7"
+    },
+    {
+      "summary": "There is a lot of potential about interactive tools. Teachers were hesitant about whether it will work or not. But kids were expressing, you know, visual visualization literacy concepts. That was the basically biggest finding from the observation study.",
+      "gist": "Visualization Literacy activities",
+      "headline": "How to teach children visualizations is not very clearly formalized",
+      "start": 1614198,
+      "end": 2051402,
+      "id": "ep_104_ch_8"
+    },
+    {
+      "summary": "Sela Aviz GitHub IO is a tool for teaching visualization literacy. It is available online and works on iPads and chrome. Can other people use it? Yes.",
+      "gist": "Teaching the Key in Visualization Literacy",
+      "headline": "https://cestlavis.github.io/ has created a visualization tool for kids",
+      "start": 2051528,
+      "end": 2237334,
+      "id": "ep_104_ch_9"
+    },
+    {
+      "summary": "Basak and Nathalie talk about how to teach visualization to kids. Visualization can be used as an educational training tool at NASA. There are lots of ideas that go beyond just using the tablet. If you have kids and you are experimenting with your kids and visualization, let us know.",
+      "gist": "How to teach visualization to kids?",
+      "headline": "Enric Basak and Nathalie discuss how to teach visualization to kids",
+      "start": 2237674,
+      "end": 2569484,
+      "id": "ep_104_ch_10"
+    }
+  ],
+  "disfluencies": false,
+  "entity_detection": false,
+  "sentiment_analysis": false,
+  "sentiment_analysis_results": null,
+  "entities": null,
+  "speakers_expected": null,
+  "summary": null,
+  "custom_topics_results": null,
+  "episode_num": 104,
+  "episode_metadata": {
+    "speakers": [
+      "Basak Alper",
+      "Enrico Bertini",
+      "Nathalie Riche"
+    ],
+    "WPid": "1003",
+    "url": "https://datastori.es/podlove/file/4255/s/feed/c/mp3/104-visualization-literacy-in-elementary-school-with-basak-alper-and-nathalie-riche.mp3",
+    "episode_title": "Visualization Literacy in Elementary School with Basak Alper and Nathalie Riche"
+  }
+}

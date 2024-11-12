@@ -1,0 +1,1027 @@
+{
+  "id": "4a42a511-8a43-4856-a845-468f224cbbd7",
+  "language_model": "assemblyai_default",
+  "acoustic_model": "assemblyai_default",
+  "language_code": "en_us",
+  "status": "completed",
+  "audio_url": "https://datastori.es/podlove/file/1825/s/feed/c/mp3/discovering-stories-in-nyc-open-data-with-ben-wellington-from-iquantnyc-ds66.mp3",
+  "utterances": [
+    {
+      "end": 8514,
+      "speaker": "Ben Wellington",
+      "start": 120,
+      "text": "I think that's one of the scariest things about data science, which is you see something and you come up with an explanation and you kind of trust your explanation. But in this case, the explanation was a data error.",
+      "id": "ep_66_ut_0"
+    },
+    {
+      "end": 42420,
+      "speaker": "Moritz Stefaner",
+      "start": 11174,
+      "text": "This episode of data stories is sponsored by Quadrigram, a web based application designed to bring data stories to life. With Quadrigram, you can create and share interactive data stories without the need of any coding skills. Check it out@quadrigram.com. hey, everyone. Data story 66. Hi, Enrico. How are you doing?",
+      "id": "ep_66_ut_1"
+    },
+    {
+      "end": 44324,
+      "speaker": "Enrico Bertini",
+      "start": 42532,
+      "text": "I'm doing great. How about you?",
+      "id": "ep_66_ut_2"
+    },
+    {
+      "end": 49084,
+      "speaker": "Moritz Stefaner",
+      "start": 44364,
+      "text": "Excellent. Yes, very good. I had a good start into the year, I can say.",
+      "id": "ep_66_ut_3"
+    },
+    {
+      "end": 50264,
+      "speaker": "Enrico Bertini",
+      "start": 49204,
+      "text": "I saw it.",
+      "id": "ep_66_ut_4"
+    },
+    {
+      "end": 52156,
+      "speaker": "Moritz Stefaner",
+      "start": 50924,
+      "text": "You followed me on Twitter.",
+      "id": "ep_66_ut_5"
+    },
+    {
+      "end": 54964,
+      "speaker": "Enrico Bertini",
+      "start": 52220,
+      "text": "Yeah, of course. Yeah.",
+      "id": "ep_66_ut_6"
+    },
+    {
+      "end": 102096,
+      "speaker": "Moritz Stefaner",
+      "start": 55004,
+      "text": "No, I had a nice little holiday project that gained some traction over the year change. It was great fun. So I did one thing. I took a list of journals, German place names, like all the towns and villages and so on, and I was looking for the most common endings. Like in Germany, we have a lot of Hausen and bergs and ingens, you know, like the typical endings of the names. And I made like, heat maps across Germany where these endings would occur most prominently. Super interesting. A little fun experiment. And I just put it up on the web and on GitHub, and then people started to pick it up and remix it. And somebody made a Romanian version, somebody made a slovakian version. There's a us version now. I get pull requests on my GitHub repo, you know, it's like one of these things that starts small and people just pick it up and do something with it. It's a great experience.",
+      "id": "ep_66_ut_7"
+    },
+    {
+      "end": 104504,
+      "speaker": "Enrico Bertini",
+      "start": 102280,
+      "text": "Is there any Italian version yet?",
+      "id": "ep_66_ut_8"
+    },
+    {
+      "end": 106592,
+      "speaker": "Moritz Stefaner",
+      "start": 104664,
+      "text": "Not yet. So you can totally do that.",
+      "id": "ep_66_ut_9"
+    },
+    {
+      "end": 107320,
+      "speaker": "Enrico Bertini",
+      "start": 106648,
+      "text": "Oh, yeah, sure.",
+      "id": "ep_66_ut_10"
+    },
+    {
+      "end": 114896,
+      "speaker": "Moritz Stefaner",
+      "start": 107352,
+      "text": "There's a little. Yeah, I think it can be done in maybe an hour or something to do a new localized version so we can give it a shot.",
+      "id": "ep_66_ut_11"
+    },
+    {
+      "end": 116176,
+      "speaker": "Enrico Bertini",
+      "start": 114960,
+      "text": "Yeah, absolutely.",
+      "id": "ep_66_ut_12"
+    },
+    {
+      "end": 141924,
+      "speaker": "Moritz Stefaner",
+      "start": 116240,
+      "text": "Yeah, yeah, yeah. And it's a nice thing. And it's sort of these things, they excite me because all these data sources out there, we can work with them and just do something with them and find something out about the world, even if it's just small things like place name structures. Yeah. I think that brings us also to our guest because he does really interesting things with open data as well. Welcome to the show. Ben Wellington. Hi, Ben.",
+      "id": "ep_66_ut_13"
+    },
+    {
+      "end": 142468,
+      "speaker": "Enrico Bertini",
+      "start": 142004,
+      "text": "Hi, Ben.",
+      "id": "ep_66_ut_14"
+    },
+    {
+      "end": 143684,
+      "speaker": "Ben Wellington",
+      "start": 142516,
+      "text": "Hi. It's nice to be here.",
+      "id": "ep_66_ut_15"
+    },
+    {
+      "end": 150534,
+      "speaker": "Moritz Stefaner",
+      "start": 143764,
+      "text": "Great to have you. Ben, can you tell us a bit about yourself? Who are you? What are you doing? And so on?",
+      "id": "ep_66_ut_16"
+    },
+    {
+      "end": 158158,
+      "speaker": "Ben Wellington",
+      "start": 150614,
+      "text": "Sure. Yeah. So I'm a. I guess the word now is data scientist, right? I did.",
+      "id": "ep_66_ut_17"
+    },
+    {
+      "end": 159862,
+      "speaker": "Moritz Stefaner",
+      "start": 158326,
+      "text": "Currently it's still data scientists.",
+      "id": "ep_66_ut_18"
+    },
+    {
+      "end": 192942,
+      "speaker": "Ben Wellington",
+      "start": 159998,
+      "text": "That's the new hip thing. So I have a background in natural language processing. I did my PhD at NYU, and now I'm an assistant visiting professor at the Pratt Institute in Brooklyn, where I teach urban planners about statistics, which is kind of fun. And also I work in the financial industry along the way. And lastly, run this blog called iquant New York, where I seek to quantify the data that New York City and state puts out that kind of affects the lives of New Yorkers.",
+      "id": "ep_66_ut_19"
+    },
+    {
+      "end": 226318,
+      "speaker": "Moritz Stefaner",
+      "start": 193038,
+      "text": "Yeah, I saw that. And so I also saw your target visualize and some of your projects. I was really fascinated how much value you can create from these, like, public data sources by looking at them, asking questions, and going on these little data investigations. I think that's very fascinating. How did you start that blog? Or that tumblr tumble log, or how you call it? How did that come? Did you just think, could be fun to do it, or did you have the plan to make it as big as it has become now? How did that come about?",
+      "id": "ep_66_ut_20"
+    },
+    {
+      "end": 330704,
+      "speaker": "Ben Wellington",
+      "start": 226446,
+      "text": "Definitely not planning to make it big when it started. It goes back to me marrying an urban planner. My wife, Leslie, she was at Pratt and was taking a statistics class, which was a typical statistics class. You have your textbook, you have your problems, you're learning about t tests and correlations. But she'd come home every day after class and say, why do I have to learn this? This is kind of silly. And I'm like, no, it's not. This is so important. So the conversation around the dinner table and what I realized is that we're teaching our urban planner statistics from a textbook. Along the same time, we're releasing public city datasets in the cities they're learning in. So I realized there's a big disconnect here with the way we're teaching students and the reality of today's time. So I went to the school and I said, hey, my wife goes here. You haven't met. You may not know me, but I have a vision for statistics for urban planners. Let's use open data and public data and make it applied so that instead of learning about fake problems, they're learning about the problems that they're interested in locally, whether it's complaints to 311 lines or stop and frisk or whatever is happening current events. So to make stats maybe just a little more fun. And then from there, I had to make fun homework problems and those homework problems. I started to search for little nuggets of interesting findings in public data. And as I did that. I thought maybe more than just the twelve people in the class might be interested, and hence the blog. I started putting my findings from homework on the blog, and every time I did, they got picked up by a media organization, and I was like, whoa, that was cool. And then I got hooked. So here I am today.",
+      "id": "ep_66_ut_21"
+    },
+    {
+      "end": 346664,
+      "speaker": "Enrico Bertini",
+      "start": 332204,
+      "text": "That's an amazing story. So, can you tell us a little bit about few of the favorite posts or investigations that you had? I know that you have quite a few ones by now. Are there any specific ones that you, you want to mention?",
+      "id": "ep_66_ut_22"
+    },
+    {
+      "end": 478108,
+      "speaker": "Ben Wellington",
+      "start": 347084,
+      "text": "There are some. They range from sort of fun to maybe policy and more serious things. On the fun side were things like finding the fast food chain in New York that had the worst health inspection scores versus the best. And the finding there was that White Castle had the cleanest restaurants, which was a shock for New Yorkers. If you know White Castle, that would be a little bit strange. So that was kind of fun. Or I quantified how far the average person in ManhAttan is from a Starbucks. And it turns out that about half of the city is within four blocks, which was half of Manhattan, and then went and found the person who lived farthest from a Starbucks in Manhattan. I didn't go and confront the person, but I did find them. I said, you live farthest. So those are the kind of things that may not change everyone's lives. But then on the flip side are things I started to look at the taxi industry, and I guess one of my favorites there was exploring tipping behavior. And when I dove in, I realized that the computers in the back of New York City cabs, which, by the way, when you pay with credit card, a little box comes up and it says, would you like to tip 20%, 25, 30 or other? So those are your four options, 20%, 25, 30, or other. And so I found most people click 20%. But what was strange was that when people clicked 20%, different things would happen. It turned out that half of the fleet in New York City was programmed to tip on top of tolls and taxes, and the other half wasn't depending on the vendor of the machine in the back. So two different programmers kind of calculated tip differently. So half of our fleet was providing three to $400 more a year to each cab driver if they had that computer in the back versus the other, which was just surprising in such a highly regulated industry. So when I wrote about that, the city actually worked with the vendor, and they reprogrammed half the cabs in New York within a few weeks.",
+      "id": "ep_66_ut_23"
+    },
+    {
+      "end": 478740,
+      "speaker": "Moritz Stefaner",
+      "start": 478116,
+      "text": "Wow.",
+      "id": "ep_66_ut_24"
+    },
+    {
+      "end": 493730,
+      "speaker": "Ben Wellington",
+      "start": 478932,
+      "text": "So today, everybody tips on top of tolls and taxes. Yeah, I know. But at least it's equitable. At least I don't have to wonder what the computer is in the back of the cab. So those are the kind of things that can end up actually making changes, which is really, really fun.",
+      "id": "ep_66_ut_25"
+    },
+    {
+      "end": 523632,
+      "speaker": "Moritz Stefaner",
+      "start": 493882,
+      "text": "I think that blog post was really interesting because it started from you being curious about why there would be such a peak in the data at that point, or why the data would be skewed in that strange way. And so just inspecting the raw data led to this unfolding of, well, how did that come about? And I think many people would have stopped at that point. Just said, yeah, tipping data is funny. I think it's great that you actually, you look for the cause behind that. Right? And this makes the whole story in the end.",
+      "id": "ep_66_ut_26"
+    },
+    {
+      "end": 553448,
+      "speaker": "Ben Wellington",
+      "start": 523688,
+      "text": "And I think what was really neat about it is it actually started with a magazine article that another publication had put out that basically made a histogram of the tipping amounts. And I noticed that everyone was tipping 16%, but no one was tipping 14% or, sorry, excuse me, it was 21% versus 19. So I understood why everyone tipped 20 because there was the 20 button. But all the people who hit other, why were they all choosing 21 instead of 19 when they did the math in their head?",
+      "id": "ep_66_ut_27"
+    },
+    {
+      "end": 554304,
+      "speaker": "Moritz Stefaner",
+      "start": 553616,
+      "text": "It doesn't make sense.",
+      "id": "ep_66_ut_28"
+    },
+    {
+      "end": 594182,
+      "speaker": "Ben Wellington",
+      "start": 554344,
+      "text": "It didn't make sense. So these are these gut checks. When you're doing data science, you look at a data set and you have to always check in. Does this make sense to me? Or is there something that's worth pulling a thread and seeing where it goes? I saw that in a publication and I was like, something is wrong with their math. Because no one just randomly rounds up to 21 and down, and it was ten times more people tipping 21%. It turned out they had made a math error because they hadn't realized that the computers were different. And that's where it led me to this finding. It wasn't that I went out seeking it. It's that you notice that little, you know, that little sign that something's not exactly like you'd expect, and you start pulling the thread and things unravel to really interesting stories.",
+      "id": "ep_66_ut_29"
+    },
+    {
+      "end": 641122,
+      "speaker": "Enrico Bertini",
+      "start": 594318,
+      "text": "Yeah, that's what I really like of this kind of blog post, Ben, because so, first of all, I have to say that living in New York makes me. When I read this post, I can relate so much more than if it were something different. So I think that's a huge component there. But what I really like is that sometimes the way you write this blog post is at the beginning, you show something and then you ask the reader, did you see anything strange here? And it's so fascinating, I think, especially this one that you were just mentioning when I reread the blog post this morning. And it's like there is this chart and there are clearly a couple of peaks which you can clearly explain. And then you ask, is there anything weird here? And I think it's a fantastic kind of game and way to engage people.",
+      "id": "ep_66_ut_30"
+    },
+    {
+      "end": 657986,
+      "speaker": "Ben Wellington",
+      "start": 641218,
+      "text": "Yeah. And in the end, so much of data science is that sort of weaving in and out and iteratively doing analysis and then seeing where it brings you and then doing more analysis and seeing where it brings you. It's a back and forth. You don't always know where you're heading from the start. So that's kind of fun.",
+      "id": "ep_66_ut_31"
+    },
+    {
+      "end": 660610,
+      "speaker": "Moritz Stefaner",
+      "start": 658090,
+      "text": "Do you also have any unsolved mysteries?",
+      "id": "ep_66_ut_32"
+    },
+    {
+      "end": 666668,
+      "speaker": "Ben Wellington",
+      "start": 660802,
+      "text": "Oh, man. Unsolved mysteries. That's in the data.",
+      "id": "ep_66_ut_33"
+    },
+    {
+      "end": 673504,
+      "speaker": "Moritz Stefaner",
+      "start": 666796,
+      "text": "Yeah. Where you had something funny in the data and you still can't tell why it would be so funny, like the distribution or something.",
+      "id": "ep_66_ut_34"
+    },
+    {
+      "end": 698924,
+      "speaker": "Ben Wellington",
+      "start": 674724,
+      "text": "There's some interesting peaks in. Sometimes you look at the time of day of certain types of crimes or things like that and you see strange little bumps. And you always ask yourself, is that noise or is that real? And I'm asking myself all the time. So I'm constantly coming across mysteries and I don't have, like a single one that's, you know, that one that got away from me.",
+      "id": "ep_66_ut_35"
+    },
+    {
+      "end": 700680,
+      "speaker": "Moritz Stefaner",
+      "start": 699304,
+      "text": "The fun thing that keeps you awake.",
+      "id": "ep_66_ut_36"
+    },
+    {
+      "end": 713564,
+      "speaker": "Ben Wellington",
+      "start": 700712,
+      "text": "At night, I don't have one of those, but I am constantly saying, that's weird. You know, if I can't explain it, then unless it's super, super, super obvious, I sometimes just say, all right, well, maybe I'll kind of put that to bed and not make something out of nothing.",
+      "id": "ep_66_ut_37"
+    },
+    {
+      "end": 718352,
+      "speaker": "Moritz Stefaner",
+      "start": 714024,
+      "text": "Yeah. That's also something I tell my clients always, like, step one is don't trust the data.",
+      "id": "ep_66_ut_38"
+    },
+    {
+      "end": 719284,
+      "speaker": "Ben Wellington",
+      "start": 718448,
+      "text": "Oh, yeah.",
+      "id": "ep_66_ut_39"
+    },
+    {
+      "end": 724598,
+      "speaker": "Moritz Stefaner",
+      "start": 719664,
+      "text": "It's like the first step in your data science process. What's great about it, usually it's a good heuristic.",
+      "id": "ep_66_ut_40"
+    },
+    {
+      "end": 751362,
+      "speaker": "Ben Wellington",
+      "start": 724736,
+      "text": "What's great about this particular article is that they went and interviewed the head of the New York City Taxi Workers alliance because another finding they had was that people tip more during the evening rush hour in this article. And so they went to the taxi worker alliance and said, can you explain why people tip more during the evening rush hour? And she was saying, hmm, I think people are very connected during rush hour to their taxi drivers, and they have an emotional connection.",
+      "id": "ep_66_ut_41"
+    },
+    {
+      "end": 752274,
+      "speaker": "Moritz Stefaner",
+      "start": 751538,
+      "text": "Empathy.",
+      "id": "ep_66_ut_42"
+    },
+    {
+      "end": 797322,
+      "speaker": "Ben Wellington",
+      "start": 752354,
+      "text": "Yeah, empathy. And I'm like, you know, that explains maybe 1%, but not 10%. And it turned out that it was the same problem. There was a rush hour surcharge that was being tipped on top of. And so the numerator and denominator was off on the math. And so no one was tipping more at rush hour. The 20% button was tipping more at rush hour. And so you have one of these things that's so easy to explain. You see a data anomaly and someone says, why is that way we as humans are going to be able to explain it. Right. It's post hoc rationalization. I think that's one of the scariest things about data science, which is you see something and you come up with an explanation and you kind of trust your explanation. But in this case, the explanation was a data error. And yet here we are interviewing people about why it's there and them kind of making statements. So that's always scary.",
+      "id": "ep_66_ut_43"
+    },
+    {
+      "end": 816292,
+      "speaker": "Moritz Stefaner",
+      "start": 797378,
+      "text": "Yeah, everybody's speculating. Yeah. There's one more project I found really interesting. It's about parking spots and parking tickets, and it's a good story about impact as well, I think, because, yeah, you actually achieved quite something. Do you want to tell us a bit more about this project?",
+      "id": "ep_66_ut_44"
+    },
+    {
+      "end": 931452,
+      "speaker": "Ben Wellington",
+      "start": 816418,
+      "text": "Yeah, sure. It kind of starts with my fascination with parking tickets. They seem kind of mundane, but the way I kind of run the blog is I take an idea, like a dataset. Sometimes I have an idea and I go look for data, but often I have a data set and I just go hunting for ideas. And this is a great case. You have parking tickets and you start asking questions. Where are the most gold cars in New York? Are they in rich neighborhoods or poor neighborhoods? I don't know. I haven't looked that up yet. But that's fascinating. Are there quotas? Are there more tickets being given at the end of the month? Are police really random when they give out tickets? Or can we predict where they're going to walk? And it turns out you can predict. I was able to use that to my advantage in my neighborhood. But one of the easiest things to do is just to count any sort of aggregation on a column in a dataset. In this case I was looking for in New York, if you park within 15ft of a fire hydrant, you get a very expensive ticket and possibly towed away, which can cost you many hundreds of dollars. So I was curious which hydrant in New York had the most parking tickets associated with it? That's a couple of lines of code to do an aggregation. So it turned out that there were these two hydrants in the lower east side that together were making almost. I think it was like, $50,000 a year in tickets, which is pretty amazing. And as I investigated, it just became clear that it was just a confusing situation for people parking. There was what appeared to be a bike lane. So imagine you have a curb with a hydrant, and then you have kind of a bike lane along the curb and then parking spots, kind of like those protected bike lanes that you see in different cities. So in that case, can you park in front of the hydrant? You're not really in front of it.",
+      "id": "ep_66_ut_45"
+    },
+    {
+      "end": 932532,
+      "speaker": "Moritz Stefaner",
+      "start": 931548,
+      "text": "You're not blocking it.",
+      "id": "ep_66_ut_46"
+    },
+    {
+      "end": 951964,
+      "speaker": "Ben Wellington",
+      "start": 932588,
+      "text": "You're not blocking it. So the answer is, if that was actually a bike lane, you can. But on this street, the thing with all the bikes on it that people use to bike is not a bike lane. It's called a curb extension, which is meant to widen the sidewalk and slow down traffic. Now, you wouldn't know that as a parker. So people park there. And for.",
+      "id": "ep_66_ut_47"
+    },
+    {
+      "end": 953276,
+      "speaker": "Moritz Stefaner",
+      "start": 952004,
+      "text": "That's a fairly subtle distinction.",
+      "id": "ep_66_ut_48"
+    },
+    {
+      "end": 1032070,
+      "speaker": "Ben Wellington",
+      "start": 953300,
+      "text": "It's a very subtle distinction. And for, you know, for 510 years, I don't know exactly how long, at least five years, the NYPD would ticket the spot because the Department of Transportation painted a parking spot, and the police department disagreed with this designation, and they fought about this on the windshields of New Yorkers for a very long time. So in this case, I wrote about it. I think one of the hydrants was making over 33,000. The other one was making 25,000. These are hydrants making more than minimum wage, just being hydrants. Right. It's like. It's pretty amazing. So I wrote about this, and the media loves this stuff. It was first in the post, and then it made its way to the London Daily Mail. So it was the hydrant heard around the world. Why? Because it was collecting tickets. And the Department of Transportation, to their credit, acted, within a few weeks, repainted the parking spots, put some zebra stripes, or whatever you want to call them, to stop people from parking, and the problem was solved. So this is like taking data at a very local level and finding things in a local community that maybe aren't on the radar of everybody, but are truly making our cities better, slowly but better nonetheless. And it's actually changing our streets, right?",
+      "id": "ep_66_ut_49"
+    },
+    {
+      "end": 1032798,
+      "speaker": "D",
+      "start": 1032262,
+      "text": "Yeah.",
+      "id": "ep_66_ut_50"
+    },
+    {
+      "end": 1063904,
+      "speaker": "Enrico Bertini",
+      "start": 1032886,
+      "text": "That's an amazing story. I so much like the fact that starting from a few data points, a little bit of an analysis, and a blog post, you manage to make a very interesting and impactful change. This doesn't happen very often. I think I've. I found myself in the past debating with some people on give me examples of data or data visualizations that have an impact. And what is impact, right? And then you read this blog post and it's clear, I mean, here we go. That's impact.",
+      "id": "ep_66_ut_51"
+    },
+    {
+      "end": 1067956,
+      "speaker": "Ben Wellington",
+      "start": 1065604,
+      "text": "Small impact, but it's impact on the last.",
+      "id": "ep_66_ut_52"
+    },
+    {
+      "end": 1069820,
+      "speaker": "Enrico Bertini",
+      "start": 1068060,
+      "text": "It is, it is, right?",
+      "id": "ep_66_ut_53"
+    },
+    {
+      "end": 1101380,
+      "speaker": "Ben Wellington",
+      "start": 1070012,
+      "text": "And it's a sign of what could come, right? I mean it's small because look, so much of data is still closed off, so it's hard to have an impact when you don't have access to any of the raw data. So as things start to open up, I think we'll see more and more of an impact. And so this is to me, I was really excited in the same way you were in that I saw it as a sign that, look, a person who has no connection with government and just some data skills can take open data and change a neighborhood. So I was very excited when they painted that street. I got to tell you, I think.",
+      "id": "ep_66_ut_54"
+    },
+    {
+      "end": 1105774,
+      "speaker": "Enrico Bertini",
+      "start": 1101412,
+      "text": "That's one of the most exciting aspects of working with data. Absolutely.",
+      "id": "ep_66_ut_55"
+    },
+    {
+      "end": 1106602,
+      "speaker": "Ben Wellington",
+      "start": 1105884,
+      "text": "Yeah.",
+      "id": "ep_66_ut_56"
+    },
+    {
+      "end": 1193624,
+      "speaker": "Moritz Stefaner",
+      "start": 1106778,
+      "text": "That's a good time to take a little break and talk about our sponsor this week. As you all know, modern life is complex and this creates the need for digital creators to support their arguments with facts and figures. A data based narrative which intertwines annotations and media elements with data visualizations, is the perfect way to communicate complex realities. It's not only important to understand and process lots of information, but we also need to have the tools to communicate findings in a structured and nice way. Now, Quadrigram.com is a web based application to create and share these types of data stories on the Internet. Its intuitive interface allows users to design interactive narratives by merging graphic elements such as texts, images, videos and data visualization modules into a single data story. And you can then publish your work as a fully functional website or interactive slide presentation without the need of any coding skills. Readers can browse the story and discover their own findings, basically create their own unique synthesis. Quadrigram.com is a product by Vestiario, a design firm with more than ten years of experience in the wonderful field of data visualization. Quadrigram is free and you just need a Gmail account to start building and sharing your data stories. So check it out@quadrigram.com. that's quadrigr am.com. and now back to the show.",
+      "id": "ep_66_ut_57"
+    },
+    {
+      "end": 1224048,
+      "speaker": "Enrico Bertini",
+      "start": 1194204,
+      "text": "So Ben, I would like to talk a little bit about the process. How do you come up with the idea in the first place? And how do you retrieve or find the data, analyze the data, and then how do you design a very nice blog post with some visualizations and all the rest. Can you walk us through a little bit of what are the steps that you follow and what can happen there at each step?",
+      "id": "ep_66_ut_58"
+    },
+    {
+      "end": 1386160,
+      "speaker": "Ben Wellington",
+      "start": 1224136,
+      "text": "Yeah, I think there are. So we'll start with the idea. And they come from two places, those which are sort of hypothesis driven and those that are data driven. I think that's sort of a commonality in data science more broadly. Are you setting out to find, you have a specific hunch that when I look at this, I'll find this. In the case of, are there parking ticket quotas? Right. That's an idea. That's a hypothesis that you can go and explore. So those come up. You live in a city, you walk around and you notice things. And I'm often just saying to myself, can I quantify that? Can I understand more about what I'm looking at? So ideas just kind of come from living in the city and thinking about things that are interesting. So that's one line of ideas and the other is, as I mentioned earlier, sort of data exploration on a new data set when a new dataset's released. For example, just a week or two ago, New York City released its crime data for the first time. This is incident level, so you can see where each individual robbery took place, or burglary. And that's a case where I just take the dataset and I just start exploring it. What do you look for? You look for outliers. It's funny because people say, how do you know what to write about? You take a column of data and you look for the most of anything, or the least of anything. And sometimes there's a story there. The most blocked driveway in New York. Why not the area with the most crime? Which block has the most cars stolen, which block has the most burglaries? Every one of those is its own explanation. And to me, each one can spawn an entire blog post. And so I never feel sort of constrained. Given a dataset, I could write 50 blog posts on it. And in fact, I always tell myself, don't, because people will get bored of the same data over and over again. But you just take. Sometimes it doesn't have to be super complicated. It can be a single column or two where you're looking. A great example of that, by the way, is city bike data. You can do all sorts of things. The data set has locations and people doing all different things. But I just was exploring which stations have the most males versus the most females. And so that's an example of taking one column of data and then splitting it by location, and you get a beautiful map of the city based on the gender of city bike riders, which shows that midtown, where all the offices are, is predominantly male, riding up to 80 or 90%. And then if you want to find females, your best chance is heading over to Brooklyn, where they're more likely to ride the bike. So that just came up from just looking at the data and taking one column at a time.",
+      "id": "ep_66_ut_59"
+    },
+    {
+      "end": 1392948,
+      "speaker": "Enrico Bertini",
+      "start": 1386342,
+      "text": "Nice. So you have some sort of data question templates, right?",
+      "id": "ep_66_ut_60"
+    },
+    {
+      "end": 1446194,
+      "speaker": "Ben Wellington",
+      "start": 1393076,
+      "text": "Yeah, I'd say so, I think. Yeah. You can describe it like that? Yeah. And once you kind of come up with the way you find things, it's easy to write some. It's relatively easy to write some code to start to replicate things for spatial data, I'm always interested in how it affects different neighborhoods. So I can have a little utility that can take any. Any longitude, latitude and join neighborhoods and police precincts and council districts, because these are the things that people really connect to. And so when you start to get kind of into a flow, you can actually turn these data analyses around very, very quickly. The example of the hygien is a few lines of code. It's descriptive statistics. It's just counting things. I have yet to do any sort of sophisticated modeling. I mean, I do that more broadly in my life, but on the blog, I haven't put out a predictive model yet. It's just describing things, and that's a lot of fun.",
+      "id": "ep_66_ut_61"
+    },
+    {
+      "end": 1459110,
+      "speaker": "Moritz Stefaner",
+      "start": 1447054,
+      "text": "And, I mean, you have, because you limit yourself to New York, you can sort of reuse the same techniques over and over, which is very smart, too. Right. So you don't have to start from zero every time. So that's a smart choice.",
+      "id": "ep_66_ut_62"
+    },
+    {
+      "end": 1480522,
+      "speaker": "Ben Wellington",
+      "start": 1459182,
+      "text": "It's also important to understand what you're working with. Right. When I see crime in New York, I understand it. When I see crime in Seattle, I need to call my friends and say, why is this area like this? That context, when you're exploring something, helps a lot in data analysis. If you don't know and understand your variables and what you're looking at, then those hunches won't follow through.",
+      "id": "ep_66_ut_63"
+    },
+    {
+      "end": 1490368,
+      "speaker": "Moritz Stefaner",
+      "start": 1480578,
+      "text": "Yeah. Just technically speaking, which tools do you use? Or also which tools can you recommend, maybe to people who would like to do similar things for their city?",
+      "id": "ep_66_ut_64"
+    },
+    {
+      "end": 1508356,
+      "speaker": "Ben Wellington",
+      "start": 1490506,
+      "text": "Yeah. Well, so one dirty secret, which I'll share with you if you don't tell anyone, is that I do use Excel, and I'll tell you why. Let me justify my choice. I don't use it for everything, but I'll tell you why. An Excel pivot table is really fast and good accounting.",
+      "id": "ep_66_ut_65"
+    },
+    {
+      "end": 1509636,
+      "speaker": "Enrico Bertini",
+      "start": 1508420,
+      "text": "Oh yeah, absolutely.",
+      "id": "ep_66_ut_66"
+    },
+    {
+      "end": 1520214,
+      "speaker": "Ben Wellington",
+      "start": 1509740,
+      "text": "I mean, I don't know what, it's just less time than me typing in the name of the file in Python and doing like, I can double click on my CSV drag and drop and get counts of of anything.",
+      "id": "ep_66_ut_67"
+    },
+    {
+      "end": 1522930,
+      "speaker": "Enrico Bertini",
+      "start": 1521514,
+      "text": "You are a sinner, Ben.",
+      "id": "ep_66_ut_68"
+    },
+    {
+      "end": 1620196,
+      "speaker": "Ben Wellington",
+      "start": 1523042,
+      "text": "I know, I'm embarrassed to admit this, but as long as you don't tell anyone, we're good. So I'm not afraid of an Excel pivot table for quick and dirty analyses that are small and can be handled with that. Excel can't do something like a median, God forbid, in a pivot table. So it's not perfect for everything, but for counting things, it's great. If I'm not using that, then I'm likely using ipython and using pandas within that, which is that data science python toolkit. I love notebook environments, I really really do. I don't know where I'd be without them. And ipython notebook is awesome for me in my workflow. Then lastly, QGIS, which is spatial analysis software. It's free, it's open source, people are intimidated by it. But the best way to learn something is to have a story to tell. Because if you have a story to tell, you go on stack overflow and you figure out how to tell it. So I taught myself GIS and QGIs, and when I'm stuck I can email friends or look around on the web, and it's allowed me to do such fun things. Planners are used to the software, they use it all the time. GIS software. And I'm a computer scientist, I'd never really gotten into it, but the operations are so natural to me. Intersections and unions and voronoi, polygons and nerdy things abound in the software that if you think kind of mathematically, using GIS software empowers you to do really, really fun and cool things.",
+      "id": "ep_66_ut_69"
+    },
+    {
+      "end": 1626636,
+      "speaker": "Enrico Bertini",
+      "start": 1620340,
+      "text": "So are there any other or specific visualization tool that you use in the.",
+      "id": "ep_66_ut_70"
+    },
+    {
+      "end": 1703004,
+      "speaker": "Ben Wellington",
+      "start": 1626660,
+      "text": "Process other than those guys? And then lastly, I should mention cartodB. So I'm not, absolutely, I'm not a. So in fact, you started the conversation mentioning the visualized conference. And you know, to be honest with you, I was a bit terrified to be there. I mean, I'm not artistic. If you go to my site, you'll see kind of scrappy visualizations here and there. Some of the maps that, the maps that are cool and look good I made in cartoo DB. I don't have web, I've never taken the time to learn web tools and things like that, so it's just not in my sweet spot. So I like telling stories and I use ugly sometimes charts to show what I'm trying to say. Thank God for CartooddB, because I can upload shapefiles and other geographic data from GIS, where I'm doing it locally, into the web, where I can craft these dynamic maps. And so that's a great way to learn too, as long as you have some sort of longitude, of latitude, or some sort of polygons. Cartoodb allows you to be a kind of novice web guy like me and still make a dynamic map. So that's huge for me.",
+      "id": "ep_66_ut_71"
+    },
+    {
+      "end": 1737214,
+      "speaker": "Moritz Stefaner",
+      "start": 1703304,
+      "text": "And so you have a question, you have a dataset, you have a question, or sometimes you just explore, you make a few maps. Now, how does that become the narrative and the blog post that you present in the end? So is the blog post usually more a recapping of all the steps you took? Is the order of things presented in the blog post often the order of your actions? Or is it more like you take the best three plots and make a nice story around them? What's the usual process leading up to the text of the narrative?",
+      "id": "ep_66_ut_72"
+    },
+    {
+      "end": 1821974,
+      "speaker": "Ben Wellington",
+      "start": 1737294,
+      "text": "Right, so the taxi example we mentioned earlier was more kind of a narrative of my process, though I would say that's less often what I'm doing. There's a lot of great work being done on blogs and data science, but I set off to make mine accessible to everyone instead of interest to programmers or data scientists making that choice. I almost never get technical at all. In my posts, I found that thinking. Thinking about your story and the narrative is probably one of the most important things about my work. Thinking about storytelling, relating to people, finding the things that they care about, and putting. Sometimes I have little stories like running for the subway or my bike was stolen, or other things that I put in there to just help people relate and say to themselves, oh, actually, data can be cool. If I write about pandas and ipython, I will lose 99% of my audience on the first few sentences. I'm very careful to try to not make it technical. And so yeah, I do a lot of analysis. Usually I'll find the most interesting thing and then I will work that into a narrative. Not necessarily the way I found it, though there are a few exceptions where I think they're like good data science lessons I sprinkle in there.",
+      "id": "ep_66_ut_73"
+    },
+    {
+      "end": 1832994,
+      "speaker": "Moritz Stefaner",
+      "start": 1822314,
+      "text": "Do you have a ratio of how much exploration you do and how much individual charts you would produce, and how much. Then make it into the blog post. Do you have a feeling?",
+      "id": "ep_66_ut_74"
+    },
+    {
+      "end": 1863744,
+      "speaker": "Ben Wellington",
+      "start": 1834214,
+      "text": "I mean, it can be. I mean, it can be anywhere from. There are times where it's 90% storytelling, 10% analysis. To be honest, the hydrant's a great example. It's like, I found that it didn't take long. Now what? And then there are times where the analysis is a lot more arduous. Large data sets. The taxi data for taxi pickups and drop offs in New York is a very large dataset.",
+      "id": "ep_66_ut_75"
+    },
+    {
+      "end": 1868676,
+      "speaker": "Moritz Stefaner",
+      "start": 1864924,
+      "text": "That's a huge one. I love that dataset. Has hundreds of millions of riders.",
+      "id": "ep_66_ut_76"
+    },
+    {
+      "end": 1869380,
+      "speaker": "Ben Wellington",
+      "start": 1868700,
+      "text": "That's very cool.",
+      "id": "ep_66_ut_77"
+    },
+    {
+      "end": 1870104,
+      "speaker": "Moritz Stefaner",
+      "start": 1869452,
+      "text": "Wow.",
+      "id": "ep_66_ut_78"
+    },
+    {
+      "end": 1969984,
+      "speaker": "Ben Wellington",
+      "start": 1870844,
+      "text": "One thing it reminds me, there's a big fight between the mayor of New York, de Blasio, and Uber that's been going on for the last year and a half about congestion. And there is a question where the de Blasio administration was blaming the uptick in Ubers for slowing traffic down. Manhattan. In New York and around Manhattan, they were saying they were going to put a cap on the number of Ubers licenses they were going to give out for hire vehicles. And this became kind of a fight. So the administration commissioned this study, which is going to be released any day now, and it cost $2 million. Okay, $2 million. Wow. Now, if you take a step back and you understand that along the way, this taxi data has been released, and some of the Uber data has been released through freedom of information requests. And so online you can get access to this data. And if you start to look at some of the data journalism, I did a post in the New Yorker, but so did 538. Did an excellent article asking this exact question, is Uber raising traffic? And they do great, great analysis, and it tells really compelling answers to these questions for free for the government. Right. So we're seeing that. Now, do they pay attention? I don't know. But I do know that they're going to spend $2 million. And what the media is saying is that they came to the same conclusion that all of these journalists and bloggers did, where the city should be taking more advantage of that. I'd love to see them take this public data that they're releasing and listen to people's responses and use that as a money saving technique instead of spending $2 million to have someone else do the exact same thing. So I'm waiting to read the report, but all the media that I've read on it basically says that it's going to say the same thing that we're seeing in the blog.",
+      "id": "ep_66_ut_79"
+    },
+    {
+      "end": 1970644,
+      "speaker": "Moritz Stefaner",
+      "start": 1970094,
+      "text": "Yeah.",
+      "id": "ep_66_ut_80"
+    },
+    {
+      "end": 1998326,
+      "speaker": "Enrico Bertini",
+      "start": 1970764,
+      "text": "So, Ben, I have a different kind of question. So I'm pretty sure many of our listeners are aspiring data scientists and or visualizers. So do you have any suggestions of people who are just starting or didn't even start yet, but they love this field. They are excited about the idea of working with data. How do you start? Do you have any tips in this sense?",
+      "id": "ep_66_ut_81"
+    },
+    {
+      "end": 2123994,
+      "speaker": "Ben Wellington",
+      "start": 1998430,
+      "text": "Yeah, you know, I think that the having a story to tell in some sense is a big part of it. Right. So you need to motivate yourself to go do something. And I don't know about you, but I was never, I mean, I didn't do my summer reading as a kid. Don't tell my mom. I don't sit down with a textbook and read it end to end. There are people who do that. It's just not me. And so, as much as I want to learn in the world, I'm not the type of person, I'm always distracted by things, and I'm not the type of person that sits down and just studies something for the sake of studying it to increase my knowledge. I wish I were, but I'm not. But when I found that I had a story to tell and I just needed to learn x to tell it, that gets me up, that gets me learning these tools. And so I found that to be just incredibly motivating to get started. Like having that motivation, because it becomes, you know, you have your goal in mind and you iteratively learn, because you don't need to learn everything just to tell that story. You need to learn a few things, and then the next story you have to tell, you need to learn a few more things. And as you go, you know, you learn more and more and more and more. But, you know, to do the. To recreate the hydrogen analysis I did, you know, you need to learn how to do an aggregation, right? It's. You can find that in sort of any tutorial on a pandas or rich or even excel pivot tables. So I think that's, to me, the most important thing is having a goal. It doesn't have to be a story, but having something you want to know that is going to drive you from there. You just install some software and you start failing. You fail enough times and you read enough posts and you ask enough people for help until you start to make a little bit of progress. And each time you do it, you'll get faster and faster and faster. Until today, there are times that, like I said, I can turn analysis around in 510 minutes of something that I know I'm looking for and it's just because of experience of doing this type of work for so long and so many times.",
+      "id": "ep_66_ut_82"
+    },
+    {
+      "end": 2134274,
+      "speaker": "Moritz Stefaner",
+      "start": 2124114,
+      "text": "I think it's a great tip to start with an interest. And now that you set this great model for New York, maybe we will soon see iquant daily or I quite Paris.",
+      "id": "ep_66_ut_83"
+    },
+    {
+      "end": 2135346,
+      "speaker": "Ben Wellington",
+      "start": 2134354,
+      "text": "I've seen. I've seen.",
+      "id": "ep_66_ut_84"
+    },
+    {
+      "end": 2136374,
+      "speaker": "Moritz Stefaner",
+      "start": 2135410,
+      "text": "That would be great.",
+      "id": "ep_66_ut_85"
+    },
+    {
+      "end": 2177136,
+      "speaker": "Ben Wellington",
+      "start": 2136914,
+      "text": "I've had a lot of people reach out, actually internationally who told me they were inspired by the blog and have been starting their own. And so that's been super cool. I've been super touched by that. And actually I'm working on a book which is also going to be a little bit more international with Riverhead, which is sort of a division of penguins. So that book is going to be taking international cities and doing the same thing, finding public datasets and then saying what it tells us about the way we act as humans in cities and the funny things we do. That's going to be a lot of work, and I have to write it, finish it by the end of this year. So I've got a lot of work set out for me.",
+      "id": "ep_66_ut_86"
+    },
+    {
+      "end": 2177672,
+      "speaker": "Moritz Stefaner",
+      "start": 2177200,
+      "text": "Oh, wow.",
+      "id": "ep_66_ut_87"
+    },
+    {
+      "end": 2179312,
+      "speaker": "Ben Wellington",
+      "start": 2177728,
+      "text": "Yeah, I can keep you busy.",
+      "id": "ep_66_ut_88"
+    },
+    {
+      "end": 2180552,
+      "speaker": "Moritz Stefaner",
+      "start": 2179328,
+      "text": "Is it called iquant Planet?",
+      "id": "ep_66_ut_89"
+    },
+    {
+      "end": 2189874,
+      "speaker": "Ben Wellington",
+      "start": 2180648,
+      "text": "You know, my working title. I wrote iquant the world as a working title, though whether that's going to pass, I don't think that's going to pass. The scruff.",
+      "id": "ep_66_ut_90"
+    },
+    {
+      "end": 2190498,
+      "speaker": "Moritz Stefaner",
+      "start": 2189914,
+      "text": "I love it.",
+      "id": "ep_66_ut_91"
+    },
+    {
+      "end": 2203210,
+      "speaker": "Ben Wellington",
+      "start": 2190586,
+      "text": "Of a publishing house. I like it. But that's so far ahead. I got to actually write the darn thing. But I'm very excited about that. And that'll be a more outside of New York look at things.",
+      "id": "ep_66_ut_92"
+    },
+    {
+      "end": 2204894,
+      "speaker": "Moritz Stefaner",
+      "start": 2203362,
+      "text": "That sounds really amazing.",
+      "id": "ep_66_ut_93"
+    },
+    {
+      "end": 2214882,
+      "speaker": "Ben Wellington",
+      "start": 2205434,
+      "text": "And it's led to. One of the other great things is that some of the interest has led to. I just recently had a. A little son, he's five months old.",
+      "id": "ep_66_ut_94"
+    },
+    {
+      "end": 2216818,
+      "speaker": "Enrico Bertini",
+      "start": 2215058,
+      "text": "And congratulations.",
+      "id": "ep_66_ut_95"
+    },
+    {
+      "end": 2222058,
+      "speaker": "Ben Wellington",
+      "start": 2216866,
+      "text": "Thank you. And my blogging has slowed down a little bit, I gotta be honest with you. He takes up.",
+      "id": "ep_66_ut_96"
+    },
+    {
+      "end": 2223882,
+      "speaker": "Enrico Bertini",
+      "start": 2222106,
+      "text": "You're gonna be more productive afterwards.",
+      "id": "ep_66_ut_97"
+    },
+    {
+      "end": 2224946,
+      "speaker": "Ben Wellington",
+      "start": 2223938,
+      "text": "Don't you worry.",
+      "id": "ep_66_ut_98"
+    },
+    {
+      "end": 2226266,
+      "speaker": "Enrico Bertini",
+      "start": 2225090,
+      "text": "Yeah, absolutely.",
+      "id": "ep_66_ut_99"
+    },
+    {
+      "end": 2227050,
+      "speaker": "D",
+      "start": 2226410,
+      "text": "Keep going.",
+      "id": "ep_66_ut_100"
+    },
+    {
+      "end": 2256268,
+      "speaker": "Ben Wellington",
+      "start": 2227122,
+      "text": "But it's been such a blessing. And along with the blog, like I said, there's been some international interest. And so I've gotten invites to speak in different countries, but we have this little guy, but we said, hey, let's go as a family. So I got him a passport when he was three weeks old. He's been to Tokyo, I mean, not Tokyo. Excuse me, backing up. He's been to Taipei, in Amsterdam along with me, just to give talks and stuff. So that's been a blessing. It's been really really cool. All just from doing some analysis on a blog. Right?",
+      "id": "ep_66_ut_101"
+    },
+    {
+      "end": 2268904,
+      "speaker": "Enrico Bertini",
+      "start": 2256436,
+      "text": "Amazing. Amazing. I mean, that's really amazing. So if you are listening to this, start a blog, find some interesting data, and write about some amazing stories.",
+      "id": "ep_66_ut_102"
+    },
+    {
+      "end": 2276824,
+      "speaker": "Ben Wellington",
+      "start": 2269204,
+      "text": "Yeah. I mean, it doesn't have to be amazing, but so much of the world has yet to be quantified. These datasets just sit there?",
+      "id": "ep_66_ut_103"
+    },
+    {
+      "end": 2278504,
+      "speaker": "Enrico Bertini",
+      "start": 2277204,
+      "text": "Oh, yeah, absolutely.",
+      "id": "ep_66_ut_104"
+    },
+    {
+      "end": 2300324,
+      "speaker": "Ben Wellington",
+      "start": 2278964,
+      "text": "People aren't looking at them in depth. And so you take a city that just released their parking ticket data set and you'll find a million stories in there if you have the interest in drive. It's a matter of the fact that these don't seem. I don't think these datasets really fascinate people. And so they kind of sit unexplored, and so there's so much to find, and I think that's part of it.",
+      "id": "ep_66_ut_105"
+    },
+    {
+      "end": 2301224,
+      "speaker": "Moritz Stefaner",
+      "start": 2300364,
+      "text": "That's a great tip.",
+      "id": "ep_66_ut_106"
+    },
+    {
+      "end": 2301640,
+      "speaker": "Ben Wellington",
+      "start": 2301364,
+      "text": "Yeah.",
+      "id": "ep_66_ut_107"
+    },
+    {
+      "end": 2306704,
+      "speaker": "Enrico Bertini",
+      "start": 2301672,
+      "text": "Ben, thanks a lot for coming on the show. That's a really amazing story.",
+      "id": "ep_66_ut_108"
+    },
+    {
+      "end": 2307600,
+      "speaker": "Ben Wellington",
+      "start": 2306744,
+      "text": "Oh, it's such a pleasure.",
+      "id": "ep_66_ut_109"
+    },
+    {
+      "end": 2316604,
+      "speaker": "Enrico Bertini",
+      "start": 2307632,
+      "text": "It's really fascinating what you are doing. So if our listeners want to know more about you, where can they find more information?",
+      "id": "ep_66_ut_110"
+    },
+    {
+      "end": 2348798,
+      "speaker": "Ben Wellington",
+      "start": 2316944,
+      "text": "They can do, I guess iquant NYC will bring you to my site, which is a tumblr. The other one is iquantny dot tumblr.com. but iquantanyc, check it out there. I've got blog posts used to be weekly slowing down to maybe once a month or twice with the new baby, but lots more. And a mailing list on there, too, to stay in touch, as I kind of sometimes go back and forth with city officials. So there's some fun stuff going on, too, and sometimes just kind of find quirky things and more to come.",
+      "id": "ep_66_ut_111"
+    },
+    {
+      "end": 2349558,
+      "speaker": "D",
+      "start": 2348886,
+      "text": "Yep.",
+      "id": "ep_66_ut_112"
+    },
+    {
+      "end": 2351822,
+      "speaker": "Enrico Bertini",
+      "start": 2349726,
+      "text": "Well, thanks a lot. Thank you, Ben.",
+      "id": "ep_66_ut_113"
+    },
+    {
+      "end": 2353374,
+      "speaker": "Moritz Stefaner",
+      "start": 2351878,
+      "text": "Super inspiring stuff. Thanks, Ben.",
+      "id": "ep_66_ut_114"
+    },
+    {
+      "end": 2355780,
+      "speaker": "Ben Wellington",
+      "start": 2353414,
+      "text": "Thank you. Thanks so much for having me. Bye bye.",
+      "id": "ep_66_ut_115"
+    },
+    {
+      "end": 2356904,
+      "speaker": "Enrico Bertini",
+      "start": 2355812,
+      "text": "Bye bye bye.",
+      "id": "ep_66_ut_116"
+    },
+    {
+      "end": 2418364,
+      "speaker": "D",
+      "start": 2359644,
+      "text": "Hey, guys, thanks for listening to data stories again. Before you leave, we have a request if you can spend a couple of minutes rating us on iTunes, that would be extremely helpful for the show. I also want to give you some information on the many ways you can get news directly from us. We are, of course, on twitter@twitter.com. Datastories. We have a Facebook page at Facebook, Facebook.com data stories podcast, and we now also have a newsletter. So if you want to get news directly into your inbox, go to our homepage, datastory es and look for the link that you find on the right. One last thing I want to tell you is that we love to get in touch with our listeners, especially if you want to suggest way to improve the show, amazing people you want us to invite or projects you want us to talk about, so do get in touch with us. That's all for now. See you next time. Thanks for listening to data stories.",
+      "id": "ep_66_ut_117"
+    },
+    {
+      "end": 2437544,
+      "speaker": "Moritz Stefaner",
+      "start": 2421304,
+      "text": "This episode of Data Stories is sponsored by Quadrigram, a web based application designed to bring data stories to life. With Quadrigram, you can create and share interactive data stories without the need of any coding skills. Check it out@quadrigram.com.",
+      "id": "ep_66_ut_118"
+    }
+  ],
+  "confidence": 0.935544118124066,
+  "audio_duration": 2437,
+  "punctuate": true,
+  "format_text": true,
+  "dual_channel": false,
+  "webhook_url": null,
+  "webhook_status_code": null,
+  "webhook_auth": false,
+  "webhook_auth_header_name": null,
+  "speed_boost": false,
+  "auto_highlights_result": null,
+  "auto_highlights": false,
+  "audio_start_from": null,
+  "audio_end_at": null,
+  "word_boost": [],
+  "boost_param": null,
+  "filter_profanity": false,
+  "redact_pii": false,
+  "redact_pii_audio": false,
+  "redact_pii_audio_quality": null,
+  "redact_pii_policies": null,
+  "redact_pii_sub": null,
+  "speaker_labels": true,
+  "content_safety": false,
+  "iab_categories": true,
+  "content_safety_labels": {
+    "status": "unavailable",
+    "results": [],
+    "summary": {}
+  },
+  "language_detection": false,
+  "language_detection_threshold": null,
+  "language_confidence": null,
+  "custom_spelling": null,
+  "throttled": false,
+  "auto_chapters": true,
+  "summarization": false,
+  "summary_type": null,
+  "summary_model": null,
+  "custom_topics": false,
+  "topics": [],
+  "speech_threshold": null,
+  "speech_model": "best",
+  "chapters": [
+    {
+      "summary": "This episode of data stories is sponsored by Quadrigram, a web based application designed to bring data stories to life. You can create and share interactive data stories without the need of any coding skills. Enrico: I had a nice little holiday project that gained some traction.",
+      "gist": "Data Stories: A Christmas Story",
+      "headline": "This episode of data stories is sponsored by Quadrigram",
+      "start": 120,
+      "end": 131824,
+      "id": "ep_66_ch_0"
+    },
+    {
+      "summary": "Yeah. I think that brings us also to our guest because he does really interesting things with open data as well. Ben Wellington. Welcome to the show.",
+      "gist": "Open Data in the World",
+      "headline": "Ben Wellington does really interesting things with open data",
+      "start": 132924,
+      "end": 144764,
+      "id": "ep_66_ch_1"
+    },
+    {
+      "summary": "Ben Kohn: I'm an assistant visiting professor at the Pratt Institute in Brooklyn. He says he has a vision for statistics for urban planners. Kohn also runs a blog called iquant New York, where he quantifies public data. How did that blog come about?",
+      "gist": "iQuant: The New Hip Hop in Data Science",
+      "headline": "Ben Katz is an assistant visiting professor at the Pratt Institute teaching statistics",
+      "start": 144884,
+      "end": 333652,
+      "id": "ep_66_ch_2"
+    },
+    {
+      "summary": "There are some of your favorite posts. They range from sort of fun to maybe policy and more serious things. Find the fast food chain in New York that had the worst health inspection scores versus the best. Also find the person who lived farthest from a Starbucks in Manhattan.",
+      "gist": "Favorite Posts of 2015",
+      "headline": "Some of your favorite investigations range from fun to policy and more serious",
+      "start": 333788,
+      "end": 404364,
+      "id": "ep_66_ch_3"
+    },
+    {
+      "summary": "Benjamin: A blog post exploring tipping behavior in the taxi industry was really interesting. It turned out that half of the fleet in New York City was programmed to tip on top of tolls and taxes. Two different programmers kind of calculated tip differently. Those are the kind of things that can end up making changes.",
+      "gist": "The Upside of Tipping Cabs",
+      "headline": "Ben Friedman's blog post explores tipping behavior in the New York taxi industry",
+      "start": 405624,
+      "end": 657986,
+      "id": "ep_66_ch_4"
+    },
+    {
+      "summary": "Do you also have any unsolved mysteries? Oh, man. That's in the data. There's some interesting peaks in. certain types of crimes. You see a data anomaly and someone says, why is that way? It's post hoc rationalization.",
+      "gist": "No More Data Scrills: Unsolved Mysteries",
+      "headline": "Do you have any unsolved mysteries in data science that keep you awake",
+      "start": 658090,
+      "end": 801042,
+      "id": "ep_66_ch_5"
+    },
+    {
+      "summary": "A new blog project focuses on parking spots and parking tickets. Two fire hydrants in New York together were making almost $50,000 a year in tickets. The Department of Transportation responded by repainting parking spots. The blog is about making cities better, slowly but better nonetheless.",
+      "gist": "Parking Tickets and the Impact",
+      "headline": "This blog post is about parking spots and parking tickets and its impact",
+      "start": 801218,
+      "end": 1106602,
+      "id": "ep_66_ch_6"
+    },
+    {
+      "summary": " Quadrigram.com is a web based application to create and share these types of data stories on the Internet. Users can merge graphic elements such as texts, images, videos and data visualization modules into a single data story. Free and you just need a Gmail account to start building and sharing your data stories.",
+      "gist": "Quadrigram.com",
+      "headline": "Quadrigram.com is a web based application to create and share data stories",
+      "start": 1106778,
+      "end": 1193624,
+      "id": "ep_66_ch_7"
+    },
+    {
+      "summary": "Benjamin: Ideas just kind of come from living in the city and thinking about things that are interesting. You look for outliers. Each one can spawn an entire blog post. Given a dataset, I could write 50 blog posts on it.",
+      "gist": "The Process of Writing a Data Science Blog",
+      "headline": "Ben Friedman: Ideas come from two places: hypothesis driven and data driven",
+      "start": 1194204,
+      "end": 1491184,
+      "id": "ep_66_ch_8"
+    },
+    {
+      "summary": "An Excel pivot table is really fast and good accounting. The best way to learn something is to have a story to tell. Using GIS software empowers you to do really, really fun and cool things. Are there any other or specific visualization tools that you use in the Process other than those guys?",
+      "gist": "Beyond Excel: The visualization tools you use",
+      "headline": "I use Excel for quick and dirty analyses that are small",
+      "start": 1491604,
+      "end": 1703004,
+      "id": "ep_66_ch_9"
+    },
+    {
+      "summary": "How does that become the narrative and the blog post that you present in the end? Is it more like you take the best three plots and make a nice story around them? Thinking about your story and the narrative is probably one of the most important things about my work.",
+      "gist": "In the Elevator With Data Scientists",
+      "headline": "How does a blog post become a narrative? Thinking about your story",
+      "start": 1703304,
+      "end": 1821974,
+      "id": "ep_66_ch_10"
+    },
+    {
+      "summary": "There's a big fight between the mayor of New York, de Blasio, and Uber about congestion. The administration commissioned a study, which is going to be released any day now, and it cost $2 million. I'd love to see the city use public data that they're releasing and use that as a money saving technique.",
+      "gist": "Is Uber Raising Traffic?",
+      "headline": "The de Blasio administration is commissioning a study on congestion caused by Uber",
+      "start": 1822314,
+      "end": 1970644,
+      "id": "ep_66_ch_11"
+    },
+    {
+      "summary": "Benjamin: Having a story to tell in some sense is a big part of it. The most important thing is having a goal. I'm working on a book which is also going to be a little bit more international. Is it called iquant Planet?",
+      "gist": "How do you start learning data science?",
+      "headline": "Many of our listeners are aspiring data scientists or visualizers",
+      "start": 1970764,
+      "end": 2257548,
+      "id": "ep_66_ch_12"
+    },
+    {
+      "summary": "Ben: So much of the world has yet to be quantified. People aren't looking at them in depth. So if you are listening to this, start a blog, find some interesting data, and write about some amazing stories.",
+      "gist": "Data stories for non-quantum people",
+      "headline": "So if you are listening to this, start a blog, find some interesting data",
+      "start": 2257596,
+      "end": 2362612,
+      "id": "ep_66_ch_13"
+    },
+    {
+      "summary": "This episode of Data Stories is sponsored by Quadrigram, a web based application designed to bring data stories to life. If you can spend a couple of minutes rating us on iTunes, that would be extremely helpful. We love to get in touch with our listeners, especially if you want to suggest way to improve the show.",
+      "gist": "Data Stories",
+      "headline": "This episode of Data Stories is sponsored by Quadrigram",
+      "start": 2362788,
+      "end": 2437544,
+      "id": "ep_66_ch_14"
+    }
+  ],
+  "disfluencies": false,
+  "entity_detection": false,
+  "sentiment_analysis": false,
+  "sentiment_analysis_results": null,
+  "entities": null,
+  "speakers_expected": null,
+  "summary": null,
+  "custom_topics_results": null,
+  "episode_num": 66,
+  "episode_metadata": {
+    "speakers": [
+      "Ben Wellington",
+      "Moritz Stefaner",
+      "Enrico Bertini"
+    ],
+    "WPid": "502",
+    "url": "https://datastori.es/podlove/file/1825/s/feed/c/mp3/discovering-stories-in-nyc-open-data-with-ben-wellington-from-iquantnyc-ds66.mp3",
+    "episode_title": "\"I Quant NY\" Finding Surprising Stories in NYC Open Data with Ben Wellington"
+  }
+}

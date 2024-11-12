@@ -1,0 +1,1502 @@
+{
+  "id": "5136ebde-79fd-45e4-af9a-9abac518504d",
+  "language_model": "assemblyai_default",
+  "acoustic_model": "assemblyai_default",
+  "language_code": "en_us",
+  "status": "completed",
+  "audio_url": "https://datastori.es/podlove/file/198/s/feed/c/mp3/Datastories-07.mp3",
+  "utterances": [
+    {
+      "end": 19560,
+      "speaker": "Moritz Stefaner",
+      "start": 18760,
+      "text": "Shall we get started?",
+      "id": "ep_7_ut_0"
+    },
+    {
+      "end": 29002,
+      "speaker": "Enrico Bertini",
+      "start": 19686,
+      "text": "Yeah, let's start. Hi, everyone. This is Enrico together with Moritz data stories as usual. Hi, Moritz. How are you?",
+      "id": "ep_7_ut_1"
+    },
+    {
+      "end": 30094,
+      "speaker": "Moritz Stefaner",
+      "start": 29058,
+      "text": "Hi. Doing great.",
+      "id": "ep_7_ut_2"
+    },
+    {
+      "end": 44906,
+      "speaker": "Enrico Bertini",
+      "start": 31114,
+      "text": "We have a special episode today. We are going to talk about color. And in order to talk about color, we invited a special guest. We have Gregor Aisch together with us today. Hi, Gregor. How are you?",
+      "id": "ep_7_ut_3"
+    },
+    {
+      "end": 45482,
+      "speaker": "Moritz Stefaner",
+      "start": 45090,
+      "text": "Hi.",
+      "id": "ep_7_ut_4"
+    },
+    {
+      "end": 46842,
+      "speaker": "Gregor Aisch",
+      "start": 45538,
+      "text": "I'm fine. How are you?",
+      "id": "ep_7_ut_5"
+    },
+    {
+      "end": 114274,
+      "speaker": "Enrico Bertini",
+      "start": 46978,
+      "text": "Good, good. As long as we have good weather, everything is fine for me. So let me spend a few words about Gregor, in case you don't know his name already, which would be strange if you are in the data visualization world. I think Gregor, from my point of view, is one of the rising stars of data visualization in the visualization galaxy right now. And he has a very nice website that is called driven by data, and he has very neat and clean and nice projects over there. So if you don't know it, go there. Drivenbydata.net. and I think the specific reason why invited him to talk about color is because he has this very nice little library called Chroma Js, where he finally, I think, debunked several problems regarding to having proper colors, selecting proper colors in an easy way. But, Gregor, do you want to introduce yourself and say something about you, who you are, how you started with visualization, before we dive into color?",
+      "id": "ep_7_ut_6"
+    },
+    {
+      "end": 152364,
+      "speaker": "Gregor Aisch",
+      "start": 116184,
+      "text": "Yeah. First of all, thank you for the very nice introduction. It's hard to add any good points to that. How I started with visualization is I studied a strange course called computational visualistics, where we learned all the hard basics in data visualization and many more. And then I jump to the freelancing field. So, yeah, that's basically it.",
+      "id": "ep_7_ut_7"
+    },
+    {
+      "end": 164164,
+      "speaker": "Enrico Bertini",
+      "start": 152744,
+      "text": "Okay, so is this computational visualistics some sort of more of a computer science kind of background or a design background or just a mix of two of the two.",
+      "id": "ep_7_ut_8"
+    },
+    {
+      "end": 207334,
+      "speaker": "Gregor Aisch",
+      "start": 166184,
+      "text": "I would say it's like 60% computer science, and there's more or less ten to 20% design. And the rest is what we call visualistics, which is kind of analogy to linguistic, which is well known. Visualistic is kind of the analogy for everything related to understanding and creating images. So there I had two years in psychology, but also other topics related to how we understand images in our brains.",
+      "id": "ep_7_ut_9"
+    },
+    {
+      "end": 234816,
+      "speaker": "Enrico Bertini",
+      "start": 207794,
+      "text": "Okay, fine. Really interesting. Okay, so we want to talk about color today because color is at the same time, so powerful, potentially powerful for visualization, but also dangerous. We see many examples of visualizations where color is misused, and I don't know what is happening to Moritz.",
+      "id": "ep_7_ut_10"
+    },
+    {
+      "end": 235484,
+      "speaker": "Gregor Aisch",
+      "start": 234880,
+      "text": "Yeah.",
+      "id": "ep_7_ut_11"
+    },
+    {
+      "end": 237404,
+      "speaker": "Moritz Stefaner",
+      "start": 235944,
+      "text": "Family is rioting.",
+      "id": "ep_7_ut_12"
+    },
+    {
+      "end": 238856,
+      "speaker": "Enrico Bertini",
+      "start": 238104,
+      "text": "Okay. Yeah.",
+      "id": "ep_7_ut_13"
+    },
+    {
+      "end": 239644,
+      "speaker": "Moritz Stefaner",
+      "start": 238880,
+      "text": "It's fine.",
+      "id": "ep_7_ut_14"
+    },
+    {
+      "end": 240800,
+      "speaker": "Gregor Aisch",
+      "start": 239944,
+      "text": "It's quite usual.",
+      "id": "ep_7_ut_15"
+    },
+    {
+      "end": 244440,
+      "speaker": "Enrico Bertini",
+      "start": 240872,
+      "text": "I like it. Yeah, but I'm back.",
+      "id": "ep_7_ut_16"
+    },
+    {
+      "end": 245208,
+      "speaker": "Moritz Stefaner",
+      "start": 244512,
+      "text": "Sorry.",
+      "id": "ep_7_ut_17"
+    },
+    {
+      "end": 289664,
+      "speaker": "Enrico Bertini",
+      "start": 245376,
+      "text": "So let me start over again. Yeah, so we want to discuss color because as I was saying, color is at the same time very, very powerful, potentially powerful, but very dangerous at the same time. And I think especially at the beginning for novices, there are lots of misunderstandings and it's very easy to misuse color. So we will try to go through how to use color and what are the major issues there and some common problems that we always find when designing visualizations with color. So, I don't know, Gregor, do you want to introduce something about color, how we perceive color, color scales or whatever you want to say to introduce color in general, all.",
+      "id": "ep_7_ut_18"
+    },
+    {
+      "end": 447014,
+      "speaker": "Gregor Aisch",
+      "start": 290284,
+      "text": "Yeah, sure. I think the key point in understanding how we perceive color is to learn about the visual perception of humans in general. But to be more precise, you can learn quite a lot just from understanding the structure of the human retina. So the part of our eyes that is responsible for, for our vision. And within the human retina, we have quite a lot of receptor cells who are kind of, each of them responds to a certain feature. And mainly we have two types of them. Not sure if I tell you any new, but we have cones and we have rods. Cones are for colors and rods are for light reception. And that's the first interesting point about the distribution of cones and rods is that we have like 7 million cones, but we have 70 to 150 million of rods. So that's one point why we are so we are much better sweet to see differences in light than we are in perceiving differences in color. So in color, when I talk about color, I mainly mean the hue of the color. And you can even go deeper into the topic and you see that we have three types of cones, which is very interesting because it's very similar to the way we decode color, is very similar to the way we encode it on our computer screens. So on computer screens, we have three color channels for red, green and blue, and the same we have in our cones. Basically, we have three types of cones, and each of them is responsible for a certain color. One is very reddish and blueish and green. And there's last interesting point about the distribution of the three types of cones is that they are not equally distributed. We have ten times as much cones for red than we have for green and blue. So this is the reason why it's very easy for us to distinguish between different shades of red than it is to distinguish between green and blue, which is very close to us.",
+      "id": "ep_7_ut_19"
+    },
+    {
+      "end": 489132,
+      "speaker": "Moritz Stefaner",
+      "start": 447954,
+      "text": "Interesting. One thing I learned in my cognitive science days is also that, I mean, you tend to believe your eyes like a camera, and then in the brain, you know, this camera picture is being sort of analyzed, but actually the brain starts right on the retina, and information processing also starts right on the retina. So there's a lot of change in sensitivities going on depending on how light or dark it is at the moment. The contrast of your edges in the image are already enhanced. And overall, there's a lot of pre computation already happening before anything enters the brain. There's a lot of information transformation going on in your eye already.",
+      "id": "ep_7_ut_20"
+    },
+    {
+      "end": 494424,
+      "speaker": "Enrico Bertini",
+      "start": 489308,
+      "text": "Sure, sure. I guess you read Colin Ware's book, right?",
+      "id": "ep_7_ut_21"
+    },
+    {
+      "end": 495464,
+      "speaker": "Moritz Stefaner",
+      "start": 494724,
+      "text": "Yes.",
+      "id": "ep_7_ut_22"
+    },
+    {
+      "end": 534994,
+      "speaker": "Enrico Bertini",
+      "start": 498644,
+      "text": "Yeah. I think there is an implication for that, right? I mean, the way we perceive color is connected to the way we specify color in our computers, right? And there are so many different colors, so many different ways to specify color in a computer. So, Gregor, you just said that the way we perceive, at least the receptors we have correspond more or less to this RGB model. But RGB is not exactly the best way to represent colors in visualization, right?",
+      "id": "ep_7_ut_23"
+    },
+    {
+      "end": 540498,
+      "speaker": "Gregor Aisch",
+      "start": 535074,
+      "text": "Yeah, yeah. But it's not 100% true because we have a separate channel for light.",
+      "id": "ep_7_ut_24"
+    },
+    {
+      "end": 541778,
+      "speaker": "Enrico Bertini",
+      "start": 540586,
+      "text": "For light, yeah, sure.",
+      "id": "ep_7_ut_25"
+    },
+    {
+      "end": 544882,
+      "speaker": "Gregor Aisch",
+      "start": 541906,
+      "text": "So that's not. We don't have it in RgB, but.",
+      "id": "ep_7_ut_26"
+    },
+    {
+      "end": 555906,
+      "speaker": "Moritz Stefaner",
+      "start": 544978,
+      "text": "I mean, RGB overlap. Right. So the receptor, you know, there are these curves where the receptors react and these overlap. So we don't have these strictly separated channels.",
+      "id": "ep_7_ut_27"
+    },
+    {
+      "end": 556410,
+      "speaker": "Gregor Aisch",
+      "start": 556010,
+      "text": "That's right.",
+      "id": "ep_7_ut_28"
+    },
+    {
+      "end": 559334,
+      "speaker": "Moritz Stefaner",
+      "start": 556442,
+      "text": "Some colors might trigger two types of receptors and so on.",
+      "id": "ep_7_ut_29"
+    },
+    {
+      "end": 572894,
+      "speaker": "Enrico Bertini",
+      "start": 560034,
+      "text": "Yeah, yeah. Maybe we should clarify that. I mean, we have three receptors for different colors, but the way these receptors are tied together in order to create a signal is different, right?",
+      "id": "ep_7_ut_30"
+    },
+    {
+      "end": 574238,
+      "speaker": "Moritz Stefaner",
+      "start": 572934,
+      "text": "Yeah. It's not strictly like.",
+      "id": "ep_7_ut_31"
+    },
+    {
+      "end": 577086,
+      "speaker": "Enrico Bertini",
+      "start": 574326,
+      "text": "It's not strictly like going directly into these three channels.",
+      "id": "ep_7_ut_32"
+    },
+    {
+      "end": 578006,
+      "speaker": "Moritz Stefaner",
+      "start": 577150,
+      "text": "Yeah, yeah, yeah.",
+      "id": "ep_7_ut_33"
+    },
+    {
+      "end": 578834,
+      "speaker": "Gregor Aisch",
+      "start": 578150,
+      "text": "Right.",
+      "id": "ep_7_ut_34"
+    },
+    {
+      "end": 613644,
+      "speaker": "Enrico Bertini",
+      "start": 580334,
+      "text": "So I think this is the reason why. So, one thing is how we out our receptors process color, and one thing is how we perceive color. Right. And how this impacts the way we use different color scales. I think that's also one of the reasons why we have so many different color scales. Gregor, can you tell us something about how many, why we have so many different color scales, and what's their major differences? I mean, what's the main difference between, I don't know, RGB and, I don't know, use saturation and value and so on.",
+      "id": "ep_7_ut_35"
+    },
+    {
+      "end": 640272,
+      "speaker": "Gregor Aisch",
+      "start": 614784,
+      "text": "Okay. Why we have so many different color spaces? I'm not even sure how to name them. Some say color space, and some take color model but it's very, very similar. Why we have so much of them. So that's an interesting question. I'm not sure, but I know most of them and you can answer it.",
+      "id": "ep_7_ut_36"
+    },
+    {
+      "end": 645416,
+      "speaker": "Enrico Bertini",
+      "start": 640288,
+      "text": "I don't know. It's fine. No, go ahead.",
+      "id": "ep_7_ut_37"
+    },
+    {
+      "end": 785524,
+      "speaker": "Gregor Aisch",
+      "start": 645480,
+      "text": "Sorry. So I think the main reason for RGB is a very technical reason, because this is the way we encode colors on computer screens. But it's not the ideal color space for design tasks. For instance, if you're in a graphic software, you need separate channels for hue, saturation and the lightness of the color. I think there are many, many color spaces that have this hue and saturation thing, but the third varies from different. So we have HSV, which is hue, saturation and value. And we have HSB, which is sometimes referred to as HSL because some say lightness and some say brightness. And there's. Yeah, you can read a long article on that on Wikipedia if you're interested. But the thing I learned is they're basically the same, but the way they encode likeness is still very technically driven because it's directly connected to the lightning lighting of our screen, but not to the way we perceive the lightness of the color. So this is the reason why people introduced a completely different set of color spaces, which are more related to humans. And the most famous one at the lab, color space. But it's very. This is the point where it gets tricky. You can. In lab, you have one channel for lightness and you have two color channels, but they are bipolar. So you have one ranging from green to pink and the other ranging, I think, from blue to yellow. But don't quote me on that. So it's very difficult to use them in a, in day to day work?",
+      "id": "ep_7_ut_38"
+    },
+    {
+      "end": 790524,
+      "speaker": "Moritz Stefaner",
+      "start": 786344,
+      "text": "I found that too. Yeah. You have to think a lot to use them. Yeah.",
+      "id": "ep_7_ut_39"
+    },
+    {
+      "end": 853394,
+      "speaker": "Gregor Aisch",
+      "start": 791304,
+      "text": "And, but this, but, but very recently I discovered a third, another color space, which is called, I think, the. The munzil color space. And this, this is why, the main reason for. For me to develop yet another library for color manipulation with chroma js, because I think it's still the only one who includes this Manzilla color system. And the idea of the Manzel color system is that it takes the advantages of the lab, which is that lightness is measured in a way, in the same way we perceive lightness, but you have the convenience of a hue channel. So one single hue channel and a kind of saturation channel, which I called chroma channel. Now.",
+      "id": "ep_7_ut_40"
+    },
+    {
+      "end": 871370,
+      "speaker": "Enrico Bertini",
+      "start": 853974,
+      "text": "Okay. Yeah. So is it correct to say that in the end we can distinguish between two broad classes of color spaces, those that are more targeted towards measuring device features of color, and others that are.",
+      "id": "ep_7_ut_41"
+    },
+    {
+      "end": 891396,
+      "speaker": "Moritz Stefaner",
+      "start": 871402,
+      "text": "More targeted, maybe more like how color comes about. So RGB and CMYK, they're related to the process of creating color. Right. So how do you mix primary colors and so on? And I think HCL, Lab, HSV, all these, they are more related to what we are interested in, in color and how we perceive it.",
+      "id": "ep_7_ut_42"
+    },
+    {
+      "end": 935364,
+      "speaker": "Enrico Bertini",
+      "start": 891530,
+      "text": "Yeah. And I think in terms of visualization, everything boils down in the end on having, I mean, what we would really like to have in visualization is basically two channels. One that is more for creating different types of colors, what we call categorical colors, and another channel for giving information about quantities and giving them intensities. Yeah. Intensity and so on. Right. This is what we really want in visual itself. So maybe we can introduce these two types of main purposes in using color for visualization, for representing categorical data and continuous data. Maybe we can start with categorical data. Gregor, do you want to introduce that?",
+      "id": "ep_7_ut_43"
+    },
+    {
+      "end": 1017266,
+      "speaker": "Gregor Aisch",
+      "start": 936864,
+      "text": "Yeah, sure. So category data is, it refers to all the situations where you display information and you want to identify distinct categories in the data, like you have, for instance, if you have a visualization where you have Republicans data related to the Republican Party and to the democratic party, these are two categories. And usually you would use red and blue to represent them. But it gets tricky if you have like five or six categories. And I think it's very hard to display any more categories. And the tricky point in those colors scales is to find the right colors that are both easy to distinguish and still that are, that are not too. Okay. I have to say that this problem of color is that we also have, we have kind of psychology of color, which is? Which is that we connect certain emotions to some colors. And also we have background knowledge. And so it's very difficult.",
+      "id": "ep_7_ut_44"
+    },
+    {
+      "end": 1024146,
+      "speaker": "Moritz Stefaner",
+      "start": 1017370,
+      "text": "Warm and hot. You know, we have hot and cold colors. All these things can play a role in how your final piece is read. Yeah.",
+      "id": "ep_7_ut_45"
+    },
+    {
+      "end": 1027414,
+      "speaker": "Enrico Bertini",
+      "start": 1024250,
+      "text": "And they see differently in different cultures. Right.",
+      "id": "ep_7_ut_46"
+    },
+    {
+      "end": 1031334,
+      "speaker": "Gregor Aisch",
+      "start": 1028554,
+      "text": "That's the next major problem.",
+      "id": "ep_7_ut_47"
+    },
+    {
+      "end": 1033370,
+      "speaker": "Enrico Bertini",
+      "start": 1032034,
+      "text": "Pain in the ass.",
+      "id": "ep_7_ut_48"
+    },
+    {
+      "end": 1040253,
+      "speaker": "Gregor Aisch",
+      "start": 1033562,
+      "text": "So it's difficult to find a perfect combination of colors, categorical data.",
+      "id": "ep_7_ut_49"
+    },
+    {
+      "end": 1050713,
+      "speaker": "Moritz Stefaner",
+      "start": 1041993,
+      "text": "How many, in your experience, how many different categories can you comfortably express with nice and equally important, let's say, colors?",
+      "id": "ep_7_ut_50"
+    },
+    {
+      "end": 1052817,
+      "speaker": "Enrico Bertini",
+      "start": 1050873,
+      "text": "That's a huge debate, Moritz.",
+      "id": "ep_7_ut_51"
+    },
+    {
+      "end": 1059933,
+      "speaker": "Moritz Stefaner",
+      "start": 1052865,
+      "text": "Yeah, I know. So I would like to ask the empirical questions, like from your work, what was always the point where it breaks?",
+      "id": "ep_7_ut_52"
+    },
+    {
+      "end": 1067834,
+      "speaker": "Gregor Aisch",
+      "start": 1060614,
+      "text": "No. So I'd say it depends. And there's no clear break point. Break point.",
+      "id": "ep_7_ut_53"
+    },
+    {
+      "end": 1072222,
+      "speaker": "Enrico Bertini",
+      "start": 1068534,
+      "text": "Give a rough estimation. We want a number, Gregor?",
+      "id": "ep_7_ut_54"
+    },
+    {
+      "end": 1110824,
+      "speaker": "Gregor Aisch",
+      "start": 1072358,
+      "text": "Yeah, you get numbers, but I need to clarify the breakpoint. And I think the most crucial breakpoint is where you leave the zone. You can identify values really, really fast. And this is probably when you have two or three colors, it works. But if you introduce, if you come to four or five colors, you would have to read the color in a legend. And so this is very simply, it is still possible, but it gets slower if every color you introduce.",
+      "id": "ep_7_ut_55"
+    },
+    {
+      "end": 1134224,
+      "speaker": "Moritz Stefaner",
+      "start": 1112644,
+      "text": "It also depends on the mark size. So if you have small dots, you have to pick bigger differences between the colors. And the other thing is if you want to express intensities in addition to that. So if you just want to have different categories, I think you can have ten differentiable colors, basically. But if you want to also express intensities or values, you know, with these colors, with these color hues.",
+      "id": "ep_7_ut_56"
+    },
+    {
+      "end": 1136528,
+      "speaker": "Enrico Bertini",
+      "start": 1134344,
+      "text": "You mean within each category?",
+      "id": "ep_7_ut_57"
+    },
+    {
+      "end": 1145844,
+      "speaker": "Moritz Stefaner",
+      "start": 1136576,
+      "text": "Within each category have different values. I think then you cannot have more than four or five or otherwise you're in trouble. That's my experience, at least.",
+      "id": "ep_7_ut_58"
+    },
+    {
+      "end": 1178572,
+      "speaker": "Gregor Aisch",
+      "start": 1146344,
+      "text": "Yeah. If you would do something like this, you really need to make sure that you use color space that has a clear separation between hue and lightness. For instance, because if you take a fully saturated yellow and a fully saturated blue in RGB or HSB, there is a difference in lightness between both colors, even though they are technically the same brightness.",
+      "id": "ep_7_ut_59"
+    },
+    {
+      "end": 1200710,
+      "speaker": "Enrico Bertini",
+      "start": 1178628,
+      "text": "But, yeah, in principle, what you really want here, when you pick categorical colors, you want them to be some equidistant, right. In a way that you cannot really. It's not only the fact that they have to be sparse, but you also want to make sure that there are no two colors that look more similar than any other two colors. Right.",
+      "id": "ep_7_ut_60"
+    },
+    {
+      "end": 1202894,
+      "speaker": "Gregor Aisch",
+      "start": 1200852,
+      "text": "Which is another group themselves.",
+      "id": "ep_7_ut_61"
+    },
+    {
+      "end": 1224490,
+      "speaker": "Enrico Bertini",
+      "start": 1205394,
+      "text": "So if I want to, if I have this problem of selecting categorical colors, where do I start from? What do I do? If I am a novice visualization designers and I want to use some categorical colors, what do you suggest? What would be the first step?",
+      "id": "ep_7_ut_62"
+    },
+    {
+      "end": 1267624,
+      "speaker": "Gregor Aisch",
+      "start": 1224642,
+      "text": "I think the first step is really to, we need to introduce color brewer, which is a very nice, I think it's a research project of Cynthia Brewer, and she has developed a set of color scales and also color palettes for categorical data. And you're free to use the colors. And so I think, as a novice, you should just go to colorbrewer. I think it's Colorbrewer two.org. and you select categorical data and you can select between three or four different sets of colors.",
+      "id": "ep_7_ut_63"
+    },
+    {
+      "end": 1303920,
+      "speaker": "Enrico Bertini",
+      "start": 1267924,
+      "text": "Yeah, I fully agree with you. And my take on it is, at least from a research perspective, some part of my job is reviewing papers. And my rule is whenever I see some color scales that are not explicitly taken from color brewer, I almost always expect a justification for that. I mean, it's very hard to justify why not using color brewer in my, in my opinion, unless you have very specific, very specific reasons for that. Do you agree with me?",
+      "id": "ep_7_ut_64"
+    },
+    {
+      "end": 1357752,
+      "speaker": "Moritz Stefaner",
+      "start": 1303952,
+      "text": "Well, I didn't take it that serious in the beginning because the color palettes that come out, they do look a bit, I know they are right. You know, technically. But sometimes I'm like, yeah, they don't look that great. You know what I mean? So that's the tension problem, right? Yeah. And the second thing is in my work, I mean, I work with existing brands often. So then you run into this meaning aspect and. Yeah, but it needs to be blue aspect, you know, and this is the other thing where you cannot really use color brewer, but I think you can. Or can you start color brewer, like pick or make sure one color appears there for sure, something like that. I'm not sure. No, yeah, that's a problem then. And then you have to sort of wing it or maybe start with a color brewer palette, but modify it a bit and stuff like that.",
+      "id": "ep_7_ut_65"
+    },
+    {
+      "end": 1408350,
+      "speaker": "Gregor Aisch",
+      "start": 1357928,
+      "text": "Yeah, yeah, that's right. This was also my problem with color brewer, that I was forced to use certain brand colors in projects. And so if you want to start to create a color scale or color palette with brand colors, then you get in trouble if you're just using color brewer. So what I was interested is what is the tool that Cynthia brewer used to develop the colors? So, in fact, color brewer is not a tool, but it's a collection of fixed colors or color palettes. And so that was, again, the reason why I started to work on chroma js. I wanted to have a tool that gives me an almost perfect color palette between two colors that I can freely define.",
+      "id": "ep_7_ut_66"
+    },
+    {
+      "end": 1409594,
+      "speaker": "Enrico Bertini",
+      "start": 1408502,
+      "text": "Yeah, sure.",
+      "id": "ep_7_ut_67"
+    },
+    {
+      "end": 1457338,
+      "speaker": "Gregor Aisch",
+      "start": 1412054,
+      "text": "And interestingly, I wrote a blog post about it, and I put this small and interactive demo applet to it, and now people use it for their actual visualization work. So, and I think it's even mentioned in the very helpful list of data visualization tools published by, I think, data visualization ch in the last two weeks. This is very interesting to me because it's not really a ready to use tool like color brewer or something, but it's a toolkit.",
+      "id": "ep_7_ut_68"
+    },
+    {
+      "end": 1461472,
+      "speaker": "Moritz Stefaner",
+      "start": 1457386,
+      "text": "Right. So you have some helper functions to work with color, right?",
+      "id": "ep_7_ut_69"
+    },
+    {
+      "end": 1475896,
+      "speaker": "Gregor Aisch",
+      "start": 1461648,
+      "text": "Yeah, yeah. And, but I was thinking about going a step further and wrap it up in a kind of simple color, color palette website where you can. That would be sweet.",
+      "id": "ep_7_ut_70"
+    },
+    {
+      "end": 1477944,
+      "speaker": "Moritz Stefaner",
+      "start": 1476040,
+      "text": "Yeah, yeah, that would be sweet.",
+      "id": "ep_7_ut_71"
+    },
+    {
+      "end": 1479272,
+      "speaker": "Enrico Bertini",
+      "start": 1478104,
+      "text": "Yeah, yeah, yeah.",
+      "id": "ep_7_ut_72"
+    },
+    {
+      "end": 1506464,
+      "speaker": "Moritz Stefaner",
+      "start": 1479368,
+      "text": "Because there is like cooler and color love and all these. I mean we should mention that maybe there are websites where you can exchange colors basically or post colors and stuff like that, which is great fun. I mean there's a whole say color industry, but if you had your color brewer as a little JavaScript tool, I think that would be amazing because I don't think there is a comparable tool that is perception based. Right, right. Yeah, yeah, that would be awesome.",
+      "id": "ep_7_ut_73"
+    },
+    {
+      "end": 1508548,
+      "speaker": "Gregor Aisch",
+      "start": 1507004,
+      "text": "I need to find some time for it.",
+      "id": "ep_7_ut_74"
+    },
+    {
+      "end": 1509588,
+      "speaker": "Moritz Stefaner",
+      "start": 1508596,
+      "text": "Yeah, I know.",
+      "id": "ep_7_ut_75"
+    },
+    {
+      "end": 1525426,
+      "speaker": "Enrico Bertini",
+      "start": 1509716,
+      "text": "Yeah, please do it. Please do it. The first time I saw your tool, I was. I mean, I loved it so much because it's a little tool that really covers a gap that we always have. I mean, specifying.",
+      "id": "ep_7_ut_76"
+    },
+    {
+      "end": 1527114,
+      "speaker": "Moritz Stefaner",
+      "start": 1525490,
+      "text": "You mean the blog post, the one.",
+      "id": "ep_7_ut_77"
+    },
+    {
+      "end": 1528014,
+      "speaker": "Enrico Bertini",
+      "start": 1527274,
+      "text": "Yeah.",
+      "id": "ep_7_ut_78"
+    },
+    {
+      "end": 1529882,
+      "speaker": "Moritz Stefaner",
+      "start": 1528314,
+      "text": "So maybe we should explain that.",
+      "id": "ep_7_ut_79"
+    },
+    {
+      "end": 1548034,
+      "speaker": "Enrico Bertini",
+      "start": 1529978,
+      "text": "Yeah, sure. Yeah, yeah. Anyway, do we want to move on talking about using color for continuous data because. Right. That's also interesting. Gregor, you want to go on that?",
+      "id": "ep_7_ut_80"
+    },
+    {
+      "end": 1581184,
+      "speaker": "Gregor Aisch",
+      "start": 1550974,
+      "text": "Okay. The situations where you use color for continuous data is first of all, let me start like this. I think it's very difficult to use color for, for displaying quantitative or continuous data. So we really have to mention the famous quote of who was it? Ah, Moritz was you.",
+      "id": "ep_7_ut_81"
+    },
+    {
+      "end": 1586124,
+      "speaker": "Enrico Bertini",
+      "start": 1584804,
+      "text": "He said famous.",
+      "id": "ep_7_ut_82"
+    },
+    {
+      "end": 1588484,
+      "speaker": "Moritz Stefaner",
+      "start": 1586244,
+      "text": "Yeah, I like, I like how he did that.",
+      "id": "ep_7_ut_83"
+    },
+    {
+      "end": 1589364,
+      "speaker": "Enrico Bertini",
+      "start": 1588524,
+      "text": "I like the introduction.",
+      "id": "ep_7_ut_84"
+    },
+    {
+      "end": 1590540,
+      "speaker": "Moritz Stefaner",
+      "start": 1589404,
+      "text": "I like that too.",
+      "id": "ep_7_ut_85"
+    },
+    {
+      "end": 1594500,
+      "speaker": "Gregor Aisch",
+      "start": 1590732,
+      "text": "It is, it is, in fact it is a famous quote, which is.",
+      "id": "ep_7_ut_86"
+    },
+    {
+      "end": 1596452,
+      "speaker": "Enrico Bertini",
+      "start": 1594612,
+      "text": "Moritz, you have famous quotes.",
+      "id": "ep_7_ut_87"
+    },
+    {
+      "end": 1600044,
+      "speaker": "Gregor Aisch",
+      "start": 1596548,
+      "text": "Color is difficult and positions everything. I'm not sure if I, if I get the.",
+      "id": "ep_7_ut_88"
+    },
+    {
+      "end": 1614494,
+      "speaker": "Moritz Stefaner",
+      "start": 1600084,
+      "text": "Yeah, yeah, yeah. That's right. Since everything color is difficult. Yeah. That's my six word advice to people starting out in Infovis. Yeah, yeah. Enrico, I'm mostly famous for my quotes. There is not much else left.",
+      "id": "ep_7_ut_89"
+    },
+    {
+      "end": 1618534,
+      "speaker": "Enrico Bertini",
+      "start": 1615194,
+      "text": "Should I start saying around that? Did I know you?",
+      "id": "ep_7_ut_90"
+    },
+    {
+      "end": 1619922,
+      "speaker": "Moritz Stefaner",
+      "start": 1619154,
+      "text": "Yeah, you can.",
+      "id": "ep_7_ut_91"
+    },
+    {
+      "end": 1621154,
+      "speaker": "Enrico Bertini",
+      "start": 1619978,
+      "text": "I mean, I know Moritz.",
+      "id": "ep_7_ut_92"
+    },
+    {
+      "end": 1623134,
+      "speaker": "Moritz Stefaner",
+      "start": 1621194,
+      "text": "Use it wisely. Use it wisely.",
+      "id": "ep_7_ut_93"
+    },
+    {
+      "end": 1684956,
+      "speaker": "Gregor Aisch",
+      "start": 1624234,
+      "text": "I think the first 1st advice for using color for continuous data is try to figure out another way to show it. At least you can use a combination of color and position, for instance, which is very powerful. But if you have a coral plate map, which is very popular these days, I think it's a poor visualization for comparing quantities in your data set. I think the main advantage of color is to identify certain data points in your data set, but not to compare because you can say this color is twice as much as the other color. So it's a big problem. If you display, you get an overall picture, but you're very limited in reading, reading it.",
+      "id": "ep_7_ut_94"
+    },
+    {
+      "end": 1686052,
+      "speaker": "Enrico Bertini",
+      "start": 1685100,
+      "text": "Yeah, sure.",
+      "id": "ep_7_ut_95"
+    },
+    {
+      "end": 1761210,
+      "speaker": "Gregor Aisch",
+      "start": 1686188,
+      "text": "But then, but then there is, we should mention that there are two major types of continuous color scales, which is we have diverging color scales and we have like, a sequential color scale. And the main difference is that one ranges from one color to another color and the other has like three colors. So you can use it for bipolar data. If you have wins and losses in the financial data set, you can go to red and some other color for the wins. Maybe not green, because mixing red and green, it is very attractive to do so because in, at least in our culture, red and green are very clearly defined colors. So we have, like, red for, for bad and green for good. I say in our culture. But the big problem of red and green scales is we have a certain amount of colorblind people, and they are very, they have big problems in reading red green color scales.",
+      "id": "ep_7_ut_96"
+    },
+    {
+      "end": 1814966,
+      "speaker": "Enrico Bertini",
+      "start": 1761402,
+      "text": "Yeah. Once again, sorry if I interrupt you. I think this reminded me that, once again, it's really hard to have hard guidelines in visualization, because I was thinking that in biology, they have these heat maps that go from black to green and from black to red. And this is a sort of standard for them. And if you try to change that, they would complain and they don't want to see anything different because they are so much ingrained into this kind of representation that if you would change it, I'm not sure you would gain anything in terms of, I don't know if it would be more an advantage in having a more precise color scale, but trying to break the rules or the other way around. Yeah. Just to tell you something that came into my mind.",
+      "id": "ep_7_ut_97"
+    },
+    {
+      "end": 1823792,
+      "speaker": "Moritz Stefaner",
+      "start": 1815070,
+      "text": "Yeah, but it's true. And also the rainbow scale, it is so established already that it's really hard to get rid of, you know, be it as bad as I think with.",
+      "id": "ep_7_ut_98"
+    },
+    {
+      "end": 1841200,
+      "speaker": "Enrico Bertini",
+      "start": 1823808,
+      "text": "The rainbow color scale, it's, it's trickier, right? I mean, going from, from black to red to green is still fine, but using a rainbow color scale to represent continuous data is, is just plain wrong. Right? I don't know if you agree with me, but I think it's just plain wrong.",
+      "id": "ep_7_ut_99"
+    },
+    {
+      "end": 1856114,
+      "speaker": "Moritz Stefaner",
+      "start": 1841312,
+      "text": "Yeah. There's at least some problems with it, but, I mean, we could play this through as an example. Let's say you have a map, world map of global warming, you know, and you have like, a range of temperatures you want to express. I mean, how would you do it?",
+      "id": "ep_7_ut_100"
+    },
+    {
+      "end": 1884528,
+      "speaker": "Enrico Bertini",
+      "start": 1858574,
+      "text": "I think, yeah, I don't want to, I don't know if we want to go much deeper, deeper into that but since you opened that can of worms. Yeah, the can of worms, the Pandora box. I do believe there are few cases where. Where. I mean, you have these cases where you have continuous data, but you are interested in segmenting different areas of this continuous field, right?",
+      "id": "ep_7_ut_101"
+    },
+    {
+      "end": 1886512,
+      "speaker": "Moritz Stefaner",
+      "start": 1884576,
+      "text": "Probably. That's. Yeah, you're right. Yeah.",
+      "id": "ep_7_ut_102"
+    },
+    {
+      "end": 1908006,
+      "speaker": "Enrico Bertini",
+      "start": 1886608,
+      "text": "That's much trickier than the usual cases. And in that case, you want something that is continuous, but at the same time creates distinct, very distinct labels. But I'm not sure this happens very often in standard visualizations or problems people have with visualization. I wouldn't start from this problem.",
+      "id": "ep_7_ut_103"
+    },
+    {
+      "end": 1940704,
+      "speaker": "Moritz Stefaner",
+      "start": 1908110,
+      "text": "Right, but you're right. The first thing is we have to accept you cannot express continuous data accurately in color because there's no good notion of what is twice as red or there's no good number to be put on, you know, a certain difference between blue and green. That's. I think that's the first thing we have to accept. There is no good representation of continuous data with colors. And then you're right. Probably the best way around is to try and make it ordinal data or, you know, chop it into like five different classes, classes of things and then work with that and take it from there.",
+      "id": "ep_7_ut_104"
+    },
+    {
+      "end": 1996344,
+      "speaker": "Enrico Bertini",
+      "start": 1941324,
+      "text": "Yeah. I mean, it's even trickier than that. There is a very nice old paper from Chaim Levkowitz which is called color scales for image data. I think this has been published in 1992. And what surprised me of this paper is that this is very basic user studies on color scales. And they use, in this user study, grayscale color scales. Right. Which is the most basic kind of things you would use. And you would say that is quite accurate. Right. Because grayscale should be fine, right? Yeah, grayscale should be fine. And luminance is increasing in a linear fashion there. Right. But even there, the way we perceive the, the linear increase in grayscale is not perceived linearly.",
+      "id": "ep_7_ut_105"
+    },
+    {
+      "end": 1997792,
+      "speaker": "Gregor Aisch",
+      "start": 1996384,
+      "text": "Yeah, that's right.",
+      "id": "ep_7_ut_106"
+    },
+    {
+      "end": 2006408,
+      "speaker": "Moritz Stefaner",
+      "start": 1997848,
+      "text": "And you have context effect. So if you have something bright surrounded by something not so bright, it looks less bright, you know, then when it's surrounded by bright things and then you.",
+      "id": "ep_7_ut_107"
+    },
+    {
+      "end": 2007208,
+      "speaker": "Enrico Bertini",
+      "start": 2006416,
+      "text": "Have all the context.",
+      "id": "ep_7_ut_108"
+    },
+    {
+      "end": 2013288,
+      "speaker": "Moritz Stefaner",
+      "start": 2007256,
+      "text": "Oh, it looks brighter. Yeah, yeah, that comes on top of that. So. Oh, man, color is difficult, man.",
+      "id": "ep_7_ut_109"
+    },
+    {
+      "end": 2014104,
+      "speaker": "Enrico Bertini",
+      "start": 2013336,
+      "text": "Don't use color.",
+      "id": "ep_7_ut_110"
+    },
+    {
+      "end": 2024464,
+      "speaker": "Moritz Stefaner",
+      "start": 2014144,
+      "text": "Yeah, don't do it. Just use it for decoration. That's my tip. Probably decorate with color. Use the rest like properly.",
+      "id": "ep_7_ut_111"
+    },
+    {
+      "end": 2030956,
+      "speaker": "Enrico Bertini",
+      "start": 2025444,
+      "text": "Yeah. Color is like a cherry is the last thing you want to put on top, right?",
+      "id": "ep_7_ut_112"
+    },
+    {
+      "end": 2049504,
+      "speaker": "Moritz Stefaner",
+      "start": 2031020,
+      "text": "Yeah. What do you say? It's interesting. I mean, in design, there's the saying, get it right in black and white, you know, like, first make it right with all the hard edges and the positioning and just the, the spatial layout, and then add sort of the color texture and these weaker attributes.",
+      "id": "ep_7_ut_113"
+    },
+    {
+      "end": 2089153,
+      "speaker": "Enrico Bertini",
+      "start": 2049624,
+      "text": "Yeah. At the same time, this reminds me a very nice chapter in one of the, Don Norman's book, I don't remember anymore which one. And he describes the first time when color screens came into the market. And he was very skeptical about it because, of course, he, coming from the science of interaction design, he was fully convinced that color just doesn't play any substantial role. Right. And then it is. I don't know if you read that. And then he describes his experience with the first color monitor and just pretending that it's not true. That is much better.",
+      "id": "ep_7_ut_114"
+    },
+    {
+      "end": 2091733,
+      "speaker": "Moritz Stefaner",
+      "start": 2090933,
+      "text": "Yeah, it makes sense.",
+      "id": "ep_7_ut_115"
+    },
+    {
+      "end": 2101218,
+      "speaker": "Enrico Bertini",
+      "start": 2091773,
+      "text": "I found it really intriguing. I mean, that what science tells you is not exactly what you feel like. I think. I think this is really, really interesting.",
+      "id": "ep_7_ut_116"
+    },
+    {
+      "end": 2103050,
+      "speaker": "Moritz Stefaner",
+      "start": 2101306,
+      "text": "The emotional aspect is so strong.",
+      "id": "ep_7_ut_117"
+    },
+    {
+      "end": 2104010,
+      "speaker": "Enrico Bertini",
+      "start": 2103082,
+      "text": "Yeah, the emotional aspect.",
+      "id": "ep_7_ut_118"
+    },
+    {
+      "end": 2153264,
+      "speaker": "Moritz Stefaner",
+      "start": 2104042,
+      "text": "And that makes it so challenging, too. Yeah, I think that's. That's both. Yeah. Yeah. But I think there are some good rules. So I think, I mean, Gregor and I, we had this nice discussion with the Guardian, with the interactive. No, it wasn't the. It was the datablog. The data blog. Exactly. And they put up a map where, I don't know, Greg and I, we were a bit bored, probably, and we were just seeing that map and said like, oh, come on, what type of colors get is that? Please? And so we started to rant a bit on Twitter, but in the end, it actually led to quite a nice improvement of the whole map. So I think that was a nice episode. And I think that also makes clear, although it's difficult, there are some things you can still improve with simple rules. Right. Or with simple, let's say, common sense or experience.",
+      "id": "ep_7_ut_119"
+    },
+    {
+      "end": 2158944,
+      "speaker": "Enrico Bertini",
+      "start": 2155284,
+      "text": "Gregor, you want to say something more? On continuous color scales?",
+      "id": "ep_7_ut_120"
+    },
+    {
+      "end": 2279500,
+      "speaker": "Gregor Aisch",
+      "start": 2164464,
+      "text": "I think we covered the most important issues already. I just wanted to add this nice situation where I found myself standing in front of a room full of scientists, and I took the chance to ask them why they use the rainbow color scale, because I agree with you that it's a poor color scale. But on this day, I saw like 20 presentations from scientists, and there was like 15 of them used rainbow color scales. And it was very interesting to hear, like, the answers. What is the actual reason? And most interestingly is that the rainbow scales are a default color scale in some of the tools that they use. And thickness, as you mentioned, they use the color scale, the rainbow color scale. For quite a long time and they became experts in reading the color scale. So they internalized the non existent order of use, which I say non existent. There's kind of wavelength based order of use, but ordinary people are not familiar with, with it, so. And the third reason was the most, most interesting one, which is like, we know that the color scale looks pretty ugly, but if we would spend more time on making our visualization more pretty, we get in trouble. We might get in trouble in arguing that our research is scientific, because if it looks ugly, they said, then people would say, okay, there must have good findings in there, there must be some inner beauty. Yeah.",
+      "id": "ep_7_ut_121"
+    },
+    {
+      "end": 2281756,
+      "speaker": "Enrico Bertini",
+      "start": 2279692,
+      "text": "I've never heard this comment before.",
+      "id": "ep_7_ut_122"
+    },
+    {
+      "end": 2283764,
+      "speaker": "Moritz Stefaner",
+      "start": 2281820,
+      "text": "It's funny, I did quite often. I know.",
+      "id": "ep_7_ut_123"
+    },
+    {
+      "end": 2284188,
+      "speaker": "Enrico Bertini",
+      "start": 2283804,
+      "text": "Did you?",
+      "id": "ep_7_ut_124"
+    },
+    {
+      "end": 2297880,
+      "speaker": "Moritz Stefaner",
+      "start": 2284236,
+      "text": "Yeah, of course. If we dress up our charts, it makes us look as if we have something to hide, you know, that's the logic behind it. Yeah. And if we have ugly charts, as everybody else, our research and, you know, and they still get published, our research must be good, right?",
+      "id": "ep_7_ut_125"
+    },
+    {
+      "end": 2300008,
+      "speaker": "Enrico Bertini",
+      "start": 2297952,
+      "text": "Yeah, but I mean, yeah, that's the.",
+      "id": "ep_7_ut_126"
+    },
+    {
+      "end": 2301280,
+      "speaker": "Moritz Stefaner",
+      "start": 2300016,
+      "text": "Way it is in science.",
+      "id": "ep_7_ut_127"
+    },
+    {
+      "end": 2312280,
+      "speaker": "Enrico Bertini",
+      "start": 2301432,
+      "text": "During the last episode we discussed these images from Barabbasi. He's a physicist, he's very well known, and he's been producing fantastic graphics. So I don't know if this is.",
+      "id": "ep_7_ut_128"
+    },
+    {
+      "end": 2335652,
+      "speaker": "Moritz Stefaner",
+      "start": 2312312,
+      "text": "More of a. Yeah, but we are talking about the average case, right? I mean, there are some brilliant people, and also I see the us universities like Stanford and so on, they pick up on the good stuff. Definitely. But let's say your average scientist working in a lab, they do make some funky graphs. I can tell you I saw a.",
+      "id": "ep_7_ut_129"
+    },
+    {
+      "end": 2353948,
+      "speaker": "Enrico Bertini",
+      "start": 2335668,
+      "text": "Good quantity of them myself. I just want to mention again about, on the research side, regarding the rainbow color scales, there was a fantastic paper last year at Infovis titled evaluation of artery visualizations for heart disease diagnosis.",
+      "id": "ep_7_ut_130"
+    },
+    {
+      "end": 2357100,
+      "speaker": "Moritz Stefaner",
+      "start": 2354036,
+      "text": "It was best paper, I think everybody.",
+      "id": "ep_7_ut_131"
+    },
+    {
+      "end": 2460540,
+      "speaker": "Enrico Bertini",
+      "start": 2357172,
+      "text": "Wanted to have this one best paper, and it wasn't even mentioned among those that had mentioned. This was a shock for me. And the presentation, by the way, was fantastic as well. But okay, anyway, tricks of our academic community. I don't know what happened there. Anyway, this paper is fantastic because what they do. So I hope I remind. Yeah, I think I remember right well how it was. Yes. So basically they had a visualization from a standard visualization of a heart used by doctors for diagnosis, which uses. So the standard visualization was a 3d representation of the art, or parts of the art, I don't remember, and colored according to using a color scale, a rainbow color scale. And then they created other versions by using either 2d representation of the art and or different, more balanced color scale. Okay. And then they tested these four combinations. So, color scale. The four combinations you can get by mixing two d, three d and rainbow color scale, and the other color scale. And then they tested this with medical doctors who had to come up with diagnosis on real cases. And actually, they counted the percentage of errors they made with these combinations. So it's quite serious.",
+      "id": "ep_7_ut_132"
+    },
+    {
+      "end": 2465000,
+      "speaker": "Moritz Stefaner",
+      "start": 2460572,
+      "text": "So they had actual. Exactly like serious cases and serious cases. Serious.",
+      "id": "ep_7_ut_133"
+    },
+    {
+      "end": 2551872,
+      "speaker": "Enrico Bertini",
+      "start": 2465032,
+      "text": "Okay. So they had to diagnose, I don't remember exactly what, but it was something like whether they. They are going to have an art attack or not. Okay. Something like that along these lines. I don't remember, I might be wrong, but it's something along these lines and the combination. So, first of all, they demonstrated that 2d in this case is better than three d and rainbow color scale. And the other color scale is much better than the rainbow color scales. But what was shocking is that the two things together had an improvement of something like 90 something percent. Okay. Which was shocking. It's one of the best numbers I've ever seen in any evaluation, study in visualization. So I think it's a great example for everyone to argue against a rainbow color scale. And using 2D versus 3D, this was particularly surprising because what people normally say is that 3D is appropriate when the original object has a special extension. Right. But that was not the case in this case. So I don't know how generalizable this example is, but it's definitely one of the most, the clearest cases, scientific cases against the rainbow color scale I've ever seen.",
+      "id": "ep_7_ut_134"
+    },
+    {
+      "end": 2553964,
+      "speaker": "Moritz Stefaner",
+      "start": 2551968,
+      "text": "That's something good.",
+      "id": "ep_7_ut_135"
+    },
+    {
+      "end": 2601554,
+      "speaker": "Enrico Bertini",
+      "start": 2557904,
+      "text": "Okay, so unless you have more to say, I had a couple of questions that I wanted to ask you guys that come from my experience. Problems I always have with colors, and I want to see if you have any solutions. One problem I always have with continuous color scales is that very, very often the distribution of the data is very skewed. So what you get is basically one element with one color and all the rest with the same color. Right? So basically, on the screen, you have two colors, one element with one color, and all the others with the same color at the bottom of the, of the color scale. Do you ever, I'm sure you experienced that in the past. What do you do?",
+      "id": "ep_7_ut_136"
+    },
+    {
+      "end": 2685728,
+      "speaker": "Gregor Aisch",
+      "start": 2606974,
+      "text": "I think there are, if you have two colors and you interpolate continuous color scale between them, or even if you have distinct colors, like ten colors, then you have different ways in computing those colors. One is to use equidistant colors in the color space, which results to a kind of linear gradient. But this one often turns out to be very poor if you have those skewed distributions you mentioned, because you have one just basically everything in the same color. There are two other ways to compute the gradients. One is to use quantile scales, which you put the data. So you analyze the data first and you choose the colors in a way that every color is equally used in the map, which is this is kind of the way the quanta scales. And there's also, you can also use clustering techniques to identify clusters in your data first, and then you assign equidistant colors to those clusters.",
+      "id": "ep_7_ut_137"
+    },
+    {
+      "end": 2687912,
+      "speaker": "Enrico Bertini",
+      "start": 2685776,
+      "text": "And that's interesting.",
+      "id": "ep_7_ut_138"
+    },
+    {
+      "end": 2694728,
+      "speaker": "Gregor Aisch",
+      "start": 2687968,
+      "text": "Yeah, but there's no, if you do so, you kind of distort the view on the data.",
+      "id": "ep_7_ut_139"
+    },
+    {
+      "end": 2695256,
+      "speaker": "Enrico Bertini",
+      "start": 2694816,
+      "text": "Exactly.",
+      "id": "ep_7_ut_140"
+    },
+    {
+      "end": 2697600,
+      "speaker": "Moritz Stefaner",
+      "start": 2695280,
+      "text": "And it's hard to explain sometimes what's going on.",
+      "id": "ep_7_ut_141"
+    },
+    {
+      "end": 2707424,
+      "speaker": "Gregor Aisch",
+      "start": 2697632,
+      "text": "Yeah. So, and what you see, what you see most in most tools is that you allow users to change the modes of the continuous color scales.",
+      "id": "ep_7_ut_142"
+    },
+    {
+      "end": 2738692,
+      "speaker": "Moritz Stefaner",
+      "start": 2707504,
+      "text": "The simple tip I have maybe is, I mean, again, we are running into this quantitative information with color. And I mean, a, try to avoid it, but b, if you do it, I think what often works quite well is try to work more in a sense of what is an average value or the median value and what is like significantly above that or below that and try to encode that in color. That might also help with good distributions because often you have, let's say you have a bell curve around a normal value or an expected value, and then you have some outliers, right?",
+      "id": "ep_7_ut_143"
+    },
+    {
+      "end": 2739364,
+      "speaker": "Enrico Bertini",
+      "start": 2738848,
+      "text": "Yeah, sure.",
+      "id": "ep_7_ut_144"
+    },
+    {
+      "end": 2767104,
+      "speaker": "Moritz Stefaner",
+      "start": 2739404,
+      "text": "And so if you put your average color, which might be gray, for instance, in the center, at the center of that distribution, and then use two colors that are strongly different, like, let's say purple and green going into the two directions, then you often, you might get around that issue and highlight effectively what is like an average value and what is a more extreme or not so normal value.",
+      "id": "ep_7_ut_145"
+    },
+    {
+      "end": 2772804,
+      "speaker": "Gregor Aisch",
+      "start": 2768164,
+      "text": "I think that's what a diverging quantile scale is.",
+      "id": "ep_7_ut_146"
+    },
+    {
+      "end": 2781264,
+      "speaker": "Moritz Stefaner",
+      "start": 2772964,
+      "text": "Yeah, exactly. And often I think that helps in sort of highlighting. Now, what is the interesting small data in the big data?",
+      "id": "ep_7_ut_147"
+    },
+    {
+      "end": 2835654,
+      "speaker": "Gregor Aisch",
+      "start": 2783164,
+      "text": "I think in general, the more you know about the data and the more of this knowledge you put into the color scale, the more useful the color scale. So if you're, for instance, like in those medical visualizations, you're probably interested in a specific range in like, say, blood pressure. Then you can use like low, bright and less saturated colors for the rest and lots of red, for instance, and put just one significant color for the range that you're interested in. And this gives very powerful color scales even more. If you allow the user to change the focus of the color scale, then it gets increasingly powerful, because then you use the color scale for identifying certain aspects in your data and not to compare quantities so much.",
+      "id": "ep_7_ut_148"
+    },
+    {
+      "end": 2885874,
+      "speaker": "Enrico Bertini",
+      "start": 2836394,
+      "text": "So normally, just blindly mapping quantitative, sorry, a continuous dimension to continuous color scale normally doesn't work in my experience. Almost always you need some kind of tricks and tweaking there. There are a few cases where it just works right away. The first time you use it, the first color scale you use. I think this is a general advice that I would give for visualization, not even only for color, that always trying to try out many, many alternatives. Even if you are slightly satisfied with what you currently have, trying out different things and confirm that what you have is still better than the rest, I think it's a critical skill. Do you agree, guys?",
+      "id": "ep_7_ut_149"
+    },
+    {
+      "end": 2890374,
+      "speaker": "Gregor Aisch",
+      "start": 2886294,
+      "text": "Yeah, totally. Okay.",
+      "id": "ep_7_ut_150"
+    },
+    {
+      "end": 2916744,
+      "speaker": "Enrico Bertini",
+      "start": 2890414,
+      "text": "Another question I have is sometimes in my experience, it happens that I, that I think it's a good idea to double encode the same variable with color and another visual feature like length or size. Do you ever do that and do you think it is a good practice? What are the advantages and disadvantages of doing that?",
+      "id": "ep_7_ut_151"
+    },
+    {
+      "end": 2960172,
+      "speaker": "Gregor Aisch",
+      "start": 2921364,
+      "text": "I would say yes, do it. It's no problem to encode your information in a redundant way. I think this slightly touches the, the thing Moritz talked about, that you can use it for decoration, or at least for making it easy to read it, underlining the meaning or the context of the data. You can underline it with a certain kind of color. It's a good thing to.",
+      "id": "ep_7_ut_152"
+    },
+    {
+      "end": 2975444,
+      "speaker": "Moritz Stefaner",
+      "start": 2960308,
+      "text": "I mean, it could be interesting because you would think there's some interaction. So if I make something more colorful and more larger at the same time, I mean, it's interesting how these two interact. Enrico, do you know something about that? Can you multiply these two?",
+      "id": "ep_7_ut_153"
+    },
+    {
+      "end": 3010516,
+      "speaker": "Enrico Bertini",
+      "start": 2977504,
+      "text": "As far as I know, there are no studies in. I mean, this is a clear gap in visualization research. As far as I know, there are no studies checking on what's the interaction between, between compound visual features. So it's not only about, but it's not only when you use color and size, it could be color and something else, or even just other features. Right? As far as I know, there are no serious studies about this issue.",
+      "id": "ep_7_ut_154"
+    },
+    {
+      "end": 3011188,
+      "speaker": "Moritz Stefaner",
+      "start": 3010660,
+      "text": "Interesting.",
+      "id": "ep_7_ut_155"
+    },
+    {
+      "end": 3022940,
+      "speaker": "Enrico Bertini",
+      "start": 3011236,
+      "text": "I mean, there is the old theory of separable and integral dimensions, which. But I think this comes more from the core vision science kind of studies, but I've never seen any.",
+      "id": "ep_7_ut_156"
+    },
+    {
+      "end": 3024676,
+      "speaker": "Moritz Stefaner",
+      "start": 3022972,
+      "text": "And it doesn't tell you exactly how they.",
+      "id": "ep_7_ut_157"
+    },
+    {
+      "end": 3043048,
+      "speaker": "Enrico Bertini",
+      "start": 3024740,
+      "text": "It doesn't tell you exactly how to, how to combine different features and what's the interaction among them? We do know that there is interaction. The theory of separable and integral dimensions tells us that there is a strong, there might be a strong interaction, but there's, I don't know. I'm not aware of any studies because.",
+      "id": "ep_7_ut_158"
+    },
+    {
+      "end": 3056160,
+      "speaker": "Moritz Stefaner",
+      "start": 3043096,
+      "text": "You know, bubble charts, they are criticized that we over that. We underestimate the larger values. Right. Because area is perceived not linearly, but a larger area is perceived a bit smaller than it should be, you know.",
+      "id": "ep_7_ut_159"
+    },
+    {
+      "end": 3056856,
+      "speaker": "Enrico Bertini",
+      "start": 3056192,
+      "text": "Yeah, yeah.",
+      "id": "ep_7_ut_160"
+    },
+    {
+      "end": 3072312,
+      "speaker": "Moritz Stefaner",
+      "start": 3056920,
+      "text": "So you could give it more punch color wise to compensate that. And then you end up again with a linear perception if you do it right. Possibly, maybe, you know, perception has an interesting question. More or less could work.",
+      "id": "ep_7_ut_161"
+    },
+    {
+      "end": 3073964,
+      "speaker": "Enrico Bertini",
+      "start": 3072488,
+      "text": "Could work, yeah.",
+      "id": "ep_7_ut_162"
+    },
+    {
+      "end": 3106998,
+      "speaker": "Gregor Aisch",
+      "start": 3074824,
+      "text": "But the other thing, the other alternative you have, okay, you have two alternatives. One is to use no color at all and just use like size or position. And the other is to use color to encode second dimension. And this is something I would always use position for the more important data dimension and maybe use color for some interesting side effects of your data.",
+      "id": "ep_7_ut_163"
+    },
+    {
+      "end": 3117566,
+      "speaker": "Moritz Stefaner",
+      "start": 3107086,
+      "text": "Yeah. And it does work great for categories. I mean, we shouldn't forget that. So all these election maps like Democrats versus Republicans, or if you have four different types of muesli ingredients, I don't know.",
+      "id": "ep_7_ut_164"
+    },
+    {
+      "end": 3118354,
+      "speaker": "Gregor Aisch",
+      "start": 3117670,
+      "text": "Yeah.",
+      "id": "ep_7_ut_165"
+    },
+    {
+      "end": 3131954,
+      "speaker": "Moritz Stefaner",
+      "start": 3119014,
+      "text": "No. Then color is really effective. I mean, we shouldn't forget that for just establishing groups in the data. It's fine. It's more about this where you try too much with data, where it breaks. With too much with color. Where it breaks. Yeah.",
+      "id": "ep_7_ut_166"
+    },
+    {
+      "end": 3139262,
+      "speaker": "Enrico Bertini",
+      "start": 3135734,
+      "text": "Okay. I think we could almost wrap up.",
+      "id": "ep_7_ut_167"
+    },
+    {
+      "end": 3141630,
+      "speaker": "Moritz Stefaner",
+      "start": 3139358,
+      "text": "Yeah, we scratched the surface.",
+      "id": "ep_7_ut_168"
+    },
+    {
+      "end": 3175704,
+      "speaker": "Enrico Bertini",
+      "start": 3141742,
+      "text": "Yeah, I think we scratched the surface. That is an hour already before concluding. I just wanted to ask you guys if I'm learning data visualization and I'm a novice and I want to get, I don't know, something like the three most important tips about color. What would you tell to a person who is trying to learn how to use color in visualization? What do you think are the most important tips? Could be three, four or five. I mean, just a number of tips that can be counted in one hand.",
+      "id": "ep_7_ut_169"
+    },
+    {
+      "end": 3230914,
+      "speaker": "Moritz Stefaner",
+      "start": 3176884,
+      "text": "I mean, my simple tips would be use it mostly for grouping for categories of things. If you use it for numbers, probably it's a good idea to think about how the data is centered around the average and then use one color for going below the average and one above. Or chop your data into five different groups based on the value you want to encode. Use color brewer. Ask a few people for feedback and have people actually read out the values they read to you. Because color is so subjective that you on your computer screen might believe one thing but everybody else might believe a different thing. So this is really also a case where you need to check on different devices, also check with different people. I think that's a good probability.",
+      "id": "ep_7_ut_170"
+    },
+    {
+      "end": 3269920,
+      "speaker": "Enrico Bertini",
+      "start": 3231814,
+      "text": "Yeah. Sorry, Gregor, before I ask to you, I don't want to forget that. I don't know if it's not exactly the right moment to tell that, but we didn't mention that and it came to my mind. Please don't forget to put a legend in your visualization. I mean, this is so much important with color. We didn't mention that, but I think it's so important that we have to mention, put a legend somewhere. Every time you use color. Please put a legend. There are so many visualizations around without a legend and it's a pain in the ass again, I mean, it's, sorry, I wanted to say, I wanted to make sure we add that in the episode.",
+      "id": "ep_7_ut_171"
+    },
+    {
+      "end": 3270608,
+      "speaker": "Moritz Stefaner",
+      "start": 3269952,
+      "text": "We have the basics.",
+      "id": "ep_7_ut_172"
+    },
+    {
+      "end": 3274484,
+      "speaker": "Enrico Bertini",
+      "start": 3270656,
+      "text": "Yeah, that's the basic, Gregor, go ahead with your tips.",
+      "id": "ep_7_ut_173"
+    },
+    {
+      "end": 3380684,
+      "speaker": "Gregor Aisch",
+      "start": 3275584,
+      "text": "Yeah, besides that, the tips we already mentioned don't use color in the first place if you want to show quantitative or continuous data. I would add that the fewer colors you use, the more effectful they are. It's always a good idea to try out two colors or even one color. If you have very gray, gray, formosan and you identify one group of your data set in like a red, then it's very effectful. It's, and you can't beat that with like, or you can do this with like four or five colors. The next tip I would give, I want to give is there is a small tool called color Oracle, which is the most convenient thing you can use to check your visualization for colorblind people. Just color oracle. And in contrast to many people know the website, I don't know, I don't know, address it where you can upload images and it will convert it to colorblind simulated version. And color oracle does the same thing, but in real time. I just press one key on my keyboard and I see my computer screen as if I was colorblind. And it's a free tool. It's for all systems. And just download colororacle.org, i think. And, and yeah, I think the last, last tip that I, or the last rule that I would like to add is it's stolen from Edward Tufte. And he says, above all, do no harm.",
+      "id": "ep_7_ut_174"
+    },
+    {
+      "end": 3385724,
+      "speaker": "Enrico Bertini",
+      "start": 3383184,
+      "text": "I agree. That's definitely the best.",
+      "id": "ep_7_ut_175"
+    },
+    {
+      "end": 3389724,
+      "speaker": "Gregor Aisch",
+      "start": 3386624,
+      "text": "And it's very easy to do harm with color.",
+      "id": "ep_7_ut_176"
+    },
+    {
+      "end": 3397954,
+      "speaker": "Moritz Stefaner",
+      "start": 3390334,
+      "text": "It's true. Yeah. It can really hurt badly. It's true. Don't hurt anyone with color.",
+      "id": "ep_7_ut_177"
+    },
+    {
+      "end": 3467534,
+      "speaker": "Enrico Bertini",
+      "start": 3399574,
+      "text": "Yeah, maybe. I love this one. Yeah. I have three basic rules. Maybe I can mention that. And the first one is don't overestimate color. I mean, I think one of the most important thing about colors, learn how limited it is. I think that's the first thing you have to learn. It is very limited. And my second tip is don't underestimate color because at the same time, I mean, there are cases where when color is used properly, it's just magic. It just works. It's perfect. It's just really, really hard to find this sweet spot where color is exactly the right balanced in a way that communicate information that couldn't be communicated more effectively in other ways. And I think that that's really, really hard. And the last one is pretty basic. In doubt, use color brewer, especially if you are a novice, I think. I don't start with that.",
+      "id": "ep_7_ut_178"
+    },
+    {
+      "end": 3482160,
+      "speaker": "Moritz Stefaner",
+      "start": 3467574,
+      "text": "And then you can see like if you can come up with a modified version of the color scale that fits even better, or, you know, but you have that then as a reference from the readability point of view that this is the gold standard, sort of. And you shouldn't be much worse than that, of course.",
+      "id": "ep_7_ut_179"
+    },
+    {
+      "end": 3506836,
+      "speaker": "Enrico Bertini",
+      "start": 3482232,
+      "text": "Yeah, exactly. And if somebody argues against your, the way you choose your color, you can blame somebody else. Right. It's also a way to show that's the way to success. It's strategic in this way. In a way. Okay, guys, I don't know. Do you want to add anything about color? I think we covered pretty much, yeah.",
+      "id": "ep_7_ut_180"
+    },
+    {
+      "end": 3523626,
+      "speaker": "Moritz Stefaner",
+      "start": 3506860,
+      "text": "At least I think we have enough pointers so people can get started to dig into the topic. And it is a whole world of its own. And I mean, I think we all do data visualization now for years and we all feel like novices probably. I mean, I do, at least when it comes to color because it's so complicated, complex.",
+      "id": "ep_7_ut_181"
+    },
+    {
+      "end": 3556014,
+      "speaker": "Enrico Bertini",
+      "start": 3523770,
+      "text": "Sure. Gregor, I just want to say thanks a lot. It's been fantastic to have you here in this episode. I also want to mention that, of course, since we've been talking about color, we didn't have time to talk about all your projects, which I really, really like. And I'm looking forward to seeing more from your side. And I don't know, maybe in the future we can organize another episode where we discuss more about your projects. I would love to do that. That and, yeah, that's all for today.",
+      "id": "ep_7_ut_182"
+    },
+    {
+      "end": 3558706,
+      "speaker": "Gregor Aisch",
+      "start": 3556594,
+      "text": "Yeah, thanks.",
+      "id": "ep_7_ut_183"
+    },
+    {
+      "end": 3562134,
+      "speaker": "Moritz Stefaner",
+      "start": 3558890,
+      "text": "Yeah, it was great having you. Fantastic good stuff.",
+      "id": "ep_7_ut_184"
+    },
+    {
+      "end": 3564594,
+      "speaker": "Enrico Bertini",
+      "start": 3562634,
+      "text": "Okay. Bye. Bye, guys.",
+      "id": "ep_7_ut_185"
+    },
+    {
+      "end": 3565146,
+      "speaker": "Gregor Aisch",
+      "start": 3564754,
+      "text": "Bye.",
+      "id": "ep_7_ut_186"
+    },
+    {
+      "end": 3566026,
+      "speaker": "Moritz Stefaner",
+      "start": 3565210,
+      "text": "Talk to you. Bye.",
+      "id": "ep_7_ut_187"
+    }
+  ],
+  "confidence": 0.917497587474794,
+  "audio_duration": 3574,
+  "punctuate": true,
+  "format_text": true,
+  "dual_channel": false,
+  "webhook_url": null,
+  "webhook_status_code": null,
+  "webhook_auth": false,
+  "webhook_auth_header_name": null,
+  "speed_boost": false,
+  "auto_highlights_result": null,
+  "auto_highlights": false,
+  "audio_start_from": null,
+  "audio_end_at": null,
+  "word_boost": [],
+  "boost_param": null,
+  "filter_profanity": false,
+  "redact_pii": false,
+  "redact_pii_audio": false,
+  "redact_pii_audio_quality": null,
+  "redact_pii_policies": null,
+  "redact_pii_sub": null,
+  "speaker_labels": true,
+  "content_safety": false,
+  "iab_categories": true,
+  "content_safety_labels": {
+    "status": "unavailable",
+    "results": [],
+    "summary": {}
+  },
+  "language_detection": false,
+  "language_detection_threshold": null,
+  "language_confidence": null,
+  "custom_spelling": null,
+  "throttled": false,
+  "auto_chapters": true,
+  "summarization": false,
+  "summary_type": null,
+  "summary_model": null,
+  "custom_topics": false,
+  "topics": [],
+  "speech_threshold": null,
+  "speech_model": "best",
+  "chapters": [
+    {
+      "summary": "Enrico: We have a special episode today. We are going to talk about color. We have Gregor Aisch together with us today. Gregor is one of the rising stars of data visualization in the visualization galaxy.",
+      "gist": "Color in Data Visualization",
+      "headline": "Enrico: We are going to talk about color today",
+      "start": 18760,
+      "end": 104790,
+      "id": "ep_7_ch_0"
+    },
+    {
+      "summary": "Gregor: How I started with visualization is I studied a strange course called computational visualistics. It's like 60% computer science, and there's more or less ten to 20% design. Visualistic is kind of the analogy for everything related to understanding and creating images.",
+      "gist": "In the Elevator With Data Visualization",
+      "headline": "Gregor started with visualization after studying computational visualistics",
+      "start": 104982,
+      "end": 211614,
+      "id": "ep_7_ch_1"
+    },
+    {
+      "summary": "Color is at the same time, so powerful, potentially powerful for visualization, but also dangerous. And I think especially at the beginning for novices, there are lots of misunderstandings and it's very easy to misuse color. We will try to go through how to use color.",
+      "gist": "Using Color in Visualizations",
+      "headline": "We see many examples of visualizations where color is misused",
+      "start": 212274,
+      "end": 278993,
+      "id": "ep_7_ch_2"
+    },
+    {
+      "summary": "Gregor: The key point in understanding how we perceive color is to learn about the visual perception of humans in general. You can learn quite a lot just from understanding the structure of the human retina. The way we perceive colour is connected to the way we specify color in our computers, he says.",
+      "gist": "Perception of color in humans",
+      "headline": "Gregor: Understanding how we perceive color starts with understanding the human retina",
+      "start": 279333,
+      "end": 597468,
+      "id": "ep_7_ch_3"
+    },
+    {
+      "summary": "Gregor: Why we have so many different color spaces? He says the main reason for RGB is a technical reason, but it's not the ideal color space for design tasks. What we would really like to have in visualization is basically two channels.",
+      "gist": "Color Spaces",
+      "headline": "Gregor: Why do we have so many different color scales",
+      "start": 597566,
+      "end": 930324,
+      "id": "ep_7_ch_4"
+    },
+    {
+      "summary": "How many different categories can you comfortably express with nice and equally important, let's say, colors? That's a huge debate, Moritz. There's no clear break point. Give a rough estimation.",
+      "gist": "Categorical data and their interpretation",
+      "headline": "How many different categories can you comfortably express with nice and equally important colors",
+      "start": 931104,
+      "end": 1202894,
+      "id": "ep_7_ch_5"
+    },
+    {
+      "summary": "The first step is to introduce color brewer, which is a research project of Cynthia Brewer. She has developed a set of color scales and also color palettes for categorical data. If you want to create a color scale or color palette with brand colors, you get in trouble if you're just using color brewer.",
+      "gist": "What is Color Brewer for Data Visualization?",
+      "headline": "If you are a novice visualization designer and you want to use categorical colors",
+      "start": 1205394,
+      "end": 1534134,
+      "id": "ep_7_ch_6"
+    },
+    {
+      "summary": "Using a rainbow color scale to represent continuous data is just plain wrong. The main advantage of color is to identify certain data points in your data set, but not to compare. It's really hard to have hard guidelines in visualization.",
+      "gist": "Using color for continuous data",
+      "headline": "Color is difficult to use for displaying quantitative or continuous data",
+      "start": 1535714,
+      "end": 1867678,
+      "id": "ep_7_ch_7"
+    },
+    {
+      "summary": "There is no good representation of continuous data with colors. Probably the best way around is to try and make it ordinal data. Use the rest like properly. The emotional aspect is so strong. But I think there are some good rules.",
+      "gist": "On color in data visualizations",
+      "headline": "There is no good representation of continuous data with colors, Greg says",
+      "start": 1867806,
+      "end": 2153264,
+      "id": "ep_7_ch_8"
+    },
+    {
+      "summary": "Gregor: Why do scientists use the rainbow color scale? He says it's a poor color scale, but if we spend more time on making our visualization more pretty, we get in trouble. If we dress up our charts, it makes us look as if we have something to hide, he says.",
+      "gist": "On the Rainbow Color Scale",
+      "headline": "Gregor: Scientists often use the rainbow color scale for visualization",
+      "start": 2155284,
+      "end": 2553964,
+      "id": "ep_7_ch_9"
+    },
+    {
+      "summary": "One problem I always have with continuous color scales is that very, very often the distribution of the data is very skewed. If you allow the user to change the focus of the color scale, then it gets increasingly powerful.",
+      "gist": "Continuous Color Scales",
+      "headline": "One problem I always have with continuous color scales is that distribution is very skewed",
+      "start": 2557904,
+      "end": 2887634,
+      "id": "ep_7_ch_10"
+    },
+    {
+      "summary": "Sometimes it's a good idea to double encode the same variable with color and another visual feature like length or size. As far as I know, there are no studies checking on what's the interaction between, between compound visual features.",
+      "gist": "Interaction between color and visual features",
+      "headline": "Sometimes I think it's a good idea to double encode variables with color",
+      "start": 2889894,
+      "end": 3143190,
+      "id": "ep_7_ch_11"
+    },
+    {
+      "summary": "Use it mostly for grouping for categories of things. Every time you use color, put a legend somewhere. The fewer colors you use, the more effectful they are. Do no harm.",
+      "gist": "The 3 most important tips about color visualization",
+      "headline": "What are the most important tips on using color in visualization for beginners",
+      "start": 3143222,
+      "end": 3499944,
+      "id": "ep_7_ch_12"
+    },
+    {
+      "summary": "Gregor: It's been fantastic to have you here in this episode. Since we've been talking about color, we didn't have time to talk about all your projects, which I really, really like. Maybe in the future we can organize another episode where we discuss more about your projects.",
+      "gist": "A little about color in data visualization",
+      "headline": "Gregor: I think we covered pretty much everything about color",
+      "start": 3501524,
+      "end": 3566026,
+      "id": "ep_7_ch_13"
+    }
+  ],
+  "disfluencies": false,
+  "entity_detection": false,
+  "sentiment_analysis": false,
+  "sentiment_analysis_results": null,
+  "entities": null,
+  "speakers_expected": null,
+  "summary": null,
+  "custom_topics_results": null,
+  "episode_num": 7,
+  "episode_metadata": {
+    "speakers": [
+      "Moritz Stefaner",
+      "Enrico Bertini",
+      "Gregor Aisch"
+    ],
+    "WPid": "104",
+    "url": "https://datastori.es/podlove/file/198/s/feed/c/mp3/datastories-07.mp3",
+    "episode_title": "Color (feat. Gregor Aisch)"
+  }
+}

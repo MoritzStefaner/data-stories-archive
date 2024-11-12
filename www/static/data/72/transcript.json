@@ -1,0 +1,1002 @@
+{
+  "id": "fd81a776-189a-4620-9637-f5dd3ef0e37f",
+  "language_model": "assemblyai_default",
+  "acoustic_model": "assemblyai_default",
+  "language_code": "en_us",
+  "status": "completed",
+  "audio_url": "https://datastori.es/podlove/file/2007/s/feed/c/mp3/71.mp3",
+  "utterances": [
+    {
+      "end": 11514,
+      "speaker": "Jeff Heer",
+      "start": 200,
+      "text": "Broadly, we're just interested in how people work with data and how can we build new kinds of tools that really support larger scale or greater depth or more insight in terms of making sense of this information.",
+      "id": "ep_72_ut_0"
+    },
+    {
+      "end": 36414,
+      "speaker": "Moritz Stefaner",
+      "start": 14014,
+      "text": "Datastories is brought to you by Qlik, who allows you to explore the hidden relationships within your data that lead to meaningful insights. Let your instincts lead the way to create personalized visualizations and dynamic dashboards with Qlik sense, collaborators at Beaucoup, which you can download for free at click de data stories. That's q l I K deries.",
+      "id": "ep_72_ut_1"
+    },
+    {
+      "end": 52682,
+      "speaker": "Enrico Bertini",
+      "start": 47634,
+      "text": "Everyone. Welcome to a new episode of Data Stories. Hey, Moritz, how's it going?",
+      "id": "ep_72_ut_2"
+    },
+    {
+      "end": 54146,
+      "speaker": "Moritz Stefaner",
+      "start": 52778,
+      "text": "Good, how are you?",
+      "id": "ep_72_ut_3"
+    },
+    {
+      "end": 56978,
+      "speaker": "Enrico Bertini",
+      "start": 54330,
+      "text": "Very good. Beautiful weather here.",
+      "id": "ep_72_ut_4"
+    },
+    {
+      "end": 63098,
+      "speaker": "Moritz Stefaner",
+      "start": 57146,
+      "text": "Nice. It's a rainy day in Germany, I have to say. Yeah.",
+      "id": "ep_72_ut_5"
+    },
+    {
+      "end": 71394,
+      "speaker": "Enrico Bertini",
+      "start": 63186,
+      "text": "Yeah. Well, not too surprising. Not too surprising. I actually just came back from Germany, but it was nice there.",
+      "id": "ep_72_ut_6"
+    },
+    {
+      "end": 74090,
+      "speaker": "Moritz Stefaner",
+      "start": 71514,
+      "text": "Yeah. So now it's rainy when you're gone.",
+      "id": "ep_72_ut_7"
+    },
+    {
+      "end": 83122,
+      "speaker": "Enrico Bertini",
+      "start": 74162,
+      "text": "Yeah. Okay, so we have another special guest today with us. We have Jeff here. Hi, Jeff. How are you?",
+      "id": "ep_72_ut_8"
+    },
+    {
+      "end": 84720,
+      "speaker": "Jeff Heer",
+      "start": 83178,
+      "text": "Hello. I'm great, thanks.",
+      "id": "ep_72_ut_9"
+    },
+    {
+      "end": 126606,
+      "speaker": "Enrico Bertini",
+      "start": 84752,
+      "text": "Hey, Jeff, nice having you back on the show. We are so excited. So Jeff Heer is an associate professor at the University of Washington, but he's also the founder and director of the interactive Data lab. And of course, he's the person behind many popular software tools like D3, Vega, Protovis, and previously prefuse and many others. And he's the founder of Trifacta. So a lot of interesting things. So, Jeff, how is it going? Maybe you can tell us a little bit about your background and what you are working on right now.",
+      "id": "ep_72_ut_10"
+    },
+    {
+      "end": 194110,
+      "speaker": "Jeff Heer",
+      "start": 126750,
+      "text": "Yeah, sure. Thanks for having me back on the show. It's fun to be back in, and we'll see how it compares with our conversation last time. And so I think when I spoke to you back then, I forget the exact date, but I was at the time a professor at computer science at Stanford. And since then, back in 2013, we moved up here to Seattle. So now I'm a professor of computer science and engineering here at the University of Washington. And here we started a group called the Interactive Data lab, collaborators at Beaucoup, which is really the continuation of the Stanford visualization group. And so up here, it's myself and then fellow faculty member Jessica Hullman, who's in the information school here, and a team of really amazing students. And so that's my Seattle life. And then I also have a Bay Area life, as you mentioned, as co founder and chief experience officer of Trifacta, collaborators at Beaucoup, which is a company providing interactive tools for data transformation, data cleaning and early stage visualization. And I think when we spoke last time, it was just getting off the ground. And now, just this past week, we actually celebrated our fourth year birthday from when we incorporated. So the time has fly pretty quickly.",
+      "id": "ep_72_ut_11"
+    },
+    {
+      "end": 195510,
+      "speaker": "Moritz Stefaner",
+      "start": 194222,
+      "text": "Oh, wow. That's crazy.",
+      "id": "ep_72_ut_12"
+    },
+    {
+      "end": 196174,
+      "speaker": "Enrico Bertini",
+      "start": 195542,
+      "text": "Oh, wow.",
+      "id": "ep_72_ut_13"
+    },
+    {
+      "end": 196446,
+      "speaker": "Jeff Heer",
+      "start": 196254,
+      "text": "Yeah.",
+      "id": "ep_72_ut_14"
+    },
+    {
+      "end": 199558,
+      "speaker": "Moritz Stefaner",
+      "start": 196470,
+      "text": "So we had you on 2012, actually. It's true. So it's.",
+      "id": "ep_72_ut_15"
+    },
+    {
+      "end": 200144,
+      "speaker": "Jeff Heer",
+      "start": 199646,
+      "text": "Yep.",
+      "id": "ep_72_ut_16"
+    },
+    {
+      "end": 205348,
+      "speaker": "Moritz Stefaner",
+      "start": 200254,
+      "text": "Jesus, been a while. Yeah, it's episode eight, four years ago almost.",
+      "id": "ep_72_ut_17"
+    },
+    {
+      "end": 249650,
+      "speaker": "Enrico Bertini",
+      "start": 205436,
+      "text": "Okay, so we have lots of ground to cover. I would like to start from talking a little bit more in details about what you guys do at the interactive data lab, especially. I mean, I've seen a lot of work coming out of the lab, lots of really, really interesting research. And so can you talk a little bit more about what kind of vision you have in the lab? What are the major research trajectories there? Of course, you've been historically working a lot on software tools and infrastructure, but many, many, many other things. So maybe can you give us a little bit of an overview of how the labs works and what are the main research trajectories there?",
+      "id": "ep_72_ut_18"
+    },
+    {
+      "end": 389118,
+      "speaker": "Jeff Heer",
+      "start": 249762,
+      "text": "So, yeah. So up here at the University of Washington, I co direct a group called IDL, or the Interactive data lab, collaborators at Beaucoup, which is Professor Jessica Hullman in the ischool, plus myself and a team of really amazing students. And the overarching goal of the group is to figure out how we can better enhance our abilities to make sense of complex information. So how do we take processes of analysis or communicating data and allow us to do that more effectively? Visualization is a central part of that. We're well known for a lot of visualization tool and technique work, but it goes beyond it as well. So we started off life as the Stanford visualization group, but as we explore different research topics, we realize that visualization, while a central part of what we do, was only a sub component of this larger process of making sense of data. So other aspects of research that we pursue include perception studies. So given visualizations, how well do people perceive them? There's a big interest recently in techniques for presenting uncertainty and how people interpret those. But looking beyond visual representations, we've done things in data transformation and cleaning, for example. So how do you get data ready? Prior to visualization or statistical analysis that actually led to the founding of trifacta, we've done work on text analysis, from visualizing large text collections to interactive tools for language translation. So, for example, how do machine translation techniques work side by side with human translators to better improve the process of mapping between languages? And so a student, Spence Green, who is co advised by myself and Chris Manning at Stanford, has actually started a company on this work called Lilt. So it's building new translation tools. And then just one other example I'd share is we've also gotten interested in what I call reverse visualization. So that is, given a pixel image of a chart, how can you actually reverse engineer the structure and content of that visualization? So you might do this to create models to better understand the visualization process, or you might index charts. It might be the only record of the data that you have, and then you want to search over how data's been used, how it's been visualized, whether to access interesting information, or to actually study the use of visualization over the years in various fields. So broadly, we're just interested in how people work with data and how can we build new kinds of tools that really support larger scale or greater depth or more insight in terms of making sense of this information?",
+      "id": "ep_72_ut_19"
+    },
+    {
+      "end": 424196,
+      "speaker": "Enrico Bertini",
+      "start": 389246,
+      "text": "That's one thing that I really like about IDL and the name itself. I mean, that you guys are trying to go beyond visualization. And I'm not saying this in a mean way. I mean, it's like historically you have done so much work in the area of visualization, but I agree that in the end is more like one part of it, a major part of it. But the idea is how do you make sense of data in general and how do you communicate it? And sometimes this is a large component, but some other times there are other components. Right. Including interaction, of course. Yeah, yeah, yeah.",
+      "id": "ep_72_ut_20"
+    },
+    {
+      "end": 454418,
+      "speaker": "Jeff Heer",
+      "start": 424220,
+      "text": "I mean, the idea is that the true object of study is the process of making sense of data, and visualization can play a central role there, but it's not the only part of that. Clearly, statistical methods, machine learning methods, certainly play a very important role, database techniques, but also lots of things that are more general in terms of how do people approach these problems, how do they think about it? What is the strategy for conducting successful analysis? How do you exercise skepticism, and what are the ways the tools might help along in that process?",
+      "id": "ep_72_ut_21"
+    },
+    {
+      "end": 479204,
+      "speaker": "Enrico Bertini",
+      "start": 454586,
+      "text": "Yeah, absolutely. So, shall we? I would like to start from the infrastructure side of set of research and work that you guys are doing. Sure. Can you talk a little bit about Vega and Vega Lite and maybe even more in general, how you see things developing in the future? There's been so much going on in this area, and I'm pretty sure you have some ideas on what is going to happen next.",
+      "id": "ep_72_ut_22"
+    },
+    {
+      "end": 612926,
+      "speaker": "Jeff Heer",
+      "start": 479584,
+      "text": "I hope so. For those who aren't familiar, Vega is a high level language for expressing visualizations. And so it builds on top of our prior work on D3 and other systems. And so the general idea is that I think things like D3 are excellent tools, hopefully for allowing people to create customized interactive visualizations. Or really you think of it more as a craft process, like you're going to make these artisanal visualizations or you're going to build higher level tools like D3 can be a valuable library for that. But the goal of Vegas is can we actually represent visualizations at a higher level of abstraction? Can we make them more reusable? Ideally, this language might be valuable for people to create visualizations, but one of the slightly different goals here is that we want to create a representation that allows computer programs to generate visualizations as well. So one way to think about this is by analogy to other types of declarative languages. So for example, for design in the web browser, we have languages like CSS, cascading style sheets, collaborators at Beaucoup, which provide a high level language collaborators at Beaucoup, which if any of you have programmed before trying to do customized styling at low level languages, it was just a nightmare. And CSS, well, it has some warts, by and large has really, for the better, transformed how we can bring really custom design control in a high level language. Meanwhile, you can look over at databases. You have things like SQL, SQL, the structured query language, collaborators at Beaucoup, which is a high level language that you express the computation that you want the database to do. It will then interpret that and try and translate that into an optimal or at least optimized data flow for computing that result. And I think SQL is a nice example here because many human beings, like programmers, write SQL queries. But I'd say the vast majority of SQL queries that are issued in the world are actually being generated by other pieces of software. And so one of the goals is can we raise the level of abstraction for visualization so that both people and machines can generate visualizations? And we'll talk a little bit later about why. I think this is interesting, but it opens up doors in terms of higher level tools for authoring visualizations and also even tools that explore the space of visualizations and then try and bring back some customized recommendations to help you look at the data more effectively. And so Vega is our language for doing that.",
+      "id": "ep_72_ut_23"
+    },
+    {
+      "end": 636044,
+      "speaker": "Moritz Stefaner",
+      "start": 612990,
+      "text": "Yeah, I can see super much practical application for this. So I work a lot with, part of my work is also with large organizations, companies, and they are always quite skeptical of what's going on on the web because everything seems to change every three months. There's this joke that everybody's rewriting their whole front end every six weeks. And partly it's true, right unfortunately here.",
+      "id": "ep_72_ut_24"
+    },
+    {
+      "end": 638636,
+      "speaker": "Jeff Heer",
+      "start": 636084,
+      "text": "Fortunately the case maybe. It's certainly true.",
+      "id": "ep_72_ut_25"
+    },
+    {
+      "end": 666604,
+      "speaker": "Moritz Stefaner",
+      "start": 638740,
+      "text": "Yeah. And I think the hope with formats like this is a bit that you can just structurally specify what's going on. And if there's a cool new charting library, right, you can still, you know, it's still clear it's a bar chart with this data and these filter options. But if there's cool new front end options, you just swap out that part. But you don't have to swap out the whole stack all the time. So it could help with sustainability at least a bit.",
+      "id": "ep_72_ut_26"
+    },
+    {
+      "end": 804736,
+      "speaker": "Jeff Heer",
+      "start": 666984,
+      "text": "Yeah. And I think one way of thinking about it is certainly with tools like Vega, we're not trying to necessarily target the same areas that D3 has been most successful, at least had the highest profile. If you look at interactive graphics at the New York Times, these are very customized things and they're beautiful and they're very informative. But nevertheless, the vast majority of visualizations are things that people are creating in their jobs or in their organizations. And there's a lot of improvements we can bring to tooling and the quality of visualizations that people are producing, even if they aren't quite as highly specialized. But one of the things that we're most excited about with Vega is, well, first I should mention it builds on a long history of work going back to this system called the Grammar of graphics that was designed by Leland Wilkinson. Hadley Wickham has his own variant of that in the very popular GGplot two library for R. If you look at commercial tools like Tableau, they have a language underneath the hood called Vizql, collaborators at Beaucoup, which basically maps to both database queries and visualizations. So this idea of using higher level languages to make it easier and more rapid to specify visualizations as well as to interface with database systems, et cetera. Those ideas have been around for a long time and Vega is our entry into that foray. But one of the things that we've done that I think is quite different is all those other systems are primarily focused on turning data into images, collaborators at Beaucoup, which is extremely important part of visualization, but it leaves out the richer sense of interactions. So what are all the ways that having built this visualization, how do I interact with it? How does it respond to user input? And all these other systems have typically involved writing low level event processing codes on mouse click. Do this have all these event listeners? And if you write this type of code it gets very spaghetti ish very quickly. And so one of the things that we've been researching is not just how do we do this grammar of graphics. But how do we start building grammars of interactions so that you can talk about a whole variety of interaction techniques at a high level? That should ideally make it easier for people to explore that space of interactions. But as I mentioned before, also allow computational systems to reason through that space as well, and perhaps provide useful recommendations or automatically retarget based on your device. So, for example, whether you're using mouse input or touch input, the system could actually be smart in terms of translating the interactive experience based on that context.",
+      "id": "ep_72_ut_27"
+    },
+    {
+      "end": 849536,
+      "speaker": "Enrico Bertini",
+      "start": 804800,
+      "text": "Yeah, that's amazing, because as you said, most of the existing systems just don't take interaction into account. But interaction is in many ways so important. So I think that's great. I just wanted to ask you a little bit more about in general, what do you think about. I think you've been developing quite a number of systems and libraries, and some have been widely adopted and some others not. So would you be able to say when we reason about adoption, do you have any ideas what distinguishes projects that are widely adopted and those that just seems to, I don't know, not to work?",
+      "id": "ep_72_ut_28"
+    },
+    {
+      "end": 967310,
+      "speaker": "Jeff Heer",
+      "start": 849720,
+      "text": "Yeah, and I guess it depends on your goals too, right? So I'm a researcher as well as trying to develop practical tools, whether that's things that are coming out of our research group or out of the company. So part of it depends on your goals. I think within academia there's certainly a lot of system building where you're building the system as a means of exploration. You're trying to figure out what works best, and that might be a stepping stone along to other things. So an interesting example here is probably the proto vis system. So in Mike Bostock and I started working together, he had an idea on how to approach the visual encoding problem in a way that was slightly different from earlier systems. I had written prefuse and flare, and we explored that and it had some really nice usage, and in the process of deploying it, we learned a lot about how people were using it and also some of the shortcomings that they were facing. In part D3 was a reaction to those experiences. There's some things we had to sacrifice. There was a high level language that had some really nice consistency across the way. You could approach different visualization tasks, a consistency that's not shared in underlying languages like scalable vector graphics, SVG. But nevertheless, we learned different approaches that I think D3 was better tuned for production use. And so that was a sequence of projects where there was exploration with the intent of the tool being useful. But it was also trying to understand what are the ways we can specify visualizations exploring different approaches. And then D3, explored some other new approaches but also had a big reduction to what would be useful in practice. With the Vega project, for instance, we're coming back to it and trying to chart a course on a slightly different set of explorations and I think we're still figuring it out. We are seeing uptake of Vega and tools on top of it in really interesting environments. For example, you can use Vega currently on Wikipedia for not just static, but you can add interactive graphics to Wikipedia pages using Vega as the specification.",
+      "id": "ep_72_ut_29"
+    },
+    {
+      "end": 969350,
+      "speaker": "Moritz Stefaner",
+      "start": 967342,
+      "text": "That's a great use for the format, right?",
+      "id": "ep_72_ut_30"
+    },
+    {
+      "end": 1036096,
+      "speaker": "Jeff Heer",
+      "start": 969462,
+      "text": "Yeah, and so I encourage people to go improve Wikipedia in that way. It would be great. And the folks at Wikimedia have been really supportive and it's been really fun to work with them. And we've also seen uptake into data science environments. So I mean you're looking at the ipython notebook. So there's a library called Altair collaborators at Beaucoup, which is basically an interface to Vega Lite collaborators at Beaucoup, which is a higher level language built on top of Vega. There's tools for Vega inside R and inside Julia as well. Again, you're seeing the use of this high level language is allowing a variety of different programming environments to generate visualizations using this shared format. We learn a lot from these deployments, but I'd say that the research is still ongoing. You can expect over time as we learn more it will shift from maybe right now we have, I think, heavier lean on the research focus as we're still figuring out what's the right way to design these things, both in terms of the language and in terms of the underlying runtime. So how do we actually interpret this language and give you back visualizations that are effective and also performant? But over time I think we'll get better and better at actually reducing this into practice in a way that could be more widely applicable.",
+      "id": "ep_72_ut_31"
+    },
+    {
+      "end": 1046738,
+      "speaker": "Enrico Bertini",
+      "start": 1036200,
+      "text": "So how does one start using Vega lite? Let's imagine there is a listener who never heard of Vega before and now wants to start using it. What would be the best way to start?",
+      "id": "ep_72_ut_32"
+    },
+    {
+      "end": 1166404,
+      "speaker": "Jeff Heer",
+      "start": 1046856,
+      "text": "Right, so there's two languages here. So there's Vega, collaborators at Beaucoup, which. And the way to think about Vega is what if you specify everything about your visualization and that you have total design control over every line width, every font, etcetera, every nuance of the interaction. Vega is intended to be largely unambiguous. And then we have a trade off is that sometimes your specifications are quite long. It might be like 50 to 100 or like lines of JSON and basically it's a JavaScript object notation format. Vega Lite is instead what if instead I'm very ambiguous and I'll tell you just the minimum amount to get across my intention for that visualization and then let an engine fill in all the defaults for you. So if I say I want to take this variable, I have a data set about cars and I want to visualize the mileage on the x axis, that's very ambiguous. So it's okay, x axis, great. But what scale should that be linear? Should that be logarithmic? What are the tick spacings, what's the fonts, what's the line widths? All these things. But we can make smart defaults in place and it's very similar to what tools like GGplot and Tableau do as well, and then just fill in that specification. So Vega Lite is our high level language that in very few lines of text you can specify a large range of visualizations. And our compiler takes that and then just fleshes it out into a full featured Vega spec. And so if people wanted to get started, I mean, I think Vega Lite's a great starting point because it's much simpler and it's much more high level. Like you're really at the level of saying, okay, I want to visualize this field on x and I want this one on color and I want you to group by this and show me the means for this. And so in a very short specification you can create a wide range of useful graphics. And the way to get started is just to go online. We have tutorials. You just type Vega Lite into Google or go to Vega GitHub IO for our main landing page and you can see lots of examples. There's an interactive editor online where you can go in and just manipulate it there in real time and see the updates there in your browser. No need to install anything, you just go start playing with it right away.",
+      "id": "ep_72_ut_33"
+    },
+    {
+      "end": 1195390,
+      "speaker": "Enrico Bertini",
+      "start": 1166984,
+      "text": "Great. So another project that I love to talk about, and I think it's at least slightly related to Vega, is your recent work on Voyager. I saw that the first time last year at Viz. And if I understand correctly, the idea, there is more about having some kind of mixed initiative system that helps a person discover interesting plots. Is that correct?",
+      "id": "ep_72_ut_34"
+    },
+    {
+      "end": 1208622,
+      "speaker": "Jeff Heer",
+      "start": 1195502,
+      "text": "Yeah. So the basic idea with Voyager is to say how can we build tools that better support the early stages of exploratory data analysis. So you can consider a tool like Tableau, collaborators at Beaucoup, which you load it up and then you sort of get a blank slate.",
+      "id": "ep_72_ut_35"
+    },
+    {
+      "end": 1209214,
+      "speaker": "Enrico Bertini",
+      "start": 1208758,
+      "text": "Yeah.",
+      "id": "ep_72_ut_36"
+    },
+    {
+      "end": 1424320,
+      "speaker": "Jeff Heer",
+      "start": 1209294,
+      "text": "And then you have a set of data fields, and then you decide how to visualize them. And so if you have a question in mind, this works incredibly well. You build an initial visualization. You might test your question, you might refine it, and then you can go deep, right? You might add a new field. You drill down in various ways. You might explore subsets of the data. And this is a sort of depth focused, exploratory analysis, right? You have this question in your mind, and you're going to go tackle that question. However, after teaching visualization for many years, I've noticed a common pattern among many students, collaborators at Beaucoup, which is they get a data set, they're given an analysis assignment, and then they formulate a question and they go straight for it. And I appreciate that enthusiasm, but in the process, they end up overlooking a ton of things. So they would be like, in some cases, we give them datasets where we intentionally put flaws in there. But you don't even have to do that because most data sets have quality issues that have to be addressed, or the variables are not what you thought they were, et cetera. And so you can actually undermine your analysis by kind of chasing after your hypothesis prematurely. And so the idea with Voyager is, how do you get this more broad exposure to your data set early on? And so to start, what we just do is you load your data set, and then we automatically generate a space of summaries for all the different variables. So if it's a category, we'll show you all the category values and the counts, so how prevalent they are in the data set. If it's a quantitative field, we might generate dot plots and histograms so that you can just see what that distribution looks like. But then the part that gets interesting is once you have that overview, you then might want to start going a little bit deeper while still maintaining some of that breadth. So, for example, if I see a variable of interest, I can say, show me more about, say again, I mentioned mileage for cars. Tell me more about mileage of cars, and I'll get visualizations that provide various summaries of that field. But then we'll also look just one step ahead in that search process. So what are the different variables I might combine a mileage with to see interesting things, like, does it correlate interesting with the number of cylinders of the car, or with the horsepower of the car or with its acceleration? We can automatically generate just that next frontier, that one step ahead of charts. So instead of manually spending minutes or hours building up all of these different plots, we'll just present them to you. And basically you're getting recommendations, but they're recommendations that are conditioned on the things that you said you're interested in. And so part of what we're trying to find out here is also not only can we help people have more comprehensive and more efficient explorations, particularly in those early stages, but also we're trying to figure out what is the right balance of the analyst guiding the process, collaborators at Beaucoup, which we think is absolutely critical to the right amount of automation around the edges to speed it up. I think this is different from saying throw in a dataset and just show me the charts that are interesting regardless of how far away they are. From my starting point, rather, this is thinking about it as a guided tour, where the algorithms are going to help suggest visualizations, but it's still really the analysts and their interests, tasks and questions that are driving the process. And so there is a nature of mixed initiative in that both the system and the person are taking steps to further the analysis along. But we're very much keeping the analysts in the driver's seat. And I think that's critical, because I think if you go ahead and just rampantly data mine, there's all sorts of problems that you open yourself up to, not least of collaborators at Beaucoup, which is you can find spurious correlations and an algorithm, come back and say, wow, look how related these two variables seem to be. And it could be meaningless, but more importantly, it could be completely out of the context of what the analyst is trying to achieve. And so part of the fun here is figuring out from a human factor standpoint what is the right way to make people more effective without taking away their agency.",
+      "id": "ep_72_ut_37"
+    },
+    {
+      "end": 1435404,
+      "speaker": "Moritz Stefaner",
+      "start": 1424432,
+      "text": "And do you have a notion of what an interesting chart is in the system, or is it more combinatorial in a sense that you tried all the alternatives and then let the user pick?",
+      "id": "ep_72_ut_38"
+    },
+    {
+      "end": 1619806,
+      "speaker": "Jeff Heer",
+      "start": 1435764,
+      "text": "Right? So there's some interesting questions here collaborators at Beaucoup, which will be ripe areas for future research. In our initial version, we asked the question, what if we make the recommender intentionally dumb? And not dumb in a bad way, but dumb in a principled way, collaborators at Beaucoup, which the idea being like, look, I have an ordering on my data variables and it may just be the order in collaborators at Beaucoup, which they occurred in my data set, but that's what I'm seeing when I look at, say, a side panel and I see what are all the fields in my database, I have an ordering there, and maybe I made it alphabetical, maybe it's just the ordering that I observed. We actually, for our initial evaluations we just enumerated the data values in that same order. So there was consistency. And in this case, the data sets were small enough in terms of the number of variables. So instead of like thousands of variables where I think you'd have a real problem, we're talking somewhere on the order of like one to two dozen variables. So it's not unreasonable that regardless of the ordering, you can actually walk through and see all the individual charts. And so one of the key ideas that we had was promoting this notion of data variation over design variation. The idea being that once I pick a subset of variables, I may have like tens or in some cases even hundreds of possible charts. So here's where we try and be smart. And so we will actually enumerate all those charts and then rank them according to perceptual effectiveness principles. So that given that all these charts are visualizing the identical data set, can we pick the one that we believe will present the data in the most effective way? And that's what we show in the top level gallery. So that way, when you're going through these recommendations, each chart is showing you a different perspective on the data. You're not seeing repeated perspectives with different visual encodings. And since the number of variables isn't so high as to be restrictive, you can actually view all of those in a reasonable amount of time. But there's two follow ups here that are pretty interesting. So one is that what Voyager does support is maybe I see a chart, I find it interesting, and I do want to see those different design variations. So what are different visual encodings I might apply to that exact same data set. And then we allow you to drill down and you can go in sort of like a sub gallery in collaborators at Beaucoup, which you can then see different visualization approaches. So we still make that available, but we don't prioritize that. The next level of question is, what do you do when the number of variables gets too high? And so if I have thousands of variables, it's unlikely that for every step of my analysis, I'm going to view 1000 new charts. And so in that case, you have to think about data driven ranking procedures. So given that I'm adding a new variable, collaborators at Beaucoup, which one is more likely to show an interesting pattern? Problem is, it's not always clear collaborators at Beaucoup, which metric is right. So I could use some correlation measure. I could look at mutual information. I might do. If I know I want to predict something like profits, I might say what provides the best prediction of that in conjunction with these variables. So I think even that has some questions as to what tasks you're trying to perform. And so some part of our research going forward is what are some of the different recommendation strategies you might use in the case of these much larger data sets, and then begin to evaluate them. So the larger research trajectory is really to start with a simple foundation and then elaborate over time as we begin to make these systems more and more complex, but hopefully all the way grounding it and be able to show that it provides real utility for people trying to explore real world data stuff.",
+      "id": "ep_72_ut_39"
+    },
+    {
+      "end": 1668754,
+      "speaker": "Enrico Bertini",
+      "start": 1619990,
+      "text": "Yeah, I think, Jeff, I think that's a very interesting frontier for visualization. As automated mechanisms get closer to visualization and visualization closer to automated mechanisms, I think we still need to find the right way to let these two worlds or mindsets work. And I think there is another problem that the more you automate and the more you are, you are going to have problems in terms of trust and control. Right. And I think you also published something in the past about trust, if I remember correctly. Yeah, I think it's an area that is going to be increasingly important as we move visualization closer to automation. Right. I find it really, really interesting.",
+      "id": "ep_72_ut_40"
+    },
+    {
+      "end": 1707560,
+      "speaker": "Jeff Heer",
+      "start": 1668874,
+      "text": "There's a whole set of interesting questions here, too. I have colleagues in machine learning who are interested in various things, like how would statistical machine learning methods be used to suggest diagnoses or treatments. In the case of healthcare, you can imagine all sorts of fascinating things collaborators at Beaucoup, which are also potentially scary, like judicial decisions. I've seen people model those, and there's ups and downs to that. And I think in any case, when these types of systems are being brought into use, you're going to need the ability to interpret the model and interrogate it. And so these areas of where automated systems, visualization and human oversight come together, I think is going to be. It's already important. It's just going to become more important over time.",
+      "id": "ep_72_ut_41"
+    },
+    {
+      "end": 1783034,
+      "speaker": "Moritz Stefaner",
+      "start": 1707752,
+      "text": "So this is a good time to take a little break and talk about our sponsor this week. Once again, data stories is brought to you by Qlik, who allows you to explore the hidden relationships within your data that lead to meaningful insights. Let your instincts lead the way to create personalized visualizations and dynamic dashboards with Qlik sense, collaborators at Beaucoup, which you can download for free at Qlik deries. That's q l I K Datastories. And, okay, I have to admit, this is quite a special ad block for me this time, because Qlik business analytics strategist James Richardson wrote a blog post on the clickblog about beauty and truth in data visualizations. And if you know me and my work. You know that these two concepts are quite important to me. They're, in fact, part of my job title that I made up. Anyways, so how is it? Are truth and beauty mutually exclusive, or do they support each other, or are they independent? James Richardson digs deep into poetry, philosophy and history. And if you want to know what he learned about the relation of truth and beauty, check out the blog post, collaborators at Beaucoup, which is linked from the show notes. So thanks again to Qlik for sponsoring us. And now back to the show.",
+      "id": "ep_72_ut_42"
+    },
+    {
+      "end": 1787558,
+      "speaker": "Enrico Bertini",
+      "start": 1783734,
+      "text": "I wanted to ask you something else about Voyager.",
+      "id": "ep_72_ut_43"
+    },
+    {
+      "end": 1787934,
+      "speaker": "Jeff Heer",
+      "start": 1787646,
+      "text": "Yeah.",
+      "id": "ep_72_ut_44"
+    },
+    {
+      "end": 1799798,
+      "speaker": "Enrico Bertini",
+      "start": 1787974,
+      "text": "If I remember correctly, you've been running studies on top of that and try to understand what plots people explore when they actually use this. They do have these recommendations available.",
+      "id": "ep_72_ut_45"
+    },
+    {
+      "end": 1800574,
+      "speaker": "Jeff Heer",
+      "start": 1799966,
+      "text": "Yeah.",
+      "id": "ep_72_ut_46"
+    },
+    {
+      "end": 1803154,
+      "speaker": "Enrico Bertini",
+      "start": 1800694,
+      "text": "So can you describe a little bit what you found there?",
+      "id": "ep_72_ut_47"
+    },
+    {
+      "end": 1985720,
+      "speaker": "Jeff Heer",
+      "start": 1803254,
+      "text": "Yeah. So we ran a study where we compared Voyager with basically a remake of Tableau that we call Polestar. And so that's named Polestar in honor of Polaris, collaborators at Beaucoup, which was the Stanford research project that eventually became Tableau. And we actually, I should mention we collaborated with a bunch of folks at Tableau on this as well. And so what we did was we set up these two systems. So basically, there's sort of this depth oriented system that's Polestar, and this breadth oriented system, Voyager gave people data sets and had them conduct datasets they hadn't seen before, collaborators at Beaucoup, which is kind of the important thing we were testing and then have them explore and then compared the results. And so what we found is, with systems like Voyager, people had higher breadth. So that was interesting. So they actually saw more unique perspectives on the data set. So their coverage of the different data variables and their combinations was higher than if they had explored the data using a traditional tool. And we also had them like, you know, create bookmarks. So anytime they found a view that they thought was interesting enough that they could imagine sharing it with a colleague, they bookmarked it. And those, again, were over a more diverse set of variables. And interestingly enough, one of the things that we found with Voyager was that a large proportion of those bookmark views were ones that have been automatically recommended. So the fact that instead of just showing the chart that involved the variables that were explicitly asked for a large percentage, majority of the views that people found interesting were the ones where we looked one step ahead in the search process and provided those as recommendations. So we're definitely seeing value there. The big takeaway, though, is that we learned that these tools are highly complimentary and that people would, you know, when they're getting an overview. They first start exploring using a tool like Voyager, and then they questions, more specific questions occur to them. Then that's when they prefer to be an environment like polestar or something like Tableau, where they can then go deep dive on that question. So one of the interesting things that we're thinking about is instead of having these as two very disparate modes or uis, what is the way that you hybridize these ideas where you create visual analysis systems that allow you to go broad and then go deep in a way where alternating between those two analysis strategies is made much more fluid? And then one thing, just because it might not have been clear that I'll mention is like underneath the hood, what we're actually doing in all of these systems is using Vega Lite as our representation language. So one of the nice things about having these high level languages is that a. It was actually incredibly easy to make a system very similar to Tableau. The initial prototype was actually done in less than a day because of the language provided the facilities to make that. Really we just had to create a specification UI on top of the language. Then in the case of Voyager, what we're actually doing is enumerating a large number of possible visualizations. So we're just saying, let's generate hundreds or thousands of Vega lite specifications, analyze them, rank them according to perceptual effectiveness principles, and then use that to drive the recommendation. So what you're seeing here is really the goal of like thinking about this language stack as a way to provide a foundation for next generation Uis for visual analysis. And so you're kind of seeing how all these pieces hopefully start to fit together in terms of the larger vision of our lab.",
+      "id": "ep_72_ut_48"
+    },
+    {
+      "end": 1999280,
+      "speaker": "Enrico Bertini",
+      "start": 1985792,
+      "text": "Yeah, I think every time you have this kind of recommendation systems or uis, the biggest challenge is knowing when is the right time to provide some recommendations. Right. I mean, I think historically we have very bad examples out there.",
+      "id": "ep_72_ut_49"
+    },
+    {
+      "end": 2000120,
+      "speaker": "Jeff Heer",
+      "start": 1999392,
+      "text": "Sure.",
+      "id": "ep_72_ut_50"
+    },
+    {
+      "end": 2001698,
+      "speaker": "Moritz Stefaner",
+      "start": 2000312,
+      "text": "You mean clip, you know.",
+      "id": "ep_72_ut_51"
+    },
+    {
+      "end": 2016030,
+      "speaker": "Enrico Bertini",
+      "start": 2001856,
+      "text": "Yeah, exactly. But I guess these systems can also work in on demand fashion. Right. And yeah, I think it's a very interesting challenge.",
+      "id": "ep_72_ut_52"
+    },
+    {
+      "end": 2024038,
+      "speaker": "Jeff Heer",
+      "start": 2016102,
+      "text": "Yeah. So a couple weeks ago I was down in San Diego visiting friends at UCSD, and I gave a talk there that you can find on YouTube. The topic is predictive interaction.",
+      "id": "ep_72_ut_53"
+    },
+    {
+      "end": 2024542,
+      "speaker": "Enrico Bertini",
+      "start": 2024086,
+      "text": "Oh yeah.",
+      "id": "ep_72_ut_54"
+    },
+    {
+      "end": 2083384,
+      "speaker": "Jeff Heer",
+      "start": 2024598,
+      "text": "The idea being how do we generate or create software systems that have a notion of the task that we're trying to complete and can support us effectively? As soon as you raise that question, the first thing that pops into many people's minds is like, oh no, he's talking about Clippy. I'm still traumatized by this thing, but I think, you know, but I think being careful in terms of your model of the task and how well can you model or have a sense of what someone's trying to do, whether that's in a specific or a very general way, and then knowing what's the right way in collaborators at Beaucoup, which to introduce those recommendations, like not interrupting people's flow, but yet making them perceptible and available in a way that's useful. It's a really fun challenge because it's drawing on lots of technical strains in terms of how do you have the right models and the right recommendation systems. But just as important, if not more important, is how you introduce that into the actual mechanics of the UI. How do you fold this into the design process effectively? So definitely a fun area to be working in.",
+      "id": "ep_72_ut_55"
+    },
+    {
+      "end": 2101377,
+      "speaker": "Moritz Stefaner",
+      "start": 2084033,
+      "text": "Component you mentioned can be huge in systems like these. If you think, let's say, institutions like the World bank or so, it would let data Voyager run for a few years, and then you can look collaborators at Beaucoup, which views have been bookmarked all the time, how can we feed that back into the system? I'm thinking a bit also about Spotify or so.",
+      "id": "ep_72_ut_56"
+    },
+    {
+      "end": 2101657,
+      "speaker": "Jeff Heer",
+      "start": 2101425,
+      "text": "Right.",
+      "id": "ep_72_ut_57"
+    },
+    {
+      "end": 2113813,
+      "speaker": "Moritz Stefaner",
+      "start": 2101705,
+      "text": "So if you have this mass of, like, this huge mass of different variations of something available and then have people weed it out for each other, I think that can be super powerful and.",
+      "id": "ep_72_ut_58"
+    },
+    {
+      "end": 2159840,
+      "speaker": "Jeff Heer",
+      "start": 2114344,
+      "text": "Yeah, yeah, yeah. I mean, architecting systems that learn is a critical part of these predictive interaction tasks. And it's interesting because both with Voyager and in trifecta, we've taken this approach and we found that, you know, being able to bootstrap these systems by having good principles along collaborators at Beaucoup, which to make recommendations allows you to do something useful right out the box. And then seeing how these things will evolve over time through learned usage data is fascinating. I'm also really interested in how it might diverge based on different user populations. So if you work on finance data and someone else works on biological or health data, is the type of recommendations you want to make going to be different? Are there different strategies for different domains? And it's going to be fun to see the degree to collaborators at Beaucoup, which this does or doesn't play out in usage data over time?",
+      "id": "ep_72_ut_59"
+    },
+    {
+      "end": 2215954,
+      "speaker": "Enrico Bertini",
+      "start": 2160032,
+      "text": "Yeah, I think, as you said at the beginning, there is the even broader question of whether what happens when you are helping people look into a broader set of trends or relationships in data sets. I think the large majority of people work in a way that, I mean, I think it's not just your students. Probably most people just start from very precise questions and try to pursue this question and disregard the rest. I think it's a very hard skill, the one that you need to learn about doing exploratory data analysis and really being a data detective kind of person. I think this is not very well recognized in general and not very much even taught at school. Right. And I think it's a very important component. So I would like to go now to move on to maybe Trifacta.",
+      "id": "ep_72_ut_60"
+    },
+    {
+      "end": 2216370,
+      "speaker": "Jeff Heer",
+      "start": 2216034,
+      "text": "Sure.",
+      "id": "ep_72_ut_61"
+    },
+    {
+      "end": 2224134,
+      "speaker": "Enrico Bertini",
+      "start": 2216442,
+      "text": "And last time you came on the show, I think you were just starting, and now it's almost like four years after.",
+      "id": "ep_72_ut_62"
+    },
+    {
+      "end": 2227724,
+      "speaker": "Jeff Heer",
+      "start": 2225464,
+      "text": "Yeah, yeah, we just had our fourth year birthday.",
+      "id": "ep_72_ut_63"
+    },
+    {
+      "end": 2249120,
+      "speaker": "Enrico Bertini",
+      "start": 2228504,
+      "text": "Yeah. I would love to hear more about what you guys did in this, during these four years. I know that three fact has been very successful. I'm really excited to see some of visualization research actually turning into a successful product and company. So what happened?",
+      "id": "ep_72_ut_64"
+    },
+    {
+      "end": 2437834,
+      "speaker": "Jeff Heer",
+      "start": 2249272,
+      "text": "Okay, so, yeah, we started back in 2012, you know, when we last met. And so there was a. So first of the name Trifacta is actually meant to be the combination of people, computation, and data. So how do you make data and large scale processing more accessible to more people, and particularly in the early stages? So really the focus of trifecta is given messy or raw datasets. How do you structure them, parse them, do data cleaning, also combine disparate data sources that might not have been designed to be brought together? Turn that from a programming exercise into something that's visual and interactive and also scalable, so that you might work with a sample of the data in an interactive environment. And then as a result of that, we learn a program that we can run at scale across your cluster. And so really, these early stages of data preparation, collaborators at Beaucoup, which at least in our interviews with working data analysts, is something like 80% of their normal working hours. So huge time sink. People might spend more time exploring more hypotheses or building more models, for example, if you are able to reduce the time that they spend getting this data ready. That said, getting it ready is still a process in collaborators at Beaucoup, which you learn a lot, just as we were just discussing sort of this exploration phase. So you don't want to throw the baby out with the bathwater either. And so I think having this interactive environment in collaborators at Beaucoup, which people are learning very important things about their data and then also systematically encoding them to make the data more useful downstream is all sort of the things that we want to support. We started as three people. So as myself, my Stanford PhD student, Sean Candle, and our collaborator at UC Berkeley, professor or Joe Hellerstein. So, yeah, so, the other part of the trifecta is that there were three of us, so there's a little not so funny joke in there, but that was three, and now I think we're 105. Wow. So, we've grown a lot in four years. So our primary office is in San Francisco, so that's our headquarters and where most people are. We have sales folks around the world, and then we also have an engineering office closer to you, Moritz. We have one in Berlin, where Lars Grammel, who some of you may know from the visualization community, is running an engineering team out of Germany. And so it's been very exciting to see the company grow. Since we last spoke, we've obviously had multiple releases of the product. We're out there in a number of companies, so some of our customers include GoPro, Pepsi, Royal bank of Scotland, also the center for Medicare and Medicaid Services. They process all these healthcare records. Those are passing through trifacta, as well. And for those who are interested in trying it out, we actually have a free version that you can load on your own desktop. It's called Trifacta Wrangler. It's a freemium offering that will allow you to wrangle data sets of up to 100 megabytes in size for free so you can try it out and give the UI a spin. In addition to parsing and transforming data, we have a lot of facilities for doing early stage visualization as well. So I kind of automatically profile your data, figure out things about the distribution. So are there type errors, are there outliers, etcetera, and automatically generate visualizations for each of those fields of your database to help push along your exploration and data cleaning process.",
+      "id": "ep_72_ut_65"
+    },
+    {
+      "end": 2470844,
+      "speaker": "Enrico Bertini",
+      "start": 2437954,
+      "text": "Yeah, I've been using Trifacta's tools a little bit, and I have to say it's really interesting. It's very useful when you just don't know what is in a given data set and you want to familiarize with it. The data profiling mechanism is really, really useful, and when I think about it, there's not a lot of tools out there that just give you a broad overview of what is in a given data set. Most existing visualization tools require you to first specify what you want to see, and then you see it, right?",
+      "id": "ep_72_ut_66"
+    },
+    {
+      "end": 2472816,
+      "speaker": "Jeff Heer",
+      "start": 2471864,
+      "text": "That's right.",
+      "id": "ep_72_ut_67"
+    },
+    {
+      "end": 2485052,
+      "speaker": "Enrico Bertini",
+      "start": 2473000,
+      "text": "I think that's very powerful. So, what happened during these four years? Do you have any interesting stories or success stories?",
+      "id": "ep_72_ut_68"
+    },
+    {
+      "end": 2549832,
+      "speaker": "Jeff Heer",
+      "start": 2485248,
+      "text": "Yeah, well, I mentioned we have a number of customers who are successfully using this and by their own estimates, getting at least an order of magnitude improvement on the time it takes for them to initiate new data jobs. So to me, enabling these customers and users to be more successful is the most exciting thing in that sense. It's not very different in some ways from our open source tools as well, where I think the biggest reward for us is seeing people pick them up and be able to do valuable things with it. I think there's also certainly been plenty of lessons learned along the way. I think as the company grew and we hired more people, including the executive staff, there's a lot of learnings for us, three academics along the way. Over a year ago, we hired a full time CEO, Adam Wilson, allowing Joe Hellerstein to step down and go back to Berkeley for some of his time as well, collaborators at Beaucoup, which I think was great for everyone, including, you know, I think we were doing an okay job, I think, at building out product, you know, doing marketing, etcetera. But it turns out a life as an academic doesn't necessarily prepare you to be an effective salesperson.",
+      "id": "ep_72_ut_69"
+    },
+    {
+      "end": 2550560,
+      "speaker": "Enrico Bertini",
+      "start": 2549888,
+      "text": "Hi, Kenny.",
+      "id": "ep_72_ut_70"
+    },
+    {
+      "end": 2578102,
+      "speaker": "Jeff Heer",
+      "start": 2550672,
+      "text": "And so understanding what salespeople do has been very fascinating. And not just the attitude or like, persistence they have, but even just the strategies they have. Like salespeople or the sales teams are much more applied social scientists than I realize. You go in and you really figure out the, figure out the structure of an organization, who talks to who, et cetera, and just understanding what makes that organization tick in a way that you can actually talk to them more effectively and then allow them to see how what we're doing could be valuable to them.",
+      "id": "ep_72_ut_71"
+    },
+    {
+      "end": 2597436,
+      "speaker": "Enrico Bertini",
+      "start": 2578158,
+      "text": "Yeah, I think one thing that I'm really interested in is being a researcher myself. I think probably when you develop software in a company, then you have to develop in a way that is really, really solid, much more than any, the average prototype that we can afford building in a lab.",
+      "id": "ep_72_ut_72"
+    },
+    {
+      "end": 2598148,
+      "speaker": "Jeff Heer",
+      "start": 2597500,
+      "text": "Oh, absolutely.",
+      "id": "ep_72_ut_73"
+    },
+    {
+      "end": 2605132,
+      "speaker": "Enrico Bertini",
+      "start": 2598196,
+      "text": "So this must be fascinating in a way, right? I mean, you need to have some really serious software engineering, I guess.",
+      "id": "ep_72_ut_74"
+    },
+    {
+      "end": 2615904,
+      "speaker": "Jeff Heer",
+      "start": 2605268,
+      "text": "Yeah, yeah. I mean, quality insurance is incredibly important, and you can't start investing in that too soon, I think, is something that many companies learn.",
+      "id": "ep_72_ut_75"
+    },
+    {
+      "end": 2670244,
+      "speaker": "Enrico Bertini",
+      "start": 2616404,
+      "text": "So another tool I would love to talk about is Lyra. And I believe, I mean, so far we've been talking about mostly about systems that support data analysis. And Lyra, I guess, is more like, how do you help a person create data visualizations that are more for communication oriented, visualization or presentation side of things, collaborators at Beaucoup, which we know has been extremely, extremely popular during the last few years. All this idea of data journalism and related visual storytelling. I know that Moritz doesn't like the word storytelling, but it's definitely out there. And of course the big success of like New York Times, Washington Post, graphics teams and so on. So Lyra, what is Lyra? And yeah, what is happening in this space?",
+      "id": "ep_72_ut_76"
+    },
+    {
+      "end": 2858204,
+      "speaker": "Jeff Heer",
+      "start": 2670544,
+      "text": "So Lyra is a research project that's coming out of my group here at Uw. It's led by my PhD student Arvind Sachin Aryan, who's also one of the lead developers on the Vega project. And so the Hollywood pitch version of the story for Lyra is to, the goal is to be to data visualization as something like Adobe Illustrator is to vector graphics. So what is a design tool in collaborators at Beaucoup, which you can rapidly create visualizations but then also customize their design? And it actually uses Vega internally as its representation. So you graphically interact with marks and data, tables, et cetera, drag and drop to creating coatings, fine tune various aspects from fonts to colors to line widths, etcetera. And underneath the hood we're actually generating a Vega specification collaborators at Beaucoup, which is then the actual file format that it saves to. And so the goal, yeah, it's to really see how can we create tools that allow a broader swath of end users to customize visualization designs. And part of it is also to interact with the larger tool stack. So for example, I might be in an analysis tool and I'm exploring data. And if it's using Voyager or Polestar or some of these other tools we built, that's going to produce a Vega lite specification, but we could take that, compile that to a full Vega specification, load that into Lyra, and then you can go back and start customizing that graphic that was initially a very rapidly produced analysis graphic. Now I want to go in and embellish it in some interesting ways or customize it for a particular audience. I can then go and then interactively design that. It's turtles all the way down in the sense that I could also then just generate the SVG from that and touch it up in illustrator if I absolutely want wanted to do that in terms of producing a static graphic. So part of it's not also taking the idea that one tool should own the ecosystem. I think that's a very dangerous idea. Instead, rather thinking about how a variety of different tools can flexibly interact so that you actually have an ecosystem of usable tools and the right tool may depend on the task at hand. And so we have an initial version of Lyra that we released over a year ago. It's seen a lot of usage. We've had tens of thousands, certainly of unique users. We've seen it used to create some graphics that then actually run by journalistic groups. So you'll be either on the web or newspapers. We've also seen a lot of people use it as a teaching tool, so as a way to provide familiarity with concepts of visual encoding by being able to explore them in an interactive environment. And the exciting news is that we're currently doing a complete rebuild of Lyra. So Arvind, along with some collaborators at Beaucoup, collaborators at Beaucoup, which, collaborators at Beaucoup, which is a consulting company based out of Boston, they basically redid the entire architecture. We're going to modernize it for the newest versions of Vega and then exploring ways that how can you design not just the custom graphics, but actually start to bring interaction design into that process as well? So it raises a really interesting challenge. How do you interactively specify interaction techniques? And so we have some ideas here. They're still cooking, but look for that in the months to come.",
+      "id": "ep_72_ut_77"
+    },
+    {
+      "end": 2926324,
+      "speaker": "Moritz Stefaner",
+      "start": 2859124,
+      "text": "That's really nice. And I love the direction collaborators at Beaucoup, which Lara goes, this very direct manipulation paradigm to just directly touch the graphics and move them around until they look right. And I think tooling wise, there's still one tool missing. Maybe that's even more radical than that aspect, because many or a couple of people like me or others like to work very freely with shapes and visual encodings to think about, what if I map the temperature on the rotation and then the time could be actually in the position? Or let's flip that around. Many people who use D3, a lot of processing use these types of visualizations that don't fit into existing chart types, so they are smart about how they use visual encodings, but it's not a ready made chart type. Is there a tool there that does something in this direction, or could there be one? Could Lyra also go in this direction? What's your feeling there? Or is it too. Yeah, no, it's too niche and too artisanal to actually be a good market for a tool.",
+      "id": "ep_72_ut_78"
+    },
+    {
+      "end": 3025738,
+      "speaker": "Jeff Heer",
+      "start": 2927744,
+      "text": "I don't know about the business implications, but certainly in terms of the usefulness, I think there's absolutely a space here. And I think for us, one of the things that from a research perspective that we'll be learning is we have a bunch of tools that are evolving together. So there may be things that you'd like to do in Lyra, but you actually can't, because for whatever reason, Vega can't express that. And then we learned something about how we should have better designed Vega, and ideally one that we can then take up going forward. So part of it's just learning about the space of representations and how to capture those appropriately. But in any case, you could imagine based on what we learned here, it could also inform future tools that might be. Similarly, the analog would be how Protovis relates to D3, where Protovis had its own model of graphical marks and the different types of ways you can manipulate them, whereas D3 gave up on that to just manipulate the document object model of the website directly. And so you could imagine tools that are smart with respect to data bindings, but actually operate over SVG or something like that. The advantage that we have, there's always trade offs. One of the advantages with Vega is that the expressive space is going to be somewhat smaller than what you could do with D3. But on the other hand, there's a bunch of things in terms of performance or in terms of deployment, like whether I want to render it in canvas or SVG being just one example that you gain. So there's always these trade offs in terms of expressivity and power across these design tools. And again, I think the major point I want to come back to is thinking about for any of these tools, what are the ways in collaborators at Beaucoup, which we have formats that allow them to interoperate in a way so that again, you can pick the right tool for the job, and that might be a chain of tools as opposed to one specific tool.",
+      "id": "ep_72_ut_79"
+    },
+    {
+      "end": 3071302,
+      "speaker": "Enrico Bertini",
+      "start": 3025866,
+      "text": "So Jeff, I would like to conclude asking you more broadly about the relationship between research and industry. So you've done a lot of amazing work in research, and of course you have done a lot of really, really good work in industry. Now, how do you see these two things playing out together? And especially I know that this research has been criticized quite a bit lately, and you also wrote an article about it and how we can improve this research. And I think I would really like to hear your perspective because you have now a lot of experience with both research and industry. And so what do you think is happening there or should happen there?",
+      "id": "ep_72_ut_80"
+    },
+    {
+      "end": 3082142,
+      "speaker": "Jeff Heer",
+      "start": 3071358,
+      "text": "Well, I mean, my general position is, I think basically practical impact or industrial use and research, they should be in constant conversation.",
+      "id": "ep_72_ut_81"
+    },
+    {
+      "end": 3083606,
+      "speaker": "Enrico Bertini",
+      "start": 3082278,
+      "text": "Yeah, sure, absolutely.",
+      "id": "ep_72_ut_82"
+    },
+    {
+      "end": 3251552,
+      "speaker": "Jeff Heer",
+      "start": 3083670,
+      "text": "That's a pretty, I think everyone could agree with that, but at the same time, one shouldn't dictate the other. So, for example, in my own work, I mean, I think different researchers have different approaches in my own, I think the goal of research is to make sure we're producing some kind of knowledge contribution. There's either new knowledge that's relatively reliable, or new systems, new ways to do things, and they don't always have to be immediately practical, though. I tend to gravitate towards projects because I just find it more rewarding to oftentimes do things that are. And there's also questions about the time horizon. A lot of the work that I tend to be drawn to is things that I think within the next one to five years, you could probably turn into something practical that people could be using. Other people might take a longer term view, like Martin, and developing ideas that may not actually reach practical fruition for 30 years. And I think we need people working kind of at all of these different timescales in research. And so I think where industry is really important is also informing our sense of the importance of different projects. And it shouldn't dictate it. But in many cases, if I have multiple ideas, and they all seem intellectually interesting to me, but I think one's going to have a more significant practical impact, I'm going to more likely work on that project, because I think it's in that way, you know, a larger contribution to society. So I don't. I think. I'm not saying anything that hasn't been said before, but that's certainly the way I see it. You also mentioned, you know, issues of, like, criticism of vis research. I certainly know Stephen Few has written multiple articles that have been critical of aspects of the visualization research community. I'm not sure if there's been any sort of larger outcry. If so, I would love to see that and respond to it. But even then, I think you have to read Steven very carefully, at least in his initial article, he has a very. At least as I read it, a very specific definition of what he means by visualization research. One collaborators at Beaucoup, which excludes about 60% of what we do in the visualization research community. And that's not a good or a bad thing. It's just appropriate to take the. His remarks in the right context. And so I think by research, my reading is he means basically things that adhere to the scientific method. So that means where you have a hypothesis, you're going to run an experiment, typically collect data, you're going to analyze that data, and then try and drive some generalizations from that. That leaves out huge swaths of engineering work, collaborators at Beaucoup, which I think are absolutely critical research, but don't necessarily fall under Stephen's specific definition of what he means by that term. So the first thing to do in having this debate is actually just making it clear what it is we're actually talking about. And in this case, I think it's really focused on the subset of research projects that involve experimentation as sort of the primary research activity.",
+      "id": "ep_72_ut_83"
+    },
+    {
+      "end": 3273416,
+      "speaker": "Enrico Bertini",
+      "start": 3251688,
+      "text": "Yeah. And maybe this is also related to the dichotomy between practical work and work that can either generate only knowledge or be, I don't know, used in 10, 15, 20, or even more years. Right. I think that's also very important.",
+      "id": "ep_72_ut_84"
+    },
+    {
+      "end": 3300500,
+      "speaker": "Moritz Stefaner",
+      "start": 3273600,
+      "text": "That struck me also. I was in Schloss darkstrul in mostly academic workshop, and this is also the first time I realized that viz research is in this funny spot that you do practical work, but you also study that practical work. So you are sort of the subject and the object. I think that applies to some degree to all visualization researchers. So they tend to study themselves to some degree, and, you know, that's kind of tricky.",
+      "id": "ep_72_ut_85"
+    },
+    {
+      "end": 3303092,
+      "speaker": "Jeff Heer",
+      "start": 3300572,
+      "text": "Or the artifacts they produce. Yeah, yeah.",
+      "id": "ep_72_ut_86"
+    },
+    {
+      "end": 3313020,
+      "speaker": "Enrico Bertini",
+      "start": 3303228,
+      "text": "Well, yeah, self reflection is very important, and I think we have done quite some of it. Sorry, Jeff, I interrupted you.",
+      "id": "ep_72_ut_87"
+    },
+    {
+      "end": 3428784,
+      "speaker": "Jeff Heer",
+      "start": 3313052,
+      "text": "Oh, no problem at all. I mean, it's also shared more broadly with human computer interaction research, where you have people who create new artifacts, and there's typically knowledge production in the form of the how or why of that artifact, what was created. You have people who study the interactions of human and technology, and you have projects that do both. And that is the one where there is a bit of that overlap. Right. Where you have people who are creating artifacts and then studying how other people are using the artifacts they created. And so there's obviously an inherent bias in that, that then you have to be very careful in your experiment design to combat that bias that you're, you know, if you're. If you're actually doing a comparative study, you know, the baseline for comparison, typically, if you have a know, multiple points of comparison, all of collaborators at Beaucoup, which are sort of valid contenders for supporting the tasks that you're trying to help with, that's very important. And so I think there's always room for improvement, especially when you work in these areas that are highly interdisciplinary. And it's true that you do have people who are running, you know, experiments with perhaps, you know, only limited training in those methods. And so some great experiments are done. Some have shortcomings that are, you know, maybe not in the design, but in the analysis, others in collaborators at Beaucoup, which the analysis is fine, but there's a problem in the design, and there's others where people just, you know, the study may be valid, but it doesn't generalize. And what sort of weighting do you want to put on that, and how well is that communicated? And then all the way up to the top where you might have people who just disagree on the importance of the question being asked. And so I think it's, you know, developing the skills of question selection all the way down to the proper execution of the experiments, obviously critical. I think there's some really interesting and important work being done in the field, but I think there's always room for improvement in any research field I've seen. And I think we can and should push hard to educate people, newcomers, and build out the right educational curricula that does bridge discipline so that we can make the. Have the whole field rise together.",
+      "id": "ep_72_ut_88"
+    },
+    {
+      "end": 3443528,
+      "speaker": "Moritz Stefaner",
+      "start": 3429084,
+      "text": "I know you wrote a bit on future directions as well, or reflected a bit on this. What do you see as the main directions where research could develop in, or what do you see as the. The hot areas in the next few years, maybe.",
+      "id": "ep_72_ut_89"
+    },
+    {
+      "end": 3451312,
+      "speaker": "Jeff Heer",
+      "start": 3443576,
+      "text": "Oh, and seems like exciting research areas. It's hard to answer that definitively in the sense that there's just a lot of different fronts that are exciting.",
+      "id": "ep_72_ut_90"
+    },
+    {
+      "end": 3453032,
+      "speaker": "Moritz Stefaner",
+      "start": 3451368,
+      "text": "It has become so diversified now.",
+      "id": "ep_72_ut_91"
+    },
+    {
+      "end": 3566634,
+      "speaker": "Jeff Heer",
+      "start": 3453088,
+      "text": "Yeah, certainly. I mean, so the things that I'm most interested in, collaborators at Beaucoup, which is bias, but, you know, I'm here. So I'll tell you that I think more experimental work on perception, but that goes hand in hand with model building. So not just saying people were faster in this case than in that case, or more accurate in case. In that case. I mean, that's a useful starting point for gathering data. But can we actually start tying that to some models, even if certainly approximate, in terms of how people perform perception and cognitive tasks in ways that we can then test our knowledge and our theories, and maybe also create mechanisms that might better inform things like ranking or suggestion and design aids, etcetera? I think that's exciting. I think one of the critical areas is one we've already discussed, collaborators at Beaucoup, which is in this term, of how do automated algorithms, particularly statistical models, et cetera, and interactive visual tools, go hand in hand. So what's the right way to leverage large scale computation and model building to support human tasks? This includes predictive interfaces. It includes going beyond just visualization tools to these richer visual analysis tools that will also incorporate a variety of forms of modeling. And how do we do that in a way that a again, keeps the human aspect front and center and also avoids known biases or pitfalls? I could just model things like crazy and then take whatever comes back that looks significant, but lots of reasons why this is a terrible idea. What are the ways that we actually simultaneously study biases in human cognition? Also common statistical fallacies, and start thinking about those in the design of our tools, whether it's just we design the tool in a way that sort of biases against them or maybe even has methods that kind of automatically recognize certain problematic conditions and brings that to the user's attention.",
+      "id": "ep_72_ut_92"
+    },
+    {
+      "end": 3576318,
+      "speaker": "Enrico Bertini",
+      "start": 3567254,
+      "text": "Yeah. Which actually means that visualization researchers need to talk and work together with people with different backgrounds, I guess. Right?",
+      "id": "ep_72_ut_93"
+    },
+    {
+      "end": 3576718,
+      "speaker": "Jeff Heer",
+      "start": 3576406,
+      "text": "Yeah.",
+      "id": "ep_72_ut_94"
+    },
+    {
+      "end": 3577742,
+      "speaker": "Enrico Bertini",
+      "start": 3576766,
+      "text": "I mean, that's.",
+      "id": "ep_72_ut_95"
+    },
+    {
+      "end": 3606748,
+      "speaker": "Jeff Heer",
+      "start": 3577798,
+      "text": "Yeah, yeah. And I think it spans issues in statistics, machine learning, learning, psychology and computer science. I mean, it's really interesting. One other area that I would just mention, because I think there's a lot of interesting activity currently, is really at the intersection of fields, particularly databases and visualization. But for example, for supporting more scalable interactive exploration, I think folks from machine learning, particularly people building machine learning systems, should be deeply involved in that conversation.",
+      "id": "ep_72_ut_96"
+    },
+    {
+      "end": 3607324,
+      "speaker": "Enrico Bertini",
+      "start": 3606836,
+      "text": "Absolutely.",
+      "id": "ep_72_ut_97"
+    },
+    {
+      "end": 3637440,
+      "speaker": "Jeff Heer",
+      "start": 3607364,
+      "text": "So we had a workshop at the viz conference this year called Data Systems for interactive analysis, where we had lots of young researchers from the database field. We also have a workshop at SIGMOD this summer called Hilda for human in the loop data analysis. And I think that's going to be a really exciting workshop as well. So again, I think these different approaches from these different sub disciplines, bringing them together, I think, is going to result in much better, better systems.",
+      "id": "ep_72_ut_98"
+    },
+    {
+      "end": 3655684,
+      "speaker": "Enrico Bertini",
+      "start": 3637632,
+      "text": "Okay. Well, Jeff, thanks a lot. I hope we cover some ground as usual. We could go on forever. I'm really glad we managed to do this, at least after four years. Hopefully we don't have to wait four more years to have you back on the show.",
+      "id": "ep_72_ut_99"
+    },
+    {
+      "end": 3657600,
+      "speaker": "Moritz Stefaner",
+      "start": 3656344,
+      "text": "It's like the Olympics.",
+      "id": "ep_72_ut_100"
+    },
+    {
+      "end": 3661684,
+      "speaker": "Enrico Bertini",
+      "start": 3657712,
+      "text": "Yes, it's like the Olympics. Or maybe it's just the right rhythm.",
+      "id": "ep_72_ut_101"
+    },
+    {
+      "end": 3667166,
+      "speaker": "Jeff Heer",
+      "start": 3662544,
+      "text": "All right, I'll see you in 2020, by the way.",
+      "id": "ep_72_ut_102"
+    },
+    {
+      "end": 3678070,
+      "speaker": "Moritz Stefaner",
+      "start": 3667190,
+      "text": "And listeners, if you're interested in Lyra, we will have beaucoup on the show in a few weeks. So we are now, you know, we have a conversation started there already, so that's great. And we can learn more. The tool. Yeah.",
+      "id": "ep_72_ut_103"
+    },
+    {
+      "end": 3679166,
+      "speaker": "Enrico Bertini",
+      "start": 3678222,
+      "text": "Thanks a lot, Jeff.",
+      "id": "ep_72_ut_104"
+    },
+    {
+      "end": 3680030,
+      "speaker": "Jeff Heer",
+      "start": 3679230,
+      "text": "All right, thank you.",
+      "id": "ep_72_ut_105"
+    },
+    {
+      "end": 3680798,
+      "speaker": "Moritz Stefaner",
+      "start": 3680102,
+      "text": "Thanks for coming.",
+      "id": "ep_72_ut_106"
+    },
+    {
+      "end": 3694622,
+      "speaker": "Enrico Bertini",
+      "start": 3680886,
+      "text": "Take care. Bye bye. Hey, guys, thanks for listening to data stories again. Before you leave, we have a request if you can spend a couple of minutes reading us on iTunes, that would be extremely helpful for the show. Show.",
+      "id": "ep_72_ut_107"
+    },
+    {
+      "end": 3725372,
+      "speaker": "Moritz Stefaner",
+      "start": 3694718,
+      "text": "And here's also some information on the many ways you can get news directly from us. We're, of course, on twitter@twitter.com. Datastories. We have a Facebook page@Facebook.com. datastoriespodcast. All in one word. And we also have an email newsletter. So if you want to get news directly into your inbox and be notified whenever we publish an episode, you can go to our homepage. Datastory es and look for the link that you find on the bottom in the footer.",
+      "id": "ep_72_ut_108"
+    },
+    {
+      "end": 3737476,
+      "speaker": "Enrico Bertini",
+      "start": 3725468,
+      "text": "So one last thing that we want to tell you is that we love to get in touch with our listeners, especially if you want to suggest a way to improve the show or amazing people you want us to invite or even projects you want us to talk about.",
+      "id": "ep_72_ut_109"
+    },
+    {
+      "end": 3746824,
+      "speaker": "Moritz Stefaner",
+      "start": 3737580,
+      "text": "Yeah, absolutely. So don't hesitate to get in touch with us. It's always a great thing for us. And that's all for now. See you next time, and thanks for listening to data stories.",
+      "id": "ep_72_ut_110"
+    },
+    {
+      "end": 3769604,
+      "speaker": "Enrico Bertini",
+      "start": 3749564,
+      "text": "Data stories is brought to you by Qlik, who allows you to explore the hidden relationships within your data that lead to meaningful insights. Let your instincts lead the way to create personalized visualizations and dynamic dashboards with Qlik sense, collaborators at Beaucoup, which you can download for free at www. Dot clic dot de stories.",
+      "id": "ep_72_ut_111"
+    }
+  ],
+  "confidence": 0.936201231594174,
+  "audio_duration": 3770,
+  "punctuate": true,
+  "format_text": true,
+  "dual_channel": false,
+  "webhook_url": null,
+  "webhook_status_code": null,
+  "webhook_auth": false,
+  "webhook_auth_header_name": null,
+  "speed_boost": false,
+  "auto_highlights_result": null,
+  "auto_highlights": false,
+  "audio_start_from": null,
+  "audio_end_at": null,
+  "word_boost": [],
+  "boost_param": null,
+  "filter_profanity": false,
+  "redact_pii": false,
+  "redact_pii_audio": false,
+  "redact_pii_audio_quality": null,
+  "redact_pii_policies": null,
+  "redact_pii_sub": null,
+  "speaker_labels": true,
+  "content_safety": false,
+  "iab_categories": true,
+  "content_safety_labels": {
+    "status": "unavailable",
+    "results": [],
+    "summary": {}
+  },
+  "language_detection": false,
+  "language_detection_threshold": null,
+  "language_confidence": null,
+  "custom_spelling": null,
+  "throttled": false,
+  "auto_chapters": true,
+  "summarization": false,
+  "summary_type": null,
+  "summary_model": null,
+  "custom_topics": false,
+  "topics": [],
+  "speech_threshold": null,
+  "speech_model": "best",
+  "chapters": [
+    {
+      "summary": "Datastories is brought to you by Qlik, who allows you to explore the hidden relationships within your data that lead to meaningful insights. Let your instincts lead the way to create personalized visualizations and dynamic dashboards with Qlik sense.",
+      "gist": "Datastories: Making Sense of Data with Qlik",
+      "headline": "Qlik sense lets you explore hidden relationships within your data that lead to meaningful insights",
+      "start": 200,
+      "end": 48258,
+      "id": "ep_72_ch_0"
+    },
+    {
+      "summary": "Moritz: It's a rainy day in Germany. Not too surprising. I actually just came back from Germany, but it was nice there. So now it's rainy when you're gone.",
+      "gist": "Data Stories: Rainy Days",
+      "headline": "Moritz: It's rainy in Germany, not too surprising",
+      "start": 48386,
+      "end": 74814,
+      "id": "ep_72_ch_1"
+    },
+    {
+      "summary": "Jeff Heer is an associate professor at the University of Washington. He's also the founder and director of the interactive Data lab. And he's the founder of Trifacta, a company providing interactive tools for data transformation, data cleaning and early stage visualization. We last spoke with Jeff in 2012.",
+      "gist": "Interactive Data Lab",
+      "headline": "Jeff Heer is an associate professor at the University of Washington",
+      "start": 75874,
+      "end": 205348,
+      "id": "ep_72_ch_2"
+    },
+    {
+      "summary": "At the University of Washington, Professor Jessica Hullman co-directs the Interactive data lab. The lab focuses on how we can better make sense of complex data. Holman says the research goes beyond visualization. Other aspects of research include perception studies.",
+      "gist": "Interactive Data Lab",
+      "headline": "Professor Jessica Hullman directs the interactive data lab at the University of Washington",
+      "start": 205436,
+      "end": 455774,
+      "id": "ep_72_ch_3"
+    },
+    {
+      "summary": "Vega is a high level language for expressing visualizations. It builds on top of our prior work on D3 and other systems. One of the goals is can we raise the level of abstraction for visualization so that both people and machines can generate visualizations?",
+      "gist": "Vega: The Language for Creating Visualizations",
+      "headline": "Vega is a high level language for expressing visualizations",
+      "start": 456194,
+      "end": 818324,
+      "id": "ep_72_ch_4"
+    },
+    {
+      "summary": "We are seeing uptake of Vega and tools on top of it in really interesting environments. For example, you can use Vega currently on Wikipedia for not just static, but you can add interactive graphics to Wikipedia pages using Vega as the specification. We learn a lot from these deployments, but the research is still ongoing.",
+      "gist": "Adoption of the VIA standard",
+      "headline": "Some systems and libraries have been widely adopted and some others not",
+      "start": 819484,
+      "end": 1036096,
+      "id": "ep_72_ch_5"
+    },
+    {
+      "summary": "Vega Lite is a high level language that in very few lines of text you can specify a large range of visualizations. The way to get started is just to go online. There's an interactive editor online where you can go in and manipulate it in real time.",
+      "gist": "Vega 1.8 and Vega Lite: Starting",
+      "headline": "Vega Lite is a language that lets you specify very small visualizations",
+      "start": 1036200,
+      "end": 1167724,
+      "id": "ep_72_ch_6"
+    },
+    {
+      "summary": "Vega is working on a system that helps a person discover interesting plots. The idea is to build tools that better support the early stages of exploratory data analysis. The aim is to find the right balance of the analyst guiding the process.",
+      "gist": "Machine Learning for Exploratory Data Analysis",
+      "headline": "Voyager helps analysts discover interesting plots in exploratory data analysis",
+      "start": 1168824,
+      "end": 1707560,
+      "id": "ep_72_ch_7"
+    },
+    {
+      "summary": "Once again, data stories is brought to you by Qlik. Qlik business analytics strategist James Richardson wrote a blog post about beauty and truth in data visualizations. Thanks again to Qlik for sponsoring us.",
+      "gist": "Data Stories",
+      "headline": "Data stories is brought to you by Qlik, who helps you visualize data",
+      "start": 1707752,
+      "end": 1781302,
+      "id": "ep_72_ch_8"
+    },
+    {
+      "summary": "With systems like Voyager, people had higher breadth. So they actually saw more unique perspectives on the data set. And interestingly enough, one of the things that we found with Voyager was that a large proportion of those bookmark views were ones that have been automatically recommended. This could provide a foundation for next generation Uis for visual analysis.",
+      "gist": "Voyve and Tableau: The Future of Visual Analysis",
+      "headline": "Voyager compared with a version of Tableau called Polestar",
+      "start": 1781358,
+      "end": 2209814,
+      "id": "ep_72_ch_9"
+    },
+    {
+      "summary": "Trifacta is a tool that makes data and large scale processing more accessible to more people. The company started in 2012 and now has customers including GoPro, Pepsi, Royal bank of Scotland. Free version allows you to wrangle data sets of up to 100 megabytes in size for free.",
+      "gist": "Tim Ferriss: Trifacta's 4th Anniversary",
+      "headline": "Three fact is a visualization company that has grown tremendously in four years",
+      "start": 2210314,
+      "end": 2475484,
+      "id": "ep_72_ch_10"
+    },
+    {
+      "summary": "Kenny: What happened during these four years? Do you have any interesting stories or success stories? Kenny: The biggest reward for us is seeing people pick them up and be able to do valuable things with it. It turns out a life as an academic doesn't necessarily prepare you to be an effective salesperson.",
+      "gist": "Four Years in the Life",
+      "headline": "You've been developing this software for four years now",
+      "start": 2477904,
+      "end": 2615904,
+      "id": "ep_72_ch_11"
+    },
+    {
+      "summary": "Another tool I would love to talk about is Lyra. It's a design tool in collaborators at Beaucoup, which you can rapidly create visualizations but then also customize their design. The goal is to create tools that allow a broader swath of end users to customize visualization designs.",
+      "gist": "What is Lyra and How it might affect data visualization?",
+      "headline": "Another tool I would love to talk about is Lyra. And I believe, I mean,",
+      "start": 2616404,
+      "end": 3025738,
+      "id": "ep_72_ch_12"
+    },
+    {
+      "summary": "Jeffrey Sachs: How do you see the relationship between research and industry playing out? Sachs: I think basically practical impact or industrial use and research should be in constant conversation. But at the same time, one shouldn't dictate the other.",
+      "gist": "The relationship between research and industry",
+      "headline": "Jeffrey Miller: I think practical impact and research should be in constant conversation",
+      "start": 3025866,
+      "end": 3168754,
+      "id": "ep_72_ch_13"
+    },
+    {
+      "summary": "Stephen Few has been critical of aspects of the visualization research community. He has a very specific definition of what he means by visualization research. That leaves out huge swaths of engineering work. There's always room for improvement in the field.",
+      "gist": "Critical Criticism of Visibility Research",
+      "headline": "Steven Few has written multiple articles criticizing aspects of visualization research",
+      "start": 3169974,
+      "end": 3428784,
+      "id": "ep_72_ch_14"
+    },
+    {
+      "summary": "More experimental work on perception, but that goes hand in hand with model building. Can we start tying that to some models, even if certainly approximate, in terms of how people perform perception and cognitive tasks. What do you see as the main directions where research could develop in.",
+      "gist": "Neuroscience Future Directions",
+      "headline": "What do you see as the main directions where research could develop in the future",
+      "start": 3429084,
+      "end": 3494944,
+      "id": "ep_72_ch_15"
+    },
+    {
+      "summary": "Jeffrey Sachs: How do automated algorithms and interactive visual tools go hand in hand? He says it spans issues in statistics, machine learning, learning, psychology and computer science. Sachs: These different approaches will result in much better, better systems.",
+      "gist": "Interdisciplinary issues in data science and visualization",
+      "headline": "How do automated algorithms and interactive visual tools go hand in hand",
+      "start": 3495244,
+      "end": 3682194,
+      "id": "ep_72_ch_16"
+    },
+    {
+      "summary": "Data stories is brought to you by Qlik, who allows you to explore the hidden relationships within your data. We love to get in touch with our listeners, especially if you want to suggest a way to improve the show. See you next time, and thanks for listening to data stories.",
+      "gist": "Data Stories",
+      "headline": "Data stories is brought to you by Qlik, who allows you to explore hidden relationships",
+      "start": 3684894,
+      "end": 3769604,
+      "id": "ep_72_ch_17"
+    }
+  ],
+  "disfluencies": false,
+  "entity_detection": false,
+  "sentiment_analysis": false,
+  "sentiment_analysis_results": null,
+  "entities": null,
+  "speakers_expected": null,
+  "summary": null,
+  "custom_topics_results": null,
+  "episode_num": 72,
+  "episode_metadata": {
+    "speakers": [
+      "Jeff Heer",
+      "Moritz Stefaner",
+      "Enrico Bertini"
+    ],
+    "WPid": "543",
+    "url": "https://datastori.es/podlove/file/2007/s/feed/c/mp3/71.mp3",
+    "episode_title": "Jeff Heer on Merging Industry and Research with the Interactive Data Lab"
+  }
+}

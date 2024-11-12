@@ -1,0 +1,889 @@
+{
+  "id": "c274c9ee-912d-4af0-90da-3040550a7857",
+  "language_model": "assemblyai_default",
+  "acoustic_model": "assemblyai_default",
+  "language_code": "en_us",
+  "status": "completed",
+  "audio_url": "https://datastori.es/podlove/file/4915/s/feed/c/mp3/117-datawrapper-with-Lisa-C-Rost-and-Gregor-Aisch.mp3",
+  "utterances": [
+    {
+      "end": 3254,
+      "speaker": "Gregor Aisch",
+      "start": 160,
+      "text": "Let's not forget that Datavis is a very complex design space.",
+      "id": "ep_117_ut_0"
+    },
+    {
+      "end": 8274,
+      "speaker": "Lisa C. Rost",
+      "start": 3334,
+      "text": "We try to make it possible for journalists to build better charts for their web articles.",
+      "id": "ep_117_ut_1"
+    },
+    {
+      "end": 35012,
+      "speaker": "Moritz Stefaner",
+      "start": 27694,
+      "text": "Hi, everyone. Welcome to a new episode of Data stories. My name is Moritz Stefaner. I'm an independent designer of data visualizations.",
+      "id": "ep_117_ut_2"
+    },
+    {
+      "end": 41276,
+      "speaker": "Enrico Bertini",
+      "start": 35148,
+      "text": "And I am Enrico Bertini. I am a professor at NYU in New York City, and I do research in data visualization.",
+      "id": "ep_117_ut_3"
+    },
+    {
+      "end": 63596,
+      "speaker": "Moritz Stefaner",
+      "start": 41460,
+      "text": "And on this podcast, we talk about data visualization, analysis, and generally the role data plays in our lives. And our podcast is listener supported, so there are no ads for mattresses or tools for building websites or something like this. So just in case you like the show and you find yourself listening a lot, please consider supporting us on patreon.com Datastories.",
+      "id": "ep_117_ut_4"
+    },
+    {
+      "end": 81524,
+      "speaker": "Enrico Bertini",
+      "start": 63700,
+      "text": "Yeah, and what we usually do here is we invite guests to talk about some interesting topics. And today we have two guests. Exactly right. So today we have two guests. We have Lisa Charlotte Muth (formerly Lisa Rost) and Gregor Aisch from data of rapper. Hey, guys. How are you?",
+      "id": "ep_117_ut_5"
+    },
+    {
+      "end": 82724,
+      "speaker": "Gregor Aisch",
+      "start": 81604,
+      "text": "Hey, how are you?",
+      "id": "ep_117_ut_6"
+    },
+    {
+      "end": 83904,
+      "speaker": "Lisa C. Rost",
+      "start": 82884,
+      "text": "Hey. Hi.",
+      "id": "ep_117_ut_7"
+    },
+    {
+      "end": 105162,
+      "speaker": "Enrico Bertini",
+      "start": 84364,
+      "text": "Welcome on the show. Very happy to have you on. It's nice to have, from time to time, some old friends coming over. I think both of you have been on the show at least once in the past, and, yeah, it's a good feeling, I think. Gregor, you've been on the show, what, number two? Number three, I think.",
+      "id": "ep_117_ut_8"
+    },
+    {
+      "end": 115054,
+      "speaker": "Gregor Aisch",
+      "start": 105258,
+      "text": "Yeah, it was one of the first one. I'm really proud of that. And I really enjoy what became of data stories. You guys have improved so much. That's great.",
+      "id": "ep_117_ut_9"
+    },
+    {
+      "end": 120694,
+      "speaker": "Enrico Bertini",
+      "start": 115514,
+      "text": "Yeah. And Lisa, you've been on the show a few years back as well.",
+      "id": "ep_117_ut_10"
+    },
+    {
+      "end": 124854,
+      "speaker": "Lisa C. Rost",
+      "start": 121434,
+      "text": "Yeah, for a really short episode, actually, but it's nice to be back.",
+      "id": "ep_117_ut_11"
+    },
+    {
+      "end": 159604,
+      "speaker": "Enrico Bertini",
+      "start": 125634,
+      "text": "Yeah, yeah. I think today we mainly want to talk about data wrapper and what is happening there. So both of you recently moved to this new position and company, and we have seen a lot of interesting things already coming from your side. I was personally blown away by the stuff that you're producing. And so maybe we should start by talking about data wrapper. What is data wrapper? And. Yeah. What you're doing there and. Yeah, and all the rest. So what is data wrapper?",
+      "id": "ep_117_ut_12"
+    },
+    {
+      "end": 253434,
+      "speaker": "Gregor Aisch",
+      "start": 160424,
+      "text": "All right, so data wrapper is an online tool that lets people create charts and maps and tables without requiring any coding skills. You can embed your visualizations on your website or download them as images. And, yeah, we have a free version that works for most smaller websites or blogs and as well as a paid version for larger website and teams and newsrooms. Yeah. In terms of the company, data wrapper is a pretty small startup, like not in the Airbnb or Soundcloud kind of startup with $100 million budgets. We are six people in a room and we are completely self funded with no outside investors. And, yeah, last year we opened our first office space here in Berlin. And, yeah, now we are very excited to do this thing properly, I should say. Before we had this office and people on staff, we were just two to three people working on Datawrapper in their spare time. So there was Mirko,, Lorenz working at Deutsche Welle, me doing freelancing, or working at the New York Times in the graphics department. And, yeah, and now we are trying this new chapter.",
+      "id": "ep_117_ut_13"
+    },
+    {
+      "end": 291604,
+      "speaker": "Moritz Stefaner",
+      "start": 254534,
+      "text": "Yeah, it's sort of a very slow and organic growth, basically to first build a very simple tool. But that found, I think, also quick adoption really quickly. And now you're taking this next leap and, yeah, try to become like a real player, I guess, in the market of data visualization tools. Can you tell us a bit, like, how do you position yourself maybe compared to other tools that are out there? There's so many platforms and toolkits and applications that let you create charts, like charts. What do you think sets data wrapper apart or what's your specific focus? Maybe?",
+      "id": "ep_117_ut_14"
+    },
+    {
+      "end": 467614,
+      "speaker": "Lisa C. Rost",
+      "start": 291904,
+      "text": "Sure, I can talk about that. So data wrapper is a tool that's pretty niche. So it's like easy to be set apart from other tools. I guess we just try to do one thing right, which is we try to make it possible for journalists to build better charts for their web articles. So journalists can't code most of the time, so there is no coding required when using data Weber and, yeah, that sets it apart from like, I guess, like half of the database tools out there, like, from tools like the three js or like, Vega Lite, which are also great tools. So we are also focusing more on the presentation side. So in contrast to, for example, Tableau, which focuses more on analytics, and in contrast to raw, that density design tool, which focuses more on print designers, I think because until now, you can only export an SVG or a PNG from Raw. So when creating a data wrapper chart, you don't get an SVG or a PNG out of there. You can, you get an embed code at the end. And our charts are then responsive by default. They load quickly and they're interactive and it makes sense. Yeah. And we also want to make sure that our users build good charts so that they are quickly understandable. So we are asking ourselves a lot, do people understand chart type x, like tree maps, or do people understand heat maps. And so far we have not included more statistical or financial chart types like box plots or like candlesticks or 3d charts. Plotly does it. For example, like plotly is doing a really great job focusing more on the scientific community, I would say. But actually there are a lot of tools out there that are very similar to data wrapper. So these are all the newsroom charting tools. They also don't require coding and they also focus on presentation. And they basically do the same thing that we do, but just internally for newsrooms. So for example, the New York Times has that tool, Mister chartmaker and Neue Zurich Zeitung and Zurich has Q and Quartz has chart builder. And they are built to integrate really, really well with the publishing system of one specific newswomps. And that's something we can't do as well. So there are better positioned with that. But when it comes to actually building the charting tool, I would say we do have more resources than these newsrooms. So often these tools are being built by newsroom developers who might actually want to spend some more time on actual stories. I guess that's why they wanted to work there in the first place. So they can't or they don't want to focus on just building the charting tool for the newspapers and, well, we don't have that problem. We are really happy to just build a quad charting tool.",
+      "id": "ep_117_ut_15"
+    },
+    {
+      "end": 476554,
+      "speaker": "Moritz Stefaner",
+      "start": 468554,
+      "text": "Yeah. And not every newspaper can also afford to have like a couple of developers and designers constantly working on their own toolkits. Right?",
+      "id": "ep_117_ut_16"
+    },
+    {
+      "end": 477774,
+      "speaker": "Lisa C. Rost",
+      "start": 476674,
+      "text": "Yeah, that's true.",
+      "id": "ep_117_ut_17"
+    },
+    {
+      "end": 501350,
+      "speaker": "Gregor Aisch",
+      "start": 478354,
+      "text": "Yeah. We also have a lot of maps, which is, I would say also sets up apart from some other tools. So we're like going towards 400 base maps. So like from a world map template to like city districts of Zurich or Berlin and. Yeah. And that's something that our users appreciate very much.",
+      "id": "ep_117_ut_18"
+    },
+    {
+      "end": 504834,
+      "speaker": "Moritz Stefaner",
+      "start": 501502,
+      "text": "And now you also have cartograms I have seen, so yay.",
+      "id": "ep_117_ut_19"
+    },
+    {
+      "end": 505622,
+      "speaker": "Enrico Bertini",
+      "start": 505174,
+      "text": "Yeah.",
+      "id": "ep_117_ut_20"
+    },
+    {
+      "end": 508634,
+      "speaker": "Moritz Stefaner",
+      "start": 505678,
+      "text": "Which I love because I'm a huge cartogram fan.",
+      "id": "ep_117_ut_21"
+    },
+    {
+      "end": 509902,
+      "speaker": "Enrico Bertini",
+      "start": 509614,
+      "text": "Yeah.",
+      "id": "ep_117_ut_22"
+    },
+    {
+      "end": 546776,
+      "speaker": "Moritz Stefaner",
+      "start": 509918,
+      "text": "And I think also this expertise that both of you bring in really shows also what I really liked about the whole editing aspect is that annotations are really treated well because this is something that's often, often an afterthought in traditional tools like, oh, somebody might want to have nice labels right next to the lines or might want to highlight the peak here. And these things I think you built in right from the start because from your experience, Gregor, at New York Times, building really sophisticated visualizations, I guess you knew about the value of text and annotation there.",
+      "id": "ep_117_ut_23"
+    },
+    {
+      "end": 563524,
+      "speaker": "Gregor Aisch",
+      "start": 546840,
+      "text": "Yeah, that's always the most important thing to, as my former colleague Amanda Cox like to say, you need to take the reader by the hand and guide them through the graphic and tell them what's important and what's interesting about this. And why should you read this, why should you look at this?",
+      "id": "ep_117_ut_24"
+    },
+    {
+      "end": 595198,
+      "speaker": "Moritz Stefaner",
+      "start": 564344,
+      "text": "And this is something that sounds so simple, but it's hard to build well into a generic tool. But I think, yeah, you sort of pulled it off and it's great to see. So what would you say, like who's using the tool? Is it like medium sized newspapers? Is it small ones? Is it also some big ones? Is it also users beyond just like media or newspapers? Do you also know about corporate users or students? I don't know.",
+      "id": "ep_117_ut_25"
+    },
+    {
+      "end": 650984,
+      "speaker": "Gregor Aisch",
+      "start": 595326,
+      "text": "So I would say there's a wide range of people using it. So on one side we have individual users who are using the free version to just embed charts or maps on their website or on social media. But then we also have users in newsrooms, as you mentioned. That's probably the biggest group, I would say, but also NGO's who collect data, want to communicate data. And there are other publishing companies who are somehow in the business of communicating with data. We have a lot of teachers who use it in journalism schools and some researchers universities use it to publish their findings. Yeah, geographically, I would say we have users all around the world, but there's a heavy dominance on Europe and us, obviously.",
+      "id": "ep_117_ut_26"
+    },
+    {
+      "end": 674338,
+      "speaker": "Enrico Bertini",
+      "start": 651444,
+      "text": "So you both have previous jobs, right. And decided both of you, to go to data wrapper. So I think Lisa has a background in design and data journalism. She's been blogging for quite some time with lots of interesting articles and Gregor was at New York Times. So what led you to work for data wrapper?",
+      "id": "ep_117_ut_27"
+    },
+    {
+      "end": 776540,
+      "speaker": "Lisa C. Rost",
+      "start": 674466,
+      "text": "Well, I got excited about working at Datawapper because Krieger convinced me and I mean, it's great to work together with someone who knows so much about data journalism and about interactive graphics. And I'm already learning a lot from him, so that's great. And yeah, he also told me that I would publishing about Datavis the whole day long and that I would be responsible for the block and, well, I couldn't say no to that. As Enrico mentioned, I did that before, so I knew I would enjoy that. Yeah, but I didn't actually know so much about data wrapper in like summer or autumn last year. But while getting to know the company, I was actually quickly impressed by how much I felt like I'm very much on the same page with the mission of Datawrapper. So the tool, like data Weber, the people here, they want journalists to build better charts. And that's something I want to do, too. Like, I want journalists to have the skills to build charts themselves because. Yeah. While working in newsrooms, I saw kind of firsthand how much a good charting tool is needed there while being on graphics or interactive teams. Like, we got emails saying, like, here are four numbers. Can you build us a bar chart? And my coworkers were, like, super talented. Yeah. Like, they have, like, these awesome D3 skills and front end skills and ux and storytelling and data analytics. Like, I don't want them to build simple bar charts. Like, simple bar charts are really simple. There should be a tool that makes it a matter of minutes. Yeah. And I tried a lot of tools. Like, I also wrote block articles about.",
+      "id": "ep_117_ut_28"
+    },
+    {
+      "end": 782248,
+      "speaker": "Moritz Stefaner",
+      "start": 776682,
+      "text": "You wrote an epic comparison. I remember that. Yeah. Epic comparison of all the charting tools.",
+      "id": "ep_117_ut_29"
+    },
+    {
+      "end": 784168,
+      "speaker": "Lisa C. Rost",
+      "start": 782336,
+      "text": "Yeah, 24 of them.",
+      "id": "ep_117_ut_30"
+    },
+    {
+      "end": 784696,
+      "speaker": "Gregor Aisch",
+      "start": 784296,
+      "text": "Yeah.",
+      "id": "ep_117_ut_31"
+    },
+    {
+      "end": 786032,
+      "speaker": "Moritz Stefaner",
+      "start": 784760,
+      "text": "I mean, that's pretty much all of.",
+      "id": "ep_117_ut_32"
+    },
+    {
+      "end": 788584,
+      "speaker": "Lisa C. Rost",
+      "start": 786048,
+      "text": "Them, but, yeah, I think.",
+      "id": "ep_117_ut_33"
+    },
+    {
+      "end": 793816,
+      "speaker": "Moritz Stefaner",
+      "start": 788664,
+      "text": "And you were still not happy, right? You were still like, yeah, sort of. There's pros and cons to all of them.",
+      "id": "ep_117_ut_34"
+    },
+    {
+      "end": 794884,
+      "speaker": "Gregor Aisch",
+      "start": 793880,
+      "text": "That's Lisa.",
+      "id": "ep_117_ut_35"
+    },
+    {
+      "end": 812094,
+      "speaker": "Lisa C. Rost",
+      "start": 798144,
+      "text": "Well, data Weber didn't have a scatter plot feature back then, so I couldn't actually compare it. But, like, ventrue in the scatter plot feature that Krieger built for Data Weber, like, okay, that is a good tool and that is my best bet.",
+      "id": "ep_117_ut_36"
+    },
+    {
+      "end": 823194,
+      "speaker": "Gregor Aisch",
+      "start": 812174,
+      "text": "Yeah, I had this scatterplot feature lying around for, like, 80% done for a year. And then this blog post came out and I was like, dang.",
+      "id": "ep_117_ut_37"
+    },
+    {
+      "end": 825662,
+      "speaker": "Moritz Stefaner",
+      "start": 825254,
+      "text": "We need.",
+      "id": "ep_117_ut_38"
+    },
+    {
+      "end": 827434,
+      "speaker": "Gregor Aisch",
+      "start": 825678,
+      "text": "To add the scalable right now.",
+      "id": "ep_117_ut_39"
+    },
+    {
+      "end": 863534,
+      "speaker": "Moritz Stefaner",
+      "start": 829174,
+      "text": "Seems to be a gap there. Yeah, it's funny. And also, when you told me sometime last year you would join data wrapper, I was like, huh? Why is that? I was, like, slightly puzzled. But now I'm so happy to see that you can just continue to do the work you've done before, like, write all these interesting blog posts and really think about, like, what's effective in terms of design and communication. And I think that's. It's also great that you have this blog where you talk about a bit more what people do with charts or how you can use it instead of just putting out the tool. I think that's a great combination.",
+      "id": "ep_117_ut_40"
+    },
+    {
+      "end": 897854,
+      "speaker": "Enrico Bertini",
+      "start": 863654,
+      "text": "Yeah, yeah, yeah. And this is so useful. I've been thoroughly enjoying your blog post is like, I really. I mean, it may seem trivial, but walking people hand by hand. Right? Exactly. Explaining how certain charts work is not obvious at all. So just making it explicit out there and guide people through what are the options and what are the pros and cons of every option and doing in a way that is not too excessively orthodox. Right. So I think that's incredibly useful.",
+      "id": "ep_117_ut_41"
+    },
+    {
+      "end": 900098,
+      "speaker": "Lisa C. Rost",
+      "start": 898194,
+      "text": "Thank you. It's been a lot of fun.",
+      "id": "ep_117_ut_42"
+    },
+    {
+      "end": 905174,
+      "speaker": "Moritz Stefaner",
+      "start": 900146,
+      "text": "So, Lisa, are you now writing blog posts all day, or are you also doing other things at the company?",
+      "id": "ep_117_ut_43"
+    },
+    {
+      "end": 972858,
+      "speaker": "Lisa C. Rost",
+      "start": 906314,
+      "text": "Yeah, well, blogging is really my main activity here at data wrapper. And, I mean, it takes a lot of time. Like, I write these more, like longer block articles I wrote about, like, what to consider when creating area charts or line charts. Or I publish articles about, like, how choose a color palette for color plaid maps and. Yeah, that's definitely time consuming. Like, going from researching and reading papers and reading other blog posts and, like, reading chapters and books, and then I draw illustrations. And then I restructured a whole blog post, and then I realized that the blog post became way too long. And then I killed all my darlings. And it all takes so much time. Like, I'm working on a blog post, like at least a day, I guess, if not two or three, depending on the research, until I'm happy. And yeah, I'm trying to publish one of these big blog posts every second week, but I'm also publishing a weekly chart every Thursday. It's like a way smaller version where I explain why I decided to design a chart the way I did. So I'm explaining my chart choices.",
+      "id": "ep_117_ut_44"
+    },
+    {
+      "end": 976362,
+      "speaker": "Moritz Stefaner",
+      "start": 972906,
+      "text": "Yeah. And at the same time, you can show off what the rapper can do, right?",
+      "id": "ep_117_ut_45"
+    },
+    {
+      "end": 977362,
+      "speaker": "Lisa C. Rost",
+      "start": 976458,
+      "text": "Yeah, exactly.",
+      "id": "ep_117_ut_46"
+    },
+    {
+      "end": 981712,
+      "speaker": "Moritz Stefaner",
+      "start": 977498,
+      "text": "Educational, but also, like good for the, for showing the tool. So I think that's great.",
+      "id": "ep_117_ut_47"
+    },
+    {
+      "end": 986204,
+      "speaker": "Lisa C. Rost",
+      "start": 981808,
+      "text": "It's also good for ourselves because we find all the bugs. Exactly.",
+      "id": "ep_117_ut_48"
+    },
+    {
+      "end": 996024,
+      "speaker": "Moritz Stefaner",
+      "start": 987904,
+      "text": "When you want to explain something like why it works this way or. Yeah, you want to do something really cool, and then when you hit a ball, you know you need to work on it.",
+      "id": "ep_117_ut_49"
+    },
+    {
+      "end": 1044324,
+      "speaker": "Gregor Aisch",
+      "start": 996064,
+      "text": "Yeah, yeah, that's a big point, actually, that we, like, we working on data wrapper. Like the tool came out in 2012, but it was not until Lisa joined the team that we had someone in the team who was like, actively using our own tool. We were like building the tool or working on the tool in some way, but we were not users ourselves. And I had the feeling that this could be a problem at some point. We had a slight corrective with, like, we would do workshops and trainings with journalists, and then we had to watch them use data wrapper, which can be a painful experience if you were working on the tool. But yeah, it's definitely better to do this inside the company.",
+      "id": "ep_117_ut_50"
+    },
+    {
+      "end": 1057684,
+      "speaker": "Lisa C. Rost",
+      "start": 1045184,
+      "text": "Yeah, I'm always annoying Krieger with all these bugs I find. And can you fix that? And this one? And this is not okay. And I'm amazed by how patient Krigo is with all these, all these tickets I give them.",
+      "id": "ep_117_ut_51"
+    },
+    {
+      "end": 1104534,
+      "speaker": "Moritz Stefaner",
+      "start": 1059104,
+      "text": "Yeah, that's something. Gregor, I wanted to ask you anyways, because I know it's really hard to get a software running in the first place, but then also to keep it running to fix all the bugs, also not to be bogged down by all these features you have developed. And then it needs to work on every browser. And yeah, there's all these tickets coming in and so on. So how's your experience like, so in the past at New York Times and other places, you did more of these, I guess, often more one time projects and often very ambitious ones, really cool visualizations. And now you're in this totally different mode of building a long term tool and platform. So how's that experience for you? And how's the difference from the one hit and runs?",
+      "id": "ep_117_ut_52"
+    },
+    {
+      "end": 1168646,
+      "speaker": "Gregor Aisch",
+      "start": 1106474,
+      "text": "I think it's just been very interesting to work at the New York Times and to get to work with these amazing colleagues like Amanda Cox or Kevin Quealy and others. But yeah, you mentioned we did a bunch of weird one offs, but there was also a lot of breaking news work involved. So there's always, there's something satisfying about working on one thing and doing this one thing right as opposed to starting a new thing every two weeks. I mean, it's definitely fun, and it's also, you get a lot of excitement and adrenaline and working on breaking news. But I was kind of ready after like almost four years to try something, something else. And I'm, I'm actually, I'm not, I'm not new into the tools thing. I was just like preparing for this, for this podcast. I looked through the projects that I did in the past, and there's, there's a whole bunch of tools that I.",
+      "id": "ep_117_ut_53"
+    },
+    {
+      "end": 1172558,
+      "speaker": "Moritz Stefaner",
+      "start": 1168670,
+      "text": "Worked on also at the New York Times, you built on an internal tool.",
+      "id": "ep_117_ut_54"
+    },
+    {
+      "end": 1203606,
+      "speaker": "Gregor Aisch",
+      "start": 1172606,
+      "text": "At the New York Times, I was working on this. Lisa mentioned the tool mister chartmaker. And before I joined the New York Times, I was working on a mapping library. There was a color library that I'm still maintaining a python library for working with databases. And I think the first tool I built was a weird David McCandless visualization that we called the radial bubble tree that I turned into a radial bubble tree.",
+      "id": "ep_117_ut_55"
+    },
+    {
+      "end": 1205274,
+      "speaker": "Enrico Bertini",
+      "start": 1203790,
+      "text": "Radial bubble tree.",
+      "id": "ep_117_ut_56"
+    },
+    {
+      "end": 1209280,
+      "speaker": "Moritz Stefaner",
+      "start": 1205614,
+      "text": "Oh, I remember there was like, for budget spending.",
+      "id": "ep_117_ut_57"
+    },
+    {
+      "end": 1256998,
+      "speaker": "Gregor Aisch",
+      "start": 1209342,
+      "text": "Yeah, it's an alternative to a tree map. And I turned that into an open source library, hoping that people would reuse it. And I think that experience had led me to the belief that it's good for a tool which does not require coding skills because I had a lot of feedback from all these tools that I built that were like, that's really nice, I want to use it, but how does HTML even work? Or something like that? So the entry point to just, even reusing a library and just copy and pasting an example is very high. It's higher than I thought it would be. So that makes sense.",
+      "id": "ep_117_ut_58"
+    },
+    {
+      "end": 1263222,
+      "speaker": "Moritz Stefaner",
+      "start": 1257046,
+      "text": "And also, D3 is ridiculously complex for normal people.",
+      "id": "ep_117_ut_59"
+    },
+    {
+      "end": 1343752,
+      "speaker": "Gregor Aisch",
+      "start": 1263358,
+      "text": "Yeah, just making a bar chart nd three is something that drives people crazy in all these teaching classes. And, yeah, so I enjoyed working at the times, but I was ready to go back to datawrapper. Actually, I worked on datawepper. We haven't talked about this, but before I joined the times. So when I got the job offer and we moved to new York in 2014, I kind of left data wrapper behind, which is, it was a hard decision to make, but obviously I didn't want to say no to this opportunity. But all this time, I felt like I still owe data weber that I go back and fix some of these bugs that are annoying users. All this time. I feel good going back to this. And also, all the things that I learned in the newsroom are now shaping the future of data wrapper. Having seen journalists using, in this case, it was another charting tool, but using this charting tool really helped me understand the target audience better than I had before.",
+      "id": "ep_117_ut_60"
+    },
+    {
+      "end": 1355336,
+      "speaker": "Moritz Stefaner",
+      "start": 1343908,
+      "text": "Yeah. And of course, also all the recurring problems, all the things that keep being so tedious, where it's like, oh, I wish there was a better solution for these things, and now you have a chance to build them, right?",
+      "id": "ep_117_ut_61"
+    },
+    {
+      "end": 1415794,
+      "speaker": "Enrico Bertini",
+      "start": 1355440,
+      "text": "Yeah. So it looks like when you look at the landscape of data visualization tools out there, right? So they have different kind of flexibility. So data wrapper works mostly in terms of using specific charts, so you have chart templates, whereas some other tools allow a much more freeform kind of design and development. And where you have tools like D3, where you can basically paint anything you want. Right. So what are your thoughts on that? How do you draw, how do you find a balance between these two things? Because I think if you have a tool that makes only very specific charts and templates, you can't really do anything else. So if you have something specific that you want to create, you necessarily have to move on to a different tool. But on the other hand, yeah, very flexible tools are very hard to use.",
+      "id": "ep_117_ut_62"
+    },
+    {
+      "end": 1584894,
+      "speaker": "Gregor Aisch",
+      "start": 1416334,
+      "text": "Yeah, I think these are two very different approaches. The blank canvas tools like D3, illustrator or Lyra, or the predefined template tools. And I think that designers and coders, they tend to prefer having all the freedoms and just give me the tools and the free canvas and I just go from there. But I think what many people like about the template approach is that this provides some guidance. And let's not forget that Dataviz is a very complex design space where there's a lot of things that you can do wrong. Like you violate one of the dozens unspoken rules or police comes again, arrests you on Twitter. Yeah. And when you use data wrapper templates, we can at least try to catch a few of these issues. And we're actually thinking quite a bit about how we can do this. From the beginning of the project, we were thinking about, we now thought about it as it's kind of a software, as a teacher approach, where I like the example of our pie charts. So you have some of these classic tools like Excel. They allow the users to create the worst kinds of pie charts, like with a million slices, and they're all different colors, and you have to read this color key at the bottom. And then you have some of these brand new tools like Q from NSaidset that are proudly excluding pie charts entirely. But in data, we try to be somewhere in between, like a teacher who isn't just telling you what you shouldn't do, but who's carefully guiding you through the learning experience. And of course, for some charts, you always need some of these hard rules, like it's impossible in data wrapper to make a bar chart with a zero baseline, or you can never make a world map with a Mercator projection, which is important. But we also have a lot of these software routes where things are possible, but we disable them by default. So if you throw a large table into our pytrade template, then it will automatically reduce the dataset to seven slices. So seven pie slices, and then you have the rest grouped in the others category. But users can still overwrite the setting, but it requires some form of consciousness about this. So you have to click make this choice, and you increase the maximum number of slices one by one. And then you see the chart turning into something you might not want it wanted to be.",
+      "id": "ep_117_ut_63"
+    },
+    {
+      "end": 1628328,
+      "speaker": "Enrico Bertini",
+      "start": 1585194,
+      "text": "Yeah, yeah. I have a related question. So I think when it happened to me in the past, that when I talk about these problems that some of the tools have, that they have terrible defaults and they allow too much freedom, right? So sometimes the way people respond is like, oh, but it's the customer who's asking me to do that. Right? So how do you balance that? Right? I don't bite completely, but they do have a point. Right? So, yeah, how do you balance the need to educate with the fact that, hey, it's the customer who's asking that for that. Right? So. Which sounds like, hey, who cares? I'm selling shitty food and people are dying. But yeah, who cares?",
+      "id": "ep_117_ut_64"
+    },
+    {
+      "end": 1699994,
+      "speaker": "Gregor Aisch",
+      "start": 1628496,
+      "text": "So, yeah, I think we try to fix that problem by being careful about our business model. So we're never promising any of our users who are paying, we never promise any features or we like, we try to listen to their feedback and there's a lot of feedback and people want features, all kinds of features. Animated scatter plots. But then we take all this in and try to find a middle ground where it's still something that is easy enough to learn as a novice user. But there's some hidden options that you can activate when you created your ten scatter plot. You find them maybe, yeah. But by separating the business side from our software development, we maintain the freedom to, in some cases, just ignore what clients want. If we think that it's something that we don't want to see out there in the world, then we won't activate this feature.",
+      "id": "ep_117_ut_65"
+    },
+    {
+      "end": 1724296,
+      "speaker": "Lisa C. Rost",
+      "start": 1700304,
+      "text": "But I think it's also important to explain why we decided to not implement a certain feature when we get a request more than once. I think we really have a deep conversation about why we should and why we shouldn't implement it. And I do have some blog posts planned where I explain why we don't have a certain chart type in data webber.",
+      "id": "ep_117_ut_66"
+    },
+    {
+      "end": 1750144,
+      "speaker": "Enrico Bertini",
+      "start": 1724400,
+      "text": "This is fantastic. I like the idea of companies that actually advertise what they don't have. I'm proud to say that we don't have this feature. I think it's a good approach. Yeah. So maybe we should talk a little bit more about what are your future plans with data wrapper. So what's going to happen next?",
+      "id": "ep_117_ut_67"
+    },
+    {
+      "end": 1857824,
+      "speaker": "Gregor Aisch",
+      "start": 1751044,
+      "text": "So one thing that we really want to build up upon is what I just mentioned, this, this idea that data wrapper is someone who is helping you to make a chart. And so you've seen Lisa's work on the what to consider serious, where she's going through a chart type and explaining why this is a good idea and why perhaps you should consider another chart type for this. And right now this is a blog post that is on our blog and in our, what we call the Datawrapper Academy. But a nice idea that we want to do in the future is to implement some of these guidelines into code so we can integrate them into the chart editor and kind of interweave this into the tool. So that's not just two separate things, but there's also new visualization tools that we want to add. There's a new mapping tool coming up which I'm really excited about, and there's a big task is the reworking of the editor UI. So I really like the single page approach from tools like Raw, and maybe that's something we want to go to in the future. And there's a lot of code cleanup, too. So some of this code is like six years old, and the Internet has changed entirely since then. And we want to get rid of the iframes or provide an alternative option to directly embed the charts in websites. Because iframes are, they have good, they have advantages, but there's also some downsides to them.",
+      "id": "ep_117_ut_68"
+    },
+    {
+      "end": 1886574,
+      "speaker": "Moritz Stefaner",
+      "start": 1858644,
+      "text": "Yeah, but we should mention all charts are embeddable. You can put them into any webpage pretty much. And this is technically, it's really hard, something that clients or newspapers and so on, they love it, but it's so hard to do. Right. And so, yeah, I can totally sympathize with that. It constantly also requires tweaking the approach and making it even better and reacting to changes in the browser landscape and how web pages are built and so on.",
+      "id": "ep_117_ut_69"
+    },
+    {
+      "end": 1915016,
+      "speaker": "Gregor Aisch",
+      "start": 1886614,
+      "text": "Yeah, you talked about explorables and this new thing of interactive documents coming up, and I kind of see the iframe embedding as a bit of a showstopper at this point. Like if you have text or different elements in your story that they kind of want to react to one another, then the first step I see is to bring the chart closer to the content, and maybe that's something that we can help our users with so that.",
+      "id": "ep_117_ut_70"
+    },
+    {
+      "end": 1916968,
+      "speaker": "Moritz Stefaner",
+      "start": 1915040,
+      "text": "You could tie also the interaction maybe.",
+      "id": "ep_117_ut_71"
+    },
+    {
+      "end": 1957778,
+      "speaker": "Gregor Aisch",
+      "start": 1917016,
+      "text": "To other websites you can show hide parts of the chart. Or we have some of these older bar charts where you can click through different slides in the data. And that's something that I don't see data web going entirely into this direction. But I love the idea of the chart exposing some API that if you're building a whole story that you can plug into and then you can control the chart in some degree, reveal something that it's not seen before, or tweak some of the data in the chart, maybe.",
+      "id": "ep_117_ut_72"
+    },
+    {
+      "end": 1999652,
+      "speaker": "Moritz Stefaner",
+      "start": 1957866,
+      "text": "Yeah, yeah. That's interesting because obviously, as you know, there's been a lot of debate about storytelling and explorables and all these, you know, how to, like, move beyond a single simple chart and, you know, put things into a narrative context and stuff like this. But I think in a way it's great that you say like, okay, let's just do the charting part really well and see what people can then do with it. Yeah. That said, do you have plans, like, to provide tools to put chart in a sequence or to. Yeah, as you say, reveal stuff on interaction or like, you know, to move more in this presentation or narrative direction?",
+      "id": "ep_117_ut_73"
+    },
+    {
+      "end": 2050356,
+      "speaker": "Gregor Aisch",
+      "start": 1999788,
+      "text": "There's no, we have too many other stuff to work on before we, we can finalize these, these ideas. But I said the first step is to bring the charts closer to the embedding website. And then maybe I thought about having some reusable templates. There could even be templates in other tools like observable that you mentioned how to use a data wrapper chart in there. And then you could think about how you could let the page interact with the chart or react to some changes on the page. But that's more like. More like a nice. I'm just dreaming about this a little bit, but it's like we have to do some housekeeping before.",
+      "id": "ep_117_ut_74"
+    },
+    {
+      "end": 2053424,
+      "speaker": "Moritz Stefaner",
+      "start": 2050420,
+      "text": "Like that would always be a data wrapper wrapper, right.",
+      "id": "ep_117_ut_75"
+    },
+    {
+      "end": 2056984,
+      "speaker": "Gregor Aisch",
+      "start": 2055884,
+      "text": "That's the thing.",
+      "id": "ep_117_ut_76"
+    },
+    {
+      "end": 2064864,
+      "speaker": "Moritz Stefaner",
+      "start": 2060324,
+      "text": "Coming up next from the makers of data wrapper. The data wrapper wrapper.",
+      "id": "ep_117_ut_77"
+    },
+    {
+      "end": 2083610,
+      "speaker": "Gregor Aisch",
+      "start": 2066844,
+      "text": "It's not a crazy idea and we actually had some concepts, concepts for this. But I think it's a tough move from this tool that lets you create the components to this meta tool that lets you arrange them. And I know that other tools are.",
+      "id": "ep_117_ut_78"
+    },
+    {
+      "end": 2096914,
+      "speaker": "Moritz Stefaner",
+      "start": 2083642,
+      "text": "And I really like that you just focus on getting the chart part right. And I think you can also sort of trust that other people might get the sequencing part right or the, you know, the interactive explorables part.",
+      "id": "ep_117_ut_79"
+    },
+    {
+      "end": 2134714,
+      "speaker": "Gregor Aisch",
+      "start": 2096994,
+      "text": "And I use your stuff for that. I think I know the side of the, the person who's building the page in the end because I've done that at the times, a lot of times. And like, I know that at this site I want maximum control. And I don't think that it's easy to create a tool that lets you explore all the options. There's mobile and you have some swiping that isn't working in the mobile app or that it's working on the mobile app, but it's not working in the mobile preview on the Twitter app. And I've been deep into this, so I'm kind of cautious to go into that.",
+      "id": "ep_117_ut_80"
+    },
+    {
+      "end": 2136826,
+      "speaker": "Moritz Stefaner",
+      "start": 2134754,
+      "text": "Yeah, good call.",
+      "id": "ep_117_ut_81"
+    },
+    {
+      "end": 2146534,
+      "speaker": "Gregor Aisch",
+      "start": 2137010,
+      "text": "And it's also a different product and I am afraid of losing the focus on what we do good at data wrapper by working on a different product.",
+      "id": "ep_117_ut_82"
+    },
+    {
+      "end": 2156814,
+      "speaker": "Moritz Stefaner",
+      "start": 2147954,
+      "text": "That makes sense. That's great. Lisa, do you have any burning blog posts coming up that you can excite us about?",
+      "id": "ep_117_ut_83"
+    },
+    {
+      "end": 2164894,
+      "speaker": "Lisa C. Rost",
+      "start": 2158834,
+      "text": "Wow. Well, right now I'm just working on a blog post about diverging stacked bar charts.",
+      "id": "ep_117_ut_84"
+    },
+    {
+      "end": 2172454,
+      "speaker": "Gregor Aisch",
+      "start": 2166674,
+      "text": "It's a hot topic. I don't know if you looked it up.",
+      "id": "ep_117_ut_85"
+    },
+    {
+      "end": 2193204,
+      "speaker": "Lisa C. Rost",
+      "start": 2175074,
+      "text": "It's very interesting. It's mostly used for polls where you show the percentage of people who agree, totally agree, strongly agree, strongly disagree, neutral, etcetera. But I think that will be published by the time this podcast is out.",
+      "id": "ep_117_ut_86"
+    },
+    {
+      "end": 2219332,
+      "speaker": "Moritz Stefaner",
+      "start": 2193744,
+      "text": "That's great. So we can link to it. Yeah, that's fantastic. Another good way to look at data wrapper possibilities is the river. I really like the river. So it's a long page. It's really long. And there's all kinds of charts made with data wrapper. And you can see all the possibilities and you can click to reuse individual charts. Are these charts, are they coming from your clients or where did they come from?",
+      "id": "ep_117_ut_87"
+    },
+    {
+      "end": 2337366,
+      "speaker": "Gregor Aisch",
+      "start": 2219388,
+      "text": "They're coming from users who just made the charts and decided to share them with other users. Yeah, that's great. Yeah, that was an experiment to see if we could, we always looking into lowering the entry barrier to making charts. And we tried a lot to make data wrapper easy to use and come up with good defaults for all these templates. But then there's always this big step before you come to data. We need to find the data and you need to somehow convert the data from this weird excel. Like if you're lucky, you have an excel file, but that's not the right format that you need for this chart template. For instance, we know that this is always a big first step to make if you're on a tight schedule or you don't have the resources to do it. We saw maybe there's users who want to share their charts and other users who, who just need something user for just inspiration. Or maybe there's something that journalists and other newsrooms have published and they share it with other users and then you could just reuse it for your own website. Or we see, I've, we've seen already users translating charts. That's also a big thing that someone makes a chart about climate change and then, but it's in English and then someone translates it to Swedish or whatever. And then, yeah, and we didn't want to, like we, in data web, all this other stuff you create is private by default. So there's no, no free account where everything you do is public. So everything is private by default. So that's why we added this extra step where you, you are allowed. You're able to free your charts for the, for reuse if you want to, but you don't have to. And all the charts that are free are on this river page. And, yeah, that's only came out like a month ago, and we're still watching this and seeing how this goes.",
+      "id": "ep_117_ut_88"
+    },
+    {
+      "end": 2374314,
+      "speaker": "Moritz Stefaner",
+      "start": 2337470,
+      "text": "Yeah. But it's really nice to just browse through and I can totally see if you need inspiration for a chart. You just flip through all the charts there and you're like, oh, I could do something like this. And then you have a starting point already. So I think that's great. Yeah, cool. I think we should wrap it up soon. Yeah. Thanks so much for coming on the show. It's been great to see you work on this in the last few weeks. There's so much good stuff coming out the last few weeks and months from data wrapper. So if you can only keep up half of that tempo, I think you will have a great entertainment and also great tools for over the whole.",
+      "id": "ep_117_ut_89"
+    },
+    {
+      "end": 2379614,
+      "speaker": "Gregor Aisch",
+      "start": 2375174,
+      "text": "We only started recently. Just get ready for more.",
+      "id": "ep_117_ut_90"
+    },
+    {
+      "end": 2380302,
+      "speaker": "Lisa C. Rost",
+      "start": 2379774,
+      "text": "Wow.",
+      "id": "ep_117_ut_91"
+    },
+    {
+      "end": 2401794,
+      "speaker": "Moritz Stefaner",
+      "start": 2380398,
+      "text": "Very good. That's the spirit. No, it's great to see. And I think you're filling a really a good gap there with a very smart tool. So, yeah, it's great. Thanks so much for coming on, everybody. Check out data wrapper as not the wrapper like in hip hop, but with, like, the gift.",
+      "id": "ep_117_ut_92"
+    },
+    {
+      "end": 2409766,
+      "speaker": "Gregor Aisch",
+      "start": 2402814,
+      "text": "We actually bought that domain as well because we saw some of the traffic coming through that search term, and then.",
+      "id": "ep_117_ut_93"
+    },
+    {
+      "end": 2413234,
+      "speaker": "Moritz Stefaner",
+      "start": 2409790,
+      "text": "We saw it one, too.",
+      "id": "ep_117_ut_94"
+    },
+    {
+      "end": 2418126,
+      "speaker": "Gregor Aisch",
+      "start": 2416774,
+      "text": "All right. Thanks for having us.",
+      "id": "ep_117_ut_95"
+    },
+    {
+      "end": 2419454,
+      "speaker": "Lisa C. Rost",
+      "start": 2418190,
+      "text": "Yeah, it was fun. Thank you.",
+      "id": "ep_117_ut_96"
+    },
+    {
+      "end": 2420430,
+      "speaker": "Moritz Stefaner",
+      "start": 2419494,
+      "text": "Thanks for joining us.",
+      "id": "ep_117_ut_97"
+    },
+    {
+      "end": 2421830,
+      "speaker": "Enrico Bertini",
+      "start": 2420502,
+      "text": "Thank you. Bye bye.",
+      "id": "ep_117_ut_98"
+    },
+    {
+      "end": 2422166,
+      "speaker": "Gregor Aisch",
+      "start": 2421862,
+      "text": "Bye.",
+      "id": "ep_117_ut_99"
+    },
+    {
+      "end": 2423314,
+      "speaker": "Lisa C. Rost",
+      "start": 2422230,
+      "text": "Bye bye.",
+      "id": "ep_117_ut_100"
+    },
+    {
+      "end": 2448240,
+      "speaker": "Enrico Bertini",
+      "start": 2427814,
+      "text": "Hey, folks, thanks for listening to data stories again. Before you leave, a few last notes, this show is now completely crowdfunded. So you can support us by going on Patreon. That's patreon.com Datastories. And if you can spend a couple of minutes rating us on iTunes, that would be extremely helpful for the show.",
+      "id": "ep_117_ut_101"
+    },
+    {
+      "end": 2474140,
+      "speaker": "Moritz Stefaner",
+      "start": 2448352,
+      "text": "And here's also some information on the many ways you can get news directly from us. We are, of course, on Twitter, twitter.com Datastories. We have a Facebook page@Facebook.com. data stories podcast all in one word. And we also have a Slack channel where you can chat with us directly. And to sign up, you can go to our homepage datastory es. And there is a button at the bottom of the page.",
+      "id": "ep_117_ut_102"
+    },
+    {
+      "end": 2489996,
+      "speaker": "Enrico Bertini",
+      "start": 2474292,
+      "text": "And we also have an email newsletter. So if you want to get news directly into your inbox and be notified whenever we publish an episode. You can go to our home page Datastories es and look for the link you find at the bottom in the footer.",
+      "id": "ep_117_ut_103"
+    },
+    {
+      "end": 2502152,
+      "speaker": "Moritz Stefaner",
+      "start": 2490100,
+      "text": "So one last thing we want to tell you is that we love to get in touch with our listeners, especially if you you want to suggest a way to improve the show or amazing people you want us to invite or even projects you want us to talk about.",
+      "id": "ep_117_ut_104"
+    },
+    {
+      "end": 2511344,
+      "speaker": "Enrico Bertini",
+      "start": 2502248,
+      "text": "Yeah, absolutely. And don't hesitate to get in touch with us. It's always a great thing to hear from you. So see you next time, and thanks for listening today. The stories.",
+      "id": "ep_117_ut_105"
+    }
+  ],
+  "confidence": 0.914813744654853,
+  "audio_duration": 2521,
+  "punctuate": true,
+  "format_text": true,
+  "dual_channel": false,
+  "webhook_url": null,
+  "webhook_status_code": null,
+  "webhook_auth": false,
+  "webhook_auth_header_name": null,
+  "speed_boost": false,
+  "auto_highlights_result": null,
+  "auto_highlights": false,
+  "audio_start_from": null,
+  "audio_end_at": null,
+  "word_boost": [],
+  "boost_param": null,
+  "filter_profanity": false,
+  "redact_pii": false,
+  "redact_pii_audio": false,
+  "redact_pii_audio_quality": null,
+  "redact_pii_policies": null,
+  "redact_pii_sub": null,
+  "speaker_labels": true,
+  "content_safety": false,
+  "iab_categories": true,
+  "content_safety_labels": {
+    "status": "unavailable",
+    "results": [],
+    "summary": {}
+  },
+  "language_detection": false,
+  "language_detection_threshold": null,
+  "language_confidence": null,
+  "custom_spelling": null,
+  "throttled": false,
+  "auto_chapters": true,
+  "summarization": false,
+  "summary_type": null,
+  "summary_model": null,
+  "custom_topics": false,
+  "topics": [],
+  "speech_threshold": null,
+  "speech_model": "best",
+  "chapters": [
+    {
+      "summary": "This is a new episode of Data stories. We have Lisa Charlotte Muth (formerly Lisa Rost) and Gregor Aisch from data of rapper. On this podcast, we talk about data visualization, analysis, and generally the role data plays in our lives. Please consider supporting us on patreon. com.",
+      "gist": "Data Stories",
+      "headline": "This podcast focuses on data visualization, analysis, and generally the role data plays",
+      "start": 160,
+      "end": 126694,
+      "id": "ep_117_ch_0"
+    },
+    {
+      "summary": "Data wrapper is an online tool that lets people create charts and maps and tables without requiring any coding skills. You can embed your visualizations on your website or download them as images. The company is self funded with no outside investors. Trying to become a real player in the market of data visualization tools.",
+      "gist": "Data Wrapper: The New York Times' foray into data visualization",
+      "headline": "Data wrapper lets people create charts without requiring any coding skills",
+      "start": 127424,
+      "end": 650984,
+      "id": "ep_117_ch_1"
+    },
+    {
+      "summary": "Lisa has a background in design and data journalism. Gregor was at New York Times. Both decided to join data wrapper. The company wants journalists to build better charts. It's been a lot of fun.",
+      "gist": "Data Utopia: The Story of Data Wrapper",
+      "headline": "Lisa and Gregor join data wrapper to help build better charts for journalists",
+      "start": 651444,
+      "end": 900098,
+      "id": "ep_117_ch_2"
+    },
+    {
+      "summary": "Lisa is writing blog posts all day at data wrapper. Blogging is her main activity at the company. Gregor: It's better to work on data wrapper inside the company to fix all the bugs.",
+      "gist": "Data Wrapper",
+      "headline": "Lisa says blogging is her main activity at data wrapper",
+      "start": 900146,
+      "end": 1078094,
+      "id": "ep_117_ch_3"
+    },
+    {
+      "summary": "In the past at the New York Times and other places, you did more of these one time projects and often very ambitious visualizations. Now you're in this totally different mode of building a long term tool and platform. How's that experience for you?",
+      "gist": "Building a Data-Visualization Tool",
+      "headline": "You worked at the New York Times on several interesting data visualization projects",
+      "start": 1078174,
+      "end": 1586258,
+      "id": "ep_117_ch_4"
+    },
+    {
+      "summary": "How do you balance the need to educate with the fact that, hey, it's the customer who's asking that for that? We try to fix that problem by being careful about our business model. By separating the business side from our software development, we maintain the freedom to ignore what clients want.",
+      "gist": "How to Promote or Negate Features in Data Webber",
+      "headline": "Data webber separates business side from software development to avoid customer demands",
+      "start": 1586426,
+      "end": 1742028,
+      "id": "ep_117_ch_5"
+    },
+    {
+      "summary": "Data web wants to get rid of the iframes or provide an alternative option to directly embed the charts in websites. The first step is to bring the charts closer to the embedding website. Do you have plans to provide tools to put chart in a sequence or to reveal stuff on interaction?",
+      "gist": "Data Wrapper: Future Plans",
+      "headline": "What are your future plans with data wrapper",
+      "start": 1742076,
+      "end": 2056984,
+      "id": "ep_117_ch_6"
+    },
+    {
+      "summary": "Coming up next from the makers of data wrapper. The data wrapper wrapper. It's a tough move from this tool that lets you create the components to this meta tool. I'm afraid of losing the focus on what we do good at data wrapper by working on a different product.",
+      "gist": "Data Wrapper: The Future of the Tool",
+      "headline": "I think it's a tough move from this tool that lets you create components",
+      "start": 2060324,
+      "end": 2149218,
+      "id": "ep_117_ch_7"
+    },
+    {
+      "summary": "Data wrapper allows users to create charts and share them with other users. You can also free your charts for the, for reuse if you want to, but you don't have to. There's so much good stuff coming out the last few weeks and months from data wrapper.",
+      "gist": "Data Wrapper",
+      "headline": "Data wrapper is a great tool for making charts easily and cheaply",
+      "start": 2149306,
+      "end": 2511344,
+      "id": "ep_117_ch_8"
+    }
+  ],
+  "disfluencies": false,
+  "entity_detection": false,
+  "sentiment_analysis": false,
+  "sentiment_analysis_results": null,
+  "entities": null,
+  "speakers_expected": null,
+  "summary": null,
+  "custom_topics_results": null,
+  "episode_num": 117,
+  "episode_metadata": {
+    "speakers": [
+      "Gregor Aisch",
+      "Lisa C. Rost",
+      "Moritz Stefaner",
+      "Enrico Bertini"
+    ],
+    "WPid": "1146",
+    "url": "https://datastori.es/podlove/file/4915/s/feed/c/mp3/117-datawrapper-with-Lisa-C-Rost-and-Gregor-Aisch.mp3",
+    "episode_title": "Datawrapper with Lisa C. Rost and Gregor Aisch"
+  }
+}

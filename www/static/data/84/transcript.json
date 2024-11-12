@@ -1,0 +1,543 @@
+{
+  "id": "5584a9b5-05ae-43b3-aa48-23d8830b60ce",
+  "language_model": "assemblyai_default",
+  "acoustic_model": "assemblyai_default",
+  "language_code": "en_us",
+  "status": "completed",
+  "audio_url": "https://datastori.es/podlove/file/3144/s/feed/c/mp3/84-statistical-numbing-with-paul-slovic.mp3",
+  "utterances": [
+    {
+      "end": 11114,
+      "speaker": "Paul Slovic",
+      "start": 200,
+      "text": "The first step is to be aware of the way our minds work with information. When you see a big number, don't just go with your first gut reaction to that number, but think carefully.",
+      "id": "ep_84_ut_0"
+    },
+    {
+      "end": 80122,
+      "speaker": "Enrico Bertini",
+      "start": 15614,
+      "text": "This episode of data stories is sponsored by Freshbooks, the small business accounting software that makes your accounting tasks easy, fast and secure. Freshbooks is offering a month of free and restricted use to all of our listeners. To claim your free month of freshbooks, go to freshbooks.com Datastories where you can sign up for free and without the use of a credit card. Remember to enter data stories in the section titled I heard about freshbooks from at signup. Once again, the URL to claim your free month is freshbooks.com Datastories. Hey, everyone. Welcome to a new episode of data stories. Hey, Moritz, how are you?",
+      "id": "ep_84_ut_1"
+    },
+    {
+      "end": 87930,
+      "speaker": "Moritz Stefaner",
+      "start": 80178,
+      "text": "Hi, Enrico. Good. Doing great. Just came back from a longer trip to Heidelberg in Germany. Beautiful old town.",
+      "id": "ep_84_ut_2"
+    },
+    {
+      "end": 88746,
+      "speaker": "Enrico Bertini",
+      "start": 88002,
+      "text": "Oh, nice.",
+      "id": "ep_84_ut_3"
+    },
+    {
+      "end": 92120,
+      "speaker": "Moritz Stefaner",
+      "start": 88850,
+      "text": "And, yeah, now I'm back home. So things are good?",
+      "id": "ep_84_ut_4"
+    },
+    {
+      "end": 93528,
+      "speaker": "Enrico Bertini",
+      "start": 92232,
+      "text": "Yeah, great.",
+      "id": "ep_84_ut_5"
+    },
+    {
+      "end": 94232,
+      "speaker": "Paul Slovic",
+      "start": 93696,
+      "text": "Yeah.",
+      "id": "ep_84_ut_6"
+    },
+    {
+      "end": 104472,
+      "speaker": "Moritz Stefaner",
+      "start": 94328,
+      "text": "I have a very exciting food related project coming up. Another food related project. But this is actually a data visualization about food. And, yeah, I can't wait to share it.",
+      "id": "ep_84_ut_7"
+    },
+    {
+      "end": 107120,
+      "speaker": "Enrico Bertini",
+      "start": 104488,
+      "text": "So that's separate from the data cuisine?",
+      "id": "ep_84_ut_8"
+    },
+    {
+      "end": 114088,
+      "speaker": "Moritz Stefaner",
+      "start": 107232,
+      "text": "Yeah, it's like totally complimentary. So this time it's actually a data visualization about food. Should come out in November, hopefully. Yeah.",
+      "id": "ep_84_ut_9"
+    },
+    {
+      "end": 119474,
+      "speaker": "Enrico Bertini",
+      "start": 114176,
+      "text": "Have you actually chart pies on Twitter from Ben Shneiderman?",
+      "id": "ep_84_ut_10"
+    },
+    {
+      "end": 125454,
+      "speaker": "Moritz Stefaner",
+      "start": 119554,
+      "text": "Ben Shneiderman is baking chart pies, so we should have him on maybe around Thanksgiving.",
+      "id": "ep_84_ut_11"
+    },
+    {
+      "end": 171888,
+      "speaker": "Enrico Bertini",
+      "start": 129234,
+      "text": "Okay, well, good. Let's dive right in. I'm really excited about today's topic. I actually don't know if excited is the right word for this topic, but, so we're going to talk about, I don't know if you've ever heard of these terms, but we're talking about statistical numbing and genocide, neglect, or also called arithmetic of compassion. And I could go on forever. And we have a very special guest, the person who invented these terms. We have Professor Paul Slovak, who is a professor at the University of Oregon with us, who is the leading expert in this area. Hi, Paul. How are you?",
+      "id": "ep_84_ut_12"
+    },
+    {
+      "end": 174504,
+      "speaker": "Paul Slovic",
+      "start": 171976,
+      "text": "I'm good, thank you. Nice to be with you.",
+      "id": "ep_84_ut_13"
+    },
+    {
+      "end": 274424,
+      "speaker": "Enrico Bertini",
+      "start": 174584,
+      "text": "Welcome on the show. So as I was saying at the beginning, we want to talk about the power or lack of power of numbers and statistics to communicate empathy to other people. And Paul is the leading expert in this area. And he's been studying this kind of phenomenon for a long time. And he's the person who invented this idea of statistical numbing, which basically is about the fact that when we look at numbers, especially large ones, we just cannot wrap our head around them. Okay. And he's been studying situations like major genocides and why in some cases, under certain circumstances, we just don't seem to have the same reaction as, for instance, looking at the problem of one single person. And I think, first of all, this is a super fascinating topic, and it's also highly related to some of the work that we do in data visualization or data anything in general, any communication of numbers and statistics. We pretend that our numbers are going to have an effect in the world. But Paul's research seems to. Seems to point us towards the problem that this doesn't actually happen. Okay, Paul, so can you maybe give us a little bit of a brief introduction of what is statistical or psychic numbing and what the problem is there? What is happening?",
+      "id": "ep_84_ut_14"
+    },
+    {
+      "end": 700470,
+      "speaker": "Paul Slovic",
+      "start": 274884,
+      "text": "Yes. This has to do with the way that our brains process information when we're thinking quickly and intuitively in response to information, say numbers. So, to back up, what we've learned over the last few decades is that we think in two different modes, fast, intuitive types of response, and then slow, careful analytic thinking. So the intuitive mode is evolutionarily ancient. This is the way our brain functioned for millions of years through evolution, when we had to react to things in our environment and determine whether they were safe or dangerous, and this sort of thing. Then, much more recently, an evolutionary scale, we have developed the capacity to think analytically, to use statistics, mathematics, equations, arguments, reasons. It's a slow, deliberate form of thinking. So these two ways of thinking reside. The mechanisms reside in our brain and are constantly interacting in what we call a dance of affect. Affect is just jargon for feeling, the dance of affect and reason. So we're kind of going back and forth. And I should say that an excellent source of information about this is Daniel Kahneman's book from 2011 called thinking fast and slow. It's been where he summarizes a lot of this evidence for the two ways of thinking. This book has been remarkably successful for a kind of a, for an academic book. It was written for a general audience, and it sold more than 3 million copies, which for us academics, is astronomical. But it's a very good introduction to this, and my work really is very much oriented around the fast and slow thinking. So we're smart enough now to figure out how to collect data and then to quantify it in various ways and to display it visually and in other ways. And we assume that these numbers, then when people see them, that they will be interpreted accurately and people will make appropriate responses. And what we find is that, well, sometimes they do, and especially if you think slowly, if you're aware of the fact that you need to think carefully about this information, then I think it can be used effectively. But as Kahneman points out in his book, the mind is lazy and takes the easiest route. And the fast, intuitive, gut feeling response is a lot easier to employ than to do statistics or calculations. That's hard work. We often get that wrong. And so we default to intuition. And intuition can size up, can take data and respond to it in milliseconds, fraction of a second. We suddenly make a judgment, oh, this looks good, or it looks bad, or, I better get out of here, this sort of thing. So it's a remarkably sophisticated system, this fast system. I don't mean to, to denigrate it in any way, this helped us survive millions of years through evolution, through our feelings. It's the feeling system. So, for example, a long time ago, you were looking for water to drink, and you see water in a stream, and the feeling system operates by saying, well, how does it look? How does it smell? How does it taste? Did it make me sick the last time I drank from it? That's a pretty good system. But in the modern world now, we employ science like the science of analytic chemistry and toxicology. We can find parts per billion of molecules in that water, and we can do experiments to test whether they, whether these molecules can harm animals at high doses, this sort of thing. And we can do that. And sometimes we do to try to get small amounts of carcinogens out of the water and this sort of thing. But so we have both ways of responding. And so that's what I look at. And particularly I look at the ways that this very sophisticated, fast system of intuitive thinking based on feelings, where it goes wrong. So it's, it, most of the time, it's, it goes right. It's, it's our compass. This is the way we get through the day. You know, we think about what we have to do, whether we should, you know, have lunch or try to finish a paper that has a deadline in a couple of hours. We have to make that decision. We're not doing any calculations. We don't have any data to go by. We're just sort of thinking about lunch. We get a feeling about how hungry we are. We think about the paper and missing the deadline. That gives us a feeling. The brain, in some mysterious way, probably dealing with the firing of dopamine neurons in the brain, which we don't fully understand. It converts those two different things. Having lunch and meeting the deadline into some sort of common chemical currency in the brain. And then we decide. We either eat lunch or we keep working on the paper. That's what I mean when I say it's our compass. It's the way we get through the day. Or if we're driving a car and we have to decide whether to overtake a car on the highway, on a two lane highway, we have to decide, is it safe to over overtake the car? And you look ahead, you see if there's any traffic coming. What's your line of sight? How fast are you going? How fast is the other car? You do all this kind of calculation. I mean, you could try to do this with physics and other scientific ways, but you'd never be able to do it. But through experience, we have learned how to size up what's a safe speed and distance for passing. So this is the way that system works, but it also fails us in certain circumstances.",
+      "id": "ep_84_ut_15"
+    },
+    {
+      "end": 714834,
+      "speaker": "Enrico Bertini",
+      "start": 700622,
+      "text": "So, Paul, can you give us examples of how is this actually related to the problem of statistical numbing and genocide neglect? How is this happening?",
+      "id": "ep_84_ut_16"
+    },
+    {
+      "end": 1099024,
+      "speaker": "Paul Slovic",
+      "start": 715534,
+      "text": "So let's think about how we value a human life. How important is a human life? How valuable, how much effort should we make to protect a life, to save a life? And we put great value on an individual life. And we, in many cases, will go to great effort and put ourselves in danger to rescue someone. We will spend a lot of money to help an individual who is ill and who needs expensive treatment if their story comes to our attention, we and our community will find the money if needed, to get proper treatment for that person. So we're very compassionate for single individuals. So we're very compassionate towards single individuals or towards a few people near us, our family, the people, our friends, people that we know well in our community. But think about now a situation that threatens some number of lives. Like 87 people are at risk of some, you know, some illness, and then suddenly you learn it's 88. Now, if you're working on the feeling system, would you feel any different? That one life, which is so important when it's the first life, loses its impact in terms of feeling, when it's part of a larger problem? And there's early work in psychology called psychophysics. It was actually done in Germany in the around the 1880s or so. And by Weber and Fechner, they were studying how sensations are perceived in the brain. By sensations I mean the brightness of a light, the loudness of a sound. And they would vary the physical magnitude of the light or the sound. And what they found is that when a person was judging how loud it sounded to them or how bright the light seemed, they found that at very low levels of light or sound, people were very sensitive and would respond. Even a slight increase was detectable and made a difference. But as the magnitude, as the level of the sound or the light increased, it took more and more of a difference to be noticed. So, I mean, this is very obvious. If you're like, you know, in a quiet room, you can hear a whisper, but if you're in a. In a. In a football stadium, you won't hear that whisper. It'll take a shout before you'll. You'll. You'll note it. You'll hear it. So it's. That's a very simple, you know, example. And if you plot that, you know, visually on a graph, what you see is on the x axis. As you. As the magnitude of the sound or the light increases the. On the y axis, the loudness or brightness increases very steeply right at the beginning, you know, at the low level. And then it flattens, begins to flatten out. It becomes ever more and more what we call concave. It comes flatter so that you see that difference between zero and one, which is huge. If it's between 87 and 88, it's on the flat part of the curve, and it doesn't make much difference. Well, that's the way the mind responds to sound, to light, amounts of money, and unfortunately, to numbers of lives. When we're thinking fast, if you're thinking slow and you do the math, you know that 88 -87 is one life. But if you're just using your feelings, you don't notice the difference. So that's basically what's going on. That's the element that we call psychic numbing. I should say that the term psychic numbing didn't originate with me. It was, I think it came from a psychiatrist, Robert J. Lifton, who was studying what aid workers after the atomic bombing bombings in Japan had to do to be able to go into the aftermath of the bombs and to try to rescue anyone who had survived. It was terrible carnage and horrific, and they had to turn off their feelings in order to function. They had to kind of become numb just in order to do their job. So in that sense, psychic numbing wasn't adaptive. It was a kind of thing. It was important and useful. But the way I study it with regard to number, it's not adaptive. It leads to non rational response. It leads to a response where the importance that you put on a human life is not constant, but it becomes less and less important that life loses its importance as the size of the problem increases. And that raises the question, well, is this the way we want to behave? Sure, maybe the bigger problems are harder to deal with. They're difficult, they're costly, and maybe we can't do as much in the big problems. But still, we have to ask ourselves whether we are properly valuing human lives when the number of those lives is great.",
+      "id": "ep_84_ut_17"
+    },
+    {
+      "end": 1294484,
+      "speaker": "Enrico Bertini",
+      "start": 1103664,
+      "text": "This is a good time to take a little break and talk about our sponsor, freshbooks. So you're racing against the clock to wrap up three, prepping for a meeting later in the afternoon, all while trying to tackle a mountain of paperwork. Welcome to life as a freelancer. Challenging, yes, but our friends at Freshbooks believe the rewards are so worth it. The working world has changed with the growth of the Internet. There's never been more opportunities for the self employed to meet this need. Freshbooks is excited to announce the launch of an all new version of their cloud accounting software. It's been redesigned from the ground up and custom built for exactly the way you work. Get ready for the simplest way to be more productive, organized, and most importantly, get paid quickly. The all new freshbooks is not only ridiculously easy to use, it's also packed full of powerful features. Create and send professional looking invoices is less than 30 seconds online payments with just a couple of clicks, and get paid up to four days faster. And see when your clients has seen your invoice and put an end to the guessing games. Freshbooks is offering a 30 day unrestricted free trial to our listeners. To claim it, just go to freshbooks.com Datastories and enter data stories in the how did you hear about us? Section. Let me say this again. Go to freshbooks.com Datastories and now back to the show. So Paul, I think that's fascinating. And actually, I believe that many people in visualization are familiar with Weber's law because we applied to something different. So the idea is that experimentally, researchers have found that different visual channels have. Of course, they almost all of all follow the Weber's law or Fechner law, but they follow it with different exponents to the power law. And because of that, they tend to be more or less accurate. So some of the guidelines that we do have in visualization come exactly from these, from the same science. So one thing I wanted to ask you, I just want to check if I understood correctly. Reading your papers, there is something that you call the collapse of compassion. And seems to be related to the fact that in some cases, what you observe in your studies. Seems to be even worse than following the Weber's law. What I mean is that not only the increase decreases as the number of people grows, but it can also decrease. What I mean is that experimentally, and please correct me if I'm wrong, experimentally, you found that adding more people can actually provoke less empathy. And also smaller amount of donations. Is that correct?",
+      "id": "ep_84_ut_18"
+    },
+    {
+      "end": 1523744,
+      "speaker": "Paul Slovic",
+      "start": 1295504,
+      "text": "Yes, it's absolutely what we found. I should also add, first, that this decline in feeling or value for human life we found in experiments. Actually begins with the number two. I mean, I use this example, 87, 88. But what we find is that the response to two people in danger is not twice that of. Of one. Both in terms of how you feel about them. You know, how sad you are that they're in danger. Or how much money you would provide. It's not double. It's something less than twice. So even at the very adding just one person, you begin to lose empathy. And there's. There's a saying with regard to empathy that you can understand empathy. What it means by. It's really putting yourself in the shoes of another person. So you see the world as they do. And you feel what they feel. And you can connect with them emotionally. And think about what it would be to put yourself in the shoes of two people simultaneously. It doesn't work. And in fact, if we had the visual here, I could show you. I, by chance, happened upon an art exhibit, an exhibit of cuban art. And there was a sculpture in there by a cuban sculptor named Yoan Capote. And he created a shoe for two people. And it was very awkward, strange device. His sculpture was titled Matrimony. And it was designed to show some of the difficulties sometimes two people in a marriage have in relation to each other. And just as this shoe is an awkward device. The mind can't quite connect directly to two people simultaneously as well as to one. You don't play as close attention to two people. You don't draw as many details and inferences about them when they're two. So we begin to lose it at two. And what we found was as we increased the number of people in danger. And asked for some sort of sympathy and other judgments. And also like monetary donations. That at some point not only does it flatten out like the psychophysical sound and light functions, but it actually begins to decline. And so it's. It's no longer that you can't tell the difference between whether there was 200,000 people murdered in Darfur or 400,000 because it feels the same. But at some point you just don't care. You just lose feeling. 200,000 means nothing to you. It's just a number. If you're on this fast system now, if you're step back and you're aware of this problem and you say, now look, I have to think more carefully. What is 200,000 mean? Well, it's the size of the city I live in. It's like every person in that city. Then you can start to get perspective on the magnitude of this number. But otherwise, the number. And interesting, the first four letters of number are n umb. It leaves us numb and we don't react. We react, we lose it. And that's what we mean by the collapse of compassion.",
+      "id": "ep_84_ut_19"
+    },
+    {
+      "end": 1544474,
+      "speaker": "Moritz Stefaner",
+      "start": 1524164,
+      "text": "Could this also be some sort of like a psychological overflow or like, you know, that you just cannot imagine 200,000 people like, being murdered and you don't even go there mentally, so you just deny it's actually happening? Is that sort of the mechanism? Maybe?",
+      "id": "ep_84_ut_20"
+    },
+    {
+      "end": 1707328,
+      "speaker": "Paul Slovic",
+      "start": 1545054,
+      "text": "Well, yes, I think it's a failure of the feeling system because the feeling system is designed to be sensitive at the very low level. Same thing with sound. Imagine a device that is, is designed so it can pick up the faintest sound. And now you put a jet engine next to it. I mean, you're going to blow it apart, you know. So in evolution, you know, there was a, you could say nature had a decision there to make us either sensitive to the small or to the large. And it made us sensitive to the small at the expense of numbing, usually to the large. And you think about feelings. The feeling system is very, very sensitive, but it's very crude. I mean, think about, let's say you walk out of the studio and you see $100 bill on the street that is unclaimed, and it's, you know, it's yours. You know, you feel, okay, this is nice. It feels good. But supposing it was a $200 bill, you know, you wouldn't feel any different. You know, the feeling system is very, you know, it's not very articulated. You know, it's almost got, it only got a few levels and so it can't ramp up very much. And then, as you say, also it depends on images and imagination, and it is. And you can't imagine easily 200,000 people unless you think about a stadium or some other large crowd. But even then, you can't see the individuality there. It's just kind of a big group of people so all of these things are at play. And you mentioned the word denial. Well, that's another factor that also comes into play. That even with the slow thinking, when you do grasp the magnitude of how terrible something is, if you can't do anything about it, then it makes sense to sort of block it out of your mind and deny and go on with the rest of your life, because otherwise you'll be tormented and you won't be able to solve that problem. So we also have a lot of head in the sand denial going on, which, you know, is made easier by the fact that if we, you know, we don't feel anything about what we're denying.",
+      "id": "ep_84_ut_21"
+    },
+    {
+      "end": 1723792,
+      "speaker": "Moritz Stefaner",
+      "start": 1707376,
+      "text": "So you're saying that because we cannot solve the whole problem as a whole, we're not even capable of picking a small part of it, at least solving that one, because it's. We wouldn't know which part to pick, or we don't feel that motivated anymore.",
+      "id": "ep_84_ut_22"
+    },
+    {
+      "end": 2275078,
+      "speaker": "Paul Slovic",
+      "start": 1723888,
+      "text": "Great. And that is very interesting observation, which we kind of gets into something that we stumbled upon when we were asking people to donate to starving children. And we found that if we showed an individual, a little girl with a name and a face, and we gave her a little description, she's seven years old, said where she lives, and she's facing severe malnutrition and starvation, people would respond very strongly. Then we had another condition. We thought, well, maybe we can get even stronger response by showing how big a problem this is. And so we had the same little girl. And then in the background, we said, she's one of millions in several countries that are starving. And what we found is that the sympathy and the donations dropped in half to the same child. So then we started thinking, well, why do people donate? And we saw that there's an economist named Andreoni a long time ago who said that we help others not only because they need our help, but because we feel good about helping. We get a warm glow of satisfaction by helping. And then we said, well, let's study this notion of warm glow. Let's educate people about it. Let's have them rate their warm glow in one situation or the next. And we started to do that, and we remembered this response where you could help this child, but she's one of millions. And we thought, well, maybe the fact that there's almost a million people you're not helping detracts from your warm glow. It doesn't feel as good to help this child when you know there's a million more you're not helping. So we started to study that and we started to study that, not with millions, but down with several. So we had a child that you could help. And next to the child we had, we put the picture of six similar children whom we said, unfortunately, you can't help these children, but you can help the other one. And what we found is that the warm people didn't feel as good about helping that child when they saw these other kids. And then we started to reduce that number of others. We found that even if there's one other child that you can't help, you don't feel as good about the child you can help, and you don't help as much. And so what's going on there is that we believe, is that the negative feelings from the one or more children, up to a million, that you're not helping, come in and blend with the good feeling you have about the child, and they degrade it, they dampen it out. And I think that's very interesting. From a data visualization standpoint, what it means is that you look at these images of the kids you can't help. It sends feelings into your brain. And what we believe is that the brain has no gatekeeper for those feelings. That is, it doesn't scrutinize and vet those feelings, say, are these legitimate or not? It lets them in. And to mingle with the relevant feelings as your compass, this is all your feeling compass. And to test that further, we had those six children that you couldn't help. We substituted for the six children six abstract shapes that conveyed no feeling, really. The children you couldn't help, we saw that they conveyed negative feelings. And the more negative you felt about the kids you couldn't help. The less good you felt about helping the child you could help. And then we put these abstract shapes in. They didn't carry much feelings, and they didn't interfere with the child you could help. Then we went one step further, and we put six pictures of just ugly pictures, a shark baring its teeth, a handgun pointed at you, pictures that had been shown to create negative feelings but were completely irrelevant to the child that you're considering helping. And we found, again, the same thing happened, that the more negative you thought those ugly pictures were, the less good you felt about helping that child, even though it had nothing to do with it. So the brain doesn't discriminate whether the feelings that are coming in and blending together are relevant or not. And you can think, well, from an evolutionary standpoint, that was adaptive. You hear a noise in the bush, the brain doesn't stop to do any kind of calculation, what's the probability that it's this animal or that animal or anything? If it sounds scary, you get out of there fast. It lets that that stimulus and those feelings in instantly. It doesn't vet them. So this is, again, another way that the feeling system works. I think it's non rational when you're talking about helping others. And what it means is that if you get the sense that you can't do it all, you might not do what you can do, which is non rational. But if you're thinking slowly and analytically, then you can appreciate the fact that you are doing some good helping that child. So now then, it occurred to us that this might be relevant to a major problem in the world today, which is terrorism, and the fact that it's getting more and more difficult to stop certain types of terrorist attacks. So after, in recent years, we focused on protecting airplanes because of the spectacular attack on 911 with the planes. And we've gotten pretty good at protecting airplanes at a great cost, time and money and hassle. But now terrorists have employed different methods. They realize that it's tough to bring something on an airplane to cause a problem. So now they're doing things like they did in nice, driving trucks into crowds. Well, you can't protect against that kind of action. You can't protect, you know, trucks as weapons, crowds as vulnerable. I mean, they're everywhere. There's no way that you can do the kind of protection there that you can protect an airliner. So we're very vulnerable there. And sure, we have to do all kinds of intelligence to try to ferret out these plots before they, they're attempted. But now we're wondering whether we can demotivate terrorists in the same way that we found that good people were demotivated from helping by deceptive feeling cues. The assumption, and this is a big assumption, is that, that a terrorist is rational in the sense that they have something they want to achieve. We may not like what they want to achieve, but they have a goal. And can we give them a sense that what they'll accomplish is like a drop in the bucket? It's not really going to make a difference or it's going to be, can we make it not feel as good about trying that attack through putting things in the environment that dampen their feelings towards what they can accomplish? I'm not going to elaborate more on that, but again, it's based on this notion that you noted in terms of, of effectiveness or not being able to do it all.",
+      "id": "ep_84_ut_23"
+    },
+    {
+      "end": 2333782,
+      "speaker": "Enrico Bertini",
+      "start": 2275246,
+      "text": "So in a way, this research is terrifying. I'm sorry to say that, Paul. I mean, what we see happening when you test these conditions in the lab seems to. Yeah, it's very concerning. So one thing I wanted to ask you is, what can we do? Especially, I think many of the people who are listening to this show are very enthusiastic about the idea of visualizing information, data and statistics. And many of us believe that we can also do very good with this. But your research seems to point to the fact that numbers and statistics are actually not very good. So what can facts are.",
+      "id": "ep_84_ut_24"
+    },
+    {
+      "end": 2334918,
+      "speaker": "Moritz Stefaner",
+      "start": 2333838,
+      "text": "Facts are overrated.",
+      "id": "ep_84_ut_25"
+    },
+    {
+      "end": 2349288,
+      "speaker": "Enrico Bertini",
+      "start": 2334966,
+      "text": "Everybody knows that. Right. So what can we do to counteract this? Is there anything that I don't know? Do you have any suggestion or tips on how we can do this job better?",
+      "id": "ep_84_ut_26"
+    },
+    {
+      "end": 2906450,
+      "speaker": "Paul Slovic",
+      "start": 2349486,
+      "text": "So, yes, this is depressing in many ways. And in fact, unfortunately, the world is depressing. If you look what's going on like in Syria or other places, it's damn depressing. So the first step is to be aware of the way our minds work with information. And so that's what we're trying to do. We do these studies, and then we hope that people will see the results and that we can get them interested enough and aware of these phenomena so they can be on guard. When you see a big number, don't take the time to, don't just go with your first gut reaction to that number, which might be rather faint, but think carefully. Use what Kahneman calls system two to think carefully about the reality that that number represents. So that's the first step for those who present information. You know that you have different ways that you can, what we call frame the number. You can take the same information and you can describe it in different ways. And one of the things that we learn about the feeling system is that it often reacts more strongly to changes in numbers or ratios than to the numbers themselves. So if the chance of something happening or the number of people affected changes, you could say, well, it's doubled or tripled or something like that. So the ratio conveys feelings that the numbers themselves don't convey. And that's why in the work that Kahneman and his colleague Amos Tversky did, that condominium, the Nobel Prize, it's a theory called prospect theory. And they have something called the value function, how we value amounts of things. The amounts are changes. They're not absolute amounts. They're changes from a reference point. So if you're talking about money people, they're often not very sensitive to whether their network worth is, you know, 3000 or 3500. But they know that they just lost $100. You know, that that's bad, that changes. We're more sensitive to changes than to the actual amounts. So graph or present your data if there are, if you can do it in that way, if you've got a reference point, use the reference point, because then we gauge the value by how it relates to the reference point. So I once saw a news clipping around the time of the financial crisis in the world. The companies were doing poorly, stocks were doing poorly. And there's something called a quarterly earnings forecast for a company that everyone looks at to see how well they did this last quarter. And stocks are very sensitive to it. The prices are very sensitive to whether you beat or fail to beat the forecast. And what had happened was that the analysts deliberately dampened down their forecast to make it easier for companies to meet the goals. And sure enough, when they beat these weak forecasts, their prices rose. So it wasn't, you know, the relative beating. The forecast was good, even if the forecast was kind of meaningless. And when I talk about this, I relate that to a cartoon that I saw from the New Yorker. This guy is looking at the news channel and the announcer is saying, meaningless statistics are up 5% this year. So the fact that they're up 5% is good. It gives meaning. The reference point gives meaning to information that, I mean, the information should have meaning by itself, but you can boost that with comparisons, and that's what we call framing. So that's one example. And the other is to create or provide stories or visual or pictures of what is being represented by the numbers. And it is true that a picture is worth a thousand words or maybe 1000 numbers. These photographs can be very powerful. But even there, there's a limitation. I mean, they do help us understand the reality behind the numbers, but you can also get numb to the photographs. So we've been getting a lot of photographs from Syria of horrible atrocities in children who've been bombed and injured or killed. There have been two in the last year. The little boy who washed up on the shore of the beach in, I think it was in Turkey, very powerful. Elon Curti had a strong response. For about a month, there were a lot of concern about refugees, and more money was donated to help refugees and things. But ultimately things went back to normal. A few weeks ago, we had the picture of the little boy, Omran Daqneesh, a little boy with mud all over his face, staring blankly. Did you see that? And that, too, created out of many thousands of pictures. Those two pictures have stood out. And they do create a response. We connect with the pictures and we have a little bit of a sense, better sense, of what the problem of thousands or millions of refugees might be. But it only lasts so long, but it gives us a window of time when we can act. But unless there's a system in place that is designed to do something effective about this, then after time, we forget about even these pictures and nothing happens. And that's what's happened with these dramatic photographs of refugee children. So images are important. I like to think of that with regard to climate change. I think in terms of data visualization. We see that most of the scientists in this area are very worried about what we're doing to our climate. They're forecasting all kinds of dire consequences. And the world is doing relatively little to halt our production of the fossil fuel pollution and other pollution that is causing this. And so they come out with things like a forecast. Well, in the next so many years, we can expect a certain centimeter rise in sea level. Okay, well, that's the data. And then the question is, okay, well, what does that mean? How do I interpret that? And they can say, okay, well, they can show me a map of shorelines that are going to be changed because of this rise in sea level. And that helps me a little bit, but it would help even more if I live near a coastline, if I saw myself, my home area, my favorite places, how much underwater they would be with this certain centimeter rise in sea level. So you have the visual, you have the number, you have the map visualization, and then you have the visualization, the experiential image that you can relate to, and that will make it much more meaningful and more, more powerful. So I think there's a lot that can be done in that regard to take the numbers and to translate them into images that can really have an impact on us.",
+      "id": "ep_84_ut_27"
+    },
+    {
+      "end": 2943040,
+      "speaker": "Enrico Bertini",
+      "start": 2906602,
+      "text": "Yeah. This actually reminds me of a new infographic that has been published a few days ago from the webcomic XKCD. I don't know if you are familiar with it, but it seems to confirm exactly what you just said. It's a very, it's a nice graphic that you need to, in order to interpret it, you have to scroll it for very, very, very long time. And it's basically just a timeline of how much the average temperature has changed during the last 2000 years. No, 2000 years.",
+      "id": "ep_84_ut_28"
+    },
+    {
+      "end": 2943936,
+      "speaker": "Moritz Stefaner",
+      "start": 2943152,
+      "text": "Even longer.",
+      "id": "ep_84_ut_29"
+    },
+    {
+      "end": 2992444,
+      "speaker": "Enrico Bertini",
+      "start": 2944040,
+      "text": "Yeah, even longer. Yeah. And everything is in reference to the average that we have between 1961 and 1990. And what you notice right away when you start looking at the graph from the very beginning is that the range is actually very small. We go from minus four to plus four. When you compare it to this average, I think that's the first thing that jumped at me when I saw the graphic. It's like, oh, my God, when we talk about global warming and included in this timeline, there is all the glacial era. Right. We're talking about a few degrees. And so that's very powerful and seems to confirm exactly what you just said.",
+      "id": "ep_84_ut_30"
+    },
+    {
+      "end": 2995404,
+      "speaker": "Paul Slovic",
+      "start": 2993664,
+      "text": "Yeah. So it's not hopeless.",
+      "id": "ep_84_ut_31"
+    },
+    {
+      "end": 2997824,
+      "speaker": "Enrico Bertini",
+      "start": 2996224,
+      "text": "Yeah, it's not hopeless. Yeah.",
+      "id": "ep_84_ut_32"
+    },
+    {
+      "end": 3033338,
+      "speaker": "Paul Slovic",
+      "start": 2997944,
+      "text": "There are ways to reframe data, to add images to support it, and also to show trends, things like that. We are sensitive to that kind of information, and we just need to be aware of the fact that we can't just assume that the basic numbers themselves will have the meaning that they should have. And so we have to work harder to draw the meaning from it.",
+      "id": "ep_84_ut_33"
+    },
+    {
+      "end": 3078364,
+      "speaker": "Moritz Stefaner",
+      "start": 3033426,
+      "text": "Yeah, I think that's an excellent point. And I think right now we're in a time where people often think the numbers will speak for themselves and we don't need to illustrate them. People will know what it means or something or. Yeah, they know how it's like there in this country. And I often hear this also in the business context that I like to criticize this idea that you can break down everything into a single key performance indicator or something, that you need this grounding of actually having been to the factory and knowing the people. And I think it's sort of coming back, this insight that without this perceptual grounding and this personal grounding, we don't actually even understand these things properly.",
+      "id": "ep_84_ut_34"
+    },
+    {
+      "end": 3119434,
+      "speaker": "Paul Slovic",
+      "start": 3078524,
+      "text": "And we need to start at early ages. We need to teach children to think critically about data. That's a very important skill that we should be training into children rather than just teaching them. Sure, we need to teach them mathematics and numbers, but we need to teach them how to appreciate the reality behind information and to be sensitive to the ways that they can make mistakes unless they think carefully about the data.",
+      "id": "ep_84_ut_35"
+    },
+    {
+      "end": 3144244,
+      "speaker": "Enrico Bertini",
+      "start": 3120494,
+      "text": "Yeah. I think it's paradoxical because on the other hand, we still teach to a lot of people how to reason with information, not only with feelings. Right. So we kind of, like, have both problems at the same time. You see an excess of people who are reasoning only with their feelings, and an excess of people, on the other hand, are using only numbers. Right.",
+      "id": "ep_84_ut_36"
+    },
+    {
+      "end": 3148864,
+      "speaker": "Moritz Stefaner",
+      "start": 3144744,
+      "text": "It's a complex presidential election is a good example, I would say.",
+      "id": "ep_84_ut_37"
+    },
+    {
+      "end": 3157284,
+      "speaker": "Paul Slovic",
+      "start": 3149024,
+      "text": "Yeah. The two candidates are very different. Obviously, Hillary is a data walk and Trump is all feelings.",
+      "id": "ep_84_ut_38"
+    },
+    {
+      "end": 3160484,
+      "speaker": "Moritz Stefaner",
+      "start": 3158824,
+      "text": "So we'll see who wins.",
+      "id": "ep_84_ut_39"
+    },
+    {
+      "end": 3213236,
+      "speaker": "Enrico Bertini",
+      "start": 3164044,
+      "text": "Date our feelings. That's the real struggle there. Okay, Paul, well, thanks a lot. That's really fascinating and clearly extremely useful. I'm sure our listeners will love this episode. One last question is what is the best source for our listeners to familiarize with your research and find information about you? I saw that you recently published a book. I'm wondering if this is the best source. The book is called numbers and nerves. I'm actually holding it in my hands right now. I started reading only a few pages, and it seems to summarize many of the studies and the information that we just talked about on the show.",
+      "id": "ep_84_ut_40"
+    },
+    {
+      "end": 3294894,
+      "speaker": "Paul Slovic",
+      "start": 3213340,
+      "text": "Yes, thanks for mentioning that. I think that is, for a single source, that would be the, the place to go. It's co edited with my son Scott, whose field is literature relating to environment. And we found over time that we had the same concerns about how people process information, whether it's about other people or about the environment that we need to see. And also it shows how artists and writers who are aware of these problems try to help us appreciate things large in scale through story, through the, or images. We have some chapters by photographers who have clever ways of, with photographs of conveying large numbers. And in fact, the COVID of the book, it's a sea of red, and you look carefully, it's a picture of 844,000 poppies that were near the Tower of London that were displayed to represent the number of war dead in the Commonwealth in World War one through this visual display of flowers. So anyway, that's a good way to get into this problem and this issue.",
+      "id": "ep_84_ut_41"
+    },
+    {
+      "end": 3299326,
+      "speaker": "Enrico Bertini",
+      "start": 3295194,
+      "text": "Okay, well, thanks a lot for coming on the show, Paul. Thank you very much.",
+      "id": "ep_84_ut_42"
+    },
+    {
+      "end": 3300734,
+      "speaker": "Paul Slovic",
+      "start": 3299430,
+      "text": "Thank you. Thank you all.",
+      "id": "ep_84_ut_43"
+    },
+    {
+      "end": 3301606,
+      "speaker": "Moritz Stefaner",
+      "start": 3300854,
+      "text": "Thanks so much.",
+      "id": "ep_84_ut_44"
+    },
+    {
+      "end": 3302206,
+      "speaker": "Enrico Bertini",
+      "start": 3301670,
+      "text": "Bye bye.",
+      "id": "ep_84_ut_45"
+    },
+    {
+      "end": 3303394,
+      "speaker": "Paul Slovic",
+      "start": 3302270,
+      "text": "Bye bye. Bye bye.",
+      "id": "ep_84_ut_46"
+    },
+    {
+      "end": 3320046,
+      "speaker": "Enrico Bertini",
+      "start": 3310374,
+      "text": "Hey, guys, thanks for listening to data stories again. Before you leave, we have a request if you can spend a couple of minutes rating us on iTunes, that would be extremely helpful for the show.",
+      "id": "ep_84_ut_47"
+    },
+    {
+      "end": 3350842,
+      "speaker": "Moritz Stefaner",
+      "start": 3320150,
+      "text": "And here's also some information on the many ways you can get news directly from us. We're, of course, on twitter@twitter.com. Datastories. We have a Facebook page@Facebook.com. datastoriespodcast, all in one word. And we also have an email newsletter. So if you want to get news directly into your inbox and be notified whenever we publish an episode, you can go to our homepage datastory es and look for the link that you find on the bottom and the footer.",
+      "id": "ep_84_ut_48"
+    },
+    {
+      "end": 3362930,
+      "speaker": "Enrico Bertini",
+      "start": 3350938,
+      "text": "So one last thing that we want to tell you is that we love to get in touch with our listeners, especially if you want to suggest a way to improve the show or amazing people you want us to invite or even projects you want us to talk about.",
+      "id": "ep_84_ut_49"
+    },
+    {
+      "end": 3408424,
+      "speaker": "Moritz Stefaner",
+      "start": 3363042,
+      "text": "Yeah, absolutely. So don't hesitate to get in touch with us. It's always a great thing for us. And that's all for now. See you next time, and thanks for listening to data stories. This episode of Datastore is sponsored by Freshbooks, the small business accounting software that makes accounting tasks easy, fast and secure. Freshbooks is offering a month of free, unrestricted use to all of our listeners. To claim your free month, go to freshbooks.com Datastories, where you can sign up for free and without a credit card. Remember to enter data stories in the section titled I heard about freshbooks from at Signup. Once again, go to freshbooks.com Datastories to claim your free month.",
+      "id": "ep_84_ut_50"
+    }
+  ],
+  "confidence": 0.937291812508297,
+  "audio_duration": 3408,
+  "punctuate": true,
+  "format_text": true,
+  "dual_channel": false,
+  "webhook_url": null,
+  "webhook_status_code": null,
+  "webhook_auth": false,
+  "webhook_auth_header_name": null,
+  "speed_boost": false,
+  "auto_highlights_result": null,
+  "auto_highlights": false,
+  "audio_start_from": null,
+  "audio_end_at": null,
+  "word_boost": [],
+  "boost_param": null,
+  "filter_profanity": false,
+  "redact_pii": false,
+  "redact_pii_audio": false,
+  "redact_pii_audio_quality": null,
+  "redact_pii_policies": null,
+  "redact_pii_sub": null,
+  "speaker_labels": true,
+  "content_safety": false,
+  "iab_categories": true,
+  "content_safety_labels": {
+    "status": "unavailable",
+    "results": [],
+    "summary": {}
+  },
+  "language_detection": false,
+  "language_detection_threshold": null,
+  "language_confidence": null,
+  "custom_spelling": null,
+  "throttled": false,
+  "auto_chapters": true,
+  "summarization": false,
+  "summary_type": null,
+  "summary_model": null,
+  "custom_topics": false,
+  "topics": [],
+  "speech_threshold": null,
+  "speech_model": "best",
+  "chapters": [
+    {
+      "summary": "This episode of data stories is sponsored by Freshbooks. Freshbooks is offering a month of free and restricted use to all of our listeners. The URL to claim your free month is freshbooks. com Datastories. Remember to enter data stories in the section titled I heard about freshbooks from at signup.",
+      "gist": "Data Stories",
+      "headline": "This episode of data stories is sponsored by Freshbooks small business accounting software",
+      "start": 200,
+      "end": 54384,
+      "id": "ep_84_ch_0"
+    },
+    {
+      "summary": "Enrico: I have a very exciting food related project coming up. This is actually a data visualization about food. Should come out in November, hopefully. Ben Shneiderman is baking chart pies.",
+      "gist": "Data Stories: Food",
+      "headline": "Moritz: I have a very exciting food related project coming up",
+      "start": 74314,
+      "end": 133010,
+      "id": "ep_84_ch_1"
+    },
+    {
+      "summary": "We're talking about statistical numbing and genocide, neglect, or also called arithmetic of compassion. Professor Paul Slovak, who is a professor at the University of Oregon with us. We want to talk about the power or lack of power of numbers and statistics to communicate empathy to other people.",
+      "gist": "\"Statistical Numbing and Genocide\"",
+      "headline": "We're talking about statistical numbing and genocide, neglect",
+      "start": 133082,
+      "end": 259744,
+      "id": "ep_84_ch_2"
+    },
+    {
+      "summary": "Paul Waldman: We think in two different modes, fast, intuitive types of response, and then slow, careful analytic thinking. The intuitive mode is evolutionarily ancient. More recently, an evolutionary scale, we have developed the capacity to think analytically. Waldman's work is very much oriented around the fast and slow thinking.",
+      "gist": "The Problem of Thinking Fast and Slow",
+      "headline": "We think in two different modes, fast intuitive and then slow analytic thinking",
+      "start": 260204,
+      "end": 700470,
+      "id": "ep_84_ch_3"
+    },
+    {
+      "summary": "Paul: How important is a human life? How valuable, how much effort should we make to protect a life, to save a life? And we put great value on an individual life. But when the number of lives becomes less important, that life loses its importance.",
+      "gist": "Social Norms of Numbing and Neglect",
+      "headline": "Let's think about how we value a human life",
+      "start": 700622,
+      "end": 1099024,
+      "id": "ep_84_ch_4"
+    },
+    {
+      "summary": "Freshbooks is excited to announce the launch of an all new version of their cloud accounting software. Get ready for the simplest way to be more productive, organized, and most importantly, get paid quickly. Freshbooks is offering a 30 day unrestricted free trial to our listeners.",
+      "gist": "New for 2013: Freshbooks invoicing software",
+      "headline": "Freshbooks is offering a 30 day unrestricted free trial to our listeners",
+      "start": 1103664,
+      "end": 1199354,
+      "id": "ep_84_ch_5"
+    },
+    {
+      "summary": "Researchers found that adding more people can provoke less empathy. And also smaller amount of donations. Could this be a failure of the feeling system because the feeling is designed to be sensitive at the very low level?",
+      "gist": "The Collapse of Compassion",
+      "headline": "You found that adding more people can provoke less empathy",
+      "start": 1203334,
+      "end": 1663694,
+      "id": "ep_84_ch_6"
+    },
+    {
+      "summary": "We help others not only because they need our help, but because we feel good about helping. Study found that even if there's one other child that you can't help, you don't feel as good about the child you can help. The negative feelings from the one or more children, up to a million, that you're not helping.",
+      "gist": "How do we feel about the starving children?",
+      "headline": "Shark: There's a lot of head in the sand denial going on",
+      "start": 1663994,
+      "end": 2098762,
+      "id": "ep_84_ch_7"
+    },
+    {
+      "summary": "It's getting more and more difficult to stop certain types of terrorist attacks. We're wondering whether we can demotivate terrorists in the same way that we found that good people were demotivated by deceptive feeling cues. In a way, this research is terrifying.",
+      "gist": "Could We Stop Terrorism?",
+      "headline": "Researchers are looking at ways to demotivate terrorists ahead of terrorist attacks",
+      "start": 2098858,
+      "end": 2298114,
+      "id": "ep_84_ch_8"
+    },
+    {
+      "summary": "Research seems to point to the fact that numbers and statistics are actually not very good. The first step is to be aware of the way our minds work with information. When you see a big number, don't just go with your first gut reaction to that number. Think carefully.",
+      "gist": "Statistics and the way we frame them",
+      "headline": "Your research suggests that numbers and statistics are actually not very good",
+      "start": 2299134,
+      "end": 2906450,
+      "id": "ep_84_ch_9"
+    },
+    {
+      "summary": "Paul Waldman: We need to teach children to think critically about data. He says we can't just assume that the basic numbers themselves will have the meaning that they should have. Waldman says without this perceptual grounding, we don't actually understand these things properly.",
+      "gist": "A Chart of Global Warming",
+      "headline": "Paul Martin: We need to teach children to think critically about data",
+      "start": 2906602,
+      "end": 3180500,
+      "id": "ep_84_ch_10"
+    },
+    {
+      "summary": "One last question is what is the best source for our listeners to familiarize with your research and find information about you? I saw that you recently published a book called numbers and nerves. For a single source, that would be the, the place to go.",
+      "gist": "Sources of information about data science",
+      "headline": "What is the best source for our listeners to familiarize with your research",
+      "start": 3180692,
+      "end": 3313206,
+      "id": "ep_84_ch_11"
+    },
+    {
+      "summary": "Before you leave, we have a request if you can spend a couple of minutes rating us on iTunes. Here's also some information on the many ways you can get news directly from us. We love to get in touch with our listeners, especially if you want to suggest a way to improve the show.",
+      "gist": "Data Stories Podcast",
+      "headline": "Before you leave, we have a request if you can spend a few minutes rating us on iTunes",
+      "start": 3313350,
+      "end": 3372294,
+      "id": "ep_84_ch_12"
+    },
+    {
+      "summary": "Freshbooks is offering a month of free, unrestricted use to all of our listeners. To claim your free month, go to freshbooks. com Datastories. Remember to enter data stories in the section titled I heard about freshbooks from at Signup.",
+      "gist": "Free Month for Freshbooks",
+      "headline": "Freshbooks is offering a month of free, unrestricted use to all our listeners",
+      "start": 3375874,
+      "end": 3408424,
+      "id": "ep_84_ch_13"
+    }
+  ],
+  "disfluencies": false,
+  "entity_detection": false,
+  "sentiment_analysis": false,
+  "sentiment_analysis_results": null,
+  "entities": null,
+  "speakers_expected": null,
+  "summary": null,
+  "custom_topics_results": null,
+  "episode_num": 84,
+  "episode_metadata": {
+    "speakers": [
+      "Paul Slovic",
+      "Enrico Bertini",
+      "Moritz Stefaner"
+    ],
+    "WPid": "779",
+    "url": "https://datastori.es/podlove/file/3144/s/feed/c/mp3/84-statistical-numbing-with-paul-slovic.mp3",
+    "episode_title": "Statistical Numbing with Paul Slovic"
+  }
+}

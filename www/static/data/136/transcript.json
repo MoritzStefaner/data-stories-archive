@@ -1,0 +1,1009 @@
+{
+  "id": "367fd58e-f5bd-4b6e-8375-177aba061fb7",
+  "language_model": "assemblyai_default",
+  "acoustic_model": "assemblyai_default",
+  "language_code": "en_us",
+  "status": "completed",
+  "audio_url": "https://datastori.es/podlove/file/5622/s/feed/c/mp3/136-simulated-dendrochronology-of-us-immigration-with-pedro-cruz-and-john-wihbey.mp3",
+  "utterances": [
+    {
+      "end": 6130,
+      "speaker": "Pedro Cruz",
+      "start": 200,
+      "text": "What I try to do in my practice is to advance how metaphors can be applied to visualization.",
+      "id": "ep_136_ut_0"
+    },
+    {
+      "end": 39132,
+      "speaker": "Moritz Stefaner",
+      "start": 25550,
+      "text": "Hi, everyone. Welcome to a new episode of data stories. My name is Moritz Stefaner, and I'm an independent designer of data visualizations. I work as a self employed truth and beauty operator out of my office here in the countryside in the north of Germany.",
+      "id": "ep_136_ut_1"
+    },
+    {
+      "end": 46364,
+      "speaker": "Enrico Bertini",
+      "start": 39276,
+      "text": "And I am Enrico Bertini. I am a professor at New York University, where I do research in data visualization.",
+      "id": "ep_136_ut_2"
+    },
+    {
+      "end": 57910,
+      "speaker": "Moritz Stefaner",
+      "start": 46532,
+      "text": "Yeah, and on this podcast, we talk about data visualization, data analysis, and generally the role data plays in our lives. And usually we do that together with a guest or two that we invite on the show.",
+      "id": "ep_136_ut_3"
+    },
+    {
+      "end": 83478,
+      "speaker": "Enrico Bertini",
+      "start": 58060,
+      "text": "Exactly. But before we start, just a quick note. Our podcast is listener supported, so there's no ads. So if you enjoy the show, please consider supporting us with recurring payments, which you can make either on Patreon, going to patreon.com Datastories, or you can also send us a one time donations on PayPal me Datastories.",
+      "id": "ep_136_ut_4"
+    },
+    {
+      "end": 131522,
+      "speaker": "Moritz Stefaner",
+      "start": 83634,
+      "text": "That's right. And we're always super happy when a little donation comes in or a new Patreon has been found. We're also happy about your messages, and there's many ways you can get in touch with us by email, by Twitter. You can find all this on the website. What's new is we also have an Instagram account now. Yeah, and it's at data stories in one word, podcast. Data stories podcast. And yeah, there you can see when we publish a new episode, you might also be able to see a bit of behind the scenes from upcoming recordings, so might be worth checking out. Data stories, podcast. Anyways, enough about us, let's get started with the main topic, and we have two special guests today who join us. And we have, on the one hand, Pedro Cruz. Hi, Pedro.",
+      "id": "ep_136_ut_5"
+    },
+    {
+      "end": 132282,
+      "speaker": "Pedro Cruz",
+      "start": 131626,
+      "text": "Hello.",
+      "id": "ep_136_ut_6"
+    },
+    {
+      "end": 134786,
+      "speaker": "Moritz Stefaner",
+      "start": 132426,
+      "text": "And we have John Wihbey. Hi, John.",
+      "id": "ep_136_ut_7"
+    },
+    {
+      "end": 136066,
+      "speaker": "John Wihbey",
+      "start": 134898,
+      "text": "Hello. Hi.",
+      "id": "ep_136_ut_8"
+    },
+    {
+      "end": 136714,
+      "speaker": "Enrico Bertini",
+      "start": 136178,
+      "text": "Hi.",
+      "id": "ep_136_ut_9"
+    },
+    {
+      "end": 137514,
+      "speaker": "Moritz Stefaner",
+      "start": 136842,
+      "text": "Welcome.",
+      "id": "ep_136_ut_10"
+    },
+    {
+      "end": 138074,
+      "speaker": "Enrico Bertini",
+      "start": 137642,
+      "text": "Pedro.",
+      "id": "ep_136_ut_11"
+    },
+    {
+      "end": 140362,
+      "speaker": "Moritz Stefaner",
+      "start": 138122,
+      "text": "Can you tell us a bit about yourself?",
+      "id": "ep_136_ut_12"
+    },
+    {
+      "end": 169186,
+      "speaker": "Pedro Cruz",
+      "start": 140506,
+      "text": "Of course. First of all, thank you for bringing us here, a data visualization designer who explores new metaphoric ways that are very figurative in order to visualize information. I'm an assistant professor here at Northeastern University, mostly in the MFA in information design and visualization, and I have a PhD in information science and technology from the University of Coimbra. So my background is computer science.",
+      "id": "ep_136_ut_13"
+    },
+    {
+      "end": 170658,
+      "speaker": "Moritz Stefaner",
+      "start": 169338,
+      "text": "John, how about you?",
+      "id": "ep_136_ut_14"
+    },
+    {
+      "end": 195770,
+      "speaker": "John Wihbey",
+      "start": 170794,
+      "text": "Yeah, so I'm a professor, an assistant professor of journalism and media innovation at Northeastern University, and I have a sort of long running interest in data journalism and data visualization. And in the four or five years I've been a full time academic that's just sort of grown, and it's grown in some proportion because of just meeting Pedro and getting involved in some crazy fun projects.",
+      "id": "ep_136_ut_15"
+    },
+    {
+      "end": 219950,
+      "speaker": "Moritz Stefaner",
+      "start": 196990,
+      "text": "That's great. And one of these crazy fun projects is also the main reason we have you on the show today. It's actually one of our favorite data visualization projects from the last year, and I think many, many people joined that sentiment. And it's called simulated dendrochronology of us immigration. So that's a very sciency name. First of all, what is dendrochronology?",
+      "id": "ep_136_ut_16"
+    },
+    {
+      "end": 292866,
+      "speaker": "Pedro Cruz",
+      "start": 220530,
+      "text": "Yes, we indeed wanted to bring a little bit of science into that project. So dendrochronology is the science or techniques of dating events, environmental change and archaeological artifacts by using the characteristics, patterns of annual growth rings in timber and tree trunks. So basically, a tree has its own way of organizing information, and it grows in its own way. And you can basically look into the structure of the tree itself. And you have several ways in how you can do this to understand the environmental conditions that affected the tree itself. So that's what they do. Usually those rings are annual, so you can count how old the tree was, can figure out if you have a very thick ring, that the conditions were better during that year, for example. And you can even try to figure out if the tree was leaning into a certain direction more than the other, for example. So it's a set of techniques, it's actually a science and a set of practices that enables you to extract evidence in how these tree rings, in how these trees lived.",
+      "id": "ep_136_ut_17"
+    },
+    {
+      "end": 314040,
+      "speaker": "Enrico Bertini",
+      "start": 292978,
+      "text": "So then the project and visualization we're talking about takes this as the main metaphor, right, to create a really beautiful and compelling and informative visualization. So can you briefly describe. I know that it's a little hard to describe it in words, and let's see if we can make it. So how does the visualization work?",
+      "id": "ep_136_ut_18"
+    },
+    {
+      "end": 431950,
+      "speaker": "Pedro Cruz",
+      "start": 314660,
+      "text": "So we try to bring out this knowledge from dental chronology to the visualization itself. We used about 2 billion entries from. This is actually census data from the University of Minnesota. And because we wanted to have the registries of the people themselves that declared that they came from a certain country, so we wanted to work with the raw data. And what we wanted to have was a system that indeed placed or positioned cells that represent that people and that simulates it in a way that is similar to how trees grow in order to have this metaphor of the tree ring here working for this data. So how it works is that each tree ring is separated by ten years. It's ten years apart because those are the census data, ideally, we would have one year because that's how trees works. But the census data put some constraints on us regarding that. And then you can read the thickness of the ring, and by the thickness of the ring, you can infer, for example, how many people were brought into the country in that time period. That's one of the main things. The other is that you can perhaps you can also count the tree rings and make associations in terms of comparisons, temporary wise. For example, the cells, they grow at the center, so the older ones are at the center. And the most recent ones, the most recent waves of immigration in this case, are more in the periphery of the tree ring. And this is inspired in the model in how tree rings grow. It also grows more to certain locations, depending on immigration comes from. But that's another property that I would like to elaborate on as we go, as we talk more.",
+      "id": "ep_136_ut_19"
+    },
+    {
+      "end": 472878,
+      "speaker": "Moritz Stefaner",
+      "start": 432650,
+      "text": "Yeah. But as it totally provides a really beautiful metaphor for how a nation grows similar to a tree. Right. By all the people joining the country at different points in time, and also how they all leave their traces. Right. And I think that makes a very beautiful overall framing for the whole topic and at the same time, a very readable, and let's say, intuitive graphic. I know the word intuitive is always a bit difficult, but I think in this case, it really applies because you take something that people know from nature and you reuse it in a new context. How did you come up with this idea? How did it start?",
+      "id": "ep_136_ut_20"
+    },
+    {
+      "end": 527162,
+      "speaker": "John Wihbey",
+      "start": 472974,
+      "text": "I think it was sitting around in my office. Pedro and I had completed a project completely unrelated on financial disclosure and transparency in the United States. It's something that, it was a research interest that Pedro had pursued relating to Lisbon and his native Portugal. So we had done some interesting metaphors with respect to transparency, political transparency. And then we got to sitting around my office one day talking about immigration, and it was very much, obviously been the topic du jour in the United States. And we were trying to think through how we could say something different and make a contribution, and we started talking about different kinds of metaphors that could be used in this domain. And then, Pedro, do you recall exactly when you fixed on the tree ring possibility?",
+      "id": "ep_136_ut_21"
+    },
+    {
+      "end": 545302,
+      "speaker": "Pedro Cruz",
+      "start": 527266,
+      "text": "Yeah, yeah. So, actually. And we decided to take these points that John mentioned from the perspective of population flows in and to America. That was the first project that impaled this one.",
+      "id": "ep_136_ut_22"
+    },
+    {
+      "end": 548006,
+      "speaker": "Moritz Stefaner",
+      "start": 545446,
+      "text": "So you thought about particles and things moving.",
+      "id": "ep_136_ut_23"
+    },
+    {
+      "end": 630758,
+      "speaker": "Pedro Cruz",
+      "start": 548118,
+      "text": "Very good. Very good. So the first thing. Yes. Flows and particles and swarms and whatever not. But, you know, it would be interesting, for sure. But that's something that. That is already done, and I would be developing, again, something from scratch that is a lot of work just to implement solutions that are already out there. And what I try to do in my practice is to advance how metaphors can be applied to visualization, because the flows or edge bundling or swarms, they are also metaphors in themselves for flows. But I wanted something else that I haven't seen before to use in this theme. And something that I. Even during a very intense process of brainstorming, there was this hypothesis of having soil layers and tectonic plates. You can stack them up, because it's also in line with this historical sense of the data. It's preserved. It gives you an overall impression. But then from that, we. We went to trees. We went to trees. And the first time we went to trees, I remember that I thought, okay, trees, do we have any hierarchical information here? Because that's how you use trees.",
+      "id": "ep_136_ut_24"
+    },
+    {
+      "end": 633570,
+      "speaker": "Moritz Stefaner",
+      "start": 630894,
+      "text": "Could you make it hierarchical? So we could use a tree?",
+      "id": "ep_136_ut_25"
+    },
+    {
+      "end": 696982,
+      "speaker": "Pedro Cruz",
+      "start": 634670,
+      "text": "But it wasn't. So that led us to, oh, what about the cross section of the tree? What do we have in there that we can use? And that's how the idea was born. But please keep in mind, this was, okay, let's use the tree rings to show this history of immigration. But we didn't have any idea in how we would implement it and even graphically wise, how it would look, because we didn't want it to look too cartoonish, for example. So the objective here was not to draw something that looks like tree rings and gives you a data impression of something. The objective was more to have a system that grows a tree that reacts to data, and from this system that has behaviors that are inspired in the data, you naturally have this outcome that comes from the data.",
+      "id": "ep_136_ut_26"
+    },
+    {
+      "end": 705130,
+      "speaker": "Enrico Bertini",
+      "start": 697126,
+      "text": "Very nice. And then, basically, was that kind of like a light bulb moment? It's like, yeah, it's three rings.",
+      "id": "ep_136_ut_27"
+    },
+    {
+      "end": 706054,
+      "speaker": "Pedro Cruz",
+      "start": 705510,
+      "text": "Yes.",
+      "id": "ep_136_ut_28"
+    },
+    {
+      "end": 736190,
+      "speaker": "John Wihbey",
+      "start": 706142,
+      "text": "Well, working with Pedro is really fun because he sometimes operates as kind of a religious mystic when he'll just kind of, he'll walk into the room and say, I'm thinking of trees, and he'll just stop. And then you just wonder, what is he madman like? Let's unpack this idea. And so it's quite fun. And at first, I was somewhat skeptical, but then I started thinking about trees, and then we just sat there and thought about trees for a long time. And it was. Yeah, anyway, it came organically.",
+      "id": "ep_136_ut_29"
+    },
+    {
+      "end": 767970,
+      "speaker": "Pedro Cruz",
+      "start": 736730,
+      "text": "Yes. And John was very skeptical because the first drafts that I brought him were the first iterations of the project that are in that research paper of mine that Morris mentioned. And as you can see, they don't really look like tree rings. So that's why they were skeptical. But I was in a phase that I was beginning to simulate the process because it takes time to refine it. And one actually has to read a lot about trees in order to make these things working.",
+      "id": "ep_136_ut_30"
+    },
+    {
+      "end": 780730,
+      "speaker": "Enrico Bertini",
+      "start": 768510,
+      "text": "So basically, after coming up with the idea and the metaphor, now you had to figure out how to actually implement it, right, and come up with an algorithm. So how can you explain us how this works?",
+      "id": "ep_136_ut_31"
+    },
+    {
+      "end": 805070,
+      "speaker": "Pedro Cruz",
+      "start": 780810,
+      "text": "Of course. Well, the first take that I tried to do was basically a stacking algorithm. So you have cells, you do 360 degree circles, and you deposit cells, and in the end, you have, like, a shape that is made out. It's a stacked bar chart that is rotated.",
+      "id": "ep_136_ut_32"
+    },
+    {
+      "end": 809530,
+      "speaker": "Moritz Stefaner",
+      "start": 806350,
+      "text": "You can also do these types of radial stacks.",
+      "id": "ep_136_ut_33"
+    },
+    {
+      "end": 903832,
+      "speaker": "Pedro Cruz",
+      "start": 810030,
+      "text": "Indeed, indeed. And we didn't want to do that, so we moved to have a physics engine there, because those cells are born, and whenever they are born, they push the other cells that are around them. And these pushes are what create is what creates the organic shapes that we are used to seeing trees. And it's also very important to know where to implement those pushes, because at the beginning, for example, I was making all cells being born at the center of the visualization, and that would result in something that is always very circular. And I realized that it's not there where cells grow in a tree. It's in a place called the vascular cambium, which is just below the bark. Just below the bark. It grows there. And then you have this interesting property, which is you have the trunk that exerts some pressure also on those newborn cells. Right. And that's also a property that confers the type of shapes that we are used to see in tree rings. And in order to make that happen, indeed, I had to make a cell born in a certain place, always around the rim, but a few, a few cells inside of the ones that were already there in order to have that pressure.",
+      "id": "ep_136_ut_34"
+    },
+    {
+      "end": 904660,
+      "speaker": "Moritz Stefaner",
+      "start": 903976,
+      "text": "Nice.",
+      "id": "ep_136_ut_35"
+    },
+    {
+      "end": 907740,
+      "speaker": "Pedro Cruz",
+      "start": 905960,
+      "text": "That's what creates the effect.",
+      "id": "ep_136_ut_36"
+    },
+    {
+      "end": 911328,
+      "speaker": "Moritz Stefaner",
+      "start": 908720,
+      "text": "That must have taken a while to figure out.",
+      "id": "ep_136_ut_37"
+    },
+    {
+      "end": 920104,
+      "speaker": "Pedro Cruz",
+      "start": 911504,
+      "text": "Yes, yes. We went through a lot, series of experimentations, and even there was a funny one with color. Do you want to tell that one?",
+      "id": "ep_136_ut_38"
+    },
+    {
+      "end": 1003700,
+      "speaker": "John Wihbey",
+      "start": 920272,
+      "text": "Well, yeah. So there were a number of dynamics at a kind of higher level of meaning and representation that we were really kind of worried about. So one was we realized that. We realized that if we include native borns alongside, then one of the things, because the early census counts are counting basically white Europeans, is that the core of our representation of America would look all white. And we were very conscious of, like, what that would look like. And we knew that has a certain reality. Obviously, African Americans were not counted. They were slaves at the time, and indigenous peoples and Native Americans were not counted early on. So we had all these problems in trying to paint a picture of American diversity in a way that is fair to history. But the other problem was we were going to incorporate colors, and colors were going to encode, you know, the regions and continents of origin of different people. And so what Pedro was alluding to just now is that originally Pedro came to me with a design in which everything was red, white, and blue. And I. And so we immediately started working on that problem, as it just seemed, because we had.",
+      "id": "ep_136_ut_39"
+    },
+    {
+      "end": 1037601,
+      "speaker": "Pedro Cruz",
+      "start": 1003820,
+      "text": "We had blue for immigrants coming from Europe, and we had read for immigrants coming from Canada. And in the first years of Massachusetts, for example, those are the only groups of immigrants. So Massachusetts was looking very blue and red. And given the cultural context of these colors here in the US, we didn't want to say that this type of immigration is more American than the other that would be coming after. So we had to change.",
+      "id": "ep_136_ut_40"
+    },
+    {
+      "end": 1063869,
+      "speaker": "John Wihbey",
+      "start": 1037765,
+      "text": "That's right. I mean, the audience. Yeah, the audiences are just going to be so. And they were, when we put this out on social media, just so aware of all of the different levels of meaning and encoding and the resonance and kind of valence of meaning around all of these different choices. And people are very acutely sensitive and aware of all of this. So we tried to do our best to be fair and interesting at the same time.",
+      "id": "ep_136_ut_41"
+    },
+    {
+      "end": 1064602,
+      "speaker": "Pedro Cruz",
+      "start": 1064290,
+      "text": "Yeah.",
+      "id": "ep_136_ut_42"
+    },
+    {
+      "end": 1140170,
+      "speaker": "Moritz Stefaner",
+      "start": 1064626,
+      "text": "But then we come back also to this topic of what is the emotional, you know, message of a visualization? What are the associations people have just with the. The image itself? Right. And this is something like in data visualization, we often talk about how effective are different chart types, how effective are different visual channels. But I think we don't talk so much about the semiotic aspects and about the semantic aspects, about all the emotional connotations and associations that are triggered by certain visual artifacts. Right. And I think this is why this idea of using such a metaphor can be such a powerful one. But you're right, it has to be done also the right way. Otherwise you can totally have a good intention message the wrong thing. At the end of the day, I think you touched on a bit on why the tree is a good metaphor and how you were careful with the colors and what the overall impression is. Are there any other thoughts around why you felt that the tree or the tree cross section is overall a good vehicle for the ideas at hand.",
+      "id": "ep_136_ut_43"
+    },
+    {
+      "end": 1249048,
+      "speaker": "Pedro Cruz",
+      "start": 1140630,
+      "text": "First, there are other implementation, other interesting implementation stories that we can talk about that lead to that type of tree that we have. But nonetheless, whenever you have an object like this, let's call it an object, and whenever you have someone pointing at a specific tree ring and talking to his family that we came here in this period and this is us, you have an emotional connection there, and you have an emotional connection because it's a tree ring. It's saying that all cells are a part of this tree and that all cells contributed to the growth of the country. So those are the main messages that at least I try to convey also. It's a message of inclusivity or inclusiveness. There are the two trends nowadays in how to say the word. So those were the main messages. And I think the tree ring conveyed that a lot because it's an organism where we all contributed to its growth, and it's also an organism that shows a long history that has this historical sense associated with it. And, you know, and it's very real. It's a little bit morbid even in the sense that a cross section of a tree is made of dead cells. So only cells in that vascular cambium are alive and the others are dead. And indeed, the people that we represented as well, most of them are as well already because they come, they contributed, they consolidated, but it's like they left its mark in history, but they still leave a trace.",
+      "id": "ep_136_ut_44"
+    },
+    {
+      "end": 1253592,
+      "speaker": "Moritz Stefaner",
+      "start": 1249104,
+      "text": "Exactly. Part of the overall construction, basically. Yeah.",
+      "id": "ep_136_ut_45"
+    },
+    {
+      "end": 1302496,
+      "speaker": "Pedro Cruz",
+      "start": 1253736,
+      "text": "So it's a matter of trying to find, you know, this whole thing of metaphors is about, you know, translating one domain to the other. Right. And making these translations in a way that works. And whenever you have a metaphor that enables you to draw a certain rhetoric over the graphic itself, and this by using the language of graphics and not words, because you can have a very sterile visualization and have a rhetorical text after it. Right. But you can also have these messages embedded in the visualizations themselves. And that's what I think metaphor has a huge role to play, at least for these visualizations that are for a very large and wide audience. Right.",
+      "id": "ep_136_ut_46"
+    },
+    {
+      "end": 1302912,
+      "speaker": "Moritz Stefaner",
+      "start": 1302648,
+      "text": "Yeah.",
+      "id": "ep_136_ut_47"
+    },
+    {
+      "end": 1363296,
+      "speaker": "John Wihbey",
+      "start": 1302936,
+      "text": "There was another dimension that I think it sort of, I'll amplify one of your thoughts here, which was that we were thinking about contemporary policy and the building of the wall by President Trump, and we were thinking about, you know, immigration quotas and preferences for certain kinds of people over other certain kinds of people. And one of the, the things we didn't talk a lot about argument. I know it's sort of a platitude in visualization that everything is an argument, but we didn't talk particularly about there being a political argument. But nevertheless, what the metaphor of the tree ring allows for is a statement that, irrespective of the current policy and future policy changes, the past is a fact. And there is a. It's irrevocable, you cannot efface it. It exists, I thought, at a kind of deep level, was really important as a facet of this project.",
+      "id": "ep_136_ut_48"
+    },
+    {
+      "end": 1373240,
+      "speaker": "Pedro Cruz",
+      "start": 1363448,
+      "text": "Yes, and those, again, are things that are embedded in the graphical language itself. And that's what's fascinating, at least for me, of course.",
+      "id": "ep_136_ut_49"
+    },
+    {
+      "end": 1457258,
+      "speaker": "Moritz Stefaner",
+      "start": 1373280,
+      "text": "And that's a very, let's say a way of thinking we know from art is to think about all the effects on the not exactly superficial level, but all these, everybody will have different associations with that image, but in a way it triggers the same underlying mechanisms, I think, for all of us. Right. And I think the beautiful thing is it's still a straightforward, super readable visualization that presents really, really a well readable graphic, but also tells you something about a certain stance you have towards the data and a certain position you take as an author. And I think that's an ideal case in many ways, is to achieve that. So, yeah, I think that's really great. And I think it has a lot to do with this power of this metaphor. And I also have this theory that anytime a visualization is physically plausible, it's more effective. It's one of my working theories. People can get why a certain point ends up in a certain space, you know, and a certain position, like there is a process behind it that is plausible. I think it's more effective, but it's. It's hard to prove, but it's one.",
+      "id": "ep_136_ut_50"
+    },
+    {
+      "end": 1537440,
+      "speaker": "Pedro Cruz",
+      "start": 1457274,
+      "text": "Of my basic feelings about. For you to prove that, you'll need a lot of research there and to collect the opinions of a lot of folks. Nonetheless, what you said, in my opinion, is what makes metaphor present in all visualizations, all of them, even if it's nowadays, if they are invisible, like in a pie chart, the metaphors is parts of a wall, right? We don't think about that anymore, but someone had to think about it. And even the bar charts, they are physical quantities. So it's translating into these abstracts data set, these abstract data sets, to a more physical space, and sometimes trying to do it in a way in which they relate to the real domain where they came from. Because if I'm mapping a bus on a road, I want to indeed leave a trail. Try to suggest that this is a bus leaving a trail. Right. And not just showing an average of the velocities, for example. So it's a lot about physicality, or at least the ideas of physicality that we have in our visual system.",
+      "id": "ep_136_ut_51"
+    },
+    {
+      "end": 1575248,
+      "speaker": "Enrico Bertini",
+      "start": 1538820,
+      "text": "Yeah, no, I agree. And I have to say that in my opinion, that's one of the most underestimated and understudied aspect of data visualization. I have myself been discovering and rediscovering this idea multiple times. So I think, especially in the academic world, we talk a lot about effectiveness for visualization, which is mostly linked to how accurately you can extract quantitative information out of it. I'm not at all persuaded that that's what makes visualization effect.",
+      "id": "ep_136_ut_52"
+    },
+    {
+      "end": 1578460,
+      "speaker": "Pedro Cruz",
+      "start": 1575384,
+      "text": "You can easily go more.",
+      "id": "ep_136_ut_53"
+    },
+    {
+      "end": 1582644,
+      "speaker": "Enrico Bertini",
+      "start": 1579300,
+      "text": "I hope nobody's gonna lose your tenure.",
+      "id": "ep_136_ut_54"
+    },
+    {
+      "end": 1584040,
+      "speaker": "Pedro Cruz",
+      "start": 1582732,
+      "text": "You lose your tenure.",
+      "id": "ep_136_ut_55"
+    },
+    {
+      "end": 1586596,
+      "speaker": "Enrico Bertini",
+      "start": 1585140,
+      "text": "Should we cut that part?",
+      "id": "ep_136_ut_56"
+    },
+    {
+      "end": 1632184,
+      "speaker": "Pedro Cruz",
+      "start": 1586748,
+      "text": "Well, I don't think so, but I think that's very valuable, obviously. And it depends on the settings in which visualizations are used. Right. And for a broad audience. Indeed, I don't want them to be there with a ruler and a compass and writing the metrics, because that's not the point. The point is to communicate a message and for it to be memorable. And indeed, you can try to measure memorability for specific visualizations just by interviewing them after some period of time and etcetera. So it can be a kind of more qualitative research so that there's space for that to be done in memorability. Right. Because memorability is also a function.",
+      "id": "ep_136_ut_57"
+    },
+    {
+      "end": 1632416,
+      "speaker": "Moritz Stefaner",
+      "start": 1632232,
+      "text": "Right.",
+      "id": "ep_136_ut_58"
+    },
+    {
+      "end": 1634232,
+      "speaker": "Pedro Cruz",
+      "start": 1632448,
+      "text": "It can be functional as well.",
+      "id": "ep_136_ut_59"
+    },
+    {
+      "end": 1670796,
+      "speaker": "Enrico Bertini",
+      "start": 1634336,
+      "text": "You know, I agree. I mean, I don't want to hijack the whole episode here, but I would just say that I think for some reason, there are some visual representations that just work. Right. You could present this thing for the first time to a person, and it's very intuitive. And as Moritz said before, I don't know exactly what intuitiveness is. It's complicated. Right. But there are some others that are just graphical puzzles. And you can, like, see them a thousand times is still a bit of a puzzle. So. And I don't think we have a good understanding. At least I don't have a good understanding of how this works.",
+      "id": "ep_136_ut_60"
+    },
+    {
+      "end": 1679800,
+      "speaker": "Moritz Stefaner",
+      "start": 1670948,
+      "text": "There could also be interesting intercultural differences, like what is a good metaphor in one cultural context might be a horrible context.",
+      "id": "ep_136_ut_61"
+    },
+    {
+      "end": 1684236,
+      "speaker": "Pedro Cruz",
+      "start": 1680140,
+      "text": "The metaphors only work if there is some familiarity with them.",
+      "id": "ep_136_ut_62"
+    },
+    {
+      "end": 1755494,
+      "speaker": "Moritz Stefaner",
+      "start": 1684348,
+      "text": "Yeah. Must be somewhere shared experience behind it. Right. There's another thought here. Sean Carter, he had a beautiful talk. We had him on the show like years ago. But he had a really nice talk on distillpub at Openviscondental, and he said a good visualization is an interface for ideas. And I think this is a very powerful thought as well in this context, that a good metaphor can give you an interface to actually interact with a whole idea, not just facts or not just a dataset, but really be able to get a grip on a certain mindset or a certain model or a certain conceptualization, like a whole, you know, complex thing, and suddenly you can work with it. And I think maybe metaphors are something similar. If we also think about the role of metaphors in science is like if you can talk about atoms, let's say, you know, in a metaphorical way, it's like. It's like, oh, it's like a little galaxy or it's like a little solar system. You know, it's not exactly true, but it helps you to figure some things out. And so it gives you a way, an interface basically, to that idea.",
+      "id": "ep_136_ut_63"
+    },
+    {
+      "end": 1801520,
+      "speaker": "John Wihbey",
+      "start": 1755662,
+      "text": "I like that a lot. I think there's probably something culturally shifting, too globally. I mean, if you think about refugees being such a big part of the conversation, and then the conversation in the United States about immigration, these are big issues that the mind struggles with. And so having new ways of seeing new interfaces for ideas, as you said, to understand these complex challenges, I think is really important. And the fact that this one is so rooted in the ecological environment, I think, is helpful to people in terms of creating an orienting picture for further discussion. Understanding, I think, is sort of. I think you're absolutely right in the way you put it.",
+      "id": "ep_136_ut_64"
+    },
+    {
+      "end": 1813090,
+      "speaker": "Moritz Stefaner",
+      "start": 1802550,
+      "text": "If our listeners are now super psyched about metaphors, where could they learn more? Do you have any tips, like any good sources to get inspired or to learn more about how they work?",
+      "id": "ep_136_ut_65"
+    },
+    {
+      "end": 1818450,
+      "speaker": "Pedro Cruz",
+      "start": 1813670,
+      "text": "We have one that you suggested, the Lakoff's metaphors we live by.",
+      "id": "ep_136_ut_66"
+    },
+    {
+      "end": 1822118,
+      "speaker": "Moritz Stefaner",
+      "start": 1818750,
+      "text": "It's a great, beautiful book. It's one of my favorite books, actually.",
+      "id": "ep_136_ut_67"
+    },
+    {
+      "end": 1830054,
+      "speaker": "Pedro Cruz",
+      "start": 1822174,
+      "text": "Yes. It's a good introduction to the definitions of metaphors, what sociologists consider a metaphor.",
+      "id": "ep_136_ut_68"
+    },
+    {
+      "end": 1835592,
+      "speaker": "Moritz Stefaner",
+      "start": 1830102,
+      "text": "For example, and also how our language is shaped. Metaphor. So he is a very language oriented person.",
+      "id": "ep_136_ut_69"
+    },
+    {
+      "end": 1862586,
+      "speaker": "Pedro Cruz",
+      "start": 1835776,
+      "text": "And that's a great starting point to look at from the language perspective. Right. Then you have there is this great book by Andrew Ortony, first publisher in 79, and is a series of essays from several authors. And it has a chapter named metaphor and representation. And the name of the book is metaphor and thought. So metaphor and thought by Andrew Ortony.",
+      "id": "ep_136_ut_70"
+    },
+    {
+      "end": 1864850,
+      "speaker": "Moritz Stefaner",
+      "start": 1862658,
+      "text": "We will link that in the show notes.",
+      "id": "ep_136_ut_71"
+    },
+    {
+      "end": 1865578,
+      "speaker": "Enrico Bertini",
+      "start": 1865010,
+      "text": "Yeah.",
+      "id": "ep_136_ut_72"
+    },
+    {
+      "end": 1883230,
+      "speaker": "Pedro Cruz",
+      "start": 1865674,
+      "text": "And also there is this very classical paper that everybody knows but not many talk about, which is the metaphoric mappings, the art of visualization by Donna Cox. She was the one who introduced the term visa force.",
+      "id": "ep_136_ut_73"
+    },
+    {
+      "end": 1885230,
+      "speaker": "Moritz Stefaner",
+      "start": 1883610,
+      "text": "Oh, I heard that, yeah.",
+      "id": "ep_136_ut_74"
+    },
+    {
+      "end": 1902270,
+      "speaker": "Pedro Cruz",
+      "start": 1885570,
+      "text": "That no one uses. But, yeah, she was the first introducing it. And she lays out a series of principles of metaphors in visualization. So it's a good way to start with this.",
+      "id": "ep_136_ut_75"
+    },
+    {
+      "end": 1917324,
+      "speaker": "Moritz Stefaner",
+      "start": 1902390,
+      "text": "Great. That's fantastic. So only the question remains, how was the project received? I think I can answer it myself pretty well. You even won best most beautiful at information is beautiful world. Think it was a big success.",
+      "id": "ep_136_ut_76"
+    },
+    {
+      "end": 1921764,
+      "speaker": "Enrico Bertini",
+      "start": 1917452,
+      "text": "Yeah, me and Destiny were there when you got the award.",
+      "id": "ep_136_ut_77"
+    },
+    {
+      "end": 1931516,
+      "speaker": "Moritz Stefaner",
+      "start": 1921812,
+      "text": "Oh, fantastic. And so what's next for you? Do you have any plans to continue in this direction? Do you want to extend it, keep remixing it?",
+      "id": "ep_136_ut_78"
+    },
+    {
+      "end": 1997826,
+      "speaker": "Pedro Cruz",
+      "start": 1931628,
+      "text": "Well, what, please. From my point of view, this project already ended its cycle, actually, when we got the awards, that were even some artifacts that were still being produced because we needed a cartogram that was only made out of immigrants. So we have that now. So that was the last phase of the project. Nonetheless, I think we intend on going in this direction, which is using historical data and very robust and vast historical data datasets to tell stories, and doing it again through the sensitive application of the metaphor, and doing it by using nature inspired systems and simulations themselves that can simulate these systems, adapt to the data, and also add its own expressiveness that is tied with whatever we want to say about the data.",
+      "id": "ep_136_ut_79"
+    },
+    {
+      "end": 2001030,
+      "speaker": "Moritz Stefaner",
+      "start": 1997958,
+      "text": "That's great. It could become a whole genre in my book.",
+      "id": "ep_136_ut_80"
+    },
+    {
+      "end": 2031996,
+      "speaker": "Pedro Cruz",
+      "start": 2007930,
+      "text": "But the funny part here, at least from my perspective, is to have these systems as well. So they can be powered by physics engine, but they also can be adapted in the sense that they can learn from the datasets and so learn how they're going to adapt themselves to the data sets.",
+      "id": "ep_136_ut_81"
+    },
+    {
+      "end": 2038468,
+      "speaker": "Moritz Stefaner",
+      "start": 2032148,
+      "text": "Yeah. You could also make physical systems, of course, if we think about installation work.",
+      "id": "ep_136_ut_82"
+    },
+    {
+      "end": 2047840,
+      "speaker": "Pedro Cruz",
+      "start": 2038604,
+      "text": "No, no, for sure, for sure, for sure. I work more in two D and in the computer, but we have lots of people here that could take a take on that.",
+      "id": "ep_136_ut_83"
+    },
+    {
+      "end": 2101060,
+      "speaker": "John Wihbey",
+      "start": 2048860,
+      "text": "There's a. There's probably a larger project that is sort of emerging about how to visualize diversity and the kind of very fundamental tension between aggregation and synthesis of data, and also trying to keep the granularity and the diversity of human life, whether it's language, culture, race, all of these different ways in which we're diverse, still apparent to the viewer. It's a real challenge. And so I think we had some success with this one. We're thinking about all kinds of things now even just related to our home city of Boston and how to think about the diversity of the city through visualization, but without reducing, collapsing in the way that line graphs and pie charts always do. The actual diversity of human beings.",
+      "id": "ep_136_ut_84"
+    },
+    {
+      "end": 2109740,
+      "speaker": "Pedro Cruz",
+      "start": 2101440,
+      "text": "And as you can see, he's so rich to be explored with metaphors. Right. Diversity. Those are the things.",
+      "id": "ep_136_ut_85"
+    },
+    {
+      "end": 2126180,
+      "speaker": "Enrico Bertini",
+      "start": 2110360,
+      "text": "There's one last thing that I wanted to ask you is I see on your webpage that there is an image where you're holding a big poster with the visualization. So is there a way to have a similar poster?",
+      "id": "ep_136_ut_86"
+    },
+    {
+      "end": 2130620,
+      "speaker": "Pedro Cruz",
+      "start": 2126960,
+      "text": "Oh, you want one of those? We are not selling.",
+      "id": "ep_136_ut_87"
+    },
+    {
+      "end": 2133060,
+      "speaker": "John Wihbey",
+      "start": 2131320,
+      "text": "Oh, that's very sweet.",
+      "id": "ep_136_ut_88"
+    },
+    {
+      "end": 2144666,
+      "speaker": "Pedro Cruz",
+      "start": 2133920,
+      "text": "We had several people that went, wanted to buy those posters from us. We never had the time to set up that, but perhaps that's the time now.",
+      "id": "ep_136_ut_89"
+    },
+    {
+      "end": 2145354,
+      "speaker": "Moritz Stefaner",
+      "start": 2144738,
+      "text": "Maybe you should.",
+      "id": "ep_136_ut_90"
+    },
+    {
+      "end": 2152722,
+      "speaker": "Enrico Bertini",
+      "start": 2145402,
+      "text": "Would you even just make a big. Yeah. Big file image available and people can print it? I don't know, that would be really cool.",
+      "id": "ep_136_ut_91"
+    },
+    {
+      "end": 2155618,
+      "speaker": "Pedro Cruz",
+      "start": 2152786,
+      "text": "I would be glad to make that. Yeah, for sure.",
+      "id": "ep_136_ut_92"
+    },
+    {
+      "end": 2158762,
+      "speaker": "John Wihbey",
+      "start": 2155674,
+      "text": "This could be a way to supplement your academic salary finally.",
+      "id": "ep_136_ut_93"
+    },
+    {
+      "end": 2161026,
+      "speaker": "Enrico Bertini",
+      "start": 2158826,
+      "text": "Right, right.",
+      "id": "ep_136_ut_94"
+    },
+    {
+      "end": 2163440,
+      "speaker": "John Wihbey",
+      "start": 2161178,
+      "text": "Things will go like fashion line.",
+      "id": "ep_136_ut_95"
+    },
+    {
+      "end": 2175348,
+      "speaker": "Pedro Cruz",
+      "start": 2165820,
+      "text": "Most of the people that want to print them themselves, I just send them the file often. I have several people that want them in their offices and stuff like that.",
+      "id": "ep_136_ut_96"
+    },
+    {
+      "end": 2181160,
+      "speaker": "Enrico Bertini",
+      "start": 2175364,
+      "text": "Yeah, it's beautiful. It's beautiful. I have a few things in my office. One from Moritz, by the way.",
+      "id": "ep_136_ut_97"
+    },
+    {
+      "end": 2182844,
+      "speaker": "Moritz Stefaner",
+      "start": 2181620,
+      "text": "It's still there.",
+      "id": "ep_136_ut_98"
+    },
+    {
+      "end": 2198738,
+      "speaker": "Enrico Bertini",
+      "start": 2183012,
+      "text": "Yeah, it's still there. And. Yeah, no, I would love to have it. And I just wanted to say this is seriously one of my favorite projects ever. Congratulations. It's the first time I saw it, I was blown away.",
+      "id": "ep_136_ut_99"
+    },
+    {
+      "end": 2199706,
+      "speaker": "Pedro Cruz",
+      "start": 2198874,
+      "text": "Thank you.",
+      "id": "ep_136_ut_100"
+    },
+    {
+      "end": 2208226,
+      "speaker": "Enrico Bertini",
+      "start": 2199858,
+      "text": "It's incredibly poetic and technically interesting as well at the same time. So, yeah, fantastic.",
+      "id": "ep_136_ut_101"
+    },
+    {
+      "end": 2209114,
+      "speaker": "Pedro Cruz",
+      "start": 2208298,
+      "text": "Thank you for the words.",
+      "id": "ep_136_ut_102"
+    },
+    {
+      "end": 2209950,
+      "speaker": "John Wihbey",
+      "start": 2209162,
+      "text": "Thank you.",
+      "id": "ep_136_ut_103"
+    },
+    {
+      "end": 2211370,
+      "speaker": "Moritz Stefaner",
+      "start": 2210450,
+      "text": "Yeah, fantastic.",
+      "id": "ep_136_ut_104"
+    },
+    {
+      "end": 2216930,
+      "speaker": "Enrico Bertini",
+      "start": 2211410,
+      "text": "Thanks so much for coming on the show. We're looking forward to seeing, seeing more.",
+      "id": "ep_136_ut_105"
+    },
+    {
+      "end": 2225870,
+      "speaker": "John Wihbey",
+      "start": 2217430,
+      "text": "It was a huge honor. Like I was saying, you know, it's surreal to hear your voices actually asking me something as opposed to just listening to you guys.",
+      "id": "ep_136_ut_106"
+    },
+    {
+      "end": 2227570,
+      "speaker": "Moritz Stefaner",
+      "start": 2226030,
+      "text": "We actually talk back.",
+      "id": "ep_136_ut_107"
+    },
+    {
+      "end": 2232690,
+      "speaker": "John Wihbey",
+      "start": 2228190,
+      "text": "I know, I know. It's like a. I'm like in a dream world or something. It's very strange.",
+      "id": "ep_136_ut_108"
+    },
+    {
+      "end": 2235570,
+      "speaker": "Enrico Bertini",
+      "start": 2234310,
+      "text": "That's very cool.",
+      "id": "ep_136_ut_109"
+    },
+    {
+      "end": 2240260,
+      "speaker": "John Wihbey",
+      "start": 2237870,
+      "text": "Okay, now I'm going to wake. Wake up.",
+      "id": "ep_136_ut_110"
+    },
+    {
+      "end": 2244608,
+      "speaker": "Pedro Cruz",
+      "start": 2241760,
+      "text": "Not at all. Thank you for having us. It was a pleasure.",
+      "id": "ep_136_ut_111"
+    },
+    {
+      "end": 2245528,
+      "speaker": "John Wihbey",
+      "start": 2244664,
+      "text": "Thank you. Destry too.",
+      "id": "ep_136_ut_112"
+    },
+    {
+      "end": 2246496,
+      "speaker": "Enrico Bertini",
+      "start": 2245584,
+      "text": "Thank you. Thank you.",
+      "id": "ep_136_ut_113"
+    },
+    {
+      "end": 2248760,
+      "speaker": "Moritz Stefaner",
+      "start": 2246528,
+      "text": "Thanks for joining us. Fantastic project.",
+      "id": "ep_136_ut_114"
+    },
+    {
+      "end": 2249440,
+      "speaker": "Enrico Bertini",
+      "start": 2248920,
+      "text": "Bye bye.",
+      "id": "ep_136_ut_115"
+    },
+    {
+      "end": 2250260,
+      "speaker": "John Wihbey",
+      "start": 2249480,
+      "text": "Bye bye.",
+      "id": "ep_136_ut_116"
+    },
+    {
+      "end": 2275236,
+      "speaker": "Enrico Bertini",
+      "start": 2254840,
+      "text": "Hey, folks, thanks for listening to data stories again. Before you leave, a few last notes, this show is now completely crowdfunded. So you can support us by going on Patreon. That's patreon.com Datastories. And if you can spend a couple of minutes reading us on iTunes, that would be extremely helpful for the show.",
+      "id": "ep_136_ut_117"
+    },
+    {
+      "end": 2301126,
+      "speaker": "Moritz Stefaner",
+      "start": 2275348,
+      "text": "And here's also some information on the many ways you can get news directly from us. We are, of course, on twitter@twitter.com. Datastories. We have a Facebook page@Facebook.com. datastoriespodcast all in one word. And we also have a slack channel where you can chat with us directly. And to sign up, you can go to our homepage datastory. And there is a button at the bottom of the page.",
+      "id": "ep_136_ut_118"
+    },
+    {
+      "end": 2316998,
+      "speaker": "Enrico Bertini",
+      "start": 2301278,
+      "text": "And we also have an email newsletter. So if you want to get news directly into your inbox and be notified whenever we publish an episode, you can go to our home page Datastore es and look for the link you find at the bottom in the footer.",
+      "id": "ep_136_ut_119"
+    },
+    {
+      "end": 2329134,
+      "speaker": "Moritz Stefaner",
+      "start": 2317094,
+      "text": "So one last thing we want to tell you is that we love to get in touch with our listeners, especially if you want to suggest a way to improve the show or amazing people you want us to invite or even projects you want us to talk about.",
+      "id": "ep_136_ut_120"
+    },
+    {
+      "end": 2338350,
+      "speaker": "Enrico Bertini",
+      "start": 2329222,
+      "text": "Yeah, absolutely. And don't hesitate to get in touch with us. It's always a great thing to hear from you. So see you next time, and thanks for listening to data stories.",
+      "id": "ep_136_ut_121"
+    }
+  ],
+  "confidence": 0.925518455591821,
+  "audio_duration": 2349,
+  "punctuate": true,
+  "format_text": true,
+  "dual_channel": false,
+  "webhook_url": null,
+  "webhook_status_code": null,
+  "webhook_auth": false,
+  "webhook_auth_header_name": null,
+  "speed_boost": false,
+  "auto_highlights_result": null,
+  "auto_highlights": false,
+  "audio_start_from": null,
+  "audio_end_at": null,
+  "word_boost": [],
+  "boost_param": null,
+  "filter_profanity": false,
+  "redact_pii": false,
+  "redact_pii_audio": false,
+  "redact_pii_audio_quality": null,
+  "redact_pii_policies": null,
+  "redact_pii_sub": null,
+  "speaker_labels": true,
+  "content_safety": false,
+  "iab_categories": true,
+  "content_safety_labels": {
+    "status": "unavailable",
+    "results": [],
+    "summary": {}
+  },
+  "language_detection": false,
+  "language_detection_threshold": null,
+  "language_confidence": null,
+  "custom_spelling": null,
+  "throttled": false,
+  "auto_chapters": true,
+  "summarization": false,
+  "summary_type": null,
+  "summary_model": null,
+  "custom_topics": false,
+  "topics": [],
+  "speech_threshold": null,
+  "speech_model": "best",
+  "chapters": [
+    {
+      "summary": "Moritz Stefaner is an independent designer of data visualizations. Enrico Bertini is a professor at New York University doing research in data visualization. On this podcast, we talk about data visualization, data analysis, and generally the role data plays in our lives. If you enjoy the show, please consider supporting us with recurring payments.",
+      "gist": "Data Stories: Podcast Review",
+      "headline": "Data stories podcast is listener supported, so there's no ads",
+      "start": 200,
+      "end": 119026,
+      "id": "ep_136_ch_0"
+    },
+    {
+      "summary": "We have Pedro Cruz and John Wihbey on the show today. Pedro is a data visualization designer at Northeastern University. John is a professor of journalism and media innovation. Their project is called simulated dendrochronology of us immigration. It simulates immigration in a way that is similar to how trees grow.",
+      "gist": "Immigration Data Visualization",
+      "headline": "Two special guests join us today to discuss a fascinating data visualization project",
+      "start": 119178,
+      "end": 587420,
+      "id": "ep_136_ch_1"
+    },
+    {
+      "summary": "The idea came organically. The objective was not to draw something that looks like tree rings. It was more to have a system that grows a tree that reacts to data. From this system that has behaviors inspired in the data, you naturally have this outcome.",
+      "gist": "Tree graphs: The science of trees",
+      "headline": "The idea for this visualization came organically from thinking about trees",
+      "start": 589500,
+      "end": 1064602,
+      "id": "ep_136_ch_2"
+    },
+    {
+      "summary": "But then we come back also to this topic of what is the emotional, you know, message of a visualization. What are the associations people have just with the image itself? Right. But it has to be done also the right way. Otherwise you can totally have a good intention message the wrong thing.",
+      "gist": "The Emotional Message of Data Visualization",
+      "headline": "What is the emotional message of a visualization",
+      "start": 1064626,
+      "end": 1116348,
+      "id": "ep_136_ch_3"
+    },
+    {
+      "summary": "The tree or the tree cross section is overall a good vehicle for the ideas at hand. It's a message of inclusivity or inclusiveness. And I think the tree ring conveyed that a lot. I think metaphor has a huge role to play, at least for these visualizations.",
+      "gist": "The Tree and the Tree Cross Section",
+      "headline": "The tree cross section is a good metaphor for the ideas at hand",
+      "start": 1116404,
+      "end": 1302912,
+      "id": "ep_136_ch_4"
+    },
+    {
+      "summary": "David Wheeler says anytime a visualization is physically plausible, it's more effective. He says the power of metaphor is one of the most underestimated and understudied aspect of data visualization. Wheeler: The point is to communicate a message and make it memorable.",
+      "gist": "Data Visualization: Its Appeal and Memability",
+      "headline": "You say that anytime a visualization is physically plausible, it's more effective",
+      "start": 1302936,
+      "end": 1689200,
+      "id": "ep_136_ch_5"
+    },
+    {
+      "summary": "A good visualization is an interface for ideas. A good metaphor can give you an interface to interact with a whole idea. Having new ways of seeing new interfaces for ideas is really important.",
+      "gist": "Using Metaphors in the World",
+      "headline": "Sean Carter says a good visualization is an interface for ideas",
+      "start": 1689780,
+      "end": 1801520,
+      "id": "ep_136_ch_6"
+    },
+    {
+      "summary": "If our listeners are super psyched about metaphors, where could they learn more? Do you have any tips, like any good sources to get inspired or to learn more about how they work?",
+      "gist": "Five More Things You Need to Know About Metaphors",
+      "headline": "If our listeners are now super psyched about metaphors, where could they learn more",
+      "start": 1802550,
+      "end": 1902270,
+      "id": "ep_136_ch_7"
+    },
+    {
+      "summary": "The project won best most beautiful at information is beautiful world. What's next for you? Do you have any plans to continue in this direction? There's probably a larger project emerging about how to visualize diversity.",
+      "gist": "The Making of a Cartogram",
+      "headline": "How was the project received? Think it was a big success",
+      "start": 1902390,
+      "end": 2109740,
+      "id": "ep_136_ch_8"
+    },
+    {
+      "summary": "Destry: Is there a way to have a similar poster with the visualization. Would you even just make a big. Big file image available and people can print it? Before you leave, a few last notes, this show is now completely crowdfunded.",
+      "gist": "Data Stories: A Celebration of the visualization",
+      "headline": "This show is now completely crowdfunded and can be supported through Patreon",
+      "start": 2110360,
+      "end": 2338350,
+      "id": "ep_136_ch_9"
+    }
+  ],
+  "disfluencies": false,
+  "entity_detection": false,
+  "sentiment_analysis": false,
+  "sentiment_analysis_results": null,
+  "entities": null,
+  "speakers_expected": null,
+  "summary": null,
+  "custom_topics_results": null,
+  "episode_num": 136,
+  "episode_metadata": {
+    "speakers": [
+      "Pedro Cruz",
+      "Moritz Stefaner",
+      "Enrico Bertini",
+      "John Wihbey"
+    ],
+    "WPid": "1327",
+    "url": "https://datastori.es/podlove/file/5622/s/feed/c/mp3/136-simulated-dendrochronology-of-us-immigration-with-pedro-cruz-and-john-wihbey.mp3",
+    "episode_title": "Simulated Dendrochronology of U.S. Immigration with Pedro Cruz and John Wihbey"
+  }
+}

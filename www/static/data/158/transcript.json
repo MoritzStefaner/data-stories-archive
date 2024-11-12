@@ -1,0 +1,846 @@
+{
+  "id": "41b8feac-a842-4d30-8449-2c38342519bb",
+  "language_model": "assemblyai_default",
+  "acoustic_model": "assemblyai_default",
+  "language_code": "en_us",
+  "status": "completed",
+  "audio_url": "https://datastori.es/podlove/file/6646/s/feed/c/mp3/158-viz-agencies-cleverfranke-and-interactive-things.mp3",
+  "utterances": [
+    {
+      "end": 7690,
+      "speaker": "Benjamin Wiederkehr",
+      "start": 320,
+      "text": "There is no massaging the data to fit your concept, but there is for other types of media, and I think that's one of the fundamental differences.",
+      "id": "ep_158_ut_0"
+    },
+    {
+      "end": 40560,
+      "speaker": "Moritz Stefaner",
+      "start": 27430,
+      "text": "Hi, everyone. Welcome to a new episode of Data stories. My name is Moritz Stefaner, and I'm an independent designer of data visualizations. In fact, I work as a self employed truth in beauty operator out of my office here in the countryside in the north of Germany.",
+      "id": "ep_158_ut_1"
+    },
+    {
+      "end": 48220,
+      "speaker": "Enrico Bertini",
+      "start": 40640,
+      "text": "And I am Enrico Bertini. I am a professor at New York University in New York City, where I do research and teach data visualization.",
+      "id": "ep_158_ut_2"
+    },
+    {
+      "end": 61288,
+      "speaker": "Moritz Stefaner",
+      "start": 48680,
+      "text": "That's right. And on this podcast together, we talk about data visualization, data analysis, and generally the role data plays in our lives. And usually we do that together with a guest or two that we invite on the show.",
+      "id": "ep_158_ut_3"
+    },
+    {
+      "end": 107882,
+      "speaker": "Enrico Bertini",
+      "start": 61464,
+      "text": "Exactly. But before we start, just a quick note. Our podcast is listener supported, so there's no ads. And if you enjoyed the show, please consider supporting us with recurring payments on patreon.com Datastories. Or you can also send us a one time donation on PayPal me Datastories. And I just want to say, if you can do that, especially during this hard times, that's totally fine. Just keep listening to the show. And if you want to write maybe a message on Twitter talking about data stories, or maybe reviewing our show on iTunes, that would be really appreciated. Other than that, please don't feel obliged to do any donation.",
+      "id": "ep_158_ut_4"
+    },
+    {
+      "end": 208174,
+      "speaker": "Moritz Stefaner",
+      "start": 108066,
+      "text": "Right. Right. So let's dive right in. Let's get started. So we have a special topic today, and we decided to make it even a two episode feature, maybe even more episodes to come. Well, actually, there's been a huge blind spot. So Enrico and I, whenever we review our Trello board with episode ideas, we realize sometimes, oh, we've done so many episodes, but we never talked to somebody from Fieldx or from, you know, this and that area. And it's been like this, really for years. Small to medium data visualization agencies, which is insane because some of the best database work obviously comes from these types of companies. And we talk to a lot of practitioners and researchers and whatnot, but never really to people running data visualization studios. Huge blind spot happens. But now we're catching up quick. And so we're inviting two event guests today, and we record another episode with two more guests, and this will be the next one. So hopefully we're back to a good ratio of database agency folks after all this and keep going. And I'm personally super interested. I have known the folks who will talk for you for many, many years. In fact, I realized last year at encode conference that a lot of these agencies have been around for ten years or longer. And so it's really now fascinating to hear a bit of their long term perspective on how the field has evolved, how the field has changed, if there is even a viable business and making high end crafted data visualization, or if we will all be unemployed soon. So I'm super curious to learn more about all this. So, as I said, we have two guests. The first one is Thomas clever. Hi, Thomas.",
+      "id": "ep_158_ut_5"
+    },
+    {
+      "end": 209098,
+      "speaker": "Enrico Bertini",
+      "start": 208302,
+      "text": "Hi, Thomas.",
+      "id": "ep_158_ut_6"
+    },
+    {
+      "end": 210738,
+      "speaker": "Thomas Clever",
+      "start": 209214,
+      "text": "Hi, Moritz. Hi, Enrico.",
+      "id": "ep_158_ut_7"
+    },
+    {
+      "end": 215074,
+      "speaker": "Moritz Stefaner",
+      "start": 210834,
+      "text": "Thanks for joining us. And we have Benjamin Wiederkehr. Hi, Benjamin.",
+      "id": "ep_158_ut_8"
+    },
+    {
+      "end": 215818,
+      "speaker": "Enrico Bertini",
+      "start": 215122,
+      "text": "Hey, Ben.",
+      "id": "ep_158_ut_9"
+    },
+    {
+      "end": 217514,
+      "speaker": "Benjamin Wiederkehr",
+      "start": 215954,
+      "text": "Hi, Moritz. Hi, Enrico.",
+      "id": "ep_158_ut_10"
+    },
+    {
+      "end": 226178,
+      "speaker": "Moritz Stefaner",
+      "start": 217682,
+      "text": "Great to have you on. So, Thomas, maybe first could you briefly introduce yourself and your company and then Benjamin can take over?",
+      "id": "ep_158_ut_11"
+    },
+    {
+      "end": 254282,
+      "speaker": "Thomas Clever",
+      "start": 226314,
+      "text": "Yeah, absolutely. So, as you said, I'm Thomas Clever, or clever, co founder of Clever, Franke, or Clever Franke, as most people call us these days. We're a data design and technology company and we create anything from one off data visualizations to data driven products and tools, as we like to call it. We have our headquarters here in the Netherlands, and we have another office in Chicago and Dubai. Yeah.",
+      "id": "ep_158_ut_12"
+    },
+    {
+      "end": 256442,
+      "speaker": "Moritz Stefaner",
+      "start": 254346,
+      "text": "How many people are working for you right now?",
+      "id": "ep_158_ut_13"
+    },
+    {
+      "end": 261282,
+      "speaker": "Thomas Clever",
+      "start": 256626,
+      "text": "It's around 32, I think, if I'm correct. 32 now.",
+      "id": "ep_158_ut_14"
+    },
+    {
+      "end": 264442,
+      "speaker": "Moritz Stefaner",
+      "start": 261426,
+      "text": "Not bad. Great. Benjamin, how about you?",
+      "id": "ep_158_ut_15"
+    },
+    {
+      "end": 327028,
+      "speaker": "Benjamin Wiederkehr",
+      "start": 264506,
+      "text": "All right. I'm an interaction designer with sort of like a focus on information visualization and interface design from the beginning. And then back in 2008, I started writing a blog on data visualization, where I sort of published my work and my research. That's also how we met Moritz. And I think also that's how I stumbled over Enrico's work. And then sort of like a year later, I co founded Interactive Things, which, fairly similar to Clever Franke, is a design and development studio with a focus on data driven products. We are a team of 17 people. We're sort of like a slightly weird beast as we are five equal partners in the company. Yeah. And I think today, sort of like, my main focus is leading the company. As the managing director, I have a few teaching assignments at universities on data visualization, and I'm sort of like co organizing the database Zurich Meetup here in Zurich.",
+      "id": "ep_158_ut_16"
+    },
+    {
+      "end": 348180,
+      "speaker": "Moritz Stefaner",
+      "start": 327124,
+      "text": "Right. So, Benjamin, is there maybe just so people get a sense of, okay, what types of projects do you like to do? Or what. What's your approach? Is there maybe one quintessential project where you could say, okay, this is really quintessential, almost interactive things project where you could say, yeah, that's sort of really good example of the type of work we do. And we like to do.",
+      "id": "ep_158_ut_17"
+    },
+    {
+      "end": 477138,
+      "speaker": "Benjamin Wiederkehr",
+      "start": 348680,
+      "text": "Yeah, that's like picking your favorite child, right? So I think the project that sort of, like, comes to mind is actually two projects, and that's education inequalities and education progress. So these are two websites that we have built for UNESCO, and they are sister products in a way, even though they're seven years apart. So education inequalities is already seven years old now, and education progress was just released. The first was an exploratory tool analyzing disparities in quality of education, and the second is then an explanatory publication summarizing the key facts and trends. And so in a way, they present two sides of the data visualization coin. So, like exploration for discovery and explanation for understanding. And besides being interesting from a data visualization perspective, I think the projects also rank very high in sort of like our, in our view, because of the purpose they both advance to sustainable development. Goal four forward, which I think is an important aspect, so inclusive and equitable quality of education for all. The second is the client. UNESCO has been a long term and very, very committed client to the success of each of their project. And then in terms of craft, we're both challenged in design and development when we work on these projects. And typically with UNESCO, we are allowed to pursue a very iterative process instead of sort of like fixed scope, waterfall type of process. And I think these three aspects, or four aspects, purpose, client, craft and process, are important to us, and I think they are well reflected in those two projects.",
+      "id": "ep_158_ut_18"
+    },
+    {
+      "end": 480202,
+      "speaker": "Moritz Stefaner",
+      "start": 477274,
+      "text": "Great. Thomas, how about you? Is there a similar example?",
+      "id": "ep_158_ut_19"
+    },
+    {
+      "end": 663780,
+      "speaker": "Thomas Clever",
+      "start": 480306,
+      "text": "Yeah, like Ben said, that's always very hard. And I think if you look back over the years that we've been running the business, there's always some quintessential projects, some lighthouse projects that I think really define you as a company to take a next step in where you are. If I have to choose, then I think the Mobility index website that we created for the Chicago Metropolitan Agency of planning is one of my personal favorites, really, because it brings together a lot of things dear to my heart and dear to our company's heart, in the sense that it's a mix of experimental data vis with an important message behind it. The CMAP approached us because they had written a new mobility plan, or a new urban planning plan, so to speak, for the city of Chicago, which was pretty much the first comprehensive urban planning plan since Danyel Burnham, which was about 100 years ago. And it really outlined around economy, mobility and livability, where the city should be heading, and also the challenges that they face. So mobility is a very important topic to the city of Chicago. I think 25% of the workforce is somehow tied to freight transportation, all those types of things. And the investment that needs to be done in the infrastructure there is about $13 trillion. And to really convey that message, they asked us, can you concise or can you digest this plan of 660 pages into one interactive website? And of course, we said yes. Remembering that on the way there on the plane, I was reading through that plan and thinking, I'm not sure how we're going to do it, but it was really a really nice project in how we did a lot of editorial stuff on understanding the plan and thinking, how can we explain this plan to anybody down in the street, but also to business policymakers, journalists, politicians? And there's a whole editorial sort of structure that there's a bird's eye view over Chicago. And then as you dive into the topics, you literally dive down into street level. There's different types of visualizations from charts to. We were using new technologies at the time. This was 2014. So, yeah, a lot of boxes that are ticked in that project. And I think, you know, looking back, I just realized when I heard Ben talk that that was the first time that we set foot in Chicago. And here we are six, seven years later. International map right here we have the office in Chicago. So really it's also the moment in time I fell in love with that city.",
+      "id": "ep_158_ut_20"
+    },
+    {
+      "end": 665530,
+      "speaker": "Moritz Stefaner",
+      "start": 664790,
+      "text": "Nice.",
+      "id": "ep_158_ut_21"
+    },
+    {
+      "end": 685730,
+      "speaker": "Enrico Bertini",
+      "start": 666550,
+      "text": "One thing I was wondering is if you can briefly describe how is an agency like yours different from other ways of organizing business around data visualization? So I'm thinking about in house data visualizers or freelancers or even more classic web agency.",
+      "id": "ep_158_ut_22"
+    },
+    {
+      "end": 831878,
+      "speaker": "Thomas Clever",
+      "start": 686430,
+      "text": "Yeah, that's a good question. I have to admit that I founded this company together with my business partner Gert, when we were still in university. So of course we did some internships but never worked at a company. We've always been our own boss. So I have to admit, that is a side note I should make. But if I look at other design agencies, other web agencies, those type of companies, and of course, people that have joined us over the years, I think there are, you know, we might be 90, 95% the same. I think in terms of, you know, the complexity of the work is where, where. I think it is a little bit different. And I'm not saying one is better than the other, don't get me wrong. But I think when you look at the type of clients and the type of challenges that they throw at us, it's very much at the intersection of data strategy and business. And business can also be an organization like a UNESCO, like Ben mentioned. But there are goals there, and these are all sort of, we're trying to marry those and really understand what is this business? What is the core of their challenge? And once we get to that core, either through data or with data, that's when you build up the product and start thinking about the users, the stakeholders, and all those type of things. So there's a delicate balance in the projects that we work on from a business perspective. Then, of course, there's the data, which is we use data the way that another design agency might use photography or music or film or cinematography. But data has, of course, some inherent challenges with it as well. Data quality, privacy. Go on. There's multiple podcasts in that. But I think really, that complexity is what you really have to digest and understand. And both from a technical and a design perspective, do you often feel you.",
+      "id": "ep_158_ut_23"
+    },
+    {
+      "end": 847572,
+      "speaker": "Moritz Stefaner",
+      "start": 831894,
+      "text": "Have to rewind in terms of a client says, I need a 3d animated map, and you go back to, okay, great, let's pause for a second there. Let's keep that in mind. But, like, what are you trying to achieve? Or, like, what's your product actually looking like? Or who are we talking to?",
+      "id": "ep_158_ut_24"
+    },
+    {
+      "end": 903900,
+      "speaker": "Thomas Clever",
+      "start": 847596,
+      "text": "Yeah, that's absolutely. And I think, thankfully, I've only had the question of a chart once in my life, and I did design it just to prove them wrong. But other than that, yeah, there's a lot of focus in our work on just understanding the challenge, the landscape that this has to work in, has to operate in. And also, I think, you know, looking at the design and technology people that work in our company, I think we attract different type of designers and technologists than, let's say, you would at an ad agency. I mean, you're not going to see our work out in the open in like, this train station per se on big billboards. Right. It's very often a different type of project. So, yeah. Curious to see how Ben would think about this.",
+      "id": "ep_158_ut_25"
+    },
+    {
+      "end": 1061930,
+      "speaker": "Benjamin Wiederkehr",
+      "start": 904280,
+      "text": "No, I mean, I share on the one hand side, I share the same caveat. I've never worked in another design agencies and therefore, sort of, like, don't really have the inside scoop there. And I agree with the things that you've mentioned of the complexity of working in sort of like, on data intensive products and also the nonlinearity of sort of like, the development process. There simply isn't really a chance of, you know, conceptual work, design work, development work, what you would typically, or what you would have traditionally found in application development or sort of like, website development. So the notion of a cross functional team having to continually and iteratively working together, I think just is an inherent part of how such a data design agency works. There is a, or I mean, that's also something that we had to learn. There is simply no other way. And similarly, to the point that sort of like Moritz mentioned, educating the client on how this work happens, the idea of sort of like dropping a CSV file on our doorstep and expecting an award winning experience of like six weeks after to be picked up is something that like, might still exist in fantasies, but it's just not part of the reality. And so also understanding that this sort of intensive work and nonlinear work involves many different stakeholders, and that's the data provider, that's the product owner, these are the end users, these are the domain experts. And so it is definitely, working as a client with an agency is definitely more hands on than they might typically expect from working with a web design agency, or a branding agency or a marketing agency. And I don't want to, again, sort of like, I don't have the insights goop into these, how these agencies function. Maybe they're exactly the same level of sort of like hands on knees, deep in the client's materials. And for them it's just videos or textual content or imagery. And for us it's just their sort of like raw data. And that might be the case. Right. But that, I think, is something that might be a misunderstanding of input data and output visually, like output data driven experience. And that's just not sort of like a hands off situation.",
+      "id": "ep_158_ut_26"
+    },
+    {
+      "end": 1094500,
+      "speaker": "Moritz Stefaner",
+      "start": 1062350,
+      "text": "Yeah. And this whole idea of data as a third stakeholder that Martin Wattenberg, I think, and Fernando Viegas brought into the game is, I think, such a nice one that you say, okay, they are clients and they're designers, but there's also data as an invisible third stakeholder at the table. And data has rights to, and interests and preferences maybe, or affordances. And I think at Wiz, there was also this paper, data changes everything, Enrico, or was it published last year at Wiz, that also argued that data design is fundamentally different from other forms of design.",
+      "id": "ep_158_ut_27"
+    },
+    {
+      "end": 1116796,
+      "speaker": "Benjamin Wiederkehr",
+      "start": 1095680,
+      "text": "To me, the material is not as malleable as it is for working with video, working with images, because you might be able to change the angle, reshoot the scene, rewrite the text. There is no sort of like, or I mean, I hope there is no massaging the data to fit your concept.",
+      "id": "ep_158_ut_28"
+    },
+    {
+      "end": 1117668,
+      "speaker": "Moritz Stefaner",
+      "start": 1116868,
+      "text": "No, we wouldn't do that.",
+      "id": "ep_158_ut_29"
+    },
+    {
+      "end": 1162338,
+      "speaker": "Benjamin Wiederkehr",
+      "start": 1117684,
+      "text": "But there is for other types of media. And I think that's one of the fundamental differences where we do have to follow the constraints that sort of like come with whatever the data is. And oftentimes you don't know what the data is. Oftentimes, you know, you work with a dynamic data source and you can't even expect to understand what the data will look like at all times over the lifecycle of a product. You might have a demo data set to start with, you might have a snapshot of now, but oftentimes the product gets connected to data that will be refreshed and then things will look different and you have to design for eventualities that are not under control, maybe during the creation process.",
+      "id": "ep_158_ut_30"
+    },
+    {
+      "end": 1230704,
+      "speaker": "Moritz Stefaner",
+      "start": 1162514,
+      "text": "Right, right. I have a practical question. So to me it seems, and this might be a total misperception, but, or maybe a systemic bias we have in the field, but it seems like a lot of the successful data visualization work that gets a lot of visibility, like at awards or in, you know, on Twitter or something, is often done by individuals or small teams. And I was wondering, what's your experience with scaling data visualization productions? Like, can you scale it? Is it easy to separate the work so you can work with five people on one data visualization product, or even with ten? Or is there like a natural limit where this tight collaboration between data and design and technology and consulting breaks down? Did you find maybe a formula that makes it easier to, to divide the work and have really clearly defined interfaces? Or do you have a lot of small teams that all do little projects? How did you deal with this whole practical issue of scaling up data visualization design and production?",
+      "id": "ep_158_ut_31"
+    },
+    {
+      "end": 1237864,
+      "speaker": "Thomas Clever",
+      "start": 1230832,
+      "text": "That's a good question. I don't think we ever thought about scaling up data visualization design in that sense. So that's an interesting thing.",
+      "id": "ep_158_ut_32"
+    },
+    {
+      "end": 1246066,
+      "speaker": "Moritz Stefaner",
+      "start": 1237872,
+      "text": "But you have 32 people working, so do they all work on individual project, or how many people would usually work on a project?",
+      "id": "ep_158_ut_33"
+    },
+    {
+      "end": 1357476,
+      "speaker": "Thomas Clever",
+      "start": 1246218,
+      "text": "That's a good question. I think we have multiple projects running at the same time in the studio. Those are a combination of larger and smaller projects. But I think looking at an ideal team setup for us, I think you're looking at around six to eight people on a larger project. That's when going above those numbers, people start to get in each other's way. And at the same time, that's sort of the number that our team really collaborates with each other. So it really is an important collaboration. Of course, there are smaller projects that maybe one or two people might work on, but if you look at the scaling and the larger projects, that's for us, an ideal size. And often, I think a lot of our clients are surprised. They would even say that our team is small on a project, because very often big IT firms are working with 20, 30, 40 people on something, and here we come in with eight, and they sort of look at you and think, are you sure you can manage? But really, it's about efficiency and just having a team that trusts each other and knows exactly where each other's skillset lies. So, yeah, I think that is the optimum size, and that's, I guess, two, three, four type projects that you have at the same time in the studio. Typically, our developers like to work on projects for a longer period of time in one stretch, whereas designers, by nature, get bored quicker. So they want to have.",
+      "id": "ep_158_ut_34"
+    },
+    {
+      "end": 1369732,
+      "speaker": "Moritz Stefaner",
+      "start": 1357548,
+      "text": "So you're playing a lot of tetris with big pieces and small pieces and try to fit everything together. Yeah. Benjamin, how about you? I know you have put a lot of thought into your process and your culture and interactive things.",
+      "id": "ep_158_ut_35"
+    },
+    {
+      "end": 1568256,
+      "speaker": "Benjamin Wiederkehr",
+      "start": 1369836,
+      "text": "So fundamentally, I think, again, it's very similar to what Thomas just said. There are multiple projects running in parallel at the studio at all times of different sizes, and I think that's healthy. And for us, definitely the natural state of work. Now, the individual project teams for us are typically slightly smaller. So I think we consider more of like, four to a maximum of six people to work well for us, maybe also to work well for the type of products that we're producing. I think, of course, depending on for who you work, what the product needs to look like, and how quickly it has to be delivered, those are all factors that define the project team. But in general, we form these project teams that are then dedicated to working on an individual product. They are typically cross functional. So it's designers with a variety of skills, its developers has a variety of skills working together. We try our best to keep those cross functional teams altogether, from start through execution to the end. There's always work to do for everyone, which is a slight shift from how we thought work would happen at the beginning. So over time, like that is definitely one of the learnings and something that we try to make our principal way of working in this type of project. And as a result, scaling up, I could see scaling up, working like self organized teams. So I don't think that it makes sense to scale up, at least for the type of projects that we do, to scale up the teams to double or triple the size that I just mentioned. That doesn't necessarily mean that an agency of clever Frankie size, for example, doesn't work in my perspective. You mentioned it. You're a little bit beyond 30 people. So I could see that scaling, and then you have a higher throughput of projects, but the individual project, team size per project is roughly the same. And I think if you look towards the principle of self organized teams and self organized organizations like teal and all of these buzzwords, then I think that's also reflected in their thinking. Like, don't try to instantiate too big of a division of labor, don't build up silos, and then don't try to centralize functions or don't have too many centralized functions. Instead embed those into the individual teams. And then an organization should be fairly flexible in scaling or contracting. But again, that's just theory. I don't really have practical experience with that. I'm not sure that I'm interested in earning that. But the area of self organization in teams is definitely something that I think is interesting. And on this very small scale here at interactive things, that's something that we try to pursue.",
+      "id": "ep_158_ut_36"
+    },
+    {
+      "end": 1599360,
+      "speaker": "Thomas Clever",
+      "start": 1568448,
+      "text": "I think you're absolutely right, Ben. I think the scaling is definitely in terms of more project teams next to each other, rather than ramping up the size of an individual project team. I see absolutely no benefit in creating a project team of 15 people. So, yeah, I think the self steering teams and all those type of things are definitely something that really work well in this situation.",
+      "id": "ep_158_ut_37"
+    },
+    {
+      "end": 1668700,
+      "speaker": "Benjamin Wiederkehr",
+      "start": 1600060,
+      "text": "Maybe one note that I, because more it sort of opened the question with successful work is done by individuals or sort of like very small teams. And I think there's one thing that I'm observing, which is a slight glorification of the unicorn visualizer in our field. So people who excel at all involved disciplines and sort of like, can take a raw data set and turn it into a Keystone experience. Present company looking over to you, Moritz, is slight point in case, and I think this is great, but I think this does also have parallels to the web design industry, where sort of like the unicorn designer is somebody who does everything well, from user research through pixel perfect design to, like, you know, front end development across platforms. And I think this could sort of, like, raise slightly unrealistic expectations for employers who are looking for this type of people, or overwhelming feelings of inadequacy for newcomers. I think there is a.",
+      "id": "ep_158_ut_38"
+    },
+    {
+      "end": 1671436,
+      "speaker": "Moritz Stefaner",
+      "start": 1669140,
+      "text": "That's totally true, yeah, big role to.",
+      "id": "ep_158_ut_39"
+    },
+    {
+      "end": 1712574,
+      "speaker": "Benjamin Wiederkehr",
+      "start": 1671468,
+      "text": "Play for someone who's just extremely good at front end engineering or who's extremely good at information visualization, but doesn't have the other skills. And I just hope that we don't get disillusioned if I'm sort of fairly narrow in my skillset. I will never have a chance in database because all the award winning projects are done by these, again, by these unicorns who can do it all. And I think that's something that we just, in order to keep it inclusive for people who just don't have the bandwidth, don't have the time to sort of learn all of these things, that there's still place to do work in that in our field.",
+      "id": "ep_158_ut_40"
+    },
+    {
+      "end": 1741086,
+      "speaker": "Moritz Stefaner",
+      "start": 1712622,
+      "text": "Also, I think this type of unicorn approach, as you call it, also works just for a certain type of project. So if you really want to build lasting tools that are used over a long period of time and that are like really integrated with people's work, you have to be a good team player. There's no way you can just do this in this hit and run fashion and just take that CSV to make it beautiful and off you go. That's not really sustainable in an applied setting.",
+      "id": "ep_158_ut_41"
+    },
+    {
+      "end": 1788088,
+      "speaker": "Thomas Clever",
+      "start": 1741198,
+      "text": "I think you see it even more not just in our field of work, so to speak, but even in looking at job vacancies from technology companies or just businesses looking for design, design talent, you sometimes see this list of, you know, must be skilled in everything called Adobe, but then also have front end coding skills. And, you know, even myself, I think, well, you know, I can't do that. What is happening here? So I think it's a very valuable point that Ben makes here about, you know, the talent and people looking to go into Datavis is, you know, you shouldn't feel ashamed that you're not that unicorn. There's a place for everyone.",
+      "id": "ep_158_ut_42"
+    },
+    {
+      "end": 1791460,
+      "speaker": "Moritz Stefaner",
+      "start": 1788144,
+      "text": "There's space for donkeys and horses and everything.",
+      "id": "ep_158_ut_43"
+    },
+    {
+      "end": 1793580,
+      "speaker": "Thomas Clever",
+      "start": 1792600,
+      "text": "Exactly.",
+      "id": "ep_158_ut_44"
+    },
+    {
+      "end": 1826420,
+      "speaker": "Enrico Bertini",
+      "start": 1796000,
+      "text": "And I'm curious about something here. So when you assemble a new team, I guess it's always a mix of designers and developers. Right. So I wonder if you can tell us a little bit more about how do you carefully assemble a new team and maybe even how you hire new people. I guess designers and encoders don't necessarily always go very well together. So I'm wondering if you have any insights on that.",
+      "id": "ep_158_ut_45"
+    },
+    {
+      "end": 1991320,
+      "speaker": "Benjamin Wiederkehr",
+      "start": 1826580,
+      "text": "I think that, I mean, I get the point and sort of like the trope of designers and coders don't go in well together, but I would just love to just completely dismiss this notion because they do, they do. These are people who are making, building, creating things. They're building products. And yes, for some the tools is JavaScript. For some the tools is go. For some the tools is python. For others the tools is sketch. And for yet others the tool is Tableau. Yes, the tools change. And I mean, it could be said that sort of like a designer's mindset is slightly different from sort of like a programmer's mindset. But at the end of the day, sort of like, we're confronted with a series of challenges. There are methods that we apply to overcome these challenges and sort of like find the solutions to problems. And at the end of the day, we sort of like see a progression in. At the beginning there was nothing, and at the end there's going to be a product and sort like, you just continually evolve this thing until it's done or good enough or award winning. And if you assemble a team that I think believes in each other's responsibilities and also believes in each other's strengths, then it doesn't necessarily matter if they consider themselves to be a designer or an engineer or a hybrid somewhere in between. And to me, that is always one of the most important aspects in our hiring. One of the big areas that we want to explore with a potential hire is what their perspective on collaboration, communication and community is to learn how they see themselves. I think maybe I'm in the privileged position to make a pick and therefore have people on our team that, where I don't even have this conflict of that person, doesn't really go well with a very creative, very experimental designer. So of course there's a curation. So I have this slight distorted view. If I just took a general population of designers and developers, then yes, the curation would have to happen on a per project basis. But in the lucky situation of having a steady team, I don't have to make this curation. And we sort of establish a common understanding and a common respect between all the people as a fundament. And then per project, it's not really a question of curating the team.",
+      "id": "ep_158_ut_46"
+    },
+    {
+      "end": 1992348,
+      "speaker": "Enrico Bertini",
+      "start": 1991700,
+      "text": "Sure.",
+      "id": "ep_158_ut_47"
+    },
+    {
+      "end": 2152772,
+      "speaker": "Thomas Clever",
+      "start": 1992484,
+      "text": "Yeah, I think that ties in well with how we look at hiring people. And of course there are discussions within the studio between designers, programmers, developers, but also among designers themselves and developers themselves. I mean, in the end, our team is passionate and a lot of passionate individuals. So, you know, there's also discussions going on between interaction designers and visual designers about the styling of a button, whether it's ugly or not. And it is fundamental discussions like that that go on. And at the same time, like Ben said, I think a lot of people that work in our types of companies and in Dataviz are often this hybrid or multi skilled individuals that have this interest in technology and design. So very often I joke that we have the design nerds and the nerd designers in our company, and really we hire on culture, on cultural fit more than talent and skill set, because I'm a firm believer on educating people on certain things. Of course, you need to have some fundamental form of talent for either design or code, but a lot of things you can learn on the job, and we train people in that, but things that you can't learn are just having trust in your colleagues, working together. And really, one of the fundamental questions I ask in any job interview to myself is, could I sit next to this person in an airplane for 4 hours? And 4 hours is just long enough to start getting sweaty and annoyed and uncomfortable. And are you happy with the person sitting next to you at that moment in time? Are you going to have a good conversation? And it's a very good test for yourself to think about, does this person fit into our company? And that doesn't mean that people have to be the same. On the contrary, I want to have as many different people in our company working together. But there needs to be this fundamental respect and trust for each other and for each other's capabilities, whether you're junior or senior, all these things. I mean, sometimes a junior designer can tell me, Thomas, I don't like the typeface that you're using. That's absolutely fine.",
+      "id": "ep_158_ut_48"
+    },
+    {
+      "end": 2156308,
+      "speaker": "Enrico Bertini",
+      "start": 2152956,
+      "text": "That's the type of people you want around, right? Yeah, exactly, by the way.",
+      "id": "ep_158_ut_49"
+    },
+    {
+      "end": 2162420,
+      "speaker": "Thomas Clever",
+      "start": 2156444,
+      "text": "So really, it's much more about culture than I feel about other things.",
+      "id": "ep_158_ut_50"
+    },
+    {
+      "end": 2175564,
+      "speaker": "Moritz Stefaner",
+      "start": 2162540,
+      "text": "Yeah, I'm sure it's an ongoing struggle and challenge, but also exciting to build these teams and figure out what works, what doesn't. Then you think you have figured it out and two weeks later things look totally different.",
+      "id": "ep_158_ut_51"
+    },
+    {
+      "end": 2178120,
+      "speaker": "Thomas Clever",
+      "start": 2175692,
+      "text": "It's an eternal struggle. Exactly.",
+      "id": "ep_158_ut_52"
+    },
+    {
+      "end": 2226240,
+      "speaker": "Moritz Stefaner",
+      "start": 2178420,
+      "text": "I can imagine it's exciting. I want to use the opportunity now that I have you two here in the call also to talk a bit about the long term view of how the whole database field has changed. You've been following your own, we've been following your careers, but you've also followed the development off the field and how things have changed. So my question here was like, do you see any, can you say there have been shifts in how over the last ten years, maybe client requirements have changed, what types of projects were feasible or interesting to do? Or is it all pretty much still the same, but we have just fancier technologies? Or do you feel like that the whole field is sort of evolving in certain directions? I would be super curious here to your thoughts.",
+      "id": "ep_158_ut_53"
+    },
+    {
+      "end": 2287206,
+      "speaker": "Thomas Clever",
+      "start": 2226400,
+      "text": "Yeah, I think the field is definitely evolving. When we started our company, you saw even in data sets that were thrown at you. It was very much about web analytics and those type of data sets, and then it went into financial data, and then the iPhone was introduced, which was a huge improvement. On one hand, regarding data phys going from b to b to b, two c space. And I think from our perspective, and I think where we see our value add in the years to come is really around data, physical digital space, IoT sensor technology, and how visualization plays a role in interfaces, adaptive interfaces. Moreover, because I think we're now probably.",
+      "id": "ep_158_ut_54"
+    },
+    {
+      "end": 2289850,
+      "speaker": "Moritz Stefaner",
+      "start": 2287278,
+      "text": "Like this constant handling of data streams.",
+      "id": "ep_158_ut_55"
+    },
+    {
+      "end": 2376200,
+      "speaker": "Thomas Clever",
+      "start": 2290630,
+      "text": "I think we're heading towards a world where you design and develop something that you don't know how that is going to be used across all these different platforms and touchpoints and areas and fields. So you're really designing much more a system and requires a systemic approach to design and to Dataviz more than anything. So that's where I see the long term view for us is really those adaptive interfaces and systems that are much larger than just a single visualization. And also, I think, maybe even going as far as questioning whether we should visualize data in future, whether we should actually be helping people in such a way that they don't need to look at data, which is, I think, an interesting philosophical question that we have discussions about quite often in our studios. How would you design a data visualization for voice control without any screen, those type of things? There's a huge green field for us to explore.",
+      "id": "ep_158_ut_56"
+    },
+    {
+      "end": 2379180,
+      "speaker": "Moritz Stefaner",
+      "start": 2377740,
+      "text": "Benjamin, how about you?",
+      "id": "ep_158_ut_57"
+    },
+    {
+      "end": 2473682,
+      "speaker": "Benjamin Wiederkehr",
+      "start": 2379340,
+      "text": "Yeah, again, I'm definitely following Thomas's train of thought here. We have seen over the past ten years where we have been working actively in the field, huge shifts, first and foremost in understanding what the value is of the work that we're doing. So even understanding the value of using data in more aspects than analytics, data prone fields that have been working with data for decades before. And instead, I think that's reflective. When Thomas said, as we have seen new data sets, like maybe things were analytics sets before, and then financial sets, because these are traditional industries that have been working with data for a long time. But now we see consumers working with data much more. We see journalists working with data much more. We see educators working with data, people who have to report on their data, switching from interpretations in written form to more exploratory experience. So I think all this new data that we get to work with is a result of more diverse people working actively with data and don't necessarily do all the interpretation and transmission into the spoken word again, but instead allow their stakeholders to actively still explore and experiment with the data. And I think that has been a huge change.",
+      "id": "ep_158_ut_58"
+    },
+    {
+      "end": 2479386,
+      "speaker": "Moritz Stefaner",
+      "start": 2473786,
+      "text": "And suddenly it's all about digital transformation in general, rather than making a way or a bubble chart.",
+      "id": "ep_158_ut_59"
+    },
+    {
+      "end": 2623840,
+      "speaker": "Benjamin Wiederkehr",
+      "start": 2479418,
+      "text": "Right, right. We started, right. Sort of like, after the financial crisis and before, and sort of like, slightly after the coin of sort of like, data is the new oil. The term data is the new was coined. And so at the beginning, we definitely had to explain much more the type of work that we do. And again, the benefits of working with data these days. This is like everybody's understanding in almost all industries. And so it's much less of this explanation of what type of work this is and why this is important and what can be the benefits. We start much later, sort of like in this education process, whenever we talk to clients. And I think that will definitely continue to shift. I think we have, again, like, there's a mass market for data visualizations now, but I think that also poses the next challenges, because I think we also have reached a certain level of the audience that definitely now have a much higher data literacy or data visualization literacy, but there's still much more ground to be covered. And maybe, as Thomas says, maybe visualization is not necessarily the right medium anymore. So if we look at trends, like, I want answers instead of I want to analyze, I won't have something personalized instead of I want to have something generic. I want to have something that's quick, snackable, and consumable instead of sort of like, this long form. So these shifts in consumer behavior and how we consume information in general, I think point in the direction of where work, sort of like, of where I think human data interaction will go. And the visual media is extremely powerful. It is also exclusive. So it also exclusively excludes people with certain disabilities to even start Interactive [Things] with data. And so I think, not as a fallback, but instead of taking the human data as the actual norm and then thinking, is visualization the right medium, or is yet another type of medium more adequate? Going forward, I think, is something that's very, very interesting.",
+      "id": "ep_158_ut_60"
+    },
+    {
+      "end": 2733414,
+      "speaker": "Thomas Clever",
+      "start": 2625700,
+      "text": "I think, Ben, you touch upon a really important point, which is data literacy. And maybe that is something that our field should consider is, on the one hand, we have the data literate people, and on the other hand, we have the data illiterate people. And I think looking at maybe a broader trend, and you replace words like data with digital, it becomes where the new rich and poor people split divide comes, right. Are you digitally literate or illiterate? Are you able to manifest yourself in a digitized society that is throwing all these data and insights at you or not. And I think companies like ours also have, on the one hand, progressing the data literate people to a new level, but at the same time taking those data illiterate people, or the ones that don't have the tools and means to access that and help them advance to that same level, to that equal playing field. There's often in the tech world and the world that we operate in, we talk about everything is being digitized, but let's not forget that at least 50% of this globe is still people are fighting for shelter, for safety and some kind of running water. They don't really care about data visualization at this point in time. And still we can design and develop the tools for them to come up to that level very quickly, I hope.",
+      "id": "ep_158_ut_61"
+    },
+    {
+      "end": 2759410,
+      "speaker": "Moritz Stefaner",
+      "start": 2733582,
+      "text": "Yeah, and that's a great general observation that this designing more for a fit for a certain audience, or to think of all the different types of audiences and also the different types of formats and channels. I think there the awareness of the last few years has really risen. And I think maybe five to ten years back we would have thought more in a one size fits all approach, or like, let's just make a cool project and everybody will see it, right?",
+      "id": "ep_158_ut_62"
+    },
+    {
+      "end": 2814654,
+      "speaker": "Benjamin Wiederkehr",
+      "start": 2761080,
+      "text": "I think it's a natural progression. As you said ten years ago, we can make a visualization, we might use flash, people might need a plugin, but we can't create a visualization. Then we can create a visualization that's web native, then we can create a visualization that can also be seen on a smarter device. Then we create visualizations that go across devices. And I think going forward it's like maybe the visualization is not the necessary or the most important part anymore, but the interaction with the data, learning about the data, understanding the data, analyzing it, taking insights from it, making it actionable, and so forth, that's the important part. And I think that's where, as Thomas says, a lot of green field still is. And I think that's where we should be pushing forward into.",
+      "id": "ep_158_ut_63"
+    },
+    {
+      "end": 2822130,
+      "speaker": "Moritz Stefaner",
+      "start": 2814782,
+      "text": "And this job never stops, regardless of technology shifts or, you know, whatever, we can still do that in 30 years.",
+      "id": "ep_158_ut_64"
+    },
+    {
+      "end": 2845970,
+      "speaker": "Enrico Bertini",
+      "start": 2823710,
+      "text": "In the end, I'm thinking that the basic skills and principles behind communicating data don't really go away once you change a medium or channel. Right. So I would be really curious to see what happens when we more, more people start going away in a way from visualization and using other channels. That's super interesting.",
+      "id": "ep_158_ut_65"
+    },
+    {
+      "end": 2856102,
+      "speaker": "Moritz Stefaner",
+      "start": 2846910,
+      "text": "Yeah, great stuff. So we need to wrap up soon. We need to wrap up soon. But we have one more special idea.",
+      "id": "ep_158_ut_66"
+    },
+    {
+      "end": 2866740,
+      "speaker": "Enrico Bertini",
+      "start": 2856166,
+      "text": "So we want to end these episodes with having Benjamin ask something. A question to Thomas and talk. Thomas ask a question to Benjamin.",
+      "id": "ep_158_ut_67"
+    },
+    {
+      "end": 2878260,
+      "speaker": "Benjamin Wiederkehr",
+      "start": 2867280,
+      "text": "All right, so I think I tie directly into the last few statements that Thomas made. Thomas, Sensorlab, what is it all about and why?",
+      "id": "ep_158_ut_68"
+    },
+    {
+      "end": 3016970,
+      "speaker": "Thomas Clever",
+      "start": 2879840,
+      "text": "Great question. Sensorlab is a nonprofit that we started when we moved into our new office space here about two and a half, three years ago ago. And you know, we have this, this prototyping lab within Clever Franke where we, you know, it has anything from drills to, you know, soldering machines to, you know, all the nerd stuff that you always want as a kid. So finally we had the space and we felt, let's build this prototyping lab where we can just go wild on anything. But like most things in life, that stands idle for 90, 95% of the time. So that's a shame. You know, like owning a car, you don't use it very often if you think about it. So that's why we said, hey, why don't we consolidate that into what we call Sensorlab and open it up for students and people that want to come use our equipment and use our tools. And hopefully the odd intern or the odd employee walks out at the same time, or walks in, I should say, and then walks out as an employee. So that's really what sensor lab is about. It's not a different company or anything, but it's something that we promote separately and it's a little bit bigger than just the prototyping lab. We also have an event space in our office that we host presentations and those type of things. So we have university students coming in and learning about data visualization. We have created this workshop that is a very small introductory workshop, three to 4 hours for students to learn how to connect a muscle sensor to an interface and get the data in a JSON file and how to structure it and then create their own visualizations out of it. So really it's fun and games, so to speak, but in a structured way that makes business sense in some way, shape or form.",
+      "id": "ep_158_ut_69"
+    },
+    {
+      "end": 3020330,
+      "speaker": "Moritz Stefaner",
+      "start": 3018630,
+      "text": "Awesome. Sounds like fun.",
+      "id": "ep_158_ut_70"
+    },
+    {
+      "end": 3081820,
+      "speaker": "Thomas Clever",
+      "start": 3021520,
+      "text": "Yeah. So I mean, like Ben said, his question ties into the last part. Mine ties into maybe the things that we talked about earlier. And, you know, not having the experience of working in another agency like you, there are always things that you want to learn from each other and see how you deal with challenges. So you mentioned that, you know, you work with these multi skilled teams, four to six people, and you run into this during a datavis process. You switch from analysis to design to development to narrator, back to analysis to find the best angle and way forward to bring this message across. How do you switch perspectives at the right time within your team? And I asked that because that's a constant challenge on our end, always.",
+      "id": "ep_158_ut_71"
+    },
+    {
+      "end": 3232794,
+      "speaker": "Benjamin Wiederkehr",
+      "start": 3082200,
+      "text": "Yeah, that's a fantastic question. And I think that applies to both interdisciplinary teams, but that also applies to an individual who would just sort of execute a project from start to finish on their own, because you do have to put on different hats or sort of put on different glasses to have a different perspective and focus on what's relevant at that time. So, I mean, one sort of tool that helped us set this mindset, depending on the project phase, is something that we sort of, like, started a few years ago. We have in our office, for each project, we have project boards very similar to how other companies work with kanban boards or a similar system. And on our project boards, we have sort of like a few different templates for different stages that the project is in. And besides having things like a timeline and a list of requirements or a list of assumptions and then sort of like a kanban board for our tools, we also have a big sheet where we have our mindset written on it. So in sort of like, written out English, we write, what is our current mindset that we operate under in this phase of the project? And that sort of evolves over time. And so in a way, it acts as a token, it acts as a reminder. It takes the. Yeah, it, again, sort of. It's something that you can point to. It's something that you, because you have it in daily stand up meetings or also in larger discussions that you can sort of, like, point to and say, hey, let's not forget that we try to explore different options. So it's not necessarily the point in time to sort of cut out everything that's bad and only pursue one direction. Or conversely, hey, now is not the time for more exploration. Now is refinement and polishing. And so these things written out in physical space, if you work in a physical space or written out in a digital space for a team, is a very helpful token for not forgetting it as the project leader yourself, but also having everybody be able to point to it and then actually actively using it in discussions and in their work. So that's something that helped us.",
+      "id": "ep_158_ut_72"
+    },
+    {
+      "end": 3235750,
+      "speaker": "Thomas Clever",
+      "start": 3232962,
+      "text": "Great. Thank you. That's super inspiring.",
+      "id": "ep_158_ut_73"
+    },
+    {
+      "end": 3243866,
+      "speaker": "Moritz Stefaner",
+      "start": 3237210,
+      "text": "So these are physical big cardboards, and you can pin stuff on them, and everybody could see where a project's at a given point in time.",
+      "id": "ep_158_ut_74"
+    },
+    {
+      "end": 3293060,
+      "speaker": "Benjamin Wiederkehr",
+      "start": 3244018,
+      "text": "Yeah. So there is a predefined format of a cardboard wall. It really is fairly big, but still small enough to handle yourself. Peter Gassner, one of the partners at Interactive [Things], he wrote a lengthy blog post about the thinking behind it. It has been a few years in the making until we're where we are and it's an evolving thing. So these things change. And right now we're trying to move away also in the current situation, trying to move away from the physical necessity to have the board in the room have an equivalent in the digital space that is a little bit more portable and sort of like allows for a little bit more remote access. So I'm happy to send that link where we explain how they really look and work.",
+      "id": "ep_158_ut_75"
+    },
+    {
+      "end": 3296260,
+      "speaker": "Moritz Stefaner",
+      "start": 3293100,
+      "text": "Yeah, we want that blog post. We want to see a photo of all these boards.",
+      "id": "ep_158_ut_76"
+    },
+    {
+      "end": 3315880,
+      "speaker": "Thomas Clever",
+      "start": 3296380,
+      "text": "Yeah, we're experimenting with something in the digital space, like you said, having those project boards or even doing sprint rettos online because everyone is working remote. Now, we found that Miro is a very nice tool to use and also to have workshops with clients at this moment.",
+      "id": "ep_158_ut_77"
+    },
+    {
+      "end": 3384572,
+      "speaker": "Moritz Stefaner",
+      "start": 3316380,
+      "text": "Yeah, yeah. Anything that allows, like this effortless awareness of where everybody's at and what the reading, the room has so much become so much harder. Right. Everybody is remote. And so this is an interesting time to figure out things, to create this type of awareness over a distance. Yeah. But I totally agree. All these physical things that you can point to and discuss together can be so valuable and building up that mutual and this common ground between people. Yeah, we're doing the same thing here and this is where we are. It sounds trivial, but it's very important. Yeah. Wonderful. That was great chatting to you. We should wrap it up, otherwise we are losing too many people who don't have so much time to listen. But if you have any additional questions, you can ping Thomas and Benjamin on Twitter for sure, or some other social platform or send us an email and we'll respond maybe. And yeah, we'll link to your stuff, take a look at the show notes and super looking forward to seeing what you'll come up with in the future in terms of projects. Thanks for joining us.",
+      "id": "ep_158_ut_78"
+    },
+    {
+      "end": 3385812,
+      "speaker": "Enrico Bertini",
+      "start": 3384636,
+      "text": "Thanks for coming on the show.",
+      "id": "ep_158_ut_79"
+    },
+    {
+      "end": 3386668,
+      "speaker": "Benjamin Wiederkehr",
+      "start": 3385876,
+      "text": "Thank you very much.",
+      "id": "ep_158_ut_80"
+    },
+    {
+      "end": 3387868,
+      "speaker": "Thomas Clever",
+      "start": 3386724,
+      "text": "Thanks for having us.",
+      "id": "ep_158_ut_81"
+    },
+    {
+      "end": 3390316,
+      "speaker": "Benjamin Wiederkehr",
+      "start": 3388004,
+      "text": "Has been an absolute privilege and joy.",
+      "id": "ep_158_ut_82"
+    },
+    {
+      "end": 3391916,
+      "speaker": "Thomas Clever",
+      "start": 3390388,
+      "text": "Absolutely. I concur.",
+      "id": "ep_158_ut_83"
+    },
+    {
+      "end": 3395012,
+      "speaker": "Moritz Stefaner",
+      "start": 3391988,
+      "text": "Always a pleasure. Thank you. Bye bye.",
+      "id": "ep_158_ut_84"
+    },
+    {
+      "end": 3395588,
+      "speaker": "Enrico Bertini",
+      "start": 3395076,
+      "text": "Bye, guys.",
+      "id": "ep_158_ut_85"
+    },
+    {
+      "end": 3396600,
+      "speaker": "Benjamin Wiederkehr",
+      "start": 3395644,
+      "text": "Bye bye.",
+      "id": "ep_158_ut_86"
+    },
+    {
+      "end": 3422868,
+      "speaker": "Moritz Stefaner",
+      "start": 3401020,
+      "text": "Hey, folks, thanks for listening to data stories again. Before you leave, a few last notes. This show is crowdfunded and you can support us on patreon@patreon.com Datastories, where we publish monthly previews of upcoming episodes for our support us. Or you can also send us a one time donation via Paypalaypal me Datastories.",
+      "id": "ep_158_ut_87"
+    },
+    {
+      "end": 3450762,
+      "speaker": "Enrico Bertini",
+      "start": 3423044,
+      "text": "Or as a free way to support the show. If you can spend a couple of minutes rating us on iTunes, that would be very helpful as well. And here's some information on the many ways you can get news directly from us. We are on Twitter, Facebook and Instagram, so follow us there for the latest updates. We have also a slack channel where you can chat with us directly and to sign up, go to our home page at Datastory ES and there you'll find a button at the bottom of.",
+      "id": "ep_158_ut_88"
+    },
+    {
+      "end": 3459554,
+      "speaker": "Moritz Stefaner",
+      "start": 3450786,
+      "text": "The page and there you can also subscribe to our email newsletter if you want to get news directly into your inbox and be notified whenever we publish a new episode.",
+      "id": "ep_158_ut_89"
+    },
+    {
+      "end": 3472178,
+      "speaker": "Enrico Bertini",
+      "start": 3459642,
+      "text": "That's right, and we love to get in touch with our listeners, so let us know if you want to suggest a way to improve the show or know any amazing people you want us to invite or even have any project you want us to talk about.",
+      "id": "ep_158_ut_90"
+    },
+    {
+      "end": 3478842,
+      "speaker": "Moritz Stefaner",
+      "start": 3472314,
+      "text": "Yeah, absolutely. Don't hesitate to get in touch. Just send us an email at mailatastory es.",
+      "id": "ep_158_ut_91"
+    },
+    {
+      "end": 3482650,
+      "speaker": "Enrico Bertini",
+      "start": 3478986,
+      "text": "That's all for now. Hear you next time, and thanks for listening to data stories.",
+      "id": "ep_158_ut_92"
+    }
+  ],
+  "confidence": 0.930613362288623,
+  "audio_duration": 3491,
+  "punctuate": true,
+  "format_text": true,
+  "dual_channel": false,
+  "webhook_url": null,
+  "webhook_status_code": null,
+  "webhook_auth": false,
+  "webhook_auth_header_name": null,
+  "speed_boost": false,
+  "auto_highlights_result": null,
+  "auto_highlights": false,
+  "audio_start_from": null,
+  "audio_end_at": null,
+  "word_boost": [],
+  "boost_param": null,
+  "filter_profanity": false,
+  "redact_pii": false,
+  "redact_pii_audio": false,
+  "redact_pii_audio_quality": null,
+  "redact_pii_policies": null,
+  "redact_pii_sub": null,
+  "speaker_labels": true,
+  "content_safety": false,
+  "iab_categories": true,
+  "content_safety_labels": {
+    "status": "unavailable",
+    "results": [],
+    "summary": {}
+  },
+  "language_detection": false,
+  "language_detection_threshold": null,
+  "language_confidence": null,
+  "custom_spelling": null,
+  "throttled": false,
+  "auto_chapters": true,
+  "summarization": false,
+  "summary_type": null,
+  "summary_model": null,
+  "custom_topics": false,
+  "topics": [],
+  "speech_threshold": null,
+  "speech_model": "best",
+  "chapters": [
+    {
+      "summary": "Moritz Stefaner and Enrico Bertini talk about data visualization, data analysis, and generally the role data plays in our lives. Our podcast is listener supported, so there's no ads. If you enjoyed the show, please consider supporting us with recurring payments on patreon. com Datastories.",
+      "gist": "Data Stories",
+      "headline": "Data stories podcast is listener supported, so there's no ads",
+      "start": 320,
+      "end": 111938,
+      "id": "ep_158_ch_0"
+    },
+    {
+      "summary": "Small to medium data visualization agencies. Some of the best database work obviously comes from these types of companies. It's really fascinating to hear a bit of their long term perspective on how the field has evolved. Maybe even more episodes to come.",
+      "gist": "A Single Episode",
+      "headline": "Small to medium data visualization agencies are fascinating topics for this podcast",
+      "start": 112034,
+      "end": 203718,
+      "id": "ep_158_ch_1"
+    },
+    {
+      "summary": "We have two guests: Thomas clever and Benjamin Wiederkehr. Thomas, maybe first could you briefly introduce yourself and your company and then Benjamin can take over? Yeah, absolutely.",
+      "gist": "Thomas and Benjamin Wiederkehr",
+      "headline": "We have two guests on today: Thomas clever and Benjamin Wiederkehr",
+      "start": 203854,
+      "end": 227130,
+      "id": "ep_158_ch_2"
+    },
+    {
+      "summary": "Thomas Clever is co founder of Clever Franke, a data design and technology company. The company creates anything from one off data visualizations to data driven products and tools. How many people are working for you right now? It's around 32.",
+      "gist": "How Clever Franke Works: From Data Visualization to Software",
+      "headline": "Thomas Clever is co founder of Clever Franke, a data design company",
+      "start": 227170,
+      "end": 327572,
+      "id": "ep_158_ch_3"
+    },
+    {
+      "summary": "Benjamin: The project that comes to mind is education inequalities and education progress. Thomas: The Mobility index website that we created for the Chicago Metropolitan Agency of planning is one of my personal favorites. There's always some quintessential projects, some lighthouse projects that I think really define you as a company.",
+      "gist": "What's Your Quintessential Project?",
+      "headline": "Benjamin: There are some quintessential projects that we like to do",
+      "start": 327676,
+      "end": 665530,
+      "id": "ep_158_ch_4"
+    },
+    {
+      "summary": "How is an agency like yours different from other ways of organizing business around data visualization? It's very much at the intersection of data strategy and business. There's a delicate balance in the projects that we work on from a business perspective.",
+      "gist": "What Makes a Data Visualization Agency So Different?",
+      "headline": "How is your agency different from other ways of organizing business around data visualization",
+      "start": 666550,
+      "end": 1163590,
+      "id": "ep_158_ch_5"
+    },
+    {
+      "summary": "A lot of successful data visualization work is often done by individuals or small teams. What's your experience with scaling data visualization productions? An ideal team setup for us is around six to eight people on a larger project.",
+      "gist": "How to Scale Up Data Visualization Production",
+      "headline": "A lot of successful data visualization work is done by small teams",
+      "start": 1165050,
+      "end": 1599360,
+      "id": "ep_158_ch_6"
+    },
+    {
+      "summary": "There's a slight glorification of the unicorn visualizer in our field. People who excel at all involved disciplines. This could raise unrealistic expectations for employers who are looking for this type of people. There's a place for everyone in Datavis.",
+      "gist": "The 'Unicorns' of DataVisualization",
+      "headline": "There is a glorification of the unicorn visualizer in our field",
+      "start": 1600060,
+      "end": 1793580,
+      "id": "ep_158_ch_7"
+    },
+    {
+      "summary": "When you assemble a new team, it's always a mix of designers and developers. One of the big areas that we want to explore with a potential hire is what their perspective on collaboration, communication and community is. We hire on culture, on cultural fit more than talent and skill set.",
+      "gist": "At Dataviz, We Hire Designers and Developers",
+      "headline": "When you assemble a new team, you always mix designers and developers",
+      "start": 1796000,
+      "end": 2180160,
+      "id": "ep_158_ch_8"
+    },
+    {
+      "summary": "Dataviz's value add in the years to come is really around data, physical digital space, IoT sensor technology, and how visualization plays a role in interfaces, adaptive interfaces. We're heading towards a world where you design and develop something that you don't know how that is going to be used.",
+      "gist": "Dataviz CEO on the Future of Data",
+      "headline": "Thomas and Benjamin discuss how the database field has changed over ten years",
+      "start": 2180460,
+      "end": 2529040,
+      "id": "ep_158_ch_9"
+    },
+    {
+      "summary": "There's a mass market for data visualizations now, but that also poses the next challenges. The visual media is also exclusive. It exclusively excludes people with certain disabilities to even start Interactive [Things] with data. Is visualization the right medium, or is another type of medium more adequate?",
+      "gist": "Are Data Visualizations the Right Medium?",
+      "headline": "Thomas: There's a mass market for data visualizations now",
+      "start": 2529120,
+      "end": 2623840,
+      "id": "ep_158_ch_10"
+    },
+    {
+      "summary": "Are you digitally literate or illiterate? Are you able to manifest yourself in a digitized society? The basic skills and principles behind communicating data don't really go away once you change a medium or channel.",
+      "gist": "Data Literacy and the Future of Visualization",
+      "headline": "Benjamin: Data literacy is very important in today's digital world",
+      "start": 2625700,
+      "end": 2866740,
+      "id": "ep_158_ch_11"
+    },
+    {
+      "summary": "Sensorlab is a nonprofit that we started when we moved into our new office space here about two and a half, three years ago. We have university students coming in and learning about data visualization. It's fun and games, but in a structured way that makes business sense.",
+      "gist": "What is Sensorlab",
+      "headline": "Sensorlab is a nonprofit that we started when we moved into our new office",
+      "start": 2867280,
+      "end": 3021856,
+      "id": "ep_158_ch_12"
+    },
+    {
+      "summary": "How do you switch perspectives at the right time within your team? We have project boards for each project, similar to how other companies work with kanban boards or a similar system. We're trying to move away from the physical necessity to have an equivalent in the digital space.",
+      "gist": "Project Board",
+      "headline": "How do you switch perspectives at the right time within your team",
+      "start": 3021888,
+      "end": 3403812,
+      "id": "ep_158_ch_13"
+    },
+    {
+      "summary": "This show is crowdfunded and you can support us on patreon@patreon. com Datastories. We are on Twitter, Facebook and Instagram, so follow us there for the latest updates. Let us know if you want to suggest a way to improve the show.",
+      "gist": "Data Stories",
+      "headline": "This show is crowdfunded and you can support us on patreon",
+      "start": 3403996,
+      "end": 3482650,
+      "id": "ep_158_ch_14"
+    }
+  ],
+  "disfluencies": false,
+  "entity_detection": false,
+  "sentiment_analysis": false,
+  "sentiment_analysis_results": null,
+  "entities": null,
+  "speakers_expected": null,
+  "summary": null,
+  "custom_topics_results": null,
+  "episode_num": 158,
+  "episode_metadata": {
+    "speakers": [
+      "Benjamin Wiederkehr",
+      "Moritz Stefaner",
+      "Enrico Bertini",
+      "Thomas Clever"
+    ],
+    "WPid": "1586",
+    "url": "https://datastori.es/podlove/file/6646/s/feed/c/mp3/158-viz-agencies-cleverfranke-and-interactive-things.mp3",
+    "episode_title": "Viz Agencies: CLEVER\u00b0FRANKE and Interactive Things"
+  }
+}

@@ -1,0 +1,786 @@
+{
+  "id": "9c1a407a-4484-42c5-a9b3-6ad3c0695a40",
+  "language_model": "assemblyai_default",
+  "acoustic_model": "assemblyai_default",
+  "language_code": "en_us",
+  "status": "completed",
+  "audio_url": "https://datastori.es/podlove/file/3832/s/feed/c/mp3/96-innovation-from-research-with-jarke-van-wijk.mp3",
+  "utterances": [
+    {
+      "end": 11274,
+      "speaker": "Jarke Van Wijk",
+      "start": 200,
+      "text": "If you look at Jurassic park, there are some scenes that play in a lab. And if you look very, very carefully, you see in the background, suddenly pictures made by edge bundles.",
+      "id": "ep_96_ut_0"
+    },
+    {
+      "end": 57846,
+      "speaker": "Enrico Bertini",
+      "start": 15734,
+      "text": "Data stories is brought to you by Qlik. Are you missing out on meaningful relationships hidden in your data? Unlock the old story with Qlik sense through personalized visualizations and dynamic dashboards which you can download for free at Qlik. Hey, everyone, welcome to a new episode of data stories. Hey, Moritz.",
+      "id": "ep_96_ut_1"
+    },
+    {
+      "end": 58870,
+      "speaker": "Moritz Stefaner",
+      "start": 57950,
+      "text": "Hey, Enrico.",
+      "id": "ep_96_ut_2"
+    },
+    {
+      "end": 60398,
+      "speaker": "Enrico Bertini",
+      "start": 58982,
+      "text": "How's it going? All good.",
+      "id": "ep_96_ut_3"
+    },
+    {
+      "end": 66006,
+      "speaker": "Moritz Stefaner",
+      "start": 60486,
+      "text": "Good, good. Yeah. We're approaching 100 episodes. Yeah, we are getting closer and closer.",
+      "id": "ep_96_ut_4"
+    },
+    {
+      "end": 74142,
+      "speaker": "Enrico Bertini",
+      "start": 66110,
+      "text": "Yeah, very close. We have to. Yeah. What do we do for 100? Maybe we should ask our listeners and suggestions.",
+      "id": "ep_96_ut_5"
+    },
+    {
+      "end": 74534,
+      "speaker": "Jarke Van Wijk",
+      "start": 74238,
+      "text": "Yeah.",
+      "id": "ep_96_ut_6"
+    },
+    {
+      "end": 76354,
+      "speaker": "Moritz Stefaner",
+      "start": 74574,
+      "text": "Let us know how we should celebrate.",
+      "id": "ep_96_ut_7"
+    },
+    {
+      "end": 142000,
+      "speaker": "Enrico Bertini",
+      "start": 76654,
+      "text": "Yeah. How do you want us to celebrate the 100 episodes? We have to come up with something cool. Okay. So today we have another very special guest. I am really, really pleased to have Jarke van Wijk on the show. So Jark is a full professor of visualization from the Eindhoven University of Technology. And he's one of the most interesting figures in visualization research and in visualization in general. He's been developing lots of innovative techniques, doing lots of solid research, and he's been there for a very long time. So he has knowledge about how visualization research, or visualization in general started. And yeah, we are really eager to hear from him. Yeah, what are his ideas about visualization and stories behind some of the amazing methods and technologies that he developed in the past. Welcome on the show, Jarke.",
+      "id": "ep_96_ut_8"
+    },
+    {
+      "end": 147004,
+      "speaker": "Jarke Van Wijk",
+      "start": 142032,
+      "text": "Thank you, Enrico. Thanks for inviting me. I'm happy to be a member of the party.",
+      "id": "ep_96_ut_9"
+    },
+    {
+      "end": 163874,
+      "speaker": "Enrico Bertini",
+      "start": 148014,
+      "text": "Great. So, Jark, maybe we can start. Can you briefly introduce yourself? I know you have a very interesting background. So what is your background, what are your interests and what are you doing in your lab?",
+      "id": "ep_96_ut_10"
+    },
+    {
+      "end": 291690,
+      "speaker": "Jarke Van Wijk",
+      "start": 164214,
+      "text": "Okay, well, a very long time ago I was at high school doubting what to do. It's difficult to make a choice. Many things are interesting. Finally, I decided to study industrial design engineering in Delft, here in the Netherlands. And it was a wonderful education where I learned a lot in many different areas. After that I did a PhD in computer graphics, also in Delft University. I was doing ray tracing in the eighties. Raster graphics was bright new and everybody was amazed if you could make a 3d picture. After a short stop in industry, I went to Nellons Energy Research foundation. There I was developing pre and post processing software, quite typically prototypes for experimental things and research purposes. But also I could do some research myself. At that time I focused mainly on flow visualization but also did some work on, for instance, interactive visualization using computational steering. In 98, I came to Eindhoven University of Technology and thought, well, let's switch topics there. I decided to start with Infofis, which was just starting up, sort of. It depends on what your markers start. But as an academic exercise, the first interface conference was in 95. So for me that's a kind of marker. And of course it was a very fascinating topic and many things to do well. And since 98, I've been working in this area, increasingly doing more and more things in the area of visual analytics, trying to combine automated methods with visualization. Now and then I make some little sidesteps in the direction of mathematical visualization, for instance.",
+      "id": "ep_96_ut_11"
+    },
+    {
+      "end": 359012,
+      "speaker": "Enrico Bertini",
+      "start": 291802,
+      "text": "Very nice. So one thing that I would like to, one way I would like to start our conversation is I want to start on the idea of making cool stuff. Because when I look at your work, I mean, you are an academic, right? But not all academics make really cool stuff. And one characteristic of your work is that most of the time when there is a new technique coming from your lab is just irresistible. It's cool. And I actually found this very nice quote from one of your talks that says, develop new methods that are so awesome, cool, impressive, compelling, fascinating and exciting, that the reviewers, colleagues, users are totally convinced just by looking at your work and some examples. So I'm wondering if we can start our conversation by commenting on this idea, and maybe then we can dive right into describing some of your methods and technique that you developed in the past.",
+      "id": "ep_96_ut_12"
+    },
+    {
+      "end": 499712,
+      "speaker": "Jarke Van Wijk",
+      "start": 359198,
+      "text": "Okay, fine, yeah. You described me as an academic, and I must admit that now, already for 1819 years, I'm back in university still. In my heart I feel like an engineer or a designer. My greatest ambition and motivation is simply to make things, to make things that help people or are interesting to look at, or where you can learn something from, rather than developing grand big theory on whatever. And that drives a lot of my work. And also that's what I want to convey to my students, just try to make something that has impact, that is good, etcetera. The quote you just mentioned came from a talk I gave and the context, there was some evaluation. Well, of course we should, in the academic world and in visualization in general, always be very carefully and never say without proof that things are right or wrong, or better or worse. And then evaluation is an important part of it. Now and then I have a feeling that it's slightly overemphasized. And especially in a young generation, they seem to have an idea that if you don't do evaluation, then there's no chance you get your paper accepted. So I wanted to provoke people just by making clear that, okay, evaluation is an important step, but it's just a step. And if you want to make progress, the most important step is simply that you have to deliver. So make sure that you put something on the table that is nice and worth looking at. And of course, you can produce crap and then evaluate it and find out it's crap, but it's not really efficient. So try to develop an attitude that you can do the first filtering for the nonsense and the crap yourself, and don't be satisfied until you believe yourself in it. So that is sort of summary.",
+      "id": "ep_96_ut_13"
+    },
+    {
+      "end": 550494,
+      "speaker": "Enrico Bertini",
+      "start": 499808,
+      "text": "Yeah, I think this is also connected to another interesting idea, and I want to. I'm curious to hear what you think. Think about it. I think that on the one hand, especially in visualization research, we try to develop things that are highly functional and we pretend in one way or another that these things should be useful. But on the other hand, it seems to me again, I was rereading one of your papers today to prepare for this episode on the value of visualization, and there is a very interesting section on the value of art you seem to suggest, and I hope I'm not wrong, that doing things for the sake of it is also very important, because sometimes they actually lead to some breakthroughs. Do I read your thought right there?",
+      "id": "ep_96_ut_14"
+    },
+    {
+      "end": 790692,
+      "speaker": "Jarke Van Wijk",
+      "start": 552394,
+      "text": "Yeah, now and then you do have to experiment and see where the boundaries are. If you start up a new thing, the initiative can come from different sites in many, many cases. And a lot of my student projects, for instance, the starting point is simply a dataset, a user, someone with interest and has some challenging problem. Now then you start to work on it. Can we solve it in a trivial way? Well, if we can do that, then okay, we are done. Maybe it is more challenging, and then we start to develop something new. But also problems also come from other directions, like, hey, there's some generic problem over there. We don't have yet a user or an application for it. But if we could crack this problem, then that might be an interesting step forward. And anyhow, it's just fun to crack interesting puzzles. Some of my work was driven by that kind of things. For instance, in the area of flow visualization, I worked a lot on using texture to visualize flow. And that started really as a sort of technical problem. I had this image of, hey, you can visualize flow in a very natural way using texture. And now how to do it. My idea was, let's take some standard off the shelf computer graphics techniques, but found out, hey, there's not such a technique. So I had to develop something myself. Also, the two things I just mentioned, you have a sort of very practical bottom up approach starting from a project. Also you have the very generic approach starting with some generic puzzle. In my experience, it's always fascinating. Try to switch level all the time. If you do something practical and it's not immediately obvious how to solve it. Okay, then make a step back and try to see what the pattern is and try to solve the more generic puzzle without immediate care for the particular application domain example. In that context is, for instance, the hierarchical edge bundles of Danny Holten. Denny was doing work in software visualization and at one point we had a nice data set and we wanted to show something more about this. It was about core graphs of complex software from a company and how to see the structure. We looked at it and then we found out, hey, the real puzzle here is that you have a hierarchy, namely the structure of the software system. And on top of that you have a network. All the modules on the bottom level of the system are calling each other. So this combination of a network and a higher hierarchy, that's interesting. If you look at the world through that pattern, you suddenly find it everywhere. For instance, you have people that work in different countries, in different continents, so you have a hierarchy and they're sending emails to each other, they are friends of each other. There you have a network. And trying to understand this relation between, say, geography and communication is interesting. So Danny and I set out to develop something for that. And in the end of the day, we ended up with the hierarchical edge bundles.",
+      "id": "ep_96_ut_15"
+    },
+    {
+      "end": 801396,
+      "speaker": "Enrico Bertini",
+      "start": 790828,
+      "text": "So since you mentioned edge bundling, I think that's one of those examples of visualization techniques that are just irresistible. You see it once, it's like, yeah.",
+      "id": "ep_96_ut_16"
+    },
+    {
+      "end": 802744,
+      "speaker": "Moritz Stefaner",
+      "start": 801460,
+      "text": "Just looks so good.",
+      "id": "ep_96_ut_17"
+    },
+    {
+      "end": 851798,
+      "speaker": "Enrico Bertini",
+      "start": 803084,
+      "text": "How come nobody thought about it earlier? Just perfect. Maybe. If there is anyone who is listening to this and doesn't know what edge bundling is, I suggest you to google it if you can and take a look. But the idea is basically that if you have a network with edges that connect these networks, the nodes of these networks, then rather than having straight lines, you bundle edges together in a way that makes patterns more visible. Right. And yeah, it's been a huge success and now you see it almost everywhere. So it's a very interesting method. It's one of those things. I think all great ideas in retrospect are obvious. And that's one of those cases, right?",
+      "id": "ep_96_ut_18"
+    },
+    {
+      "end": 896600,
+      "speaker": "Jarke Van Wijk",
+      "start": 851926,
+      "text": "Yeah, it's also an interesting case of what we just discussed. If you look at the original papers, there's almost no evaluation, just a number of example pictures just to take that people have evaluated. And, well, it's not always very conclusive. And also, even Danny and I have been in situations where we looked at some diagrams and, okay, it looks fascinating, but what's the message that the picture wants to tell us? In other cases it does work. So. Okay. And definitely the pictures look very intriguing and nice look at.",
+      "id": "ep_96_ut_19"
+    },
+    {
+      "end": 929774,
+      "speaker": "Moritz Stefaner",
+      "start": 896672,
+      "text": "Sometimes the evaluation is also much more long term in terms of the proof is in the putting is like, you know, is the technique being applied actually? And is it being picked up? Do you have experiences with edge bundling? Like it's been around now for ten years maybe, or maybe a bit less, I'm not sure. What's your feeling like? How was it adopted? Like by different tools? Or do you have some use cases for edge bundling in mind that worked really well and others that didn't work so well. What's the long term, your long term experience with this technique?",
+      "id": "ep_96_ut_20"
+    },
+    {
+      "end": 981534,
+      "speaker": "Jarke Van Wijk",
+      "start": 930274,
+      "text": "I was amazed how well it was picked up. One of the reasons is practical that people were so friendly to build it in D3, and that's always a good way to make your stuff propagated. But also before that, we saw that people used it and re implemented it themselves. One very nice example was for instance, that people used it to show connections in brain of monkeys. And yeah, that was on the COVID of. I think it was CACM or something like that. Our biggest surprise is that if you look at Jurassic park, there are some scenes that play in a lab. And if you look very, very carefully, you see in the background suddenly pictures made by edge bundles.",
+      "id": "ep_96_ut_21"
+    },
+    {
+      "end": 988704,
+      "speaker": "Moritz Stefaner",
+      "start": 983284,
+      "text": "That's the ultimate proof for coolness. So I rest my case. I rest my case.",
+      "id": "ep_96_ut_22"
+    },
+    {
+      "end": 992132,
+      "speaker": "Enrico Bertini",
+      "start": 990484,
+      "text": "We have to find this picture.",
+      "id": "ep_96_ut_23"
+    },
+    {
+      "end": 1040444,
+      "speaker": "Jarke Van Wijk",
+      "start": 992228,
+      "text": "Yeah, I can send it to you. Something else is it was also a start of startup from Danny Holt in Jankesh Buhnen, where they initially started from the basic ideas of the edge bundles. Now they have developed the software much more and it's much more versatile. And then you see that the initial idea of the ad bundles. Well, there are many other things that are also important if you want to make all around visualization, visual analytics software. But for some purposes, and for instance, insurance fraud, they found out that it can be quite useful to quickly see patterns and structures and select things and interact with these.",
+      "id": "ep_96_ut_24"
+    },
+    {
+      "end": 1101934,
+      "speaker": "Enrico Bertini",
+      "start": 1040804,
+      "text": "Nice. So maybe we can move on to another very famous technique you've been developing. I guess that's what the late nineties or early two thousands, a new version of treemaps, which is actually, I guess, the most popular version of tree maps, which is squareified treemaps. So I think the story there is that. So three maps have been developed originally by Ben Shneiderman and his students in his lab at Maryland. And I believe the first implementation was used an algorithm based on slice and dice that created very long and stretchy rectangles. And then you came up with this new algorithm that actually tries to have an aspect ratio for each rectangle that is as close as possible to a square. Right. So can you tell us a little bit of the background story of this technique?",
+      "id": "ep_96_ut_25"
+    },
+    {
+      "end": 1234590,
+      "speaker": "Jarke Van Wijk",
+      "start": 1102014,
+      "text": "Well, we had done some work on tree maps, the cushion tree maps, and then indeed, we immediately ran into the problem of the standard slice and dice approach. So I thought this would be a nice topic for a master student for his final project to work on that, we found one Mark Brolf. I don't want to claim that I developed the algorithm. Actually, it was the second author, my colleague, case housing, who came up with the final idea how to implement it, and how to make sure that in a fairly cheap way, you can get much better aspect ratios. So I can claim that here in Eindhoven, I did put a problem on the table, but the solution was made by others. Meanwhile, if you look at the map of the market of Martin Wattenberg, he also already applied a sort of squarification approach, but sort of experimentally. We found out that our method was in most cases more effective than his. He used a sort of top down approach, while we used a bottom up approach. And indeed, just like with the edge bundles, I'm always happy to see how many people use it. Also, this led to a startup company, MagnaView, and there, based on work we did later on in 2005, Rolf Liegen and Erik-Jan van der Linde. We generalized some ideas around tree maps into business graphics in general, and found out that, well, you can use similar techniques inside, for instance, standard bar charts, etcetera, so that the individual items are visible well simultaneously. You also see the aggregates. So that was, for me personally, a nice and rewarding story, how one idea propagates to the next and finally reaches some audiences.",
+      "id": "ep_96_ut_26"
+    },
+    {
+      "end": 1240022,
+      "speaker": "Enrico Bertini",
+      "start": 1234782,
+      "text": "And you briefly mentioned the cushion tree maps as well. So can you describe what this is about?",
+      "id": "ep_96_ut_27"
+    },
+    {
+      "end": 1355894,
+      "speaker": "Jarke Van Wijk",
+      "start": 1240118,
+      "text": "Yeah, if you use a standard tree map, then you see a lot of rectangles, and the layout of the rectangles is driven by the hierarchy. Now, how to show the hierarchy. One approach is to use, for instance, thick and thin lines, and show the high level cuts by thick lines and the low levels by thin gray lines. But quickly that becomes very confusing. As I told you just in my cv, basically I'm very much a graphics guy. So at that period in time, I thought, okay, let's put some technique from 3d graphics in there and see how we can boost the appearance. So the idea was to put cushions behind each rectangle and to stack them up hierarchically. And then you get very nice, almost like tortoise like patterns that are quite readable and help you to understand the hierarchy. I'll tell you a secret story how I came up with the idea. It might be surprising. The inspiration was music. I don't know if you know how she music looks like. In classic sheep music, you want to make phrases clear and sub phrases, etcetera. And there you use arcs to show them. I looked at those and thought, okay, what would happen if you simply stack those arcs so that you get a sort of hierarchical arc pattern? Can you generalize that to the case? Well, turned out to be very simple to define and to implement and gave a lot of nice pictures.",
+      "id": "ep_96_ut_28"
+    },
+    {
+      "end": 1388948,
+      "speaker": "Enrico Bertini",
+      "start": 1356354,
+      "text": "Very nice. And I think actually there is also a tool that you developed that is based on cushion tree maps. But the main purpose is to actually get an overview of the old set of files that you have in your computer. Right. Which is an incredibly useful tool. I used it a few times, and if you're, if your hard disk is full, it's just perfect. You load it, you let it run for a few seconds or minutes, and you have an overview of your old file system. Right, right.",
+      "id": "ep_96_ut_29"
+    },
+    {
+      "end": 1405944,
+      "speaker": "Jarke Van Wijk",
+      "start": 1389076,
+      "text": "That was sequoia view. And yeah, I was delighted by the success I got from many people. Feedback that really saved them from buying a new hard disk. Other people said, I have no idea what the images mean, but they look pretty cool.",
+      "id": "ep_96_ut_30"
+    },
+    {
+      "end": 1417354,
+      "speaker": "Moritz Stefaner",
+      "start": 1407394,
+      "text": "It's hard drive art. And funnily, this is also how Ben Shneiderman came up with the original dream is like to visualize file systems. Right? So it seems to be a good use case.",
+      "id": "ep_96_ut_31"
+    },
+    {
+      "end": 1456634,
+      "speaker": "Jarke Van Wijk",
+      "start": 1417434,
+      "text": "Yeah, there's a real use case behind that. One highlight in my hard drive visualization art was that in 2009 I was part of an exhibition in a museum here in the Netherlands on showing data as art. And then I had asked many people to provide a picture of the hard disk, and we had a big wall of, I think it was four or 5 meters high and 10 meters wide, showing about more than 100 hard disks, and gave a very intriguing and interesting pattern.",
+      "id": "ep_96_ut_32"
+    },
+    {
+      "end": 1493032,
+      "speaker": "Enrico Bertini",
+      "start": 1456714,
+      "text": "Yeah, I think another interesting aspect of this project is that it's interesting how when you manage to create a simple tool that targets a very specific need that people have, have, then adoption just happens, right? And I don't know, I think it's interesting that there is not a lot of visualization tools out there that people readily adopt and target one very specific need. So I don't know why. Why is that? But yeah, I don't know. Sequoia view makes me think about this gap.",
+      "id": "ep_96_ut_33"
+    },
+    {
+      "end": 1591506,
+      "speaker": "Jarke Van Wijk",
+      "start": 1493168,
+      "text": "Yeah. Finding good use cases is the challenge here, I think. And yeah, interesting that you mentioned that. It's interesting what is used and what's not used. I'm always a big fan of faceted search. Faceted search is the technical term, but everybody will recognize it if I describe it. If you go to an arbitrary webshop or you have to select a flight or find a holiday home, you're offered with a list of different choices and you can pick things and you see how many are there and get some statistics about it that guide you through your choice. If you have thousands of items to look at, doesn't work. If you have zero, it also doesn't work. So that's an incredibly effective technique to drill down quickly on large datasets. On the back of my head, it's hard to beat that. If you look at the problem at a higher level as selection in collections of items with multivariate attributes, it seems there's a case for visualization and a lot of people in our field are working on making better methods for multivariate visualization. Still, it's very hard to beat, at least as you're just searching for things. It's very simple and straightforward method, but.",
+      "id": "ep_96_ut_34"
+    },
+    {
+      "end": 1605134,
+      "speaker": "Moritz Stefaner",
+      "start": 1591530,
+      "text": "The hope with visualization is that you see some higher level patterns and not just the individual things. Right. I mean, but maybe there's often not so much use for seeing patterns in Amazon or flights.",
+      "id": "ep_96_ut_35"
+    },
+    {
+      "end": 1641126,
+      "speaker": "Jarke Van Wijk",
+      "start": 1605514,
+      "text": "I don't know, in many cases, indeed people, if I look what I'm doing myself, for instance, suppose that I want to buy a new headset, okay. I just focus in on what headsets are there and where to find them. Of course I get some ideas about the general spectrum of headsets and in many cases it's amazing that you can buy them for five euro, but also for \u20ac1000. But for the rest, yeah, the big picture is not that relevant. Yeah, yeah.",
+      "id": "ep_96_ut_36"
+    },
+    {
+      "end": 1673424,
+      "speaker": "Moritz Stefaner",
+      "start": 1641150,
+      "text": "That comes back to sometimes you just want to achieve something and not develop a big theory of headphones. You just want to buy one. Right? So are you saying there's maybe not so many cases in everyday life where visualization actually shines like this. Like this sweet spot of there's an analytical task that's well defined, but also open enough that it cannot be automated. And so maybe there are not so many everyday cases for visual analytics.",
+      "id": "ep_96_ut_37"
+    },
+    {
+      "end": 1801434,
+      "speaker": "Jarke Van Wijk",
+      "start": 1674044,
+      "text": "Very good question. I could go in different directions. One of them could be like, it's an issue with visualization literacy. If people see something that's more complex, like a histogram, say a scatter plot, scary, scary. They already stopped with that. I was intrigued by once there was a keynote from someone from New York Times, and he said that a scatterplot, that was the absolute upper limit of what his readers could swallow. Well, in the academic community, of course, it's just a starting point. Maybe that can change in the future. Nice use case is stock markets. When I think of it, of course, this map of the market, Martin W. Very early showed how effective it can be. If it's about communication, then people don't have much time and want to get a clear message. So the visualization necessarily also has to be compact and simple and easy to understand. If you have to work first on trying to decode what's going on. And a lot of things we are doing is just quite shallow. Also in my daily work, important ingredient is about just a number of things. If there are three or five things that you have to deal with, you don't need any visualization at all. If there are hundreds of things, for instance, if you're chairing a conference and want to see the big picture, or if there are patterns, is everybody doing his job, then you find out that hey, it would be nice to have some better visualizations and better interaction here. Also, when you are dealing with hundreds of students, then things are getting more critical.",
+      "id": "ep_96_ut_38"
+    },
+    {
+      "end": 1805514,
+      "speaker": "Moritz Stefaner",
+      "start": 1802054,
+      "text": "So do you build your own tools for managing conferences and students?",
+      "id": "ep_96_ut_39"
+    },
+    {
+      "end": 1807034,
+      "speaker": "Jarke Van Wijk",
+      "start": 1805974,
+      "text": "No, no, no.",
+      "id": "ep_96_ut_40"
+    },
+    {
+      "end": 1810554,
+      "speaker": "Moritz Stefaner",
+      "start": 1808974,
+      "text": "Could be a good idea though.",
+      "id": "ep_96_ut_41"
+    },
+    {
+      "end": 1897140,
+      "speaker": "Jarke Van Wijk",
+      "start": 1813214,
+      "text": "In January I was giving a course for students. Then I was in the center of doing the office assignments to reviewers and, well, I showed the students snapshots on the screen and said, hey, this is my daily work now. So challenge for you to find a better solution. That's a case where visualization could be, for instance, quite useful. The matching problem. You have a set of items, you have the set of workers, and you must assign items to workers. So papers to reviewers or members of your committee. And of course there are many nasty constraints that some people are experts in this, or they don't want to have more than that, etc. Etcetera. That's a case where I really think I would like to have some more powerful visualization, some more powerful interaction here. So for daily uses, there are not that many cases for high powered visualization, but maybe for many routine work. In companies where you have to have an overview of many cases simultaneously, there are still many opportunities.",
+      "id": "ep_96_ut_42"
+    },
+    {
+      "end": 1992778,
+      "speaker": "Enrico Bertini",
+      "start": 1897332,
+      "text": "Yeah. Jark, you talking about visualizing a few data points? You reminded me another part of the talk that you gave a few years back and we mentioned at the beginning, which is, I found really funny but also very inspiring. So you've been presenting a data set that comes from basically your family. It's you, your wife, and your two children, and it's four data points. And I believe something like three or four different attributes, including, I guess, age, sex, and something else I don't remember exactly. And it was very interesting. And then you start building different charts with these four data points and three or four attributes, and you go through a very long list. It's like first a bar chart, then a timeline, then a set visualization, and then a hierarchical visualization. You go through a very long list. Right. And I think that that was very, a very good example of one of the major challenges for visualization. Right. Even with such a small set of data points and fields, the design space is huge. Right. I mean, it's not huge, but it's large. Right. And I believe that's one of the biggest challenges of visualization, because you have to have a way to figure out how to decide. Right. Which direction to go because the design space is too big.",
+      "id": "ep_96_ut_43"
+    },
+    {
+      "end": 2164294,
+      "speaker": "Jarke Van Wijk",
+      "start": 1992946,
+      "text": "Thank you. Yeah, I also liked those slides. They came in for the talk at a very late moment. I gave an initial version of a talk, and my wife said, no, this part where I described different methods is too boring. So I thought, okay, let's make it somewhat more interesting. But it's also something I try to push to my students, that if you get data and people tell you it's multivariate data, you don't have to immediately believe that, and you can look at it via different lenses and then get very different results. And that could be useful to visualize things in very different ways. Having said that, it's all also dangerous, that you can quickly produce a lot of nonsense or irrelevant stuff. Yeah. There is a thin line here. I hope you can. I am sure you can recognize this. On one hand, as researchers, as designers, we have to be creative and explore the limits and to find very intriguing and hopefully impactful way to show things in a very surprising new approach. On the other hand, a lot of our standard mundane methods, of course, work very, very well. Say a histogram works quite well to show a distribution and time graph works perfectly to show a time varying signal, etc. Etcetera. A current state of the visualization field in the real world is somewhat interesting in that respect. A lot of people are now discovering visualization and they think that if you make a weird picture in a crappy way, think 3d histograms or 3d pie charts or much worse than that, you're doing visualization and by some magical way you can get a lot of insight. Well, of course we know that it doesn't work like that. So in a lot of work my students and I are doing these days, we more and more step back to very simple visualizations. And it's getting more and more rare that we find some really new visualization pattern or visualization case in interaction. There are still interesting opportunities how you combine standard visualizations in different ways. But yeah, we are sort of, maybe I'm just getting too old and running out of fantasy. Next generation has to take over to show I'm very wrong.",
+      "id": "ep_96_ut_44"
+    },
+    {
+      "end": 2182392,
+      "speaker": "Moritz Stefaner",
+      "start": 2165514,
+      "text": "No, but I think it's a general trend that we see much less new techniques or like new tricks or new diagram types, maybe over the last few years, but much more work in how do we apply what we know and how do we figure out what to do in a given situation. Right?",
+      "id": "ep_96_ut_45"
+    },
+    {
+      "end": 2265446,
+      "speaker": "Jarke Van Wijk",
+      "start": 2182488,
+      "text": "Yep. And, well, these days when I give a course or a lecture on visualization in general, I try to hit the brake. This week I gave a masterclass for people from industry and okay, I gave them that message and I showed them, for instance, ways to do show trees. And there's a very, very nice website, treefish.org, where they, at the moment I think they show something like 295 different ways to visualize a tree. And I showed it and my intention was to show, okay, there's a lot of things that are doubtful and don't think that everything works, etcetera. But later on I got feedback from some people, from the audience. Yeah, it's interesting and there's so many ways to show a tree and I'll explore that. And okay, then I thought, oh, what have I done? Take a site like visualcomplexity.org. it's totally fascinating. And I spent hours and hours looking at the cases and the examples and all the creativity. But yeah, okay, is this meaningful? Does it work? Is it effective for real world cases? You can put some question marks there.",
+      "id": "ep_96_ut_46"
+    },
+    {
+      "end": 2292696,
+      "speaker": "Enrico Bertini",
+      "start": 2265550,
+      "text": "Yeah. But I have to say that's what I noticed even in my work, that even though coming up with new visualization techniques has become harder. Integrating them in meaningful ways, or even modifying them in meaningful ways is not an easy task at all. And often it really matters a lot. So I think we can make a lot of progress there.",
+      "id": "ep_96_ut_47"
+    },
+    {
+      "end": 2391510,
+      "speaker": "Jarke Van Wijk",
+      "start": 2292760,
+      "text": "Yeah, I fully agree. And in many cases it's simply a lot of work to get it right. I've done quite some projects, for instance on visualization of event logs for different machines, like MRI scanners from Philips, but also wafersteppers from ASML. And each time you really have to dive into the problems of a particular audience and different aspects are important and you have to give subtle cues that emphasize what's going on. Not much of it really spectacular and things like that were not published, but it's not trivial, requires care to do it in an effective way. And it would be good if we had some more guidelines how to do visualization and then not the simple case of okay, we have one table and how to do it, but we have a lot of messy data now, how to configure different elements and what rules to follow if we put everything next to each other on top of each other, what to give priority. Yeah, it would be good if our community could give us some more design patterns or design rules for that.",
+      "id": "ep_96_ut_48"
+    },
+    {
+      "end": 2443810,
+      "speaker": "Moritz Stefaner",
+      "start": 2391582,
+      "text": "Yeah, it's interesting, we just discussed this last week also on the podcast, is that there is this gap. There is no real professional training in how to become a good, let's say, data visualization problem solver, that you would get a briefing on a problem and then figure out a way to develop a tool that solves that problem in a visual way. Maybe let's say you might have a design education and develop yourself that sense of working with data. Probably yourself also develop some knowledge in statistics and data mining and then you can go in this direction, or you are like an engineer technician type and you sort of learn the design chops on the side. But there's no real professional training for being a data visualization designer, right?",
+      "id": "ep_96_ut_49"
+    },
+    {
+      "end": 2534344,
+      "speaker": "Jarke Van Wijk",
+      "start": 2443882,
+      "text": "No, indeed. The occupation of data science is getting more and more popular. Prince Irene Eindhoven, together with her colleagues from other university, we are starting up a lot of new courses and programs. Bachelor master on data science and I am very happy that visualization is recognized as an important ingredient there for communication. So I also try to push the message a bit that also can be very useful for exploration. But yeah, the problem you just described that you require all those different disciplines that holds for each aspect in this very large data science field. So I don't know maybe in the future we can develop tools that are very, very easy to use and configure so that people can quickly define suitable interfaces. Of course, a lot of commercial tools are trying hard to go into that direction. But if you really want to do something special focused, where you have to go to the level that you have to write D3 code. Okay. Things are getting.",
+      "id": "ep_96_ut_50"
+    },
+    {
+      "end": 2580020,
+      "speaker": "Enrico Bertini",
+      "start": 2535134,
+      "text": "One thing that I would like to talk about also is more some of your work that is more on the artistic side. And I think some time ago you told me you had an exhibition on your. I hope I'm pronouncing it right, Myriahedral projections, they are beautiful, beautiful maps. And I guess if I understand correctly, the goal there is to create maps that have as little distortion as possible. Right. And the outcome of your projection is something that looks extremely engaging and beautiful. So can you, can you describe, if it's possible through words, what these projections are about?",
+      "id": "ep_96_ut_51"
+    },
+    {
+      "end": 2656956,
+      "speaker": "Jarke Van Wijk",
+      "start": 2580132,
+      "text": "That's actually indeed one of my favorite projects, typically a hobby project that I did without students, my Christmas vacations, etcetera. When I was a little boy, I was confused that when you make a map of the world, there was a problem at all, because my very naive idea was if you take a map of your city, say Eindhoven, and take a map of the next area besides it and go on forever, then you have a very nice, perfect map of, of the whole world. Good point. Actually, there is something wrong with this reasoning. And, okay, what's wrong here is that if you want to do that, then sooner or later you have to accept cuts. So you can rephrase the problem as, okay, let's apply cuts to a sphere, say in orange. Next, try to flatten it out. My original idea was, okay, if you use some nice fractal pattern, then you get very fascinating, interesting images, but somewhat.",
+      "id": "ep_96_ut_52"
+    },
+    {
+      "end": 2660464,
+      "speaker": "Moritz Stefaner",
+      "start": 2657020,
+      "text": "That was your first idea, was to apply frexel patterns?",
+      "id": "ep_96_ut_53"
+    },
+    {
+      "end": 2748926,
+      "speaker": "Jarke Van Wijk",
+      "start": 2662204,
+      "text": "Yes. Just take a triangle and divide it in smaller triangles and etcetera, and then to cut it. And the pictures are still in the paper. But there was something I didn't take into account that if you do that, then very quickly your cuts get very thin, so you don't see the whole stupid fractal pattern anymore. So I went to a next level. Okay, if this doesn't give you a very interesting result, are there other ways that you could try to cut? For instance, what would happen if you cut along coastlines? And then you can decide, try to get the continents together, or maybe you want to get the oceans together. And what does it look like? And you can cut in a more or less random way, or you can cut very structured in a grade like pattern. So there's a whole family of ways you can cut up the earth and flatten it out. So I was happily experimenting with that. I wrote a paper about it, got rejected for IEEE fizz. I'm still very proud of that. It got scores of 1245. Nice controversial paper. So I was disappointed and it was.",
+      "id": "ep_96_ut_54"
+    },
+    {
+      "end": 2751554,
+      "speaker": "Moritz Stefaner",
+      "start": 2748950,
+      "text": "Lacking in the evaluation part, I think that was.",
+      "id": "ep_96_ut_55"
+    },
+    {
+      "end": 2816616,
+      "speaker": "Jarke Van Wijk",
+      "start": 2751854,
+      "text": "Yeah, okay. And the negative reviewer said, this is nonsense and no use for this. Well, I was disappointed and Jason Dykes saved me. I showed him what I did and he said, our community, the cartographic community, will love it and sent it to them. So I did. And there I was, very happily accepted. And I was very proud of that, even prouder than my own community, the hardcore visualization guys. So I was quite proud that in a very old, classic, very well studied topic like projection of the earth, I still could bring in some new contribution. And also the pictures and also the animations look quite cool. I must admit, it's a fascinating topic to work on.",
+      "id": "ep_96_ut_56"
+    },
+    {
+      "end": 2843862,
+      "speaker": "Enrico Bertini",
+      "start": 2816800,
+      "text": "So I suggest our listeners to take a look. We will link the page in our show notes. There are lots of interesting pictures there. I'm just curious about. It just occurred to me, this idea that what you could do is to actually try to do a physical version where you applied the cuts directly on a sphere. Right. Did you try that?",
+      "id": "ep_96_ut_57"
+    },
+    {
+      "end": 2892424,
+      "speaker": "Jarke Van Wijk",
+      "start": 2844038,
+      "text": "No, so far I did not. And yeah, hi. On my to do list to do something with 3d printing. Yeah, for a lot of my medical visualization stuff, also almost bags to be used for 3d printing, people sometimes picked it up and did 3d printing themselves. But I think there are interesting opportunities. Also, people from Paris, Yvonne Jansen, did her PhD at San Danyel Veget group. They're doing very fascinating work in making physical objects showing 3d data, and I find it very intriguing.",
+      "id": "ep_96_ut_58"
+    },
+    {
+      "end": 2899064,
+      "speaker": "Moritz Stefaner",
+      "start": 2892504,
+      "text": "Yeah, we also had an episode on that where they even show the charts and so on.",
+      "id": "ep_96_ut_59"
+    },
+    {
+      "end": 2899672,
+      "speaker": "Jarke Van Wijk",
+      "start": 2899184,
+      "text": "Exactly.",
+      "id": "ep_96_ut_60"
+    },
+    {
+      "end": 2900960,
+      "speaker": "Moritz Stefaner",
+      "start": 2899728,
+      "text": "So that could work quite well.",
+      "id": "ep_96_ut_61"
+    },
+    {
+      "end": 2901592,
+      "speaker": "Jarke Van Wijk",
+      "start": 2901032,
+      "text": "Yeah.",
+      "id": "ep_96_ut_62"
+    },
+    {
+      "end": 2932154,
+      "speaker": "Moritz Stefaner",
+      "start": 2901728,
+      "text": "And I think it's a nice example again of what we talked about earlier, is that sometimes you just have a fascinating idea, or you start with this basic premise, like what if we define this as a cutting problem, and then you just see where that takes you and you produce a lot of the different variations and different outcomes and explore that space, and then somebody will pick it up and say, hey, this could be useful for this type of map. So I think it's a great example of this fascination driven approach, basically.",
+      "id": "ep_96_ut_63"
+    },
+    {
+      "end": 2948674,
+      "speaker": "Jarke Van Wijk",
+      "start": 2932814,
+      "text": "Indeed, it's hard to write research proposals on this because by definition, in advance, you don't know for sure where you end up and where your exploration will lead you.",
+      "id": "ep_96_ut_64"
+    },
+    {
+      "end": 2955270,
+      "speaker": "Enrico Bertini",
+      "start": 2949494,
+      "text": "You had a nice exhibition on this project, right? Was that in Eindhoven? I don't remember exactly, no.",
+      "id": "ep_96_ut_65"
+    },
+    {
+      "end": 2996228,
+      "speaker": "Jarke Van Wijk",
+      "start": 2955302,
+      "text": "It was in a city called Breda. At that time there was a graphic design museum. It has changed its name since then, but together with three other people, we had exhibition and I could show a number of my things. Director of the museum was sort of fascinated by the fact that academics accidentally sort of made art. Well, the more artist people did research, and it was a very intriguing event. It was fun to do also.",
+      "id": "ep_96_ut_66"
+    },
+    {
+      "end": 2997492,
+      "speaker": "Moritz Stefaner",
+      "start": 2996276,
+      "text": "Yeah, very nice.",
+      "id": "ep_96_ut_67"
+    },
+    {
+      "end": 3048834,
+      "speaker": "Enrico Bertini",
+      "start": 2997588,
+      "text": "I think we need to wrap up soon, I think. One last thing that I would like to ask you that is also somewhat connected to this last project. I think one aspect that characterizes your work is that sometime your work is characterized by a lot of math, and it's beautiful math. And one thing that surprises me is that in visualization, it's not very common to see a lot of math describing the work that we do, or even inspiring the work that we do. I was curious to hear from you, what do you think is the value of math visualization? Because it looks to me it's a very unique characteristic of your work, and I don't know many other people are actually doing that. So what is the value of math in this?",
+      "id": "ep_96_ut_68"
+    },
+    {
+      "end": 3182444,
+      "speaker": "Jarke Van Wijk",
+      "start": 3049174,
+      "text": "Yeah, it depends on what kind of problems you attack. If there are strong geometric components, like all the projection stuff, and also mathematical visualization stuff, I assume pen paper, you can phrase it very precisely as a mathematical problem, and then the mathematics gives you nicely the solution, then it's very practical and effective. I think that in many real world problems, you have problems like usability, workflow tasks, etcetera. And these are very, very hard to fit into math without becoming silly or minimalistic or whatever. And it's always intriguing that if you go from physics to sociology, for instance, then physics is of course, very, very precise, sophisticated, highly, highly mathematical. Well, sociology is still work in progress. I'm not an expert in that, so I won't make any claims. I know something about it, but that's much harder to capture. And the simple explanation for that is that the phenomena you study are much, much more complex. The interaction between two elementary particles is much easier to capture in clean mouth than interaction between two humans. That's also one of the challenges and the charms of our field that try to make things precise and make a step further. But yeah, I hope that one day, we can fit a lot of things in clean models that you can describe with very clean math, but I think there's still a lot of room for designers and developers and experimentation.",
+      "id": "ep_96_ut_69"
+    },
+    {
+      "end": 3183712,
+      "speaker": "Moritz Stefaner",
+      "start": 3182904,
+      "text": "Yeah.",
+      "id": "ep_96_ut_70"
+    },
+    {
+      "end": 3253304,
+      "speaker": "Jarke Van Wijk",
+      "start": 3183888,
+      "text": "And in my paper, value of visualization, I put up some simplified diagram of visualization in general. And I was happy that I could describe things with just a few differential equations, but it was almost sort of a joke. This is how the mast looks like. But now let's try to formulate what it means. Where I was cheating all over the place was that the objects that were being manipulated were things like knowledge or specification or data. Very, very fuzzy, complex things that don't fit into something that's very easy to describe or compact or that we know how to describe. So that was sort of a provocation field. If we want to go in the direction of using more math and try to become a sort of physics of data, understanding, this is the challenge we have to face.",
+      "id": "ep_96_ut_71"
+    },
+    {
+      "end": 3271256,
+      "speaker": "Moritz Stefaner",
+      "start": 3253824,
+      "text": "Yeah, I think that's at the heart of the whole problem of visualization, is the messy world and how we can wrap it into an elegant representation. There will be enough to do, I think, in this realm for a long time, certainly.",
+      "id": "ep_96_ut_72"
+    },
+    {
+      "end": 3281084,
+      "speaker": "Jarke Van Wijk",
+      "start": 3271320,
+      "text": "But also, it's, of course, not special for visualization. If you go for arbitrary design problems, but also arbitrary problems in general.",
+      "id": "ep_96_ut_73"
+    },
+    {
+      "end": 3284104,
+      "speaker": "Moritz Stefaner",
+      "start": 3281784,
+      "text": "Whenever humans are involved, it becomes a.",
+      "id": "ep_96_ut_74"
+    },
+    {
+      "end": 3285854,
+      "speaker": "Jarke Van Wijk",
+      "start": 3284104,
+      "text": "Big mess, of course.",
+      "id": "ep_96_ut_75"
+    },
+    {
+      "end": 3314630,
+      "speaker": "Moritz Stefaner",
+      "start": 3286994,
+      "text": "I think that's a great way to end this episode. Thanks so much for joining us. This was fascinating. And, yeah, our listeners, please check out all the amazing work Jack has done. There's material for many hours of studying the amazing world of math and visualization and engineering and many other things. Thanks so much for joining us. And, yeah, we're really curious to see what you have next.",
+      "id": "ep_96_ut_76"
+    },
+    {
+      "end": 3316182,
+      "speaker": "Jarke Van Wijk",
+      "start": 3314762,
+      "text": "Many thanks. I enjoyed.",
+      "id": "ep_96_ut_77"
+    },
+    {
+      "end": 3316702,
+      "speaker": "Moritz Stefaner",
+      "start": 3316238,
+      "text": "Thank you.",
+      "id": "ep_96_ut_78"
+    },
+    {
+      "end": 3317638,
+      "speaker": "Enrico Bertini",
+      "start": 3316758,
+      "text": "Thank you. Bye bye.",
+      "id": "ep_96_ut_79"
+    },
+    {
+      "end": 3318474,
+      "speaker": "Moritz Stefaner",
+      "start": 3317686,
+      "text": "Bye bye.",
+      "id": "ep_96_ut_80"
+    },
+    {
+      "end": 3332534,
+      "speaker": "Enrico Bertini",
+      "start": 3324974,
+      "text": "Hey, guys, thanks for listening to data stories again. Before you leave, here are a few ways you can support the show and get in touch with us.",
+      "id": "ep_96_ut_81"
+    },
+    {
+      "end": 3347250,
+      "speaker": "Moritz Stefaner",
+      "start": 3332614,
+      "text": "First, we have a page on Patreon where you can contribute an amount of your choosing per episode. As you can imagine, we have some costs for running the show, and, and we would love to make it a community driven project. You can find the page@patreon.com Datastories and.",
+      "id": "ep_96_ut_82"
+    },
+    {
+      "end": 3357894,
+      "speaker": "Enrico Bertini",
+      "start": 3347282,
+      "text": "If you can spend a couple of minutes rating us on iTunes, that would be extremely helpful for the show. Just search us in iTunes store or follow the link in our website.",
+      "id": "ep_96_ut_83"
+    },
+    {
+      "end": 3381966,
+      "speaker": "Moritz Stefaner",
+      "start": 3358234,
+      "text": "And we also want to give you some information on the many ways you can get news directly from us. We're, of course, on twitter@twitter.com. Datastories but we also have a Facebook page@Facebook.com, datastoriespodcast and we also have a newsletter. So if you want to get news directly into your inbox, go to our homepage data stories and look for the link that you find in the footer.",
+      "id": "ep_96_ut_84"
+    },
+    {
+      "end": 3403616,
+      "speaker": "Enrico Bertini",
+      "start": 3382110,
+      "text": "And finally, you can also chat directly with us and other listeners using Slack again, you can find a button to sign up at the bottom of our page and we do love to get in touch with our listeners. So if you want to suggest a way to improve the show or know amazing people you want us to invite or projects you want us to talk about, let us know.",
+      "id": "ep_96_ut_85"
+    },
+    {
+      "end": 3407484,
+      "speaker": "Moritz Stefaner",
+      "start": 3403720,
+      "text": "That's all for now. See you next time, and thanks for listening to data stories.",
+      "id": "ep_96_ut_86"
+    },
+    {
+      "end": 3428814,
+      "speaker": "Enrico Bertini",
+      "start": 3411344,
+      "text": "Data stories is brought to you by click. Are you missing out on meaningful relationships hidden in your data? Unlock the old story with Qlik sense through personalized visualizations and dynamic dashboards, which you can download for free at Qlik Datastories.",
+      "id": "ep_96_ut_87"
+    }
+  ],
+  "confidence": 0.920100029885648,
+  "audio_duration": 3429,
+  "punctuate": true,
+  "format_text": true,
+  "dual_channel": false,
+  "webhook_url": null,
+  "webhook_status_code": null,
+  "webhook_auth": false,
+  "webhook_auth_header_name": null,
+  "speed_boost": false,
+  "auto_highlights_result": null,
+  "auto_highlights": false,
+  "audio_start_from": null,
+  "audio_end_at": null,
+  "word_boost": [],
+  "boost_param": null,
+  "filter_profanity": false,
+  "redact_pii": false,
+  "redact_pii_audio": false,
+  "redact_pii_audio_quality": null,
+  "redact_pii_policies": null,
+  "redact_pii_sub": null,
+  "speaker_labels": true,
+  "content_safety": false,
+  "iab_categories": true,
+  "content_safety_labels": {
+    "status": "unavailable",
+    "results": [],
+    "summary": {}
+  },
+  "language_detection": false,
+  "language_detection_threshold": null,
+  "language_confidence": null,
+  "custom_spelling": null,
+  "throttled": false,
+  "auto_chapters": true,
+  "summarization": false,
+  "summary_type": null,
+  "summary_model": null,
+  "custom_topics": false,
+  "topics": [],
+  "speech_threshold": null,
+  "speech_model": "best",
+  "chapters": [
+    {
+      "summary": "Data stories is brought to you by Qlik. Are you missing out on meaningful relationships hidden in your data? Unlock the old story with Qlik sense through personalized visualizations and dynamic dashboards. We're approaching 100 episodes. What do we do for 100?",
+      "gist": "Data Stories: 100 Episodes",
+      "headline": "Data stories is approaching 100 episodes; what should we celebrate",
+      "start": 200,
+      "end": 83794,
+      "id": "ep_96_ch_0"
+    },
+    {
+      "summary": "Jarke van Wijk is a full professor of visualization from the Eindhoven University of Technology. He's one of the most interesting figures in visualization research and in visualization in general. We are eager to hear from him about his ideas about visualization.",
+      "gist": "A special guest for the show",
+      "headline": "Enrico: Jarke van Wijk is a professor of visualization",
+      "start": 85754,
+      "end": 147004,
+      "id": "ep_96_ch_1"
+    },
+    {
+      "summary": "Jark: Can you briefly introduce yourself? I know you have a very interesting background. I did a PhD in computer graphics, also in Delft University. Since 98, I've been working in this area, increasingly doing more and more things in the area of visual analytics.",
+      "gist": "Introducing Jarko",
+      "headline": "Jark has a very interesting background in computer graphics and visualization",
+      "start": 148014,
+      "end": 292450,
+      "id": "ep_96_ch_2"
+    },
+    {
+      "summary": "In my heart I feel like an engineer or a designer. My greatest ambition and motivation is simply to make things. evaluation is an important step, but it's just a step. If you want to make progress, the most important step is simply that you have to deliver.",
+      "gist": "The art of making cool stuff",
+      "headline": "One characteristic of your work is that new technique is just irresistible",
+      "start": 292522,
+      "end": 499712,
+      "id": "ep_96_ch_3"
+    },
+    {
+      "summary": "Doing things for the sake of it is also very important, because sometimes they actually lead to some breakthroughs. For instance, in the area of flow visualization, I worked a lot on using texture to visualize flow. In my experience, it's always fascinating to crack interesting puzzles.",
+      "gist": "The Value of Vividation",
+      "headline": "I think sometimes doing things for the sake of visualization can lead to breakthroughs",
+      "start": 499808,
+      "end": 1041584,
+      "id": "ep_96_ch_4"
+    },
+    {
+      "summary": "In 2005, Rolf Liegen and Erik-Jan van der Linde generalized some ideas around tree maps into business graphics. This led to a startup company, MagnaView. How one idea propagates to the next and finally reaches some audiences.",
+      "gist": "Trees and Squarification in Business Graphics",
+      "headline": "Squareified treemaps are very popular business graphics techniques",
+      "start": 1041924,
+      "end": 1234590,
+      "id": "ep_96_ch_5"
+    },
+    {
+      "summary": "There is also a tool that is based on cushion tree maps. The main purpose is to get an overview of the old set of files that you have in your computer. Finding good use cases is the challenge here, I think.",
+      "gist": "Cushion Tree Maps in Data Visualization",
+      "headline": "Finding good use cases for visualization tools is the challenge here",
+      "start": 1234782,
+      "end": 1650474,
+      "id": "ep_96_ch_6"
+    },
+    {
+      "summary": "There are not so many everyday cases for visual analytics. The visualization necessarily also has to be compact and simple and easy to understand. In companies where you have to have an overview of many cases simultaneously, there are still many opportunities.",
+      "gist": "Are there any use cases for visualization in everyday life?",
+      "headline": "Maybe there are not so many everyday cases for visual analytics",
+      "start": 1651414,
+      "end": 1897700,
+      "id": "ep_96_ch_7"
+    },
+    {
+      "summary": "Jark: Even with such a small set of data points and fields, the design space is huge. That's one of the biggest challenges of visualization. He says researchers and designers must be creative and explore the limits. Jark: It's getting more and more rare that we find some really new visualization pattern in interaction.",
+      "gist": "The challenges of data visualization",
+      "headline": "Jark: One of the biggest challenges of visualization is the design space",
+      "start": 1897732,
+      "end": 2534344,
+      "id": "ep_96_ch_8"
+    },
+    {
+      "summary": "Riedel's Riedel projections are beautiful, beautiful maps. The goal is to create maps that have as little distortion as possible. The project is a hobby project that he did without students. It's a fascinating topic to work on.",
+      "gist": "Some of your work with 3D projections",
+      "headline": "Danyel: Your Riedel projections are beautiful, beautiful maps",
+      "start": 2535134,
+      "end": 3000996,
+      "id": "ep_96_ch_9"
+    },
+    {
+      "summary": "Jack Bennett: What do you think is the value of math visualization? Bennett: It depends on what kind of problems you attack. He says the phenomena you study are much, much more complex. Bennett: There's still a lot of room for designers and developers and experimentation.",
+      "gist": "The Value of Math in Visualization",
+      "headline": "What do you think is the value of math visualization?",
+      "start": 3001060,
+      "end": 3318474,
+      "id": "ep_96_ch_10"
+    },
+    {
+      "summary": "Here are a few ways you can support the show and get in touch with us. We have a page on Patreon where you can contribute an amount of your choosing per episode. If you can spend a couple of minutes rating us on iTunes, that would be extremely helpful for the show.",
+      "gist": "How to support Data Stories!",
+      "headline": "Before you leave, here are a few ways you can support the show",
+      "start": 3324974,
+      "end": 3428814,
+      "id": "ep_96_ch_11"
+    }
+  ],
+  "disfluencies": false,
+  "entity_detection": false,
+  "sentiment_analysis": false,
+  "sentiment_analysis_results": null,
+  "entities": null,
+  "speakers_expected": null,
+  "summary": null,
+  "custom_topics_results": null,
+  "episode_num": 96,
+  "episode_metadata": {
+    "speakers": [
+      "Jarke Van Wijk",
+      "Enrico Bertini",
+      "Moritz Stefaner"
+    ],
+    "WPid": "917",
+    "url": "https://datastori.es/podlove/file/3832/s/feed/c/mp3/96-innovation-from-research-with-jarke-van-wijk.mp3",
+    "episode_title": "Innovation from Research with Jarke Van Wijk"
+  }
+}

@@ -1,0 +1,1790 @@
+{
+  "id": "02412b85-9960-40ea-9c26-fb27fbcb9076",
+  "language_model": "assemblyai_default",
+  "acoustic_model": "assemblyai_default",
+  "language_code": "en_us",
+  "status": "completed",
+  "audio_url": "https://datastori.es/podlove/file/5632/s/feed/c/mp3/138-turning-data-into-sound-with-hannah-davis.mp3",
+  "utterances": [
+    {
+      "end": 10690,
+      "speaker": "Hannah Davis",
+      "start": 240,
+      "text": "I always describe data sonification as basically being just like data visualization, except instead of representing the data through visuals and bar charts, you're representing it through sound.",
+      "id": "ep_138_ut_0"
+    },
+    {
+      "end": 40330,
+      "speaker": "Enrico Bertini",
+      "start": 29870,
+      "text": "Hi, everyone. Welcome to a new episode. Welcome to another episode of data stories. My name is Enrico Bertini, and I am a professor at NYU in New York City, where I do research in data visualization.",
+      "id": "ep_138_ut_1"
+    },
+    {
+      "end": 51970,
+      "speaker": "Moritz Stefaner",
+      "start": 40490,
+      "text": "That's right, and I'm Moritz Stefaner, and I'm an independent designer of data visualizations. And in fact, I work as a self employed truth and beauty operator out of my office here in the countryside in the north of Germany.",
+      "id": "ep_138_ut_2"
+    },
+    {
+      "end": 64494,
+      "speaker": "Enrico Bertini",
+      "start": 52090,
+      "text": "Yes, and on this podcast, we talk about data visualization, analysis, and generally the role data plays in our lives. And usually we do that together with a guest we invite on the show.",
+      "id": "ep_138_ut_3"
+    },
+    {
+      "end": 85214,
+      "speaker": "Moritz Stefaner",
+      "start": 64622,
+      "text": "And that's the same today. But just before we start, very quick note, our podcast is listener supported. There are no ads. So if you do enjoy the show, please consider supporting us. You can do that with either recurring payments on patreon.com Datastories, or you can also send us one time donations on PayPal dot me Datastories.",
+      "id": "ep_138_ut_4"
+    },
+    {
+      "end": 108138,
+      "speaker": "Enrico Bertini",
+      "start": 85342,
+      "text": "Yes, and I also want to thank all those of you who are already subscribed on Patreon or sent us some donations via PayPal. This is so useful, and thanks so much. So, Moritz, I think you have a brief update from your side. You want to talk about one of your projects? You've been doing some climate visualization type of work.",
+      "id": "ep_138_ut_5"
+    },
+    {
+      "end": 265160,
+      "speaker": "Moritz Stefaner",
+      "start": 108194,
+      "text": "Yeah, it's true. Not myself, but in fact I'm a freelancer. So usually I do projects, but I also teach occasionally workshops or in this case, a course in the digital media program at the Arts Academy in Bremen, where I live. And it's an interdisciplinary program between university and the art school, which is kind of nice. I always enjoy that. And in February, we looked at if we can find new ways to visualize climate change or anything around climate change. And the goal was really to go beyond heat maps alone, or make another super red map and think more about spatial or temporal ways, tangible ways to talk about climate change. And there were really, really cool results. Like the students had just a few weeks, but we had a few really cool projects. And I'll put the link in the show notes. We had data sculptures woven, interconnected with threads and meshes. Very nice. You could look at them from all sides, basically a big interconnected knotty mess. Or we had actual ice representing the change in extent of the arctic ice. So the students 3d printed molds and then made some real ice as an interface as well, and as a visualization. And there was also a sonification project. So Katja Striedelmeyer, one of my students, she was looking at the change when the apple trees start to bloom, and that's becoming earlier and earlier. And she made a little sonification of that data, which I really, really enjoyed because she also took an analog music box, like these little things with a, you know, that you can, how do you say, the handle you can spin and then it will pull through like sheets of paper. Yeah. And I can play. Yeah, I can play a little melody that represents the shifting apple blossom in Germany, if you want. Yeah. So the higher the pit shifts, the earlier in the year the apple blossom begins. And it's actually, it's a couple of days that it has changed over the last 30 years or so. So it's quite substantial, and then it begins again. So it's a loop. Anyways. Yeah. So I got thinking about sonification again, which is such a cool way to deal with data. And we did have an episode on sonification in the past.",
+      "id": "ep_138_ut_6"
+    },
+    {
+      "end": 270940,
+      "speaker": "Enrico Bertini",
+      "start": 265700,
+      "text": "You might remember one of my favorite. Yeah, yeah.",
+      "id": "ep_138_ut_7"
+    },
+    {
+      "end": 276520,
+      "speaker": "Moritz Stefaner",
+      "start": 271060,
+      "text": "It was Scott Hughes, and he took the gravitational waves data.",
+      "id": "ep_138_ut_8"
+    },
+    {
+      "end": 277676,
+      "speaker": "Enrico Bertini",
+      "start": 276940,
+      "text": "Yes.",
+      "id": "ep_138_ut_9"
+    },
+    {
+      "end": 280980,
+      "speaker": "Moritz Stefaner",
+      "start": 277828,
+      "text": "And directly turn it into sound. Super crazy.",
+      "id": "ep_138_ut_10"
+    },
+    {
+      "end": 301284,
+      "speaker": "Enrico Bertini",
+      "start": 281140,
+      "text": "Yeah. Yes. It was a funny one, and I think people really enjoyed it, and I think it's a perfect way to start the episode for today. Right. So we have on the show another person who is really an expert on sonification, and she's Anna Davis. Hey, Anna, welcome on the show.",
+      "id": "ep_138_ut_11"
+    },
+    {
+      "end": 302800,
+      "speaker": "Hannah Davis",
+      "start": 301372,
+      "text": "Thanks so much for having me.",
+      "id": "ep_138_ut_12"
+    },
+    {
+      "end": 310576,
+      "speaker": "Enrico Bertini",
+      "start": 303240,
+      "text": "So can you briefly introduce yourself and tell our listeners what is your background and what kind of work you do?",
+      "id": "ep_138_ut_13"
+    },
+    {
+      "end": 328820,
+      "speaker": "Hannah Davis",
+      "start": 310768,
+      "text": "Sure. So I'm Hannah Davis, and I'm a generative musician and researcher based in New York City. And I do many different types of projects in music and machine learning, subjective data and sonification. But basically, I think I can summarize my work by saying that I do artistic experiments with data.",
+      "id": "ep_138_ut_14"
+    },
+    {
+      "end": 342130,
+      "speaker": "Moritz Stefaner",
+      "start": 329490,
+      "text": "That's cool. Yeah. And you have a lot of, it's not exclusively sonification work, but a big part of your work deals with turning data into sounds in some form, right?",
+      "id": "ep_138_ut_15"
+    },
+    {
+      "end": 343630,
+      "speaker": "Hannah Davis",
+      "start": 342250,
+      "text": "Absolutely, yeah.",
+      "id": "ep_138_ut_16"
+    },
+    {
+      "end": 371770,
+      "speaker": "Moritz Stefaner",
+      "start": 344290,
+      "text": "And I think you also have a quite unique approach there, which I found really interesting and which we'll hear more about in a minute. So just to lay out the field, some people might not even be familiar with the whole idea that you could turn data into sound and why that could be a good idea. So can you lay out the field a bit like, what is sonification? Are there different types? What is it particularly good for? Or how does it also relate to visuals? Maybe.",
+      "id": "ep_138_ut_17"
+    },
+    {
+      "end": 401170,
+      "speaker": "Hannah Davis",
+      "start": 372110,
+      "text": "I always describe data sonification as basically being just like data visualization, except instead of representing the data through visuals and bar charts, you're representing it through sound. And to me, the way I generally think about it is that there's three main types of sonification. So that's oddification, which is directly converting data to sound, like, wait, in waveforms, just interpreting the data as amplitude over time.",
+      "id": "ep_138_ut_18"
+    },
+    {
+      "end": 406178,
+      "speaker": "Moritz Stefaner",
+      "start": 401330,
+      "text": "So what Scott used it with the gravitational waves might be in that field where.",
+      "id": "ep_138_ut_19"
+    },
+    {
+      "end": 406938,
+      "speaker": "Hannah Davis",
+      "start": 406234,
+      "text": "Exactly.",
+      "id": "ep_138_ut_20"
+    },
+    {
+      "end": 413386,
+      "speaker": "Moritz Stefaner",
+      "start": 407074,
+      "text": "The data, the exact wave data, and just made it audible directly.",
+      "id": "ep_138_ut_21"
+    },
+    {
+      "end": 469272,
+      "speaker": "Hannah Davis",
+      "start": 413498,
+      "text": "Exactly. And that can be really interesting. And I think that's where a lot of people get into sonification. The second one is kind of parameter mapping. So you do this in data visualization also, but it's mapping a value of the data to a component of the sound, where your focus is really on highlighting the data. And then the third one, which I'm mostly interested in and have been increasingly interested in, is music generation. So this is kind of the same as perimeter mapping, where you are still mapping values of the data to components of the sound, but the focus is not necessarily on showing the data clearly, but on instead creating interesting music. So it could also maybe have non data driven components. It could have more complex and hidden mappings. And, yeah, the point is really to create something that's interesting to listen to.",
+      "id": "ep_138_ut_22"
+    },
+    {
+      "end": 480060,
+      "speaker": "Moritz Stefaner",
+      "start": 469456,
+      "text": "So if we think back to how it relates to visual visualization, maybe the parameter mapping is like if you do a really super clean Tufte esque chart.",
+      "id": "ep_138_ut_23"
+    },
+    {
+      "end": 481506,
+      "speaker": "Hannah Davis",
+      "start": 480730,
+      "text": "Exactly.",
+      "id": "ep_138_ut_24"
+    },
+    {
+      "end": 489730,
+      "speaker": "Moritz Stefaner",
+      "start": 481618,
+      "text": "Really think about, okay, what's the mapping between data and sound and no other decoration or no other texture?",
+      "id": "ep_138_ut_25"
+    },
+    {
+      "end": 490962,
+      "speaker": "Hannah Davis",
+      "start": 489810,
+      "text": "Right, right.",
+      "id": "ep_138_ut_26"
+    },
+    {
+      "end": 497350,
+      "speaker": "Moritz Stefaner",
+      "start": 491146,
+      "text": "And with the music generation, maybe you have a bit more liberties and you work a bit more on the emotional level.",
+      "id": "ep_138_ut_27"
+    },
+    {
+      "end": 498910,
+      "speaker": "Hannah Davis",
+      "start": 498090,
+      "text": "Yes.",
+      "id": "ep_138_ut_28"
+    },
+    {
+      "end": 504562,
+      "speaker": "Moritz Stefaner",
+      "start": 499210,
+      "text": "Maybe it's the sort of form of illustration almost, rather than just a pure.",
+      "id": "ep_138_ut_29"
+    },
+    {
+      "end": 506954,
+      "speaker": "Hannah Davis",
+      "start": 504706,
+      "text": "Absolutely. Or art creation even.",
+      "id": "ep_138_ut_30"
+    },
+    {
+      "end": 508070,
+      "speaker": "Moritz Stefaner",
+      "start": 507042,
+      "text": "Right, right.",
+      "id": "ep_138_ut_31"
+    },
+    {
+      "end": 551230,
+      "speaker": "Hannah Davis",
+      "start": 508580,
+      "text": "But sound is really interesting because it has its own strengths compared to visualization, like the fact that it's temporal and that it is naturally multidimensional and you can carry a lot of data dimensions in it. It's great for pattern finding and cyclical data, and data that has these repetitive structures like you just played with the blossoms, because that creates really interesting, naturally repeating music. It's great for small units, for streams of data, and it's really unique. And then what's most important to me is that it's naturally emotional and it can move the listener.",
+      "id": "ep_138_ut_32"
+    },
+    {
+      "end": 553586,
+      "speaker": "Moritz Stefaner",
+      "start": 553090,
+      "text": "Yeah.",
+      "id": "ep_138_ut_33"
+    },
+    {
+      "end": 561122,
+      "speaker": "Enrico Bertini",
+      "start": 553658,
+      "text": "It kind of, like, excites different parts of the brain, and it seems to be like, strongly connected to the emotional part.",
+      "id": "ep_138_ut_34"
+    },
+    {
+      "end": 564266,
+      "speaker": "Hannah Davis",
+      "start": 561186,
+      "text": "Right, exactly. And very intuitively listen.",
+      "id": "ep_138_ut_35"
+    },
+    {
+      "end": 564650,
+      "speaker": "Enrico Bertini",
+      "start": 564378,
+      "text": "Right.",
+      "id": "ep_138_ut_36"
+    },
+    {
+      "end": 565402,
+      "speaker": "Hannah Davis",
+      "start": 564690,
+      "text": "And it's like.",
+      "id": "ep_138_ut_37"
+    },
+    {
+      "end": 574266,
+      "speaker": "Enrico Bertini",
+      "start": 565466,
+      "text": "It's not the fact that it unfolds over time. It means that you. If you wanna experience it, you have to spend time.",
+      "id": "ep_138_ut_38"
+    },
+    {
+      "end": 581026,
+      "speaker": "Hannah Davis",
+      "start": 574378,
+      "text": "Right, exactly. You kind of have to learn its own language, you know? Yeah, I like that.",
+      "id": "ep_138_ut_39"
+    },
+    {
+      "end": 584506,
+      "speaker": "Moritz Stefaner",
+      "start": 581178,
+      "text": "Yeah. So, shall we listen to a few more examples?",
+      "id": "ep_138_ut_40"
+    },
+    {
+      "end": 585470,
+      "speaker": "Enrico Bertini",
+      "start": 584698,
+      "text": "Yeah.",
+      "id": "ep_138_ut_41"
+    },
+    {
+      "end": 591150,
+      "speaker": "Moritz Stefaner",
+      "start": 585930,
+      "text": "What shall we play? I have a whole, like, browser here with lots of taps open. What should we go into?",
+      "id": "ep_138_ut_42"
+    },
+    {
+      "end": 608900,
+      "speaker": "Enrico Bertini",
+      "start": 591560,
+      "text": "Well, why don't we start with examples of what the three categories? Right. Well, maybe for modification, we already. I mean, our listeners can go back to our episode 75. Right. And here what we did with Scott Hughes.",
+      "id": "ep_138_ut_43"
+    },
+    {
+      "end": 612600,
+      "speaker": "Moritz Stefaner",
+      "start": 610000,
+      "text": "I can briefly play one of these examples.",
+      "id": "ep_138_ut_44"
+    },
+    {
+      "end": 613488,
+      "speaker": "Enrico Bertini",
+      "start": 612680,
+      "text": "Okay, go ahead.",
+      "id": "ep_138_ut_45"
+    },
+    {
+      "end": 644044,
+      "speaker": "Moritz Stefaner",
+      "start": 613544,
+      "text": "Yes. So it's two objects moving past each other in space. The gravitational waves, in this case, are loud when the small, but moves close to the large body, and they are quiet when the small body is far away. So you can learn about celestial bodies and how they relate to each other and what the effect is on the waves. I think we're close to a supernova type event.",
+      "id": "ep_138_ut_46"
+    },
+    {
+      "end": 644692,
+      "speaker": "Enrico Bertini",
+      "start": 644172,
+      "text": "Yes.",
+      "id": "ep_138_ut_47"
+    },
+    {
+      "end": 645604,
+      "speaker": "Moritz Stefaner",
+      "start": 644796,
+      "text": "There we go.",
+      "id": "ep_138_ut_48"
+    },
+    {
+      "end": 646480,
+      "speaker": "Hannah Davis",
+      "start": 645732,
+      "text": "Awesome.",
+      "id": "ep_138_ut_49"
+    },
+    {
+      "end": 653082,
+      "speaker": "Moritz Stefaner",
+      "start": 649340,
+      "text": "And you really get a different sense of the forces. Right.",
+      "id": "ep_138_ut_50"
+    },
+    {
+      "end": 654306,
+      "speaker": "Hannah Davis",
+      "start": 653186,
+      "text": "I think, yeah.",
+      "id": "ep_138_ut_51"
+    },
+    {
+      "end": 684206,
+      "speaker": "Moritz Stefaner",
+      "start": 654458,
+      "text": "Yeah. So that would be. Yeah. Modification, directly taking wave data, turning it to something. Wavy sound. Wavy. Second, the parameter mapping. There's a great classic example from Amanda Cox and team at the New York Times where they looked at the results of different, like, race outcomes in sports. Right. At the. Must have been the Olympics or something. Do you remember, Hans, what it was?",
+      "id": "ep_138_ut_52"
+    },
+    {
+      "end": 704130,
+      "speaker": "Hannah Davis",
+      "start": 684318,
+      "text": "Yeah. It's the speed at which Olympic athletes cross the finish line in relation to each other. And I love this piece because it comes with a visualization and you can see how close they are, like in little circles. But the sonification of it really does it justice. You really understand just how, you know, they're separated by milliseconds.",
+      "id": "ep_138_ut_53"
+    },
+    {
+      "end": 706318,
+      "speaker": "Moritz Stefaner",
+      "start": 704630,
+      "text": "Right. Shall I play it?",
+      "id": "ep_138_ut_54"
+    },
+    {
+      "end": 706934,
+      "speaker": "Enrico Bertini",
+      "start": 706414,
+      "text": "Let's play.",
+      "id": "ep_138_ut_55"
+    },
+    {
+      "end": 725418,
+      "speaker": "Moritz Stefaner",
+      "start": 706982,
+      "text": "Yeah, go ahead. So, first one is women's 1000 meters. Wow. Super close. Men's 1000, I guess. Yeah. Women's 500. Men's 500. Yeah.",
+      "id": "ep_138_ut_56"
+    },
+    {
+      "end": 726430,
+      "speaker": "Hannah Davis",
+      "start": 725514,
+      "text": "It's amazing.",
+      "id": "ep_138_ut_57"
+    },
+    {
+      "end": 734850,
+      "speaker": "Moritz Stefaner",
+      "start": 727250,
+      "text": "And what it does is also, in this case, it gives it the real scale. Like the chart could have any width, right?",
+      "id": "ep_138_ut_58"
+    },
+    {
+      "end": 735466,
+      "speaker": "Enrico Bertini",
+      "start": 735010,
+      "text": "Yes.",
+      "id": "ep_138_ut_59"
+    },
+    {
+      "end": 739610,
+      "speaker": "Moritz Stefaner",
+      "start": 735538,
+      "text": "But the sound is like. How do you say that? It's like, on the actual scale, it's one to one.",
+      "id": "ep_138_ut_60"
+    },
+    {
+      "end": 741550,
+      "speaker": "Hannah Davis",
+      "start": 739690,
+      "text": "Right. It's the actual temperature.",
+      "id": "ep_138_ut_61"
+    },
+    {
+      "end": 742786,
+      "speaker": "Moritz Stefaner",
+      "start": 741970,
+      "text": "Right?",
+      "id": "ep_138_ut_62"
+    },
+    {
+      "end": 743586,
+      "speaker": "Hannah Davis",
+      "start": 742978,
+      "text": "Yeah.",
+      "id": "ep_138_ut_63"
+    },
+    {
+      "end": 751738,
+      "speaker": "Moritz Stefaner",
+      "start": 743698,
+      "text": "And that's super powerful. Yeah. And music generation. Yeah. I think. I guess then your work comes in. Right. Because that's what you do a lot.",
+      "id": "ep_138_ut_64"
+    },
+    {
+      "end": 789072,
+      "speaker": "Hannah Davis",
+      "start": 751794,
+      "text": "That is mostly what I do. So this is my favorite music generation piece, which is by James Murphy from LCD Sound system. And he actually took tennis data and focused on creating interesting music from it. And so he's doing a multiple mappings. It's not necessarily a one to one mapping, like parameter mapping usually is, but he's using things like the court, the tennis score, the opponents, the temperature outside, to just create this kind of long piece. And it sounds really compelling.",
+      "id": "ep_138_ut_65"
+    },
+    {
+      "end": 792784,
+      "speaker": "Moritz Stefaner",
+      "start": 789176,
+      "text": "So it's almost more like a portrait of the whole match, basically. Right.",
+      "id": "ep_138_ut_66"
+    },
+    {
+      "end": 793920,
+      "speaker": "Hannah Davis",
+      "start": 792872,
+      "text": "Exactly, exactly.",
+      "id": "ep_138_ut_67"
+    },
+    {
+      "end": 803528,
+      "speaker": "Moritz Stefaner",
+      "start": 793960,
+      "text": "Than this. Exactly. Data depiction. And he has cool sounds. He knows how to work his sounds.",
+      "id": "ep_138_ut_68"
+    },
+    {
+      "end": 805060,
+      "speaker": "Hannah Davis",
+      "start": 803584,
+      "text": "Yeah, the samples are great.",
+      "id": "ep_138_ut_69"
+    },
+    {
+      "end": 850540,
+      "speaker": "Moritz Stefaner",
+      "start": 813720,
+      "text": "I love it. Yeah, that's nice.",
+      "id": "ep_138_ut_70"
+    },
+    {
+      "end": 851680,
+      "speaker": "Hannah Davis",
+      "start": 850620,
+      "text": "It's really beautiful.",
+      "id": "ep_138_ut_71"
+    },
+    {
+      "end": 855120,
+      "speaker": "Enrico Bertini",
+      "start": 852740,
+      "text": "It could totally be a fixed twin.",
+      "id": "ep_138_ut_72"
+    },
+    {
+      "end": 871932,
+      "speaker": "Hannah Davis",
+      "start": 855620,
+      "text": "Yeah, yeah. That piece is really compelling. I think, you know, I always want to know what parts are influencing what, but I wasn't able to find anything about it. But I think that's okay. Just accept it for what it is.",
+      "id": "ep_138_ut_73"
+    },
+    {
+      "end": 877740,
+      "speaker": "Enrico Bertini",
+      "start": 872036,
+      "text": "But when we listen to your pieces, you can tell us what is what influences you. Right.",
+      "id": "ep_138_ut_74"
+    },
+    {
+      "end": 879296,
+      "speaker": "Moritz Stefaner",
+      "start": 877900,
+      "text": "We will tell you tricks.",
+      "id": "ep_138_ut_75"
+    },
+    {
+      "end": 880220,
+      "speaker": "Hannah Davis",
+      "start": 879428,
+      "text": "Exactly.",
+      "id": "ep_138_ut_76"
+    },
+    {
+      "end": 888504,
+      "speaker": "Moritz Stefaner",
+      "start": 881200,
+      "text": "Yeah. So tell us a bit about your work. How did you get started and what are some of the key projects you have been working on?",
+      "id": "ep_138_ut_77"
+    },
+    {
+      "end": 909772,
+      "speaker": "Hannah Davis",
+      "start": 888632,
+      "text": "Sure. So I actually got interested in sonification through a data visualization class in grad school. And we did one week on data sonification, and it just stuck with me. And the first sonification I did was this sonification of different authors writing styles. If you want to play that, we can.",
+      "id": "ep_138_ut_78"
+    },
+    {
+      "end": 911004,
+      "speaker": "Moritz Stefaner",
+      "start": 909956,
+      "text": "I could. Yeah.",
+      "id": "ep_138_ut_79"
+    },
+    {
+      "end": 1047790,
+      "speaker": "Hannah Davis",
+      "start": 911092,
+      "text": "So it was a couple different authors. And basically each note here is a syllable. The higher notes represent more descriptive words, like adverbs and adjectives. So this is Hemingway. I can already tell he has no descriptive words. I think this is David Foster Wallace, who just has these long run on, but really, really rhythmically beautiful sentences. And I actually loved that last one, which is an excerpt from Virginia Woolf's the Waves, which we'll come back to, because I recently did another piece based on that same text. So I basically worked with this project for maybe half a semester, and I found it just really interesting. But at the end of the day, I thought a lot of the pieces sounded the same. There are only so many variables that you can play with grammatically. And I started really thinking about why do people actually read books? And the obvious answer is that people read it for the emotions. And so I started getting really interested in seeing if, basically, I could translate emotions between mediums, if I could translate the emotions or the emotional data from the text into an emotional piece with the same kind of underlying feeling. And so that led to this project called trans prose, which I worked on for quite a while, years. And this was kind of the foundation of my sonification career. So I basically used what's called an emolex, an emotional lexicon, and which is a great name.",
+      "id": "ep_138_ut_80"
+    },
+    {
+      "end": 1051190,
+      "speaker": "Moritz Stefaner",
+      "start": 1048890,
+      "text": "That alone is super cool.",
+      "id": "ep_138_ut_81"
+    },
+    {
+      "end": 1071218,
+      "speaker": "Hannah Davis",
+      "start": 1051490,
+      "text": "I think its full name is actually word emotion association lexicon, but it's a little too long to say, but it's an amazing resource. It's basically 14,000 of the most common english words tagged with eight different emotions and then two emotional states, positive or negative.",
+      "id": "ep_138_ut_82"
+    },
+    {
+      "end": 1072058,
+      "speaker": "Moritz Stefaner",
+      "start": 1071354,
+      "text": "That's great.",
+      "id": "ep_138_ut_83"
+    },
+    {
+      "end": 1147850,
+      "speaker": "Hannah Davis",
+      "start": 1072154,
+      "text": "Tagged using Mechanical Turk. And so, basically, I would use this resource to go through and get these, you know, large, beautiful splines of emotions representing a piece of work, a novel. And then I would use that data and map it to different components of the music. And it took a lot of experimenting, and I tried a lot of things that didn't work, but most of the iterations ended up mapping the octave to, like, positive to negative ratios or joy to anger ratios. The pitches were basically based on an interesting map that I found worked but isn't particularly intuitive, which is that I mapped low emotional counts to more consonant notes and high emotional counts to more dissonant notes. And so what this actually ends up doing is that the plot of the novel is heard not in. In literal events, but in the emotional representation of events. And I really liked that mapping quite a bit and stuck with that for a while.",
+      "id": "ep_138_ut_84"
+    },
+    {
+      "end": 1155614,
+      "speaker": "Moritz Stefaner",
+      "start": 1148310,
+      "text": "So it's almost like it could be a soundtrack while you're reading. It could be the fitting soundtrack to what's going on. Is that sort of the goal? More or less.",
+      "id": "ep_138_ut_85"
+    },
+    {
+      "end": 1168998,
+      "speaker": "Hannah Davis",
+      "start": 1155702,
+      "text": "Not really, because I found that because you need kind of a long running average to have it be accurate. Basically, a novel could be reduced down to a piece that was, like, one to two minutes long.",
+      "id": "ep_138_ut_86"
+    },
+    {
+      "end": 1171818,
+      "speaker": "Moritz Stefaner",
+      "start": 1169094,
+      "text": "Ah, true. Yeah. So the timescale is totally different.",
+      "id": "ep_138_ut_87"
+    },
+    {
+      "end": 1179890,
+      "speaker": "Hannah Davis",
+      "start": 1171914,
+      "text": "Exactly. Exactly. I have done some more, like, real time pieces, but for this project, that's what worked.",
+      "id": "ep_138_ut_88"
+    },
+    {
+      "end": 1183138,
+      "speaker": "Moritz Stefaner",
+      "start": 1180010,
+      "text": "Okay, cool. So shall we listen to a few examples?",
+      "id": "ep_138_ut_89"
+    },
+    {
+      "end": 1183626,
+      "speaker": "Hannah Davis",
+      "start": 1183234,
+      "text": "Yeah.",
+      "id": "ep_138_ut_90"
+    },
+    {
+      "end": 1185874,
+      "speaker": "Moritz Stefaner",
+      "start": 1183698,
+      "text": "Yeah. Shall we do Peter Pan first?",
+      "id": "ep_138_ut_91"
+    },
+    {
+      "end": 1189350,
+      "speaker": "Hannah Davis",
+      "start": 1186042,
+      "text": "Yeah, that's one of my favorites. That's on the light end of the spectrum.",
+      "id": "ep_138_ut_92"
+    },
+    {
+      "end": 1198802,
+      "speaker": "Moritz Stefaner",
+      "start": 1195850,
+      "text": "It's nice. It sounds very light footed.",
+      "id": "ep_138_ut_93"
+    },
+    {
+      "end": 1200322,
+      "speaker": "Hannah Davis",
+      "start": 1198906,
+      "text": "It's cute. Yeah.",
+      "id": "ep_138_ut_94"
+    },
+    {
+      "end": 1201086,
+      "speaker": "Moritz Stefaner",
+      "start": 1200386,
+      "text": "Yeah, exactly.",
+      "id": "ep_138_ut_95"
+    },
+    {
+      "end": 1203810,
+      "speaker": "Hannah Davis",
+      "start": 1201178,
+      "text": "It's like a children's piece.",
+      "id": "ep_138_ut_96"
+    },
+    {
+      "end": 1208930,
+      "speaker": "Moritz Stefaner",
+      "start": 1205670,
+      "text": "So remind me, the high pitches, what do they indicate?",
+      "id": "ep_138_ut_97"
+    },
+    {
+      "end": 1213770,
+      "speaker": "Hannah Davis",
+      "start": 1209550,
+      "text": "High emotional count. So high emotional activity.",
+      "id": "ep_138_ut_98"
+    },
+    {
+      "end": 1233540,
+      "speaker": "Moritz Stefaner",
+      "start": 1232120,
+      "text": "That was Peter Pan.",
+      "id": "ep_138_ut_99"
+    },
+    {
+      "end": 1239660,
+      "speaker": "Enrico Bertini",
+      "start": 1234120,
+      "text": "Hannah, can I ask you, I'm just curious, how do you decide which notes to play.",
+      "id": "ep_138_ut_100"
+    },
+    {
+      "end": 1299250,
+      "speaker": "Hannah Davis",
+      "start": 1240400,
+      "text": "So that's the consonance dissonance mapping I made for myself. Basically, I took a whole scale and then rearranged it based on what I personally thought was most consonant to dissonant. And this is always a thing. I grappled with it a lot, especially in the beginning, because I wanted this objective mapping or representation of the feeling. But this just is what worked for me. I had tried so many other scales. I think the most naive approach that is kind of a common first approach is mapping low emotion counts to low notes on the scale and high emotion counts to high notes on the scale. But that doesn't actually sound interesting over time because then you just get a lot of low notes and occasional high notes, and they don't have any really musicality or music theory behind it, if that makes sense. It sounds a tiny bit random.",
+      "id": "ep_138_ut_101"
+    },
+    {
+      "end": 1305110,
+      "speaker": "Moritz Stefaner",
+      "start": 1300190,
+      "text": "There's always the danger. Yes, it sounds a little bit random.",
+      "id": "ep_138_ut_102"
+    },
+    {
+      "end": 1306142,
+      "speaker": "Hannah Davis",
+      "start": 1305190,
+      "text": "Exactly, exactly.",
+      "id": "ep_138_ut_103"
+    },
+    {
+      "end": 1309822,
+      "speaker": "Enrico Bertini",
+      "start": 1306166,
+      "text": "Because you still have to create something that makes sense.",
+      "id": "ep_138_ut_104"
+    },
+    {
+      "end": 1324204,
+      "speaker": "Hannah Davis",
+      "start": 1309966,
+      "text": "Right, right, exactly. And I think I avoided randomness for a long time. None of the trans prose stuff has randomness in it at all. I've only just recently started to come around to it again. But it's very structured. Randomness.",
+      "id": "ep_138_ut_105"
+    },
+    {
+      "end": 1334748,
+      "speaker": "Moritz Stefaner",
+      "start": 1324372,
+      "text": "Yeah, yeah. Let's hear a few more examples so we get a sense of the range, what's possible. Next one is the road. I haven't written that. I haven't read that book. What is it about?",
+      "id": "ep_138_ut_106"
+    },
+    {
+      "end": 1343918,
+      "speaker": "Hannah Davis",
+      "start": 1334884,
+      "text": "It's a very dark post apocalyptic. Really, really dark. I think it's basically the story of a father guiding his son through the apocalypse.",
+      "id": "ep_138_ut_107"
+    },
+    {
+      "end": 1361530,
+      "speaker": "Moritz Stefaner",
+      "start": 1344094,
+      "text": "Okay. Okay, I'll press play. We'll see what happens. Oh, that sounds dark.",
+      "id": "ep_138_ut_108"
+    },
+    {
+      "end": 1367712,
+      "speaker": "Hannah Davis",
+      "start": 1362510,
+      "text": "This one is also not active at all, which you can also hear, I think.",
+      "id": "ep_138_ut_109"
+    },
+    {
+      "end": 1373200,
+      "speaker": "Moritz Stefaner",
+      "start": 1367816,
+      "text": "Yeah, it's a tough read. This must be a tough read.",
+      "id": "ep_138_ut_110"
+    },
+    {
+      "end": 1405458,
+      "speaker": "Hannah Davis",
+      "start": 1373240,
+      "text": "Right? Wow. Very dramatic end.",
+      "id": "ep_138_ut_111"
+    },
+    {
+      "end": 1406138,
+      "speaker": "Moritz Stefaner",
+      "start": 1405514,
+      "text": "Right?",
+      "id": "ep_138_ut_112"
+    },
+    {
+      "end": 1408522,
+      "speaker": "Hannah Davis",
+      "start": 1406314,
+      "text": "I think there is at some point. Yeah, yeah.",
+      "id": "ep_138_ut_113"
+    },
+    {
+      "end": 1413550,
+      "speaker": "Moritz Stefaner",
+      "start": 1408546,
+      "text": "It sounds like at least in the middle. Yeah, something's happening. That's good.",
+      "id": "ep_138_ut_114"
+    },
+    {
+      "end": 1418636,
+      "speaker": "Enrico Bertini",
+      "start": 1416860,
+      "text": "There's some hope somewhere.",
+      "id": "ep_138_ut_115"
+    },
+    {
+      "end": 1426280,
+      "speaker": "Moritz Stefaner",
+      "start": 1418748,
+      "text": "Yeah, I think so. Nice. Really makes me want to read the book, though.",
+      "id": "ep_138_ut_116"
+    },
+    {
+      "end": 1446220,
+      "speaker": "Hannah Davis",
+      "start": 1428420,
+      "text": "That's not what most people say. And then this last one I really love because it's the story of a man doing really, really terrible things in a really happy tone. And I think the music captures that.",
+      "id": "ep_138_ut_117"
+    },
+    {
+      "end": 1452972,
+      "speaker": "Moritz Stefaner",
+      "start": 1446380,
+      "text": "We can let our listeners guess. We play it first and guess what it is. We'll reveal it at the end.",
+      "id": "ep_138_ut_118"
+    },
+    {
+      "end": 1453880,
+      "speaker": "Enrico Bertini",
+      "start": 1453116,
+      "text": "Yep.",
+      "id": "ep_138_ut_119"
+    },
+    {
+      "end": 1463040,
+      "speaker": "Moritz Stefaner",
+      "start": 1461300,
+      "text": "It's so fitting, actually.",
+      "id": "ep_138_ut_120"
+    },
+    {
+      "end": 1466628,
+      "speaker": "Hannah Davis",
+      "start": 1465940,
+      "text": "Especially. Yeah.",
+      "id": "ep_138_ut_121"
+    },
+    {
+      "end": 1489678,
+      "speaker": "Moritz Stefaner",
+      "start": 1466644,
+      "text": "Because Bach also plays a big role in the. Right. Yeah, yeah, yeah. And so it's totally. I don't know. It's a really good match. It's like March music as well, and.",
+      "id": "ep_138_ut_122"
+    },
+    {
+      "end": 1492610,
+      "speaker": "Hannah Davis",
+      "start": 1489694,
+      "text": "Then it all comes together at the end. It really changes.",
+      "id": "ep_138_ut_123"
+    },
+    {
+      "end": 1504882,
+      "speaker": "Moritz Stefaner",
+      "start": 1499210,
+      "text": "So that was a clockwork orange. Anthony Burgess.",
+      "id": "ep_138_ut_124"
+    },
+    {
+      "end": 1506370,
+      "speaker": "Hannah Davis",
+      "start": 1505066,
+      "text": "Clockwork orange.",
+      "id": "ep_138_ut_125"
+    },
+    {
+      "end": 1510110,
+      "speaker": "Moritz Stefaner",
+      "start": 1506530,
+      "text": "Pretty good match. Did you tweak that? So it fits a bit better?",
+      "id": "ep_138_ut_126"
+    },
+    {
+      "end": 1514522,
+      "speaker": "Hannah Davis",
+      "start": 1511090,
+      "text": "So actually, the same algorithm made all three of those pieces.",
+      "id": "ep_138_ut_127"
+    },
+    {
+      "end": 1516362,
+      "speaker": "Moritz Stefaner",
+      "start": 1514586,
+      "text": "Ah. So no interference from you.",
+      "id": "ep_138_ut_128"
+    },
+    {
+      "end": 1553360,
+      "speaker": "Hannah Davis",
+      "start": 1516426,
+      "text": "No, there was interference at the beginning when I was just generally trying to find the boundaries for novels. But I've also done some other text projects with the same software, and I've basically had to change the mappings between mediums. So I did a piece based on news articles, and that was very different. So I changed it then I did. I sonified the 2016 presidential debates, and that was very different from novels, so I changed it then. But I was very curious in seeing if I could find this underlying true model, which I have since discarded.",
+      "id": "ep_138_ut_129"
+    },
+    {
+      "end": 1568836,
+      "speaker": "Moritz Stefaner",
+      "start": 1553940,
+      "text": "Right. I mean, it's such a huge challenge to take something as fuzzy as a text and then. Yes, totally transplant it in this whole other domain and then using algorithms. I mean, it's an impossible task to start with. Right?",
+      "id": "ep_138_ut_130"
+    },
+    {
+      "end": 1569692,
+      "speaker": "Hannah Davis",
+      "start": 1568868,
+      "text": "It's a lot.",
+      "id": "ep_138_ut_131"
+    },
+    {
+      "end": 1586310,
+      "speaker": "Moritz Stefaner",
+      "start": 1569876,
+      "text": "Yeah. But I think it's amazing how far you got there and how interesting that also relates to the original work. I think that's. Thanks. Yeah, I love these types of reframings of existing stuff, if you think about it differently. It's so cool.",
+      "id": "ep_138_ut_132"
+    },
+    {
+      "end": 1587262,
+      "speaker": "Hannah Davis",
+      "start": 1586430,
+      "text": "Totally.",
+      "id": "ep_138_ut_133"
+    },
+    {
+      "end": 1611278,
+      "speaker": "Moritz Stefaner",
+      "start": 1587406,
+      "text": "Yeah. Yeah. So what? And so this. Yeah, you said it took you a while. It's all up on music from text. There's more, like different novels you have sonified. There's also videos that show you a bit how the exact mapping between the text and the sound is, which I found really helpful to understand what's going on. So you should definitely take a look there. So what are you up to now?",
+      "id": "ep_138_ut_134"
+    },
+    {
+      "end": 1623810,
+      "speaker": "Hannah Davis",
+      "start": 1611454,
+      "text": "So right now I'm doing so many things. Well, I guess I'll talk about what I did recently, which was a really fun project for the synth beats laptop orchestra based in New York.",
+      "id": "ep_138_ut_135"
+    },
+    {
+      "end": 1627494,
+      "speaker": "Moritz Stefaner",
+      "start": 1625030,
+      "text": "How many laptops are in this orchestra?",
+      "id": "ep_138_ut_136"
+    },
+    {
+      "end": 1629206,
+      "speaker": "Hannah Davis",
+      "start": 1627662,
+      "text": "It was six for them.",
+      "id": "ep_138_ut_137"
+    },
+    {
+      "end": 1630198,
+      "speaker": "Moritz Stefaner",
+      "start": 1629398,
+      "text": "That's nice.",
+      "id": "ep_138_ut_138"
+    },
+    {
+      "end": 1636846,
+      "speaker": "Hannah Davis",
+      "start": 1630294,
+      "text": "Yeah, it was pretty amazing. It was my first time composing for laptop orchestra, and it was great.",
+      "id": "ep_138_ut_139"
+    },
+    {
+      "end": 1637970,
+      "speaker": "Moritz Stefaner",
+      "start": 1636958,
+      "text": "Modern times.",
+      "id": "ep_138_ut_140"
+    },
+    {
+      "end": 1760212,
+      "speaker": "Hannah Davis",
+      "start": 1638350,
+      "text": "Yeah, no, it was fascinating. I mean, I had known about there's plork, the Princeton Laptop Orchestra, and there's the Stanford laptop orchestra, but I hadn't realized there was one here too. But I actually, after a little while, actually, years of not working with grammar and text, I turned back to my first sonification, in a way, and created this piece called Percival. And this actually fleshes out that whole excerpt from Virginia Woolf's the Waves. And instead of, well, sorry. The computer basically creates an underlying track where each note is mapped to each word. So it's a very, very simple mapping. But then each laptop performer added one additional component. So one was the text conductor, just to move the text along and control the pacing and things like that. And then I had one person play a flute where there was dialogue. I had two people play elation and loss, basically being these real time sentiment taggers. So those were both mapped to corresponding notes to kind of create elation chords or lost chords. I had a one person play the triangle for percussion, basically on the syllables before interesting punctuation. And then I had just one person to be an emphasis on where I thought the text needed just a little boost. And so I think it worked. It could always do some workshopping, but it was really beautiful to see. And I liked seeing other people's interpretation of the same kind of components that the computer is usually interpreting. So it was a nice turn on its head in that regard.",
+      "id": "ep_138_ut_141"
+    },
+    {
+      "end": 1766612,
+      "speaker": "Moritz Stefaner",
+      "start": 1760356,
+      "text": "Yeah. And what was the input for the performance? Was it the text or did they have a cue track of sorts?",
+      "id": "ep_138_ut_142"
+    },
+    {
+      "end": 1767892,
+      "speaker": "Hannah Davis",
+      "start": 1766676,
+      "text": "No, it was the text.",
+      "id": "ep_138_ut_143"
+    },
+    {
+      "end": 1773732,
+      "speaker": "Moritz Stefaner",
+      "start": 1768036,
+      "text": "The text itself. They would decide if something would fit into what. What they are supposed to do, basically.",
+      "id": "ep_138_ut_144"
+    },
+    {
+      "end": 1804636,
+      "speaker": "Hannah Davis",
+      "start": 1773836,
+      "text": "Exactly. So, for example, the elation and lost people, I had them basically only press their, or only play their samples when they felt like the specific passage evoked elation or loss. And sometimes it would be at the same time, because it's an extremely beautiful, complex piece about this man who has just had a child and one of his very good friends has died. There's a lot of complicated and simultaneous emotions. And I've always found it really interesting.",
+      "id": "ep_138_ut_145"
+    },
+    {
+      "end": 1815324,
+      "speaker": "Moritz Stefaner",
+      "start": 1804748,
+      "text": "Yeah. That makes so much sense because soundification is often just seen as this mechanical music production. Right. Or mechanical sound production, but music itself is performed. Right. So.",
+      "id": "ep_138_ut_146"
+    },
+    {
+      "end": 1816404,
+      "speaker": "Hannah Davis",
+      "start": 1815412,
+      "text": "Absolutely.",
+      "id": "ep_138_ut_147"
+    },
+    {
+      "end": 1818388,
+      "speaker": "Moritz Stefaner",
+      "start": 1816572,
+      "text": "Why not go all the way?",
+      "id": "ep_138_ut_148"
+    },
+    {
+      "end": 1836524,
+      "speaker": "Hannah Davis",
+      "start": 1818524,
+      "text": "Exactly. And I agree. I'm trying to do much more. I think I end up talking about my work much more than I perform it or have it performed. And this year in particular, I'm trying to switch the stage pretty literally into doing more live stuff.",
+      "id": "ep_138_ut_149"
+    },
+    {
+      "end": 1837920,
+      "speaker": "Moritz Stefaner",
+      "start": 1836692,
+      "text": "Little world tour.",
+      "id": "ep_138_ut_150"
+    },
+    {
+      "end": 1839640,
+      "speaker": "Hannah Davis",
+      "start": 1838460,
+      "text": "I'm hoping to.",
+      "id": "ep_138_ut_151"
+    },
+    {
+      "end": 1919544,
+      "speaker": "Moritz Stefaner",
+      "start": 1842860,
+      "text": "Let's listen to a bit of the Percival piece. Probably it's too long to play the whole one. I could imagine. That's great. It's really interesting to listen to.",
+      "id": "ep_138_ut_152"
+    },
+    {
+      "end": 1920660,
+      "speaker": "Enrico Bertini",
+      "start": 1919712,
+      "text": "Thank you.",
+      "id": "ep_138_ut_153"
+    },
+    {
+      "end": 1929120,
+      "speaker": "Moritz Stefaner",
+      "start": 1921600,
+      "text": "And would the audience, would they also read the text or is it supposed to be like in parallel, like consume the text and the music.",
+      "id": "ep_138_ut_154"
+    },
+    {
+      "end": 1942988,
+      "speaker": "Hannah Davis",
+      "start": 1929280,
+      "text": "Yes. I actually made a visualization where the text was coming up either one or two sentences at a time, and so the audience could read it along. Actually, when I hear it now, I was reading it much that I hear the word for each note.",
+      "id": "ep_138_ut_155"
+    },
+    {
+      "end": 1946548,
+      "speaker": "Moritz Stefaner",
+      "start": 1943044,
+      "text": "Oh, yeah, that's nice. When it starts to tie together like that.",
+      "id": "ep_138_ut_156"
+    },
+    {
+      "end": 1964320,
+      "speaker": "Hannah Davis",
+      "start": 1946684,
+      "text": "Yeah, I think it was important because that was the intention of the piece. And I think seeing how the text really does give it the structure, and especially with the pauses around punctuation, gives it this beautiful flow. I wanted the audience to be able to understand that also.",
+      "id": "ep_138_ut_157"
+    },
+    {
+      "end": 2010130,
+      "speaker": "Moritz Stefaner",
+      "start": 1964940,
+      "text": "Yeah, that's great. Yeah. Maybe zooming out a bit. First of all, super fascinating work, and I really like the angle you take there with, like, okay, how can we work in the emotional expression of the whole thing and just take it just like making an audio chart, which is fine, too, but it's totally. I just love your approach there. So can you, like, you've been doing this for many years. Can you, like, let's say somebody gets started in the field, like, would be interested in experimenting a bit. Can you first maybe tell us a bit about, in your experience, the types of things that work versus that don't work so well or where you were challenged with and felt like, oh, this type of thing is hard to do in audio, and other things are nicer or easier.",
+      "id": "ep_138_ut_158"
+    },
+    {
+      "end": 2010834,
+      "speaker": "Hannah Davis",
+      "start": 2010290,
+      "text": "Yeah, of course.",
+      "id": "ep_138_ut_159"
+    },
+    {
+      "end": 2015850,
+      "speaker": "Moritz Stefaner",
+      "start": 2010882,
+      "text": "Maybe how many things you can listen to in parallel or all these practical things.",
+      "id": "ep_138_ut_160"
+    },
+    {
+      "end": 2020178,
+      "speaker": "Hannah Davis",
+      "start": 2015970,
+      "text": "Right, right. Those are all really good questions you can share.",
+      "id": "ep_138_ut_161"
+    },
+    {
+      "end": 2021310,
+      "speaker": "Moritz Stefaner",
+      "start": 2020314,
+      "text": "We're happy.",
+      "id": "ep_138_ut_162"
+    },
+    {
+      "end": 2130192,
+      "speaker": "Hannah Davis",
+      "start": 2023030,
+      "text": "The two things I always tell beginners to kind of avoid in the beginning is, are just really personal biases. There's no reason you actually have to avoid this. But I do say avoid odification because I think that it will limit you if that's where you start thinking about the mapping, because it's so literal. And good mappings, I think, really have to be thoughtful. You have to really think about what in your data maps to different emotional musical components, because every musical component conveys something different. You know, like low octaves definitely convey slowness or sometimes negativity. And you wouldn't want to map that to, like, I don't know, like, birth rates or something. You know what I mean? So really thinking carefully about your mappings is something I always say. And then similarly, I think it's good to start by mapping higher values in your data to higher notes on the scale and vice versa. But at some point, you generally want to move away from that unless you have a type of data that really works. So I think actually one area this really works is in climate change sonification. Wherever low notes do map pretty well to low temperatures and high notes map well to high temperatures, especially after they start getting to a certain level, you start hearing that shrillness and it kind of feels panicky in a sense, if that makes sense. I'm not sure.",
+      "id": "ep_138_ut_163"
+    },
+    {
+      "end": 2130900,
+      "speaker": "Moritz Stefaner",
+      "start": 2130256,
+      "text": "Yeah.",
+      "id": "ep_138_ut_164"
+    },
+    {
+      "end": 2140834,
+      "speaker": "Hannah Davis",
+      "start": 2131410,
+      "text": "But other things I would suggest, I always recommend getting your basic statistics of your data. I do a ton.",
+      "id": "ep_138_ut_165"
+    },
+    {
+      "end": 2142114,
+      "speaker": "Enrico Bertini",
+      "start": 2140922,
+      "text": "Start from the basics.",
+      "id": "ep_138_ut_166"
+    },
+    {
+      "end": 2169630,
+      "speaker": "Hannah Davis",
+      "start": 2142242,
+      "text": "Right. I mean, some people don't do this, but I do a ton with mapping from the average. Maybe I'll only do something if it's one or two or three standard deviations away from the average. And that also creates this like, variability in your piece that makes it kind of not stagnant, I think. I didn't do that with a lot of the earlier pieces and they're less interesting for that reason.",
+      "id": "ep_138_ut_167"
+    },
+    {
+      "end": 2175914,
+      "speaker": "Moritz Stefaner",
+      "start": 2170050,
+      "text": "So make sure you extract already a really strong signal before you even go to the sonification.",
+      "id": "ep_138_ut_168"
+    },
+    {
+      "end": 2244626,
+      "speaker": "Hannah Davis",
+      "start": 2176082,
+      "text": "Yeah. Like have an understanding of the structure of your data. And that's also another thing I would say is usually data has so many structures that you can kind of pick and choose from. Like, you know, if you have, I mean, a lot of data has both an event and a time, and you can, you want to think about which one you want to use for the underlying structure. So, like, most of my work has this emotional underlying structure, but you could use time as an underlying structure. You could have. Sorry, when I say that, I mean that, you know, maybe 1 second will be one beat or one month will be one beat, depending on your data. But you could also have an event based underlying structure where each event is a beat and that changes the whole piece. And so thinking about what about your data is consistent enough to make it the structure of your musical piece is really important.",
+      "id": "ep_138_ut_169"
+    },
+    {
+      "end": 2248994,
+      "speaker": "Moritz Stefaner",
+      "start": 2244818,
+      "text": "Right. So that's also the rhythm, basically, or the speed you set.",
+      "id": "ep_138_ut_170"
+    },
+    {
+      "end": 2250346,
+      "speaker": "Hannah Davis",
+      "start": 2249082,
+      "text": "Yeah, the speed. Yeah.",
+      "id": "ep_138_ut_171"
+    },
+    {
+      "end": 2253470,
+      "speaker": "Moritz Stefaner",
+      "start": 2250378,
+      "text": "Just have one x axis. That's. I just realized that.",
+      "id": "ep_138_ut_172"
+    },
+    {
+      "end": 2257314,
+      "speaker": "Hannah Davis",
+      "start": 2254690,
+      "text": "Right, exactly.",
+      "id": "ep_138_ut_173"
+    },
+    {
+      "end": 2258130,
+      "speaker": "Moritz Stefaner",
+      "start": 2257442,
+      "text": "Yeah.",
+      "id": "ep_138_ut_174"
+    },
+    {
+      "end": 2259658,
+      "speaker": "Hannah Davis",
+      "start": 2258290,
+      "text": "So you really want to think about.",
+      "id": "ep_138_ut_175"
+    },
+    {
+      "end": 2261602,
+      "speaker": "Moritz Stefaner",
+      "start": 2259714,
+      "text": "So you want to put it to good use.",
+      "id": "ep_138_ut_176"
+    },
+    {
+      "end": 2266270,
+      "speaker": "Hannah Davis",
+      "start": 2261666,
+      "text": "Yeah, exactly. It's a good way to put it. I've never actually thought about it like that.",
+      "id": "ep_138_ut_177"
+    },
+    {
+      "end": 2268630,
+      "speaker": "Moritz Stefaner",
+      "start": 2266990,
+      "text": "Yeah, I'm a visual guy.",
+      "id": "ep_138_ut_178"
+    },
+    {
+      "end": 2271370,
+      "speaker": "Hannah Davis",
+      "start": 2268790,
+      "text": "Right. That makes sense.",
+      "id": "ep_138_ut_179"
+    },
+    {
+      "end": 2286190,
+      "speaker": "Moritz Stefaner",
+      "start": 2274870,
+      "text": "These are great tips because I think, yeah, as you say, often people start with, oh, let's map all ip addresses to the sound spectrum. And then they are maybe a bit disappointed that it doesn't deliver like any patterns, but.",
+      "id": "ep_138_ut_180"
+    },
+    {
+      "end": 2290678,
+      "speaker": "Hannah Davis",
+      "start": 2286270,
+      "text": "Exactly, exactly. You know, and so thinking about what.",
+      "id": "ep_138_ut_181"
+    },
+    {
+      "end": 2293408,
+      "speaker": "Moritz Stefaner",
+      "start": 2290694,
+      "text": "You want to extract and how you represent. It is key.",
+      "id": "ep_138_ut_182"
+    },
+    {
+      "end": 2327526,
+      "speaker": "Hannah Davis",
+      "start": 2293464,
+      "text": "Yeah, exactly. And all data does have a structure. That's the other thing I would say. Like the UFO pieces I sent in or I put in there were basically showing that point. Like you would kind of assume UFO sightings would be totally random data and not have any underlying context. But actually the underlying structure is that most UFO sightings are found at night. So you do get this kind of rise and fall in your musical pieces because there's nothing during the day, if that makes sense.",
+      "id": "ep_138_ut_183"
+    },
+    {
+      "end": 2353038,
+      "speaker": "Enrico Bertini",
+      "start": 2327718,
+      "text": "Yeah, yeah. Hannah, one thing I wanted to ask you is, so I think the same way in visualization, you can identify a number of visual channels that you can use to map properties of data to properties, visual properties. So say, I don't know, size, size, position, color and so on. So is there an equivalent when you are trying to build a music piece out of.",
+      "id": "ep_138_ut_184"
+    },
+    {
+      "end": 2391604,
+      "speaker": "Hannah Davis",
+      "start": 2353214,
+      "text": "Absolutely, yes. I think the main ones are probably your key, particularly whether it's major or minor. Your instruments. I've worked a lot in piano because I want the melody itself to be emotional before I add instruments. But instrument choice in itself is a really good mapping. Volume is a really important one. Tempo and octave, are you vital? They changed the shape of the whole piece. The note length and all of the note lengths in relation to each other and the particular ones is a really interesting one.",
+      "id": "ep_138_ut_185"
+    },
+    {
+      "end": 2392548,
+      "speaker": "Moritz Stefaner",
+      "start": 2391732,
+      "text": "So many options.",
+      "id": "ep_138_ut_186"
+    },
+    {
+      "end": 2396188,
+      "speaker": "Enrico Bertini",
+      "start": 2392604,
+      "text": "And of course they interact a lot, right?",
+      "id": "ep_138_ut_187"
+    },
+    {
+      "end": 2427260,
+      "speaker": "Hannah Davis",
+      "start": 2396284,
+      "text": "Exactly, exactly. But you can get a ton out of just those on their own. You know, you can have really active low pieces or really slow low pieces, and those are totally different outcomes. And then also working with samples, I do a lot with midi and actually creating pieces that sound like actual instruments. But working with samples is really fun too, and can create their own kind of soundscapes.",
+      "id": "ep_138_ut_188"
+    },
+    {
+      "end": 2435720,
+      "speaker": "Enrico Bertini",
+      "start": 2427640,
+      "text": "Nice. So we should talk a little bit about how do you actually do that in practice? I'm sure some of our listeners would like to try it out, right?",
+      "id": "ep_138_ut_189"
+    },
+    {
+      "end": 2436456,
+      "speaker": "Hannah Davis",
+      "start": 2435760,
+      "text": "Yeah.",
+      "id": "ep_138_ut_190"
+    },
+    {
+      "end": 2444952,
+      "speaker": "Enrico Bertini",
+      "start": 2436648,
+      "text": "In practice, when you actually want to realize it, what tools do you use and how does it look like? What are the steps there?",
+      "id": "ep_138_ut_191"
+    },
+    {
+      "end": 2520890,
+      "speaker": "Hannah Davis",
+      "start": 2445096,
+      "text": "So for me, my favorite pipeline, I guess, is probably midiutil. I'm a python person, so that's kind of my go to in the past. For either Java or the older version of processing, I really recommend JFugue, which is a Java library that really has a ton of music theory and really solid documentation behind it. In JavaScript, I recommend Js Midgen to generate midi or if you want to work with samples, I basically learned programming on processing in P5, so I would recommend the P5 environment for working with samples, especially for real time sonification. A lot of what I do are full compositions where I generate the whole thing and wrap it in a sound font, and then it's a full piece. But I think a lot of people working with sonification do more real time stuff, and so I think P5 can be really exceptional for that. And then of course, you mentioned it's two tone. I haven't tried it out, but I've heard so many people say that it's a really exciting new direction.",
+      "id": "ep_138_ut_192"
+    },
+    {
+      "end": 2555454,
+      "speaker": "Moritz Stefaner",
+      "start": 2521750,
+      "text": "Yeah, two tone you can also use if you don't know how to program, it's a browser based app, and you can take existing data and pick instruments and then say, how do you want to map the data to properties of that instrument, like the pitch or whatnot? And it's like in five minutes you can make a sonification. I think that's very cool. Yeah, it's a great start for sure. And then if you want to customize it more, you'll have to get probably into the programming side, but just play around and prototype. It's super cool.",
+      "id": "ep_138_ut_193"
+    },
+    {
+      "end": 2565182,
+      "speaker": "Hannah Davis",
+      "start": 2555542,
+      "text": "It sounds good, at least to start thinking about it, because I think there's been definitely obstacles to sonification involving pipelines. So it's cool that that's out there now.",
+      "id": "ep_138_ut_194"
+    },
+    {
+      "end": 2577256,
+      "speaker": "Enrico Bertini",
+      "start": 2565286,
+      "text": "So I'm curious to hear, literally about the mechanics of how you do that. Right, so say, I guess you write some code, then at some point you'll have to listen to what you get out of it, right?",
+      "id": "ep_138_ut_195"
+    },
+    {
+      "end": 2578140,
+      "speaker": "Hannah Davis",
+      "start": 2577408,
+      "text": "Yes.",
+      "id": "ep_138_ut_196"
+    },
+    {
+      "end": 2586704,
+      "speaker": "Enrico Bertini",
+      "start": 2578800,
+      "text": "And then I guess you need to go back and change what you don't like. Right. So can you briefly describe how this works?",
+      "id": "ep_138_ut_197"
+    },
+    {
+      "end": 2630160,
+      "speaker": "Hannah Davis",
+      "start": 2586832,
+      "text": "So basically I have a python script that does all of the mappings and creates a midi with any of the libraries I just mentioned, usually midi Util. And then I have a little bash script that uses ffmpeg, a sound font, and just wraps it really quickly in a sound font and turns it into an mp3 or wav file. And then I can just double click that and listen to it. I see. It's pretty fast to generate any piece in python takes maybe half a second or less. So even though that sounds kind of like an annoying pipeline, it's not that horrible.",
+      "id": "ep_138_ut_198"
+    },
+    {
+      "end": 2645412,
+      "speaker": "Moritz Stefaner",
+      "start": 2633460,
+      "text": "But it is hard to keep listening to sounds and variations of the same sound again. Right. It's difficult to at some point to judge anymore, like what even works.",
+      "id": "ep_138_ut_199"
+    },
+    {
+      "end": 2668420,
+      "speaker": "Hannah Davis",
+      "start": 2645476,
+      "text": "Absolutely. Yeah. I did this one client project where, yeah, basically I think they gave me a day and I had been working on it, you know, the whole day, just nonstop on the same pieces. And I just, like, I sent it to them thinking it just was not good, and they loved it immediately. Oh, man. It's just so hard to tell.",
+      "id": "ep_138_ut_200"
+    },
+    {
+      "end": 2685144,
+      "speaker": "Enrico Bertini",
+      "start": 2669880,
+      "text": "Yeah. So this, I think now I'm curious to hear if you have one of those. If sometimes you have one of those creative missteps where you make a mistake, but the mistake is beautiful, so you decide to keep it there.",
+      "id": "ep_138_ut_201"
+    },
+    {
+      "end": 2731130,
+      "speaker": "Hannah Davis",
+      "start": 2685312,
+      "text": "Absolutely. Actually, I think in the last link I sent you, I'm actually recording this album called Siren Sailor sun, and I put a piece on there called Moby Dick, which was generated from Moby Dick, and there were actually two huge errors. The first was, like, I was off by half a measure in my calculation, but it sounds amazing. And then the second thing was that it was before I knew git, and so I actually lost the rest of the mapping that basically created my favorite piece from the. This time period. Oh, my God. Which is so sad. But at least I have the piece, so I would say it's even more.",
+      "id": "ep_138_ut_202"
+    },
+    {
+      "end": 2732554,
+      "speaker": "Moritz Stefaner",
+      "start": 2731170,
+      "text": "Precious in a way, actually.",
+      "id": "ep_138_ut_203"
+    },
+    {
+      "end": 2735070,
+      "speaker": "Hannah Davis",
+      "start": 2732682,
+      "text": "Totally. Yeah. It's, like, ethereal.",
+      "id": "ep_138_ut_204"
+    },
+    {
+      "end": 2759212,
+      "speaker": "Moritz Stefaner",
+      "start": 2735410,
+      "text": "Yeah. Wow, this is fantastic. Yeah. I'm super excited now to dig through all this material. There's also a fun project, which is not like music generation, but more another creative way to working with sound that we could close with. Actually, it's the laughing room. Can you tell us a bit about that one? I think it's a good way to end the show.",
+      "id": "ep_138_ut_205"
+    },
+    {
+      "end": 2802896,
+      "speaker": "Hannah Davis",
+      "start": 2759316,
+      "text": "So, this is a project from Johnny sun, who's a writer and comedian and a really funny Twitter person, and I. And basically, it's a room that was embedded with a neural network that was trained on the transcripts of stand up comedians, particularly women and people of color, to kind of, like, decrease the amount of sexism and racism that the algorithm would have. But basically, you would go into this room and you interact with your friends or anyone else who's in the room already. And the algorithm laughs when it kind of hears something worth laughing at. It was a very.",
+      "id": "ep_138_ut_206"
+    },
+    {
+      "end": 2805900,
+      "speaker": "Moritz Stefaner",
+      "start": 2802928,
+      "text": "I can see all kinds of applications for that, obviously.",
+      "id": "ep_138_ut_207"
+    },
+    {
+      "end": 2812660,
+      "speaker": "Hannah Davis",
+      "start": 2807520,
+      "text": "It was definitely the best project I did last year. Super fun.",
+      "id": "ep_138_ut_208"
+    },
+    {
+      "end": 2822656,
+      "speaker": "Moritz Stefaner",
+      "start": 2813880,
+      "text": "Cool. I think we'll just play that on the way out. And before you hear it, we'll just say thank you so much to Hannah Davis.",
+      "id": "ep_138_ut_209"
+    },
+    {
+      "end": 2824224,
+      "speaker": "Hannah Davis",
+      "start": 2822768,
+      "text": "Thank you so much for having me.",
+      "id": "ep_138_ut_210"
+    },
+    {
+      "end": 2844288,
+      "speaker": "Moritz Stefaner",
+      "start": 2824312,
+      "text": "Thank you. I hope a few of our listeners are now really super psyched about sonification. Will send us all kinds of cool compositions in, like, three weeks, please. So thanks so much. And we'll. Yeah, you can find all of Hannah's work on her website. We'll put the link in the show note. It's www.hannahishere.com, if I'm correct.",
+      "id": "ep_138_ut_211"
+    },
+    {
+      "end": 2845100,
+      "speaker": "Hannah Davis",
+      "start": 2844384,
+      "text": "Yep.",
+      "id": "ep_138_ut_212"
+    },
+    {
+      "end": 2850120,
+      "speaker": "Moritz Stefaner",
+      "start": 2845400,
+      "text": "And we'll hear the laughing room to close. Thank you so much.",
+      "id": "ep_138_ut_213"
+    },
+    {
+      "end": 2852224,
+      "speaker": "Enrico Bertini",
+      "start": 2850200,
+      "text": "Bye. Thank you. Thanks so much.",
+      "id": "ep_138_ut_214"
+    },
+    {
+      "end": 2864630,
+      "speaker": "Hannah Davis",
+      "start": 2852352,
+      "text": "Why does Darth Vader like his toast to be burnt on one side? Why? Because he prefers the dark side. APPlAUSE.",
+      "id": "ep_138_ut_215"
+    },
+    {
+      "end": 2872738,
+      "speaker": "Moritz Stefaner",
+      "start": 2866330,
+      "text": "Why did Aquaman sleep in the nightlight? He was afraid of sea monsters under his bed.",
+      "id": "ep_138_ut_216"
+    },
+    {
+      "end": 2873790,
+      "speaker": "Hannah Davis",
+      "start": 2872914,
+      "text": "Okay.",
+      "id": "ep_138_ut_217"
+    },
+    {
+      "end": 2875430,
+      "speaker": "Moritz Stefaner",
+      "start": 2874170,
+      "text": "Is that funny?",
+      "id": "ep_138_ut_218"
+    },
+    {
+      "end": 2888268,
+      "speaker": "Hannah Davis",
+      "start": 2879930,
+      "text": "That's pretty good, though the AI doesn't have a sense of humorous can and I have no humor. It was laughing at Helen's.",
+      "id": "ep_138_ut_219"
+    },
+    {
+      "end": 2891740,
+      "speaker": "Moritz Stefaner",
+      "start": 2888324,
+      "text": "I don't know. And it was laughing at, like, socially.",
+      "id": "ep_138_ut_220"
+    },
+    {
+      "end": 2895640,
+      "speaker": "Hannah Davis",
+      "start": 2891780,
+      "text": "Appropriate times, a little delayed. Maybe.",
+      "id": "ep_138_ut_221"
+    },
+    {
+      "end": 2904440,
+      "speaker": "Moritz Stefaner",
+      "start": 2903100,
+      "text": "It understands this.",
+      "id": "ep_138_ut_222"
+    },
+    {
+      "end": 2929526,
+      "speaker": "Enrico Bertini",
+      "start": 2909100,
+      "text": "Hey, folks, thanks for listening to data stories again. Before you leave a few last notes, this show is now completely crowdfunded, so you can support us by going on Patreon. That's patreon.com Datastories. And if you can spend a couple of minutes rating us on iTunes, that would be extremely helpful for the show.",
+      "id": "ep_138_ut_223"
+    },
+    {
+      "end": 2955412,
+      "speaker": "Moritz Stefaner",
+      "start": 2929638,
+      "text": "And here's also some information on the many ways you can get news directly from us. We are, of course, on twitter@twitter.com. Datastories. We have a Facebook page@Facebook.com. dot all in one word. And we also have a Slack channel where you can chat with us directly. And to sign up, you can go to our homepage datastory eas, and there is a button at the bottom of the page.",
+      "id": "ep_138_ut_224"
+    },
+    {
+      "end": 2971288,
+      "speaker": "Enrico Bertini",
+      "start": 2955556,
+      "text": "And we also have an email newsletter. So if you want to get news directly into your inbox and be notified whenever we publish an episode, you can go to our home page Datastories and look for the link you find at the bottom in the footer.",
+      "id": "ep_138_ut_225"
+    },
+    {
+      "end": 2983448,
+      "speaker": "Moritz Stefaner",
+      "start": 2971384,
+      "text": "So one last thing we want to tell you is that we love to get in touch with our listeners, especially if you want to suggest a way to improve the show or amazing people you want us to invite or even projects you want us to talk about.",
+      "id": "ep_138_ut_226"
+    },
+    {
+      "end": 2993100,
+      "speaker": "Enrico Bertini",
+      "start": 2983544,
+      "text": "Yeah, absolutely. And don't hesitate to get in touch with us. It's always a great thing to hear from you. So see you next time, and thanks for listening to data stories.",
+      "id": "ep_138_ut_227"
+    }
+  ],
+  "confidence": 0.928124345047921,
+  "audio_duration": 3003,
+  "punctuate": true,
+  "format_text": true,
+  "dual_channel": false,
+  "webhook_url": null,
+  "webhook_status_code": null,
+  "webhook_auth": false,
+  "webhook_auth_header_name": null,
+  "speed_boost": false,
+  "auto_highlights_result": null,
+  "auto_highlights": false,
+  "audio_start_from": null,
+  "audio_end_at": null,
+  "word_boost": [],
+  "boost_param": null,
+  "filter_profanity": false,
+  "redact_pii": false,
+  "redact_pii_audio": false,
+  "redact_pii_audio_quality": null,
+  "redact_pii_policies": null,
+  "redact_pii_sub": null,
+  "speaker_labels": true,
+  "content_safety": false,
+  "iab_categories": true,
+  "content_safety_labels": {
+    "status": "unavailable",
+    "results": [],
+    "summary": {}
+  },
+  "language_detection": false,
+  "language_detection_threshold": null,
+  "language_confidence": null,
+  "custom_spelling": null,
+  "throttled": false,
+  "auto_chapters": true,
+  "summarization": false,
+  "summary_type": null,
+  "summary_model": null,
+  "custom_topics": false,
+  "topics": [],
+  "speech_threshold": null,
+  "speech_model": "best",
+  "chapters": [
+    {
+      "summary": "This week, we talk about data visualization, analysis, and generally the role data plays in our lives. Just before we start, our podcast is listener supported. So if you do enjoy the show, please consider supporting us.",
+      "gist": "Data Stories: Data Literacy",
+      "headline": "This podcast is listener supported, so if you enjoy the show, please consider supporting us",
+      "start": 240,
+      "end": 97390,
+      "id": "ep_138_ch_0"
+    },
+    {
+      "summary": "Mauritson: You've been doing some climate visualization type of work. He teaches a course in the digital media program at the Arts Academy in Bremen. He says students had a few really cool projects. And he got thinking about sonification again.",
+      "gist": "Moritz: Climate visualization projects",
+      "headline": "Moritz has been working on climate visualization projects",
+      "start": 98090,
+      "end": 290532,
+      "id": "ep_138_ch_1"
+    },
+    {
+      "summary": "Anna Davis is a generative musician and researcher based in New York City. Her work deals with turning data into sounds in some form. And she has a quite unique approach there, which we'll hear more about in a minute.",
+      "gist": "Anna Davis on Sonification (podcast)",
+      "headline": "Anna Davis is a generative musician and researcher working on sonification",
+      "start": 290636,
+      "end": 352578,
+      "id": "ep_138_ch_2"
+    },
+    {
+      "summary": "Data sonification is basically being just like data visualization, except instead of representing the data through visuals and bar charts, you're representing it through sound. There are three main types of sonification: oddification, parameter mapping and music generation. The point is really to create something that's interesting to listen to.",
+      "gist": "What is Sonification in Data?",
+      "headline": "What is data sonification and how does it relate to visuals",
+      "start": 352634,
+      "end": 707814,
+      "id": "ep_138_ch_3"
+    },
+    {
+      "summary": "This is my favorite music generation piece, which is by James Murphy from LCD Sound system. He actually took tennis data and focused on creating interesting music from it. When we listen to your pieces, you can tell us what is what influences you.",
+      "gist": "Music Generation",
+      "headline": "James Murphy takes tennis data and creates interesting music from it",
+      "start": 707862,
+      "end": 881760,
+      "id": "ep_138_ch_4"
+    },
+    {
+      "summary": "Artist got interested in sonification through a data visualization class in grad school. He wanted to translate emotions between mediums. This led to a project called trans prose, which he worked on for years. It's almost like it could be a soundtrack while you're reading.",
+      "gist": "In the Elevator of Sonification",
+      "headline": "You got interested in sonification through a data visualization class in college",
+      "start": 881840,
+      "end": 1183138,
+      "id": "ep_138_ch_5"
+    },
+    {
+      "summary": "Hannah: I took a whole scale and then rearranged it based on what I personally thought was most consonant to dissonant. It sounds a tiny bit random. But you still have to create something that makes sense. None of the trans prose stuff has randomness in it at all.",
+      "gist": "Mapping emotion to a scale",
+      "headline": "How do you decide which notes to play in a transpo song",
+      "start": 1183234,
+      "end": 1329572,
+      "id": "ep_138_ch_6"
+    },
+    {
+      "summary": "It's all up on music from text. There's more, like different novels you have sonified. We play it first and guess what it is. We'll reveal it at the end.",
+      "gist": "Sonified Novels",
+      "headline": "You sonified three different novels using a computer algorithm",
+      "start": 1329756,
+      "end": 1614010,
+      "id": "ep_138_ch_7"
+    },
+    {
+      "summary": "The composer recently composed for a laptop orchestra based in New York. He turned back to his first sonification, in a way, and created a piece called Percival. He's trying to switch the stage pretty literally into doing more live stuff this year.",
+      "gist": "Composer Percival With Laptop Orchestra",
+      "headline": "I recently composed a piece for a laptop orchestra based in New York",
+      "start": 1614710,
+      "end": 1966400,
+      "id": "ep_138_ch_8"
+    },
+    {
+      "summary": "The two things I always tell beginners to kind of avoid in the beginning is, are just really personal biases. You have to really think about what in your data maps to different emotional musical components. Usually data has so many structures that you can kind of pick and choose from.",
+      "gist": "Mapping the Structure of Data",
+      "headline": "You have to think carefully about what maps to different emotional musical components",
+      "start": 1966990,
+      "end": 2329290,
+      "id": "ep_138_ch_9"
+    },
+    {
+      "summary": "The main ones are probably your key, particularly whether it's major or minor. Your instruments. Volume is a really important one. Tempo and octave, are you vital? And then also working with samples, I do a lot with midi.",
+      "gist": "Mapping the data into a music composition",
+      "headline": "You can identify a number of visual channels that you can use to map data",
+      "start": 2329590,
+      "end": 2428184,
+      "id": "ep_138_ch_10"
+    },
+    {
+      "summary": "In practice, when you actually want to realize it, what tools do you use and how does it look like? What are the steps there? My favorite pipeline, I guess, is probably midiutil. And then if you want to customize it more, you'll have to get probably into the programming side.",
+      "gist": "How to Make a Sonification Program in Practice",
+      "headline": "How do you actually do sonification in practice? What tools do you use",
+      "start": 2428272,
+      "end": 2565182,
+      "id": "ep_138_ch_11"
+    },
+    {
+      "summary": "So can you briefly describe how this works? So basically I have a python script that does all of the mappings and creates a midi with any of the libraries I just mentioned. And then I can just double click that and listen to it. It's pretty fast to generate any piece in python takes maybe half a second or less.",
+      "gist": "How to make a MIDI file in Python",
+      "headline": "Can you briefly describe how this works? So basically I have a python script",
+      "start": 2565286,
+      "end": 2670660,
+      "id": "ep_138_ch_12"
+    },
+    {
+      "summary": "Hannah Davis: If sometimes you have one of those creative missteps where you make a mistake, but the mistake is beautiful, so you decide to keep it there. There's also a fun project, which is not like music generation, but more another creative way to working with sound that we could close with.",
+      "gist": "Hannah Davis' \"\"",
+      "headline": "There's also another creative way to working with sound that we could close with",
+      "start": 2671120,
+      "end": 2852224,
+      "id": "ep_138_ch_13"
+    },
+    {
+      "summary": "This show is now completely crowdfunded, so you can support us by going on Patreon. com Datastories. Here's also some information on the many ways you can get news directly from us. We love to get in touch with our listeners, especially if you want to suggest a way to improve the show.",
+      "gist": "Data Stories",
+      "headline": "This show is now completely crowdfunded, so you can support us by going on Patreon",
+      "start": 2852352,
+      "end": 2993100,
+      "id": "ep_138_ch_14"
+    }
+  ],
+  "disfluencies": false,
+  "entity_detection": false,
+  "sentiment_analysis": false,
+  "sentiment_analysis_results": null,
+  "entities": null,
+  "speakers_expected": null,
+  "summary": null,
+  "custom_topics_results": null,
+  "episode_num": 138,
+  "episode_metadata": {
+    "speakers": [
+      "Hannah Davis",
+      "Enrico Bertini",
+      "Moritz Stefaner"
+    ],
+    "WPid": "1331",
+    "url": "https://datastori.es/podlove/file/5632/s/feed/c/mp3/138-turning-data-into-sound-with-hannah-davis.mp3",
+    "episode_title": "Turning Data into Sound with Hannah Davis"
+  }
+}

@@ -1,0 +1,850 @@
+{
+  "id": "4ac3c9bf-94c5-4a93-8f23-cd918a26c9af",
+  "language_model": "assemblyai_default",
+  "acoustic_model": "assemblyai_default",
+  "language_code": "en_us",
+  "status": "completed",
+  "audio_url": "https://datastori.es/podlove/file/6935/s/feed/c/mp3/Datastories-167-short.mp3",
+  "utterances": [
+    {
+      "end": 8610,
+      "speaker": "Andrew Gelman",
+      "start": 160,
+      "text": "People don't always understand the importance of style or the necessity of style, but it's not a luxury. It's more of an organizing principle.",
+      "id": "ep_167_ut_0"
+    },
+    {
+      "end": 39916,
+      "speaker": "Enrico Bertini",
+      "start": 27990,
+      "text": "Hi, everyone. Welcome to a new episode of Data stories. My name is Enrico Bertini, and I am a professor at Northeastern University in Boston, where I teach and do research in data visualization. Right.",
+      "id": "ep_167_ut_1"
+    },
+    {
+      "end": 51196,
+      "speaker": "Moritz Stefaner",
+      "start": 39948,
+      "text": "And I'm Moritz Stefaner. I'm an independent designer of data visualizations. And, in fact, I work as a self employed truth in beauty operator out of my office here in the countryside in the beautiful north of Germany.",
+      "id": "ep_167_ut_2"
+    },
+    {
+      "end": 63364,
+      "speaker": "Enrico Bertini",
+      "start": 51348,
+      "text": "Exactly. And on this podcast, we talk about data visualization, analysis, and more generally, the role data plays in our lives. And usually we do that together with a guest we invite on the show.",
+      "id": "ep_167_ut_3"
+    },
+    {
+      "end": 82412,
+      "speaker": "Moritz Stefaner",
+      "start": 63492,
+      "text": "But before we start, just a quick note. Our podcast is listener supported, so there are no ads. But that also means if you do enjoy the show, you might consider supporting us. You can do that with recurring payments on patreon.com Datastories, or you can also send us one time donations on Paypal me Datastories.",
+      "id": "ep_167_ut_4"
+    },
+    {
+      "end": 109376,
+      "speaker": "Enrico Bertini",
+      "start": 82556,
+      "text": "Exactly. Okay, so I think we can get started with the main topic and guests for the show today. So today we have two people on the show to talk about, I think, a really relevant topic. I think, in general, what is the relationship between statistics and data visualization? And to talk about that, we have Andrew Gelman and Jessica Hullman. Hi, Andrew and Jessica. Welcome to the show.",
+      "id": "ep_167_ut_5"
+    },
+    {
+      "end": 109840,
+      "speaker": "Moritz Stefaner",
+      "start": 109448,
+      "text": "Hello.",
+      "id": "ep_167_ut_6"
+    },
+    {
+      "end": 110584,
+      "speaker": "Andrew Gelman",
+      "start": 109920,
+      "text": "Hello.",
+      "id": "ep_167_ut_7"
+    },
+    {
+      "end": 119128,
+      "speaker": "Enrico Bertini",
+      "start": 110752,
+      "text": "So, as usual, we start by asking our guests to introduce themselves. So maybe, Andrea, you want to go first and give a brief introduction?",
+      "id": "ep_167_ut_8"
+    },
+    {
+      "end": 123140,
+      "speaker": "Andrew Gelman",
+      "start": 119264,
+      "text": "I teach statistics and political science at Columbia University.",
+      "id": "ep_167_ut_9"
+    },
+    {
+      "end": 124476,
+      "speaker": "Enrico Bertini",
+      "start": 123580,
+      "text": "Jessica?",
+      "id": "ep_167_ut_10"
+    },
+    {
+      "end": 138516,
+      "speaker": "Jessica Hullman",
+      "start": 124588,
+      "text": "Hi. Yeah, I'm an associate professor of computer science at Northwestern University. I do research on various topics related to how people draw inferences from data, usually from interfaces. So I care about things like visualization.",
+      "id": "ep_167_ut_11"
+    },
+    {
+      "end": 193838,
+      "speaker": "Enrico Bertini",
+      "start": 138708,
+      "text": "Okay, so I thought we would start our conversation by starting from the blog that I believe Andrew started several years ago. It's called statistical modeling, causal inference, and social science. I think it's a really influential blog, and I remember reading the blog since many years. And it's a really interesting community of people, and there's a lot of interesting discussions about statistics, but also political science and science in general, and also a lot about data visualization. And I believe Jessica joined the team recently. So we have seen even more data visualization conversations in that space. So, Andrew, I was thinking maybe you could give us a little bit of a overview of what the blog is about, maybe if you want even to say how it started and what are the main topics there in 2004, I.",
+      "id": "ep_167_ut_12"
+    },
+    {
+      "end": 255090,
+      "speaker": "Andrew Gelman",
+      "start": 193854,
+      "text": "Was working with a postdoc, Samantha Cook, and we had an idea of setting up a blog and a wiki to help us communicate with each other. The idea of putting stuff on a blog was that then other people could see things too, and we could get input from other people. Then the wiki was supposed to be where we put our various ideas. The wiki got hacked and we had to take it down. But the blog was useful. I learned, though, what was hard. It's hard for most people to write stuff on a blog. Sometimes I would suggest that students or postdocs write a post and they would find it too difficult a task. They would find it too, like pressure fold. So it ends up mostly being me. But then various other people, like maybe about 15 other people, such including Jessica, have had stuff to say. So I've asked them if they could write for it too. So it's a way of getting having conversations.",
+      "id": "ep_167_ut_13"
+    },
+    {
+      "end": 277478,
+      "speaker": "Jessica Hullman",
+      "start": 255250,
+      "text": "It is difficult to write for your blog. I was just going to say, andrew, maybe it's hard for you to understand, but I think, I mean, you've established like, quite a record with it that I think a lot of people tune in to hear what you're gonna say. So it is. I understand why other people would be like, oh my God, it's too much pressure. Cause I had to just get over it and be like, I don't care if they're gonna compare me to his posts, then they're not gonna be as good. But it is tricky.",
+      "id": "ep_167_ut_14"
+    },
+    {
+      "end": 281534,
+      "speaker": "Andrew Gelman",
+      "start": 277654,
+      "text": "Your posts are definitely better than the average post of mine.",
+      "id": "ep_167_ut_15"
+    },
+    {
+      "end": 313330,
+      "speaker": "Enrico Bertini",
+      "start": 281582,
+      "text": "So, yeah, I think what is really interesting there is that every time I look at the post, there's such an interesting series of comments below. You seem to have a very active community around it, and it's always very thoughtful and yeah, and I don't know if you need any special moderation, but also, normally the comments are pretty interesting and nothing too bad. There's no crazy people writing crazy stuff as far as I can tell.",
+      "id": "ep_167_ut_16"
+    },
+    {
+      "end": 318070,
+      "speaker": "Andrew Gelman",
+      "start": 313410,
+      "text": "Yeah, it's not so interesting for the crazy people, I guess.",
+      "id": "ep_167_ut_17"
+    },
+    {
+      "end": 319426,
+      "speaker": "Enrico Bertini",
+      "start": 318650,
+      "text": "Yeah.",
+      "id": "ep_167_ut_18"
+    },
+    {
+      "end": 452978,
+      "speaker": "Andrew Gelman",
+      "start": 319578,
+      "text": "But I wanted to pick up on something that you said earlier, not about the blog, but about statistical graphics. That because I'm a user of graphs ever since I was a physics student, and graphed data and graphed curves and models and so forth. And I think over the years, it struck me that I think everybody needs to have their own theory of statistical graphics. Like in the same way as if you're writing, you need to have a theory of writing. Or if you're drawing, you can't just say, I'm going to draw what I see. You have to have a kind of approach. It's goals. Or if you're making music, you can't just say, hey, let's bunch of us, let's form a musical group and do music. Right? You have to have music that you want to do. You have a certain style. It doesn't mean your style is better than everybody else's, but you need that. And I think that for quantitative things, people don't always understand the importance of style or the necessity of style. Like, style is seen as a kind of luxury, but it's not a luxury, it's more of an organizing principle. And that's also clear with writing, that if you're writing, except for perhaps the most functional writing, like the instructions for how to operate your microwave oven or something like that, you need to have a style, because if something is boring to read, then no one will read it. If you teach as a teacher, if you teach a class and write a two page document for the students to read, they won't read the two page document. And so it's really, it's needed. And I think the flip side of that is that, on the other hand, then you have people saying, oh, someone's a designer, as if there can't be any connection to science, because design is supposed to be some like separate thing, but there, one can draw the analogy of something like building bridges or that these things are designed, but they still have to work.",
+      "id": "ep_167_ut_19"
+    },
+    {
+      "end": 492384,
+      "speaker": "Enrico Bertini",
+      "start": 453114,
+      "text": "Yeah, I really like the way you are describing this because in a way, it reminds me of something that maybe I was hoping to discuss that. To me, it reminds me of the role of theory. Right. The fact that if you don't have a theory, theory doesn't have to be necessarily perfect or always super predictive, but it's a way to organize your thoughts so that you can think systematically about something. So I don't know if this rings any bells on your side, but the way you describe style to me reminds me the how important it is to have theory and also a theory of graphics in this specific instance.",
+      "id": "ep_167_ut_20"
+    },
+    {
+      "end": 555286,
+      "speaker": "Andrew Gelman",
+      "start": 492512,
+      "text": "Well, it's like they say in chess, having a plan won't win you the game, because presumably you're playing against someone else with a plan, too, and you're not both going to win. But if you don't have a plan, then you'll lose. You won't be able to move forward. And part of having a plan is recognizing, being aware of that you have a plan, being aware of what the plan is. And then when things go wrong, you can change things. So actually, it's like putting your, as a scientist, like putting your marker down. I'm not really into, like, betting. It's not like I would say you literally have to bet money on things, but, like, conceptually setting it down and saying, this is the model I'm going with is very valuable, even though, or I should say especially though we know that that model is going to be wrong and it's going to fall apart at some point. But the more explicit you can have that model or style or system, the more that you can then know when to work on improving it or abandoning it.",
+      "id": "ep_167_ut_21"
+    },
+    {
+      "end": 617492,
+      "speaker": "Jessica Hullman",
+      "start": 555398,
+      "text": "Yeah, we actually wrote a paper about some of this as it applies to sort of theories of visualization for exploratory analysis, where I think that's a place in visualization where we're building all these tools to help people do interactive data analysis through visualization. But we don't always, like, if you ask us, the people developing these tools or the researchers in the area, like, what our sort of guiding principles are, I think it's often what we just want to let people explore data as easily as possible. But I think you can easily run into places where you just, like, you have no theory to tell you how to design something in sort of a better way versus a worse way. Like, you just don't know. And so we wrote a paper for the Harvard Data Science Review, like, about a year or so ago, where we sort of talked about this as applies to exploratory visual analysis. And we argue that even if it's a bad theory, like Enrico was saying, or both of you guys were saying, that it still can be useful because you need to know sort of how you were wrong. And if you never state what you're going for, what you think the objective is, how do you know when you were wrong?",
+      "id": "ep_167_ut_22"
+    },
+    {
+      "end": 642890,
+      "speaker": "Enrico Bertini",
+      "start": 617596,
+      "text": "Yeah, that's an area of data visualization that I really love, and I think people tend to talk less about it. I think there is more of a, I think the general idea with visualization is that it's a tool for communication, but there is less, I would say there is less discussions about how to use it for exploration. And by the way, the word exploration itself is so contentious in a way.",
+      "id": "ep_167_ut_23"
+    },
+    {
+      "end": 649182,
+      "speaker": "Moritz Stefaner",
+      "start": 645150,
+      "text": "It's funny, I thought it's the other way around that everybody talks about exploratory.",
+      "id": "ep_167_ut_24"
+    },
+    {
+      "end": 651542,
+      "speaker": "Jessica Hullman",
+      "start": 649366,
+      "text": "Yeah, I was kind of thinking in academia, right?",
+      "id": "ep_167_ut_25"
+    },
+    {
+      "end": 652086,
+      "speaker": "Moritz Stefaner",
+      "start": 651566,
+      "text": "In academia.",
+      "id": "ep_167_ut_26"
+    },
+    {
+      "end": 654354,
+      "speaker": "Enrico Bertini",
+      "start": 652118,
+      "text": "In academia. Yeah, yeah, yeah, yeah, yeah. Absolutely.",
+      "id": "ep_167_ut_27"
+    },
+    {
+      "end": 658562,
+      "speaker": "Moritz Stefaner",
+      "start": 654462,
+      "text": "I mean, and nobody, like, really gets what communication means.",
+      "id": "ep_167_ut_28"
+    },
+    {
+      "end": 852862,
+      "speaker": "Andrew Gelman",
+      "start": 658706,
+      "text": "Well, I think. I think that one problem is communication is often viewed as being a kind of unidirectional thing. So, like, they'll say things like, scientists should learn how to tell stories because people think in terms of stories. And I hate that kind of attitude. I mean, sure, people think in terms of stories, but. But this attitude that, oh, you're the scientist, you already know the answers, but now you have to convey it to people. So you have to learn how to be a storyteller and have a good bedside manner. Right? Like, it's all, like, connected with, like, oh, you don't want to be a jerk, right? Like you ought to be. It's like narrative medicine, all this stuff. And it's like, what people are actually doing there is great, but the idea, the framing that it's all about how to communicate truths to people, I think is misleading. I think it's more accurate to say that we're people, too, and we learned from stories. So this is something that my colleagues and I have been thinking a lot about over the years, like, what makes us believe things. And often we're convinced by stories. And I characterize the effect of stories as being anomalous and immutable. And by anomalous, it's a story as a surprise. So the convincing stories have some twist in them, something unexpected. Even if you think about a scientific method. I didn't think this method would work, and then it did, or whatever. And then it's immutable in the sense that a good story is grounded in reality. And, like, if I. If you kick it, your foot hurts, right? Like, as in the famous Boswell story. And so you have, like, so we, we kind of learn from, or we learn from these stories, which are a reality. I mean, maybe the term story isn't the best in that sense, because I'm not talking about stories that are made up, but I'm talking about true stories. But we learn from these. But it's kind of necessary that the stories have this grounding in truth so that they can disprove our theories. And there's a sense in which a good story, like, if you were to take all of the things that people have said in your podcast, right? So maybe you've done however many podcasts, and each podcast, on average, maybe there are five stories. Like when someone's tells you, hey, let me tell you a story, blah, blah, blah, blah. And if you look at those stories, some of them are going to be just made up, right? I mean, we have these horrible examples of stuff where people just say, like, there is a famous example from a few years ago in a book where somebody said that a certain, it was like a certain data problem caused 70 deaths a year in a small town. And it was like, how the hell, like it made no sense, right? So they just made it up. But I think this stories that are good, like if you could in theory track them down and I think they would have this characteristic that they disprove an implicit model of the world.",
+      "id": "ep_167_ut_29"
+    },
+    {
+      "end": 853454,
+      "speaker": "Jessica Hullman",
+      "start": 853006,
+      "text": "Right.",
+      "id": "ep_167_ut_30"
+    },
+    {
+      "end": 860010,
+      "speaker": "Moritz Stefaner",
+      "start": 853542,
+      "text": "Does it have to do with news newsworthiness as well? Like in journalism you have certain newsworthiness criteria.",
+      "id": "ep_167_ut_31"
+    },
+    {
+      "end": 880840,
+      "speaker": "Andrew Gelman",
+      "start": 860350,
+      "text": "Exactly. Dog bites man bites dog. But here's the point, is that when something is surprising, it's surprising relative to an expectation. And so that model of the world, is that. So that when we talk about discovery and surprise, there are theories implicitly there already?",
+      "id": "ep_167_ut_32"
+    },
+    {
+      "end": 952788,
+      "speaker": "Jessica Hullman",
+      "start": 881340,
+      "text": "Yes, this is, yeah, I was going to tie this back to the exploratory analysis thing as well. Like I think one of, I mean, I think we talk about exploratory visual analysis a lot in vis, probably more than communication. But, you know, it's, there's always this role of expectations and what you're bringing, like what you're expecting to see both in communication and exploratory visualization analysis. And I think at least in visualization research, that's something that we've always sort of backgrounded. We've always acted as though the data speaks for itself when it obviously does not. Yeah, so I think, yeah, that's all. Like theories of how visualizations act as a model check are one thing that Andrew and I have, like in the same paper I mentioned already, he had been thinking about this years ago as a way to sort of think about the role of graphics in exploratory data analysis and how in a sense you can tie it to confirmatory data analysis through this idea that a good graph is helping us check a model, some implicit model, often, sometimes an explicit model, like in confirmatory data analysis, but there's always some expectation and the graph tells us how much the data deviate from that.",
+      "id": "ep_167_ut_33"
+    },
+    {
+      "end": 959396,
+      "speaker": "Enrico Bertini",
+      "start": 952924,
+      "text": "So when you say model check here, do you mean like checking the model that you have stored in your head like a mental model?",
+      "id": "ep_167_ut_34"
+    },
+    {
+      "end": 1125528,
+      "speaker": "Jessica Hullman",
+      "start": 959468,
+      "text": "Yeah, I mean, I think, yeah. So in exploratory visual analysis, I mean, I think there's always some background assumption potentially and a lot of times, and this is stuff that Andrew had spoken about back in 2003 in a paper. So you can cut me off whenever, Andrew, and tell it yourself, but basically you can think of a visualization as giving you almost like a test statistic or a vector of test statistics in a hypothesis testing type framework. If you want to look at it that way, where you have something that you're trying to check for, you make a graph in order to check how well does my data conform to some expectation? And sometimes that's really explicit and built into the visualization. In a model fitting or preliminary model fitting stage of a workflow, you're looking at things like maybe residuals, and you know exactly how to read the chart because it's built into it that if your data deviates from the expectations that you want your residuals to have then or to fulfill, then it'll be obvious because you'll see deviations from symmetry in the plot or even a scatter plot. Often, if you have a bivariate scatter plot, the most common sort of built in thing that you're checking against is a straight diagonal line representing perfect linear association. So the idea that back in 2003 that Andrew started talking about and other people statistical graphics have also gotten into, like Andreas Buja, Diane Cook and others, there's this work in sort of graphical statistical inference that gets into this idea of how visualizations can function sort of as model checks. But then within that, people have gone in different directions where Andrew's original formulation, I believe, was sort of more an abayesian direction, where it's not that we're testing some hypothesis and we just want sort of our p value or kind of yes, no answer, but it's. It's that where you can think of the graph as kind of like the comparison that you're doing mentally when you look at a graph is kind of akin to doing like a posterior predictive check invasion stats where you're sort of imagining like under my expectations about the process that created my data. What do I expect the data to look like? So what would reasonable data look like under the predictions I want to make? And how much does the data that I actually got sort of compare to what I would expect? So it's almost like you could imagine on some level, maybe this doesn't happen all the time, but it's almost like when you look at graphs, you're sort of imagining reasonable data under some set of expectations you have, and you're comparing that to what you see. Andrew, I don't know if you want to say anything there. I think that was just sort of the idea I wanted to bring up.",
+      "id": "ep_167_ut_35"
+    },
+    {
+      "end": 1296620,
+      "speaker": "Andrew Gelman",
+      "start": 1125584,
+      "text": "Well, yeah, I have more to say about that, but actually let me jump to something else, which is a paradox that we learn from stories and the best stories have surprises in them. Like I would almost argue, all stories have surprises in the sense that if there's no surprise, you don't bother telling the story. So we're always using, just as we use graphs to learn and to discover, which means to be surprised relative to our implicit models. We consume stories in order to refute various models of the world. But yet the paradox is that how can we learn from surprising things? Like it seems the usual way we think about statistics is that we learn from the expected, like random samples, right? That's like, if I'm going to do a survey, I don't say I found the 1000 weirdest people in America and asked and their opinions about things, and I really wanted to be surprised. And you'll never guess what I found. No, what you'll do is you want to ask a representative sample of people and like, you don't really have the goal of being surprised. You just, you want to see that. So this was sort of bothering me, actually, because after I wrote the paper, the paper that my colleague and I wrote about why, how we learned from stories I drew directly connected to the papers that Jessica mentioned, where we earlier, I had written that graphics are a form of model check. So then I argued stories are a form of model check. But then again, people ask the question, and how can it be that you learn from anomalies? And my, I don't know, like my resolution of this is that it's related to a kind of Popperian or lakotoshian view of science, or cunian view or whatever, I guess the standard view now of science, which is that we alternate between normal science and scientific revolutions. And when we're doing normal science, we are want kind of representative samples and we want to help build, and we want to build theories and modify our theories. Then when we're doing revolutions, we're trying to see what's wrong with our theories. And there we're looking for counter examples. Now, I'll only say one more thing, which is that when you say this, it always sounds like revolution is the hero. And normal sciences is like the loser in this game. But that's not true, because the revolution only exists because there was the normal science, it allowed it. And the goal of the revolution is to replace it with a new normal science. And so it's like both of these steps are important.",
+      "id": "ep_167_ut_36"
+    },
+    {
+      "end": 1311080,
+      "speaker": "Moritz Stefaner",
+      "start": 1297380,
+      "text": "I have a question here. How open are people really, to changing their minds based on statistical information? I think it's something like the last few years has maybe been an interesting research topic.",
+      "id": "ep_167_ut_37"
+    },
+    {
+      "end": 1339400,
+      "speaker": "Jessica Hullman",
+      "start": 1311380,
+      "text": "I was thinking, too, as Andrew was talking about anomalies, should you have to go out explicitly searching for anomalies to break a theory? Or if we were all honest scientists, could we kind of, through our own, like, just seeing the data that we collect, find anomalies? Like, if we're willing enough to sort of admit when our mindset is not right, then we should be seeing probably anomalies a lot.",
+      "id": "ep_167_ut_38"
+    },
+    {
+      "end": 1407092,
+      "speaker": "Andrew Gelman",
+      "start": 1339520,
+      "text": "Well, this is kind of related to this, like, unitary nature of consciousness thing, or even the idea that we talked about earlier of having a plan. It seems pretty fundamental, like, to mathematics, the way cognition works in general, not just like human brains, that it seems like there needs to be this executive function and this alternation of processes. So, like the same, you need a division of labor somehow. So maybe one scientist could create and refute her own theories and gather data, but maybe not all at the same time. I mean, another example is, in math class, way back when, when you're asked, sometimes you're asked to either prove something or come up with a counter example, and they always say you can't do both at the same time. You have to first assume it's true and try to prove it, and then if you can, stop and assume it's false and. And try to do that. So we do kind of use the multiple humans in the system to play different roles.",
+      "id": "ep_167_ut_39"
+    },
+    {
+      "end": 1408080,
+      "speaker": "Jessica Hullman",
+      "start": 1407276,
+      "text": "Yeah.",
+      "id": "ep_167_ut_40"
+    },
+    {
+      "end": 1433276,
+      "speaker": "Moritz Stefaner",
+      "start": 1408540,
+      "text": "I have another question, like, looping back to the beginning. So I think you rightly explained visualization is really a skill and a practice, and there's no single right way, but it's like a highly personal thing, which how you do it right. And there could be many ways to do it right. Is it the same for statistical practice, like for applying statistics? Or is it in statistics more for a given problem? There is a correct solution.",
+      "id": "ep_167_ut_41"
+    },
+    {
+      "end": 1462298,
+      "speaker": "Andrew Gelman",
+      "start": 1433468,
+      "text": "Of course, there are many ways of solving problems. I actually wrote something once about what I called the methodological attribution error, which is people attributing to their method what's also a property of their skill. And so you'll see this with renowned statisticians, or maybe not so renowned statisticians also, that they just think some method is inherently better. But, yeah, there's always so many unwritten.",
+      "id": "ep_167_ut_42"
+    },
+    {
+      "end": 1469394,
+      "speaker": "Moritz Stefaner",
+      "start": 1462354,
+      "text": "Rules, and they might just be better at applying it or failing to apply another technique successfully, which somebody else might have.",
+      "id": "ep_167_ut_43"
+    },
+    {
+      "end": 1477058,
+      "speaker": "Andrew Gelman",
+      "start": 1469482,
+      "text": "Yeah, I'm better at some techniques than others. That's how it works. So there's an interaction.",
+      "id": "ep_167_ut_44"
+    },
+    {
+      "end": 1507846,
+      "speaker": "Moritz Stefaner",
+      "start": 1477114,
+      "text": "Yeah, yeah. It's interesting because from the outside, so I have only statistics 101 knowledge. Right. And to me, it always seemed there's this clear decision tree of if your data is shaped like that, then you need to apply ANova test or something like this. Right. And we have the same for graphs. If you want to spot outliers, use a scatterplot. Right. And so I was always wondering how, how hard cut these rules are. And I'm glad to hear that. It seems very similar, actually, that the deeper you go, the less clear it is how things should be.",
+      "id": "ep_167_ut_45"
+    },
+    {
+      "end": 1609340,
+      "speaker": "Andrew Gelman",
+      "start": 1507958,
+      "text": "I was influenced by a colleague, David Krantz, a psychologist, who he was telling me about, like decision theory. And he said, the simplest version, decision theory, is what you learn like that. Like von Neumann, Morgenstern, you have a decision tree that you need to evaluate. So you compute all the things that go into it and you compute the tree. And then the next level of sophistication is to say, no, actually drawing the tree is important. And there's lots of psychological experiments where they show people the tree and it's missing a branch and, like, people don't realize. So, like, a lot of examples where the best decision is something that wasn't in the tree in the first place and no one tried it. But then he said that's also not enough. And so his take on how to on, like, decision analysis is that you start with goals. So you have goals and resources and stakeholders and all of that sounds kind of soft, but it's not really softer than trees. So you basically start with design thinking again. Well, yeah, you start with your, you start with your goals and then all the other things, your goals and your constraints and your resources, and then you consider ways of getting there while being open to that, your goals might change and so forth. So, yeah, statements like, if your data look like this, you should use this model. That's like, totally. That's horrible because you really want to be starting with your goals and, you know, and not in an empty way, like, oh, yeah, my goal is to publish a paper. My goal is to get this data analysis done. Like, you know, your serious goals, whatever they are.",
+      "id": "ep_167_ut_46"
+    },
+    {
+      "end": 1613592,
+      "speaker": "Moritz Stefaner",
+      "start": 1609680,
+      "text": "My goal is to not get shouted at on the Internet foremost.",
+      "id": "ep_167_ut_47"
+    },
+    {
+      "end": 1624876,
+      "speaker": "Andrew Gelman",
+      "start": 1613776,
+      "text": "Yeah, well, so I get it. I have to go now, so I'll see you all later. But thanks for the opportunity, for talking with you all this, this is always fun.",
+      "id": "ep_167_ut_48"
+    },
+    {
+      "end": 1625892,
+      "speaker": "Enrico Bertini",
+      "start": 1624988,
+      "text": "Thanks so much.",
+      "id": "ep_167_ut_49"
+    },
+    {
+      "end": 1627388,
+      "speaker": "Moritz Stefaner",
+      "start": 1625996,
+      "text": "Wonderful. Thanks for joining us.",
+      "id": "ep_167_ut_50"
+    },
+    {
+      "end": 1628196,
+      "speaker": "Enrico Bertini",
+      "start": 1627444,
+      "text": "Thanks, Andrew.",
+      "id": "ep_167_ut_51"
+    },
+    {
+      "end": 1630180,
+      "speaker": "Andrew Gelman",
+      "start": 1628268,
+      "text": "See you all later. Thanks again. Bye.",
+      "id": "ep_167_ut_52"
+    },
+    {
+      "end": 1662670,
+      "speaker": "Enrico Bertini",
+      "start": 1630260,
+      "text": "Okay, and now we can continue the rest of the episode with Jessica. So one question that I had going back to, let's say, the comparison between statistics and visualization right in my head, I'm always like, I can't say that one is better than the other. Right? I don't know. So, for instance, when we teach visualization, we show the Anscombe quartet. I think we have a huge bias there because it's almost like, take that, statistics, right. This is so much better.",
+      "id": "ep_167_ut_53"
+    },
+    {
+      "end": 1664882,
+      "speaker": "Moritz Stefaner",
+      "start": 1663010,
+      "text": "This is how I use it at least.",
+      "id": "ep_167_ut_54"
+    },
+    {
+      "end": 1713748,
+      "speaker": "Enrico Bertini",
+      "start": 1665026,
+      "text": "Right, right. Everybody uses that way. It's like, here we go. That's the, that's why we need this. And, but no, because I think there's almost like a dance between having a lot of details so that we can maybe related to what Andrew was saying. Right. The surprising elements. But you can't do, you can't reason only with surprise. Right. And surprise can also overwhelm you and you may lose the signal as you look at a lot of noise. Right. So I really see that as a dance between these two. The surprising, the particular, but also surfacing the signal. So, yeah, yeah. How do you think about that?",
+      "id": "ep_167_ut_55"
+    },
+    {
+      "end": 2102849,
+      "speaker": "Jessica Hullman",
+      "start": 1713804,
+      "text": "I mean, it reminds me of like, you know, Tukey and others who have written about like, the exploratory data analysis process, where, I mean, my personal view is that in visualization, we sort of take kind of like the very initial stages, you know, where. Well, the very initial stages of exploratory analysis are often something just making sure there's no massive chunks of missing data, figuring out what variables you have to begin with. But I would say we take this, then next stage of, I'm just trying to see where is there some signal or what looks like a pattern. What kind of relationships do I think I see we in visualization think of that as exploratory analysis. It's very open ended, clicking around to find patterns. And I think we design kind of as though that is what exploratory visual analysis is all about. Tukey, for instance, though, talked about this sort of intermediate phase where you've noticed, you've sort of generated some hypotheses about possible relationships between variables or the nature of certain distributions. And then you sort of need to know how much can I believe what I think I see here? Um, and, and so, you know, there's also like, you know, exploratory analysis also involves things like starting to fit models to try to explain. Like, if I think that this, you know, set of variables seems to be predictive of some other variable that I care about, you know, I would actually start fitting models and looking at deviation in things like residuals, seeing, you know, how well do my models actually explain what I'm seeing? And like the whole idea is that I want to like build up some sort of mental model, kind of the data generating process. I want to use stats to help me figure out what can I believe in terms of what signals are actually there and what is just maybe not actually going to hold up when I inspect it more closely. I think there's this weird stage or this weird way in which graphs are used not just to show us things that maybe we didn't expect to see or we did expect to see, but also to give us some information about how much we should believe those things. And I think that's where it's sort of kind of ambiguous. Like, so actually from Andrew's blog, I learned about this sort of informal term someone used called the anthropic principle of statistics, which is like, there are certain problems where you would use statistics, like if your data, if the signal is so huge relative to the noise, you don't really need to be running stats on that. You can just sort of see it. And maybe you just make a graph and it's obvious if the noise is very large relative to the signal, then it's sort of hopeless and you could do stats, but you're still kind of dealing with too much noise. And so it's like statistics is useful for this sort of middle set of problems. And so I think, I mean, one of the questions we'll ask year or two for me is like, you know, I think of this like, you know, we have like the problems in the middle where we can use maybe visualization, like separately from stats. You know, like what, what do we think is a problem where visualization is simply, you know, not going to work? When is visualization sufficient without any follow up? And I don't think there's like true or right answers. These are things we have to sort of figure out as a field. But I think it's not. We haven't always made explicit sort of what our, what our assumptions are. I think we often maybe implicitly, when I look at what people write about exploratory analysis and designing for exploratory visual analysis, I think there's this assumption that people can click around for patterns and maybe they care enough about finding the right answers. There's some application or some reason why they're analyzing the data. We trust that they will look at things enough and make enough views, and some of the views will be disaggregated enough that they can get a sense of the noise. And so we don't have to worry about explicitly supporting these signal to noise kind of judgments. We can just let people use these tools, and they will figure out what they can trust and what they cannot trust. And probably they'll follow it up, if it's really important, with some further data collection, and then they'll officially test any hypotheses that are really important. I think we just sort of assume we don't even talk about a lot of it. But I think I get the impression that that's kind of what we imagine. And I think there's really interesting questions. I think as someone who studied uncertainty for a long time and for a while, I was like, we have to be visualizing uncertainty way more than we are. I think some of the things I've seen in my research, just with how robust these tendencies people have to just want to see things summarized or to just want to rely on statistical summaries over sort of raw data are. I mean, they're really kind of compelling in the sense that I think there's a lot of cases where people sort of looking at aggregated data can actually work. It just kills me that we don't have any sort of good formal way of describing why that is. So I think I've sort of. One of the reasons I feel like I'm being pushed more towards theory in the sense of trying to set up almost mathematical frameworks to understand some of these things, is that I want to understand why? Or how do you explain that if you have someone clicking around in a biz system, trying to find patterns that ultimately they are doing okay, ultimately they find the correct ranking of patterns, or whatever it is, for the task. So I think, yeah, I'm really curious just to use theoretical frameworks to explain things that I don't understand. Why does this work out? I think, for instance, maybe there's certain ways in which a visual analysis process is redundant, where you're looking at the same data in multiple ways. And so if people kind of under update their beliefs, often when they see a data sample, if you're looking at the same data sample multiple times, maybe sort of over time, you're kind of like internalizing it. I think there's all sorts of ways in which behavioral econ can sort of help us, as well as theories of statistical learning. So, yeah, I think it's like, I don't know that that's where mainstream vis is ever going to go. But for me, it's sort of these questions about exactly when is visualization sufficient open this whole can of worms that just makes me think, like, okay, we have to sit down and really try to figure out, can we explain to ourselves how this paradigm works?",
+      "id": "ep_167_ut_56"
+    },
+    {
+      "end": 2108489,
+      "speaker": "Enrico Bertini",
+      "start": 2103149,
+      "text": "You touched upon so many interesting points. I don't know where to go next.",
+      "id": "ep_167_ut_57"
+    },
+    {
+      "end": 2151276,
+      "speaker": "Moritz Stefaner",
+      "start": 2108989,
+      "text": "I have a question. I'm sorry. Still stuck with that Anscombe quartet thing. So for those listeners who don't know what it is. So it's sort of a toy example to demonstrate why visualization is cool. And the idea is you have four artificial data sets that all have the same summary statistics and mean same standard deviation. Like, broad summary statistics are identical, but when you plot them, you see four very different shapes. Right. And so I was wondering, is there an inverse Anscombe squarded where we would have, like, four super similar plots, but the statistics tell us a hidden message or something. Are you aware of anything like that?",
+      "id": "ep_167_ut_58"
+    },
+    {
+      "end": 2155988,
+      "speaker": "Jessica Hullman",
+      "start": 2151388,
+      "text": "I can't think of anything. Yeah. That is a strange question.",
+      "id": "ep_167_ut_59"
+    },
+    {
+      "end": 2163016,
+      "speaker": "Moritz Stefaner",
+      "start": 2156164,
+      "text": "One thing might be, like, sometimes we like fat tail distributions are really hard to see, but easy to.",
+      "id": "ep_167_ut_60"
+    },
+    {
+      "end": 2172408,
+      "speaker": "Jessica Hullman",
+      "start": 2163188,
+      "text": "Yeah, I mean, like, yeah, that's a good example, I think, like, the behavior at the tails can really impact, like, you know, how you model data and stuff. Like it actually matters.",
+      "id": "ep_167_ut_61"
+    },
+    {
+      "end": 2173952,
+      "speaker": "Moritz Stefaner",
+      "start": 2172544,
+      "text": "Never see it in a graph because.",
+      "id": "ep_167_ut_62"
+    },
+    {
+      "end": 2175272,
+      "speaker": "Jessica Hullman",
+      "start": 2174016,
+      "text": "You might not notice it tiny and.",
+      "id": "ep_167_ut_63"
+    },
+    {
+      "end": 2187208,
+      "speaker": "Moritz Stefaner",
+      "start": 2175296,
+      "text": "Very stretched out, but it still makes a difference, you know, stuff like that. So. So we might have biases towards really what is plotted well. Right in our analysis, probably, yeah.",
+      "id": "ep_167_ut_64"
+    },
+    {
+      "end": 2258930,
+      "speaker": "Jessica Hullman",
+      "start": 2187304,
+      "text": "Interesting. Yeah. I think of an Anscombe's quartet, I guess, is just like, you know, there's, like, statistics, like multiplicity of statistics and this, like, you know, like, that's why we visualize data. Like, you can have the same statistical summary, and the data looks very different. And I think it's kind of interesting, like, recently, this seems to come up more in, like, machine learning. Like, you can have, you know, multiple, like, you know, models, like fitted models that seem to do equally well, like on your test set or in your, like, sort of IIDA setting. But then when you probe them along ways that matter to humans, like, how do they deal with gender, et cetera, they can give you very different answers. So I think it's like, yeah, I mean, visualization in the sense of just trying to put the data in some form where you can bring your prior knowledge to bear, I think is like maybe Anscombe's quartet. We don't really think of it that way. It's like, oh, the answer is right there. They're all different. But I think it's like, visualization is often this first step towards letting us take what we know and try to apply it. I think we like to leave that kind of implicit. This is just people will bring in their knowledge and they'll know what to do next.",
+      "id": "ep_167_ut_65"
+    },
+    {
+      "end": 2265174,
+      "speaker": "Moritz Stefaner",
+      "start": 2259510,
+      "text": "Yeah. And you want to get from a lot of anecdotes to a theory or a model ultimately right.",
+      "id": "ep_167_ut_66"
+    },
+    {
+      "end": 2283130,
+      "speaker": "Jessica Hullman",
+      "start": 2265342,
+      "text": "In either, which a lot of it is telling yourself stories, trying to explain things to yourself. So, yeah, I think we could give people better tools, though, like as they're telling themselves stories to make sure that their stories are kind of accurate. So, like, uncertainty visualization is sort of in that line, you know, like, let's.",
+      "id": "ep_167_ut_67"
+    },
+    {
+      "end": 2291846,
+      "speaker": "Moritz Stefaner",
+      "start": 2283470,
+      "text": "Show it to you, maybe even record the stories, you know, all that stuff like the construction process, like the sense making, you know.",
+      "id": "ep_167_ut_68"
+    },
+    {
+      "end": 2327820,
+      "speaker": "Enrico Bertini",
+      "start": 2291878,
+      "text": "And it's interesting that the current tools don't seem to really include any special, I don't know, functions that help people reason more about either their prior knowledge or their beliefs or even in building models or externalizing their knowledge. I think there is a huge, there's an interesting space there where something could be done. And I think you, Jessica, did some work in that space where you ask people to explicitly first build a model or externalize their just a belief and then.",
+      "id": "ep_167_ut_69"
+    },
+    {
+      "end": 2334784,
+      "speaker": "Moritz Stefaner",
+      "start": 2330000,
+      "text": "Or the, you draw at first, like, what do you think the statistics look like? Right.",
+      "id": "ep_167_ut_70"
+    },
+    {
+      "end": 2479246,
+      "speaker": "Jessica Hullman",
+      "start": 2334872,
+      "text": "Yeah. Which I like that stuff. I mean, I think the open ended sort of you draw at first thing is interesting. The other stuff, you know, we did like eliciting priors where we would sort of have some bayesian model, and then we wanted to see how well does this model, this bayesian model of cognition, explains sort of what we actually see in terms of how people update their beliefs. And I mean, I think that's a good example of where having sort of a theoretical framework, even if it's wrong, like even if people deviate, because people do deviate from the rational invasion update in various ways, you can still learn a lot about how they're off. But, yeah, I think it's not that we don't design ways to incorporate prior knowledge. It's just they're all extremely implicit and even Tableau, I didn't know this for a while, but there's a whole analytics pane in Tableau where you can add regression lines and you can see intervals of various types, but it's very sort of rigid and constrained. Like you get some number of choices. And I think it's really hard though, like you want people to sort of. And actually my former student, now faculty Alex Kale and I have been working on something related to some of the ideas in the paper with Andrew where it's like, what would this new generation of visualization tools look like where you could come in and not be sort of like a seasoned statistician, but still use the tool to work up towards these preliminary statistical models that help you understand how much does this variable explain this other one, etcetera. So I think there's a really interesting space of how do you give them this scaffolding in visual analysis tools so that they can, rather than just their prior knowledge, drives them to click around in all different ways and their prior knowledge affects what graphs they draw, but in this very implicit way, how do we allow it? The tool give them back something the tool suggests. In our case, if they're looking at a certain combination of variables, the tool might suggest, do you want to try fitting a model to see how well you could predict this dependent variable based on the variables that you seem to think are important? I think there's a very big space, but the whole thing with eliciting people's beliefs and stuff also gets tricky. Ultimately, doing data analysis is hard already and cognitively overwhelming, so you can't be asking people a bunch of questions. And so I don't know. Yeah, it's an interesting, interesting space.",
+      "id": "ep_167_ut_71"
+    },
+    {
+      "end": 2529616,
+      "speaker": "Enrico Bertini",
+      "start": 2479398,
+      "text": "You're making me think now about the idea that going back to the idea of exploratory data analysis and maybe an excessive focus to this idea that with visualization you can just explore data for the sake of it. Right. So it seems to me that maybe that led to designing these tools in a way that a person opening the application for the first time. Right. Can pretty much do anything with it. And if they don't do something, there's basically no guidance. Right. It's completely open, but maybe there's space for something that is more guided. In general, I think it's a under explored, underexplored modality where the system might actually guide you through a number of steps without being extensively rigid. Right.",
+      "id": "ep_167_ut_72"
+    },
+    {
+      "end": 2596808,
+      "speaker": "Jessica Hullman",
+      "start": 2529688,
+      "text": "Yeah, we did. We've been building something that hopefully we'll have the paper out soon that's sort of an explore. It's kind of like a version of Tableau, but with built in model checking. And I think, yeah, it is trying to sort of give you tools that are a little more guided. Like, it's not telling you exactly what to do when. But one thing we see is that, you know, like you, you do sort of have to be careful about when you, for certain people, you know, like, I think if you come in knowing, like having sort of a statistical workflow, that you typically use, you might know that, like, I don't want to jump into model building right away. Like, I need to just look at things. Um, but then if you, and then I'll get to the model check stuff later. And we've seen some people use our tool in that way. Like they just create a bunch of graphs and then they sort of like call up the modeling part of the interface. But then we also see people, the ones who aren't as experienced with modeling, where they just want to jump in right away to building models. And I don't think that's good either. So it's like, yeah, the whole, I guess it's a user experience design type question. How do you gradually introduce things is going to matter in the end if.",
+      "id": "ep_167_ut_73"
+    },
+    {
+      "end": 2608574,
+      "speaker": "Moritz Stefaner",
+      "start": 2596824,
+      "text": "You just randomly apply models that somehow. Fitzhen and you have no theory of the domain. Right. And no idea of causality, it's always going to be a bit nonsensical and so.",
+      "id": "ep_167_ut_74"
+    },
+    {
+      "end": 2659808,
+      "speaker": "Jessica Hullman",
+      "start": 2608702,
+      "text": "Right. That is actually, that's something we see with this tool we built as well, like that some people, it's almost like if you come from sort of like an ML kind of, you know, background, you're, you just want to like be trying out, like just swapping in variables in some statistical model until you can like, you know, get the best predictive accuracy. And in a visualization context, you're trying to make sure that the predictions from the model that are plotted against the data best match the data. But that is not, I mean, it's sort of contrary to this idea that when we do exploratory data analysis, we're trying to really understand and maybe test our expectations about how the data were generated, which means we often do have in mind we don't just care about any variables. We need to be able to have some plausible explanation for why that variable might matter. So, yeah, it's, yeah, and you need.",
+      "id": "ep_167_ut_75"
+    },
+    {
+      "end": 2702512,
+      "speaker": "Moritz Stefaner",
+      "start": 2659824,
+      "text": "To have a lot of knowledge about what's, again, what's a plausible range. Can this, can this value even be below zero? Right. So we had this case with the COVID excess mortality in Sweden, in Germany, where there were just different spline fitting techniques. And some of them were, they were just better, but you couldn't explain that mathematically. But more, you know a lot about the domain, you know. And so I think that's also when it gets interesting, when again, and then maybe it's again, a matter of being skilled at, you know, finding the right model by applying statistics and visualization, but also knowing what, what to look for and what has worked in the past and, you know, all that practical stuff.",
+      "id": "ep_167_ut_76"
+    },
+    {
+      "end": 2771420,
+      "speaker": "Jessica Hullman",
+      "start": 2702576,
+      "text": "Training people on what to look for is another thing. Yeah. Like with, like trying to build model checking abilities into a visual analysis tool. Me and Alex Kale on some of that work. Like, one thing we ran into is people don't know if we're trying to do this for people who don't have a whole bunch of stats training and just have some exposure to linear models, maybe we got to teach them what different types of misfit look like. Because looking at predictions against observed data to check your model in a graphic is this very multidimensional thing. It's not just there's one way that predictions can deviate from or the observed data can deviate from the model predictions. There's many different things you can look for. How does the model do at the tails of the distribution? Is it biased overall? There's this whole way, almost a type of visual literacy or data literacy, I think that has to come along with tools that build more of this stuff in where you're helping people understand. How do you do model checks? Well, in a way that's sensitive to all the different ways things can be off.",
+      "id": "ep_167_ut_77"
+    },
+    {
+      "end": 2829760,
+      "speaker": "Enrico Bertini",
+      "start": 2771520,
+      "text": "Yeah. This reminds me of a growing concern that I have over the years. I've become more and more concerned with the idea that we test visualization tools with non experts. I think there's a huge, huge limitation there. And I don't know, I think if you run an experiment that is based on very low level perception, maybe it's fine. You can pretty much any person is equivalent to another. Right. But as soon as you have some, you involve something. I mean, you test something that involves, that requires some domain knowledge in order to understand the data. Then it's like, I had experiments where they had both novices and actual practitioners who are familiar with the data. Just night and day. They're not even comparable. It's completely different. Kind of.",
+      "id": "ep_167_ut_78"
+    },
+    {
+      "end": 2836750,
+      "speaker": "Jessica Hullman",
+      "start": 2831350,
+      "text": "No, I totally agree. Yeah. It's convenient samples usually. I mean, invis for sure.",
+      "id": "ep_167_ut_79"
+    },
+    {
+      "end": 2840718,
+      "speaker": "Enrico Bertini",
+      "start": 2836870,
+      "text": "Yeah. Okay. Whole different topic.",
+      "id": "ep_167_ut_80"
+    },
+    {
+      "end": 2841410,
+      "speaker": "Jessica Hullman",
+      "start": 2840774,
+      "text": "Yes.",
+      "id": "ep_167_ut_81"
+    },
+    {
+      "end": 2847934,
+      "speaker": "Moritz Stefaner",
+      "start": 2845990,
+      "text": "Cool. That was quite.",
+      "id": "ep_167_ut_82"
+    },
+    {
+      "end": 2848542,
+      "speaker": "Enrico Bertini",
+      "start": 2848102,
+      "text": "Wow.",
+      "id": "ep_167_ut_83"
+    },
+    {
+      "end": 2850690,
+      "speaker": "Moritz Stefaner",
+      "start": 2848606,
+      "text": "Yeah, great episode. I like it.",
+      "id": "ep_167_ut_84"
+    },
+    {
+      "end": 2856330,
+      "speaker": "Enrico Bertini",
+      "start": 2851270,
+      "text": "So many interesting things, each of these topics. We could go on for hours. Right.",
+      "id": "ep_167_ut_85"
+    },
+    {
+      "end": 2858028,
+      "speaker": "Moritz Stefaner",
+      "start": 2856780,
+      "text": "It's very fundamental.",
+      "id": "ep_167_ut_86"
+    },
+    {
+      "end": 2864796,
+      "speaker": "Enrico Bertini",
+      "start": 2858084,
+      "text": "Yeah. Okay. Thanks so much. Thanks for coming on the show and hope to see you soon.",
+      "id": "ep_167_ut_87"
+    },
+    {
+      "end": 2866508,
+      "speaker": "Jessica Hullman",
+      "start": 2864868,
+      "text": "Yeah, nice to chat with you guys.",
+      "id": "ep_167_ut_88"
+    },
+    {
+      "end": 2868756,
+      "speaker": "Moritz Stefaner",
+      "start": 2866564,
+      "text": "Yeah, wonderful. Thanks for joining us.",
+      "id": "ep_167_ut_89"
+    },
+    {
+      "end": 2870400,
+      "speaker": "Enrico Bertini",
+      "start": 2868828,
+      "text": "Thank you. Thanks so much.",
+      "id": "ep_167_ut_90"
+    },
+    {
+      "end": 2898216,
+      "speaker": "Moritz Stefaner",
+      "start": 2875100,
+      "text": "Hey, folks, thanks for listening to data stories again. Before you leave, a few last notes, this show is crowdfunded and you can support us on patreon@patreon.com. Datastories where we publish monthly previews of upcoming episodes for our supporters. Or you can also send us a one time donation via PayPal at PayPal me Datastories or as a free way.",
+      "id": "ep_167_ut_91"
+    },
+    {
+      "end": 2924842,
+      "speaker": "Enrico Bertini",
+      "start": 2898248,
+      "text": "To support the show. If you can spend a couple of minutes rating us on iTunes, that would be very helpful as well. And here's some information on the many ways you can get news directly from us. We are on Twitter, Facebook and Instagram, so follow us there for the latest updates. We have also a slack channel where you can chat with us directly and to sign up, go to our home page at Datastory ES and there you'll find a button at the bottom of.",
+      "id": "ep_167_ut_92"
+    },
+    {
+      "end": 2933634,
+      "speaker": "Moritz Stefaner",
+      "start": 2924866,
+      "text": "The page and there you can also subscribe to our email newsletter if you want to get news directly into your inbox and be notified whenever we publish a new episode.",
+      "id": "ep_167_ut_93"
+    },
+    {
+      "end": 2946244,
+      "speaker": "Enrico Bertini",
+      "start": 2933722,
+      "text": "That's right, and we love to get in touch with our listeners. So let us know if you want to suggest a way to improve the show or know any amazing people you want us to invite or even have any project you want us to talk about.",
+      "id": "ep_167_ut_94"
+    },
+    {
+      "end": 2952932,
+      "speaker": "Moritz Stefaner",
+      "start": 2946372,
+      "text": "Yeah, absolutely. Don't hesitate to get in touch. Just send us an email at mailatastory es.",
+      "id": "ep_167_ut_95"
+    },
+    {
+      "end": 2956740,
+      "speaker": "Enrico Bertini",
+      "start": 2953076,
+      "text": "That's all for now. See you next time, and thanks for listening to data stories.",
+      "id": "ep_167_ut_96"
+    }
+  ],
+  "confidence": 0.930355056232979,
+  "audio_duration": 2966,
+  "punctuate": true,
+  "format_text": true,
+  "dual_channel": false,
+  "webhook_url": null,
+  "webhook_status_code": null,
+  "webhook_auth": false,
+  "webhook_auth_header_name": null,
+  "speed_boost": false,
+  "auto_highlights_result": null,
+  "auto_highlights": false,
+  "audio_start_from": null,
+  "audio_end_at": null,
+  "word_boost": [],
+  "boost_param": null,
+  "filter_profanity": false,
+  "redact_pii": false,
+  "redact_pii_audio": false,
+  "redact_pii_audio_quality": null,
+  "redact_pii_policies": null,
+  "redact_pii_sub": null,
+  "speaker_labels": true,
+  "content_safety": false,
+  "iab_categories": true,
+  "content_safety_labels": {
+    "status": "unavailable",
+    "results": [],
+    "summary": {}
+  },
+  "language_detection": false,
+  "language_detection_threshold": null,
+  "language_confidence": null,
+  "custom_spelling": null,
+  "throttled": false,
+  "auto_chapters": true,
+  "summarization": false,
+  "summary_type": null,
+  "summary_model": null,
+  "custom_topics": false,
+  "topics": [],
+  "speech_threshold": null,
+  "speech_model": "best",
+  "chapters": [
+    {
+      "summary": "This is a new episode of Data stories. We talk about data visualization, analysis, and more generally, the role data plays in our lives. Andrew Gelman and Jessica Hullman talk about the relationship between statistics and data visualization. If you enjoy the show, please consider supporting us.",
+      "gist": "Data Stories: Style in Data",
+      "headline": "This podcast is listener supported, so there are no ads",
+      "start": 160,
+      "end": 106824,
+      "id": "ep_167_ch_0"
+    },
+    {
+      "summary": "Andrea: I teach statistics and political science at Columbia University. Jessica: I'm an associate professor of computer science at Northwestern University. I do research on how people draw inferences from data, usually from interfaces.",
+      "gist": "The Future of Data Visualization",
+      "headline": "Andrew and Jessica start by asking guests to introduce themselves",
+      "start": 106952,
+      "end": 138516,
+      "id": "ep_167_ch_1"
+    },
+    {
+      "summary": "Andrew started the blog several years ago. It's called statistical modeling, causal inference, and social science. There's a lot of interesting discussions about statistics and data visualization. It is difficult to write for your blog.",
+      "gist": "The Data Visualization blog",
+      "headline": "Andrew started a blog several years ago about statistical modeling and data visualization",
+      "start": 138708,
+      "end": 319426,
+      "id": "ep_167_ch_2"
+    },
+    {
+      "summary": "Everybody needs to have their own theory of statistical graphics. Like in the same way as if you're writing, you need to have a theory of writing. The more explicit you can have that model or style or system, the more that you can then know when to improve it or abandoning it.",
+      "gist": "The role of style in data visualization",
+      "headline": "I think everybody needs to have their own theory of statistical graphics",
+      "start": 319578,
+      "end": 880840,
+      "id": "ep_167_ch_3"
+    },
+    {
+      "summary": "A good graph is helping us check a model, some implicit model, often, sometimes an explicit model. There's always some expectation and the graph tells us how much the data deviate from that. You can think of a visualization as giving you almost like a test statistic in a hypothesis testing type framework.",
+      "gist": "Exploratory Visual Analysis and the Model Check",
+      "headline": "There's always this role of expectations in exploratory visualization analysis",
+      "start": 881340,
+      "end": 1125528,
+      "id": "ep_167_ch_4"
+    },
+    {
+      "summary": "We consume stories in order to refute various models of the world. But yet the paradox is that how can we learn from surprising things? It's related to a kind of Popperian or lakotoshian view of science, which is that we alternate between normal science and scientific revolutions.",
+      "gist": "The paradox of stories in science",
+      "headline": "We learn from stories and the best stories have surprises in them",
+      "start": 1125584,
+      "end": 1296620,
+      "id": "ep_167_ch_5"
+    },
+    {
+      "summary": "How open are people really, to changing their minds based on statistical information? Should you have to go out explicitly searching for anomalies to break a theory? Could we kind of, through our own, like, just seeing the data that we collect, find anomalies?",
+      "gist": "Anomaly and the Scientific Process",
+      "headline": "How open are people really, to changing their minds based on statistical information",
+      "start": 1297380,
+      "end": 1407092,
+      "id": "ep_167_ch_6"
+    },
+    {
+      "summary": " visualization is really a skill and a practice, and there's no single right way, but it's like a highly personal thing, which how you do it right. The deeper you go, the less clear it is how things should be.",
+      "gist": "Quantum visualization: A skill and a practice",
+      "headline": "So visualization is really a skill and a practice, and there's no single right way",
+      "start": 1407276,
+      "end": 1613592,
+      "id": "ep_167_ch_7"
+    },
+    {
+      "summary": "Andrew: Thanks for the opportunity, for talking with you all this, this is always fun. See you all later. Okay, and now we can continue the rest of the episode with Jessica.",
+      "gist": "Andrew on Talking to Jessica",
+      "headline": "Andrew: Thanks for joining us. I have to go now, so I'll see you all later",
+      "start": 1613776,
+      "end": 1634040,
+      "id": "ep_167_ch_8"
+    },
+    {
+      "summary": "In visualization, we sort of take kind of like the very initial stages of exploratory analysis. The whole idea is that I want to use stats to help me figure out what signals are actually there. When is visualization sufficient without any follow up?",
+      "gist": "Comparison of Statistics and Visualization",
+      "headline": "So one question that I had going back to the comparison between statistics and visualization",
+      "start": 1636500,
+      "end": 2108489,
+      "id": "ep_167_ch_9"
+    },
+    {
+      "summary": " visualization is often this first step towards letting us take what we know and try to apply it. The current tools don't seem to really include any special functions that help people reason more about their prior knowledge. There is a huge, there's an interesting space there where something could be done.",
+      "gist": "Unveiling the Hidden Messages of Data Visualization",
+      "headline": "Jessica: I think visualization is often this first step towards applying data",
+      "start": 2108989,
+      "end": 2652152,
+      "id": "ep_167_ch_10"
+    },
+    {
+      "summary": "We talk about how to test visualization tools with non experts. How do you do model checks in a way that's sensitive to all the different ways things can be off? There's almost a type of visual literacy or data literacy that has to come along.",
+      "gist": "Model Checks & Visualization",
+      "headline": "How do you do model checks against observed data",
+      "start": 2652256,
+      "end": 2956740,
+      "id": "ep_167_ch_11"
+    }
+  ],
+  "disfluencies": false,
+  "entity_detection": false,
+  "sentiment_analysis": false,
+  "sentiment_analysis_results": null,
+  "entities": null,
+  "speakers_expected": null,
+  "summary": null,
+  "custom_topics_results": null,
+  "episode_num": 167,
+  "episode_metadata": {
+    "speakers": [
+      "Andrew Gelman",
+      "Enrico Bertini",
+      "Moritz Stefaner",
+      "Jessica Hullman"
+    ],
+    "WPid": "1659",
+    "url": "https://datastori.es/podlove/file/6935/s/feed/c/mp3/datastories-167-short.mp3",
+    "episode_title": "Visualization and Statistics with Andrew Gelman and Jessica Hullman"
+  }
+}

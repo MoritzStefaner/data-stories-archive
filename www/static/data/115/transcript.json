@@ -1,0 +1,845 @@
+{
+  "id": "51b0284b-fc3e-452d-bd62-c4b4c1408f48",
+  "language_model": "assemblyai_default",
+  "acoustic_model": "assemblyai_default",
+  "language_code": "en_us",
+  "status": "completed",
+  "audio_url": "https://datastori.es/podlove/file/4876/s/feed/c/mp3/115-machine-learning-with-saleema-amershi.mp3",
+  "utterances": [
+    {
+      "end": 8754,
+      "speaker": "Saleema Amershi",
+      "start": 80,
+      "text": "You know, machine learning is really a combination of both an algorithm and data. So if your data is no good, no matter how good your algorithm, your model is not going to work well.",
+      "id": "ep_115_ut_0"
+    },
+    {
+      "end": 37856,
+      "speaker": "Enrico Bertini",
+      "start": 28144,
+      "text": "Hey, everyone. Welcome to a new episode of Data stories. My name is Enrico Bertini, and I am a professor at NYU in New York City, where I do work in data visualization.",
+      "id": "ep_115_ut_1"
+    },
+    {
+      "end": 42224,
+      "speaker": "Moritz Stefaner",
+      "start": 38000,
+      "text": "And my name is Moritz Stefaner, and I'm an independent designer of data visualizations.",
+      "id": "ep_115_ut_2"
+    },
+    {
+      "end": 48744,
+      "speaker": "Enrico Bertini",
+      "start": 42304,
+      "text": "Yeah. And together we talk about data visualization, analysis, and generally the role data plays in our lives.",
+      "id": "ep_115_ut_3"
+    },
+    {
+      "end": 52472,
+      "speaker": "Moritz Stefaner",
+      "start": 48864,
+      "text": "And usually we also do that with a guest we invite on the show.",
+      "id": "ep_115_ut_4"
+    },
+    {
+      "end": 70158,
+      "speaker": "Enrico Bertini",
+      "start": 52568,
+      "text": "Yes. And today we have another great guest. I'm really happy to have another person able to talk about machine learning and AI and to, yeah, teach us a little bit of what is going on there. We have Saleema Amerchi from Microsoft Research. Hi, Saleema.",
+      "id": "ep_115_ut_5"
+    },
+    {
+      "end": 70662,
+      "speaker": "Saleema Amershi",
+      "start": 70246,
+      "text": "Hi.",
+      "id": "ep_115_ut_6"
+    },
+    {
+      "end": 71454,
+      "speaker": "Enrico Bertini",
+      "start": 70758,
+      "text": "How are you?",
+      "id": "ep_115_ut_7"
+    },
+    {
+      "end": 73774,
+      "speaker": "Saleema Amershi",
+      "start": 71534,
+      "text": "I'm great. Thanks for having me on your show.",
+      "id": "ep_115_ut_8"
+    },
+    {
+      "end": 96592,
+      "speaker": "Enrico Bertini",
+      "start": 73854,
+      "text": "Yeah, thanks for joining us. We are really excited to have someone like you that can explain a little bit of machine learning and also its connections with visualization and humans. So can you, can you briefly introduce yourself, give us a little bit of a short bio. What's your background and what kind of work you are doing at Microsoft?",
+      "id": "ep_115_ut_9"
+    },
+    {
+      "end": 154706,
+      "speaker": "Saleema Amershi",
+      "start": 96688,
+      "text": "Yeah, sure. So I'm a researcher at Microsoft Research, and I work on technologies to help people build and use machine learning systems. So really, my research lies at this intersection of human computer interaction and machine learning. And I would say that I have sort of two main lines of work, one where I focus on creating tools for practitioners and data scientists. And so those are the people who are building or training these machine learning systems. And then the other is on interfaces and interaction techniques for the average person who might be interacting with machine learning in their day to day lives. So through things like recommender systems or intelligent assistants. And I've been at MSR for a little bit over five years now. And before that, I was finishing my PhD at the University of Washington, where I also focus on this space of interfaces for machine learning.",
+      "id": "ep_115_ut_10"
+    },
+    {
+      "end": 202376,
+      "speaker": "Enrico Bertini",
+      "start": 154810,
+      "text": "So I've been a big fan of your work for many years, kind of like reading your papers and checking what kind of work you were working on. And I really like. So what I really like about the work that you do is that you are focusing on the interaction side of machine learning. Right? So how do people, how are people supposed to interact machine learning? And then you build systems or techniques and models to basically see what people do when they are actually allowed to interact with the systems. So I think this used to be called interactive machine learning. I don't know if you still want to call it this way, but I think the general principle stands there. So what is interactive machine learning?",
+      "id": "ep_115_ut_11"
+    },
+    {
+      "end": 380078,
+      "speaker": "Saleema Amershi",
+      "start": 202560,
+      "text": "Yeah, people have used interactive machine learning to mean a variety of different things. So some people, I found, use it synonymously with human in the loop machine learning, where there's sort of this idea of a collaboration or a back and forth between humans and machines. Other people use it to mean where there's a sort of back and forth, and both the machine and the user are driving the learning. So, for example, active learning is where the machine sort of decides what the human will do next, as opposed to just the user driving each iteration. In some of my own early work, we defined it, I believe, as rapid incremental learning cycles, where there's this tight coupling between the user and the system, and the two influence one another. But I sort of, over the years, after working in the space and working on tools for practitioners who do more of the traditional machine learning, where there's batch cycles, I've sort of decided that I don't really like the term interactive machine learning anymore. I've sort of just come to realize that most machine learning is interactive to some degree. So even in traditional batch learning, most machine learning involves a human, or even several humans, to do things like collect the data or create features or set parameters. And that's even true for things like unsupervised machine learning, where the goal is often to remove the human entirely. But even then, user has to be involved in certain things like setting parameters. So, for example, in clustering, someone has to specify the distance function or the number of clusters. Even in things like reinforcement learning, someone has to specify the reward function. And so there's really almost always a human involved still to this day. And then I would also say that most machine learning still also has a loop, in the sense that no one ever gets it right the first time. Even machine learning experts often have to iterate many times before, before it's working the way they want it to. And those loops or those iterations are still driven by a person examining how a model is behaving and trying to debug errors. So in that sense, I would say that all machine learning has a sort of user and the machine sort of influencing one another. And in all cases, it's iterative. And so I almost sort of feel like having this distinction is doing the field a little bit of a disservice, because in some cases, people believe that only interactive machine learning requires consideration of the human or the interfaces to the learning system. But I'd really say that all machine learning requires this, and there's a great need for better tools and better interfaces for traditional machine learning, as well as what we call interactive machine learning.",
+      "id": "ep_115_ut_12"
+    },
+    {
+      "end": 416764,
+      "speaker": "Moritz Stefaner",
+      "start": 380166,
+      "text": "It's really a great observation because so much of the practical skill of using all these algorithms or also doing interesting generative design also is really the art of tweaking and understanding, you know, how to tune your parameters so that it works well. Right, yeah. And in machine learning, it's really the whole, like, the words are really confusing. There's always this also this supervised and unsupervised, you know, distinction, which also doesn't really make that much sense the more you think about it. And which also suggests, like, in some cases, the machines do their thing, in other cases, they're like, I don't know, on a leash or what?",
+      "id": "ep_115_ut_13"
+    },
+    {
+      "end": 417744,
+      "speaker": "Enrico Bertini",
+      "start": 416844,
+      "text": "I don't know.",
+      "id": "ep_115_ut_14"
+    },
+    {
+      "end": 432456,
+      "speaker": "Moritz Stefaner",
+      "start": 419904,
+      "text": "But it's a good observation, or I think the right approach, as you say, is to say it's humans and machines, and everybody brings in a part of the process, and there's always some back and forth there and some loop.",
+      "id": "ep_115_ut_15"
+    },
+    {
+      "end": 456750,
+      "speaker": "Saleema Amershi",
+      "start": 432640,
+      "text": "Exactly. I think the machine learning research community is trying to move towards not having to have a user involved as much, because that's a bottleneck. But still, right now, humans are involved in all aspects of these things, or even many humans. And so I think there's still a lot more we can do to help the people who are using or building these things.",
+      "id": "ep_115_ut_16"
+    },
+    {
+      "end": 484054,
+      "speaker": "Enrico Bertini",
+      "start": 456822,
+      "text": "Yeah, yeah. Well, there is so much to say about all the many different stages at which a human can play a role. Right. And, of course, I think you're right now mostly talking about the act of building the model. Right. But then, of course, once the model has been built, there are lots of applications out there where humans will need to interact with the system that is based on this model. Right. And that's a whole other. Yeah. Can of war.",
+      "id": "ep_115_ut_17"
+    },
+    {
+      "end": 508626,
+      "speaker": "Saleema Amershi",
+      "start": 485154,
+      "text": "Yes. Yeah. So there's people who are building the model, and, like, sometimes we think of that as only this, like, training step where you press train and this thing, like, learns. But, like, to get to that point, there was a bunch of steps that had to happen beforehand. So in collecting the data and processing, and, you know, a lot of studies have shown that most of the time practitioners spend in doing machine learning is on all that stuff beforehand and all the debugging after.",
+      "id": "ep_115_ut_18"
+    },
+    {
+      "end": 509082,
+      "speaker": "Enrico Bertini",
+      "start": 508730,
+      "text": "Yeah.",
+      "id": "ep_115_ut_19"
+    },
+    {
+      "end": 518998,
+      "speaker": "Saleema Amershi",
+      "start": 509138,
+      "text": "And then, as you said, those things are used to drive user facing applications. And so ultimately, people are the ones using these things. So we want better tools for them, too.",
+      "id": "ep_115_ut_20"
+    },
+    {
+      "end": 566564,
+      "speaker": "Enrico Bertini",
+      "start": 519086,
+      "text": "Yeah. Yeah. I think there is this myth that machine learning, or even computer science in general, is about making everything automated. But in one way or another, humans are always somewhere involved in some elements of the pipeline. Right. So I really like the way you're framing this that in a way, I was thinking something similar about visualization. Right. When you say interactive data visualization or interactive data analysis. Right. It's already interactive. Right, right. It's not that I think people have this image that if you build a visualization with R or Python is not interactive. Right. But it is. Right. The act of writing the code that generates your output is interactive. Right.",
+      "id": "ep_115_ut_21"
+    },
+    {
+      "end": 601528,
+      "speaker": "Moritz Stefaner",
+      "start": 567024,
+      "text": "Also the interaction, even with the static visualization, by the way, perception is action. It's super interesting. So there's actually three parts I just realized. There's the whole training, the model and how to feed the right stuff in. Then there's the whole during the training, how do you interact there and how do you optimize? And then there's the user experience with the, like the system that does something then. Right. Like how do you interact with the trained model, basically? Is that right?",
+      "id": "ep_115_ut_22"
+    },
+    {
+      "end": 621078,
+      "speaker": "Saleema Amershi",
+      "start": 601656,
+      "text": "Yeah, I would say that. And there are cases also, a lot of cases nowadays where the end users are also part of the training process. Right. So in your recommender systems, for example, they continue to learn from user feedback. And so I think there's opportunities there for building better interfaces to help people steer these things the way they want it to.",
+      "id": "ep_115_ut_23"
+    },
+    {
+      "end": 646498,
+      "speaker": "Moritz Stefaner",
+      "start": 621256,
+      "text": "And there's a lot of uncertainty attached to machine learning and all these automatic smart intelligent systems. I think the whole user experience of it is super interesting. Can you describe a few of the projects just to make things a bit more concrete of systems or approaches you have been working on and what worked well, what didn't work well, or any types of research in that area?",
+      "id": "ep_115_ut_24"
+    },
+    {
+      "end": 774676,
+      "speaker": "Saleema Amershi",
+      "start": 646626,
+      "text": "Yeah, I think there's a couple of projects that I would say are sort of relevant to this discussion today. So one was about a paper that we did just that came out last year at the CHI conference, where we were working on tools to help people understand the data that's going into these machine learning algorithms. And so machine learning is really a combination of both an algorithm and data. And if your data is no good, as the saying goes, garbage in, garbage out. Right. So if your data is no good, no matter how good your algorithm, your model is not going to work well. And so what we wanted to do was try to understand or help people understand more the data that's going into these machine learning systems. And so we did a project recently that came out last year at CHI with some other folks at Microsoft Research and one of our fabulous interns, Joseph Chang from Carnegie Mellon. And what we did was we had crowd workers look at data sets and discuss the data in order to sort of surface concepts, key concepts in the data set, so that the person who is trying to build a model can have a better idea of the sort of sub concepts of interest that's going into these data sets. So this is for really supervised machine learning, where you need large, labeled data sets. And so what I mean is, you know, imagine I wanted to build a cat classifier, right? So something that can, like, look at an image and automatically tell me if it's a cat or not. In order to build that model, I first need to collect a bunch of data to give my machine learning algorithm, and I need that data to contain images of cats and images that are not cats, right. And so it sort of seems easy enough until you really start thinking about what actually is a cat. So, you know, for example, you know, if I. You know, if I were to show you an image of a lion or a tiger, would you call that a cat?",
+      "id": "ep_115_ut_25"
+    },
+    {
+      "end": 776304,
+      "speaker": "Enrico Bertini",
+      "start": 774820,
+      "text": "No. Big cat.",
+      "id": "ep_115_ut_26"
+    },
+    {
+      "end": 778364,
+      "speaker": "Saleema Amershi",
+      "start": 777004,
+      "text": "I heard a yes, and I heard a no.",
+      "id": "ep_115_ut_27"
+    },
+    {
+      "end": 780744,
+      "speaker": "Enrico Bertini",
+      "start": 778404,
+      "text": "Okay, that's perfect, right?",
+      "id": "ep_115_ut_28"
+    },
+    {
+      "end": 931650,
+      "speaker": "Saleema Amershi",
+      "start": 783604,
+      "text": "And similarly with other subconscious, like cartoon cats, like an image of Garfield or hello Kitty, would you say that's a cat? I think there's a lot of ambiguity. It's not always clear what the right answer is, and sometimes the target application will dictate the right answer. So if you're creating an app that's going to monitor your cat at home and sound an alarm every time it sort of gets near your shoes or something, then in that case, it's clear that lines and cartoons are not really the cats that you're looking for. But in a lot of other cases, like search, where some people may consider lines and cartoons as cats, you really need your machine learning to get those sort of sub concepts right. And so what we wanted to do is instead of, like, using crowd workers to just label things as yes or no, we wanted them to surface these sort of ambiguous examples so that the practitioner gathering this data can be informed about the subcategories that they may not have been aware of beforehand, and then they can do the right thing and decide how to label those things. And so I use cats as a good, just an illustrative example. But in the practice of machine learning, machine learning is being used in a lot of sensitive applications these days. So it's being used to do things like make financial and legal decisions. And if those models are not trained on good data, it's very risky to sort of trust what they're recommending. And even in cases where you have cases these days, you may have seen in the news, where machines are not able to accurately detect people of certain races, and images or voice recognition systems are not being able to understand people with certain accents. And a lot of this comes down to the data that was used to train these systems and not understanding if you have enough data to represent these subcategories of interests. This work was about identifying these subcategories and surfacing that to a practitioner. And so what we're working on now, so the first step there was to have this crowd workflow to sort of identify these subcategories. And now what we're working on is tools to visualize and summarize that data to a practitioner, because once you have a large number of data, a large data set, you'll have a lot of subcategories. And so you need to efficiently present that to a person so they can get an overview of what's going into the machine and decide how to.",
+      "id": "ep_115_ut_29"
+    },
+    {
+      "end": 939794,
+      "speaker": "Moritz Stefaner",
+      "start": 931792,
+      "text": "And you wouldn't feed all the crowdsource descriptions directly into the machine, but you would have a person pre digest.",
+      "id": "ep_115_ut_30"
+    },
+    {
+      "end": 960074,
+      "speaker": "Saleema Amershi",
+      "start": 940934,
+      "text": "Right. So step one is, like, to digest and understand if you have the right data and if you're deficient in certain areas. And then step two is you could use some of the crowd discussions. So we did capture what the crowds workers were saying to each other and the keywords that came out of that. So that could be used as features as well.",
+      "id": "ep_115_ut_31"
+    },
+    {
+      "end": 1028914,
+      "speaker": "Enrico Bertini",
+      "start": 960734,
+      "text": "Yeah, that's so interesting. I think an interesting aspect here is that most people used to focus on the algorithms because that's the fun quote, unquote, the fun part. Right. But. Yeah, the fancy part. Right. But it turns out that that's something that I've been discovering over the years myself. I think once you do this work for real, you realize that the quality of the data is everything. Right. And it can actually fool you in very subtle ways. Right, right. So I remember there is this kind of somewhat famous academic case where I'm pretty sure, Saleema, you are aware of that, maybe it's even from Microsoft. There is this paper showing, I think, this model trained on medical data trying to predict pneumonia or something like that. And basically what the model learns is that the person who has pneumonia can be sent back home without additional treatments or something like that.",
+      "id": "ep_115_ut_32"
+    },
+    {
+      "end": 1047138,
+      "speaker": "Saleema Amershi",
+      "start": 1032134,
+      "text": "I don't know if I know with that one. But there was another case that I do know that Rich Caruana, another researcher at Microsoft Research, talks about a lot where they had trained a model to detect, I think, hospital readmittance.",
+      "id": "ep_115_ut_33"
+    },
+    {
+      "end": 1050738,
+      "speaker": "Enrico Bertini",
+      "start": 1047186,
+      "text": "Oh, yeah, it's the same. Sorry. Yeah. Now remember, that's the same. Yeah, yeah, yeah.",
+      "id": "ep_115_ut_34"
+    },
+    {
+      "end": 1059026,
+      "speaker": "Saleema Amershi",
+      "start": 1050786,
+      "text": "And then they, like, I think they, I believe they trained it on some data and then they deployed it, I think. Or they were trying to deploy it at a children's hospital.",
+      "id": "ep_115_ut_35"
+    },
+    {
+      "end": 1059570,
+      "speaker": "Enrico Bertini",
+      "start": 1059090,
+      "text": "Yes.",
+      "id": "ep_115_ut_36"
+    },
+    {
+      "end": 1080144,
+      "speaker": "Saleema Amershi",
+      "start": 1059682,
+      "text": "Where the distribution of data is very different. Right. If you're training a model on adults and you're deploying it to children, that's not going to behave the same way. And that's like another good case of where you really want to understand the data that's going in. Right. Like, is the data just on adults and do you not have children represented? Then you'll be able to know in advance that it's not going to necessarily work.",
+      "id": "ep_115_ut_37"
+    },
+    {
+      "end": 1105276,
+      "speaker": "Enrico Bertini",
+      "start": 1080264,
+      "text": "Yeah. No, I think. I think that the story I have is. I think it's even worse than that. I think it's because. So what happens in the hospital is that people who have pneumonia are actually sent to a different kind of treatment, but the model doesn't know that. Right. And because of the treatment, the special treatment that they get, they recover much faster. Right. But there's no information about that in.",
+      "id": "ep_115_ut_38"
+    },
+    {
+      "end": 1106428,
+      "speaker": "Moritz Stefaner",
+      "start": 1105300,
+      "text": "That it was never part of the model.",
+      "id": "ep_115_ut_39"
+    },
+    {
+      "end": 1125320,
+      "speaker": "Enrico Bertini",
+      "start": 1106436,
+      "text": "Yes, never part of the model. Right. So what the model predicts is if the, if the, if the patient has pneumonia, it doesn't really matter because he's gonna recover or something like that. So it's somewhat easy to fool a model if you have the wrong, if you feed it with the wrong data or partial data or biased data. Right.",
+      "id": "ep_115_ut_40"
+    },
+    {
+      "end": 1125760,
+      "speaker": "Saleema Amershi",
+      "start": 1125392,
+      "text": "Yeah.",
+      "id": "ep_115_ut_41"
+    },
+    {
+      "end": 1144552,
+      "speaker": "Moritz Stefaner",
+      "start": 1125832,
+      "text": "And the tricky part is you don't see it anymore. Like once the model is trained, you don't see the bias anymore, you know, unless you know how. How the training went about and have some ideas and some intuitions there. Right. So then it comes back to understanding yourself, like what the potential, like correlations and whatnot in the data might be.",
+      "id": "ep_115_ut_42"
+    },
+    {
+      "end": 1150680,
+      "speaker": "Saleema Amershi",
+      "start": 1144688,
+      "text": "Yeah. So we actually did some work also on helping people sort of debug and see these problems.",
+      "id": "ep_115_ut_43"
+    },
+    {
+      "end": 1151080,
+      "speaker": "Moritz Stefaner",
+      "start": 1150752,
+      "text": "Right.",
+      "id": "ep_115_ut_44"
+    },
+    {
+      "end": 1347312,
+      "speaker": "Saleema Amershi",
+      "start": 1151152,
+      "text": "So some work we did on the system called Modifracker. I can talk about a bit where it's. So I was talking about the data going into these systems, but we also want to understand how these systems are behaved after training. And so we worked a lot on this system we call mile tracker. Again, this is in collaboration with a bunch of folks at MSR and also an intern, Dong Haoran from UC Santa Barbara. And the goal there was, or the problem that we were dealing with, is that a lot of times when you're using machine learning tools or libraries to train a model, those libraries will show you some sort of summary statistic or number that summarizes how well your model is doing. So if I'm building a cat classifier, the system will say something like, your model is 86% accurate, but what does that even really mean? What I really need to know is where my model is breaking down, what is it getting right, and what is it getting wrong? So if I'm building that cat classifier, if I can see that the system is getting all the cartoon cats wrong, and I really need that to be correct, a summary statistic is not enough to tell me that. So what we did in this work is we wanted to create a visualization to help people not only see the performance of their model, but also to be able to directly look at their errors. And typically what people have to do with traditional tools, as they look at these summary statistics, see that it's not performing well. And then if they want to look at errors, they have to go to a separate tool. They have to pull up their data in a separate tool and sort of locate or search for the errors. And then only when they see that can they start to sort of gain some insights into what the problems are. And previous work has shown that when you have the separation between your tools that you're using to train these things, it causes a lot of overhead and it results in practitioners sort of take, instead of taking an informed approach to model building, they'll often take a trial and error approach, meaning they'll like, really literally like tweak algorithm parameters just to try to see, to make the summary statistic go up. So instead of, like, looking at their data to try to see what's happening, they'll just change a few things and see if they can make it better. And so what we wanted to do was create something that can show you how well your model is doing, but also let you, like, directly access your errors. And we did this through a visualization that what's sometimes, I believe, called a unit visualization, where each item in your data is represented by a visible marking in the display. And we manipulate the distribution of these items to indicate the performance, but the presence of the items themselves make them easy to access. So these items are clickable, so you can actually poke at errors and then pull them up directly and use that to sort of inspect and gain insight into what's going on. And so we use that to sort of reduce the context switching and help practitioners take a more informed approach and see beforehand before they deploy where their models are breaking down so that they can iterate more effectively.",
+      "id": "ep_115_ut_45"
+    },
+    {
+      "end": 1359004,
+      "speaker": "Moritz Stefaner",
+      "start": 1347448,
+      "text": "And the idea is to basically allow humans to develop an intuition in which areas the model does well or on which types of examples it does well and on which not so much.",
+      "id": "ep_115_ut_46"
+    },
+    {
+      "end": 1384464,
+      "speaker": "Saleema Amershi",
+      "start": 1359104,
+      "text": "Right? Exactly right. Because like I said before, you have often subcategories that you really need to understand and make sure that your model is getting right. And so you want something that allows you to sort of not just see the overall performance, but how we want to see how well you're doing on those specific cases. So you make sure in advance that for really like critical categories, your model is working the way you want it to.",
+      "id": "ep_115_ut_47"
+    },
+    {
+      "end": 1431878,
+      "speaker": "Moritz Stefaner",
+      "start": 1385024,
+      "text": "That's another great point. Like these summary statistics, they usually work across the whole data set and then you take an average or something, but usually you're interested in a specific part of it. So I'm working on a project about predicting train passenger loads, like how full trains will be. And there the model was always optimized to be good on all trains. But then from a user point of view, it's much more important to understand, or to be precise, on the fullest trains, like the average full train, or like the empty trains, nobody cares, but the full ones are the actual challenge. Right. And so, yeah, so the, the whole training should be optimized to be good at these on this end of the data. But that's something you just realize a while into it. Right?",
+      "id": "ep_115_ut_48"
+    },
+    {
+      "end": 1462200,
+      "speaker": "Saleema Amershi",
+      "start": 1432006,
+      "text": "Yeah, that's interesting. And so I think being aware of that, that your system may be not performing well on that category, like of trains, for example. Once you know that as a practitioner, then you can decide how do you make that system better? Maybe you need more data for that subcategory, or maybe you need to add features in order to help the system distinguish between these types of trains or not. But without actually looking at the data and knowing that this is where it's getting wrong, it's hard to come up with those insights.",
+      "id": "ep_115_ut_49"
+    },
+    {
+      "end": 1462808,
+      "speaker": "Moritz Stefaner",
+      "start": 1462272,
+      "text": "Right. Right.",
+      "id": "ep_115_ut_50"
+    },
+    {
+      "end": 1511634,
+      "speaker": "Enrico Bertini",
+      "start": 1462856,
+      "text": "So one related thing I wanted to ask you is about, I guess you've been testing your solutions with actual people whose daily job is to build machine learning models. So what is their reaction? Because my sense is that in a way, everyone has his own workflow, right. And it's always hard to break people's workflow and way of working, right. So they would do it only when they see not just a little improvement, but a big improvement in their workflow, everyone works like that, right? If you ask me to change the set of applications that I have in my computer and suddenly do things differently, you really have to be in a really strong, convincing case. Right? So what's your experience with that?",
+      "id": "ep_115_ut_51"
+    },
+    {
+      "end": 1637412,
+      "speaker": "Saleema Amershi",
+      "start": 1512334,
+      "text": "Yeah, so I think what makes this problem even worse is that there's so many different tools for every step of the process, right? For data collection, you have different tools and you have for processing your data and featuring, and then that's a different library or tool than the thing used for training, and that's different than the one for debugging. And that overhead of just having every different tool just cause it causes so many problems. So, you know, like I said before, all machine learning is iterative. You never have to go through this just once. And so if you go through this process, going through transforming your data in and out of every tool to get through this end to end process, and then you get to the end and you see an error. Now to fix that, you often have to go back through multiple different tools and tweak something like three tools before and then feed it back through the other tools to just see the result. And that's like, that overhead is so, so problematic, right? So in that sense, like, it can be hard to introduce new yet another tool. So part of what we did with model tracker is trying to reduce the number of switching. So instead of having two separate things, this visualization can always be visible and it shows you the performance, but you can also access your error. So trying to reduce the number of different steps and different tools practitioners have to go through. So I think that helps. I think there's these things like these Jupyter notebooks that are becoming really popular now where I think you can interleave code and visualizations and text. I think that is helpful for trying to get through this end to end process in the same framework. So I think there's potential there, but nowadays there's all these different libraries and open source tools and whatnot that people come up with and they're great. But I think we have to think about the end to end process to make the machine learning process for the user better. Who has to go through all of these things?",
+      "id": "ep_115_ut_52"
+    },
+    {
+      "end": 1638384,
+      "speaker": "Enrico Bertini",
+      "start": 1637468,
+      "text": "It's a zoo.",
+      "id": "ep_115_ut_53"
+    },
+    {
+      "end": 1677254,
+      "speaker": "Saleema Amershi",
+      "start": 1639364,
+      "text": "Yeah, that's true. And then you have also often different people. It's not just one user that's going through this end to end. Sometimes you have multiple people. And then there's this handoff issue where someone who does something to the data and processes. If they don't document that, well, then later on down the line, when you're trying to debug, it's hard to understand where the problem lies. Did it come from the processing? Did it come from the featuring? I think there's more room to create tools for documentation and helping to communicate between multiple people who are going through this process.",
+      "id": "ep_115_ut_54"
+    },
+    {
+      "end": 1719916,
+      "speaker": "Moritz Stefaner",
+      "start": 1678994,
+      "text": "Super interesting. How do you see the whole, how do you see the role of visualization? I've also been thinking about how transparent do you want these algorithms to be? Because on the one hand, you want to understand why the black box says yes or no, and sometimes you have to, like, just legally, probably. Yeah. You know, and on the other hand, like, a lot of the most powerful machine learning algorithms are so powerful because they, they're beyond our capabilities. Right. So how do you see this, like, develop or how will this be handled in the future? This whole transparency issue?",
+      "id": "ep_115_ut_55"
+    },
+    {
+      "end": 1760820,
+      "speaker": "Saleema Amershi",
+      "start": 1720020,
+      "text": "Yeah, I mean, I think it's just open opportunities for visualizations and for better tools. You know, like you said, these machine learning is becoming more and more powerful, especially as you have access to larger and larger data sets and you have more complex algorithms. And so I think that introduces challenges for people, but also opportunities for visualization. But at the same time, as you're having these more powerful algorithms, we're also seeing people ask for more transparency. Right. So I think, I believe, like GDPR, for example, is going to require that people can request an explanation of automated decisions that are made about them. And the thing is that we still don't even know how to.",
+      "id": "ep_115_ut_56"
+    },
+    {
+      "end": 1763260,
+      "speaker": "Moritz Stefaner",
+      "start": 1760852,
+      "text": "But you get like a big vector of numbers.",
+      "id": "ep_115_ut_57"
+    },
+    {
+      "end": 1787834,
+      "speaker": "Saleema Amershi",
+      "start": 1763332,
+      "text": "No. Even machine learning experts, I think, you know, couldn't necessarily explain, like, why these things are behaving the way they are. I mean, you know, it's a combination of the data that it was trained on and how it was processed through this algorithm. So while people are asking for this, I think we still don't really know how to do it. And so that means that there's a lot of open problems there that I think we still need to.",
+      "id": "ep_115_ut_58"
+    },
+    {
+      "end": 1792186,
+      "speaker": "Moritz Stefaner",
+      "start": 1787874,
+      "text": "Maybe we could train other models to post rationalize another neural network.",
+      "id": "ep_115_ut_59"
+    },
+    {
+      "end": 1793934,
+      "speaker": "Saleema Amershi",
+      "start": 1792370,
+      "text": "Yes. So debug.",
+      "id": "ep_115_ut_60"
+    },
+    {
+      "end": 1795506,
+      "speaker": "Enrico Bertini",
+      "start": 1795194,
+      "text": "Yeah.",
+      "id": "ep_115_ut_61"
+    },
+    {
+      "end": 1800694,
+      "speaker": "Moritz Stefaner",
+      "start": 1795530,
+      "text": "To come up with reasons why. I think that's an open research opportunity.",
+      "id": "ep_115_ut_62"
+    },
+    {
+      "end": 1803210,
+      "speaker": "Saleema Amershi",
+      "start": 1801034,
+      "text": "Definitely. I think there's a lot of things there.",
+      "id": "ep_115_ut_63"
+    },
+    {
+      "end": 1820842,
+      "speaker": "Enrico Bertini",
+      "start": 1803362,
+      "text": "Yeah. There is actually a line of research on how to build. I think what they call surrogate models is basically a model that trains itself based on data coming from another model. But this model is more transparent than the other. Right. So a classic one is, it's like.",
+      "id": "ep_115_ut_64"
+    },
+    {
+      "end": 1822786,
+      "speaker": "Moritz Stefaner",
+      "start": 1820938,
+      "text": "The translator, like the explainer.",
+      "id": "ep_115_ut_65"
+    },
+    {
+      "end": 1839134,
+      "speaker": "Enrico Bertini",
+      "start": 1822890,
+      "text": "Yeah, that's great. So there is a technique called trepan that basically is how to build a decision tree out of a network in a way that is as close as possible to what the network does, but not too complex to observe with your eyes. Right? Yeah.",
+      "id": "ep_115_ut_66"
+    },
+    {
+      "end": 1843114,
+      "speaker": "Moritz Stefaner",
+      "start": 1840114,
+      "text": "Whatever nonsense you come up with, somebody's on it already.",
+      "id": "ep_115_ut_67"
+    },
+    {
+      "end": 1847454,
+      "speaker": "Enrico Bertini",
+      "start": 1843234,
+      "text": "Oh my God. Yeah.",
+      "id": "ep_115_ut_68"
+    },
+    {
+      "end": 1850450,
+      "speaker": "Moritz Stefaner",
+      "start": 1848874,
+      "text": "Machine learning is so crazy.",
+      "id": "ep_115_ut_69"
+    },
+    {
+      "end": 1851534,
+      "speaker": "Enrico Bertini",
+      "start": 1850522,
+      "text": "It's crazy.",
+      "id": "ep_115_ut_70"
+    },
+    {
+      "end": 1853322,
+      "speaker": "Moritz Stefaner",
+      "start": 1852154,
+      "text": "I can't even fathom.",
+      "id": "ep_115_ut_71"
+    },
+    {
+      "end": 1879392,
+      "speaker": "Enrico Bertini",
+      "start": 1853378,
+      "text": "Yeah. But then you end up into this problem where people say, oh, say a decision tree is interpretable, right? But then you look at one and it's not. It's just kind of as soon as you go past 50 nodes or even less 20 nodes, it's like, oh, okay, what does this mean? So it's only on a superficial level, more intelligible. So yeah, I don't know.",
+      "id": "ep_115_ut_72"
+    },
+    {
+      "end": 1882680,
+      "speaker": "Moritz Stefaner",
+      "start": 1879528,
+      "text": "The question is, do we have to understand everything?",
+      "id": "ep_115_ut_73"
+    },
+    {
+      "end": 1883644,
+      "speaker": "Enrico Bertini",
+      "start": 1882752,
+      "text": "Yeah, exactly.",
+      "id": "ep_115_ut_74"
+    },
+    {
+      "end": 1906314,
+      "speaker": "Moritz Stefaner",
+      "start": 1886224,
+      "text": "When do we start to trust something and why? And I mean, we also trust cars and planes. I mean, I get on a plane, I have no idea how it's even taking off. You know, like the whole, like with the air, that doesn't make any sense, you know, the airflow, how that would lift the whole, you know. I don't know. So. And still I trust the, I trust the process, I guess.",
+      "id": "ep_115_ut_75"
+    },
+    {
+      "end": 1944186,
+      "speaker": "Saleema Amershi",
+      "start": 1907534,
+      "text": "I think it's very context dependent, you know, in some cases in low risk applications, like when recommender systems suggesting music, you know, that's a very low risk, you know, but you also see these things being used in like the medical domain, for example, to make recommendations to doctors. And I believe there's been some work that's shown that the type of explanation you provide them can be more or less convincing. So if you write, if the explanation is longer, then the doctors are more convinced that the system knows what it's talking about. Even if they disagree? Even if they disagree. Right. And that's dangerous. Right.",
+      "id": "ep_115_ut_76"
+    },
+    {
+      "end": 1946854,
+      "speaker": "Moritz Stefaner",
+      "start": 1944250,
+      "text": "You just need to present it in unreadable handwriting.",
+      "id": "ep_115_ut_77"
+    },
+    {
+      "end": 1953618,
+      "speaker": "Saleema Amershi",
+      "start": 1948714,
+      "text": "This must be correct. He's a pro, right, exactly.",
+      "id": "ep_115_ut_78"
+    },
+    {
+      "end": 1955242,
+      "speaker": "Moritz Stefaner",
+      "start": 1953666,
+      "text": "Or she. Or she, of course.",
+      "id": "ep_115_ut_79"
+    },
+    {
+      "end": 1970226,
+      "speaker": "Saleema Amershi",
+      "start": 1955378,
+      "text": "Right. So we don't always want to completely trust these things, but we need to figure out when we want to enable that and then how we can create tools and visualizations to help people make the right decisions, not just necessarily blindly trust these things.",
+      "id": "ep_115_ut_80"
+    },
+    {
+      "end": 1992998,
+      "speaker": "Enrico Bertini",
+      "start": 1970410,
+      "text": "Well, there's so much to do in this area. It's crazy. It's fascinating. Fascinating. So, yeah, maybe we should conclude by talking a little bit about the future. I know it's always hard to say, what is going to happen in the future? But what's your view? Right. So what is going to happen at the intersection of machine learning and humans interacting with them?",
+      "id": "ep_115_ut_81"
+    },
+    {
+      "end": 2081514,
+      "speaker": "Saleema Amershi",
+      "start": 1993086,
+      "text": "Yeah. Well, you know, it's clear that I think machine learning is going to become more and more pervasive. You know, it's already in our cars and in our vacuum cleaners and phones and it's listening to us at home. And, you know, I think, although a lot of what I talked about today was about practitioners building these things, everyday people are also interacting with these things and they're just going to continue to do so more and more. And I think there's a lot that needs to be done to help them. So recommender systems is a simple example, but those things are interactively learning user preferences. But right now, people have very little control or awareness of what these things are learning. I myself have often very reluctant to rate or like these things on things like Facebook, Netflix or Pandora because I don't know what it's going to learn from that. And sometimes when I've rated things and then I see the machine suggesting things that are not, that's not of interest, there's really no control or recourse for me to fix them. And so I think that's just a simple example. But we have these bots and dialogue systems like Cortana and Alexa becoming more powerful and able to help us with things. But we also need to have tools and techniques to steer them and control them more. So I think there's a big opportunity to help everyday people teach these systems so that everyone can really leverage the power of machine learning. And I think that's going to happen more as we go.",
+      "id": "ep_115_ut_82"
+    },
+    {
+      "end": 2119342,
+      "speaker": "Enrico Bertini",
+      "start": 2081634,
+      "text": "You just reminded me of a very practical problem that they have with Netflix is that some of my kids decide some time to log in with my not. The login is the same. Just for some reason, they start watching with my account. Right. And, yeah, this completely screws up the recommendation. There's no way for me to tell. And it's actually the same with you. Right. So I go on YouTube, it's like, why is YouTube suggesting me all this crazy stuff today? And then I realize it's like, oh, okay, now I see. And there's no way to revert it as far as I can tell, right?",
+      "id": "ep_115_ut_83"
+    },
+    {
+      "end": 2151870,
+      "speaker": "Saleema Amershi",
+      "start": 2119518,
+      "text": "Yeah, right, exactly. Even, like Facebook, I find this, too. You know, a lot of these tools monitor implicit signals as well. So if you like, if I accidentally dwell on, like, a post too long and I'm like, no. And it just, like, will learn and there's, you know, there's not much I can do, but I think people are getting used to these things. And I, you know, just like we teach people and teach our kids, you know, I think we can teach these machines if we provide people with good tools to do so. And I think they'll, they'll want us to hear these things.",
+      "id": "ep_115_ut_84"
+    },
+    {
+      "end": 2171546,
+      "speaker": "Moritz Stefaner",
+      "start": 2151942,
+      "text": "Yeah. But this feedback channel is not really planned for in most platforms. Right. And so there we get back to, like, how do we actually interact? And, I mean, some platforms have, like, somewhere hidden in the settings, a few checkboxes where you can untick some interest or something, but that's it. Right. But you can't really talk back all that well, so.",
+      "id": "ep_115_ut_85"
+    },
+    {
+      "end": 2172362,
+      "speaker": "Saleema Amershi",
+      "start": 2171730,
+      "text": "Right.",
+      "id": "ep_115_ut_86"
+    },
+    {
+      "end": 2175594,
+      "speaker": "Moritz Stefaner",
+      "start": 2172498,
+      "text": "I hope there will be more, like, work in this direction.",
+      "id": "ep_115_ut_87"
+    },
+    {
+      "end": 2181694,
+      "speaker": "Enrico Bertini",
+      "start": 2175714,
+      "text": "Yeah, ideally it should be. Alexa, please disregard whatever my son watched yesterday.",
+      "id": "ep_115_ut_88"
+    },
+    {
+      "end": 2188034,
+      "speaker": "Saleema Amershi",
+      "start": 2187054,
+      "text": "Exactly.",
+      "id": "ep_115_ut_89"
+    },
+    {
+      "end": 2202750,
+      "speaker": "Enrico Bertini",
+      "start": 2188654,
+      "text": "Okay. Well, Saleema, thanks so much. That was a lot of fun and really informative. And, yeah, I'm looking forward to see what else is coming next from your lab from Microsoft. Thanks so much for joining us.",
+      "id": "ep_115_ut_90"
+    },
+    {
+      "end": 2204574,
+      "speaker": "Saleema Amershi",
+      "start": 2202822,
+      "text": "Yeah, thanks so much for having me. This was fun.",
+      "id": "ep_115_ut_91"
+    },
+    {
+      "end": 2204902,
+      "speaker": "Enrico Bertini",
+      "start": 2204614,
+      "text": "Yep.",
+      "id": "ep_115_ut_92"
+    },
+    {
+      "end": 2206326,
+      "speaker": "Moritz Stefaner",
+      "start": 2204958,
+      "text": "Thank you. Bye bye.",
+      "id": "ep_115_ut_93"
+    },
+    {
+      "end": 2206950,
+      "speaker": "Enrico Bertini",
+      "start": 2206390,
+      "text": "Bye bye.",
+      "id": "ep_115_ut_94"
+    },
+    {
+      "end": 2207874,
+      "speaker": "Saleema Amershi",
+      "start": 2207022,
+      "text": "Bye bye.",
+      "id": "ep_115_ut_95"
+    },
+    {
+      "end": 2232730,
+      "speaker": "Enrico Bertini",
+      "start": 2212334,
+      "text": "Hey, folks, thanks for listening to data stories again. Before you leave, a few last notes, this show is now completely crowdfunded, so you can support us by going on Patreon. That's Patreon.com Datastories. And if you can spend a couple of minutes rating us on iTunes, that would be extremely helpful for the show.",
+      "id": "ep_115_ut_96"
+    },
+    {
+      "end": 2258636,
+      "speaker": "Moritz Stefaner",
+      "start": 2232842,
+      "text": "And here's also some information on the many ways you can get news directly from us. We are, of course, on twitter@twitter.com. Datastories. We have a Facebook page@Facebook.com. datastoriespodcast. All in one word. And we also have a Slack channel where you can chat with us directly. And to sign up, you can go to our homepage, Datastory eAs, and there is a button at the bottom of the page.",
+      "id": "ep_115_ut_97"
+    },
+    {
+      "end": 2274470,
+      "speaker": "Enrico Bertini",
+      "start": 2258780,
+      "text": "And we also have an email newsletter. So if you want to get news directly into your inbox and be notified whenever we publish an episode, you can go to our home page, Datastore es and look for the link you find at the bottom in the footer.",
+      "id": "ep_115_ut_98"
+    },
+    {
+      "end": 2286642,
+      "speaker": "Moritz Stefaner",
+      "start": 2274572,
+      "text": "So one last thing we want to tell you is that we love to get in touch with our listeners, especially if you want to suggest a way to improve the show or amazing people you want us to invite or even projects you want us to talk about.",
+      "id": "ep_115_ut_99"
+    },
+    {
+      "end": 2295834,
+      "speaker": "Enrico Bertini",
+      "start": 2286738,
+      "text": "Yeah, absolutely. And don't hesitate to get in touch with us. It's always a great thing to hear from you. So. See you next time. And thanks for listening to data stories.",
+      "id": "ep_115_ut_100"
+    }
+  ],
+  "confidence": 0.935297428396383,
+  "audio_duration": 2305,
+  "punctuate": true,
+  "format_text": true,
+  "dual_channel": false,
+  "webhook_url": null,
+  "webhook_status_code": null,
+  "webhook_auth": false,
+  "webhook_auth_header_name": null,
+  "speed_boost": false,
+  "auto_highlights_result": null,
+  "auto_highlights": false,
+  "audio_start_from": null,
+  "audio_end_at": null,
+  "word_boost": [],
+  "boost_param": null,
+  "filter_profanity": false,
+  "redact_pii": false,
+  "redact_pii_audio": false,
+  "redact_pii_audio_quality": null,
+  "redact_pii_policies": null,
+  "redact_pii_sub": null,
+  "speaker_labels": true,
+  "content_safety": false,
+  "iab_categories": true,
+  "content_safety_labels": {
+    "status": "unavailable",
+    "results": [],
+    "summary": {}
+  },
+  "language_detection": false,
+  "language_detection_threshold": null,
+  "language_confidence": null,
+  "custom_spelling": null,
+  "throttled": false,
+  "auto_chapters": true,
+  "summarization": false,
+  "summary_type": null,
+  "summary_model": null,
+  "custom_topics": false,
+  "topics": [],
+  "speech_threshold": null,
+  "speech_model": "best",
+  "chapters": [
+    {
+      "summary": "Enrico Bertini is a professor at NYU in New York City. Moritz Stefaner is an independent designer of data visualizations. Saleema Amerchi from Microsoft Research talks about machine learning and AI. Together we talk about data visualization, analysis, and the role data plays in our lives.",
+      "gist": "Data Stories: Machine Learning and Data Visualization",
+      "headline": "Enrico Bertini talks about machine learning and visualization on Data stories",
+      "start": 80,
+      "end": 86902,
+      "id": "ep_115_ch_0"
+    },
+    {
+      "summary": "I'm a researcher at Microsoft Research, and I work on technologies to help people build and use machine learning systems. My research lies at this intersection of human computer interaction and machine learning. I've come to realize that most machine learning is interactive to some degree.",
+      "gist": "Microsoft's Inventing Interfaces in Machine Learning",
+      "headline": "I'm a researcher at Microsoft Research working on interaction techniques for machine learning",
+      "start": 87078,
+      "end": 457726,
+      "id": "ep_115_ch_1"
+    },
+    {
+      "summary": "There are lots of applications out there where humans will need to interact with the system that is based on this model. And there are cases also, a lot of cases nowadays where the end users are also part of the training process. There are opportunities there for building better interfaces to help people steer these things the way they want it to.",
+      "gist": "The 3 stages of machine learning",
+      "headline": "There are lots of applications where humans will need to interact with machine learning models",
+      "start": 457750,
+      "end": 633254,
+      "id": "ep_115_ch_2"
+    },
+    {
+      "summary": "Microsoft is working on tools to help people understand the data that's going into machine learning algorithms. Machine learning is being used in a lot of sensitive applications these days. If models are not trained on good data, it's very risky to trust what they're recommending.",
+      "gist": "Microsoft Machine Learning: The Data",
+      "headline": "Can you describe a few of the projects or approaches you have been working on",
+      "start": 634154,
+      "end": 1144552,
+      "id": "ep_115_ch_3"
+    },
+    {
+      "summary": "A lot of times when you're using machine learning tools or libraries to train a model, those libraries will show you some sort of summary statistic. What we wanted to do was create something that can show you how well your model is doing, but also let you directly access your errors.",
+      "gist": "Machine Learning: The Mile Tracker",
+      "headline": "We create visualization to help train models and debug errors after training",
+      "start": 1144688,
+      "end": 1462808,
+      "id": "ep_115_ch_4"
+    },
+    {
+      "summary": "There's so many different tools for every step of the machine learning process. Part of what we did with model tracker is trying to reduce the number of switching. There's more room to create tools for documentation and helping to communicate between multiple people who are going through this process.",
+      "gist": "Machine Learning: From Data to Visibility",
+      "headline": "There are so many different tools used to build machine learning models",
+      "start": 1462856,
+      "end": 1902078,
+      "id": "ep_115_ch_5"
+    },
+    {
+      "summary": "The type of explanation you provide to doctors can be more or less convincing. We don't always want to completely trust these things, but we need to figure out when we want to enable that. How we can create tools and visualizations to help people make the right decisions.",
+      "gist": "Can We Trust Our Recommendations?",
+      "headline": "Recommender systems are increasingly being used to make recommendations to doctors",
+      "start": 1902166,
+      "end": 1976322,
+      "id": "ep_115_ch_6"
+    },
+    {
+      "summary": "Saleema: What is going to happen at the intersection of machine learning and humans interacting with them? Saleema: People have very little control or awareness of what these things are learning. She says there's a big opportunity to help everyday people teach these systems.",
+      "gist": "Machine Learning and Human Interaction",
+      "headline": "Saleema: I think machine learning is going to become more pervasive",
+      "start": 1976418,
+      "end": 2295834,
+      "id": "ep_115_ch_7"
+    }
+  ],
+  "disfluencies": false,
+  "entity_detection": false,
+  "sentiment_analysis": false,
+  "sentiment_analysis_results": null,
+  "entities": null,
+  "speakers_expected": null,
+  "summary": null,
+  "custom_topics_results": null,
+  "episode_num": 115,
+  "episode_metadata": {
+    "speakers": [
+      "Saleema Amershi",
+      "Enrico Bertini",
+      "Moritz Stefaner"
+    ],
+    "WPid": "1136",
+    "url": "https://datastori.es/podlove/file/4876/s/feed/c/mp3/115-machine-learning-with-saleema-amershi.mp3",
+    "episode_title": "Human-Driven Machine Learning with Saleema Amershi"
+  }
+}

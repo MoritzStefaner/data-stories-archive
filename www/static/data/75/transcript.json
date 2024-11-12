@@ -1,0 +1,1239 @@
+{
+  "id": "45a8828d-b1ba-472f-baba-ff1f920ad430",
+  "language_model": "assemblyai_default",
+  "acoustic_model": "assemblyai_default",
+  "language_code": "en_us",
+  "status": "completed",
+  "audio_url": "https://datastori.es/podlove/file/2381/s/feed/c/mp3/75-sonification-scott-hughes.mp3",
+  "utterances": [
+    {
+      "end": 2834,
+      "speaker": "Scott Hughes",
+      "start": 200,
+      "text": "Black holes don't actually ring. It's more like they thud.",
+      "id": "ep_75_ut_0"
+    },
+    {
+      "end": 45554,
+      "speaker": "Enrico Bertini",
+      "start": 5574,
+      "text": "This episode is sponsored by CartoDB. CartoDB is an open, powerful, and intuitive platform for discovering and predicting the key facts underlying the massive location data in our world. With CartoDB, you can design and analyze beautiful and insightful maps, check out incredible location intelligence projects, and get started for free@CartoDB.com. gallery hey, everyone. Welcome to a new episode of Data stories. Hey, Moritz, what's up?",
+      "id": "ep_75_ut_1"
+    },
+    {
+      "end": 47546,
+      "speaker": "Moritz Stefaner",
+      "start": 45634,
+      "text": "Hey, Enrico. Not much. How about you?",
+      "id": "ep_75_ut_2"
+    },
+    {
+      "end": 52414,
+      "speaker": "Enrico Bertini",
+      "start": 47650,
+      "text": "Not much. Not much. Semester ending. It's great.",
+      "id": "ep_75_ut_3"
+    },
+    {
+      "end": 53774,
+      "speaker": "Moritz Stefaner",
+      "start": 52734,
+      "text": "A busy professor.",
+      "id": "ep_75_ut_4"
+    },
+    {
+      "end": 55414,
+      "speaker": "Enrico Bertini",
+      "start": 53814,
+      "text": "Yeah, yeah, yeah.",
+      "id": "ep_75_ut_5"
+    },
+    {
+      "end": 56510,
+      "speaker": "Moritz Stefaner",
+      "start": 55454,
+      "text": "As it should be.",
+      "id": "ep_75_ut_6"
+    },
+    {
+      "end": 57182,
+      "speaker": "Enrico Bertini",
+      "start": 56662,
+      "text": "As it should be.",
+      "id": "ep_75_ut_7"
+    },
+    {
+      "end": 60114,
+      "speaker": "Moritz Stefaner",
+      "start": 57198,
+      "text": "I'm super excited for this episode. It's a very special episode.",
+      "id": "ep_75_ut_8"
+    },
+    {
+      "end": 62534,
+      "speaker": "Enrico Bertini",
+      "start": 60774,
+      "text": "Me too. I'm so excited.",
+      "id": "ep_75_ut_9"
+    },
+    {
+      "end": 64318,
+      "speaker": "Moritz Stefaner",
+      "start": 62654,
+      "text": "Maybe first an announcement.",
+      "id": "ep_75_ut_10"
+    },
+    {
+      "end": 64990,
+      "speaker": "Scott Hughes",
+      "start": 64486,
+      "text": "Oh, yeah.",
+      "id": "ep_75_ut_11"
+    },
+    {
+      "end": 83014,
+      "speaker": "Moritz Stefaner",
+      "start": 65022,
+      "text": "For all of you on Android. We are now in Google Play, at least in the United States, soon, also elsewhere. So you can search us there, at us there. And we also have a slack channel, and it's kind of nice. So right now we're like 20 people there, and they drop us ideas and feedback. And you can also be in touch with other listeners.",
+      "id": "ep_75_ut_12"
+    },
+    {
+      "end": 88324,
+      "speaker": "Enrico Bertini",
+      "start": 83094,
+      "text": "Yeah. It's a direct channel to us and from us to you.",
+      "id": "ep_75_ut_13"
+    },
+    {
+      "end": 92308,
+      "speaker": "Moritz Stefaner",
+      "start": 88484,
+      "text": "Yeah. And it's kind of cool for us to know what everybody thinks and what you're up to.",
+      "id": "ep_75_ut_14"
+    },
+    {
+      "end": 116002,
+      "speaker": "Enrico Bertini",
+      "start": 92356,
+      "text": "Yeah. And I just want to thank. We realize that there are a lot of people who've been reviewing the show on iTunes, and as you may know, that's very important for the show. So if you didn't write a review so far, please do it. That's very helpful. Very, very helpful. Thanks a lot. For all those of you who did it. Thanks. That's. Yeah. Appreciate it. Yeah.",
+      "id": "ep_75_ut_15"
+    },
+    {
+      "end": 121454,
+      "speaker": "Moritz Stefaner",
+      "start": 116018,
+      "text": "And it helps a lot, really, with the ratings and making us popular, so, yeah, that's kind of cool.",
+      "id": "ep_75_ut_16"
+    },
+    {
+      "end": 133170,
+      "speaker": "Enrico Bertini",
+      "start": 121834,
+      "text": "So we are excited. Yeah, yeah. We have a sonification episode, so we're gonna talk about using sound to represent data.",
+      "id": "ep_75_ut_17"
+    },
+    {
+      "end": 145802,
+      "speaker": "Moritz Stefaner",
+      "start": 133362,
+      "text": "Yeah. So after four years of being mocked for doing a audio podcast on data visualization, everybody makes fun of us for that. We finally turn it around now.",
+      "id": "ep_75_ut_18"
+    },
+    {
+      "end": 177360,
+      "speaker": "Enrico Bertini",
+      "start": 145978,
+      "text": "Yeah. So, everyone, warm up your ears. Be ready. And we have a very special guest for this episode. We have Scott Hughes, directly from MIT. He's a professor of physics, and he's gonna talk about LIGO and gravitational waves and how they use the sonification to better understand what's going on in space. So welcome on the show, Scott. Thanks a lot for coming.",
+      "id": "ep_75_ut_19"
+    },
+    {
+      "end": 183272,
+      "speaker": "Scott Hughes",
+      "start": 177552,
+      "text": "Thank you very much for having me. It's a lot of fun to be here, and I'm looking forward to this discussion.",
+      "id": "ep_75_ut_20"
+    },
+    {
+      "end": 198364,
+      "speaker": "Enrico Bertini",
+      "start": 183448,
+      "text": "So, Scott, can you briefly give an introduction about yourself, who you are, what you do? And then we want to move directly to the background information about LIGO and gravitational waves.",
+      "id": "ep_75_ut_21"
+    },
+    {
+      "end": 280268,
+      "speaker": "Scott Hughes",
+      "start": 198704,
+      "text": "Sure. So, I'm a professor at MIT. I've been on the faculty here for 13 years now. You know, you can see how much gray hair I have. It's been a bit an interesting 13 years, and my research is in astrophysics. I study systems of very massive, dense bodies, very strongly gravitating bodies, which we model using Einstein's theory of general relativity. And a lot of what I do connects to how we can understand some of these most fascinating objects in our universe using observations, using the new technology of gravitational waves. So, since I started my PhD, in fact, if we had done this yesterday, yesterday was the 18th anniversary of my defense of my PhD, I have been thinking about gravitational waves and measuring them, and, in fact, even thinking about them using the language of sonification now, for over two decades. And so this has been a very exciting year for me. I mean, for many of us in our community. But just, I'm going to be a little bit selfish. It's been an exciting year for me because something that I have been working toward for 23 years has finally come into fruition. And so I hope I can share a little bit of why this is so exciting and what it means to some of us and what we expect will continue to mean as we move into the future in the next discussion that we have here.",
+      "id": "ep_75_ut_22"
+    },
+    {
+      "end": 294694,
+      "speaker": "Enrico Bertini",
+      "start": 280396,
+      "text": "So that's a fantastic opportunity for us. Can you give us, like, a micro lecture on gravitational waves and LIGO, directly from an MIT professor? That's amazing.",
+      "id": "ep_75_ut_23"
+    },
+    {
+      "end": 548844,
+      "speaker": "Scott Hughes",
+      "start": 295994,
+      "text": "A micro lecture is. I'm a professor. Confining myself to a micro lecture is a challenging part. That's right. I will try to keep it at least to a mini lecture here. So LIGO stands for the laser interferometer gravitational wave observatory. That's a mouthful. What it basically is, is an antenna that picks up very weak oscillations and gravitational forces that are generated by distant objects. So what motivates a lot of this is that there are many objects in our universe that consist of very dense masses that have very strong gravitational fields. Some of them are in orbits around one another, such that they swirl around very, very rapidly, and they give rise to very violent, dynamically varying gravitational fields. When that occurs, what Einstein's theory of general relativity taught us is that little pieces of that gravitational field leak away as radiation. There's an analogy we can use here. If you have two charges that are oscillating around one another. The electric and magnetic fields of those charges, pieces of that leak away, that produces light. Okay, so radiation from ordinary electric charges is what we use to see everything with. Now, in the same way, when you have two masses whirling around one another very rapidly, a piece of the gravitational field radiates away. And it's possible, in principle, for various people to build instruments that can measure that in the same way that you can measure electric and magnetic fields with an antenna. An antenna is basically just a piece of metal that has charges in it that can oscillate around and generate a current well. Gravity couples to masses. So you make an antenna out of very distantly separated masses, and when gravity comes along, it'll shake those masses. Build that thing carefully enough, and it gives you a tool to measure that. It's very difficult. Gravity is the weakest of all the fundamental forces. My demo for this is I always tell everyone, so the last time I did a demo for this, I was giving a talk in a bar, and I said to everyone, lift your beer over your head. And everyone did that. And they, of course, took a drink, and I said, you just demonstrated that gravity is weak. And everyone looked at me like, what? I was like, let's think about what just happened there. You had electrochemical reactions in the half a kilogram or so of muscle tissue in your arm, lifted that beer above your head. In doing so, that half a kilogram of muscle tissue overcame the roughly 5 billion trillion tons of attraction of gravity from the entire planet earth. Congratulations. You are stronger than the earth when you did that. And the point to be made is that it's not very difficult to overcome gravity. And so if you're trying to measure a very weak gravitational disturbance, it's hard. And so LIGO has been a program to measure not just forces from the earth, but from objects that are billions of light years away. And so it's been a very, very long journey. The LIGO detectors were first made around. They first started running around 2000, and it's just been a long journey of improving, finding sources of noise, getting rid of them, and making it more and more sensitive. And it's not just an American project. A huge piece of this project is actually in Germany. There's an institute, institutes in Hanover and Potsdam that participate in this. There's even a small scale interferometer near Hanover. Yeah, it's near Hannover, Germany, that is involved in this. There's a detector in Pisa, Italy, that is not quite as sensitive as LIGO. But is getting there and is expected to be contributing to these measurements in a couple of months. And there's plans for ones that'll run in a few other places around the world as well, notably in Japan and in India. So this is turning into switching over to my interest in this. This is a program to measure the gravitational interactions of objects that are often dark and cannot be seen via the normal mechanisms. And so it allows us to perceive things going on in the universe in a unique way. And we are just begun, essentially, the journey of doing this on a regular basis. And as I like to say, we have gone from gravitational wave detection to gravitational wave observation, and that is where we hope to be going over the next couple of years.",
+      "id": "ep_75_ut_24"
+    },
+    {
+      "end": 557182,
+      "speaker": "Moritz Stefaner",
+      "start": 549374,
+      "text": "And for many years of your research, it was not even clear if they can be detected. Right. So you've been into this now for 20 years.",
+      "id": "ep_75_ut_25"
+    },
+    {
+      "end": 620454,
+      "speaker": "Scott Hughes",
+      "start": 557358,
+      "text": "I've been into this for 20 years. You know, we had. There was a lot of indirect evidence that certainly made us very confident that it existed. But the issue was we didn't know how common are the sources that are going to be strong enough that they could actually be measured. It's one of these things where. So there's a particular source, which I'll talk about a little bit later in this podcast. The one that was actually measured is the merger of two black holes with one another. No one really knew how often two black holes would merge with one another. And so if you took a look at the estimates that astrophysicists had calculated for how often something like LIGO would measure that, the estimates range from somewhere between one per month to one per 10,000 years. When you have that range of uncertainty, it's a bit of a dangerous game, but it's one of those things where it's high risk, high reward. There are other things that were considered to be a little bit more secure. That's one reason that we got funding and that this detectors were built. But it was a little bit of a surprise that this one thing that was considered particularly exciting but particularly uncertain was the first thing that was measured.",
+      "id": "ep_75_ut_26"
+    },
+    {
+      "end": 627374,
+      "speaker": "Moritz Stefaner",
+      "start": 621634,
+      "text": "And last year, you got lucky, and the first gravitational wave was caught in the wild. Right.",
+      "id": "ep_75_ut_27"
+    },
+    {
+      "end": 658234,
+      "speaker": "Scott Hughes",
+      "start": 628034,
+      "text": "It was stunningly lucky. It actually was picked up about. I can't remember if it's one or two days before the run was officially supposed to begin. They were actually in sort of a mode where they were. I mean, they were. They were, of course, on. They were running, everything was working perfectly, but they were officially, they could have sort of gone in and shut things down because they were doing various engineering tests, but the tests were going so well that they more or less just said, eh, let's just let it run and see if anything comes up. Boy, something came up.",
+      "id": "ep_75_ut_28"
+    },
+    {
+      "end": 662034,
+      "speaker": "Enrico Bertini",
+      "start": 660094,
+      "text": "Wow. Fantastic.",
+      "id": "ep_75_ut_29"
+    },
+    {
+      "end": 684904,
+      "speaker": "Moritz Stefaner",
+      "start": 662334,
+      "text": "And so, for the first time, there was this data collected, and of course, now. And now we come to the topic, right? And of course, you can plot it in a traditional line chart, as you would expect from something with ways, waves and physics. You know, everybody has a certain idea, right? But you chose a very special approach to representing that data, right?",
+      "id": "ep_75_ut_30"
+    },
+    {
+      "end": 809294,
+      "speaker": "Scott Hughes",
+      "start": 685484,
+      "text": "That's right. So, you know, the truth is, when you look at a lot of gravitational waves, if you apply your algorithmics to them and you do a lot of fancy analysis, you can certainly tell that there are big differences between different sources, and there's lots of information that's in there. But if you just want to show a plot on a screen, guess what? They all wiggle. They are all at sort of leading order. A sine wave with a bunch of additional stuff happening. And there's only so many times you can look at a sine wave and go, oh, look at that. It wiggles up and down. And so there's many reasons why we were thinking it might be fun to try to do something else with this. One issue is that, as I mentioned, gravity is a weak force, and for the. For the purposes of doing the LIGO measurements, that means you are always fighting noise. And so, for years, many of us were thinking, what is the best way to pull these signals out of the noise? And we sort of knew that we could model these things pretty well, and we could use the fact that there was, the temporal behavior of these things was coherent, the noise would be incoherent. We could use all these kinds of things, but we were playing around with lots of different algorithms and ideas to pull it out. And it was actually in conversation. This was over 20 years ago. It was in conversation with a graduate student who works in neuroscience, where we sort of described this problem. We were asking whether the idea of using computational neural networks would be useful for helping to pull signals like this out of the noise. And this neuroscience graduate student listened to our discussion of what our problem was. He sort of leaned back and said, you know, the human ear is a pretty decent spectral analyzer, and it's already hooked up to a decent neural network. So have you guys tried just listening to your data? And we kind of looked at each other and went, huh, let's give this a whirl. And so that's sort of how son, at least from my perspective, that is how sonification of gravitational waves was born. Just an offhand comment from a neuroscience graduate student. I wish I knew who that student was. It was. I'd love to call him up and tell him that he hath wrought great things.",
+      "id": "ep_75_ut_31"
+    },
+    {
+      "end": 811818,
+      "speaker": "Enrico Bertini",
+      "start": 810914,
+      "text": "Maybe he's listening.",
+      "id": "ep_75_ut_32"
+    },
+    {
+      "end": 813258,
+      "speaker": "Moritz Stefaner",
+      "start": 811866,
+      "text": "If you're listening, get in touch with.",
+      "id": "ep_75_ut_33"
+    },
+    {
+      "end": 815614,
+      "speaker": "Scott Hughes",
+      "start": 813306,
+      "text": "If you're listening, get in touch.",
+      "id": "ep_75_ut_34"
+    },
+    {
+      "end": 831514,
+      "speaker": "Enrico Bertini",
+      "start": 817994,
+      "text": "So how does this work in practice? So you have data that is describing the signal. Right. So the first time you did it, how did you do it? Right. How do you turn the signal into an audio file?",
+      "id": "ep_75_ut_35"
+    },
+    {
+      "end": 990374,
+      "speaker": "Scott Hughes",
+      "start": 831594,
+      "text": "So we should back up a little bit. So, the first detection was made, as I said, just months ago. But I've been working in this field since 1993. So for the longest time, doing sonifications was a game of theory. You know, I am someone who studies Einstein's theory of general relativity. My expertise is in computing the gravitational waves that arise from certain sources. And so what I would do is I do a computational simulation. I would model a particular source. I would think about the way the gravitational waves depend on a bunch of parameters. And at the end of this, I get one of these traces on my screen, which is what the waveform looks like as it wiggles as a function of time. And so I was just staring at that and said, okay, well, I've got my waveform as a function of time. Let's just sample this and convert it into a WAV file, see what we get. If you want to get an example of what that looks like, I've given you a couple of examples here. If you play the sound labeled simulated Gw one, that's an example of what comes out of this. So what you are hearing there is the fact that as these two objects are orbiting one another at any given moment, they're sort of spinning around. And you basically get just a simple tone that corresponds to the orbital frequency of these two bodies orbiting each other. But gravitational waves change the properties of the orbit. And so, as these things are orbiting one another, gravitational waves cause them to move slightly closer together. When they get slightly closer together, they start to orbit faster. This has two effects. It makes the frequency higher, and it makes the amplitude, the level of the sound, higher. And so you get this, what we call the chirp associate these two things continually going faster and louder and faster and louder until eventually the two bodies actually collide with one another. And there's sort of a little bloop there at the end that very quickly damps out, and it just kind of goes, bloop. And that's it. So, when I. The very first time I did one of those, I was actually running it on a laptop I had in the apartment I was living in. I was a student at Caltech at the time, and I just got this thing going, and the speakers in my laptop weren't very good. So I thought, well, the heck, I'll just hook it into the stereo system. So I ran a line, and I put it into the stereo system in the living room of the apartment I was renting. It was a lot louder than I expected it to be. So this is why I discovered that if you're going to do something like that, warn the people you are living with, because it was not appreciated.",
+      "id": "ep_75_ut_36"
+    },
+    {
+      "end": 993814,
+      "speaker": "Moritz Stefaner",
+      "start": 991514,
+      "text": "Did you have the police at the door that night?",
+      "id": "ep_75_ut_37"
+    },
+    {
+      "end": 995934,
+      "speaker": "Scott Hughes",
+      "start": 995194,
+      "text": "Almost.",
+      "id": "ep_75_ut_38"
+    },
+    {
+      "end": 1000458,
+      "speaker": "Moritz Stefaner",
+      "start": 999914,
+      "text": "Cool.",
+      "id": "ep_75_ut_39"
+    },
+    {
+      "end": 1056798,
+      "speaker": "Scott Hughes",
+      "start": 1000546,
+      "text": "But then, as people began, it was realized soon after that they're not just good for understanding theoretical signals, but people began playing. There was a prototype in a forometer that had been built at Caltech, and people started listening to the data stream from that. And in the course of doing so, it actually turned out to be useful for diagnosing certain kinds of noise that would actually occasionally enter and mess up the measurements. There was one very periodic click that they kept hearing in one of the data streams when they first did this, and that turned out to trace back to a bug in the software that was used to digitize the data stream that was coming out of this thing. It turned out they were sort of periodically dropping every time there's sort of a particular data, a particular frame that was a certain length. When they would sort of digitize it, they were losing a little bit of data at the end of it. And so they're hearing this periodic click that was associated with the end of the little data packets. So, you know, it was good for both theory and experiment. It turned out it was a lot of fun.",
+      "id": "ep_75_ut_40"
+    },
+    {
+      "end": 1064206,
+      "speaker": "Moritz Stefaner",
+      "start": 1056966,
+      "text": "And can we hear more of the simulations, like different types of events that could happen? So we get a sense of the what's possible there.",
+      "id": "ep_75_ut_41"
+    },
+    {
+      "end": 1118384,
+      "speaker": "Scott Hughes",
+      "start": 1064270,
+      "text": "Yeah, so let's play. Let's see. So I'm going to play. Let's play three simulated ones, and then let's listen to one of the ones that actually comes from what the universe has for us. So you've already played simulated GW one, if you want to play that one again, just to remind us what that sounds like. So, simulated GW one, that is the chirp of two bodies that are just basically spheres. And what I actually did to create that one was I modeled what happens when you have two black holes orbiting each other. And the black holes are as I described. They're orbiting, they're losing energy due to gravitational waves, and they move closer. As they move closer, they go faster, and it gets a little bit louder, and you get this chirping process. Now, jump ahead a little bit in this file I provided for you guys to the sound labeled modulated.",
+      "id": "ep_75_ut_42"
+    },
+    {
+      "end": 1120250,
+      "speaker": "Moritz Stefaner",
+      "start": 1119394,
+      "text": "I'll play it.",
+      "id": "ep_75_ut_43"
+    },
+    {
+      "end": 1305076,
+      "speaker": "Scott Hughes",
+      "start": 1120322,
+      "text": "Okay. Okay, that's one of my favorites. So that is almost an identical system. But what's different here is that the two black holes that are in this system are very rapidly spinning. Now, here you get to something that's kind of a fascinating bit of gravitational physics. So I'm going to only use one equation in this podcast, but it's one I think I can get away with. E equals mc squared. Einstein taught us that all forms of energy are equivalent. Energy and matter are equivalent to one another. When you combine that with gravity, what that means is that all forms of energy experience gravity in the same way that ordinary matter does. And so what this means is things like, for instance, if I shoot a laser beam from the surface of the earth, that laser beam loses energy as it propagates out of the earth's gravitational field, because the light in the laser beam is attracted to the gravitational field of the earth. Now, for that sound that I just played you, the two black holes that went into that simulation are spinning, and there's energy associated with the spin of those black holes. What that does is it changes the gravitational interaction between the two of them in such a way that when we look at those orbits, they don't just smoothly orbit one another, but they actually sort of sometimes go a little bit faster, a little bit slower, as there's kind of a. It's a little hard to get this, the details exactly right, but you can sort of think of what's happening is that there's kind of an exchange in energy between the motion of the bodies as they orbit one another and the way that they are spinning. And that leads to these things as they orbit one another, periodically modulating in this additional way. Now, from my standpoint, what's exciting about this is it really demonstrates the way in which, if you do those two sounds side by side, they sound nothing alike. They have a very different signature associated with one another. That is an example of how, when you start measuring different kinds of signals, the information that is picked up by an antenna like LIGO, teaches us information about the systems that produce them. So there's an enormous amount of astrophysical information in the spins of two black holes. That tells us a lot about the stars that originally formed them, the process by which they grew, and the binary by which they formed into a binary. And so, as an astrophysicist and astronomer, that's the kind of information I want to get at, because comparing those two hearing whether I have that modulation and whether from that modulation, I can understand how rapidly these black holes were spinning, how the spins are related to one another, whether they're sort of parallel or they're kicked over in some weird way. There's an enormous amount of information there, and the sound really conveys the way in which that information is embedded in the waveform. Let's play one other one that is a simulated one. So jump back a little bit to simulated gw two.",
+      "id": "ep_75_ut_44"
+    },
+    {
+      "end": 1307428,
+      "speaker": "Moritz Stefaner",
+      "start": 1305180,
+      "text": "Okay, that was it.",
+      "id": "ep_75_ut_45"
+    },
+    {
+      "end": 1357688,
+      "speaker": "Scott Hughes",
+      "start": 1307476,
+      "text": "So that one, all you hear is sort of. That one's so short, you can do it again if you like. It's just a little pop. So what's up with that? Well, that is a system that is very massive. And so one of the things that's neat about gravitational wave sources is that the frequency of the waves that comes out of these guys is inversely proportional to their masses. Small guys tend to radiate at high frequencies. Large guys tend to radiate at low frequencies. And so when I have really massive ones, what that means is that the only bits that are actually audible to the detector are the very ones that are as high as possible for that binary are only the very last couple of cycles from this thing. And so what you are hearing here is actually an incredibly violent, dynamical process of two black holes.",
+      "id": "ep_75_ut_46"
+    },
+    {
+      "end": 1361432,
+      "speaker": "Moritz Stefaner",
+      "start": 1357776,
+      "text": "So it's a sub base, actually. And you just hear the end part.",
+      "id": "ep_75_ut_47"
+    },
+    {
+      "end": 1439354,
+      "speaker": "Scott Hughes",
+      "start": 1361488,
+      "text": "Exactly. Exactly. You're just hearing the end part. You're actually hearing there two black holes smashing together spacetime, getting very dynamically roiled up and then quickly settling down. These are actually called. So this is an example of where sonification helped us to understand things. That process had been in the general relativity and astrophysics literature since the early seventies. We sort of understood that it existed. We knew how to calculate it. And mathematically, it looks very similar to the process by which sound is generated when you ring a bell. And so they've been called. Those are often called the ringing modes of a black hole. You're hearing the ringing of a black hole. But when we actually turn this into a sound and listen to it, we realized that this is a really terrible bell. You know, you normally, when you ring a bell, it sort of goes ding. And it lasts for a long, long time. This thing just kind of instantly just kind of goes, and then it's over. And so a colleague of mine, he heard that, and he says, you know, black holes don't actually ring. It's more like they thud. And so we sort of tongue in cheek now call it the thudding modes of black holes. And it makes a lot more sense when you. When you listen to these things and you hear that thing actually happening there. So that one is particularly interesting to me because if you play the first sound that I've labeled the real deal. Yep.",
+      "id": "ep_75_ut_48"
+    },
+    {
+      "end": 1443350,
+      "speaker": "Moritz Stefaner",
+      "start": 1442374,
+      "text": "I played again.",
+      "id": "ep_75_ut_49"
+    },
+    {
+      "end": 1460466,
+      "speaker": "Scott Hughes",
+      "start": 1443462,
+      "text": "Play it again. So there it was. That was the actual thump of two black holes slamming together as LIGO recorded it on September 14, 2015. Notice it's. It's pretty similar to the simulated GW, too.",
+      "id": "ep_75_ut_50"
+    },
+    {
+      "end": 1462026,
+      "speaker": "Enrico Bertini",
+      "start": 1460530,
+      "text": "Yeah, it sounds very similar.",
+      "id": "ep_75_ut_51"
+    },
+    {
+      "end": 1565494,
+      "speaker": "Scott Hughes",
+      "start": 1462130,
+      "text": "Yeah, it is very similar. And that's because essentially, they, you know, the one that we simulated in simulating that second GW simulation, it's very much like what LIGO actually recorded, because LIGO caught the merger of two rather high mass black holes. Those are. It's one black hole that is 36 times the mass of the sun, another one that is 29 times the mass of the sun. And we are catching the final moments of those guys actually slamming together. If I can just do one thing that's a little bit. It's fun to occasionally go into some superlatives here. So, in that little bloop that you guys just heard there, it's worth mentioning that what you're hearing is sort of the LIGO antennas, the little masses in that antenna, they were shaken by the gravity of these two merging black holes, a tiny, tiny amount. Each mirror in the detector that are the masses that are actually shaken by those gravitational waves, they moved less than the radius of a proton, actually less than about a thousandth of the radius of a proton. However, the amount of energy, the amount of energy that was in that, if that had been light rather than gravitational waves. So, for a talk that I'm working on right now, suppose you took all of the light in the Milky Way. Okay? The entire Milky Way galaxy, which contains something like 200 billion stars, take all of that light, multiply it by 175 billion. The amount of energy that that 175 billion Milky ways puts out for about 0.2 seconds was equivalent to the energy that was released in that little bloop. But because it's in the form of gravity rather than light, we can barely perceive it. But if it had been light, you know, I've done the calculation. It would have lit up the night sky. For a moment.",
+      "id": "ep_75_ut_52"
+    },
+    {
+      "end": 1575314,
+      "speaker": "Enrico Bertini",
+      "start": 1566714,
+      "text": "So, Scott, I have one question. So what is the time scale of these events? So that little blip, how long is it in reality?",
+      "id": "ep_75_ut_53"
+    },
+    {
+      "end": 1644432,
+      "speaker": "Scott Hughes",
+      "start": 1575434,
+      "text": "That is what it is in reality. Oh, that's actually one of the things that is actually it. There is no modification that's been done to these. So if you play the sound label, the one that Morris just plays for us, which I had labeled the real deal, it actually was in the band of the detectors for about 0.2 seconds. In those 0.2 seconds. So what we've reconstructed using the kind of modeling that people like I do, is that what's going on there is that this roughly 60 solar masses worth of black hole, they orbit around each other about eight times. Okay? They were moving at half the speed of light before they slammed into one another. But that is, there is no sort of artificial shifting of frequencies or stretching of time that was done here. That is being played exactly as the detectors picked it up. That's one thing that's kind of amazing is that that's another reason why sonification works so well for this, is that the actual band produced the actual gravitational waves produced by signals that LIGO is sensitive to with no modification. They are in the band that the human ear is sensitive to. They range from roughly a couple, you know, ten or 20 hz up to about 1000. You know, that's basically what the human ear can hear.",
+      "id": "ep_75_ut_54"
+    },
+    {
+      "end": 1662314,
+      "speaker": "Moritz Stefaner",
+      "start": 1644528,
+      "text": "I think that's amazing. It's, you know, it's visualization actually without even numbers. It's not just without visuals, but actually without numbers because you just take that physical process, transform it in some funny way. It's like a clock made just with the shadow of the sun. You don't need any algebra or anything.",
+      "id": "ep_75_ut_55"
+    },
+    {
+      "end": 1663630,
+      "speaker": "Scott Hughes",
+      "start": 1662934,
+      "text": "That's right.",
+      "id": "ep_75_ut_56"
+    },
+    {
+      "end": 1664566,
+      "speaker": "Moritz Stefaner",
+      "start": 1663702,
+      "text": "Yeah, I think it's okay.",
+      "id": "ep_75_ut_57"
+    },
+    {
+      "end": 1737824,
+      "speaker": "Scott Hughes",
+      "start": 1664590,
+      "text": "That's right. You need a little bit of math. You need the algebraic to do sort of the detailed reconstruction that comes out of this. But again, if you go back to those two simulations I played for you, it becomes starkly obvious that different systems sound different. And that sort of makes it clear. This is why I almost, I like to think of gravitational wave science as almost a kind of linguistics. Every source has sort of a different voice and it's got a different vocabulary. And a lot of what I do as a theorist is try to understand what this vocabulary is like. Those two sounds I played for you earlier sort of tell me the way in which the spin of black holes has a unique vocabulary that changes the sound of the waves that something like LIGO picks up and there's other effects as well. So the fact that I just get, like, this little pop for these very massive ones, you know, the fact that I just get this little pop and I don't get this chirping lead up that immediately tells me something about how massive these guys are to give another one. So I'll describe the astrophysics for this one a little bit later. But if you jump ahead, there's a sound here that I labeled Emory jagged. Hang on a second. My apologies. The one that's labeled Emri clicky. So play the one that's labeled clicky. You'll hear why I enabled that in just a moment.",
+      "id": "ep_75_ut_58"
+    },
+    {
+      "end": 1775074,
+      "speaker": "Enrico Bertini",
+      "start": 1769614,
+      "text": "The end is. Yeah, it's good. It reminds me when I used to play with synthesizers.",
+      "id": "ep_75_ut_59"
+    },
+    {
+      "end": 1892884,
+      "speaker": "Scott Hughes",
+      "start": 1776454,
+      "text": "That's right. That's right. There's a little bit of that. So let me just describe to you what. So this is another example of one of the ways in which the astrophysics of the source sort of contributes something to the. To the vocabulary of the gravitational wave. So all the other sounds that I played for you, they consisted of two objects that are orbiting one another, and the orbits were circular. Now, for many of the sources that we hope to measure with these detectors, that's what we expect, and there's good reasons for that. But there's other sources in particular, things that we're thinking about. For a detector that we hope to fly in space in a decade or two, where we expect them to be not circular, they'll be very stretched out, elliptical orbits, kind of like the orbit of a comet around our sun that has a huge impact on what the gravitational waves sound like, the sound that you just played there, the one which was called clicky, that corresponds to an orbit that starts out hugely eccentric. And what happens is, when you study the orbit of something like a comet going around the sun, it moves very slowly from most of the orbit until it gets close to the sun. And then it kind of whips around really quickly, and it comes back down. Now, translate that to what that means for the gravitational waves. It basically means the gravitational wave is quiet, quiet, quiet, quiet. And then when it whips around really quickly, loud, quiet, quiet, quiet, quiet, quiet, quiet, loud, quiet, quiet, quiet. And so what we hear when we turn that into a gravitational wave sound is a click every time it passes. Every time the one body passes close to the other one, and you sort of heard those clicks get close together. And eventually it actually kind of transitioned to a continuum. That's because when we model these things properly, using Einstein's theory of general relativity, we find that the eccentricity gets smaller and the orbit gradually turns. It goes from being stretched out and sort of eccentric to circular. And you were actually hearing in this the physical process of the orbit changing from sort of thing that looks like Haley's comet to something that's much more circular and like an orbit of a planet around our sun.",
+      "id": "ep_75_ut_60"
+    },
+    {
+      "end": 1895984,
+      "speaker": "Enrico Bertini",
+      "start": 1893184,
+      "text": "Should we hear it again now that we know how to interpret it?",
+      "id": "ep_75_ut_61"
+    },
+    {
+      "end": 1898888,
+      "speaker": "Scott Hughes",
+      "start": 1896024,
+      "text": "Sure. Yeah. So listen to it again with that interpretation.",
+      "id": "ep_75_ut_62"
+    },
+    {
+      "end": 1900084,
+      "speaker": "Moritz Stefaner",
+      "start": 1898976,
+      "text": "Seatbelts on.",
+      "id": "ep_75_ut_63"
+    },
+    {
+      "end": 1935922,
+      "speaker": "Enrico Bertini",
+      "start": 1929954,
+      "text": "Yeah. The clicks merging into one sound at some point.",
+      "id": "ep_75_ut_64"
+    },
+    {
+      "end": 1983604,
+      "speaker": "Scott Hughes",
+      "start": 1935978,
+      "text": "Yeah, yeah, exactly, exactly. And so that's the process of this thing going from being very stretched out and eccentric, changing over to something that's much more circular. So these are all these sounds I just provided to you. They're essentially just examples of the vocabulary of gravitational waves. And in my research, a lot of what I do is thinking about the way in which understanding that, understanding how the astrophysics that interests someone like me or someone who's interested in, say, the process by which black holes form in our universe, how does that imprint itself on the gravitational waves? How does that leave a sonic imprint on these things? And then how can we use these unique sonic imprints on these things to guide us to pull these signals out of the data and then learn from events like the one that LIGO measured, what nature has actually produced for us?",
+      "id": "ep_75_ut_65"
+    },
+    {
+      "end": 2088370,
+      "speaker": "Enrico Bertini",
+      "start": 1983984,
+      "text": "So this is the right time to take a little break and talk about our sponsor, CartoDB. Car two DB is a web based application that allows you to load location data displayed using a lot of different geographical mapping methods, and then generate new insights by using the easy to use editor, which is the starting point for analysis and design within CartoDB. And speaking of insights, I want to talk about deep insights, one of cart two DB's new products. So what is deep insights? Deep Insights is a product that allows you to explore massive geo located datasets interactively by using dynamic filtering and drill down mechanisms. What does it mean? Well, this means that you can zoom in and out in real time with data sets with millions or even billions of items interactively. And you can also take one or more columns in your data set, map them to interactive widgets, and then use these widgets again interactively to filter out data according to selections that you desire. And as you can imagine, this is a very powerful method to discover outliers, find unseen correlations, and more in general, uncover patterns of many different type. So if you want to know more about deep insights, you can go to CartoDB.com deepminusinsights and now back to the show. So let me ask you something. I want to make sure I got it right. So in a way, what you are doing is that in the lab, you are simulating certain events. You listen to them, and you're basically, as you said, building a vocabulary through your simulations, right?",
+      "id": "ep_75_ut_66"
+    },
+    {
+      "end": 2089186,
+      "speaker": "Scott Hughes",
+      "start": 2088442,
+      "text": "That's right.",
+      "id": "ep_75_ut_67"
+    },
+    {
+      "end": 2104266,
+      "speaker": "Enrico Bertini",
+      "start": 2089330,
+      "text": "And then you're using this vocabulary to detect, once again with your ears, the real event, which should sound the same way. Yeah. The same way your simulation sound. Right? Is that correct?",
+      "id": "ep_75_ut_68"
+    },
+    {
+      "end": 2112610,
+      "speaker": "Scott Hughes",
+      "start": 2104370,
+      "text": "That is basically correct. And there's a question there which I'm not sure if it's in your mind, but you might be sort of dancing around. What if our simulations were wrong?",
+      "id": "ep_75_ut_69"
+    },
+    {
+      "end": 2115614,
+      "speaker": "Enrico Bertini",
+      "start": 2112722,
+      "text": "Yeah, exactly. That was my next question.",
+      "id": "ep_75_ut_70"
+    },
+    {
+      "end": 2287794,
+      "speaker": "Scott Hughes",
+      "start": 2115994,
+      "text": "So with the event that LIGO detected on September 14, we got hugely lucky there because that ended up being so strong that it stood up above the noise without needing to use our sophisticated modeling to pull it out. Using that sophisticated modeling afterwards helped us to understand it, but we were able to detect it in the absence of that kind of modeling and the fact that we saw one essentially instantly. So LIGO, it's worth emphasizing that LIGO's public, their discovery is only based on an analysis of 16 days of data that they took. There's actually another roughly 30 days of data that they've analyzed, or I should say they are analyzing. And it's expected that there'll be some papers reporting on what they've learned from that data coming out very, very soon. So there could be additional events in there that are perhaps maybe a little bit more difficult to find, or there's things that they want to really nail down before they discuss. But to get to your question, there's a real concern. What if we have mismodeled these things? And that is a real challenge. And one of the things that people are thinking about is, can we go out and find these things using something that doesn't build as much modeling into this? The truth is, it's hard, because sometimes these signals are going to be, they're buried in a fair amount of noise, and trying to pull it out without knowing exactly what to listen for is a difficult thing. One way in which nature really smiled on us with this event is that because it was so strong and you didn't need to do any sophisticated modeling to pull it out, it swept away a lot of doubt. And then when we go and we apply the sophisticated modeling to it, it turns out that everything that our general relativity based models predicted, it passed with flying colors. We like to sort of, say, everyone knows Einstein is kind of a byword for genius, right? Everyone knows he is an amazingly brilliant person who pushed the boundaries of science in a huge way. But in some ways, you have to almost know his theories to appreciate just how bloody smart he was. Because what this discovery did was it sort of made us realize with this discovery, there are certain ways of testing the theory of gravity that got advanced by orders of magnitude, factors of 100,000 and certain parameters that tell us about how strong gravity is and how violently dynamical things are changing. And there's no reason why, given the extent to which gravity had been tested prior to September 14, we would expect it to hold and work perfectly after September 14. And yet it did. So, as near as we can tell, Einstein gives us the full story. And as long as that remains true, it gives us a toolkit by which we are going to build this vocabulary and use it to listen to these sources and interpret them and try to learn what is going on.",
+      "id": "ep_75_ut_71"
+    },
+    {
+      "end": 2329838,
+      "speaker": "Moritz Stefaner",
+      "start": 2288374,
+      "text": "Yeah, I think it's super fascinating, and as you say, it's such a nice match. And then you also got so lucky, like, running into this huge observation straight away. There's one version of the blip I would like to play because I think this is also the one that was played at the announcement or at a press conference. Yes, it's a slightly transformed one, and I think that's also interesting to think about what sound processing can give in this context, because there are so many tools also to deal with sounds. So let's play this one, and you will hear. It's the original blip, but a bit different. So it's the whoop.",
+      "id": "ep_75_ut_72"
+    },
+    {
+      "end": 2392708,
+      "speaker": "Scott Hughes",
+      "start": 2329926,
+      "text": "Yeah. So that one, it really is. It's the same discovery event, but what they've done is just sort of stretch it out a little bit. And I think they shifted it in frequency a little bit just so that you can hear. You know, that you can sort of, when you do that, you end up changing the nature of the signal a little bit. But it clarifies that what you're hearing is this sound that is sort of sweeping in frequency. You know, the other one was so short that you basically just hear a quick. And that's about it. This one, by stretching it out and by adjusting the frequencies a little bit, it makes it a little bit clearer that you're hearing a process where the frequency is sweeping up, and it sort of colors it. It colors the sound in a way that makes it a little bit closer to the simulated GW one that you guys played at the beginning. Of this podcast, because that kind of a signal is there. It's just that it lasts so short, it's hard to pick up. And so by this post processing that they did in developing the second sound, that is how you can pull out this chirping behavior that is present in those things.",
+      "id": "ep_75_ut_73"
+    },
+    {
+      "end": 2399404,
+      "speaker": "Moritz Stefaner",
+      "start": 2392836,
+      "text": "I play all three in a row because now we have the full story. So the first one is simulated. Simulated.",
+      "id": "ep_75_ut_74"
+    },
+    {
+      "end": 2427684,
+      "speaker": "Scott Hughes",
+      "start": 2407784,
+      "text": "Let me just quickly comment. What goes into that simulation are two black holes that are relatively low mass. So when I made this, I can't remember what the exact masses were, but they were just a couple times bigger than the sun. And when they're just a couple times bigger than the sun, then they're in the band of a ligotype detector for a long time, and it takes, it takes longer for them to actually spiral and come together.",
+      "id": "ep_75_ut_75"
+    },
+    {
+      "end": 2429632,
+      "speaker": "Moritz Stefaner",
+      "start": 2428944,
+      "text": "Makes sense.",
+      "id": "ep_75_ut_76"
+    },
+    {
+      "end": 2430160,
+      "speaker": "Scott Hughes",
+      "start": 2429688,
+      "text": "Yeah.",
+      "id": "ep_75_ut_77"
+    },
+    {
+      "end": 2449044,
+      "speaker": "Moritz Stefaner",
+      "start": 2430272,
+      "text": "Now the second one, like a bassy, nice punch there. This one is more like an ultrasound. You know, like reminding me, you know, of the sort of when you observe a baby.",
+      "id": "ep_75_ut_78"
+    },
+    {
+      "end": 2482322,
+      "speaker": "Scott Hughes",
+      "start": 2450784,
+      "text": "Part of that part of that ultrasound that you're hearing there, that's actually noise in the detector. So when they put that together, they couldn't filter all the noise out. And so the detector always has that's noise. So that is indeed very much like ultrasound. When you're checking to make sure that the baby is healthy or something like that, you are kind of using something like that, using sort of high frequency radiation, high frequency sound, using that to kind of deform an image. And that's basically exactly what that is.",
+      "id": "ep_75_ut_79"
+    },
+    {
+      "end": 2502722,
+      "speaker": "Moritz Stefaner",
+      "start": 2482458,
+      "text": "Yeah, yeah, but I think that's very interesting. Like all the images, these things conjure up when you hear them, because with every sound, you sort of, you think immediately of the physical process that's generated it or what it reminds you of. Is it like a mechanical sound or an animal sound or a nature sound? You know?",
+      "id": "ep_75_ut_80"
+    },
+    {
+      "end": 2594250,
+      "speaker": "Scott Hughes",
+      "start": 2502778,
+      "text": "So, yeah, part of what is so fun about what is happening right now. And this, again, I'll make this a little bit personal. Like I said, I've been sort of doing this since 1993. And so I kind of think of what I've been doing for the past 23 years as learning to speak this language, never really knowing if nature was going to also be speaking this language, or whether I was sort of making my own constructed language here. And we are now finding that nature does apparently speak this language. If you think of these antennae as ears, we finally have gotten the ears sensitive enough that we're beginning to pick up these signals that nature is saying. And so we're really just at the beginning of the process of asking ourselves, what does nature have to say? And it's with one fully announced event and a new run about to commence, additional data that is being analyzed. It really does feel like we're at the start of something that's kind of amazing here. And the fact that we can do it in this sort of sonic language just makes it all the more fun, because ordinarily, when you go to a talk on astronomy, you go there and you expect to see pretty pictures. Well, this is something where the pretty pictures are at best, just sort of simulations, but we can play for you actual sounds of what it sounds like when these gravitational waves are sort of transformed from ripples in space time to signals that we pump into our ears. That's really cool. It's a whole new way of thinking.",
+      "id": "ep_75_ut_81"
+    },
+    {
+      "end": 2605574,
+      "speaker": "Moritz Stefaner",
+      "start": 2594282,
+      "text": "About astronomy and how is the reception and the physics community? I could imagine it's sort of a bit unusual, what you're doing. Maybe some people find it weird, or is everybody on board with that?",
+      "id": "ep_75_ut_82"
+    },
+    {
+      "end": 2663710,
+      "speaker": "Scott Hughes",
+      "start": 2605954,
+      "text": "I think everybody's pretty much on board right now. I mean, I have been using this sort of sonic language to describe the science. You know, I've been going around and giving talks in which I describe it using the sonic language for quite a while. And it was sort of cute at first. People were like, oh, look at that neat way of thinking about things. And, you know, when I would do that, this was 1012 years ago, they would look at what the sensitivity of LIGO was. They would look at how likely it was there'd be an event, and they'd say, okay, well, maybe in 15 or 20 years, we'll have Scott come and talk to us about this again. Guess what? Now we're at the stage where it turns out everything I was promising them 1015 years ago, it's coming true. And so the reception has been fantastic. It is a new way of thinking about things, but it doesn't take a lot of thought to convince yourself that it's the right way to think about it. Once you adopt that boom, you've got your toolkit, and this is how we talk about it.",
+      "id": "ep_75_ut_83"
+    },
+    {
+      "end": 2666702,
+      "speaker": "Enrico Bertini",
+      "start": 2663902,
+      "text": "Great. So do we have more sounds, Moritz?",
+      "id": "ep_75_ut_84"
+    },
+    {
+      "end": 2670914,
+      "speaker": "Moritz Stefaner",
+      "start": 2666838,
+      "text": "Yeah, I mean, we can talk about certification in general.",
+      "id": "ep_75_ut_85"
+    },
+    {
+      "end": 2675512,
+      "speaker": "Enrico Bertini",
+      "start": 2672904,
+      "text": "I mean, it's very different. It's very different.",
+      "id": "ep_75_ut_86"
+    },
+    {
+      "end": 2696400,
+      "speaker": "Moritz Stefaner",
+      "start": 2675608,
+      "text": "So we know you are super into the gravitational waves. I mean, I would be interested in. Maybe you have an intuition for. Let's. If we look at other data sets. Yeah. So, not gravitational waves. Like, what do you think for which types of data sets sonification will work well, and for which it might not work as well. Have you thought about this?",
+      "id": "ep_75_ut_87"
+    },
+    {
+      "end": 2824154,
+      "speaker": "Scott Hughes",
+      "start": 2696592,
+      "text": "Not as much. I mean, you know, my. My career has been based on gravitational waves, so that's where I've put a lot of it into things. But one of the reasons why it works for gravitational waves, waves, is that here you have a signal that is coherent in time, what is going on? That's why it's in some sense kind of like a language, right? What I say at the beginning of my sentence had better hang together with what I say at the end of my sentence, and the same way when I have gravitational waves, because physics sort of gives me a predictable system. What's going on at early times in a system informs what's going to happen at later times in the system. They all kind of hang together in this coherent fashion. And I would think any kind of a field where you sort of develop a time series in which the data has this kind of coherent evolutionary sort of process, that might be the kind of thing where something like that would be interesting to listen to. In many cases, it might just be noise like, but the statistics of the noise, trying to understand exactly what's going on with it, that could be something that communicates really interesting information. We see this, I'm going to bring it back to gravitational waves again for just a moment. We see this when we sort of use gravitational waves, or, excuse me, when we use sonifications, rather, as a way to understand the behavior of the noise in our detectors, ordinarily. So, like, for instance, when you played that sound that reminded you of an ultrasound, that hiss in the background is sort of the normal level of noise in our detectors. Every now and then, though, you hear something that kind of goes on top of that, and then you kind of go, that's not right. And, you know, you realize something has gone wrong, and you go in and you use that to actually fix your detector. I could imagine a lot of other circumstances where it's that kind of thing. You certainly hear this sort of high pitched. It's like when you're listening, let's be blunt. We all do this, right? If you have, like a car or something like that and you start hearing this weird squeaky wiggle when you're driving at a particular speed, you kind of go, huh, okay, that didn't happen before. Does that mean I'm about to drop my transmission on the highway? You know, so, you know, that kind of diagnosis, listening for something unusual that is unexpected and that is presumably communicating something to you about what's going on? I imagine there's lots of circumstances where that actually comes up. Yeah.",
+      "id": "ep_75_ut_88"
+    },
+    {
+      "end": 2867446,
+      "speaker": "Moritz Stefaner",
+      "start": 2824234,
+      "text": "That's very interesting because sound can also work in the periphery. Like, visuals are often very dominating and grab your attention, and sound might work fine for peripheral perception. So there's one project I can play to you. It's called listen to Wikipedia. I think it's a bit along these lines. And the music you hear is actually based on sound collage, on real time editing events. And whenever a page is created, it's a big sound, and when there's a little edit, there's a small sound. I think the pitch also means something. So everything means something, but you don't have to decipher it.",
+      "id": "ep_75_ut_89"
+    },
+    {
+      "end": 2873544,
+      "speaker": "Scott Hughes",
+      "start": 2867590,
+      "text": "That's really interesting. So the idea is every time there's a particular kind of an event, they associate it with.",
+      "id": "ep_75_ut_90"
+    },
+    {
+      "end": 2875640,
+      "speaker": "Enrico Bertini",
+      "start": 2873624,
+      "text": "Yeah. Wow.",
+      "id": "ep_75_ut_91"
+    },
+    {
+      "end": 2876816,
+      "speaker": "Scott Hughes",
+      "start": 2875672,
+      "text": "What the hell is that?",
+      "id": "ep_75_ut_92"
+    },
+    {
+      "end": 2882760,
+      "speaker": "Moritz Stefaner",
+      "start": 2877000,
+      "text": "Oh, there's a new user. So new users have dramatic sounds. Yeah, yeah.",
+      "id": "ep_75_ut_93"
+    },
+    {
+      "end": 2883604,
+      "speaker": "Scott Hughes",
+      "start": 2882912,
+      "text": "Wow.",
+      "id": "ep_75_ut_94"
+    },
+    {
+      "end": 2898784,
+      "speaker": "Moritz Stefaner",
+      "start": 2884184,
+      "text": "And you can. I could imagine you let that run, but when there's something strange happening, like a lot of people edit the same page at the same time, you might hear that and. Right then you might want to look that up, but it's probably too hard to decipher event by event. Yeah.",
+      "id": "ep_75_ut_95"
+    },
+    {
+      "end": 2909860,
+      "speaker": "Scott Hughes",
+      "start": 2899364,
+      "text": "If you are someone who's responsible for some block of pages, I can imagine just having this in the background and you suddenly hear a cacophony of all these things kind of happening. You sort of go, oh, no. What just happened?",
+      "id": "ep_75_ut_96"
+    },
+    {
+      "end": 2911028,
+      "speaker": "Moritz Stefaner",
+      "start": 2909892,
+      "text": "You know, and then you say you're.",
+      "id": "ep_75_ut_97"
+    },
+    {
+      "end": 2920024,
+      "speaker": "Scott Hughes",
+      "start": 2911036,
+      "text": "The person who's in charge of, like the. Yeah. If you're in charge of the Donald Trump Wikipedia page or something like that. And then you realize, I need to. What just happened?",
+      "id": "ep_75_ut_98"
+    },
+    {
+      "end": 2923304,
+      "speaker": "Enrico Bertini",
+      "start": 2922084,
+      "text": "Yeah, yeah, yeah.",
+      "id": "ep_75_ut_99"
+    },
+    {
+      "end": 2971290,
+      "speaker": "Moritz Stefaner",
+      "start": 2923844,
+      "text": "Then we have another great example from the New York Times. And this goes more in the first direction of what you said, actual discrete events over time and something that unfolds over time. And it's also real time, which also makes a lot of sense. If the timescale is realistic, it's about sports results. And it was in the 2010 Olympics, and they visualized or sonified all the different and ski races and bobsled and so on, how close everybody was behind the winner. Right. And so you could quickly see and hear, I'll play a few. So this is women's downhill. So they were first two. Like, these were fairly close. A big break. And then two in very close succession.",
+      "id": "ep_75_ut_100"
+    },
+    {
+      "end": 2971562,
+      "speaker": "Scott Hughes",
+      "start": 2971322,
+      "text": "Yeah.",
+      "id": "ep_75_ut_101"
+    },
+    {
+      "end": 2977140,
+      "speaker": "Moritz Stefaner",
+      "start": 2971618,
+      "text": "Like, and so these last two are actually very close together.",
+      "id": "ep_75_ut_102"
+    },
+    {
+      "end": 2978744,
+      "speaker": "Scott Hughes",
+      "start": 2977322,
+      "text": "Yeah, yeah. Practically on top of each other.",
+      "id": "ep_75_ut_103"
+    },
+    {
+      "end": 2994244,
+      "speaker": "Moritz Stefaner",
+      "start": 2978784,
+      "text": "Yeah. Then there's man's downhill super close. You know, everybody's super close together. Yeah. Women's skeleton. And you quickly get a sense of, like, the texture of this race. Right.",
+      "id": "ep_75_ut_104"
+    },
+    {
+      "end": 3004688,
+      "speaker": "Scott Hughes",
+      "start": 2996344,
+      "text": "What's wonderful is this really helps to illustrate the way in which sound just engages such a different part of your brain than pictures might.",
+      "id": "ep_75_ut_105"
+    },
+    {
+      "end": 3005324,
+      "speaker": "Enrico Bertini",
+      "start": 3004736,
+      "text": "Yeah.",
+      "id": "ep_75_ut_106"
+    },
+    {
+      "end": 3034646,
+      "speaker": "Scott Hughes",
+      "start": 3006354,
+      "text": "You really get a visceral sense of how close some of these things finish. When you do it like that, it traces back to what that neuroscience graduate student told me 20 some years ago. This idea that you have this wonderful filter for picking out patterns, that your ear is wonderful at discriminating these things very precisely, and then your brain can pick out these patterns really, really clearly, and this just gives a whole other dimension to it. When you play me those, you know, the skeleton results, for example. That's really cool.",
+      "id": "ep_75_ut_107"
+    },
+    {
+      "end": 3041350,
+      "speaker": "Moritz Stefaner",
+      "start": 3034790,
+      "text": "And I think you pick out different things than individuals. I think that's the interesting thing that's so complementary.",
+      "id": "ep_75_ut_108"
+    },
+    {
+      "end": 3041774,
+      "speaker": "Scott Hughes",
+      "start": 3041422,
+      "text": "Yeah.",
+      "id": "ep_75_ut_109"
+    },
+    {
+      "end": 3049334,
+      "speaker": "Enrico Bertini",
+      "start": 3041854,
+      "text": "I was just about to say that anything that is dynamic seems to fit sound pretty well, right?",
+      "id": "ep_75_ut_110"
+    },
+    {
+      "end": 3079004,
+      "speaker": "Scott Hughes",
+      "start": 3049494,
+      "text": "Very much, yes. You know what? I think that's the key. Dynamics. Dynamics really allows you to develop a dynamic for all sorts of systems, is really about understanding how something is changing and evolving through time. And this, you know, the ear is such a good. I mean, music is all about that. Right? And so the ear is so tuned to pick up that kind of thing that it really imparts this kind of linguistic, musical way of thinking about scientific data that, I don't know, I feel like it's underutilized.",
+      "id": "ep_75_ut_111"
+    },
+    {
+      "end": 3098754,
+      "speaker": "Enrico Bertini",
+      "start": 3079084,
+      "text": "Yeah. And it also has a much stronger. My sense is that it has a much stronger emotional impact as well. I don't know why, I don't know enough about it, but my guess is that the emotional centers are much more. Have a much direct connection to sound than vision.",
+      "id": "ep_75_ut_112"
+    },
+    {
+      "end": 3121126,
+      "speaker": "Scott Hughes",
+      "start": 3099614,
+      "text": "It certainly, I was on a flight a couple of months ago, and there was a one week old baby on the plane. And when the baby woke up, it emitted this unique cry that only newborns make. Everyone who was a parent just jumped out of their seat and at that point sort of turned around and looked, especially their. Yeah, yeah, exactly, exactly.",
+      "id": "ep_75_ut_113"
+    },
+    {
+      "end": 3124886,
+      "speaker": "Enrico Bertini",
+      "start": 3121190,
+      "text": "It was just that dreadful sound skips.",
+      "id": "ep_75_ut_114"
+    },
+    {
+      "end": 3130958,
+      "speaker": "Scott Hughes",
+      "start": 3124910,
+      "text": "The brain, just goes straight to the spinal cord, and it just engages those reflexes and says, uh oh, I need to help out here.",
+      "id": "ep_75_ut_115"
+    },
+    {
+      "end": 3132354,
+      "speaker": "Enrico Bertini",
+      "start": 3131006,
+      "text": "Yeah, yeah, yeah, yeah.",
+      "id": "ep_75_ut_116"
+    },
+    {
+      "end": 3166500,
+      "speaker": "Moritz Stefaner",
+      "start": 3133934,
+      "text": "So here's the last example we can listen to. It's the development of the us home prices. And let's listen to how NPR solidified that. So they actually get an Oprah singer to interpret basically the line chart. And they also have a version with lyrics. So with annotations, basically. 1 second.",
+      "id": "ep_75_ut_117"
+    },
+    {
+      "end": 3169116,
+      "speaker": "Scott Hughes",
+      "start": 3166592,
+      "text": "Can I ask, what time period does this span?",
+      "id": "ep_75_ut_118"
+    },
+    {
+      "end": 3175024,
+      "speaker": "Moritz Stefaner",
+      "start": 3169260,
+      "text": "Let me look it up. I think the last ten years, 2001 to 2011.",
+      "id": "ep_75_ut_119"
+    },
+    {
+      "end": 3176504,
+      "speaker": "Scott Hughes",
+      "start": 3175644,
+      "text": "Okay.",
+      "id": "ep_75_ut_120"
+    },
+    {
+      "end": 3183652,
+      "speaker": "Moritz Stefaner",
+      "start": 3177084,
+      "text": "And there's versions for different cities and so on. So it's a whole album basically. And here's the one with lyrics, with annotations.",
+      "id": "ep_75_ut_121"
+    },
+    {
+      "end": 3191704,
+      "speaker": "Scott Hughes",
+      "start": 3183748,
+      "text": "The subprime lending industry combined with mortgage backed securities to creative massive house in the United States.",
+      "id": "ep_75_ut_122"
+    },
+    {
+      "end": 3197184,
+      "speaker": "Enrico Bertini",
+      "start": 3192084,
+      "text": "When the bubble popped, home prices fell 30%.",
+      "id": "ep_75_ut_123"
+    },
+    {
+      "end": 3208076,
+      "speaker": "Moritz Stefaner",
+      "start": 3202364,
+      "text": "So you can even add, you know, text annotations, add context so you can.",
+      "id": "ep_75_ut_124"
+    },
+    {
+      "end": 3212132,
+      "speaker": "Enrico Bertini",
+      "start": 3208100,
+      "text": "See it's a whole space. It's a whole space. I think it's so unexplored.",
+      "id": "ep_75_ut_125"
+    },
+    {
+      "end": 3221424,
+      "speaker": "Scott Hughes",
+      "start": 3212228,
+      "text": "I mean, it really is. I worry about that last one, though. People are going to expect me to start singing in my colloquia. I may need a new line of work.",
+      "id": "ep_75_ut_126"
+    },
+    {
+      "end": 3223644,
+      "speaker": "Enrico Bertini",
+      "start": 3222824,
+      "text": "Yeah.",
+      "id": "ep_75_ut_127"
+    },
+    {
+      "end": 3227564,
+      "speaker": "Moritz Stefaner",
+      "start": 3225544,
+      "text": "You will need a band at some point.",
+      "id": "ep_75_ut_128"
+    },
+    {
+      "end": 3230624,
+      "speaker": "Scott Hughes",
+      "start": 3227904,
+      "text": "Yeah, exactly. I'm gonna have to travel with a backing band.",
+      "id": "ep_75_ut_129"
+    },
+    {
+      "end": 3261416,
+      "speaker": "Moritz Stefaner",
+      "start": 3230784,
+      "text": "Scott and the gravitational waves. Very good. Yeah. I'm so glad this worked out as well. And we were waiting for a long time to do the sonification episode. Basically, this card has been on our stack from day one and we never found a good way into it. And when I saw a feature on the announcement and your work, I was immediately like, okay, that's it. This is the work.",
+      "id": "ep_75_ut_130"
+    },
+    {
+      "end": 3307728,
+      "speaker": "Scott Hughes",
+      "start": 3261440,
+      "text": "Well, that's fantastic. I'm thrilled I was able to contribute to this. I mean, this really is. I think it's an unexplored corner of how one, or not unexplored, but underexplored corner of how one can present data. And it's so natural for gravitational waves. But I think as those last couple examples you played show, you can do it with a lot of other things too. And, you know, I think you kind of nailed it with the idea that what you're really looking at here is dynamics. It's such a beautiful way to present the dynamical evolution of so many different kinds of things. So, you know, when you are, when you're doing data visualizations for people, think about ways that you can, maybe you need to get some synthesizers and start thinking about the ways to sonify it as well.",
+      "id": "ep_75_ut_131"
+    },
+    {
+      "end": 3324464,
+      "speaker": "Moritz Stefaner",
+      "start": 3307926,
+      "text": "And dear listeners, if you have any good examples of sonifications, send them to us. We might feature them on the show. We could have like one cool sonification per show, I wouldn't mind. So now that this whole world is open, let's keep exploring it.",
+      "id": "ep_75_ut_132"
+    },
+    {
+      "end": 3325916,
+      "speaker": "Scott Hughes",
+      "start": 3325164,
+      "text": "Wonderful.",
+      "id": "ep_75_ut_133"
+    },
+    {
+      "end": 3327876,
+      "speaker": "Moritz Stefaner",
+      "start": 3326020,
+      "text": "Thanks so much, Scott. This was amazing.",
+      "id": "ep_75_ut_134"
+    },
+    {
+      "end": 3329324,
+      "speaker": "Enrico Bertini",
+      "start": 3327940,
+      "text": "And let us know how you like.",
+      "id": "ep_75_ut_135"
+    },
+    {
+      "end": 3353056,
+      "speaker": "Scott Hughes",
+      "start": 3329364,
+      "text": "It, this was a lot of fun. I really appreciate having a chance to participate in all this. You know, you guys come from a different perspective. And so for me, you know, I'm a professor. I love talking about my work. Right? So, yeah, seeing your excitement and, you know, getting another example of how this can communicate, this excitement, the thing that has me so excited and allowing me to convey that to you guys to some extent has been wonderful for me.",
+      "id": "ep_75_ut_136"
+    },
+    {
+      "end": 3354320,
+      "speaker": "Moritz Stefaner",
+      "start": 3353080,
+      "text": "Fantastic work. Thank you.",
+      "id": "ep_75_ut_137"
+    },
+    {
+      "end": 3357128,
+      "speaker": "Enrico Bertini",
+      "start": 3354352,
+      "text": "Thanks so much, Scott. That's been amazing. Thank you.",
+      "id": "ep_75_ut_138"
+    },
+    {
+      "end": 3358240,
+      "speaker": "Scott Hughes",
+      "start": 3357256,
+      "text": "All right, bye.",
+      "id": "ep_75_ut_139"
+    },
+    {
+      "end": 3359320,
+      "speaker": "Enrico Bertini",
+      "start": 3358312,
+      "text": "Take care. Bye bye.",
+      "id": "ep_75_ut_140"
+    },
+    {
+      "end": 3360164,
+      "speaker": "Scott Hughes",
+      "start": 3359392,
+      "text": "Bye now.",
+      "id": "ep_75_ut_141"
+    },
+    {
+      "end": 3372760,
+      "speaker": "Enrico Bertini",
+      "start": 3363104,
+      "text": "Hey, guys, thanks for listening to data stories again. Before you leave, we have a request. If you can spend a couple of minutes rating us on iTunes, that would be extremely helpful for the show.",
+      "id": "ep_75_ut_142"
+    },
+    {
+      "end": 3403552,
+      "speaker": "Moritz Stefaner",
+      "start": 3372872,
+      "text": "And here's also some information on the many ways you can get news directly from us. We're, of course, on twitter@twitter.com. Datastories. We have a Facebook page@Facebook.com. datastoriespodcast. All in one word. And we also have an email newsletter. So if you want to get news directly into your inbox and be notified whenever we publish an episode, you can go to our homepage datastory es and look for the link that you find on the bottom in the footer.",
+      "id": "ep_75_ut_143"
+    },
+    {
+      "end": 3415656,
+      "speaker": "Enrico Bertini",
+      "start": 3403648,
+      "text": "So one last thing that we want to tell you is that we love to get in touch with our listeners, especially if you want to suggest a way to improve the show or amazing people you want us to invite or even projects you want us to talk about.",
+      "id": "ep_75_ut_144"
+    },
+    {
+      "end": 3424994,
+      "speaker": "Moritz Stefaner",
+      "start": 3415760,
+      "text": "Yeah, absolutely. So don't hesitate to get in touch with us. It's always a great thing for us. And that's all for now. See you next time, and thanks for listening to data stories.",
+      "id": "ep_75_ut_145"
+    },
+    {
+      "end": 3457744,
+      "speaker": "Enrico Bertini",
+      "start": 3428334,
+      "text": "This episode is sponsored by CartoDB. CartoDB is an open, powerful, and intuitive platform for discovering and predicting the key facts underlying the massive location data in our world. With CartoDB, analyzing and designing beautifully insightful maps has never been easier. Check out incredible location intelligence projects and get started for free@CartoDB.com. gallery that's CartoDB.com gallery.",
+      "id": "ep_75_ut_146"
+    }
+  ],
+  "confidence": 0.933482672865762,
+  "audio_duration": 3458,
+  "punctuate": true,
+  "format_text": true,
+  "dual_channel": false,
+  "webhook_url": null,
+  "webhook_status_code": null,
+  "webhook_auth": false,
+  "webhook_auth_header_name": null,
+  "speed_boost": false,
+  "auto_highlights_result": null,
+  "auto_highlights": false,
+  "audio_start_from": null,
+  "audio_end_at": null,
+  "word_boost": [],
+  "boost_param": null,
+  "filter_profanity": false,
+  "redact_pii": false,
+  "redact_pii_audio": false,
+  "redact_pii_audio_quality": null,
+  "redact_pii_policies": null,
+  "redact_pii_sub": null,
+  "speaker_labels": true,
+  "content_safety": false,
+  "iab_categories": true,
+  "content_safety_labels": {
+    "status": "unavailable",
+    "results": [],
+    "summary": {}
+  },
+  "language_detection": false,
+  "language_detection_threshold": null,
+  "language_confidence": null,
+  "custom_spelling": null,
+  "throttled": false,
+  "auto_chapters": true,
+  "summarization": false,
+  "summary_type": null,
+  "summary_model": null,
+  "custom_topics": false,
+  "topics": [],
+  "speech_threshold": null,
+  "speech_model": "best",
+  "chapters": [
+    {
+      "summary": "CartoDB is an open, powerful and intuitive platform for discovering and predicting the key facts underlying the massive location data in our world. With CartoDB, you can design and analyze beautiful and insightful maps. This episode is sponsored by CartoDB.",
+      "gist": "CartoDB",
+      "headline": "CartoDB is an open, powerful, and intuitive platform for location data analysis",
+      "start": 200,
+      "end": 27514,
+      "id": "ep_75_ch_0"
+    },
+    {
+      "summary": "For all of you on Android. We are now in Google Play, at least in the United States, soon, also elsewhere. And we also have a slack channel, and it's kind of nice. If you didn't write a review for the show on iTunes, please do it.",
+      "gist": "Data Stories",
+      "headline": "Data stories is now in Google Play, at least in the United States",
+      "start": 27674,
+      "end": 124722,
+      "id": "ep_75_ch_1"
+    },
+    {
+      "summary": "We have a sonification episode, so we're gonna talk about using sound to represent data. And we have a very special guest for this episode. Scott Hughes, directly from MIT, will talk about LIGO and gravitational waves.",
+      "gist": "Using Sound to Represent Data",
+      "headline": "We have a sonification episode, so we're talking about using sound to represent data",
+      "start": 124818,
+      "end": 183272,
+      "id": "ep_75_ch_2"
+    },
+    {
+      "summary": "Scott Bennett is a professor at MIT. His research is in astrophysics. LIGO stands for the laser interferometer gravitational wave observatory. Bennett gives us a mini lecture on gravitational waves and LIGO.",
+      "gist": "Gravitational waves: The science",
+      "headline": "Scott Anderson is a professor of astrophysics at MIT working on gravitational waves",
+      "start": 183448,
+      "end": 638474,
+      "id": "ep_75_ch_3"
+    },
+    {
+      "summary": "They were actually in sort of a mode where they were. Everything was working perfectly. For the first time, there was this data collected, and of course, now. Wow. Fantastic.",
+      "gist": "The first test",
+      "headline": "They were actually in sort of a mode where they were. They were running, everything was working perfectly",
+      "start": 638594,
+      "end": 667782,
+      "id": "ep_75_ch_4"
+    },
+    {
+      "summary": "LZ: How do you turn the signal into an audio file? LZ: For years, many of us were thinking what is the best way to pull these signals out of the noise. A neuroscience graduate student suggested using computational neural networks. That's how sonification of gravitational waves was born.",
+      "gist": "For Gravitational waves, computational sonification",
+      "headline": "You've been working on sonification of gravitational waves since 1993",
+      "start": 667838,
+      "end": 1068480,
+      "id": "ep_75_ch_5"
+    },
+    {
+      "summary": "Let's play three simulated ones, and then let's listen to one of the ones that actually comes from what the universe has for us. What's exciting about this is it really demonstrates the way in which, if you do those two sounds side by side, they sound nothing alike.",
+      "gist": "Black Hole Sounds in the Universe",
+      "headline": "Let's play three simulated ones, and then let's listen to one that actually comes from the universe",
+      "start": 1068512,
+      "end": 1565494,
+      "id": "ep_75_ch_6"
+    },
+    {
+      "summary": "There is no artificial shifting of frequencies or stretching of time that was done here. That is being played exactly as the detectors picked it up. Different systems sound different. Every source has sort of a different voice and it's got a different vocabulary.",
+      "gist": "Gravitational Wave Analysis",
+      "headline": "Scott: The gravitational waves are played exactly as detectors pick them up",
+      "start": 1566714,
+      "end": 2005234,
+      "id": "ep_75_ch_7"
+    },
+    {
+      "summary": "Deep Insights is a product that allows you to explore massive geo located datasets interactively by using dynamic filtering and drill down mechanisms. This is a very powerful method to discover outliers, find unseen correlations, and more.",
+      "gist": "Coffee 2 DB: Deep Insights",
+      "headline": "Deep Insights allows you to explore massive geo located datasets interactively",
+      "start": 2005614,
+      "end": 2071463,
+      "id": "ep_75_ch_8"
+    },
+    {
+      "summary": "In a way, what you are doing is that in the lab, you are simulating certain events. And then you're using this vocabulary to detect, once again with your ears, the real event, which should sound the same way. What if our simulations were wrong?",
+      "gist": "Computations and the science of hearing",
+      "headline": "You build vocabulary through your simulations, right? That's right. And then you're using this vocabulary to detect real event",
+      "start": 2072363,
+      "end": 2113774,
+      "id": "ep_75_ch_9"
+    },
+    {
+      "summary": "LIGO's discovery is only based on an analysis of 16 days of data. There's another roughly 30 days that they've analyzed, or I should say they are analyzing. Can we go out and find these things using something that doesn't build as much modeling into this?",
+      "gist": "LIGO's gravitational blip",
+      "headline": "LIGO detected gravitational wave on September 14 without using sophisticated modeling",
+      "start": 2114154,
+      "end": 2392708,
+      "id": "ep_75_ch_10"
+    },
+    {
+      "summary": "Scott Moritz: We can play for you actual sounds of what it sounds like when these gravitational waves are transformed from ripples in space time to signals that we pump into our ears. He says using this sort of sonic language to describe the science is a new way of thinking about astronomy. Moritz asks: Is everybody on board with that?",
+      "gist": "Gravitational waves in astronomy",
+      "headline": "Scott Moritz has been simulating gravitational waves since 1993",
+      "start": 2392836,
+      "end": 2675512,
+      "id": "ep_75_ch_11"
+    },
+    {
+      "summary": "The scientist's career has been based on gravitational waves. What do you think for which types of data sets sonification will work well, and for which it might not work as well? In many cases, it might just be noise like, but statistics of the noise could be something that communicates really interesting information.",
+      "gist": "In the Elevator With Gravitational Waves",
+      "headline": "Sonification works well for gravitational waves, but other data sets might not",
+      "start": 2675608,
+      "end": 2753094,
+      "id": "ep_75_ch_12"
+    },
+    {
+      "summary": "We see this when we sort of use gravitational waves, or, excuse me, when we use sonifications to understand the behavior of the noise in our detectors. Sound can also work in the periphery. Sound might work fine for peripheral perception.",
+      "gist": "Can Sound Tell Us About the Brain?",
+      "headline": "Sound can also work in the periphery, which is interesting",
+      "start": 2753754,
+      "end": 3112910,
+      "id": "ep_75_ch_13"
+    },
+    {
+      "summary": "Scott: Here's the last example we can listen to. It's the development of the us home prices. You can even add, you know, text annotations, add context so you can. If you have any good examples of sonifications, send them to us.",
+      "gist": "Scott and the Gravitational Waves",
+      "headline": "Scott Miller: Sonification is an unexplored corner of how data can be presented",
+      "start": 3113102,
+      "end": 3365896,
+      "id": "ep_75_ch_14"
+    },
+    {
+      "summary": "If you can spend a couple of minutes rating us on iTunes, that would be extremely helpful for the show. Here's also some information on the many ways you can get news directly from us. We love to get in touch with our listeners, and if you want to suggest a way to improve the show, don't hesitate.",
+      "gist": "Data Stories",
+      "headline": "If you can spend a couple of minutes rating us on iTunes, that would be extremely helpful",
+      "start": 3366040,
+      "end": 3424994,
+      "id": "ep_75_ch_15"
+    },
+    {
+      "summary": "This episode is sponsored by CartoDB. CartoDB is an open, powerful, and intuitive platform for discovering and predicting the key facts underlying the massive location data. With CartoDB, analyzing and designing beautifully insightful maps has never been easier.",
+      "gist": "CartoDB",
+      "headline": "CartoDB is an open-source platform for analyzing and predicting location data",
+      "start": 3428334,
+      "end": 3457744,
+      "id": "ep_75_ch_16"
+    }
+  ],
+  "disfluencies": false,
+  "entity_detection": false,
+  "sentiment_analysis": false,
+  "sentiment_analysis_results": null,
+  "entities": null,
+  "speakers_expected": null,
+  "summary": null,
+  "custom_topics_results": null,
+  "episode_num": 75,
+  "episode_metadata": {
+    "speakers": [
+      "Scott Hughes",
+      "Enrico Bertini",
+      "Moritz Stefaner"
+    ],
+    "WPid": "620",
+    "url": "https://datastori.es/podlove/file/2381/s/feed/c/mp3/75-sonification-scott-hughes.mp3",
+    "episode_title": "Listening to Data From Space with Scott Hughes"
+  }
+}

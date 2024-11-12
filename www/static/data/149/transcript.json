@@ -1,0 +1,800 @@
+{
+  "id": "08beac59-bb9b-4b05-b94c-d756e42ee836",
+  "language_model": "assemblyai_default",
+  "acoustic_model": "assemblyai_default",
+  "language_code": "en_us",
+  "status": "completed",
+  "audio_url": "https://datastori.es/podlove/file/5800/s/feed/c/mp3/149-xkcd-or-the-art-of-data-storytelling-with-web-cartoons.mp3",
+  "utterances": [
+    {
+      "end": 13370,
+      "speaker": "Randall Munroe",
+      "start": 160,
+      "text": "People are going to see overall what's happening here, but then I want it to be fun for them to look at every individual part and they'll see something that surprises them or something interesting or something new. And I sort of wanted it to be a thing that you had to explore.",
+      "id": "ep_149_ut_0"
+    },
+    {
+      "end": 59230,
+      "speaker": "Moritz Stefaner",
+      "start": 33050,
+      "text": "Hi, everyone. Welcome to a new episode of data stories. My name is Moritz Stefaner, and I'm an independent designer of data visualizations. In fact, I work as a self employed truth and beauty operator out of my office here in the countryside in the north of Germany. And usually I record this podcast together with Enrico Bertini. He's a professor at NYU in New York. But unfortunately today he could not join us. But Sandra Reentgen is my co host. Hi, Sandra.",
+      "id": "ep_149_ut_1"
+    },
+    {
+      "end": 68878,
+      "speaker": "Enrico Bertini",
+      "start": 59530,
+      "text": "Hi, Moritz. Yes, I'm based in Berlin and I'm an author and wiz researcher and I, I currently lead the design team at Berlin based infographics group and we're doing the show together today.",
+      "id": "ep_149_ut_2"
+    },
+    {
+      "end": 80766,
+      "speaker": "Moritz Stefaner",
+      "start": 68974,
+      "text": "Right. Very much looking forward to that. On this podcast we talk about data visualization, data analysis, and generally the role data plays in our lives. And usually we also do that with a guest we invite on the show.",
+      "id": "ep_149_ut_3"
+    },
+    {
+      "end": 91656,
+      "speaker": "Enrico Bertini",
+      "start": 80918,
+      "text": "Yes, and this time we have the creator of the legendary webcomic XKCD, Randall Munro. On the show we talked about the relation of cartoons and data visualizations, also.",
+      "id": "ep_149_ut_4"
+    },
+    {
+      "end": 95216,
+      "speaker": "Moritz Stefaner",
+      "start": 91688,
+      "text": "The tension between simplicity and complexity in his work.",
+      "id": "ep_149_ut_5"
+    },
+    {
+      "end": 97568,
+      "speaker": "Enrico Bertini",
+      "start": 95368,
+      "text": "We asked Randall about his work process.",
+      "id": "ep_149_ut_6"
+    },
+    {
+      "end": 100380,
+      "speaker": "Moritz Stefaner",
+      "start": 97704,
+      "text": "And how to be inventive in this web browser environment.",
+      "id": "ep_149_ut_7"
+    },
+    {
+      "end": 108552,
+      "speaker": "Enrico Bertini",
+      "start": 100760,
+      "text": "And finally, we touched upon our favorite cartoon by Randall, the favorite map projection piece and what it tells about him.",
+      "id": "ep_149_ut_8"
+    },
+    {
+      "end": 135014,
+      "speaker": "Moritz Stefaner",
+      "start": 108656,
+      "text": "Right. So super excited to have him on in a second. But before we start, just a quick note. Our podcast is listener supported. That means there are no ads, but that also means if you do enjoy the show, you could consider supporting us. You can do this with recurring payments on patreon.com Datastories, or you can send us a one time donation on Paypal me Datastories. Anyways, let's get started and bring Randall on the show.",
+      "id": "ep_149_ut_9"
+    },
+    {
+      "end": 137054,
+      "speaker": "Enrico Bertini",
+      "start": 135142,
+      "text": "Hi Randall. Welcome on the show.",
+      "id": "ep_149_ut_10"
+    },
+    {
+      "end": 138814,
+      "speaker": "Moritz Stefaner",
+      "start": 137182,
+      "text": "Hi Randall. Great to have you on.",
+      "id": "ep_149_ut_11"
+    },
+    {
+      "end": 140814,
+      "speaker": "Randall Munroe",
+      "start": 138902,
+      "text": "Thanks so much for having me. It's wonderful to be here.",
+      "id": "ep_149_ut_12"
+    },
+    {
+      "end": 153370,
+      "speaker": "Enrico Bertini",
+      "start": 140902,
+      "text": "Thanks very much. Randall is the mastermind behind the web cartoon series XKCD and this one really has a legendary status online. Can you tell us a little bit about yourself just to get started?",
+      "id": "ep_149_ut_13"
+    },
+    {
+      "end": 266968,
+      "speaker": "Randall Munroe",
+      "start": 153530,
+      "text": "Sure. I did a degree in physics in university, and then after that I worked for a little while on robots at NASA Research center. That was near my university. And then while I was doing that, though, I was also posting comics online, and they were really just started off as doodles that I've been drawing in my notebooks, and I scanned them in and put them in a folder on my website so people could look at them. But then people started saying, you know, sending them around to each other. And I said, oh, if people like these, I can keep posting these. I discovered that when I did comics about scientific topics or the stuff that I'd been studying in school or that I was working on, people started writing into me to settle arguments that they were having. Like, they would say, me and my friend have been arguing about, could Superman go fast enough to catch this thing? But would it destroy the atmosphere if you blah, blah? You know, they would ask these complicated scientific questions, but they would all be saying, you know, we've been arguing over this and we can't settle it, but it doesn't seem important enough to bother a real scientist with. And so we thought we'd write to you. And I could have been a little bit insulted, I guess, but mostly I would just hear the question. I would say, well, now I want to know the answer, too. And so I'd sit down and do, like, 6 hours of research and then get an answer. But they would have sent me a message on an instant messaging program or something, and then I'd go to send it back to them, oh, they've disconnected. They're not there anymore. And I would think, well, I did all this work to try to answer this question because I was curious and I should do something with this. And so I put up a call on my website where I asked people submit their questions and started writing up my answers to them, and it turned out to be really fun. I had a lot of fun trying to do research and figure out these topics and then explain them to people in kind of a fun, simple way. I mean, that's what got me started, writing books.",
+      "id": "ep_149_ut_14"
+    },
+    {
+      "end": 269504,
+      "speaker": "Moritz Stefaner",
+      "start": 267064,
+      "text": "So you started out as a private data investigator.",
+      "id": "ep_149_ut_15"
+    },
+    {
+      "end": 296880,
+      "speaker": "Randall Munroe",
+      "start": 269552,
+      "text": "You could say, yes, exactly. Exactly. But for a very good rate because I didn't charge anything. They would just write to me. And then suddenly, even if the thing I had to do that day was really important, when I hear a really interesting question, I feel like it's sort of like when you get a song stuck in your head and you can't stop thinking about it. So I could have something really important I had to do that day, but I would drop everything and just work on this question, and then you're hooked, sort of.",
+      "id": "ep_149_ut_16"
+    },
+    {
+      "end": 301520,
+      "speaker": "Enrico Bertini",
+      "start": 296920,
+      "text": "And that's probably how you started writing books as well, right? So you've published a few books and.",
+      "id": "ep_149_ut_17"
+    },
+    {
+      "end": 302224,
+      "speaker": "Randall Munroe",
+      "start": 301600,
+      "text": "Yeah, exactly.",
+      "id": "ep_149_ut_18"
+    },
+    {
+      "end": 316728,
+      "speaker": "Enrico Bertini",
+      "start": 302272,
+      "text": "So just out is how to absurd scientific advice for common real world problems, which has just appeared in the US and the UK and also in Sweden and Netherlands and Germany. So, yeah, tell us a little bit about it.",
+      "id": "ep_149_ut_19"
+    },
+    {
+      "end": 423740,
+      "speaker": "Randall Munroe",
+      "start": 316784,
+      "text": "Yeah, well, I am always. I'm someone who, whenever I have a task to do, especially if it's really repetitive or boring or difficult in some way, I am always trying to think of another way I could do it that would save me time or effort. And it's a combination of laziness and extreme industriousness. I'll think, okay, this task takes me five minutes. It's five minutes that's really boring, and I don't like doing it. So maybe if I build this machine or do this analysis or write this software, it'll be more difficult to get it working. But then once it gets working, I don't have to do the five minute task anymore. Whenever I stop and think about it, I know that my solutions are never. It never actually saves me time. I think that in my. It feels like in my entire life, probably, I've spent 100 times more time trying to save time on things than I have actually saved. If I had just done everything the simple way, it would have been better. But I really like analyzing when you have an idea that's really strange or really like, well, that wouldn't work, would it? An idea that seems ridiculous. It's not always easy to tell for sure whether it's ridiculous or nothing, because there are ideas that seem really great and then turn out not to work for some surprising reason that you wouldn't have anticipated if you didn't think through it carefully. And then the other way around, there are some ideas that seem really terrible and then turn out to be really good. I mean, just when I learned where antibiotics come from, it was like, you grow mold and then you use that mold, and if you have a cut, you can smear the mold on a cut and it gets better.",
+      "id": "ep_149_ut_20"
+    },
+    {
+      "end": 424196,
+      "speaker": "Enrico Bertini",
+      "start": 423820,
+      "text": "Yeah.",
+      "id": "ep_149_ut_21"
+    },
+    {
+      "end": 448116,
+      "speaker": "Randall Munroe",
+      "start": 424268,
+      "text": "And that seems obviously like a bad idea to me. But then I also love their examples of ideas that sounded really good and then turned out to have some consequence that we didn't think about. Like, adding lead to gasoline seemed like a good idea because it would make the engines run better, it would reduce wear and tear. It would make them. But then it turned out to poison the atmosphere.",
+      "id": "ep_149_ut_22"
+    },
+    {
+      "end": 448964,
+      "speaker": "Enrico Bertini",
+      "start": 448228,
+      "text": "Oh, I see.",
+      "id": "ep_149_ut_23"
+    },
+    {
+      "end": 469452,
+      "speaker": "Randall Munroe",
+      "start": 449052,
+      "text": "Or the stuff that we added to coolants for refrigeration and aerosols and stuff. The chlorofluorocarbons those turned out to destroy the ozone layer. And that was one guy who had both those ideas. They both sounded really great. It was the same person. And then they both ended up almost destroying the planet.",
+      "id": "ep_149_ut_24"
+    },
+    {
+      "end": 498118,
+      "speaker": "Enrico Bertini",
+      "start": 469516,
+      "text": "Yeah, but what was really nice, looking into the book and reading these things is like this exact thing that you just keep on going with a question. You just sort of. I think many people would just sort of stop rather early when they think, like, it sounds absurd. Why should I even bother to investigate the thing? And what I really liked was, like, you just kept on going and just turned it into this complete investigation that really sort of figured everything, every aspect of the question.",
+      "id": "ep_149_ut_25"
+    },
+    {
+      "end": 535282,
+      "speaker": "Randall Munroe",
+      "start": 498214,
+      "text": "Well, the nice thing about coming up with weird solutions, the thing is, often you'll have a solution that might solve the original problem, but it'll create a whole bunch of new problems. And then I have all these new problems to solve, so I solve them. And the first one of those I try to solve, oh, you know, this has opened up some new questions to answer. And so sometimes if I come up with an idea and it is actually kind of easy to solve, or someone writes in and they ask me a question and says, oh, this is a very. This is actually kind of trivial. It's very simple. You know, I'll answer it, but then I'll think, okay, well, where do I go from there? You know, does this open up new questions that I want to answer?",
+      "id": "ep_149_ut_26"
+    },
+    {
+      "end": 563004,
+      "speaker": "Moritz Stefaner",
+      "start": 535466,
+      "text": "Yeah, but that's super interesting. Like this infinite rabbit holing that you really seem to be into, like, coming from a simple starting point and then exploring, like, really complex topics in all their complexity. But at the same time, cartoons really need to be really simple. Right. And really on point in order to work. Is there, like, a tension for you, or how do you bring these two worlds together? Like this endless complexities and the simple story you want to tell?",
+      "id": "ep_149_ut_27"
+    },
+    {
+      "end": 704562,
+      "speaker": "Randall Munroe",
+      "start": 563132,
+      "text": "Yeah, I think the way I think about it is that I love going on exploring. You described these endless rabbit holes. But then I'll find something that's really interesting to me. But it's partly interesting because I explored all these infinite rabbit holes. And I think I try to be very conscious of the fact that other people who have not gone on this research journey with me might not have the context to understand or to care about what I'm talking about. And so I'm always thinking, okay, I've learned something really cool here, but how do I strip down to cut away the parts that aren't as interesting and add in all of the context, people will need to understand it. But in just a very, very, very limited space. And so I don't know, one thing I always try to do is when I'm writing for other people, even if talking to a technical audience or if you're writing something for one of your peers in science, just like writing with a general audience is, I always try to keep in mind nobody else, people are very smart. I, but they're busy, you know, they have their own things that they're thinking about. You only get a very small amount of their attention. So sometimes people who talk about science will get really kind of condescending toward other people where they say, oh, people just aren't smart. They just don't read anymore. They don't pay attention. And I always, that makes me really mad because it's, you know, and I'm not usually an upset person, but I really don't like, because, because it's really kind of arrogant to assume that, you know, people are thinking about other things, maybe they're important, maybe they're not. Maybe it's none of your business, you know? So, like, when I see a scientist who's saying, like, people just need, they just need to learn all these words and learn all this stuff, and then they'll understand my important work, and I'll be like, look, your work is not that important. You know, like, maybe it is, but you have to convince people, you know? And so I always try to remember that people are really busy and people have not, they are smart, but they don't, they haven't read, you know, all of the same things that I've read. They've read different things.",
+      "id": "ep_149_ut_28"
+    },
+    {
+      "end": 730170,
+      "speaker": "Moritz Stefaner",
+      "start": 704626,
+      "text": "Yeah. It's so funny. You're a cartoonist and a writer and a physicist, but to me, as a data visualization practitioner, this resonates so much because it's the same challenge. Like, how can we, on the one hand, explore a complex space really sufficiently to make a good statement, but then also, for somebody new to the space, how can we be a good, let's say, tour guide almost and show the interesting spots of what we found in a good order? Almost.",
+      "id": "ep_149_ut_29"
+    },
+    {
+      "end": 761710,
+      "speaker": "Randall Munroe",
+      "start": 730870,
+      "text": "Yeah, exactly. You have to. And so I always try to share context with people, but I never think about it, like, oh, people aren't going to understand this, so I've got to tell them about this so that they can understand this. I think I have to give the person the context, but I have to make that interesting, too. I have to show them why they should care about this. And I don't like telling people, you should care about this because that doesn't really? I don't know. Maybe you shouldn't.",
+      "id": "ep_149_ut_30"
+    },
+    {
+      "end": 766402,
+      "speaker": "Enrico Bertini",
+      "start": 762890,
+      "text": "It's just you think it's interesting and that's how you want to make it. Why you want to make it interesting.",
+      "id": "ep_149_ut_31"
+    },
+    {
+      "end": 837040,
+      "speaker": "Randall Munroe",
+      "start": 766426,
+      "text": "So I always try to think, what do I think is interesting? Interesting here? And then try to communicate that to people. And if they don't think it's interesting, that's okay. You know, people sometimes ask me, like, well, you studied physics. How do you get more people, how do we get more kids to study physics, you know, or study science? And, like, that seems very, very, like, noble to me. But the truth is, like, I don't know whether more kids should study physics, you know, because, like, sometimes I say, okay, yes, you know, science is really interesting, and it's very important. But I always sort of wonder what they mean when they say, more kids should study this. They don't say, like, instead of this, but is there some other field that they're trying to take kids away from? And, you know, is it sort of like a way to insult those other fields? And so I try to. I don't say, you know, you should learn physics. You should learn this. You should study this. What I say is, I studied these things, and I think they're really exciting, and I'm gonna try to show you why. But, you know, I hope someone, you know, someone who studies, you know, the German literature or botany or public speaking or international relations, they should have just as good a shot as me at people.",
+      "id": "ep_149_ut_32"
+    },
+    {
+      "end": 874744,
+      "speaker": "Enrico Bertini",
+      "start": 837980,
+      "text": "So why we are really fans of your work of XKCD and of the books is like, we love this combination of the comic strip storytelling. And then what we, of course, also really love is your humoristic treatment of vis methods or just playing around with tropes and data visualizations and scientific ways of showing things and visualizing things. So what we say is your relation to database or to visualization in general. Have you worked with that a lot as a scientist? What was its role in your training.",
+      "id": "ep_149_ut_33"
+    },
+    {
+      "end": 1056640,
+      "speaker": "Randall Munroe",
+      "start": 874832,
+      "text": "For instance, I think often when I did my science degree, the field, I think the whole idea of data visualization has evolved a lot in recent years as more and more people have gotten excited, you know, have realized it's a field that. And I think it's something that we've been doing all along, but maybe recently it's become more. It's like we have a word for it now. But when I would do my degree in, you know, when I was in university classes, they would write, like, the professors would, like, draw stuff on the board to try to show and I remember always thinking, like, the drawings would be really confusing. And I sort of thought that maybe physics people who do physics degree should have to take one art class not to learn to draw well, you know, you can draw stick figures, but just to learn to draw a cube in three dimensions, because we're always drawing cubes in physics. But, like, the lines would go in different directions and it would be a jumble, you know? And so, but for me, usually they wouldn't include much in the way of visualizations, but that. But to me, it would help me understand things. So they would be, you know, describing here are all these different quantities. And then I would have my notebook, and I would say, I can't make sense of this. And I would try to draw out a little chart showing how the parts connect, you know, and a lot of my visualizations that I draw in my comics sort of started out as my own notes, trying to understand a subject myself. And then I realized, wow, this has sort of grown. And it looks kind of cool. And I could make this, you know, an introduction to this subject or to explain something, but I find it's helpful for understanding. In the first place, we didn't have very much of it in physics and in my classes. But when I was a kid, one thing my parents would put up, you know, when you get a magazine like Newsweek for us would do these a lot. There would be, like, a fold out page. There would diagram some big news event that had happened, like a rescue at sea or a building had collapsed, or there was some new facility that was built that, like, broadcasts something. And they would have a diagram in the newsweek with all the parts labeled. Or they would show a timeline of how things happen, happened or something. And they would be really pretty, you know, and someone put a lot of work into this. And my parents, we didn't have a lot of, like, we didn't buy fancy art or posters, but my parents would unfold these things from the magazines and cut them out and stick them on the wall in my room or, you know, in the hallway. And I would. And I don't know. I honestly don't know if it was there for the kids or if my mom just liked these posters, but I would spend hours looking at them, you know, going over them and saying, oh, now I understand why this building has this part here. It's to hold this up because you need to get from here to here, you know? And it would. And I would spend forever looking at those. And I always found those things. Really. I like the kind of diagrams that you can look at. And it just feels like you're getting smarter the more you stare at it, you know? And you're just. You keep looking and you keep seeing more little details that are interesting.",
+      "id": "ep_149_ut_34"
+    },
+    {
+      "end": 1071196,
+      "speaker": "Enrico Bertini",
+      "start": 1056760,
+      "text": "Yeah. It's also nice to have this idea that you actually read them. Right. It's not like you look at them and, like, you know, at a glance, everything's clear. But you like, as you said, you sometimes have to spend hours with it and then read it and then, you know, as a process, as things become clear.",
+      "id": "ep_149_ut_35"
+    },
+    {
+      "end": 1176176,
+      "speaker": "Randall Munroe",
+      "start": 1071308,
+      "text": "Yeah. A lot of the time when they do visualizations, they talk about, you'll see them make a chart. You want it to be obvious right away what point it's making. You want to remove stuff that's distracting. And I think that's true. You always want to remove anything that's a distraction from your point. But when I grew up, we also had these books that in the US, they were where's Waldo? And then I think the international editions were where's Wallye? But they were, it would be a picture of a crowd, but everyone would be doing something in the crowd, you know, and you had to find the one character with the little striped hat and the cane and so, kids, you could spend hours just looking over the page, trying to find the hidden character somewhere. And those, I loved those books. I never really cared about finding the character, but every figure in them was doing something interesting. You know, there'd be someone who was fishing and someone who was stuck inside a hole and someone who was climbing a thing where they weren't supposed to, and there'd be two people fighting with unusual swords. But it had no visual organization. It was like the opposite of an easy to read chart. But that itself is also really fun because you know that wherever you look, you're going to see something interesting and it makes you want to search the whole thing. And so I think sometimes my charts, I'll arrange them, you know, I'll do. When I did the book thing explainer, which was full of complicated diagrams, I thought about it. I almost thought about it. Like, people are going to see overall what's happening here, but then I want it to be fun for them to look at every individual part, and they'll see something that surprises them or something interesting or something new. And I sort of wanted it to be a thing that you had to explore, you know?",
+      "id": "ep_149_ut_36"
+    },
+    {
+      "end": 1177504,
+      "speaker": "Enrico Bertini",
+      "start": 1176288,
+      "text": "Nice. Very nice.",
+      "id": "ep_149_ut_37"
+    },
+    {
+      "end": 1183944,
+      "speaker": "Moritz Stefaner",
+      "start": 1177592,
+      "text": "Yeah, I think that's very true of your fabulous movie narrative charts. I think it's one of my favorite, like, data visualizations. Ever.",
+      "id": "ep_149_ut_38"
+    },
+    {
+      "end": 1184900,
+      "speaker": "Randall Munroe",
+      "start": 1184032,
+      "text": "Thank you.",
+      "id": "ep_149_ut_39"
+    },
+    {
+      "end": 1240112,
+      "speaker": "Moritz Stefaner",
+      "start": 1185220,
+      "text": "Show basically the plot development, like, what the characters do in a movie. And it's a bit like a big, like a project Gantt chart, almost like times running left to right. And you have different rows or different lines, let's say, for the characters. But the clever, like, thing you bring in is, like, the proximity of the lines. Shows who's teaming up with whom or who's with whom at a given point in time. And that's such a clever twist because it shows you the whole movie structure at one glance. And. Exactly. You can, like, zoom into the chart and go like, oh, wow. This is exactly the point where the fellowship of the Ring meets for the first time with Gandalf and so on. And you use it to make a joke about prime and twelve angry men, I guess, or that's at least one of the purposes. But then it's a really honest and downright really inventive and very good data visualization that you created first to set up that joke. I think that's quite remarkable.",
+      "id": "ep_149_ut_40"
+    },
+    {
+      "end": 1244828,
+      "speaker": "Enrico Bertini",
+      "start": 1240176,
+      "text": "That's pretty awesome. Yeah. And you can also feel how there's a lot of research involved in that.",
+      "id": "ep_149_ut_41"
+    },
+    {
+      "end": 1280750,
+      "speaker": "Randall Munroe",
+      "start": 1244944,
+      "text": "Yes. Well, I was, you know, I was sort of embarrassed. I did. I did the chart of the Lord of the Rings movies. That's the biggest part of it. And I am a little bit embarrassed, but also proud to say, I remember I sat down and I drew out the chart over a weekend. You know, it was on three huge sheets of paper, and. And I didn't, I think I did the entire chart without checking any references, except maybe once because I had seen those movies so many times.",
+      "id": "ep_149_ut_42"
+    },
+    {
+      "end": 1282270,
+      "speaker": "Enrico Bertini",
+      "start": 1280910,
+      "text": "So it was all in your head.",
+      "id": "ep_149_ut_43"
+    },
+    {
+      "end": 1435914,
+      "speaker": "Randall Munroe",
+      "start": 1282310,
+      "text": "It was like, no research. And then at the end, and I had, like, gotten the movies on my computer and I was ready to go back and check, you know, scenes and remember who was where. But I was sort of like, oh, I don't actually need to do that. I've just, I've watched, but it's like 12 hours of movies, and so I can't believe if I've watched them multiple times. That's a lot of hours. But what's interesting about those charts is I actually, that's one of my first ideas that I had before I did comics when I was a little kid, even I remember thinking, and I had this idea about Star wars when I was watching it for the first time. So I must have been, you know, like, ten years old or something. And I remember thinking, like, oh, these characters come together and break apart and, you know, go in these different things. And I thought it would be really neat to see the movie stretched out and just show the lines of the characters connecting. I had that idea when I was a little kid, you know, but then, and then as I got. But, you know, I just sort of had a vague idea. And then as I got older, I remember, you know, I would rewatch the movies and think, like, what would that look like, you know? And I thought what you need is a computer system. I was thinking, what I want is I want to write software that would track the script or track the frames of the movie, but I thought it would have to be based on the script because facial recognition wasn't there, but text recognition wasn't very good either. So I knew this would be an almost impossible project to write something that could track who's together and the timeline of the movie and plot it out on a chart. But I thought it would be really interesting to build. But even knowing that technology was going to get better, I knew that was a really hard thing to build and it was certainly beyond me. And so I just thought like, oh, that would be really cool to make someday, but I'm not going to be able to do it probably ever, but certainly not for a long time until there is better software out there. And it was funny because I thought that for like ten, I remember there was like ten years where I thought that would be really cool, but there's just no way to do it. And then I realized that a movie is long, but it's not that long, you know, like, sure, you could get a computer to do it and it might take you 20 years of development. But like, just sitting down and writing out the plot of Star wars scene by scene doesn't take that long. It takes a long time from the point of view of someone who might be very busy and has something better to do, but it's just a few.",
+      "id": "ep_149_ut_44"
+    },
+    {
+      "end": 1441050,
+      "speaker": "Enrico Bertini",
+      "start": 1435962,
+      "text": "Days against the background of having to wait another 20 years for technological development.",
+      "id": "ep_149_ut_45"
+    },
+    {
+      "end": 1589624,
+      "speaker": "Randall Munroe",
+      "start": 1441170,
+      "text": "Yeah, that's right. One thing that has really surprised me about doing these data visualizations that are sometimes very elaborate is, especially if you have a background in computing, it is. It is easy to underestimate how much you can get done by just doing a thing very repetitively over and over. So I think the chart that I drew that has the most complicated chart in a very literal sense, that had the most data points in it was I did a chart of money where it was amounts of money, and the money is represented by little squares. And this chart, and it shows, compares the budgets of different companies and different parts of the government and different projects and different consumer products and everything. And it was just a huge mural of different amounts of money. And when we printed it, we had to print a billboard sized version just so you could read the small labels. And I think it had, I didn't count exactly, but I know that I first built a data sheet, a database, a couple of spreadsheets of different data that went into it. And it was something in the neighborhood of, it was about 20,000 or 2000 or 2500 data points, and each one had to be laid out on the chart. And people who saw it asked me, okay, well, what visualization software did I use? How did I make it, lay it out like that? And the answer was that I just did it by hand. But 2000 data points, each one does take a little while. You have to figure out what shape should it be, how to align it. It seems like that would be an infinitely long task. But if you have 2000 data points in each one, you spend five or 10 seconds arranging it and placing it and everything. That's still only a few weeks, which is a long time. But getting software to work can take a lot longer than that. I think that, and it's sort of in my head, I think of that as the limit of a data visualization by hand can have more than about 2000 data points. I see, but that's a lot. That's more than you can fit in a poster. A lot of my charts are just by hand going over the data because you have to do that anyway. If you're going to have a computer do it, you're still going to have to look at each data point that goes in and make sure it's correct, make sure it's what you wanted to put there, make sure it makes sense. Otherwise you'll have a chart that has all the stuff in it that isn't right.",
+      "id": "ep_149_ut_46"
+    },
+    {
+      "end": 1616020,
+      "speaker": "Enrico Bertini",
+      "start": 1589712,
+      "text": "Yeah, yeah, that's a very cool thing because we're so used to trying to automate things and trying to make like, you know, have software that, you know, helps us do things. So it's really, really cool to hear that you're doing a lot of that by hand. So let's look into your process a little bit. How do you go about, like, doing these comics and also just really drawing them? Are you actually working on paper? Do you work digitally? How do you get these things together?",
+      "id": "ep_149_ut_47"
+    },
+    {
+      "end": 1716486,
+      "speaker": "Randall Munroe",
+      "start": 1616530,
+      "text": "I drew on paper. My comics were on paper for a very long time, sort of the first half or more. But over time I started, I would always edit them on the computer to get them just to make it so that it didn't look like a blurry photo or scan with all of the crud that makes it hard to read. And I would edit them on the computer, and I would use a tablet, and I would sometimes redraw parts of it. I would re edit, put in new text, fit things together, fix errors. And over time, I just did more and more of the editing on the computer until at some point, I said, okay, I may as well just do the first draft on the computer. And I started drawing, and I'll use one of those big drawing tablets that illustrators use. And it felt a little bit silly. I resisted it for a while to get one of those fancy tablets. If I'm just drawing stick figures. I thought, like, I don't need that. I can't justify that. But once I got it, I found, oh, this is much easier, and it lets me do bigger and more interesting things. And it was actually when I did the chart, the movie narratives chart. The frustration of doing that on paper was part of what pushed me to think I should get a tablet to work on, because it had so many different complicated parts. And if I realized partway through, I've been inking this, but I need to redo this, I would have to get another sheet of paper, redo the whole thing on there, trace over it, scan that, you know, and I thought I should really get. I should get a digital thing where I can draw this onto a screen.",
+      "id": "ep_149_ut_48"
+    },
+    {
+      "end": 1722830,
+      "speaker": "Enrico Bertini",
+      "start": 1716598,
+      "text": "I see. So you started out analog on paper and then sort of streamlined the process into becoming fully digital.",
+      "id": "ep_149_ut_49"
+    },
+    {
+      "end": 1747658,
+      "speaker": "Randall Munroe",
+      "start": 1722910,
+      "text": "Yeah, yeah. And I think a lot of. But I know everyone who I know uses different. Everyone who I know who does drawing or art or cartoons, everyone has a very, very different process. Some people do first drafts on paper, take a photo, trace over in an image editor. Some people draw it in vectors editors. Everyone uses different software. Nobody I know could use anyone else's system. It's like everyone has developed their own.",
+      "id": "ep_149_ut_50"
+    },
+    {
+      "end": 1749434,
+      "speaker": "Enrico Bertini",
+      "start": 1747834,
+      "text": "Their own very personal process.",
+      "id": "ep_149_ut_51"
+    },
+    {
+      "end": 1777346,
+      "speaker": "Randall Munroe",
+      "start": 1749522,
+      "text": "Right. It's like using someone else's drawers, their laundry, you know, socks and underwear drawers. Like, you know, it's a nice. Like, I've tried using someone else's computer, just, they're saying, oh, here, can you add this in, you know, on mine? Or I'll try to. I'll ask them to add something on mine, and it's like they'll pick up the stylus or the mouse and then click, and, like, the whole image disappears, and you're like, what did you do? To this. How does this even work? And they're like, no, no, no. It makes more sense the way I do it, you know?",
+      "id": "ep_149_ut_52"
+    },
+    {
+      "end": 1782202,
+      "speaker": "Enrico Bertini",
+      "start": 1777418,
+      "text": "Yeah. Everyone personalizes their process when people ask.",
+      "id": "ep_149_ut_53"
+    },
+    {
+      "end": 1809790,
+      "speaker": "Randall Munroe",
+      "start": 1782226,
+      "text": "Me, what should I use to edit these? And I say, oh, I don't know, whatever you can make work. I do most of my editing using Adobe Photoshop, but it's just because I learned to use it when I was younger, and now I know how to do all kinds of very complicated stuff that would probably be easier in some other piece of software, but it's just the one that I learned to use, and so now I know how to do a bunch of things in it quickly.",
+      "id": "ep_149_ut_54"
+    },
+    {
+      "end": 1811110,
+      "speaker": "Enrico Bertini",
+      "start": 1809870,
+      "text": "Yeah, very cool.",
+      "id": "ep_149_ut_55"
+    },
+    {
+      "end": 1858304,
+      "speaker": "Moritz Stefaner",
+      "start": 1811190,
+      "text": "Yeah, it's sort of funny because, as you say, like, I think your work looks like a lot. It's made on paper, and certainly in this tradition of the newspaper cartoon, you know, like peanuts or Calvin and Hobbes and so on. And at the same time, I think you're one of these really native web comics, really, that became big on the web and takes this old paper tradition and then puts it into the browser. And I also love how you play with this context. So fans of your work will know that the tooltip of each of your graphics contains usually another joke or a commentary of yours or a new twist on what we've seen. So it has become an integral part of your work. I would say it's the alt tag or the alt property, which is sort of fun.",
+      "id": "ep_149_ut_56"
+    },
+    {
+      "end": 1927792,
+      "speaker": "Randall Munroe",
+      "start": 1858352,
+      "text": "Yes. Yeah. And I try never to assume it's sort of like the thing we were talking about, but like how I try not to assume that people know everything about a field that I'm talking about or something. I try to assume that most people still don't read the little mouse over text. Maybe they have the comic, they have a script that downloads the comic and sends the image to them on as a text message, and it doesn't include the alt text or something. So I try to, I only ever write the alt text image after I finish the comic. I never try to make that the punchline, but the mouse over. The mouse over text, it's sort of nice because people will say that they've read my, they said they found my comic and they read through 500 archived comics, and then they noticed the alt text, and then they had to go back and reread the 500 comics. And when I'm thinking about it, that probably helps them remember it better. You've read this comic twice now, so it's almost like a secret strategy to get people to read my comics, more perfect.",
+      "id": "ep_149_ut_57"
+    },
+    {
+      "end": 1935260,
+      "speaker": "Enrico Bertini",
+      "start": 1927856,
+      "text": "It's like you watching movies over and over again, so people really take in the content and the jokes. So that's really nice.",
+      "id": "ep_149_ut_58"
+    },
+    {
+      "end": 1970850,
+      "speaker": "Moritz Stefaner",
+      "start": 1936080,
+      "text": "Yeah. This Trojan horse strategy is interesting. I think it's part of your work anyways, right? I think you tackle big topics as well, like politics, climate change, cancer, and I think you managed to somehow tackle them in this cartoon format or in this data investigation format. What do you think is the role comics can play or webcomics in talking about these big questions? Is it like the court justice role? Or do you see this actually as a form of journalism or an alternative way to educate people? What's your take there?",
+      "id": "ep_149_ut_59"
+    },
+    {
+      "end": 2129250,
+      "speaker": "Randall Munroe",
+      "start": 1972270,
+      "text": "I don't know. I think anyone, there are things that I feel an obligation, I feel pressure. I want to talk about, and especially anyone who does anything with science and talking about science or teaching it or whatever, feels stress about, about trying to understand what has gone wrong with climate change, because especially in the United States, the public view is so different from the scientific view. The public thinks, oh, maybe this is happening, but we aren't sure how bad, and we aren't sure what. Maybe humans aren't causing it. Maybe they're not. And the scientists all understand, here's what's going on. It is very bad. We're headed on this course. We're just trying to decide how bad it's going to be. But we know exactly humans are having an effect on the climate in this way. And it's such a disconnect. And I think everyone, it's easy. Everyone kind of blames, isn't sure who to blame. But if you write about science for the public, you have to think, is this my fault? Did I do something wrong? Did I explain something wrong? And a lot of it is that there's been, there are lots of business and political groups who have an interest in making this confusing. It's like with cigarettes and smoking, where there's kind of misinformation, but also people who just have an incentive to kind of muddy the waters. And so I think that scientists, sometimes people will blame scientists or scientists will blame themselves, and it's not their fault. It's not their job to explain things to the public. It's nice if they can, but it's like with everything else, scientists are busy. They don't necessarily need to, need to explain things to the public. So what I've felt like I've tried to do is I don't just get up and say, I want to tell people what they should think about this, because I think that's not a healthy way to go about it. And it can be hard to be funny if you're feeling like you're telling people what to think. And so I don't try to do that every day, but what I try to do is I wait until I have something to say that I think is, is a point that people don't notice, but it's really important. And I have a way, and I feel like there's a, I have an idea for how to get it across that fills a gap, you know, and I have something to say that isn't being said that's unusual. You know, that's. And that, I think, could make a difference. And then I'll try to very, you know, think about, how do I get that across?",
+      "id": "ep_149_ut_60"
+    },
+    {
+      "end": 2188998,
+      "speaker": "Enrico Bertini",
+      "start": 2129370,
+      "text": "Yeah, but it seems very interesting and important, what you said earlier, that there's, that you sort of have to think about how can you get something across that is not, that comes not across in a condescending way and to just sort of assume people are smart, but that they are busy and can't just know everything and that you need to provide context. For instance, we very much like the extremely long timeline of earth's temperature. And there it's, again. It's very funny and nice how you play with the browser. It's like, it's like scrolling down forever until you know the punchline is there. And it's like, it's this really cool thing because it's a nice experience to just look at it and scroll and scroll and scroll. And then in the end, the jaw sort of drops and you're like, oh, my God. But also, it's this nice way of putting it because it's not, you know, it's not too, it is a serious thing, but, you know, it's still, it's still a nice way to put it.",
+      "id": "ep_149_ut_61"
+    },
+    {
+      "end": 2381472,
+      "speaker": "Randall Munroe",
+      "start": 2189094,
+      "text": "Yeah, that's something where I found that data set and I would hear people saying, well, the climate has changed before, so it's changing again, but this is normal. And we don't know everything about what happened in the past. But when they say the climate has changed before, what bothered me was that they are talking about changes that were very different from what's happening now and changes that were very dramatic. Now in where I live, 20,000 years ago in Boston, Boston was under over a kilometer of ice and the climate was five degrees colder than it is now. And I just think that's helpful context. When we talk about how the climate has changed before, one, it changed very slowly. And we're doing a change like that very quickly. And two, and, you know, maybe it did have quick changes that we don't know about that were smaller. But the changes that they are talking about, when people say the climate has changed before, the ones we know about, those were slow and the end, those changes were really big in a subjective sense. We had a mile of ice over cities and now it's farmland. And so it isn't reassuring to say the climate has changed before. And so I found these data sets and I said, you know, I'm amazed that it's so little temperature change. You know, there are some other things that change too, about the earth's orbit. But you know, that the, such a small temperature change and so slow in a geologic sense happened in the past and then now we're having that same size change, but in a very short time. And I wanted to figure out how do you get across those different timescales to people. And so I thought about that one for like, it was like two years on and off, trying to figure out how can I show this to people in a way that will get across to them what impresses me so much about it. And I finally, you know, and I did this comic and, you know, actually drawing it didn't take very long, but I talked to a couple of the world's top climate scientists about that because I wanted to make sure everything I put in there I could stand behind. And that's something where it's a really difficult editorial decision how to show something, what context you have to leave in and what context to leave out and what to balancing, making it simple and making it correct is really a challenge for everyone. And so when it's something that, where I'm making as strong a statement as that and something that's over a politically contentious subject, I really want to get it right. And then people will argue over whether that was the best way to do it or not. But I spent a long time on that, just making sure every line I drew in there I can justify. I have my reason why I did it that way. I think it's right. And even if most people don't even notice that or care if someone wanted to argue with me over it, I wanted it to be something I could stand behind.",
+      "id": "ep_149_ut_62"
+    },
+    {
+      "end": 2416964,
+      "speaker": "Moritz Stefaner",
+      "start": 2381576,
+      "text": "Yeah, but I think that's so quintessential to your work. You do the work, you actually put in a lot of work into the research. Right. And so that sort of justifies also you making a statement. And then on the other hand, you have this cartoonish stick figure, very approachable, simple drawing style. Right? That's the exact opposite, I would say, like, in terms of visual jargon of down talking, it's like. Yeah, it's like, not to offend, but it looks like, well, you don't have to be a cartoonist to draw this. I hope I'm not terribly offending you, but it looks like a very normal way of drawing.",
+      "id": "ep_149_ut_63"
+    },
+    {
+      "end": 2418000,
+      "speaker": "Randall Munroe",
+      "start": 2417012,
+      "text": "No, no, it is.",
+      "id": "ep_149_ut_64"
+    },
+    {
+      "end": 2427566,
+      "speaker": "Moritz Stefaner",
+      "start": 2418350,
+      "text": "And then you give it a personal spin. And I think this combination is so magical, like, on the one hand, really being, putting in the work, but then also being approachable and humble in the whole approach.",
+      "id": "ep_149_ut_65"
+    },
+    {
+      "end": 2504810,
+      "speaker": "Randall Munroe",
+      "start": 2427638,
+      "text": "Oh, thank you. Yeah, yeah. I think a lot of the time, people who talk about science, there's a big kind of role that insecurity plays, that if you do a degree in science, you spend a lot of time under pressure to make sure that you don't have, that you fit in and that you don't reveal that you don't understand something. And so people are very nervous about admitting that they don't understand something, but it makes them tend to, I think, use more scientific terms that they. Where they don't need to, or they use more just when they're trying to prove that they understand something. But that can get in the way of speaking clearly. Sometimes the terms are necessary or important, and sometimes it's important to get certain details right. But then other times, I think people will get too fixated on not asking silly questions or not using simple terms for things because they're worried that it will make them look like they don't know what they're talking about. And so people will get very pedantic and jump on each other over that kind of thing. And I try not to do that, even though, you know, I had that same background and I have those same impulses, you know.",
+      "id": "ep_149_ut_66"
+    },
+    {
+      "end": 2522810,
+      "speaker": "Enrico Bertini",
+      "start": 2505190,
+      "text": "Yeah, that's certainly good, Randall, we want to wrap up with one very important question. One piece that we all really love is the map projections piece. And what do they tell you about you? And we want to ask, what is your map projection? What does that tell us about you?",
+      "id": "ep_149_ut_67"
+    },
+    {
+      "end": 2734156,
+      "speaker": "Randall Munroe",
+      "start": 2524270,
+      "text": "So I did this chart of all these different projections, and, and I love this problem because it's like this fundamentally unsolvable problem of how do you draw a spherical map on a flat surface? And it's something where no one solution is clearly optimal. And that means that there are a whole bunch of different ones that sort of compete. And the different projections work different, have different benefits and different problems. And so I had fun going over them and judging people try to think, well, if you like this projection, what does it say about you? And I included a few obscure ones. There's a very pretty one, the Waterman butterfly projection, which is similar, and you can buy a really nice poster of this. And it's similar to another one by this guy, I think, cahill, Bernard someone named Cahill in the early 20th century. And that one's really pretty. And I like that because the guy who made it, it turns out it just has a website and people could go buy it. And so when I did this comic, he got a lot of attention as like, oh, this is the obscure map projection that XkCD liked when I drew my maps in. How to, the maps in that have, there are maybe five or six places I forget where I drew maps. And the one that I use there is a projection, and I think it's called the, it goes by a couple of different names, but it's like the equidistant azimuthal projection. But it's a projection where you have two different points that you choose, and you choose those two points, and then every part of the map is shown the correct distance away from both of those points. And so the area right around the two points, and the area between the two points will be roughly correct in both size and direction, and then the other side of the earth. So it's like you pick a path on the surface and that path and the area around it are roughly correct, and then the stuff that's farthest from that path is the most distorted. And so when I wanted to show butterflies migrating from Europe to Central Africa, I had a map showing this. And so I picked a version of this projection that the two points in Europe and in Central Africa, and it showed those two continents roughly correct. And I use that one, and most of the time it'll look pretty similar to other projections up close, but I spent a lot of time deciding which to use. There is a projection, and I'll leave this because this is something I would like the Internet to help with. There is a three point equidistant, I forget the name exactly, but there's a version of this projection that I'm describing that has three points, and I could not find a web, I wanted to find a software tool that would let me plot those three points. And I spent like two days while I was writing this, trying to get this JavaScript tool working to make it so that I could drag these points around and draw new versions of the map that I could then copy for my comics, and I couldn't find one. And I think three point equidistant is the name. And I couldn't find a tool that would let me drag those and generate those on a screen. But I'm still looking for one and I might build one. But that was where I realized I'm coming up with a complicated solution here. I need to stop this. It's getting too complicated. I need to just write my book. And that's always the problem I run into.",
+      "id": "ep_149_ut_68"
+    },
+    {
+      "end": 2743140,
+      "speaker": "Enrico Bertini",
+      "start": 2734228,
+      "text": "I see, but, so the personality of the projection would be something like trying to fit it into this specific situation.",
+      "id": "ep_149_ut_69"
+    },
+    {
+      "end": 2782120,
+      "speaker": "Randall Munroe",
+      "start": 2743300,
+      "text": "Yeah, I think that we like thinking about which one is best. But if you look at enough different projections and enough different places, you understand that there's no best projection. There's just the best projection for the thing that you want to show to people, you know. But, so I think that when we're just talking about general world maps, I think that they're the ones that the National Geographic Society chooses, the international. And the winkle triple projection is a good one, and there are a few others, but I think it's like. But it still depends on what you want to show, in what ways. So I like finding the right projection for a specific task.",
+      "id": "ep_149_ut_70"
+    },
+    {
+      "end": 2782696,
+      "speaker": "Enrico Bertini",
+      "start": 2782200,
+      "text": "I see.",
+      "id": "ep_149_ut_71"
+    },
+    {
+      "end": 2793100,
+      "speaker": "Randall Munroe",
+      "start": 2782768,
+      "text": "But sometimes to a fault. Sometimes you don't need to spend days trying to get this one projection working. You should just use a. They're going to look the same anyway. I'm hand drawing them, so they're not going to be perfect.",
+      "id": "ep_149_ut_72"
+    },
+    {
+      "end": 2803016,
+      "speaker": "Enrico Bertini",
+      "start": 2793520,
+      "text": "But we really love the idea that visualization types or chart types or projection types sort of have a personality and you can sort of judge people in that. Yeah.",
+      "id": "ep_149_ut_73"
+    },
+    {
+      "end": 2812032,
+      "speaker": "Moritz Stefaner",
+      "start": 2803128,
+      "text": "I'm just hoping Philippe Riviere is listening to this and will come up with an observable notebook with your three points in a couple of days. Like crossing my fingers.",
+      "id": "ep_149_ut_74"
+    },
+    {
+      "end": 2845168,
+      "speaker": "Randall Munroe",
+      "start": 2812176,
+      "text": "Sure. Yeah, yeah. Well, because what I love is that those decisions, you see the map and you're like, this map, this is just what the world looks like. But if you know about projections, you look at it and you think someone in an office or someone at a table had to make a decision about what projection to use. What does this tell us about that person? And it's like a little bit of communication with the person who's behind the work. And I feel that way when I look at any kind of scientific paper or chart and I think, like someone made this decision, I can see a little bit about the person by how they made it. And I like that kind of human connection.",
+      "id": "ep_149_ut_75"
+    },
+    {
+      "end": 2870690,
+      "speaker": "Enrico Bertini",
+      "start": 2845264,
+      "text": "Yeah, it's a funny way to look at it, because in data visualization and also on the podcast, for instance, the decisions you take on your way to the finalized visualizations are an important step and something that we've talked about a lot. So I like the idea of looking behind the decisions and seeing what the personality is behind it. Okay, I think we're wrapping this up here. And thanks so much for joining us, Randall, thank you so much.",
+      "id": "ep_149_ut_76"
+    },
+    {
+      "end": 2876930,
+      "speaker": "Randall Munroe",
+      "start": 2873230,
+      "text": "I always love talking about it, especially this kind of visualization stuff.",
+      "id": "ep_149_ut_77"
+    },
+    {
+      "end": 2877686,
+      "speaker": "Enrico Bertini",
+      "start": 2877350,
+      "text": "Awesome.",
+      "id": "ep_149_ut_78"
+    },
+    {
+      "end": 2879670,
+      "speaker": "Randall Munroe",
+      "start": 2877718,
+      "text": "It's so cool. So thank you so much for having me on.",
+      "id": "ep_149_ut_79"
+    },
+    {
+      "end": 2888302,
+      "speaker": "Enrico Bertini",
+      "start": 2879750,
+      "text": "You're more than welcome. And yeah, we've been very happy to hear about how you tweak and work with the visualizations. Yes.",
+      "id": "ep_149_ut_80"
+    },
+    {
+      "end": 2889070,
+      "speaker": "Randall Munroe",
+      "start": 2888446,
+      "text": "Well, thank you.",
+      "id": "ep_149_ut_81"
+    },
+    {
+      "end": 2891422,
+      "speaker": "Moritz Stefaner",
+      "start": 2889110,
+      "text": "Thank you, Randall. That was fantastic. Really. Thank you.",
+      "id": "ep_149_ut_82"
+    },
+    {
+      "end": 2893890,
+      "speaker": "Randall Munroe",
+      "start": 2891486,
+      "text": "Thank you. Bye bye bye.",
+      "id": "ep_149_ut_83"
+    },
+    {
+      "end": 2921630,
+      "speaker": "Moritz Stefaner",
+      "start": 2898710,
+      "text": "Hey folks, thanks for listening to data stories again. Before you leave, a few last notes, this show is crowdfunded and you can support us on patreon@patreon.com Datastories, where we publish monthly previews of upcoming episodes for our supporters. Or you can also send us a one time donation via Paypal at Paypal dot me Datastories or as a free.",
+      "id": "ep_149_ut_84"
+    },
+    {
+      "end": 2948452,
+      "speaker": "D",
+      "start": 2921670,
+      "text": "Way to support the show. If you can spend a couple of minutes rating us on iTunes, that would be very helpful as well. And here's some information on the many ways you can get news directly from us. We are on Twitter, Facebook, and Instagram, so follow us there for the latest updates. We have also a slack channel where you can chat with us directly. And to sign up, go to our homepage at Datastory ES and there you'll find a button at the bottom of.",
+      "id": "ep_149_ut_85"
+    },
+    {
+      "end": 2957234,
+      "speaker": "Moritz Stefaner",
+      "start": 2948476,
+      "text": "The page and there you can also subscribe to our email newsletter if you want to get news directly into your inbox and be notified whenever we publish a new episode.",
+      "id": "ep_149_ut_86"
+    },
+    {
+      "end": 2969854,
+      "speaker": "D",
+      "start": 2957332,
+      "text": "That's right, and we love to get in touch with our listeners. So let us know if you want to suggest a way to improve the show or know any amazing people you want us to invite or even have any project you want us to talk about.",
+      "id": "ep_149_ut_87"
+    },
+    {
+      "end": 2976526,
+      "speaker": "Moritz Stefaner",
+      "start": 2969982,
+      "text": "Yeah, absolutely. Don't hesitate to get in touch. Just send us an email at mailatastory es.",
+      "id": "ep_149_ut_88"
+    },
+    {
+      "end": 2980850,
+      "speaker": "D",
+      "start": 2976678,
+      "text": "That's all for now. See you next time, and thanks for listening to data stories.",
+      "id": "ep_149_ut_89"
+    }
+  ],
+  "confidence": 0.944712022350006,
+  "audio_duration": 2989,
+  "punctuate": true,
+  "format_text": true,
+  "dual_channel": false,
+  "webhook_url": null,
+  "webhook_status_code": null,
+  "webhook_auth": false,
+  "webhook_auth_header_name": null,
+  "speed_boost": false,
+  "auto_highlights_result": null,
+  "auto_highlights": false,
+  "audio_start_from": null,
+  "audio_end_at": null,
+  "word_boost": [],
+  "boost_param": null,
+  "filter_profanity": false,
+  "redact_pii": false,
+  "redact_pii_audio": false,
+  "redact_pii_audio_quality": null,
+  "redact_pii_policies": null,
+  "redact_pii_sub": null,
+  "speaker_labels": true,
+  "content_safety": false,
+  "iab_categories": true,
+  "content_safety_labels": {
+    "status": "unavailable",
+    "results": [],
+    "summary": {}
+  },
+  "language_detection": false,
+  "language_detection_threshold": null,
+  "language_confidence": null,
+  "custom_spelling": null,
+  "throttled": false,
+  "auto_chapters": true,
+  "summarization": false,
+  "summary_type": null,
+  "summary_model": null,
+  "custom_topics": false,
+  "topics": [],
+  "speech_threshold": null,
+  "speech_model": "best",
+  "chapters": [
+    {
+      "summary": "This time we have the creator of the legendary webcomic XKCD, Randall Munro. On the show we talk about the relation of cartoons and data visualizations. And finally, we touched upon our favorite cartoon by Randall. If you do enjoy the show, you could consider supporting us.",
+      "gist": "Data Stories",
+      "headline": "This podcast is listener supported. That means there are no ads",
+      "start": 160,
+      "end": 135014,
+      "id": "ep_149_ch_0"
+    },
+    {
+      "summary": "Randall is the mastermind behind the web cartoon series XKCD. He started out as a private data investigator before writing books. His latest is how to absurd scientific advice for common real world problems. He says he always thinks of ways to save time or effort.",
+      "gist": "XKCD",
+      "headline": "Randall is the mastermind behind the web cartoon series XKCD",
+      "start": 135142,
+      "end": 599650,
+      "id": "ep_149_ch_1"
+    },
+    {
+      "summary": "As a data visualization practitioner, this resonates so much because it's the same challenge. I always try to remember that people are really busy and people have not read all of the same things that I've read. How do you get more people to study physics?",
+      "gist": "The problem of explaining science",
+      "headline": "Sometimes people who talk about science will get condescending toward other people",
+      "start": 599770,
+      "end": 837040,
+      "id": "ep_149_ch_2"
+    },
+    {
+      "summary": "The whole idea of data visualization has evolved a lot in recent years. A lot of my visualizations that I draw in my comics sort of started out as my own notes. You want to remove anything that's distracting from your point.",
+      "gist": "XKCD: Data Visualization",
+      "headline": "XKCD explores data visualization as a science writer",
+      "start": 837980,
+      "end": 1177504,
+      "id": "ep_149_ch_3"
+    },
+    {
+      "summary": "Show basically the plot development, like, what the characters do in a movie. I did the chart of the Lord of the Rings movies. Shows who's teaming up with whom or who's with whom at a given point in time. It shows you the whole movie structure at one glance.",
+      "gist": "How To Write a Narrative Chart",
+      "headline": "Your narrative charts show basically the plot development of a movie",
+      "start": 1177592,
+      "end": 1604512,
+      "id": "ep_149_ch_4"
+    },
+    {
+      "summary": "Are you actually working on paper? Do you work digitally? How do you get these things together? I drew on paper for a very long time. The frustration of doing that on paper was part of what pushed me to think I should get a tablet to work on.",
+      "gist": "How Do You Write a Comic?",
+      "headline": "How do you go about doing comics and also just really drawing them",
+      "start": 1604616,
+      "end": 1716966,
+      "id": "ep_149_ch_5"
+    },
+    {
+      "summary": "Everyone who I know who does drawing or art or cartoons, everyone has a very, very different process. Some people do first drafts on paper, take a photo, trace over in an image editor. Everyone uses different software. It's like everyone has developed their own very personal process.",
+      "gist": "How to Draw in a Digital World",
+      "headline": "Everyone who does drawing or art or cartoons has a very different process",
+      "start": 1716998,
+      "end": 1811110,
+      "id": "ep_149_ch_6"
+    },
+    {
+      "summary": "The alt tag or the alt property has become an integral part of your work. I try to assume that most people still don't read the little mouse over text. It's almost like a secret strategy to get people to read my comics.",
+      "gist": "The Alt-Text in Your Comics",
+      "headline": "The mouse over text has become an integral part of your work",
+      "start": 1811190,
+      "end": 1936744,
+      "id": "ep_149_ch_7"
+    },
+    {
+      "summary": "The public view of climate change is so different from the scientific view. Do you see comics as a form of journalism or an alternative way to educate people? It can be hard to be funny if you're feeling like you're telling people what to think.",
+      "gist": "Webcomics on Climate Change",
+      "headline": "You tackle big topics like climate change in your webcomics",
+      "start": 1936872,
+      "end": 2188998,
+      "id": "ep_149_ch_8"
+    },
+    {
+      "summary": "When people say the climate has changed before, they are talking about changes that were very different from what's happening now. I wanted to figure out how do you get across those different timescales to people. It's a really difficult editorial decision how to show something.",
+      "gist": "\"The Climate Has Changed Before\"",
+      "headline": "When people say the climate has changed before, what bothered me",
+      "start": 2189094,
+      "end": 2510790,
+      "id": "ep_149_ch_9"
+    },
+    {
+      "summary": "One piece that we all really love is the map projections piece. What is your map projection? What does that tell us about you? The different projections work different, have different benefits and different problems. There's no best projection for the thing you want to show.",
+      "gist": "The Best Map Projections",
+      "headline": "One piece that we all really love is the map projections piece",
+      "start": 2510910,
+      "end": 2863860,
+      "id": "ep_149_ch_10"
+    },
+    {
+      "summary": "Randall: We've been very happy to hear about how you tweak and work with the visualizations. Here's some information on the many ways you can get news directly from us. Let us know if you want to suggest a way to improve the show.",
+      "gist": "Data Stories",
+      "headline": "This show is crowdfunded and you can support us on patreon",
+      "start": 2864360,
+      "end": 2980850,
+      "id": "ep_149_ch_11"
+    }
+  ],
+  "disfluencies": false,
+  "entity_detection": false,
+  "sentiment_analysis": false,
+  "sentiment_analysis_results": null,
+  "entities": null,
+  "speakers_expected": null,
+  "summary": null,
+  "custom_topics_results": null,
+  "episode_num": 149,
+  "episode_metadata": {
+    "speakers": [
+      "Randall Munroe",
+      "Moritz Stefaner",
+      "Enrico Bertini"
+    ],
+    "WPid": "1372",
+    "url": "https://datastori.es/podlove/file/5800/s/feed/c/mp3/149-xkcd-or-the-art-of-data-storytelling-with-web-cartoons.mp3",
+    "episode_title": "xkcd or the art of data storytelling with web cartoons"
+  }
+}

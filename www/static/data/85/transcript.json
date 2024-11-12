@@ -1,0 +1,933 @@
+{
+  "id": "0e318f4e-3744-4de4-8bb2-b78ee99d72d1",
+  "language_model": "assemblyai_default",
+  "acoustic_model": "assemblyai_default",
+  "language_code": "en_us",
+  "status": "completed",
+  "audio_url": "https://datastori.es/podlove/file/3025/s/feed/c/mp3/85-machine-bias-with-jeff-larson.mp3",
+  "utterances": [
+    {
+      "end": 11954,
+      "speaker": "Jeff Larson",
+      "start": 160,
+      "text": "If you're talking about someone losing a job or somebody maybe going to jail because of this outcome, you need to sort of think about what is a failure mode in that situation.",
+      "id": "ep_85_ut_0"
+    },
+    {
+      "end": 38864,
+      "speaker": "Moritz Stefaner",
+      "start": 16414,
+      "text": "Data stories is brought to you by Qlik, who allows you to explore the hidden relationships within your data that lead to meaningful insights. Let your instincts lead the way to create personalized visualizations and dynamic dashboards with Qlik sense, which you can download for free at Qlik.de/Datastories. That's Qlik Datastories.",
+      "id": "ep_85_ut_1"
+    },
+    {
+      "end": 62428,
+      "speaker": "Enrico Bertini",
+      "start": 57844,
+      "text": "Hey, everyone, welcome to a new episode of data stories. Hey, Moritz.",
+      "id": "ep_85_ut_2"
+    },
+    {
+      "end": 63460,
+      "speaker": "Moritz Stefaner",
+      "start": 62556,
+      "text": "Hi, Enrico.",
+      "id": "ep_85_ut_3"
+    },
+    {
+      "end": 64380,
+      "speaker": "Enrico Bertini",
+      "start": 63572,
+      "text": "How's it going?",
+      "id": "ep_85_ut_4"
+    },
+    {
+      "end": 65924,
+      "speaker": "Moritz Stefaner",
+      "start": 64492,
+      "text": "Good. Had a long week.",
+      "id": "ep_85_ut_5"
+    },
+    {
+      "end": 66556,
+      "speaker": "Enrico Bertini",
+      "start": 66004,
+      "text": "Long week.",
+      "id": "ep_85_ut_6"
+    },
+    {
+      "end": 67932,
+      "speaker": "Moritz Stefaner",
+      "start": 66620,
+      "text": "Ready for the weekend?",
+      "id": "ep_85_ut_7"
+    },
+    {
+      "end": 71860,
+      "speaker": "Enrico Bertini",
+      "start": 68108,
+      "text": "Yeah, same for me. Same for me. Busy time right now.",
+      "id": "ep_85_ut_8"
+    },
+    {
+      "end": 74516,
+      "speaker": "Moritz Stefaner",
+      "start": 71892,
+      "text": "Busy as usual. Yeah, I saw you started blogging again.",
+      "id": "ep_85_ut_9"
+    },
+    {
+      "end": 84388,
+      "speaker": "Enrico Bertini",
+      "start": 74620,
+      "text": "What's up with that? Yeah, I don't know. I felt like that every two years I can still write a blog post. So now we have to wait for another couple of years.",
+      "id": "ep_85_ut_10"
+    },
+    {
+      "end": 86396,
+      "speaker": "Moritz Stefaner",
+      "start": 84476,
+      "text": "You have one in you every two years?",
+      "id": "ep_85_ut_11"
+    },
+    {
+      "end": 87080,
+      "speaker": "Enrico Bertini",
+      "start": 86500,
+      "text": "Yeah.",
+      "id": "ep_85_ut_12"
+    },
+    {
+      "end": 92688,
+      "speaker": "Moritz Stefaner",
+      "start": 87212,
+      "text": "So these better be good. This one was good. It's about teaching methods. I really enjoyed it. So you should check it out.",
+      "id": "ep_85_ut_13"
+    },
+    {
+      "end": 93792,
+      "speaker": "Enrico Bertini",
+      "start": 92776,
+      "text": "Happy to hear that.",
+      "id": "ep_85_ut_14"
+    },
+    {
+      "end": 99244,
+      "speaker": "Moritz Stefaner",
+      "start": 93848,
+      "text": "Just advertising your stuff here, blogging, it's a retro. I like that. Somebody still does that.",
+      "id": "ep_85_ut_15"
+    },
+    {
+      "end": 103880,
+      "speaker": "Enrico Bertini",
+      "start": 102464,
+      "text": "Yeah. Yeah.",
+      "id": "ep_85_ut_16"
+    },
+    {
+      "end": 107336,
+      "speaker": "Moritz Stefaner",
+      "start": 104032,
+      "text": "In the age of Snapchats. Snapchats and so on.",
+      "id": "ep_85_ut_17"
+    },
+    {
+      "end": 154484,
+      "speaker": "Enrico Bertini",
+      "start": 107480,
+      "text": "Yeah. So we have another great episode today. We want to talk about a recurring topic, which is about how do machines make decisions that have an impact on us and society in general. And to talk about this, we are going to focus on specific kind of work coming from ProPublica, and more specifically about the work published in, in an article titled Machine Bias. And to talk about that, we have one of the others, and his name is Jeff Larson and he's a person from ProPublica. Hey, Jeff, how are you doing?",
+      "id": "ep_85_ut_18"
+    },
+    {
+      "end": 172860,
+      "speaker": "Jeff Larson",
+      "start": 154524,
+      "text": "Well, thanks for having me on. I'm Jeff Larson. I'm the data editor at ProPublica, which means I'm on the nerdy side of journalists. I do statistical analysis and looking at data to find stories. And yeah, we worked on this story for about a year, so it's good that it's finally out.",
+      "id": "ep_85_ut_19"
+    },
+    {
+      "end": 177836,
+      "speaker": "Enrico Bertini",
+      "start": 173012,
+      "text": "So can you briefly describe what the project is about?",
+      "id": "ep_85_ut_20"
+    },
+    {
+      "end": 386102,
+      "speaker": "Jeff Larson",
+      "start": 178020,
+      "text": "Sure. So ever since, for even the 1890s, people have been trying to sort of predict who is likely to commit another crime via statistical methods. This idea really gained popularity in the sixties and seventies, but its use wasn't necessarily widespread. Given in the last decade or so, maybe two decades, with the advent of computers and the ability to analyze large amounts of data, we have now, these things called risk assessments. And what they are is in criminal justice agencies, when you're arrested, they ask you a bunch of questions, and they look at your criminal history, and they try and predict how likely it is you are to reoffend for a long time. We use these things post conviction. So after for release, post conviction release. So after you've done your time, what sort of. How likely do we think you're going to come back? Do you need drug treatment? Do you need psychological help? That sort of thing? What sort of services do you need post conviction? What's troubling about them in recent years is they've started using it both pre sentencing to figure out what your particular sentence should be, and also before, you know, even before you pre trial conviction. So the sequence of events is someone gets arrested, they spend their night in jail. In the morning, they're asked a bunch of questions, then they go to a hearing. And that hearing is whether or not you can go home or not in the particular case we looked at, or we're going to keep you in jail for the next three months. Now, trying to predict that, trying to predict something like how likely you are to re offend is problematic, because there are a number of reasons people commit crime, not all of which is very clean cut, right? It's not a crime is somewhat inherently random. And what we found in our article was there's this private company. We have no idea how they calculate these scores. We know somewhat the model they used, just the shape of it, but we don't know the individual decisions that go through that 130 questions, plus your criminal history, to come up with the score. What we found is it was for people who did not go on to reoffend after two years that African Americans were twice as likely to be rated high risk versus white defendants. And so you ask yourself the question, well, is that just because maybe they have longer criminal histories? We then went and corrected for criminal history and the type of crime that the person committed to be booked and found in age and gender, and found that even then, African Americans were 45% more likely to get the higher score on this particular test. Even though if you look sort of paradoxically, if you look at it in terms of actual predictability, it's sort of equally predictive or very close, predict wise, among African Americans and white defendants.",
+      "id": "ep_85_ut_21"
+    },
+    {
+      "end": 390390,
+      "speaker": "Moritz Stefaner",
+      "start": 386238,
+      "text": "So the error, in absolute terms is the same, but the direction is different, right?",
+      "id": "ep_85_ut_22"
+    },
+    {
+      "end": 410454,
+      "speaker": "Jeff Larson",
+      "start": 390462,
+      "text": "Yeah, the direction is different. The way it gets to it is for white defendants, it under predicts their likelihood of recidivism and it overpredicts the likelihood of recidivism for African Americans. And we tested this two ways, one with Cox regression model, and one in another way with just a straight logistic regression.",
+      "id": "ep_85_ut_23"
+    },
+    {
+      "end": 438346,
+      "speaker": "Enrico Bertini",
+      "start": 410574,
+      "text": "So, to make it even clearer, this means that there are black people that are convicted and they wouldn't commit a crime again. Right. That's one side of it. And you also have the opposite. The other kind of error is that it's more likely to have white people who are actually not convicted and end up making crimes within two years. Right?",
+      "id": "ep_85_ut_24"
+    },
+    {
+      "end": 474384,
+      "speaker": "Jeff Larson",
+      "start": 438530,
+      "text": "Yeah. Well, they're convicted. I mean, you know, pretty much everybody who goes to the criminal justice system are convicted. But this algorithm said that white people were less risky than black defendants, for example. And that's a problem in a criminal justice context, because the sole sort of social vehicle we have that is highly designed to protect against false positives is the criminal justice system. Right. We have baked into our laws that you're innocent until proven guilty, not the other way around. So false positives matter a lot in.",
+      "id": "ep_85_ut_25"
+    },
+    {
+      "end": 485512,
+      "speaker": "Enrico Bertini",
+      "start": 474424,
+      "text": "Criminal justice, even though, of course, you have the problem of public opinion. Right. You don't want to have justice releasing people out there who are actually very dangerous.",
+      "id": "ep_85_ut_26"
+    },
+    {
+      "end": 499134,
+      "speaker": "Jeff Larson",
+      "start": 485648,
+      "text": "But, yeah, you also have that. You have that problem, too. Right? So a politician or criminal justice, they also don't want to. There's a social cost to saying someone's less risky who turns out to be very risky.",
+      "id": "ep_85_ut_27"
+    },
+    {
+      "end": 539558,
+      "speaker": "Moritz Stefaner",
+      "start": 499674,
+      "text": "But I have to say it's crazy that such a strong and such an explicit bias is in such a mechanism. It's like one can only. I don't know. I found your article super shocking. Like, I wouldn't have expected, you know, such a blatant bias and such a, like, decision method. Do we know anything where this bias comes in? Like you said, you don't really know how the questionnaire was designed. You don't really know what the. The statistics or the maths behind, like, how to get from the answers to the score is. But do you have an idea of where is that bias located? Or is it distributed through the whole system, or how much do we know there?",
+      "id": "ep_85_ut_28"
+    },
+    {
+      "end": 639250,
+      "speaker": "Jeff Larson",
+      "start": 539646,
+      "text": "There's a number of theories there. I can tell you sort of how it works. I mean, at its core, these risk algorithms are going to be some sort of class firearm in this case, I think. But I'm not entirely sure. I've just sort of inferred by reading the company's papers that they're using some sort of logistic model with a number of weights. So, essentially what they do is they give you the questionnaire. And they bucket that questionnaire into particular topics. So violent thinking, criminal thinking, and then they add in weights for how old you are, which sort of makes sense. Like, if you're 50 years old and you're coming in, this is probably your last crime. Like, you might wanna sort of hang up your hat, your crime hat. And then also gender, criminal history, and what crime you committed. So when we were able to sort of suss that out and infer that that's how it worked, we tried to correct for everything that we knew about. Obviously, when. Well, not obviously. When we asked the criminal justice agency in Broward county for the scores, they just gave us the raw scores. They didn't have access to the way of the questionnaire. Right. It goes into a computer software. The software spits out the answer. But we could get the individual scores, and we could get the criminal justice, you know, criminal histories, but we didn't know how those scores were actually calculated within the machine because it's proprietary software. Right. So we don't know the actual weights. And we went back and forth with them, and they finally answered a little bit of the questions, but they didn't give us the actual underlying.",
+      "id": "ep_85_ut_29"
+    },
+    {
+      "end": 667116,
+      "speaker": "Moritz Stefaner",
+      "start": 639372,
+      "text": "But there's a private company that runs this for the government and does not disclose how the actual decision comes about. Right. I think that's crazy. I think that's crazy. Given how grave these. The consequences can be. You know, isn't there something like, you know, that in legal, like, processes, everything, like, you have to have this, like, due diligence and this chain of custody and, you know, all these things that make sure that nothing bad happens?",
+      "id": "ep_85_ut_30"
+    },
+    {
+      "end": 736478,
+      "speaker": "Jeff Larson",
+      "start": 667260,
+      "text": "Yeah, there's discovery. And when we talked to the prosecutors down there, they were like, we have no idea. I mean, the public defenders, not the prosecutors, when we talked to them down there, they had. In Broward county, they had no idea what was going on, which leads to a whole bunch of discovery issues in Broward county. They're not using it at trial. They're just using it for pretrial release, sort of to estimate how much of a flight risk you are. So it's not necessarily evidence used against you. I'm not a lawyer or anything like that. I don't know if discovery actually applies. But people have looked at this idea of, if you get pretrial release, are you more likely to be found guilty? And the answer is yes. Because you show up to court in, you know, the orange pajamas or whatever. Right. You know, you come through the special door, the bailiff unlocks your hands. That has sort of a weight on juries as to whether or not you're guilty. If you come in in handcuffs versus if you come in through the front door, there already is a look that juries will give you in terms of what that is. So it has actual consequences for the trial.",
+      "id": "ep_85_ut_31"
+    },
+    {
+      "end": 753388,
+      "speaker": "Enrico Bertini",
+      "start": 736646,
+      "text": "So, Jeff, do you know how judges actually use the software? I mean, do they just blindly use this information? How much weight do they give to this information? How does it happen in practice?",
+      "id": "ep_85_ut_32"
+    },
+    {
+      "end": 798588,
+      "speaker": "Jeff Larson",
+      "start": 753516,
+      "text": "We talked to a bunch of people, and the answers are sort of all over bored on that. We have one example in Wisconsin, a guy who, you know, was going to be released and the judge looked at his, or was going to get a lighter sentence. The judge looked at his risk score and said, you're very risky, and increased his sentence. You know, in Broward county, when we talked to the judge down there, he says he takes it under consideration, but he couldn't actually tell us exactly how he uses it. It's up to the discretion of whoever's looking at it, I think. Although the company that we looked at does provide sort of suggested sentencing. If you're a judge and you're having sort of like, you don't want to think about a lot of things, you can just look at that suggested sentence.",
+      "id": "ep_85_ut_33"
+    },
+    {
+      "end": 820928,
+      "speaker": "Enrico Bertini",
+      "start": 798636,
+      "text": "Okay. Yeah, yeah. And do you have any idea if actually judges without software are more accurate than judges with the software? Because that's very relevant. Right. I mean, in principle, you can claim that even if it's not perfect, it might actually still be better than just all the biases that judges necessarily do have. Right.",
+      "id": "ep_85_ut_34"
+    },
+    {
+      "end": 905602,
+      "speaker": "Jeff Larson",
+      "start": 821016,
+      "text": "Yeah. And I would agree with that just in principle. Right. However, and I went in, say, I went into this project. Cause I am a statistics guy. I thought that it would be very good at segmenting these populations or whatever, recidivist versus non recidivist. However, someone at 538, I think it was, or either 538 or the Marshall project looked into that question. Are there any studies about biases, particular judicial biases? And she couldn't find any at all. And the reason being? The reason why that is, is because we have essentially an undecidable criminal justice system. Everybody has their own set of rules. Everybody prosecutes differently than other folks. In some counties, you can't buy liquor. Right. Or you can't even have liquor. Right? So there's obviously going to be different laws there. So doing a sort of outside of the county level analysis of judges behavior becomes very, very, very difficult. Also, the law is strangely convoluted. We have sentencing guidelines, but we don't necessarily have, like a decision tree on how the law works, so it's almost easier to sort of audit an algorithm which is a point in its favor. Right, because you have a clearly defined set of outcomes. Did this person come back or not?",
+      "id": "ep_85_ut_35"
+    },
+    {
+      "end": 914714,
+      "speaker": "Moritz Stefaner",
+      "start": 905658,
+      "text": "Yeah, it's very measurable what's going on there, right? It's like, yeah, yeah. Did they commit another crime or not? It's like super, like made for machine learning, actually, if you think about it.",
+      "id": "ep_85_ut_36"
+    },
+    {
+      "end": 943098,
+      "speaker": "Jeff Larson",
+      "start": 914754,
+      "text": "Yeah, right, exactly. However, you know, but in, if you're trying to audit judges bias, it's like, did this guy get two more months worth of sentence unfairly? Like, what is your decision boundary there? It's very hard to do that particular study. Where is the bias there in, you know, just being a human? I do believe that probably judges can be more biased, especially in areas like the south, but I don't have any facts to back that up, you know?",
+      "id": "ep_85_ut_37"
+    },
+    {
+      "end": 952934,
+      "speaker": "Enrico Bertini",
+      "start": 943266,
+      "text": "Yeah, yeah. I vaguely remembered that study that showed that judges are way, way harsher the closer they are around lunchtime.",
+      "id": "ep_85_ut_38"
+    },
+    {
+      "end": 963870,
+      "speaker": "Jeff Larson",
+      "start": 953054,
+      "text": "And then also there was a study just this week about, like, if the college football team, or in the past few weeks if their college football team loses, people get longer sentences.",
+      "id": "ep_85_ut_39"
+    },
+    {
+      "end": 994884,
+      "speaker": "Enrico Bertini",
+      "start": 964062,
+      "text": "Oh, my God, it's terrible, right? I think it's very important to keep things in perspective, right. Because on the one hand, we are here clearly to criticize machines, but on the other hand, there is also a positive side of trying to do that. Right. So I think that's one of the most interesting challenges we are having today, that we have to be very careful and there are potentially a lot of gains, but we have to do it right. And that's such a big challenge.",
+      "id": "ep_85_ut_40"
+    },
+    {
+      "end": 1029334,
+      "speaker": "Jeff Larson",
+      "start": 994964,
+      "text": "One of the things we found in our reporting is that a lot of people buy this software and they don't ever validate it against their population. Right. So obviously you're going to buy a software that either the way it works is they use a population from a bunch of states to train initial weights, and then you're supposed to, after two or so years, validate against your population and fit it back to make it more accurate. And a lot of places haven't done that validation. So that would be one step in making these things a little bit better.",
+      "id": "ep_85_ut_41"
+    },
+    {
+      "end": 1040982,
+      "speaker": "Moritz Stefaner",
+      "start": 1029374,
+      "text": "At the very least, actually improves the model over time. I mean, that seems obvious that you just check how well it performs and keep. Keep adjusting. Right, right.",
+      "id": "ep_85_ut_42"
+    },
+    {
+      "end": 1051114,
+      "speaker": "Enrico Bertini",
+      "start": 1041158,
+      "text": "And you've been communicating with the company that actually produces this software. Can you tell us about a little bit about how this went?",
+      "id": "ep_85_ut_43"
+    },
+    {
+      "end": 1074374,
+      "speaker": "Jeff Larson",
+      "start": 1051614,
+      "text": "I mean, we had talked to them for a year. I mean, we've been in content, constant contact with them. It was a very interesting conversation when we sent them our results that I'm not really going to talk so much about. But afterwards they, they wrote like a 36 page paper saying, you know, it's equally predictive among the two races. So I don't see what the problem is. And.",
+      "id": "ep_85_ut_44"
+    },
+    {
+      "end": 1078150,
+      "speaker": "Enrico Bertini",
+      "start": 1074414,
+      "text": "Sure, kind of mistakes, though, but it's.",
+      "id": "ep_85_ut_45"
+    },
+    {
+      "end": 1166684,
+      "speaker": "Jeff Larson",
+      "start": 1078182,
+      "text": "The direction of the mistakes that matters, and that's sort of our point. Right. Yeah. You can have, you can have a test that's equally calibrated. Right. It's calibrated among the two races that predicts totally fine. So that's great for a criminal justice agency, but if you are a person who is rated high risk when you're trying to clean up your life, that has very serious impact on your life. Right. In terms of senses and stuff. The other thing that I will say that we didn't make a lot of, we didn't actually write about in our story, but we found in our longer technical article was that there is a very serious gender difference among the genders in that a high risk woman has the exact same risk as a medium risk man. So it means something totally different for women. The weird part is the company sells an add on to correct that problem, but Broward county didn't buy it. So. So, like, it's just kind of, you know, and that's a serious problem in criminology, that you almost have to have two separate models that you run for women and men. Right. And maybe that's a solution here for between races, but that also gets a little weird or kind of ooky, I don't know, because they used to do that in the sixties and seventies, and then they stopped for obvious reasons. But, you know, it's just strange.",
+      "id": "ep_85_ut_46"
+    },
+    {
+      "end": 1191454,
+      "speaker": "Moritz Stefaner",
+      "start": 1168104,
+      "text": "It's tricky. I mean, how, you've thought about this now, a lot like what the problem is. How would you see, like, how could one approach or get the best out of these algorithms but avoid these mistakes of. Yeah. Putting people essentially building prejudice into predictive algorithms. I mean, there's a fine line between a heuristic.",
+      "id": "ep_85_ut_47"
+    },
+    {
+      "end": 1192138,
+      "speaker": "Jeff Larson",
+      "start": 1191754,
+      "text": "Right.",
+      "id": "ep_85_ut_48"
+    },
+    {
+      "end": 1210964,
+      "speaker": "Moritz Stefaner",
+      "start": 1192186,
+      "text": "And a prejudice in a sense that some things like income or education might be good indicators of criminal activity or so in the future. But if you rely too much on these very simple indicators, then. Yeah. Then you run into this problem of prejudice. Right.",
+      "id": "ep_85_ut_49"
+    },
+    {
+      "end": 1342758,
+      "speaker": "Jeff Larson",
+      "start": 1211384,
+      "text": "Actually, some of the questions do cover that. Right. Some of the questions are really kind of strange. Like if you're poor, do you believe it's it's okay to steal. Like, we got the actual questionnaires and they're on our website. You know, how many people do you know who have been arrested? Obviously, the answer to that is going to be in different. In, like, rural Connecticut versus downtown versus, you know, the African American neighborhoods in Broward County, Fort Lauderdale. Because we do have. Because there is sort of historic over policing, especially in the south, of African American neighborhoods. But the answer to the question is yes. You have to be very, very careful in what you choose. If you're choosing income. Well, there's a correlated. Socioeconomic status is also correlated. Right. So you have to be very careful, I think, in terms of what can make things better. We've already talked about a couple things, but the Wisconsin Supreme Court looked at the use of it in Wisconsin and essentially advocated for a warning label. If you put yourself in the mind of a judge, a judge is. His whole job is to judge things. The world is in black and white. Right? This is. He's guilty, not guilty. This is what his sentence should be. Right. These algorithms or classifiers of any type are probabilistic. Right. They give you an uncertain. They give you an error boundary. So however, this company has bucketed low, medium, and high. Right. And they say medium and high is high risk. You should watch out for that person. Right. That's not how classifiers work at all. In fact, the underlying algorithm, they fit raw score to deciles and then bucket up those deciles. Right? So in the low, medium and high. So they're hiding the underlying uncertainty of the algorithm. I think a very first step is to put a warning label, just like the Wisconsin Supreme Court said, that says these things are probabilistic models. You're talking about, like, a 60% chance here. Right. You're not talking about, like. You're not talking about. Definitely. Yeah.",
+      "id": "ep_85_ut_50"
+    },
+    {
+      "end": 1369174,
+      "speaker": "Moritz Stefaner",
+      "start": 1342886,
+      "text": "And maybe even say, like, people with a score of four, you know, here's 100 people with that score. Like, 30 of them actually committed another crime. Or, you know, these are the actual biographies. Like to. Yeah. In the result presentation. I agree there's a lot you can do, but I think people want to have that. Yeah. High, medium, low, the red, amber, green, the thumbs up, thumbs down in many cases. Right. But probably we need to work on that.",
+      "id": "ep_85_ut_51"
+    },
+    {
+      "end": 1396406,
+      "speaker": "Jeff Larson",
+      "start": 1370674,
+      "text": "It fits with how a judge, like, if I imagine judges, right, they deal in categories, right? It fits the domain. But I will say that everybody looks at the weather every day, right? You see a 20% change of rain, and you think, well, you come up with your threshold. And you say, am I going to bring my umbrella? People understand probabilities at a core level. We don't need to hide those, especially in this case. Right?",
+      "id": "ep_85_ut_52"
+    },
+    {
+      "end": 1406878,
+      "speaker": "Moritz Stefaner",
+      "start": 1396510,
+      "text": "And in terms of the algorithm design, like is there a way to avoid bias, like in setting up these systems, like just from a basic statistics level.",
+      "id": "ep_85_ut_53"
+    },
+    {
+      "end": 1437004,
+      "speaker": "Jeff Larson",
+      "start": 1406966,
+      "text": "You know, I'm not the right person to ask about that because I don't know, you know, I don't know necessarily from a criminology perspective, I would think there has been some movement to move to more of a decision tree based approach, sort of spread out the category, spread out the risk, building this idea of uncertainty that I'm hopeful about. But, you know.",
+      "id": "ep_85_ut_54"
+    },
+    {
+      "end": 1464184,
+      "speaker": "Moritz Stefaner",
+      "start": 1440764,
+      "text": "Which weight is put on which question, like what the outcome of each answer, what the impact of each answer is on the total result, right? And as you said before, right now this is a black box. It's just like answers in, score out, but it's never made transparent. Like which question is how important actually? And might there be a problem or can we follow that reasoning, let's say, behind the decision.",
+      "id": "ep_85_ut_55"
+    },
+    {
+      "end": 1531224,
+      "speaker": "Jeff Larson",
+      "start": 1464644,
+      "text": "The other thing from an ethical standpoint, moving the decision boundary from high risk, low risk to 50% higher, right, higher than average risk, moving that all the way to the end to the highest risk, so that we only classify people that were reasonably certain for some definition of reasonably certain would be easy fix. I mean, if you look at like detecting fraud, detecting fraud. When they come up with an algorithm to detect fraud, they don't set it at 50% because everybody would get hit with it all the time. So they said it all the way at the end. So number one, they don't have to review as many cases, but number two, the algorithm is super, super certain that that's going to, that when I hit there, this guy has, or this person has a higher likelihood of committing fraud, I think that would fix it, would minimize the difference in false positives, false negatives, and also fix a lot of it. If you said, okay, we're only going to treat people differently if they get a score of nine or ten.",
+      "id": "ep_85_ut_56"
+    },
+    {
+      "end": 1628484,
+      "speaker": "Moritz Stefaner",
+      "start": 1535964,
+      "text": "This is a good time to take a little break and talk about our sponsor this week. Qlik who allows you to explore the hidden relationships within your data that lead to meaningful insights. Let your instincts lead the way to create personalized visualizations and dynamic dashboards with Qlik sense, which you can download for free at Qlik.de/Datastories. That's Qlik.de/Datastories. And as you know, the upcoming presidential election in the US has led to thousands and thousands of candidate mentions by the media. Now the question is, who has the lead on a daily basis, who gets the most coverage? And you can take a look at click's presidential election app on the web and look at detailed statistics on all the tv network coverage for all the candidates, and especially, of course, Donald Trump and Hillary Clinton. The data comes from the Internet Archives, television news archive, and the app itself is designed using Qlik sense and a few JavaScript frameworks. And it allows you not only to see the big picture of media mentions, but also drill into individual candidates, individual timeframes down to a week or a day, and individual tv networks so you can get a full understanding of the media landscape surrounding the presidential elections. Check it out for yourself on the Qlik website. We'll put the link in the show notes, of course. And of course, try out Qlik sense for free at Qlik Datastories. That's Qlik Datastories. Thanks again for sponsoring us. And now back to the show.",
+      "id": "ep_85_ut_57"
+    },
+    {
+      "end": 1677474,
+      "speaker": "Enrico Bertini",
+      "start": 1631824,
+      "text": "Jeff, can you talk a little bit about the technicalities of the analysis that you made? That's something I'm super, super curious about. And actually, we are doing a little bit of this work in my lab as well. So that's one of the reason why, reasons why I'm so interested. But basically, you've been trying to reverse engineer the black box, right? So you don't have access to the internals of the software, so you cannot really know how the software makes decisions, but you are trying to react, as I said, reverse engineer the decisions and what the model does by looking exclusively at the data that it receives as an input and creates as an output. Is that a correct description of what you have done?",
+      "id": "ep_85_ut_58"
+    },
+    {
+      "end": 1792288,
+      "speaker": "Jeff Larson",
+      "start": 1677634,
+      "text": "Yeah, I mean, that's, I mean, and we do that a lot even outside of the algorithm space. Like, if we're looking at things like, you know, who gets charged more for bankruptcy, or do people have the equal opportunity in terms of access to education? Essentially, what this algorithm does is classifies people into groups. We can look for differences among those groups. Right. So in one sense, correcting for those facts is almost superfluous. How the algorithm actually works. I was really glad that they use a logistic regression classifier because we're sort of doing apples to oranges, apples to apples then. And I was also glad that I found that they did a Cox proportional hazards model because that then we were able to do one and sort of add in more factors to look for the difference in scores or whatever. But if you're just trying to figure out, are the groups classified differently as long as you sort of have a defensible sort of position and you correct it for things that you can correct for, I feel that there's a strong enough case to be made that this is actually happening. So when we did this, we're talking about a prognostic test. We worked with a handful of criminologists who looked at our study, and then we also looked at epidemiology. So we had someone help us who is an epidemiologist, because healthcare does this all the time. Healthcare tries to predict who's going to get cancer with a certain amount of certainty and defines. And they have a very specific way on how they test these algorithms. I mean, not these algorithms, these classifiers that they've been doing for hundreds and hundreds of years. So we took epidemiology methods and applied them to this classifier.",
+      "id": "ep_85_ut_59"
+    },
+    {
+      "end": 1810354,
+      "speaker": "Enrico Bertini",
+      "start": 1792416,
+      "text": "So, basically, do I understand correctly that the features or attributes that you use to build your own model are not necessarily all the features that have been used in the original software in the original model? Right. You don't have access to everything, right?",
+      "id": "ep_85_ut_60"
+    },
+    {
+      "end": 1880260,
+      "speaker": "Jeff Larson",
+      "start": 1810474,
+      "text": "Yeah, of course, because we don't have. So we don't have the answers to the individual questions. If we had the answers to the individual questions that the person filled out, we would be able to say something a little bit more robust, which is African Americans answer this question like, this is the one that is causing this problem, right? Or this group is the one. And you see that happen a lot in, when they're talking about sats or acts, they try and correct for differences among races and throw out questions that say only white folks answer correctly. And in all the literature that we looked at, nobody looks at the individual questions to see if they have, number one, lead to poorer decisions, and number two, lead, lead to an over, you know, lead to an over prediction, because one race or one protected status class is answering a question in a certain way. But we can't know that because we have a series of unknowns plus a series of knowns, which is the criminal history, age and gender. And we're just trying to figure out what's happening in this series of unknowns.",
+      "id": "ep_85_ut_61"
+    },
+    {
+      "end": 1918134,
+      "speaker": "Enrico Bertini",
+      "start": 1880332,
+      "text": "So all the data and code that you used for this analysis is available in a very nice GitHub page I saw you also have an additional article at ProPublica explaining in details what you have done and how and why. This is something I really, really like. And do I understand correctly, you also have the data is available? So if a person wants to either rerun the same analysis or do additional analysis, that's possible. Right? They would just go there and. And do it.",
+      "id": "ep_85_ut_62"
+    },
+    {
+      "end": 1955930,
+      "speaker": "Jeff Larson",
+      "start": 1918634,
+      "text": "Yeah. That's something that we do a lot here because, you know, we want. It's sort of like, from an ethical standpoint, for us to be entirely transparent about exactly what we did. And the company did come back to us and pointed out that we had four errors in our data set, which is pretty good, because when we first got the data set, we had to FOIA for it. Freedom Information act. Originally, the county said it would cost us $11,000. And then we sort of got a lawyer, and they were like, oh, never mind. It's a $1,000. But then we spent a year joining, so that was pretty good.",
+      "id": "ep_85_ut_63"
+    },
+    {
+      "end": 1980126,
+      "speaker": "Enrico Bertini",
+      "start": 1956002,
+      "text": "I really like that you're talking about that because this is kind of like giving our listeners a little bit of behind the curtains. What it takes to. I think it's very important to show what is it takes to develop a project like this. Right. Because you read an article that is a certain number of words, right. Not too long, but the amount of work that is needed in order to create this article is amazing.",
+      "id": "ep_85_ut_64"
+    },
+    {
+      "end": 2045254,
+      "speaker": "Jeff Larson",
+      "start": 1980310,
+      "text": "Yeah, no, it is amazing. It was a lot of work a year in my life, and then what we did is we were like, okay, so we got the scores and we were like, okay, can you give us the criminal histories? And they were like, oh, yeah, we can't do that. We don't know how to do that. And we were like, okay, so we'll scrape your website. But is there any identifier that'll join these two things? Like, is there a booking number that'll join these two things? And they said, oh, no, we just join on first name and date of birth, which, you know, sort of sank my soul a little bit. We spent months and months hand checking just random samples over and over and over again to make sure that our error rate was small enough that the only errors were typos. And we're pretty confident. I mean, I think I personally looked at, like, you know, 2000 individual cases. Julia and Lauren, my co authors, probably looked at way more. We probably looked and fact checked every single line in that data set. But it took a couple years off my life. But that's okay.",
+      "id": "ep_85_ut_65"
+    },
+    {
+      "end": 2080874,
+      "speaker": "Enrico Bertini",
+      "start": 2046594,
+      "text": "I think it's totally worth it. Such an amazing article and project in general, and it's very much needed. As I said earlier, it's one of the biggest challenges we are facing, I believe. Right. Because, as I said, on the one hand, machine learning promises to make better decisions than humans in some cases. And we do want that if it's possible. Right. On the other hand, we also have to be, be really careful. So work like the one that you are doing is super, super important.",
+      "id": "ep_85_ut_66"
+    },
+    {
+      "end": 2124960,
+      "speaker": "Jeff Larson",
+      "start": 2081254,
+      "text": "Yeah, I would say, I mean, machine learning classifiers or even from logistic regression all the way to neural nets, you have to pay attention, especially if you're classifying folks. You have to pay attention to what a classification means. Right. So maybe Siri doesn't pick up on my voice correctly or autocomplete is a little bit weird for me or my iPhone autocomplete is a little bit weird for me. The actual impact to that, to my life is minor annoyance. But if you're talking about someone losing a job or somebody maybe going to jail because of this outcome, you need to sort of think about what is a failure mode mean in that situation.",
+      "id": "ep_85_ut_67"
+    },
+    {
+      "end": 2150534,
+      "speaker": "Moritz Stefaner",
+      "start": 2125112,
+      "text": "Yeah. And it's in general a huge topic because as you say, we also affected on this like pretty much on an everyday basis, basically scoring systems everywhere now. Right. So some online stores change the prices depending on your cookies. Same is reported for flights as well. I mean, these are sort of luxury problems, but I think it illustrates that we are constantly being judged automatically by machines. Right?",
+      "id": "ep_85_ut_68"
+    },
+    {
+      "end": 2180814,
+      "speaker": "Jeff Larson",
+      "start": 2150574,
+      "text": "Yeah. You're sort of listing a series of my failures. Right. We spent a lot of time looking at online stores. We couldn't get enough information. You know, it's not like you can foia online store. We spend a lot of time looking at differences in flights. It's not like you can ask the airline, no matter how many lawyers you have, for more information about their scoring algorithm. But stay tuned. We might pick back up the flag after this. Even though this one took a year, it was the easiest of all of them.",
+      "id": "ep_85_ut_69"
+    },
+    {
+      "end": 2189962,
+      "speaker": "Moritz Stefaner",
+      "start": 2182514,
+      "text": "So the hardest problem was actually to crack the black box open wide enough that you can actually get a grip on the actual problem, is that it?",
+      "id": "ep_85_ut_70"
+    },
+    {
+      "end": 2231816,
+      "speaker": "Jeff Larson",
+      "start": 2190058,
+      "text": "Right, exactly. Well, in this case we have the classification output. If you're looking at prices, you can only sort of infer what the change of price is going to be. Plus, you don't really know what goes into that algorithm to begin with. Same thing with flights. Flights have to do with the very nature of the economy. Flight prices have to do with that. So it may be there's a base rate for a flight, but then if you have a cookie and you looked at some other flight before, they'll raise it up. But it's hard to isolate what exactly that targeting effect is because there are so many unknowns on how they calculate those rates.",
+      "id": "ep_85_ut_71"
+    },
+    {
+      "end": 2238272,
+      "speaker": "Enrico Bertini",
+      "start": 2231960,
+      "text": "So can you give us any preview of what is going to happen next at ProPublica and from your team.",
+      "id": "ep_85_ut_72"
+    },
+    {
+      "end": 2243724,
+      "speaker": "Jeff Larson",
+      "start": 2238448,
+      "text": "Yeah, I normally don't do that because I bet you they'll be a journalist. Listen.",
+      "id": "ep_85_ut_73"
+    },
+    {
+      "end": 2249404,
+      "speaker": "Enrico Bertini",
+      "start": 2245584,
+      "text": "You don't have to. You don't have to, but I mean, I have to ask this question.",
+      "id": "ep_85_ut_74"
+    },
+    {
+      "end": 2253336,
+      "speaker": "Jeff Larson",
+      "start": 2251104,
+      "text": "All I would say is, well, I.",
+      "id": "ep_85_ut_75"
+    },
+    {
+      "end": 2262896,
+      "speaker": "Enrico Bertini",
+      "start": 2253360,
+      "text": "Saw you just published, I think there was an article a few days ago from ProPublica on analyzing Amazon's Amazon algorithm. Right? Yeah.",
+      "id": "ep_85_ut_76"
+    },
+    {
+      "end": 2341704,
+      "speaker": "Jeff Larson",
+      "start": 2262960,
+      "text": "So what we found in Amazon's case was that their algorithm wasn't actually an algorithm. Right. That's all they're. So they say they have an algorithm that's all consumer friendly. But when we looked into it, there's this marketplace that they have and they order, they say that the marketplace is ordered by price plus shipping, right. And it turns out that if you were associated with Amazon, they didn't order you by price plus shipping, they just put you to the top of the list. Right. So if someone's going for the cheapest price, they'll click on an Amazon or Ebay seller first and pay maybe extra shipping, even though that price looks lower, which is a consumer interest sort of story. It turns out that Google was doing the same thing in the EU and got sort of sued for that. So while Amazon has been touting this algorithm forever and ever and ever and saying it's good for consumers, it turns out that there's this little switch in their algorithm. If you're associated with Amazon or you are Amazon, you get better placement, which was kind of fun. We went in looking for an algorithm and we found sort of a decision where they decided to circumvent the algorithm to make more money, which is weird.",
+      "id": "ep_85_ut_77"
+    },
+    {
+      "end": 2351308,
+      "speaker": "Moritz Stefaner",
+      "start": 2343764,
+      "text": "The word algorithm. I think we should do a whole episode just on that word because it's one of the most tortured words I think, today.",
+      "id": "ep_85_ut_78"
+    },
+    {
+      "end": 2352504,
+      "speaker": "Jeff Larson",
+      "start": 2351396,
+      "text": "Yeah. What it means.",
+      "id": "ep_85_ut_79"
+    },
+    {
+      "end": 2361440,
+      "speaker": "Enrico Bertini",
+      "start": 2357264,
+      "text": "Yeah. I'm not even sure I would call a machine learning model an algorithm.",
+      "id": "ep_85_ut_80"
+    },
+    {
+      "end": 2364644,
+      "speaker": "Moritz Stefaner",
+      "start": 2361512,
+      "text": "Often the algorithm is fine. You know, the algorithm is fine, but.",
+      "id": "ep_85_ut_81"
+    },
+    {
+      "end": 2367240,
+      "speaker": "Enrico Bertini",
+      "start": 2365024,
+      "text": "Once it's been trained, how the output.",
+      "id": "ep_85_ut_82"
+    },
+    {
+      "end": 2375056,
+      "speaker": "Moritz Stefaner",
+      "start": 2367272,
+      "text": "Is used, like anything else, basically, like the whole social system around it, the algorithm is just, I don't know, back propagation or logistic regression or something.",
+      "id": "ep_85_ut_83"
+    },
+    {
+      "end": 2375320,
+      "speaker": "Jeff Larson",
+      "start": 2375120,
+      "text": "Right.",
+      "id": "ep_85_ut_84"
+    },
+    {
+      "end": 2376416,
+      "speaker": "Moritz Stefaner",
+      "start": 2375352,
+      "text": "That's, that's not the problem.",
+      "id": "ep_85_ut_85"
+    },
+    {
+      "end": 2456020,
+      "speaker": "Jeff Larson",
+      "start": 2376480,
+      "text": "Yeah, yeah. Gradient descent. Or like you can do a regression by hand. I don't envy you if you want, if you do that. But yeah, you know, they're well defined statistics to some extent. I agree with you. I totally agree with you technically. But, you know, there's this great quote from the editor of Time magazine in the seventies. And he said, you know, someone came with like a really thoughtful piece and he said, no, no, no, put the dog food where the dog is, which means people have this idea of what an algorithm is that doesn't line up with the technical specification, just like they have an idea of what bias means, which maybe doesn't line up with like a statistical definition. So we have to sort of play a little loose with those technical things, which as a nerd sort of, you know, rubs me the wrong way sometimes. So we might say that algorithms, things that are algorithms are not necessary. So Amazon's algorithm is not an algorithm. Right. Or very smart at all. A logistic regression. Nobody would really call that an algorithm, but we're using it as a synonym for a classification, a statistical classification.",
+      "id": "ep_85_ut_86"
+    },
+    {
+      "end": 2477972,
+      "speaker": "Moritz Stefaner",
+      "start": 2456052,
+      "text": "Yeah, but I think it's important to recognize that, like, social decisions and, you know, social assumptions get put into that. So it's not, and this is exactly like coming back to the story, I think part of the problem, like all the assumptions that go into system design and, you know, which are not really part of an algorithm, but much more implicit and much more harder to grasp, certainly.",
+      "id": "ep_85_ut_87"
+    },
+    {
+      "end": 2510890,
+      "speaker": "Jeff Larson",
+      "start": 2478108,
+      "text": "I mean, in this case, how you did in high school had an effect on your score, right? Like that is a decision that you made morally that you put into something that is going to try statistically to find out if that has an effect. And pretty much everything's going to have an effect given a large enough sample size. So you'd leave it in. But that may have especially the problems with access to education. Again, that answer may just be learning, oh, this is someone from an African American, poor African American neighborhood.",
+      "id": "ep_85_ut_88"
+    },
+    {
+      "end": 2515810,
+      "speaker": "Enrico Bertini",
+      "start": 2511082,
+      "text": "Plus, when you look at individuals, an individual can always be a statistical example.",
+      "id": "ep_85_ut_89"
+    },
+    {
+      "end": 2552814,
+      "speaker": "Moritz Stefaner",
+      "start": 2515842,
+      "text": "Then we get to the whole biases, how we take three examples of something and then totally make up our mind. That's another whole new episode. No, but we're just waking up to this, how to look critically at these systems, how to also critique them in a proper way. And I think this is also why your article is so good, because it critiques the whole approach on many levels and all the important ones on the technical one, on the impact one, on the basic assumption one, you know, so, yeah, we need to develop this capabilities pretty quick. So these, these projects help.",
+      "id": "ep_85_ut_90"
+    },
+    {
+      "end": 2572594,
+      "speaker": "Enrico Bertini",
+      "start": 2553314,
+      "text": "Yeah, yeah. And it's very balanced, I have to say. You're not just saying, hey, this is totally wrong. And I like the fact that you are kind of like very systematically trying to explain what is going on and using an approach that is as objective as you can well, thank you.",
+      "id": "ep_85_ut_91"
+    },
+    {
+      "end": 2578482,
+      "speaker": "Jeff Larson",
+      "start": 2572634,
+      "text": "I'd like to introduce you to a couple people who don't agree with that, who have been bugging me on Twitter, but that's fine.",
+      "id": "ep_85_ut_92"
+    },
+    {
+      "end": 2582746,
+      "speaker": "Enrico Bertini",
+      "start": 2578538,
+      "text": "I think that's a conversation that needs to go on. It's fine. I think it's fine.",
+      "id": "ep_85_ut_93"
+    },
+    {
+      "end": 2656644,
+      "speaker": "Jeff Larson",
+      "start": 2582810,
+      "text": "Yeah, definitely. I'm totally with you. I'm totally with you. I'm being a little glib, but that's what we try for here. The only other thing that I would sort of mention in terms of algorithms, we do have an algorithm where you can, or a classifier or a score that you can challenge the accuracy of the information, and that's the credit score. So in this case, it seems to be like we started out the conversation about discovery. It seems to be you should be able to challenge the accuracy of the score or at least understand what went into calculating your risk score. And we have that model already in credit scores. You can't challenge the underlying classifier. Everybody does it a little bit differently. Experian versus somebody else, for example. But you can go in and say, no, I never got that fine. Or here's proof that I paid that bill correctly. I think that's another step forward, because, especially when you're talking about statistical learning, any difference in a factor that goes into a statistical classifier could bump you to a different risk level or something like that. And we only have that in one instance, and we've had that for a long time.",
+      "id": "ep_85_ut_94"
+    },
+    {
+      "end": 2672938,
+      "speaker": "Enrico Bertini",
+      "start": 2656724,
+      "text": "Nice. So one last question I want to ask you is say that some of our listeners want to try out something like that. Where would you start? Is there. Do you have any suggestions for some of the nerds that are listening to this?",
+      "id": "ep_85_ut_95"
+    },
+    {
+      "end": 2753710,
+      "speaker": "Jeff Larson",
+      "start": 2673106,
+      "text": "Oh, you know, I mean, the problem with criminal justice data is, number one, you can't get it, and number two, it's dirty. Like, for example, in New York in, I think, 2013 or something like that. We had. In New York state, we had something like 50 hate crimes. If you look at the crime statistics in Mississippi, they had zero. And given the history of Mississippi, I'm not entirely sure there were absolutely no hate crimes. So criminal justice statistics, in terms of the criminal justice angle, is very hard to sort of get clean data. There are a couple data sets, like stop and frisk. BuzzFeed News put up a data set about FBI planes. That is very interesting. Criminal justice, and especially algorithms or classifiers surrounding that, is hard. But there are algorithms everywhere. And I would say that assessing the output of an algorithm, if you can find a very clean decision boundary, a classifier that's just up and down. That's something that's entirely easy to figure out. You can look for interesting correlations between or groups that are maybe classified a different way.",
+      "id": "ep_85_ut_96"
+    },
+    {
+      "end": 2785144,
+      "speaker": "Moritz Stefaner",
+      "start": 2753822,
+      "text": "I mean, one way can also be to sort of anonymize data or take out certain identifying features and then rerun the same thing. So there have been a lot of experiments with, I don't know, sending out resumes with different and, like, names that suggested a certain ethnicity identical resume. But, you know, one guy sounds Mexican, the other woman sounds indian. Which responses do you get? Stuff like this. I think there's a lot of these, like if you find a good angle into a topic, a lot of really simple experiments you can do to probe.",
+      "id": "ep_85_ut_97"
+    },
+    {
+      "end": 2837148,
+      "speaker": "Jeff Larson",
+      "start": 2785184,
+      "text": "These systems, cutting down on the variants. So instead of trying to predict everybody, if you have, especially when you're trying to interrogate, we found in the past that what works, and there's been a bunch of research doing exactly that, is coming up with single profiles that you can control for and then varying just one variable. So asking for a bunch of insurance quotes, you know, in a bunch of different zip codes, but doing the same exact thing, you know, for one single profile can show there's a guy at California that did that, like in 2009 or something. But that's a promising avenue. That being said, we've tried that in the past with online pricing and flight data, and again, it just didn't, you can't cut through the noise. You can't control for enough variants there. But if you see something like that, you can definitely do it.",
+      "id": "ep_85_ut_98"
+    },
+    {
+      "end": 2865938,
+      "speaker": "Enrico Bertini",
+      "start": 2837276,
+      "text": "Well, Jeff, thanks a lot. I think that's another one of those topics we could go on forever. And it's super, super consequential, right? I mean, that's really important. So thank you very much for coming on the show and talking about this, this great project. I think we are very much looking forward to seeing what else you are brewing at ProPublica. And, yeah, we will be waiting.",
+      "id": "ep_85_ut_99"
+    },
+    {
+      "end": 2867058,
+      "speaker": "Moritz Stefaner",
+      "start": 2866066,
+      "text": "Thanks so much, Jeff.",
+      "id": "ep_85_ut_100"
+    },
+    {
+      "end": 2868946,
+      "speaker": "Jeff Larson",
+      "start": 2867146,
+      "text": "Stay tuned and thanks for having me, guys.",
+      "id": "ep_85_ut_101"
+    },
+    {
+      "end": 2869594,
+      "speaker": "Moritz Stefaner",
+      "start": 2869050,
+      "text": "Bye bye.",
+      "id": "ep_85_ut_102"
+    },
+    {
+      "end": 2870242,
+      "speaker": "Enrico Bertini",
+      "start": 2869634,
+      "text": "Bye bye.",
+      "id": "ep_85_ut_103"
+    },
+    {
+      "end": 2872174,
+      "speaker": "Jeff Larson",
+      "start": 2870338,
+      "text": "All right, guys, have a good one.",
+      "id": "ep_85_ut_104"
+    },
+    {
+      "end": 2888910,
+      "speaker": "Enrico Bertini",
+      "start": 2879214,
+      "text": "Hey, guys, thanks for listening to data stories again. Before you leave, we have a request if you can spend a couple of minutes rating us on iTunes, that would be extremely helpful for the show.",
+      "id": "ep_85_ut_105"
+    },
+    {
+      "end": 2919672,
+      "speaker": "Moritz Stefaner",
+      "start": 2889022,
+      "text": "And here's also some information on the many ways you can get news directly from us. We're, of course, on twitter@twitter.com. Datastories. We have a Facebook page@Facebook.com. datastoriespodcast. All in one word. And we also have a, an email newsletter. So if you want to get news directly into your inbox and be notified whenever we publish an episode, you can go to our homepage datastory.es and look for the link that you find on the bottom in the footer.",
+      "id": "ep_85_ut_106"
+    },
+    {
+      "end": 2931766,
+      "speaker": "Enrico Bertini",
+      "start": 2919768,
+      "text": "So one last thing that we want to tell you is that we love to get in touch with our listeners, especially if you want to suggest a way to improve the show or amazing people you want us to invite or even projects you want to us to talk about.",
+      "id": "ep_85_ut_107"
+    },
+    {
+      "end": 2966524,
+      "speaker": "Moritz Stefaner",
+      "start": 2931870,
+      "text": "Yeah, absolutely. So don't hesitate to get in touch with us. It's always a great thing for us. And that's all for now. See you next time and thanks for listening to data stories data stories is brought to you by Qlik, who allows you to explore the hidden relationships within your data that lead to meaningful insights. Let your instincts lead the way to create personalized visualizations and dynamic dashboards with clicks, which you can download for free at Qlik de Datastories. That's Qlik deries.",
+      "id": "ep_85_ut_108"
+    }
+  ],
+  "confidence": 0.928904376247502,
+  "audio_duration": 2966,
+  "punctuate": true,
+  "format_text": true,
+  "dual_channel": false,
+  "webhook_url": null,
+  "webhook_status_code": null,
+  "webhook_auth": false,
+  "webhook_auth_header_name": null,
+  "speed_boost": false,
+  "auto_highlights_result": null,
+  "auto_highlights": false,
+  "audio_start_from": null,
+  "audio_end_at": null,
+  "word_boost": [],
+  "boost_param": null,
+  "filter_profanity": false,
+  "redact_pii": false,
+  "redact_pii_audio": false,
+  "redact_pii_audio_quality": null,
+  "redact_pii_policies": null,
+  "redact_pii_sub": null,
+  "speaker_labels": true,
+  "content_safety": false,
+  "iab_categories": true,
+  "content_safety_labels": {
+    "status": "unavailable",
+    "results": [],
+    "summary": {}
+  },
+  "language_detection": false,
+  "language_detection_threshold": null,
+  "language_confidence": null,
+  "custom_spelling": null,
+  "throttled": false,
+  "auto_chapters": true,
+  "summarization": false,
+  "summary_type": null,
+  "summary_model": null,
+  "custom_topics": false,
+  "topics": [],
+  "speech_threshold": null,
+  "speech_model": "best",
+  "chapters": [
+    {
+      "summary": "Data stories is brought to you by Qlik, who allows you to explore the hidden relationships within your data. Let your instincts lead the way to create personalized visualizations and dynamic dashboards with Qlik sense.",
+      "gist": "Data Stories",
+      "headline": "Data stories is brought to you by Qlik, which lets you explore hidden relationships",
+      "start": 160,
+      "end": 108204,
+      "id": "ep_85_ch_0"
+    },
+    {
+      "summary": "Jeff Larson: How do machines make decisions that have an impact on us and society in general? Larson: ProPublica published an article titled Machine Bias. He says it looked at how algorithms predict who is likely to reoffend. Larson: African Americans were twice as likely to be rated high risk than white defendants.",
+      "gist": "Machine Bias in the Criminal Justice System",
+      "headline": "This podcast focuses on how machines make decisions that impact us and society",
+      "start": 109864,
+      "end": 632164,
+      "id": "ep_85_ch_1"
+    },
+    {
+      "summary": "There's a private company that runs this for the government and does not disclose how the actual decision comes about. They're just using it for pretrial release, sort of to estimate how much of a flight risk you are. It has actual consequences for the trial.",
+      "gist": "Punishment for non-violent defendants under pretrial release",
+      "headline": "Private company runs this for the government and does not disclose how decision comes about",
+      "start": 632204,
+      "end": 736478,
+      "id": "ep_85_ch_2"
+    },
+    {
+      "summary": "Jeffrey Toobin: Do you know how judges actually use the software? Do they just blindly use this information? How much weight do they give to this information in practice? Do you have any idea if judges without software are more accurate than judges with software?",
+      "gist": "Will Judge Sentencing Software Be More Accurate?",
+      "headline": "Do you know how judges actually use the software? How does it happen",
+      "start": 736646,
+      "end": 1040982,
+      "id": "ep_85_ch_3"
+    },
+    {
+      "summary": "There is a very serious gender difference among the genders in that a high risk woman has the exact same risk as a medium risk man. If you rely too much on these simple indicators, then you run into this problem of prejudice. The Wisconsin Supreme Court looked at the use of it in Wisconsin and essentially advocated for a warning label.",
+      "gist": "Predictive Algorithms: Should They Be Warned?",
+      "headline": "You've been communicating with the company that actually produces this software",
+      "start": 1041158,
+      "end": 1367370,
+      "id": "ep_85_ch_4"
+    },
+    {
+      "summary": "Is there a way to avoid bias in setting up these systems? People understand probabilities at a core level. I would think there has been some movement to move to more of a decision tree based approach. From an ethical standpoint, moving the decision boundary from high risk to 50% higher would be easy fix.",
+      "gist": "Is There a Way to Avoid",
+      "headline": "In terms of algorithm design, like is there a way to avoid bias",
+      "start": 1367402,
+      "end": 1531224,
+      "id": "ep_85_ch_5"
+    },
+    {
+      "summary": "Qlik sense allows you to explore the hidden relationships within your data that lead to meaningful insights. Take a look at click's presidential election app on the web and look at detailed statistics on all the tv network coverage for all the candidates. Try out Qlik sense for free at Qlik Datastories.",
+      "gist": "Presidential Election Data",
+      "headline": "Click's presidential election app uses Qlik sense to analyze media coverage",
+      "start": 1535964,
+      "end": 1621176,
+      "id": "ep_85_ch_6"
+    },
+    {
+      "summary": "Jeffrey Sachs: Can you talk a little bit about the technicalities of the analysis that you made? Sachs: Essentially, what this algorithm does is classifies people into groups. All the data and code that you used for this analysis is available in a GitHub page. If anyone wants to either rerun the analysis or do additional analysis, that's possible.",
+      "gist": "The reverse-engineering of the criminal justice classifier",
+      "headline": "Jeff: Can you talk a little bit about the technicalities of the analysis",
+      "start": 1621240,
+      "end": 2125512,
+      "id": "ep_85_ch_7"
+    },
+    {
+      "summary": "Some online stores change the prices depending on your cookies. Same is reported for flights as well. It illustrates that we are constantly being judged automatically by machines. Can you give us any preview of what is going to happen next at ProPublica?",
+      "gist": "The Problem With Amazon's Algorithm",
+      "headline": "ProPublica spent a year analyzing Amazon's scoring algorithm for flights",
+      "start": 2125568,
+      "end": 2578482,
+      "id": "ep_85_ch_8"
+    },
+    {
+      "summary": "You should be able to challenge the accuracy of the score or at least understand what went into calculating your risk score. We have that model already in credit scores. Any difference in a factor that goes into a statistical classifier could bump you to a different risk level.",
+      "gist": "Can You Challenge Your Credit Score?",
+      "headline": "You should be able to challenge the accuracy of the credit score",
+      "start": 2578538,
+      "end": 2657344,
+      "id": "ep_85_ch_9"
+    },
+    {
+      "summary": "Jeffrey Toobin: The problem with criminal justice data is, number one, you can't get it, and number two, it's dirty. He says you can look for interesting correlations between or groups that are maybe classified a different way. Toobin says there are a lot of simple experiments you can do to probe.",
+      "gist": "How Can Algorithms Predict Criminal Justice?",
+      "headline": "Classifiers around criminal justice are hard to get clean data",
+      "start": 2657954,
+      "end": 2870242,
+      "id": "ep_85_ch_10"
+    },
+    {
+      "summary": "Data stories is brought to you by Qlik, who allows you to explore the hidden relationships within your data that lead to meaningful insights. If you can spend a couple of minutes rating us on iTunes, that would be extremely helpful for the show. Don't hesitate to get in touch with us.",
+      "gist": "Data Stories",
+      "headline": "Before you leave, we have a request if you can spend a couple of minutes rating data stories",
+      "start": 2870338,
+      "end": 2966524,
+      "id": "ep_85_ch_11"
+    }
+  ],
+  "disfluencies": false,
+  "entity_detection": false,
+  "sentiment_analysis": false,
+  "sentiment_analysis_results": null,
+  "entities": null,
+  "speakers_expected": null,
+  "summary": null,
+  "custom_topics_results": null,
+  "episode_num": 85,
+  "episode_metadata": {
+    "speakers": [
+      "Jeff Larson",
+      "Moritz Stefaner",
+      "Enrico Bertini"
+    ],
+    "WPid": "755",
+    "url": "https://datastori.es/podlove/file/3025/s/feed/c/mp3/85-machine-bias-with-jeff-larson.mp3",
+    "episode_title": "Machine Bias with Jeff Larson"
+  }
+}

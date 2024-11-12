@@ -1,0 +1,600 @@
+{
+  "id": "45f11d29-ccf7-45ec-b844-5d3acaf514ff",
+  "language_model": "assemblyai_default",
+  "acoustic_model": "assemblyai_default",
+  "language_code": "en_us",
+  "status": "completed",
+  "audio_url": "https://datastori.es/podlove/file/5159/s/feed/c/mp3/122-visualizing-climate-scenarios-with-boris-muller.mp3",
+  "utterances": [
+    {
+      "end": 14554,
+      "speaker": "Boris M\u00fcller",
+      "start": 160,
+      "text": "Our first stakeholders are really the scientists, and we need to turn all this kind of invisible knowledge and all these kind of structures they're working on into really meaningful images that allow us to communicate better about climate change scenarios.",
+      "id": "ep_122_ut_0"
+    },
+    {
+      "end": 158954,
+      "speaker": "Moritz Stefaner",
+      "start": 33764,
+      "text": "Hi everyone. Welcome to a new episode of Data stories. My name is Moritz Stefaner and I'm an independent designer of data visualizations, and usually I do this podcast together with Enrico Bertini, who is a professor at NYU in New York. But right now he's unavailable so I'm all on my own. But you'll see, I'll have a guest later on, so I'm not all alone. Generally on this podcast we talk about data visualization, data analysis, and the role data plays in our lives. And our podcast is listener supported so there are no ads. If you do enjoy the show, please consider supporting us. You can do that with recurring payments on Patreon.com Datastories, or send us a one time donation on PayPal me Datastories. You will find these links also in the show. Notes and a little quick announcement before we start. So this episode will be talking a lot about the relation of design and science, and if this is a topic you would like to learn more about or that you're interested, I have some good news because I will be teaching a one day training course on data visualization for scientists, so this might be a good fit and it will take place in Utrecht in the Netherlands in August, August 21, 2018. And I know it's a bit tight. Maybe when we publish the episode you'll only have a few weeks to decide, but I can really recommend taking part. It will be organized by graphic hunters. They have a great training program around data visualization in general. We will of course put the link again in the show. Notes, notes and just as a note, I often do workshops inside large organizations, also in research, but I do these public ones where everybody can take part, actually quite rarely. So if you are interested, make sure to grab a ticket just in case. Anyways, enough self promotion. Let's get started with the actual topic. The topic for today is one that's very close to my heart, and I'm really happy that we finally get to talk about it. It's about visualizing future climate scenarios, and I have an expert here with me, Professor Boris Muller. Hi, Boris. Boris hi Moritz. Boris, can you briefly introduce yourself for the listeners who might not know you?",
+      "id": "ep_122_ut_1"
+    },
+    {
+      "end": 192560,
+      "speaker": "Boris M\u00fcller",
+      "start": 159114,
+      "text": "Okay, sure. I'm Boris Muller, professor for interface and interaction design at the University of Applied Sciences here in Potsdam, and I also run interesting small research lab together with my colleague, Professor Marianne Dirk. The lab is called Urban Complexity Lab, and while we look at a lot of urban data and urban data visualizations, we also kind of spread out into different areas, and one of them is collaboration with scientists. And now specifically visualization of climate change and climate scenarios.",
+      "id": "ep_122_ut_2"
+    },
+    {
+      "end": 208684,
+      "speaker": "Moritz Stefaner",
+      "start": 192672,
+      "text": "Right. And this is a great opportunity to have you on. We wanted to have you on for a long time because we should also mention, Boris and I have been long time friends and acquaintances, because he has been a long time mentor of mine and was in fact the supervisor of my master's thesis by now, over ten years ago.",
+      "id": "ep_122_ut_3"
+    },
+    {
+      "end": 212644,
+      "speaker": "Boris M\u00fcller",
+      "start": 209024,
+      "text": "And ten years ago, I can't believe it.",
+      "id": "ep_122_ut_4"
+    },
+    {
+      "end": 255664,
+      "speaker": "Moritz Stefaner",
+      "start": 213464,
+      "text": "Yeah. So we go back a long time, and so I'm especially happy to have you on now. And Marjan Durk, we also had in the show, also a couple of weeks ago, to talk about his notion of information flanneryism, which was a great episode as well. So you might want to check that one out, too. So, yeah, with Boris we could talk about a lot of things, data visualization in general, interaction design, interface design. But what today we are mostly curious about is the census project, which deals with visualizing future climate scenarios. So, Boris, can you tell us a bit about the census project? What's the overall goal, who's involved and what is your team's role?",
+      "id": "ep_122_ut_5"
+    },
+    {
+      "end": 329986,
+      "speaker": "Boris M\u00fcller",
+      "start": 258324,
+      "text": "The census project is, well, it's a fairly large European research project that started last year. The partners involved are the Potsdam Institute for Climate Impact Research, the International Institute for Applied System Analysis in Vienna, the Stockholm Environment Institute, and the Wagening University in the Netherlands. So it's really high profile, really interesting consortium, and really good bunch of people. The overall aim of the census project is to make climate change scenarios more accessible, understandable and actionable. And it's important to point out the project is not directly about visualizing climate change, but about visualizing climate change scenarios. And now probably everyone is wondering kind of, what are climate change scenarios? And this is actually a fairly complex subject matter. And I can already say that about half of our time of our design time goes into explaining what climate change scenarios are, and the other half of our design work goes into explaining what you can do with them.",
+      "id": "ep_122_ut_6"
+    },
+    {
+      "end": 375410,
+      "speaker": "Moritz Stefaner",
+      "start": 330090,
+      "text": "Yeah. Okay. So that's quite a common situation for designers, that a lot of the time goes into actually finding the right question and formulation for the problem before you can even start coming up with solutions. Right. So maybe paddling back a bit. So, I mean, we've all seen a lot of visualizations indicating climate change, like the temperature anomalies, the hockey stick curve the arctic ice extent. There's a lot of creativity also going on in reinterpreting these datasets showing climate change in different ways, because many people think this is the main problem. To solve first is like to create awareness that climate change is real. Right? So, but how does now visualizing climate scenarios relate to these images of climate change that we're all familiar with by now?",
+      "id": "ep_122_ut_7"
+    },
+    {
+      "end": 446908,
+      "speaker": "Boris M\u00fcller",
+      "start": 375522,
+      "text": "Yeah, surprisingly enough, the relationship with these, let's say, kind of classic climate change visualizations is actually not that big. And it also took me a while to really understand all the intricacies and all the details on the scientific side. And essentially, climate change scenarios are a way to talk about the future. And it's actually, this is also really interesting for me to learn that the climate part is actually fairly small in the overall scenario bit, because we have to understand that. Well, I go back one step. It's important to point out that climate change scenarios are plausible, consistent representations of possible futures. They're not just kind of extensions of today, but the scientists use socioeconomic models to really model our current society, basically. And these scenarios produce then lots of data for key indicators like GDP, emissions, energy use, land use, and so on and so on for the next hundred years.",
+      "id": "ep_122_ut_8"
+    },
+    {
+      "end": 447900,
+      "speaker": "Moritz Stefaner",
+      "start": 446996,
+      "text": "Oh, wow.",
+      "id": "ep_122_ut_9"
+    },
+    {
+      "end": 478054,
+      "speaker": "Boris M\u00fcller",
+      "start": 448092,
+      "text": "So it's very much about really understanding our society and understanding how economies work and then understanding the impact that the economy has on the climate and modeling all that and putting different input data in and getting different input data out. But it's really all about the future. And there are very, very consistent, very, very large models. So Pik, for example, is one of the largest supercomputers in Germany, and they use it to calculate these climate scenarios.",
+      "id": "ep_122_ut_10"
+    },
+    {
+      "end": 488822,
+      "speaker": "Moritz Stefaner",
+      "start": 478474,
+      "text": "So the idea is really to understand how the whole world will develop given different amounts of climate change or different extremities of climate change. Could you say that?",
+      "id": "ep_122_ut_11"
+    },
+    {
+      "end": 542374,
+      "speaker": "Boris M\u00fcller",
+      "start": 488918,
+      "text": "I always like to say that climate scenarios are big. What if machines, and in a way they describe possible futures depending on how we will behave now in the next five years or in the next 50 years? It's very important. Climate scenarios are not used to convince someone that global warming is or is not well, is happening. We know that global warming is happening. And so it's more about describing possible futures where global warming will have a big effect on our everyday lives. And so to point out, I mean, global warming will happen, and the only thing we can do in the future is either to mitigate the effects of climate change or to adapt to this completely new world. So in a way, the climate change scenarios are tools that allow us to map out and discover different futures.",
+      "id": "ep_122_ut_12"
+    },
+    {
+      "end": 561066,
+      "speaker": "Moritz Stefaner",
+      "start": 543154,
+      "text": "Okay, that sounds like quite a task. I think there's a lot of complexity to unpack when it comes to these climate scenarios. Right. And so what's your role as designers then? And what's your strategy to even like to even do something meaningful in that space without being overwhelmed?",
+      "id": "ep_122_ut_13"
+    },
+    {
+      "end": 614606,
+      "speaker": "Boris M\u00fcller",
+      "start": 561210,
+      "text": "Yeah. The fun thing is we started this project, the census project, and we said we're going to collaborate very closely with a number of stakeholders from finance, from business, from policy, but also local NGO's. So we're really trying to collaborate with decision makers because they need to understand the value of climate change scenarios so they can make better decisions. But we realized fairly on in the process that our first stakeholders are really the scientists and we need to turn all this kind of invisible knowledge and all these kind of structures they're working on into really meaningful images that allow us to communicate better about climate change scenarios. So in the beginning, we're working right now on a climate scenario, scenario Primer where we try to explain with the help of visualization how climate scenarios work, why they're relevant and what you can really get out of them.",
+      "id": "ep_122_ut_14"
+    },
+    {
+      "end": 628318,
+      "speaker": "Moritz Stefaner",
+      "start": 614670,
+      "text": "Right, right. So, and I guess that also helps for you to just unpack the complexity and get started into the topic. It's like trying to, if you try to teach somebody the basics of something, you also have a chance maybe to get a grasp of them, right?",
+      "id": "ep_122_ut_15"
+    },
+    {
+      "end": 696294,
+      "speaker": "Boris M\u00fcller",
+      "start": 628406,
+      "text": "No, honestly, it's a bit of a thesis project and we're always going to the scientists and show them what we've done and they're either. And it's also really interesting sometimes, you know, you work very, a long time on something that's where you think it's really spectacular. And the scientists go, yeah, interesting. Thank you. Then there's another thing we hacked together in one afternoon, something very, very simple that we thought everyone could do it and they loved it and it really helped them. And I think this is one thing we really also have to understand. It's really possible as designers to help the scientists do their own work because they sometimes have these huge databases or really complex relationships or the whole way that their mathematical models are structured. They are so opaque in a way that it's sometimes also really difficult for them to talk about it. And for example, when we take very, very simple metadata visualization, it immediately created an image that allowed them to really understand what was happening inside the algorithm and it really helped them to have a conversation in larger teams. And I thought it was really, really interesting to help them do their work better.",
+      "id": "ep_122_ut_16"
+    },
+    {
+      "end": 714354,
+      "speaker": "Moritz Stefaner",
+      "start": 697414,
+      "text": "So you're basically just asking, let's say simple questions, and some of them do have a simple answer and you just spot on and you can move on. And sometimes these simple questions actually point to big gaps of where actually better communication is actually needed, even inside the scientific community.",
+      "id": "ep_122_ut_17"
+    },
+    {
+      "end": 806454,
+      "speaker": "Boris M\u00fcller",
+      "start": 714694,
+      "text": "Well, I think to come back to maybe your first question, I think our role is first. Right now we're mainly communicators and we try to create visualizations that on the one hand side, help us to understand the models and the structure of the scenarios better. Because I think it's also really important as the stakeholders really know what the scientists are doing and what we are doing, because otherwise it's just long rows of numbers or you just have line graphs, for example, we've all seen the IPCC line graphs, how the CO2 emissions will change over the next hundred years and what we have to do to reach the Paris agreement. But this is a very, very limited way of communicating. And in the public, you just have to kind of trust these numbers or even as an expert. And what we're trying to do is we really want to kind of open the black box a little bit and allow the stakeholders to really understand how the scientists came up with these numbers and why they are believable, why they are meaningful, and why they really are a great tool for exploring possible futures. So it's more kind of an internal tool for enlightenment, I would say. And then we try to take the data that was generated by the scenarios and visualize that in order to really have more maps of possible futures. That again, helps the stakeholders to map out the scenarios based, map out possible features and really support them in a decision making process.",
+      "id": "ep_122_ut_18"
+    },
+    {
+      "end": 839934,
+      "speaker": "Moritz Stefaner",
+      "start": 807514,
+      "text": "Yeah, but that's, I think, very interesting that keeps coming up also when we talk about machine learning that, but the one thing is making the output usable and making the output user friendly or understandable, but also making the workings of these black boxes transparent. And obviously, data visualization can play a big role in both areas. And maybe it needs to go together that you can only make good use of the output of something if you at least have a rough idea how the inner workings are, especially when it comes to.",
+      "id": "ep_122_ut_19"
+    },
+    {
+      "end": 867574,
+      "speaker": "Boris M\u00fcller",
+      "start": 840514,
+      "text": "Absolutely, I totally agree. I think the whole notion of not only visualizing data, but visualizing systems and models is, I think, very, very important also in the near future because we're dealing with such complex systems that really have a huge influence on our daily lives that are, yes, that are just black boxes. And I think visualization can play a major role in really helping also the public to understand what's going on in these boxes.",
+      "id": "ep_122_ut_20"
+    },
+    {
+      "end": 880044,
+      "speaker": "Moritz Stefaner",
+      "start": 868074,
+      "text": "Are there concerns from the scientists that you're over simply, if you like, break down a complex system that people have spent millions of euros for years working on and you just draw five boxes and arrows?",
+      "id": "ep_122_ut_21"
+    },
+    {
+      "end": 987266,
+      "speaker": "Boris M\u00fcller",
+      "start": 881184,
+      "text": "Yeah, but actually it's much better than I feared at the beginning. I was really a bit scared of the project, to be honest, because it's a very, very complex subject matter. I thought, oh my God, we're going to get everything wrong in the project. But so far everyone has been really kind or just polite, or just polite. Another option. But we're mostly German, so probably no, but you have to simplify at certain points. And for example, in the scenario primer where we try to talk about the inner workings of models and scenarios, we come up with a very, very simple economic model to really explain how, for example, there is always this analogy that you think kind of, okay, greenhouse gases are directly linked to the GDP. So if the GDP goes up, the emissions go up. And so we tried to break that up and say, okay, that really depends on how you look at it. And even in the model, if you just change the way how energy is created, obviously, then you can have a possible future scenario where the GDP goes up but emissions go down. You simply have to shift basically the energy creation from fossil fuels to renewables. And this is all kind of very, very small, very simple mathematical model. And it's really a small window into these kind of big calculations, but it's absolutely consistent with what they do. And so it's really totally fine to take kind of small excerpts, small snapshots from the big models and transfer them into something smaller. So right now, I think everyone is fairly happy with the way we do that.",
+      "id": "ep_122_ut_22"
+    },
+    {
+      "end": 1070264,
+      "speaker": "Moritz Stefaner",
+      "start": 987370,
+      "text": "Yeah. Cool. No, no, because it's a big challenge. You do need to make things a bit simpler to get them to the point. And of course, you should always try to clarify and oversimplify, but it can be kind of hard if you're not an expert yourself in the domain matter. But I think it's a smart approach to first visualize the model, understand it, and then tackle the output part, which are the actual scenarios. But these are the ones, of course, that will be most relevant for, let's say, policymakers or actually like making decisions based on the models. Right. And here I have a question, because I think it's another really recurring theme for us, is how do we visualize uncertainty and all the speculative nature of these probabilistic outputs. Right. Because data visualization usually we associate with showing facts of the past. I mean, in fact, we do have a lot of visualizations that point to the future, but somehow it's always when you see a chart, you think it's factual information from the past. And so there's always this aura of past measurement objectivity around anything that looks sciency to some degree. And these are often the charts that look sciency. Right. So how do you bridge that gap? Or that maybe cognitive dissonance if you make a chart about a future scenario or a visualization about a future scenario?",
+      "id": "ep_122_ut_23"
+    },
+    {
+      "end": 1102598,
+      "speaker": "Boris M\u00fcller",
+      "start": 1074404,
+      "text": "The easy bit. Well, actually, uncertainty is actually the easy bit because it's just another number in the data set. It's already calculated. The further, if you go further down the line and if you come closer to the year 2100, it just becomes bigger. But it also depends on the scenarios. Some scenarios have a very small degree of uncertainty and others are slightly bigger. But again, for us as visualization experts, it's just another number that we have to take into account and have to visualize adequately.",
+      "id": "ep_122_ut_24"
+    },
+    {
+      "end": 1108022,
+      "speaker": "Moritz Stefaner",
+      "start": 1102646,
+      "text": "So you could draw a cone around the line and say, this is the area where the value will be. What? We're not precise.",
+      "id": "ep_122_ut_25"
+    },
+    {
+      "end": 1131710,
+      "speaker": "Boris M\u00fcller",
+      "start": 1108078,
+      "text": "Yeah, but also I think there are other ways to work with that, and we're currently exploring also different ways to represent that. But again, it's kind of funny because it seems such a big challenge, but in the end, it's just an additional layer, actually, because we do have the numbers. It's not something we have to speculate where the uncertainty is. We know exactly where the uncertainty is.",
+      "id": "ep_122_ut_26"
+    },
+    {
+      "end": 1149728,
+      "speaker": "Moritz Stefaner",
+      "start": 1131782,
+      "text": "Yeah, but isn't there also, like this unknown unknowns problem in a sense that even this uncertainty is speculative to some degree because there are certain assumptions that go into the calculation of that uncertainty number again. Right. And in the end, it's just speculating about the future. I mean, some speculations are better than others, but still it's a speculation.",
+      "id": "ep_122_ut_27"
+    },
+    {
+      "end": 1168738,
+      "speaker": "Boris M\u00fcller",
+      "start": 1149896,
+      "text": "Yeah. And for example, there's one thing where, for example, the scientists always get a bit annoyed if we use terms like, you know, forecast or prediction, you know, because the scenarios are not. There are not predictions.",
+      "id": "ep_122_ut_28"
+    },
+    {
+      "end": 1170954,
+      "speaker": "Moritz Stefaner",
+      "start": 1168786,
+      "text": "You know, they are scenarios.",
+      "id": "ep_122_ut_29"
+    },
+    {
+      "end": 1318302,
+      "speaker": "Boris M\u00fcller",
+      "start": 1171114,
+      "text": "They accept that. Well, there are scenarios also. It's okay to talk about projections. So it's all about, you know, possible futures depending on which, you know, which values you adjust. And, and it's actually quite fun to look at the scenarios just to, they can really answer very, very specific questions, like, if you want to keep the global warming well below two degrees, Paris agreement, what are our emissions targets? What do we have to achieve until when to really stay below two degrees. Or you can also do what if scenarios like what would happen if we introduce a worldwide carbon tax? And depending how high it is, it will definitely change the way how we produce energy. But also really fun question or really almost weird questions from the finance stakeholders. Obviously they're looking for investment opportunities in a low carbon world. They want to know where should we invest money? Because we all know that Shell and Exxon and so on, I mean, all these kind of fossil fuel producers, well, they're not going to be here forever, so they're really keen on finding investment opportunities. I think it's a very, very interesting way to look at that. And these scenarios give you actually good answers is for investment opportunities. So again, kind of, it's a different way of looking at the future and also to come back maybe to a question about the visualizing uncertainty and being kind of how do we visualize? It is really interesting that we're dealing with kind of two different levels of visualization. The one is really more data visualization where we want to show kind of how the numbers will evolve over the next hundred years, but also in what kind of worlds are we going to end up? So it's very much also there's also a slight, you know, science fiction angle to it because literally science fiction angle to it. And also the scientists usually try to show stock images, you know, for, you know, for a more techno ecological future or more fossil fuel driven future and so on. And obviously they're taking image material, you know, stock photos from today. And this is also part of the project where we want to look into because we think it's also really interesting. What kind of image material can you use to talk about the futures and how does it also feed back into the visualizations? How do they look like and how can you represent a possible future in.",
+      "id": "ep_122_ut_30"
+    },
+    {
+      "end": 1331238,
+      "speaker": "Moritz Stefaner",
+      "start": 1318318,
+      "text": "Them to actually get a feeling how it would be like to live in that world? Because I think that's also hard to see just from a line chart going up or down to actually envision how that would play out in reality.",
+      "id": "ep_122_ut_31"
+    },
+    {
+      "end": 1332114,
+      "speaker": "Boris M\u00fcller",
+      "start": 1331406,
+      "text": "Right?",
+      "id": "ep_122_ut_32"
+    },
+    {
+      "end": 1420694,
+      "speaker": "Moritz Stefaner",
+      "start": 1334554,
+      "text": "Yeah, it's fascinating. I'm really, really curious about the outputs. I know you're just in the middle of developing something, but I hear you will have something available in fall, maybe that people can play with or that will be list a first version online, hopefully. And if so, we will link to it from the show notes. So you might come back to the blog post and just see it there. That would be great. But I think the approach of first, making the model transparent is a very interesting and a very good one. And maybe you're right. And then the visualization part sort of solves itself more or less, or it doesn't have to be super fancy because then it more focus is on these conceptual relationships of all these different players and forces and understanding this part really well. Yeah. Interesting. So I also wanted to talk a bit about generally about design and science collaborations. You have a lot of experience there. I also dabble in the world of science communications from time to time. I think it's a fascinating topic. It's one that we both always keep being drawn back to, and we also have our frustrations with. It's a challenging field, at least. And you also wrote two or three medium articles around this topic. Right. So the first one is called bringing design to science, and the second one is called strategies for design science collaborations.",
+      "id": "ep_122_ut_33"
+    },
+    {
+      "end": 1459000,
+      "speaker": "Boris M\u00fcller",
+      "start": 1421354,
+      "text": "Yeah, I mean, just as you mentioned, I think this is for us as designers. I believe it's a huge opportunity to extend the scope of design practice into areas that until now have not really a lot of applications for design. I remember when I was studying, everyone was talking about going to an advertising company and stuff. These days are long gone and designers become so much bigger. And I think the, today the default.",
+      "id": "ep_122_ut_34"
+    },
+    {
+      "end": 1464816,
+      "speaker": "Moritz Stefaner",
+      "start": 1459032,
+      "text": "Would be to go to a large company and do something more product oriented. This would be the default today.",
+      "id": "ep_122_ut_35"
+    },
+    {
+      "end": 1519156,
+      "speaker": "Boris M\u00fcller",
+      "start": 1464880,
+      "text": "Probably that's the default today it's very business oriented and I think it's totally fine. I'm not trying to replace that. But I think actually that the scientific community could actually benefit from stronger involvement of designers in scientific projects and the other way around. I also think that the design discipline could really benefit from closer collaborations because it would really bring us, I think we would discover new applications for design and for data visualization that would be otherwise really just would be lost. And so I think it's a huge opportunity for the next few years, and I think in Potsdam we're really trying to encourage our students to work more with scientific projects. So I think it's more a general endeavor that we as a design community should really undertake to come to a closer relationship then.",
+      "id": "ep_122_ut_36"
+    },
+    {
+      "end": 1564714,
+      "speaker": "Moritz Stefaner",
+      "start": 1519260,
+      "text": "Yeah. In the bringing design to science article, I think you point out this interesting relation that always existed already is that, well, first you have science and engineering developing or providing new technologies, but then it was only more the engineering and the design side that actually brought these innovations to a wider public or in wider use. So there was always this sort of exchange going on between design and science. In a sense that design just makes scientific progress visible at all, because otherwise it would just stay in the ivory tower. And this is basically also since the start of design, like, even when it was much more product design oriented, the basic flow of information in many cases. Right?",
+      "id": "ep_122_ut_37"
+    },
+    {
+      "end": 1641678,
+      "speaker": "Boris M\u00fcller",
+      "start": 1564754,
+      "text": "Yeah. But also, I mean, the communities work like that. I mean, 50 years ago, it was really also much more difficult to, I mean, everything was much more structured. I would say, you know, you had your scientific communities, you would get papers published, you would maybe get in touch, an engineering company would maybe pick up on that, create a product, and at this very end, you might involve a designer. And I think nowadays it's much more fluid and it's much easier to be involved in a scientific project as a designer. And I believe you can have very different roles as a designer in a scientific project. I always refer to a really great document from the Royal Society from 1985 called the public understanding of Science. And in this document, the authors make very, very clear that the scientists have an obligation to really tell the public about their work and try to really explain their work to the public. And you can say really, that not much really has happened since then. It's quite a while ago, but I think the general just really, it still holds, and I think it has even become more relevant nowadays. And as I said before, I think the role of designers in a scientific project can be very, very different. You can be just communicators, your role can just be dissemination, and even that would be, be, I think, a great challenge and a really great opportunity to start at the very end of the science.",
+      "id": "ep_122_ut_38"
+    },
+    {
+      "end": 1650054,
+      "speaker": "Moritz Stefaner",
+      "start": 1641726,
+      "text": "This is often how people also see the role of designers in science is like the communicator part or the, to a general audience, communication part.",
+      "id": "ep_122_ut_39"
+    },
+    {
+      "end": 1680354,
+      "speaker": "Boris M\u00fcller",
+      "start": 1650134,
+      "text": "Exactly. But I think there are more roles also possible. And this is one of the things that we've also realized in the census project, when we really work closely with the scientists, that we sometimes really, we've created small tools that allowed the scientists to visualize their data or visualize just metadata relations, and they could immediately build on that, and they really loved it, and they used it for their own scientific work. So it's really about designing scientific tools.",
+      "id": "ep_122_ut_40"
+    },
+    {
+      "end": 1686094,
+      "speaker": "Moritz Stefaner",
+      "start": 1681374,
+      "text": "And actually do interventions in their own research process.",
+      "id": "ep_122_ut_41"
+    },
+    {
+      "end": 1712114,
+      "speaker": "Boris M\u00fcller",
+      "start": 1686214,
+      "text": "Yeah, absolutely. Yeah. And the tools, I mean, nowadays everything is software, basically. So as interface designers, as data visualizers, we have a great opportunity there to really build good tools. I mean, there are usually not tools for the public. They're not tools that will be reproduced a million times or like Microsoft Word, but still to create good tools, good interactive tools that show data, visualize data that allow them to work with data, can really help the scientific process.",
+      "id": "ep_122_ut_42"
+    },
+    {
+      "end": 1732224,
+      "speaker": "Moritz Stefaner",
+      "start": 1712934,
+      "text": "Yeah. And what do you think works best? Is it good to actually, like, work in the same lab, like every day, or is it good to have separate teams and just meet on a regular basis? Does it depend or do you have experiences like that? One way would work better than the other.",
+      "id": "ep_122_ut_43"
+    },
+    {
+      "end": 1751284,
+      "speaker": "Boris M\u00fcller",
+      "start": 1734004,
+      "text": "I think there are different models to do that, and certainly a very successful one is just embedding a designer in a scientific team can be sometimes really hard for the designer. But on the other hand, nowadays a lot of scientific teams are very multidisciplinary. I mean, you have sometimes computer science.",
+      "id": "ep_122_ut_44"
+    },
+    {
+      "end": 1753684,
+      "speaker": "Moritz Stefaner",
+      "start": 1751324,
+      "text": "Different background anyway, in the genetics lab.",
+      "id": "ep_122_ut_45"
+    },
+    {
+      "end": 1757824,
+      "speaker": "Boris M\u00fcller",
+      "start": 1754344,
+      "text": "So you always have to work in these interdisciplinary teams.",
+      "id": "ep_122_ut_46"
+    },
+    {
+      "end": 1759752,
+      "speaker": "Moritz Stefaner",
+      "start": 1757904,
+      "text": "The danger is a bit, they might be isolated.",
+      "id": "ep_122_ut_47"
+    },
+    {
+      "end": 1760024,
+      "speaker": "Boris M\u00fcller",
+      "start": 1759808,
+      "text": "Right.",
+      "id": "ep_122_ut_48"
+    },
+    {
+      "end": 1765648,
+      "speaker": "Moritz Stefaner",
+      "start": 1760064,
+      "text": "So they have no actually design peers, but they're always the design part of everything.",
+      "id": "ep_122_ut_49"
+    },
+    {
+      "end": 1768728,
+      "speaker": "Boris M\u00fcller",
+      "start": 1765736,
+      "text": "Yeah. And it's more difficult to develop your own agenda.",
+      "id": "ep_122_ut_50"
+    },
+    {
+      "end": 1769008,
+      "speaker": "Moritz Stefaner",
+      "start": 1768776,
+      "text": "Right.",
+      "id": "ep_122_ut_51"
+    },
+    {
+      "end": 1795574,
+      "speaker": "Boris M\u00fcller",
+      "start": 1769056,
+      "text": "The great thing about for this, for the census project, again, kind of we're a full partner, and actually we're one of the largest partner in the project, so we can really also develop our own agenda. What does us interesting as designers in this process. And so I think embedding is great for the scientists, but not necessarily great for the design community. So I think also these kind of large scale projects where you have, where you're kind of one of equal partners is also a great way to really bring that forward.",
+      "id": "ep_122_ut_52"
+    },
+    {
+      "end": 1806794,
+      "speaker": "Moritz Stefaner",
+      "start": 1795734,
+      "text": "Do you think design should also be more scientific, like more evidence based, like rely less on alchemy and black art?",
+      "id": "ep_122_ut_53"
+    },
+    {
+      "end": 1811754,
+      "speaker": "Boris M\u00fcller",
+      "start": 1807654,
+      "text": "Quite the opposite, actually. This is the. I can see you read my article.",
+      "id": "ep_122_ut_54"
+    },
+    {
+      "end": 1815954,
+      "speaker": "Moritz Stefaner",
+      "start": 1812574,
+      "text": "The easy answer would have been, of course, no.",
+      "id": "ep_122_ut_55"
+    },
+    {
+      "end": 1854234,
+      "speaker": "Boris M\u00fcller",
+      "start": 1818054,
+      "text": "No, definitely not. And to be honest, I mean, I really believe what the scientists expect from the designers is not a scientific approach to designers. It's rubbish. Good point, actually, no, they don't want to have that, you know, they don't need us for. So what they expect is really the ability to translate the scientific thinking, the scientific data, scientific methodology, in interfaces and data visualizations and in artifacts that allow them to communicate or to have an academic debate. So to answer your question, no, design should not be more scientific.",
+      "id": "ep_122_ut_56"
+    },
+    {
+      "end": 1890546,
+      "speaker": "Moritz Stefaner",
+      "start": 1855294,
+      "text": "I like that. Yeah, but you're absolutely right. And I think you also even have an article on the value of intuition is one of these terms that has such a bad rap, but it's such a cool thing. We'll link to that one, too, so we'll have to wrap it up, unfortunately. I'm really curious to see what's coming out of the project. Thanks so much already for explaining your approach there. And there's, I think, lots of really interesting pointers there. And yeah, we'll be curious to see what comes out of it, and I hope we can make some progress on that climate change thing.",
+      "id": "ep_122_ut_57"
+    },
+    {
+      "end": 1901364,
+      "speaker": "Boris M\u00fcller",
+      "start": 1890730,
+      "text": "Yeah, me too. That would be good. Thanks for having me. Really good. Good talking to you. So I'm also looking forward on the, on the results.",
+      "id": "ep_122_ut_58"
+    },
+    {
+      "end": 1905144,
+      "speaker": "Moritz Stefaner",
+      "start": 1902784,
+      "text": "Fingers crossed. Thanks so much, Boris.",
+      "id": "ep_122_ut_59"
+    },
+    {
+      "end": 1907324,
+      "speaker": "Boris M\u00fcller",
+      "start": 1905224,
+      "text": "Okay, Moritz, take care. Bye bye.",
+      "id": "ep_122_ut_60"
+    },
+    {
+      "end": 1932310,
+      "speaker": "Enrico Bertini",
+      "start": 1911904,
+      "text": "Hey, folks, thanks for listening to data stories again. Before you leave a few last notes, this show is now completely crowdfunded, so you can support us by going on Patreon. That's patreon.com Datastories. And if you can spend a couple of minutes reading us on iTunes, that would be extremely helpful for the show.",
+      "id": "ep_122_ut_61"
+    },
+    {
+      "end": 1958220,
+      "speaker": "Moritz Stefaner",
+      "start": 1932422,
+      "text": "And here's also some information on the many ways you can get news directly from us. We are, of course, on Twitter, twitter.com Datastories. We have a Facebook page@Facebook.com, datastoriespodcast. All in one word. And we also have a slack channel where you can chat with us directly. And to sign up, you can go to our homepage, datastory.edu. and there is a button at the bottom of the page.",
+      "id": "ep_122_ut_62"
+    },
+    {
+      "end": 1974052,
+      "speaker": "Enrico Bertini",
+      "start": 1958372,
+      "text": "And we also have an email newsletter. So if you want to get news directly into your inbox and be notified whenever we publish an episode, you can go to our home page Datastories es and look for the link you find at the bottom in the footer.",
+      "id": "ep_122_ut_63"
+    },
+    {
+      "end": 1986218,
+      "speaker": "Moritz Stefaner",
+      "start": 1974148,
+      "text": "So one last thing we want to tell you is that we love to get in touch with our listeners, especially if you want to suggest a way to improve the show or amazing people you want us to invite or even projects you want us to talk about.",
+      "id": "ep_122_ut_64"
+    },
+    {
+      "end": 1995434,
+      "speaker": "Enrico Bertini",
+      "start": 1986306,
+      "text": "Yeah, absolutely. And don't hesitate to get in touch with us. It's always a great thing to hear from you. So see you next time, and thanks for listening to data stories.",
+      "id": "ep_122_ut_65"
+    }
+  ],
+  "confidence": 0.928244027501354,
+  "audio_duration": 2004,
+  "punctuate": true,
+  "format_text": true,
+  "dual_channel": false,
+  "webhook_url": null,
+  "webhook_status_code": null,
+  "webhook_auth": false,
+  "webhook_auth_header_name": null,
+  "speed_boost": false,
+  "auto_highlights_result": null,
+  "auto_highlights": false,
+  "audio_start_from": null,
+  "audio_end_at": null,
+  "word_boost": [],
+  "boost_param": null,
+  "filter_profanity": false,
+  "redact_pii": false,
+  "redact_pii_audio": false,
+  "redact_pii_audio_quality": null,
+  "redact_pii_policies": null,
+  "redact_pii_sub": null,
+  "speaker_labels": true,
+  "content_safety": false,
+  "iab_categories": true,
+  "content_safety_labels": {
+    "status": "unavailable",
+    "results": [],
+    "summary": {}
+  },
+  "language_detection": false,
+  "language_detection_threshold": null,
+  "language_confidence": null,
+  "custom_spelling": null,
+  "throttled": false,
+  "auto_chapters": true,
+  "summarization": false,
+  "summary_type": null,
+  "summary_model": null,
+  "custom_topics": false,
+  "topics": [],
+  "speech_threshold": null,
+  "speech_model": "best",
+  "chapters": [
+    {
+      "summary": "Moritz Stefaner is an independent designer of data visualizations. He will be teaching a one day training course on data visualization for scientists. The event will take place in Utrecht in the Netherlands in August, August 21, 2018. If you enjoy the show, please consider supporting us.",
+      "gist": "Data Stories",
+      "headline": "This podcast is listener supported so there are no ads",
+      "start": 160,
+      "end": 152972,
+      "id": "ep_122_ch_0"
+    },
+    {
+      "summary": "Boris Muller is a professor for interface and interaction design at the University of Applied Sciences in Potsdam. He has been a long time mentor of mine and was in fact the supervisor of my master's thesis by now, over ten years ago. And now specifically visualization of climate change and climate scenarios.",
+      "gist": "Interfaces in the Age of Data",
+      "headline": "Boris Muller is professor for interface and interaction design at Potsdam",
+      "start": 153028,
+      "end": 232354,
+      "id": "ep_122_ch_1"
+    },
+    {
+      "summary": "The census project deals with visualizing future climate scenarios. The overall aim of the census project is to make climate change scenarios more accessible, understandable and actionable. About half of our time of our design time goes into explaining what these scenarios are.",
+      "gist": "The Census of Climate Change Scenarios",
+      "headline": "The census project aims to make climate change scenarios more accessible and actionable",
+      "start": 232694,
+      "end": 542374,
+      "id": "ep_122_ch_2"
+    },
+    {
+      "summary": "Designers are trying to help scientists understand climate change scenarios better. The project aims to help decision makers understand the value of scenarios so they can make better decisions. Data visualization can play a big role in both areas.",
+      "gist": "What's your role in climate science visualization?",
+      "headline": "Project aims to help stakeholders understand climate change scenarios better",
+      "start": 543154,
+      "end": 1021156,
+      "id": "ep_122_ch_3"
+    },
+    {
+      "summary": "Data visualization usually we associate with showing facts of the past. How do we visualize uncertainty and all the speculative nature of these probabilistic outputs? These scenarios give you actually good answers is for investment opportunities.",
+      "gist": "Wonders of the Visualization of Uncertainties",
+      "headline": "How do we visualize uncertainty and all the speculative nature of probabilistic outputs",
+      "start": 1021220,
+      "end": 1379168,
+      "id": "ep_122_ch_4"
+    },
+    {
+      "summary": "The scientific community could benefit from stronger involvement of designers in scientific projects. I believe it's a huge opportunity to extend the scope of design practice into areas that until now have not really a lot of applications for design. You can have very different roles as a designer in a scientific project.",
+      "gist": "Bringing Design to Science",
+      "headline": "I wanted to talk a bit about design and science collaborations",
+      "start": 1379336,
+      "end": 1795574,
+      "id": "ep_122_ch_5"
+    },
+    {
+      "summary": "Do you think design should also be more scientific, like more evidence based? I really believe what the scientists expect from the designers is not a scientific approach to designers. I'm really curious to see what's coming out of the project.",
+      "gist": "Do you think design should also be more scientific?",
+      "headline": "Do you think design should also be more scientific, like more evidence based",
+      "start": 1795734,
+      "end": 1907324,
+      "id": "ep_122_ch_6"
+    },
+    {
+      "summary": "This show is now completely crowdfunded, so you can support us by going on Patreon. com Datastories. Here's also some information on the many ways you can get news directly from us. We love to get in touch with our listeners, especially if you want to suggest a way to improve the show.",
+      "gist": "How to Subscribe to Data Stories",
+      "headline": "This show is now completely crowdfunded, so you can support us on Patreon",
+      "start": 1911904,
+      "end": 1995434,
+      "id": "ep_122_ch_7"
+    }
+  ],
+  "disfluencies": false,
+  "entity_detection": false,
+  "sentiment_analysis": false,
+  "sentiment_analysis_results": null,
+  "entities": null,
+  "speakers_expected": null,
+  "summary": null,
+  "custom_topics_results": null,
+  "episode_num": 122,
+  "episode_metadata": {
+    "speakers": [
+      "Boris M\u00fcller",
+      "Moritz Stefaner",
+      "Enrico Bertini"
+    ],
+    "WPid": "1211",
+    "url": "https://datastori.es/podlove/file/5159/s/feed/c/mp3/122-visualizing-climate-scenarios-with-boris-muller.mp3",
+    "episode_title": "Visualizing Climate Change Scenarios with Boris M\u00fcller"
+  }
+}

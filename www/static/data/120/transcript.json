@@ -1,0 +1,728 @@
+{
+  "id": "49e276d4-e8fc-412b-ad25-82fcc99c7332",
+  "language_model": "assemblyai_default",
+  "acoustic_model": "assemblyai_default",
+  "language_code": "en_us",
+  "status": "completed",
+  "audio_url": "https://datastori.es/podlove/file/5056/s/feed/c/mp3/120-data-science-with-david-robinson.mp3",
+  "utterances": [
+    {
+      "end": 3434,
+      "speaker": "David Robinson",
+      "start": 200,
+      "text": "I think it's very difficult to do data science without visualization.",
+      "id": "ep_120_ut_0"
+    },
+    {
+      "end": 31728,
+      "speaker": "Enrico Bertini",
+      "start": 22894,
+      "text": "Hi, everyone. Welcome to a new episode of Data stories. My name is Enrico Bertini, and I am a professor at NYU doing research on data visualization.",
+      "id": "ep_120_ut_1"
+    },
+    {
+      "end": 36052,
+      "speaker": "Moritz Stefaner",
+      "start": 31926,
+      "text": "My name is Moritz Stefaner, and I'm an independent designer of data visualizations.",
+      "id": "ep_120_ut_2"
+    },
+    {
+      "end": 46604,
+      "speaker": "Enrico Bertini",
+      "start": 36228,
+      "text": "And on this podcast we talk about data visualization, analysis, and generally the role the data plays in our lives. And usually we do that with a guest we invite on the show.",
+      "id": "ep_120_ut_3"
+    },
+    {
+      "end": 77202,
+      "speaker": "Moritz Stefaner",
+      "start": 46724,
+      "text": "That's true. But before we start, quick note, our podcast is listener supported, so there are no ads. That's the great thing about this. If you enjoy the show, please consider supporting us. You can either support us with recurring payments, like a little subscription voluntarily on patreon.com Datastories, or you can also send us one time donations via PayPal on PayPal me Datastories. And we really appreciate any contributions.",
+      "id": "ep_120_ut_4"
+    },
+    {
+      "end": 83018,
+      "speaker": "Enrico Bertini",
+      "start": 77378,
+      "text": "Yeah. So, Moritz, before we start, maybe you want to say something about your recent trip to OpenVisConf.",
+      "id": "ep_120_ut_5"
+    },
+    {
+      "end": 94614,
+      "speaker": "Moritz Stefaner",
+      "start": 83146,
+      "text": "Yeah, I've been traveling to Paris quite a bit the last few weeks. So there was first the exhibition opening one, two, three, data two weeks ago, which went well. So this is great, and it's a great show on data visualization.",
+      "id": "ep_120_ut_6"
+    },
+    {
+      "end": 96070,
+      "speaker": "Enrico Bertini",
+      "start": 94654,
+      "text": "I saw the pictures. That was awesome.",
+      "id": "ep_120_ut_7"
+    },
+    {
+      "end": 157810,
+      "speaker": "Moritz Stefaner",
+      "start": 96102,
+      "text": "If you make it to Paris, yeah, definitely drop by. It's free entrance. It's a really good overview of current data art and interesting design approaches in data visualization. And I also just came back from OpenVisConf. So this year, Openvisconf, it usually was in Boston. This time it was in Paris. Okay. Coincidentally, yeah, it was really good. So I had a really great time, met a lot of the European scene, but also the US of people from the US came over and honestly, every single talk was somehow interesting and really, like super. Everybody was super well prepared, brought their a game, and the audience was also super amazing. So in the breaks, I met a lot of really great people and just super good vibes overall. So I'm pretty sure we will do something on the conference. Maybe when the videos are out, we might do a little summary episode. And I also have like at least five new episode ideas now, so you will hear from some guests.",
+      "id": "ep_120_ut_8"
+    },
+    {
+      "end": 164394,
+      "speaker": "Enrico Bertini",
+      "start": 158002,
+      "text": "Yeah, because I thought they talked. I had the biggest fomo ever, following everything on Twitter.",
+      "id": "ep_120_ut_9"
+    },
+    {
+      "end": 165574,
+      "speaker": "Moritz Stefaner",
+      "start": 164434,
+      "text": "It was really good.",
+      "id": "ep_120_ut_10"
+    },
+    {
+      "end": 170654,
+      "speaker": "Enrico Bertini",
+      "start": 167714,
+      "text": "And I don't want to know anything about the partying part.",
+      "id": "ep_120_ut_11"
+    },
+    {
+      "end": 180242,
+      "speaker": "Moritz Stefaner",
+      "start": 172754,
+      "text": "In Paris, but there will be videos, so you have a chance to catch up.",
+      "id": "ep_120_ut_12"
+    },
+    {
+      "end": 215602,
+      "speaker": "Enrico Bertini",
+      "start": 180298,
+      "text": "Okay, good. Okay, so let's get started with our guest for today. I'm really, really happy because so we, this guest is, we finally managed to have a person who is a real professional data scientist on the show. And so I think we want to talk about what data science is and if it's possible to do it. Not easy. And also what are its connections with data visualization. So we have David Robinson with us today. Hi, David. Welcome on the show.",
+      "id": "ep_120_ut_13"
+    },
+    {
+      "end": 244428,
+      "speaker": "David Robinson",
+      "start": 215698,
+      "text": "Hi. Thank you very much for inviting me. So I'm the chief data scientist at Datacamp. We're an education technology company that teaches data science through interactive online courses. So I'm also the co author, with Julia Silge of the Tidy text package and the O'Reilly book text mining with r, and of a bunch of other open source r packages such as Broom, GG, animate and Fuzzyjoin. And before joining Datacamp, I worked as a data scientist at Stack Overflow, the programming question and answer site.",
+      "id": "ep_120_ut_14"
+    },
+    {
+      "end": 253264,
+      "speaker": "Enrico Bertini",
+      "start": 244546,
+      "text": "Yeah, yeah. So, David, I've been following you through your blog that is called, I love the name of your blog, variants explained.",
+      "id": "ep_120_ut_15"
+    },
+    {
+      "end": 255104,
+      "speaker": "David Robinson",
+      "start": 253344,
+      "text": "Variants, variants explained.",
+      "id": "ep_120_ut_16"
+    },
+    {
+      "end": 305794,
+      "speaker": "Enrico Bertini",
+      "start": 255224,
+      "text": "Variants explained. It's a great title, great name for a blog. And especially what I really like of one of the things that got me attracted is that sometimes you have this long blog post where you're analyzing a data set in depth and using beautiful visualizations to do that. So I think that's what attracted me in the first place. And so, I mean, data science is all over the place. It's been all over the place for a number of years now. And, yeah, and I would really, really love to talk more about what is data science? Because I think every single person has a different definition. And I think later you also came up with some sort of explanatory blog post saying, what is the difference between data science, machine learning, artificial intelligence and so on? So what is your take? What is data science? Can you please tell us?",
+      "id": "ep_120_ut_17"
+    },
+    {
+      "end": 399822,
+      "speaker": "David Robinson",
+      "start": 306144,
+      "text": "Oh, for sure. So I like that you brought up one of my favorite kinds of blog posts to write is I'll take a data set that say I found online, I'll pull it apart and I'll make some discoveries from it and draw some insights, communicate the results with visualizations. And that's sort of how I think the role of data science, it's the combination of programming, statistical insight and communication. I think it used to be kind of this separation where you say over here you have people that will program and they'll be the people that can work with large data sets and can clean it up and can interpret, transform it in the ways that you'd want to. And then over here we'll have the data analysts, and they'll have a statistics background, and they'll be given the problem, and then they'll come up with a solution. I think what's different about data science is that we treat it as full stack. You have to both program, and you work with the data set yourself, and you draw the statistics, analyses, and then usually communicate the results. And there's so much power that comes when one person does all of that. I think a lot of companies have started to discover that because rather. Because rather than, let's say, having software engineers prepare some data, and then it gets handed over to business intelligence department, that will get insights out of it, and then it gets handed over to, let's say, executives that will write up and interpret it. So there's one person that does all of that and understands every piece to the process, and that lets us iterate through questions so much faster.",
+      "id": "ep_120_ut_18"
+    },
+    {
+      "end": 412286,
+      "speaker": "Enrico Bertini",
+      "start": 399998,
+      "text": "Yeah. Yeah. Would you say that is. So it's like computer scientists with statistical knowledge and statisticians with computer science knowledge joining together, right?",
+      "id": "ep_120_ut_19"
+    },
+    {
+      "end": 423502,
+      "speaker": "David Robinson",
+      "start": 412390,
+      "text": "Yeah, exactly. There's a popular definition of data scientists, which says someone who's better at programming than any statistician and better at statistics than any software engineer. Yeah.",
+      "id": "ep_120_ut_20"
+    },
+    {
+      "end": 432932,
+      "speaker": "Moritz Stefaner",
+      "start": 423518,
+      "text": "But then you also, as you say, you also need to be a good communicator and, you know, and maybe you even need to bring in some journalism or some design skills into the mix. Right?",
+      "id": "ep_120_ut_21"
+    },
+    {
+      "end": 471134,
+      "speaker": "David Robinson",
+      "start": 433108,
+      "text": "Absolutely. So that's one of my favorite parts of the process, is you mentioned blog posts doing analysis. So one that I liked is a couple years ago, I was watching love actually on Christmas Eve, and I realized that I was kind of interested in what characters appeared in what scenes of the movie. So I downloaded the script, and I divided into scenes and divided into characters. I built a network out of those, and I wrote up something really quickly, and I thought it was really fun that in a few hours, you can go from raw data to something you can communicate and show and have to go from every one of those steps along the way.",
+      "id": "ep_120_ut_22"
+    },
+    {
+      "end": 492874,
+      "speaker": "Moritz Stefaner",
+      "start": 471474,
+      "text": "Yeah. And that's probably close to the whole idea that a lot of questions can be answered these days with data and data science, and probably also a lot transfers across domains. So a lot of the, let's say this, more simple or more generic statistical methods can be applied regardless of the content, be it movies or genomes.",
+      "id": "ep_120_ut_23"
+    },
+    {
+      "end": 508318,
+      "speaker": "David Robinson",
+      "start": 493374,
+      "text": "Absolutely. My PhD was in quantitative and computational biology, mostly genomics, but I kind of discovered that the same kinds of things I would do to analyze a genomic data set, I would do to analyze. I could do to analyze a text data set or a data set of web traffic data.",
+      "id": "ep_120_ut_24"
+    },
+    {
+      "end": 536195,
+      "speaker": "Moritz Stefaner",
+      "start": 508406,
+      "text": "Right, right. Yeah. Now we are mostly a data visualization podcast, I would say. At least that's where we started from. Sometimes we go different routes. How do you see the role of data visualization in data science? Is something, is it, I don't know, complementary? Is one part of the other? Should every data scientist be a data visualization expert, or should every datavis person also be a data scientist? Like, what's the relation of these two fields in your mind?",
+      "id": "ep_120_ut_25"
+    },
+    {
+      "end": 554060,
+      "speaker": "David Robinson",
+      "start": 536259,
+      "text": "Oh, yeah, I think it's very difficult to do data science without visualization. So I think visualization is just such an effective way of generating insights at a fast rate and understanding things about your data you can't in any other way. Maybe your listeners are familiar with Anscombe's quartet. I imagine you are.",
+      "id": "ep_120_ut_26"
+    },
+    {
+      "end": 562868,
+      "speaker": "Enrico Bertini",
+      "start": 554172,
+      "text": "Well, you may want to describe it. Yeah. Even if it's not easy in words. We should put a picture blog post, I guess. Yeah, try.",
+      "id": "ep_120_ut_27"
+    },
+    {
+      "end": 614184,
+      "speaker": "David Robinson",
+      "start": 562916,
+      "text": "Exactly. That's how the whole point of it is difficult to understand until you look at it. It's four sets of scatter plots showing relationships between x and y, and every one of them has the exact, if you fit a model to it, like a linear regression that have the exact same slope, they have the exact same p value. I think they have the same average x value, the same average y value. So a lot of ways you would model it, they would look exactly the same, but in fact, they show very different kinds of relationships. And some of them fit the assumptions of linear regression and some of them don't. So when people skip ahead to, let's say, oh, all we want to do is fit a predictive model, if people, let's say, just want to do machine learning. So machine learning is a very important part of data science, but if you do machine learning without doing visualization, you might be missing these critical things about your data.",
+      "id": "ep_120_ut_28"
+    },
+    {
+      "end": 650532,
+      "speaker": "Enrico Bertini",
+      "start": 614304,
+      "text": "Yeah, yeah, that's so important. And I think one question that I always have about the use of visualization in data science is that in most of the results that we see published, say, on the web or even in papers or articles, what people see is the end product of the analysis. Right. So typically, we tend to perceive visualization as being the thing that allows you to produce the end product. But I think in data science, you also use visualization as an intermediary step to make sense of the data in the first place, right?",
+      "id": "ep_120_ut_29"
+    },
+    {
+      "end": 651260,
+      "speaker": "David Robinson",
+      "start": 650668,
+      "text": "Absolutely.",
+      "id": "ep_120_ut_30"
+    },
+    {
+      "end": 685398,
+      "speaker": "Enrico Bertini",
+      "start": 651372,
+      "text": "And I guess this is also related to what is typically called exploratory data analysis. So I was wondering if you can tell us a little bit more about how do you use visualization in between in the process? So I guess one can use visualization at the beginning just to, to figure out what is in the data, what are the distributions. Kind of like to eyeball the data in the first place, right. And then start answering, asking some questions. So I think visualization plays a role pretty much at every single stage of data science, right?",
+      "id": "ep_120_ut_31"
+    },
+    {
+      "end": 833304,
+      "speaker": "David Robinson",
+      "start": 685486,
+      "text": "Oh, absolutely, yeah. I feel like I make maybe 50 to 100 graphs every day just as part of doing a data analysis. I think a good example of an exploratory graph you'd start out with would be a histogram. Almost anytime might start looking at data. I would take any continuous variable that's in it and take a look at a histogram. Histogram is actually not the kind of thing I'd usually use in a final result. Actually, not everyone knows how to interpret one, and it might not be that interesting, but it's the first thing I'd look at, a histogram, look at the distribution of the data, and I want to say, is it normally distributed, is it log normally distributed with a very long tail? And then I might want to take the log of it before I do anything with it. That's one thing I'd want to look at. For categorical data, I'll almost always make a bar plot of the most common categories within it. So that could be something like, if I'm looking at data camp courses, my first question would be, what are the most commonly taken data camp courses? It's not a very interesting machine learning model or anything. It's just a question I have that will give me a better picture of the entire way that people use our product. And I may make a lot of those graphs for different, I might say, one of the most common countries. And then I say, and then I make a line plot of maybe how the frequency of different courses changed over time. And I'd learned the insight that datacamp used to be mostly people learning r, but now we have more and more people are learning Python on the platform. And these go from these exploratory questions that are very histograms, maybe a line plot, and then they get closer and closer to something that I'd really want to share with someone. And as I get closer, some of the things do. I'll make the graph prettier. So I'll make sure that, let's say, the axes have the right labels and have the right ticks. That'll have a title and a subtitle that explains some of the context I'll worry about. Am I showing too much data that maybe is useful for me if I'm pulling through it, but is going to overwhelm someone when they look at it and there's kind of a spectrum of, so it's only for me, then maybe I would show it in a slack channel with a few other data scientists, and then I'd actually then eventually get to a point I could show to the whole company and then to the point that I could put in a blog post and try and share with the whole world.",
+      "id": "ep_120_ut_32"
+    },
+    {
+      "end": 847916,
+      "speaker": "Moritz Stefaner",
+      "start": 833384,
+      "text": "Do you typically get like a clear cut question in terms of can we figure out this or that using our data? Or is it more like, well, let's look at what our data sets can tell us. Let's just fish for ideas and insights like what's more common for you?",
+      "id": "ep_120_ut_33"
+    },
+    {
+      "end": 926266,
+      "speaker": "David Robinson",
+      "start": 848000,
+      "text": "So it's funny you bring up phishing because I think phishing can get a bad reputation because you really can use it for like, well, you can use it for, you start testing many multiple hypotheses and you can start find, you can find anything in your data if you look hard enough. And that's, there's a real danger of that. And I think that we should recognize that. But we also have to recognize there's a danger of if you set exactly what you're going to do with your model in advance, you might miss out on some really important, you might be making some really dangerous assumptions that you're going to need to adjust. So I think a big one would be if you say, when you go in, I'm going to use a t test as a statistical test for finding, let's say, the difference between two samples to tell the difference between one type of user and another, like paying users versus premium users versus free users. You say, I'm going to use a t test. And if you just go in and you make that assumption, you don't take a look around the data first, you're going to, you might not notice that the data actually has a really dangerous distribution. There's some outliers or it's log normally distributed, it's asymmetrically distributed, and the t test might not be appropriate anymore. So that's a danger as well.",
+      "id": "ep_120_ut_34"
+    },
+    {
+      "end": 934298,
+      "speaker": "Moritz Stefaner",
+      "start": 926330,
+      "text": "So you might fall in the same trap as with the Anscom quartet, that you just look at the summary statistics and sort of miss the subtleties of the.",
+      "id": "ep_120_ut_35"
+    },
+    {
+      "end": 956674,
+      "speaker": "David Robinson",
+      "start": 934346,
+      "text": "Exactly. If you promise that in advance. Now there's a, I think the problem that Andrew Gellman and his colleagues call this the garden of forking paths problem, where if you make a lot of visualizations, you're testing a lot of hypotheses without even knowing it, and you might end up getting a significant p value. So I think that's a huge danger in scientific research.",
+      "id": "ep_120_ut_36"
+    },
+    {
+      "end": 975944,
+      "speaker": "Moritz Stefaner",
+      "start": 957174,
+      "text": "It's still, this is the problem you mentioned with the phishing, with the phishing approach, right. If your data is big enough and if you have enough dimensions, like just by pure chance, you will always find some odd patterns just because there's so many combinations that can come into play. Right?",
+      "id": "ep_120_ut_37"
+    },
+    {
+      "end": 976240,
+      "speaker": "Enrico Bertini",
+      "start": 976024,
+      "text": "Yes.",
+      "id": "ep_120_ut_38"
+    },
+    {
+      "end": 980560,
+      "speaker": "David Robinson",
+      "start": 976272,
+      "text": "Some people say this as if you torture your data long enough, you can make it confess to anything.",
+      "id": "ep_120_ut_39"
+    },
+    {
+      "end": 981804,
+      "speaker": "Moritz Stefaner",
+      "start": 980712,
+      "text": "Right? Right.",
+      "id": "ep_120_ut_40"
+    },
+    {
+      "end": 1057424,
+      "speaker": "David Robinson",
+      "start": 982864,
+      "text": "So that is a problem. I will share that. I actually think this, it's a less of a problem in data science than it is in a lot of scientific research, because we actually often have too much data. We have more data than we know what to do with. So there's a lot of times, well, spend a couple hours, try a bunch of hypotheses. Maybe I'll try ten, or maybe I'll try 20. But then I get a p value of one in a billion. When I actually know what question to ask, I actually want to say, how does this factor of a user correlate with this? And there's no question. But once I knew to ask that question, it was statistically totally unambiguous. That's a completely, because I have maybe millions of people visiting this page and so many data points that I can look at. So as long as I'm kind of careful about how many questions I ask, we might have enough data to make real discoveries. Even taking this into account, that's something scientific experimenters don't deal with, because they might be basing their entire analysis on, let's say, 50 people in college that signed up for this study, and if they slice their data a few ways, before you know it, they're not going to be able to, they're going to be able to draw these spurious conclusions from it.",
+      "id": "ep_120_ut_41"
+    },
+    {
+      "end": 1088376,
+      "speaker": "Moritz Stefaner",
+      "start": 1058284,
+      "text": "But then how do you deal with that? Let's say you go on an experimental exploratory mission, just look at, okay, what can our data tell us? And then you find something that seems like a strong correlation, but then at the same time you have this funny feeling, okay, it might just be one of these fake things that you found because you were just not looking precisely enough or didn't go in with a clear hypothesis. How can you clear that up? Like, what would you do to find out if it's meaningful or not.",
+      "id": "ep_120_ut_42"
+    },
+    {
+      "end": 1186516,
+      "speaker": "David Robinson",
+      "start": 1088480,
+      "text": "I think there are two strategies you can take. One is to be a lot stricter with your p value threshold than you would be in a scientific experiment. So p value would be the number that says, what's the probability that I would see result this extreme, or more extreme by chance? And so we have this problem that people call p hacking of, saying, let's get the. If you set, like a threshold of 0.05, maybe you can look at your data a few different ways and you'll be able to get a p value of 0.03. I actually usually don't. If I'm doing. Certainly if I'm doing exploratory data analysis, I won't trust p value 0.03. I might not even trust one of 0.003, because, like I said, I usually have plenty of data, and I usually, once there is a result, it'll usually be, I have a lot of what we call statistical power, a lot of, when I'm doing an exploratory analysis, a lot of ability to actually, if an effect exists, I can detect it very strictly, so I can be a lot stricter than someone doing one study would necessarily be. That's one side. The other is an approach barred from machine learning, which is you have a validation set. So I might look, this would be an example of, if I'm looking at our revenue data over history, I might start by doing a lot of analysis of 2016, and I try and divide it in a few different ways, and I come up with some conclusions, and then I start looking at 2017, and if none of the same conclusions hold, I know that I was just fooling myself. So that requires a little discipline upfront. I think there are a lot of ways you can do it.",
+      "id": "ep_120_ut_43"
+    },
+    {
+      "end": 1196152,
+      "speaker": "Moritz Stefaner",
+      "start": 1186540,
+      "text": "You can using everything at once. Right? So keep not use all the data at once, but keep sort of a test set you can work with. With.",
+      "id": "ep_120_ut_44"
+    },
+    {
+      "end": 1251758,
+      "speaker": "David Robinson",
+      "start": 1196248,
+      "text": "Exactly. Yeah, it takes. The good news is, a lot of times when people are working with large data sets, you're going to want to subsample anyway. It ends up being easier, let's say, for the data to live in memory. So before. Yeah, that's actually true of almost any time before, I would do an analysis of every single user. This was especially true at stack overflow, where we got 20 million visits a day. And if I wanted to look at, like, if I wanted to subsample our traffic and understand what kinds of questions people were visiting, I could probably look at one out of every 100 visits. And still get really good results. So it's very easy for me there to subset my data and then I can look at a different, I could look at one out of every ten users and then explore them, fit a model on them. And I've got plenty of data I haven't even looked at yet. It does, yeah, it does require some discipline and some hygiene, and it can depend how strict you want to be about that. But that's some of the ways you can handle worrying about phishing. Yeah.",
+      "id": "ep_120_ut_45"
+    },
+    {
+      "end": 1272896,
+      "speaker": "Enrico Bertini",
+      "start": 1251846,
+      "text": "Yeah. I'm wondering if another difference here is that in most data science science settings, you can also afford having interventions in the world as a consequence of what you've learned, and then you can check whether this thing worked or not. Whereas in science there are many cases where this is not possible at all or very costly. Right.",
+      "id": "ep_120_ut_46"
+    },
+    {
+      "end": 1340384,
+      "speaker": "David Robinson",
+      "start": 1273040,
+      "text": "Absolutely. It might be more of a hypothesis. Like early on you might want to just say something like, I'll give an example. A company that has a sales team might need to say, do our large clients have a higher rate of renewal than our small clients? And that kind of question is going to be real. It's going to be confounded with a lot of factors. Maybe it's the different sales team working with them, maybe it's, maybe there's other different, maybe they're in different countries. There's a lot of confounding factors that can drive that if we're just looking at description. But then once we get that hypothesis and maybe it gives us something that the business team can work on, can reorient their sales strategy, they can say something like, let's try shifting our attention in this direction, or let's try randomizing our salespeople between the two clients so we can really get a better sense of the difference. Then maybe you can actually run an experiment and you'll be able to see whether that hypothesis is borne out. Yes, that's one reason it's really important for data scientists to work with people that will actually implement their conclusions and act on them.",
+      "id": "ep_120_ut_47"
+    },
+    {
+      "end": 1363100,
+      "speaker": "Moritz Stefaner",
+      "start": 1341804,
+      "text": "And it's also always great to have an actual domain expert. You might have generic statistical tool set, but if you have a domain expert on board, they can also often, like immediately spot, like if something seems strange to them or it seems to confirm their expert knowledge. I mean, both is interesting, but it can also be good to sort of. Yeah, go ahead, Christine.",
+      "id": "ep_120_ut_48"
+    },
+    {
+      "end": 1436056,
+      "speaker": "David Robinson",
+      "start": 1363132,
+      "text": "I'd actually go one farther. I'd say teaching domain experts to do data science is a really effective strategy. That's one thing we aim for at data camp and I recently came up with a webinar called democratizing data science within your company. That's really all about the idea of if you teach, if you teach people across many departments that are already experts in the kind of work that they do, they can actually apply data science themselves. They can run a couple visualizations, and they'll be better suited than you to understand what they mean. So actually, at Datacamp, we have someone on the sales team who's taken Chris Cardillo, who's taken 50 data camp courses, and he's learned a lot about data science. And now I'm working with him to actually, he's doing his own analyses of sales data, and he's able to, with some guidance from me, he's able to really better understand than I ever could what this data means and what that team needs. So I think teaching sales people, teaching marketing people, teaching engineers and product people, or people within the finance team, teaching them how to run some models and write some r code and understand their data, that's a way you can really get domain expertise into problem solving.",
+      "id": "ep_120_ut_49"
+    },
+    {
+      "end": 1500616,
+      "speaker": "Enrico Bertini",
+      "start": 1436200,
+      "text": "Yeah, that's very inspiring, because in a way, yeah. Part of what we do, or what we should do is to provide as much knowledge and as many tools as possible to democratize access to data and access to the tools that allow you to do data science. Because in the end, as you just said, if we give these knowledge and tools to people who have the background knowledge and really understand what is going on with the data, I think let's not forget that the only reason why data is useful is because it's basically a picture of some phenomenon you're interested in. You're not really interested in data. You're interested in the phenomenon that is described by the data. Right. And these people have tremendous knowledge. Right. I mean, if a person is trained only in data science or computer science, like myself, let's say I can't have the knowledge of a doctor, right, or of a physician or, I don't know, a climate scientist. But once you give these tools to them, then the equation becomes really, really, really powerful, right?",
+      "id": "ep_120_ut_50"
+    },
+    {
+      "end": 1580334,
+      "speaker": "David Robinson",
+      "start": 1500720,
+      "text": "Absolutely. I think, and I think to be specific, I think there's been a revolution in the last couple years in what I call breadth first, data science. So a lot of people kind of focus on what in data science didn't used to be possible, and now it is. So a good example is Google builds a computer, Alphago, that can beat the world's best go players or self driving cars, are able to recognize dangers in the road and are driving better than ever before. So these are very exciting, but I think it's also really exciting that tools have gotten easier to learn. So I think there's an amazing case in the programming language r, which is the one that I use and what we call the tidyverse. So the tidyverse is a collection of r packages, ggplot two for data visualization, dplyr for data transformation, Tidy R for reshaping data that have, we've noticed, have really gotten easier and easier for people to learn and then immediately start applying to data. So there's really a lot of goals within it to make tools more consistent, to make them well documented in ways that people can immediately apply them to their data. And a lot of our courses at data camp have been focusing on this, of how can we teach tools like this with the goal of bringing people to data fluency as fast as possible.",
+      "id": "ep_120_ut_51"
+    },
+    {
+      "end": 1597218,
+      "speaker": "Enrico Bertini",
+      "start": 1580914,
+      "text": "Yeah, that's a revolution and it's great to see it happening. And yeah, I guess you guys know, you can see directly what kind of impact you are having with data camp on teaching these tools directly to domain experts, I guess.",
+      "id": "ep_120_ut_52"
+    },
+    {
+      "end": 1658120,
+      "speaker": "David Robinson",
+      "start": 1597266,
+      "text": "Yeah, I've got this. I released a course last November, a little bit before I joined the company called introduction to the tidyverse, that we've been really excited to see how people have been responding to it. Now, generally anytime someone joins the company, the first thing we have them do usually is take a data camp course. I've usually recommended to them introduction to the tidyverse. It's a chance where they actually get, they get to take a real data set of country statistics over time and draw some insights about how that's been changing. And they learn to use, they're doing actual code, but they're immediately getting results out of it. They're grouping by year and they're summarizing and they're making scatter plots and line plots and box plots. And it's, and it's very empowering to give people these tools that they can immediately work with data. So I'm, and yeah, I think in the next year I'll be looking a lot at what can we tell about the data, about how people are engaging with this material and how can we make it more and more a smoother and smoother process to be introduced to these tools.",
+      "id": "ep_120_ut_53"
+    },
+    {
+      "end": 1721778,
+      "speaker": "Enrico Bertini",
+      "start": 1658272,
+      "text": "So I'm curious to hear from you, what is your take on? So it looks to me that r is becoming little by little. So it was a core, say, a tool for statisticians that requires a lot of programming and it's getting easier and easier, much simpler interfaces. Usability is getting much, much better. So it's kind of like bottom up. So I'm wondering. But on the other hand, there are also some tools that are just pure interactive user interfaces requiring zero programming or minimal amount of programming. So how do you see these two things evolving together? Right. So do you think there are things that user interfaces will never be able to do? And it's much better to start from something like r or there is a segment of the population of the domain experts that it's fine if they don't know how to program as long as they do get access to powerful mechanisms to do data analysis with a rich interface. So what's your take there?",
+      "id": "ep_120_ut_54"
+    },
+    {
+      "end": 1904918,
+      "speaker": "David Robinson",
+      "start": 1721826,
+      "text": "Yeah, I really love that you put it that way, because I thought about the same thing, that there are these two different that programming languages are becoming more usable as usable graphical interfaces become more powerful. So in the end, I'm of the opinion that I think we should focus on the programming language side of it. I think there is such a gap between being able to code and not being able to code. And I don't mean on a person level, but I mean within a tool in terms of expressiveness. So user interfaces. So I think there's some examples like Tableau, looker, I think certainly Excel, stata. I think there are these tools that are really about, you drag and drop and you click and you try and do data science and they have been getting better. I think there are a lot of really cool innovations in it. But products like that have features and every single thing you do had to have been added by someone said, we should make it possible, make this possible. Programming languages have expressiveness, they say they kind of can do anything. The question is, how easy is it to represent that? And I would bet on expressing this any day. I would bet any day on the power that you get out of writing code, because it's so often when you start using these tools, you start saying you're limited by what the people that built themselves, them plan for them to be used for. And programming has just an amazing flexibility to approach all these problems. The other huge difference is about reproducibility. I think that there's a real challenge in science and in data science within business of if you do an analysis once, how can you repeat it? How can you share it with other people? And a lot of these tools, if you're doing data science by clicking buttons, do you remember the exact sequence of buttons that you clicked? If you're in an Excel spreadsheet, could you have edited did you edit the data and forget about it? Did you? These are some really serious problems, and you don't have this provenance of data that you do with a script. So I think that's a huge advantage the coding has. And the last advantage the coding has, and it's kind of related, is that it's most successful programming languages today are Python. The things that you successfully use, data science, are free and open source. And that also means you're not going to have, you're not trapped into one tool, you're not, if you move companies, you're not going to. All these skills you built up and all the, maybe all the data that company has, you're not going to be able to use it with this new tool. Code frees you up for that. So this was some of the reasons. I think you're exactly right. The frontier is moving on both sides. But that's the reason I bet on code every day.",
+      "id": "ep_120_ut_55"
+    },
+    {
+      "end": 1923370,
+      "speaker": "Enrico Bertini",
+      "start": 1905046,
+      "text": "Yeah, that's very exciting. Maybe we can conclude by, can you say a few words about aspiring data scientists? Let's say there is someone who is listening to this podcast and is not a data scientist yet. So what's your recommendation to get started?",
+      "id": "ep_120_ut_56"
+    },
+    {
+      "end": 2044266,
+      "speaker": "David Robinson",
+      "start": 1923522,
+      "text": "Absolutely. So I've got one recommendation that I give to everyone that wants to be a data scientist. So there are some first steps. Certainly learning to code is a really important step. Both R and Python are fantastic languages for that, learning some statistics. So data cap has a lot of material learning both code and statistics, and I definitely recommend getting it. So I certainly recommend getting a subscription to. We have a lot of really terrific courses about programming statistics. But once you've started learning some skills, my most important advice is to start a blog. So I've really loved blogging for the last few years about data science, and I've noticed the skills that you can build through communication, through. Actually, not just I take a data set and I analyze it, but then I need to share it with the world. You take something, you analyze, you share your visualizations, or you take an open source project that you built and you, you publish it and you write a blog post about it. You take a concept that you learned and you write your own explanation. A lot of my favorite posts that I've written are explaining a statistical concept, which is why I gave my blog the title variance explained. So by writing a blog, you build practice with that kind of communication. You practice your own skills of analyzing data in a way that you can keep yourself accountable, and you're building your network and your public presence, which is such an important part of getting a job in the field. So I actually got both my jobs based on my at stack overflow and then at data camp based on my kind of membership of the data science community. I didn't just have bullets on a resume saying, I'm able to do these things. I worked hard to try and actually give public examples of. Here's the kind of visualizations I make, here's the kind of analyses I like to do. And whatever you're really into, whatever makes you want to be a data scientist, writing blog posts about that is the best way to show that work off to the world.",
+      "id": "ep_120_ut_57"
+    },
+    {
+      "end": 2064814,
+      "speaker": "Moritz Stefaner",
+      "start": 2044370,
+      "text": "Yeah, that's great advice. And this is in fact how I started my career as well, with my blog. Well found data. So you need a cool name. I had one too. And this is also how I met Enrico, I think in the end, because he had a blog, right? Fell in love with data and, yeah, everything started. Enrico interviewed me for his blog, so there you go.",
+      "id": "ep_120_ut_58"
+    },
+    {
+      "end": 2094424,
+      "speaker": "Enrico Bertini",
+      "start": 2065464,
+      "text": "Yeah, yeah, yeah. And I think that's also the kind of advice we always, we've been giving for years to anyone approaching us saying, how do I get started with this? And it's like, yeah, learn some tools, read some books and blog posts, but eventually the best thing you can do is to build a portfolio, right? Just get your stuff out there, show it to the world, be ready to keep to be criticized and it's fine. And just make your stuff, step by step available, right? Yeah.",
+      "id": "ep_120_ut_59"
+    },
+    {
+      "end": 2116984,
+      "speaker": "David Robinson",
+      "start": 2094504,
+      "text": "I actually have a message to aspiring data scientists, which is, I make this promise in a blog post I wrote called advice to aspiring data scientists. Start a blog. So it's, if you write your first data science blog and you publish it, send me a link by twietter https://twitter.com/drob on Twitter and I'll tweet about your first post.",
+      "id": "ep_120_ut_60"
+    },
+    {
+      "end": 2117536,
+      "speaker": "Moritz Stefaner",
+      "start": 2117104,
+      "text": "Awesome.",
+      "id": "ep_120_ut_61"
+    },
+    {
+      "end": 2133194,
+      "speaker": "David Robinson",
+      "start": 2117600,
+      "text": "So I think it's good because it can be a scary part of starting a blog that you feel like no one's looking at it. Is it even worth the effort? Got 23,000 followers on Twitter and I'd love to share your work with them. I think it's a great way to, like to jumpstart your blogging experience.",
+      "id": "ep_120_ut_62"
+    },
+    {
+      "end": 2134534,
+      "speaker": "Moritz Stefaner",
+      "start": 2133494,
+      "text": "That's a great idea.",
+      "id": "ep_120_ut_63"
+    },
+    {
+      "end": 2136074,
+      "speaker": "Enrico Bertini",
+      "start": 2134614,
+      "text": "That's fantastic. That's fantastic.",
+      "id": "ep_120_ut_64"
+    },
+    {
+      "end": 2193058,
+      "speaker": "David Robinson",
+      "start": 2136774,
+      "text": "Yeah, I've really, I've been so excited. I've done that for the last couple of months. And in November, someone, someone sent me a link that ended up getting a huge amount of attention, where he'd done an analysis of. He was at a data science boot camp in California and as one of his projects, he looked at comments on the FCC website about net neutrality and he discovered that about 99% of the anti net neutrality comments were faked. It looked like they were written by bots. And he discovered that they all were clustered together in very similar text. So he, and he published this. He ended up getting a lot of news attention and such and he was in a bootcamp looking for a job and it was a really great step for him. So, yeah, so I was very excited to see it. So it said, yeah, definitely send me a link. Once you do come out with a blog.",
+      "id": "ep_120_ut_65"
+    },
+    {
+      "end": 2194098,
+      "speaker": "Moritz Stefaner",
+      "start": 2193226,
+      "text": "That's fantastic.",
+      "id": "ep_120_ut_66"
+    },
+    {
+      "end": 2196778,
+      "speaker": "Enrico Bertini",
+      "start": 2194186,
+      "text": "That's a great idea. Maybe we should do something similar here.",
+      "id": "ep_120_ut_67"
+    },
+    {
+      "end": 2203122,
+      "speaker": "Moritz Stefaner",
+      "start": 2196866,
+      "text": "I'm thinking the same. Yeah, that's a really cool idea. So we'll have to wrap it up nevertheless.",
+      "id": "ep_120_ut_68"
+    },
+    {
+      "end": 2206498,
+      "speaker": "David Robinson",
+      "start": 2203218,
+      "text": "You know, you could do is at least every episode you could feature a blog post.",
+      "id": "ep_120_ut_69"
+    },
+    {
+      "end": 2207578,
+      "speaker": "Enrico Bertini",
+      "start": 2206546,
+      "text": "Yeah, that's true.",
+      "id": "ep_120_ut_70"
+    },
+    {
+      "end": 2220166,
+      "speaker": "Moritz Stefaner",
+      "start": 2207666,
+      "text": "Yeah, maybe at the end. End. So, yeah, if you do something interesting or just something, just send us a link and we'll take a look. For sure. In the meantime, thanks so much for joining us, David. This was super interesting.",
+      "id": "ep_120_ut_71"
+    },
+    {
+      "end": 2222454,
+      "speaker": "David Robinson",
+      "start": 2220230,
+      "text": "I was very glad to be here.",
+      "id": "ep_120_ut_72"
+    },
+    {
+      "end": 2233094,
+      "speaker": "Moritz Stefaner",
+      "start": 2222614,
+      "text": "We'll put Anscombe's squared and your links and everything in the show notes. So do take a look at the blog post. You'll find all the materials there and yeah, thanks so much.",
+      "id": "ep_120_ut_73"
+    },
+    {
+      "end": 2235126,
+      "speaker": "David Robinson",
+      "start": 2233174,
+      "text": "Thanks very much for the invitation. A lot of fun.",
+      "id": "ep_120_ut_74"
+    },
+    {
+      "end": 2235702,
+      "speaker": "Enrico Bertini",
+      "start": 2235190,
+      "text": "Thank you, Dave.",
+      "id": "ep_120_ut_75"
+    },
+    {
+      "end": 2236376,
+      "speaker": "Moritz Stefaner",
+      "start": 2235718,
+      "text": "Thanks. Thank you.",
+      "id": "ep_120_ut_76"
+    },
+    {
+      "end": 2262336,
+      "speaker": "Enrico Bertini",
+      "start": 2236440,
+      "text": "Bye bye. Hey folks, thanks for listening today. The stories again. Before you leave, a few last notes. This show is now completely crowdfunded, so you can support us by going on Patreon. That's patreon.com Datastories. And if you can spend a couple of minutes reading us on iTunes, that would be extremely helpful for them show.",
+      "id": "ep_120_ut_77"
+    },
+    {
+      "end": 2288240,
+      "speaker": "Moritz Stefaner",
+      "start": 2262440,
+      "text": "And here's also some information on the many ways you can get news directly from us. We're of course on twitter@twitter.com. Datastories. We have a Facebook page@Facebook.com, datastoriespodcast all in one word. And we also have a slack channel where you can chat with us directly. And to sign up you can go to our homepage datastori.es and there is a button at the bottom of the page.",
+      "id": "ep_120_ut_78"
+    },
+    {
+      "end": 2304102,
+      "speaker": "Enrico Bertini",
+      "start": 2288392,
+      "text": "And we also have an email newsletter. So if you want to get news directly into your inbox and be notified whenever we publish an episode, you can go to our home page Datastories es and look for the link you find at the bottom in the footer.",
+      "id": "ep_120_ut_79"
+    },
+    {
+      "end": 2316238,
+      "speaker": "Moritz Stefaner",
+      "start": 2304198,
+      "text": "So one last thing we want to tell you is that we love to get in touch with our listeners, especially if you want to suggest a way to improve the show or amazing people you want us to invite or even projects you want us to talk about.",
+      "id": "ep_120_ut_80"
+    },
+    {
+      "end": 2325434,
+      "speaker": "Enrico Bertini",
+      "start": 2316326,
+      "text": "Yeah, absolutely. And don't hesitate to get in touch with us. It's always a great thing for to hear from you. So see you next time, and thanks for listening to data stories.",
+      "id": "ep_120_ut_81"
+    }
+  ],
+  "confidence": 0.926363164209305,
+  "audio_duration": 2334,
+  "punctuate": true,
+  "format_text": true,
+  "dual_channel": false,
+  "webhook_url": null,
+  "webhook_status_code": null,
+  "webhook_auth": false,
+  "webhook_auth_header_name": null,
+  "speed_boost": false,
+  "auto_highlights_result": null,
+  "auto_highlights": false,
+  "audio_start_from": null,
+  "audio_end_at": null,
+  "word_boost": [],
+  "boost_param": null,
+  "filter_profanity": false,
+  "redact_pii": false,
+  "redact_pii_audio": false,
+  "redact_pii_audio_quality": null,
+  "redact_pii_policies": null,
+  "redact_pii_sub": null,
+  "speaker_labels": true,
+  "content_safety": false,
+  "iab_categories": true,
+  "content_safety_labels": {
+    "status": "unavailable",
+    "results": [],
+    "summary": {}
+  },
+  "language_detection": false,
+  "language_detection_threshold": null,
+  "language_confidence": null,
+  "custom_spelling": null,
+  "throttled": false,
+  "auto_chapters": true,
+  "summarization": false,
+  "summary_type": null,
+  "summary_model": null,
+  "custom_topics": false,
+  "topics": [],
+  "speech_threshold": null,
+  "speech_model": "best",
+  "chapters": [
+    {
+      "summary": "On this podcast we talk about data visualization, analysis, and generally the role the data plays in our lives. Our podcast is listener supported, so there are no ads. If you enjoy the show, please consider supporting us.",
+      "gist": "Data Stories",
+      "headline": "Data stories podcast is listener supported, so there are no ads",
+      "start": 200,
+      "end": 77730,
+      "id": "ep_120_ch_0"
+    },
+    {
+      "summary": "Moritz: I've been traveling to Paris quite a bit the last few weeks. He just came back from OpenVisConf. If you make it to Paris, definitely drop by. It's free entrance. There will be videos, so you have a chance to catch up.",
+      "gist": "OpenVizconf 2014",
+      "headline": "Moritz recently returned from Openvisconf in Paris",
+      "start": 77762,
+      "end": 181534,
+      "id": "ep_120_ch_1"
+    },
+    {
+      "summary": "David Robinson is the chief data scientist at Datacamp, an education technology company that teaches data science through interactive online courses. We want to talk about what data science is and if it's possible to do it. And also what are its connections with data visualization.",
+      "gist": "David Robinson",
+      "headline": "David Robinson is the chief data scientist at Datacamp",
+      "start": 181884,
+      "end": 245752,
+      "id": "ep_120_ch_2"
+    },
+    {
+      "summary": "David Wheeler: What is data science? Wheeler: It's the combination of programming, statistical insight and communication. What's different about data science is that we treat it as full stack. Wheeler: A lot of companies have started to discover that.",
+      "gist": "David Hall: What is Data Science?",
+      "headline": "David Schwartz: What is data science, and what does it entail",
+      "start": 245808,
+      "end": 433620,
+      "id": "ep_120_ch_3"
+    },
+    {
+      "summary": "A lot of questions can be answered these days with data and data science. How do you see the role of data visualization in data science? Should every data scientist be a data visualization expert?",
+      "gist": "Data Science and Data Visualization",
+      "headline": "How do you see the role of data visualization in data science",
+      "start": 433652,
+      "end": 616480,
+      "id": "ep_120_ch_4"
+    },
+    {
+      "summary": "In data science, you also use visualization as an intermediary step to make sense of the data in the first place. I make maybe 50 to 100 graphs every day just as part of doing a data analysis. These go from very histograms, maybe a line plot, and then they get closer and closer to something that I'd really want to share with someone.",
+      "gist": "Data Science: Visualization in the Process",
+      "headline": "I think visualization plays a role in every single stage of data science",
+      "start": 616592,
+      "end": 1088376,
+      "id": "ep_120_ch_5"
+    },
+    {
+      "summary": "I think there are two strategies you can take. One is to be a lot stricter with your p value threshold than you would be in a scientific experiment. The other is an approach barred from machine learning, which is you have a validation set. It does require some discipline and some hygiene.",
+      "gist": "Pushing the limits of statistical science",
+      "headline": "One strategy is to be a lot stricter with your p value threshold than a scientific experiment",
+      "start": 1088480,
+      "end": 1658120,
+      "id": "ep_120_ch_6"
+    },
+    {
+      "summary": "Programming languages are becoming more usable as usable graphical interfaces become more powerful. The things that you successfully use, data science, are free and open source. The frontier is moving on both sides. But that's the reason I bet on code every day.",
+      "gist": "Coding vs. User Interfaces in Data Science",
+      "headline": "Programming languages becoming more usable as graphical interfaces become more powerful",
+      "start": 1658272,
+      "end": 1907630,
+      "id": "ep_120_ch_7"
+    },
+    {
+      "summary": "Data cap's advice to aspiring data scientists is to start a blog. By writing a blog, you build practice with that kind of communication. The best thing you can do is to build a portfolio.",
+      "gist": "Recommending a Data Scientist: Start a Blog",
+      "headline": "FCC's merob gives advice to aspiring data scientists on how to start",
+      "start": 1907742,
+      "end": 2244720,
+      "id": "ep_120_ch_8"
+    },
+    {
+      "summary": "This show is now completely crowdfunded, so you can support us by going on patreon. com Datastories. Here's also some information on the many ways you can get news directly from us. We love to get in touch with our listeners, especially if you want to suggest a way to improve the show.",
+      "gist": "How to Subscribe to Data Stories Podcast",
+      "headline": "This show is now completely crowdfunded so you can support us by going on Patreon",
+      "start": 2244872,
+      "end": 2325434,
+      "id": "ep_120_ch_9"
+    }
+  ],
+  "disfluencies": false,
+  "entity_detection": false,
+  "sentiment_analysis": false,
+  "sentiment_analysis_results": null,
+  "entities": null,
+  "speakers_expected": null,
+  "summary": null,
+  "custom_topics_results": null,
+  "episode_num": 120,
+  "episode_metadata": {
+    "speakers": [
+      "David Robinson",
+      "Enrico Bertini",
+      "Moritz Stefaner"
+    ],
+    "WPid": "1182",
+    "url": "https://datastori.es/podlove/file/5056/s/feed/c/mp3/120-data-science-with-david-robinson.mp3",
+    "episode_title": "Data Science and Visualization with David Robinson"
+  }
+}

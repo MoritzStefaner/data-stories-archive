@@ -1,0 +1,959 @@
+{
+  "id": "0f514dd7-9b1c-4785-bcea-3e0a4157c327",
+  "language_model": "assemblyai_default",
+  "acoustic_model": "assemblyai_default",
+  "language_code": "en_us",
+  "status": "completed",
+  "audio_url": "https://datastori.es/podlove/file/6420/s/feed/c/mp3/153-data-art-and-visual-programming-with-marcin-ignac-from-variable.mp3",
+  "utterances": [
+    {
+      "end": 23530,
+      "speaker": "Marcin Ignac",
+      "start": 120,
+      "text": "I always try to find the shape of data, which you can think as the best visualization, highlighting the trends or the kind of patterns within the dataset. And now when you work with generative algorithms, you feed data, but then you kind of have almost a slider how much that impacts the final look versus how much you let the algorithm go on by itself.",
+      "id": "ep_153_ut_0"
+    },
+    {
+      "end": 56498,
+      "speaker": "Moritz Stefaner",
+      "start": 43090,
+      "text": "Hi, everyone. Welcome to a new episode of data stories. My name is Moritz Stefaner, and I'm an independent designer of data visualizations. In fact, I work as a self employed truth and beauty operator out of my office here in the countryside in the north of Germany.",
+      "id": "ep_153_ut_1"
+    },
+    {
+      "end": 63436,
+      "speaker": "Enrico Bertini",
+      "start": 56594,
+      "text": "And I am Enrico Bertini. I am a professor at NYU in New York City, where I do research and teach data visualization.",
+      "id": "ep_153_ut_2"
+    },
+    {
+      "end": 75496,
+      "speaker": "Moritz Stefaner",
+      "start": 63578,
+      "text": "That's right. And on this podcast together, we talk about data visualization, data analysis, and generally the role data plays in our lives. And usually we do that together with the guests we invite on the show.",
+      "id": "ep_153_ut_3"
+    },
+    {
+      "end": 99092,
+      "speaker": "Enrico Bertini",
+      "start": 75648,
+      "text": "Exactly. But before we start, just a quick note. Our podcast is listener supported, so there's no ads. If you enjoy the show, please consider supporting us with recurring payments on patreon.com Datastories. Or if you prefer, you can also send us one time donations on PayPal by going into PayPal, me Datastories.",
+      "id": "ep_153_ut_4"
+    },
+    {
+      "end": 114640,
+      "speaker": "Moritz Stefaner",
+      "start": 99236,
+      "text": "Right. That's always much appreciated. When we receive something or if we have a new patron, it's always cast a smile on our faces. So always good. So, Enrico, how did you start into the brand new decade? The wild, roaring twenties.",
+      "id": "ep_153_ut_5"
+    },
+    {
+      "end": 123410,
+      "speaker": "Enrico Bertini",
+      "start": 115020,
+      "text": "It feels like I didn't start yet, except that we now are recording and it's like, oh, finally, I'm doing something after the holidays.",
+      "id": "ep_153_ut_6"
+    },
+    {
+      "end": 124894,
+      "speaker": "Moritz Stefaner",
+      "start": 123580,
+      "text": "Oh, that's cool. That's the best.",
+      "id": "ep_153_ut_7"
+    },
+    {
+      "end": 134170,
+      "speaker": "Enrico Bertini",
+      "start": 124942,
+      "text": "It's a good feeling. Relaxed. I'm relaxed still. I don't know how long it's gonna last, but today I'm relaxed. How about you?",
+      "id": "ep_153_ut_8"
+    },
+    {
+      "end": 173798,
+      "speaker": "Moritz Stefaner",
+      "start": 134510,
+      "text": "Pretty good as well. Pretty smooth transition. And, yeah, last year, started. Ended really well. We won a prize. So together with Lena Klaus and Skye Moret, two friends and colleagues I've been working with, and we took part in the ocean plastic challenge from National Geographic and conceptualized a data sculpture in Bali made from trash on the beach, like thousands of pieces. And they assembled this huge sankey diagram. I could imagine. It's the largest sankey diagram in the world. So it has like 14 meters diameter. So let me know if you have ever made a bigger one. And anyways, we won this prize, so that was a nice, nice way to end the last year.",
+      "id": "ep_153_ut_9"
+    },
+    {
+      "end": 175690,
+      "speaker": "Enrico Bertini",
+      "start": 173934,
+      "text": "Did you get to go to Bali?",
+      "id": "ep_153_ut_10"
+    },
+    {
+      "end": 185390,
+      "speaker": "Moritz Stefaner",
+      "start": 176230,
+      "text": "I could have gone, but it didn't quite fit, but sky and Lina lives there anyways, and sky went there, and together they built this thing. I was very envious. Yes.",
+      "id": "ep_153_ut_11"
+    },
+    {
+      "end": 189990,
+      "speaker": "Enrico Bertini",
+      "start": 187450,
+      "text": "Next time, that would have been even better.",
+      "id": "ep_153_ut_12"
+    },
+    {
+      "end": 202986,
+      "speaker": "Moritz Stefaner",
+      "start": 191650,
+      "text": "Enough about ourselves. Of course, we have a guest today on the show. Yeah. And our guest today is Marcin Ignac from Variable, from London. Hi, Marcin.",
+      "id": "ep_153_ut_13"
+    },
+    {
+      "end": 203706,
+      "speaker": "Enrico Bertini",
+      "start": 203058,
+      "text": "Hi, Marcin.",
+      "id": "ep_153_ut_14"
+    },
+    {
+      "end": 204994,
+      "speaker": "Marcin Ignac",
+      "start": 203778,
+      "text": "Hi. Glad to be here.",
+      "id": "ep_153_ut_15"
+    },
+    {
+      "end": 246410,
+      "speaker": "Moritz Stefaner",
+      "start": 205082,
+      "text": "Great to have you on. You've been on our list for a long time. I know you for a very long time. We've been following our work for many, many years now. I'm super happy to have you on. I don't know if you know Marcin's work, but he and his small studio in London, they create really stunning work, sort of at the borderline between data visualization and generative design and data art and experimental graphics and high end 3d stuff. And it's really, really interesting and cool work over all the years. So, yeah, Marcin, can you introduce yourself a bit, tell us a bit about some of your maybe most characteristic projects so people get an impression of what you do?",
+      "id": "ep_153_ut_16"
+    },
+    {
+      "end": 376282,
+      "speaker": "Marcin Ignac",
+      "start": 247140,
+      "text": "Sure. So, yeah, as I said, I'm marching nuts, and I always call myself a data artist and a computational designer since 2012. I live in London, where I started my own studio. And nowadays we are three. And, yeah, like the projects we are doing are, as you said, there's usually a data component involved, but we kind of try to go beyond the usual type of chart you might see in a data visualization. So, for example, this year, one of our best projects was for IBM, where they provide all the IT infrastructure for Wimbledon championships in tennis. And we took the data about player stats or match statistics and cybersecurity events and weather patterns and so on, and represented them both as generative flowers, as a large scale screen installation, but also provided interface to navigate the datasets and kind of explain you the data behind it. At the same time, sometimes we work with researchers. So we had that opportunity to work with Julie Freeman on visualizing mole rat colony, which is, it was again, mashup between tracking animals, in that case, and data visualization, a bit of storytelling and a data piece connected to that. And then quite a few of our projects are beyond the screen, sometimes related to print, sometimes more embedded in the space. And one of my favorite projects is a project we did for Nike about visualizing personal health data or kind of sport metrics, you can say, called fibers, where we kind of look at your training throughout the week, and we create like a 3d sculpture based on that data set.",
+      "id": "ep_153_ut_17"
+    },
+    {
+      "end": 415328,
+      "speaker": "Moritz Stefaner",
+      "start": 376386,
+      "text": "Yeah, and you should check out the website variable IO. There's many, many amazing projects from these eight, nine years now of studio activity. So really great output so far, especially given that you such a small team. So we heard about generative design, data art, data visualization, using these terms. So in your mind, like, what are the differences there? What are the commonalities? Is data art maybe, as some people might think, it's just taking really good looking database, but having no legend or like leaving out the labels, or is there like more to it? How does it work and what are the differences?",
+      "id": "ep_153_ut_18"
+    },
+    {
+      "end": 538990,
+      "speaker": "Marcin Ignac",
+      "start": 415454,
+      "text": "I think on the most basic level, the difference is that data visualization is concerned about explaining the underlying data and helping you to understand the concepts or the subject matter. And data art is coming with a similar goal, but it's trying to communicate those concepts through emotions or more like your subconscious response instead of a set of numbers or, or shapes. So if you come to differences, I would say, like both data visualization and generative design are kinds of parametric systems. And what differentiates the two is the types of inputs and the flexibility of choosing the right output for the visualization. So, for example, in data visualization, the input might be a set of numbers describing some phenomena, and the output is a bar chart, or different kind of chart, or a map. And now, in generative system, we start with initial set of conditions, which are often random. And then through applying an algorithm, we arrive at complex structure, like a tree or swarm behavior of a flock of birds. And where data comes, data art comes into play, is kind of on the spectrum between those two. So, like, the input is still the data that control parts of the generative system. And it's worth noting that those generative systems are often autonomous, growing and evolving on their own over time. And now it's up to the designer to decide how much of the final form is controlled by the data and how much is controlled by the pseudo random process or artistic choice. So it's all about giving app control in a way to the algorithm or the data set, or making a statement as an artist instead of sticking directly. Okay, this is what data says, and that's it in a very kind of minimalistic form, very utilitarian form.",
+      "id": "ep_153_ut_19"
+    },
+    {
+      "end": 563958,
+      "speaker": "Enrico Bertini",
+      "start": 539150,
+      "text": "So I think what is interesting here is that if legibility is not the goal, which is normally a very, very important goal in data visualization, and I would say more functional kind of visualizations, how would you describe, what are the objectives of data arts in general? If there are any explicit objectives that you can mention there, I would say.",
+      "id": "ep_153_ut_20"
+    },
+    {
+      "end": 637638,
+      "speaker": "Marcin Ignac",
+      "start": 564094,
+      "text": "In terms of data art, usually the best part of data art is the force of attraction. Data art is this new, weird, interesting art form that is very interesting and different from what the classical types of data visualizations are. And I think that's the strongest power of data art that nowadays we quite immune to database. I see yet another bar chart of number of fires in Australia and I move on, right. We always talk about context, but in terms of database. But context is often in the longer piece of text that nobody has time to read. And so, like for me, I get much more stronger emotional response from the photos that are combining those bar charts and then to verify them, I look at the charts and I think data art has this opportunity to kind of combine best parts of both where we can generate this emotional response backed by data or supported by data.",
+      "id": "ep_153_ut_21"
+    },
+    {
+      "end": 692502,
+      "speaker": "Enrico Bertini",
+      "start": 637814,
+      "text": "Yeah, yeah. No, I think what is interesting here, I think personally, when I think about art in general and data art more specifically, it's not only about transferring knowledge, but it's more like, in a way, maybe there's a higher value there in art, which is like what stays with you afterwards. Right. What I noticed personally is that it's not only the fact, of course, data art may also have as a purpose engagement, right? So attracting people in the first place. But I would say what is really interesting when I personally experience something that is, that feels art or artistic, is that it keeps staying with me for a long time. I keep thinking about it over and over again. Right. So I'm wondering if this resonates with your same ideas about data art.",
+      "id": "ep_153_ut_22"
+    },
+    {
+      "end": 739228,
+      "speaker": "Marcin Ignac",
+      "start": 692646,
+      "text": "Very much. And even in our studio tagline, we say we work on new ways of experiencing data. And I've given set of presentations where I say data is not a number. And if you think about data in terms of data art, data can be a place, or data can be a creature, or data can be system, or even. Or a person. Exactly. Or the set of people behind the data set. And it's much more humane, so to say, or much more how we respond to things like even fake news. They don't operate on facts, they operate on emotions.",
+      "id": "ep_153_ut_23"
+    },
+    {
+      "end": 739880,
+      "speaker": "Moritz Stefaner",
+      "start": 739284,
+      "text": "Right.",
+      "id": "ep_153_ut_24"
+    },
+    {
+      "end": 742400,
+      "speaker": "Marcin Ignac",
+      "start": 740300,
+      "text": "I know when I compare, they are to fake news.",
+      "id": "ep_153_ut_25"
+    },
+    {
+      "end": 744960,
+      "speaker": "Moritz Stefaner",
+      "start": 743380,
+      "text": "Slippery slope there.",
+      "id": "ep_153_ut_26"
+    },
+    {
+      "end": 747920,
+      "speaker": "Marcin Ignac",
+      "start": 745300,
+      "text": "Yeah. Mechanisms are the same, right?",
+      "id": "ep_153_ut_27"
+    },
+    {
+      "end": 793020,
+      "speaker": "Moritz Stefaner",
+      "start": 749880,
+      "text": "No, but I think that's like, if we think about what were the big trends this decade, obviously, I think big part has been to move away from this minimalism and this very like, police report style of data visualization. Some call it like visual austerity, which I also like a lot towards. Yeah, saying, okay, sure, there are best practices, but it is also important how things make us feel and how, you know, and embellishment per se is not a problem, but it actually can be an enrichment if it's done right. And I think that's, it seems so obvious, but it was maybe forgotten a bit in the age of austerity.",
+      "id": "ep_153_ut_28"
+    },
+    {
+      "end": 798776,
+      "speaker": "Enrico Bertini",
+      "start": 794120,
+      "text": "But you can also have embellishment without a soul, in a way. Right. This happens.",
+      "id": "ep_153_ut_29"
+    },
+    {
+      "end": 801280,
+      "speaker": "Moritz Stefaner",
+      "start": 798808,
+      "text": "You can also have empty embellishment. Right?",
+      "id": "ep_153_ut_30"
+    },
+    {
+      "end": 801824,
+      "speaker": "Enrico Bertini",
+      "start": 801360,
+      "text": "Yeah.",
+      "id": "ep_153_ut_31"
+    },
+    {
+      "end": 820650,
+      "speaker": "Moritz Stefaner",
+      "start": 801912,
+      "text": "So then you have rococo. Is that a danger margin, would you say? Or is it like, sometimes you play so much with a particle system and it looks so nice and lushy, you say, like, let's ship it. I can't remember what the data was, but it looks really awesome.",
+      "id": "ep_153_ut_32"
+    },
+    {
+      "end": 930398,
+      "speaker": "Marcin Ignac",
+      "start": 821950,
+      "text": "Yes. So that's a good question that they can tag from many sites. And so one way to interpret that would be, so what makes a bad data art? Right. And again, personally, I always try to find, so to say, the shape of data, which you can think as the best visualization, highlighting the trends or the kind of patterns within the data set. And now when you work with generative algorithms, as I mentioned earlier, you feed data, but then you kind of has almost a slider how much that impacts the final look versus how much you beautify it or let the algorithm go on by itself. And I would say bad data art is where I can't really tell if there was datasets behind it or not, you know, but it feels almost so random or so generic, or so much like another, yet another motion design piece or yet another particle system with pearly noise behind it. That kind of the meaning gets lost. And there's this very good essay speaking quite a lot of that called stone soup, anyone? By Alex Jatwrinsky. And he's trying to make a point that, you know, data art is art, and good art should stand on its own. And sometimes it doesn't make sense to speak about data art. It's just art. And if you focus that much on aesthetics, it's okay, but just accept that and call this art and don't try.",
+      "id": "ep_153_ut_33"
+    },
+    {
+      "end": 935170,
+      "speaker": "Moritz Stefaner",
+      "start": 930414,
+      "text": "And make it more valuable by saying, but it's also based on that very exclusive data set.",
+      "id": "ep_153_ut_34"
+    },
+    {
+      "end": 936126,
+      "speaker": "Marcin Ignac",
+      "start": 935470,
+      "text": "Exactly.",
+      "id": "ep_153_ut_35"
+    },
+    {
+      "end": 942250,
+      "speaker": "Moritz Stefaner",
+      "start": 936198,
+      "text": "If it doesn't show, or if you wouldn't have seen it at all, why? Why does it matter?",
+      "id": "ep_153_ut_36"
+    },
+    {
+      "end": 959662,
+      "speaker": "Marcin Ignac",
+      "start": 942670,
+      "text": "Exactly. And just to throw in an anecdote, we just finished a project where the initial data set was like 600 pages of PowerPoint slides. And, you know, every good kind of.",
+      "id": "ep_153_ut_37"
+    },
+    {
+      "end": 962222,
+      "speaker": "Moritz Stefaner",
+      "start": 959686,
+      "text": "Mix project starts like this. Exactly.",
+      "id": "ep_153_ut_38"
+    },
+    {
+      "end": 1067907,
+      "speaker": "Marcin Ignac",
+      "start": 962326,
+      "text": "Yeah, yeah. We threw, like, some natural language processing and it. And some kind of, like, basic word stats and tags and tc and whatnot and try to map it and make sense out of it. It still didn't make any sense. So at some point in all my presentations to the client, I was just saying art piece, not data art or anything. And we ended up with one generative system that is kind of morphing between seven different forms that represent seven different kind of themes in this data set. And that's it. And that's my artistic interpretation and artistic choice. And, you know, there was like, would be nice to have data, but if we don't, it's fine, and let's move on and, yeah, but then again, on the other side is sometimes the data is interesting, and you almost want to share it with the visitor or user or depending where the thing lives. And that's what we did with IBM project, where we have this generative piece that actually starts with a particle system that's not data driven at all. That is an attractor that brings you to the space, and then it transforms into those data driven pieces. But then on top of that, we have a data visualization on a tablet where you can switch between data sets, browse historical data, and also see the values of those numbers that drive the visualization. So you get both. You get the experience and you get the knowledge in one place.",
+      "id": "ep_153_ut_39"
+    },
+    {
+      "end": 1098510,
+      "speaker": "Moritz Stefaner",
+      "start": 1067963,
+      "text": "Yeah, yeah. And again, because you sit between these fields like more, the motion design and the generative design and the branding and the data visualization, basically, your projects could start from both ends. You could start with a formal inspiration or a communication purpose, and then, okay, can we find data that supports that somehow or that we can work into that? Or you could start with the data set and say, okay, how can we make this an interesting experience? That also helps with the communication part, right?",
+      "id": "ep_153_ut_40"
+    },
+    {
+      "end": 1111080,
+      "speaker": "Marcin Ignac",
+      "start": 1099010,
+      "text": "Yes, that's exactly how people approach us. Some of them come with, you know, data set. And usually the follow up question is, can we beautify it?",
+      "id": "ep_153_ut_41"
+    },
+    {
+      "end": 1114120,
+      "speaker": "Moritz Stefaner",
+      "start": 1112980,
+      "text": "Wow us.",
+      "id": "ep_153_ut_42"
+    },
+    {
+      "end": 1200640,
+      "speaker": "Marcin Ignac",
+      "start": 1114580,
+      "text": "Yeah, wow us. And the other set of kind of briefs or projects we get is, okay, we like what we do. We have this event or this space or this, you know, project that requires some visuals. And then here's what we think we have as a company. And can you help us figure out if that's of any use? Or is there anything interesting in this data, or can we find better data sets to support our story? And both projects are interesting. Both, yeah. Require different approaches. And one starts with more kind of visual research and branding and generative systems that you hope you will have some data to plug into it later or not, but just call it art. And another one is when you actually start with data set. And in that case, the process is very similar to what classical database process would be acquired. Parse, filter and so on. Right. The data kind of do the data science part at the beginning that only then lets you see what kind of data set you're dealing with and what would be the visual system that would support best or communicate it best.",
+      "id": "ep_153_ut_43"
+    },
+    {
+      "end": 1267160,
+      "speaker": "Enrico Bertini",
+      "start": 1201740,
+      "text": "Yeah, and that's very interesting. I suspect that you probably spend some time with your clients figuring out what the, what the main concept is gonna be. Right. And I don't know. I have a little personal anecdote. I don't know if it's relevant here, but I have a really good friend here in New York who is a photographer, and working with him, I realized photography is not at all about taking the picture. That's nothing. And when you talk with him, it's more like he walks me through what the concept could be. We've done a couple of things together, and this is where his strength is. Like, wow, he's coming up with all these ideas and a concept. He can envision it. Right. So I'm now wondering if what you're saying is if it's somewhat similar for you. I guess, of course, in order to create these stunning visuals, you need a lot of technical skills, but the real value seems to me to be coming up with a really strong concept. Am I off?",
+      "id": "ep_153_ut_44"
+    },
+    {
+      "end": 1297490,
+      "speaker": "Marcin Ignac",
+      "start": 1267700,
+      "text": "No, not at all. So I think, you know, if you have, if you have a strong concept, that definitely makes the work better. And if you start with strong concept, the fight is then to kind of keep it pure, so to say, and not keep adding more and more and more stuff where the core idea gets lost and kind of deludes itself.",
+      "id": "ep_153_ut_45"
+    },
+    {
+      "end": 1306730,
+      "speaker": "Moritz Stefaner",
+      "start": 1298790,
+      "text": "But then, does it help if you have, like, a metaphor that you can name or where you can say, ah, this is the flower, it's the crystal.",
+      "id": "ep_153_ut_46"
+    },
+    {
+      "end": 1309086,
+      "speaker": "Enrico Bertini",
+      "start": 1308030,
+      "text": "That's what they say.",
+      "id": "ep_153_ut_47"
+    },
+    {
+      "end": 1313702,
+      "speaker": "Moritz Stefaner",
+      "start": 1309238,
+      "text": "Is it harder to sell, like something super abstract and wild?",
+      "id": "ep_153_ut_48"
+    },
+    {
+      "end": 1430618,
+      "speaker": "Marcin Ignac",
+      "start": 1313766,
+      "text": "Yeah, we do draw lots of inspiration from nature and biology, obviously, kind of classical works of Ernst Haeckel and those kind of things. The danger of the area we live in is that the data is very heavy on the visual side, especially digital data, art and the kind of not too far away fields are like motion design and 3d graphics and 3d rendering and so on. So that comes with a big baggage of expectations in terms of quality of those visuals and the speed at which you can produce such high quality results and then what happens? Okay, we get data set and we do our bar charts in D3 and some scatter plot in Tableau or something. And people are like, yeah, where's the depth of field transparency and why it doesn't move? And I'm like, and then the next thing is 3d cubes in Webgl, right? And the client gets nervous and the producer started scratching his or her head. And we have to explain ourselves a lot. And that's also so, yeah, so there's a lot of talking and explaining and kind of process charts and where are we on our journey? And, you know, when you work with 3d artists or motion designers, they can produce high quality content quite quickly. And then the kind of length in time of the piece dictates how much more work is left to do.",
+      "id": "ep_153_ut_49"
+    },
+    {
+      "end": 1464630,
+      "speaker": "Moritz Stefaner",
+      "start": 1430754,
+      "text": "Yeah, and that's the thing. If you do something purely visual, you would do a mock up really quick and like a concept art thing really quick, so you can demonstrate the visual style. But for us, we can only do that towards the end when we have a good grasp on the shape of the data, as you say. How do you bridge that gap? Because that's something in the ad agency branding world. I found that always difficult to be successful without a really early mock up of a really polished end result.",
+      "id": "ep_153_ut_50"
+    },
+    {
+      "end": 1476104,
+      "speaker": "Marcin Ignac",
+      "start": 1465210,
+      "text": "Yes, yeah, exactly. Yeah, that's the thing. Like if I, if I'm able to produce such a piece and it's, you know, generative, data driven software, I can produce thousands of them.",
+      "id": "ep_153_ut_51"
+    },
+    {
+      "end": 1477376,
+      "speaker": "Moritz Stefaner",
+      "start": 1476192,
+      "text": "Then it's finished already, right?",
+      "id": "ep_153_ut_52"
+    },
+    {
+      "end": 1543542,
+      "speaker": "Marcin Ignac",
+      "start": 1477408,
+      "text": "Yeah. 1 hour long each. Yeah. So, so, yeah, it is a challenge. And what you end up doing is providing references. And now, which, again, you have to be careful because they can be misleading in terms of visual quality. So I much more prefer going back to the IBM project. The agency have sent us a bunch of particles, 3d visualization type of things, and in our brief, we responded only with pictures of flowers and ultraviolet light or how insects see them. And so 3d scans and electron microscopes and stuff like that. But that kind of protected us from locking onto aesthetics quite easily.",
+      "id": "ep_153_ut_53"
+    },
+    {
+      "end": 1560078,
+      "speaker": "Moritz Stefaner",
+      "start": 1543726,
+      "text": "So you gave a hint of what the end result will be, but you didn't give it directly. But more on another level, you took one extra corner to make sure you still have some, some leeway in how you get to that aesthetic vision in general.",
+      "id": "ep_153_ut_54"
+    },
+    {
+      "end": 1664594,
+      "speaker": "Marcin Ignac",
+      "start": 1560254,
+      "text": "Yes. It was more to communicate the concepts like this ultraviolet light or morphogenesis instead of it's gonna look like that. Because then what happens is, for example, in case of IBM, this piece was shown outdoors during the tennis tournament. And we started with black background and very high tech drawn look. Did they work at all? Because of the reflections. So we changed the whole color scheme to bright colors and. Oh wow. And you know, two weeks, not, okay, three weeks before deadline that usually would not be accepted. And we had good enough client that understood it and kind of went on with us on a journey to kind of trust us and ended up much better piece while on another project, which was data driven by a bit more on the generative side. Basically what happened is that we came up with a better way to visualize data that drifted away from the original brief and it was rejected because that kind of visual style was sold to client already. To the client already. And there was no flexibility there. And especially with 3d graphics, you end up with this uncanny valley that something looks realistic but a bit off because, you know, it's interactive Webgl, we don't have enough resources or has to work on mobile. And in my opinion, it ended up being a worse project because we didn't follow where it took us and we just stuck to this first reference. Right.",
+      "id": "ep_153_ut_55"
+    },
+    {
+      "end": 1679434,
+      "speaker": "Moritz Stefaner",
+      "start": 1664722,
+      "text": "That triggered it's a whole art of itself is when to present what, in which form, it's hard to explain, but it can change a whole project for sure. Yeah, yeah.",
+      "id": "ep_153_ut_56"
+    },
+    {
+      "end": 1687310,
+      "speaker": "Enrico Bertini",
+      "start": 1679522,
+      "text": "It must be terrible when you go to a client and the person says, oh, can you just create this for me?",
+      "id": "ep_153_ut_57"
+    },
+    {
+      "end": 1690902,
+      "speaker": "Marcin Ignac",
+      "start": 1689550,
+      "text": "Yes. Yeah.",
+      "id": "ep_153_ut_58"
+    },
+    {
+      "end": 1699326,
+      "speaker": "Enrico Bertini",
+      "start": 1691006,
+      "text": "I mean, I'm speaking from the luxury of not having this problem, so I kind of like feel the pain, you know?",
+      "id": "ep_153_ut_59"
+    },
+    {
+      "end": 1724406,
+      "speaker": "Marcin Ignac",
+      "start": 1699358,
+      "text": "Yeah. You do see references of other people, you know, unlabeled and our own projects in pitches or briefs to ourselves. And yeah, you always have mixed feelings and we have rejected projects in the past that I just wanted to copy something recreated and. Yeah, you just have to be honest with them and just speak up your mind, I guess.",
+      "id": "ep_153_ut_60"
+    },
+    {
+      "end": 1769096,
+      "speaker": "Moritz Stefaner",
+      "start": 1724478,
+      "text": "Yeah. But for that you need a bit of standing and other alternatives, of course. So that takes a while to develop that standing, obviously coming back to your process. And also this. I like this idea of like thinking on your feet all the time and like being able to, to change the background in a project like two weeks before a deadline or three weeks. I think that only works if you have really solid grasp on your own tooling and your own development processes. I think that's also unique about your work is how tight you integrate the design and the code and how it's the same thing basically. Probably. I also know you work a lot on your own tools. So you had this Pex framework for many years now.",
+      "id": "ep_153_ut_61"
+    },
+    {
+      "end": 1769868,
+      "speaker": "Marcin Ignac",
+      "start": 1769238,
+      "text": "Yes.",
+      "id": "ep_153_ut_62"
+    },
+    {
+      "end": 1778652,
+      "speaker": "Moritz Stefaner",
+      "start": 1770004,
+      "text": "And you have a new visual programming environment, which is insane. Can you tell us a bit about these two things?",
+      "id": "ep_153_ut_63"
+    },
+    {
+      "end": 1829538,
+      "speaker": "Marcin Ignac",
+      "start": 1778836,
+      "text": "Sure. So yes, it's true that 99% of our projects are based on code. And nowadays what you see on our website 95 is JavaScript and WebGL, and not so much on the web actually. So yes, we can deploy experiences that run in the browser or mobile, but we do a lot of large scale projections and installation, physical spaces. And it's all powered by the set of JavaScript libraries called Pex, which is specialized in 3d graphics. Not so much with data visualization, but you can say it's kind of like D3 for three d. And you.",
+      "id": "ep_153_ut_64"
+    },
+    {
+      "end": 1831978,
+      "speaker": "Moritz Stefaner",
+      "start": 1829554,
+      "text": "Should patent that or like trademark that trace.",
+      "id": "ep_153_ut_65"
+    },
+    {
+      "end": 1834710,
+      "speaker": "Enrico Bertini",
+      "start": 1832034,
+      "text": "Yeah, yeah, perfect tagline.",
+      "id": "ep_153_ut_66"
+    },
+    {
+      "end": 1850594,
+      "speaker": "Marcin Ignac",
+      "start": 1835730,
+      "text": "So we actually do use a lot of D3, but only for like, you know, scales filtering and the kind of data processing side, not so much for the visualization, at least in the final stage. For the PEX, it's a general trend.",
+      "id": "ep_153_ut_67"
+    },
+    {
+      "end": 1859592,
+      "speaker": "Moritz Stefaner",
+      "start": 1850642,
+      "text": "Like everybody uses reactival and you know, just use the color scales and the projections, you know, because these are awesome. But the paradigm itself is sort of.",
+      "id": "ep_153_ut_68"
+    },
+    {
+      "end": 1863944,
+      "speaker": "Marcin Ignac",
+      "start": 1859736,
+      "text": "Yeah, I still have to look it up to the update and now there's.",
+      "id": "ep_153_ut_69"
+    },
+    {
+      "end": 1865944,
+      "speaker": "Moritz Stefaner",
+      "start": 1863992,
+      "text": "Some join, enter join.",
+      "id": "ep_153_ut_70"
+    },
+    {
+      "end": 1867152,
+      "speaker": "Marcin Ignac",
+      "start": 1866072,
+      "text": "Yeah yeah.",
+      "id": "ep_153_ut_71"
+    },
+    {
+      "end": 1868016,
+      "speaker": "Moritz Stefaner",
+      "start": 1867256,
+      "text": "Select all.",
+      "id": "ep_153_ut_72"
+    },
+    {
+      "end": 2045830,
+      "speaker": "Marcin Ignac",
+      "start": 1868128,
+      "text": "Yeah yeah. So that's begs and that's been going on for nine years, ever since Webgl kind of came to chrome back then. And the first project we did it with was nine five.org where we visualize earthquakes on top of 3d globe. And I did this project within Macnami and kind of fell in love with Webgl and kind of start wrapping the classes I use and the algorithms in Pex. So nowadays we also have Pex render, which is one of the libraries which is similar to three js or Babylon JS. So it's more like a scene graph with fancy shaders and, and post processing and this kind of stuff. And a lot of work we do has components that could be reusing in different projects. And one of the issues that comes where you work with browsers or creative coding in general is this edit compile reload loop, which when it comes to data visualizations is especially disruptive because you have to reload the data set, parse it again and then re rendered the whole thing. And that's partially fixed in database environment like Jupyter notebook or observable, where, you know, once you evaluate the cell, that state stays there and you can continue your work and just keep editing. The last step to build new visualization and in 3d graphics, the type of environments that give you similar capabilities I usually build around note based systems or visual programming tools like VvVV or CablesGl or Houdini, or pure data and so on. They also used in music production quite a lot. So two years ago, we started working our own tool called notes. Back then it was called paxnotes. Now just notes, notes, IO, and basically nodes as a visual programming environment, focusing on database and 3d graphics. But that's just because we use it this way. But actually it's quite flexible. It's a code editor. You can do anything with it. It's powered by NPM. So I can use D3, I can use three js, I can use machine learning libraries, there's Disney and whatever you find on NPM, basically. And the beauty of it is that it's actually more a code editor than visual programming tool. So you still write a lot of code, and you can write five lines of code for this code module of 500 or 5000 if you want it. And that kind of what differentiates it from other visual programming tools, which are primarily focusing on the connecting boxes with, with links.",
+      "id": "ep_153_ut_73"
+    },
+    {
+      "end": 2051138,
+      "speaker": "Moritz Stefaner",
+      "start": 2046570,
+      "text": "And then suddenly you have a lot of boxes and a lot of links, and it becomes a big mess.",
+      "id": "ep_153_ut_74"
+    },
+    {
+      "end": 2053110,
+      "speaker": "Marcin Ignac",
+      "start": 2051274,
+      "text": "You get spaghetti. Yes.",
+      "id": "ep_153_ut_75"
+    },
+    {
+      "end": 2069418,
+      "speaker": "Moritz Stefaner",
+      "start": 2054770,
+      "text": "And so how many, like, what's a healthy, like, number of nodes in your approach, like some of your more complex projects, how many nodes would they have? Like dozens or hundreds or five.",
+      "id": "ep_153_ut_76"
+    },
+    {
+      "end": 2074618,
+      "speaker": "Marcin Ignac",
+      "start": 2069554,
+      "text": "Well, yeah, like 150. Yeah, you can do that.",
+      "id": "ep_153_ut_77"
+    },
+    {
+      "end": 2080534,
+      "speaker": "Moritz Stefaner",
+      "start": 2074674,
+      "text": "Yeah, but it's still something you can, can get on one screen and have an overview and sort of understand where things are.",
+      "id": "ep_153_ut_78"
+    },
+    {
+      "end": 2108230,
+      "speaker": "Marcin Ignac",
+      "start": 2080582,
+      "text": "Yeah, yes. And then that's the thing, because we still use reacts and similar. So we kind of stole a couple of ideas in terms of state management and data flow, the top down data flow and reactivity from those kind of frameworks. So the number of links that are actually on the screen is not that overwhelming. There is different ways of managing your data flowing through the graph.",
+      "id": "ep_153_ut_79"
+    },
+    {
+      "end": 2141836,
+      "speaker": "Moritz Stefaner",
+      "start": 2109890,
+      "text": "And the beautiful thing of visual programming for data visualization is obviously that you actually use a data visualization, the network graph to code, which is, I think it's such a good dog footing exercise also to actually do something, produce code in a visual paradigm just to understand how we can act in visualization space. Right. Normally you just read and consume, but here you construct it. Right. I think that's super interesting and really not exploited enough.",
+      "id": "ep_153_ut_80"
+    },
+    {
+      "end": 2235022,
+      "speaker": "Marcin Ignac",
+      "start": 2141988,
+      "text": "True. Like on our website, we call nodes like a canvas for computational thinking. And at the beginning I said, I see myself as a computational designer, which I'll define as a person who solves design problems with computation or code. And the. The beauty of nodes and how it changed my workflow is that instead of from this kind of computer science approach where you, like, think what you want to do and, like, write your classes or the algorithm, and then you kind of test it. Okay, it doesn't work. You go about the code. Ta da da. It's much more explorative process, very much like sketching, you know, where you build a little examples, which is maybe a simple visualization. And then in the same graph, I can add a 3d components, take my data processing pipeline. We've already parsed data because state is persistent. We can reload any part of code while the graph is running and while the visualization is happening, and then jump into three d. And then once this is done, I can export this an image or make a 3d mesh out of it and export for 3d printing or something and all there as a part of a single session. Right. So it becomes more like a workspace, more like a studio than piece of code and the code editor, more like Lego. Lego techniques.",
+      "id": "ep_153_ut_81"
+    },
+    {
+      "end": 2237130,
+      "speaker": "Moritz Stefaner",
+      "start": 2235206,
+      "text": "Lego techniques, yeah, exactly.",
+      "id": "ep_153_ut_82"
+    },
+    {
+      "end": 2295454,
+      "speaker": "Enrico Bertini",
+      "start": 2237830,
+      "text": "Yeah. But I think there is a general trend in visualization to try to create tools that make it easier, as you were saying, first of all, to see when you change something, to see the change appear on the screen right away and also abstract away from programming, which I think ultimately is really important to democratize access to computation and visualization in general. So I just wanted to ask you, I think we have to wrap it up soon, but if I want to get started with this kind of work. Right. So I've been doing data visualization for a very long time myself, but never, I wouldn't say I've ever done data art and definitely not generative programming of any sorts. So if I want to start playing with it and learn something, where do I start? How do I learn it? And also, what would you suggest would be maybe the best set of tools to start with as well.",
+      "id": "ep_153_ut_83"
+    },
+    {
+      "end": 2340290,
+      "speaker": "Marcin Ignac",
+      "start": 2295542,
+      "text": "Right. So my first choice definitely would be the Generative Gestaltung book made by informative and friends. Yeah. Which is German. Yes. It was meant for processing, and they recently released second edition for P five J's. So, you know, it runs on the web, and it goes from very classical generative algorithms based on randomness in iteration to generate this text and manipulating images and so on. So it's really solid base for getting started.",
+      "id": "ep_153_ut_84"
+    },
+    {
+      "end": 2346150,
+      "speaker": "Moritz Stefaner",
+      "start": 2340870,
+      "text": "And it was co written by Benedict Gross, by the way, who we had on the show.",
+      "id": "ep_153_ut_85"
+    },
+    {
+      "end": 2347170,
+      "speaker": "Marcin Ignac",
+      "start": 2346230,
+      "text": "Oh, yeah.",
+      "id": "ep_153_ut_86"
+    },
+    {
+      "end": 2372048,
+      "speaker": "Moritz Stefaner",
+      "start": 2347520,
+      "text": "Couple of episodes. It's a great book. I gave it my kids as well. It's a great book also for getting children like ten to twelve year olds interested into coding. Yeah, because it's very visual. The algorithms are explained, it's super nice. Many of the concepts are over your head at that age, but you get a grasp of what's possible. It's super cool.",
+      "id": "ep_153_ut_87"
+    },
+    {
+      "end": 2442490,
+      "speaker": "Marcin Ignac",
+      "start": 2372104,
+      "text": "Yeah, exactly. Well I would at this point I would immediately say I would stick to 2d because jumping in 3d, it's, you know, it's a big enough hole on its own that it might never come back from there. You know, like even with libraries like three j's. Yeah, three js. There's shaders, meshes, materials, cameras, lights. Photography knowledge is very useful at that point and it's a field on its own and you can do so much with two D and that comes nowadays for free with any browser you can just use JavaScript and HTML canvas and I will send some links to even start getting started by Mozilla. You open the browser and text editor and you're ready to go. Then probably Matt Des Lauriers, he did front end mothers course recently online, which I think is a good starting point as well for beginners and GitHub repos, also.",
+      "id": "ep_153_ut_88"
+    },
+    {
+      "end": 2445150,
+      "speaker": "Moritz Stefaner",
+      "start": 2442530,
+      "text": "With tools that get you started quickly.",
+      "id": "ep_153_ut_89"
+    },
+    {
+      "end": 2469110,
+      "speaker": "Marcin Ignac",
+      "start": 2445810,
+      "text": "Exactly. And then another classic is Danyel Schiffman Nature of Codebook, which also talks about generative design, but also simulations, agents. And on his YouTube channel he is doing even some machine learning these days. It's the codingtrain.com. i think it's quite funny.",
+      "id": "ep_153_ut_90"
+    },
+    {
+      "end": 2474634,
+      "speaker": "Moritz Stefaner",
+      "start": 2469610,
+      "text": "Dan is quite an original, you'll see. If you don't know him, check him out for sure. He's amazing.",
+      "id": "ep_153_ut_91"
+    },
+    {
+      "end": 2536792,
+      "speaker": "Marcin Ignac",
+      "start": 2474682,
+      "text": "Yeah. And I guess in parallel I would look at the history of computer art because that one is older than many might think, like 50, 60 years old and more. And it was simple, it was procedural, it is about ideas and process and kind of algorithmic thinking and rule based systems. And that very well works with data visualization because we can plug in some of the parameters into dataset and you get instant data with not much struggle with WebGL and shaders. And people like Matt or inconvergent, they're going quite far with just those basic tools and just having creative ideas and iterating on the system or the system design and getting unexpected results out of it. So that's how.",
+      "id": "ep_153_ut_92"
+    },
+    {
+      "end": 2573460,
+      "speaker": "Moritz Stefaner",
+      "start": 2536896,
+      "text": "And the beautiful thing with just playing with code and seeing what visuals you can create with it is you can iterate rapidly really. So I have to think of Zach Lieberman, who has been like two years ago or so. I think he just started every day doing something for half an hour or an hour and just putting out these sketches one after the other. And often I dream of that because we always have these heavy data sets. So much parsing, and everything takes forever. If you just play with shapes, you can quickly produce stuff and change it up. And I'm envious sometimes.",
+      "id": "ep_153_ut_93"
+    },
+    {
+      "end": 2574780,
+      "speaker": "Marcin Ignac",
+      "start": 2573960,
+      "text": "Yeah.",
+      "id": "ep_153_ut_94"
+    },
+    {
+      "end": 2582192,
+      "speaker": "Moritz Stefaner",
+      "start": 2576440,
+      "text": "So maybe we should all do that more. Just experiment with visuals, right?",
+      "id": "ep_153_ut_95"
+    },
+    {
+      "end": 2613046,
+      "speaker": "Marcin Ignac",
+      "start": 2582256,
+      "text": "Yeah. Well, there's this thing called code November, which is like month of experiments where people post, like, set of key phrases, different one for each day, and then you're trying to produce something in a new, which I produce some of my best personal work during that time. Because you're just free. You know, you don't, you don't care. You finally have the kind of chance to do those things you always wanted and you stop. And good to stop sometimes. Yeah.",
+      "id": "ep_153_ut_96"
+    },
+    {
+      "end": 2622136,
+      "speaker": "Moritz Stefaner",
+      "start": 2613078,
+      "text": "You have a limited time to produce something or limited resources in some form. And on the other hand, inside that box, lots of freedom. That's perfect recipe for creativity.",
+      "id": "ep_153_ut_97"
+    },
+    {
+      "end": 2624376,
+      "speaker": "Marcin Ignac",
+      "start": 2622208,
+      "text": "It's all about constraints.",
+      "id": "ep_153_ut_98"
+    },
+    {
+      "end": 2629620,
+      "speaker": "Moritz Stefaner",
+      "start": 2624488,
+      "text": "Yeah, yeah, yeah. The endless or the eternal, like, fight.",
+      "id": "ep_153_ut_99"
+    },
+    {
+      "end": 2631336,
+      "speaker": "Marcin Ignac",
+      "start": 2630800,
+      "text": "Cool.",
+      "id": "ep_153_ut_100"
+    },
+    {
+      "end": 2637900,
+      "speaker": "Moritz Stefaner",
+      "start": 2631408,
+      "text": "Thanks so much. That was amazing. I hope we were able to convince people that it's a bit more about data art than just leaving away the labels.",
+      "id": "ep_153_ut_101"
+    },
+    {
+      "end": 2649150,
+      "speaker": "Marcin Ignac",
+      "start": 2642800,
+      "text": "Can we add labels? This is the second about questions for my clients. That's another episode.",
+      "id": "ep_153_ut_102"
+    },
+    {
+      "end": 2665870,
+      "speaker": "Moritz Stefaner",
+      "start": 2649190,
+      "text": "Labels cost extra. Very good. Wonderful. Yeah. And as I said, check out Marcin's work and the studio's work at variable IO. And really looking forward to see what you'll be able to come up with in the future.",
+      "id": "ep_153_ut_103"
+    },
+    {
+      "end": 2666590,
+      "speaker": "Marcin Ignac",
+      "start": 2665990,
+      "text": "Thank you.",
+      "id": "ep_153_ut_104"
+    },
+    {
+      "end": 2667406,
+      "speaker": "Moritz Stefaner",
+      "start": 2666670,
+      "text": "Thanks so much.",
+      "id": "ep_153_ut_105"
+    },
+    {
+      "end": 2667886,
+      "speaker": "Enrico Bertini",
+      "start": 2667478,
+      "text": "Thank you.",
+      "id": "ep_153_ut_106"
+    },
+    {
+      "end": 2668742,
+      "speaker": "Marcin Ignac",
+      "start": 2667918,
+      "text": "It's great to be here.",
+      "id": "ep_153_ut_107"
+    },
+    {
+      "end": 2669206,
+      "speaker": "Enrico Bertini",
+      "start": 2668806,
+      "text": "Bye bye.",
+      "id": "ep_153_ut_108"
+    },
+    {
+      "end": 2698066,
+      "speaker": "Moritz Stefaner",
+      "start": 2669238,
+      "text": "Bye bye bye. Hey, folks, thanks for listening to data stories again. Before you leave, a few last notes. This show is crowdfunded and you can support us on patreon@patreon.com Datastories, where we publish monthly previews of upcoming episodes for our supporters. Or you can also send us a one time donation via PayPal at PayPal me Datastories or as a free way.",
+      "id": "ep_153_ut_109"
+    },
+    {
+      "end": 2725438,
+      "speaker": "Enrico Bertini",
+      "start": 2698098,
+      "text": "To support the show. If you can spend a couple of minutes rating us on iTunes, that would be very helpful as well. And here is some information on the many ways you can get news directly from us. We are on Twitter, Facebook and Instagram, so follow us there for the latest updates. We have also a slack channel where you can chat with us directly. And to sign up, go to our homepage at datastory Es and there you'll find a button at the bottom of the page.",
+      "id": "ep_153_ut_110"
+    },
+    {
+      "end": 2733460,
+      "speaker": "Moritz Stefaner",
+      "start": 2725574,
+      "text": "And there. You can also subscribe to our email newsletter if you want to get news directly into your inbox and be notified whenever we publish a new episode.",
+      "id": "ep_153_ut_111"
+    },
+    {
+      "end": 2746088,
+      "speaker": "Enrico Bertini",
+      "start": 2733550,
+      "text": "That's right, and we love to get in touch with our listeners. So let us know if you want to suggest a way to improve the show or know any amazing people you want us to invite or even have any project you want us to talk about.",
+      "id": "ep_153_ut_112"
+    },
+    {
+      "end": 2752752,
+      "speaker": "Moritz Stefaner",
+      "start": 2746224,
+      "text": "Yeah, absolutely. Don't hesitate to get in touch. Just send us an email at mailatastory es.",
+      "id": "ep_153_ut_113"
+    },
+    {
+      "end": 2757100,
+      "speaker": "Enrico Bertini",
+      "start": 2752896,
+      "text": "That's all for now. See you next time, and thanks for listening to data stories.",
+      "id": "ep_153_ut_114"
+    }
+  ],
+  "confidence": 0.913139735019565,
+  "audio_duration": 2765,
+  "punctuate": true,
+  "format_text": true,
+  "dual_channel": false,
+  "webhook_url": null,
+  "webhook_status_code": null,
+  "webhook_auth": false,
+  "webhook_auth_header_name": null,
+  "speed_boost": false,
+  "auto_highlights_result": null,
+  "auto_highlights": false,
+  "audio_start_from": null,
+  "audio_end_at": null,
+  "word_boost": [],
+  "boost_param": null,
+  "filter_profanity": false,
+  "redact_pii": false,
+  "redact_pii_audio": false,
+  "redact_pii_audio_quality": null,
+  "redact_pii_policies": null,
+  "redact_pii_sub": null,
+  "speaker_labels": true,
+  "content_safety": false,
+  "iab_categories": true,
+  "content_safety_labels": {
+    "status": "unavailable",
+    "results": [],
+    "summary": {}
+  },
+  "language_detection": false,
+  "language_detection_threshold": null,
+  "language_confidence": null,
+  "custom_spelling": null,
+  "throttled": false,
+  "auto_chapters": true,
+  "summarization": false,
+  "summary_type": null,
+  "summary_model": null,
+  "custom_topics": false,
+  "topics": [],
+  "speech_threshold": null,
+  "speech_model": "best",
+  "chapters": [
+    {
+      "summary": "This is a new episode of data stories. Moritz Stefaner and Enrico Bertini talk about data visualization and data analysis. If you enjoy the show, please consider supporting us with recurring payments on patreon. com Datastories.",
+      "gist": "Data Stories",
+      "headline": "This podcast features interviews with experts in data visualization and data analysis",
+      "start": 120,
+      "end": 109356,
+      "id": "ep_153_ch_0"
+    },
+    {
+      "summary": "Enrico: How did you start into the brand new decade? The wild, roaring twenties. Ended really well. We took part in the ocean plastic challenge from National Geographic. Conceptized a data sculpture in Bali made from trash on the beach. Won a prize.",
+      "gist": "A New Year's Eve",
+      "headline": "Enrico: Today I'm relaxed still. How about you? Pretty good as well",
+      "start": 109508,
+      "end": 189990,
+      "id": "ep_153_ch_1"
+    },
+    {
+      "summary": "Our guest today is Marcin Ignac from Variable, from London. He creates really stunning work at the borderline between data visualization and generative design. Great to have you on.",
+      "gist": "Fooling Around With Marcin Ignac",
+      "headline": "We have a guest today from Variable, from London",
+      "start": 191650,
+      "end": 235774,
+      "id": "ep_153_ch_2"
+    },
+    {
+      "summary": "Marcin Szymanski is a data artist and computational designer. He started his own studio in London in 2012. His projects go beyond the usual type of chart you might see in a data visualization. Check out his website variable IO to see many of his amazing projects.",
+      "gist": "Marcin Wysocki",
+      "headline": "Marcin has been a data artist and a computational designer since 2012",
+      "start": 235822,
+      "end": 391290,
+      "id": "ep_153_ch_3"
+    },
+    {
+      "summary": "Data visualization is concerned about explaining the underlying data. Data art is coming with a similar goal, but it's trying to communicate those concepts through emotions. The best part of data art is the force of attraction.",
+      "gist": "Data Art vs. Generative Design: What's The Difference?",
+      "headline": "So we heard about generative design, data art, data visualization",
+      "start": 392190,
+      "end": 686870,
+      "id": "ep_153_ch_4"
+    },
+    {
+      "summary": "The big trends this decade have been to move away from this minimalism and this very like, police report style of data visualization. What makes a bad data art? Sometimes it doesn't make sense to speak about data art. It's just art.",
+      "gist": "What Makes a Data Art?",
+      "headline": "I'm wondering if this resonates with your same ideas about data art",
+      "start": 687030,
+      "end": 1204020,
+      "id": "ep_153_ch_5"
+    },
+    {
+      "summary": "The real value seems to me to be coming up with a really strong concept. The danger of the area we live in is that the data is very heavy on the visual side. How do you bridge that gap?",
+      "gist": "How To Build a 3-D Visual Concept",
+      "headline": "In order to create stunning visuals, you need a lot of technical skills",
+      "start": 1204060,
+      "end": 1762490,
+      "id": "ep_153_ch_6"
+    },
+    {
+      "summary": " 99% of our projects are based on code. And it's all powered by the set of JavaScript libraries called Pex, which is specialized in 3d graphics. The beauty of it is that it's actually more a code editor than visual programming tool.",
+      "gist": "Pex and Notes",
+      "headline": "You have a new visual programming environment called Pex",
+      "start": 1764070,
+      "end": 2260790,
+      "id": "ep_153_ch_7"
+    },
+    {
+      "summary": "If I want to start playing with data visualization, where do I start? How do I learn it? What would you suggest would be the best set of tools to start with?",
+      "gist": "Tutorials on generative programming",
+      "headline": "So if I want to start playing with generative programming, where do I start",
+      "start": 2261890,
+      "end": 2670370,
+      "id": "ep_153_ch_8"
+    },
+    {
+      "summary": "This show is crowdfunded and you can support us on patreon@patreon. com Datastories. You can also subscribe to our email newsletter to get news directly into your inbox. Let us know if you want to suggest a way to improve the show or know any amazing people you want us to invite.",
+      "gist": "Data Stories",
+      "headline": "This show is crowdfunded and you can support us on patreon",
+      "start": 2674950,
+      "end": 2757100,
+      "id": "ep_153_ch_9"
+    }
+  ],
+  "disfluencies": false,
+  "entity_detection": false,
+  "sentiment_analysis": false,
+  "sentiment_analysis_results": null,
+  "entities": null,
+  "speakers_expected": null,
+  "summary": null,
+  "custom_topics_results": null,
+  "episode_num": 153,
+  "episode_metadata": {
+    "speakers": [
+      "Marcin Ignac",
+      "Moritz Stefaner",
+      "Enrico Bertini"
+    ],
+    "WPid": "1528",
+    "url": "https://datastori.es/podlove/file/6420/s/feed/c/mp3/153-data-art-and-visual-programming-with-marcin-ignac-from-variable.mp3",
+    "episode_title": "Data Art and Visual Programming with Marcin Ignac from Variable"
+  }
+}

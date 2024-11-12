@@ -1,0 +1,1044 @@
+{
+  "id": "6b82da85-3eb5-424f-b647-0d63a4cda978",
+  "language_model": "assemblyai_default",
+  "acoustic_model": "assemblyai_default",
+  "language_code": "en_us",
+  "status": "completed",
+  "audio_url": "https://datastori.es/podlove/file/4501/s/feed/c/mp3/108-review-of-IEEE-vis17-with-jessica-hullman-and-Robert-kosara.mp3",
+  "utterances": [
+    {
+      "end": 5274,
+      "speaker": "Robert Kosara",
+      "start": 120,
+      "text": "All the best paper awards and honorable mentions this year in Infovis were all written by women.",
+      "id": "ep_108_ut_0"
+    },
+    {
+      "end": 27654,
+      "speaker": "Enrico Bertini",
+      "start": 9734,
+      "text": "Data Stories is brought to you by click. Are you missing out on meaningful relationships hidden in your data? Unlock the old story with Qlik sense through personalized visualizations and dynamic dashboards, which you can download for free at Qlik de Slash data stories.",
+      "id": "ep_108_ut_1"
+    },
+    {
+      "end": 53610,
+      "speaker": "Moritz Stefaner",
+      "start": 46634,
+      "text": "Hi everyone. Welcome to a new episode of data stories. My name is Moritz Stefaner and I'm an independent designer of data visualizations.",
+      "id": "ep_108_ut_2"
+    },
+    {
+      "end": 60480,
+      "speaker": "Enrico Bertini",
+      "start": 53682,
+      "text": "And I am Enrico Bertini. I am a professor at NYU in New York. Do research in visualization together.",
+      "id": "ep_108_ut_3"
+    },
+    {
+      "end": 73924,
+      "speaker": "Moritz Stefaner",
+      "start": 60632,
+      "text": "On this podcast we talk about data visualization, analysis and in general the role data plays in our lives. And usually we do that together with a guest or two that we invite on the show. So what's the topic today, Enrico?",
+      "id": "ep_108_ut_4"
+    },
+    {
+      "end": 192200,
+      "speaker": "Enrico Bertini",
+      "start": 74744,
+      "text": "So today we talk. It's actually a kind of recurring topic. We are going to talk about some of what happened at the IEEE this conference, and we have been doing that for a number of years now. But the main difference this year is that I couldn't go. And so it's going to be a little different than usual because we used to record it live from the conference. And before I introduce our guests, I just want to explain what the conference is about for those of you who are not familiar with it. So the, this conference is basically the one of the main, if not the main academic conference in visualization. This happens every year, typically in October, and there are lots of things going on. It's a whole week. It's a very long program, and I think from the academic point of view, the main event is people presenting research papers, but there is much more than that. And there are three main tracks. One is called infovis, one is called vast, and one is called SCIVIS. I think I wouldn't go in details exactly what these three tracks mean, because even people who have been attending the conference for many years are confused about that. But basically it's an academic conference, but there are lots of other things going on. So there are panels where people discuss topics. There are workshops where people work on a specific topic and try to make progress. There are typically there is a keynote speaker and a capstone speaker at the end of the conference, and there is an art program. So there is a lot going on. So unfortunately, we can't really cover everything. We're actually going to cover just a tiny part of it. But in order to do that, we have some help from some friends, people who've been on the show a few times by now. So we have Jessica Hullman and Robert Kosara. Hey, Jessica and Robert, how are you?",
+      "id": "ep_108_ut_5"
+    },
+    {
+      "end": 192696,
+      "speaker": "Jessica Hullman",
+      "start": 192272,
+      "text": "Good.",
+      "id": "ep_108_ut_6"
+    },
+    {
+      "end": 194064,
+      "speaker": "Robert Kosara",
+      "start": 192800,
+      "text": "Hey, doing well. How are you?",
+      "id": "ep_108_ut_7"
+    },
+    {
+      "end": 205368,
+      "speaker": "Enrico Bertini",
+      "start": 194144,
+      "text": "Good. So you guys are all friends of the show, but I think it's important to briefly introduce yourself for those people who don't know you yet. So maybe, Jessica, you want to briefly start?",
+      "id": "ep_108_ut_8"
+    },
+    {
+      "end": 224438,
+      "speaker": "Jessica Hullman",
+      "start": 205496,
+      "text": "Sure. Yeah. So I'm an assistant professor at the University of Washington. I'm in the information school. I'm also within the interactive data lab in CSE with Jeff Heer. And my work is mainly focused on information visualization, although I dabble on other topics, a little bit of NLP and science communication, et cetera.",
+      "id": "ep_108_ut_9"
+    },
+    {
+      "end": 240102,
+      "speaker": "Robert Kosara",
+      "start": 224526,
+      "text": "And I am a research scientist at Tableau Software and do a lot of work around what's called data storytelling, which is a totally different topic for another podcast, and also data presentation and perception and things like that.",
+      "id": "ep_108_ut_10"
+    },
+    {
+      "end": 283922,
+      "speaker": "Enrico Bertini",
+      "start": 240238,
+      "text": "Okay, great. So what we want to do today is to go through some highlights from the visconference. Unfortunately, this year I couldn't go, so I'm really looking forward to hearing from you what happened there. Of course, the conference is really big, and there's lots going on for it's how many days? A whole week of full program. So we're going to cover a tiny portion of the conference. So I think we want to start with a few selected papers. So we're going to have Jessica and Robert talking about some papers they have selected. And so maybe, Jessica, want to start with your first choice. Sure.",
+      "id": "ep_108_ut_11"
+    },
+    {
+      "end": 479292,
+      "speaker": "Jessica Hullman",
+      "start": 283978,
+      "text": "Yeah. So this one. Yeah, it's a good paper to start with, actually, because it's all about sort of like, how visualizations work on a very fundamental level. But it's a paper blinded by science or informed by charts, a replication study by Pierre Dragicevic and Yvonne Jansen. And so I wanted to talk about this paper because I think it's a really cool look at sort of what visualizations do. And so they were inspired by this study that came out, I think, in 2014, and that got a lot of media coverage, which basically was looking at, if you're presenting data to people, just simple information, in this case, about, like, how much a certain drug reduces the chances of having the common cold, what's the effect of adding a chart? And so this original study claimed that if you're giving people this simple information about a drug that has reduced the occurrence of the common cold by like 20%, you can give it to them in text. But if you add a chart, people will actually believe that the drug is more effective. So they'll say things like, it's more effective. And if you ask them numerically, and they'll say things like, it's more likely to actually reduce illness. And so this study, like I said, got some media attention. And so Pierre and Yvonne wanted to kind of question one of its claims, which was that basically, if the chart, the reason the chart made people believe more in the drug was that people just think charts are scientific. So they said in the original study, the chart is trivial. It's not actually informing people because they're getting the numbers in the text. And so charts just make people believe things are scientific. And so they doubted that Pierre and Yvonne did. So they did a series of replication studies trying to sort of pick apart what really happened. Like, is it really the case that the chart did nothing, or was the chart just showing the data in a different way that somehow might have changed things? And also, does this effect replicate? So do people actually believe more in the drug? And so what they found through their four different studies, which are like different tweaks on the original experiment and different replications of the original studies, are that one, the effect did not replicate at all. So they did not see people believing that the drug was more effective from a chart. And I think, I mean, basically, it was just like a lot of variance as well, I think. I mean, that's kind of the main finding on the replication. But what was interesting is that they kind of really started to take apart, like, what is a graph? And can you really have a trivial graph? Which I thought was cool. So they had a slide where they tried to show, like, what would a trivial graph be, a graph that just does not inform people. And so their example was kind of funny. It was like a chart. It was like a choropleth of European countries where they were showing on each country per capita, which is obviously one. It's the same for every country. So it was kind of an amusing sort of example, but I think also really interesting exercise. Charts don't really not inform. And so my favorite part about the study, before I wrap up, is just that they went into cognitive psychology and looked at all this research about, like, what is the fundamental role of a chart and how does it differ from text? And so it was a really nice, just piece of work about visualizations in general that I think covered all the right stuff.",
+      "id": "ep_108_ut_12"
+    },
+    {
+      "end": 482024,
+      "speaker": "Enrico Bertini",
+      "start": 479388,
+      "text": "Yeah, it's such a hard topic.",
+      "id": "ep_108_ut_13"
+    },
+    {
+      "end": 485492,
+      "speaker": "Jessica Hullman",
+      "start": 483124,
+      "text": "Yeah, totally. When you get that low level.",
+      "id": "ep_108_ut_14"
+    },
+    {
+      "end": 503054,
+      "speaker": "Enrico Bertini",
+      "start": 485548,
+      "text": "Yeah, yeah, yeah. We've been doing some. Some similar work in the past, and I was like, it's so hard once you start reading the cognitive psychology part behind it. It's just like, honestly, I kind of like, stopped doing this because I felt like I was not qualified enough.",
+      "id": "ep_108_ut_15"
+    },
+    {
+      "end": 505226,
+      "speaker": "Jessica Hullman",
+      "start": 504274,
+      "text": "I don't know enough.",
+      "id": "ep_108_ut_16"
+    },
+    {
+      "end": 514562,
+      "speaker": "Enrico Bertini",
+      "start": 505330,
+      "text": "Yeah, it's real sad. Yeah. I just want to briefly say that. Oh, yeah, go ahead. Go ahead.",
+      "id": "ep_108_ut_17"
+    },
+    {
+      "end": 530256,
+      "speaker": "Robert Kosara",
+      "start": 514578,
+      "text": "It's also real science in a different sense because it's a replication of an exact, which is really unusual in visualization first, basically, because. Well, it's not really the first ever, but it's certainly one of the first replications in this area, which I think.",
+      "id": "ep_108_ut_18"
+    },
+    {
+      "end": 537552,
+      "speaker": "Jessica Hullman",
+      "start": 530280,
+      "text": "It shows you can actually learn new things from replications. Like, I think the community can learn a lot from this paper that just started with someone else's studies.",
+      "id": "ep_108_ut_19"
+    },
+    {
+      "end": 540144,
+      "speaker": "Enrico Bertini",
+      "start": 537648,
+      "text": "Yeah, yeah. It's great to see some replication work.",
+      "id": "ep_108_ut_20"
+    },
+    {
+      "end": 546152,
+      "speaker": "Moritz Stefaner",
+      "start": 540184,
+      "text": "Done, but the main finding now is that just adding a chart doesn't really affect the persuasiveness of.",
+      "id": "ep_108_ut_21"
+    },
+    {
+      "end": 553042,
+      "speaker": "Jessica Hullman",
+      "start": 546248,
+      "text": "They could not replicate it. Yeah. So they could not replicate it. So whatever claims in the original paper.",
+      "id": "ep_108_ut_22"
+    },
+    {
+      "end": 557066,
+      "speaker": "Moritz Stefaner",
+      "start": 553138,
+      "text": "Per se, add to the persuasiveness or.",
+      "id": "ep_108_ut_23"
+    },
+    {
+      "end": 560562,
+      "speaker": "Jessica Hullman",
+      "start": 557250,
+      "text": "No. Yeah, no, I believe that was their finding.",
+      "id": "ep_108_ut_24"
+    },
+    {
+      "end": 580414,
+      "speaker": "Robert Kosara",
+      "start": 560658,
+      "text": "Well, and in addition to that, there is, if you read Andrew Gelman's blog, the people behind the original study, much of their other work has pretty much been debunked and been shown to part DB based on fabricated data. And so it looks like that probably was also tainted in this whole thing. Yeah.",
+      "id": "ep_108_ut_25"
+    },
+    {
+      "end": 583054,
+      "speaker": "Jessica Hullman",
+      "start": 580494,
+      "text": "Or just like. Yeah. P hacking or whatever. Yeah.",
+      "id": "ep_108_ut_26"
+    },
+    {
+      "end": 599638,
+      "speaker": "Robert Kosara",
+      "start": 583094,
+      "text": "Yeah. So it's. If you just go to Andrew Gelman's blog and Google the name onesync, you're gonna find lots and lots of stuff about him. And so it's. It seems pretty. It did not surprise me that they could not replicate that paper or that blog.",
+      "id": "ep_108_ut_27"
+    },
+    {
+      "end": 624388,
+      "speaker": "Moritz Stefaner",
+      "start": 599686,
+      "text": "I mean, that's a general trend in psychology, that a lot of these simple, like, clear cut rules that were found in the past turn out to be not so simple and clear cut anymore. Right. I mean, yeah, so. But it's great that this is happening, even if it's a bit depressing sometimes. But it's one step further, I guess. Robert, what's one of your highlights in terms of the publications this year?",
+      "id": "ep_108_ut_28"
+    },
+    {
+      "end": 750586,
+      "speaker": "Robert Kosara",
+      "start": 624476,
+      "text": "So, the first one that I picked here is actually one of Jessica's papers. This is called keeping multiple views consistent constraints, validations and exceptions in visualization authoring. And I'm going to do a horrible job now of butchering this. This is with Jessica and her students Zening Qu. You even sure how to pronounce her last name? The paper was really interesting. This was, I think, an honorable mention for the best paper in Infovis and the idea was to look at how you arrange and how you synchronize different views in the dashboard. So we talk about multiple views in individualization a lot, and we talk about linking and brushing, but how you actually make those multiple view dashboards that contain these things and how those should actually relate to each other is not clear. There are very few rules or guidelines how to do that. We know a lot about single views, but we don't really know how to work, to work with multiple views at the same time. And so Jessica and Zening Qu looked at things like, when should the scales align and when should they start at the same point, at zero or not? How should colors be used across the different views? How should different encodings be used, and when do you have to keep them the same, and when can you just, when can you deviate from that and just use the same encoding for different things? Because you just run out of encodings fairly quickly if you insist on color being only one thing across multiple views in the dashboard. And so this was really interesting because it's a real problem, this is a real practical problem for people who are building these things out in the world all the time, and there's really very little guidance. So that's what's really interesting to see. And I don't remember the details of the study, but you actually, I think you guys ran an actual study on this to see what people would actually do, not just to kind of come up with these theoretical ideas, but try out what do people do when you just let them do things and then use that to come up with guidelines based on observing people, which I think is a really good way.",
+      "id": "ep_108_ut_29"
+    },
+    {
+      "end": 784604,
+      "speaker": "Jessica Hullman",
+      "start": 750730,
+      "text": "Well, yeah, we actually, it was just to clarify, the study was like a wizard of Oz. So we actually had a set of constraints, like where we actually kind of codified what we thought the design guidelines should be. And we had people do things, and we would basically warn them when they were violating a constraint, like when they were using the same color to mean like twelve different things across multiple views. And so it was like a way of figuring out what are people actually thinking when they do this? What are their strategies and what do they think? When do they say, no, I don't want it to be consistent across these views because something else is more important.",
+      "id": "ep_108_ut_30"
+    },
+    {
+      "end": 814066,
+      "speaker": "Enrico Bertini",
+      "start": 786064,
+      "text": "Yeah. So what I really like about that is the fact that visualization theory is almost exclusively about how to design one single chart. And there's very little knowledge about how do you put many charts together either in a static or even interactive, say, multiple view kind of interface there's so little out there, so that it's. I think it's great that you're doing this type of work. It's very inspiring. There's so much more to research there.",
+      "id": "ep_108_ut_31"
+    },
+    {
+      "end": 820134,
+      "speaker": "Jessica Hullman",
+      "start": 814130,
+      "text": "Yeah, there's a ton. Yeah. And getting the models to work together. Sorry, I'm not supposed to talk.",
+      "id": "ep_108_ut_32"
+    },
+    {
+      "end": 854740,
+      "speaker": "Robert Kosara",
+      "start": 822064,
+      "text": "I was just going to say that there was also. I think we wanted to talk about this briefly, but I think we didn't actually go to this. There was a panel on visualization in practice and how industry and academia can work together, which I don't think any of us went to. But I can say that this is very relevant for us, certainly at Tableau, because we, of course, we have these multiple views, and we don't have. I mean, we have guidelines for that, but we haven't built them into the product. So it's interesting to see what Jessica has done and see how much of that can inform our design for the future and our features for the future.",
+      "id": "ep_108_ut_33"
+    },
+    {
+      "end": 860668,
+      "speaker": "Enrico Bertini",
+      "start": 854812,
+      "text": "Sure. Okay, Jessica, you want to go to your next peak?",
+      "id": "ep_108_ut_34"
+    },
+    {
+      "end": 1013644,
+      "speaker": "Jessica Hullman",
+      "start": 860796,
+      "text": "Yeah. So it's called uncertainty visualization by representative sampling from prediction ensembles by Le Liu. A number of people on this, including cognitive psychologists and people who have been doing kind of work in uncertainty visualization. And so this one, I liked it because I like uncertainty visualization, or I think it's a really important problem. And something that I think can be effective is when you show people, rather than some aggregate mark, like an error bar showing uncertainty, you show them an actual set of draws from a distribution to show, like, this is what could happen. And so they're studying it as applied or their application that they talked about for what they did was this hurricane cone idea. So sometimes when you're warning people about hurricanes, they make these maps where you'll show the uncertainty in the path that the hurricane could take by just making this big cone shape, which one end is kind of fatter than the other end, because there's more uncertainty when the hurricane is further away. So it's this weird shape. And basically, it makes people think that the hurricane is really big over here and it's really small over here. And it's hard to read that as uncertainty on a map when everything else means, like, size and spatial position. So what they did or what they've been sort of looking at and various people have looked at is presenting a set of samples or an ensemble showing, like, different possible paths that a hurricane, for instance, could take. And one of the problems you run into with that is that if you want to show it in a static visualization. You want to show like a set actual hurricane tracks, you can run into occlusion. So if you just randomly draw a sample from your distribution of sort of possible paths of the hurricane, you can have some of the lines on top of each other. So it's hard to read. And you also might end up with a sample, like, if you're only drawing like 50 lines from a distribution, you have no guarantee that those 50 paths that you drew out are actually going to represent the sort of whole distribution very well. So their technique basically solves those two problems. So it's a way of sampling to make sure that your samples are representative of the underlying distribution and that you avoid occlusion when you show those in a visualization. So it was kind of a nice, very focused technique in an area or a style of uncertainty visualization that I think we'll see more of. So that was why I was excited about it.",
+      "id": "ep_108_ut_35"
+    },
+    {
+      "end": 1024086,
+      "speaker": "Enrico Bertini",
+      "start": 1014224,
+      "text": "Yeah, that's so useful. You published some, maybe a couple of years ago, something similar. Do I remember that correctly, like I.",
+      "id": "ep_108_ut_36"
+    },
+    {
+      "end": 1053178,
+      "speaker": "Jessica Hullman",
+      "start": 1024110,
+      "text": "Said, yeah, I've had a few things along the same lines. So one, looking at sort of what happens when you show people a set of draws from a distribution using animation over time, which is one of the things they mentioned, but they're more interested in the static case. I've also been doing some work with Matt Kay and Sean Munson, where we're looking at showing people uncertainty in bus arrival times, where we've also, we've looked at static plots. But imagine like a PDF, like a probability density function made out of dots.",
+      "id": "ep_108_ut_37"
+    },
+    {
+      "end": 1053658,
+      "speaker": "Enrico Bertini",
+      "start": 1053226,
+      "text": "Yeah, yeah.",
+      "id": "ep_108_ut_38"
+    },
+    {
+      "end": 1062530,
+      "speaker": "Jessica Hullman",
+      "start": 1053706,
+      "text": "So that people can actually think concretely. So like I said, it's kind of like an interest area. So that's why I thought the paper was cool. But I do think it's something we'll see more of, I hope.",
+      "id": "ep_108_ut_39"
+    },
+    {
+      "end": 1103880,
+      "speaker": "Enrico Bertini",
+      "start": 1062602,
+      "text": "Yeah, yeah. This makes me think about another area of visualization I think is not very well covered, which is the role of metaphors. Right. I think the reason why the standard, one of the reasons why the standard representation doesn't work is because we mentally link size to size. Right. So it's a metaphor problem there. And when you start drawing samples, you naturally interpret this as uncertainty. Right. So, yeah, I would, yeah, more naturally. More naturally. So I would love to see more, more work on metaphors. That's another blind spot. I believe, in visualization design doesn't.",
+      "id": "ep_108_ut_40"
+    },
+    {
+      "end": 1104776,
+      "speaker": "Jessica Hullman",
+      "start": 1103952,
+      "text": "Robert has a paper.",
+      "id": "ep_108_ut_41"
+    },
+    {
+      "end": 1108264,
+      "speaker": "Enrico Bertini",
+      "start": 1104840,
+      "text": "Yeah, I think Robert has been doing some metaphor work. Right, Robert?",
+      "id": "ep_108_ut_42"
+    },
+    {
+      "end": 1145066,
+      "speaker": "Robert Kosara",
+      "start": 1108344,
+      "text": "Yeah. But I was just thinking, the thing about these hurricane visualizations in particular, they like to draw these little hurricane shapes with the little swirls. And so then you see the swirl get bigger, and then, of course, it looks like it's the actual storm. So they make it too cute in a sense, they make it too literal. And so then that gets in the way. If it was just the cone without the little swirls, it would be easier. But then people are so used to seeing the swirl that they just. So I think they've already kind of been taught in a way to think of this as being the site of the storm. So it's hard to go back now.",
+      "id": "ep_108_ut_43"
+    },
+    {
+      "end": 1156256,
+      "speaker": "Jessica Hullman",
+      "start": 1145170,
+      "text": "Yeah, the New York Times did a really nice piece, like, if anyone's interested in this, where they actually talk about all the problems, it was kind of a nice piece on uncertainty visualization by the designers there.",
+      "id": "ep_108_ut_44"
+    },
+    {
+      "end": 1160100,
+      "speaker": "Enrico Bertini",
+      "start": 1156370,
+      "text": "Okay, Robert, you want to go to your next pick?",
+      "id": "ep_108_ut_45"
+    },
+    {
+      "end": 1371642,
+      "speaker": "Robert Kosara",
+      "start": 1160172,
+      "text": "So my next pick. All right, so before I go to my next pick, I'm going to talk very briefly about the setup this year at Viz, which was because my next two picks are actually the best papers from infovisions and vast. And so at this, there are these three conferences, infovis. Well, the correct order, I guess, is vast because the v comes first in this, and then I, Infovis and then Sivis. So in vast is the visual analytics conference, and then there's INF information visualization and Sywis scientific visualization. And what they did the first time this year was they presented all three best papers in the opening session, and this was even before the keynote. So that was really interesting because it was a different way of doing things. And it brought together all those three papers from the three different areas, which I think is a good idea. And I hope we can actually do a bit more of this kind of crossover between the different conferences because the conference has kind of grown apart a little bit, where there are these separate threads where everybody is just doing their own thing, but you're not really going to the other tracks. And so seeing at least the best paper from the other track, I think is a good idea. And so my next paper here is the best paper from Infovis, which was unusual for another reason than its content, which is it was a single author paper, which is pretty unusual. In infovis, you mostly have papers written by at least two people and more like three or four or five people. But this is modeling color difference familiarization design by Danielle Albers Safir. And she had this, she basically looked at how do color models that people have built for kind of general use, how do they apply or do they apply to data visualization? And there are a number of models that are useful to use when you're trying to change things in a predictable way. So, like, there's the CIELAB space lab, which has this, which has these properties that when you change a value in, when you, when you take a step of a given size in one of the directions in, in that, in that latin, in that space, you get the same change no matter where you are, basically. So you can, you can actually predict how much the color changes. Whereas if you do that with RGB or with, like, the kind of things that we're used to from just kind of, of general computer use, those are much less predictable. And you change things at the same time. Like you change the color and the hue and the saturation and the brightness at the same time, which you don't want because it then becomes unpredictable. And so what you did was look at this for things that are, that we do in visualization. Like, for example, small dots in a scatter plot, or lines that are long but thin in a line chart. And she found, of course, that some of the rules that people know and that they've developed, and they're actually pretty well established, that those don't apply in visualization or have to be modified in database. And she built a whole bunch of models around that that are better and that are more useful for data visualization, so that you can actually change colors in or predict what colors look like, how they differ, or how they not differ in a visualization context more than in a general kind of context. And she did that by running a large number of studies on the mechanical Turk and just kind of trying this out to see how people saw things as different or the same in those contexts.",
+      "id": "ep_108_ut_46"
+    },
+    {
+      "end": 1391174,
+      "speaker": "Moritz Stefaner",
+      "start": 1371778,
+      "text": "What are the main effects? I mean, Moritz, is this traditionally, I mean, people know that if we have small marks, it's harder to differentiate colors just because the elements are so small. Are there any other new findings, like which types of marks or which types of graphics exhibit funny effects in terms of colors?",
+      "id": "ep_108_ut_47"
+    },
+    {
+      "end": 1494498,
+      "speaker": "Robert Kosara",
+      "start": 1393284,
+      "text": "I don't remember a lot of details. Like, I think there was something about the lines, because lines can be, when they're thin, they are also, they're basically a lot like small dots because they're just long, but they're also thin, so you're not getting enough color there. Oh, and bars. So, in a bar chart, the width of the bar is actually pretty interesting and important. So the aspect ratio of the bars plays a role. And so she has a number of ways to predict. And she has a lot of stuff in that paper, so I don't remember many of those details, but there was something about bars and like the width and even the spacing between them, I think, like how much, how much white you can see between the bars. And of course, this is all actually using white backgrounds and you don't even want to get started with colored backgrounds or black as a background because then the contrast is way off and everything gets way messier. But with white backgrounds, we now have a pretty good handle, I think, being able to predict and to even change colors so they look more similar, even though they're actually different. But because we've messed with them and we know how to change them, we can actually make them look more similar that way. And one more comment here is that because I think it's interesting that all the best paper nominees, or not the nominees, but all the best paper awards and honorable mentions this year in infovis were all written by women. So all the authors on all those papers were all women. That's pretty remarkable and something that I wouldn't have expected to be quite honest in infovis, even though we're doing better now, I think with gender balance. But still, it's quite amazing to see that.",
+      "id": "ep_108_ut_48"
+    },
+    {
+      "end": 1495338,
+      "speaker": "Moritz Stefaner",
+      "start": 1494546,
+      "text": "That's great.",
+      "id": "ep_108_ut_49"
+    },
+    {
+      "end": 1497234,
+      "speaker": "Jessica Hullman",
+      "start": 1495506,
+      "text": "Yeah, cool.",
+      "id": "ep_108_ut_50"
+    },
+    {
+      "end": 1499214,
+      "speaker": "Robert Kosara",
+      "start": 1497394,
+      "text": "And Jessica did her part for that.",
+      "id": "ep_108_ut_51"
+    },
+    {
+      "end": 1501506,
+      "speaker": "Jessica Hullman",
+      "start": 1499594,
+      "text": "Should I move on to my next one or.",
+      "id": "ep_108_ut_52"
+    },
+    {
+      "end": 1504574,
+      "speaker": "Enrico Bertini",
+      "start": 1501570,
+      "text": "Yeah, go ahead, Jessica, talk about that one.",
+      "id": "ep_108_ut_53"
+    },
+    {
+      "end": 1511096,
+      "speaker": "Jessica Hullman",
+      "start": 1505384,
+      "text": "Yeah. Okay, so it's one of my papers, which I feel a little weird about talking about, but Enrico suggested I asked.",
+      "id": "ep_108_ut_54"
+    },
+    {
+      "end": 1513884,
+      "speaker": "Enrico Bertini",
+      "start": 1511120,
+      "text": "You to cover this one. Yeah, I think it's important.",
+      "id": "ep_108_ut_55"
+    },
+    {
+      "end": 1783734,
+      "speaker": "Jessica Hullman",
+      "start": 1515024,
+      "text": "Okay, thank you. So it's called data through others eyes. The impact of visualizing others expectations on visualization interpretation. This is by my student Yea-Seul Kim. And also Katharina Reinecke was a collaborator from UW. And so I guess, first off, so that it's not just my paper I'm talking about, I want to say, I guess, that this paper that we did, and another paper actually by Jagoda Walney and Sheelagh Carpentale, I think are kind of along the same lines or sort of same area. They were both in the same session. It was a really good session about kind of understanding visualizations, how they work. But Jagoda's work was about active reading applied to visualization. So the way we active read a text, like, does it help to also do that with visualization, like make marks and then YesL's paper is about some work we've been doing where we're looking at what happens if you use a visualization to actually show people's expectations of data. And so I think these two papers, before I start talking about hers in depth, I just wanted to point out that they're kind of both about using visualization to externalize your knowledge, whether it's your prior knowledge, which is what we've been looking at, like, how do we actually bring that into visualization interaction or in to go to this case, kind of your knowledge as it emerges? You're kind of writing on the graph. And so I think that's kind of a really cool space that's, like, much, much bigger than we've seen work in, at least so far. So this particular paper, data through others eyes, is looking at. So what happens if you show people alongside the data in a visualization, what other people think about that data? So what would someone's predictions be for whatever the phenomena is that you're showing them? So some of you maybe have seen this New York Times thing where they wanted people to look at the relationship between parents income level and I think the percentage of children that go to college or the rate of going to college. And so they had people actually predict the data before they saw it in the graph. And then they'll show you everybody else's predictions after you've made your predictions. So you can kind of compare, here's my prediction, here's the actual data, and here's, or here's the actual trend, and here's what everybody else thought. So we did one paper before where we found that if you have people predict data in a visualization, it helps them to better basically remember that data. And so this paper was asking, well, what happens if you just show people other's expectations alongside the data? Does it have kind of the same effect? Does it get people to, like, pay more attention to the data? Does it get them to sort of question the data? For instance, in cases where other people disagree with the trend in the data, like, how does that affect what someone believes and what they remember? So we did a series of studies where we created different visualizations where we'd show other people's actual expectations, but they would either kind of align with the data or they would be sort of contrary to what the data said. Sometimes the other people's expectations had a high degree of consensus. So it looked like everybody agreed. Other times it looked like there was some disagreement among people. And so, so we're basically kind of looking at how this affects what people remember about the data and how this affects whether they update their beliefs towards the data. So do they believe the data enough that they change their beliefs, or are they less likely to change their beliefs? And what we found were, I mean, a few things that I think make sense. So, one is that people care about what other people think. So social information, in some cases, if it appeared like people had some consensus, then people remembered the data better. If the social information conveyed that there was a lot of disagreement, there was a lot of variance in it, then actually people didn't remember as well. I think they did worse. So it can distract people, but it can also focus their attention, or sort of just basically focus their attention. We clearly labeled that it was social information, so people knew that they were looking at other people's beliefs, and it changed memory. And then we also found that it can make people question the data. So if they think that other people disagree with the data, then they'll question it more. Of course, what they believe also matters. So we looked at kind of what they believed before we showed them anything so that we could kind of account for that. So I think it's an interesting paper, looking at this space of, like, you know, the things that people take into account and how it relates to their own prior knowledge when they're deciding what to believe after they've seen a visualization.",
+      "id": "ep_108_ut_56"
+    },
+    {
+      "end": 1784778,
+      "speaker": "Enrico Bertini",
+      "start": 1784194,
+      "text": "Yeah.",
+      "id": "ep_108_ut_57"
+    },
+    {
+      "end": 1786922,
+      "speaker": "Jessica Hullman",
+      "start": 1784866,
+      "text": "So, yeah, that was that paper.",
+      "id": "ep_108_ut_58"
+    },
+    {
+      "end": 1798854,
+      "speaker": "Moritz Stefaner",
+      "start": 1787018,
+      "text": "That's great. I love how this nice design or presentation narrative idea sparks this whole research. Okay, let's think about expectations. I think that's fantastic.",
+      "id": "ep_108_ut_59"
+    },
+    {
+      "end": 1824194,
+      "speaker": "Jessica Hullman",
+      "start": 1799474,
+      "text": "Yeah. It's actually one of these things where I think it's been around in cognitive psychology, again, nobody has really looked at how do we actually get people to visualize their own thoughts in the visualization. But there is a lot in psychology saying that, like, internal representations matter, like, what we believe really matters. So, yeah, it's kind of like coming to the forefront or, like coming into actual design of tools, which I think is cool.",
+      "id": "ep_108_ut_60"
+    },
+    {
+      "end": 1841652,
+      "speaker": "Moritz Stefaner",
+      "start": 1825134,
+      "text": "Yeah, and you're right. It was always, like, separate in a sense that this is internal, this is external. But by becoming external or being presented in the same framework as the finding or as the facts, that's the smart trick here, that it works in the same course system. Right? Yeah, that's very good.",
+      "id": "ep_108_ut_61"
+    },
+    {
+      "end": 1865464,
+      "speaker": "Jessica Hullman",
+      "start": 1841708,
+      "text": "I think one of the things I really like, too, is that I think we always think that the data in the visualization is like the absolute truth. And I think that's not really like a smart view. I mean, like, any sort of Bayesian inference tells you that the data is just one thing, and you should combine it with your prior knowledge and so I like that. It's like we're kind of modeling, what do people do with the data relative to what's in their head or relative to other signals?",
+      "id": "ep_108_ut_62"
+    },
+    {
+      "end": 1867200,
+      "speaker": "Moritz Stefaner",
+      "start": 1865644,
+      "text": "Yeah, very interesting.",
+      "id": "ep_108_ut_63"
+    },
+    {
+      "end": 1869536,
+      "speaker": "Jessica Hullman",
+      "start": 1867312,
+      "text": "Bayesian visualization will be like a session.",
+      "id": "ep_108_ut_64"
+    },
+    {
+      "end": 1875720,
+      "speaker": "Moritz Stefaner",
+      "start": 1869600,
+      "text": "This will be great next year. Probabilistic belief adjustments. Very good.",
+      "id": "ep_108_ut_65"
+    },
+    {
+      "end": 1876400,
+      "speaker": "Jessica Hullman",
+      "start": 1875792,
+      "text": "Yeah.",
+      "id": "ep_108_ut_66"
+    },
+    {
+      "end": 1878912,
+      "speaker": "Moritz Stefaner",
+      "start": 1876552,
+      "text": "Robert, what was your third highlight?",
+      "id": "ep_108_ut_67"
+    },
+    {
+      "end": 1905282,
+      "speaker": "Robert Kosara",
+      "start": 1878968,
+      "text": "So my last one is the best paper from vast, and this is the opposite of Danielle's paper because it has like 12,000 authors, but this is called visualizing dataflow graphs of deep learning models in Tensorflow by Kanit Ham, Wongsuphasawat and colleagues, both at, I think mostly at Google research, but also, I think, a few people from YouTube. I'm not actually sure.",
+      "id": "ep_108_ut_68"
+    },
+    {
+      "end": 1908002,
+      "speaker": "Jessica Hullman",
+      "start": 1905338,
+      "text": "No, no, no, I think it's. Yeah, just Google.",
+      "id": "ep_108_ut_69"
+    },
+    {
+      "end": 2015356,
+      "speaker": "Robert Kosara",
+      "start": 1908058,
+      "text": "Oh, Google. Okay. And so this is a system that he built there, or that they built there to as part of Google's deep learning visualization kind of initiative. So they do a lot of work on deep learning, and they build these very large, complicated networks of algorithms that can work together to make one of these deep learning things. I don't know a whole lot about deep learning, so I'm just kind of making up stuff here from looking at these diagrams. So what they do is you end up with lots of little steps that happen in there, and they, and it's hard to understand and debug these. And so what you end up with, or what you're trying to do is you try to understand what's happening in them, inside them. But when you just look at, like hundreds of steps, it's really hard to understand that. So what they do is they cluster them together into these kind of larger nodes and show how they are connected, and then you can expand those and look at individual ones and say, well, what's actually happening inside that? But it makes it easier to understand that flow of the data through this network from the input, which has all kinds of images, whatever, coming in to the output, which then tells you what's in the image or whatever else you're trying to get out of it. This seems like a really interesting system. It looked really impressive in the demos, and it's all open source too, so you can play with that, you can run it on top of Google's deep learning stuff and build your own networks that way. And it also kind of embodied this topic that was really present this year at Viz, which is machine learning, and the importance of that and the interplay between machine learning and visualization.",
+      "id": "ep_108_ut_70"
+    },
+    {
+      "end": 2021084,
+      "speaker": "Enrico Bertini",
+      "start": 2015500,
+      "text": "Yeah, I think there were lots of sessions on machine learning in Viz this year, right?",
+      "id": "ep_108_ut_71"
+    },
+    {
+      "end": 2040304,
+      "speaker": "Robert Kosara",
+      "start": 2021164,
+      "text": "Yes. I have to say that I missed most of them, but there was a workshop on Sunday, I believe there was a panel, there were a number of papers and this was one of them. And just in general, I think there was a lot of interest in that. There were also posters on it. I didn't see much of that, but there was certainly, it was just a thing that was just visible everywhere the whole week.",
+      "id": "ep_108_ut_72"
+    },
+    {
+      "end": 2056775,
+      "speaker": "Enrico Bertini",
+      "start": 2040344,
+      "text": "Yeah. Okay. Okay. So these were the main picks from Jessica and Robert. Let's go quickly through some of the other events so maybe we can quickly talk about the panels. Did you see anything interesting there?",
+      "id": "ep_108_ut_73"
+    },
+    {
+      "end": 2097302,
+      "speaker": "Jessica Hullman",
+      "start": 2056879,
+      "text": "So I think so. I was not there, unfortunately. I had a baby with me, so it was a little limited how much panels I could attend. But I heard about the diversity panel and I just wanted to say I think it's good that Viz is actually thinking about diversity. I think there were multiple speakers who had sort of different viewpoints from what I heard about diversity or just different experience with it. But I know there are people actually trying to get people from outside of the traditional sort of pools into viz. So there's like a workshop that's being run to broaden participation in viz somewhere in an eastern university. I can't remember which one, but it's by Purdue.",
+      "id": "ep_108_ut_74"
+    },
+    {
+      "end": 2098182,
+      "speaker": "Robert Kosara",
+      "start": 2097358,
+      "text": "Purdue University.",
+      "id": "ep_108_ut_75"
+    },
+    {
+      "end": 2098750,
+      "speaker": "Jessica Hullman",
+      "start": 2098318,
+      "text": "Oh yeah.",
+      "id": "ep_108_ut_76"
+    },
+    {
+      "end": 2100534,
+      "speaker": "Robert Kosara",
+      "start": 2098782,
+      "text": "Purdue bird running that?",
+      "id": "ep_108_ut_77"
+    },
+    {
+      "end": 2100902,
+      "speaker": "Enrico Bertini",
+      "start": 2100614,
+      "text": "Yeah.",
+      "id": "ep_108_ut_78"
+    },
+    {
+      "end": 2120710,
+      "speaker": "Jessica Hullman",
+      "start": 2100958,
+      "text": "Vtuber bird. Yeah. So I've had students go to that. I think it's great and I think it really does help people come in who don't necessarily have a computer science background in this case. I mean, diversity means a lot of things and we should be talking about it a lot more in viz. But I think it's a good start to have a panel. And so I hope this is something that continues.",
+      "id": "ep_108_ut_79"
+    },
+    {
+      "end": 2208706,
+      "speaker": "Robert Kosara",
+      "start": 2120822,
+      "text": "Yes, definitely. So I was there for the panel. I found the presentations a bit long and not super exciting, but I think they talked about very interesting and important topics. So I think the having it there kind of as a signal to say yes, we actually think this is important. That was really a good first step and I hope we're going to actually be able to do more in this direction. So there's the BPV workshop that you just mentioned that is run at Purdue. There's also a more general, there are several more general things like there's Grace Hopper celebration for women in computing or not even in computing. It's in STEM now. I'm not even sure, or at least in computing, I'm not trying to broaden this. So that is a huge conference actually, that took place at the same time as viz, and very few people in viz seem to know about that. There's also another one that is named after some guy, and I can't remember the name right now, but this is about broadening participation in computer science in STEM in general. And there are a few more things like that. And then there are things like at CHI's, there's this chi me, or I don't know how they actually pronounce that, but there is like a programming that's actually sizable. It's like 40 people or so there where they're trying to help people to navigate the conference that haven't been there before and stuff like that.",
+      "id": "ep_108_ut_80"
+    },
+    {
+      "end": 2221338,
+      "speaker": "Jessica Hullman",
+      "start": 2208810,
+      "text": "I think actually that happened too this year at Viz, I think viz, newcomers, some people, Jagoda, I think, was involved in arranging to sort of help people be there the first time and, like, figure out what to go to or just meet people, which I think is pretty cool.",
+      "id": "ep_108_ut_81"
+    },
+    {
+      "end": 2275034,
+      "speaker": "Robert Kosara",
+      "start": 2221386,
+      "text": "Right? So that was the newcomers thing. And that's also. That's been around for a little bit. So that was not that exact program, but it. They've been trying this before. Like, that was the biz buddies thing this year. And before that, we had like, the lunch with the leader thing and stuff like that. And those are all good things. And then also at this year, the first time, they had this program on Sunday about diversity, which was, I think, kind of a mix of a workshop and just kind of having people interact and talk to each other and just get to know each other a bit. And I wasn't there for that. But I think that there is more starting up. It's not just the panel. It's also really people starting to actually do things to help people know who's in the field and be more comfortable talking to people and also getting advice and stuff. So I think that's all helpful to help people just get ahead and be successful in this field, even when they're coming from outside, from maybe backgrounds where they don't have that.",
+      "id": "ep_108_ut_82"
+    },
+    {
+      "end": 2281882,
+      "speaker": "Jessica Hullman",
+      "start": 2275074,
+      "text": "And to just feel accepted, like, to feel that they're welcome, which I think is just. It's not that hard, but we need to put effort into it.",
+      "id": "ep_108_ut_83"
+    },
+    {
+      "end": 2290274,
+      "speaker": "Robert Kosara",
+      "start": 2281938,
+      "text": "Oh, for sure, yeah, yeah. It's always easy for us in the fields to say, well, it's not that hard, but it's not that easy when you play on the outside.",
+      "id": "ep_108_ut_84"
+    },
+    {
+      "end": 2305594,
+      "speaker": "Moritz Stefaner",
+      "start": 2290734,
+      "text": "Yeah, but it's true. Like, little things can go along the way there, but at the same time, you have to figure out the right tone and just identify the problem. And all this takes years, but it's great that the first steps are being made, so I'm happy about it.",
+      "id": "ep_108_ut_85"
+    },
+    {
+      "end": 2307110,
+      "speaker": "Robert Kosara",
+      "start": 2306294,
+      "text": "Yeah, for sure.",
+      "id": "ep_108_ut_86"
+    },
+    {
+      "end": 2329184,
+      "speaker": "Enrico Bertini",
+      "start": 2307182,
+      "text": "Good. Anything else worth mentioning? I think, Robert, you briefly mentioned the industry panel. I just want to say I think it's great to see. I think that that's been a recurring kind of event where the organizers try to pick people from industry and from research and discuss how to connect research with industry. So I think that's, that's a great initiative in general.",
+      "id": "ep_108_ut_87"
+    },
+    {
+      "end": 2370364,
+      "speaker": "Robert Kosara",
+      "start": 2329844,
+      "text": "Yeah. I wasn't actually there, but I know some of the people who were on the panel, and so I think that's what they were talking about. There's also the vision practice saying where they're trying to get people, practitioners, which is this very broad term, to tell them, well, here are things that might be relevant to you. And so they're not just like the super academic paper talks, but also like panels and workshops and tutorials and things like that. And so that's happening more. It's still a challenge because as somebody who's not an academic, who doesn't really have an academic interest, you probably wouldn't find that much stuff to really make it worthwhile to go to VIS for the whole week. But it's certainly an effort that they do, that they're making sure.",
+      "id": "ep_108_ut_88"
+    },
+    {
+      "end": 2399672,
+      "speaker": "Enrico Bertini",
+      "start": 2371104,
+      "text": "Okay, so maybe we can move on to, we can briefly mention the art program. And I think a big highlight of the conference was Giorgia Lupi. She's been doing a few things. I'm so happy that this decided to invite her. And I think Giorgia has been doing some data drawing sessions in the art program, which unfortunately, I didn't attend. And she also gave, as far as I can tell, a great capstone. So maybe can you briefly comment on that?",
+      "id": "ep_108_ut_89"
+    },
+    {
+      "end": 2661524,
+      "speaker": "Robert Kosara",
+      "start": 2399848,
+      "text": "So Giorgia was there for about a day and a half. So she was there on Thursday to run this theater drawing workshop. And the idea there was she. And actually, I have to admit, I wasn't actually there for the beginning, but then I crashed that and I just kind of walked around and talked to people. But what she did was she just started talking about sketching and drawing and then showed people paintings and drawings as inspiration that weren't about data at all. But to say, look at these things, these look very different, the kind of thing that you usually see in visualization, use these as inspiration. And then they had a number of data sets, or they had, I think, one data set that they looked at. And then the idea was to draw that data in kind of a style that was very different from your usual visualization. And I was really surprised by how well people were doing that, not because of the drawing itself, but because I think it's actually harder for us in visualization because we're so used to certain kinds of how data is represented. Like, you know, it's bar charts and trademarks and this and that. So you have an idea what data looks like, but then you saw these people drawing things that didn't look like that at all. So they did really unusual stuff with that. So that was really impressive, I thought. So Giorgia somehow got them, like, kicked them out of their usual headspace and got them to think in totally different ways. So that was really impressive. I thought it was really cool. And there were some really beautiful things that they were drawing. So I didn't do any drawing, luckily, because I'm really horrible at that. But there were some really good things there that I really enjoyed. And then she gave this amazing capstone talk on Friday, and people were really, I think, really amazed by that. So she has all these projects that you may or may not have heard of. There's the data, the dear data project, where she was sending these postcards back and forth between her and Stephanie Posavec. And so they had this whole idea of collecting data and then drawing that data. And each week, so for a year, every week, they had some data collection project, and then they would draw that data in some way. And what I hadn't really realized until she gave this talk, for some reason, was just how important it was for them to collect that data and themselves and it being unusual data. Like, they, at some point, they had, like, a thing where they went into their closets and categorized their clothes. And, like, Giorgia was surprised by how many clothes she had from her ex boyfriends that she had kept. And that was one category of clothes she had and stuff like that. It was just, you know, these are things just, there's no way to, like, have an app or whatever that collects that stuff, right. And so that's really, really interesting. And, of course, they've been incredibly successful with their data. They had this book out. The postcards have been acquired by the Museum of Modern Art in New York. And then they commissioned Giorgia to draw a sort of an overview drawing of an exhibit about fashion. And they didn't have data for it, so there were no numbers. It was all this collection of things, of these, these pieces of clothing. And then there were the notes from the curator, and that was it. And so what charter did was, or charter, and folks like Cobra Cabriole and others, they went into that and started categorizing the notes and making this into a table, and then started drawing that and sketching that. And so Giorgia ended up building this beautiful mural, basically, of these, of the data that she had collected, but it was entirely from scratch. None of that had existed, existed before. And it makes this amazing, I don't know, this amazing opener for this whole exhibit. It's really, really fascinating. And I didn't know much about, like, I did know very little about fashion in general, but we also went to lunch with her afterwards, and they were super excited about this. And they talked about, like, all these things and what they all meant and how they had figured out how those pieces fit together into this exhibit and how you can, can combine different kinds of clothing from different eras. And it's really fascinating stuff. I was really surprised by how interested I was in all this fashion stuff. So it's a matter of framing that and understanding.",
+      "id": "ep_108_ut_90"
+    },
+    {
+      "end": 2664044,
+      "speaker": "Jessica Hullman",
+      "start": 2662624,
+      "text": "Surprised me at all.",
+      "id": "ep_108_ut_91"
+    },
+    {
+      "end": 2742172,
+      "speaker": "Robert Kosara",
+      "start": 2664344,
+      "text": "Yeah, for sure. Yeah. I'm looking at myself now. I'm like, oh, okay, I need to do better. And no, it's about how you send messages, like when you wear things to send a message versus wear something to fit in and things like that. That. But then the final thing I want to just briefly talk about, not to make this too long, is this project that she talked about where she worked with a musician, Kaki King, I think is her name. And what they did was that they together collected data. So that was the first part of the process. And then Khaki wrote a song using that data. Like, she represented those numbers in a piece of music. And then Giorgia took the playing of that, of that piece of music and drew that and basically turned it back into data somehow and drew that. And then they combined that so that the drawing, they animated that, which is an enormous amount of work. It's just unbelievable how much work this is to do this magnavy. But they did an animation of those drawings and they made that the video for the song, essentially, so you can play the song and see the animated drawing happen, happen. And it's mind blowing. So that people were just stunned when she was playing that. It was really, really good.",
+      "id": "ep_108_ut_92"
+    },
+    {
+      "end": 2743228,
+      "speaker": "Jessica Hullman",
+      "start": 2742308,
+      "text": "Is it online?",
+      "id": "ep_108_ut_93"
+    },
+    {
+      "end": 2829974,
+      "speaker": "Robert Kosara",
+      "start": 2743356,
+      "text": "Yes. Yeah. When you go to my blog, you can see that links to all of this stuff. I think you actually have the video embedded, but it's hard to really appreciate that video when you haven't seen the talk. There's so much about this whole process and how it all happened. It's really amazing. But you have to watch that video a few times. To really appreciate the precision and all the information that's in there. So it's really interesting. And I really like Giorgia's work because she's been just doing things that are outside of what visualization is doing, usually because she's coming from this much more designy side. And early on, I remember when Accurat was doing so Accurat is Giorgia and Gabriele's science studio that they started in Milan, I think, years ago, and are now in, based in New York and Milan, I guess, still. But they started by doing these things that people said, well, yeah, this is like infographics, and we're not really, you know, we don't really like this all that much because it's too much decoration. But now everybody's like, whoa, this is a different way of doing things. And it's actually really relevant because it, it's, it's, it's much more interesting in many ways to what people actually want to know from that data. And this whole idea of collecting your data yourself and having a real connection with your data, I think it's really interesting and really impactful. So I think a lot of people got a lot out of that capstone and hopefully started thinking about that in some new ways.",
+      "id": "ep_108_ut_94"
+    },
+    {
+      "end": 2843734,
+      "speaker": "Enrico Bertini",
+      "start": 2830134,
+      "text": "Yeah. Fantastic. Okay, so I think it's time to wrap up. Is there anything else you want to talk about, maybe any other.",
+      "id": "ep_108_ut_95"
+    },
+    {
+      "end": 2849304,
+      "speaker": "Jessica Hullman",
+      "start": 2843814,
+      "text": "We didn't talk about the vision science vis times, whatever they called it.",
+      "id": "ep_108_ut_96"
+    },
+    {
+      "end": 2849716,
+      "speaker": "Enrico Bertini",
+      "start": 2849334,
+      "text": "Yeah.",
+      "id": "ep_108_ut_97"
+    },
+    {
+      "end": 2899730,
+      "speaker": "Jessica Hullman",
+      "start": 2849820,
+      "text": "And I just, I do think it's worth mentioning briefly. So I was not there, but I had a student go who was very excited about it. Cause he's coming from vision science. His name's Alex Kael. So I heard a report. I think Robert said he was there for a little bit. But basically what I think is vision science people trying to work on infovis, which I think is really cool, because for my student, I'm actually learning more about vision science methods. And I feel like there's a ton that could be used in infovis. We've already used a little bit of it, but I think we've just begun. And so I think they're actually, this is like a group that's planning to continue sort of just having a presence, like making sure that there's some connection between vision science and infovis. So I think it's cool. My student loved it. I can't really speak to how people talked on the panel or the meetup, but I just think it's a cool area.",
+      "id": "ep_108_ut_98"
+    },
+    {
+      "end": 2900162,
+      "speaker": "Enrico Bertini",
+      "start": 2899842,
+      "text": "Yeah.",
+      "id": "ep_108_ut_99"
+    },
+    {
+      "end": 2959844,
+      "speaker": "Robert Kosara",
+      "start": 2900218,
+      "text": "Oh, yeah, for sure. And you can sign up. So there's this Vizx vision website that you should probably link to from the show notes. And you can sign up there. And they have a slack channel. And there's people who have been doing work in the field, like Stephen Franklin and a few others, Ruth Rosenhals and a handful of other people who you probably would have seen in this. And just as an overall comment, we like to pick little pieces from vision science and from perceptual psychology. Then I can hold onto them forever rather than really knowing what the field does. This whole idea of pre attentive vision is one that we picked up in the nineties and everybody talks about it, but it's actually pretty much nobody believes it anymore in vision research. So they've been done with this idea for five or ten years now. And so we're still like, oh yeah, pre attentive. So we just need to update our idea about what's going on in this area and be a bit smarter about that and not just like say, oh, we know three terms from psychology. So now we know, I think the.",
+      "id": "ep_108_ut_100"
+    },
+    {
+      "end": 2982534,
+      "speaker": "Jessica Hullman",
+      "start": 2959884,
+      "text": "Methods too, like powerful. Like they can help us explain like what's happening. Why do people perceive better with one visualization? Like, I don't think we do enough of that explanatory stuff. I think Steve Haroz talks about this also. There is a few people, Ron Rensink, who feel strongly that we could do better science, if you want to call that, use that term for what we do. If we use these methods.",
+      "id": "ep_108_ut_101"
+    },
+    {
+      "end": 2992060,
+      "speaker": "Robert Kosara",
+      "start": 2986484,
+      "text": "We started talking about accidentally doing science and now we're back to science.",
+      "id": "ep_108_ut_102"
+    },
+    {
+      "end": 2995664,
+      "speaker": "Jessica Hullman",
+      "start": 2992212,
+      "text": "We really want to be scientists. We're trying really hard.",
+      "id": "ep_108_ut_103"
+    },
+    {
+      "end": 3021820,
+      "speaker": "Enrico Bertini",
+      "start": 2996604,
+      "text": "Or maybe we should stop and do something else. Yeah, yeah. No, I think it's great to see this happening as well. And I have to say, so every time I go in class and teach the part on perception, I feel very uncomfortable. It's like, yeah, I'm repeating what I read and it's like then students ask questions and I'm like, maybe I don't know this topic very well.",
+      "id": "ep_108_ut_104"
+    },
+    {
+      "end": 3026744,
+      "speaker": "Jessica Hullman",
+      "start": 3021972,
+      "text": "So it's like, yeah, that's how I feel about color. I hate teaching color.",
+      "id": "ep_108_ut_105"
+    },
+    {
+      "end": 3031024,
+      "speaker": "Enrico Bertini",
+      "start": 3027324,
+      "text": "It's my, actually, my upcoming class, so don't tell me.",
+      "id": "ep_108_ut_106"
+    },
+    {
+      "end": 3036052,
+      "speaker": "Robert Kosara",
+      "start": 3033084,
+      "text": "But color, I think is actually better understood than most of the other areas.",
+      "id": "ep_108_ut_107"
+    },
+    {
+      "end": 3036508,
+      "speaker": "Moritz Stefaner",
+      "start": 3036108,
+      "text": "That's true.",
+      "id": "ep_108_ut_108"
+    },
+    {
+      "end": 3037260,
+      "speaker": "Enrico Bertini",
+      "start": 3036556,
+      "text": "That's true.",
+      "id": "ep_108_ut_109"
+    },
+    {
+      "end": 3043330,
+      "speaker": "Robert Kosara",
+      "start": 3037372,
+      "text": "At least from within visualization. I think you've got a better idea there than in many other areas.",
+      "id": "ep_108_ut_110"
+    },
+    {
+      "end": 3113484,
+      "speaker": "Enrico Bertini",
+      "start": 3043442,
+      "text": "Yeah, yeah. Okay. So I think we can quickly wrap it up. I just want to say that, I want to thank you first of all. Then briefly say that if you're listening to this. We're going to put lots of links in our show notes. Also, Robert has, as usual, a six part coverage of the conference in his blog, Eager Eyes. And Steve Harrows published a very nice webpage that tries to collect not only all the links to the all the links to the papers that are available, but also, when available, supplementary material and videos. So I think this makes going through the program a much, much better and interesting experience. So, yeah, I just encourage you to go through these material, and it's richer than usual. And I also want to briefly mention that the next visit is going to be in Berlin. So back to Europe? I don't know, Moritz, do you plan to be there?",
+      "id": "ep_108_ut_111"
+    },
+    {
+      "end": 3127016,
+      "speaker": "Moritz Stefaner",
+      "start": 3114024,
+      "text": "Definitely. Definitely. Everybody, there's a great scene in Berlin in terms of schools and practitioners. This will be a special one. I hope I can be part of it in some way.",
+      "id": "ep_108_ut_112"
+    },
+    {
+      "end": 3137876,
+      "speaker": "Enrico Bertini",
+      "start": 3127120,
+      "text": "In some way. Yeah, yeah, yeah. That's great. Okay. Thanks to my. Thanks so much, Jessica and Robert, for, yeah. Donating some of your time to do that.",
+      "id": "ep_108_ut_113"
+    },
+    {
+      "end": 3139268,
+      "speaker": "Jessica Hullman",
+      "start": 3137980,
+      "text": "Thank you. It was fun.",
+      "id": "ep_108_ut_114"
+    },
+    {
+      "end": 3140924,
+      "speaker": "Moritz Stefaner",
+      "start": 3139396,
+      "text": "Yeah. Great overview. Thank you.",
+      "id": "ep_108_ut_115"
+    },
+    {
+      "end": 3142108,
+      "speaker": "Enrico Bertini",
+      "start": 3140964,
+      "text": "Yeah, thanks. Bye bye.",
+      "id": "ep_108_ut_116"
+    },
+    {
+      "end": 3143144,
+      "speaker": "Robert Kosara",
+      "start": 3142156,
+      "text": "Bye bye.",
+      "id": "ep_108_ut_117"
+    },
+    {
+      "end": 3167174,
+      "speaker": "Enrico Bertini",
+      "start": 3149724,
+      "text": "Data stories is brought to you by click. Are you missing out on meaningful relationships hidden in your data? Unlock the old story with Qlik sense through personalized visualizations and dynamic dashboards, which you can download for free at Qlik Datastories.",
+      "id": "ep_108_ut_118"
+    }
+  ],
+  "confidence": 0.924532842071949,
+  "audio_duration": 3167,
+  "punctuate": true,
+  "format_text": true,
+  "dual_channel": false,
+  "webhook_url": null,
+  "webhook_status_code": null,
+  "webhook_auth": false,
+  "webhook_auth_header_name": null,
+  "speed_boost": false,
+  "auto_highlights_result": null,
+  "auto_highlights": false,
+  "audio_start_from": null,
+  "audio_end_at": null,
+  "word_boost": [],
+  "boost_param": null,
+  "filter_profanity": false,
+  "redact_pii": false,
+  "redact_pii_audio": false,
+  "redact_pii_audio_quality": null,
+  "redact_pii_policies": null,
+  "redact_pii_sub": null,
+  "speaker_labels": true,
+  "content_safety": false,
+  "iab_categories": true,
+  "content_safety_labels": {
+    "status": "unavailable",
+    "results": [],
+    "summary": {}
+  },
+  "language_detection": false,
+  "language_detection_threshold": null,
+  "language_confidence": null,
+  "custom_spelling": null,
+  "throttled": false,
+  "auto_chapters": true,
+  "summarization": false,
+  "summary_type": null,
+  "summary_model": null,
+  "custom_topics": false,
+  "topics": [],
+  "speech_threshold": null,
+  "speech_model": "best",
+  "chapters": [
+    {
+      "summary": "Data Stories is a podcast produced by Moritz Stefaner and Enrico Bertini. They talk about data visualization, analysis and the role data plays in our lives. Do research in visualization together.",
+      "gist": "Data Stories",
+      "headline": "Data Stories is a podcast about data visualization and analysis",
+      "start": 120,
+      "end": 73924,
+      "id": "ep_108_ch_0"
+    },
+    {
+      "summary": "The IEEE conference is one of the main academic conferences in visualization. This happens every year, typically in October, and there are lots of things going on. We're actually going to cover just a tiny part of it. We have some help from some friends.",
+      "gist": "I Tried to Attend the VIpx Conference",
+      "headline": "Today we talk about the IEEE visualization conference in Italy",
+      "start": 74744,
+      "end": 190224,
+      "id": "ep_108_ch_1"
+    },
+    {
+      "summary": "Jessica is an assistant professor at the University of Washington. Her work is mainly focused on information visualization. Robert is a research scientist at Tableau Software. Do a lot of work around what's called data storytelling.",
+      "gist": "Interview with Jeff Heer and Jessica Flannery",
+      "headline": "Jessica and Robert briefly introduce themselves on this podcast",
+      "start": 190304,
+      "end": 241742,
+      "id": "ep_108_ch_2"
+    },
+    {
+      "summary": "We want to go through some highlights from the visconference. This year I couldn't go, so I'm really looking forward to hearing from you what happened. We're going to cover a tiny portion of the conference. Jessica and Robert talk about some papers they have selected.",
+      "gist": "Top 10 visualizations at the 2017 Conference",
+      "headline": "We want to go through some highlights from the visconference",
+      "start": 241798,
+      "end": 617384,
+      "id": "ep_108_ch_3"
+    },
+    {
+      "summary": "Robert: What's one of your highlights in terms of the publications this year? This is called keeping multiple views consistent constraints, validations and exceptions in visualization authoring. This is very relevant for us, certainly at Tableau. There's so much more to research there.",
+      "gist": "The Best Paper in Visualization 2017",
+      "headline": "Keeping multiple views consistent constraints, validations and exceptions in visualization authoring",
+      "start": 619964,
+      "end": 854740,
+      "id": "ep_108_ch_4"
+    },
+    {
+      "summary": "A new paper called uncertainty visualization by representative sampling from prediction ensembles by Le Liu. It shows an actual set of draws from a distribution to show, like, this is what could happen. It's a nice, very focused technique in an area or a style of uncertainty visualization that I think we'll see more of.",
+      "gist": "Uncertainty visualization by representative sampling",
+      "headline": "Le Liu's paper uses uncertainty visualization to show hurricane uncertainty",
+      "start": 854812,
+      "end": 1063578,
+      "id": "ep_108_ch_5"
+    },
+    {
+      "summary": "This makes me think about another area of visualization I think is not very well covered, which is the role of metaphors. I would love to see more, more work on metaphors. That's another blind spot.",
+      "gist": "The role of Metaphors in Visualization",
+      "headline": "This makes me think about another area of visualization not very well covered",
+      "start": 1063706,
+      "end": 1161644,
+      "id": "ep_108_ch_6"
+    },
+    {
+      "summary": "My next two picks are actually the best papers from infovisions and vast. This year, Viz presented all three best papers in the opening session. It brought together all those three papers from the three different areas. I hope we can actually do a bit more of this kind of crossover between the different conferences.",
+      "gist": "My 3 picks for VISION 2017",
+      "headline": "My next two picks are from infovisions and vast",
+      "start": 1161684,
+      "end": 1228956,
+      "id": "ep_108_ch_7"
+    },
+    {
+      "summary": "The best paper from Infovis was a single author paper, which is pretty unusual. Danielle Albers Safir looked at how do color models that people have built for kind of general use apply to data visualization. With white backgrounds, we now have a pretty good handle on how to change colors so they look more similar.",
+      "gist": "The Best Paper in Data Visualization",
+      "headline": "This is modeling color difference familiarization design for data visualization",
+      "start": 1229140,
+      "end": 1499214,
+      "id": "ep_108_ch_8"
+    },
+    {
+      "summary": "The impact of visualizing others expectations on visualization interpretation. What happens if you show people alongside the data in a visualization, what other people think about that data? Does it get people to pay more attention to the data?",
+      "gist": "Data Through Others Eyes: The Impact of Visualization on Knowledge",
+      "headline": "The impact of visualizing others expectations on visualization interpretation is discussed",
+      "start": 1499594,
+      "end": 1876400,
+      "id": "ep_108_ch_9"
+    },
+    {
+      "summary": "This is called visualizing dataflow graphs of deep learning models in Tensorflow by Kanit Ham, Wongsuphasawat and colleagues. It embodied this topic that was really present this year at Viz, which is machine learning. There were lots of sessions on machine learning in Viz this year.",
+      "gist": "Top 3 papers from 2017",
+      "headline": "Jessica and Robert pick their top three highlights from machine learning at Viz",
+      "start": 1876552,
+      "end": 2048004,
+      "id": "ep_108_ch_10"
+    },
+    {
+      "summary": "Viz is trying to get people from outside of the traditional sort of pools into the field. The diversity panel was a good first step and I hope we're going to be able to do more in this direction. There are also other initiatives to help newcomers find their way around the conference.",
+      "gist": "Viz 2017: Diversity Panel",
+      "headline": "I think it's good that Viz is thinking about diversity",
+      "start": 2048344,
+      "end": 2307110,
+      "id": "ep_108_ch_11"
+    },
+    {
+      "summary": "The organizers try to pick people from industry and from research and discuss how to connect research with industry. They're not just like the super academic paper talks, but also like panels and workshops and tutorials. It's still a challenge because as somebody who's not an academic, who doesn't really have an academic interest, but it's certainly an effort that they do.",
+      "gist": "Vaes 2017: Connecting research and industry",
+      "headline": "Robert: I think it's great to see efforts to connect research with industry",
+      "start": 2307182,
+      "end": 2370364,
+      "id": "ep_108_ch_12"
+    },
+    {
+      "summary": "Giorgia Lupi was at the conference to run a theater drawing workshop. The idea was to draw data in a style that was very different from your usual visualization. On Friday, Lupi gave a capstone talk about her work.",
+      "gist": "Data and Drawing at the Conference",
+      "headline": "Giorgia Charter ran a theater drawing workshop using unusual data sets",
+      "start": 2371104,
+      "end": 2679996,
+      "id": "ep_108_ch_13"
+    },
+    {
+      "summary": "Accurat: Giorgia worked with a musician, Kaki King, to collect data. Then Khaki wrote a song using that data. Giorgia then drew that back into data somehow. They combined that so that the drawing, they animated that. It's really amazing.",
+      "gist": "Giorgia's \"The Drawing of Songs\"",
+      "headline": "Giorgia and Kaki collected data and then wrote a song using that data",
+      "start": 2680100,
+      "end": 2831914,
+      "id": "ep_108_ch_14"
+    },
+    {
+      "summary": "There's a group of vision science people trying to work on infovis. For my student, I'm actually learning more about vision science methods. I feel like there's a ton that could be used in infovis. There's this Vizx vision website that you should probably link to.",
+      "gist": "Vizx: A Connection to Vision Science",
+      "headline": "Alex Kael: I think vision science vis times is cool",
+      "start": 2833814,
+      "end": 3044534,
+      "id": "ep_108_ch_15"
+    },
+    {
+      "summary": "Robert: We're going to put lots of links in our show notes. Also, Robert has, as usual, a six part coverage of the conference in his blog, Eager Eyes. Next visit is going to be in Berlin. Moritz: Do you plan to be there?",
+      "gist": "A Quick Talk on the Conference",
+      "headline": "We have lots of links available to help you go through this program easily",
+      "start": 3044994,
+      "end": 3167174,
+      "id": "ep_108_ch_16"
+    }
+  ],
+  "disfluencies": false,
+  "entity_detection": false,
+  "sentiment_analysis": false,
+  "sentiment_analysis_results": null,
+  "entities": null,
+  "speakers_expected": null,
+  "summary": null,
+  "custom_topics_results": null,
+  "episode_num": 108,
+  "episode_metadata": {
+    "speakers": [
+      "Robert Kosara",
+      "Enrico Bertini",
+      "Moritz Stefaner",
+      "Jessica Hullman"
+    ],
+    "WPid": "1052",
+    "url": "https://datastori.es/podlove/file/4501/s/feed/c/mp3/108-review-of-ieee-vis17-with-jessica-hullman-and-robert-kosara.mp3",
+    "episode_title": "Review of IEEE VIS\u201917 with Jessica Hullman and Robert Kosara"
+  }
+}

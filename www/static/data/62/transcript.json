@@ -1,0 +1,1522 @@
+{
+  "id": "8801b139-f094-49b1-9952-7174f287722f",
+  "language_model": "assemblyai_default",
+  "acoustic_model": "assemblyai_default",
+  "language_code": "en_us",
+  "status": "completed",
+  "audio_url": "https://datastori.es/podlove/file/1377/s/feed/c/mp3/text-visualization-past-present-and-future-with-chris-collins-ds62.mp3",
+  "utterances": [
+    {
+      "end": 6154,
+      "speaker": "Chris Collins",
+      "start": 160,
+      "text": "If it was normal English, I would expect to see the word love five times. If I see it 30 times, then maybe something interesting is going on here.",
+      "id": "ep_62_ut_0"
+    },
+    {
+      "end": 30314,
+      "speaker": "Moritz Stefaner",
+      "start": 7894,
+      "text": "Data stories is brought to you by Qlik, who allows you to explore the hidden relationships within your data that lead to meaningful insights. Let your instincts lead the way to create personalized visualizations and dynamic dashboards with Qlik sense, which you can download for free at Qlik Datastories. That's Qlik Datastories.",
+      "id": "ep_62_ut_1"
+    },
+    {
+      "end": 45588,
+      "speaker": "Enrico Bertini",
+      "start": 41284,
+      "text": "Hey, everyone. Data stories number 62. Hey, Moritz, how are you?",
+      "id": "ep_62_ut_2"
+    },
+    {
+      "end": 47020,
+      "speaker": "Moritz Stefaner",
+      "start": 45636,
+      "text": "Good. How are you, Enrico?",
+      "id": "ep_62_ut_3"
+    },
+    {
+      "end": 52316,
+      "speaker": "Enrico Bertini",
+      "start": 47132,
+      "text": "I'm good. Good, good. So we had a nice meetup in New York City. That was great.",
+      "id": "ep_62_ut_4"
+    },
+    {
+      "end": 64380,
+      "speaker": "Moritz Stefaner",
+      "start": 52340,
+      "text": "That's true. So it's been a week in New York, and we used the chance to meet some of our listeners. That was great fun. And we did a few, like, live charts about the audience demographics and a few questions we had for them. So it was good.",
+      "id": "ep_62_ut_5"
+    },
+    {
+      "end": 67124,
+      "speaker": "Enrico Bertini",
+      "start": 64492,
+      "text": "That was good. We should post some of these pictures. Yeah.",
+      "id": "ep_62_ut_6"
+    },
+    {
+      "end": 73516,
+      "speaker": "Moritz Stefaner",
+      "start": 67204,
+      "text": "I still need to match them with the questions. We should. We can put a few in the. In the post.",
+      "id": "ep_62_ut_7"
+    },
+    {
+      "end": 78004,
+      "speaker": "Enrico Bertini",
+      "start": 73700,
+      "text": "Yeah, absolutely. I think we have to thank visualized for organizing that.",
+      "id": "ep_62_ut_8"
+    },
+    {
+      "end": 78484,
+      "speaker": "Moritz Stefaner",
+      "start": 78084,
+      "text": "Yeah.",
+      "id": "ep_62_ut_9"
+    },
+    {
+      "end": 82708,
+      "speaker": "Enrico Bertini",
+      "start": 78564,
+      "text": "And of course, everyone for participating. That was fun.",
+      "id": "ep_62_ut_10"
+    },
+    {
+      "end": 83732,
+      "speaker": "Moritz Stefaner",
+      "start": 82836,
+      "text": "Yeah, yeah.",
+      "id": "ep_62_ut_11"
+    },
+    {
+      "end": 94998,
+      "speaker": "Enrico Bertini",
+      "start": 83828,
+      "text": "We should do it more often. So today we talk about visualizing text, and I think we've been trying to organize this kind of episode for a very long time.",
+      "id": "ep_62_ut_12"
+    },
+    {
+      "end": 96342,
+      "speaker": "Moritz Stefaner",
+      "start": 95046,
+      "text": "And I'm from day one, basically.",
+      "id": "ep_62_ut_13"
+    },
+    {
+      "end": 106350,
+      "speaker": "Enrico Bertini",
+      "start": 96398,
+      "text": "From day one, basically. And it's surprising that we never really had such episodes. And I'm really happy to have Chris Collins on the show. Hi, Chris. How are you?",
+      "id": "ep_62_ut_14"
+    },
+    {
+      "end": 109454,
+      "speaker": "Chris Collins",
+      "start": 106462,
+      "text": "Hi, Enrico. Hi, Maria. I'm great, thanks. Thanks for having me.",
+      "id": "ep_62_ut_15"
+    },
+    {
+      "end": 110558,
+      "speaker": "Moritz Stefaner",
+      "start": 109534,
+      "text": "Great to have you.",
+      "id": "ep_62_ut_16"
+    },
+    {
+      "end": 116766,
+      "speaker": "Enrico Bertini",
+      "start": 110686,
+      "text": "So Chris is an assistant professor. Are you still assistant professor or associate?",
+      "id": "ep_62_ut_17"
+    },
+    {
+      "end": 125068,
+      "speaker": "Chris Collins",
+      "start": 116830,
+      "text": "I am an assistant professor as of now, but I handed in my tenure application just a few weeks ago, so you can. I'll send this episode to the provost.",
+      "id": "ep_62_ut_18"
+    },
+    {
+      "end": 153648,
+      "speaker": "Enrico Bertini",
+      "start": 125116,
+      "text": "To see what she thinks. So he's an assistant professor at the University of Ontario in Canada, and he directs a lab that is called via lab visualization for information analysis. And one of the main expertise of Chris is text visualization. So I'm really happy to have him on the show. So, Chris, can you tell us a little bit about yourself, your background and your lab? Of course.",
+      "id": "ep_62_ut_19"
+    },
+    {
+      "end": 282004,
+      "speaker": "Chris Collins",
+      "start": 153676,
+      "text": "Course, sure. Yeah. So I've been working in this area now for probably, I guess, almost ten years since I started my doctoral studies. I originally came from the area of computational linguistics, so I started my master's studies at the University of Toronto in computational linguistics. I was really interested in things like expert systems and conversational agents, Siri type of stuff. And then sort of got a side interest in human computer interaction. And I guess growing up, playing with, there was an old program called Eliza, where you would sort of type to the computer and it would answer you. You'd say, how are you feeling? And say, I feel like a tree. And it would just mirror you back and say, why do you feel like a tree today? So, I mean, those kind of, the promise of those kind of things got me interested in computational linguistics, but it really is a really heavily mathematical area if you really want to do work in that area. And there's a lot of work that's happening where it's just about finding the next 1% improvement in the language translation or the speech recognition or whatever it happens to be. So I turned my eye towards interactive elements of that field and met Sheelagh Carpentale, actually, who is my co supervisor for my doctoral studies, and with Sheelagh and Gerald Penn, who was in the competition, linguistics, we put together this program of research in the area of what we called visual text analytics at that time. And it was really about bringing forward new ways to understand and investigate language with visualization and with interactive visualization. So that's where I got started. Over the years, I've moved more towards the HCI, human computer interaction and information visualization research, but certainly still trying to keep abreast of what's happening in the natural language processing community and using the latest tools there. So, most of the theme of the research in my group right now is related to text and document data. And lately, we've been also working with things like text plus other data, so mixed datasets, as well as new ways to interact with that. So, looking at multi touch interaction, tabletop and wall displays and that kind of stuff as it applies to text and document visualization.",
+      "id": "ep_62_ut_20"
+    },
+    {
+      "end": 299444,
+      "speaker": "Enrico Bertini",
+      "start": 282464,
+      "text": "Great. So I want to start with some kind of definitions. So what is text visualization? So, if you had to define text visualization, and how is it different from other visualizations? How is it different from visualizations of other data types?",
+      "id": "ep_62_ut_21"
+    },
+    {
+      "end": 471142,
+      "speaker": "Chris Collins",
+      "start": 299944,
+      "text": "Well, of course, some of the challenges that exist are the same. So when we talk about information visualization, we generally think about the field as being data that doesn't have a natural spatialization, right? So you have a map, you know where things are. When you have text, you don't really have that information. So it's unstructured information, but I would actually call it semi structured information, because there's certainly an order to the way that the text flows and that can play into the way that you visualize it. There's sometimes really structured metadata that goes along with the document. So, for example, when we work with court case information, we have argumentation back and forth between individuals. We also have the name of the case, the date, all this other information. So it's a kind of sequential and also semi structured data type that brings up some really interesting challenges. It's also interesting in that it's quite varied. So even if we're just talking about a single language like English, the data elements could be every word in the language, whereas if you're talking about something else, you may not have as many different kinds of data elements. So it's pretty challenging to try and fit things like 70,000 words of vocabulary into a view and make it still readable. So I think there's also legibility challenges that come into play that make it really interesting from a design point of view. On the backend, it requires some additional specialized skills in terms of how to manipulate the data. So I'm happy to say there are more and more available tools for doing text processing. But you do need to, if you want to really get into it, you need to understand a little bit, I think, about how it's working in the backend. So things like deciding or automatically annotating the text to decide what's the different parts of speech, maybe you only want to look at the nouns or the verbs, things like being able to segment the text into different topics. These are interesting challenges that come up and require some understanding of natural language processing. I don't know. I can keep going on. Some of the challenges that arise that I think are interesting moving forward in this field are, for example, how do we blend in additional kinds of data? So one of the projects I'm working with right now is looking at text plus user generated art. So people create art images, and then they label them and then talk about them. How do we relate the actual content of the artworks to the text and visualize those two things together? So bringing in additional kinds of data and linking it, I think, is a really interesting challenge. It applies across many different fields of application. So I've done work in education, in legal studies, in social network analysis in big areas. Digital humanities, of course, is an area of interest for me. Things like poetry analysis, novels, that kind of stuff.",
+      "id": "ep_62_ut_22"
+    },
+    {
+      "end": 483470,
+      "speaker": "Enrico Bertini",
+      "start": 471238,
+      "text": "Yeah, it's true that, I mean, when we say text visualization, it's so varied. There are so many sub branches that you can look into, and it's very, very interesting, and it's really hard.",
+      "id": "ep_62_ut_23"
+    },
+    {
+      "end": 523704,
+      "speaker": "Moritz Stefaner",
+      "start": 483542,
+      "text": "I think we should mention it, too. Chris probably wouldn't, but I think it's extremely hard because, I mean, if you take literal, like visualizing a text, like the sequence of letters or words, I mean, that's fairly trivial, right? You can visualize the length or the sequence of strings. But what we're after is, of course, the content, right? And the bar there is, I think, very high in that as humans, we can parse a text effortlessly and look through the text into the content. Right. And then we expect the machine, of course, to do this. The same thing. For a successful text visualization, this can be quite challenging. I could imagine. Right.",
+      "id": "ep_62_ut_24"
+    },
+    {
+      "end": 629534,
+      "speaker": "Chris Collins",
+      "start": 524444,
+      "text": "So I think there's been. I agree with you there. I think one of the things that we have to remember is that text is very rich in meaning, and when we take the words out and put them in isolation, they sort of lose their meaning. So take the word chair, for example. It could be the person is chairing the meeting. They could be sitting on the chair. It could be like the name of. For example, I have a research chair, which is a position. So there's lots of variety in the meaning of individual words. So there's also that common attention aspect where the data atoms are almost meaningless until they're in the combination with one another. So text understanding is something that comes into play here, too. So the semantics and understanding of the text. So we've been looking at that a little bit, but it's a very. It's still a very open area. It's a fine area to work in because I think there's still a lot of interesting challenges. I just want to say one thing. I think that the community in general has been moving away from text visualization as this, like, idea that we're going to replace reading. And I'm really happy about that. Of course, this is not a reading replacement. I don't expect anybody to say, well, I'm going to look at this word all of my book instead of actually reading the book. Right. This is not some books it could work. Maybe. Maybe for some books it could work. It's true, but it's not my goal. Right. So I'm always advocating that the visualization actually is more of a hypothesis generating tool that might raise some interesting questions, so some interesting patterns. But then I always try, I work with my group to make sure that we're linking back to the underlying text. So in all of my works, you'll see that you can interactively drill down and get to the source text that relates to the data elements that you're looking at on the visualization to allow somebody to read the underlying thing and make their own decision. Because we don't know, because the computer doesn't know the meaning of the words, for example, we can't make these visualizations in a way that shows something conclusive.",
+      "id": "ep_62_ut_25"
+    },
+    {
+      "end": 650324,
+      "speaker": "Moritz Stefaner",
+      "start": 630154,
+      "text": "I mean, a big application of text visualization is also to find the right stuff to read. So you might have millions of documents and only 100 of them are relevant for you, but you don't know the exact theory that would lead you to them. And so you want to, I don't know, someone navigate this collection of text. Right.",
+      "id": "ep_62_ut_26"
+    },
+    {
+      "end": 753454,
+      "speaker": "Chris Collins",
+      "start": 650664,
+      "text": "If you don't mind, I'll just jump in and talk a little bit about one of my own projects that relates to that. So I was in collaboration with several other people last year working on a project with Twitter data. And in this project, we were mining Twitter for misinformation. So we were looking at how can we help somebody discover things like rumors? For example, shark is swimming down the street during Hurricane Katrina. This is not true information. And this project, we called it flux flow, and it went towards exactly that. We don't expect a human analyst to be able to monitor all of Twitter or even post an event like Hurricane Katrina or the bomb. We also looked at the bombings in Boston for the Boston Marathon. We can't expect somebody to mine that information to read all of it. But we also can't trust an algorithm to automatically detect what is a rumor. So we applied classifier to allow us to pick out ones that we thought might be rumors. And then a human annotator could triage that information and look through it and use the kinds of annotations and visualizations that we made to try and see why does the algorithm think it's a rumor and then investigate more deeply. So, for example, maybe people are retweeting it who don't normally retweet that kind of information, or it's flowing in a pattern of retweeting that unusual, or it has language that's not usual for that geographic area. So lots of different cues that we use to detect what might be a rumor, but then the visualization becomes that sort of semi automated piece that the person can use to clarify whether or not they, you know, it is in fact a rumor or not. And we were able to show that we could improve upon the performance in that sort of classification of rumors task above what's possible from an automatic standpoint without having the person have to read all of the information.",
+      "id": "ep_62_ut_27"
+    },
+    {
+      "end": 783534,
+      "speaker": "Enrico Bertini",
+      "start": 753764,
+      "text": "Yeah, that's a very interesting area of research in my point of view. That is not only, it's not exclusively interesting in the area of text analytics, I think there is generally interesting problem of how do you actually mix together automated methods and algorithms with visualization. And I think you might also, you might argue that if you can automate something, well, you should try to automate it because you don't want people to be involved, right?",
+      "id": "ep_62_ut_28"
+    },
+    {
+      "end": 784614,
+      "speaker": "Chris Collins",
+      "start": 783874,
+      "text": "Sure.",
+      "id": "ep_62_ut_29"
+    },
+    {
+      "end": 803690,
+      "speaker": "Enrico Bertini",
+      "start": 785114,
+      "text": "So would you actually say that the goal of visualization or visual analytics in this case is to kind of like transition these systems to semi automated to automated kind of systems, or you think that there will always be the need to include a human in the loop?",
+      "id": "ep_62_ut_30"
+    },
+    {
+      "end": 919764,
+      "speaker": "Chris Collins",
+      "start": 803802,
+      "text": "Well, I'm not willing to say always because that kind of statement always makes people incorrect in the long run. But for now, for the foreseeable future, I think a human in the loop is what I see. And I think we're in this phase of transition. We have these buzzwords. I'm sure you talk about it on your episodes quite often, the big data, right. We're moving towards it. We're already in it, I would say, actually a place where information visualization is no longer able to really provide a clear overview. Apologies to Ben Shneiderman. Overview first zoom in filter it's great, but the overview has to be well designed. And in this case, our overview is not an overview of all of Twitter with relation to Hurricane Katrina. Our visualization is an overview of the things that our underlying algorithm picked out as being important with relation to Hurricane Katrina. In Twitter, it's still a well designed overview. You're still really starting with a high level picture, but that high level picture has, I think, more and more it's going to have to have some backend on it to try and curate the view to create something that's approachable. Because frankly, the overview is simply just too high level. It would be like looking at the earth on Google Maps and trying to find your local restaurant. It's just too far away because there's too much information to fit into that overview. So thematically, in my group, and we just recently got a grant to look into this area, is looking at what we're calling analytic guidance and curated views. So taking large amounts of text data and trying to first pick out what's important and then show it. But also, interestingly, from a design point of view, try and reveal why the underlying algorithm thinks that this is an important place for you to look. And also, what's the confidence of the underlying algorithm in deciding that this might be an because we don't want, because we want to be transparent about the decisions that are being made so that we're not biasing people or making them think that this is like 100% important.",
+      "id": "ep_62_ut_31"
+    },
+    {
+      "end": 923524,
+      "speaker": "Moritz Stefaner",
+      "start": 919924,
+      "text": "And what is misinformation or not is a very complex question. Right.",
+      "id": "ep_62_ut_32"
+    },
+    {
+      "end": 924464,
+      "speaker": "Chris Collins",
+      "start": 923564,
+      "text": "Very complex.",
+      "id": "ep_62_ut_33"
+    },
+    {
+      "end": 932818,
+      "speaker": "Moritz Stefaner",
+      "start": 925714,
+      "text": "That definitely needs some editorial insights and debate maybe, and so on, of course.",
+      "id": "ep_62_ut_34"
+    },
+    {
+      "end": 1005904,
+      "speaker": "Chris Collins",
+      "start": 932946,
+      "text": "And also, like, we want to be able to build. So I think one of the interesting, I'm jumping ahead a little bit to thinking about challenges in the field, but text visualization, I work with digital humanities scholars, for example, or you might, and I've also worked with legal scholars. There's a trust issue, right? When you're applying algorithms like topic modeling, you take 500,000 documents and you throw them into the system and then you get a visualization back out that says, here are the topics. It's very hard to explain to somebody how that happened. We can get into the math of it, but it's very hard to explain to an end user. Frankly, the person who designs the algorithm can't really explain the details of how it happened other than how the algorithm works, because if we could do it manually, we would do it manually. We apply these algorithms because we're not able to. There's a trust issue there which I think can be addressed in some ways by trying to design visualizations which expose a little bit of the reasoning behind the ways that the system is making its decisions. So, for example, in the Twitter one we showed, was it unusual words or was it unusual user characteristics that caused this to be flagged as being an unusual tweet? And I think that's an interesting area of future work as well, is building trust with the end users.",
+      "id": "ep_62_ut_35"
+    },
+    {
+      "end": 1021684,
+      "speaker": "Enrico Bertini",
+      "start": 1006244,
+      "text": "Yeah, no, I think that's a very, very important area of research, and I expect this to be one of the main topics for our research in the next years. In a way, you can see the visual analytics conference as the place where this kind of research is published. Right, Chris?",
+      "id": "ep_62_ut_36"
+    },
+    {
+      "end": 1037008,
+      "speaker": "Chris Collins",
+      "start": 1022144,
+      "text": "For sure, yeah, that's, you know, I've been really impressed by the progress of the visual analytics conference and the quality of the work there. It's been really fun to see the amount of growth in this area of text visualization over the last ten years since I started in this field.",
+      "id": "ep_62_ut_37"
+    },
+    {
+      "end": 1079398,
+      "speaker": "Moritz Stefaner",
+      "start": 1037096,
+      "text": "Can I do a quick plug for the probing, probing projections thesis? So it's from Potsdam. It just came out. And the guy, Julian Stahnke, he also has a paper at risk coming up and he was investigating exactly this. Like, how do, when you have a multidimensional dataset and you're projected on 2d. How does that work exactly? And what is the wiggle room there? And, you know, how could it be different in a different parameter setting or something? And so he actually visualizes all these, like, these individual slices of data that make up that larger projection, tries to open up that black box a bit more. And I think that goes in a very similar direction.",
+      "id": "ep_62_ut_38"
+    },
+    {
+      "end": 1139554,
+      "speaker": "Chris Collins",
+      "start": 1079566,
+      "text": "I think this is really important, really important work. I did see the notice about that one yesterday on Twitter. I'm really interested in all of these types of approaches that help people expose, especially things like multidimensional projection or topic modeling in the linguistics point of view, these black box algorithms. I did a project a few years ago where we looked at exposing the confidence that machine translation has in the translations that it suggests with visualization. And I've got actually a collaboration with Danyel Keim Mountain Konstanz and his student, PhD student Manuel Academy. And we're looking at sort of investigating the underlying aspects of topic modeling and how we can expose that to make it something that people can understand a little bit better. So really, I'm happy to see that, that lots of great works like the one out of Potsdam are coming out now because I think it's, all of these parameter based algorithms that feed into visualization are so confusing for end users to understand what's going on. And I think it's a great design challenge to try and figure out ways to expose that in a way that's approachable and understandable.",
+      "id": "ep_62_ut_39"
+    },
+    {
+      "end": 1149614,
+      "speaker": "Moritz Stefaner",
+      "start": 1140414,
+      "text": "Yeah, maybe we exactly, as you say, need to educate the end user, actually, about machine learning in order to make some progress, actually. I mean, that sounds quite a challenge.",
+      "id": "ep_62_ut_40"
+    },
+    {
+      "end": 1150694,
+      "speaker": "Chris Collins",
+      "start": 1149734,
+      "text": "Very challenging.",
+      "id": "ep_62_ut_41"
+    },
+    {
+      "end": 1152510,
+      "speaker": "Moritz Stefaner",
+      "start": 1150814,
+      "text": "But maybe that's, that's actually the way to go.",
+      "id": "ep_62_ut_42"
+    },
+    {
+      "end": 1159206,
+      "speaker": "Chris Collins",
+      "start": 1152542,
+      "text": "I think that's an, maybe that's another episode. But there's a whole lot of discussion happening right now about visual literacy. I mean, the.",
+      "id": "ep_62_ut_43"
+    },
+    {
+      "end": 1161142,
+      "speaker": "Moritz Stefaner",
+      "start": 1159350,
+      "text": "Coming up, December. Mid December.",
+      "id": "ep_62_ut_44"
+    },
+    {
+      "end": 1189014,
+      "speaker": "Chris Collins",
+      "start": 1161198,
+      "text": "Yeah, right. Okay, great. People don't even know how to read a bar graph. So, I mean, that's, that's a, that's a, that's not fair. That's an overgeneralization. But, but I think we need to be aware of the audience. And, and I think it's an interesting issue in terms of how do we help people to see it. Of course, the people that I'm working with generally are willing to take some time to have some training about how to use a visualization system because they might be using it for a period of time. Right.",
+      "id": "ep_62_ut_45"
+    },
+    {
+      "end": 1212204,
+      "speaker": "Enrico Bertini",
+      "start": 1189754,
+      "text": "The trust issue, I've experienced exactly the same problem many, many times myself, whenever I collaborate with some domain experts. And what is interesting is that most of the time, these experts are very well trained scientists, and they understand the methods quite well. And still they have problems in terms of trusting the output of certain algorithms.",
+      "id": "ep_62_ut_46"
+    },
+    {
+      "end": 1216544,
+      "speaker": "Chris Collins",
+      "start": 1213184,
+      "text": "Enrico, I know how algorithms work, so sometimes I have problems trusting.",
+      "id": "ep_62_ut_47"
+    },
+    {
+      "end": 1217240,
+      "speaker": "Enrico Bertini",
+      "start": 1216584,
+      "text": "Yeah, absolutely.",
+      "id": "ep_62_ut_48"
+    },
+    {
+      "end": 1220600,
+      "speaker": "Chris Collins",
+      "start": 1217272,
+      "text": "Of course, you put a plus one instead of a minus one, and you get totally different results.",
+      "id": "ep_62_ut_49"
+    },
+    {
+      "end": 1221644,
+      "speaker": "Enrico Bertini",
+      "start": 1220712,
+      "text": "Absolutely.",
+      "id": "ep_62_ut_50"
+    },
+    {
+      "end": 1235500,
+      "speaker": "Chris Collins",
+      "start": 1222384,
+      "text": "I'm always encouraging my group to make sure that we're using data that we know well and doing sanity tests on the outcomes of these algorithms to make sure that we know, at least for the known data that we're getting. Stuff that makes sense before we throw unknown data into it.",
+      "id": "ep_62_ut_51"
+    },
+    {
+      "end": 1236124,
+      "speaker": "Enrico Bertini",
+      "start": 1235672,
+      "text": "Sure.",
+      "id": "ep_62_ut_52"
+    },
+    {
+      "end": 1243084,
+      "speaker": "Moritz Stefaner",
+      "start": 1236204,
+      "text": "Can we talk about a few more of your projects so people get a sense of what you're working on and what the breadth of that space really.",
+      "id": "ep_62_ut_53"
+    },
+    {
+      "end": 1246064,
+      "speaker": "Enrico Bertini",
+      "start": 1243124,
+      "text": "Is and what a text visualization actually is?",
+      "id": "ep_62_ut_54"
+    },
+    {
+      "end": 1370388,
+      "speaker": "Chris Collins",
+      "start": 1247164,
+      "text": "Yeah, yeah. Well, okay. So I started off, this is an older project, but it's available for people to play with online if they want. It's called docuburst. So d o c u b u r s t. You can just google it. And here we were looking at that problem of the words in the language. You throw them into something like a tag cloud, and they're just sort of splatted onto the screen in a random alignment, and you don't really know where words that are associated with each other don't appear on the screen next to each other. So what we tried to do here was take an underlying structure of the language based on its meaning and create a graphic that shows the contents of a text based on the organization of the words based on their meaning. So all of the things that have to do with animals will appear in one branch. So you'll see, you know, there are lots of different animal words in this text. And then we took that, and again, we linked it to the underlying text so you could drill down, so you can click a note that says dog, and you can see all of the places where dog occurs in the book, but not just dog, but all of the dog related words. Right. So all the different types of dogs will also be highlighted. So it's a way of generalizing something like a tag cloud or word cloud, up to higher levels of semantic generalization. So that project was. It was interesting. We designed that for doing what's called distant reading. So Franco Moretti wrote this great book, graphs, maps, and trees, which really was inspirational to me, looking at how can we take long texts and allow people to see quickly some high level patterns within those texts. And this particular docubers project was designed for that. But it was interesting to see that people will co opt it and use it for other things. Right. So I had law enforcement agencies coming to me saying, can we use this for looking at email databases, people, teachers, saying, the visualization itself of the structure of language is useful for helping people learn how to understand english vocabulary. So it's sort of been fine. That's been a long term project. That one's been ongoing since 2007, and it's still alive, and we're still actually monitoring its use online.",
+      "id": "ep_62_ut_55"
+    },
+    {
+      "end": 1375556,
+      "speaker": "Moritz Stefaner",
+      "start": 1370556,
+      "text": "And what's the ontology behind it? Like, how do you determine what is part of which category?",
+      "id": "ep_62_ut_56"
+    },
+    {
+      "end": 1421730,
+      "speaker": "Chris Collins",
+      "start": 1375700,
+      "text": "Oh, sure, yeah. So the technology there is pretty simple. We do part of speech tagging, so we pick out the nouns. We also, recently we've added, so we can pick out the proper nouns, so the names of people and places, those don't fit into the sort of meaning structure of language. So we have those actually on the side as a separate view. But the regular nouns in the language, we categorize them based on a data source called wordnet, and it organizes nouns based on a relationship called hyponymy, but essentially it means the is a relationship. So chair is a type of furniture. Furniture is a type of household object, and that's the structure. So from the middle going outward, when you look at it, you'll see the more general term in the middle. And then the branches of the tree moving outward get more and more specific. And then the most specific words occur around the edge.",
+      "id": "ep_62_ut_57"
+    },
+    {
+      "end": 1426410,
+      "speaker": "Moritz Stefaner",
+      "start": 1421802,
+      "text": "Right. Right. And the chair, like, how do you know if it's not the department chair?",
+      "id": "ep_62_ut_58"
+    },
+    {
+      "end": 1428778,
+      "speaker": "Chris Collins",
+      "start": 1426602,
+      "text": "Well, we don't. We don't. And that's a very good question.",
+      "id": "ep_62_ut_59"
+    },
+    {
+      "end": 1430858,
+      "speaker": "Moritz Stefaner",
+      "start": 1428826,
+      "text": "You count them for both or for either?",
+      "id": "ep_62_ut_60"
+    },
+    {
+      "end": 1470204,
+      "speaker": "Chris Collins",
+      "start": 1430906,
+      "text": "Yeah, we really struggle with that decision. Luckily for us, Wordnet is designed, it's manually designed by lexicographers, so there's some professional curation happening behind the scenes there. And they ran rank the meanings of words based on their frequency of occurrence. So we actually used that ranking to divide the contribution of the word by its rank. So the lower down in the ranking list it is, the less contribution it gets for that meaning of the word in the structure. And then we're pretty secure in our part of speech tagging. So things like chair, you know, chair, the verb. I chaired the meeting chair. This thing I sit in. That's pretty well disambiguated.",
+      "id": "ep_62_ut_61"
+    },
+    {
+      "end": 1476636,
+      "speaker": "Moritz Stefaner",
+      "start": 1471164,
+      "text": "Yeah. So even if you have a financial text, it will still count bank partly as riverbank. As well?",
+      "id": "ep_62_ut_62"
+    },
+    {
+      "end": 1499604,
+      "speaker": "Chris Collins",
+      "start": 1476780,
+      "text": "Unfortunately, yes. But that's a perfect area of future research. I mean, one of the problems there, I think, is that Wordnet is a wonderful resource and we use it a lot in the lab, but it's very fine grained in its meanings. So for example, for bank, it has bank the financial institution, and also bank the building the financial institution is housed in. So can you imagine trying to automatically disambiguate this? It's just not.",
+      "id": "ep_62_ut_63"
+    },
+    {
+      "end": 1500396,
+      "speaker": "Moritz Stefaner",
+      "start": 1499724,
+      "text": "That's not funny.",
+      "id": "ep_62_ut_64"
+    },
+    {
+      "end": 1501304,
+      "speaker": "Chris Collins",
+      "start": 1500420,
+      "text": "It's not possible.",
+      "id": "ep_62_ut_65"
+    },
+    {
+      "end": 1517704,
+      "speaker": "Moritz Stefaner",
+      "start": 1502404,
+      "text": "Yeah, I see. But I mean, these are the things like once you know that you can work with that in interpreting the structures you get, you just have to know about that. Right. It's a fine example of, you need to understand a bit how the sausage is made in that area.",
+      "id": "ep_62_ut_66"
+    },
+    {
+      "end": 1574282,
+      "speaker": "Chris Collins",
+      "start": 1518404,
+      "text": "Well, it holds back a little bit the applicability of some of these tools. So, for example, we've been doing a little bit on sentiment analysis, but not a lot. And approaches that use sort of word counting for sentiment analysis are notoriously bad because they count an occurrence of a word that might sound happy as being happy no matter when it occurs, right. And it might occur in a negation, but if they don't do parsing to distinguish that, then you actually end up counting it as being a positive thing. So you might say, I'm not very happy about the service I received at that restaurant. And they just say, oh, that person was very happy. Right. So there's some nuance and sort of gets towards language understanding that has to happen in order to make the visualization actually correct. And for the most part, we hope that it all sort of comes out in the wash when we use a lot of data and throw it at the algorithms. But in some cases, like sentiment analysis, it really, it doesn't work out. I think. I think more sophistication is needed.",
+      "id": "ep_62_ut_67"
+    },
+    {
+      "end": 1579562,
+      "speaker": "Moritz Stefaner",
+      "start": 1574338,
+      "text": "Nice. Yeah, I just saw you can try out docubers online, so I'll totally do that with my.",
+      "id": "ep_62_ut_68"
+    },
+    {
+      "end": 1581378,
+      "speaker": "Chris Collins",
+      "start": 1579618,
+      "text": "For sure. Upload your own document like this.",
+      "id": "ep_62_ut_69"
+    },
+    {
+      "end": 1582014,
+      "speaker": "Moritz Stefaner",
+      "start": 1581426,
+      "text": "Yeah.",
+      "id": "ep_62_ut_70"
+    },
+    {
+      "end": 1830612,
+      "speaker": "Chris Collins",
+      "start": 1584434,
+      "text": "We'Ve got a bunch of stuff. You can try it online. So the last couple of years we've had some really interesting work looking at semantic patterns of words and passwords. So this work has been a lot of fun. We've had, we had some uptake, actually. We participated with the New York Times magazine on an article called the Secret Language of passwords. We've been looking at it from a security point of view. So if you have, you've heard, I'm sure, about lots of databases of leaked passwords. Unfortunately, websites that were hacked and passwords were released online or hashes of passwords were released online. So we've been taking those now, unfortunately, open databases and investigating them with my security researcher colleague Julie Thorpe. We've been looking at what are the patterns in there? So we often see, you know, rules around passwords don't use, you know, it has to be this long. You must use a number and a special character or whatever. But if somebody always writes I love you, 123 exclamation point, it covers those categories. But if it's the most common password online, then it's not a secure password, because if somebody knows that, they'll just guess it. So we've been looking, you can go online and see lots of lists of the most common passwords, but we've been breaking it down and instead looking at the most common components of passwords and the way that those components combine. So, for example, the I love you. We would combine it, we would break it down into I love you, and we would even go higher level within that and say that love is a verb. It's a verb of emotion. So we've classified millions and millions of passwords based on breaking it down into the components and then parsing that and looking at the patterns that fall out of there. So what are the combinations of semantic categories? We've seen some really, like, from a sociolinguistic point of view, we've seen some interesting things, like people will write things like I love and a name, very common. Don't do it in your password if you want to have a secure password, because just to full disclosure, our paper turned this around and said, okay, well, now that we've learned all of this, we can turn it into a guessing algorithm and we published it. So, but we found interesting things like I love in a male name is four times more common than I love in a female name in passwords. So I don't know what that says about society, but it's interesting phenomenon. We found also things like really cutesy animals are super popular. So dolphins and butterflies, puppies, cats, of course, cats, not so much spiders. Actually the most popular animal word we found that was monkey. And I'd be happy to hear from somebody if they have an idea about why. I was thinking about sports teams, but I don't really know of a monkey sports team, but yeah. So in the process of doing that research of understanding the semantic patterns and passwords, we used visualization. So we had two different visualizations. We had one where we looked at, and these are both available online. We looked at the patterns of words occurring in passwords as compared to normal language. So standard English. And we found things like, of course, the word I is very highly common in passwords compared to normal English, but the word love is also extremely common compared to normal English and then other expected ones like password. Of course, profanity, much more common in passwords than in regular English and also more common than people knew, given investigations of passwords to date, because the normal way to do this is to bring people into the lab and say, please make up a password or do a crowdsourcing thing, and they're embarrassed. Right. They won't do it. So in our investigation of these released passwords, we find that there's a lot more profanity and sexuality in the passwords than we expected. The other visualization we made, which you can look at online, is an investigation of the date patterns. So the number patterns. And we looked at six to eight digits numbers and how they correspond to date patterns in the calendar. And we found, of course, that given the expected birthdays of the people who are using the websites, that it's mostly birthdays, but we've also found highly occurring holidays and things like that as well.",
+      "id": "ep_62_ut_71"
+    },
+    {
+      "end": 1836572,
+      "speaker": "Moritz Stefaner",
+      "start": 1830788,
+      "text": "Yeah, it's something you can memorize. It looks complex, but it's easy to memorize, and people think it's smart. Right.",
+      "id": "ep_62_ut_72"
+    },
+    {
+      "end": 1839384,
+      "speaker": "Chris Collins",
+      "start": 1836748,
+      "text": "Valentine's Day. Don't use that as your password.",
+      "id": "ep_62_ut_73"
+    },
+    {
+      "end": 1842504,
+      "speaker": "Moritz Stefaner",
+      "start": 1840524,
+      "text": "I'm 20 412.",
+      "id": "ep_62_ut_74"
+    },
+    {
+      "end": 1858856,
+      "speaker": "Chris Collins",
+      "start": 1843744,
+      "text": "The most, unfortunately, the most common number patterns that looked like dates were actually, I think, people just being lazy and going, 010101, which are algorithms, again, getting at that trust aspect and that ambiguity aspect in the underlying data. We look at that and we say, well, is that January 1, 2021?",
+      "id": "ep_62_ut_75"
+    },
+    {
+      "end": 1868120,
+      "speaker": "Moritz Stefaner",
+      "start": 1858880,
+      "text": "But it's also, you know, you enter your password like your standard password, monkey. Then the site says, well, please include a number. And then you go like Monkey 1212.",
+      "id": "ep_62_ut_76"
+    },
+    {
+      "end": 1880954,
+      "speaker": "Chris Collins",
+      "start": 1868312,
+      "text": "Right. So with my colleague, this is outside of the visualization realm, but we're following up on this to try and think about, given what we know now, how can we help make password creation a little bit easier for people?",
+      "id": "ep_62_ut_77"
+    },
+    {
+      "end": 1881782,
+      "speaker": "Enrico Bertini",
+      "start": 1881254,
+      "text": "Sure.",
+      "id": "ep_62_ut_78"
+    },
+    {
+      "end": 1882470,
+      "speaker": "Chris Collins",
+      "start": 1881878,
+      "text": "Sure.",
+      "id": "ep_62_ut_79"
+    },
+    {
+      "end": 1886074,
+      "speaker": "Enrico Bertini",
+      "start": 1882622,
+      "text": "I'm trying to think how many of these mistakes I've done in the past.",
+      "id": "ep_62_ut_80"
+    },
+    {
+      "end": 1898988,
+      "speaker": "Moritz Stefaner",
+      "start": 1886694,
+      "text": "Let's not get started. Is there good. There are probably good guidelines. Is there a good strategy that is easy to memorize, but the outcomes are complex enough that you don't have a problem?",
+      "id": "ep_62_ut_81"
+    },
+    {
+      "end": 1971694,
+      "speaker": "Chris Collins",
+      "start": 1899156,
+      "text": "We got to go back to XKCD here, right? Everybody goes back there. The correct horse battery staple. If you don't know that one, you should look it up. I think making things that are long and memorable. I have a theory, but it's not tested, that things that are a little bit more offbeat and wacky might be more memorable, but we're investigating that right now. So I don't know, but definitely trying to steer clear of the common things that people say. So if you want to say, like, I love Dan, for example, as your password, you might turn it around and instead say, like, dan is awesome. So you can do that kind of something more unique, something that captures the semantics of what you want to say. Because there's a human element here with passwords, people are talking about, they're creating something that they know they're going to type many times in a day, and they want to be able to type something that's pleasing to them, hopefully most of the time. And that's what we've seen, people are writing affirmational passwords, like, I can do it, I'm great. Those kind of things. Unfortunately, sometimes we saw things falling out of the visualization that were quite disturbing as well, people denigrating themselves. But generally speaking, the goal here, I think, is to try and make something that's, of course, totally random would be the best, but that's not very memorable. So if you want to use words, trying to get away from common patterns.",
+      "id": "ep_62_ut_82"
+    },
+    {
+      "end": 1980426,
+      "speaker": "Enrico Bertini",
+      "start": 1972514,
+      "text": "So, Chris, this tool would be perfect for hackers, actually. So do you know how many of these patterns that you found were known to hackers?",
+      "id": "ep_62_ut_83"
+    },
+    {
+      "end": 2014994,
+      "speaker": "Chris Collins",
+      "start": 1980610,
+      "text": "Well, it's hard for us to say what's been, what's known, I guess, in that community, but I expect that they weren't. I mean, we have done quite a bit of investigation into the type, like. So, for example, we tested our algorithms against sort of the state of the art password guessing tools from the hacker community, and we were able to guess passwords, not more passwords, but guess more passwords quickly because we're able to. Basically, now that we've learned this, we can rank our guesses a little bit better.",
+      "id": "ep_62_ut_84"
+    },
+    {
+      "end": 2027662,
+      "speaker": "Moritz Stefaner",
+      "start": 2016574,
+      "text": "Yeah, you can make high level statements about this class of passwords is more easily guessed by standard cracking tools, and then you can say, avoid this whole class of passwords. That's sort of interesting.",
+      "id": "ep_62_ut_85"
+    },
+    {
+      "end": 2044034,
+      "speaker": "Chris Collins",
+      "start": 2027838,
+      "text": "Yeah. So, I mean, we've been doing, trying to speak about this from the point of view of trying to help people be more secure. Of course, our goal here, we understand the ethical context that we're working in, and certainly we don't make available, you know, the guessing tool.",
+      "id": "ep_62_ut_86"
+    },
+    {
+      "end": 2130044,
+      "speaker": "Moritz Stefaner",
+      "start": 2046614,
+      "text": "So this is a great time to take a little break for a word from our sponsor data stories is brought to you by Qlik, who allow you to explore the hidden relationships within your data that lead to meaningful insights. Let your instincts lead the way to create personalized visualizations and dynamic dashboards with Qlik sense, which you can download for free at Qlik Datastories. That's Qlik Datastories. And there's an interesting virtual event coming up on November 18, and it's an online gathering so everybody can join. And it will be under the motto, are you seeing the whole story that lives within your data? And we will learn something about the latest bi solutions. So the Qlik chief technology officer Anthony Dayton will present a visual analytics platform overview so you can learn about Qlikview Twelve, the new Qlik Sense 2.1, and the new cloud services. There will be a lot of customer insight, so actual people using Qlik in their business will be sharing their experiences and presentations and demonstrations. And there's loads of networking opportunities so you can live chat with partners, customers and Qlik experts. So that will surely be interesting. So thanks again so much for sponsoring the show. You can find out more at click des Datastories. And now back to the show.",
+      "id": "ep_62_ut_87"
+    },
+    {
+      "end": 2133524,
+      "speaker": "Enrico Bertini",
+      "start": 2130544,
+      "text": "So Chris, is there another project you want to talk about?",
+      "id": "ep_62_ut_88"
+    },
+    {
+      "end": 2258240,
+      "speaker": "Chris Collins",
+      "start": 2134064,
+      "text": "Sure. Maybe one that is a bit newer that I just, I'm going to stick to things that people can play with online because they might enjoy that. We're working on a project that's not yet published, but it's sort of fun. It's a bit out there called Lexichrome. So L e x I C h r O M E, playing with, you know, lexicography and chromatics. So we're looking at the colors of language, is the idea. And my student Chris Kim has been making this great website where you can upload your own text and investigate the colors that the text evokes. And the data set that's behind this comes out of a colleague of ours. Saif M. Mohammad did a crowdsourcing study where he asked people to, they were given a word and the meaning of the word, and then they were asked to choose a color that, that it made them think of. So of course we think of green. People will think of money, especially in the United States. Jealousy, also green, ocean blue, those kind of things. I love red. And then some interesting ones that you might not expect. So we looked at the agreement between the people participating in the crowdsourcing study about what color a word evokes. And the visualization shows both from a language. So there are five, four sort of movements in the visualization so one of them shows the language as a whole, and you can look at the words that are most closely associated with colors. And then you can go across and look again at a thesaurus view. So you can see branches of the language and how they are associated with colors. So you'll see the green branch popping up. It's actually, you might think of it as plants, but it's actually words like envy and jealousy and wealth. And then the other movement is you can look at. You can upload a text and look at its chromatic fingerprint. We call it based on the words in that text. And you can compare different texts together. So you upload Edgar Allan Poe, you get a lot of dark, black, gray, white, and you upload something that's a little bit more fun or lighthearted.",
+      "id": "ep_62_ut_89"
+    },
+    {
+      "end": 2278004,
+      "speaker": "Moritz Stefaner",
+      "start": 2258272,
+      "text": "This is a sense of how far this goes. So I'm looking at yellow, and it says cowardly nugget, banana buttery citrine. I don't know what that means. Glowing jaundice lantern. So it's, you know, for any type of saxophone. So that is true. I love this.",
+      "id": "ep_62_ut_90"
+    },
+    {
+      "end": 2289064,
+      "speaker": "Enrico Bertini",
+      "start": 2278164,
+      "text": "It's synthesia. It's interesting. Some of them are pretty obvious, but some others, you just don't know where they metaphor. It's really interesting. I'm looking at blue. We have paternity.",
+      "id": "ep_62_ut_91"
+    },
+    {
+      "end": 2323594,
+      "speaker": "Chris Collins",
+      "start": 2291684,
+      "text": "So what I want to draw your attention to there is the fact, just to sort of cycle back a little bit to our discussion of trust, we've tried in this visualization to show the level of agreement that the community had about a particular word's association with a color. So in the view, that's just the color blocks. You'll see these bar graphs behind the word that show the amount of agreement. And then if you hover on that, you'll get a tool tip that pops up that shows the other colors that people associated with that word. So hopefully to be seen soon in a publication.",
+      "id": "ep_62_ut_92"
+    },
+    {
+      "end": 2333912,
+      "speaker": "Moritz Stefaner",
+      "start": 2324544,
+      "text": "So what could you do with it? So you can recognize texts, I guess you can maybe recognize texts that have a similar emotional or. Yeah. Visual content.",
+      "id": "ep_62_ut_93"
+    },
+    {
+      "end": 2368504,
+      "speaker": "Chris Collins",
+      "start": 2334088,
+      "text": "Yeah. I mean, it's. People have done emotional content before. We're really thinking about this. It's funny how you jump there, because I also think of the color as having an emotional component. Right. But it really is. The underlying study was really about color component, not emotional component. We're interested in it from the point of view of maybe authors, people, maybe in advertising, for example, thinking about the current context here in Canada, like political campaigning, thinking about that. How can you tone your message to make sure that you're not. Coke is not putting out its brand manifesto that evokes the color of blue in everybody's mind. Right.",
+      "id": "ep_62_ut_94"
+    },
+    {
+      "end": 2376064,
+      "speaker": "Moritz Stefaner",
+      "start": 2369644,
+      "text": "You could have it in a text editor, and you go like, you reread your text and like, ah, it's so yellow, I should add something.",
+      "id": "ep_62_ut_95"
+    },
+    {
+      "end": 2392094,
+      "speaker": "Chris Collins",
+      "start": 2378294,
+      "text": "So we went out and we talked to some people, we talked to some authors, and they actually said that that could potentially be useful. The ability to even have a suggestion, too, to swap out a word, to make it a synonym that might have a better color association for them.",
+      "id": "ep_62_ut_96"
+    },
+    {
+      "end": 2392454,
+      "speaker": "Moritz Stefaner",
+      "start": 2392134,
+      "text": "Exactly.",
+      "id": "ep_62_ut_97"
+    },
+    {
+      "end": 2393074,
+      "speaker": "Enrico Bertini",
+      "start": 2392494,
+      "text": "Yeah.",
+      "id": "ep_62_ut_98"
+    },
+    {
+      "end": 2403394,
+      "speaker": "Moritz Stefaner",
+      "start": 2393654,
+      "text": "Do you know the software IA writer? So it's a simple markdown text editor. But what they do is for editing your text, they let you highlight the adjectives, nouns and verbs.",
+      "id": "ep_62_ut_99"
+    },
+    {
+      "end": 2404470,
+      "speaker": "Chris Collins",
+      "start": 2404014,
+      "text": "Right.",
+      "id": "ep_62_ut_100"
+    },
+    {
+      "end": 2427720,
+      "speaker": "Moritz Stefaner",
+      "start": 2404542,
+      "text": "Just so you can examine your writing style and see, like, you know, usually too many adjectives is not great. Or to just look at the adjectives in isolation and spot repetitions. Everybody has their habits and is getting lazy. And it can be so good to mix up things a bit when you write a text. I think that would be brilliant to have a plugin for the colors and the text.",
+      "id": "ep_62_ut_101"
+    },
+    {
+      "end": 2490614,
+      "speaker": "Chris Collins",
+      "start": 2427792,
+      "text": "I think that would be great. I think there's a whole bunch of different visualization tools that could work that way. We've been talking about my work. I don't want to. So apologies to my colleagues if I'm not talking about your work too much, but there's one that I wanted to call out, which is called literature fingerprinting, which was really inspirational to me. It came out of the University of Konstanz and Daniela Oka's work with Danyel Keim. And they looked at things like the first paper, they looked at document similarity from the point of view of creating these fingerprint views that would show you one document versus another. But one of the applications that they applied, which makes me think of what you were just talking about, Moritz, is the ability to look at your document and see what parts of your text are actually difficult to read. So, looking at the readability of your document were things like repetition in your document and allow you to go back then and edit your text based on what you see in the visualization. So this could be really useful if you know your target audience. I know for me, trying to make sometimes communications that are addressable to a general audience, not a computer science audience, this kind of a tool would be very useful.",
+      "id": "ep_62_ut_102"
+    },
+    {
+      "end": 2499700,
+      "speaker": "Enrico Bertini",
+      "start": 2491364,
+      "text": "Yeah, I think that Daniela created such tool some time ago. That was readability. That was interesting as well.",
+      "id": "ep_62_ut_103"
+    },
+    {
+      "end": 2502908,
+      "speaker": "Chris Collins",
+      "start": 2499772,
+      "text": "Yeah. There was a follow up paper from the literature, fingerprinting nice.",
+      "id": "ep_62_ut_104"
+    },
+    {
+      "end": 2527646,
+      "speaker": "Moritz Stefaner",
+      "start": 2502996,
+      "text": "Yeah. So just in case somebody wants to get started in this area, like, sounds all super fantastic. Good idea for a text editor plugin. What do you think? What's the best route into it? If you're just generally interested, but you don't know how to get started, are there any cool tools around, or libraries or what should they read? Like, what's a good crash course in text database?",
+      "id": "ep_62_ut_105"
+    },
+    {
+      "end": 2542542,
+      "speaker": "Chris Collins",
+      "start": 2527790,
+      "text": "I would start with the text visualization browser by the Isovis group. So their website catalogs hundreds of text visualizations across different kinds of dimensions. So what types of tasks did they support, what types of data sources are they bringing in?",
+      "id": "ep_62_ut_106"
+    },
+    {
+      "end": 2543174,
+      "speaker": "Moritz Stefaner",
+      "start": 2542598,
+      "text": "Nice.",
+      "id": "ep_62_ut_107"
+    },
+    {
+      "end": 2651378,
+      "speaker": "Chris Collins",
+      "start": 2543334,
+      "text": "That's a really inspirational place to get ideas and maybe get anti ideas to see what's not working or what has been done a million times, or what has been done. Yeah, exactly. And you'll see a bunch of works from the people I've been discussing as well as my own stuff in there. That would be a good place to start. It's not going to teach you, of course, how to do text visualization, but it might give you some inspiration. I think getting some understanding of some of the underlying NLP natural language processing tools is definitely important. Not that you have to learn how to innovate and make new tools, but how to use the existing ones. And the ones that we make most use of here in my group are things like the Stanford NLP toolkit. We use one from, it's called NlTK, it's a python toolkit, natural language toolkit, of course, wordnet, which we already mentioned. Those are the main ones that we're making use of. And then things like. So Stanford NLP tools, for example, will do part of speech tagging, it will do parsing and tell you something about the structure of the sentence. So I think that will get you from the level of just making word clouds into having some additional sophistication that allows for some more variety of approaches. And then we can, of course D3 is the one that we're making a lot of use of now in the group in terms of visualization toolkits to create things. And then we make also, if you're looking for data sources, there are lots of places to get data. So Twitter, of course has an API where you can gather stuff. Wikipedia is available, dictionaries like Webster's. We also make use of open libraries of texts. So for example Project Gutenberg, where you have all of the out of print or, sorry, out of copyright novels where you can gather, and those are all free. So those are good places to start. Wordnet's free as well, I think, visualizing.",
+      "id": "ep_62_ut_108"
+    },
+    {
+      "end": 2665244,
+      "speaker": "Moritz Stefaner",
+      "start": 2651426,
+      "text": "Literature and also dramatic plays, it's something I just can't get tired of. I know it's been done so often, but I love these projects that, I don't know, take apart Shakespeare or look at the structure of fairy tales.",
+      "id": "ep_62_ut_109"
+    },
+    {
+      "end": 2666296,
+      "speaker": "Chris Collins",
+      "start": 2665584,
+      "text": "Sure. Yeah.",
+      "id": "ep_62_ut_110"
+    },
+    {
+      "end": 2668128,
+      "speaker": "Moritz Stefaner",
+      "start": 2666360,
+      "text": "Love these types of projects.",
+      "id": "ep_62_ut_111"
+    },
+    {
+      "end": 2694690,
+      "speaker": "Chris Collins",
+      "start": 2668216,
+      "text": "I think also I like projects that look at text, that has some element of civic engagement from my own personal things that I like, things that look at the State of the union address in the US. There's some great visualizations from the New York Times there about that. Projects that look at argumentation in parliament, parliamentary debate or legal issues, those kind of things. Those datasets are generally also freely available.",
+      "id": "ep_62_ut_112"
+    },
+    {
+      "end": 2697514,
+      "speaker": "Moritz Stefaner",
+      "start": 2694802,
+      "text": "That's true. Annotated maybe in some form.",
+      "id": "ep_62_ut_113"
+    },
+    {
+      "end": 2699694,
+      "speaker": "Chris Collins",
+      "start": 2697594,
+      "text": "Yeah, very cleaned up and annotated.",
+      "id": "ep_62_ut_114"
+    },
+    {
+      "end": 2715214,
+      "speaker": "Moritz Stefaner",
+      "start": 2700114,
+      "text": "How about, like, when you work with social media data, you often have the exact opposite. It's just a bunch of words misspelled. Like, what's the best approach there? Like, many people will probably want to do some. Some Twitter topic analysis or, you know, things like this.",
+      "id": "ep_62_ut_115"
+    },
+    {
+      "end": 2794874,
+      "speaker": "Chris Collins",
+      "start": 2716194,
+      "text": "Yeah, I mean, Twitter has a special challenge in that. Like you said, things might be misspelled. Words are used in creative and playful ways. We have very little signal, so each tweet is only 140 characters long. So it's an interesting challenge. But then there's a high volume and a high rate of speed of arriving data. I don't know if I have specific advice about that. I mean, there's some great tools for. So what we've done in the past is look at snapshots, right? So we're taking all the tweets from a particular amount of time and throwing them into a database and then looking at them deeply. We had another project called Sentiment State. It was just an undergraduate project. We were looking at Twitter and it was sentiment analysis on Twitter. I didn't really want to plug it because it's got that problem that I mentioned in the beginning where we're just counting the words. The actual emotion ratings are not super. We're not very confident in them. But it's so easy, though, to hook up to Twitter's API and just grab tweets for a particular user or a particular keyword. So, I mean, it's not really. That's. I don't think that's the barrier. I think the barrier is, what do you do with that text once you have it, and how do you understand what's in it? And I don't know the answer to that. Unfortunately, because that's the challenge.",
+      "id": "ep_62_ut_116"
+    },
+    {
+      "end": 2805476,
+      "speaker": "Enrico Bertini",
+      "start": 2795534,
+      "text": "Chris, can you describe what are the most common kind of pre processing operation that one has to do for before tasks can be visualized?",
+      "id": "ep_62_ut_117"
+    },
+    {
+      "end": 2840844,
+      "speaker": "Chris Collins",
+      "start": 2805540,
+      "text": "Actually, yeah, sure. So there's a bunch of things that we'll do. Of course, depending on the type of document you're loading in, you might have to do some detection of metadata fields. So who's the author? What's the date of the document? Those kind of things. Once you have, if you have free text, like the text of a novel, probably you're going to want to pass it through a part of speech tagger to know what are the nouns, the verbs, the adjectives? Maybe a parser, if you want to do things like correcting the negations, is a simple one.",
+      "id": "ep_62_ut_118"
+    },
+    {
+      "end": 2849376,
+      "speaker": "Moritz Stefaner",
+      "start": 2841824,
+      "text": "It basically means understanding grammar, understanding how it takes its structure grammatically, and the.",
+      "id": "ep_62_ut_119"
+    },
+    {
+      "end": 2932954,
+      "speaker": "Chris Collins",
+      "start": 2849400,
+      "text": "Relationships between words as well. So for example, there's one you can use called the Stanford dependency parser, which is available online. And you can then look at what noun is the adjective describing in a sentence, which is important. People will sometimes, I'm cautious about this, but do a technique called stop word removal. So removing words that are not considered to be contentful. I say I'm conscious about it because sometimes, for example, if you're doing an analysis that has to do with author styles, the use of words like the of and can actually be very distinctive for a particular author. But if that's, but if you're doing a content analysis, then probably you want to remove those things. So those are the pre processing steps. Even when we remove stop words, we keep all the original data. We just sort of flag them as being removed. Counting the words. I prefer to do a counting of the words with comparison to a corpus. So for example, instead of just counting the words, we'll look at counting the words with relation to something called the corpus of contemporary American English. So how does the, depending on what the texts are looking at an appropriate comparison corpus and trying to see what distinguishes these documents from normal English. I find that really interesting as a way to pull out the important keywords instead of just the frequent words.",
+      "id": "ep_62_ut_120"
+    },
+    {
+      "end": 2938014,
+      "speaker": "Moritz Stefaner",
+      "start": 2933614,
+      "text": "So if I understand, you write, it really depends a lot on what you actually want to do.",
+      "id": "ep_62_ut_121"
+    },
+    {
+      "end": 2939054,
+      "speaker": "Chris Collins",
+      "start": 2938174,
+      "text": "Yeah, I guess so.",
+      "id": "ep_62_ut_122"
+    },
+    {
+      "end": 2958344,
+      "speaker": "Moritz Stefaner",
+      "start": 2939134,
+      "text": "It's a bit like, well, how do we visualize the weather? Yeah, it depends on, you know, what you're in and how you can measure that. Like what's the sensing apparatus that delivers something that you can then visualize? And that seems to be the most, the crucial decision. Right. Like what are we actually looking into here.",
+      "id": "ep_62_ut_123"
+    },
+    {
+      "end": 3015424,
+      "speaker": "Chris Collins",
+      "start": 2958884,
+      "text": "Yeah. What's the task? What's the comparison that you're trying to make? What is your question really? Because if you're interested in, like, the types of words that somebody says, then you'll have to do a different thing than if you're interested in the topics in overall corpus of documents. So it's, yeah, it really does matter what the topic is. We, so for example, we have one where we're looking now, I'm tipping my hat a little bit, but we're looking at, I'll just say briefly, we're looking at the words, the place words in documents, so the locations. So that's a specific application where we had to try and find a geo visualization, like a geo parser basically, to try and pull out place names. So it really does depend on the task. But luckily we didn't have to design a parser to pull out place names from a text that exists. So really that has really changed since I started in my career, the availability of open tools for lots of specialized text parsing.",
+      "id": "ep_62_ut_124"
+    },
+    {
+      "end": 3054574,
+      "speaker": "Enrico Bertini",
+      "start": 3015884,
+      "text": "I have to say I've been doing some text visualization work recently, and I've been struggling quite a lot with the whole idea of extracting interesting keywords and trying to define exactly what a keyword is. I think, especially in terms of frequency, doesn't, doesn't seem to work extremely well. And I see two common problems that I'm always stuck with. One is that frequency doesn't seem to work really well, even after a stop word removal. And second, that single words very often don't seem to be very meaningful. So do you have any recommendations there?",
+      "id": "ep_62_ut_125"
+    },
+    {
+      "end": 3089684,
+      "speaker": "Chris Collins",
+      "start": 3054914,
+      "text": "That's a very, very astute observation. Yeah. Was telling you guys earlier, I have a set of slides that I use if I give a talk that say, these are the grand challenges in text visualization, and one of them I have is actually this problem of one word doesn't capture it. So how do you determine if it's a single word or if it's a multi word colloquy, we call it. So words that are combinationally put together. One of the things that I've always wanted to see in things like word clouds is the ability to have longer, like sometimes one word, sometimes two words, depending on the context of the parents.",
+      "id": "ep_62_ut_126"
+    },
+    {
+      "end": 3092408,
+      "speaker": "Moritz Stefaner",
+      "start": 3090264,
+      "text": "There are ways you have to decide, right?",
+      "id": "ep_62_ut_127"
+    },
+    {
+      "end": 3092832,
+      "speaker": "Chris Collins",
+      "start": 3092576,
+      "text": "Yeah.",
+      "id": "ep_62_ut_128"
+    },
+    {
+      "end": 3100224,
+      "speaker": "Moritz Stefaner",
+      "start": 3092848,
+      "text": "You have to decide whether it's one word or it's two words combined or three words, but you don't get the most plausible combination. Right?",
+      "id": "ep_62_ut_129"
+    },
+    {
+      "end": 3114904,
+      "speaker": "Chris Collins",
+      "start": 3100304,
+      "text": "Right, yeah. Right. But there are ways to detect that, right? There are ways to detect common collocations, we call them. So things like there's a technique called engram model which looks at how frequent do words occur together. Of course, the first question. I forgot what you said.",
+      "id": "ep_62_ut_130"
+    },
+    {
+      "end": 3118140,
+      "speaker": "Enrico Bertini",
+      "start": 3115204,
+      "text": "I just said that just using frequency doesn't work, right?",
+      "id": "ep_62_ut_131"
+    },
+    {
+      "end": 3120028,
+      "speaker": "Chris Collins",
+      "start": 3118212,
+      "text": "Oh, frequency, yeah. So of course, even.",
+      "id": "ep_62_ut_132"
+    },
+    {
+      "end": 3138786,
+      "speaker": "Enrico Bertini",
+      "start": 3120156,
+      "text": "Sorry for interrupting. Even just using plain TF IDF, it's probably the common way of coming up with what is relevant words for a document or bunch of documents or any segmentation that you have of a document collection doesn't seem to work extremely well in many cases.",
+      "id": "ep_62_ut_133"
+    },
+    {
+      "end": 3143674,
+      "speaker": "Chris Collins",
+      "start": 3138980,
+      "text": "Well, I was going to mention TF IDF, so maybe I won't.",
+      "id": "ep_62_ut_134"
+    },
+    {
+      "end": 3147422,
+      "speaker": "Enrico Bertini",
+      "start": 3144414,
+      "text": "But I remember you have a different technique in one of your papers.",
+      "id": "ep_62_ut_135"
+    },
+    {
+      "end": 3221540,
+      "speaker": "Chris Collins",
+      "start": 3147478,
+      "text": "Yeah, yeah. In the parallel tag clouds paper, we used a technique called dunning log likelihood measure. So we were. So it goes back to looking at comparison corpus. So it's like a version of TF IDF, but we're looking at, instead of scoring the words based on their occurrence within a document with relation to other documents in the collection, we're looking at a comparison collection. So for example, we used a. It was, we were looking at court cases, and for an individual court case, we had two comparisons. We had the comparison of the other court cases in the collection, but we also had a comparison of the english language as a whole. And there we're looking at a statistical measure that says, how likely is it that the frequency of the occurrence of this word that we're seeing in this document is not random? Sorry. The difference between the frequency of it in this document versus the regular language is not random. So in the passwords case, we use this. We have the word love. It occurs a lot in the passwords, but if it occurs a lot in regular English, then it's not interesting to us. So we look at it as a comparison and we say, okay, well, it occurs twice as often in passwords than it does in regular documents. And then the measure is able to tell us what's the likelihood that that is by chance. So that's one that I like.",
+      "id": "ep_62_ut_136"
+    },
+    {
+      "end": 3224164,
+      "speaker": "Moritz Stefaner",
+      "start": 3221572,
+      "text": "It's very easy to calculate difference. Could you say that?",
+      "id": "ep_62_ut_137"
+    },
+    {
+      "end": 3242524,
+      "speaker": "Chris Collins",
+      "start": 3224204,
+      "text": "Yeah, it's like a chi squared measure. It's like a significant difference measure, and it's a very easy one to calculate. So, so it's easy to understand what it's doing. It's an expectation measure, basically. So you're saying, you know, given this much text, if it was normal English, I would expect to see the word love five times. If I see it 30 times, then maybe something interesting is going on here.",
+      "id": "ep_62_ut_138"
+    },
+    {
+      "end": 3243780,
+      "speaker": "Moritz Stefaner",
+      "start": 3242564,
+      "text": "Might be a love letter.",
+      "id": "ep_62_ut_139"
+    },
+    {
+      "end": 3244812,
+      "speaker": "Chris Collins",
+      "start": 3243932,
+      "text": "Might be a love letter.",
+      "id": "ep_62_ut_140"
+    },
+    {
+      "end": 3248632,
+      "speaker": "Enrico Bertini",
+      "start": 3244868,
+      "text": "So where do you get the frequency, the baseline from?",
+      "id": "ep_62_ut_141"
+    },
+    {
+      "end": 3283808,
+      "speaker": "Chris Collins",
+      "start": 3248788,
+      "text": "So I. Yeah, so I'm using, there are lots of open corpora that you can get. So for example, there's one called the British national corpus b and c. In our work we're using one called the corpus of contemporary American English. There's also one called the corpus of historical American English. And these are supposed, these are designed corpora, they're not free, unfortunately, that you can purchase, that are used for, that are curated to have a general overview of the language. So they have news stories, they have novels, they have personal letters. All of these different genres of text are thrown in there together to try and give a capture of the language as a whole.",
+      "id": "ep_62_ut_142"
+    },
+    {
+      "end": 3292924,
+      "speaker": "Enrico Bertini",
+      "start": 3283896,
+      "text": "Nice. So is there anything else that person wants to start doing? Text visualization needs to know or other references that you want to mention?",
+      "id": "ep_62_ut_143"
+    },
+    {
+      "end": 3319104,
+      "speaker": "Chris Collins",
+      "start": 3294744,
+      "text": "Let's see. No, I don't think so. I mean I think right now exploring what's out there already, focusing on what is the problem at hand and targeting that, I think not trying to replace reading, linking to the underlying text. These are sort of my mantras in some ways that I always bring into the design of visualizations that I'm working with in my lab.",
+      "id": "ep_62_ut_144"
+    },
+    {
+      "end": 3331424,
+      "speaker": "Moritz Stefaner",
+      "start": 3320044,
+      "text": "Do you need to be able to code really well to do text analysis? So there don't seem to be that many UI tools to where you can just drag and drop a text and then get interesting patterns out, right?",
+      "id": "ep_62_ut_145"
+    },
+    {
+      "end": 3410678,
+      "speaker": "Chris Collins",
+      "start": 3331794,
+      "text": "Yeah, no there aren't. There are tools like the open websites that I've just talked about, my own stuff where you can upload your own text, docubers, lexachrome, you can upload your own text to those. There are lots of digital humanities tools around. So for example, there's one called tapor text analysis portal for research and that one allows you to upload your own texts and look at it. There's a movement towards fragmentation of the community in a way that I think is really interesting, where instead of looking, I mean no offense to wordle, it was influential, very important word cloud visualization. But wordle was for everybody, right? And I think in some ways it ended up being for everybody but also for nobody when it came to like why is it actually useful for. Yeah, but I mean to be fair, I mean it's the most popular text visualization ever. So it was an amazing project, but I like the movement towards specialized work. So visualizations for a particular area, like I talked about the passwords, research visualizations that are designed for journalism is a big area right now, computational journalism. Of course, journalists deal with a lot of, you know, WikiLeaks, this kind of thing, where you have a lot of documents that appear all at once. How do you triage those documents and find interesting things? This is where text visualization clearly would be powerful legal studies, because, I mean.",
+      "id": "ep_62_ut_146"
+    },
+    {
+      "end": 3418686,
+      "speaker": "Moritz Stefaner",
+      "start": 3410806,
+      "text": "If you say you build a tool where you can drop any text and it will do something, you are limited to fairly, like simplicity.",
+      "id": "ep_62_ut_147"
+    },
+    {
+      "end": 3420246,
+      "speaker": "Chris Collins",
+      "start": 3418710,
+      "text": "You're doing word counting and you don't.",
+      "id": "ep_62_ut_148"
+    },
+    {
+      "end": 3424988,
+      "speaker": "Moritz Stefaner",
+      "start": 3420310,
+      "text": "Exploit like that it's a court case, or that it's a poem, or it's.",
+      "id": "ep_62_ut_149"
+    },
+    {
+      "end": 3426940,
+      "speaker": "Chris Collins",
+      "start": 3424996,
+      "text": "A dialogue, for example, or a password.",
+      "id": "ep_62_ut_150"
+    },
+    {
+      "end": 3437184,
+      "speaker": "Moritz Stefaner",
+      "start": 3427012,
+      "text": "And I think that's a great point, that if we ask for these generic tools, we're giving up a lot on the really interesting things you can do on a specific type of challenge.",
+      "id": "ep_62_ut_151"
+    },
+    {
+      "end": 3449092,
+      "speaker": "Enrico Bertini",
+      "start": 3437964,
+      "text": "Yeah, I think it's a fine line, though, because you can for generic tools as well, and generate tools is what tends to be successful and adopted. If you look at what.",
+      "id": "ep_62_ut_152"
+    },
+    {
+      "end": 3450620,
+      "speaker": "Moritz Stefaner",
+      "start": 3449148,
+      "text": "Or get people started and adopt.",
+      "id": "ep_62_ut_153"
+    },
+    {
+      "end": 3458334,
+      "speaker": "Enrico Bertini",
+      "start": 3450652,
+      "text": "Yeah, exactly. Line there. I think we still need to find the right formula.",
+      "id": "ep_62_ut_154"
+    },
+    {
+      "end": 3479610,
+      "speaker": "Chris Collins",
+      "start": 3462114,
+      "text": "Yeah, yeah. I mean, we've been moving towards, of course, you can transform your data and put it into Tableau or some other software after the pre process by turning it into a vector of numbers. Right. And look at it that way. I think it's also the fact that.",
+      "id": "ep_62_ut_155"
+    },
+    {
+      "end": 3487766,
+      "speaker": "Moritz Stefaner",
+      "start": 3479642,
+      "text": "You have a small number of features, like, you know, you don't want to have like a word vector with millions of columns.",
+      "id": "ep_62_ut_156"
+    },
+    {
+      "end": 3488086,
+      "speaker": "Enrico Bertini",
+      "start": 3487870,
+      "text": "Yeah.",
+      "id": "ep_62_ut_157"
+    },
+    {
+      "end": 3490158,
+      "speaker": "Chris Collins",
+      "start": 3488110,
+      "text": "Or 70,000. Right.",
+      "id": "ep_62_ut_158"
+    },
+    {
+      "end": 3494474,
+      "speaker": "Moritz Stefaner",
+      "start": 3490206,
+      "text": "Yeah, that's the thing, yeah. Interesting.",
+      "id": "ep_62_ut_159"
+    },
+    {
+      "end": 3510734,
+      "speaker": "Enrico Bertini",
+      "start": 3495694,
+      "text": "So, Chris, I would like to conclude, talking about a little bit of the future of text visualization and what are the open issues and the main challenges there. I'm sure you have your own ideas and opinions.",
+      "id": "ep_62_ut_160"
+    },
+    {
+      "end": 3673114,
+      "speaker": "Chris Collins",
+      "start": 3511514,
+      "text": "I do. I'm always looking to the future. As a professor, it feels like sometimes grant writing is the main job, but I'm trying to figure out what are the next challenges that are emerging for me, I think there's a few things, one we've already talked about, which is this idea of building trust. The more that we incorporate, the more and more sophisticated backend algorithms that are doing things like topic modeling or projections, the further we get from the ability for the end user to actually understand what just happened. So bridging that gap to try and open up that black box of text processing and bring forward what's happening behind the scenes in an understandable way. I don't know the answer, but it's something that I want to look at for the next few years. What else? Uncertainty representation is an interesting one that connects. There's analyzing a document like we did with the Lexachrome example, and there's some underlying uncertainty in the way that the text has been analyzed, the output of that algorithm, can we reveal that in the view in a way that's interpretable for somebody who may be making a decision based on what they're looking at on the screen? So if we say that, you know, this collection has certain topics in it, maybe it's good for us to be able to also say the amount of confidence that the algorithm has in that topic model result. Moritz brought up some really interesting challenges, which are more NLP challenges, but I think as they're solved, they're going to change the way we do visualization. So word sense disambiguation being the big one, how do we understand what the word actually means in the context that it was mentioned? So sort of getting that deep semantics and incorporating that back into the visualization view. And of course, we're dealing with high frequency like data arriving all the time, things like social media analysis. So I think from a visual analytics point of view, we've got some opportunity here to bring in things like views that know something about what the person looked at yesterday. So if I'm interested in monitoring what people are saying about my company and whether or not they're happy with our customer service today, then maybe I don't want to just see the snapshot, but I want to see the snapshot where the algorithm knows what view I saw yesterday and what conclusions I made about that view. And how does it differ today from what I saw yesterday. So I think that's an interesting opportunity as well, bringing more user modeling into this area. So that's where I'm interested. So enriching some of the backend algorithms to know something about the user, to know something about the text itself, and something about the confidence in the processing that's happening behind the scenes, and then achieve all this without making it so complicated that nobody can understand the visualization.",
+      "id": "ep_62_ut_161"
+    },
+    {
+      "end": 3676846,
+      "speaker": "Moritz Stefaner",
+      "start": 3674494,
+      "text": "It's quite a quite which I think.",
+      "id": "ep_62_ut_162"
+    },
+    {
+      "end": 3729974,
+      "speaker": "Enrico Bertini",
+      "start": 3676870,
+      "text": "It's a big challenge. I mean, honestly, I think we as a community don't have a good history of making visualizations extremely easy to parse. I think we've been, there are lots of visualizations out there that have been published in the past that are particularly complex. And I think complexity doesn't play very well with a lot of people. I always get this kind of feedback that this is just too much. I just, I think there are. I have a theory that there are people who have kind of like personal trait that scares them when you see too much information at once. And it's not true for everyone, but it happens to me very often when I try to show one of those high density visualizations, they're totally scared. It's kind of like, hey, it's just too much for me. I mean, I don't want to even start looking at it. Did you ever notice that?",
+      "id": "ep_62_ut_163"
+    },
+    {
+      "end": 3813584,
+      "speaker": "Chris Collins",
+      "start": 3730394,
+      "text": "Oh, definitely. You know, I'm guilty of it too. I'm sure if some of you listen myself, read it, read through my repository of work online. We try and simplify, we try to edit. That's again going back to that idea of these curated views and helping people get started in a visualization by telling them some interesting places to look first rather than showing everything all at once. But I think again, yes, general tools are likely the most successful and popular, but there is still a place for complexity and things that might require training and expertise. So, for example, if I'm doing a specific project, looking at people who do poetics, poetry analysis doesn't necessarily have to be a walk up and use visualization that somebody can just open their web browser and look at. I'm okay with it requiring a little bit of training and a little bit of expertise to understand. It just depends on what the goal is. So if the goal is everybody can use it, then that's an interesting design challenge that I think I agree with you. Some of the complexity that's published in our community in particular, is too much for the general audience. And I'm inspired by groups like I already mentioned, the New York Times, who are able to make things that a general readership can use. And I ask my students to read, to look at the New York Times collections of visualizations and be inspired by them, because I think there's a lot for us to learn in the research community about the way to present things in a simplified manner.",
+      "id": "ep_62_ut_164"
+    },
+    {
+      "end": 3818708,
+      "speaker": "Moritz Stefaner",
+      "start": 3814044,
+      "text": "Now I feel like visualizing this episode. Enrico, we should get a transcript and.",
+      "id": "ep_62_ut_165"
+    },
+    {
+      "end": 3827360,
+      "speaker": "Chris Collins",
+      "start": 3818756,
+      "text": "Put it out as a challenge. As we've been speaking. I already thought of it. I was like, I'm getting one of my students, sorry, students. To transcribe this and we're going to make a visualization of it. Yeah.",
+      "id": "ep_62_ut_166"
+    },
+    {
+      "end": 3831792,
+      "speaker": "Enrico Bertini",
+      "start": 3827392,
+      "text": "You know, we've been thinking about having transcriptions for a long time. Maybe we should.",
+      "id": "ep_62_ut_167"
+    },
+    {
+      "end": 3835056,
+      "speaker": "Moritz Stefaner",
+      "start": 3831848,
+      "text": "Maybe this is the point where we should start them.",
+      "id": "ep_62_ut_168"
+    },
+    {
+      "end": 3837136,
+      "speaker": "Enrico Bertini",
+      "start": 3835160,
+      "text": "We need a few thousand volunteers.",
+      "id": "ep_62_ut_169"
+    },
+    {
+      "end": 3839352,
+      "speaker": "Chris Collins",
+      "start": 3837320,
+      "text": "Yes. Crowdsourcing it.",
+      "id": "ep_62_ut_170"
+    },
+    {
+      "end": 3844776,
+      "speaker": "Moritz Stefaner",
+      "start": 3839408,
+      "text": "A thousand monkeys. They type randomly. And you know how it works, right?",
+      "id": "ep_62_ut_171"
+    },
+    {
+      "end": 3849080,
+      "speaker": "Chris Collins",
+      "start": 3844920,
+      "text": "I can just run the recordings through a speech recognition system and we'll see the funny outputs of.",
+      "id": "ep_62_ut_172"
+    },
+    {
+      "end": 3851358,
+      "speaker": "Moritz Stefaner",
+      "start": 3849152,
+      "text": "We just use Siri and should be fine.",
+      "id": "ep_62_ut_173"
+    },
+    {
+      "end": 3852686,
+      "speaker": "Chris Collins",
+      "start": 3851406,
+      "text": "Yeah, let's do that.",
+      "id": "ep_62_ut_174"
+    },
+    {
+      "end": 3854994,
+      "speaker": "Enrico Bertini",
+      "start": 3852750,
+      "text": "Let's do that. Yeah, absolutely.",
+      "id": "ep_62_ut_175"
+    },
+    {
+      "end": 3861914,
+      "speaker": "Moritz Stefaner",
+      "start": 3855814,
+      "text": "Cool. I think we have to wrap up. Time passes as usual, much faster when you're recording something.",
+      "id": "ep_62_ut_176"
+    },
+    {
+      "end": 3871870,
+      "speaker": "Chris Collins",
+      "start": 3862974,
+      "text": "Well, I just want to say this has been so much fun. I really enjoy your podcast and it was a real treat to be invited, and I'm so glad to talk to you today.",
+      "id": "ep_62_ut_177"
+    },
+    {
+      "end": 3890264,
+      "speaker": "Enrico Bertini",
+      "start": 3871982,
+      "text": "Thanks, Chris, for coming on the show. That's very helpful. I think that people, we love this episode because we text visualization is a very important topic, and we've been trying to organize this episode for a very long time. So thanks a lot.",
+      "id": "ep_62_ut_178"
+    },
+    {
+      "end": 3891104,
+      "speaker": "Chris Collins",
+      "start": 3890384,
+      "text": "Oh, you're welcome.",
+      "id": "ep_62_ut_179"
+    },
+    {
+      "end": 3892616,
+      "speaker": "Moritz Stefaner",
+      "start": 3891184,
+      "text": "Thanks for coming. Thanks.",
+      "id": "ep_62_ut_180"
+    },
+    {
+      "end": 3893304,
+      "speaker": "Enrico Bertini",
+      "start": 3892720,
+      "text": "Bye, Chris.",
+      "id": "ep_62_ut_181"
+    },
+    {
+      "end": 3894364,
+      "speaker": "Chris Collins",
+      "start": 3893384,
+      "text": "Bye bye.",
+      "id": "ep_62_ut_182"
+    },
+    {
+      "end": 3922284,
+      "speaker": "Enrico Bertini",
+      "start": 3897304,
+      "text": "Data stories is brought to you by click, who allows you to explore the hidden relationships within your data that lead to meaningful insights. Let your instincts lead the way to create personalized visualizations and dynamic dashboards with Qlik sense, which you can download for free at Qlik deries. That's Qlik deries.",
+      "id": "ep_62_ut_183"
+    }
+  ],
+  "confidence": 0.932435292796537,
+  "audio_duration": 3922,
+  "punctuate": true,
+  "format_text": true,
+  "dual_channel": false,
+  "webhook_url": null,
+  "webhook_status_code": null,
+  "webhook_auth": false,
+  "webhook_auth_header_name": null,
+  "speed_boost": false,
+  "auto_highlights_result": null,
+  "auto_highlights": false,
+  "audio_start_from": null,
+  "audio_end_at": null,
+  "word_boost": [],
+  "boost_param": null,
+  "filter_profanity": false,
+  "redact_pii": false,
+  "redact_pii_audio": false,
+  "redact_pii_audio_quality": null,
+  "redact_pii_policies": null,
+  "redact_pii_sub": null,
+  "speaker_labels": true,
+  "content_safety": false,
+  "iab_categories": true,
+  "content_safety_labels": {
+    "status": "unavailable",
+    "results": [],
+    "summary": {}
+  },
+  "language_detection": false,
+  "language_detection_threshold": null,
+  "language_confidence": null,
+  "custom_spelling": null,
+  "throttled": false,
+  "auto_chapters": true,
+  "summarization": false,
+  "summary_type": null,
+  "summary_model": null,
+  "custom_topics": false,
+  "topics": [],
+  "speech_threshold": null,
+  "speech_model": "best",
+  "chapters": [
+    {
+      "summary": "Data stories is brought to you by Qlik, who allows you to explore the hidden relationships within your data. Let your instincts lead the way to create personalized visualizations and dynamic dashboards with Qlik sense.",
+      "gist": "Data Stories: Qulik Sense",
+      "headline": "Qlik allows you to explore hidden relationships within your data that lead to meaningful insights",
+      "start": 160,
+      "end": 30314,
+      "id": "ep_62_ch_0"
+    },
+    {
+      "summary": "Hey, everyone. So we had a nice meetup in New York City. We used the chance to meet some of our listeners. And we did a few, like, live charts about the audience demographics. We should post some of these pictures.",
+      "gist": "A Week in the Life",
+      "headline": "Data stories number 62: Meet some of our listeners in New York",
+      "start": 41284,
+      "end": 85144,
+      "id": "ep_62_ch_1"
+    },
+    {
+      "summary": "Today we talk about visualizing text. It's surprising that we never really had such episodes. And I'm really happy to have Chris Collins on the show. Great to have you.",
+      "gist": "Vinue: Visualizing Text",
+      "headline": "Chris Collins joins us to talk about visualizing text",
+      "start": 85804,
+      "end": 110558,
+      "id": "ep_62_ch_2"
+    },
+    {
+      "summary": "Chris is an assistant professor at the University of Ontario in Canada. He directs a lab that is called via lab visualization for information analysis. One of the main expertise of Chris is text visualization. I'm really happy to have him on the show.",
+      "gist": "Applying for tenure in the United States",
+      "headline": "Chris is an assistant professor at the University of Ontario. And one of his main expertise is text visualization",
+      "start": 110686,
+      "end": 147664,
+      "id": "ep_62_ch_3"
+    },
+    {
+      "summary": "Chris O'Brien originally came from the area of computational linguistics. Over the years, he's moved more towards the HCI, human computer interaction and information visualization research. Most of the theme of the research in his group right now is related to text and document data.",
+      "gist": "Interactive language in the world",
+      "headline": "Chris Hickey originally came from computational linguistics; now focuses on interactive visualization",
+      "start": 148044,
+      "end": 282004,
+      "id": "ep_62_ch_4"
+    },
+    {
+      "summary": "Text visualization is a type of data that doesn't have a natural spatialization. It's a sequential and also semi structured data type that brings up some interesting challenges. On the backend, it requires some additional specialized skills in terms of how to manipulate the data.",
+      "gist": "What is Text Visualization?",
+      "headline": "What is text visualization and how is it different from other data types",
+      "start": 282464,
+      "end": 649688,
+      "id": "ep_62_ch_5"
+    },
+    {
+      "summary": "The goal of visualization or visual analytics in this case is to transition these systems to semi automated to automated kind of systems. For now, for the foreseeable future, I think a human in the loop is what I see.",
+      "gist": "Artificial Intelligence and Data Visualization",
+      "headline": "Ben Shneiderman: I was working on a project using Twitter data",
+      "start": 649736,
+      "end": 935834,
+      "id": "ep_62_ch_6"
+    },
+    {
+      "summary": "There's a trust issue when you're applying algorithms like topic modeling. All of these parameter based algorithms that feed into visualization are so confusing for end users to understand. It's a great design challenge to try and expose that in a way that's approachable and understandable.",
+      "gist": "The challenges of text-visualization",
+      "headline": "There's a trust issue when applying algorithms to text visualization, right",
+      "start": 935914,
+      "end": 1236124,
+      "id": "ep_62_ch_7"
+    },
+    {
+      "summary": "Text visualization shows the contents of a text based on the organization of the words based on their meaning. It's a way of generalizing something like a tag cloud or word cloud, up to higher levels of semantic generalization. Law enforcement agencies have used it for looking at email databases, people, teachers.",
+      "gist": "Two of the Text Visibility projects",
+      "headline": "Can we talk about a few more of your projects that focus on text visualization",
+      "start": 1236204,
+      "end": 1574282,
+      "id": "ep_62_ch_8"
+    },
+    {
+      "summary": "Researchers have been looking at the semantic patterns of words and passwords. They found that there's a lot more profanity and sexuality in passwords than people knew. The research can be turned into a guessing algorithm.",
+      "gist": "Looking at the Secret Language of Passwords",
+      "headline": "We've been looking at semantic patterns of words and passwords",
+      "start": 1574338,
+      "end": 2044034,
+      "id": "ep_62_ch_9"
+    },
+    {
+      "summary": "There's an interesting virtual event coming up on November 18, and it's an online gathering so everybody can join. ClIC chief technology officer Anthony Dayton will present a visual analytics platform overview. There will be a lot of customer insight. You can find out more at click des Datastories.",
+      "gist": "Qlik Deatastories",
+      "headline": "Qlik Datastories will host a virtual event on November 18",
+      "start": 2046614,
+      "end": 2130044,
+      "id": "ep_62_ch_10"
+    },
+    {
+      "summary": "We're working on a project that's not yet published, but it's sort of fun. It's looking at the colors of language. You can upload your own text and investigate the colors that the text evokes. The underlying study was really about color component, not emotional component.",
+      "gist": "Lexichrome: The colors of language",
+      "headline": "Chris Kim: We're looking at the colors of language",
+      "start": 2130544,
+      "end": 2431792,
+      "id": "ep_62_ch_11"
+    },
+    {
+      "summary": "Moritz: What's a good crash course in text database? I would start with the text visualization browser by the Isovis group. Getting some understanding of some of the underlying NLP natural language processing tools is definitely important. There are lots of places to get data.",
+      "gist": "What's the best route to learning to visualize text?",
+      "headline": "Moritz: Getting started with text visualization can be daunting",
+      "start": 2431928,
+      "end": 2699694,
+      "id": "ep_62_ch_12"
+    },
+    {
+      "summary": "Twitter has a special challenge in that. Words are used in creative and playful ways. Each tweet is only 140 characters long. The barrier is, what do you do with that text once you have it?",
+      "gist": "How to Analyze Social Media Data",
+      "headline": "Twitter has a special challenge in that it has very little signal",
+      "start": 2700114,
+      "end": 2794874,
+      "id": "ep_62_ch_13"
+    },
+    {
+      "summary": "Chris: What is the most common pre processing operation that one has to do for before tasks can be visualized? Chris: Counting the words with comparison to a corpus. It really depends on the task. The availability of open tools for specialized text parsing.",
+      "gist": "Preprocessing operations in a text parser",
+      "headline": "Chris, can you describe what are the most common pre processing operations before visualization",
+      "start": 2795534,
+      "end": 3138786,
+      "id": "ep_62_ch_14"
+    },
+    {
+      "summary": "In the parallel tag clouds paper, we used a technique called dunning log likelihood measure. Instead of scoring words based on their occurrence within a document, we're looking at a comparison collection. The difference between the frequency of it in this document versus the regular language is not random.",
+      "gist": "DTI and the Dunning-Tree likelihood measure",
+      "headline": "In the parallel tag clouds paper, we used dunning log likelihood measure",
+      "start": 3138980,
+      "end": 3284384,
+      "id": "ep_62_ch_15"
+    },
+    {
+      "summary": "Do you need to be able to code really well to do text analysis? There don't seem to be that many UI tools to where you can just drag and drop a text. I like the movement towards specialized work. Research visualizations that are designed for journalism is a big area right now.",
+      "gist": "Does Text Visualization Need a Specialization?",
+      "headline": "Do you need to code really well to do text analysis",
+      "start": 3284504,
+      "end": 3494474,
+      "id": "ep_62_ch_16"
+    },
+    {
+      "summary": "The more that we incorporate, the more and more sophisticated backend algorithms that are doing things like topic modeling or projections, the further we get from the ability for the end user to understand what just happened. The challenge is to make visualizations extremely easy to parse.",
+      "gist": "Text Visualization: The Future",
+      "headline": "Chris Martin talks about the future of text visualization and what are the challenges",
+      "start": 3495694,
+      "end": 3813584,
+      "id": "ep_62_ch_17"
+    },
+    {
+      "summary": "Now I feel like visualizing this episode. Enrico, we should get a transcript and. Put it out as a challenge. A thousand monkeys. They type randomly. I can just run the recordings through a speech recognition system. We need a few thousand volunteers.",
+      "gist": "How to make a transcript of Siri's speech",
+      "headline": "Enrico: Maybe we should start crowdsourcing transcriptions",
+      "start": 3814044,
+      "end": 3854994,
+      "id": "ep_62_ch_18"
+    },
+    {
+      "summary": "Chris: Well, I just want to say this has been so much fun. Let your instincts lead the way to create personalized visualizations and dynamic dashboards with Qlik sense. Thanks for coming. Bye bye.",
+      "gist": "Qlik Data Stories: Text Visualization",
+      "headline": "Chris: Well, I just want to say this has been so much fun",
+      "start": 3855814,
+      "end": 3922284,
+      "id": "ep_62_ch_19"
+    }
+  ],
+  "disfluencies": false,
+  "entity_detection": false,
+  "sentiment_analysis": false,
+  "sentiment_analysis_results": null,
+  "entities": null,
+  "speakers_expected": null,
+  "summary": null,
+  "custom_topics_results": null,
+  "episode_num": 62,
+  "episode_metadata": {
+    "speakers": [
+      "Chris Collins",
+      "Moritz Stefaner",
+      "Enrico Bertini"
+    ],
+    "WPid": "412",
+    "url": "https://datastori.es/podlove/file/1377/s/feed/c/mp3/text-visualization-past-present-and-future-with-chris-collins-ds62.mp3",
+    "episode_title": "Text Visualization: Past, Present and Future with Chris Collins"
+  }
+}

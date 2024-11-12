@@ -1,0 +1,870 @@
+{
+  "id": "dc474295-8460-468d-a895-97d03907913d",
+  "language_model": "assemblyai_default",
+  "acoustic_model": "assemblyai_default",
+  "language_code": "en_us",
+  "status": "completed",
+  "audio_url": "https://datastori.es/podlove/file/1298/s/feed/c/mp3/visualizing-your-google-search-history-with-lisa-charlotte-rost-ds61.mp3",
+  "utterances": [
+    {
+      "end": 4394,
+      "speaker": "Lisa Charlotte Rost",
+      "start": 200,
+      "text": "A really nice overview of my interests and how they increased and decreased.",
+      "id": "ep_61_ut_0"
+    },
+    {
+      "end": 6838,
+      "speaker": "Moritz Stefaner",
+      "start": 6454,
+      "text": "Data.",
+      "id": "ep_61_ut_1"
+    },
+    {
+      "end": 8254,
+      "speaker": "Enrico Bertini",
+      "start": 6886,
+      "text": "Stories is brought to you by click.",
+      "id": "ep_61_ut_2"
+    },
+    {
+      "end": 24582,
+      "speaker": "Moritz Stefaner",
+      "start": 8334,
+      "text": "Who allows you to explore the hidden relationships within your data that lead to meaningful insights. Let your instincts lead the way to create personalized visualizations and dynamic dashboards with Qlik sense, which you can download for free at Qlik deries.",
+      "id": "ep_61_ut_3"
+    },
+    {
+      "end": 28914,
+      "speaker": "Enrico Bertini",
+      "start": 24718,
+      "text": "That's Qlik Datastories.",
+      "id": "ep_61_ut_4"
+    },
+    {
+      "end": 43844,
+      "speaker": "Moritz Stefaner",
+      "start": 40084,
+      "text": "Hi everyone, Datastories is 61. Hi Enrico, how are you doing?",
+      "id": "ep_61_ut_5"
+    },
+    {
+      "end": 45364,
+      "speaker": "D",
+      "start": 43884,
+      "text": "Hey, I'm good, and you?",
+      "id": "ep_61_ut_6"
+    },
+    {
+      "end": 81146,
+      "speaker": "Moritz Stefaner",
+      "start": 45484,
+      "text": "Yeah, okay. I'm actually great, let's admit it. No, it's good. I'm just busy. So today we have another cool episode. It's another project oriented episode. So that's a new format we want to establish. They should be shorter. Let's see how it goes. Maybe we landed 65 minutes. Now we want to keep them a bit shorter than 2 hours and just tell the story behind one data visualization project in excruciating details. And for this we have a special guest, Lisa Charlotte Muth (formerly Lisa Rost). Hi Lisa.",
+      "id": "ep_61_ut_7"
+    },
+    {
+      "end": 81938,
+      "speaker": "Lisa Charlotte Rost",
+      "start": 81330,
+      "text": "Hi.",
+      "id": "ep_61_ut_8"
+    },
+    {
+      "end": 82986,
+      "speaker": "D",
+      "start": 82066,
+      "text": "Hi Lisa.",
+      "id": "ep_61_ut_9"
+    },
+    {
+      "end": 84178,
+      "speaker": "Lisa Charlotte Rost",
+      "start": 83130,
+      "text": "Thanks for having me.",
+      "id": "ep_61_ut_10"
+    },
+    {
+      "end": 87214,
+      "speaker": "Moritz Stefaner",
+      "start": 84266,
+      "text": "Yeah, it's great to have you. It was about time.",
+      "id": "ep_61_ut_11"
+    },
+    {
+      "end": 88774,
+      "speaker": "Lisa Charlotte Rost",
+      "start": 88034,
+      "text": "Wow.",
+      "id": "ep_61_ut_12"
+    },
+    {
+      "end": 91282,
+      "speaker": "Moritz Stefaner",
+      "start": 89234,
+      "text": "So can you tell us a bit about you?",
+      "id": "ep_61_ut_13"
+    },
+    {
+      "end": 92574,
+      "speaker": "Enrico Bertini",
+      "start": 91338,
+      "text": "Like, what do you do?",
+      "id": "ep_61_ut_14"
+    },
+    {
+      "end": 145464,
+      "speaker": "Lisa Charlotte Rost",
+      "start": 93984,
+      "text": "Sure. So I would describe myself as a designer with a strong focus on data visualization. And I'm working for the data journalism agency open data city right now in Berlin in Germany. And I'm doing a lot of interactive visualization right now, but I'm actually coming from a print design background. So I studied visual communication at the Bowers University in Weimar and I graduated from there last summer. And since then I'm trying to get more into data journalism. And yeah, I'm also teaching. I taught three data vis courses at three different German universities in the last couple of months. And I'm also organizing the data vis meetup here in Berlin.",
+      "id": "ep_61_ut_15"
+    },
+    {
+      "end": 180356,
+      "speaker": "Moritz Stefaner",
+      "start": 146664,
+      "text": "So, very busy woman, always something going on. And she also has a really nice website with a couple of her works and a blog where she occasionally blogs on individual findings and thoughts on data visualization, which is pretty cool too, which we both link from the blog post, of course, and the project we discovered there and which we wanted to talk about and which we're now talking about is one that's called searching through the years. And it's basically the project is the blog post, right? Is that fair to say? So it's a blog post?",
+      "id": "ep_61_ut_16"
+    },
+    {
+      "end": 182004,
+      "speaker": "Lisa Charlotte Rost",
+      "start": 180420,
+      "text": "Yes, that's correct.",
+      "id": "ep_61_ut_17"
+    },
+    {
+      "end": 219192,
+      "speaker": "Moritz Stefaner",
+      "start": 182164,
+      "text": "A blog post about the insights she found by analyzing 40,000 Google search queries. And the twist is it's her own Google search queries in the last five years. So it's a little self examination and it's a very fascinating project because a, I didn't know you can download this Google search history and Lisa will tell us a bit about this, I hope. The other thing is how much you can find in these types of data. So Lisa looked at locations, different topics she was interested in, different times, different techniques, but then also found out quite a bit that, well, not everything is covered the same way.",
+      "id": "ep_61_ut_18"
+    },
+    {
+      "end": 219440,
+      "speaker": "Enrico Bertini",
+      "start": 219248,
+      "text": "Right.",
+      "id": "ep_61_ut_19"
+    },
+    {
+      "end": 263154,
+      "speaker": "Moritz Stefaner",
+      "start": 219472,
+      "text": "So searching something for Google might mean you're interested in it, or it might just mean, well, we'll talk about that later. Just a little teaser. Yeah. And we'll link the project, of course, from the blog post. And there's also two background readings you might want to look at, especially when it comes to the more technical stuff, two write ups on how the technical background of the project is. So, Lisa, my first question is, really, why did you start that project? If you think back before the project existed, what was your original impetus? How did it came about? Did you have the idea and did it straight away, or did it sit somewhere for years and then finally you did it. How did it come about?",
+      "id": "ep_61_ut_20"
+    },
+    {
+      "end": 303072,
+      "speaker": "Lisa Charlotte Rost",
+      "start": 263634,
+      "text": "Just sat there for like two months. I mean, it's possible to download your Google search history, I think, since April 2015. Yes, since April. And I saw a news article about it because I have a huge interest in Google as a company. I'm always up to date about their products. And so, yeah, that's how I noticed that this is possible. And yeah, since then, I actually wanted to do that blog post and I put it on my to do list. And then finally in June 2015, a couple of months ago, I did that project as a day project, more or less. It was like a 24 hours project.",
+      "id": "ep_61_ut_21"
+    },
+    {
+      "end": 303904,
+      "speaker": "Moritz Stefaner",
+      "start": 303168,
+      "text": "Oh, wow.",
+      "id": "ep_61_ut_22"
+    },
+    {
+      "end": 306084,
+      "speaker": "Lisa Charlotte Rost",
+      "start": 304064,
+      "text": "Including writing a blog post.",
+      "id": "ep_61_ut_23"
+    },
+    {
+      "end": 307964,
+      "speaker": "Moritz Stefaner",
+      "start": 306984,
+      "text": "Not bad.",
+      "id": "ep_61_ut_24"
+    },
+    {
+      "end": 323804,
+      "speaker": "D",
+      "start": 309024,
+      "text": "So, Lisa, how did you actually get started? So I'm wondering, did you start by retrieving, analyzing data, or you tried to picture in your mind, or maybe even sketching? Already some visualizations? I'm wondering what was the process behind that?",
+      "id": "ep_61_ut_25"
+    },
+    {
+      "end": 374210,
+      "speaker": "Lisa Charlotte Rost",
+      "start": 325374,
+      "text": "Yeah, it was not so much sketching. I actually love sketching as a preparation for the data visualizations. But in this case, I dealt more with the data. It was kind of hard to get the data ready to visualize. And so, yeah, the analysis at the end was fairly easy compared with that. Of course, I downloaded it from Google, which was pretty easy. They give you jsons by quarter. So I downloaded the Google search history, my Google search history from the last five years. So I had 20 jsons at the end. And in the beginning, I merged them all by hand, and then I converted.",
+      "id": "ep_61_ut_26"
+    },
+    {
+      "end": 376322,
+      "speaker": "Moritz Stefaner",
+      "start": 374242,
+      "text": "Copy paste, basically into one big file.",
+      "id": "ep_61_ut_27"
+    },
+    {
+      "end": 382164,
+      "speaker": "Lisa Charlotte Rost",
+      "start": 376418,
+      "text": "Yes, there was. Oh, wow. It was not the smartest way to do it, but it was the way without coding.",
+      "id": "ep_61_ut_28"
+    },
+    {
+      "end": 384524,
+      "speaker": "D",
+      "start": 382824,
+      "text": "Why not? Why not?",
+      "id": "ep_61_ut_29"
+    },
+    {
+      "end": 434846,
+      "speaker": "Lisa Charlotte Rost",
+      "start": 385024,
+      "text": "Yeah, it took some time, but yeah, then I converted the JSons to CSV. I used openrefine for that. And then I exported them to. And put them in excel and converted Unix timestamps, which the JSons came with. And then I had the final CSV, and that's. And I put that in Tableau public and analyzed that. But, yeah, as I said, like, doing everything by hand is not the best idea there. Actually, like, a good friend of mine, Danyel Kirsch, did everything with one ruby script. I don't know, like merging, converting to CSV. Converting the timestamps. Yeah. With a few lines of code, which makes so much more sense.",
+      "id": "ep_61_ut_30"
+    },
+    {
+      "end": 440504,
+      "speaker": "Moritz Stefaner",
+      "start": 434910,
+      "text": "Yeah. But still, you know, he wouldn't have been able to write that if you hadn't figured that way manually, right?",
+      "id": "ep_61_ut_31"
+    },
+    {
+      "end": 455500,
+      "speaker": "Lisa Charlotte Rost",
+      "start": 441764,
+      "text": "I guess so. I guess, yeah. I really enjoyed actually having this process of doing everything by hand. I think I understood Jason's better with that. As I said, I don't have a coding background, so I think I definitely learned something there.",
+      "id": "ep_61_ut_32"
+    },
+    {
+      "end": 462104,
+      "speaker": "Moritz Stefaner",
+      "start": 455612,
+      "text": "Yeah. I think it makes it much more artisanal that you actually copy pasted 20 different files into one. That's.",
+      "id": "ep_61_ut_33"
+    },
+    {
+      "end": 477504,
+      "speaker": "D",
+      "start": 463924,
+      "text": "Why not? That's fine. Yeah, why not? So did you have any. Sorry, Moritz. Did you have any stumbling blocks or anything that was overly complicated and you had to find a solution?",
+      "id": "ep_61_ut_34"
+    },
+    {
+      "end": 520468,
+      "speaker": "Lisa Charlotte Rost",
+      "start": 478644,
+      "text": "In the beginning, I tried to convert the jsons to CSV with some JSON to CSV converter online, and it seemed like that was not possible because the JSON was like five megabyte in the end. And it seemed like these online converters. Yeah. Didn't let me do it. So to actually choose open took some time of me figuring out if the JSON was not in order, if, like. Yeah. Or if the converters are just not doing it right. But that was actually the only thing. I mean, it was a pretty straightforward project. As I said, it only took a.",
+      "id": "ep_61_ut_35"
+    },
+    {
+      "end": 529326,
+      "speaker": "Moritz Stefaner",
+      "start": 520516,
+      "text": "Couple of hours, and then you put it into Tableau public to analyze the data. So basically, one row is one search query. Was it like this?",
+      "id": "ep_61_ut_36"
+    },
+    {
+      "end": 530246,
+      "speaker": "Lisa Charlotte Rost",
+      "start": 529470,
+      "text": "Yes, exactly.",
+      "id": "ep_61_ut_37"
+    },
+    {
+      "end": 535274,
+      "speaker": "Moritz Stefaner",
+      "start": 530310,
+      "text": "That's very nice. And then you can aggregate it and slice it and dice it in different ways.",
+      "id": "ep_61_ut_38"
+    },
+    {
+      "end": 536182,
+      "speaker": "Lisa Charlotte Rost",
+      "start": 535614,
+      "text": "Yes.",
+      "id": "ep_61_ut_39"
+    },
+    {
+      "end": 544034,
+      "speaker": "Moritz Stefaner",
+      "start": 536278,
+      "text": "And you mostly produced time histograms, like the amount of queries matching, or having a certain property over time.",
+      "id": "ep_61_ut_40"
+    },
+    {
+      "end": 552708,
+      "speaker": "Lisa Charlotte Rost",
+      "start": 544654,
+      "text": "Yes. In one week? In one month. Exactly one year. Yes. That's why I chose Tableau public too, because it's quite easy to do.",
+      "id": "ep_61_ut_41"
+    },
+    {
+      "end": 567944,
+      "speaker": "Moritz Stefaner",
+      "start": 552756,
+      "text": "Yeah, in Tableau. So what did you learn from looking at the data? Were there any surprises about yourself or is everything as you expected it? Can you tell us a bit about the concrete insights you had?",
+      "id": "ep_61_ut_42"
+    },
+    {
+      "end": 611714,
+      "speaker": "Lisa Charlotte Rost",
+      "start": 569724,
+      "text": "Sure. So as mentioned, I tried to find out everything about the locations I traveled or lived in and then the projects I was working on and the tools I'm using. And I mean, locations was. Yeah, yeah. Made a lot of sense. Everything. Like in smaller cities I lived in, like Weimar, where I studied. I didn't Google so often for the name of the city because Weimar is so small, you don't need directions to anything. But now that I'm living, now that I'm living in Berlin, I'm actually searching for directions almost every day a couple of times. And yeah, so Google knows even better where I am right now.",
+      "id": "ep_61_ut_43"
+    },
+    {
+      "end": 612534,
+      "speaker": "Moritz Stefaner",
+      "start": 611754,
+      "text": "Exactly.",
+      "id": "ep_61_ut_44"
+    },
+    {
+      "end": 646710,
+      "speaker": "Lisa Charlotte Rost",
+      "start": 613794,
+      "text": "And yeah, I really liked the analysis of the tools I was using. So in one week in November, I googled extremely often for CSS and D3 and Tymal and GitHub because I tried to figure out everything about these topics. And yeah, it's like if I would be Google, I would totally, I guess, sell the data of, I don't know what people are googling for. Regarding my tools to the toolbar, which.",
+      "id": "ep_61_ut_45"
+    },
+    {
+      "end": 650030,
+      "speaker": "Moritz Stefaner",
+      "start": 646742,
+      "text": "JavaScript framework is hip hop among Berlin coders?",
+      "id": "ep_61_ut_46"
+    },
+    {
+      "end": 654670,
+      "speaker": "Lisa Charlotte Rost",
+      "start": 650142,
+      "text": "Yes, exactly. Something like that. And which bugs are most often googled for?",
+      "id": "ep_61_ut_47"
+    },
+    {
+      "end": 682106,
+      "speaker": "Moritz Stefaner",
+      "start": 654742,
+      "text": "Yeah, yeah. I mean, you finally get a sense of what these companies can actually work with, right? Yes, it's very fascinating. And the other thing I found quite striking is that, well, it captures your interest, but it also captures not only your interest, but also what you don't know. So it's a strange thing. They are actually capturing. It's like all the insecurities or the negative space, more or less.",
+      "id": "ep_61_ut_48"
+    },
+    {
+      "end": 683614,
+      "speaker": "Lisa Charlotte Rost",
+      "start": 682250,
+      "text": "Yeah, it is true.",
+      "id": "ep_61_ut_49"
+    },
+    {
+      "end": 723670,
+      "speaker": "Enrico Bertini",
+      "start": 684194,
+      "text": "This might be a good time to talk a bit about our sponsor. This week, data stories is brought to you by Qlik, who allows you to explore the hidden relationships within your data that lead to meaningful insights. Let your instincts lead the way to create personalized visualizations and dynamic dashboards with Qlik Sense, which you can download for free at Qlik Deri. That's Qlik Datastories. And as you know, the new version, Qlik Sense 2.0 features smart load search, data compression, as well as data storytelling tools. And with Qlik Sense, virtually anyone can create personalized data visualizations, reports and dashboards using drag and drop tools.",
+      "id": "ep_61_ut_50"
+    },
+    {
+      "end": 725014,
+      "speaker": "Moritz Stefaner",
+      "start": 723702,
+      "text": "It's pretty cool.",
+      "id": "ep_61_ut_51"
+    },
+    {
+      "end": 801674,
+      "speaker": "Enrico Bertini",
+      "start": 725174,
+      "text": "And they also have a blog on their site where they highlight themes and topics related to data visualization. And the newest one is a really interesting one. It's on the role of multiple devices in our workspaces written by Donald farmer, and you'll find the link in the show notes. And he points out really nicely how important it is to think beyond the traditional desktop screen size, but also interaction patterns and understand the crucial role of mobiles, tablets, big screens, casual computing and so on. As you know, it's a topic we discussed many times on data stories already, but it's definitely still not solved and a big challenge looking forward. And you can download on the Qliksite an in depth technical report on the Qlik blog. And if you want to try out Qlik sense yourself, there's a big Qlik sense roadshow with over 100 events in Europe and other places. We will link again in the blog post to the tour dates and you can just go there, try out Qlik sense yourself, and maybe build your first Qlik sense app if you like. So thanks again for sponsoring the show. You can find out more at Qlik dedastories. That's clicked deadastories. And now back to the show.",
+      "id": "ep_61_ut_52"
+    },
+    {
+      "end": 805914,
+      "speaker": "D",
+      "start": 802174,
+      "text": "So did you discover anything surprising about yourself?",
+      "id": "ep_61_ut_53"
+    },
+    {
+      "end": 834770,
+      "speaker": "Lisa Charlotte Rost",
+      "start": 808034,
+      "text": "Let's see. I guess not so much. It was actually, it was a really nice overview of my interests and how they increased and decreased, how my interest in data visualization increased, how my interest in magazine design, for example, decreased, how I worked on projects to which cities I traveled to. It always had these ups and downs in the histocoms. So yeah, it was, it's like flipping.",
+      "id": "ep_61_ut_54"
+    },
+    {
+      "end": 836002,
+      "speaker": "Moritz Stefaner",
+      "start": 834802,
+      "text": "Through a photo album. Yeah.",
+      "id": "ep_61_ut_55"
+    },
+    {
+      "end": 839074,
+      "speaker": "Lisa Charlotte Rost",
+      "start": 836058,
+      "text": "Yes, yes, exactly. In a very abstract way.",
+      "id": "ep_61_ut_56"
+    },
+    {
+      "end": 869874,
+      "speaker": "Moritz Stefaner",
+      "start": 839194,
+      "text": "Yeah, yeah, yeah. Photo album of d, three of JavaScript libraries. Very nice. Yeah. Can we talk a bit about design? So the project is, as you said, a very short, quick exploration. So there's not an extensive design process I would expect. But how did you like, which design decisions did you make and how did you, for instance, decide on the presentation form or the medium? And what were your thoughts overall on the design side?",
+      "id": "ep_61_ut_57"
+    },
+    {
+      "end": 993934,
+      "speaker": "Lisa Charlotte Rost",
+      "start": 870614,
+      "text": "Sure. So regarding design side, I guess for me it was most important that you can compare the different amount of queries for the specific terms. So I tried to find bins for my histograms. Like I ended up with months that could, that you could compare in an easy way. And I chose the form of small multiples so that you can compare these timelines with each other and yeah, and regarding, I mean, the presentation form, the medium chosen. I definitely chose a static approach because, yeah, it was most easy for a 24 hours project to do that, but I also, and it was a kind of pity, I chose a static approach, a static medium, because of the sensitive information that were in my data. So that was actually interesting for me. I would love to have an interactive version where everybody can filter through my data and can filter for search queries and how often I'm using them, etcetera. But that would. Yeah, I don't know. I'm not sure. It would feel like a little bit like Internet suicide or something. There's so many sensitive information in my Google data. It's really like a photo album. It's very personal. I mean, I think there are artists out there who publish their Google search history on a daily basis, but yeah, it's more like an art project then. But yeah, maybe I'm extending this project a little bit more. I really hope to find an interactive version where. Yeah, where you don't have my whole dataset. My whole data, which is a pity, but at least some slight interactive design.",
+      "id": "ep_61_ut_58"
+    },
+    {
+      "end": 1014034,
+      "speaker": "Moritz Stefaner",
+      "start": 994234,
+      "text": "You could do a curated interactive version, like one that has interesting topics but it still has some dynamic aspects or something. Yeah, that's an interesting problem with this personal data that, I mean, it makes most sense for you anyways to look at it and also only you will be able to fully make sense out of it.",
+      "id": "ep_61_ut_59"
+    },
+    {
+      "end": 1014322,
+      "speaker": "Enrico Bertini",
+      "start": 1014074,
+      "text": "Right.",
+      "id": "ep_61_ut_60"
+    },
+    {
+      "end": 1020042,
+      "speaker": "Moritz Stefaner",
+      "start": 1014378,
+      "text": "And yeah, so publishing this like fully is a tricky thing.",
+      "id": "ep_61_ut_61"
+    },
+    {
+      "end": 1028938,
+      "speaker": "Lisa Charlotte Rost",
+      "start": 1020098,
+      "text": "Yeah, I think it's interesting if you start to compare it with other Google search histories of a lot of other people or of the average Google search history.",
+      "id": "ep_61_ut_62"
+    },
+    {
+      "end": 1029654,
+      "speaker": "Moritz Stefaner",
+      "start": 1029026,
+      "text": "Right.",
+      "id": "ep_61_ut_63"
+    },
+    {
+      "end": 1037824,
+      "speaker": "Lisa Charlotte Rost",
+      "start": 1030234,
+      "text": "To compare it with the trends that you can find on Google trends page. Yeah, that would be interesting. Maybe I should do that.",
+      "id": "ep_61_ut_64"
+    },
+    {
+      "end": 1041176,
+      "speaker": "Moritz Stefaner",
+      "start": 1037864,
+      "text": "Maybe you should make an adaptive tool, who knows?",
+      "id": "ep_61_ut_65"
+    },
+    {
+      "end": 1043936,
+      "speaker": "Lisa Charlotte Rost",
+      "start": 1041360,
+      "text": "Yeah, yeah.",
+      "id": "ep_61_ut_66"
+    },
+    {
+      "end": 1051296,
+      "speaker": "D",
+      "start": 1043960,
+      "text": "Maybe a tool that others can load their own data and expand it. That would be nice too. Did you think about it?",
+      "id": "ep_61_ut_67"
+    },
+    {
+      "end": 1073714,
+      "speaker": "Lisa Charlotte Rost",
+      "start": 1051320,
+      "text": "Yes, I thought about it too. But then again, who would upload their data to a website? That's what I wrote in my tutorial too. I chose tapro public because it was a good tool, but I didn't save my results because Tableau public, you can only save it if you save it to the cloud. And I really didn't want to do that.",
+      "id": "ep_61_ut_68"
+    },
+    {
+      "end": 1091862,
+      "speaker": "D",
+      "start": 1074534,
+      "text": "No. But I was thinking about more of a web application where you can directly connect with your own account and use the Google API and load data directly into the application so you won't store anybody else's data. It's just direct connection with an API.",
+      "id": "ep_61_ut_69"
+    },
+    {
+      "end": 1096154,
+      "speaker": "Moritz Stefaner",
+      "start": 1091958,
+      "text": "But then we move from 24 hours project to 24 month project.",
+      "id": "ep_61_ut_70"
+    },
+    {
+      "end": 1101544,
+      "speaker": "D",
+      "start": 1098084,
+      "text": "Well, if somebody listening to the podcast wants to do that.",
+      "id": "ep_61_ut_71"
+    },
+    {
+      "end": 1103564,
+      "speaker": "Lisa Charlotte Rost",
+      "start": 1102164,
+      "text": "Oh, yeah, I would be up for that.",
+      "id": "ep_61_ut_72"
+    },
+    {
+      "end": 1130584,
+      "speaker": "D",
+      "start": 1103644,
+      "text": "Right? That would be nice. I would use it. I'm really curious about looking into my own data and, yeah, that would be cool. I would be interested myself. So, Lisa, are there any specific lessons that you learned from this project and from this process? Anything that you can share with other people? And, yeah, some lessons learned.",
+      "id": "ep_61_ut_73"
+    },
+    {
+      "end": 1196824,
+      "speaker": "Lisa Charlotte Rost",
+      "start": 1131564,
+      "text": "So, as I mentioned before, I think the data itself was not, I mean, it was pretty self explaining. It was not that interesting. But what I found really interesting is how my approach of analyzing the data changed with my knowledge about it, because the data, I was responsible for the data. Right. I created the data myself by searching for these 40,000 search queries. And so I really know why I searched for everything and why these increases and decreases in the histograms appeared. And so, yeah, it was super interesting to see how two similar appealing patterns had two very different explanations. That, yeah, that a decline in search queries meant really different things. And, yeah, it got me really thinking about how I normally analyze data I'm not responsible for and what I'm actually missing because I don't know the why behind the data.",
+      "id": "ep_61_ut_74"
+    },
+    {
+      "end": 1215194,
+      "speaker": "D",
+      "start": 1197164,
+      "text": "Yeah, yeah, yeah. No, that's a super important point. I think, in general, I think it's a good habit, trying to work with data that at least some people you're working with can explain or is interested. Right. At least in my experience, these kind of projects are the most interesting ones.",
+      "id": "ep_61_ut_75"
+    },
+    {
+      "end": 1227342,
+      "speaker": "Moritz Stefaner",
+      "start": 1217334,
+      "text": "It's a bit like this magazine effect. Like when, whenever there's, like, a popular magazine, an article on a topic you actually know about, and then you realize how, how factually wrong everything is.",
+      "id": "ep_61_ut_76"
+    },
+    {
+      "end": 1228142,
+      "speaker": "D",
+      "start": 1227358,
+      "text": "Yeah, absolutely.",
+      "id": "ep_61_ut_77"
+    },
+    {
+      "end": 1229526,
+      "speaker": "Moritz Stefaner",
+      "start": 1228198,
+      "text": "And then you think further and think.",
+      "id": "ep_61_ut_78"
+    },
+    {
+      "end": 1231142,
+      "speaker": "D",
+      "start": 1229550,
+      "text": "Like, wow, that's the same when they're.",
+      "id": "ep_61_ut_79"
+    },
+    {
+      "end": 1233246,
+      "speaker": "Moritz Stefaner",
+      "start": 1231158,
+      "text": "Out, when they're right about anything, it's.",
+      "id": "ep_61_ut_80"
+    },
+    {
+      "end": 1239180,
+      "speaker": "D",
+      "start": 1233270,
+      "text": "Like, oh, my God, we're doomed. I actually get this, when you have.",
+      "id": "ep_61_ut_81"
+    },
+    {
+      "end": 1241452,
+      "speaker": "Moritz Stefaner",
+      "start": 1239212,
+      "text": "Data you actually care about and data you actually know.",
+      "id": "ep_61_ut_82"
+    },
+    {
+      "end": 1247676,
+      "speaker": "D",
+      "start": 1241508,
+      "text": "Yeah, yeah, yeah. I actually get this feeling when there is some popular article on data visualization, I don't know if you have to.",
+      "id": "ep_61_ut_83"
+    },
+    {
+      "end": 1254036,
+      "speaker": "Moritz Stefaner",
+      "start": 1247700,
+      "text": "Say, always, always freaks me out. And neuroscience, like, whatever they about the.",
+      "id": "ep_61_ut_84"
+    },
+    {
+      "end": 1255300,
+      "speaker": "Enrico Bertini",
+      "start": 1254060,
+      "text": "Brain is always wrong.",
+      "id": "ep_61_ut_85"
+    },
+    {
+      "end": 1256864,
+      "speaker": "Moritz Stefaner",
+      "start": 1255412,
+      "text": "They have no clue. Man.",
+      "id": "ep_61_ut_86"
+    },
+    {
+      "end": 1278420,
+      "speaker": "D",
+      "start": 1259444,
+      "text": "You're opening a can of worms. But I could talk for hours about that. I think the way people talk simplistically about how the brain and psychology works, it's crazy. I mean, it's just unbelievable. They believe stuff that they shouldn't believe. It's like, come on, yeah, it's a.",
+      "id": "ep_61_ut_87"
+    },
+    {
+      "end": 1294814,
+      "speaker": "Moritz Stefaner",
+      "start": 1278492,
+      "text": "Story for another day. Final question, how was the project used and received? So do you know anything about, like, did you get any feedback once you put it out there or did somebody start the same project with different data or what happened afterwards?",
+      "id": "ep_61_ut_88"
+    },
+    {
+      "end": 1373856,
+      "speaker": "Lisa Charlotte Rost",
+      "start": 1296154,
+      "text": "Oh, like, first of all, it got lots of, like, okay, for, for my person, got a lot of retweets on Twitter, which was like, super nice to see for me, but it was super interesting to see the different reactions of different groups. So my friends and all the database people, and, yeah, in this group of people, they reacted more like, wow, cool, I must do it myself. I should totally analyze my own data. But then there was also an article by Mark Fay on CNBC, and he also analyzed his Google search history in a pretty sophisticated way. And then the comments there were more like, ooh, this is scarish, and I will start to use Duckduckgo instead. And, yeah, they were questions ways, like, should it be illegal for Google to save our search history? And, yeah, that didn't happen in my friend group at all. Interesting. Yes. But I'm really hoping for more people to analyze their Google search history. I'm super, super curious to see what happens when they do it, when they visualize their data, which insights they will find. Yeah. Yes, please, everybody analyze the Google search history.",
+      "id": "ep_61_ut_89"
+    },
+    {
+      "end": 1381470,
+      "speaker": "Moritz Stefaner",
+      "start": 1373960,
+      "text": "Maybe you should do a analyze your search history party. Everybody brings their search history. We have the tools.",
+      "id": "ep_61_ut_90"
+    },
+    {
+      "end": 1386902,
+      "speaker": "Lisa Charlotte Rost",
+      "start": 1381502,
+      "text": "And then, oh, man, I will do that at the next data. That's a good idea.",
+      "id": "ep_61_ut_91"
+    },
+    {
+      "end": 1398326,
+      "speaker": "Moritz Stefaner",
+      "start": 1387038,
+      "text": "Yeah, very good. Yeah. But it's so interesting because it makes so much sense when you do it for yourself and it's so sensitive and you share it, you know? So it's a tricky issue.",
+      "id": "ep_61_ut_92"
+    },
+    {
+      "end": 1399554,
+      "speaker": "Lisa Charlotte Rost",
+      "start": 1398470,
+      "text": "Yes. Yeah.",
+      "id": "ep_61_ut_93"
+    },
+    {
+      "end": 1408004,
+      "speaker": "Moritz Stefaner",
+      "start": 1399854,
+      "text": "Are there any related projects? So if somebody's interested in other stuff that, that does similar things. So you mentioned the CNBC article. We can link that.",
+      "id": "ep_61_ut_94"
+    },
+    {
+      "end": 1430924,
+      "speaker": "Lisa Charlotte Rost",
+      "start": 1408504,
+      "text": "Yes. I only found one who did a similar analysis two weeks after my blog article by Ari Morcos. And he also has a nice heat map of weeks and hours of searching data. We can also link to that if that's possible. Yeah, and he promised a part two, and I'm still waiting for that since June.",
+      "id": "ep_61_ut_95"
+    },
+    {
+      "end": 1454514,
+      "speaker": "Moritz Stefaner",
+      "start": 1432574,
+      "text": "Let's see, maybe he has been hired by Google. Cool. Very nice project. I love that. It's so, you know, self contained and actually small, but still goes, I do think it goes pretty deep and raises a couple of questions. So pretty good stuff. Thanks, Lisa, for telling us about it.",
+      "id": "ep_61_ut_96"
+    },
+    {
+      "end": 1456318,
+      "speaker": "Lisa Charlotte Rost",
+      "start": 1454894,
+      "text": "Thank you very much.",
+      "id": "ep_61_ut_97"
+    },
+    {
+      "end": 1457142,
+      "speaker": "Moritz Stefaner",
+      "start": 1456486,
+      "text": "Thanks.",
+      "id": "ep_61_ut_98"
+    },
+    {
+      "end": 1547824,
+      "speaker": "D",
+      "start": 1457278,
+      "text": "Thanks, Lisa. Hey, guys, thanks for listening to data stories again before you leave. We have a request if you can spend a couple of minutes rating us on iTunes, that would be extremely helpful for the show. I also want to give you some information on the many ways you can get news directly from us. We are, of course, on twitter@twitter.com. Datastories. We have a Facebook page@Facebook.com, datastoriespodcast and we now also have a newsletter. So if you want to get news directly into your inbox, go to our homepage datastory es and look for the link that you find on the right one last thing I want to tell you is that we love to get in touch with our listeners, especially if you want to suggest way to improve the show, amazing people you want us to invite or projects you want us to talk about. So do get in touch with us. That's all for now. See you next time. Thanks for listening to data stories data stories is brought to you by Qlik, who allows you to explore the hidden relationships within your data that lead to meaningful insights. Let your instincts lead the way to create personalized visualizations and dynamic dashboards with Qlik sense, which you can download for free at Qlik deep data stories. That's Qlik deries.",
+      "id": "ep_61_ut_99"
+    }
+  ],
+  "confidence": 0.921185255849829,
+  "audio_duration": 1548,
+  "punctuate": true,
+  "format_text": true,
+  "dual_channel": false,
+  "webhook_url": null,
+  "webhook_status_code": null,
+  "webhook_auth": false,
+  "webhook_auth_header_name": null,
+  "speed_boost": false,
+  "auto_highlights_result": null,
+  "auto_highlights": false,
+  "audio_start_from": null,
+  "audio_end_at": null,
+  "word_boost": [],
+  "boost_param": null,
+  "filter_profanity": false,
+  "redact_pii": false,
+  "redact_pii_audio": false,
+  "redact_pii_audio_quality": null,
+  "redact_pii_policies": null,
+  "redact_pii_sub": null,
+  "speaker_labels": true,
+  "content_safety": false,
+  "iab_categories": true,
+  "content_safety_labels": {
+    "status": "unavailable",
+    "results": [],
+    "summary": {}
+  },
+  "language_detection": false,
+  "language_detection_threshold": null,
+  "language_confidence": null,
+  "custom_spelling": null,
+  "throttled": false,
+  "auto_chapters": true,
+  "summarization": false,
+  "summary_type": null,
+  "summary_model": null,
+  "custom_topics": false,
+  "topics": [],
+  "speech_threshold": null,
+  "speech_model": "best",
+  "chapters": [
+    {
+      "summary": "Data. Stories allows you to explore the hidden relationships within your data that lead to meaningful insights. Let your instincts lead the way to create personalized visualizations and dynamic dashboards with Qlik sense.",
+      "gist": "Qlik Sense: Stories in Data",
+      "headline": "Let your instincts lead the way to create personalized visualizations with Qlik sense",
+      "start": 200,
+      "end": 54420,
+      "id": "ep_61_ch_0"
+    },
+    {
+      "summary": "Lisa Charlotte Muth (formerly Lisa Rost) is a designer with a strong focus on data visualization. She analyzed 40,000 Google search queries in the last five years. The project is the subject of a blog post. We want to make this episode shorter than 2 hours.",
+      "gist": "Projects in the Year: Search Through Google's Search History",
+      "headline": "This is another project oriented episode with special guest Lisa Charlotte Muth (formerly Lisa Rost)",
+      "start": 54532,
+      "end": 243982,
+      "id": "ep_61_ch_1"
+    },
+    {
+      "summary": "Lisa Ling: It's possible to download your Google search history since April 2015. How did it come about? Did you have the idea and did it straight away, or did it sit somewhere for years?",
+      "gist": "The Making of Google's Project Leak",
+      "headline": "It's been possible to download your Google search history since April 2015",
+      "start": 244118,
+      "end": 307964,
+      "id": "ep_61_ch_2"
+    },
+    {
+      "summary": "Lisa: Did you start by retrieving, analyzing data, or you tried to picture in your mind, or maybe even sketching? Already some visualizations? I'm wondering what was the process behind that? Lisa: I really enjoyed actually having this process of doing everything by hand.",
+      "gist": "How To Make a Tableau visualization",
+      "headline": "Lisa started by retrieving, analyzing data, and then creating visualizations",
+      "start": 309024,
+      "end": 467788,
+      "id": "ep_61_ch_3"
+    },
+    {
+      "summary": "It was a pretty straightforward project. It only took a. Couple of hours, and then you put it into Tableau public to analyze the data. One row is one search query. And you mostly produced time histograms.",
+      "gist": "Converting a JSON file to a CSV file",
+      "headline": "Did you have any stumbling blocks or anything that was overly complicated",
+      "start": 467836,
+      "end": 554184,
+      "id": "ep_61_ch_4"
+    },
+    {
+      "summary": "I tried to find out everything about the locations I traveled or lived in and then the projects I was working on and the tools I'm using. In one week in November, I googled extremely often for CSS and D3 and Tymal and GitHub. It's fascinating to see what companies can actually work with.",
+      "gist": "A Day in the Life of Google",
+      "headline": "You searched Google for information about your locations, projects and tools",
+      "start": 556524,
+      "end": 683614,
+      "id": "ep_61_ch_5"
+    },
+    {
+      "summary": "This week, data stories is brought to you by Qlik, who allows you to explore the hidden relationships within your data that lead to meaningful insights. With Qlik Sense, virtually anyone can create personalized data visualizations, reports and dashboards. There's a big Qlik sense roadshow with over 100 events in Europe and other places.",
+      "gist": "Data Stories",
+      "headline": "This week's data stories is brought to you by Qlik",
+      "start": 684194,
+      "end": 799734,
+      "id": "ep_61_ch_6"
+    },
+    {
+      "summary": "It was a really nice overview of my interests and how they increased and decreased. It always had these ups and downs in the histocoms. It's like flipping through a photo album. Very nice.",
+      "gist": "Flipping through a photo album",
+      "headline": "You looked at your interests through a photo album",
+      "start": 799894,
+      "end": 846894,
+      "id": "ep_61_ch_7"
+    },
+    {
+      "summary": "The project is a very short, quick exploration. I would love to have an interactive version where everybody can filter through my data. There's so many sensitive information in my Google data. Maybe I'm extending this project a little bit more.",
+      "gist": "The 24 Hours Project: Design",
+      "headline": "Can we talk a bit about design? So the project is a very short exploration",
+      "start": 847274,
+      "end": 1114344,
+      "id": "ep_61_ch_8"
+    },
+    {
+      "summary": "Lisa: What I found really interesting is how my approach of analyzing the data changed with my knowledge about it. Trying to work with data that at least some people you're working with can explain or is interested. At least in my experience, these kind of projects are the most interesting ones.",
+      "gist": "Post-Data Science project",
+      "headline": "Lisa says her approach to analyzing data changed with knowledge about the data",
+      "start": 1116484,
+      "end": 1279904,
+      "id": "ep_61_ch_9"
+    },
+    {
+      "summary": "Ari Morcos: I'm really hoping for more people to analyze their Google search history. The project got a lot of retweets on Twitter. Are there any related projects?",
+      "gist": "Can You Analyze Your Google Search History?",
+      "headline": "How was the project used and received? How was feedback received",
+      "start": 1280284,
+      "end": 1458394,
+      "id": "ep_61_ch_10"
+    },
+    {
+      "summary": "Data stories is brought to you by Qlik, who allows you to explore the hidden relationships within your data that lead to meaningful insights. We love to get in touch with our listeners, especially if you want to suggest way to improve the show. See you next time.",
+      "gist": "Data Stories",
+      "headline": "Thanks for listening to data stories again before you leave",
+      "start": 1461394,
+      "end": 1547824,
+      "id": "ep_61_ch_11"
+    }
+  ],
+  "disfluencies": false,
+  "entity_detection": false,
+  "sentiment_analysis": false,
+  "sentiment_analysis_results": null,
+  "entities": null,
+  "speakers_expected": null,
+  "summary": null,
+  "custom_topics_results": null,
+  "episode_num": 61,
+  "episode_metadata": {
+    "speakers": [
+      "Lisa Charlotte Rost",
+      "Moritz Stefaner",
+      "Enrico Bertini"
+    ],
+    "WPid": "395",
+    "url": "https://datastori.es/podlove/file/1298/s/feed/c/mp3/visualizing-your-google-search-history-with-lisa-charlotte-rost-ds61.mp3",
+    "episode_title": "Visualizing Your \"Google Search History\" with Lisa Charlotte Rost"
+  }
+}

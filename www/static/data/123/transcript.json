@@ -1,0 +1,516 @@
+{
+  "id": "68bcc5f7-40ba-44a9-bc69-ddf7be60f53b",
+  "language_model": "assemblyai_default",
+  "acoustic_model": "assemblyai_default",
+  "language_code": "en_us",
+  "status": "completed",
+  "audio_url": "https://datastori.es/podlove/file/5198/s/feed/c/mp3/123-touch-graphics-with-steve-landau.mp3",
+  "utterances": [
+    {
+      "end": 5994,
+      "speaker": "Steve Landau",
+      "start": 320,
+      "text": "We are only interested in working on projects that are universally accessible.",
+      "id": "ep_123_ut_0"
+    },
+    {
+      "end": 34044,
+      "speaker": "Enrico Bertini",
+      "start": 25174,
+      "text": "Hi, everyone. Welcome to a new episode of Data stories. My name is Enrico Bertino. I am a professor at NYU in New York, and I do research in data visualization.",
+      "id": "ep_123_ut_1"
+    },
+    {
+      "end": 38204,
+      "speaker": "Moritz Stefaner",
+      "start": 34204,
+      "text": "And my name is Moritz Stefaner, and I'm an independent designer of data visualizations.",
+      "id": "ep_123_ut_2"
+    },
+    {
+      "end": 48396,
+      "speaker": "Enrico Bertini",
+      "start": 38284,
+      "text": "And on this podcast, we talk about data visualization, analysis, and generally the role that data plays in our lives. And usually we do that together with a guest we invite on the show.",
+      "id": "ep_123_ut_3"
+    },
+    {
+      "end": 72714,
+      "speaker": "Moritz Stefaner",
+      "start": 48500,
+      "text": "But before we start, just a quick note. As you might know, our podcast is listener supported. There's no ads. So if you enjoy the show, please consider supporting us. You can do that either with recurring payments on Patreon, so you can set up a little amount that you give us every time we publish a new episode, or you can also send us one time donations on PayPal me Datastories.",
+      "id": "ep_123_ut_4"
+    },
+    {
+      "end": 122828,
+      "speaker": "Enrico Bertini",
+      "start": 72794,
+      "text": "Okay, great. So let's get started with the topic of today. It's going to be a very interesting new kind of episode, I would say there is a little bit of a background story. We discovered a very interesting workshop called on map accessibility a few weeks ago, and we kind of, like, came up with the idea, oh, we never really discussed on the show the problem of how do you visualize information for people who are visually impaired? And, yeah, it's such an important topic. Right. And to talk about this topic we have on the show, Steven Landau, who is the director of research of a very interesting company that is called touchgraphics, where they solve exactly this kind of problem, and they are very interesting projects. So welcome, Stephen on the show. Much looking forward to talking to you.",
+      "id": "ep_123_ut_5"
+    },
+    {
+      "end": 125756,
+      "speaker": "Steve Landau",
+      "start": 122916,
+      "text": "Thank you very much. I'm excited to chat.",
+      "id": "ep_123_ut_6"
+    },
+    {
+      "end": 132664,
+      "speaker": "Enrico Bertini",
+      "start": 125860,
+      "text": "Great. So can you give us a little bit of a background about you and touch graphics?",
+      "id": "ep_123_ut_7"
+    },
+    {
+      "end": 323872,
+      "speaker": "Steve Landau",
+      "start": 133404,
+      "text": "Well, first, to introduce the idea of tactile graphics, it's important to understand that this is not a new concept, that teachers of the visually impaired have been using raised line and textured diagrams and three dimensional manipulable models to explain spatial concepts to their students who have either no vision at all or partial vision. So this has been going on since the early 19th century. Probably the first organized school for the blind was in Boston, called Perkins School, which is still in operation. And if you go to the library there, the archives, you can find amazing examples of objects that teachers from the 19th century produced for this purpose. So we are really standing on the shoulders of some of these innovators from hundreds of years ago. But of course, the technology has improved a great deal, and so our capabilities to represent more and more complex spatial representations has also improved. So my background is as a designer. About 20 years ago, I was contacted by a blind professor at Baruch College, which is part of City University of New York. This lady named Karen Gourgey, who had been blind since birth, was embarked on an ambitious project to create tactile maps of the New York City subways. And this was in 1996, so computers were available, obviously, but some of the more recent developments had not yet arrived. So she hired me to help them create a CAD cam system for designing maps and fabricating maps of the New York City subway system. And that really was my first project, which was a huge, a huge project, which was extremely frustrating and difficult, just because the subways are such an enormous, complicated maze. And to try to explain that requires a kind of simplification, which has the danger of eliminating so much information and detail that it becomes useless. So we were struggling a lot with how to do this, and that process of struggle really helped me to develop my ideas about this field, and it led me to realize how much promise there was for these methods that had really been underutilized.",
+      "id": "ep_123_ut_8"
+    },
+    {
+      "end": 358604,
+      "speaker": "Enrico Bertini",
+      "start": 324008,
+      "text": "Yeah, that's great. And it's surprising to me to notice how, I mean, we are surrounded by a world that is mostly visual and is getting more and more visual, and we don't. I mean, in this podcast specifically, we talk about data visualization most of the time. And there is this problem of how do you actually visualize data for people who are visually impaired or even just totally blind? I don't know. It blew my mind, the fact that I didn't even ever thought about this problem before.",
+      "id": "ep_123_ut_9"
+    },
+    {
+      "end": 370526,
+      "speaker": "Steve Landau",
+      "start": 359384,
+      "text": "Well, it's actually not a small audience, and it's actually growing very rapidly because of the aging population. So these are things that we need to address.",
+      "id": "ep_123_ut_10"
+    },
+    {
+      "end": 371118,
+      "speaker": "Enrico Bertini",
+      "start": 370670,
+      "text": "Sure.",
+      "id": "ep_123_ut_11"
+    },
+    {
+      "end": 381034,
+      "speaker": "Moritz Stefaner",
+      "start": 371206,
+      "text": "So, can you give us a few examples of things you have been working on, different approaches you can take to make, literally information more graspable?",
+      "id": "ep_123_ut_12"
+    },
+    {
+      "end": 567254,
+      "speaker": "Steve Landau",
+      "start": 381774,
+      "text": "Well, I can tell you that our primary kind of innovation, or our main focus is on the concept of multisensory communication. And what that really means is that we try to use auditory and tactile sensory channels to offload some of the information that is traditionally presented visually. And we found that by combining the senses like this, we can actually get pretty close to complete accessibility for many kinds of images. So if you can imagine yourself with your eyes closed or wearing a blindfold, and you are touching a surface that has a lot of lines and textures and dots on it, you would probably have no idea at all what you are touching because it's just, you know, it just feels like lines and bumps and it has no intelligence to it. But as soon as you add another sense, you can very quickly begin to piece together the meaning of. Of an image. So in this case, what we're doing is we're adding sound, and we're mostly adding spoken information, so that when you, for example, if you have a map of a building and you have raised lines on the perimeter walls and the interior walls, and you have a texture for the bathrooms, for example, and you have little steps for the stairs, and these are all things that you can feel, then it's possible to place that graphic on a computer touchscreen. And the touchscreen will then be able to determine where your finger is located by sensing directly through the paper or whatever the surface that you've printed on. And then a computer can play back descriptions and explanations of each element of the drawing as you look at it. So it's not the same thing as visual seeing, because vision is so efficient and it operates at a distance and it can take in an entire scene at once very quickly, but also sometimes very fleetingly and very superficially. While touch combined with sound is a more of a linear process of developing a cognitive model of an image through methodic exploration and listening and touching.",
+      "id": "ep_123_ut_13"
+    },
+    {
+      "end": 576210,
+      "speaker": "Moritz Stefaner",
+      "start": 567954,
+      "text": "So you use more your fingers as a pointer to indicate what you're interested in, to consume information.",
+      "id": "ep_123_ut_14"
+    },
+    {
+      "end": 671844,
+      "speaker": "Steve Landau",
+      "start": 576402,
+      "text": "Exactly. And it really, it's really a gestural language. So there's two primary gestures. We've determined this through a lot of actually observing blind people as they're using these materials. And we notice that the two signature gestures that the skillful tactile graphics users deploy or employ is two hand touch with all ten fingers touching. That's an exploratory gesture. And usually during that, you don't want to have any audio at all. You want it to go completely silent. So with modern multi touch screens, we know when more than one finger is touching at any time, and we just tell the system, don't speak because they need to be able to explore in quiet. And then when they tap with a single finger, it's onto a particular line or region, then they get the auditory feedback. So we had to develop a system that mimicked the natural tendencies of tactile exploration in order to achieve the best comprehension. And so with the new touchscreens that are available now, we can do that really easily.",
+      "id": "ep_123_ut_15"
+    },
+    {
+      "end": 722634,
+      "speaker": "Moritz Stefaner",
+      "start": 673744,
+      "text": "Yeah, that's fascinating. And also, what seems intuitive in this context might be totally different than what you might perceive as intuitive in other contexts. I think that's very fascinating. You just said, okay, we cannot just simply map one to one visuals to haptic experience and expect the same results. Can you give us a bit of, like, tell us a bit more about the specifics of the haptic channel, let's say, as opposed to visual graphics? So what would you say is pretty much the same, and what are the main differences? How does resolution compare, for instance? Or can you do the same you do with color, with textures, or how can we imagine the design space in that area?",
+      "id": "ep_123_ut_16"
+    },
+    {
+      "end": 812680,
+      "speaker": "Steve Landau",
+      "start": 723244,
+      "text": "Yeah, it's a great question. As designers, we have to be continuously thinking about the limitations of tactile perception, but also its amazing powers. So, for example, you mentioned the question of mapping colors to textures. Well, we don't tend to do that very much, first of all, because vision can distinguish between hundreds of different colors, in fact, probably millions. But in tactile perception, you have to be more judicious about the number of different textures that you use. So we try to limit it depending on the sophistication of the audience. We only use either two or three different textures because we really find that. That it becomes just a cognitive load problem. If you expect people to memorize the meaning of more than three textures, it becomes harder to do. And the same goes for line types. We can do a smooth line. We can do a rough line. We can do all types of lines in between. We can do directional lines that feel smooth in one direction and rough in another direction. Things that we can do.",
+      "id": "ep_123_ut_17"
+    },
+    {
+      "end": 814752,
+      "speaker": "Enrico Bertini",
+      "start": 812712,
+      "text": "So you have directionality, basically.",
+      "id": "ep_123_ut_18"
+    },
+    {
+      "end": 815976,
+      "speaker": "Moritz Stefaner",
+      "start": 814888,
+      "text": "Exactly right.",
+      "id": "ep_123_ut_19"
+    },
+    {
+      "end": 819272,
+      "speaker": "Steve Landau",
+      "start": 816120,
+      "text": "You can. You know, you could also have, like.",
+      "id": "ep_123_ut_20"
+    },
+    {
+      "end": 823704,
+      "speaker": "Moritz Stefaner",
+      "start": 819288,
+      "text": "A fur, you know. Yeah, sure, that's true.",
+      "id": "ep_123_ut_21"
+    },
+    {
+      "end": 883994,
+      "speaker": "Steve Landau",
+      "start": 823784,
+      "text": "I mean, we're experimenting with things like that. You know, fur is a particularly challenging one, but we. Because we have to manufacture these things. So we have printers that can print tactile graphics. We don't have a printer that can print fur at this point. But that would be certainly pretty cool, though. I mean, right now we're making a series of zoological representations for a museum, and we're working on vampire bats, and vampire bats have furry little bodies and then sort of very thin, papery wings of skin without any fur on them. So the challenge was, how do we, you know, distinguish those two surfaces? And, you know, it's easy to make something that feels smooth, but it's not easy to make something that feels like fur if you're making it out of plastic. So, you know, that's a challenge.",
+      "id": "ep_123_ut_22"
+    },
+    {
+      "end": 899174,
+      "speaker": "Moritz Stefaner",
+      "start": 884694,
+      "text": "Yeah, but it's interesting. Yeah. Because it points to these really unique qualities that touch can bring and also for seeing folks, obviously, I think a lot of our information to action could be much more haptic and actually tactile. Right.",
+      "id": "ep_123_ut_23"
+    },
+    {
+      "end": 1030154,
+      "speaker": "Steve Landau",
+      "start": 899294,
+      "text": "Well, you know, that brings up an important point, which is that, you know, we are only interested in working on projects that are universally accessible. So we don't like to make things that are specific to an audience of, let's say, totally blind people, because for one thing, that's, that's a very small market and we're a business, so we're looking for larger audiences. But also because we don't like the idea that something that is completely tactile without any visual information, that becomes very sort of isolating because a person who's visually blind, who can read, that couldn't, let's say, share it with their sighted parent or child or teacher because sighted people can't understand that. They can't feel it, and they can't make sense of it because they just haven't ever been challenged with that. And by the way, having vision really interferes with your tactile ability. So it's only when you put on a blindfold that you can learn, for example, to read braille. No sighted people can learn braille. I don't think there's even one example. And that makes it very difficult because then braille becomes something utterly other and really sort of not stigmatizing, but maybe ghettoizing. And so we prefer making materials that have visual printing on them also, and lots of color and photographs and images because we want to make mutual experiences. That's great, especially in museums, because museums are public spaces and they have a mandate to service everyone in the community. But they don't have the budget or the inclination to make separate versions of everything for each audience. They want one exhibit that everyone uses.",
+      "id": "ep_123_ut_24"
+    },
+    {
+      "end": 1037954,
+      "speaker": "Enrico Bertini",
+      "start": 1031534,
+      "text": "Can we maybe talk about some specific projects? Can you describe some of. Yeah, some specific ones.",
+      "id": "ep_123_ut_25"
+    },
+    {
+      "end": 1273774,
+      "speaker": "Steve Landau",
+      "start": 1038114,
+      "text": "Well, so right now I'm in the Google New York City headquarters in Manhattan, where we just installed 45 interactive floor plans on the walls throughout this facility. And we're actually now working on the new Google in the Spruce Goose facility in Los Angeles, their new headquarters that they're building there. Now we're installing a similar network of interactive wall maps. So these are tactile maps that are visual. They're mounted on pedestals all over the campus, and they are the main maps for the facility that everybody uses. They just happen to have this extra feature, which is that you can feel them, and when you touch them, they speak and they light up. So for most people at Google, they don't even really notice that. It's a special kind of a map. It just looks like a pretty backlit, attractive piece on the wall. And they come up to it and they look at it. That doesn't occur to them. They can touch it, but if they did, it would speak. So that's one kind of a project that we're doing, and that's really focused on orientation and wayfinding in public spaces. But in addition to maps, we're also working on all kinds of exhibits. So, for example, we just got a project at the Smithsonian, at the Sackler and Freer Museum, which is the Asian Art Museum in Washington. And they have this object called the cosmic Buddha, which is a very important sculpture that shows a figure wearing a robe. And it's just covered with the most exquisite illustrations that are carved into the surface of this garment. And it's really like a diagram of Buddhist cosmology. And it's considered one of the. The masterpieces of the Smithsonian. So they recently did a lot of work to digitally scan this object. And in doing that, they were able to study the carvings and boost up their visual contrast so that they could really see them better. So what they've asked us to do now is to make a 3d printed replica of the cosmic Buddha, which will be touch responsive. And they're going to put that into the museum, not in the same room as the object, because they're very picky about making it clear that this is not a real artifact, this is a replica. So there's a whole question of authenticity in museums is very important. But it's going to be in a nearby lobby so that anybody can come up to this and they can touch this 3d printed surface. And as they're touching these different vignettes and these different scenes from the life of the Buddha, a screen next to them will light up with close up images of the thing that they're touching, and then they'll be hearing descriptions of each one of these episodes. So, you know, that's a way to represent an artifact through these methods where we're combining touch, hearing and vision all in the same exhibit element.",
+      "id": "ep_123_ut_26"
+    },
+    {
+      "end": 1305724,
+      "speaker": "Moritz Stefaner",
+      "start": 1274074,
+      "text": "That's exciting. I mean, then everything can become an interface. Basically, you can take into your hands like a garment or a sculpture. I think that's a very exciting way to think about things, technically. Is it hard on an arbitrary sculpture to detect where it has been touched? So I understand there's touch like panel overlays for flat surfaces. But let's say you have an arbitrary sculpture. Is it easy or is it doable at all to detect where exactly somebody touches the sculpture?",
+      "id": "ep_123_ut_27"
+    },
+    {
+      "end": 1493592,
+      "speaker": "Steve Landau",
+      "start": 1306344,
+      "text": "It's a really good question. And that is probably our main technical challenge, is how to harvest touches on a 3d arbitrary surface where we can't use a commodity touchscreen, which has to be flat. So we're experimenting with lots of different ways to do that. Some of them are easier than others. One very easy way to do it is to 3d print in plastic or any non conductive material, and then paint over that with a carbon rich conductive coating to create zones on the surface of the model. And then we can either run wires internally to each one of those zones and then gather up those wires and have them exit the sculpture, let's say, in the feet where it's mounted on the pedestal, and then we can connect each one of those wires to a sensor, and the sensor can determine when the touch has occurred and on which region. That's a very, let's say, labor intensive and error prone method, sounds like. Yeah, yeah. And you can end up with hundreds of wires and giant cable harnesses. And it's the old way that we used to do it. Nowadays, we're studying how to use commodity touchscreens for this purpose. So it's. So if you're familiar with the function of touchscreens, the drivers have rejection algorithms that are trying to distinguish what's a finger from what's something else. So if you take like, the point of a knife and touch it to your touchscreen, even if you're holding that with your hand, it won't register a touch. But if the, if you touch it with, let's say, something that's about 5 mm in diameter, then it will register a touch. So it's possible to fool the driver by painting a dot of conductive paint onto a plastic object and then placing that object against the touchscreen. So if you imagine this cosmic Buddha and you have all these painted zones, and you run little stripes of paint down from each zone to the base, and you create little five millimeter circles of conductive paint on the bottom of the base, and you place that whole thing on a touchscreen. Now, every time you touch, let's say, the head or the left ear, the touchscreen sees a finger touching it in a particular location.",
+      "id": "ep_123_ut_28"
+    },
+    {
+      "end": 1494488,
+      "speaker": "Moritz Stefaner",
+      "start": 1493708,
+      "text": "Right, right.",
+      "id": "ep_123_ut_29"
+    },
+    {
+      "end": 1521364,
+      "speaker": "Steve Landau",
+      "start": 1494616,
+      "text": "And we can program that. So that is the promising new method for doing this. And we see this because touchscreens have become so cheap. I mean, you can buy a fire tablet for, you know, Amazon fire tablet for about $40, and if you can, you can turn that into a multi channel touch sensor?",
+      "id": "ep_123_ut_30"
+    },
+    {
+      "end": 1536494,
+      "speaker": "Enrico Bertini",
+      "start": 1522734,
+      "text": "Yeah, I'm just curious, I'm wondering now, listening to you, if there is anything like a general purpose device where you can provide different types of haptic or sensory output. Signal. Yeah, output or signal.",
+      "id": "ep_123_ut_31"
+    },
+    {
+      "end": 1679078,
+      "speaker": "Steve Landau",
+      "start": 1536574,
+      "text": "So there are a couple of things, but none of them are really that good. So I'm thinking of refreshable tactile displays that have been created that use piezoelectric pins that move up and down. So you've probably seen refreshable braille displays. These are devices that represent a single line of braille using braille cells that have six tiny pins that move up and down under computer control. And people have tried to create matrices of these braille cells. So let's say 20 rows and 20 columns of these six dot devices, and you can create a matrix that way and you can move and manipulate the pins in real time to create very simple diagrams. So this is being done now. They're very expensive, they're very fragile, typically, and they also are very low resolution because if you can imagine, if you were trying to see a shape, let's say someone had, you could show a square pretty easily because the pins are all in neat rows and columns. So you can show a square, but as soon as you tried to show even a circle, it would fall apart because now it's a very jagged line. You can't really represent curves very well. And, you know, so we don't, we don't use those devices in our, in our work because we are trying to create the most precise, tactile information possible. And so we have other methods that work much better. But of course, we don't have the luxury of simply, you know, refreshing the, our display and having a new picture appear. Our pictures are static and they always stay the same because they're basically printed on paper or plastic, so we don't move them around as much. So that's a shortcoming of our method.",
+      "id": "ep_123_ut_32"
+    },
+    {
+      "end": 1690014,
+      "speaker": "Enrico Bertini",
+      "start": 1679206,
+      "text": "So I guess that part of the problem in designing the systems is also figuring out what doesn't require too much learning before people can use it effectively.",
+      "id": "ep_123_ut_33"
+    },
+    {
+      "end": 1718944,
+      "speaker": "Steve Landau",
+      "start": 1690174,
+      "text": "Yeah, that's really true. I mean, I guess that's the case in all design, but we really are very focused on the idea of intuitive use because it's a lot harder for our users to go and Google the instructions or something like that. So we really rely on usability testing to observe people and we try.",
+      "id": "ep_123_ut_34"
+    },
+    {
+      "end": 1722020,
+      "speaker": "Enrico Bertini",
+      "start": 1721684,
+      "text": "To.",
+      "id": "ep_123_ut_35"
+    },
+    {
+      "end": 1748676,
+      "speaker": "Steve Landau",
+      "start": 1722052,
+      "text": "Guess or to predict the kinds of features that will, you know, improve their ability to learn without a lot of explanation. So whatever kind of is the first thing that you would try? We try to make that have a meaningful result.",
+      "id": "ep_123_ut_36"
+    },
+    {
+      "end": 1783830,
+      "speaker": "Enrico Bertini",
+      "start": 1748820,
+      "text": "Okay. And so there is just one last thing I wanted to ask you. So many of our listeners are people who love doing data visualizations and experimenting with new projects. So let's say if there is anyone who wants to try making any of their new visualizations more accessible, what would you suggest? What's the simplest? I would say if there is anything simple to do, is there anything that people can try out and it doesn't require too much of an initial investment, let's say.",
+      "id": "ep_123_ut_37"
+    },
+    {
+      "end": 1890314,
+      "speaker": "Steve Landau",
+      "start": 1783982,
+      "text": "Well, I would recommend that people really use alt tags and try to put as much description into their designs so that it's possible to query the image, to hear what things are and to make these descriptions as helpful as possible with the understanding that some people are not going to be able to see the screen. So as long as you're aware of that and you're trying to accommodate those people, then your designs will improve. As far as adding haptics or tactile information, that's something that really is not easy for, for someone to just pick up and do because it does require, you know, some craft techniques in order to make the tactile representations. So we, you know, we're, we have a lot of machines to do that, a lot of 3d printers and other kinds of printers and embossing machines and CNC ing and things like that. It's a really a bit of a maker thing and it's probably unrealistic to expect average developers to implement that. But I think one thing that everybody can do is to focus a lot on description because that really is the key.",
+      "id": "ep_123_ut_38"
+    },
+    {
+      "end": 1945784,
+      "speaker": "Moritz Stefaner",
+      "start": 1890434,
+      "text": "Yeah, that's a great point. I mean, text is just such a good universal medium, which is so powerful. The other thing that works quite well in data visualization as well is also, and you touched on that before, is this idea of redundant encoding. So basically saying the same thing twice or three times through different means and it actually makes things actually more interesting also to any audience. Or you can make a much more pointed design if you do that. And if somebody's missing one channel, like color vision for instance, or something like this, then they still have a chance to get the gist through other means. And I think that's, that's another really simple trick, is to use for the most important stuff, a redundant technique or as you said, have a chart, but also a text driving the main point home. It's so simple to do and helps everybody to get immediately what you want to say.",
+      "id": "ep_123_ut_39"
+    },
+    {
+      "end": 1972278,
+      "speaker": "Steve Landau",
+      "start": 1946364,
+      "text": "The problem is that most engineers just are not focused enough on diverse user populations, and they just look at themselves and think, well, this would work for me. So it's good. And that's something that people have to be confronted with, because these days, I think that that's no longer a good way to design.",
+      "id": "ep_123_ut_40"
+    },
+    {
+      "end": 1992824,
+      "speaker": "Moritz Stefaner",
+      "start": 1972406,
+      "text": "Absolutely. And I think our episode here shows how much inspiration you can also draw from these, you know, challenges and how much interesting new work he can produce, just also working with these limitations. And so thanks so much for joining us, Stephen. This was great. I'm super inspired. Now I want to do, like, all touchable sculptures.",
+      "id": "ep_123_ut_41"
+    },
+    {
+      "end": 1995344,
+      "speaker": "Enrico Bertini",
+      "start": 1994244,
+      "text": "Same here.",
+      "id": "ep_123_ut_42"
+    },
+    {
+      "end": 1998524,
+      "speaker": "Moritz Stefaner",
+      "start": 1995844,
+      "text": "Looking forward to seeing more of your work online.",
+      "id": "ep_123_ut_43"
+    },
+    {
+      "end": 2001396,
+      "speaker": "Steve Landau",
+      "start": 1998684,
+      "text": "Well, thank you so much. It's been a real pleasure talking to you.",
+      "id": "ep_123_ut_44"
+    },
+    {
+      "end": 2002124,
+      "speaker": "Enrico Bertini",
+      "start": 2001500,
+      "text": "Thank you, Steven.",
+      "id": "ep_123_ut_45"
+    },
+    {
+      "end": 2003180,
+      "speaker": "Moritz Stefaner",
+      "start": 2002164,
+      "text": "Thank you. Thank you.",
+      "id": "ep_123_ut_46"
+    },
+    {
+      "end": 2004316,
+      "speaker": "Enrico Bertini",
+      "start": 2003252,
+      "text": "Bye bye.",
+      "id": "ep_123_ut_47"
+    },
+    {
+      "end": 2005304,
+      "speaker": "Steve Landau",
+      "start": 2004420,
+      "text": "Bye bye.",
+      "id": "ep_123_ut_48"
+    },
+    {
+      "end": 2030314,
+      "speaker": "Enrico Bertini",
+      "start": 2009884,
+      "text": "Hey, folks, thanks for listening. Listening to data stories again. Before you leave, a few last notes. This show is now completely crowdfunded, so you can support us by going on Patreon. That's patreon.com Datastories. And if you can spend a couple of minutes reading us on iTunes, that would be extremely helpful for the show.",
+      "id": "ep_123_ut_49"
+    },
+    {
+      "end": 2056190,
+      "speaker": "Moritz Stefaner",
+      "start": 2030434,
+      "text": "And here's also some information on the many ways you can get news directly from us. We are, of course, on twitter@twitter.com. Datastories. We have a Facebook page@Facebook.com, slash data storiespodcast all in one word. And we also have a slack channel where you can chat with us directly. And to sign up, you can go to our homepage datastory eas, and there is a button at the bottom of the page.",
+      "id": "ep_123_ut_50"
+    },
+    {
+      "end": 2072041,
+      "speaker": "Enrico Bertini",
+      "start": 2056342,
+      "text": "And we also have an email newsletter. So if you want to get news directly into your inbox and be notified whenever we publish an episode, you can go to our homepage data store and look for the link you find at the bottom in the footer.",
+      "id": "ep_123_ut_51"
+    },
+    {
+      "end": 2084201,
+      "speaker": "Moritz Stefaner",
+      "start": 2072137,
+      "text": "So one last thing we want to tell you is that we love to get in touch with our listeners, especially if you want to suggest a way to improve the show or amazing people you want us to invite or even projects you want us to talk about.",
+      "id": "ep_123_ut_52"
+    },
+    {
+      "end": 2093414,
+      "speaker": "Enrico Bertini",
+      "start": 2084297,
+      "text": "Yeah, absolutely. And don't hesitate to get in touch with us. It's always a great thing to hear from you. So see you next time, and thanks for listening today. The stories.",
+      "id": "ep_123_ut_53"
+    }
+  ],
+  "confidence": 0.936999360811105,
+  "audio_duration": 2101,
+  "punctuate": true,
+  "format_text": true,
+  "dual_channel": false,
+  "webhook_url": null,
+  "webhook_status_code": null,
+  "webhook_auth": false,
+  "webhook_auth_header_name": null,
+  "speed_boost": false,
+  "auto_highlights_result": null,
+  "auto_highlights": false,
+  "audio_start_from": null,
+  "audio_end_at": null,
+  "word_boost": [],
+  "boost_param": null,
+  "filter_profanity": false,
+  "redact_pii": false,
+  "redact_pii_audio": false,
+  "redact_pii_audio_quality": null,
+  "redact_pii_policies": null,
+  "redact_pii_sub": null,
+  "speaker_labels": true,
+  "content_safety": false,
+  "iab_categories": true,
+  "content_safety_labels": {
+    "status": "unavailable",
+    "results": [],
+    "summary": {}
+  },
+  "language_detection": false,
+  "language_detection_threshold": null,
+  "language_confidence": null,
+  "custom_spelling": null,
+  "throttled": false,
+  "auto_chapters": true,
+  "summarization": false,
+  "summary_type": null,
+  "summary_model": null,
+  "custom_topics": false,
+  "topics": [],
+  "speech_threshold": null,
+  "speech_model": "best",
+  "chapters": [
+    {
+      "summary": "This week on Data stories, we talk about data visualization, analysis, and generally the role that data plays in our lives. As you might know, our podcast is listener supported. So if you enjoy the show, please consider supporting us.",
+      "gist": "Data Stories",
+      "headline": "This podcast is listener supported, so if you enjoy the show, please consider supporting us",
+      "start": 320,
+      "end": 72714,
+      "id": "ep_123_ch_0"
+    },
+    {
+      "summary": "Stephen: How do you visualize information for people who are visually impaired? Steven: To talk about this topic we have on the show, Steven Landau, who is the director of research of a company called touchgraphics. Much looking forward to talking to you.",
+      "gist": "Map Accessibility for visually impaired people",
+      "headline": "Stephen Miller: How do you visualize information for visually impaired people",
+      "start": 72794,
+      "end": 126532,
+      "id": "ep_123_ch_1"
+    },
+    {
+      "summary": "Teachers of the visually impaired have been using raised line and textured diagrams to explain spatial concepts to their students since the early 19th century. How do you visualize data for people who are visually impaired or even just totally blind?",
+      "gist": "What is Tactile Graphics?",
+      "headline": "Touch graphics are used by teachers of visually impaired students to explain spatial concepts",
+      "start": 126708,
+      "end": 371118,
+      "id": "ep_123_ch_2"
+    },
+    {
+      "summary": "Our main focus is on the concept of multisensory communication. We try to use auditory and tactile sensory channels to offload some of the information that is traditionally presented visually. By combining the senses like this, we can get pretty close to complete accessibility for many kinds of images.",
+      "gist": "Making visual information more accessible for the visually impaired",
+      "headline": "Multisensory communication uses auditory and tactile channels to convey information",
+      "start": 371206,
+      "end": 1030154,
+      "id": "ep_123_ch_3"
+    },
+    {
+      "summary": "In addition to maps, we're also working on all kinds of exhibits. Smithsonian has asked us to make a 3d printed replica of the cosmic Buddha. We're combining touch, hearing and vision all in the same exhibit element. That's exciting.",
+      "gist": "Interactive Wall Maps at Google",
+      "headline": "Can you talk about some specific projects that Google is working on",
+      "start": 1031534,
+      "end": 1286482,
+      "id": "ep_123_ch_4"
+    },
+    {
+      "summary": "Is it hard on an arbitrary sculpture to detect where it has been touched? How to harvest touches on a 3d arbitrary surface where we can't use a commodity touchscreen. Is there anything like a general purpose device where you can provide different types of haptic or sensory output?",
+      "gist": "Can a Touch Screen Tell Where It's Been Touched?",
+      "headline": "Is it hard on an arbitrary sculpture to detect where it has been touched",
+      "start": 1286538,
+      "end": 1748676,
+      "id": "ep_123_ch_5"
+    },
+    {
+      "summary": "Stephen: If there is anything simple to do, is there anything that people can try out. One thing that everybody can do is to focus a lot on description. As far as adding haptics or tactile information, that's not easy for someone to just pick up and do. This episode shows how much inspiration you can also draw from these challenges.",
+      "gist": "How to make data visualizations more accessible",
+      "headline": "Stephen Miller: Trying to make data visualization more accessible can be difficult",
+      "start": 1748820,
+      "end": 2005304,
+      "id": "ep_123_ch_6"
+    },
+    {
+      "summary": "This show is now completely crowdfunded, so you can support us by going on Patreon. com Datastories. And here's also some information on the many ways you can get news directly from us. We love to get in touch with our listeners, especially if you want to suggest a way to improve the show.",
+      "gist": "Data Stories",
+      "headline": "This show is completely crowdfunded, so you can support us by going on Patreon",
+      "start": 2009884,
+      "end": 2093414,
+      "id": "ep_123_ch_7"
+    }
+  ],
+  "disfluencies": false,
+  "entity_detection": false,
+  "sentiment_analysis": false,
+  "sentiment_analysis_results": null,
+  "entities": null,
+  "speakers_expected": null,
+  "summary": null,
+  "custom_topics_results": null,
+  "episode_num": 123,
+  "episode_metadata": {
+    "speakers": [
+      "Steve Landau",
+      "Enrico Bertini",
+      "Moritz Stefaner"
+    ],
+    "WPid": "1203",
+    "url": "https://datastori.es/podlove/file/5198/s/feed/c/mp3/123-touch-graphics-with-steve-landau.mp3",
+    "episode_title": "Touch Graphics with Steve Landau"
+  }
+}

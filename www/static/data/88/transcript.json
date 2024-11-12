@@ -1,0 +1,1064 @@
+{
+  "id": "797542bf-92f9-40fe-90af-b03747802603",
+  "language_model": "assemblyai_default",
+  "acoustic_model": "assemblyai_default",
+  "language_code": "en_us",
+  "status": "completed",
+  "audio_url": "https://datastori.es/podlove/file/3352/s/feed/c/mp3/88-re-designing-visualizations-in-makeovermonday-with-andy-kriebel-and-andy-cotgreave.mp3",
+  "utterances": [
+    {
+      "end": 13114,
+      "speaker": "Andy Kriebel",
+      "start": 240,
+      "text": "We'll share the data each Sunday and say to people, look, retell the story. Find a new story in this dataset. Just think about ways in which you could improve or create a new visualization based on this data set and the original chart.",
+      "id": "ep_88_ut_0"
+    },
+    {
+      "end": 53584,
+      "speaker": "Moritz Stefaner",
+      "start": 17654,
+      "text": "This episode of Data stories is sponsored by the center for Interdisciplinary Methodologies at the University of Warwick, where students can study subjects such as visualization, big data, digital sociology, advanced quantitative research and spatial methods, including geographic information systems, all the way to user interface cultures and playful media and much more. Check out their website at Warwick. Ac dot UK Datastories that's war. Ick dot ac dot UK Datastories.",
+      "id": "ep_88_ut_1"
+    },
+    {
+      "end": 77610,
+      "speaker": "Enrico Bertini",
+      "start": 73074,
+      "text": "Hey, everyone, welcome to a new episode of data stories. Hey, Moritz.",
+      "id": "ep_88_ut_2"
+    },
+    {
+      "end": 78410,
+      "speaker": "Moritz Stefaner",
+      "start": 77682,
+      "text": "Hey, Enrico.",
+      "id": "ep_88_ut_3"
+    },
+    {
+      "end": 79066,
+      "speaker": "Enrico Bertini",
+      "start": 78482,
+      "text": "How's it going?",
+      "id": "ep_88_ut_4"
+    },
+    {
+      "end": 81298,
+      "speaker": "Moritz Stefaner",
+      "start": 79130,
+      "text": "Good, very good. How are things for you?",
+      "id": "ep_88_ut_5"
+    },
+    {
+      "end": 82618,
+      "speaker": "Enrico Bertini",
+      "start": 81386,
+      "text": "Good, good, good.",
+      "id": "ep_88_ut_6"
+    },
+    {
+      "end": 83574,
+      "speaker": "Moritz Stefaner",
+      "start": 82706,
+      "text": "Very nice.",
+      "id": "ep_88_ut_7"
+    },
+    {
+      "end": 89066,
+      "speaker": "Enrico Bertini",
+      "start": 84034,
+      "text": "Lots of work as usual, but going well. Going well, very good. How about you?",
+      "id": "ep_88_ut_8"
+    },
+    {
+      "end": 94998,
+      "speaker": "Moritz Stefaner",
+      "start": 89130,
+      "text": "Good. Busy. I just launched a new project. I don't know, did you see it? It's called the rhythm of food. Quite nice.",
+      "id": "ep_88_ut_9"
+    },
+    {
+      "end": 97114,
+      "speaker": "Enrico Bertini",
+      "start": 95046,
+      "text": "Yeah, I saw it. I saw a preview.",
+      "id": "ep_88_ut_10"
+    },
+    {
+      "end": 124166,
+      "speaker": "Moritz Stefaner",
+      "start": 97494,
+      "text": "Yeah. So it's a collaboration with Google News lab and I used Google trends data to look at seasonality in food queries. Like, when do people search for which types of dishes and recipes and ingredients and. Yeah, that turned out to be super interesting. It's like hundreds of different foods you can explore, and we try to extract some patterns and add some annotations. Yeah. And I think it turned out quite nice.",
+      "id": "ep_88_ut_11"
+    },
+    {
+      "end": 125910,
+      "speaker": "Enrico Bertini",
+      "start": 124310,
+      "text": "You have a thing with food.",
+      "id": "ep_88_ut_12"
+    },
+    {
+      "end": 129634,
+      "speaker": "Moritz Stefaner",
+      "start": 126102,
+      "text": "There is a thing going on with food. I keep coming back to that.",
+      "id": "ep_88_ut_13"
+    },
+    {
+      "end": 133246,
+      "speaker": "Enrico Bertini",
+      "start": 131534,
+      "text": "It's been a few years already.",
+      "id": "ep_88_ut_14"
+    },
+    {
+      "end": 139342,
+      "speaker": "Moritz Stefaner",
+      "start": 133390,
+      "text": "Yeah, it's a good thing. It's one of life's pleasures, isn't it?",
+      "id": "ep_88_ut_15"
+    },
+    {
+      "end": 144394,
+      "speaker": "Enrico Bertini",
+      "start": 139518,
+      "text": "Yeah, absolutely. I'm looking forward to seeing more.",
+      "id": "ep_88_ut_16"
+    },
+    {
+      "end": 147910,
+      "speaker": "Moritz Stefaner",
+      "start": 144694,
+      "text": "Yeah. Let's see what next year brings. Maybe a cookbook.",
+      "id": "ep_88_ut_17"
+    },
+    {
+      "end": 198064,
+      "speaker": "Enrico Bertini",
+      "start": 148022,
+      "text": "Yeah, that would be nice. That would be nice. And organizing a few events around it. That would be really cool as well. Yeah. So, okay, today we have a couple of guests to talk about a really, really nice project. This is called makeover Mondays and the idea is to. So what they do with makeover Mondays is to publish every week a new chart and a new data set and ask people to redesign them and publish a new version in their website. This is called Makeover Monday. And two guys behind these beautiful projects are Andy Codgreeve and Andy Crebel. Hi, Andys. Welcome on the show.",
+      "id": "ep_88_ut_18"
+    },
+    {
+      "end": 200444,
+      "speaker": "Andy Cotgreave",
+      "start": 198524,
+      "text": "Hello. Thank you for having us.",
+      "id": "ep_88_ut_19"
+    },
+    {
+      "end": 201764,
+      "speaker": "Andy Kriebel",
+      "start": 200524,
+      "text": "Yeah, thank you. Hi, guys.",
+      "id": "ep_88_ut_20"
+    },
+    {
+      "end": 202564,
+      "speaker": "Enrico Bertini",
+      "start": 201844,
+      "text": "How are you?",
+      "id": "ep_88_ut_21"
+    },
+    {
+      "end": 207124,
+      "speaker": "Andy Kriebel",
+      "start": 202644,
+      "text": "Very well indeed. It's a fine, sunny November day, so.",
+      "id": "ep_88_ut_22"
+    },
+    {
+      "end": 212586,
+      "speaker": "Enrico Bertini",
+      "start": 207164,
+      "text": "Finally we have again, some proper British voices on the show.",
+      "id": "ep_88_ut_23"
+    },
+    {
+      "end": 213690,
+      "speaker": "Andy Kriebel",
+      "start": 212730,
+      "text": "One British voice.",
+      "id": "ep_88_ut_24"
+    },
+    {
+      "end": 216050,
+      "speaker": "Enrico Bertini",
+      "start": 213762,
+      "text": "One British voice. Yeah, yeah.",
+      "id": "ep_88_ut_25"
+    },
+    {
+      "end": 217762,
+      "speaker": "Andy Cotgreave",
+      "start": 216122,
+      "text": "Don't, don't insult me like that.",
+      "id": "ep_88_ut_26"
+    },
+    {
+      "end": 235578,
+      "speaker": "Enrico Bertini",
+      "start": 217858,
+      "text": "Sorry, sorry, sorry. Okay, so, Andy, Andy. Andy Codgreeve and Andy Krieble, can you briefly introduce yourself to let our listeners know a little more about you and then we can dive right into the topic?",
+      "id": "ep_88_ut_27"
+    },
+    {
+      "end": 254764,
+      "speaker": "Andy Kriebel",
+      "start": 235706,
+      "text": "Yeah, I'll go first. I'm Andy Cotgreave. I'm technical evangelist at Tableau. I've been with Tableau for five years and been all in this field of data visualization for about ten years. I blog at https://gravyanecdote.com/ and hang out on Twitter and argue about all trends around data.",
+      "id": "ep_88_ut_28"
+    },
+    {
+      "end": 269244,
+      "speaker": "Andy Cotgreave",
+      "start": 255264,
+      "text": "And so I'm Andy Crebel and I am the head coach at the information Labs data school here in London. And I blog at viswiz.com and have been doing makeovers for a very, very long time.",
+      "id": "ep_88_ut_29"
+    },
+    {
+      "end": 279470,
+      "speaker": "Moritz Stefaner",
+      "start": 269814,
+      "text": "So you actually started this makeover thing. Can you tell us a bit about how it all began and how you got into the makingover practice?",
+      "id": "ep_88_ut_30"
+    },
+    {
+      "end": 319784,
+      "speaker": "Andy Cotgreave",
+      "start": 279502,
+      "text": "Yeah, my pleasure. So it actually started back in 2009 when I started blogging. And I really was just looking for an excuse to practice. And I was reading a lot of Stephen Few at the time and trying to practice best practices and things like that and following lots of blogs and things and saw lots of really bad. And I was like, okay, well, this is a good way for me to practice. I can take a chart and either download the data if it's available or recreate it and then create a simpler version and explain what I liked and didn't like about the original and then just present an alternative. And it was just, I found it to be a great way to practice.",
+      "id": "ep_88_ut_31"
+    },
+    {
+      "end": 327900,
+      "speaker": "Moritz Stefaner",
+      "start": 320324,
+      "text": "And in the beginning, you just did it as you went along, but now the two of you together do it on this weekly basis. Is that right?",
+      "id": "ep_88_ut_32"
+    },
+    {
+      "end": 338810,
+      "speaker": "Andy Cotgreave",
+      "start": 327972,
+      "text": "Yes. So I was doing it by myself since 2009. And then Andy contacted me in late November last year because he forgot how to use Tableau, so he could probably pick it up from there.",
+      "id": "ep_88_ut_33"
+    },
+    {
+      "end": 417214,
+      "speaker": "Andy Kriebel",
+      "start": 338882,
+      "text": "Yeah. So I found I was just in changes in roles. I wasn't actually practicing what I was preaching so much. So I phoned Andy and said, hey, why don't we do this for a year? You know, you and I will do a makeover each week, and we'll post our results on Twitter, and it'll just be the two of us goofing around, and I'll get to use Tableau every week. And then, so we started, so we said, let's do it throughout the year of 2016. We'll share the data each Sunday and say to people, look, spend an hour or so working on this data set. Retell the story. Find a new story in this data set. Just think about ways in which you could improve or create a new visualization based on this data set and the original chart. So we thought it would just be a few of us getting involved. And little did we know, it exploded into something astonishing. So we are, what week are we at? We're at week 48 of 52, and we've had the latest numbers of 2806 makeovers from 840, from 470 people, which is just crazy. And we're averaging 58 a week. So Andy and I had no idea, but it just exploded into something enormous, and it's just been an amazing year.",
+      "id": "ep_88_ut_34"
+    },
+    {
+      "end": 426388,
+      "speaker": "Enrico Bertini",
+      "start": 417254,
+      "text": "That's fantastic. So can you tell us a little bit about how do you create new makeover Mondays? What's the process behind them?",
+      "id": "ep_88_ut_35"
+    },
+    {
+      "end": 502382,
+      "speaker": "Andy Cotgreave",
+      "start": 426556,
+      "text": "So I guess I'll start with kind of how I picked the visualization. So that process really hasn't changed that much. Although I do tend to get more suggestions from people now, especially people that participate in the project they send me. They'll tweet articles to me or things that they think might be good candidates. I tend to pick the ones that already have the data created just because it's easy. I'm going for as little effort as possible to prepare the data, and that part's worked pretty well. And then I tweet out the data usually on Sunday mornings, even though it's makeover Monday. But people tend to. I'm getting in trouble with a lot of spouses on Sundays, I think. But, yes. So kind of the process I follow is I tend to start with the original visualization and I start with my critique before I even start rebuilding it. I do a real quick, just five or six or seven bullet points about what I like and what I don't like, what can be improved. And then what I try to do with the version I create is I try to actually implement the things that I note that I would use as areas for improvement. And I just try to do it quickly. For me, it's about doing something quick and demonstrating that you can do something pretty nice in a very short amount of time.",
+      "id": "ep_88_ut_36"
+    },
+    {
+      "end": 509914,
+      "speaker": "Moritz Stefaner",
+      "start": 502518,
+      "text": "So how much time would you spend on a typical redesign? Is it like a few hours or minutes? How long does that take?",
+      "id": "ep_88_ut_37"
+    },
+    {
+      "end": 537162,
+      "speaker": "Andy Cotgreave",
+      "start": 510294,
+      "text": "It depends. So generally, I spend probably 45 minutes on the makeover itself, and then sometimes up to an hour. Depends on how complex the data is. And if I get an idea right away, I usually start with a lot of data exploration and then I write it up on the blog post and do the images and screen captures and things. And that actually tends to take more time than the actual makeover itself.",
+      "id": "ep_88_ut_38"
+    },
+    {
+      "end": 538074,
+      "speaker": "Moritz Stefaner",
+      "start": 537298,
+      "text": "Yeah, sure.",
+      "id": "ep_88_ut_39"
+    },
+    {
+      "end": 591154,
+      "speaker": "Andy Kriebel",
+      "start": 538114,
+      "text": "I guess my process is similar. One thing I do, which I'm sure Andy does as well, is if we've taken a chart that is actually embedded within a news story, I tend to, it's like, well, look at the story they were originally trying to tell in the chart itself and then within the wider article. And I always take that as the starting point. Can I retell the story in a, in a different way? Often as is the way I end up in a completely different tangent and find my own little story and get carried away. So try to do it within an hour. I think a lot of people doing makeover Monday have found that they've gone down rabbit holes of several hours and oh my God, we end up learning about domains of data we had no idea we would ever need to know about. So, yeah, it's just like a springboard to find information out about the world as well as the chart itself.",
+      "id": "ep_88_ut_40"
+    },
+    {
+      "end": 615654,
+      "speaker": "Andy Cotgreave",
+      "start": 591654,
+      "text": "And that's a good point you bring up, Andy, I forgot about the reading the article part because a lot of times what they write in the accompanying article is actually a better story than the chart tells. So then like Andy's saying, sometimes I'll try to. All right, well, I really like what they were saying there. How can I incorporate that back into the story that the chart is trying to tell? And it might just be through changing the title and making the title better or all kinds of ways you can implement that.",
+      "id": "ep_88_ut_41"
+    },
+    {
+      "end": 620394,
+      "speaker": "Enrico Bertini",
+      "start": 615994,
+      "text": "How do people participate? Can you explain the process a little bit there?",
+      "id": "ep_88_ut_42"
+    },
+    {
+      "end": 643462,
+      "speaker": "Andy Kriebel",
+      "start": 620554,
+      "text": "Yeah, we've got a website, makeovermonday.co.uk. Each week, Andy adds the dataset to the dataset page. It's always available as an excel file and also a Tableau extract. So anybody using Tableau can just connect straight to that. But if they want to use something else, then the Excel file is there. Then we say share the result on Twitter, use the #makeoverMonday.",
+      "id": "ep_88_ut_43"
+    },
+    {
+      "end": 644354,
+      "speaker": "Enrico Bertini",
+      "start": 643558,
+      "text": "Okay.",
+      "id": "ep_88_ut_44"
+    },
+    {
+      "end": 655846,
+      "speaker": "Andy Kriebel",
+      "start": 644814,
+      "text": "And then Andy has been working extremely hard because all of the results are on a Pinterest board, which now has 2800 pins on it. And when I. Yeah, that's been a lot.",
+      "id": "ep_88_ut_45"
+    },
+    {
+      "end": 656862,
+      "speaker": "Moritz Stefaner",
+      "start": 655870,
+      "text": "That's a lot of clicks.",
+      "id": "ep_88_ut_46"
+    },
+    {
+      "end": 659078,
+      "speaker": "Andy Cotgreave",
+      "start": 656958,
+      "text": "Yeah, but they're pinterest.",
+      "id": "ep_88_ut_47"
+    },
+    {
+      "end": 670064,
+      "speaker": "Andy Kriebel",
+      "start": 659206,
+      "text": "But it's just amazing. Going through and scrolling through this enormous catalog of different perspectives on 48 data sets. It's an astonishing resource.",
+      "id": "ep_88_ut_48"
+    },
+    {
+      "end": 696922,
+      "speaker": "Moritz Stefaner",
+      "start": 670564,
+      "text": "It's a huge repository, especially because all the charts, like, some of them refer to the same underlying data. You see all these different variations and all the different takes you can have. This could actually be the whole objective to analyze that data set. That could take the whole next year, basically, for you, if you wanted to see how many, like, slope graphs do you see? How many pie charts? How many bar charts? You know, like, this is super interesting.",
+      "id": "ep_88_ut_49"
+    },
+    {
+      "end": 719876,
+      "speaker": "Andy Kriebel",
+      "start": 696978,
+      "text": "Well, I was just looking through Andy and my own makeovers. I was looking through the 48 makeovers we've done so far. And I was like, yeah, you know what? We actually just do, do bar charts and line charts mostly. You know, it's amazing how uncomplex makeovers are, which is a good thing. But I was also thinking, yeah, we should quantify how many chart types are used.",
+      "id": "ep_88_ut_50"
+    },
+    {
+      "end": 736248,
+      "speaker": "Moritz Stefaner",
+      "start": 719970,
+      "text": "Be interesting next year. So, looking over the whole year, do you have any, like, favorite redesigns? Which ones stood out? Were there any, like, funny stories where somebody sued you for the redesign or whatever? What were the big. The big stories?",
+      "id": "ep_88_ut_51"
+    },
+    {
+      "end": 799040,
+      "speaker": "Andy Cotgreave",
+      "start": 736416,
+      "text": "Well, we haven't had any authors get mad as yet, but we also have, I think, one really interesting outcome is Andy. I don't remember the name of the guy that did the global warming one, but he was really excited. You guys know the spiral chart of the global warming? So we used that dataset one week, and that guy got very engaged with the project and loved everything. And he was tweeting people back, and he was really, really excited. So I was a little worried about that one, actually, that I thought he might be a little bit offended. But, I mean, Andy and I both thought his chart was really good. Of course, it requires. The animation is actually what makes that visualization great. So it was really interesting to see how people could tell a different story with such a great data set, but in a static form, because when you're looking at the Pinterest board, they're all static, so it makes it, you know, I know it's changed the way I design things, as I design, assuming it's going to just be an image now. So, at least for this project.",
+      "id": "ep_88_ut_52"
+    },
+    {
+      "end": 799680,
+      "speaker": "Enrico Bertini",
+      "start": 799152,
+      "text": "Yeah.",
+      "id": "ep_88_ut_53"
+    },
+    {
+      "end": 888776,
+      "speaker": "Andy Kriebel",
+      "start": 799792,
+      "text": "That was Ed Hawkins, climate scientist at Redding. Yeah. And I mean, that climate data in itself, I mean, we've had. It's just amazing. It's just a time series of 160 years worth of data. And global temperature, I mean, it's a median anomaly data, but it's essentially the global temperature. And it is just. It's amazing. We've done that one live with workgroups and groups, and it's incredible how people can still find new ways with a very simple data set to tell, find new insights or tell a story completely differently. I think that's been one of my favorite weeks, just to see the variety of things I did. I did get told off. One week we did a makeover on football players data in the English Premier League and the source there came from the Daily Mail. And I'm not a fan of the Daily Mail newspaper, UK newspaper. And so my blog post was pretty critical, I think, because I'm pretty critical of the paper. And of course, the original author of the, of the chart got kind of upset. You know, we had a little bit of a back and forth and it's one of the big learning points about how to critique constructively, because in that week I didn't do a constructive criticism and then people don't. Yeah, then people did. The authors get upset. So we've always been mindful to critique in a way that is additive rather than destructive.",
+      "id": "ep_88_ut_54"
+    },
+    {
+      "end": 910136,
+      "speaker": "Andy Cotgreave",
+      "start": 888840,
+      "text": "Yeah. And the week that we did the global warming, we had 88 different visualizations submitted. So just think of how that can help Ed spread his message. And a lot of them got picked up on Reddit and different things like that. So it was just great exposure for a great cause as well.",
+      "id": "ep_88_ut_55"
+    },
+    {
+      "end": 943270,
+      "speaker": "Enrico Bertini",
+      "start": 910320,
+      "text": "So one thing I like about the format that you're following, I've been scrolling through some of the makeover Mondays and looks to that. You try to follow this template where you describe the problem and then you say what you like about the original one and what can be improved. Right. So you're trying to balance the two things, which I think works really, really well. So how did the project evolve over time? Did you just have this same step, same template from the very beginning or it's been changing over time?",
+      "id": "ep_88_ut_56"
+    },
+    {
+      "end": 984278,
+      "speaker": "Andy Cotgreave",
+      "start": 943382,
+      "text": "Yeah, I think the process has not really changed at all, but every dataset is very different. So your process changes because you explore the data differently and the discoveries you make are different. So that's what I really enjoy about it is I've probably done 200 or so at least makeovers just on my blog. So that's 200 different data sets I've gotten to work with and they're all different. And I just feel like I'm learning so much by doing it that way. And that's what I like the most about it, is just the learning process, I think the critiquing process, I try to be pretty consistent with that if I can.",
+      "id": "ep_88_ut_57"
+    },
+    {
+      "end": 1098530,
+      "speaker": "Andy Kriebel",
+      "start": 984366,
+      "text": "Yeah, you've been very good at the consistency there. I think a couple of things that I've noticed is we started slowly, and then we saw in the first 20 weeks, one week, somebody would do a tall, long, thin chart. And then the next thing for the following week, there'd be a kind of a ripple effect and loads of people doing things like that. And then it was slope charts. And suddenly everyone was doing slope charts. There's definitely this. I mean, well, without a doubt, there's this learning from each other, trying new techniques out, which, anecdotally, the amount of people who are just like, I've learned so much. And you can see that. And then another thing that happened in the summer. So about week 26, week 30, people were getting more and more elaborate with the makeovers. And to the point, it's like, well, clearly they were not taking an hour. And then Andy posted, did some stats on how many people were downloading the data, and noticing that it didn't. You know, if hundreds of people were downloading, like, downloading the dataset, but only 40 or 50 were publishing a viz. It's like, well, why are people not sharing the visits? And then a few people commented on that, saying, well, it seems to have turned into a graphic design competition. And you're like, whoa, that's really interesting. And, you know, then I had a few people talk to me privately about that. It's like, you know, it's too intimidating. And then suddenly, oh, my God. We've completely sort of. We've encouraged the elaborate path, which is great, right? You know, if people want to go and make print ready things, that's amazing. But this is not about intimidating people. So I think Andy and I reset that in the next couple of weeks. We both put our blog post saying, you know what, you can keep it simple. And that's also extremely important, because this project is as much about encouraging people to start this journey into data visualization and analytics as it is about rewarding the elaborate, amazing pieces of complex work. So that was a really good learning point.",
+      "id": "ep_88_ut_58"
+    },
+    {
+      "end": 1124942,
+      "speaker": "Enrico Bertini",
+      "start": 1098602,
+      "text": "So when people start publishing their own solutions, what happened next? They are just discussing about their own solutions. And you, of course, write your own comments about that. So what kind of inter. How do people interact once the solution starts. Start coming in? Do you have any kind of judgment of kind of like, I don't know, most valuable makeover? Yeah, exactly. Something like that. Yeah.",
+      "id": "ep_88_ut_59"
+    },
+    {
+      "end": 1225944,
+      "speaker": "Andy Cotgreave",
+      "start": 1124998,
+      "text": "I could walk you through a couple things that I'm seeing. There's. So, for example, Eva Murray, who lives in Germany, she started to do kind of the same thing that Andy and I do, where she writes what she likes and doesn't like about the charts. And I find that really helpful because I'm missing things and it helps me learn from what other people are seeing. There's Charlie H. Who every week seems to download four or five and dissect them and writes a blog post about what he learned and then. But most of them I don't really reply to. I will like them on Twitter, but that's not necessary. That I like the visits that I'm acknowledging that I pinned it. So I think some people may take it meaning that I like them, but so I pin them all. Some of them I reply to, especially newcomers, I think Andy and I tend to always just send them a message like, hey, welcome. Glad to have you on board, because I think people really appreciate that and they've told us that. And then I've also taken a few makeover Mondays that other people have done and I've made those over again. So I'll have published my own and then somebody will submit one that I think is generally not that good or could be improved. And I'll do a step by step makeover and I'll do it and I'll create like a gif that has the step by step makeover process that I do on theirs. So now that's been received well by some people and not well by others. So I need to be a little more diligent about asking the people before I just take their viz and remake it. So that's something I've learned along the way as well, is I'm not the best at being polite sometimes.",
+      "id": "ep_88_ut_60"
+    },
+    {
+      "end": 1321124,
+      "speaker": "Andy Kriebel",
+      "start": 1226564,
+      "text": "It's interesting that because you've got to be mindful of criticism, and when people are making things over, you know, if they're constraining themselves within 1 hour to do a 1 hour sort of makeover, then they will be making compromises. And it's. You can't put yourself in the mind of the person doing the makeover. So it is something we're always mindful of being sensitive about. One aspect of the way the feedback loop I like seeing is something that happened a couple of weeks ago, and it's happened plenty of times through the year. So two weeks ago, we took the lyrics from the top 100 songs from songlricks.com. so we had every word in every, every position in all these songs, and you see these brilliant little collaborations kind of pop up. So Chris love started looking at uniqueness of words, and then he and Rody Zakovich started bouncing back and forth ideas. And then the next thing you know, Chris love is going to try and do a notabilia inspired makeover. Moritz, you are the man behind the amazing notabilia. And so he thought, could he take that approach to visualize uniqueness of lyrics? And on Twitter, you see this iteration, you're like, oh, clearly Chris has got himself carried away and he's having a great evening. And then him and Rody are bouncing back ideas. And so you see this viz kind of evolving in collaboration in real time on Twitter. And, you know, these are amazing conversations that happened because people are just experimenting, playing and just unleashing their creativity.",
+      "id": "ep_88_ut_61"
+    },
+    {
+      "end": 1342338,
+      "speaker": "Moritz Stefaner",
+      "start": 1321204,
+      "text": "Yeah. And it's nice because you give everybody like a common starting point and I think this brings people together and that's point. Otherwise, you know, if, if everybody was just working on their things and nobody knows about what everybody else is talking about, you know, this cannot happen. So it's such a mechanism to bring in this one shared, like, common ground and then see where that takes you.",
+      "id": "ep_88_ut_62"
+    },
+    {
+      "end": 1379762,
+      "speaker": "Andy Kriebel",
+      "start": 1342436,
+      "text": "Yeah. And, you know, my life is mostly spent working with businesses. We're trying to encourage organizations to think about this data driven culture, and they just don't think beyond the single dead end dashboard. They're like, well, we've done the dashboard, we're done. And it's like, no, what if 50 people in your organization could take your sales data and each spend an hour playing with it once a month? It'd be like you would find out things you had no idea and revolutionize your business. So it's become a great sort of project or great thing to use in the business world as well, because it encourages people to think, oh, yeah, 50 different versions of the same data set. What might we discover?",
+      "id": "ep_88_ut_63"
+    },
+    {
+      "end": 1415404,
+      "speaker": "Andy Cotgreave",
+      "start": 1379858,
+      "text": "And I think adding on to that, Andy here in the UK, cloudstream partner who's a partner of Tableau, they just hired somebody and they're using makeover Monday as their training platform. So they hired the guy, what, a month ago now? I guess maybe something like that. And they his job, his only job between now and the end of the year is to do all 52 makeovers as his way of training. So I never thought of it being used that way, but that's a great way to do it as well, because what better way to practice than to just get lots of different data sets and do them quickly?",
+      "id": "ep_88_ut_64"
+    },
+    {
+      "end": 1591274,
+      "speaker": "Moritz Stefaner",
+      "start": 1420864,
+      "text": "This is a good time to take a little break and talk about our sponsor this week, the center for Interdisciplinary Methodologies at the University of Warwick. What are the opportunities and challenges of big data? How do digital sensors offer new ways to shape smart cities? And how can social media help us get a grip on world changing events. Students at the CIM respond to such questions creatively and critically through innovative masters in PhD research. The topics offered range from visualization, big data, digital sociology, advanced quantitative research in spatial, all the way to user interface cultures, and playful media. And also the staff are really from a diverse range of backgrounds, from computer science, biology, media studies, but also social science, design and architecture. There's a huge emphasis on practical and conceptual learning, with weekly drop in computer lab sessions supported by their academic technologists. And there's also additional events throughout the year. For instance, they just had a data drawing workshop with Steffa, which you might know if you have listened to some of our past episodes with her. And this program naturally offers a lot of different career paths into data science, but also creative industries, digital marketing, data journalism, urban analytics, and smart cities. And bursaries and scholarships are also available across all degrees. So if you're interested, find out more about studying and working with CIM at Warwick AC dot UK Datastories. That's w A R w I c k. Ac dot UK Datastories thanks so much for sponsoring the show. And now back to the interview. I'd like to come back to the intimidation aspect. I found that very interesting because there was also roughly a year or two ago, there was a similar discussion, because there was also a little wave of, of critiques and redesigns where people would take like maybe two, let's say, in quotes, original charts and make them into something proper again in quotes, you know, the right way and the other one is the wrong way. And I know that many people who come, maybe more from a design background or try to try out new things in data visualization are often a bit intimidated by these discussions where somebody very loudly states that this type of plotting this data is wrong and this is the proper way, way to do it. And everybody agrees this can create this sort of groupthink also in a way that, yeah, your rules of thumb are probably most of the time true, but how can we progress if you're never allowed to try something new? You know, that goes a bit beyond what we already know. So how did you handle that tension?",
+      "id": "ep_88_ut_65"
+    },
+    {
+      "end": 1654314,
+      "speaker": "Andy Kriebel",
+      "start": 1592694,
+      "text": "Rody Zakovich, he's a Tableau Zen master, and he, in his day job, he's like Stephen Few bar charts, right? And at night he becomes super makeover Monday man and goes nuts with creativity. And then he started getting a bit of flack because some of the. He was doing curvy lines, you know, you know, just doing, breaking the rules of diagrams, you know, doing things that are. That are not within the realm of best practice. And it's like, and he got really upset, quite rightly, because. Because he's like, I'm not doing this for best practice. I'm doing it to be creative. And then also, I always try and hold back. It's like, you know, there is no such thing as best practice. You know, as long as it succeeds in the goals you had and the audience needed, then you're fine. Yeah. I used to be a zealot of Stephen Few and say, you know, everything should be a bar chart or a line chart, and everything else sucks, and I've seen the light since.",
+      "id": "ep_88_ut_66"
+    },
+    {
+      "end": 1667772,
+      "speaker": "Moritz Stefaner",
+      "start": 1657444,
+      "text": "But you're saying makeover Monday can actually open people's mind because they see much more different stuff or they can be much wilder than they would be in the day job. Would you say that?",
+      "id": "ep_88_ut_67"
+    },
+    {
+      "end": 1689826,
+      "speaker": "Andy Kriebel",
+      "start": 1667868,
+      "text": "I think whatever they want to bring to the project is fine. If they want to do a Stephen fuse style dashboard, then I celebrate that, too. Right. But if they want to do something curvy and round and bubbly, then you know what? This is a place where you can play and we can have a good conversation about it on Twitter. And I would always hope that I would never do it in a way that says, you are wrong, because that's.",
+      "id": "ep_88_ut_68"
+    },
+    {
+      "end": 1744024,
+      "speaker": "Moritz Stefaner",
+      "start": 1689850,
+      "text": "Not what I sometimes miss in redesign discussions is like this acknowledgement that the original designer came probably into this project with a briefing or there were concrete goals and limitations. I think often people take a chart and say, I don't like round things. Let's make it straight. I don't like pie charts. Let make it stacked something. I mean, the original designer probably had a certain context, and maybe some of the ideas you come up with straight away, maybe they were not an option for a couple of reasons. So I would always be curious then, with these redesigns, to hear the original designer again say, why had they thought about that, too? And why didn't they maybe consciously not go down that path? Have you tried that? Or you said some of the original authors reached out to you and commented, do you typically ask the original authors what their intentions were?",
+      "id": "ep_88_ut_69"
+    },
+    {
+      "end": 1757748,
+      "speaker": "Andy Cotgreave",
+      "start": 1744644,
+      "text": "No, I never do. I usually tag them. If they're on Twitter, I'll tag them on the picture that I post when I do my makeover. But I think only Ed Hawkins is the only one that's ever replied.",
+      "id": "ep_88_ut_70"
+    },
+    {
+      "end": 1759412,
+      "speaker": "Moritz Stefaner",
+      "start": 1757876,
+      "text": "Oh, wow, that's interesting.",
+      "id": "ep_88_ut_71"
+    },
+    {
+      "end": 1783558,
+      "speaker": "Andy Cotgreave",
+      "start": 1759508,
+      "text": "And I try to be very conscious of not criticizing the author because I don't think anybody's ever. Well, I shouldn't say anybody. I think most people don't intentionally create bad charts. They just don't know any better. And I think that's one of the things we're also learning. And makeover Monday. Everybody that submits something, when they submit it, it makes sense to them, and that's okay. And, you know, it may not make sense to me.",
+      "id": "ep_88_ut_72"
+    },
+    {
+      "end": 1792206,
+      "speaker": "Moritz Stefaner",
+      "start": 1783606,
+      "text": "And also what's bad is maybe sometimes depends on the setting and depends on your goals. Right. So there's maybe not an absolute notion of bad in that.",
+      "id": "ep_88_ut_73"
+    },
+    {
+      "end": 1799524,
+      "speaker": "Andy Cotgreave",
+      "start": 1792270,
+      "text": "Yeah, exactly. Yeah. So it's not what maybe Andy or I would create and might not make sense to us, but if it makes sense to them, then good for them.",
+      "id": "ep_88_ut_74"
+    },
+    {
+      "end": 1811784,
+      "speaker": "Andy Kriebel",
+      "start": 1799654,
+      "text": "Yeah. It's interesting. In hindsight, there's many things we would have done differently. It would have been great to get some of the original authors to comment a bit more clearly on some of their original motivations. Yeah.",
+      "id": "ep_88_ut_75"
+    },
+    {
+      "end": 1813004,
+      "speaker": "Andy Cotgreave",
+      "start": 1811864,
+      "text": "Too much work, though.",
+      "id": "ep_88_ut_76"
+    },
+    {
+      "end": 1857954,
+      "speaker": "Enrico Bertini",
+      "start": 1813464,
+      "text": "So there's another aspect that I'm really curious about. So being a teacher myself, I'm really interested on the educational value of what you are doing. So what I started doing this year in my visualization course is to have some visualization design workshops, and they are, in spirit, somewhat similar to what you are doing with the difference that what I do, I start from an existing project. I kind of like reverse engineer the project, but don't show the original to my students. I only give the problem to them, and I use the original at the end so that they can compare their solution with the original one. So I kind of like, use the original as the gold standard rather than the other way around.",
+      "id": "ep_88_ut_77"
+    },
+    {
+      "end": 1867128,
+      "speaker": "Andy Kriebel",
+      "start": 1859864,
+      "text": "And do you give them. So you give them an actual task, a directed task with the data too? So use this data to answer this question.",
+      "id": "ep_88_ut_78"
+    },
+    {
+      "end": 1952874,
+      "speaker": "Enrico Bertini",
+      "start": 1867296,
+      "text": "That's what's been really instructive for me, because rather than giving a visualization, I give a problem. Right. So then what happens is that I try to expose them to a similar situation that the original authors had. Right. At least I try. I mean, it can never be perfect. So that's one aspect. And another aspect is, as I see students developing their own solutions, it's amazing to me how much I personally learn because they explore solutions that I would never have considered myself. Right. And some. And of course, for every solution, there are some positive and negative aspects, right. But over time, you start detecting some kind of patterns or principles or guidelines. Right. And that's an aspect that I'm really, really intrigued by. And I'm wondering if you've been noticing anything similar in your case. Because my sense is that out of so many solutions, and exercises. After a while, you start recognizing sub patterns, and this may actually become some higher level knowledge that you guys can share with the community. Right. So is that happening on your side? Because I see that happening on my side with very few examples. And you've been working on what, so the last makeover Monday is 40 something, right?",
+      "id": "ep_88_ut_79"
+    },
+    {
+      "end": 1954054,
+      "speaker": "Andy Kriebel",
+      "start": 1953174,
+      "text": "48.",
+      "id": "ep_88_ut_80"
+    },
+    {
+      "end": 1957286,
+      "speaker": "Enrico Bertini",
+      "start": 1954174,
+      "text": "48, yes. So do you have anything like that?",
+      "id": "ep_88_ut_81"
+    },
+    {
+      "end": 2005880,
+      "speaker": "Andy Cotgreave",
+      "start": 1957390,
+      "text": "I would say I find your process interesting because the benefit of doing it your way is you're not biasing them with the original, you're letting them kind of find their own story, whereas I'm approaching it from, I already have something, and I want to teach people how I would make that existing chart better. So it's the same idea just from a different approach. So I also think from the educational aspect, there's a lot of people that don't ever look at the original chart. Most people just go and download the data and don't bother looking at the source, don't bother reading the article. They just want a data set to play with. So I guess the benefit of the project being organized the way that it is, is people can use it any way they want.",
+      "id": "ep_88_ut_82"
+    },
+    {
+      "end": 2048512,
+      "speaker": "Andy Kriebel",
+      "start": 2005952,
+      "text": "Yeah, I think that's totally true. That's almost, as we get to the end of this, what happens next? It's like, well, there are now 48 and counting data sets that anybody can go and use and take in their own direction. And I think people trying to get into this field of data visualization and visual analytics, they're always crying out for good data. And it seems like it would be simple to find good datasets. But as Andy knows, because he's done all the work, it's really hard. And so now we have this resource where people can look at the original or not and go and play with endless amounts of data and then go and see that 2800 different versions of those datasets.",
+      "id": "ep_88_ut_83"
+    },
+    {
+      "end": 2071704,
+      "speaker": "Enrico Bertini",
+      "start": 2048648,
+      "text": "So do you have a sense, so when somebody submits a new design, right. I'm pretty sure that you have at least a first gut reaction. It's like, oh, that's a good design, right? Or that's not that good. Do you have any idea why some designs feel good? Right. Did you try to do that? I'm curious about. I think that's, that's an aspect of your project that really, I find really, really interesting.",
+      "id": "ep_88_ut_84"
+    },
+    {
+      "end": 2072952,
+      "speaker": "Moritz Stefaner",
+      "start": 2071744,
+      "text": "Looking for the Holy Grail.",
+      "id": "ep_88_ut_85"
+    },
+    {
+      "end": 2078224,
+      "speaker": "Enrico Bertini",
+      "start": 2073048,
+      "text": "Yeah. What makes a good design? Right. So did you try to think about that?",
+      "id": "ep_88_ut_86"
+    },
+    {
+      "end": 2080324,
+      "speaker": "Andy Kriebel",
+      "start": 2078264,
+      "text": "No, I think so.",
+      "id": "ep_88_ut_87"
+    },
+    {
+      "end": 2122308,
+      "speaker": "Andy Cotgreave",
+      "start": 2081344,
+      "text": "I mean, I don't think about it, but just thinking about my initial reactions when I see, the tweets is, you know, you always have, oh, you know, that kind of looks nice or that's hideous or, you know, sometimes it's somewhere in the middle. I think most of the time for me, it's clutter. People don't take enough things out of the visualizations and they make them too busy. They try to, they try to create charts for the sake of creating charts when they don't really add to the story or they put color in when color is not necessary. But that's all just experience. You know, these, the people that are doing that are people that are, that are new. And, you know, I'm not gonna blast them on Twitter for something like that.",
+      "id": "ep_88_ut_88"
+    },
+    {
+      "end": 2134596,
+      "speaker": "Andy Kriebel",
+      "start": 2122356,
+      "text": "Yeah, you can see that. An example of Tom O'Hara, who's developed as a storyteller, incredibly this year as a result of makeover Monday. And I guess one book I read this year, Don Norman's design of everyday things. 23.",
+      "id": "ep_88_ut_89"
+    },
+    {
+      "end": 2136364,
+      "speaker": "Enrico Bertini",
+      "start": 2134620,
+      "text": "Oh, that's the new edition.",
+      "id": "ep_88_ut_90"
+    },
+    {
+      "end": 2138124,
+      "speaker": "Andy Kriebel",
+      "start": 2136484,
+      "text": "Yeah. It's 23 years old. Right.",
+      "id": "ep_88_ut_91"
+    },
+    {
+      "end": 2140024,
+      "speaker": "Enrico Bertini",
+      "start": 2138204,
+      "text": "But it's amazing.",
+      "id": "ep_88_ut_92"
+    },
+    {
+      "end": 2145260,
+      "speaker": "Andy Kriebel",
+      "start": 2140724,
+      "text": "Yeah. And he talks about levels of processing. The first level is the visceral response.",
+      "id": "ep_88_ut_93"
+    },
+    {
+      "end": 2145740,
+      "speaker": "Enrico Bertini",
+      "start": 2145292,
+      "text": "Yeah.",
+      "id": "ep_88_ut_94"
+    },
+    {
+      "end": 2168804,
+      "speaker": "Andy Kriebel",
+      "start": 2145852,
+      "text": "And that's, that's like the, the instant, do I or do I not like this? And so, you know, Andy and I know when we see the tweet and we see the picture whether we like it or not, but it's really interesting, Enrico, in terms of quantifying and actually looking at this corpus, this body of work, and trying to quantify those kind of things, that could be a really interesting project next year.",
+      "id": "ep_88_ut_95"
+    },
+    {
+      "end": 2193246,
+      "speaker": "Moritz Stefaner",
+      "start": 2170224,
+      "text": "Talking about next year. So you're trying to wrap it up this year, right? So, yeah. At week 48, do you want to go for 52 or ending? You're ending in December with the late last Monday. I don't know what the last Monday of the year is and what's afterwards. Like, do you just freeze the data set and say, like, that's it, or will you document it in some way? Is there a book or a movie?",
+      "id": "ep_88_ut_96"
+    },
+    {
+      "end": 2198794,
+      "speaker": "Andy Cotgreave",
+      "start": 2193350,
+      "text": "Or a movie? What's in store that's all about a movie? That'd be pretty boring.",
+      "id": "ep_88_ut_97"
+    },
+    {
+      "end": 2201998,
+      "speaker": "Moritz Stefaner",
+      "start": 2199894,
+      "text": "Every Monday, a new one. Yeah.",
+      "id": "ep_88_ut_98"
+    },
+    {
+      "end": 2259204,
+      "speaker": "Andy Cotgreave",
+      "start": 2202166,
+      "text": "I mean, I'm going to keep doing it just because it's been part of my, it's basically been a weekly part of my life since 2009, so I'm not sure what else I would do on Mondays. I may not be as timely with getting the data sets posted and things like that, but I probably won't create the Tableau extracts anymore. There's things I'm going to do to simplify it for myself. People are more than they can. Instead of dragging the Tableau extract into Tableau, they can just drag the excel file in. It's not very difficult. I've thought about some other things, some other projects I can do to help the people that have been doing this all year or that have learned a lot and how help continue their development. So I've got a couple of project ideas that I'm lining up for that. So I know I'll probably still be very busy with it. But no more Pinterest. I cannot wait to not use Pinterest ever again. And Twitter. I don't really like Twitter either.",
+      "id": "ep_88_ut_99"
+    },
+    {
+      "end": 2272724,
+      "speaker": "Enrico Bertini",
+      "start": 2260464,
+      "text": "Yeah, well, ok. I think we covered quite a bit of ground. It's a very interesting project. I'm actually thinking of participating myself.",
+      "id": "ep_88_ut_100"
+    },
+    {
+      "end": 2276126,
+      "speaker": "Moritz Stefaner",
+      "start": 2273054,
+      "text": "There's a few more weeks left and.",
+      "id": "ep_88_ut_101"
+    },
+    {
+      "end": 2278406,
+      "speaker": "Andy Kriebel",
+      "start": 2276150,
+      "text": "There's 48 other weeks to do as well.",
+      "id": "ep_88_ut_102"
+    },
+    {
+      "end": 2281834,
+      "speaker": "Enrico Bertini",
+      "start": 2278470,
+      "text": "Yeah, if I manage, can you give us a preview of what is coming next?",
+      "id": "ep_88_ut_103"
+    },
+    {
+      "end": 2282718,
+      "speaker": "Andy Cotgreave",
+      "start": 2282214,
+      "text": "No.",
+      "id": "ep_88_ut_104"
+    },
+    {
+      "end": 2284702,
+      "speaker": "Enrico Bertini",
+      "start": 2282806,
+      "text": "No. I knew it.",
+      "id": "ep_88_ut_105"
+    },
+    {
+      "end": 2301956,
+      "speaker": "Andy Kriebel",
+      "start": 2284878,
+      "text": "I mean, we would love people to keep participating. You know, there's 48 data sets. It's just brilliant seeing what people come up with. You know, we want to see people using other tools as well. Most of this has been done in Tableau, but we never saw it in Tableau. But if people want to do in anything else, then that's great too.",
+      "id": "ep_88_ut_106"
+    },
+    {
+      "end": 2317484,
+      "speaker": "Andy Cotgreave",
+      "start": 2302020,
+      "text": "Yeah. There's one guy that's been doing them all in D3 and I think he's done almost every week, if not everyone. So far he's done 95% of them probably, and he does them all in D3. So yeah, the datasets are built to be used in any tool.",
+      "id": "ep_88_ut_107"
+    },
+    {
+      "end": 2318228,
+      "speaker": "Enrico Bertini",
+      "start": 2317604,
+      "text": "Very nice.",
+      "id": "ep_88_ut_108"
+    },
+    {
+      "end": 2345570,
+      "speaker": "Moritz Stefaner",
+      "start": 2318316,
+      "text": "I think it's such an amazing repository. Did you tag the solutions in some way? Can you search for certain chart types or maybe recurring dataset features or something like this? I mean, otherwise maybe it could be done by the community. Because I think just having this resource of all these different charts and then maybe being able to scan them, look for patterns, or find like maybe 30 40 slope graphs if you're designing one yourself, that could be super valuable. Right?",
+      "id": "ep_88_ut_109"
+    },
+    {
+      "end": 2352534,
+      "speaker": "Andy Kriebel",
+      "start": 2345642,
+      "text": "We didn't do that. But wouldn't it be great to print them all out and put them on a wall in a timeline of makeovers?",
+      "id": "ep_88_ut_110"
+    },
+    {
+      "end": 2356114,
+      "speaker": "Enrico Bertini",
+      "start": 2353114,
+      "text": "That would be a. Yeah, that would be nice.",
+      "id": "ep_88_ut_111"
+    },
+    {
+      "end": 2357944,
+      "speaker": "Andy Kriebel",
+      "start": 2356154,
+      "text": "I need to find an intern for that.",
+      "id": "ep_88_ut_112"
+    },
+    {
+      "end": 2388750,
+      "speaker": "Moritz Stefaner",
+      "start": 2359524,
+      "text": "And a really big exhibition space. No, like a hangar or something. Nice. So I will put a few links in the blog post. You will also find links to the most, like maybe your favorite weeks or something like this so you can get a quick start. And of course, the big, big Pinterest board. And yeah, maybe we should all take part in the last few weeks. And please do. Yeah, produce as many redesigns as possible.",
+      "id": "ep_88_ut_113"
+    },
+    {
+      "end": 2394438,
+      "speaker": "Andy Cotgreave",
+      "start": 2388862,
+      "text": "I'll give you a hint, for the upcoming weeks, the datasets will be very, very simple because we're getting to the holidays.",
+      "id": "ep_88_ut_114"
+    },
+    {
+      "end": 2395198,
+      "speaker": "Moritz Stefaner",
+      "start": 2394606,
+      "text": "Exactly.",
+      "id": "ep_88_ut_115"
+    },
+    {
+      "end": 2396074,
+      "speaker": "Enrico Bertini",
+      "start": 2395246,
+      "text": "That's good.",
+      "id": "ep_88_ut_116"
+    },
+    {
+      "end": 2411488,
+      "speaker": "Moritz Stefaner",
+      "start": 2398294,
+      "text": "Something doable for everybody, though. Yeah, very good. Amazing project. Thanks so much for coming on the show and we'll much look forward to seeing what's in store for the last few weeks and afterwards.",
+      "id": "ep_88_ut_117"
+    },
+    {
+      "end": 2414544,
+      "speaker": "Andy Cotgreave",
+      "start": 2411606,
+      "text": "Well, thank you, thank you, thank you. Bye bye bye.",
+      "id": "ep_88_ut_118"
+    },
+    {
+      "end": 2430852,
+      "speaker": "Enrico Bertini",
+      "start": 2421204,
+      "text": "Hey guys, thanks for listening to data stories again. Before you leave, we have a request if you can spend a couple of minutes rating us on iTunes, that would be extremely helpful for the show.",
+      "id": "ep_88_ut_119"
+    },
+    {
+      "end": 2461636,
+      "speaker": "Moritz Stefaner",
+      "start": 2430948,
+      "text": "And here's also some information on the many ways you can get news directly from us. We're of course on Twitter, twitter.com. we have a Facebook page@Facebook.com, datastoriespodcast all in one word. And we also have an email newsletter. So if you want to get news directly into your inbox and be notified whenever we publish an episode, you can go to our homepage datastory es and look for the link that you find on the bottom in the footer.",
+      "id": "ep_88_ut_120"
+    },
+    {
+      "end": 2473722,
+      "speaker": "Enrico Bertini",
+      "start": 2461740,
+      "text": "So one last thing that we want to tell you is that we love to get in touch with our listeners, especially if you want to suggest a way to improve the show or amazing people you want us to invite or even projects you want us to talk about.",
+      "id": "ep_88_ut_121"
+    },
+    {
+      "end": 2522804,
+      "speaker": "Moritz Stefaner",
+      "start": 2473818,
+      "text": "Yeah, absolutely. So don't hesitate to get in touch with us. It's always a great thing for us. And that's all for now. See you next time, and thanks for listening to data stories. This episode of data stories is sponsored by the center for Interdisciplinary methodologies at the University of Warwick, where students can study subjects such as visualization, big data, digital sociology, advanced quantitative research and spatial methods, including geographic information systems, all the way to user interface cultures and playful media and much more. Check out their website at Warwick dot Ac dot UK Datastories that's Warick dot ac dot UK Datastories.",
+      "id": "ep_88_ut_122"
+    }
+  ],
+  "confidence": 0.929056817362357,
+  "audio_duration": 2523,
+  "punctuate": true,
+  "format_text": true,
+  "dual_channel": false,
+  "webhook_url": null,
+  "webhook_status_code": null,
+  "webhook_auth": false,
+  "webhook_auth_header_name": null,
+  "speed_boost": false,
+  "auto_highlights_result": null,
+  "auto_highlights": false,
+  "audio_start_from": null,
+  "audio_end_at": null,
+  "word_boost": [],
+  "boost_param": null,
+  "filter_profanity": false,
+  "redact_pii": false,
+  "redact_pii_audio": false,
+  "redact_pii_audio_quality": null,
+  "redact_pii_policies": null,
+  "redact_pii_sub": null,
+  "speaker_labels": true,
+  "content_safety": false,
+  "iab_categories": true,
+  "content_safety_labels": {
+    "status": "unavailable",
+    "results": [],
+    "summary": {}
+  },
+  "language_detection": false,
+  "language_detection_threshold": null,
+  "language_confidence": null,
+  "custom_spelling": null,
+  "throttled": false,
+  "auto_chapters": true,
+  "summarization": false,
+  "summary_type": null,
+  "summary_model": null,
+  "custom_topics": false,
+  "topics": [],
+  "speech_threshold": null,
+  "speech_model": "best",
+  "chapters": [
+    {
+      "summary": "This episode of Data stories is sponsored by the center for Interdisciplinary Methodologies at the University of Warwick. Think about ways in which you could improve or create a new visualization based on this data set and the original chart.",
+      "gist": "Data Stories",
+      "headline": "This episode of Data stories is sponsored by the University of Warwick",
+      "start": 240,
+      "end": 53584,
+      "id": "ep_88_ch_0"
+    },
+    {
+      "summary": "Enrico: I just launched a new project. It's called the rhythm of food. I used Google trends data to look at seasonality in food queries. Maybe a cookbook. Let's see what next year brings.",
+      "gist": "Data stories: The Rhythm of Food",
+      "headline": "I just launched a new project looking at seasonality in food queries",
+      "start": 73074,
+      "end": 156634,
+      "id": "ep_88_ch_1"
+    },
+    {
+      "summary": "Today we have a couple of guests to talk about a really, really nice project. This is called makeover Mondays and the idea is to publish every week a new chart and a new data set. Finally we have again, some proper British voices on the show.",
+      "gist": "\"Makeover Mondays\"",
+      "headline": "Today we have a couple of guests talking about a really, really nice project",
+      "start": 157374,
+      "end": 219334,
+      "id": "ep_88_ch_2"
+    },
+    {
+      "summary": "Andy Cotgreave is technical evangelist at Tableau. Andy Crebel is head coach at the information Labs data school in London. Andy Krieble blogs and has been doing makeovers for a long time.",
+      "gist": "In the Elevator With Andy Codgreeve and Andy K",
+      "headline": "Andy Cotgreave and Andy Krieble introduce themselves to listeners",
+      "start": 220954,
+      "end": 269244,
+      "id": "ep_88_ch_3"
+    },
+    {
+      "summary": "Stephen Colbert started a weekly makeover practice in 2009. Now the two of you together do it on a weekly basis. The project has grown to include 2806 makeovers from 840, from 470 people. It's been an amazing year.",
+      "gist": "The Year of the Makeover",
+      "headline": "Stephen King started makingovers back in 2009 when he started blogging",
+      "start": 269814,
+      "end": 418376,
+      "id": "ep_88_ch_4"
+    },
+    {
+      "summary": "How do you create new makeover Mondays? What's the process behind them? I tend to pick the ones that already have the data created. I tweet out the data usually on Sunday mornings, even though it's makeover Monday. For me, it's about doing something quick.",
+      "gist": "The Making of Makeover Mondays",
+      "headline": "How do you create new makeover Mondays",
+      "start": 418550,
+      "end": 502382,
+      "id": "ep_88_ch_5"
+    },
+    {
+      "summary": "Makeover Monday allows people to design charts using data from 48 different data sets. The results are put on a Pinterest board, which now has 2800 pins on it. Share the result on Twitter, use the #makeoverMonday.",
+      "gist": "The Process of Makeover Monday",
+      "headline": "How much time do you spend on a typical makeover Monday",
+      "start": 502518,
+      "end": 722600,
+      "id": "ep_88_ch_6"
+    },
+    {
+      "summary": "CNN's John Defterios has compiled a list of his favorite redesigns of the year. From global warming to football players data, these visualizations show how people can use a simple data set to tell a story. Do you have any funny stories where somebody sued you for the redesign?",
+      "gist": "The Year in Data: The redesigns",
+      "headline": "We had 88 different visualizations submitted on global warming this year",
+      "start": 722712,
+      "end": 910136,
+      "id": "ep_88_ch_7"
+    },
+    {
+      "summary": "Every dataset is very different. Your process changes because you explore the data differently and the discoveries you make are different. This project is as much about encouraging people to start this journey into data visualization as it is about rewarding the elaborate, amazing pieces of complex work.",
+      "gist": "The Data Visualization Makeover",
+      "headline": "How did the project evolve over time? Did you just have this same step, same template",
+      "start": 910320,
+      "end": 1098530,
+      "id": "ep_88_ch_8"
+    },
+    {
+      "summary": "How do people interact once the solution starts? Do you have any kind of judgment of kind of like, I don't know, most valuable makeover? I'm not the best at being polite sometimes.",
+      "gist": "The Making of a Chart",
+      "headline": "When people start publishing their own solutions, what happened next",
+      "start": 1098602,
+      "end": 1248884,
+      "id": "ep_88_ch_9"
+    },
+    {
+      "summary": "You see this viz kind of evolving in collaboration in real time on Twitter. These are amazing conversations that happened because people are just experimenting, playing and just unleashing their creativity. It's become a great sort of project or great thing to use in the business world.",
+      "gist": "The Data-Driven Creativity",
+      "headline": "Makeover Monday is a tool used by companies to help visualize data",
+      "start": 1249824,
+      "end": 1415404,
+      "id": "ep_88_ch_10"
+    },
+    {
+      "summary": "The center for Interdisciplinary Methodologies at the University of Warwick. Topics offered range from visualization, big data, digital sociology, advanced quantitative research in spatial. Find out more about studying and working with CIM at Warwick AC dot UK Datastories.",
+      "gist": "CIM at Warwick",
+      "headline": "AC dot UK Datastories sponsors the center for Interdisciplinary Methodologies",
+      "start": 1420864,
+      "end": 1524038,
+      "id": "ep_88_ch_11"
+    },
+    {
+      "summary": "Makeover Monday allows people to try out new things in data visualization. Do you typically ask the original authors what their intentions were? As long as it succeeds in the goals you had and the audience needed, then you're fine.",
+      "gist": "The Importance of Criticizing Data Visualization",
+      "headline": "Many people who come from a design background are intimidated by data visualization critiques",
+      "start": 1524086,
+      "end": 1813004,
+      "id": "ep_88_ch_12"
+    },
+    {
+      "summary": "The last makeover Monday is 40 something, right? 48. There are now 48 and counting data sets that anybody can go and use and take in their own direction. Over time, you start detecting patterns or principles or guidelines. This may actually become some higher level knowledge that you guys can share with the community.",
+      "gist": "The Making of a Data Visualization Design",
+      "headline": "I'm interested in the educational value of what you are doing",
+      "start": 1813464,
+      "end": 2168804,
+      "id": "ep_88_ch_13"
+    },
+    {
+      "summary": "At week 48, do you want to go for 52 or ending? You're ending in December with the late last Monday. There's 48 data sets. We would love people to keep participating. And please do. produce as many redesigns as possible.",
+      "gist": "A Week in the Life",
+      "headline": "Talking about next year. At week 48, do you want to go for 52 or ending",
+      "start": 2170224,
+      "end": 2424036,
+      "id": "ep_88_ch_14"
+    },
+    {
+      "summary": "This episode of data stories is sponsored by the center for Interdisciplinary methodologies at the University of Warwick. We love to get in touch with our listeners, especially if you want to suggest a way to improve the show. See you next time, and thanks for listening to data stories.",
+      "gist": "Data Stories",
+      "headline": "Before you leave, we have a request if you can spend a few minutes rating us on iTunes",
+      "start": 2424180,
+      "end": 2522804,
+      "id": "ep_88_ch_15"
+    }
+  ],
+  "disfluencies": false,
+  "entity_detection": false,
+  "sentiment_analysis": false,
+  "sentiment_analysis_results": null,
+  "entities": null,
+  "speakers_expected": null,
+  "summary": null,
+  "custom_topics_results": null,
+  "episode_num": 88,
+  "episode_metadata": {
+    "speakers": [
+      "Andy Kriebel",
+      "Moritz Stefaner",
+      "Enrico Bertini",
+      "Andy Cotgreave"
+    ],
+    "WPid": "820",
+    "url": "https://datastori.es/podlove/file/3352/s/feed/c/mp3/88-re-designing-visualizations-in-makeovermonday-with-andy-kriebel-and-andy-cotgreave.mp3",
+    "episode_title": "Re-designing Visualizations on #MakeoverMonday with Andy Kriebel and Andy Cotgreave"
+  }
+}

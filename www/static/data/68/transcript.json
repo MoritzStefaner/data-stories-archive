@@ -1,0 +1,597 @@
+{
+  "id": "d5389a90-0d1e-414b-a91e-14dba624cbdf",
+  "language_model": "assemblyai_default",
+  "acoustic_model": "assemblyai_default",
+  "language_code": "en_us",
+  "status": "completed",
+  "audio_url": "https://datastori.es/podlove/file/1985/s/feed/c/mp3/68-poemage.mp3",
+  "utterances": [
+    {
+      "end": 12514,
+      "speaker": "Miriah Meyer",
+      "start": 80,
+      "text": "We're not trying to help the poet solve something. We're not trying to answer a question. And it's more about trying to provide them tools that enable them to brainstorm and have additional creative thoughts and insights.",
+      "id": "ep_68_ut_0"
+    },
+    {
+      "end": 50588,
+      "speaker": "Moritz Stefaner",
+      "start": 14694,
+      "text": "This episode of Data stories is sponsored by Quadrigram, a web based application designed to bring data stories to life. With Quadrigram, you can create and share interactive data stories without the need of any coding skills. Check it out at Quadrigram.com. that's q u A D r I D r. Dash m.com hey, everyone, datastory 68. Hi, Enrico. How are you doing?",
+      "id": "ep_68_ut_1"
+    },
+    {
+      "end": 53004,
+      "speaker": "Enrico Bertini",
+      "start": 50716,
+      "text": "I'm doing great. Great. And you?",
+      "id": "ep_68_ut_2"
+    },
+    {
+      "end": 77202,
+      "speaker": "Moritz Stefaner",
+      "start": 53084,
+      "text": "Most excellent. Very good, very good. It's been a good day for me. So, yeah, same time today we have another project centric episode. So we dive right in. We want to keep this short, as you know. And this one is on a very special poetry visualization project. And, yeah, for this occasion, we have two very special guests here, Nina McCurdy. Hi, Nina.",
+      "id": "ep_68_ut_3"
+    },
+    {
+      "end": 78094,
+      "speaker": "Nina McCurdy",
+      "start": 77378,
+      "text": "Hi.",
+      "id": "ep_68_ut_4"
+    },
+    {
+      "end": 83876,
+      "speaker": "Moritz Stefaner",
+      "start": 78474,
+      "text": "And Miriah Meyer, which you might know because she has been on the show already a while ago. Hi, Maria.",
+      "id": "ep_68_ut_5"
+    },
+    {
+      "end": 84584,
+      "speaker": "Miriah Meyer",
+      "start": 84010,
+      "text": "Hey, guys.",
+      "id": "ep_68_ut_6"
+    },
+    {
+      "end": 88524,
+      "speaker": "Moritz Stefaner",
+      "start": 84664,
+      "text": "Great to have you on. Okay, so can you briefly introduce yourself?",
+      "id": "ep_68_ut_7"
+    },
+    {
+      "end": 94368,
+      "speaker": "Miriah Meyer",
+      "start": 88864,
+      "text": "I'm Mariah Meyer and I'm a professor at the University of Utah in the School of Computing.",
+      "id": "ep_68_ut_8"
+    },
+    {
+      "end": 98832,
+      "speaker": "Nina McCurdy",
+      "start": 94536,
+      "text": "I'm Nina McCurdy and I'm a third year PhD student working with Mariah.",
+      "id": "ep_68_ut_9"
+    },
+    {
+      "end": 136554,
+      "speaker": "Moritz Stefaner",
+      "start": 98928,
+      "text": "Great. So the tool we are talking about or the visualization we're talking about, we actually mentioned it last time we had you on and we said, oh, man, we need to bring you back when, you know, when we can talk about that because it sounded so exciting and now it's out paper is to be published soon as well, and the tool is available and so we can talk about it. That's great. And it's called poemage. And the first thing, of course, what we would like to know from you, what is it and what is it good for and how does it look? How can you use it? So can you give us a brief overview of the tool and how it works?",
+      "id": "ep_68_ut_10"
+    },
+    {
+      "end": 152672,
+      "speaker": "Nina McCurdy",
+      "start": 137174,
+      "text": "Yeah, so I guess the place to start, we say we call it poemage and it's a tool that allows poets to explore the sonic topology of a poem. So what is sonic topology?",
+      "id": "ep_68_ut_11"
+    },
+    {
+      "end": 154120,
+      "speaker": "Moritz Stefaner",
+      "start": 152808,
+      "text": "That's the next obvious question.",
+      "id": "ep_68_ut_12"
+    },
+    {
+      "end": 204094,
+      "speaker": "Nina McCurdy",
+      "start": 154192,
+      "text": "Yes, I'll start with that. It's actually a term that we made up in order to describe the way in which the various sonic devices within a poem interact to kind of form the sonic landscape. And that's something that our poets are really interested in exploring in a poem, and also not just exploring the sonic landscape of a poem, but how that landscape interacts with maybe the semantics of a poem. So we've created a user interface tool that allows them to explore the sonic topology on a poem of their choosing. And so basically they load up the poem and then they can kind of browse through all the different sonic devices that we are detecting within a poem and start to build their own version of the sonic topology that they can explore.",
+      "id": "ep_68_ut_13"
+    },
+    {
+      "end": 213454,
+      "speaker": "Moritz Stefaner",
+      "start": 205874,
+      "text": "That sounds very unusual. Has anybody done anything like that before? Is that a common thing to do? It doesn't sound like that.",
+      "id": "ep_68_ut_14"
+    },
+    {
+      "end": 230210,
+      "speaker": "Nina McCurdy",
+      "start": 214234,
+      "text": "We actually know. We haven't really seen anything like it before, but it does draw on a lot of different. Actually, we are drawing from things like metro line minimization, crossing. And so we have drawn tidbits from other kinds of research. But, yeah, it's a little bit unique.",
+      "id": "ep_68_ut_15"
+    },
+    {
+      "end": 239648,
+      "speaker": "Moritz Stefaner",
+      "start": 230362,
+      "text": "That's great. And what you visualize are basically sound patterns, or, like, patterns you can. You could hear if somebody was speaking the poem.",
+      "id": "ep_68_ut_16"
+    },
+    {
+      "end": 300632,
+      "speaker": "Nina McCurdy",
+      "start": 239816,
+      "text": "Right. So, yeah, so let me back up just a little bit. Sonic topology is the interaction of these sonic devices across the space of the poem. So we call that poem space. So you can imagine a sonic device as a set of words connected through some sonic resemblance. Maybe it's rhyme, maybe it's alliteration, maybe it's a repeated cluster of characters. And so, so if you are looking at a poem, you can imagine a path that kind of meanders through the poem, linking one word to the next that are connected sonically. So when you're looking at these sonic devices, you're actually looking at paths through poem space. And these different paths can interact in a number of different ways. They can merge into one path, they can diverge, they can kind of bounce around each other. They can not interact, but maybe kind of move in this synchronized way. And all of these things are what our poets are interested in exploring.",
+      "id": "ep_68_ut_17"
+    },
+    {
+      "end": 309096,
+      "speaker": "Moritz Stefaner",
+      "start": 300808,
+      "text": "And in principle, you can put any text, or like any poetic text, into the tool, and it will automatically draw these paths, right?",
+      "id": "ep_68_ut_18"
+    },
+    {
+      "end": 316296,
+      "speaker": "Nina McCurdy",
+      "start": 309240,
+      "text": "Yes. So on the back end, we're extracting all the pronunciations of the words, and then we're detecting our patterns based on.",
+      "id": "ep_68_ut_19"
+    },
+    {
+      "end": 367550,
+      "speaker": "Miriah Meyer",
+      "start": 316320,
+      "text": "Those pronunciations, which leads to some really interesting caveats about the poem because of the backend technology that we're using to basically sonify the poem. And the software we've developed is built on the CMU dictionary, which is a large, manually curated dictionary, about 160,000 words that someone's gone in and basically said for this word. Here are the phonemes that make it up. But the interesting thing is that that dictionary is based on a modern day, mid atlantic American dialect. And one of the things that our poets are constantly saying and is like, oh, turns out that not all poetry was written for a modern day mid atlantic American dialect. Can we do other things? And so that's when things start to get interesting from a natural language processing perspective.",
+      "id": "ep_68_ut_20"
+    },
+    {
+      "end": 407924,
+      "speaker": "Nina McCurdy",
+      "start": 367662,
+      "text": "And actually, that brings up another nice point, is that so we have our words that are in dictionary, and for words that aren't in the CMU dictionary, we use automated methods. And while we're making a lot of really great progress in text to speech, we're still not quite there yet. So these automated methods will sometimes mispronounce a word. And we thought initially, Mariah and I thought, oh, we need to figure out how to reduce this and make sure we're getting the right pronunciation. But our poets are actually incredibly excited about the idea of a mispronunciation because maybe that will reveal new insights about the poem. So that actually gives you a sense of our whole collaboration.",
+      "id": "ep_68_ut_21"
+    },
+    {
+      "end": 414434,
+      "speaker": "Miriah Meyer",
+      "start": 410654,
+      "text": "The things that we're sort of mortified about, they're like, no, that's fantastic.",
+      "id": "ep_68_ut_22"
+    },
+    {
+      "end": 432794,
+      "speaker": "Enrico Bertini",
+      "start": 415694,
+      "text": "So can you tell us a little bit about how the project started? I think one interesting feature of this project is that you've been collaborating with a certain number of poets for an extended period of time, which makes the project even more interesting. So how did it start?",
+      "id": "ep_68_ut_23"
+    },
+    {
+      "end": 522164,
+      "speaker": "Miriah Meyer",
+      "start": 433254,
+      "text": "So I guess that started with me before Nina came here to the university of Utah, and I just started talking with a couple of these poets who actually had been working on a project with Min Chen at Oxford. And they were interested in really trying to think about how could visualization affect their experience as poetry scholars of how they read poetry. And admittedly, at first, they're pretty skeptical that viz could do anything. And I think from a viz perspective, what was really interesting was when we, I think when we go off and work with scientists and other data analysts, we're always trying to help them solve a problem. And these poets were very much like, no, no, no, no, no. Solving the problem is like what we do. That's like what we love to do. We really want to understand if technology can somehow enhance that. So those initial conversations were really around, trying to grapple with that, like, what is the role of technology? And then we moved into conversations about, well, what in a poem can we actually sort of datafy from a computer science perspective? That is also interesting from the poetry perspective. And we talked about a lot of things like metaphor and affect and all sorts of things that are really, really challenging to do. And then at some point, we stumbled onto sound. And as someone who doesn't know anything about poetry, I was really interested to hear how important sound is in the sort of experience of reading a poem. And so that's when Nina came on board, too. I don't know if you want to say anything from that point.",
+      "id": "ep_68_ut_24"
+    },
+    {
+      "end": 524004,
+      "speaker": "Nina McCurdy",
+      "start": 522664,
+      "text": "No, I think that's good.",
+      "id": "ep_68_ut_25"
+    },
+    {
+      "end": 539060,
+      "speaker": "Moritz Stefaner",
+      "start": 525544,
+      "text": "One thing I found really interesting in the paper, you write that you just knew you wanted to do something in that space. Like, you knew it would be interesting to do something in that space, but it wasn't even clear what the problem is. Right?",
+      "id": "ep_68_ut_26"
+    },
+    {
+      "end": 539676,
+      "speaker": "Miriah Meyer",
+      "start": 539172,
+      "text": "Yeah.",
+      "id": "ep_68_ut_27"
+    },
+    {
+      "end": 552304,
+      "speaker": "Moritz Stefaner",
+      "start": 539780,
+      "text": "And also, if you talk to different poets, they might have totally different perspectives, but there was no clear functional gap to be filled and no pain points to be scratched or. How do you say that?",
+      "id": "ep_68_ut_28"
+    },
+    {
+      "end": 570618,
+      "speaker": "Nina McCurdy",
+      "start": 552764,
+      "text": "Yeah. And we found that as we'd narrow in on some topic that we'd be interested in exploring, all of a sudden, we'd find it exploded. So everything that we looked into was actually this enormous domain space that we could play around with. So we had to continue navigating and kind of out a chunk that we could work with.",
+      "id": "ep_68_ut_29"
+    },
+    {
+      "end": 584014,
+      "speaker": "Moritz Stefaner",
+      "start": 570786,
+      "text": "And what was your strategy, how to do that? Because it can be very frustrating, of course, if you just talk, and it's very confusing. Everything's complex. How did you break it down to something you could actually tackle computationally?",
+      "id": "ep_68_ut_30"
+    },
+    {
+      "end": 648978,
+      "speaker": "Nina McCurdy",
+      "start": 584394,
+      "text": "Yeah, it happened kind of organically. We first, when we decided that we wanted to look into sound, and this was a really rich domain space, we kind of put together a survey of all the things that we thought we could play around with. And from there, it was pretty clear that our poet were more interested in exploring certain things than others. So that helped us narrow down on the idea of kind of a broader definition of rhyme, rhyme that encompassed traditional rhyme, but also maybe alliteration and some of these phonetic qualities. And from there, we started experimenting with. Okay, within those different categories, what can we detect? What can we play around with? And actually, they helped us kind of narrow in on the specific topics within that, too, which was essentially traditional concepts of rhyme, including alliteration and looking at character clusters and. Yeah. Patterns. And also patterns in phonetic. So the way that the mouth moves in order to pronounce different sounds.",
+      "id": "ep_68_ut_31"
+    },
+    {
+      "end": 715104,
+      "speaker": "Miriah Meyer",
+      "start": 649106,
+      "text": "Yeah. And I think from a more methodology side of things, what we also did that worked really well was a lot of what we call playful experimentation. So it was really, really important for us to get as many things in front of these poets as we could, because we were talking from such different languages that they didn't really even understand when we were talking about, well, this is easy to datafy. This is going to be really, really challenging. We had to just put a lot of stuff in front of them to both validate it, but also to get them thinking such that they could give us useful feedback from the design. And so we created a lot of what's called technology probes, which are just these quick visualization, interactive sketches of ideas, but not meant to test the visualization design space more intended to get a conversation going so that we can better understand what they care about, what's going to work well and what's not. And so we did a lot of these very fast experiments where we would just give it to a variety of our collaborators and through just a lot of interviews and conversations, get feedback on to help lead into the final design of the tool that we created for them.",
+      "id": "ep_68_ut_32"
+    },
+    {
+      "end": 828534,
+      "speaker": "Moritz Stefaner",
+      "start": 715404,
+      "text": "That's a good time to take a little break and talk about our sponsor this week. As you all know, modern life is complex, and this creates the need for digital creators to support their arguments with facts and figures. A data based narrative which intertwines annotations and media elements with data visualizations, is the perfect way to communicate complex realities. It's not only important to understand and process lots of information, but we also need to have the tools to communicate findings in a structured and nice way. Now, Quadrigram.com is a web based application to create and share these types of data stories on the Internet. Its intuitive interface allows users to design interactive narratives by merging graphic elements such as texts, images, videos and data visualization modules into a single data story. And you can then publish your work as a fully functional website or interactive slide presentation without the need of any coding skills. Readers can browse the story and discover their own findings, basically create their own unique synthesis. Quadrigram is a product by Bestiario, a design firm with more than ten years of experience in the wonderful field of data visualization. Quadrigram is free, and you just need a Gmail account to start building and sharing your data stories. So check it out at Quadrigram.com. that's Quadrigram.com and now back to the show. We touched on it briefly before, but maybe can you tell us a bit what the functionality is of the final design you came up with? And then later maybe we can move towards a few of the stories of how the poets actually used it. I'm super curious about anecdotes about how the tool was used, but first, maybe describe for our listeners who might not have played with it yet, just briefly how you can use the tool and what it visualizes exactly.",
+      "id": "ep_68_ut_33"
+    },
+    {
+      "end": 946122,
+      "speaker": "Nina McCurdy",
+      "start": 829054,
+      "text": "Okay, so I'll start with kind of describing what it looks like. The interface has three linked views. So the linked view on the left kind of is this menu where you can browse through different detected rhymes and rhymes we're using broadly. So you can kind of scroll over these little circles, and it highlights in a different linked view, it highlights these different paths that I mentioned earlier, meandering through the space of the poem. The linked view in the center shows the text of the poem. And this was something that was really important to our collaborators. They really wanted to preserve the text. They wanted to always be able to see the text and the shape of the poem and be able to go back to that and explore via the text. So the center is the poem view, and there are several different interactions that they can do in there. And then on the right is the path view. And so that kind of presents an abstracted view of the poem where you have nodes that represent the words, and then you have these paths that connect the different sets, the rhyme sets. So that's the interface. And typically, well, I guess one of the things that we were excited about when we gave our tool to different poets is they all kind of used them in different ways. So one of our poets, I mean, essentially, you upload a poem of your choosing, and then you're free to play in whatever way you want. So one of them went directly to the poem view and started exploring the different connections to certain words and use that as a way to explore the topology. Another one started clicking different rhyme sets in the set view and kind of building these visualizations in the path view and then creating new poetry based on those visualizations. So that was something that we were happy with, is that people could really play in different ways, and I think that reflects the close reading process. Every poet does close reading differently.",
+      "id": "ep_68_ut_34"
+    },
+    {
+      "end": 957254,
+      "speaker": "Enrico Bertini",
+      "start": 946278,
+      "text": "So can you tell us a little bit more about reactions from the poets and what they've been able to do? Maybe some anecdote? I'm pretty sure you have a few.",
+      "id": "ep_68_ut_35"
+    },
+    {
+      "end": 978264,
+      "speaker": "Nina McCurdy",
+      "start": 958274,
+      "text": "Yeah. So one little anecdote that we really like because we think it's kind of particularly revealing, happened when one of our poets was looking at the poem. This is just to say, by William Carlos Williams. And I was thinking, it's actually a pretty short poem. I could just read it.",
+      "id": "ep_68_ut_36"
+    },
+    {
+      "end": 980896,
+      "speaker": "Enrico Bertini",
+      "start": 978344,
+      "text": "Yeah, please. Oh, that's amazing. Please do it.",
+      "id": "ep_68_ut_37"
+    },
+    {
+      "end": 981624,
+      "speaker": "Nina McCurdy",
+      "start": 981000,
+      "text": "Okay.",
+      "id": "ep_68_ut_38"
+    },
+    {
+      "end": 982608,
+      "speaker": "Enrico Bertini",
+      "start": 981744,
+      "text": "That's the first time.",
+      "id": "ep_68_ut_39"
+    },
+    {
+      "end": 1077184,
+      "speaker": "Nina McCurdy",
+      "start": 982656,
+      "text": "You can't do it in the poet speak or whatever. So this is just to say, by William Carlos Williams, I have eaten the plums that were in the icebox and which you were probably saving for breakfast, forgive me. They were delicious. So sweet and so cold. And so she was exploring this poem, and she touched on one of the features which we call beautiful mess, which highlights all the rhyme sets for a given poem. And this is something that Mariah and I were really resistant to including in the beginning because it's a hairball, it's a mess. But they absolutely loved the feature even before it was revealing any insights. They felt like it really reflected what they did in their process and for other reasons, which we talk about a little bit in the paper. But anyway, so she selected the beautiful mess button, and what she found was that the only word that wasn't participating in any of the sonic patterns was the word you. And the poem, as you heard, it's an apology to you, the reader. So the fact that they had this, there's this isolated sound, you, this isolated word was really pretty significant to them, and it was something that they felt they couldn't have found otherwise. So for us, this was really revealing because there was this feature that we really resisted including, and it ended up revealing this insight. So that made us kind of have to think about our approaches. So that's one example.",
+      "id": "ep_68_ut_40"
+    },
+    {
+      "end": 1167948,
+      "speaker": "Miriah Meyer",
+      "start": 1077264,
+      "text": "And one of the things that's been really interesting is how it kind of feels like no matter what we give them, insights come out, which has led Nina and I to have to have a lot of conversations about how do we even go about, like, evaluating this tool if everything we do seems to lead to something that's not necessarily a good measure, that this has been successful. And in fact, we had one person we were talking to about this. Pose the question to us, well, what if you just showed them randomly connected sets of words, things that weren't sonically related? Would they still have insight? We asked our poets about this and they were like, oh, maybe that could be cool. What we're actually doing right now is a follow up study where we're giving poets sets of words, some of which are random and some of which are sonically connected, to try to get at this notion of, well, is it even worth going through all this trouble to do this? So that's one thing we're working on now, but it's also leading us to think for future, for this project, is that this is really sort of in the space of creativity support. So we're no longer, you know, we're not trying to help the poets solve something. We're not trying to answer a question. And it's more about trying to provide them tools that enable them to brainstorm and to have additional creative thoughts and insights. And I think from that perspective, it could be that visualization looks very, very different if that's really the main mission of what we're trying to do. So that's some of the future directions we're going with.",
+      "id": "ep_68_ut_41"
+    },
+    {
+      "end": 1209098,
+      "speaker": "Nina McCurdy",
+      "start": 1167996,
+      "text": "And just kind of on that same note, one of the other things, one of the responses we got a lot with our tool was, oh, it's so beautiful that we want to spend time with it. So the aesthetics were really important, and we did find that it kind of impacted, it, made it more effective in a way. And we were trying to figure out why that was true. And one of our collaborators said, well, it makes me want to spend more time with the poem. And in close reading, that's the main factor. You want to spend as much time with the poem as possible. And so that relates to this idea of creativity support. And actually, in the creativity support research, it does talk about creating an environment that your users want to stay in. So that was an interesting tie in, too. Yeah.",
+      "id": "ep_68_ut_42"
+    },
+    {
+      "end": 1257044,
+      "speaker": "Moritz Stefaner",
+      "start": 1209106,
+      "text": "And that's sort of a key word, is creativity support. We're not really used to using data visualization in this framing, but now that you say it, it seems so obvious. Right? It's like, of course you give something a new shape immediately you trigger new ideas. I mean, it might even work, as you say, if the shape is fairly random or semi structured, you know, but still you can count on some serendipity associations. New views can then. Yeah. Affect just your mind in new ways. Right. I think that's very interesting. Yeah, yeah. You should do the study with the random connection and give it a fancy name. So it's like a placebo, you know, they think they see something meaningful. It's like a double blind placebo study, maybe.",
+      "id": "ep_68_ut_43"
+    },
+    {
+      "end": 1264392,
+      "speaker": "Miriah Meyer",
+      "start": 1257344,
+      "text": "Well, the sort of initial data that we've looked at seems to suggest that the random ones aren't as interesting. So that's.",
+      "id": "ep_68_ut_44"
+    },
+    {
+      "end": 1267164,
+      "speaker": "Nina McCurdy",
+      "start": 1264568,
+      "text": "But maybe not as uninteresting.",
+      "id": "ep_68_ut_45"
+    },
+    {
+      "end": 1269072,
+      "speaker": "Miriah Meyer",
+      "start": 1267464,
+      "text": "Yeah. As we had hoped.",
+      "id": "ep_68_ut_46"
+    },
+    {
+      "end": 1278954,
+      "speaker": "Nina McCurdy",
+      "start": 1269248,
+      "text": "But it is looking at some of the responses we should give a placebo effect because some of the people say, oh, is this another one that doesn't make sense? Or something like that?",
+      "id": "ep_68_ut_47"
+    },
+    {
+      "end": 1312534,
+      "speaker": "Moritz Stefaner",
+      "start": 1280734,
+      "text": "It's super fascinating. And what I really like about the project is how deep you went, because I think you could have stopped at a much earlier point and just saying, yeah, for poetry, it's much different. Everything's just vaguely associative, and we're just doing creativity support, right? So we can be a bit vague in what we do. When you look at the paper, you see, you actually went very deep in what you do exactly there, how you work with the rhymes, which rhymes, you choose, which types of overlays. And so you took that very serious, and I think that's really great.",
+      "id": "ep_68_ut_48"
+    },
+    {
+      "end": 1401784,
+      "speaker": "Miriah Meyer",
+      "start": 1312994,
+      "text": "And I think that some people may think, well, okay, for poetry. Well, why would you spend three years on this problem for poets to support their creativity? Maybe you love poetry, maybe you don't. And what Nita and I have found is that this project's been a really beautiful insight into some aspects of the visualization design process itself, which is actually sort of the paper in progress at the moment, but is really using this, as well as a number of other projects to think about. When you are in this space where everything is messy and you're like, oh, I have this thing or this data, and there's so many directions we could go, how do I pick and choose, and how do we work together with collaborators as viz designers that this project is helping us tease apart and to put some structure around. And one of the things we found has been so interesting in this is that we impacted the poets not just with the visualization, but just with the whole process, and how thinking about their poems in a different way made them think about poetry in a different way, just as working with them turned out to really impact us a lot. The beautiful mess is just a small example of that. These things that we as viz designers are like visual clutter. That's bad. In this case, maybe not, but there's been this really symbiotic impact on both of us, and thinking about, how do we think about that? And structuring the visualization design process is something that this project has been really great for.",
+      "id": "ep_68_ut_49"
+    },
+    {
+      "end": 1432230,
+      "speaker": "Moritz Stefaner",
+      "start": 1402804,
+      "text": "Yeah, that's a great segue to the. Actually, the last question I have is, if you look back now on the project, what were your main takeaways? If you were to start fresh, would you do the same thing again? Or would you at some point say, ah, we should have taken that avenue? Or if you do maybe something new with music or so, you know, which would be the. Yeah. How has the project changed here? That's a really, really complex question.",
+      "id": "ep_68_ut_50"
+    },
+    {
+      "end": 1474318,
+      "speaker": "Miriah Meyer",
+      "start": 1432262,
+      "text": "It's a really great question, and I think, for me, at least, it really, I think it caused me to be more open to things that the collaborators say that they want or want to suggest. You know, I feel like a lot of times I've been in situations where people are like, oh, but I love the red to green color map. And I'm like, oh, no, no, no, no, not good. And in this poetry project, though, there was a lot of things around visual clutter, around ambiguity that kind of turned a lot of the visual conventions that we use on its head. And so I feel like I'm hoping I'll be more receptive to those sorts of things going forward. And I don't know, Nina, if there's other things that you want to say.",
+      "id": "ep_68_ut_51"
+    },
+    {
+      "end": 1519034,
+      "speaker": "Nina McCurdy",
+      "start": 1474406,
+      "text": "Well, I think in terms of starting a new project like this, I think some things that were really valuable in the beginning was getting to know the dialogue going in the digital humanities. And this notion of what is the role of technology in the digital humanities in our community? And being really sensitive to that, that led us away from solving the poem to much more radical things that we had a lot of fun with. And then also this idea of creating a research environment that reflected our collaborators research environment. So they're very playful and exploratory and experimental in their research. And I think kind of mimicking that and exploring the visualization in that way was also really helpful in getting started.",
+      "id": "ep_68_ut_52"
+    },
+    {
+      "end": 1570310,
+      "speaker": "Miriah Meyer",
+      "start": 1519774,
+      "text": "And I think even just from, even, like, beyond visualization, just think about computer science. I think a lot of people in the field are trying to think about, well, what does computing mean as we go forward when computers are, you know, they're impacting everything about our lives. It's not just about data analysis and trying to really get a grab, you know, a handle on, well, what does this mean for the future of computer science? And for me, this project was a really great sort of peek into, well, there's all these people in fields very far away from us that are interested or using technology, and how do we start to think about working with them? How do we start thinking about, about the value of computation in that space? And it's still something I struggle with because I'm an engineer and I like to solve things, and so it takes me out of my comfort zone. But I do think that this kind of thing is something that's going to be coming up more and more.",
+      "id": "ep_68_ut_53"
+    },
+    {
+      "end": 1587858,
+      "speaker": "Enrico Bertini",
+      "start": 1570462,
+      "text": "Yeah, I think that's a really, really great point. So it's time to wrap up for us. But I really want to thank you for this amazing project. I find it highly, highly inspiring. Thank you. Thanks a lot for the project and for coming on the show.",
+      "id": "ep_68_ut_54"
+    },
+    {
+      "end": 1591850,
+      "speaker": "Miriah Meyer",
+      "start": 1588026,
+      "text": "Thank you, guys. It's always great to get to talk about this work with you.",
+      "id": "ep_68_ut_55"
+    },
+    {
+      "end": 1593098,
+      "speaker": "Nina McCurdy",
+      "start": 1591882,
+      "text": "Thanks so much for having us.",
+      "id": "ep_68_ut_56"
+    },
+    {
+      "end": 1594338,
+      "speaker": "Moritz Stefaner",
+      "start": 1593186,
+      "text": "Thanks so much. Thanks.",
+      "id": "ep_68_ut_57"
+    },
+    {
+      "end": 1594986,
+      "speaker": "Enrico Bertini",
+      "start": 1594386,
+      "text": "Bye bye.",
+      "id": "ep_68_ut_58"
+    },
+    {
+      "end": 1596414,
+      "speaker": "Miriah Meyer",
+      "start": 1595090,
+      "text": "Bye bye.",
+      "id": "ep_68_ut_59"
+    },
+    {
+      "end": 1658094,
+      "speaker": "Enrico Bertini",
+      "start": 1599394,
+      "text": "Hey, guys, thanks for listening to data stories again. Before you leave, we have a request if you can spend a couple of minutes rating us on iTunes, that would be extremely helpful for the show. I also want to give you some information on the many ways you can get news directly from us. We are, of course, on twitter@twitter.com. Datastories. We have a Facebook page@Facebook.com, data stories podcast. And we now also have a newsletter. So if you want to get news directly into your inbox, go to our home page, datastory es and look for the link that you find on the right. One last thing I want to tell you is that we love to get in touch with our listeners, especially if you want to suggest way to improve the show, amazing people you want us to invite or projects you want us to talk about. So do get in touch with us. That's all for now. See you next time. Thanks for listening to data stories.",
+      "id": "ep_68_ut_60"
+    },
+    {
+      "end": 1681744,
+      "speaker": "Moritz Stefaner",
+      "start": 1660954,
+      "text": "This episode of Data Stories is sponsored by Quadrigram, a web based application designed to bring data stories to life. With Quadrigram, you can create and share interactive data stories without the need of any coding skills. Check it out at Quadrigram.com. that's quadrigram.com.",
+      "id": "ep_68_ut_61"
+    }
+  ],
+  "confidence": 0.942777653688519,
+  "audio_duration": 1682,
+  "punctuate": true,
+  "format_text": true,
+  "dual_channel": false,
+  "webhook_url": null,
+  "webhook_status_code": null,
+  "webhook_auth": false,
+  "webhook_auth_header_name": null,
+  "speed_boost": false,
+  "auto_highlights_result": null,
+  "auto_highlights": false,
+  "audio_start_from": null,
+  "audio_end_at": null,
+  "word_boost": [],
+  "boost_param": null,
+  "filter_profanity": false,
+  "redact_pii": false,
+  "redact_pii_audio": false,
+  "redact_pii_audio_quality": null,
+  "redact_pii_policies": null,
+  "redact_pii_sub": null,
+  "speaker_labels": true,
+  "content_safety": false,
+  "iab_categories": true,
+  "content_safety_labels": {
+    "status": "unavailable",
+    "results": [],
+    "summary": {}
+  },
+  "language_detection": false,
+  "language_detection_threshold": null,
+  "language_confidence": null,
+  "custom_spelling": null,
+  "throttled": false,
+  "auto_chapters": true,
+  "summarization": false,
+  "summary_type": null,
+  "summary_model": null,
+  "custom_topics": false,
+  "topics": [],
+  "speech_threshold": null,
+  "speech_model": "best",
+  "chapters": [
+    {
+      "summary": "This episode of Data stories is sponsored by Quadrigram, a web based application designed to bring data stories to life. You can create and share interactive data stories without the need of any coding skills.",
+      "gist": "Data Stories",
+      "headline": "This episode of Data stories is sponsored by Quadrigram",
+      "start": 80,
+      "end": 57020,
+      "id": "ep_68_ch_0"
+    },
+    {
+      "summary": "Today's episode is on a very special poetry visualization project. We have two very special guests here, Nina McCurdy and Miriah Meyer. Great to have both of you on.",
+      "gist": "Project Centricity",
+      "headline": "This episode is on a poetry visualization project",
+      "start": 57052,
+      "end": 99496,
+      "id": "ep_68_ch_1"
+    },
+    {
+      "summary": "Poeage is a tool that allows poets to explore the sonic topology of a poem. What you visualize are basically sound patterns, or, like, patterns you can. hear if somebody was speaking the poem. Software is built on the CMU dictionary.",
+      "gist": "Exploring the sonic topology of a poem with the Poem",
+      "headline": "Poetage tool allows poets to explore sonic topology of a poem",
+      "start": 99640,
+      "end": 414434,
+      "id": "ep_68_ch_2"
+    },
+    {
+      "summary": "Researchers at the University of Utah have created a visualization of sound in poetry. They wanted to see how visualization could affect how poets read poetry. The project involved a lot of playful experimentation on different topics.",
+      "gist": "The Power of Visualization in Poetry",
+      "headline": "You've been collaborating with a number of poets on this project",
+      "start": 415694,
+      "end": 715104,
+      "id": "ep_68_ch_3"
+    },
+    {
+      "summary": " Quadrigram.com is a web based application to create and share these types of data stories on the Internet. Its intuitive interface allows users to design interactive narratives by merging graphic elements such as texts, images, videos and data visualization modules. Quadrigram is free, and you just need a Gmail account to start building and sharing your data stories.",
+      "gist": "Quadrigram",
+      "headline": "Quadrigram.com is a web based application to create and share data stories",
+      "start": 715404,
+      "end": 795080,
+      "id": "ep_68_ch_4"
+    },
+    {
+      "summary": "Quadrigr am: Can you tell us a bit what the functionality is of the final design. And then later maybe we can move towards a few of the stories of how the poets actually used it. The interface has three linked views. Every poet does close reading differently.",
+      "gist": "The Poem Search Tool",
+      "headline": "The tool has three linked views that allow users to explore different poems",
+      "start": 795232,
+      "end": 946122,
+      "id": "ep_68_ch_5"
+    },
+    {
+      "summary": "The tool highlights all the rhyme sets for a given poem. The poets loved the feature even before it was revealing any insights. What we're doing now is a follow up study where we're giving poets sets of words. This is really sort of in the space of creativity support.",
+      "gist": "Blender 2.8: Creativity Support",
+      "headline": "So can you tell us a little bit more about reactions from the poets and what",
+      "start": 946278,
+      "end": 1167948,
+      "id": "ep_68_ch_6"
+    },
+    {
+      "summary": "Researchers spent three years creating a tool for poets to support their creativity. The project has been a really beautiful insight into some aspects of the visualization design process. How do we work together with collaborators as viz designers?",
+      "gist": "The Visualization of Poetry",
+      "headline": "The aesthetics of the visualization made it more effective, we found",
+      "start": 1167996,
+      "end": 1405012,
+      "id": "ep_68_ch_7"
+    },
+    {
+      "summary": "If you were to start fresh, would you do the same thing again? Or would you at some point say, ah, we should have taken that avenue? How has the project changed here?",
+      "gist": "The Future of Poetry",
+      "headline": "If you look back now on the project, what were your main takeaways",
+      "start": 1405068,
+      "end": 1570310,
+      "id": "ep_68_ch_8"
+    },
+    {
+      "summary": "Yeah, I think that's a really, really great point. But I really want to thank you for this amazing project. I find it highly, highly inspiring. Thanks a lot for the project and for coming on the show.",
+      "gist": "A Taste of Data Stories",
+      "headline": "We want to thank you for this amazing project and for coming on the show",
+      "start": 1570462,
+      "end": 1602362,
+      "id": "ep_68_ch_9"
+    },
+    {
+      "summary": "This episode of Data Stories is sponsored by Quadrigram, a web based application designed to bring data stories to life. If you can spend a couple of minutes rating us on iTunes, that would be extremely helpful. We love to get in touch with our listeners, especially if you want to suggest way to improve the show.",
+      "gist": "Data Stories: How to Tell a Story",
+      "headline": "Before you leave, we have a request if you can spend a few minutes rating us on iTunes",
+      "start": 1602538,
+      "end": 1681744,
+      "id": "ep_68_ch_10"
+    }
+  ],
+  "disfluencies": false,
+  "entity_detection": false,
+  "sentiment_analysis": false,
+  "sentiment_analysis_results": null,
+  "entities": null,
+  "speakers_expected": null,
+  "summary": null,
+  "custom_topics_results": null,
+  "episode_num": 68,
+  "episode_metadata": {
+    "speakers": [
+      "Miriah Meyer",
+      "Moritz Stefaner",
+      "Enrico Bertini",
+      "Nina McCurdy"
+    ],
+    "WPid": "537",
+    "url": "https://datastori.es/podlove/file/1985/s/feed/c/mp3/68-poemage.mp3",
+    "episode_title": "Poemage: Data Visualization for Poets with Miriah Meyer and Nina McCurdy"
+  }
+}

@@ -1,0 +1,58 @@
+/* Write your global styles here, in PostCSS syntax */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	h1,
+	.h1 {
+		@apply text-4xl;
+		@apply font-bold;
+	}
+	h2,
+	.h2 {
+		@apply text-2xl;
+		@apply font-bold;
+	}
+	h3,
+	.h3 {
+		@apply text-lg;
+		@apply font-bold;
+	}
+	p {
+		@apply my-4;
+	}
+
+	.active {
+		@apply bg-white;
+		@apply rounded-lg;
+		@apply font-bold;
+	}
+
+	.active.p,
+	.active p {
+		@apply !font-normal;
+	}
+}
+
+body,
+html {
+	scroll-behavior: smooth;
+	scroll-padding-top: 4rem;
+	@apply bg-gray-200;
+}
+
+* {
+	outline-color: #a855ff;
+}
+
+@media screen and (prefers-reduced-motion: reduce) {
+	body,
+	html {
+		scroll-behavior: auto;
+	}
+}
+
+audio::-webkit-media-controls-panel {
+	background: #e5e7eb;
+}

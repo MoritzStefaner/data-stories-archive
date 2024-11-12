@@ -1,0 +1,921 @@
+{
+  "id": "b703e0d0-1fc4-4d45-a900-8077ad4cbd08",
+  "language_model": "assemblyai_default",
+  "acoustic_model": "assemblyai_default",
+  "language_code": "en_us",
+  "status": "completed",
+  "audio_url": "https://datastori.es/podlove/file/5022/s/feed/c/mp3/119-color-with-karen-schloss.mp3",
+  "utterances": [
+    {
+      "end": 8194,
+      "speaker": "Karen Schloss",
+      "start": 200,
+      "text": "That's what's so fun about this work, is that we sometimes have intuitions, and then we go and collect the data and we find out that our intuitions are not right at all.",
+      "id": "ep_119_ut_0"
+    },
+    {
+      "end": 34756,
+      "speaker": "Moritz Stefaner",
+      "start": 27494,
+      "text": "Hi, everyone. Welcome to a new episode of Data stories. My name is Moritz Stefaner, and I'm a, an independent designer of data visualizations.",
+      "id": "ep_119_ut_1"
+    },
+    {
+      "end": 41172,
+      "speaker": "Enrico Bertini",
+      "start": 34940,
+      "text": "And my name is Enrico Bertini. I am a professor at NYU, and I do research in visualization.",
+      "id": "ep_119_ut_2"
+    },
+    {
+      "end": 53620,
+      "speaker": "Moritz Stefaner",
+      "start": 41348,
+      "text": "Yeah. And on this podcast together, we talk about data visualization, data analysis, and generally the role data plays in our lives. And usually we also do that together with a guest we invite on the show.",
+      "id": "ep_119_ut_3"
+    },
+    {
+      "end": 80546,
+      "speaker": "Enrico Bertini",
+      "start": 53692,
+      "text": "But before we start and reveal who our guest is for today, a quick note, our podcast is listener supported, so there's no ads. And if you enjoy the show, please, please consider supporting us. You can do that with recurring payments on patreon.com Datastories. Or if you prefer, you can now also send us one time donations on PayPal. You just go to PayPal. Me Datastories.",
+      "id": "ep_119_ut_4"
+    },
+    {
+      "end": 144918,
+      "speaker": "Moritz Stefaner",
+      "start": 80690,
+      "text": "Yes, that would be great. So any support is greatly appreciated. Of course. Before we bring on our guest, a quick announcement from my side. So I'm taking part in an exhibition in Paris this year. In fact, I'll have five pieces in the show, one of which is a new commission, like a new project about Paris. So I collected a lot of photos, and I'm organizing them in an interesting way to reveal what the digital, maybe collective photo portray of Paris could look like. And if you're interested in that, it will open early May 3 and run until end September or sometime in September. And admission is free, so you can just go. And there will be around 40 different data visualization work. So if you're into data visualization and around Paris this summer, check out the show. It's called 123 data, or une deux trois data, I guess. Data. Yeah. And it will be displayed at EDF foundation in the middle of Paris.",
+      "id": "ep_119_ut_5"
+    },
+    {
+      "end": 145222,
+      "speaker": "Karen Schloss",
+      "start": 144966,
+      "text": "Really?",
+      "id": "ep_119_ut_6"
+    },
+    {
+      "end": 168700,
+      "speaker": "Moritz Stefaner",
+      "start": 145278,
+      "text": "So we'll put a link in the show notes and make sure to check it out. So without further ado, let's bring on our guests. So today we have a super interesting topic. It's one of my favorite data visualization topics. The topic is color. And I'm really happy that we have a true expert in this tricky topic. And her name is Karen Schloss. Hi, Karen.",
+      "id": "ep_119_ut_7"
+    },
+    {
+      "end": 169316,
+      "speaker": "Karen Schloss",
+      "start": 168812,
+      "text": "Hello.",
+      "id": "ep_119_ut_8"
+    },
+    {
+      "end": 170172,
+      "speaker": "Enrico Bertini",
+      "start": 169420,
+      "text": "Hi, Karen.",
+      "id": "ep_119_ut_9"
+    },
+    {
+      "end": 171500,
+      "speaker": "Moritz Stefaner",
+      "start": 170268,
+      "text": "Thanks for joining us.",
+      "id": "ep_119_ut_10"
+    },
+    {
+      "end": 172700,
+      "speaker": "Karen Schloss",
+      "start": 171612,
+      "text": "Thank you so much for having me.",
+      "id": "ep_119_ut_11"
+    },
+    {
+      "end": 179332,
+      "speaker": "Moritz Stefaner",
+      "start": 172732,
+      "text": "Yeah, fantastic. So, Karen, can you tell us a bit about your background, what you're doing and what you're working on?",
+      "id": "ep_119_ut_12"
+    },
+    {
+      "end": 243364,
+      "speaker": "Karen Schloss",
+      "start": 179468,
+      "text": "Sure. So I'm an assistant professor at the University of Wisconsin Madison in the department of Psychology and in the Wisconsin Wisconsin Institute for Discovery. And my lab focuses on visual reasoning, which is how we make conceptual inferences from visual information. And our focus is particularly on colors. So how we make inferences from colors and how those inferences influence the way we interpret and evaluate the world around us. And we do this all the time. So we interpret colors when we look at weather maps and different amounts of snowfall. We had this week in April, where we had a lot of snow. In Wisconsin, where different amounts of snow falls, is coded by different colors. In brain activity from EEG and fMRI visualizations, we use different colors to represent different quantities and even recycling, where different colors of bins are used to code for different kinds of trash and recyclables. And so the question is, how do people interpret colors in these domains, and how is that influenced by other colors in the scene as well as other concepts in their minds?",
+      "id": "ep_119_ut_13"
+    },
+    {
+      "end": 262254,
+      "speaker": "Moritz Stefaner",
+      "start": 244464,
+      "text": "Yeah, it's such a fascinating topic, and color play is such a super important role in visual communication, of course. But actually making good use of it is really hard, as you will find out if you work with it. So what makes it so difficult or tricky to pick the right colors?",
+      "id": "ep_119_ut_14"
+    },
+    {
+      "end": 437186,
+      "speaker": "Karen Schloss",
+      "start": 262414,
+      "text": "Right. So there's several factors that make it tricky, and I think they fall into three main categories. So there's perceptual factors, which has to do with our ability to see the colors and discriminate the colors. And this is really tricky because the same, say, RGB coordinates look different on different models and different display devices. So you might have a case where colors look really discriminable on your laptop, and then you plug them into a projector to go give a talk, and you put them up on the screen, and you can't tell the difference between colors that you could easily see the difference between on your laptop, or maybe the contrast is so low. So on your computer, the white text on the light blue background looked beautiful and elegant. And on the slide, you can't see it at all. And also colors that you could see the difference between, they just. They look the same. And so there's display issues, and we want to make sure that if we're using different colors to code different kinds of concepts, that people actually can see the differences between those, and they see them in the way that we want them to. So that's a fundamental issue. It's also the case that changing the size or shapes of colored regions can also influence our ability to distinguish colors. And so that's a basic perceptual issue that goes into data visualization, especially when you have sometimes very small marks, like in scatter plots, versus very large marks, like in bar graphs. So these are important things to consider. So those are perceptual issues. Then aesthetic issues make the use of color really tricky as well, because people have strong aesthetic responses to colors. People like some colors more than others, and then that changes depending on how you combine colors together. And color preferences can be really idiosyncratic. But a lot of times we're making visualizations for the general population, so we want to cater to the general population, I would argue, in those certain cases. So you as a designer might have particular preferences that you like, or particular colors or color combinations that you like, and then you show them to other people and they're like, that's not so good. And so taking that into account is a challenge. And there's also interesting trade offs which we can talk about between perceptual issues and aesthetic issues. And then the third factor is semantics. And the question here is how we interpret meanings from colors. So a particular color can be associated with lots of different concepts. And so the question is, when you see a color in a particular visualization, how do you interpret meaning from that color? Um, and so this can be, um, how we map colors onto quantities and color map data visualization. So, um, how we infer that larger, smaller color, larger, smaller quantities map to lighter or darker colors. Um, but also how we interpret the categories of, uh, the colors in code. So, um, which colors are for particular types of fruit sales, for example, or which colors are for different types of recycling bins? So we could talk about, uh, studies related to those issues.",
+      "id": "ep_119_ut_15"
+    },
+    {
+      "end": 485676,
+      "speaker": "Enrico Bertini",
+      "start": 437380,
+      "text": "Yeah, there's so much to say about color. Every time I try to dig a little deeper, it's like, oh, there is so much more to know. It's a wormhole. Right. The more you look and the more you find. So it's such a fascinating topic. So I'm wondering maybe for our listeners, I'm wondering if you can give us a little bit of what are the main textbook rule of thumbs. So a person who is maybe a little bit of a novice in visual and wants to know what are the main rules not to make major mistakes. And basically following, I think, what Tufte said. First rule of color, don't do harm. Right. So first rule of color, don't do harm. Right.",
+      "id": "ep_119_ut_16"
+    },
+    {
+      "end": 488444,
+      "speaker": "Karen Schloss",
+      "start": 485860,
+      "text": "And so the question is, what is harm?",
+      "id": "ep_119_ut_17"
+    },
+    {
+      "end": 493340,
+      "speaker": "Enrico Bertini",
+      "start": 488604,
+      "text": "Yeah, what is harm? Right. So what would you say are the main, the basic rule of thumb?",
+      "id": "ep_119_ut_18"
+    },
+    {
+      "end": 630154,
+      "speaker": "Karen Schloss",
+      "start": 493452,
+      "text": "So in the literature, basic rules of thumb include using different hues to code for different categories. So if you're coding, um, for, um, different, say, kinds of fruits in a bar graph, using different hues to code for those. So by hues I mean red, orange, yellow, um, and making sure that the colors are easily nameable. So if you use different shades of red, then it's gonna be hard to, um, describe them in words, especially if you're referring to different categories, um, and also to take into account that about 9% of the population has color deficiency, um, which means that if you use colors that are similar in lightness and vary along axes where people can't discriminate colors, so people think it's just red and green, but it's actually a lot more complicated than that, then you can isolate or exclude a lot of people from being able to interpret your data. So it's important to have lightness contrast in our hues. So if you are going to use, say, red and green, you can have lightness contrast. So say make the green lighter and the red darker. And that can help ensure that people with color deficiencies can discriminate colors. And there's also in Photoshop and also on websites, you can put your visualizations through color deficiency filters. It doesn't necessarily tell us what people with these deficiencies are experiencing, but at least you can get an idea of what colors they can discriminate. And so that can be helpful in preventing excluding people from seeing our color contrast. So those are some examples for categorical data and for quantitative or continuous data. So typically we use color maps to encode that kind of data. And so color maps map gradations of colors onto gradations of quantity. And so you'll often see rainbow color maps for that. But those are problematic for a few reasons we can discuss. But the rule of thumb is to use color scales that vary in lightness and may also vary in hue and to map darker, darker colors to larger quantities. And we have some interesting evidence that that is manipulated by the background in some contexts but not in others.",
+      "id": "ep_119_ut_19"
+    },
+    {
+      "end": 631462,
+      "speaker": "Enrico Bertini",
+      "start": 630574,
+      "text": "Yeah, that's something interesting.",
+      "id": "ep_119_ut_20"
+    },
+    {
+      "end": 634990,
+      "speaker": "Moritz Stefaner",
+      "start": 631478,
+      "text": "That's super interesting because this is something I always wondered about.",
+      "id": "ep_119_ut_21"
+    },
+    {
+      "end": 636038,
+      "speaker": "Enrico Bertini",
+      "start": 635062,
+      "text": "Yeah, exactly.",
+      "id": "ep_119_ut_22"
+    },
+    {
+      "end": 684544,
+      "speaker": "Moritz Stefaner",
+      "start": 636126,
+      "text": "And because, I mean, the default assumption is sort of, I think in the beginning you work on white and then the more, let's say on white paper or a white screen, and the more data you add, the more ink you add or the more pigments maybe, you know, or let's say if you have a scatter plot and there's a lot of dots in one region, it becomes darker. Right. So I think this is very clear in the case, if we work on paper that dark needs to be more. I mean, how could it be different? Right? But then if you have a black screen. Right. My assumption was always the whole color model switches from we work with ink or pigments to, ah, now we work with light. Like we actually, yeah, shine light somewhere and there. I think it would always have to be like this, that more light reads more data or more data, but it's not.",
+      "id": "ep_119_ut_23"
+    },
+    {
+      "end": 919324,
+      "speaker": "Karen Schloss",
+      "start": 685434,
+      "text": "So I had the same assumption as well. And so we started collecting some data on this where we showed people color maps and we just asked them what means, what region means more. And the visualizations we used, they were alien animal sightings. So totally fictitious data basically looked like a correlation matrix where there were different colored squares and one side was biased to be a little bit lighter and the other side was biased to be darker. Found that the background, whether it was white or black, didn't seem to matter at all. In that initial pilot study. And the graduate student I was working with at the time, Conor Gramazio, he brought me the data and I was like, this is wrong. You coded this wrong. He was like, no, I didn't. I'm like, no, this can't be right. And he was like, no, it is. And he went back and checked 500 times. Somewhat hyperbolic, but not completely. And it was right. And so we then were like, okay, let's test this in the lab where we actually show people color scales, the same kind of, or the same kinds of color maps. So these correlation matrix looking things with a legend. And the legend either specified that dark was more or light was more. So there was an objective correct answer on the screen. And people were very accurate at this has they could read it well. And the question is, are they going to be faster? For dark is more versus light is more. So the idea is that visualizations that are easier to interpret are the ones that match our predictions for how perceptual features map onto concepts, observe which ones are easier to interpret. We can learn about the predictions that people have, that they bring to bear when they interpret a visualization. So by looking at response times and seeing which legends were faster to interpret, we could then make them. We can infer, excuse me, we can infer the kinds of inferences that people are making. So what we found was that we tested a few different color scales. So we tested autumn, which is a red to yellow scale. At Matlab, we tested a gray scale that just faded from black. To white, we tested color brewer blue, which goes from dark blue to, like, a saturated blue in the middle, and then light. And we tested hot in Matlab, which is like the black body radiator one. So it goes black, red, yellow, and white. And what we found was that for some color scales, the background mattered, and for some, it did not. So for autumn, which ranged from red to yellow, the background did not matter at all. So red is dark and yellow is light. For hot, which goes black, red, yellow, white, the background did not matter at all, even though the dark endpoint of the color scale was almost black, like the background, or in the white endpoint was almost white, like the white background. For the color brewer blue, it seemed to matter a little bit. So dark people were always faster when dark was more but less so on the dark background. And for the gray color scale, the darkest, more bias went away on the dark background. So at first, we were really puzzled by this. We're like, what is going on? Is this just completely random? But what we realized is that the color scales differed from each other in a really systematic way. So the autumn and the hot color scale did not appear to vary in opacity at all. So it looked like they were opaque. Regardless of the background. The gray scale looked like it actually varied in opacity. So on a white background, it looked like the black color was more opaque. And on the black background, it looked like the white color was more opaque. And the color brewer blue color scale was somewhat ambiguous. It was kind of in between. So you could kind of see it as varying in opacity, but not as much. And we created a metric that can actually quantify this. And so we can predict how much the background matters based on this metric, this variation in opacity metric that we quantified. And so then we did a follow up study where we systematically tried to vary opacity, and we found that it does seem to be the case. The background matters when the colors appear to vary opacity, but not nearly as much or at all when they don't.",
+      "id": "ep_119_ut_24"
+    },
+    {
+      "end": 946214,
+      "speaker": "Moritz Stefaner",
+      "start": 919744,
+      "text": "So, basically, if the color scale could be plausibly explained by there's more watercolor or something like this added, or, like, more diluted or less diluted color. If this would be a plausible model, because it's just one hue changing brightness, then both interpretations are. Or then the light to dark on dark background is more plausible, like, yeah, okay.",
+      "id": "ep_119_ut_25"
+    },
+    {
+      "end": 969316,
+      "speaker": "Karen Schloss",
+      "start": 946294,
+      "text": "Yeah. And it's not actually necessarily one hue changing in brightness. It's an interpolation with the background. So there are changes with the background. Right, exactly. So if you have a blue background, which we did this, then it would be a color that changes, that interpolates from whatever the highest contrast color is to the background. So presumably you could do it with hue changes as well. But we didn't try that.",
+      "id": "ep_119_ut_26"
+    },
+    {
+      "end": 986292,
+      "speaker": "Moritz Stefaner",
+      "start": 969420,
+      "text": "Okay. And if the color scale looks more that it's itself blending different colors, like from brown to red to orange to yellow or something like this, then people just look at the color scale in isolation and make up their mind what is more, just based on this color scale, regardless of the background.",
+      "id": "ep_119_ut_27"
+    },
+    {
+      "end": 988340,
+      "speaker": "Karen Schloss",
+      "start": 986388,
+      "text": "Right. If it doesn't appear at a varying opacity.",
+      "id": "ep_119_ut_28"
+    },
+    {
+      "end": 989214,
+      "speaker": "Moritz Stefaner",
+      "start": 988452,
+      "text": "Exactly.",
+      "id": "ep_119_ut_29"
+    },
+    {
+      "end": 990522,
+      "speaker": "Karen Schloss",
+      "start": 989364,
+      "text": "Wow. That's right.",
+      "id": "ep_119_ut_30"
+    },
+    {
+      "end": 992962,
+      "speaker": "Moritz Stefaner",
+      "start": 990698,
+      "text": "That's super interesting. That's crazy.",
+      "id": "ep_119_ut_31"
+    },
+    {
+      "end": 994122,
+      "speaker": "Karen Schloss",
+      "start": 993098,
+      "text": "It's super preliminary.",
+      "id": "ep_119_ut_32"
+    },
+    {
+      "end": 997978,
+      "speaker": "Moritz Stefaner",
+      "start": 994178,
+      "text": "It has all these personal assumptions how this works. Right?",
+      "id": "ep_119_ut_33"
+    },
+    {
+      "end": 998466,
+      "speaker": "Karen Schloss",
+      "start": 998146,
+      "text": "Yeah.",
+      "id": "ep_119_ut_34"
+    },
+    {
+      "end": 1015290,
+      "speaker": "Moritz Stefaner",
+      "start": 998490,
+      "text": "And also put out a tweet, like, a few, like, weeks or months ago, and I was totally clear. Yeah. It's either ink or light. You know, it has to be like that. And for me, it was so clear, and then I got the response like, it's not that clear at all. I was like, really? Oh, whoops. It's super interesting. Yeah.",
+      "id": "ep_119_ut_35"
+    },
+    {
+      "end": 1033444,
+      "speaker": "Karen Schloss",
+      "start": 1015362,
+      "text": "That's what's so fun about this work, is that we sometimes have intuitions, and then we go and collect the data, and we find out that our intuitions are not right at all, and that emphasizes the need to collect data and ask large groups of people what they perceive. So we can have empirically based design and not just rely on our own intuitions.",
+      "id": "ep_119_ut_36"
+    },
+    {
+      "end": 1070064,
+      "speaker": "Enrico Bertini",
+      "start": 1034824,
+      "text": "That's the perfect case. These are the cases that I love the most. When you have some hypothesis, and then you look at data, and it's completely the opposite. It's just perfect. I just had recently an experience with a student. We were running a study, and we got. Got incredibly strange results, and he was so disappointed. I was like, no, you shouldn't be disappointed. That's just perfect. You shouldn't try always to find. I mean, when you find that all your hypotheses were right, it's boring, it doesn't matter too much.",
+      "id": "ep_119_ut_37"
+    },
+    {
+      "end": 1076524,
+      "speaker": "Karen Schloss",
+      "start": 1071044,
+      "text": "Right. And if this data can raise new questions that lead to follow up studies, that's ideal, right?",
+      "id": "ep_119_ut_38"
+    },
+    {
+      "end": 1115714,
+      "speaker": "Enrico Bertini",
+      "start": 1076564,
+      "text": "Yeah, yeah, it's fascinating. Yeah, super fascinating. So I think we can't have an episode on color without mentioning the rainbow color map. Right. So I think we need to cover that. And so maybe you can walk us through the interesting problems that the rainbow has, and, yeah, we can discuss about it a little bit. I have some personal, not very orthodox opinions on rainbow color map, but maybe you can first give us an overview.",
+      "id": "ep_119_ut_39"
+    },
+    {
+      "end": 1255484,
+      "speaker": "Karen Schloss",
+      "start": 1116054,
+      "text": "Sure. So there's several issues with the rainbow color map. One is that if you look at the legend, such as the rainbow, the order is very apparent. But once you apply it to a data visualization, especially something like a correlation matrix or a gene expression matrix, where the colors are scrambled, the order of the colors is in readily apparent. And so that means that it's not quite obvious which colors represent more or less. And so, just because we perceive a clear order in a color scale doesn't mean that we actually perceive that order in the visualization. And so color scales that vary in lightness are much better for being able to see that order. So that's one issue. A second issue is that the rainbow color scale has very clear category boundaries in it. Although the rainbow, so even like the physical rainbow outside, is continuous, we perceive it as having bands. So there's a red part and a yellow part and a green part. And so, given that we perceive those categories in the scale, we can make inferences that the data have the similar categorical structure. But a lot of times, the data are completely continuous underlying that color scale. So we can erroneously make inferences that a boundary between, say, red and orange is more important than. Or the difference between color numbers that are coded as red and orange are more important than differences that are colored as different shades of red. But there's actually no conceptual difference between, between those sets of values. So that's a second issue, is these category boundaries. And a third is that the rainbow color scales, using hue and hue, is inherently circular. It's a circular dimension, but we use color scales in a linear way. And so what this means is that the two endpoints of the rainbow color scale, which are supposed to be maximally different in terms of the numbers they represent, are perceptually similar. And so then the values that are opposites appear to have similar colors. And so that can be really confusing as well. And so using a more linear color scale, say, one that varies mostly in lightness, can avoid that problem. It varies monotonically in lightness. So from dark to light without going dark, light, dark light as it goes across the color scale.",
+      "id": "ep_119_ut_40"
+    },
+    {
+      "end": 1281824,
+      "speaker": "Moritz Stefaner",
+      "start": 1256464,
+      "text": "Yeah, it's interesting. If you take it apart like this, it seems so clear that it's not a good choice. But still, for decades, it has been used in lots of sciences, especially sciences where, let's say, the spatial dimensions are already taken. So they had to rely on color, like geophysics or brain research or something. You'll see color maps, rainbow maps everywhere. Right?",
+      "id": "ep_119_ut_41"
+    },
+    {
+      "end": 1282964,
+      "speaker": "Karen Schloss",
+      "start": 1281904,
+      "text": "Because they're pretty.",
+      "id": "ep_119_ut_42"
+    },
+    {
+      "end": 1285112,
+      "speaker": "Moritz Stefaner",
+      "start": 1283584,
+      "text": "Why is that still the case?",
+      "id": "ep_119_ut_43"
+    },
+    {
+      "end": 1291656,
+      "speaker": "Karen Schloss",
+      "start": 1285248,
+      "text": "People like them. They're pretty. People like to look at rainbows and they like to see their data.",
+      "id": "ep_119_ut_44"
+    },
+    {
+      "end": 1293444,
+      "speaker": "Moritz Stefaner",
+      "start": 1291720,
+      "text": "Unicorns, rainbow, rainbows.",
+      "id": "ep_119_ut_45"
+    },
+    {
+      "end": 1301296,
+      "speaker": "Karen Schloss",
+      "start": 1294384,
+      "text": "Grayscale is boring looking, and it might look medical, like x rays, whereas rainbows are pretty and people like to put pretty pictures in their papers.",
+      "id": "ep_119_ut_46"
+    },
+    {
+      "end": 1316782,
+      "speaker": "Moritz Stefaner",
+      "start": 1301360,
+      "text": "Yeah, yeah, maybe. Also, you mentioned before for the categories that nameability is an important feature, so that you can say, look at the yellow part or look at the green part. Maybe that helps with discussing the data, actually. Right?",
+      "id": "ep_119_ut_47"
+    },
+    {
+      "end": 1367844,
+      "speaker": "Karen Schloss",
+      "start": 1316878,
+      "text": "Yes. So Colin Ware has done some work on this and found that if you want people to find specific regions of a color map, having some hue variability is actually really useful. So when we say the rainbow is problematic, that doesn't mean that you shouldn't have any hue variability at all. It just means that the rainbow, for the reasons that we described, are a problem. So, for example, the hot color map in Matlab or the black body radiator like looking one. So again, it goes from black to red to yellow to white. It varies monotonically in lightness, so it clearly goes from dark to light. But there are different regions you can talk about. Oh, the black or the dark red parts or the bright red parts or the yellow parts. So you can still use words to describe hue words and color categories to describe the different parts of the color scale, but also avoid some of the problems that are in the rainbow map.",
+      "id": "ep_119_ut_48"
+    },
+    {
+      "end": 1431030,
+      "speaker": "Moritz Stefaner",
+      "start": 1367964,
+      "text": "Yeah, that's great. Best of both worlds. And, I mean, that's generally a good color tip is, like, not rely on just one thing. Like, not just the hue or not just the. Not rely on color alone. You know, always, like, reinforce it and integrate it with other design choices. And that's brilliant. Like, if you vary the hue and the brightness, there you have it. Right? Yeah, yeah. The other thing is, again, like, don't trust your own intuitions. Like, don't believe your own b's, right? Yeah. We tend to be systematically wrong about our own own perception. And I think Michelle Borkin's study was so interesting. We'll link to it where she looked at Enrico. What was it? Was it like artery visualizations or something like this? Yeah. And she found, in short, that there was a clear preference for rainbow and people thought they performed better with rainbow, but in fact, they did better with a more like a ramped color scale. And. But you don't realize necessarily yourself. That's so crazy.",
+      "id": "ep_119_ut_49"
+    },
+    {
+      "end": 1505798,
+      "speaker": "Enrico Bertini",
+      "start": 1431142,
+      "text": "Yeah, yeah. I have to say that. So I think that's interesting. I want to tell this story for a moment. A few years back, I had a very interesting project with a group of climatologists, some very top people in the country, and we've been interacting with them for a pretty long extended period of time. And one of the main goals of the project was to basically come up with better guidance guidelines on how to create charts for climate science. Right. It's a very interesting topic. We could actually create a whole show about that. And of course, one of the first few things we came up with is like, you guys are wrong. You shouldn't use the rainbow color map because it's this and that. Exactly what we just went through. Right. And. Yeah. And, you know, it turns out top scientists are pretty smart people. So it's not that they've been making these mistakes for ages and they have no clue. Right. I was like, you just don't have a clue about what you're doing. And they were like, no, I know what I'm doing and I'll show you why I'm doing that.",
+      "id": "ep_119_ut_50"
+    },
+    {
+      "end": 1506862,
+      "speaker": "Moritz Stefaner",
+      "start": 1505846,
+      "text": "Like rainbows.",
+      "id": "ep_119_ut_51"
+    },
+    {
+      "end": 1564958,
+      "speaker": "Enrico Bertini",
+      "start": 1506998,
+      "text": "Yeah. Still like rainbow. Right. And it's very interesting. So I think it's not as easy as we may think because some of these people are really careful. So what some of them do, they keep using the rainbow, but they change the boundaries. Right. And they see their visualizations as the main mean to convey the idea that they want to convey in a paper that is reflected in their data, in their data analysis. And they want a picture that shows what is in the analysis. Right. And so they do a lot of, they do a lot of curation of the. Not everyone, of course. Right. But some of these people have a pretty nuanced understanding of how to use these color maps effectively. And especially one thing, maybe they just. Yeah, I think we need to dig deeper there because I saw some pretty convincing arguments from them.",
+      "id": "ep_119_ut_52"
+    },
+    {
+      "end": 1601956,
+      "speaker": "Karen Schloss",
+      "start": 1565086,
+      "text": "So this raises a really important point, which is that if you have domain knowledge and domain expertise and their conventions in your field, then people know how to read data in their field. And so it might be harder for people who join the field to learn that for the reasons we described, but it could be that we want to keep the conventions in a particular field because violating them does exactly what I'm saying. We don't. We want to know what people's predictions are for, how colors map onto concepts so we can adhere to those predictions. So by changing a convention, then we might be violating their predictions and making it harder rather than easier for them to interpret.",
+      "id": "ep_119_ut_53"
+    },
+    {
+      "end": 1630224,
+      "speaker": "Enrico Bertini",
+      "start": 1602010,
+      "text": "Yeah, yeah. And what Moritz was saying before, the idea that you can point your finger to an area and say, oh, that's the red area. And it's meaningful, it's very important. And every time you try to use something else, it's not as easy. Right. To create these boundaries. So in a way, the fact that the rainbow color map creates some hard boundaries is a feature. It's not necessarily a bad thing if you know how to deal with this boundaries.",
+      "id": "ep_119_ut_54"
+    },
+    {
+      "end": 1633008,
+      "speaker": "Karen Schloss",
+      "start": 1630384,
+      "text": "Exactly. So you use them and align them with the data.",
+      "id": "ep_119_ut_55"
+    },
+    {
+      "end": 1634696,
+      "speaker": "Enrico Bertini",
+      "start": 1633136,
+      "text": "Yeah, exactly. That's the point.",
+      "id": "ep_119_ut_56"
+    },
+    {
+      "end": 1669566,
+      "speaker": "Karen Schloss",
+      "start": 1634760,
+      "text": "Yeah. So this is the main point that I try to make in my course on information visualization. So you learn these rules of thumb or you learn about particular findings in the literature for a particular type of visualization, but I tell my students to think and look. So you don't blindly follow rules, but really think about your data and look at your visualizations and see what actually seems to work and also collect data or show them to other people to get their opinions. But don't just blindly follow rules because there could be cases like you just described where if you actually use the rainbow effectively, then maybe it could be more effective than other types of color maps.",
+      "id": "ep_119_ut_57"
+    },
+    {
+      "end": 1671238,
+      "speaker": "Enrico Bertini",
+      "start": 1669750,
+      "text": "Yeah, yeah, absolutely.",
+      "id": "ep_119_ut_58"
+    },
+    {
+      "end": 1724096,
+      "speaker": "Moritz Stefaner",
+      "start": 1671286,
+      "text": "Yeah, that's the thing. All these simple rules. Totally agree. I'd like to move the discussion now back to categorical colors because I know, Karen, you have done some super interesting work there. And it's also, it sounds so simple, like, let's say we have a couple of categories, let's say trash bins, and you want to make them easily differentiable and recognizable. And ideally, maybe people without even reading the label would get the right, you know, idea already about the content of that category. It doesn't sound super hard. But once you dig into that topic or you try it out a few times and show it to other people, you realize how complex it can be to pick the right category colors. So Karen, you did a study and also worked on a tool related to that. Shall we maybe first talk about the study? Because I think it was super interesting.",
+      "id": "ep_119_ut_59"
+    },
+    {
+      "end": 1768346,
+      "speaker": "Karen Schloss",
+      "start": 1724230,
+      "text": "The recycling study. Sure. So if you're trying to color categories where the categories, each one has a very clear associated color and they all have very different colors, the problem isn't so complicated. So let's say we're trying to code different kinds of fruit. This is motivated by, or this example is motivated by work by Lynn et al in 2013. So if you've got, say, strawberries and blueberries and bananas, bananas, then it's pretty clear. The strawberry should be red and the blueberries should be blue and the bananas should be yellow and they find that if you use different colors, then people are slower to interpret data visualizations.",
+      "id": "ep_119_ut_60"
+    },
+    {
+      "end": 1769282,
+      "speaker": "Moritz Stefaner",
+      "start": 1768490,
+      "text": "Makes sense.",
+      "id": "ep_119_ut_61"
+    },
+    {
+      "end": 1996800,
+      "speaker": "Karen Schloss",
+      "start": 1769418,
+      "text": "But the problem is that, firstly, so those are categories that the objects associated with them have very typical colors that we can observe in the world. But what about categories or concepts that represent objects that can be any color? So, like, paper can be any color, trash can be any color. Glass and plastic, those things can come in any color. And also there are these one to many and many to one mappings. So the same concept can be associated with lots of different colors, and a given color can be associated with lots of different concepts. So for the second example, red might be associated with strawberries and apples and fire and University of Wisconsin Madison and the Republican Party. So red is associated with lots of different things. And then say, apples are associated with lots of different colors. So reds and yellows and greens. And then if I'm talking about the computer company apple, as opposed to the actual fruit apple, then there's a whole other set of associations you might have with that concept. So the question is, if you have a set of concepts and you have a set of colors, what is the best way to assign colors to concepts? And so this is work that I did with the collaborator here at the University of Wisconsin, Laurent Lessard, who's in also the Wisconsin Institute for Discovery. And what we did was we started with color concept associations. So for each color, out of a set of standard colors that we used, we asked people to associate it with different concepts related to recycling. So our concepts were paper, glass, trash, metal, compost, and plastic. So for each color, they saw the color and the concept, and they just made a rating how strongly they associated each color with each concept. So you could say, okay, let's just pick the colors that are the strongest associates with each concept. Use that to make some recycling bins. Show people the bins and say, okay, where would you throw away paper? Where would you throw away plastic? But the problem is that the strongest associates are similar. Among some of the sets. For paper and plastic and glass, the strongest associates are whites and grays. And for trash and compost, the strongest associates are browns and yellowish greens. So then what do you do? How do you figure out which colors to use? So one possibility then is you say, okay, you can't pick the same color for two bins, but after you make that constraint, just pick the strongest associate after that. And what that does is it leads to colors that can be confusable. So you're maximizing the association strength between every color and every concept. But let's say we put gray for, um, for glass. Gray is also associated with paper and so, or, sorry, well, with paper, but also with plastic. And so then that doesn't differentiate the concepts very well. So that was one color set that we tried, but then another one, we made this trade off. So instead of maximizing the association strength between the colors and the concepts, we balanced it with avoiding confusion. So we left out gray, even though it's strongly associated with lots of the concepts, and instead made glass bluish green and plastic, actually red. Now, red is very weakly associated with plastic, but it's a little more associated with plastic than the other concepts. So the idea is that instead of just maximizing association strength, we want to have as much association strength as we can while minimizing confusability. And when we did that, people actually could reliably interpret how to throw away paper, glass, and trash and so on, just based on the colored bins alone, without any labels or hints to tell them the right answers.",
+      "id": "ep_119_ut_62"
+    },
+    {
+      "end": 2016870,
+      "speaker": "Moritz Stefaner",
+      "start": 1996952,
+      "text": "Yeah, that's super interesting, because my first impulse would also have been, just pick the strongest association, and this should be it. Right, but this additional idea that, okay, we also want to make sure people don't misread. So it's not just finding the right color for the thing, but also not confusing it with another thing. Then it becomes really tricky.",
+      "id": "ep_119_ut_63"
+    },
+    {
+      "end": 2018246,
+      "speaker": "Karen Schloss",
+      "start": 2017022,
+      "text": "Yeah. So it's an interesting problem.",
+      "id": "ep_119_ut_64"
+    },
+    {
+      "end": 2029454,
+      "speaker": "Moritz Stefaner",
+      "start": 2018270,
+      "text": "Do you have, like, a formula? Do you have, is it, do you have, like, a mathematical, like way to describe it? Or is it more like you, you have to iterate until you get it right?",
+      "id": "ep_119_ut_65"
+    },
+    {
+      "end": 2094538,
+      "speaker": "Karen Schloss",
+      "start": 2029574,
+      "text": "Yeah, we do. So it's. It's an assignment problem, which is actually a standard approach in optimization research. And so assignment problems come up in a lot of different domains. So if you're trying to figure out the optimal routes for package deliveries or the optimal schedules for workers, you have to take into account these different kinds of trade offs. And so what Laurent did was he realized that this very standard thing that they use in optimization could be applied to this problem here. And what we think, actually, is that people are actually solving some form of assignment problem in their minds, and so they're treating it like an optimization problem. And the question is, what is the merit on which they're solving this assignment problem? So what are they trying to optimize? So it could be that they're just trying to optimize the association's strength, but we found that that didn't predict their behavior as much. And what does is this balance? So we have a lot of follow up studies in the works to try to understand what this assignment inference process is like and how people. How people do it.",
+      "id": "ep_119_ut_66"
+    },
+    {
+      "end": 2109074,
+      "speaker": "Enrico Bertini",
+      "start": 2094666,
+      "text": "Okay, Karen. And so we were just saying that you've also been building a tool that helps people create categorical color maps. I think it's called colorgorical. I really like the name. So can you describe it a little bit?",
+      "id": "ep_119_ut_67"
+    },
+    {
+      "end": 2353274,
+      "speaker": "Karen Schloss",
+      "start": 2109154,
+      "text": "Thank you. Sure. So colorgorical is a palette generating tool. So in an ideal world, we would be able to generate color palettes where the colors are perceptually discriminable. So you can see the difference between them aesthetically preferable as possible, and ultimately, they are semantically meaningful. So the work that we just talked about with recycling is kind of the basis for how we might in the future be able to build in semantics into colorgorical. But for now, it focuses on perceptual discriminability and name difference and aesthetics. So the way that it works is you go to colorgorical.com and you put in the number of colors you want in your palette, and you can say how much you prioritize discriminability and aesthetics. And we can talk more about that in a moment. And then you ask it to run, and then it will create a palette for you, and you can run it multiple times with the same settings, and it'll give you lots of different palettes. So if you're not so keen on the first one, you can run it again until you find one that you. That you like. But there's this interesting problem where, where the colors that are highly discriminable, they tend to be very different from one another. But the colors that people like in combinations tend to be similar to one another. So some work that I did for my dissertation and other people have found this as well, is that people like color combinations that have more hue similarity. So they like blues with greens or reds with oranges, and they actually don't really like contrast. So contrary to a lot of rules of thumb, you'll see in the color theory literature, where people will say, people like contrasting colors or contrasting colors are harmonious. In the empirical literature, we don't find that. So contrasting colors are not harmonious, and people don't like them as color combinations as a whole. So if you want to make the most preferable color combination, you want the hues to be similar. And actually you want the colors to be cool. So shades of blues and bluey greens. So the most, on average, aesthetically pleasing color or aesthetically preferable color combination will be shades of blues. And greens. But if I make a data visualization that's all just shades of blues and greens, then you might not be able to tell the colors apart, and you might not be able to give them different names. So there's this interesting trade off between these. So what colorgorical does is it has these sliders where you can say how much you prioritize perceptual difference or name difference or aesthetics. So if you're designing a visualization for a graph that you want to present to an audience, you might care a lot about perceptual difference and name difference, so that people can see the difference between the bars, and they can actually refer to the bars with different names. And you might not care as much about aesthetics. But if you're designing, say, a color scheme for your website, you might care more about aesthetics rather than the ability to name the particular colors. But regardless, under the hood, regardless of what you do with the sliders, there's some basic constraints built in. So there's minimal differences between the colors. So they have to be at least somewhat discriminable for them to come out as part of the palette. And there's some aesthetic constraints as well. So we exclude colors that people notoriously dislike, which are dark yellowish, yellowish greens, or we very much downweight those, so they don't make it into the palettes, because that's a general finding, that people generally don't like those colors. Exactly. They're the pooh vomit colors. And that's actually empirically based. So. No, seriously. So in the work that I've done on preferences for single colors, we find that you can predict how much people like colors based on how much they like the objects that are associated with those colors. This is work that I did with Steve Palmer back in Berkeley, and the theory is the ecological valence theory. And the idea is that your preference for a given color is determined by how much you like all the things that are associated with that color. So if we generate a color palette for you, and it has poo and vomit colors, and you see it, then you're going to think, not so.",
+      "id": "ep_119_ut_68"
+    },
+    {
+      "end": 2354630,
+      "speaker": "Moritz Stefaner",
+      "start": 2353574,
+      "text": "Not great.",
+      "id": "ep_119_ut_69"
+    },
+    {
+      "end": 2413318,
+      "speaker": "Enrico Bertini",
+      "start": 2354822,
+      "text": "Yeah. Yeah. So what you said about the aesthetics of color is new to me. I always assume that if you basically take mostly equidistant colors in the u axis, you would get the best color palette. But that's probably wrong. I mean, yeah, that's the way you get highest. Depends on mobility. Right, right. Is it true? So I'm confused in two ways. So since you're here, maybe I can ask you, since U is circular, you can't really just take. How do you choose how to sample in a way to maximize discriminability. Right. So that's one problem. And even if you do that, what you're saying is that you may end up with color combinations that are highly discriminable, ball discriminable, but they are from the aesthetics point of view. Right, right.",
+      "id": "ep_119_ut_70"
+    },
+    {
+      "end": 2465636,
+      "speaker": "Karen Schloss",
+      "start": 2413366,
+      "text": "And those are exactly. That's exactly the probably we're interested in addressing with colorgorical. So to answer your first question, so how you sample colors that are discriminable. So you can sample colors that are far apart in a perceptual color space. So, like CIELAB color space has, you can use euclidean distance in that space and sample colors that are across from each other in the color circle. But hue is not the only way to get discriminability. So varying lightness can give you strong discriminability as well. So if we take a very light blue and a very dark blue, you can see the difference between them quite well, but they're also similar in hue. So that's kind of a little clue of how we can get around this seeming trade off between aesthetics and discriminability. If you use other dimensions for discriminability rather than hue.",
+      "id": "ep_119_ut_71"
+    },
+    {
+      "end": 2487660,
+      "speaker": "Enrico Bertini",
+      "start": 2465820,
+      "text": "Yeah, I was just talking. Sorry if I interrupt you. I was assuming that we want to come up with a categorical color scale. So ideally, you don't want major differences in lightness or saturation. Right. Because otherwise one color would stand out compared to the others. Or am I wrong about that? I think that's the textbook version of.",
+      "id": "ep_119_ut_72"
+    },
+    {
+      "end": 2523608,
+      "speaker": "Karen Schloss",
+      "start": 2487852,
+      "text": "Yes, that is a textbook version, but I think that's a case where there might be cases where you want to only vary hue. But I think for the most part, when we're varying categories, it's perfectly fine to vary lightness as well. And the issue is about. So, yeah, you might want the colors to equally stand out, but even so, a prototypical yellow is much lighter than a prototypical blue. So if you use an easily nameable yellow yellow and a really typical blue blue, you're going to have lightness differences. And I think, for the most part, that's fine.",
+      "id": "ep_119_ut_73"
+    },
+    {
+      "end": 2534776,
+      "speaker": "Enrico Bertini",
+      "start": 2523736,
+      "text": "Sorry if I interrupt you again. Is that true? Even if you are picking these colors in a perceptual color space having the same level of saturation and lightness, if.",
+      "id": "ep_119_ut_74"
+    },
+    {
+      "end": 2541680,
+      "speaker": "Karen Schloss",
+      "start": 2534800,
+      "text": "You control saturation and lightness, you cannot have a prototypical yellow and a prototypical.",
+      "id": "ep_119_ut_75"
+    },
+    {
+      "end": 2543744,
+      "speaker": "Enrico Bertini",
+      "start": 2541712,
+      "text": "You just want to get yellow. Yeah. Okay.",
+      "id": "ep_119_ut_76"
+    },
+    {
+      "end": 2548804,
+      "speaker": "Karen Schloss",
+      "start": 2543824,
+      "text": "No. So if you do that the yellow, you'll get brownish or beige.",
+      "id": "ep_119_ut_77"
+    },
+    {
+      "end": 2578954,
+      "speaker": "Moritz Stefaner",
+      "start": 2551144,
+      "text": "Yeah. So I think some variation, you can be fine. And I think that's an interesting way to look at it, because many of the standard palettes are really trying so hard to be exactly the same you. That they look either pretty dull or just like a kid's birthday party. And I think that's, like, a common concern when you're, like, a design oriented person, is, wow, it's gonna look super colorful, you know, like, from an aesthetic point of view, not always the thing you're going for. Yeah.",
+      "id": "ep_119_ut_78"
+    },
+    {
+      "end": 2693444,
+      "speaker": "Karen Schloss",
+      "start": 2579114,
+      "text": "Right. And so. And then the other point that you brought up was about this complementary color issue in terms of aesthetics. So do we want colors that are far apart in colors? In colors, yeah. So a lot of that doctrine comes from. It comes from several places. But, Johan, it. Yes, sorry. Is one of the main. Main sources of that. And he was a professor at the Bauhaus and taught the color theory course there. And he created a color space, a color circle, based on pigment mixture. And so colors that were across from each other in the circle mixed to form a neutral gray in paint. And he argued that this was balanced, this was harmony. And people liked colors that, when you mix them, could form a neutral gray. He didn't test this empirically. And just because colors can. Because paints can be mixed to form a neutral gray doesn't mean that when you see them separate, that you perceive them as balanced or that you like them. But the thing is, is that he made a really nice argument based on geometry. So if you have colors that form a line or a perfect triangle or a rectangle, then that's order and that's structure, and those colors are good. And people are enticed by geometry and order and structure. And it sounds like a great argument, but that doesn't mean that when you actually see those colors extracted from the color circle in, say, a data visualization, that you'll have any sort of access to that geometrical structure that was there in the color space, or that you will like them or find them harmonious. And so when we actually collect data for color pairs, we find that people like complementary or opposite colors the least, not the most. So this is a case where someone made a really strong point with a nice rhetorical argument, but it doesn't necessarily hold up empirically.",
+      "id": "ep_119_ut_79"
+    },
+    {
+      "end": 2737950,
+      "speaker": "Moritz Stefaner",
+      "start": 2693744,
+      "text": "Yeah. How about, like, so we. We grow up in a natural environment, like, and I think some colors are more predominant in this natural world, like blue and greens and so on. Yeah. And so is there a preference for, let's say, physically or naturally plausible color combinations, maybe. I mean, that's one of my. I think the rules I have sort of when I work is like, if I can make it physically plausible, it usually works better. It's like one of my working assumptions in many cases, because then people might have a better, like, unconscious approach to it, like to interpret it. But is that true? Is that something that makes sense?",
+      "id": "ep_119_ut_80"
+    },
+    {
+      "end": 2791544,
+      "speaker": "Karen Schloss",
+      "start": 2738142,
+      "text": "It does, and I think so. We certainly make that kind of argument in our work, and we do have some preliminary for it. And the idea is that within a particular object, so let's say a leaf, you're going to have a lot of variations in lightness and in saturation, especially with highlights and shading. But there's not a whole lot of hue variability. And of course, there can be hue variability within objects, but the idea goes that in natural objects in the world, there tends to be more lightness variability and chroma variability than hue variability. And to the extent that that that's true, then you can imagine that within objects, you would have differences in lightness, but the hues would be relatively constant. And so then if you look at color combinations where there's differences in lightness, but the hues are relatively similar, then that would mirror what's in the world. And we do find that those are the color combinations that people tend to like. So it could be ecologically based.",
+      "id": "ep_119_ut_81"
+    },
+    {
+      "end": 2794028,
+      "speaker": "Moritz Stefaner",
+      "start": 2793484,
+      "text": "Wow.",
+      "id": "ep_119_ut_82"
+    },
+    {
+      "end": 2794824,
+      "speaker": "Enrico Bertini",
+      "start": 2794116,
+      "text": "Yeah.",
+      "id": "ep_119_ut_83"
+    },
+    {
+      "end": 2818034,
+      "speaker": "Moritz Stefaner",
+      "start": 2795324,
+      "text": "Great. Yeah, color is fantastic. And I think you will have your research cut out for the next few years. There's so much you can look into. Summing up, what were some of the most, let's say, surprising or most challenging facts you've learned, or the biggest questions that might still be open for you that you came across in your research.",
+      "id": "ep_119_ut_84"
+    },
+    {
+      "end": 2885222,
+      "speaker": "Karen Schloss",
+      "start": 2818154,
+      "text": "Sure. So one of the most surprising things is that people can have extremely strong inferences about the meanings of colors in design, yet they can flexibly change those inferences or interpretations from one moment to the next. So, an example in our cycling study is that red is very weakly associated with paper and it's very weakly associated with trash. So if you just go based on color concept associations, red is kind of meaningless. But if you pair red with white and white is strongly associated with paper, people very strongly infer that red is the color for trash. And then one trial a second later, they will. If you pair red with brown, they will very strongly infer that it's the right color for paper. And so what this means is that we're extremely flexible in the way that we interact with visual features. And I think that there might be interesting analogies between that and language. So we can also be very flexible in how we interpret words. And so that's a really, I think, exciting future direction is to try to understand those parallels and how context influences our interpretations of colors.",
+      "id": "ep_119_ut_85"
+    },
+    {
+      "end": 2896208,
+      "speaker": "Moritz Stefaner",
+      "start": 2885358,
+      "text": "So we should not think in terms of red means danger or something like this, but always consider what's around this red and what's the expectation that is built up from that framing.",
+      "id": "ep_119_ut_86"
+    },
+    {
+      "end": 2896968,
+      "speaker": "Karen Schloss",
+      "start": 2896336,
+      "text": "Exactly.",
+      "id": "ep_119_ut_87"
+    },
+    {
+      "end": 2902336,
+      "speaker": "Moritz Stefaner",
+      "start": 2897056,
+      "text": "Yeah. That's super interesting. Wow. Yeah. Anything else?",
+      "id": "ep_119_ut_88"
+    },
+    {
+      "end": 3020134,
+      "speaker": "Karen Schloss",
+      "start": 2902480,
+      "text": "Sure. So, some interesting challenges that we're facing are trying to understand the full set of color concept associations. So, notion underlying our approach is that as people move about the world, they're forming associations between colors and concepts all the time and so forth. For some concepts, they might be strongly associated with particular colors, let's say yellow with bananas. And for some concepts, they might be not at all associated with a particular color, let's say yellow with oceans. But the idea is that in the mind, we have this representation that has weights that connects all colors to all concepts. So to fully test our hypotheses about how people form inferences about colors, we need to have some mathematical representation that links all colors to all concepts. So that's a big challenge that we're facing now, is how we can figure out what those association strengths are. So one way we can do it is by bringing people in the lab and asking them, how much do you associate this concept with each one of these colors, as we did with our recycling study. But that's really time consuming. So to get people to make those judgments for, say, 37 colors and six concepts, it takes about a half hour. And if we want all possible colors and all possible concepts, that's clearly impossible. Another thing that other people have tried has been looking at image data databases. So you could look at, say, Google images and try to get histograms of all of the colors that are associated with particular concepts. And it's been shown that that can work for concrete objects that have clearly observable colors, but abstract concepts that don't have clear, observable colors you might see in photographs. How do we figure out what those associations are? So, that's a struggle that we are working on trying to address now. And I think there's some really interesting questions there. Once we can represent this color concept association network, the world is our oyster, and we can test all kinds of interesting hypotheses about how we make inferences from colors.",
+      "id": "ep_119_ut_89"
+    },
+    {
+      "end": 3021914,
+      "speaker": "Enrico Bertini",
+      "start": 3020514,
+      "text": "Yeah, yeah, yeah.",
+      "id": "ep_119_ut_90"
+    },
+    {
+      "end": 3031914,
+      "speaker": "Moritz Stefaner",
+      "start": 3022074,
+      "text": "The tough part is really the interactions, because in isolation, everything's sort of simple, but, yeah. All these interactions are so fascinating. Right? Yeah.",
+      "id": "ep_119_ut_91"
+    },
+    {
+      "end": 3085642,
+      "speaker": "Enrico Bertini",
+      "start": 3031994,
+      "text": "Yeah. I'm really glad to know that there are people like you who are pushing the boundaries of color and try to better understand what's going on. It's an endless list. Fascinating. Fascinating color topic. And as I said before, every time I try to dig deeper, there is a whole new world opening in front of me. So it's. Yeah, it's fantastic. And I only hope that we are not scaring people away with this episode from color. It's. Yeah, don't be afraid. There is a lot to learn. And it's not just theory. There is a lot to learn also by just practicing how. How to actually do this thing in practice, because I think a large portion of knowledge comes from actually trying these things out. Right. And you end up internalizing rules and. Yeah.",
+      "id": "ep_119_ut_92"
+    },
+    {
+      "end": 3099604,
+      "speaker": "Moritz Stefaner",
+      "start": 3085698,
+      "text": "And also show it to people. Like, you know, I think to me, it becomes always so clear, like, our intuitions can be so wrong. So. And I think if you just show it to ten people and ask for feedback, you will get quite interesting. Different observations and opinions.",
+      "id": "ep_119_ut_93"
+    },
+    {
+      "end": 3119932,
+      "speaker": "Karen Schloss",
+      "start": 3099724,
+      "text": "Exactly. And we find that there are really systematic interpretations that are predictable and modelable in the lab. So I don't think that it should necessarily be scary and off putting. I think it should be exciting that we can actually pose these questions and answer them and really predict behavior, because then we can use color to make the world easier to interpret and more enjoyable to experience.",
+      "id": "ep_119_ut_94"
+    },
+    {
+      "end": 3156166,
+      "speaker": "Moritz Stefaner",
+      "start": 3120108,
+      "text": "Yeah, yeah, yeah. And also by laying out these fundamental tensions, as you have done, for instance, in these categories and categorical, just by knowing, ah, we can think about perceptual difference, but also naming difference and aesthetics, you know, and that also helps in just working with it, just understanding these different forces, basically. So, yeah, super helpful. We will put all the resources in the show notes, of course, make sure to check out the categorical tool and the fascinating research around the recycling bins, which I really enjoyed. And, yeah, thanks so much, Karen, for joining us. This was very informative. Thanks.",
+      "id": "ep_119_ut_95"
+    },
+    {
+      "end": 3157134,
+      "speaker": "Enrico Bertini",
+      "start": 3156270,
+      "text": "Thanks so much.",
+      "id": "ep_119_ut_96"
+    },
+    {
+      "end": 3158486,
+      "speaker": "Karen Schloss",
+      "start": 3157214,
+      "text": "Thank you so much for having me.",
+      "id": "ep_119_ut_97"
+    },
+    {
+      "end": 3159654,
+      "speaker": "Moritz Stefaner",
+      "start": 3158550,
+      "text": "Thank you. Bye bye.",
+      "id": "ep_119_ut_98"
+    },
+    {
+      "end": 3160874,
+      "speaker": "Karen Schloss",
+      "start": 3159694,
+      "text": "Bye bye.",
+      "id": "ep_119_ut_99"
+    },
+    {
+      "end": 3185744,
+      "speaker": "Enrico Bertini",
+      "start": 3165334,
+      "text": "Hey, folks, thanks for listening to data stories again. Before you leave, a few last notes. This show is now completely crowdfunded, so you can support us by going on Patreon. That's patreon.com Datastories stories. And if you can spend a couple of minutes reading us on iTunes, that would be extremely helpful for the show.",
+      "id": "ep_119_ut_100"
+    },
+    {
+      "end": 3211626,
+      "speaker": "Moritz Stefaner",
+      "start": 3185864,
+      "text": "And here's also some information on the many ways you can get news directly from us. We are, of course, on twitter@twitter.com Datastories we have a Facebook page@Facebook.com. datastoriespodcast all in one word. And we also have a slack channel where you can chat with us directly. And to sign up, you can go to our homepage, datastory.com, and there is a button at the bottom of the page.",
+      "id": "ep_119_ut_101"
+    },
+    {
+      "end": 3227482,
+      "speaker": "Enrico Bertini",
+      "start": 3211770,
+      "text": "And we also have an email newsletter. So if you want to get news directly into your inbox and be notified whenever we publish an episode, you can go to our home page Datastories es and look for the link you find at the bottom in the footer.",
+      "id": "ep_119_ut_102"
+    },
+    {
+      "end": 3239636,
+      "speaker": "Moritz Stefaner",
+      "start": 3227578,
+      "text": "So one last thing we want to tell you is that we love to get in touch with our listeners, especially if you want to suggest a way to improve the show or amazing people you want us to invite or even projects you want us to talk about.",
+      "id": "ep_119_ut_103"
+    },
+    {
+      "end": 3248824,
+      "speaker": "Enrico Bertini",
+      "start": 3239730,
+      "text": "Yeah, absolutely. And don't hesitate to get in touch with us. It's always a great thing to hear from you. So see you next time, and thanks for listening to data stories.",
+      "id": "ep_119_ut_104"
+    }
+  ],
+  "confidence": 0.927797177307979,
+  "audio_duration": 3258,
+  "punctuate": true,
+  "format_text": true,
+  "dual_channel": false,
+  "webhook_url": null,
+  "webhook_status_code": null,
+  "webhook_auth": false,
+  "webhook_auth_header_name": null,
+  "speed_boost": false,
+  "auto_highlights_result": null,
+  "auto_highlights": false,
+  "audio_start_from": null,
+  "audio_end_at": null,
+  "word_boost": [],
+  "boost_param": null,
+  "filter_profanity": false,
+  "redact_pii": false,
+  "redact_pii_audio": false,
+  "redact_pii_audio_quality": null,
+  "redact_pii_policies": null,
+  "redact_pii_sub": null,
+  "speaker_labels": true,
+  "content_safety": false,
+  "iab_categories": true,
+  "content_safety_labels": {
+    "status": "unavailable",
+    "results": [],
+    "summary": {}
+  },
+  "language_detection": false,
+  "language_detection_threshold": null,
+  "language_confidence": null,
+  "custom_spelling": null,
+  "throttled": false,
+  "auto_chapters": true,
+  "summarization": false,
+  "summary_type": null,
+  "summary_model": null,
+  "custom_topics": false,
+  "topics": [],
+  "speech_threshold": null,
+  "speech_model": "best",
+  "chapters": [
+    {
+      "summary": "This is a new episode of Data stories. Moritz Stefaner and Enrico Bertini talk about data visualization, data analysis, and the role data plays in our lives. If you enjoy the show, please consider supporting us.",
+      "gist": "Data Stories",
+      "headline": "Our podcast is listener supported, so any support is greatly appreciated",
+      "start": 200,
+      "end": 84934,
+      "id": "ep_119_ch_0"
+    },
+    {
+      "summary": "The exhibition will open early May 3 and run until end September. There will be around 40 different data visualization work. Admission is free, so you can just go. If you're into data visualization and around Paris, check out the show.",
+      "gist": "123 data",
+      "headline": "I'm taking part in an exhibition in Paris this summer featuring 40 data visualization works",
+      "start": 85594,
+      "end": 150754,
+      "id": "ep_119_ch_1"
+    },
+    {
+      "summary": "Today we have a super interesting topic. It's one of my favorite data visualization topics. The topic is color. We have a true expert in this tricky topic. Her name is Karen Schloss. Thanks for joining us.",
+      "gist": "Color in Data Visualization",
+      "headline": "Today's topic is color. It's one of my favorite data visualization topics",
+      "start": 151094,
+      "end": 173580,
+      "id": "ep_119_ch_2"
+    },
+    {
+      "summary": "An assistant professor at the University of Wisconsin Madison focuses on visual reasoning. How we make inferences from colors influence the way we interpret and evaluate the world around us. Making good use of color is really hard, as you will find out if you work with it.",
+      "gist": "How do we interpret colors in our visualizations?",
+      "headline": "Karen Miller is an assistant professor at the University of Wisconsin Madison",
+      "start": 173652,
+      "end": 454518,
+      "id": "ep_119_ch_3"
+    },
+    {
+      "summary": "About 9% of the population has color deficiency. It's important to have lightness contrast in our hues. Use color scales that vary in lightness and may also vary in hue. To map darker, darker colors to larger quantities.",
+      "gist": "Color coding: Basic Rules of thumb",
+      "headline": "About 9% of the population has color deficiency, according to research",
+      "start": 454646,
+      "end": 913720,
+      "id": "ep_119_ch_4"
+    },
+    {
+      "summary": "The background matters when the colors appear to vary opacity, but not nearly as much when they don't. And it's not actually necessarily one hue changing in brightness. It's an interpolation with the background. If this data can raise new questions that lead to follow up studies, that's ideal.",
+      "gist": "The color scale and the background",
+      "headline": "The background matters when the colors appear to vary opacity, but not nearly as much",
+      "start": 913752,
+      "end": 1079904,
+      "id": "ep_119_ch_5"
+    },
+    {
+      "summary": "There's several issues with the rainbow color map. It has very clear category boundaries in it. It varies monotonically in lightness. Having some hue variability is actually really useful.",
+      "gist": "Rainbow Color Map",
+      "headline": "There are several issues with the rainbow color map",
+      "start": 1080564,
+      "end": 1492646,
+      "id": "ep_119_ch_6"
+    },
+    {
+      "summary": "Some people have a pretty nuanced understanding of how to use color maps effectively. If you have domain knowledge and domain expertise and their conventions in your field, then people know how to read data in their field. But don't just blindly follow rules.",
+      "gist": "Following the rules of information visualization",
+      "headline": "Some people use the rainbow effectively, but they change the boundaries",
+      "start": 1492710,
+      "end": 1676574,
+      "id": "ep_119_ch_7"
+    },
+    {
+      "summary": "Karen: What is the best way to assign colors to concepts? Karen: Research shows that if you use different colors, people are slower to interpret data visualizations. How do you figure out which colors to use? Karen: Use the colors that are the strongest associates with each concept.",
+      "gist": "Categorical Colors and the recycling study",
+      "headline": "Karen, you did a study on categorical colors",
+      "start": 1676734,
+      "end": 2094538,
+      "id": "ep_119_ch_8"
+    },
+    {
+      "summary": " colorgorical is a palette generating tool. It focuses on perceptual discriminability and name difference and aesthetics. In an ideal world, we would be able to generate color palettes where the colors are perceptually discriminable. And ultimately, they are semantically meaningful.",
+      "gist": "Colorgoricle: A Palette Generator",
+      "headline": "Color goricle is a palette generating tool that focuses on perceptual discriminability",
+      "start": 2094666,
+      "end": 2418474,
+      "id": "ep_119_ch_9"
+    },
+    {
+      "summary": "You can sample colors that are far apart in a perceptual color space. But hue is not the only way to get discriminability. varying lightness can give you strong discriminable as well.",
+      "gist": "Color theory, discriminability",
+      "headline": "So varying lightness can give you strong discriminability",
+      "start": 2418894,
+      "end": 2579866,
+      "id": "ep_119_ch_10"
+    },
+    {
+      "summary": "Do we want colors that are far apart in colors? In colors, yeah. People like complementary or opposite colors the least, not the most. Is there a preference for physically or naturally plausible color combinations?",
+      "gist": "On Complementary Color",
+      "headline": "You bring up complementary color issue in terms of aesthetics",
+      "start": 2579890,
+      "end": 2804694,
+      "id": "ep_119_ch_11"
+    },
+    {
+      "summary": "People can have extremely strong inferences about the meanings of colors in design, yet they can flexibly change those inferences or interpretations from one moment to the next. Some interesting challenges that we're facing are to understand the full set of color concept associations.",
+      "gist": "Color inference, surprising and challenging",
+      "headline": "People can make extremely strong inferences about colors based on color concept associations",
+      "start": 2806314,
+      "end": 3160874,
+      "id": "ep_119_ch_12"
+    },
+    {
+      "summary": "This show is now completely crowdfunded, so you can support us by going on Patreon. com Datastories stories. We also have an email newsletter. We love to get in touch with our listeners, especially if you want to suggest a way to improve the show.",
+      "gist": "How to Subscribe to Data Stories",
+      "headline": "This show is now completely crowdfunded, so you can support us on Patreon",
+      "start": 3165334,
+      "end": 3248824,
+      "id": "ep_119_ch_13"
+    }
+  ],
+  "disfluencies": false,
+  "entity_detection": false,
+  "sentiment_analysis": false,
+  "sentiment_analysis_results": null,
+  "entities": null,
+  "speakers_expected": null,
+  "summary": null,
+  "custom_topics_results": null,
+  "episode_num": 119,
+  "episode_metadata": {
+    "speakers": [
+      "Karen Schloss",
+      "Moritz Stefaner",
+      "Enrico Bertini"
+    ],
+    "WPid": "1173",
+    "url": "https://datastori.es/podlove/file/5022/s/feed/c/mp3/119-color-with-karen-schloss.mp3",
+    "episode_title": "Color with Karen Schloss"
+  }
+}

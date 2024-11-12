@@ -1,0 +1,891 @@
+{
+  "id": "041fb7e3-2fb6-40e5-8c02-c6c01a621d80",
+  "language_model": "assemblyai_default",
+  "acoustic_model": "assemblyai_default",
+  "language_code": "en_us",
+  "status": "completed",
+  "audio_url": "https://datastori.es/podlove/file/5482/s/feed/c/mp3/132-a-new-generation-of-dataviz-tools.mp3",
+  "utterances": [
+    {
+      "end": 5690,
+      "speaker": "Jessica Hullman",
+      "start": 200,
+      "text": "If you can see what the data is and not have to kind of keep that view in your imagination, I think that can be quite important.",
+      "id": "ep_132_ut_0"
+    },
+    {
+      "end": 39650,
+      "speaker": "Moritz Stefaner",
+      "start": 25230,
+      "text": "Hi, everyone. Welcome to a new episode of data stories. My name is Moritz Stefaner, and I'm an independent designer of data visualization. And actually I work here as a self employed truth and beauty operator out of my office here in the countryside in the north of Germany.",
+      "id": "ep_132_ut_1"
+    },
+    {
+      "end": 48074,
+      "speaker": "Enrico Bertini",
+      "start": 39810,
+      "text": "And I am Enrico Bertini. I am a professor at New York University in New York City, where I teach and do research in data visualization.",
+      "id": "ep_132_ut_2"
+    },
+    {
+      "end": 62132,
+      "speaker": "Moritz Stefaner",
+      "start": 48242,
+      "text": "Right. And we somehow ended up doing this podcast together. And on this podcast, we talk about data visualization mostly, but also data analysis and generally the role data plays in our lives. And usually we do that with a guest we invite on the show.",
+      "id": "ep_132_ut_3"
+    },
+    {
+      "end": 85530,
+      "speaker": "Enrico Bertini",
+      "start": 62316,
+      "text": "Yes. But before we start, just a quick note. Our podcast is now listener supported, so there's no ads. So if you enjoy the show, please consider supporting us with recurring payments on patreon.com Datastories. Or now you can also send us one time donations on Paypal by going to Paypal me Datastories.",
+      "id": "ep_132_ut_4"
+    },
+    {
+      "end": 112670,
+      "speaker": "Moritz Stefaner",
+      "start": 85660,
+      "text": "Yeah, that would be awesome. So we appreciate really your support, and it's always great for us just to hear from our listeners. And we also had a fantastic listener meetup in Berlin a couple of weeks ago by now, which was so nice because we get to meet the people that you're normally just in touch with on Twitter or through the podcast. But it's also great to put a face to the names and get some direct feedback.",
+      "id": "ep_132_ut_5"
+    },
+    {
+      "end": 121642,
+      "speaker": "Enrico Bertini",
+      "start": 112790,
+      "text": "Yeah, I think everyone had so much fun and, yeah, it was great to see, see so many people right in real life.",
+      "id": "ep_132_ut_6"
+    },
+    {
+      "end": 122590,
+      "speaker": "Moritz Stefaner",
+      "start": 121826,
+      "text": "Perfect.",
+      "id": "ep_132_ut_7"
+    },
+    {
+      "end": 123954,
+      "speaker": "Enrico Bertini",
+      "start": 123090,
+      "text": "It was really cool.",
+      "id": "ep_132_ut_8"
+    },
+    {
+      "end": 139730,
+      "speaker": "Moritz Stefaner",
+      "start": 124002,
+      "text": "Yeah. And we think a lot about, like, should we do the podcast longer, shorter, different, stay the same? Different guests? Same guests. Right. And so if you have any opinions on what works in your mind or what you enjoy the most, just let us know. We always enjoy hearing from you.",
+      "id": "ep_132_ut_9"
+    },
+    {
+      "end": 227926,
+      "speaker": "Enrico Bertini",
+      "start": 139810,
+      "text": "Yes. And before we start, I just wanted to briefly talk about a new blog that I started with a few other people, with Jessica Hullman, Danyel Zafir, and Robert Kosara. And the blog is called multiple views research explained, which is pretty much self explanatory. But the idea here is to have more researchers from the world of visualization basically express or describe what they do to a broader audience. And I'm really excited about this project. This is something that is really close to my heart, and I'm really happy that this is happening. There are already a few blog posts out there, so most of them, since we started, I would say we perfected this idea when we were at Vaz altogether. And so the first few blog posts were about what happened at vase. But we already have a few more posts. There is a recent one on visualization literacy that I really enjoyed by Michael Correll. And it's not only us writing these blog posts, actually, most of the time we expect other researchers to write blog posts and we act as editors. So the blog is hosted on medium. If you just search for multiple views, medium or something like that, you will find it.",
+      "id": "ep_132_ut_10"
+    },
+    {
+      "end": 252206,
+      "speaker": "Moritz Stefaner",
+      "start": 227998,
+      "text": "And of course we'll put the link in the show notes. And yeah, I think it's fantastic. And I really, I think it's a current trend also to put more research into more digestible form like medium, post short videos and so on. And I really always enjoy it. For me, I don't really get to read all the papers or I don't spend so much time on it, but if I have a blog post, I'm open to consuming a bit of science. So that's always great.",
+      "id": "ep_132_ut_11"
+    },
+    {
+      "end": 254810,
+      "speaker": "Enrico Bertini",
+      "start": 252278,
+      "text": "Yeah, that's exactly the idea.",
+      "id": "ep_132_ut_12"
+    },
+    {
+      "end": 293050,
+      "speaker": "Moritz Stefaner",
+      "start": 255390,
+      "text": "And I think that also fits our main theme today because it's also a lot about how to get practical tools out of academia, research, how to foster innovation, create maybe a whole new generation of database tools. Because we observed this trend that there's a whole family of tools coming out now that sort of share maybe a certain conceptual underpinning and a certain new style of thinking about data visualization tools. And so we wanted to discuss it with one of the real experts in practical data visualization, Andy Kirk. Hi Andy.",
+      "id": "ep_132_ut_13"
+    },
+    {
+      "end": 293850,
+      "speaker": "Enrico Bertini",
+      "start": 293170,
+      "text": "Hey Andy.",
+      "id": "ep_132_ut_14"
+    },
+    {
+      "end": 295858,
+      "speaker": "Jessica Hullman",
+      "start": 293930,
+      "text": "Hi guys, how are you doing? Good to be back.",
+      "id": "ep_132_ut_15"
+    },
+    {
+      "end": 309810,
+      "speaker": "Moritz Stefaner",
+      "start": 295914,
+      "text": "Yeah, great to have you back. I mean, we first invited, of course, Robert Kosara, but he didn't have time. So here we are. Andy, can you tell us a bit about yourself?",
+      "id": "ep_132_ut_16"
+    },
+    {
+      "end": 366604,
+      "speaker": "Jessica Hullman",
+      "start": 310510,
+      "text": "Yeah, sure. I'm a Dataviz freelancer based in the north of England. So I do training courses, consultancy design work, write books, various things, do podcast recordings and so yeah, I guess one of the things that characterizes my work is I'm in contact with, shall we say, everyday people, the analysts of the world, the practitioners out there working in organizations who are, I guess, trying to find practical means to do visualization in their day jobs alongside everything else that they do and all the kind of battles that they face in getting technology approved and access to it. So, you know, when we as academics or freelancers see the launch of new tools, we get quite excited for the bespoke nature that they offer for us. But it's interesting how then that cascades into the real world, shall we say?",
+      "id": "ep_132_ut_17"
+    },
+    {
+      "end": 383196,
+      "speaker": "Moritz Stefaner",
+      "start": 366692,
+      "text": "Yeah, yeah, yeah. And you've done like dozens or hundreds probably of workshops by now. Right. And so you do have a lot of grasp on what people grapple with in like corporate settings or big organizations and what makes it easier and not so easy to put out good graphics, right?",
+      "id": "ep_132_ut_18"
+    },
+    {
+      "end": 410020,
+      "speaker": "Jessica Hullman",
+      "start": 383268,
+      "text": "That's right, yeah. And I guess, you know, on the workshop side, effectively trying to translate is the stuff that the talented people out there doing, the designers, the developers, the freelancers, the people in newsrooms, and trying to make that accessible to everyone else. So it's a challenge, but there's so much appetite out there. And so when you do see new tools come out, it is kind of an exciting new frontier for people.",
+      "id": "ep_132_ut_19"
+    },
+    {
+      "end": 503130,
+      "speaker": "Moritz Stefaner",
+      "start": 410100,
+      "text": "Yeah, yeah. And I think that's already at the heart of what we want to talk about today. Maybe we should talk before we go into all these new tools, maybe talk a bit about the big families of tools that are around, by the way, on visualizing data.com resources or something like this. So we'll put the link in the show notes. There's a big list of all the data visualization tools. And so if you look for great mapping tools, 350 on that charting tool, about 350 on there, loads of tools. And I think a lot of them treated chart design or data visualization design in sort of a cookie cutter way, in a sense that they have a notion of there are some pre existing templates or some pre existing chart types, like a bar chart or a line chart or a bubble chart or a tree map. So it's sort of a specific template. And then you pour in your data and if you're lucky, the data fits that template and it looks good. Or if it doesn't fit, then you're sort of stuck with a limited set of configuration options to somehow make it work, or you have to sort of massage the data so it flows into the template in a good way. And I think that applies to excel. But also like really cool new tools, like flourish, which is definitely worth mentioning, or raw graphs. Both are really, really cool tools where you can do really interesting graphics, but in the end, you're sort of deciding first on the idiom or the chart type and then I pour in the data. Right?",
+      "id": "ep_132_ut_20"
+    },
+    {
+      "end": 559286,
+      "speaker": "Jessica Hullman",
+      "start": 503750,
+      "text": "Yeah. And for some people, I think to a certain degree, the way that I think about this as well, it often suits me to do that because I often think of charts, not even so much in terms of how they look, but what they stand for as a, I'm reluctant to say storytelling device, but as a portrayal of information, if you're picking a line chart well, you know that you're doing that because you've got a story over time to show people. So I find it helpful to think about charts often that way because they come with this inherent sort of meta package of information in terms of what they will editorially show your audience. It often works that way, but as you say, equally, sometimes you end up having to sort of reverse engineer the data to fit that chart and sometimes that can then distort what you have in your data to actually say, yeah.",
+      "id": "ep_132_ut_21"
+    },
+    {
+      "end": 627808,
+      "speaker": "Moritz Stefaner",
+      "start": 559318,
+      "text": "And with these generic template tools, it's often very hard to do great annotations or to find exactly the right graphical form or to do something really memorable, something that really stands out, something that's very maybe also shows that they give it the human touch. It can look very repetitive. If you're constantly confronted with the same looking charts, you know, it gets a bit boring. And so, yeah, people get excited about creating new graphical forms, crafting something really to perfection. Also for some graphics that can be great. I think to really finish these last 20% that these standardized tools don't give you so well. But this is very cumbersome. Lots of work often like manual work in terms of moving labels around and like exploring different graphical shapes or so. Or you have to be able to code. So many people who do this type of advanced visualizations, they will resort to D3 or other libraries where they can do whatever they want, if they can code really well for many years that's been the big dichotomy there, right?",
+      "id": "ep_132_ut_22"
+    },
+    {
+      "end": 691100,
+      "speaker": "Jessica Hullman",
+      "start": 627944,
+      "text": "Yeah. And I think with that you've got this sort of separation, I think, between tools that help you to represent data, whether that's from the ground up through visual encoding, or whether it's small top down through picking a chart template, as you mentioned. But then that separation from that task versus the other, let's say presentation tasks of adding titles and headings and labels and coloring things and arranging things. So you work out what's the biggest, the smallest, where will it all go? So that's more about the finessing side of this thing. I think what it comes down to in terms of what people want, speaking on behalf of the entire population of the world right now, is control as one. Control, yes, exactly. But you want to control things. And there's often the term used in the field of expressiveness, how expressive can you be? I think that expands to even small things like controlling the appearance of a tick mark or a footnote. So tools that offer you the means to do this are important.",
+      "id": "ep_132_ut_23"
+    },
+    {
+      "end": 844448,
+      "speaker": "Moritz Stefaner",
+      "start": 692010,
+      "text": "Yeah. And one thing, Tableau is sort of in the middle. So I use Tableau a lot, and if you beat it hard enough, you can do something really interesting with it. But I think everybody who does or works a lot with these standardized libraries or tools always hits a wall at some point, like, ah, why can't I just, argh. You know, there's always, you feel you're sort of boxed into a certain environment, right? And now we have a whole like, development line of new tools to sort of try to bring this creative, playful, free data expression approach into user interfaces that don't require coding. I think that's really, that seems to be like a thing in the air right now. So we have quite a lot of tools we have seen a few years ago already, Lyra. I think we even talked about it with Jeff Heer back in the day on this podcast. We'll link back to. That episode was done University of Washington or maybe Stanford before, where Jeff was, I'm not sure, together with Arvind Satyanara, Jan, and I think this one was the first, at least in my mind, where this fundamental new idea of, okay, let's do something like a graphics editing program. But some of the things you draw are sort of governed by data, and they are sort of affected by how the data values change. And you can bind, let's say the height of a bar, you know, you can somehow bind that to a dimension in your data. And whenever the data changes, it updates as if it was programmed. Right. And that was like five years ago maybe. Yeah, let's say four feels about right. Four or five ish years. And then we've seen data driven guides that came, I think, something like two years later, which later was the foundation for data illustrator that we will talk more about, I think coming out of Adobe mostly, but also with Hans Peter Fist at Harvard. So that's another tool going in that direction. Bit different in approach because the guides were sort of backbones and you could sort of steer these guides and then they would create the graphics. Quite interesting approach, actually. Brett Victor had great stuff on drawing dynamic visualizations like concept sketches and prototypes on very similar ideas as well. And now we have a couple of really full fledged tools built on that.",
+      "id": "ep_132_ut_24"
+    },
+    {
+      "end": 890276,
+      "speaker": "Jessica Hullman",
+      "start": 844544,
+      "text": "Yeah, but I think the word they're drawing is the key word. I think that's the kind of quintessential essence of these new tools, which is to give you something that gives you that expressiveness and control where you can kind of see what you're doing at the time. I guess there's always that leap with programming whereby you're writing script and you don't always see the consequence of that until you've compiled it, run it, whatever. And I guess that can sometimes, for those who are not fluent in code, that can sometimes kind of create an interruption with the flow of decision making or the flow of creativity. So what's interesting about these is they do put an emphasis on you seeing what you're doing, but in a slightly more data led way.",
+      "id": "ep_132_ut_25"
+    },
+    {
+      "end": 898754,
+      "speaker": "Moritz Stefaner",
+      "start": 890388,
+      "text": "Right, so the three tools I think we want to talk a bit more about in depth today. Are you on the one hand? Charticulator. Funny name.",
+      "id": "ep_132_ut_26"
+    },
+    {
+      "end": 901474,
+      "speaker": "Jessica Hullman",
+      "start": 898842,
+      "text": "I quite like it actually, which just.",
+      "id": "ep_132_ut_27"
+    },
+    {
+      "end": 1007150,
+      "speaker": "Moritz Stefaner",
+      "start": 901522,
+      "text": "Came out and was just presented at this infovis. So it's quite fresh. It's from Donghao Ren Bongshin Lee and Matthew Brehmer. So the last two are Microsoft research, and Donghao Ren is from University of California, Santa Barbara. And yeah, it's a research prototype. So we should mention all of these things we're talking about now are more prototypes or explorations rather than tools. You can buy straight, unfortunately, but maybe we'll get there at some point. And charticulator is quite nice, it has a quite unique approach. Basically you have. So you can load in your data and you have some basic graphic primitives, more or less, and then you have a little glyph window and you can drag aspects of your data, like certain dimensions, into aspects of that glyph, like a graphical symbol. And so anything where you compose a graphic out of individual elements and some things of these individual elements, like change systematically with the data. Let's say you would make, I don't know, you have countries and you draw them like flowers. I mean, that's an insane idea, but let's say you would do that. Then you could say like each dimension, who would ever do that? But each dimension could be one of the petals, you know, just spitballing here. But then the length could be the score, you know, whatever can come up with. And you would just specify that by dragging the score on the length part of that glyph and, I don't know, the dimension name on something else and so on. So that's how you would establish that relation between the data and the graphic.",
+      "id": "ep_132_ut_28"
+    },
+    {
+      "end": 1044996,
+      "speaker": "Jessica Hullman",
+      "start": 1007930,
+      "text": "Yeah, and again with the sort of notion of the flower, it will be sort of geometrically calculated for you. So, you know, if you've got eleven petals, shall we say, it will work out for you. Whereas if you're doing that in illustrator, as it stands, you're doing some quick mathematics in a spreadsheet. What's 360 divided by eleven? And then you kind of rotating duplicate and rotating shapes by hand. So yeah, that's one of the beauties of, you know, as we know, geometric precision and accuracy is fundamental to whether you're creating a, a chart that's correct or not.",
+      "id": "ep_132_ut_29"
+    },
+    {
+      "end": 1113268,
+      "speaker": "Moritz Stefaner",
+      "start": 1045108,
+      "text": "Yeah. And what's interesting about charticulator as well is you don't just create a graphic, or at least that's what the inventors and developers have in mind. But you also specify sort of an abstract structure that you could also reuse in other contexts. And I think that brings it very close to Lyra, which was if from one perspective was more like a front end to Vega, you know, in some way like into an abstract specification of a chart that you could also draw and different ways. And so I think that's another fundamental distinction between some of the tools. Like some think about, okay, what is the architecture of the thing and how can we formulate that maybe in a grammar of graphics or similar style, and then create a different visual rendition? And others are more like, yeah, people want to work on the visual directly and the visual is the outcome and that's it. Right. And so I think both approaches have, have sort of their merits or their up downs, but there seems to be a fundamental difference if you think, yeah, like also which reuse situations you have in mind, maybe.",
+      "id": "ep_132_ut_30"
+    },
+    {
+      "end": 1154662,
+      "speaker": "Jessica Hullman",
+      "start": 1113404,
+      "text": "Yeah. And I think as we'll talk about shortly, how these tools going forward succeed or become embedded in everyday organizational practice. Well, reusability is critical if a lot of people, for example, are making weekly, monthly reports. And so if you've got the ability to create the notion of templates that can be just replugged in with new data, that's a very attractive proposition. So you invest the time up front to get the thing right, but then you've got the ability to reappropriate that template for one of the better term each month thereafter, each period thereafter.",
+      "id": "ep_132_ut_31"
+    },
+    {
+      "end": 1174912,
+      "speaker": "Moritz Stefaner",
+      "start": 1154726,
+      "text": "Also, whenever I work with large organization or anything reporting, the number one feature request is always, can we next year just put in the new data and generate a PDF out of it? That's the one feature request. Hopefully these types of tools could make this thing much easier. Hopefully, right?",
+      "id": "ep_132_ut_32"
+    },
+    {
+      "end": 1230786,
+      "speaker": "Jessica Hullman",
+      "start": 1175016,
+      "text": "I think so, yeah. And one of the benefits of charticulator is how it has a relationship potentially with power Bi. Now I'm not a, a user of power bi. I believe I might be wrong, but I believe it's only available on Windows machines, but that's effectively, it's not an extension of Excel, but it's part of the Microsoft suite. And I guess I've seen some mixed responses to power Bi, but one of the attractive things, as we've just mentioned at the start there is if you've got the ability to customize things and to create custom templates or visuals, that can be an attractive proposition to expand your visual vocabulary. As far as I understand, charticulator allows you to create effectively a design that can then be exported into power Bi and use as a template from there, which will be fantastic for those people who are doing some good stuff in power bi.",
+      "id": "ep_132_ut_33"
+    },
+    {
+      "end": 1273574,
+      "speaker": "Moritz Stefaner",
+      "start": 1230898,
+      "text": "Sure. And I mean, just somehow being attached to a larger ecosystem can be a huge plus in terms of adoption and then reusability. The same hope we have obviously also for two projects coming out of Adobe, which is sort of funny too, and it's data illustrator and project Lincoln. They both came out of Adobe and are being actively developed. And of course there's the hope as well. Adobe is like the biggest, probably manufacturer of graphic software on the planet. Some of these cool new concepts might be integrated into the professional tools they offer, right?",
+      "id": "ep_132_ut_34"
+    },
+    {
+      "end": 1275770,
+      "speaker": "Jessica Hullman",
+      "start": 1273662,
+      "text": "You kind of think, where have they been?",
+      "id": "ep_132_ut_35"
+    },
+    {
+      "end": 1378020,
+      "speaker": "Moritz Stefaner",
+      "start": 1276230,
+      "text": "Yeah, so the first one is data illustrator from Leo Liu and John Thompson and many others. So there's a big team around it and they really put together a great working and looking prototype. I think it's especially for an academic product already quite advanced. Right. And this one is much more, I think vector graphics driven much, much closer to drawing tools like illustrator, where you have a big canvas, you can mix graphics with like data graphics with non data graphics, stuff like this, zoom and pan. So it's a big space. You can just make a huge graphic if you like. And it has a bit of a different paradigm. So instead of more thinking about glyphs and how you can repeat basic elements, this data illustrator allows you to also start with a big shape and start to subdivide it. Let's take a big rectangle and break it into a grid or something like this. Or you can also go up and say, like let's take something small, but multiply it up, right, and say let's make one circle, but now one circle for each country or something like this. And I think it's sort of a neat, clever thing, especially because small multiples and nesting and grids are always a pain. In any other program, you immediately get buy in from like all the paint people who try to do small multiples in Tableau that are not just strictly in row rows or columns. Everybody's like, yeah, finally, it's a real grid. I can't believe it. It's already like a huge plus, and it has great documentation, too. So it's, yeah, I think you can see that they put in a lot of work into it and, yeah, yeah.",
+      "id": "ep_132_ut_36"
+    },
+    {
+      "end": 1470076,
+      "speaker": "Jessica Hullman",
+      "start": 1378560,
+      "text": "As far as I know, that's one of the main differences to charticulator, which is, again, if I'm correct, that charticulator kind of operates more as sort of individual chart, single chart level, whereas data illustrator allows you to scope to, as Moritz just mentioned, to multiply multiple panels for different views or multiple columns for different layouts. So, yeah, I mean, that's an appealing prospect. And there are, I often find it hard to equate how many people out there are largely developing visualizations or infographics in illustrator. I mean, certainly my workflow, I often end up in illustrator illustrator, but it's usually as a result of creating charts elsewhere. So I guess classically, you might create, I don't know, maybe a chart in Tableau, then take it out into illustrator, then sort of finish it from there, or use something like raw graphs that we mentioned at the start to create an initial data driven shape, and then again take it out as a vector and put into illustrating and build a piece from there. So I'm sure there are lots of people out there who have a similar sort of workflow. And, you know, I think we all have experienced the limitations of Adobe illustrator's existing chart tools, which are quite primitive, but this feels like a long overdue signal of taking this whole world a bit more seriously, I think.",
+      "id": "ep_132_ut_37"
+    },
+    {
+      "end": 1599412,
+      "speaker": "Moritz Stefaner",
+      "start": 1470148,
+      "text": "Yeah. And the big gap is really often, let's say you use raw graphics. So there you can load a table, you can pick the bubble chart, you assign the colors to this, the income and the size to the population, or something like this. And then, so this is the dynamic data mapping, data binding part. And then you export, and then you go into illustrator and move all the labels around, make the fonts cool, and do gradients as fillings and whatnot, and do all the touch up. That makes it nice. But now if the data changes, you have to go back and redo the touch up part, because it sort of, it was in that chapter of work before. Right. And this is always this fundamental, like disconnect. And I think this is what tools like data illustrator or Project Lincoln also, especially, which is the third one in this family solve really well, is like you establish the binding, but you can still move things around, make them bigger, smaller, do variations on them, but the binding is still intact, and whenever you change the data, the relevant stuff will change, but it won't break. Your touch up work is fantastic. Project Lincoln, Bernard Kerr did a great demo, I think, last year at a big Adobe conference, and he showed how it works. And I think his approach is very similar to data illustrator, I think. And also they have been working together quite a bit. These two teams comes out of Adobe as well. But I think his approach is more, he comes more from a designer's point of view, like, how would you think about what a graphic designer does in illustrator or indesign or something, and then introduce this new idea of data binding into that workflow rather than thinking about, okay, you're a data visualization person. Right. And now, how could you make more creative graphics? But, yeah, I think he thinks more about, okay, you're a graphic designer. How could you not profit from all these new, cool ways of designing with data? Yeah, and I think he has a great, great prototype there as well, in terms of, it's really focused and really very expressive and powerful.",
+      "id": "ep_132_ut_38"
+    },
+    {
+      "end": 1615212,
+      "speaker": "Enrico Bertini",
+      "start": 1599516,
+      "text": "So both these programs are from Adobe. Right. So do you know anything about what is happening inside Adobe? They basically have two parallel projects and similar goals or what?",
+      "id": "ep_132_ut_39"
+    },
+    {
+      "end": 1645672,
+      "speaker": "Moritz Stefaner",
+      "start": 1615396,
+      "text": "Yeah, I think, I mean, Andy, also, I think you have also followed the development of Project Lincoln a bit. I've been in touch with Bernard Kerr. We also got input by the, from the other teams, from charticulator and data illustrator. So we were a bit in touch about their plans and what they think are the key features and so on. And I think all of the three hope, you know, to turn their products into or their prototypes into something that becomes part, of course, because this is when. Yeah. When it really happens. Right?",
+      "id": "ep_132_ut_40"
+    },
+    {
+      "end": 1648784,
+      "speaker": "Enrico Bertini",
+      "start": 1645776,
+      "text": "Well, of course, all of them come from big companies, right?",
+      "id": "ep_132_ut_41"
+    },
+    {
+      "end": 1654100,
+      "speaker": "Moritz Stefaner",
+      "start": 1648832,
+      "text": "Exactly. Yeah. Andy, you said already it's like the space race of database, right?",
+      "id": "ep_132_ut_42"
+    },
+    {
+      "end": 1664488,
+      "speaker": "Jessica Hullman",
+      "start": 1655520,
+      "text": "I mean, I also compared it to alien versus alien versus predator, where whoever wins, will we win?",
+      "id": "ep_132_ut_43"
+    },
+    {
+      "end": 1666500,
+      "speaker": "Moritz Stefaner",
+      "start": 1664584,
+      "text": "Yeah, just give us something.",
+      "id": "ep_132_ut_44"
+    },
+    {
+      "end": 1670752,
+      "speaker": "Enrico Bertini",
+      "start": 1667320,
+      "text": "Yeah, I'm wondering if Tableau is doing something internally.",
+      "id": "ep_132_ut_45"
+    },
+    {
+      "end": 1671280,
+      "speaker": "Moritz Stefaner",
+      "start": 1670816,
+      "text": "Right.",
+      "id": "ep_132_ut_46"
+    },
+    {
+      "end": 1674104,
+      "speaker": "Enrico Bertini",
+      "start": 1671400,
+      "text": "They may be planning for something like that.",
+      "id": "ep_132_ut_47"
+    },
+    {
+      "end": 1676378,
+      "speaker": "Moritz Stefaner",
+      "start": 1674192,
+      "text": "Yeah, yeah, yeah, probably.",
+      "id": "ep_132_ut_48"
+    },
+    {
+      "end": 1727990,
+      "speaker": "Jessica Hullman",
+      "start": 1676474,
+      "text": "I think one of the things that this, that Lincoln, similar to the others, really, I guess, does, is it kind of asks you to do your preparatory, exploratory thinking elsewhere. It doesn't attempt to be the single tool that will do everything. The minute you get acquainted with your data, and I think some people like to have this, I guess, self contained flow whereby you get the data, you start to explore it, you look at it, you manipulate it and then you do visuals from there. I think when you are entering both these tools, in a sense, you've done your groundwork elsewhere, you kind of know the rough prototype design concept you're going for. This is the translating of that concept, whereas other tools, you might be more live experimenting to see what could work well.",
+      "id": "ep_132_ut_49"
+    },
+    {
+      "end": 1738038,
+      "speaker": "Moritz Stefaner",
+      "start": 1729550,
+      "text": "So you think for all of them you would need something before in terms of exploratory data analysis, to just understand what the interesting dimensions are and so on.",
+      "id": "ep_132_ut_50"
+    },
+    {
+      "end": 1802294,
+      "speaker": "Jessica Hullman",
+      "start": 1738094,
+      "text": "But that can also overplay. I mean, there are many cases, of course, when you do need to explore data. Oftentimes I think you might actually, you can overplay the needs for that in some data sets that might just be quite simple and straightforward and you know roughly already what you're going to show. So on those occasions, just jump straight in. But I think when you've got a larger, more complex, perhaps more unfamiliar data set, then you do still need that stage before. One of the things I'm not quite clear on, having not really expended to a great degree of all the tools, is to what extent you can see your data. One of the things I often find slightly frustrating, let's say about tableaus. You can't always envision what your data looks like unless you actively go and choose a dataset view, where sometimes something like Excel, you can just see the dataset right next to where you chart it. But if you can see what the data is and not have to keep that view in your imagination, I think that can be quite important.",
+      "id": "ep_132_ut_51"
+    },
+    {
+      "end": 1822540,
+      "speaker": "Moritz Stefaner",
+      "start": 1802462,
+      "text": "Open Refine is a fantastic tool for looking at just a table of data, understanding the distributions, understanding the gaps, or the funniest bits of the data. So if somebody would like connect to open refined really well, I would be game for that. That would be really pretty cool.",
+      "id": "ep_132_ut_52"
+    },
+    {
+      "end": 1825128,
+      "speaker": "Enrico Bertini",
+      "start": 1823240,
+      "text": "But is it still maintained by someone?",
+      "id": "ep_132_ut_53"
+    },
+    {
+      "end": 1832080,
+      "speaker": "Moritz Stefaner",
+      "start": 1825184,
+      "text": "Oh, yeah. So, yeah, yeah, it's really. Yeah, they just put out a new release and it's actively being developed further. Yep.",
+      "id": "ep_132_ut_54"
+    },
+    {
+      "end": 1834700,
+      "speaker": "Enrico Bertini",
+      "start": 1832160,
+      "text": "Oh, okay, great. I thought it was discontinued.",
+      "id": "ep_132_ut_55"
+    },
+    {
+      "end": 1908034,
+      "speaker": "Moritz Stefaner",
+      "start": 1835160,
+      "text": "No, the story continues. That's good. So, yeah, but I think that's true and I think that also touches a bit on. Okay, what are now, these workflows that we support. Right. And where do these tools fit in? Is like just towards the end when you do the cool graphic, but everything else, the substantial, like data work has happened before, or do you use them also quickly to sketch out a lot of ideas? I could see potential also for quickly sketching many different views of the data and then picking what is the most effective one. If you realize, oh, if we encode the population by, I don't know, with color, you don't really see the subtle nuances. We should maybe use areas. Something like this could be very quick to try out in these tools, hopefully, and then easy to judge the differences. And so I would say there could be an exploratory component to it, because whenever you can do rapid variation, you automatically get more ideas in a shorter amount of time and less lock in into your design ideas. So if you invest a lot of work, it's very precious, and so you don't throw it away. But if it's very easy to switch things up, that totally changes things.",
+      "id": "ep_132_ut_56"
+    },
+    {
+      "end": 1939526,
+      "speaker": "Enrico Bertini",
+      "start": 1908162,
+      "text": "Yeah. One thing I'm wondering is, I'm playing David's advocate here, but with more freedom, we may also see a lot more terrible things out there. So, in a way, one thing I really like about tools like Tableau is that in a way, constrained enough that it's hard to do crazy things with it. Right. And with these tools, it looks to me that now you have much more freedom and. Right. I can already envision what the outcome is gonna be.",
+      "id": "ep_132_ut_57"
+    },
+    {
+      "end": 1939950,
+      "speaker": "Moritz Stefaner",
+      "start": 1939598,
+      "text": "Yeah.",
+      "id": "ep_132_ut_58"
+    },
+    {
+      "end": 1940630,
+      "speaker": "Enrico Bertini",
+      "start": 1940030,
+      "text": "Right.",
+      "id": "ep_132_ut_59"
+    },
+    {
+      "end": 1943174,
+      "speaker": "Jessica Hullman",
+      "start": 1940790,
+      "text": "So I think we're gonna have a lot of freedom.",
+      "id": "ep_132_ut_60"
+    },
+    {
+      "end": 1945890,
+      "speaker": "Moritz Stefaner",
+      "start": 1943302,
+      "text": "You're not sure if people are ready for all this freedom.",
+      "id": "ep_132_ut_61"
+    },
+    {
+      "end": 1971696,
+      "speaker": "Enrico Bertini",
+      "start": 1947030,
+      "text": "Yeah. Right. I don't know. Yeah. Well, I mean, we may also see that, of course, as with any other tool. Right. With more freedom, we may see some people who use it in a very intelligent way and very innovative way, and they create completely new stuff that blows our mind and at the same time, terrible things. Yeah.",
+      "id": "ep_132_ut_62"
+    },
+    {
+      "end": 2036014,
+      "speaker": "Jessica Hullman",
+      "start": 1971728,
+      "text": "And I think that kind of goes back to one of the points I started off with, with the idea that for those who are, let's say, beginners or maybe at an intermediate level, the notion of selecting charts, these sort of pre prepared meals or recipes, if you like, is often a more comfortable entry point than actually starting from the ground up of ingredients. So I think you're right. I think it's something whereby you can imagine being quite over faced with the possibility space of some of these tools, if you're not already kind of aufa. With the general idea of what you're going for. But I think, yeah, I mean, one of the, you know, one of the features of Tableau, for example, that people often cite as being quite a nice sort of police policing of good practices is the show me feature. And I think that's often quite a nice example of a tool that allows you to do lots of things but still kind of guide you to say, no, hang on, you don't have enough categories to do that thing. So come back to me when you've got some of those.",
+      "id": "ep_132_ut_63"
+    },
+    {
+      "end": 2082808,
+      "speaker": "Moritz Stefaner",
+      "start": 2036182,
+      "text": "Yeah, that's the interesting thing about articulator also. It's that. So it's a bit based on the idea that you specify a certain intent, similar as in Tableau. Right. And then the tool tries to figure out how to interpret that in the best way. And so they have a constraint solver in the background which sort of tries to find, you know, the optimal, like, graphical representation of that intent you specified. And that can be one way to sort of work in a bit of good charting rules or like to avoid the worst in the foot shooting situations. But that's, again, yeah, it's really freedom versus like how prescriptive or how expressive is a tool. There is sort of, of course, an inverse relationship there. Right.",
+      "id": "ep_132_ut_64"
+    },
+    {
+      "end": 2132774,
+      "speaker": "Jessica Hullman",
+      "start": 2082944,
+      "text": "Yeah. And I mean, there's a lot of the tools that we see, and I, we mentioned flourish at the start. I suppose a lot of their aims kind of circles around the notion of doing complex things simply, which is, I would say, the most ambitious segment of this technology marketplace, really, because that's just inherently very hard to do. I mean, D3, for example, you can do very complex things, but with a complicated solution. You've got to learn a lot to get to the other side of that sort of mastery. But I think this is a, you know, I'm very ambitious, but once again, I think the, the users out there will benefit once ever these settle down into actual products in the. That's kind of available for people to use and to buy and to start to get expertise in.",
+      "id": "ep_132_ut_65"
+    },
+    {
+      "end": 2147846,
+      "speaker": "Enrico Bertini",
+      "start": 2132822,
+      "text": "Yeah, but I do personally suspect that there are lots of people out there, especially the most creative people, types who've been learning D3 because they want more freedom. And if they had a powerful tool like this one, they would rather use this one.",
+      "id": "ep_132_ut_66"
+    },
+    {
+      "end": 2149606,
+      "speaker": "Jessica Hullman",
+      "start": 2147998,
+      "text": "Definitely. Yeah.",
+      "id": "ep_132_ut_67"
+    },
+    {
+      "end": 2164450,
+      "speaker": "Moritz Stefaner",
+      "start": 2149758,
+      "text": "But that sort of comes to the question like what is the gap these tools fill? And. Yeah, it's like how big is that gap, really? Or is it? In my mind it could be huge or it could be really small. I'm really super undecided.",
+      "id": "ep_132_ut_68"
+    },
+    {
+      "end": 2177692,
+      "speaker": "Enrico Bertini",
+      "start": 2165740,
+      "text": "I think my sense is that there are a lot of people out there whose job is to do visualization, who really care about creating unique visuals because it's part of their branding. Right.",
+      "id": "ep_132_ut_69"
+    },
+    {
+      "end": 2181860,
+      "speaker": "Moritz Stefaner",
+      "start": 2177836,
+      "text": "And also a lot of graphic designers moving into like database designers too.",
+      "id": "ep_132_ut_70"
+    },
+    {
+      "end": 2200802,
+      "speaker": "Enrico Bertini",
+      "start": 2181980,
+      "text": "Yeah, yeah, that's my right. Yes. You can have the freelancers types like you. Right. You want to have a very specific kind of visual. Right, right. But you also have in data journalism is the same. You want certain type of graphics to look like my graphics. Right?",
+      "id": "ep_132_ut_71"
+    },
+    {
+      "end": 2201450,
+      "speaker": "Moritz Stefaner",
+      "start": 2200906,
+      "text": "Yeah.",
+      "id": "ep_132_ut_72"
+    },
+    {
+      "end": 2225150,
+      "speaker": "Enrico Bertini",
+      "start": 2201570,
+      "text": "Which is also true for very simple ones. Right. So I think different, different newspapers have, I think they spend a lot of time thinking, what is my style and how can I use it through all the graphics that I generate. Right. I'm thinking, I don't know. That's definitely to do for the Economist. Right. You see, you see a chart from the Economist, you recognize that it's from, from the economies.",
+      "id": "ep_132_ut_73"
+    },
+    {
+      "end": 2281080,
+      "speaker": "Jessica Hullman",
+      "start": 2225190,
+      "text": "Yeah. And I think a lot of these organizations, the newsrooms, spend and invest a lot of time and energy, in effect creating not just style guidelines, but also charts, templates or script templates that are ready to go off the shelf so that when it comes to a breaking news cycle, they're not sat there thinking, how do I make this chart again? They're thinking along the stream of what is the story? What is the thing that we need to show about this? And I think for a lot of newsrooms and by extension organizations who do often have an implied branding or style guide to accommodate the ability of any of these tools to offer that sense of a preloaded style, maybe in advance, you're not always starting from scratch with the same empty color palette. Could be quite an advantage for any one of them that does offer that.",
+      "id": "ep_132_ut_74"
+    },
+    {
+      "end": 2376400,
+      "speaker": "Moritz Stefaner",
+      "start": 2281200,
+      "text": "Yeah, yeah. And I think, yeah. But it's going to be critical to find really some very clear improvement for a certain group of people. And that is so strong that there's this huge pull towards that tool that's always the big challenge in introducing new solutions, that you have to be really much, much better than any existing thing. And, yeah, I'm just hoping one of them, ideally all of them, can sort of find that one hook where they can sort of get that momentum. But overall, I'm really excited about this whole direction of also thinking about how we design stuff in general. And I mean, this is now introducing in a very minimal, and, yeah, actually a very basic way this idea that, oh, parts of your design could be dynamic or depend on data. Right. Or sort of, it's the first step of moving away from designing an image, you know, towards designing a system. Right. And, yeah, and this is, in general, I think, very exciting. If we think about how you do web design today, it has to be responsive, it has to be interactive, has to be multilingual, you know, so you're not designing an image. If you do a web design, you're designing a system, of course, and the same, of course, in charts, especially if they're animated or you know, dynamic or interactive or whatnot. And it's kind of crazy that we don't have better tools for that. It's really either like images or coding. And so I'm really excited that now these ideas get formulated so well in user interfaces.",
+      "id": "ep_132_ut_75"
+    },
+    {
+      "end": 2418070,
+      "speaker": "Jessica Hullman",
+      "start": 2376860,
+      "text": "I think it's important to stress, and I'm just going to check with you guys on this, that all these tools that we're talking about, the output is for effectively static visualizations, it's not for interactive ones. So you can, as you just kind of explain there, you can sort of join the dots going forward where this might create a whole new sort of design development interface whereby the next step would be to say, okay, let's add some mouse over annotations to these bars. And then that moves on to let's animate this over ten years. And so, yeah, you can very quickly see where this could go, which is quite an exciting prospect.",
+      "id": "ep_132_ut_76"
+    },
+    {
+      "end": 2465950,
+      "speaker": "Moritz Stefaner",
+      "start": 2418190,
+      "text": "Yeah, exciting. I'm really curious how all this plays out. You should definitely check out all three of them, or maybe even the other ones, the more historic ones we talked about. As I said, raw and flourish are great too. I just remember there's also more of graphics came out this summer also through Google News initiative, an experiment which is much crazier also, which allows you to basically randomly encode data into shapes. It's a fun one too. So there's a lot of really cool data visualization too, out by now. And again, most of them in prototype stage, so fingers crossed they will make it into production. And, yeah, let us know what you think about them. Create some cool graphics, send them on Twitter and we'll retweet them maybe.",
+      "id": "ep_132_ut_77"
+    },
+    {
+      "end": 2470546,
+      "speaker": "Enrico Bertini",
+      "start": 2466490,
+      "text": "Yeah, and we're gonna put all the links in the show notes.",
+      "id": "ep_132_ut_78"
+    },
+    {
+      "end": 2472714,
+      "speaker": "Moritz Stefaner",
+      "start": 2470618,
+      "text": "I think this is a long blog post.",
+      "id": "ep_132_ut_79"
+    },
+    {
+      "end": 2484082,
+      "speaker": "Enrico Bertini",
+      "start": 2472802,
+      "text": "Go there and try them out. Right? Just try them out and see how they look like. They're pretty advanced for being prototypes, that's all.",
+      "id": "ep_132_ut_80"
+    },
+    {
+      "end": 2487870,
+      "speaker": "Moritz Stefaner",
+      "start": 2484186,
+      "text": "And there's videos for them and there's like really good documentation.",
+      "id": "ep_132_ut_81"
+    },
+    {
+      "end": 2493314,
+      "speaker": "Enrico Bertini",
+      "start": 2489570,
+      "text": "The galleries look stunning and everybody's doing.",
+      "id": "ep_132_ut_82"
+    },
+    {
+      "end": 2513910,
+      "speaker": "Moritz Stefaner",
+      "start": 2493362,
+      "text": "The same graphics like the weather radios and accurate remix. You know, it's like that. That's also funny. There has been now there's now this sort of repertoire of standard creative data visualization, a bit like jazz standards. And now they all show how you can do the weather radios. Like take five, basically.",
+      "id": "ep_132_ut_83"
+    },
+    {
+      "end": 2519362,
+      "speaker": "Jessica Hullman",
+      "start": 2514530,
+      "text": "Yeah. It's no longer just the sales transaction dataset.",
+      "id": "ep_132_ut_84"
+    },
+    {
+      "end": 2521922,
+      "speaker": "Moritz Stefaner",
+      "start": 2519546,
+      "text": "Exactly. And the Playfair.",
+      "id": "ep_132_ut_85"
+    },
+    {
+      "end": 2528926,
+      "speaker": "Enrico Bertini",
+      "start": 2521986,
+      "text": "Of course, these are somewhat iconic visualizations that is hard to create with standard tools.",
+      "id": "ep_132_ut_86"
+    },
+    {
+      "end": 2535342,
+      "speaker": "Moritz Stefaner",
+      "start": 2528998,
+      "text": "Exactly, exactly. But that also shows you how they could be used. So it's cool.",
+      "id": "ep_132_ut_87"
+    },
+    {
+      "end": 2547062,
+      "speaker": "Jessica Hullman",
+      "start": 2535526,
+      "text": "So I guess we just need to wait for who becomes the vhs and who becomes the Betamax offer for younger listeners, Blu ray or dvd, hd, whatever it was.",
+      "id": "ep_132_ut_88"
+    },
+    {
+      "end": 2550702,
+      "speaker": "Moritz Stefaner",
+      "start": 2547086,
+      "text": "Yeah, Netflix or Blockbuster.",
+      "id": "ep_132_ut_89"
+    },
+    {
+      "end": 2556620,
+      "speaker": "Jessica Hullman",
+      "start": 2550766,
+      "text": "That's it. Ask your parents.",
+      "id": "ep_132_ut_90"
+    },
+    {
+      "end": 2576336,
+      "speaker": "Moritz Stefaner",
+      "start": 2557240,
+      "text": "Yeah, we'll see. I mean, it always goes on, as we have shown already. You know, it's like there's a whole lineage of tools, and I think this whole area will just grow and grow and will give us really, really cool tools to work with. Also, if you think about tablets and VR AR, I mean, come on, there's going to be really cool stuff out there in the previous.",
+      "id": "ep_132_ut_91"
+    },
+    {
+      "end": 2631086,
+      "speaker": "Jessica Hullman",
+      "start": 2576408,
+      "text": "Well, I think one of the key things, and I know this has been expressed by a few of the people who have been behind these tools, it's the importance of the community of users now who kind of take this open again, if we can point to something like the story of Tableau public, which just became this effectively this huge marketing tool for Tableau to say, look at all the great work our people are doing. People now need to use these tools and showcase what's possible and showcase not just in a gallery of look at these cool things that we've done as examples, but in real context. You know, I use this tool to create this for a newspaper or whatever. So, yeah, I think it's over to the. To the community of practitioners out there now to take these and run with them, see what's possible, see which feels most sort of fluid with most people's routine.",
+      "id": "ep_132_ut_92"
+    },
+    {
+      "end": 2664294,
+      "speaker": "Moritz Stefaner",
+      "start": 2631238,
+      "text": "That's a really excellent point. And I think that means that you, as a listener should right now check out one of these tools or two, make a cool graphic and send it to the creators of the tool because they will be super happy and give them feedback on what worked well, what didn't work, because I think this is what they all can use really well now it's like some community feedback. So there you have your homework. Until next time. Next episode will be the big year review. And then we are out of 2018. Yes. Very good. Thanks so much, Andy, for joining us.",
+      "id": "ep_132_ut_93"
+    },
+    {
+      "end": 2665126,
+      "speaker": "Jessica Hullman",
+      "start": 2664342,
+      "text": "My pleasure. Thank you, guys.",
+      "id": "ep_132_ut_94"
+    },
+    {
+      "end": 2665974,
+      "speaker": "Moritz Stefaner",
+      "start": 2665158,
+      "text": "Lovely as always.",
+      "id": "ep_132_ut_95"
+    },
+    {
+      "end": 2667444,
+      "speaker": "Enrico Bertini",
+      "start": 2666062,
+      "text": "Thanks so much. Yeah.",
+      "id": "ep_132_ut_96"
+    },
+    {
+      "end": 2669000,
+      "speaker": "Moritz Stefaner",
+      "start": 2667532,
+      "text": "And see you soon.",
+      "id": "ep_132_ut_97"
+    },
+    {
+      "end": 2694116,
+      "speaker": "Enrico Bertini",
+      "start": 2673700,
+      "text": "Hey, folks, thanks for listening to data stories again. Before you leave, a few last notes, this show is now completely crowdfunded, so you can support us by going on Patreon. That's patreon.com Datastories. And if you can spend a couple of minutes reading us on iTunes, that would be extremely helpful for the show.",
+      "id": "ep_132_ut_98"
+    },
+    {
+      "end": 2719996,
+      "speaker": "Moritz Stefaner",
+      "start": 2694228,
+      "text": "And here's also some information on the many ways you can get news directly from us. We are, of course, on twitter@twitter.com. Datastories. We have a Facebook page@Facebook.com. data, stories, podcast all in one word. And we also have a slack channel where you can chat with us directly. And to sign up, you can go to our homepage datastory eas, and there is a button at the, the bottom of the page.",
+      "id": "ep_132_ut_99"
+    },
+    {
+      "end": 2735868,
+      "speaker": "Enrico Bertini",
+      "start": 2720148,
+      "text": "And we also have an email newsletter. So if you want to get news directly into your inbox and be notified whenever we published an episode, you can go to our home page Datastories es and look for the link you find at the bottom in the footer.",
+      "id": "ep_132_ut_100"
+    },
+    {
+      "end": 2748028,
+      "speaker": "Moritz Stefaner",
+      "start": 2735964,
+      "text": "So one last thing we want to tell you is that we love to get in touch with our listeners, especially if you want to suggest a way to improve the show or amazing people you want us to invite or even projects you want us to talk about.",
+      "id": "ep_132_ut_101"
+    },
+    {
+      "end": 2757200,
+      "speaker": "Enrico Bertini",
+      "start": 2748124,
+      "text": "Yeah, absolutely. And don't hesitate to get in touch with us. It's always a great thing to hear from you. So see you next time, and thanks for listening to data stories.",
+      "id": "ep_132_ut_102"
+    }
+  ],
+  "confidence": 0.920144125525204,
+  "audio_duration": 2768,
+  "punctuate": true,
+  "format_text": true,
+  "dual_channel": false,
+  "webhook_url": null,
+  "webhook_status_code": null,
+  "webhook_auth": false,
+  "webhook_auth_header_name": null,
+  "speed_boost": false,
+  "auto_highlights_result": null,
+  "auto_highlights": false,
+  "audio_start_from": null,
+  "audio_end_at": null,
+  "word_boost": [],
+  "boost_param": null,
+  "filter_profanity": false,
+  "redact_pii": false,
+  "redact_pii_audio": false,
+  "redact_pii_audio_quality": null,
+  "redact_pii_policies": null,
+  "redact_pii_sub": null,
+  "speaker_labels": true,
+  "content_safety": false,
+  "iab_categories": true,
+  "content_safety_labels": {
+    "status": "unavailable",
+    "results": [],
+    "summary": {}
+  },
+  "language_detection": false,
+  "language_detection_threshold": null,
+  "language_confidence": null,
+  "custom_spelling": null,
+  "throttled": false,
+  "auto_chapters": true,
+  "summarization": false,
+  "summary_type": null,
+  "summary_model": null,
+  "custom_topics": false,
+  "topics": [],
+  "speech_threshold": null,
+  "speech_model": "best",
+  "chapters": [
+    {
+      "summary": "This is a new episode of data stories. We talk about data visualization mostly, but also data analysis. Our podcast is now listener supported, so there's no ads. If you enjoy the show, please consider supporting us with recurring payments on patreon. com Datastories.",
+      "gist": "Data Stories",
+      "headline": "Our podcast is now listener supported, so there's no ads",
+      "start": 200,
+      "end": 140210,
+      "id": "ep_132_ch_0"
+    },
+    {
+      "summary": "A new blog is called multiple views research explained. The idea is to have more researchers from the world of visualization express or describe what they do to a broader audience. I think it's a current trend also to put more research into more digestible form.",
+      "gist": "A new blog for the world of visualization",
+      "headline": "A new blog aims to help visualization researchers communicate their work to a broader audience",
+      "start": 140290,
+      "end": 254810,
+      "id": "ep_132_ch_1"
+    },
+    {
+      "summary": "Andy Kirk is one of the real experts in practical data visualization. How to get practical tools out of academia, research, how to foster innovation, create maybe a whole new generation of database tools.",
+      "gist": "Data visualization in the 21st century",
+      "headline": "We wanted to discuss practical data visualization with Andy Kirk",
+      "start": 255390,
+      "end": 303750,
+      "id": "ep_132_ch_2"
+    },
+    {
+      "summary": "Andy, can you tell us a bit about yourself? I'm a Dataviz freelancer based in the north of England. One of the things that characterizes my work is I'm in contact with everyday people. When you do see new tools come out, it is kind of an exciting new frontier for people.",
+      "gist": "Andy from Dataviz on Visualization",
+      "headline": "Andy is a Dataviz freelancer based in the north of England",
+      "start": 307310,
+      "end": 427466,
+      "id": "ep_132_ch_3"
+    },
+    {
+      "summary": "With these generic template tools, it's often very hard to do great annotations or to find exactly the right graphical form. What people want is control as one. New tools bring creative, playful, free expression into data visualization.",
+      "gist": "Beyond Excel: Chart Design and Data Visualization",
+      "headline": "A lot of data visualization tools treat charts in a cookie cutter way",
+      "start": 427538,
+      "end": 890276,
+      "id": "ep_132_ch_4"
+    },
+    {
+      "summary": " Charticulator lets you drag aspects of your data into aspects of a graphical symbol. Lyra is more like a front end to Vega. How these tools going forward succeed or become embedded in everyday organizational practice.",
+      "gist": "Microsoft's Charticulator, Illustrator, and Lyra",
+      "headline": "Three tools discussed today are Microsoft research, University of California, Santa Barbara",
+      "start": 890388,
+      "end": 1240550,
+      "id": "ep_132_ch_5"
+    },
+    {
+      "summary": "Data illustrator and project Lincoln both came out of Adobe and are being actively developed. Some of these cool new concepts might be integrated into the professional tools they offer.",
+      "gist": "Data Illustrator and CGML: Future of Illustrator",
+      "headline": "Two new projects coming out of Adobe are data illustrator and project Lincoln",
+      "start": 1242970,
+      "end": 1406250,
+      "id": "ep_132_ch_6"
+    },
+    {
+      "summary": "Many people are largely developing visualizations or infographics in illustrator. The big gap is really often, let's say you use raw graphics. Tools like data illustrator or Project Lincoln solve this problem. How could you not profit from all these new, cool ways of designing with data?",
+      "gist": "Data Illustrator: The Future of Drawing with Data",
+      "headline": "Many people are largely developing visualizations or infographics in Adobe Illustrator",
+      "start": 1406290,
+      "end": 1603860,
+      "id": "ep_132_ch_7"
+    },
+    {
+      "summary": "Project Lincoln asks you to do your preparatory, exploratory thinking elsewhere. Open Refine is a fantastic tool for looking at just a table of data. All of the three hope to turn their products into or their prototypes into something that becomes part.",
+      "gist": "Quantum Design: The Space Race of Data Illustrator",
+      "headline": "So do you know anything about what is happening inside Adobe? They basically have two parallel projects",
+      "start": 1603900,
+      "end": 2083376,
+      "id": "ep_132_ch_8"
+    },
+    {
+      "summary": "A lot of the tools that we see, and I, we mentioned flourish at the start. A lot of their aims kind of circles around the notion of doing complex things simply. What is the gap these tools fill? Could be huge or it could be really small.",
+      "gist": "Will Data Design Change the Way We Design?",
+      "headline": "What is the gap these tools fill? Or is it really small",
+      "start": 2083448,
+      "end": 2535342,
+      "id": "ep_132_ch_9"
+    },
+    {
+      "summary": "There's a whole lineage of tools, and I think this whole area will just grow and grow and will give us really, really cool tools to work with. People now need to use these tools and showcase what's possible. Make a cool graphic and send it to the creators of the tool.",
+      "gist": "What's the Future of Web Design?",
+      "headline": "I think this whole area will just grow and grow and give us really cool tools",
+      "start": 2535526,
+      "end": 2650518,
+      "id": "ep_132_ch_10"
+    },
+    {
+      "summary": "Next episode will be the big year review. This show is now completely crowdfunded, so you can support us by going on patreon. com Datastories. We love to get in touch with our listeners, especially if you want to suggest a way to improve the show.",
+      "gist": "Data Stories: A Year Review",
+      "headline": "This show is now completely crowdfunded, so you can support us on Patreon",
+      "start": 2650694,
+      "end": 2757200,
+      "id": "ep_132_ch_11"
+    }
+  ],
+  "disfluencies": false,
+  "entity_detection": false,
+  "sentiment_analysis": false,
+  "sentiment_analysis_results": null,
+  "entities": null,
+  "speakers_expected": null,
+  "summary": null,
+  "custom_topics_results": null,
+  "episode_num": 132,
+  "episode_metadata": {
+    "speakers": [
+      "Jessica Hullman",
+      "Moritz Stefaner",
+      "Enrico Bertini"
+    ],
+    "WPid": "1292",
+    "url": "https://datastori.es/podlove/file/5482/s/feed/c/mp3/132-a-new-generation-of-dataviz-tools.mp3",
+    "episode_title": "A New Generation of DataViz Tools"
+  }
+}

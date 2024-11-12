@@ -1,0 +1,733 @@
+{
+  "id": "2f58dcb4-bb0f-4b6b-abe4-ac0b5b1990c7",
+  "language_model": "assemblyai_default",
+  "acoustic_model": "assemblyai_default",
+  "language_code": "en_us",
+  "status": "completed",
+  "audio_url": "https://datastori.es/podlove/file/5751/s/feed/c/mp3/148-cognitive-science-for-data-visualization-with-lace-padilla.mp3",
+  "utterances": [
+    {
+      "end": 10290,
+      "speaker": "Lace Padilla",
+      "start": 160,
+      "text": "I think with some guidance on some basic principles of how the mind functions, anyone can really integrate some cognitive science into the visualizations that they're making.",
+      "id": "ep_148_ut_0"
+    },
+    {
+      "end": 39834,
+      "speaker": "Enrico Bertini",
+      "start": 29670,
+      "text": "Hi, everyone. Welcome to a new episode of data stories. My name is Enrico Bertini, and I am a professor at NYU in New York City, where I teach and do research in data visualization.",
+      "id": "ep_148_ut_1"
+    },
+    {
+      "end": 50962,
+      "speaker": "Moritz Stefaner",
+      "start": 39962,
+      "text": "Yes, and I'm Moritz Stefaner, and I'm an independent designer of data visualizations. In fact, I work as a self employed truth and beauty operator out of my office here in the countryside in the north of Germany.",
+      "id": "ep_148_ut_2"
+    },
+    {
+      "end": 60832,
+      "speaker": "Enrico Bertini",
+      "start": 51066,
+      "text": "And on this podcast, we talk about data visualization, analysis, and more generally, the role data plays in our lives. And usually we do that together with the guests we invite on the show.",
+      "id": "ep_148_ut_3"
+    },
+    {
+      "end": 72468,
+      "speaker": "Moritz Stefaner",
+      "start": 60986,
+      "text": "And this time around, we have lace Padilla on the show, and we discussed with her about the relationship of cognitive science and data visualization and also what cognitive science can do for our profession.",
+      "id": "ep_148_ut_4"
+    },
+    {
+      "end": 80068,
+      "speaker": "Enrico Bertini",
+      "start": 72564,
+      "text": "We also talk about why visualization research focuses so much on low level perception and the role of decision making in data visualization.",
+      "id": "ep_148_ut_5"
+    },
+    {
+      "end": 89220,
+      "speaker": "Moritz Stefaner",
+      "start": 80244,
+      "text": "And of course, we also talk about hurricanes and mental models. But in order to learn what all this is about, you'll have to listen to the full episode, I'm afraid.",
+      "id": "ep_148_ut_6"
+    },
+    {
+      "end": 111624,
+      "speaker": "Enrico Bertini",
+      "start": 89300,
+      "text": "Yes. But before we start, just a quick note. Podcast is listener supported, so there's no ads. If you enjoy the show, please consider supporting us with recurring payments on patreon.com Datastories. Or if you prefer to send a one time donation, that's also an option, just go on PayPal dot me Datastories.",
+      "id": "ep_148_ut_7"
+    },
+    {
+      "end": 131338,
+      "speaker": "Moritz Stefaner",
+      "start": 111752,
+      "text": "That's right, and we're always happy about any contributions. If you can't afford any monetary donations, just send us a nice tweet or leave a nice review. That's always great, too. Anyways, let's get started with the show. As we said, the topic today is cognitive science and data visualization. Welcome Les Padilla.",
+      "id": "ep_148_ut_8"
+    },
+    {
+      "end": 133114,
+      "speaker": "Lace Padilla",
+      "start": 131434,
+      "text": "Hi. Thank you for having me.",
+      "id": "ep_148_ut_9"
+    },
+    {
+      "end": 141790,
+      "speaker": "Enrico Bertini",
+      "start": 133282,
+      "text": "So, Les, can you briefly introduce yourself? Tell us a little bit about what is your background, your main interest, maybe your current position?",
+      "id": "ep_148_ut_10"
+    },
+    {
+      "end": 208566,
+      "speaker": "Lace Padilla",
+      "start": 142330,
+      "text": "Sure. I am a cognitive scientist at the University of California, Merced, and I have a background in arthem. I have an MFA in design, and I fuse cognitive science with a little bit of art. So what I'm interested in is how the brain processes visual information, and the way I like to do that is to look at data visualization. How do data visualizations change how we think or feel or act in the world? How can we make data visualizations better? What are some techniques out there that currently need to be tested and more broadly, how can we help people make high impact decisions with data visualizations? Is there training that we need to do? Is there ways to improve them? And some of the types of applications I've looked at are natural disaster forecasting, like hurricanes, and also uncertainty cognition, for example, making decisions about a procedure you might undergo. Something like that. Yeah, so that's my broad background.",
+      "id": "ep_148_ut_11"
+    },
+    {
+      "end": 234752,
+      "speaker": "Moritz Stefaner",
+      "start": 208698,
+      "text": "Yeah, it's super interesting and it's, I mean, traditionally, a lot of data visualization research is focused really on low level perception, like how well can we estimate area sizes or how good are colors to encode certain types of information? And the whole cognitive science angle, I think, is so, so interesting and valuable. So can you tell us a bit what is cognitive science and what we could learn from it that's useful for visualization?",
+      "id": "ep_148_ut_12"
+    },
+    {
+      "end": 384606,
+      "speaker": "Lace Padilla",
+      "start": 234926,
+      "text": "Sure. So cognitive science is the study of the mind, and there is a mind involved with data visualization. There's always a user, hopefully. Yeah, ideally, right? Yeah. So anytime that you create a data visualization, our goal is to provide it to someone to help them do some type of task or with some type of job. So what we study in cognitive science is how people go about utilizing that type of information to help them with whatever it is they're doing. And the way that cognitive science can help visualization researchers is it gives researchers an understanding of some of the underlying processes that are at work, which can help you develop new visualizations. It can help you iterate more quickly through your design process. It can help with testing as well to make sure that what you think people are doing with your visualizations is actually what they're doing and how they're interpreting it. So those are all really hard, big questions that cognitive science has been studying for 100 years, really. So it's a nice way of taking some usability questions in visualization and pulling some science from different fields to give you a foundation so you don't have to re study topics that have been labored over for a long time. That's really the benefit of cognitive science, is that we've been doing this for roughly 100 years, and we have a pretty good sense of how perception works, how the eye works, and we have a good sense of how people's attention is attracted to different elements of visual information, and we have a good sense of how people learn information and how they pull in information from long term memory and on and on. And these are all topics that I'm mentioning briefly, but there's thousands of researchers who have studied those in depth, and all of those steps individually contribute to how people use visualizations. So it can seem like a daunting task for visualization researchers to figure all of that out. But I think with some guidance on some basic principles of how the mind functions, anyone can really integrate some cognitive science into the visualizations that they're making.",
+      "id": "ep_148_ut_13"
+    },
+    {
+      "end": 440220,
+      "speaker": "Enrico Bertini",
+      "start": 384748,
+      "text": "I think my sense is that related to what Moritz was saying, is that I always have this nagging feeling that in visualization for many years we've been focusing on low level perception, but there is a whole world out there that cognitive scientists have been studying and we are not really aware of that. And that's one reason why I really like the type of work that you are doing, because to me it looks like it's on a somewhat different level. And over the years I always had this, as I said, this nagging feeling that there's such a big gap between designers, artists. But then when you go to the science of it, it's always this very, very low level. And I don't want to say that it's not important or relevant, it's actually extremely useful. But I always felt that there is something missing there.",
+      "id": "ep_148_ut_14"
+    },
+    {
+      "end": 581850,
+      "speaker": "Lace Padilla",
+      "start": 440720,
+      "text": "It's true, frankly, it's not a fault of anyone. It's kind of the natural progression of science. So the way that psychology has unfolded historically is it started with low level perception, just trying to identify what's going on with the eye and with our senses. So when we start applying what we've learned in cognitive science and psychology to new fields, it's a very reasonable place to start with the beginning of the process. If you imagine decision making as a process, it is a very effective scientific approach to start with step one, and once we understand step one, we move to step two and so on. The issue is that all those steps are not easy and it takes quite a bit of time to figure them out. So I think what has happened is there's just not a lot of cognitive scientists working on visualization and doing the low level research. If there were, I think it would have advanced a little bit more quickly. But I think what happens is the more interesting thing to do is to create fancy visualizations rather than to study why do people understand information a certain way, or should we make these visualizations? And I think that my approach does it a little backwards. So I start at the end with how we make decisions and then kind of backtrack and say, if this is what people actually do with this information, how does that inform our theory about how they got here? So if they had some error in their reasoning, how can we figure out now that we know that there's an error, where that error occurred in the process, sort of like reverse engineering the whole process of it. And, you know, I started doing that because I think it's more interesting. You know, I want to know what people do, and I want to help people make better decisions today. And so I start with decisions and work backwards. But that was a choice that I think other researchers have made different choices which are totally understandable.",
+      "id": "ep_148_ut_15"
+    },
+    {
+      "end": 601684,
+      "speaker": "Moritz Stefaner",
+      "start": 582980,
+      "text": "I think one part of the challenge here is that it becomes inherently more qualitative, the type of research you do probably, in that it's so hard to count insights or to say this decision was, I don't know, twice as big as the other one. You're in a much more fuzzy area, right?",
+      "id": "ep_148_ut_16"
+    },
+    {
+      "end": 731052,
+      "speaker": "Lace Padilla",
+      "start": 601772,
+      "text": "Oh, yeah. Yeah. Because if you have a longer process, uncertainty can occur throughout the entire process and then propagate through the system. So if you're starting at the very end, there's so much variability that might have happened. It's hard to say this decision is produced by this visualization and this decision is produced by another visualization. So the key to my research is that I do very controlled laboratory experiments to try to reduce some of that noise where possible, and it's not always possible. And sometimes when you do control laboratory experiments, you get so far away from the real types of decisions that people make. It's not entirely informative, but that is why you see the studies that I do. We have like 300 participants and they do the exact same task 100 times, where all we do is change one teeny tiny part of the visualization, and then we test what happens. It's for that reason it can be really fuzzy. At the end of the decision making process, we're trying to eliminate some of that. And that can scare researchers away as well, because if you're looking at a low level phenomenon and you're looking at the neuronal level, it's a little easier to sort of identify what's making changes. And we have to do experiments where we're not making big claims, where we've solved the problem of uncertainty visualization. What we do is many experiments where we simply provide evidence that this theory might be the way that people are understanding this information. And it's going to take many, many experiments to build up lots of evidence to feel like we have it right, simply because it's a fuzzy process all the way at the end of all of those different processes and decision making.",
+      "id": "ep_148_ut_17"
+    },
+    {
+      "end": 787636,
+      "speaker": "Enrico Bertini",
+      "start": 731196,
+      "text": "Yeah, I think what is interesting, now that you're mentioning, you've been mentioning decision making a few times, and that's one of the things that I really like about your approach. And it to me, looks like a surprisingly new angle for visualization, because I don't know why. When we talk about visualization or visualization research more specifically, for some reason, we don't really frame it under the. We don't look at it under the lens of decision making. Right. But the work you do, in the work you do, decision making seems to be, as you just mentioned, the main thing. Right. So I'm wondering if you can comment a little bit more on. Yeah, what is decision making? Why is it so relevant for visualization? And maybe even why we don't. We don't seem to have focused that much on this lens so far, which looks really relevant to me.",
+      "id": "ep_148_ut_18"
+    },
+    {
+      "end": 1064009,
+      "speaker": "Lace Padilla",
+      "start": 787748,
+      "text": "Okay, so, you know, what makes decision making different from things like memory and attention and perception is that you can have relatively perfect memory. Maybe you remember the information in a visualization exactly, and maybe you understood it exactly, and maybe it was visualized perfectly. But when you get to that final step, there's all of these heuristics, which are rules of thumb or strategies that we use, and biases, which are kind of ways in which we're inclined to make ineffective decisions that can take all of that good information and produce an ineffective decision. So that hasn't been studied as much in visualization, because it's a very complex step in and of itself. And in visualization, you really have to account for all of the downstream processes like memory and pretension and all of those things to even figure out what happens at the decision making step. And things can go haywire, really. And some of my favorite work out of decision making and behavioral economics demonstrates that we often take strategies from other contexts to interpret new information. And when we do that, we can come to ineffective conclusions. That might seem irrational, but they're based on a rational process. And the rational process is that we can't compute every new decision every time we are interacting with new information. It just takes too much time. If every time you had to decide which shoes to put on in the morning, you had to do a cost benefit analysis in your head, that would take too long, right? So we automate some of those processes effectively. The problem happens when we are automating a process that we actually need to compute. And that's where decision making comes in. And it's unique because you have to have some exposure to some of the, the work that's done in behavioral economics, which is absolutely fascinating. I encourage everyone to take a look at some of that research. It's so interesting to me that the way that information is framed can influence what we think about it, or the way that information is presented can influence how we make decisions with it. It's a unique step and it's very important for visualization because there's some new elements associated with visualization that haven't been studied traditionally in decision making. Decision making in cognitive science and behavioral economics is generally done with risks, like sort of betting scenarios with text. And when you add a visualization in there, it is unclear what happens. Visual information has a profound influence on how we make decisions. And it's unclear if what we've had discovered in behavioral economics extends to the visual system. And what I argue is that the biases that we find are probably going to be more profound and harder to overcome because the visual system has a strong hold on how we think about information. And I found this in my research, and a variety of other researchers have found this as well. Just to give you a concrete example, I've done work where we show people a visualization that they're misunderstanding and we figure out exactly what the bias is. And then we give them lots and lots of training to know what the bias is and how to overcome it. And then at the end of the experiment, they can say, they can tell us what the bias is and they tell us that they shouldn't make their decisions that way, but they still make their decisions with the bias. And we found that and other researchers found it as well. And it is hard to overcome heuristics and decision making research. But what we found is that the magnitude of the difficulty to overcome visualization biases is stronger. So I think it's an unexplored area that we really need to consider. And like you were pointing out, not very many people have looked at it.",
+      "id": "ep_148_ut_19"
+    },
+    {
+      "end": 1075422,
+      "speaker": "Moritz Stefaner",
+      "start": 1064129,
+      "text": "Yeah, yeah. From a practical view, I'm super interested in that topic because Enrico, you said it's not discussed much, but in a, a business context or for corporate clients it is.",
+      "id": "ep_148_ut_20"
+    },
+    {
+      "end": 1078686,
+      "speaker": "Enrico Bertini",
+      "start": 1075486,
+      "text": "Yeah. The question is the only thing that matters, is it actionable?",
+      "id": "ep_148_ut_21"
+    },
+    {
+      "end": 1100230,
+      "speaker": "Moritz Stefaner",
+      "start": 1078758,
+      "text": "You know, and this question, like, you know, the question of, well, you're showing me all these things, but what can I do with this? And what's the type of decision I can make now is super crucial. And a lot of visualization that is not actionable is considered like pointless. Yeah. And certain very, very applied context, let's say.",
+      "id": "ep_148_ut_22"
+    },
+    {
+      "end": 1101050,
+      "speaker": "Lace Padilla",
+      "start": 1100350,
+      "text": "Yeah.",
+      "id": "ep_148_ut_23"
+    },
+    {
+      "end": 1124410,
+      "speaker": "Moritz Stefaner",
+      "start": 1101570,
+      "text": "My feeling was it has also a lot to do with not just how you show things, but especially starting from what you show it all, do you have any practical hints in terms of how you can actually design a data presentation so that it's more suited for good decision making or for being actionable in some way?",
+      "id": "ep_148_ut_24"
+    },
+    {
+      "end": 1186740,
+      "speaker": "Lace Padilla",
+      "start": 1124570,
+      "text": "Right. So this is a question I get quite a bit, and I, you know, I do know that there's researchers out there who are trying to make guidelines and rules of thumb and those sorts of things. I take a different approach, which is I have enough faith in visualization designers and how deeply they think about these processes that I believe that if you know your user and you know the data, that if you are then taught a little bit about decision making, you can come to effective choices about how to visualize the data. And by simply giving people rules or strategies, that's really undercutting the expertise of visualization designers. And I think that the power of what visualization designers really do is they have such an intricate knowledge of who they're communicating to and the data that they're using that we should really be leveraging that rather than automating that step.",
+      "id": "ep_148_ut_25"
+    },
+    {
+      "end": 1205380,
+      "speaker": "Moritz Stefaner",
+      "start": 1187800,
+      "text": "But that, again, would mean to really first ask the question, what types of decisions do you need to make? And only then think about what data do you need then, and then think about how to present the data. So that would probably also mean like applying your reverse process, right?",
+      "id": "ep_148_ut_26"
+    },
+    {
+      "end": 1241624,
+      "speaker": "Lace Padilla",
+      "start": 1205460,
+      "text": "Yeah. Yeah. So that's why I really like the reverse process. The one caution I would say, too, is that when you're thinking about decision making, it is a rare case where you know what type of decision you want someone to make. So I do a lot of visualization of hurricane forecasting, and I don't want everyone to evacuate and I don't want everyone to stay. But what I do want is people to make their best possible decision, to have the information that we present them to be clear and effective, to help them reason to their best, best of their ability, because it's a personal choice.",
+      "id": "ep_148_ut_27"
+    },
+    {
+      "end": 1242384,
+      "speaker": "Moritz Stefaner",
+      "start": 1241792,
+      "text": "Right.",
+      "id": "ep_148_ut_28"
+    },
+    {
+      "end": 1279270,
+      "speaker": "Lace Padilla",
+      "start": 1242512,
+      "text": "And I would imagine in a business setting it's similar where, you know, I mean, you know, I don't want to empower people to walk in and show a visualization that has, you know, everyone taking. Yeah, exactly. I don't, I don't think that that's my goal. So it's, it is a little tricky when you're reverse engineering because sometimes you want to start with saying, here's what we want people to do, and I think you need to take one step back from that and say, here are the important relationships that we need them to understand.",
+      "id": "ep_148_ut_29"
+    },
+    {
+      "end": 1316426,
+      "speaker": "Moritz Stefaner",
+      "start": 1279930,
+      "text": "Sure. Yeah. But still that's where you should start, and not from the data availability or things like that, which happens so often. And I mean, again, it's the classic, this is how all the pipelines are presented, right? Data, and then it's encoded, and then there's an insight or a decision. And I think, think that, again, talking about biases that sort of, or maybe also cognitive models, you know, that can sort of create all these ideas how, what also what the temporal order of things is or what the importance order of things is, like what the whole food chain is like, maybe. Who knows?",
+      "id": "ep_148_ut_30"
+    },
+    {
+      "end": 1319070,
+      "speaker": "Lace Padilla",
+      "start": 1316458,
+      "text": "Yeah, yeah, yeah. I definitely agree.",
+      "id": "ep_148_ut_31"
+    },
+    {
+      "end": 1348128,
+      "speaker": "Enrico Bertini",
+      "start": 1320450,
+      "text": "Yeah. Lace, I'm wondering, so I think you now briefly mentioned the fact that you're working with weather data. I know you have a few experiments on weather data, and also I think they're also a really good example of the kind of visualizations that can be used for decision making. Right. So deciding whether you should evacuate an area for an hurricane is a major decision that people have to make.",
+      "id": "ep_148_ut_32"
+    },
+    {
+      "end": 1348760,
+      "speaker": "Lace Padilla",
+      "start": 1348184,
+      "text": "Right.",
+      "id": "ep_148_ut_33"
+    },
+    {
+      "end": 1361230,
+      "speaker": "Enrico Bertini",
+      "start": 1348920,
+      "text": "So I'm wondering if you can describe, would you like to describe a little bit more in detail what kind of decisions happened there and how visualization may actually make this decision better?",
+      "id": "ep_148_ut_34"
+    },
+    {
+      "end": 1533374,
+      "speaker": "Lace Padilla",
+      "start": 1361610,
+      "text": "Sure. So one of the things that we've found, and many other researchers find as well, is that when you have complex, especially probabilistic data, that it does help some people to have that information visualized, because we haven't evolved in any way to understand probabilities. And there's a big body of research that demonstrates how poor we are at reasoning with probabilistic information. So that's a perfect candidate for trying to use visualizations. When there's data that's just too complex for the average person to figure out, can we visualize the data and help them with that process in some way? So that's step one. We're trying to visualize that information. But then when you go about visualizing data, particularly probabilistic data, things can get very complex, as was illustrated by all the recent confusion about hurricane forecasts. And the issue is that uncertainty data visualized, there's no good solutions at this point for how to do that. And we've done numerous studies looking at that, other researchers as well. I'm actually writing a book chapter right now on that very topic. And the issue is that anytime you visualize uncertain information, you're making it concrete. When we visualize something, we put it in pixels on a page or on a screen. But uncertainty is abstract, so we inherently have to require our users to take a concrete thing and in their mind, translate it to something abstract. And that process of making them do that type of work is extremely error prone. So what we try to do is to try to identify ways that are less effortful in that process. What's an easier kind of transformation that people have to do in their mind? Are there some visualizations that naturally communicate the uncertainty where there's not as much translation in the context of hurricane forecasts? What we've started with was the cone of uncertainty, which is currently used by the National Hurricane center. And what it is is a model that predicts the path of the storm and the cone. The edges of the cone represent a 66% confidence envelope around their mean predicted path of the storm. And when we were first studying this, we thought, okay, well, we'll compare this currently used technique to some updated versions based on modern visualization research, and just see which one comes out on top, essentially. And this is what you see with the lance.",
+      "id": "ep_148_ut_35"
+    },
+    {
+      "end": 1542158,
+      "speaker": "Enrico Bertini",
+      "start": 1533382,
+      "text": "Let me stop you for a moment. When you say what comes out on top, what do you mean? How do you decide what's better?",
+      "id": "ep_148_ut_36"
+    },
+    {
+      "end": 1558858,
+      "speaker": "Lace Padilla",
+      "start": 1542294,
+      "text": "Right. So in this context, what we're doing is we developed a task where we have people estimate damage, and there was a lot of different tasks that people can do, but we essentially show them a location on the map and say, can you estimate the damage that would incur to this particular location?",
+      "id": "ep_148_ut_37"
+    },
+    {
+      "end": 1559870,
+      "speaker": "Enrico Bertini",
+      "start": 1558994,
+      "text": "Okay.",
+      "id": "ep_148_ut_38"
+    },
+    {
+      "end": 1573362,
+      "speaker": "Lace Padilla",
+      "start": 1560210,
+      "text": "And that's an interesting question because it avoids people having to do a probabilistic judgment, which people are very bad at. You know, I would never ask, what's the probability that the storm would hit Louisiana?",
+      "id": "ep_148_ut_39"
+    },
+    {
+      "end": 1575790,
+      "speaker": "Enrico Bertini",
+      "start": 1573466,
+      "text": "Exactly. That's why I was asking.",
+      "id": "ep_148_ut_40"
+    },
+    {
+      "end": 1581496,
+      "speaker": "Lace Padilla",
+      "start": 1576520,
+      "text": "Yeah. Yeah. So it's kind of tricky the way you have to be very strategic in how you test.",
+      "id": "ep_148_ut_41"
+    },
+    {
+      "end": 1583144,
+      "speaker": "Enrico Bertini",
+      "start": 1581528,
+      "text": "These questions kind of sneak, and you.",
+      "id": "ep_148_ut_42"
+    },
+    {
+      "end": 1589280,
+      "speaker": "Moritz Stefaner",
+      "start": 1583152,
+      "text": "Have to make it concrete, basically, in order to get a sense of people can actually read it. Right?",
+      "id": "ep_148_ut_43"
+    },
+    {
+      "end": 1734506,
+      "speaker": "Lace Padilla",
+      "start": 1589400,
+      "text": "Yeah. And other things we could have done is had them sort of estimate something numerically. And, you know, sometimes when you do that, all you're really testing is their experience with statistics. So we really wanted to find the this kind of baseline evaluation that anyone could do and they could intuit that would give us some indication of how they're interpreting different visualizations. So that was a task. And then we compared the cone of uncertainty to four other visualization techniques, including a new one created by my collaborators, which we call an ensemble display. But you'll probably hear it called a spaghetti plot. And it's generally derogatorily called a spaghetti plot because when they're made poorly they can look at like a mess of lines kind of all like spaghetti mixed up together. But that's where we started, you know, quite a few years ago was that was another technique available. So we went about seeing if, you know, people make different damage ratings when they look at these different visualizations. And part of the question is, you know, maybe they don't. Maybe the visualization doesn't matter. And so that would be pretty good to know, you know, what actually influences people's decisions and, you know, so we can get a sense of what is important and what isn't. What we found out is that people come to a lot of misconceptions about the cone of uncertainty. People think that it represents the size of the storm growing over time. It doesn't represent any information about size, but they physically see the cone growing, the cone at the edge of it, or sort of the furthest extent of it is bigger than where it is at the start. And if you remember back to me talking about heuristics or rules of thumb, it's reasonable that people are coming to that conclusion because we are showing them a map. And they've learned rules of thumb for maps, heuristics for maps. And it suggests that size on a map can be equated to physical size in the real world. You know, you learn that in school. Right. So we're showing them this cone and it has a size element to it. And in order to interpret it correctly, they would have to not imagine it as size but remap it onto something abstract like uncertainty. Right. So that's the goal or it as.",
+      "id": "ep_148_ut_44"
+    },
+    {
+      "end": 1741954,
+      "speaker": "Moritz Stefaner",
+      "start": 1734538,
+      "text": "The size of the possibility space, you know, but that's not something. Yeah, not something. That is a thing at all.",
+      "id": "ep_148_ut_45"
+    },
+    {
+      "end": 1742990,
+      "speaker": "Enrico Bertini",
+      "start": 1741962,
+      "text": "It's not natural.",
+      "id": "ep_148_ut_46"
+    },
+    {
+      "end": 1778286,
+      "speaker": "Lace Padilla",
+      "start": 1745040,
+      "text": "Yeah. So, I mean, that's a case where some of the decision making research is informing some of the results that we've found. And then what the other things that we found was that people tend to believe the areas inside the cone are in the danger zone and areas outside are relatively safe, which, again, is reasonable. These are errors. These are not how we intended people to interpret it. But that's not to say it's not entirely reasonable to come to those conclusions.",
+      "id": "ep_148_ut_47"
+    },
+    {
+      "end": 1786718,
+      "speaker": "Enrico Bertini",
+      "start": 1778438,
+      "text": "And the one that you call the spaghetti plot is actually every single line represents one potential path. Right.",
+      "id": "ep_148_ut_48"
+    },
+    {
+      "end": 1838450,
+      "speaker": "Lace Padilla",
+      "start": 1786854,
+      "text": "Well, to the way that we. So there's different ones. So the ones that you see on the news for Hurricane Dorian, for example, not all of them, but generally when each of those lines are marked, they're the mean path of different predictive models. So you have to take a look to see if there's a legend that indicates which model are associated with each one of those lines, the ones that we tested. What we wanted to do is to take the same model we used to generate the cone of uncertainty and each of the lines in the spaghetti plot, or just one run of that model. So each of the lines doesn't actually represent a predicted path. It's sampling from the probability space of our model. Does that make sense?",
+      "id": "ep_148_ut_49"
+    },
+    {
+      "end": 1840362,
+      "speaker": "Enrico Bertini",
+      "start": 1838570,
+      "text": "Yes, it does. Yeah, absolutely.",
+      "id": "ep_148_ut_50"
+    },
+    {
+      "end": 1905520,
+      "speaker": "Lace Padilla",
+      "start": 1840466,
+      "text": "Yeah. But so what you just said was the exact miscommunication that people come to if they're not told how these are made. And we have, you know, two other studies showing this, where people believe that every line, an ensemble, no matter what ensemble, is a predicted path, which can be a problem, because if you are shown three paths and one of them hits your town, you think, oh, there's a 33% chance the storm is going to hit my town. If we just show ten instead, there's only a 10% chance. And that's just an arbitrary choice of how many paths to show. And all of a sudden, you can really influence the type of risk that people think that they're under. And note that if you have, you know, some amount of lines and one of them hits your home, and then if you take that line away or scoot it over, you think you're in significantly less danger. So there's this on the line, off the line effect that is actually coming out in a couple days in a paper that we've recently published.",
+      "id": "ep_148_ut_51"
+    },
+    {
+      "end": 1906800,
+      "speaker": "Enrico Bertini",
+      "start": 1905860,
+      "text": "I see.",
+      "id": "ep_148_ut_52"
+    },
+    {
+      "end": 1928360,
+      "speaker": "Moritz Stefaner",
+      "start": 1907500,
+      "text": "What's interesting, too, is now I think about the decision again people want to make. You know, I'm already picking up on your training. And so now I'm thinking if it's all about individual decisions, if they should evacuate or not, you wouldn't have to show the full map, but you could just provide people a tool where they can look up their hometown and you get the probability. Right?",
+      "id": "ep_148_ut_53"
+    },
+    {
+      "end": 1931020,
+      "speaker": "Lace Padilla",
+      "start": 1929420,
+      "text": "Yeah, it's true. So that comes.",
+      "id": "ep_148_ut_54"
+    },
+    {
+      "end": 1937930,
+      "speaker": "Moritz Stefaner",
+      "start": 1931060,
+      "text": "So maybe this whole focus on overview is, in this case, the wrong approach already.",
+      "id": "ep_148_ut_55"
+    },
+    {
+      "end": 1966700,
+      "speaker": "Lace Padilla",
+      "start": 1938590,
+      "text": "Yes. So you're touching on one of the large problems that I see, which is that especially with weather, but also in many other domains, oftentimes, one visualization is created for every type of decision and every type of user. So those same hurricane visualizations are used by people who are deciding which regions to evacuate. And those are big sort of area based.",
+      "id": "ep_148_ut_56"
+    },
+    {
+      "end": 1968152,
+      "speaker": "Moritz Stefaner",
+      "start": 1967000,
+      "text": "Totally different decision.",
+      "id": "ep_148_ut_57"
+    },
+    {
+      "end": 1980528,
+      "speaker": "Lace Padilla",
+      "start": 1968256,
+      "text": "Totally different. Yeah. So, you know, in a perfect world, I see us being able to get some information about a user and make customized visualizations based on their task and the information they need. Yeah.",
+      "id": "ep_148_ut_58"
+    },
+    {
+      "end": 1994908,
+      "speaker": "Moritz Stefaner",
+      "start": 1980544,
+      "text": "And with interactive tools, it's much easier to provide actually tailored visuals. I think maybe we're just so, as you say, focused on this idea that there should be one visual to catch all potential use cases. Maybe that's already the flaw.",
+      "id": "ep_148_ut_59"
+    },
+    {
+      "end": 2113282,
+      "speaker": "Lace Padilla",
+      "start": 1995004,
+      "text": "Right. Well, the other issue that I like to point out is that if we start talking about interactive tools, there's going to be a big technology gap. The reality is that the people who need this information the most are generally in low income areas and are not in the US. So, for example, I did work with Haiti where I tried to help them. The haitian government, working with the Red Cross tried to help the haitian government improve their early warning systems. And basically we identified this area on the western coast of Haiti that is decimated by storms. So we thought, okay, well, we'll go and figure out what information they have and we'll try to optimize that, you know, maybe do some type of interactive tool. What we found is that on the areas on that western coast of Haiti, they don't have phones, tvs, radios, Internet. They have almost no access to information. What they do have is they have a hurricane flag, a flag that is raised when a hurricane is approaching. And it is really hard to get someone to drive out on a motorcycle and raise that flag. These are the people that have the most impact from hurricanes. We can't expect them to use an interactive tool. We have to optimize this flag that they have access to. Again, I don't think it's a simple solution. And here's what I really think should be done. We take all approaches. Yes, we make interactive tools, but also we do not forget about groups of people that don't have access to them. So we just make sure that we're trying to cover this from multiple different angles and don't only focus on some advanced technological solution.",
+      "id": "ep_148_ut_60"
+    },
+    {
+      "end": 2123524,
+      "speaker": "Enrico Bertini",
+      "start": 2113466,
+      "text": "But I think what you're saying is that even in those situations, there is space for specific designs that may work better than others, right? Is that what you're saying?",
+      "id": "ep_148_ut_61"
+    },
+    {
+      "end": 2225790,
+      "speaker": "Lace Padilla",
+      "start": 2123692,
+      "text": "Yeah, exactly. Exactly. So what we ended up doing is, so I've done some work with mental models and I can explain more about what those are, but essentially, a mental model is the way that you internally represent information. So what we tried to do in Haiti, for example, is to identify what types of mental models that they had for hurricanes and provide them support for their particular model. And what that meant is their current flag system had five different colored flags for the different categories of storms. And, you know, do you know what the difference between a category two and three hurricane is? No, of course you don't. Neither do the people of Haiti. Right. So they're provided with information that, that they don't know how to use, and it's relatively meaningless to them. And what we found is because their infrastructure is so decimated, they don't need to know the difference between four and five. They need to know if anything above a tropical storm is approaching. So one of the recommendations that we made is to get rid of this five flag system and have a single hurricane flag that is raised, if anything above a tropical storm is approaching. So that's one way we tried to optimize what they are working with. But again, that's not a perfect solution. And there's lots of design constraints, but it was based on sort of us thinking about some of the cognitive science of how they're using this information and how to help them given their particular circumstance.",
+      "id": "ep_148_ut_62"
+    },
+    {
+      "end": 2285212,
+      "speaker": "Enrico Bertini",
+      "start": 2225950,
+      "text": "Yeah. There's so much, I think now you just mentioned mental models, and we could record the whole, whole new episode just, or a couple of episodes on mental models. But I just want to say that's another area where. Right. In visualization and visualization research, there's so much more to do because we have this naive, I think we have this naive way of looking at visualization as if people are just this blank slate. Right. And they're looking at a visualization and they're all interpreted the same way, either bad or good. Right. It's either effective or not effective. But actually, people are very different and they approach problems in very different ways. Right. They have a lot of background knowledge. They have lots of different attitudes. And this has a really, really big effect on the way they actually consume this information. Right. So again, I don't want to put you on the spot there because I know it's a huge topic. Right.",
+      "id": "ep_148_ut_63"
+    },
+    {
+      "end": 2360752,
+      "speaker": "Lace Padilla",
+      "start": 2285356,
+      "text": "Well, you know, what I will say is that the nice thing that we've done in cognitive science is to formalize some of these very complex processes. So in terms of mental models, like you're saying, there's so much that goes into that, but we've developed some cognitive models that lay those down in sort of a framework. So if you just wanted to study one component of it, you could, again, it is very complex, but that's the business that cognitive science has went about for the last 100 years or more, is trying to find ways to formalize these complex problems and to control all other variables and just test one small component of it, but frankly, it is complex. And usually what happens is one researcher spends their entire career studying individual differences, for example, which is the cognitive science term for how people are different. So, you know, one person might study cognitive models, but maybe someone studies how cognitive models vary across different people, maybe by education or different things.",
+      "id": "ep_148_ut_64"
+    },
+    {
+      "end": 2361900,
+      "speaker": "Moritz Stefaner",
+      "start": 2360936,
+      "text": "Language.",
+      "id": "ep_148_ut_65"
+    },
+    {
+      "end": 2407834,
+      "speaker": "Lace Padilla",
+      "start": 2362240,
+      "text": "Exactly, yeah, language, background, risk level that they're interested in. There's also accessibility issues to think about too, in terms of individual differences. Some of the work that I was talking about that you have to do in your mind, sort of translating information in your mind, different groups of people have different ability to do that. And ensuring that you're not requiring undue mental effort is a whole area of exploration, cognitive science. But you know that we just need more people doing this type of work. If you come at it where you're trying to understand all of these things, there's just going to be too many moving parts to wrangle it up.",
+      "id": "ep_148_ut_66"
+    },
+    {
+      "end": 2434830,
+      "speaker": "Moritz Stefaner",
+      "start": 2407962,
+      "text": "It's almost as if the brain is a fairly complex place. So we'll have to close up soon here. But from your perspective the way forward, what are the things you're most interested in right now? Or where do you think are the biggest gaps to be filled still in terms of connecting cognitive science and design and database and art and everything?",
+      "id": "ep_148_ut_67"
+    },
+    {
+      "end": 2464764,
+      "speaker": "Lace Padilla",
+      "start": 2435330,
+      "text": "That's a good question. One of the areas that I'm most excited about is uncertainty visualization, because it is an interesting scenario where all of these topics come to a head because you have complex data, you have a complex decision, and you have all sorts of different levels of risk and everything else that people are dealing with, hypotheticals.",
+      "id": "ep_148_ut_68"
+    },
+    {
+      "end": 2467644,
+      "speaker": "Moritz Stefaner",
+      "start": 2464812,
+      "text": "And what you mentioned with concrete and abstract, it's all there.",
+      "id": "ep_148_ut_69"
+    },
+    {
+      "end": 2547042,
+      "speaker": "Lace Padilla",
+      "start": 2467692,
+      "text": "It's all there, yes. Yeah. It is such a fascinating problem. And the people that are doing uncertainty work are, I think, really thinking deeply about all of these problems, which is so exciting. So I think you're going to see some really impressive stuff come out of uncertainty visualization in the coming future. That is going to open up other areas of exploration. But I think beyond that, there's a couple big unexplored topics that visualization research is going to have to think more about. For me, it has a little bit to do with evaluation. So we've developed such a wealth of ideas about visualization and there's growing amounts of evaluation that are happening. But I think that there is definitely some work to be done in terms of experimental controls and evaluation, making sure we're testing what we think we're testing and thinking about things like conflict of interest. So for example, if you come up with this new visualization technique and you've spent however many years doing it and now you're the one testing it, you.",
+      "id": "ep_148_ut_70"
+    },
+    {
+      "end": 2550562,
+      "speaker": "Moritz Stefaner",
+      "start": 2547066,
+      "text": "Know, there might be a bias towards it being pretty good.",
+      "id": "ep_148_ut_71"
+    },
+    {
+      "end": 2553350,
+      "speaker": "Lace Padilla",
+      "start": 2550666,
+      "text": "Possibly, yeah. Possibly, yeah.",
+      "id": "ep_148_ut_72"
+    },
+    {
+      "end": 2559628,
+      "speaker": "Moritz Stefaner",
+      "start": 2554370,
+      "text": "So there's like five cognitive biases that come to mind that fits totally that scenario.",
+      "id": "ep_148_ut_73"
+    },
+    {
+      "end": 2658850,
+      "speaker": "Lace Padilla",
+      "start": 2559804,
+      "text": "Exactly. Exactly. So I think that that's something that visualization research is really going to have to deal with in some way. And I don't know if I have a good solution for that other than it does help to at least collaborate with a cognitive scientist that doesn't have as much of a care about which visualizations, you know, come out on top. And, you know, honestly, that's how our visualization research started, was I was teamed up as a cognitive scientist with other visualization researchers, and our goal was to test the visualizations that they developed. And we found that some worked. But then, like I was saying, with those ensembles, we found some ways that they. They are problematic for some decisions. And, you know, if you, if there wasn't a third party sort of digging into it more deeply, I don't know that it would have been as examined as thoroughly. But I think especially for high impact decisions, it's really important to make sure that you're thoroughly probing all of the ways that a visualization might affect someone's decisions and the different people that are using it. Again, I don't have a good solution other than call up a cognitive scientist or make some collaborations. I think at this point, unless someone's trained in cognitive science, it's pretty tricky to expect someone to do all of this work on their own. I'm an advocate for collaborations.",
+      "id": "ep_148_ut_74"
+    },
+    {
+      "end": 2690316,
+      "speaker": "Enrico Bertini",
+      "start": 2659750,
+      "text": "Yeah. And we definitely need many, many more cognitive scientists working in this space. So, lace, we have to book you for a few more, four or five episodes just to talk about the things that you mentioned. So thanks so much. That's been great. There is a lot of thoughts that need to be processed here, lots of ideas. Thanks so much.",
+      "id": "ep_148_ut_75"
+    },
+    {
+      "end": 2691484,
+      "speaker": "Moritz Stefaner",
+      "start": 2690468,
+      "text": "Thanks for joining us.",
+      "id": "ep_148_ut_76"
+    },
+    {
+      "end": 2693028,
+      "speaker": "Lace Padilla",
+      "start": 2691532,
+      "text": "Yeah, thank you. I enjoyed it.",
+      "id": "ep_148_ut_77"
+    },
+    {
+      "end": 2694850,
+      "speaker": "Enrico Bertini",
+      "start": 2693084,
+      "text": "Sure. Bye. Bye bye.",
+      "id": "ep_148_ut_78"
+    },
+    {
+      "end": 2722290,
+      "speaker": "Moritz Stefaner",
+      "start": 2699390,
+      "text": "Hey, folks, thanks for listening to data stories again. Before you leave, a few last notes. This show is crowdfunded, and you can support us on patreon@patreon.com Datastories, where we publish monthly previews of upcoming episodes for our supporters. Or you can also send us a one time donation via PayPal at PayPal Dot Me Datastories or as a free.",
+      "id": "ep_148_ut_79"
+    },
+    {
+      "end": 2749868,
+      "speaker": "Enrico Bertini",
+      "start": 2722330,
+      "text": "Way to support the show. If you can spend a couple of minutes rating us on iTunes. That would be very helpful as well. And here's some information on the many ways you can get news directly from us. We are on Twitter, Facebook and Instagram, so follow us there for the latest updates. We have also a slack channel where you can chat with us directly. And to sign up, go to our homepage at Datastory esdeme and there you'll find a button at the bottom of the page.",
+      "id": "ep_148_ut_80"
+    },
+    {
+      "end": 2757884,
+      "speaker": "Moritz Stefaner",
+      "start": 2750004,
+      "text": "And there you can also subscribe to our email newsletter if you want to get news directly into your inbox and be notified whenever we publish a new episode.",
+      "id": "ep_148_ut_81"
+    },
+    {
+      "end": 2770548,
+      "speaker": "Enrico Bertini",
+      "start": 2757972,
+      "text": "That's right, and we love to get in touch with our listeners. So let us know if you want to suggest a way to improve the show or know any amazing people you want us to invite or even have any project you want us to talk about.",
+      "id": "ep_148_ut_82"
+    },
+    {
+      "end": 2777208,
+      "speaker": "Moritz Stefaner",
+      "start": 2770684,
+      "text": "Yeah, absolutely. Don't hesitate to get in touch. Just send us an email at mail at Datastory es.",
+      "id": "ep_148_ut_83"
+    },
+    {
+      "end": 2781000,
+      "speaker": "Enrico Bertini",
+      "start": 2777344,
+      "text": "That's all for now. See you next time, and thanks for listening to data stories.",
+      "id": "ep_148_ut_84"
+    }
+  ],
+  "confidence": 0.936983461973421,
+  "audio_duration": 2789,
+  "punctuate": true,
+  "format_text": true,
+  "dual_channel": false,
+  "webhook_url": null,
+  "webhook_status_code": null,
+  "webhook_auth": false,
+  "webhook_auth_header_name": null,
+  "speed_boost": false,
+  "auto_highlights_result": null,
+  "auto_highlights": false,
+  "audio_start_from": null,
+  "audio_end_at": null,
+  "word_boost": [],
+  "boost_param": null,
+  "filter_profanity": false,
+  "redact_pii": false,
+  "redact_pii_audio": false,
+  "redact_pii_audio_quality": null,
+  "redact_pii_policies": null,
+  "redact_pii_sub": null,
+  "speaker_labels": true,
+  "content_safety": false,
+  "iab_categories": true,
+  "content_safety_labels": {
+    "status": "unavailable",
+    "results": [],
+    "summary": {}
+  },
+  "language_detection": false,
+  "language_detection_threshold": null,
+  "language_confidence": null,
+  "custom_spelling": null,
+  "throttled": false,
+  "auto_chapters": true,
+  "summarization": false,
+  "summary_type": null,
+  "summary_model": null,
+  "custom_topics": false,
+  "topics": [],
+  "speech_threshold": null,
+  "speech_model": "best",
+  "chapters": [
+    {
+      "summary": "This week, we talk about the relationship of cognitive science and data visualization. We also talk about why visualization research focuses so much on low level perception. If you enjoy the show, please consider supporting us with recurring payments on patreon. com Datastories.",
+      "gist": "Cognitive Science in Data Visualization",
+      "headline": "This podcast discusses the relationship between cognitive science and data visualization",
+      "start": 160,
+      "end": 122522,
+      "id": "ep_148_ch_0"
+    },
+    {
+      "summary": "Les Padilla is a cognitive scientist at the University of California, Merced. He fuse cognitive science with a little bit of art to look at data visualization. How do data visualizations change how we think or feel or act in the world? What can we learn from cognitive science that's useful for visualization?",
+      "gist": "Cognitive Science and Data Visualization",
+      "headline": "Today's topic is cognitive science and data visualization",
+      "start": 122706,
+      "end": 731052,
+      "id": "ep_148_ch_1"
+    },
+    {
+      "summary": "Enrico Enrico: What is decision making? Why is it so relevant for visualization? And maybe even why we don't. Visual information has a profound influence on how we make decisions. The magnitude of the biases is an unexplored area.",
+      "gist": "Bias in Visualization",
+      "headline": "Visual information has a profound influence on how we make decisions, says Enric",
+      "start": 731196,
+      "end": 1321082,
+      "id": "ep_148_ch_2"
+    },
+    {
+      "summary": "When you have complex, especially probabilistic data, it does help some people to have that information visualized. But when you go about visualizing data, things can get very complex, as was illustrated by recent confusion about hurricane forecasts. Researchers are trying to identify ways that are less effortful in that process.",
+      "gist": "Decision-making in the Internet era",
+      "headline": "Lace: When you have complex probabilistic data, visualization can help",
+      "start": 1321186,
+      "end": 1874000,
+      "id": "ep_148_ch_3"
+    },
+    {
+      "summary": "You can really influence the type of risk that people think that they're under. If you have, you know, some amount of lines and one of them hits your home, and then if you take that line away or scoot it over, you think you're in significantly less danger. Now I think about the decision again people want to make.",
+      "gist": "The risk of Hurricane Florence",
+      "headline": "You can influence the type of risk people think they're under",
+      "start": 1874460,
+      "end": 1931020,
+      "id": "ep_148_ch_4"
+    },
+    {
+      "summary": "With interactive tools, it's much easier to provide actually tailored visuals. The people who need this information the most are generally in low income areas and are not in the US. Even in those situations, there is space for specific designs that may work better than others.",
+      "gist": "The Right Approach to Hurricane Visualizations",
+      "headline": "Sometimes, one visualization is created for every type of decision",
+      "start": 1931060,
+      "end": 2225790,
+      "id": "ep_148_ch_5"
+    },
+    {
+      "summary": "In visualization and visualization research, there's so much more to do. People are very different and they approach problems in very different ways. There's also accessibility issues to think about too, in terms of individual differences. One of the areas that I'm most excited about is uncertainty visualization.",
+      "gist": "What's the biggest gap in visualization research?",
+      "headline": "In visualization and visualization research, there's so much more to do",
+      "start": 2225950,
+      "end": 2702166,
+      "id": "ep_148_ch_6"
+    },
+    {
+      "summary": "This show is crowdfunded, and you can support us on patreon@patreon. com Datastories. We are on Twitter, Facebook and Instagram, so follow us there for the latest updates. Let us know if you want to suggest a way to improve the show.",
+      "gist": "Thanks for listening to Datastory!",
+      "headline": "This show is crowdfunded, and you can support us on patreon",
+      "start": 2702358,
+      "end": 2781000,
+      "id": "ep_148_ch_7"
+    }
+  ],
+  "disfluencies": false,
+  "entity_detection": false,
+  "sentiment_analysis": false,
+  "sentiment_analysis_results": null,
+  "entities": null,
+  "speakers_expected": null,
+  "summary": null,
+  "custom_topics_results": null,
+  "episode_num": 148,
+  "episode_metadata": {
+    "speakers": [
+      "Lace Padilla",
+      "Enrico Bertini",
+      "Moritz Stefaner"
+    ],
+    "WPid": "1360",
+    "url": "https://datastori.es/podlove/file/5751/s/feed/c/mp3/148-cognitive-science-for-data-visualization-with-lace-padilla.mp3",
+    "episode_title": "Cognitive Science for Data Visualization with Lace Padilla"
+  }
+}

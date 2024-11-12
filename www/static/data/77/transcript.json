@@ -1,0 +1,1025 @@
+{
+  "id": "affcec3f-c93b-4f5f-ae4a-0fe8ecfc7888",
+  "language_model": "assemblyai_default",
+  "acoustic_model": "assemblyai_default",
+  "language_code": "en_us",
+  "status": "completed",
+  "audio_url": "https://datastori.es/podlove/file/2573/s/feed/c/mp3/77-polygraph-and-the-journalist-engineer-matt-daniels.mp3",
+  "utterances": [
+    {
+      "end": 7474,
+      "speaker": "Matt Daniels",
+      "start": 200,
+      "text": "I don't know what I'm trying to visualize. So instead of trying to visualize the insight, I'm actually trying to visualize the data and the story.",
+      "id": "ep_77_ut_0"
+    },
+    {
+      "end": 49392,
+      "speaker": "Enrico Bertini",
+      "start": 10414,
+      "text": "This episode is sponsored by CartoDB. Car two DB is an open, powerful, and intuitive platform for discovering and predicting the key facts underlying the massive location data in our world. With cart two DB, you can design and analyze beautiful and insightful maps, check out incredible location intelligence projects, and get started for free@CartoDB.com. gallery hey, everyone. Welcome to a new episode of Data stories. Hey, Moritz, what's up?",
+      "id": "ep_77_ut_1"
+    },
+    {
+      "end": 60446,
+      "speaker": "Moritz Stefaner",
+      "start": 49448,
+      "text": "Hey, Enrico. Summertime. And I'm preparing my trip to the US, so I'll be touring the US in three weeks starting on Sunday, so I'm excited. Yeah.",
+      "id": "ep_77_ut_2"
+    },
+    {
+      "end": 61510,
+      "speaker": "Enrico Bertini",
+      "start": 60510,
+      "text": "You are touring?",
+      "id": "ep_77_ut_3"
+    },
+    {
+      "end": 71286,
+      "speaker": "Moritz Stefaner",
+      "start": 61622,
+      "text": "Yeah. And you know this thing when you have a big presentation to give and then you really want to nail it, and then you start rewriting old flash based web applications instead?",
+      "id": "ep_77_ut_4"
+    },
+    {
+      "end": 73638,
+      "speaker": "Enrico Bertini",
+      "start": 71350,
+      "text": "Yep, that's what I did this week.",
+      "id": "ep_77_ut_5"
+    },
+    {
+      "end": 87258,
+      "speaker": "Moritz Stefaner",
+      "start": 73686,
+      "text": "So good for me. Presentation should be fine, too. Yeah, I just had to redo the twitter visualization I did. Oh, I love that. I had to rebuild it. What can I do?",
+      "id": "ep_77_ut_6"
+    },
+    {
+      "end": 91414,
+      "speaker": "Enrico Bertini",
+      "start": 87406,
+      "text": "Oh, yeah, yeah, yeah, yeah, yeah. So where are you going? You're going to IO?",
+      "id": "ep_77_ut_7"
+    },
+    {
+      "end": 92842,
+      "speaker": "Moritz Stefaner",
+      "start": 91754,
+      "text": "Minneapolis.",
+      "id": "ep_77_ut_8"
+    },
+    {
+      "end": 94322,
+      "speaker": "Enrico Bertini",
+      "start": 92978,
+      "text": "Minneapolis? Yeah.",
+      "id": "ep_77_ut_9"
+    },
+    {
+      "end": 96746,
+      "speaker": "Moritz Stefaner",
+      "start": 94418,
+      "text": "Vancouver, San Francisco, and Boston.",
+      "id": "ep_77_ut_10"
+    },
+    {
+      "end": 98642,
+      "speaker": "Enrico Bertini",
+      "start": 96890,
+      "text": "Nice, nice.",
+      "id": "ep_77_ut_11"
+    },
+    {
+      "end": 100402,
+      "speaker": "Moritz Stefaner",
+      "start": 98778,
+      "text": "How about you? What are you up to?",
+      "id": "ep_77_ut_12"
+    },
+    {
+      "end": 158142,
+      "speaker": "Enrico Bertini",
+      "start": 100538,
+      "text": "I'm good. Enjoying summer a little bit. Still a lot of work to do, but it's fine. I'm done with teaching, which is good. I just have a brief update. I'm really happy about our recent project. I don't know if I've ever mentioned that on the podcast, but we are working with ProPublica and developing some software to help them look into millions of reviews from Yelp. They just published their second article based on the analysis that they conducted with this tool, and I'm really excited. Some of the stuff that we do is actually useful, at least to some people within ProPublica. So they've been analyzing Yelp reviews to actually look into privacy issues and the fact that doctors sometimes reply to reviews, customer reviews, and disclose information that they are not allowed, allowed to disclose. So it's serious stuff. It's fun. Yeah.",
+      "id": "ep_77_ut_13"
+    },
+    {
+      "end": 161982,
+      "speaker": "Moritz Stefaner",
+      "start": 158198,
+      "text": "So you will put the article in the show notes? Yeah, I will.",
+      "id": "ep_77_ut_14"
+    },
+    {
+      "end": 162478,
+      "speaker": "Enrico Bertini",
+      "start": 162038,
+      "text": "Of course.",
+      "id": "ep_77_ut_15"
+    },
+    {
+      "end": 164434,
+      "speaker": "Moritz Stefaner",
+      "start": 162526,
+      "text": "Absolutely. Very nice. Sorry. Read it.",
+      "id": "ep_77_ut_16"
+    },
+    {
+      "end": 176746,
+      "speaker": "Enrico Bertini",
+      "start": 167254,
+      "text": "So let's start with our new guest today. I'm really excited to have Matt Daniels on the show from polygraph. Hey, Matt, how are you?",
+      "id": "ep_77_ut_17"
+    },
+    {
+      "end": 178210,
+      "speaker": "Matt Daniels",
+      "start": 176870,
+      "text": "I'm great. How are you?",
+      "id": "ep_77_ut_18"
+    },
+    {
+      "end": 219648,
+      "speaker": "Enrico Bertini",
+      "start": 178322,
+      "text": "I'm good, I'm good. So Matt is the main person behind polygraph, and he publishes amazing. How do you call that? I mean, interactive articles with visualizations and data analysis, mostly a lot of them on music. And that's one of the reason why I'm so excited. But also many other topics, including, I don't know, gender biases and stuff like that. So, Matt, can you give us a little bit of an introduction about who you are, what you do, maybe even why you do it? And then we can move on to a couple of projects we want to talk about.",
+      "id": "ep_77_ut_19"
+    },
+    {
+      "end": 294924,
+      "speaker": "Matt Daniels",
+      "start": 219776,
+      "text": "Sure. Yeah. So I started coding pretty heavily about a year and a half ago, and before then I'd always published weird things on the Internet. I always just had side projects on top of my full time job. And around February of 2015, I stopped doing them aside projects and started doing them full time. So invested heavily in just learning how to code, and instead of just doing these small side projects, spending my waking hours just doing one project at a time, rather than dividing my time between a full time gig and hobbies, nights and weekends, I've been doing these side projects and publishing them on my personal site, essentially like a mattdaniels.com. and then about six or seven months ago, I started another site so that it could grow bigger than myself and have a little bit more serendipity in terms of how the stories could be larger than the individual pieces and turn to just a broader idea. So I just registered domain polygraph and then have been making things ever since.",
+      "id": "ep_77_ut_20"
+    },
+    {
+      "end": 303086,
+      "speaker": "Enrico Bertini",
+      "start": 297334,
+      "text": "So let me just ask you this. So this means that you started coding, what, one year ago or.",
+      "id": "ep_77_ut_21"
+    },
+    {
+      "end": 311334,
+      "speaker": "Matt Daniels",
+      "start": 303110,
+      "text": "So I did my first real JavaScript project, roughly February of 2015. Yeah. Wow.",
+      "id": "ep_77_ut_22"
+    },
+    {
+      "end": 317222,
+      "speaker": "Enrico Bertini",
+      "start": 311414,
+      "text": "I mean, when I look at what you do on the web, it's amazing. Congratulations.",
+      "id": "ep_77_ut_23"
+    },
+    {
+      "end": 318314,
+      "speaker": "Matt Daniels",
+      "start": 317398,
+      "text": "Thank you.",
+      "id": "ep_77_ut_24"
+    },
+    {
+      "end": 321434,
+      "speaker": "Enrico Bertini",
+      "start": 318814,
+      "text": "It doesn't take long to learn coding.",
+      "id": "ep_77_ut_25"
+    },
+    {
+      "end": 325234,
+      "speaker": "Moritz Stefaner",
+      "start": 323934,
+      "text": "It's so easy.",
+      "id": "ep_77_ut_26"
+    },
+    {
+      "end": 389916,
+      "speaker": "Enrico Bertini",
+      "start": 327534,
+      "text": "No, because, you know, I mean, I'm saying that because you have those people who are like, do I need to learn coding in order to do visualization? Well, not necessarily, but if you do, I mean, you have so many more options. So I think it's. You are a good, good story to tell. Yeah. So, Matt, I would like to dive into a couple of projects we selected directly. You have many, many more, and I really encourage our listeners to just go to your website, which is polypgraph co, and see all the amazing projects you published there. So we will be focusing on a couple of them. And I would like to start with one about music, and it's called the most timeless songs of all time. Can you briefly introduce this project and tell us how you got started there, how you generated the idea and then how you realized the project.",
+      "id": "ep_77_ut_27"
+    },
+    {
+      "end": 538914,
+      "speaker": "Matt Daniels",
+      "start": 390100,
+      "text": "Yeah, this was actually the first project on polygraph, and by the way, we've upgraded the domain to polygraph. Cool. No hyphens and codes and just way easier to remember in water cooler conversation. Yeah. So the timeless project was actually the impetus for the site. It was the first project that I decided not to put on my personal blog and make it on this new thing. And the story behind that project was, and this is like, about nine months ago, September of 2015, is I was walking down the street listening to, I think, back that thing up to keep it safe for work, this podcast by juvenile. And I was like, this is a good song, but I wonder if. If my children's children will hear this song and think about it as fondly as I think about songs from the fifties, like by Frank Sinatra or Ida James. Well, they think it's really absurd that this was a thing in the early two thousands. So from there I was like, man, it'd be really interesting to see what's still popular today from maybe ten or 1520 years ago as a way to start predicting what is standing the test of time. And will there be an instance where in 2030 or 2040, people will look at our music and it will be just as much in the zeitgeist as a Frank Sinatra is today? So, yeah, that was kind of the spirit of the project. And then the way it manifested into the article was getting Spotify data for a full year. We used 2014 data since this was published in 2015, late 2015, and looked at what is the most popular music today from the nineties, the eighties, the seventies, sixties, etcetera, on Spotify, which is a really interesting measure when you consider that, all right, music from the fifties is now 65 years old. We probably are at a point where it's reached an equilibrium where, yes, our children's children will probably listen to the same sixties music as we did. So, yeah, so we had a really, we had a lot of interesting trend data to work off of. And, yeah, that was the spirit of the project. So you can go to the site and look at what is the most popular song from the nineties and also see where back that thing up stands.",
+      "id": "ep_77_ut_28"
+    },
+    {
+      "end": 655944,
+      "speaker": "Enrico Bertini",
+      "start": 539854,
+      "text": "So I'm wondering if we can try to describe a little bit how this page looks like. I'll try myself to say something about it. So I think, and please correct me if I'm wrong, most of your projects have a similar style. You start with a big title, some text then you have some interactive charts, then more text, then more interactive charts, something I really, really like. And you talk about the data analysis behind it, how you collect the data and provide quite a few details, and then you do the analysis itself and describe what this means. So in this case, you have one chart where there are, like, songs placed in a graph, and you can see how many songs from the nineties. Right. It's called what's remembered from the nineties. And you have each song represented by one dot with the face of the main singer behind it. And you can see on the far right there is Kurt Cobain with the most popular song ever. It's, what, 50. More than 50 million plays and. Yeah. And you have many others on the left. Yeah, it's very interesting. And I think what I really like of the analysis that you made and how you comment on this is that, especially on this specific piece, you've been commenting on the idea that there is a difference between songs that are still popular today after many years, and now they scored back then in Billboard and similar charts. Right. And not necessarily the most popular song back then are those that are still popular today.",
+      "id": "ep_77_ut_29"
+    },
+    {
+      "end": 792342,
+      "speaker": "Matt Daniels",
+      "start": 656364,
+      "text": "Yeah, I think that's the most interesting part from a story perspective, really ignoring the visuals for a second, is that there's definitely a tension between what's past popularity not necessarily correlating highly with present day popularity. And the implication of that is you can take single ladies by Beyonce or a Taylor Swift song and say, okay, that's so culturally pervasive, we can't imagine a world where your grandchildren would not know that song. But there are also plenty of examples from the fifties and sixties and seventies where you had effectively, the singleties of their day. The number one songs that were so pervasive and charted at number one for so long that you couldn't imagine a world where people in 2016 would not be listening to it. But there are actually plenty of examples. Then, actually, the inverse is also true. You have arguably underground songs, kind of like Alana Del Rey song from today that surely is popular, but isn't Taylor Swift, Beyonce popular. And they have actually grown significantly in popularity over time, far outpacing the popularity that they had when they were released. A good example of this is Eddie James at last, which actually charted on Billboard, however, did not chart very well. Not in the top ten, just for a week or so, barely registered as, for some reason or another, slowly grown in popularity over time. And I think it's now like a popular wedding song. There's lots of reasons why it's played so often. I think it was played at one of us, President Obama's. Maybe it was his inauguration. Either way, it's used very often. It's in a lot of soundtracks and a lot of samples. We could argue about why it's popular today, but regardless, it has gotten more popular. So those are the types of interesting trends to find in, in the charts. And because they're coded, you can look for the songs and look for the trends and see things that I would have never been able to see on my own.",
+      "id": "ep_77_ut_30"
+    },
+    {
+      "end": 807934,
+      "speaker": "Moritz Stefaner",
+      "start": 792438,
+      "text": "And you use the Spotify API for that, for the current place. Right? Is that an API that gives you a lot of access to the low level data, or did you have to do a lot of tricks to extract the relevant information? How is it working with that data source?",
+      "id": "ep_77_ut_31"
+    },
+    {
+      "end": 852966,
+      "speaker": "Matt Daniels",
+      "start": 808094,
+      "text": "Spotify only releases lifetime plays for the top ten songs for each artist. So this was done via a private data dump from one of their data partners, who is now owned by different companies, so they kind of sever ties. However, I had access to the data via them, and then they went. And then once the project was finished, we had to go to Spotify and say, hey, we made this thing with your data. Are you cool with us publishing on the Internet? And they could be like, absolutely not, shut it down, or they would be like, this is great. So they fortunately said, this is great. And, yeah, we went public with it.",
+      "id": "ep_77_ut_32"
+    },
+    {
+      "end": 857350,
+      "speaker": "Moritz Stefaner",
+      "start": 853110,
+      "text": "I mean, in the end, it's a great advertisement for them, so I think they should have paid you some money.",
+      "id": "ep_77_ut_33"
+    },
+    {
+      "end": 861038,
+      "speaker": "Matt Daniels",
+      "start": 857542,
+      "text": "I know, right? Yeah, but at least.",
+      "id": "ep_77_ut_34"
+    },
+    {
+      "end": 872904,
+      "speaker": "Moritz Stefaner",
+      "start": 861086,
+      "text": "Yeah, you get to use the data, so that's already good. Yeah, and. But you're saying the top ten songs per artist are available nevertheless, so you could do something similar, but a bit more like, not as complete.",
+      "id": "ep_77_ut_35"
+    },
+    {
+      "end": 878212,
+      "speaker": "Matt Daniels",
+      "start": 873684,
+      "text": "Yeah, it's actually not available via the API, so you have to go into.",
+      "id": "ep_77_ut_36"
+    },
+    {
+      "end": 880844,
+      "speaker": "Moritz Stefaner",
+      "start": 878268,
+      "text": "Go to the artist pages and scrape everything.",
+      "id": "ep_77_ut_37"
+    },
+    {
+      "end": 928966,
+      "speaker": "Matt Daniels",
+      "start": 881004,
+      "text": "Hey, that was v one for me. I spent a full day just scraping air quotes, going to the app, and typing in the plays into a spreadsheet. So once I did that, I had a good idea that the data would be interesting, and then from there, actually went to the data partner and got the real data, which is actually a mess. It was a very complicated process. It wasn't easy as like, oh, here's the data. Believe it or not, like, getting plays from out of. Getting plays for a song like Atlas is a very complex thing. And then the API for Spotify actually has popularity data, but it's indexed to 100, so you can actually do something very similar. It just won't be hard view counts or play counts for the songs.",
+      "id": "ep_77_ut_38"
+    },
+    {
+      "end": 929278,
+      "speaker": "Moritz Stefaner",
+      "start": 929030,
+      "text": "Yeah.",
+      "id": "ep_77_ut_39"
+    },
+    {
+      "end": 967368,
+      "speaker": "Enrico Bertini",
+      "start": 929326,
+      "text": "So can you briefly describe how the process works, for instance, for this project? Right. So I guess you start from a question and then you go about trying to see if you have data to answer this question. And how do you decide on what visualizations to use, how to design the page itself? What is the narrative structure? I mean, it looks to me that you are playing a lot with different ways of giving a structure to your story. So how do you do that?",
+      "id": "ep_77_ut_40"
+    },
+    {
+      "end": 1093298,
+      "speaker": "Matt Daniels",
+      "start": 967456,
+      "text": "Yeah, a lot has changed over the past nine months in terms of designing these articles with the one that we're talking about. Generally I try to avoid any initial analysis. I have an idea of what the data looks like, but I don't really know what it says until I make the chart, which is a little bit counterintuitive. I think most people from a data visualization perspective will do the SQL queries, do the analysis in Excel, run the models, run the regressions, and then have an answer and then try to visualize the analysis and say, okay, here's the thing that I think is interesting in the data. So they have an insight and they try to represent that insight via some chart. So I don't do any of that. And it's very problematic in many ways because I don't know what I'm trying to visualize. So instead of trying to visualize the insight, I'm actually trying to visualize the data and the story. So I avoid any SQL queries or Excel analysis. I don't actually know what the data says until I actually see the D3 visualization in the browser. So for example, if I wanted to visualize the top 90 songs, this chart specifically was very weird, but I didn't know what would be number one. I mean, I had an idea, I peaked, but I didn't know what would be number two and number three until the chart was made. And I was like, oh, this is interesting. Look how far number one is from number three. Or I would make the chart and it would be maybe a boring table and I'd be like, oh, here's what's number one, number three. But it's really not that I don't see anything interesting in this. So I would try another chart until I really see something interesting in terms of what the variance is among the top 50, which is really high for the nineties songs on Spotify. So really it's just keep trying different visualizations until you see answers to your initial question, which was in this case what is still popular today from past decades.",
+      "id": "ep_77_ut_41"
+    },
+    {
+      "end": 1103202,
+      "speaker": "Moritz Stefaner",
+      "start": 1093386,
+      "text": "And will you write the text and do the sequencing of the charts afterwards? Basically, when you have a good idea of what seems to be interesting and what seems to be a good way to present the topic.",
+      "id": "ep_77_ut_42"
+    },
+    {
+      "end": 1140366,
+      "speaker": "Matt Daniels",
+      "start": 1103298,
+      "text": "Yeah. The first chart is really the answer to the question, because you expect nobody's going to scroll past the first chart, which is generally always true. Yeah. And then the narrative structure is more of a necessity. It's a burden in my mind. I've actually, and this is a very divisive thing that I do as well, is I'm trying to kill all pros in my work, which is weird because you need prose to explain the story, but actually, I think it's a little bit of a crutch. It means that I need the prose to explain what the visuals say, rather than the visuals to explain what the visuals say. And I know that. Yeah.",
+      "id": "ep_77_ut_43"
+    },
+    {
+      "end": 1155218,
+      "speaker": "Moritz Stefaner",
+      "start": 1140390,
+      "text": "But you can also give background or talk about causality behind, you know, the plain surface information that everybody sees. Right. I mean, I think that can be quite valuable. I mean, it's a bit pointless to say, like, and as we can see, blah is number one, you know, that's like. Yeah, duh.",
+      "id": "ep_77_ut_44"
+    },
+    {
+      "end": 1203674,
+      "speaker": "Matt Daniels",
+      "start": 1155306,
+      "text": "Yeah, yeah. But you're right. Like, it's in the narrative. I went through exactly what I've talked with you all, which is you have songs that were effectively the single ladies of the fifties that aren't popular today. And it's really hard to say in a chart and really easy to say in prose. However, I am trying to get to a point where I can carry the story with just visuals and as little sentences as possible. From a work standpoint, it is making that first chart, making sure it answers that initial question that I had, and then flushing out the nuances in the question, such as that disparity between historic and present day popularity in further charts, and then, obviously, some pros to connect everything together.",
+      "id": "ep_77_ut_45"
+    },
+    {
+      "end": 1292754,
+      "speaker": "Enrico Bertini",
+      "start": 1204174,
+      "text": "Yeah. But I have to say, my personal experience reading using your projects is that I really like the text part that you produce and especially the sequence. I, for instance, like the fact that you start from a clear question and it's an interesting question, then you go about trying to answer that specific one, and then you make it broader. Right. And another thing I like is that you first try to list the facts, what you can read out of the chart. But towards the end of your article, you kind of try to see, to generate hypothesis about what phenomenon is behind, or what causality exists behind the facts that you extracted out of data. I don't know if you do this on purpose or just you happen to do it this way, but I find it really, really interesting. So, for instance, just to give you an example, in the same piece, we are talking about the timeless songs. I think towards the end of your article, you talk about why does this happen? Right? And you come up with hypothesis about why does this happen? That some songs are popular when they are published, but still they are no longer popular after ten or 20 years. And yeah, I found this really interesting.",
+      "id": "ep_77_ut_46"
+    },
+    {
+      "end": 1326840,
+      "speaker": "Matt Daniels",
+      "start": 1293334,
+      "text": "Yeah, that is definitely an instance where I was really happy with the result. And I think we're going to talk about another project where I did the exact opposite. So I think there's definitely benefits of reflecting on the visualization and adding the expert's opinion on what the charts say. And there's, which we'll talk about soon, a big benefit of on purpose not doing that and what that can elicit from the readers and the Internet in terms of how they respond to the project.",
+      "id": "ep_77_ut_47"
+    },
+    {
+      "end": 1369934,
+      "speaker": "Enrico Bertini",
+      "start": 1327032,
+      "text": "Yeah, yeah. And another aspect, I just want to briefly mention that too. You seem to make the charts sometimes. So the first chart typically is the one that tries to answer the narrow question that you started with. But then as you progress, you give more freedom to the reader to explore some aspects on his own. Right. Which is also interesting. I think this has been called in the past something like the martini glass structure. So I guide you through some data facts, and as soon as you know enough about it, then you are ready to kind of like explore it on your own a little bit.",
+      "id": "ep_77_ut_48"
+    },
+    {
+      "end": 1445632,
+      "speaker": "Matt Daniels",
+      "start": 1370314,
+      "text": "Yes, absolutely. That is a thing I've done on every project, which is not starting with the whole data set. If I were to start off with a chart that is just purely about the present day popularity of older music, and I think the whole data set was tens of thousands of songs, it'd just be an overwhelming visualization. People will walk into it and say, this is too complex. I don't know what it says. So I purposefully narrowed the data set just to the nineties. And I've done this on almost every project just to get to almost like a moose bouche for the article of like, okay, I'm picking up what you're putting down. This is an article about whether no diggity is still popular today relative to smells like teen spirit. And that, I think, builds the mental model to then go look at 50,000 songs as play counts by by year. And then also their historic billboard data, which is again, like we're talking about hundreds of thousands of data points. But once they have that mental model built with that small chart. It's a lot easier to process. So you're absolutely right, that is like a visual trick I've tried to employ on almost all the articles.",
+      "id": "ep_77_ut_49"
+    },
+    {
+      "end": 1455684,
+      "speaker": "Moritz Stefaner",
+      "start": 1445808,
+      "text": "Yeah, this framing, like starting with the right question or like what is the entry point to the whole thing, can totally make or break these sort of complex projects.",
+      "id": "ep_77_ut_50"
+    },
+    {
+      "end": 1545914,
+      "speaker": "D",
+      "start": 1458584,
+      "text": "This is a good time to talk about our sponsor this week. This episode of data stories is sponsored by CartoDB. CartoDB is an open, powerful, and intuitive platform for discovering and predicting the key facts underlying the massive location data in our world. And recently they announced to partner with Mapzen to provide location data services, which you can use either inside CartoDB or even license to use in your application. They provide custom base maps, which are customized raster and vector maps supported with worldwide coverage. They also offer geocoding services so you can turn plain text into location coordinates using the built in Geocoder, and you can custom geocode your data by country, county or municipality, choose from high accuracy street addresses, or map your locations by any global postal code. And they also provide routing services. So based on OpenStreetMap's road network data car, two DB's routing services provide easy driving, walking and cycling, and turn by turn directions. And it also includes a cool feature called time and distance isolines, so you can draw on a map how far you can actually get with 20 minutes of walking, for instance, from a given point. With cartodB, analyzing and designing beautifully insightful maps has never been easier. Check out incredible location intelligence projects and get started for free@CartoDB.com. gallery and now back to the show.",
+      "id": "ep_77_ut_51"
+    },
+    {
+      "end": 1569664,
+      "speaker": "Moritz Stefaner",
+      "start": 1549254,
+      "text": "There's another one I would like to talk about. Actually, it's two. So it's a duo of projects, as far as I understand it. So you did a look into Hollywood's gender balance or the gender divide, maybe. And yeah, there's actually two articles on polygraph related to that. Can you tell us a bit about how that story unfolded?",
+      "id": "ep_77_ut_52"
+    },
+    {
+      "end": 1627300,
+      "speaker": "Matt Daniels",
+      "start": 1570244,
+      "text": "Yeah, I think we should talk about the latter one, but certainly talk about the first one as it relates to the latter. So the project started with, again, a question around the Bechdel test, which is for those not familiar with it, it started almost as a semi joke from a comic strip written by Alison Bechdel and another co worker. And they had this comic strip that was again, a half joke about the lead in the comic, only wanting to see movies that fit three different criteria. And the criteria are there are two women who talk to each other at some point in the movie about something other than a man. And there's some additional criteria that people have added over the years. But that's the spirit of it. It seems like an embarrassingly low bar that there are two movie easily passes that, right?",
+      "id": "ep_77_ut_53"
+    },
+    {
+      "end": 1635420,
+      "speaker": "Moritz Stefaner",
+      "start": 1627332,
+      "text": "When you hear that, it's like, how could there be a movie? At least once the two women talk about something. I mean, how hard can it be, right?",
+      "id": "ep_77_ut_54"
+    },
+    {
+      "end": 1756846,
+      "speaker": "Matt Daniels",
+      "start": 1635532,
+      "text": "How hard can it be? Well, that's the joke is that. I mean, and the sad fact of reality is a lot of movies don't pass this test. In fact, there's a site kind of like Wikipedia called Bechdeltest.com. or you can go and Wikipedia esque crowdsource whether movies pass or fail this test. So you could probably go to this site and see any movie that's in the box office today and either see its rating or add your own rating. And by rating I mean whether it passes or fails the test and each of the three criteria. So I knew about this test and had a question in my mind that the results of the tests were less a function of systemic sexism in that we just don't want two women talking to each other about men, but rather most movies are written by men. And you would expect a bunch of men in a room to not write very inclusive stories from a gender perspective. So the question I started with was, if you took all the movies that pass or fail this test, to what extent is that a function of the gender of the writers and the producers and the directors? So there was roughly about 5000 films on becktoltest.com, comma scraped all those films, got the results and yeah, it was pretty obvious. Like when you have at least one woman on the writing team, the rate at which movies pass the test goes up dramatically. And when there's an all women writing team, it's something like 95% of films pass this test. When it's just men, it's about 55 or 60% pass the test. So it's pretty obvious. And who knows if it's right? I didn't run any crazy modeling and correlation. I was just like, here's the data. If you want to question the statistical significance, everything's open source and downloadable and you can do your own modeling. But here's just the high level results for the layperson. And the response to that project was actually pretty embarrassing from the Internet. And by embarrassing I mean so did.",
+      "id": "ep_77_ut_55"
+    },
+    {
+      "end": 1758918,
+      "speaker": "Moritz Stefaner",
+      "start": 1756870,
+      "text": "You meet the Reddit crowd or what happened?",
+      "id": "ep_77_ut_56"
+    },
+    {
+      "end": 1855018,
+      "speaker": "Matt Daniels",
+      "start": 1759006,
+      "text": "Oh, I love the Reddit crowd. I live for Reddit. Comments? Yeah, it was pretty terrible. I don't want to go into depth about exactly what was said, but most people, the reason why the Bechdel test exists in many ways is because there is a, well, almost like undercurrent of what is perceived to be poor gender inclusivity in film. However, people perceive that there's reasons for that. Such as, all right, we have a lot of war movies and historic movies, like, are you gonna cast all women in saving Private Ryan? Which is a fair point in some ways. Yeah, maybe. However. However, that's one movie, and Hollywood puts out lots of movies. So what would often happen is we get stuck in the discourse of gender inclusivity around these points of, well, what do we do about war films? And people pay for movies. So if they're paying for all male movies, do we want to change the economics? And should we censor writers? Should we force them to have more gender inclusive movies? So there was just a lot of things wrong with the current discourse. And what people got hung up on, on the Bechdel test was a very biased test. And when you look at whether movies are pass or fail this test, the test is so emotionally charged. And not only that, it's kind of a crappy test. So you have movies like Jurassic World that pass this test, but really don't do anything from a gender inclusivity perspective for women.",
+      "id": "ep_77_ut_57"
+    },
+    {
+      "end": 1860562,
+      "speaker": "Moritz Stefaner",
+      "start": 1855106,
+      "text": "It's also very binary. It's like either you pass or fail. I mean, it's as if it was an exam, but I mean.",
+      "id": "ep_77_ut_58"
+    },
+    {
+      "end": 1878862,
+      "speaker": "Matt Daniels",
+      "start": 1860658,
+      "text": "Yeah. So again, I had a lot of poor response from the Internet on this project, even though I think it did pretty well traffic wise. And the traffic was mostly the echo chamber of people who already were complaining about gender inclusivity. So in terms of improving the discourse on the Internet around this topic, it really didn't do anything.",
+      "id": "ep_77_ut_59"
+    },
+    {
+      "end": 1882414,
+      "speaker": "Moritz Stefaner",
+      "start": 1878958,
+      "text": "Just had more outrage on both sides and a lot of traffic to your side, right?",
+      "id": "ep_77_ut_60"
+    },
+    {
+      "end": 1908250,
+      "speaker": "Matt Daniels",
+      "start": 1882494,
+      "text": "Yeah, yeah, yeah. That's what I see. Yeah. Well, I'm not trying to do clickbait. I think the story was like, can we improve the discourse around this topic in the same way, very lightly? We did that with the timeless music project of can you improve the discourse of why music stands the test of time? Why do some tracks get lost in time and some get only more popular?",
+      "id": "ep_77_ut_61"
+    },
+    {
+      "end": 1918294,
+      "speaker": "Moritz Stefaner",
+      "start": 1908282,
+      "text": "Yeah, there's so much anecdotal info about this. Everybody comes up with one example or five examples, and I think it's super interesting to look at 5000 and see how it plays out. And I think this is what you do, right?",
+      "id": "ep_77_ut_62"
+    },
+    {
+      "end": 1927548,
+      "speaker": "Matt Daniels",
+      "start": 1919604,
+      "text": "The sequel to the Bechdel Test project was almost a revenge project. I was so angry about it.",
+      "id": "ep_77_ut_63"
+    },
+    {
+      "end": 1929544,
+      "speaker": "Enrico Bertini",
+      "start": 1927636,
+      "text": "This time I'm going to do it right.",
+      "id": "ep_77_ut_64"
+    },
+    {
+      "end": 2012646,
+      "speaker": "Matt Daniels",
+      "start": 1929964,
+      "text": "Yeah, seriously, that is exactly what happened. So I recruited some friends and, well, the Bechdel test project was actually done with a woman in film, so that was a collaboration. And then the second project, I brought in another woman who's a real engineer. Again, I just taught myself Dakota a year ago, and she helped out getting the data for the revenge project, which was to kill the Bechdel test as this measure for gender inclusivity and actually get better data, which we decided would be just looking at raw dialogue by gender. So instead of saying, okay, we're going to have this imaginary test that Alison Bechdel used as a half joke in a comic strip 40 years ago, we're going to have a another way to quantify gender inclusivity using just the percent of dialogue from screenplays that are men versus women. So that's, again, not a perfect measure, but in my opinion, way more way an improvement over the Bechdel test for all the reasons already discussed. So that was the second project and the one I really want to talk about, which is film dialogue broken down by gender and age. And that project came out a few months or in April, and it did really well. And I think is also directionally more of the type of work that I'm hoping to do in the near future.",
+      "id": "ep_77_ut_65"
+    },
+    {
+      "end": 2016238,
+      "speaker": "Moritz Stefaner",
+      "start": 2012790,
+      "text": "So what did you find? Now everybody wants to know, of course.",
+      "id": "ep_77_ut_66"
+    },
+    {
+      "end": 2083565,
+      "speaker": "Matt Daniels",
+      "start": 2016366,
+      "text": "Yeah. So I encourage everyone to go look, which is polygraph cool films. And the, the spirit of, I think the article is just to show the data. And a lot of people emailed me and said, well, why didn't you publish a result of. Okay, you have. I don't know. I don't even know what the number is. Like 70% male, 30% female. I purposely didn't do that. It is a visual of 2000 films, essentially a histogram of 2000 films, shaded and plotted by the percent of men, male dialogue versus women. And what you see is basically the balance very much weighted towards the male side. And you can actually look at the films. So there's no abstractions, there's no overall percent. It is hover over jurassic world and actually see the number and also the character breakdown and as much detailed data as we could get. So this was a very, very complex project.",
+      "id": "ep_77_ut_67"
+    },
+    {
+      "end": 2098501,
+      "speaker": "Moritz Stefaner",
+      "start": 2083629,
+      "text": "And you can compare by genre. You even looked at the actors ages, which I found super interesting. Like, is there a difference? You know, how, how old the different roles are spoiler yeah, women are much younger in films. And so this is all very interesting.",
+      "id": "ep_77_ut_68"
+    },
+    {
+      "end": 2162758,
+      "speaker": "Matt Daniels",
+      "start": 2098597,
+      "text": "I wanted to shut down the anecdotal. Well, what about war films comments? Because. Which are valid again, but it just like, it was totally anecdotal. I would be like, well, yeah, that's fair, but most movies aren't war films. So the point was to get as, quantify and visualize all the data down to number of lines. For Chris Evans in Jurassic World, I think that's the actor. So we're getting as detailed as possible. So if people want to say, well, what about x? You can go look at that data without knowing how to code and downloading all the data from GitHub. Like every visual is to support any form of exploration that you have in your mind, down to evolution of the data by decade, down to just Disney movies. So the purpose of this project was really to almost build a terminal or a console or a dashboard for this data that otherwise would be stuck in these abstractions that you typically see in academic studies around gender inclusivity.",
+      "id": "ep_77_ut_69"
+    },
+    {
+      "end": 2203004,
+      "speaker": "Enrico Bertini",
+      "start": 2162916,
+      "text": "Yeah, I think that's an aspect that I really like. I think here you found very nice balance between making the data accessible, but at the same time not trying to impose any specific outcome or even hypothesis. I really like, I cut this sentence from your text. You write, we didn't set out trying to prove anything, but rather compile real data. We framed it as a census rather than a study. And I really like, I really, really like that. Yeah. Maybe you can comment a little bit more on this kind of mindset.",
+      "id": "ep_77_ut_70"
+    },
+    {
+      "end": 2206984,
+      "speaker": "Matt Daniels",
+      "start": 2203584,
+      "text": "Reddit got really angry about that as well. They were like, how can you publish it?",
+      "id": "ep_77_ut_71"
+    },
+    {
+      "end": 2209484,
+      "speaker": "Moritz Stefaner",
+      "start": 2207024,
+      "text": "Now he's trying to sneak out of his responsibility.",
+      "id": "ep_77_ut_72"
+    },
+    {
+      "end": 2241024,
+      "speaker": "Enrico Bertini",
+      "start": 2210624,
+      "text": "Yeah, it's a fine line, right? Because, yeah, I don't know, I find that this is a little, a big struggle for people. Like, you spend a lot of time trying to analyze data and make the result of this analysis digestible by people, right? And at the same time trying to find the right balance between not imposing your own view but not making the whole thing too hard to understand that you have to start from scratch. Right?",
+      "id": "ep_77_ut_73"
+    },
+    {
+      "end": 2253146,
+      "speaker": "Matt Daniels",
+      "start": 2241594,
+      "text": "If this project was to prove a, whether Hollywood is gender inclusive, it would go nowhere. Because if that's, if that's the hypothesis, anyone going into this with any bias is going to be like, well, this is total bullshit for XYZ.",
+      "id": "ep_77_ut_74"
+    },
+    {
+      "end": 2279648,
+      "speaker": "Moritz Stefaner",
+      "start": 2253170,
+      "text": "You can always take that apart. Yeah, yeah, that's the thing. I mean, you analyze pop culture with numbers, right? And this camp, this is, I think it's always interesting. And there's always super much to be learned, but it's pretty much impossible, I think, to prove anything cultural, like, just with numbers. You know, there's always like a short coming in. Oh, you could also have measured this, or you're not taking into account that. Or, you know, it's, you can just show.",
+      "id": "ep_77_ut_75"
+    },
+    {
+      "end": 2280160,
+      "speaker": "D",
+      "start": 2279816,
+      "text": "Yeah.",
+      "id": "ep_77_ut_76"
+    },
+    {
+      "end": 2281608,
+      "speaker": "Moritz Stefaner",
+      "start": 2280192,
+      "text": "One perspective. I think that's clear.",
+      "id": "ep_77_ut_77"
+    },
+    {
+      "end": 2286256,
+      "speaker": "Matt Daniels",
+      "start": 2281656,
+      "text": "Yeah. Which is why you can't prove anything. So someone said, well, you haven't.",
+      "id": "ep_77_ut_78"
+    },
+    {
+      "end": 2288168,
+      "speaker": "Moritz Stefaner",
+      "start": 2286320,
+      "text": "Data is better than no data, right?",
+      "id": "ep_77_ut_79"
+    },
+    {
+      "end": 2349182,
+      "speaker": "Matt Daniels",
+      "start": 2288336,
+      "text": "Yeah. Someone had written a like 3000 word comment on Reddit that was picking apart everything. And then the response to this comment was so beautiful. It was like, this is like death by a thousand nitpicks, or this is a well written response that ignores the overwhelmingly, glaringly obvious point in the data, which is fine. But again, my point wasn't to prove anything. It was that the only data we had around gender inclusivity was anecdotal. And the Bechdel test, which is a pretty sad state when we're talking about this in so many forms of culture around the oscars are so white in America, and, and the Gina Davis Institute, which is constantly trying to promote more women and director roles. So again, the point of this project was essentially me acting as a census, as a data gathering instrument. And for that purpose, I tried to avoid any modeling and just present the data.",
+      "id": "ep_77_ut_80"
+    },
+    {
+      "end": 2399136,
+      "speaker": "Enrico Bertini",
+      "start": 2349278,
+      "text": "Yeah, yeah. But I have to say, I think here you're doing something really important because, I mean, when you think about what kind of, who are the figures out there who are proposing ideas based on data, traditionally, on the one hand, you have scientists, on the other hand, you have people like journalists and politicians, and all of them, one way or another, have some kind of agenda, or at least an hypothesis to prove or an intent to persuade you about something. And you're kind of like moving away from that here and still make the data and the ideas behind this data accessible. And I find this format really, really interesting.",
+      "id": "ep_77_ut_81"
+    },
+    {
+      "end": 2403912,
+      "speaker": "Matt Daniels",
+      "start": 2399280,
+      "text": "That was one of the top comments from the Internet was, what is your agenda on this?",
+      "id": "ep_77_ut_82"
+    },
+    {
+      "end": 2405856,
+      "speaker": "Enrico Bertini",
+      "start": 2403968,
+      "text": "You have no agenda, I guess, right?",
+      "id": "ep_77_ut_83"
+    },
+    {
+      "end": 2454236,
+      "speaker": "Matt Daniels",
+      "start": 2405960,
+      "text": "Well, yeah, yeah. I mean, I had an agenda of like, get the data, but my agenda wasn't like, overhaul Hollywood. My agenda was we're sitting around having anecdotal discussions about a thing that is easily quantifiable and just no one wanted to quantify it. And there's a reason why no one wanted to quantify it because it just takes a lot of effort. And we can go into the technical side of this, but we spent six weeks just gathering data yeah. And that was a labor of love. Also a very stressful experience because as you can imagine, screenplays are one of the art is getting dialogue from screenplays is not a structured data set at all. So that was a fun experience, but also one that I felt was really just needed to improve and move forward the discussion that we were having around this topic.",
+      "id": "ep_77_ut_84"
+    },
+    {
+      "end": 2454972,
+      "speaker": "Moritz Stefaner",
+      "start": 2454300,
+      "text": "Yeah.",
+      "id": "ep_77_ut_85"
+    },
+    {
+      "end": 2473010,
+      "speaker": "Enrico Bertini",
+      "start": 2455148,
+      "text": "So maybe you can briefly explain how you did, because the data collection and analysis here looks like a daunting task. Like, how did you. How did you collect this data and made sure that it had some okay quality at least.",
+      "id": "ep_77_ut_86"
+    },
+    {
+      "end": 2506434,
+      "speaker": "Matt Daniels",
+      "start": 2473202,
+      "text": "Yeah, I mean, I have my own personal bar. This is not peer reviewed. This didn't go through like a New York Times editor. And honestly, this project probably would have gotten shut down if it gone through all those channels. But I think my bar is pretty high in terms of quality. So that's what we worked with, is like, would I accept these results if I saw them on the Internet? And I wrote a whole faq about, like, what's wrong with the data? Which we can talk a little bit about now, but in terms of gathering the data, the engineer I was working with basically was like, you can't do this. This is too complicated.",
+      "id": "ep_77_ut_87"
+    },
+    {
+      "end": 2515754,
+      "speaker": "Moritz Stefaner",
+      "start": 2508694,
+      "text": "That was my first impression, too. They can have gone through all the script. There must be something else.",
+      "id": "ep_77_ut_88"
+    },
+    {
+      "end": 2618354,
+      "speaker": "Matt Daniels",
+      "start": 2516094,
+      "text": "There's definitely errors. There's always errors. There's more errors in my nulls. Or just methodologically, we're using screenplays, which already means there's going to be issues with how accurate that represents the film, which is obviously a product of the screenplay. So that alone means there's tons of errors. But if you accept that, generally there's not a huge. There isn't a consistent shift from the screenplay to the film. We still have directionally accurate data. But anyway, we chose to go with screenplays. There's other ways to go about this. You could use onscreen dialogue, which means you'd have to watch the film and then categorize who's talking and how long they're talking. That's an option. But we chose to use screenplays. And the idea was, could you break down the screenplays by character? And then you would have to. Once you had that. So we have, the lead character has 8000 of the 12,000 words uttered in the screenplay. And then from there we have to figure out, well, what gender is this lead character? And we methodologically went with connecting the lead, the character name to an actor on IMDb or like the cast list, and then the actor to a gender so that was the thread. That was the thread through the needle that we needed to figure out was screenplays to characters, to actors, to genders, and do that 2000 times and with as little error as possible. So that was the complexity of the project. And the most amount of complexity was just in. Screenplays are formatted uniquely every single time. They're not always text files. They're sometimes PDF's.",
+      "id": "ep_77_ut_89"
+    },
+    {
+      "end": 2622814,
+      "speaker": "Moritz Stefaner",
+      "start": 2618394,
+      "text": "Yeah, they're made for humans, not for machines. Right. So everything can go.",
+      "id": "ep_77_ut_90"
+    },
+    {
+      "end": 2656284,
+      "speaker": "Matt Daniels",
+      "start": 2623754,
+      "text": "And if you remember, if you're old enough, you know, the acronym OCR, which is taking pages that are scanned and converting them to computer readable text. And, you know, a lot of these movies are scanned PDF's from the seventies. So they're not rich text formatted. They're written in terrible fonts with like, noise in the scan. So little lines and dots everywhere from whatever Xerox machine they used. And, yeah, just like a very messy dataset. So there was a lot of complexities getting it done, and that's why it took six weeks.",
+      "id": "ep_77_ut_91"
+    },
+    {
+      "end": 2693804,
+      "speaker": "Moritz Stefaner",
+      "start": 2656624,
+      "text": "That's quite good. I mean, yeah, I mean, it sounds incredibly laborious. I mean, first of all, thanks for doing this. So now it's available and, you know, people can work with that. But the other thing is also practically how you like, how do you do that? So basically, you're building this data journalism platform right now and go into these really complex data investigations, do cool graphics. How do you make that work from a financial standpoint? Do you just try to do something cool now and worry about that later? Or do you get paid for the work already, or do you have a plan to get paid? How do you think this will play out?",
+      "id": "ep_77_ut_92"
+    },
+    {
+      "end": 2697700,
+      "speaker": "Matt Daniels",
+      "start": 2694804,
+      "text": "I don't know. Right now, let's make cool things on the Internet.",
+      "id": "ep_77_ut_93"
+    },
+    {
+      "end": 2699220,
+      "speaker": "Moritz Stefaner",
+      "start": 2697892,
+      "text": "That's a good plan.",
+      "id": "ep_77_ut_94"
+    },
+    {
+      "end": 2731184,
+      "speaker": "Matt Daniels",
+      "start": 2699412,
+      "text": "Yeah. What I'm doing now was my side hustle to a full time job, and now I'm flipping it around. It's do this full time and find side hustles. So I'm keeping the lights on. I'm still well fed. I'm trying to, again, get to that point where I have someone else working with me on this full time, potentially, and I'd love to grow to the size of a 538. And, you know, making money will probably be a lot like how they make money, although they're completely subsidized by ESPs.",
+      "id": "ep_77_ut_95"
+    },
+    {
+      "end": 2733324,
+      "speaker": "Moritz Stefaner",
+      "start": 2731224,
+      "text": "I just wanted to say, it's not clear either.",
+      "id": "ep_77_ut_96"
+    },
+    {
+      "end": 2794178,
+      "speaker": "Matt Daniels",
+      "start": 2735544,
+      "text": "I don't know. This podcast has a sponsor who knows I can make, but, yeah, I haven't quite figured that out yet. So I'm scraping by, just trying to make as many cool things as possible. And the spirit of all these projects is take a question that has interesting, but very anecdotal discourse around it and add some data to the discussion. So the timeless project was adding data to talk about, well, why do some songs stand the test of time? And this film project was adding data to how do we even think about gender inclusivity and why there's imbalance in certain areas versus others. And then future projects will try to move that even farther. And I do hope that one day I figure out how to pay for this and get sponsors. But for now, it's just an exercise in data gathering and talking about culture in ways that I don't think has been done quite the way that polygraph has approached it.",
+      "id": "ep_77_ut_97"
+    },
+    {
+      "end": 2827554,
+      "speaker": "Enrico Bertini",
+      "start": 2794306,
+      "text": "Oh, yeah. I mean, Matt, I wish you all the best, because the work you are doing is honestly amazing and it really shows, it's a clearly a labor of love. Every single detail in your work just shows how much effort there is behind that and how much care. You can see how deeply you care about everything. It goes from the data analysis, data collection, the visuals, the narrative. Everything is fantastic. Congratulations.",
+      "id": "ep_77_ut_98"
+    },
+    {
+      "end": 2829054,
+      "speaker": "Matt Daniels",
+      "start": 2828534,
+      "text": "Thank you.",
+      "id": "ep_77_ut_99"
+    },
+    {
+      "end": 2838114,
+      "speaker": "Enrico Bertini",
+      "start": 2829094,
+      "text": "Seriously, I don't say that lightly. I'm really impressed by your work. It's fun and it's inspiring at the same time.",
+      "id": "ep_77_ut_100"
+    },
+    {
+      "end": 2864836,
+      "speaker": "Matt Daniels",
+      "start": 2838234,
+      "text": "Yeah, I'm trying to. I mean, the next projects, I think I'm even more excited about. I've done a lot of music projects and I'm slowly inching away from doing more serious topics that, again, have the same spirit of adding a little bit more definition and data around something that's pretty amorphous in culture. So thank you. And it's only going to get better. Hopefully I'm getting better at coding every day, so that's good.",
+      "id": "ep_77_ut_101"
+    },
+    {
+      "end": 2867524,
+      "speaker": "Moritz Stefaner",
+      "start": 2864940,
+      "text": "Yeah. We can't wait to see your next project. Let us know.",
+      "id": "ep_77_ut_102"
+    },
+    {
+      "end": 2869348,
+      "speaker": "Enrico Bertini",
+      "start": 2867564,
+      "text": "Yeah, absolutely. Absolutely.",
+      "id": "ep_77_ut_103"
+    },
+    {
+      "end": 2913530,
+      "speaker": "Matt Daniels",
+      "start": 2869436,
+      "text": "Yeah. Well, a teaser. The next one is going to be on slavery in the US, which is the most. Yeah, that's. I'm moving from like no diggity in nineties music to logical progression. Yeah. But it's honestly, I think, a good challenge because I'm taking a topic that has, know, very little intrinsic interest publicly and trying to make it something that people will really lean into. So I'm taking it as a challenge of can I apply what I've done to music and film and a couple other topics, mostly pop culture, related to something that is very nerdy and more nerdy than the things I've done in the past. So it's a good experiment, and I think it'll be pretty worthwhile.",
+      "id": "ep_77_ut_104"
+    },
+    {
+      "end": 2933100,
+      "speaker": "Enrico Bertini",
+      "start": 2913602,
+      "text": "Yeah. I think yesterday, sifting through your website, I found Trello board somewhere where you are annotating, keeping track of ideas. And it was like, oh, yes, do this. Oh, this, this as well. Please do it. So if there is anyone who aspires to work with you, what? What should this person do?",
+      "id": "ep_77_ut_105"
+    },
+    {
+      "end": 2997234,
+      "speaker": "Matt Daniels",
+      "start": 2933172,
+      "text": "Oh, like from a collaboration perspective? Yeah, I mean, it's a very depressing state right now because I can only move as fast as I can work, and I've been very, very aggressively trying to find ways to move faster involving more people. So I absolutely encourage anyone to reach out to me at matolygraph. Cool. From an email perspective. But really, I need people who can essentially do the type of work that's on polygraph, which is heavy data visualization, writing design, really the soup to nuts, writing articles. There's a lot of people who can do some of those things very well, like a developer or designer or writer. But what I found is the best work is really people who can wear all those hats. So if you. Absolutely. If you're one of those people who have those three hats on at the same time, you're probably a unicorn and we should work together.",
+      "id": "ep_77_ut_106"
+    },
+    {
+      "end": 3016180,
+      "speaker": "Enrico Bertini",
+      "start": 2999094,
+      "text": "Great. Well, okay. Well, thanks. Thanks a lot for coming on the show. I mean, we could gone forever and we are really looking forward to seeing what you publish next. And I wish you the best of luck. Thanks for coming on the show.",
+      "id": "ep_77_ut_107"
+    },
+    {
+      "end": 3017444,
+      "speaker": "Matt Daniels",
+      "start": 3016332,
+      "text": "Thank you much. Appreciate it.",
+      "id": "ep_77_ut_108"
+    },
+    {
+      "end": 3018492,
+      "speaker": "Moritz Stefaner",
+      "start": 3017484,
+      "text": "Thanks, Matt. Bye bye.",
+      "id": "ep_77_ut_109"
+    },
+    {
+      "end": 3032274,
+      "speaker": "Enrico Bertini",
+      "start": 3018548,
+      "text": "Bye bye. Hey, guys, thanks for listening to data stories again. Before you leave, we have a request if you can spend a couple of minutes reading us on iTunes, that would be extremely helpful for the show.",
+      "id": "ep_77_ut_110"
+    },
+    {
+      "end": 3038814,
+      "speaker": "D",
+      "start": 3032404,
+      "text": "And here's also some information on the many ways you can get news directly from us. We're, of course, on twitter@twitter.com.",
+      "id": "ep_77_ut_111"
+    },
+    {
+      "end": 3040062,
+      "speaker": "Moritz Stefaner",
+      "start": 3038934,
+      "text": "Datastories.",
+      "id": "ep_77_ut_112"
+    },
+    {
+      "end": 3063078,
+      "speaker": "D",
+      "start": 3040238,
+      "text": "We have a Facebook page@Facebook.com, datastoriespodcast. All in one word. And we also have an email newsletter. So if you want to get news directly into your inbox and be notified whenever we publish an episode, you can go to our homepage datastory es and look for the link that you find on the bottom in the footer.",
+      "id": "ep_77_ut_113"
+    },
+    {
+      "end": 3075206,
+      "speaker": "Enrico Bertini",
+      "start": 3063166,
+      "text": "So one last thing that we want to tell you is that we love to get in touch with our listeners, especially if you want to suggest a way to improve the show or amazing people you want us to invite or even projects you want us to talk about.",
+      "id": "ep_77_ut_114"
+    },
+    {
+      "end": 3076070,
+      "speaker": "D",
+      "start": 3075310,
+      "text": "Yeah, absolutely.",
+      "id": "ep_77_ut_115"
+    },
+    {
+      "end": 3080318,
+      "speaker": "Moritz Stefaner",
+      "start": 3076102,
+      "text": "So don't hesitate to get in touch with us. It's always a great thing for us.",
+      "id": "ep_77_ut_116"
+    },
+    {
+      "end": 3081606,
+      "speaker": "D",
+      "start": 3080446,
+      "text": "And that's all for now.",
+      "id": "ep_77_ut_117"
+    },
+    {
+      "end": 3082462,
+      "speaker": "Moritz Stefaner",
+      "start": 3081670,
+      "text": "See you next time.",
+      "id": "ep_77_ut_118"
+    },
+    {
+      "end": 3084514,
+      "speaker": "D",
+      "start": 3082518,
+      "text": "And thanks for listening to data stories.",
+      "id": "ep_77_ut_119"
+    },
+    {
+      "end": 3117294,
+      "speaker": "Enrico Bertini",
+      "start": 3087894,
+      "text": "This episode is sponsored by CartoDB. CartoDB is an open, powerful, and intuitive platform for discovering and predicting the key facts underlying the massive location data in our world. With CartoDB, analyzing and designing beautifully insightful maps has never been easier. Check out incredible location intelligence projects and get started for free@CartoDB.com. gallery that's CartoDB.com gallery.",
+      "id": "ep_77_ut_120"
+    }
+  ],
+  "confidence": 0.935286883303412,
+  "audio_duration": 3117,
+  "punctuate": true,
+  "format_text": true,
+  "dual_channel": false,
+  "webhook_url": null,
+  "webhook_status_code": null,
+  "webhook_auth": false,
+  "webhook_auth_header_name": null,
+  "speed_boost": false,
+  "auto_highlights_result": null,
+  "auto_highlights": false,
+  "audio_start_from": null,
+  "audio_end_at": null,
+  "word_boost": [],
+  "boost_param": null,
+  "filter_profanity": false,
+  "redact_pii": false,
+  "redact_pii_audio": false,
+  "redact_pii_audio_quality": null,
+  "redact_pii_policies": null,
+  "redact_pii_sub": null,
+  "speaker_labels": true,
+  "content_safety": false,
+  "iab_categories": true,
+  "content_safety_labels": {
+    "status": "unavailable",
+    "results": [],
+    "summary": {}
+  },
+  "language_detection": false,
+  "language_detection_threshold": null,
+  "language_confidence": null,
+  "custom_spelling": null,
+  "throttled": false,
+  "auto_chapters": true,
+  "summarization": false,
+  "summary_type": null,
+  "summary_model": null,
+  "custom_topics": false,
+  "topics": [],
+  "speech_threshold": null,
+  "speech_model": "best",
+  "chapters": [
+    {
+      "summary": "This episode is sponsored by CartoDB. Car two DB is an open, powerful, and intuitive platform for discovering and predicting the key facts underlying the massive location data in our world. Moritz will be touring the US in three weeks starting on Sunday.",
+      "gist": "Data Stories",
+      "headline": "This episode is sponsored by CartoDB. Car two DB is an open, powerful location data platform",
+      "start": 200,
+      "end": 107374,
+      "id": "ep_77_ch_0"
+    },
+    {
+      "summary": "We are working with ProPublica and developing some software to help them look into millions of reviews from Yelp. They just published their second article based on the analysis that they conducted with this tool. So it's serious stuff. It's fun.",
+      "gist": "Yelp Review and ProPublica",
+      "headline": "We are working with ProPublica on analyzing Yelp reviews",
+      "start": 108154,
+      "end": 164434,
+      "id": "ep_77_ch_1"
+    },
+    {
+      "summary": "Matt Daniels is the main person behind polygraph. He publishes interactive articles with visualizations and data analysis. He started coding about a year and a half ago. We'll talk about a couple of his projects today.",
+      "gist": "Meet Matt Daniels",
+      "headline": "Matt Daniels is the main person behind polygraph. com",
+      "start": 167254,
+      "end": 347514,
+      "id": "ep_77_ch_2"
+    },
+    {
+      "summary": "The most timeless songs of all time project was the impetus for polypgraph. com. The project looked at what is the most popular music today from the nineties, the eighties, the seventies, sixties. Music from the fifties is now 65 years old. Will music in 2030 or 2040 be just as much in the zeitgeist as today?",
+      "gist": "Polygraph: The Most Time-tested Songs of All Time",
+      "headline": "Polypgraph co has a number of interesting projects on its website",
+      "start": 348934,
+      "end": 538914,
+      "id": "ep_77_ch_3"
+    },
+    {
+      "summary": "There's a tension between what's past popularity not necessarily correlating highly with present day popularity. Spotify only releases lifetime plays for the top ten songs for each artist. Because they're coded, you can look for the songs and look for trends.",
+      "gist": "Spotify's 'What's So Popular?' chart",
+      "headline": "You use Spotify API to analyze songs' popularity over time",
+      "start": 539854,
+      "end": 929278,
+      "id": "ep_77_ch_4"
+    },
+    {
+      "summary": "A lot has changed over the past nine months in terms of designing these articles. Generally I try to avoid any initial analysis. I don't know what the data says until I make the chart. The narrative structure is more of a necessity.",
+      "gist": "How To Write a Data Visualization Story",
+      "headline": "So can you briefly describe how the process works, for instance, for this project",
+      "start": 929326,
+      "end": 1455684,
+      "id": "ep_77_ch_5"
+    },
+    {
+      "summary": "This episode of data stories is sponsored by CartoDB. The platform is an open, powerful, and intuitive platform for discovering and predicting the key facts underlying the massive location data in our world. Recently they announced to partner with Mapzen to provide location data services.",
+      "gist": "Data Stories",
+      "headline": "This episode of data stories is sponsored by CartoDB",
+      "start": 1458584,
+      "end": 1543086,
+      "id": "ep_77_ch_6"
+    },
+    {
+      "summary": "There are two articles on polygraph related to that. The project started with a question around the Bechdel test. The test tests movies that have two women who talk to each other at some point in the movie. The response to that project was actually pretty embarrassing from the Internet.",
+      "gist": "The Bechdel Test",
+      "headline": "You did a look into Hollywood's gender balance or the gender divide",
+      "start": 1543270,
+      "end": 1992944,
+      "id": "ep_77_ch_7"
+    },
+    {
+      "summary": "Film dialogue broken down by gender and age. Project was to quantify and visualize all the data down to number of lines. Trying to find the right balance between not imposing your own view but not making the whole thing too hard to understand.",
+      "gist": "The Problem with Hollywood's Gender Balance",
+      "headline": "Second project looked at film dialogue broken down by gender and age",
+      "start": 1993064,
+      "end": 2454236,
+      "id": "ep_77_ch_8"
+    },
+    {
+      "summary": "The data collection and analysis here looks like a daunting task. How did you collect this data and made sure that it had some okay quality at least. Do you get paid for the work already, or do you have a plan to get paid?",
+      "gist": "The Data Collection and Analysis of Screenplays",
+      "headline": "The data collection and analysis here looks like a daunting task",
+      "start": 2454300,
+      "end": 2859516,
+      "id": "ep_77_ch_9"
+    },
+    {
+      "summary": "Next project will be on slavery in the US, which is the most. I need people who can do heavy data visualization, writing design, really the soup to nuts, writing articles. If you can wear all three hats at the same time, you're probably a unicorn and we should work together.",
+      "gist": "Matolygraph's Search for Collaborators",
+      "headline": "Matt Matoly is working on a new project on slavery in the US",
+      "start": 2859580,
+      "end": 3025452,
+      "id": "ep_77_ch_10"
+    },
+    {
+      "summary": "Before you leave, we have a request if you can spend a couple of minutes reading us on iTunes. Here's also some information on the many ways you can get news directly from us. We love to get in touch with our listeners and suggest ways to improve the show.",
+      "gist": "Datastories: All in One Word",
+      "headline": "Before you leave, we have a request if you can spend a couple of minutes reading our iTunes",
+      "start": 3025588,
+      "end": 3084514,
+      "id": "ep_77_ch_11"
+    },
+    {
+      "summary": "This episode is sponsored by CartoDB. With CartoDB, analyzing and designing beautifully insightful maps has never been easier. Check out incredible location intelligence projects and get started for free.",
+      "gist": "CartoDB",
+      "headline": "This episode is sponsored by CartoDB. With CartoDB, analyzing and designing beautifully insightful maps is easy",
+      "start": 3087894,
+      "end": 3117294,
+      "id": "ep_77_ch_12"
+    }
+  ],
+  "disfluencies": false,
+  "entity_detection": false,
+  "sentiment_analysis": false,
+  "sentiment_analysis_results": null,
+  "entities": null,
+  "speakers_expected": null,
+  "summary": null,
+  "custom_topics_results": null,
+  "episode_num": 77,
+  "episode_metadata": {
+    "speakers": [
+      "Matt Daniels",
+      "Enrico Bertini",
+      "Moritz Stefaner"
+    ],
+    "WPid": "659",
+    "url": "https://datastori.es/podlove/file/2573/s/feed/c/mp3/77-polygraph-and-the-journalist-engineer-matt-daniels.mp3",
+    "episode_title": "Polygraph and The Journalist Engineer Matt Daniels"
+  }
+}

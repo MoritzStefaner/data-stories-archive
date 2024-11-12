@@ -1,0 +1,843 @@
+{
+  "id": "64a12bc2-0fc1-4076-ae4a-734e1c89f97b",
+  "language_model": "assemblyai_default",
+  "acoustic_model": "assemblyai_default",
+  "language_code": "en_us",
+  "status": "completed",
+  "audio_url": "https://datastori.es/podlove/file/4978/s/feed/c/mp3/ds117-making-data-visual-with-miriah-meyer-and-danyel-fisher.mp3",
+  "utterances": [
+    {
+      "end": 12554,
+      "speaker": "Danyel Fisher",
+      "start": 240,
+      "text": "There's too little discussion about how you frame problems from this very abstract. I've got this question, and I've got a data set and how you bring them together to actually build a visualization based on that.",
+      "id": "ep_118_ut_0"
+    },
+    {
+      "end": 41340,
+      "speaker": "Enrico Bertini",
+      "start": 31844,
+      "text": "Hey, everyone. Welcome to a new episode of Data stories. My name is Enrico Bertini, and I am a professor at NYU in New York City, where I do research in data visualization.",
+      "id": "ep_118_ut_1"
+    },
+    {
+      "end": 45444,
+      "speaker": "Moritz Stefaner",
+      "start": 41492,
+      "text": "And I am Moritz Stefaner, and I'm an independent designer of data visualizations.",
+      "id": "ep_118_ut_2"
+    },
+    {
+      "end": 56268,
+      "speaker": "Enrico Bertini",
+      "start": 45564,
+      "text": "And on this podcast, we talk about data visualization, analysis, and generally the role data plays in our lives. And usually we do that with one or more guests we invite on the show.",
+      "id": "ep_118_ut_3"
+    },
+    {
+      "end": 90042,
+      "speaker": "Moritz Stefaner",
+      "start": 56396,
+      "text": "Exactly. But before we start, a quick note. Our podcast is listener supported, so there are no ads. You might have noticed that. And so if you enjoy the show, please consider supporting us with either recurring payments on Patreon.com Datastories so you can pledge a little amount per episode that we publish or, and that's new. You can also send us now one time donations if you just want to drop a bit of cash in our direction on Paypal me Datastories. So both options are great, and if you enjoy the show, please consider supporting us.",
+      "id": "ep_118_ut_4"
+    },
+    {
+      "end": 113640,
+      "speaker": "Enrico Bertini",
+      "start": 90098,
+      "text": "Yeah. And now we can get started with the topic of today. We are talking, talking about a new data visualization book that I personally really love. It's called making data visual by Danielle Fisher and Miriah Meyer. And we have both of them on the show. And I'm also really happy because they are good friends and also old timers of data stories.",
+      "id": "ep_118_ut_5"
+    },
+    {
+      "end": 114280,
+      "speaker": "Moritz Stefaner",
+      "start": 113712,
+      "text": "It's true.",
+      "id": "ep_118_ut_6"
+    },
+    {
+      "end": 116520,
+      "speaker": "Enrico Bertini",
+      "start": 114352,
+      "text": "Hey, Danyel and Miriah, how are you?",
+      "id": "ep_118_ut_7"
+    },
+    {
+      "end": 117272,
+      "speaker": "Miriah Meyer",
+      "start": 116592,
+      "text": "I'm great.",
+      "id": "ep_118_ut_8"
+    },
+    {
+      "end": 118296,
+      "speaker": "Danyel Fisher",
+      "start": 117408,
+      "text": "Doing pretty well.",
+      "id": "ep_118_ut_9"
+    },
+    {
+      "end": 136534,
+      "speaker": "Enrico Bertini",
+      "start": 118400,
+      "text": "Welcome on the show. So, yeah, we had both of you a few times already, I think, Miriah, a couple of times. The show was pleased to know that Danyel was here in episode number nine. Oh, my God. That's quite some time ago, Danielle.",
+      "id": "ep_118_ut_10"
+    },
+    {
+      "end": 137994,
+      "speaker": "Danyel Fisher",
+      "start": 136654,
+      "text": "It's been a couple of years.",
+      "id": "ep_118_ut_11"
+    },
+    {
+      "end": 154766,
+      "speaker": "Enrico Bertini",
+      "start": 138414,
+      "text": "Yeah, a couple of years, yeah. So before we talk about the book, can you guys briefly introduce yourself so that our listeners know a little bit more about you? What is your background and what you're currently doing?",
+      "id": "ep_118_ut_12"
+    },
+    {
+      "end": 189984,
+      "speaker": "Miriah Meyer",
+      "start": 154870,
+      "text": "Sure. So this is Miriah, and I am a professor of computer science at the University of Utah. My passion in this world is about making data accessible to people. And a lot of the work that I do is about working with real people out in the real world with real problems and designing tools to help them make sense of their data. And in my research group, we use those design projects to really then be able to think deeply about process and methodology and how we can better codify and structure the work that we do as vis designers.",
+      "id": "ep_118_ut_13"
+    },
+    {
+      "end": 212938,
+      "speaker": "Danyel Fisher",
+      "start": 190284,
+      "text": "And I'm Danielle Fisher. I'm a researcher here at Microsoft Research, and one of my strongest interests for quite a while has been thinking about how the research community can inform the practice that's going on out in the world, and conversely, what the research community should learn from practice. So working with Miriah on this project has really brought a lot of those interests together.",
+      "id": "ep_118_ut_14"
+    },
+    {
+      "end": 228564,
+      "speaker": "Enrico Bertini",
+      "start": 213106,
+      "text": "Perfect. When I heard about your book and I started seeing the content, I was like, do we really need a new data visualization book? And then I looked. I looked inside, I was like, oh, wow, that's not the usual stuff.",
+      "id": "ep_118_ut_15"
+    },
+    {
+      "end": 232004,
+      "speaker": "Miriah Meyer",
+      "start": 229704,
+      "text": "It turns out it's not really about visualization.",
+      "id": "ep_118_ut_16"
+    },
+    {
+      "end": 235324,
+      "speaker": "Moritz Stefaner",
+      "start": 234184,
+      "text": "Plot twist.",
+      "id": "ep_118_ut_17"
+    },
+    {
+      "end": 247400,
+      "speaker": "Enrico Bertini",
+      "start": 238424,
+      "text": "So maybe we can start with, yeah, you can tell us a little bit about what is making data visual and how is it different from existing books.",
+      "id": "ep_118_ut_18"
+    },
+    {
+      "end": 337084,
+      "speaker": "Danyel Fisher",
+      "start": 247512,
+      "text": "Miriah and I got to talking a few years ago at the O'Reilly Strata conference. They had reached out to us and said, hey, how would you feel about putting together a new data visualization book? And so the two of us went to the O'Reilly shelves, and we looked, and they had lots of really good books out there on a huge variety of topics, all about visualization. And so we had this moment where we turned back to the editor and said, what's missing? Why do you think you need yet another book? And they said that all their books felt too advanced, and we didn't understand that either, because when we go to visualization books, you know, they all start with, here's what a bar chart is. Here's how you specify axes. And we didn't know that we could get more basic. Then Miriah and I got to talking about what it actually takes to build a visualization, and we realized that there's this gap in the literature. It's this moment when people come into our offices and say, I've got a data set. What can I do with it? There's too little discussion about how you frame problems from this very abstract. I've got this question, and I've got a data set, and how you bring them together to actually build a visualization based on that. It's not a technical process. It's a social process that involves getting to know what the data is and where it came from and what the questions that are interesting in there. And so what we think is exciting about this book is that it was a chance to address this gap and really talk about this process of getting to know data and getting to know data uses.",
+      "id": "ep_118_ut_19"
+    },
+    {
+      "end": 371946,
+      "speaker": "Moritz Stefaner",
+      "start": 337544,
+      "text": "Yeah. And I think that was also the part that struck me most, that you introduced some of these really fuzzy and hard to grasp, like difficult topics, how to get from a vague question through data to answers or to some progress, at least. Right. And I think what's interesting is how you introduce a few, like both of vocabulary, but also a few tools in this area. So the first one that I found interesting is the notion of proxies. So, Maria, can you tell us a bit about what proxies are and why they're important in data visualization?",
+      "id": "ep_118_ut_20"
+    },
+    {
+      "end": 372574,
+      "speaker": "Enrico Bertini",
+      "start": 372100,
+      "text": "Yeah.",
+      "id": "ep_118_ut_21"
+    },
+    {
+      "end": 372886,
+      "speaker": "Moritz Stefaner",
+      "start": 372654,
+      "text": "Yeah.",
+      "id": "ep_118_ut_22"
+    },
+    {
+      "end": 459344,
+      "speaker": "Miriah Meyer",
+      "start": 372910,
+      "text": "So the notion of proxy that Danielle and I write about in the book is this idea that we have these questions in the world that we want to answer with data. And it turns out that your data doesn't usually have an attribute that exactly answers that question. You don't have an attribute that says, is this movie good or bad? You don't have a direct attribute that says, does this gene cause cancer? Really, what you have is you have a bunch of attributes that can infer something to you. And I think what's interesting is that you infer things based upon the knowledge that you bring to bear to the visualization as well as an expert in something. So the idea of a proxy is about really being explicit and recognizing that we don't have an exact answer for what we want, what we need for our question. But we have these things that can stand in, that we can combine with our own knowledge to stand in to help us get towards some notion of an answer to the question we have. So what I think is really interesting to me about what Danyel and I came up with for the book is this idea of recognizing proxies and the questions and the tasks that we ask of our data and using that as a way to determine where is my task still fuzzy? Where is my question still fuzzy? What do I need to, what can I, what can I, what do I have in my data that I can use as a stand in for this thing I want to do? And so that's what we refer to as proxy.",
+      "id": "ep_118_ut_23"
+    },
+    {
+      "end": 473510,
+      "speaker": "Moritz Stefaner",
+      "start": 459424,
+      "text": "You bring up this great example where. So we have IMDb, so we have all this knowledge about movies, right? But even, like, asking, like, a simple question, like, okay, so what are the best movies? Or what are the movies I might be interested in? Becomes really hard once you start to.",
+      "id": "ep_118_ut_24"
+    },
+    {
+      "end": 475942,
+      "speaker": "Miriah Meyer",
+      "start": 473622,
+      "text": "And also really subjective, break it down.",
+      "id": "ep_118_ut_25"
+    },
+    {
+      "end": 480310,
+      "speaker": "Moritz Stefaner",
+      "start": 475998,
+      "text": "And think about how could I actually measure something now that you know that works.",
+      "id": "ep_118_ut_26"
+    },
+    {
+      "end": 485614,
+      "speaker": "Miriah Meyer",
+      "start": 480382,
+      "text": "Right, right. And I think that an interesting thing is just the subjectivity of that as well.",
+      "id": "ep_118_ut_27"
+    },
+    {
+      "end": 485862,
+      "speaker": "Enrico Bertini",
+      "start": 485694,
+      "text": "Yeah.",
+      "id": "ep_118_ut_28"
+    },
+    {
+      "end": 497092,
+      "speaker": "Miriah Meyer",
+      "start": 485878,
+      "text": "Right. You know, what it means to be a good movie to you is different than what it means to be a good movie to me. And so that gets back to my notion of who I am, who my audience is, what are the specific goals that I have?",
+      "id": "ep_118_ut_29"
+    },
+    {
+      "end": 516064,
+      "speaker": "Enrico Bertini",
+      "start": 497268,
+      "text": "Yeah, this happens all the time. I think these are part of those things that people working in visualization do all the time, but it's just not explicit. We just do it. Right. And that's what I really like about your book, that you made a number of things that happen implicitly and you made them explicit. Right?",
+      "id": "ep_118_ut_30"
+    },
+    {
+      "end": 517348,
+      "speaker": "Danyel Fisher",
+      "start": 516844,
+      "text": "Absolutely.",
+      "id": "ep_118_ut_31"
+    },
+    {
+      "end": 570626,
+      "speaker": "Enrico Bertini",
+      "start": 517396,
+      "text": "Yeah, I like it a lot. Another one is this idea of going from questions to tasks and the primacy of questions. Right. Because you have this illusion that data visualization is about taking data and giving them a visual representation. Right. That's the way we talk about this. But ultimately, so this reminds me, when people come to me, I think this happens to you all the time and say, how do I visualize this? Right. And they expect you to tell you, oh, you should use a bar chart. And you say that explicitly in the book. And that's not the point, because what you should actually ask back is like, what are you trying to solve? What are your questions? And how do you translate these questions into specific tasks that you can answer with the actual data that you have? So, yeah, maybe you can say a little bit more about that.",
+      "id": "ep_118_ut_32"
+    },
+    {
+      "end": 658420,
+      "speaker": "Danyel Fisher",
+      "start": 570810,
+      "text": "Absolutely. In a lot of ways, this feels a lot like the task analysis that you run into throughout user experience, design, or human computer interaction, where you're trying to get to know what a user's real and underlying needs are. So we talk about this process in the book of going from abstract questions to specific data driven tasks. So to walk through that IMDb example a little more, for example, maybe I want to talk about, I don't know, the best director for a movie or, sorry, the best director of movies. And that seems like it's a fairly specific question, but it rapidly runs this question of what precisely do we mean by director? Is it okay for them to have directed shorts or do they have to direct movies? Tv, do tv shows count? Do video games count? We have to decide what best means. If I've got two different directors, one of them has done one incredibly popular movie and one of them's done a hundred reasonably good movies. Which is better? Each of those vague moments where we see the word best or better or even director and make it a specific, actionable term, one that we can bind directly to the data and say, yes, this is the column in our data that we're going to use to understand how that term works. As we manage to assign those proxies and make it specific, we're able to work out very detailed tasks. And those tasks are the things that often lead us directly to a visualization.",
+      "id": "ep_118_ut_33"
+    },
+    {
+      "end": 672374,
+      "speaker": "Moritz Stefaner",
+      "start": 658572,
+      "text": "And how do you do that? Because I think realizing our data cannot directly answer the way question we might have is one thing, but how, how do you not stop at this point and just be depressed?",
+      "id": "ep_118_ut_34"
+    },
+    {
+      "end": 793768,
+      "speaker": "Miriah Meyer",
+      "start": 677034,
+      "text": "Well, yeah. And so we, I think when Danielle and I started this book, we sort of had this intuitive sense of how you do that. It's kind of what you might call the art of visualization. Right? It's, you know, you go and you talk to people and you ask questions, you get in the data and you try it out. And so the book, really, for the two of us was about having to sit down and try to come up with some actionable guidance for how do you do that? And I think one of the things that for me was really interesting was we came up with a small framework for how do you break down a task and look for things that are ill defined so you can recognize how things, you know, where do you need to make proxy decisions? And so, you know, we have these, these notions of tasks having an action and having objects you take action on and then having these, these descriptors or measurements that you care about for those objects. And that by, we found that just by using that language, when we would look at tasks and look at questions, it really helped us to be like, okay, so, wow. So if I'm looking for the best movie directors best, well, I don't have an attribute in my data set labeled best. So, okay, that's an indication that I need to make some decisions here about a good proxy for it. And so writing this book, actually, it turns out we didn't really have these ideas fleshed out. So it was a bit of a research process, process for the both of us to put this down. And so, and it's funny because now that I have this, you know, I sort of ask myself, well, is this something that I would say, give to my graduate students and have them every task go through and label, here's my action, here's my objects? And I don't think it's necessarily, I don't think that the goal is for people to do that, but I think by having those concepts in your mind, it can help you when you are sort of in the middle of a conversation with a collaborator, help to hone in on the things where, you know, things need to be more refined to become more actionable. Yeah.",
+      "id": "ep_118_ut_35"
+    },
+    {
+      "end": 820594,
+      "speaker": "Moritz Stefaner",
+      "start": 793776,
+      "text": "And in the book, you have these in little boxes. Like, it's always task, action, object, measure, grouping. And I was almost thinking about, you could make little cards, like, for each main task in an interface, you could have one card and sort of move these cards around and say, like, okay, these are the top five things we need to, definitely need to cover, and how can we break them down no more? So I was immediately thinking of, okay, this is very practical also, just in reducing complexity as you figure out what to do. Right.",
+      "id": "ep_118_ut_36"
+    },
+    {
+      "end": 912798,
+      "speaker": "Miriah Meyer",
+      "start": 821734,
+      "text": "And can I make a so boxy statement, please, for a second? So I just want to point out, because I feel like this movie example, it's one that Danielle and I use a lot, because it's just, I think it's easy for people to understand. Yeah. What does it mean to be a best director? That's totally subjective. There's lots of things. But I've had really interesting conversations with some of my science collaborators as well, people who are doing basic science. And, for example, one of the case studies we have in the book is with a group that I've worked with who do systems biology research at Harvard Med. And I was talking to the PI about these ideas, about this notion of proxy and about it being subjective. And she's like, ah, that's totally what science is. Right. You know, like, in science, her lab has these questions about how do animals in embryos, how do stem cells differentiate when every cell basically has the same set of genes? Right. Okay, well, that seems like an interesting scientific question. Well, it turns out even just what they measure is total proxies for the things that exist in the world. Right. Because they can't actually ask that question of these organisms. So they have these indirect things, like they're going to measure how much different genes are expressed in different cells over time. And so this notion of proxies and the subjectivity of how we make decisions and answer questions, it's not even just for the sort of playful things like movie directors. It's also sort of how we do science, which I think is a really sort of interesting perspective when we seek to be so objective. But the reality is we can't be.",
+      "id": "ep_118_ut_37"
+    },
+    {
+      "end": 989492,
+      "speaker": "Enrico Bertini",
+      "start": 912886,
+      "text": "Yeah, absolutely. And I also think it's one of those things that in retrospect, it may seem obvious. Right. But once you have this new concept installed in your brain, now you see proxies everywhere, and it's really useful. That's the reason why I like it so much. Right? Yeah. And I think there is another related concept that you introduce in the book that is data counseling that I really, really like. So if I understand correctly, this is actually two related things that happen in every single data visualization project, or at least should happen. One is that if you are collaborating with someone, with domain experts, you may want to talk with them to understand what the data means. Right. This might be a good idea. Right. Or even if you don't have access to them, by the way, every single data set, you have to figure out what the real meaning of what is. There is. I like to call this some kind of semantic hook. You have to go back to what is the real meaning of this thing? And the second is that you always need to familiarize with your data before you are able to do something meaningful with it. Did I capture it right? Is that what you mean by data counseling?",
+      "id": "ep_118_ut_38"
+    },
+    {
+      "end": 1037674,
+      "speaker": "Danyel Fisher",
+      "start": 989628,
+      "text": "Yeah, I think that's a pretty good model for it. We talked about that as a way of both getting to know what the real question is through this process of reducing the questions to tasks, through getting to know what the data is and where it came from and who's using it. It. It's also part of a process of building out prototypes and sketches to try to understand. One of the steps that's been increasingly visible to me as I've built this is that after someone comes into my office and they actually don't usually come in saying, how do I visualize this data? What they usually say is something like, hey, so I want to scatter plot, but it's got to have four simultaneous axes with, you know, and how do I do that in python? And I say, why do you want a scatterplot with four axes? And they say, well, actually, because what I really want is to know this thing.",
+      "id": "ep_118_ut_39"
+    },
+    {
+      "end": 1038566,
+      "speaker": "Enrico Bertini",
+      "start": 1038094,
+      "text": "Yeah.",
+      "id": "ep_118_ut_40"
+    },
+    {
+      "end": 1103444,
+      "speaker": "Danyel Fisher",
+      "start": 1038630,
+      "text": "And as we work backwards, I realize that they've got this very vague question. They've kind of operationalized it poorly. They don't quite know what it means yet. And so we go through this process of data counseling to help work out what the real question is, what tasks? Map to that. And at some point, we wind up filling up a whiteboard together where I say, hey, so here's what your data would look like as a scatterplot. Here's what would look like as a line chart. Here's what it might mean if it was a, as a series of linked together pies. And they can look at that and go, oh, well, the linked together pies would give me this message, but the scatterpot would give me that message. That's the sort of thing that I really want to isolate. So we call data counseling, this whole process of working together with the person who understands what the visualization techniques are and what the person who's got the data is, and from time to time, that can be the very same person who's doing that process themselves. I think. Nonetheless, understanding the breakdown of the tasks followed by building out a version and sketching it on a whiteboard is still going to be something that you really have to do.",
+      "id": "ep_118_ut_41"
+    },
+    {
+      "end": 1147686,
+      "speaker": "Miriah Meyer",
+      "start": 1104064,
+      "text": "And I just want to add that the reason that we use this term, data counseling, we use it. We don't call it let's make sense of your data or something kind of boring, because we both feel, we've talked about this, that our role is not so different than being a therapist, where people come in and they're like, I have this problem and it's this thing, and it turns out through a bunch of questions, it's not that thing. It's really about whatever, deep seated issues with your parents or something. So this idea that as data counselors, what we do is we ask a lot of questions and we try to help people understand what is the thing, really underneath it, that you care about, that you can't quite articulate yet. And so that's why we came up with this sort of data counseling phrase.",
+      "id": "ep_118_ut_42"
+    },
+    {
+      "end": 1150474,
+      "speaker": "Danyel Fisher",
+      "start": 1147790,
+      "text": "My data's got nothing to do with my mom. I don't know why you're saying that.",
+      "id": "ep_118_ut_43"
+    },
+    {
+      "end": 1163214,
+      "speaker": "Moritz Stefaner",
+      "start": 1153434,
+      "text": "But that's, I mean, there's sort of a catch 22 there, though, in a sense that often it's hard to envision what the data could tell you if it was in a specific shape. Right.",
+      "id": "ep_118_ut_44"
+    },
+    {
+      "end": 1195232,
+      "speaker": "Miriah Meyer",
+      "start": 1164594,
+      "text": "And, you know, and that's where I think it's so important, at least in the kind of work that I do. And, you know, Danielle, I won't speak for you, but is this sort of acknowledgement that, you know, if we're designing for other people, that those other people need to be deeply involved in the whole process? Like, I'm not a biologist. I don't know what's going to be interesting, but if I can work closely and have a toolbox of techniques to work with people, to help both go down that path together of understanding and.",
+      "id": "ep_118_ut_45"
+    },
+    {
+      "end": 1200696,
+      "speaker": "Moritz Stefaner",
+      "start": 1195248,
+      "text": "Also prototype with real data and really try out ideas quickly, which is, by.",
+      "id": "ep_118_ut_46"
+    },
+    {
+      "end": 1203564,
+      "speaker": "Enrico Bertini",
+      "start": 1200720,
+      "text": "The way, part of what makes this so much fun.",
+      "id": "ep_118_ut_47"
+    },
+    {
+      "end": 1205040,
+      "speaker": "Miriah Meyer",
+      "start": 1204424,
+      "text": "Totally.",
+      "id": "ep_118_ut_48"
+    },
+    {
+      "end": 1205896,
+      "speaker": "Moritz Stefaner",
+      "start": 1205112,
+      "text": "Absolutely.",
+      "id": "ep_118_ut_49"
+    },
+    {
+      "end": 1206376,
+      "speaker": "Miriah Meyer",
+      "start": 1206000,
+      "text": "Yeah.",
+      "id": "ep_118_ut_50"
+    },
+    {
+      "end": 1252832,
+      "speaker": "Moritz Stefaner",
+      "start": 1206440,
+      "text": "Whenever you can be surprised by the data early on, it's always like, yeah, that's cool. Yeah, this might work. Actually, one thing I was wondering, reading the book, like, what's the relation to other? Like, there's a lot of established user centered design techniques and user experience, toolkits and frameworks. And, I mean, there's a whole profession around user interface design, user experience. Now, are we just discovering that in our field, or is there something unique, heretical question. Or is there something unique about working with data that makes it kind of different, and we can just take a part of the toolkit, but need to also develop some parts of ourselves. What's your take on that, Danyel? Maybe.",
+      "id": "ep_118_ut_51"
+    },
+    {
+      "end": 1316384,
+      "speaker": "Danyel Fisher",
+      "start": 1252968,
+      "text": "I think that's a great question to some extent. I think that chapter on operationalization and sort of the data counseling process probably does go away if you're really an expert in user centered design, because a lot of the ideas that we raise here get to know what the user needs, try to figure out what's driving them, and what their questions are, are very universal, and they really do come across lots of different fields. My own background is in human computer interaction and user centered design, so there's no coincidence here. I think what's different is that we have a very specific goal. We're not trying to just generally understand tasks. We're trying to help the user reduce this very specifically to things that sit in data. And so the next chapter that comes right after the chunk on how to interview people, talks about what the attributes of data are, what you should be looking for inside a data set, how you understand the data fields, what sort of questions you can ask about those fields. So that, and I think that's the part where it becomes data and visualization specific.",
+      "id": "ep_118_ut_52"
+    },
+    {
+      "end": 1384564,
+      "speaker": "Miriah Meyer",
+      "start": 1317484,
+      "text": "We should have talked about this beforehand because I want to refute what you just said. I don't disagree. I think at a high level, there's many things that anyone who has a background in user centered design is going to love the feel of. But I actually think the fact that we are, we're not just designing with people, we're also designing with data. And I think that is part of what we pulled out in the operationalization chapter. And this notion of proxies and how do you get to an actionable task is all about relying on the fact that at the end of the day, we're trying to do things over data. And I think that in the scope of writing this book, that afforded Danielle and I with some things that we could actually do that were quite actionable. This notion of taking a task and understanding these components of actions and objects and descriptors, that is all based upon the fact that we're trying to get to something that we can do with data. So I think here we were actually able to make parts of the design process more specific and give some really, I like to think, actionable mechanisms to coming up with really precise tasks because of the data aspect of it.",
+      "id": "ep_118_ut_53"
+    },
+    {
+      "end": 1411984,
+      "speaker": "Moritz Stefaner",
+      "start": 1384984,
+      "text": "My feelings also this might actually be news to people who are more used to, let's say, say, designing generally apps or like websites. Like this whole notion of proxies or how to bridge this gap between a vague information related question and a hard data grounding. You need to find this might actually be news to people who might be really strong generally in user experience design, but not so versatile in data related, let's say.",
+      "id": "ep_118_ut_54"
+    },
+    {
+      "end": 1442924,
+      "speaker": "Miriah Meyer",
+      "start": 1412684,
+      "text": "Yeah. And the other thing I think that, you know, has less to do with the book, although you sort of mentioned this more. It's this notion of rapid prototyping, which we do is user centered. That's basic for user centered design. You want to try as many ideas as quickly as possible and it's something we advocate for in the book. But I think the reality of that is actually really interesting when it comes to visualization, because when you throw data into the rapid prototyping process, rapid is really, really hard to get to at that point.",
+      "id": "ep_118_ut_55"
+    },
+    {
+      "end": 1446644,
+      "speaker": "Moritz Stefaner",
+      "start": 1444304,
+      "text": "It rapidly becomes a bit complex.",
+      "id": "ep_118_ut_56"
+    },
+    {
+      "end": 1474118,
+      "speaker": "Miriah Meyer",
+      "start": 1447854,
+      "text": "It rapidly becomes not rapid. Yeah. And it turns out that Danielle and I have also worked on some projects in this space because I think it's so interesting, which is how can we better support that when it comes to data? We know from time and experiences that it's really important to prototype with data. If you don't the very first time you put data into your tool, of course the real data is going to break your design.",
+      "id": "ep_118_ut_57"
+    },
+    {
+      "end": 1475434,
+      "speaker": "Enrico Bertini",
+      "start": 1474246,
+      "text": "It's going to punch you.",
+      "id": "ep_118_ut_58"
+    },
+    {
+      "end": 1523718,
+      "speaker": "Miriah Meyer",
+      "start": 1476914,
+      "text": "So how do we support that as a community? And I think there's a lot of work going on in this space from tools like D3 and Lyra Tableau. But there's still some really interesting sweet spots in there about letting people design rich, expressive visualizations that include data in a very rapid way. And so that's something. The holy grail. The holy grail, I know, isn't it? And there's no answer. So there's a whole bunch of, I think, think room to innovate in that space. But I think that is something that also for people who may be coming to vis from sort of ux sort of space, I think that you throw data in and a lot of the tools that you would normally use just you can't use anymore. So I think that's another thing that's kind of unique and interesting about designing visualizations.",
+      "id": "ep_118_ut_59"
+    },
+    {
+      "end": 1550904,
+      "speaker": "Enrico Bertini",
+      "start": 1523806,
+      "text": "Yeah, yeah, that's totally true. And it's so hard. I think by the time that you are able to prototype with data, you might have solved the problem. Right. So it's really hard. So one thing I wanted to ask you is more related to how do you see the audience of your book? Who do you expect to use this book? For what reason? Who is your target audience?",
+      "id": "ep_118_ut_60"
+    },
+    {
+      "end": 1566784,
+      "speaker": "Miriah Meyer",
+      "start": 1551284,
+      "text": "So, yeah, so when, like, my neighbors ask me this question, they're like, oh, did you write a novel? No. So I say, well, it's a book for the general public, where the general public are people like data scientists, scientists and visualization designers.",
+      "id": "ep_118_ut_61"
+    },
+    {
+      "end": 1571264,
+      "speaker": "Enrico Bertini",
+      "start": 1570084,
+      "text": "Data scientists.",
+      "id": "ep_118_ut_62"
+    },
+    {
+      "end": 1644714,
+      "speaker": "Miriah Meyer",
+      "start": 1572924,
+      "text": "We count, don't we? Come on. So, yeah, I think we really wanted to write a book that was accessible to practitioners, people who maybe haven't had a lot of formal training and visualization, but also wanting to make it something that would be useful. I mean, my own personal goals is I want something that I can give my own students to help jumpstart some of this initial process of how do we think about designing with data? So that was my goal. But I think this is where the O'Reilly book series is so nice, because as two academics who are used to writing a lot of academic ease, paper y things, it turns out it was really refreshing to just be able to say things and not have to have a bunch of citations afterwards. But it was also really, it was also really challenging to be precise in a way that's also accessible. So I found that to be a really interesting challenge throughout writing. But, yeah, sorry, I'm tangenting from your question, but I think it's for people who are, I think, largely practitioners, people who are trying to design for real problems and real data sets.",
+      "id": "ep_118_ut_63"
+    },
+    {
+      "end": 1647146,
+      "speaker": "Enrico Bertini",
+      "start": 1644794,
+      "text": "Yeah, yeah. And one thing I really like concise.",
+      "id": "ep_118_ut_64"
+    },
+    {
+      "end": 1690432,
+      "speaker": "Moritz Stefaner",
+      "start": 1647210,
+      "text": "We should mention it's not a huge book. It's like, I think, 100 and 2130 pages. It's written very concisely. I think that's a big quality. It doesn't knock you out with all this detailed knowledge, but really walks you through. Okay. These are the main points you really need to consider. And I mean, personally, I think it could work both for somebody being more on the technical side, wanting to understand a bit about design, but also somebody with a design background wanting to move more into the data side of things. Actually, I think we should try it out. Maybe we should have some test users. But my feeling is it's both sides can take something from it, right?",
+      "id": "ep_118_ut_65"
+    },
+    {
+      "end": 1691564,
+      "speaker": "Danyel Fisher",
+      "start": 1690528,
+      "text": "Certainly hope so.",
+      "id": "ep_118_ut_66"
+    },
+    {
+      "end": 1744612,
+      "speaker": "Enrico Bertini",
+      "start": 1692184,
+      "text": "Yeah. And I think related to that, I think. Maria, maybe you already answered. That seems to work pretty well in class, I have to say. I already experimented a little bit with it and I assume really I was sort of curious. Yeah, I'm teaching a new course that is more on the, it's less vis and it's more like how do you actually extract information out of data? Through some interactive data analysis. Right. Without knowing too much about stats, which sounds like a little bit of an heresy, but that's what I'm trying to do. And at the beginning of the course I gave the first two chapters and it seemed to work really well. Cool. That's what I like. It's concise, it goes straight to the point. And once you understand these two or three concepts, they are installed in your mind, then you can reuse them. It's very useful.",
+      "id": "ep_118_ut_67"
+    },
+    {
+      "end": 1747784,
+      "speaker": "Miriah Meyer",
+      "start": 1744668,
+      "text": "So maybe we only needed to write 50 pages.",
+      "id": "ep_118_ut_68"
+    },
+    {
+      "end": 1766926,
+      "speaker": "Enrico Bertini",
+      "start": 1751164,
+      "text": "No, but seriously, I do believe that it's a really good feature of this book. The idea that even without sacrificing anything in terms of content, it's very concise. I find this a really, really good property of this book.",
+      "id": "ep_118_ut_69"
+    },
+    {
+      "end": 1767534,
+      "speaker": "Miriah Meyer",
+      "start": 1766990,
+      "text": "Thanks.",
+      "id": "ep_118_ut_70"
+    },
+    {
+      "end": 1775342,
+      "speaker": "Moritz Stefaner",
+      "start": 1767654,
+      "text": "So where can people find it? It's published by Oreilly. Does it have a website of its own or do you search for it on Google? What works best?",
+      "id": "ep_118_ut_71"
+    },
+    {
+      "end": 1789278,
+      "speaker": "Danyel Fisher",
+      "start": 1775518,
+      "text": "We actually have the figures from chapter five and six, which are dynamic and available in JavaScript and put together by the creators of Vega Lite over at making data visual GitHub IO.",
+      "id": "ep_118_ut_72"
+    },
+    {
+      "end": 1789912,
+      "speaker": "Moritz Stefaner",
+      "start": 1789366,
+      "text": "That's great.",
+      "id": "ep_118_ut_73"
+    },
+    {
+      "end": 1805744,
+      "speaker": "Danyel Fisher",
+      "start": 1789998,
+      "text": "If you want to actually read those first couple fun chapters, you actually do have to go pick up the book. It's available through O'Reilly press, so go to your favorite book vendor or o'reilly allows you to buy it online. And the ebook form is also gorgeous and very pretty.",
+      "id": "ep_118_ut_74"
+    },
+    {
+      "end": 1812664,
+      "speaker": "Moritz Stefaner",
+      "start": 1806484,
+      "text": "And where can people see you? I heard you're coming to Europe, both of you, actually. Independently, right?",
+      "id": "ep_118_ut_75"
+    },
+    {
+      "end": 1836866,
+      "speaker": "Miriah Meyer",
+      "start": 1813044,
+      "text": "Independently and jointly. So, yeah, so I am pretty excited. I will be giving a talk at the Openviz comp year. I've actually never been, but it's one of these like FOMO sorts of things where it just seems like all the cool kids go there. So, you know, like for example, Moritz, you're giving the keynote, but yeah, so I'll be giving a talk there.",
+      "id": "ep_118_ut_76"
+    },
+    {
+      "end": 1838094,
+      "speaker": "Enrico Bertini",
+      "start": 1836930,
+      "text": "How did that happen?",
+      "id": "ep_118_ut_77"
+    },
+    {
+      "end": 1856888,
+      "speaker": "Miriah Meyer",
+      "start": 1839394,
+      "text": "I said cool kids. So I'm going to be giving a talk there. That's going to cover some of the stuff in the book as well as what I think are some implications of, of the things in the book. So about designing visualizations and really trying to make them effective. And then the following week, Danielle.",
+      "id": "ep_118_ut_78"
+    },
+    {
+      "end": 1862312,
+      "speaker": "Moritz Stefaner",
+      "start": 1856896,
+      "text": "And that's mid May in Paris. Right? In Paris, 14 to 16.",
+      "id": "ep_118_ut_79"
+    },
+    {
+      "end": 1885006,
+      "speaker": "Danyel Fisher",
+      "start": 1862448,
+      "text": "And then a week later, Miriah and I are going to be coappearing at the O'Reilly Strata conference in London. We're doing a half day workshop session on May 22 where we'll be going through a number of exercises related to the various topics in the book and trying to help people work through both data sets we provide and their own to try to understand ways that they can make their own data visual.",
+      "id": "ep_118_ut_80"
+    },
+    {
+      "end": 1892034,
+      "speaker": "Moritz Stefaner",
+      "start": 1885110,
+      "text": "Great. Two great chances to catch the two of you in person and ask all the questions we didn't manage to squeeze in.",
+      "id": "ep_118_ut_81"
+    },
+    {
+      "end": 1925804,
+      "speaker": "Enrico Bertini",
+      "start": 1894214,
+      "text": "Yeah, I think we can wrap it up here. And thanks so much. Very happy to have you on the show again. It's always a big pleasure. And yeah, we normally don't do that in the show, but I would really like to encourage our listeners to buy this book. We are not receiving any money saying that. Just seriously, I think it's a great book and you should read it. I think it's really, really valuable if you want to become a better data visualizer. And yeah, thanks so much for coming on the show.",
+      "id": "ep_118_ut_82"
+    },
+    {
+      "end": 1927644,
+      "speaker": "Miriah Meyer",
+      "start": 1925884,
+      "text": "Thanks, guys. This was really awesome.",
+      "id": "ep_118_ut_83"
+    },
+    {
+      "end": 1929324,
+      "speaker": "Danyel Fisher",
+      "start": 1927764,
+      "text": "Thanks so much for having us.",
+      "id": "ep_118_ut_84"
+    },
+    {
+      "end": 1931304,
+      "speaker": "Moritz Stefaner",
+      "start": 1929484,
+      "text": "Thank you. Thank you.",
+      "id": "ep_118_ut_85"
+    },
+    {
+      "end": 1932948,
+      "speaker": "Enrico Bertini",
+      "start": 1931884,
+      "text": "Bye bye bye.",
+      "id": "ep_118_ut_86"
+    },
+    {
+      "end": 1933476,
+      "speaker": "Danyel Fisher",
+      "start": 1932996,
+      "text": "Goodbye.",
+      "id": "ep_118_ut_87"
+    },
+    {
+      "end": 1934344,
+      "speaker": "Moritz Stefaner",
+      "start": 1933540,
+      "text": "Bye bye.",
+      "id": "ep_118_ut_88"
+    },
+    {
+      "end": 1959064,
+      "speaker": "Enrico Bertini",
+      "start": 1938664,
+      "text": "Hey, folks, thanks for listening to data stories again. Before you leave a few last notes, this show is now completely crowdfunded. So you can support us by going on Patreon. That's patreon.com Datastories. And if you can spend a couple of minutes reading us on iTunes, that would be extremely helpful for the show.",
+      "id": "ep_118_ut_89"
+    },
+    {
+      "end": 1984956,
+      "speaker": "Moritz Stefaner",
+      "start": 1959184,
+      "text": "And here's also some information on the many ways you can get news directly from us with we are, of course, on twitter@twitter.com. Datastories. We have a Facebook page@Facebook.com, datastoriespodcast all in one word. And we also have a slack channel where you can chat with us directly. And to sign up you can go to our homepage datastory eas. And there is a button at the bottom of the page.",
+      "id": "ep_118_ut_90"
+    },
+    {
+      "end": 2000802,
+      "speaker": "Enrico Bertini",
+      "start": 1985100,
+      "text": "And we also have an email newsletter. So if you want to get news directly into your inbox and be notified whenever we publish an episode, you can go to our home page Datastories es and look for the link you find at the bottom in the footer.",
+      "id": "ep_118_ut_91"
+    },
+    {
+      "end": 2012962,
+      "speaker": "Moritz Stefaner",
+      "start": 2000898,
+      "text": "So one last thing we want to tell you is that we love to get in touch with our listeners, especially if you want to suggest a way to improve the show or amazing people you want us to invite or even projects you want us to talk about.",
+      "id": "ep_118_ut_92"
+    },
+    {
+      "end": 2018708,
+      "speaker": "Enrico Bertini",
+      "start": 2013058,
+      "text": "Yeah, absolutely. And don't hesitate to get in touch with us. It's always a great thing to hear from you.",
+      "id": "ep_118_ut_93"
+    },
+    {
+      "end": 2019160,
+      "speaker": "Miriah Meyer",
+      "start": 2018746,
+      "text": "You.",
+      "id": "ep_118_ut_94"
+    },
+    {
+      "end": 2022144,
+      "speaker": "Enrico Bertini",
+      "start": 2019272,
+      "text": "So. See you next time. And thanks for listening to data stories.",
+      "id": "ep_118_ut_95"
+    }
+  ],
+  "confidence": 0.94361645225136,
+  "audio_duration": 2031,
+  "punctuate": true,
+  "format_text": true,
+  "dual_channel": false,
+  "webhook_url": null,
+  "webhook_status_code": null,
+  "webhook_auth": false,
+  "webhook_auth_header_name": null,
+  "speed_boost": false,
+  "auto_highlights_result": null,
+  "auto_highlights": false,
+  "audio_start_from": null,
+  "audio_end_at": null,
+  "word_boost": [],
+  "boost_param": null,
+  "filter_profanity": false,
+  "redact_pii": false,
+  "redact_pii_audio": false,
+  "redact_pii_audio_quality": null,
+  "redact_pii_policies": null,
+  "redact_pii_sub": null,
+  "speaker_labels": true,
+  "content_safety": false,
+  "iab_categories": true,
+  "content_safety_labels": {
+    "status": "unavailable",
+    "results": [],
+    "summary": {}
+  },
+  "language_detection": false,
+  "language_detection_threshold": null,
+  "language_confidence": null,
+  "custom_spelling": null,
+  "throttled": false,
+  "auto_chapters": true,
+  "summarization": false,
+  "summary_type": null,
+  "summary_model": null,
+  "custom_topics": false,
+  "topics": [],
+  "speech_threshold": null,
+  "speech_model": "best",
+  "chapters": [
+    {
+      "summary": "On this podcast, we talk about data visualization, analysis, and generally the role data plays in our lives. Our podcast is listener supported, so there are no ads. If you enjoy the show, please consider supporting us.",
+      "gist": "Data Stories: Thinking Through Data",
+      "headline": "This podcast is listener supported, so there are no ads",
+      "start": 240,
+      "end": 90618,
+      "id": "ep_118_ch_0"
+    },
+    {
+      "summary": "Danielle Fisher and Miriah Meyer are on the show to talk about a new data visualization book. The book is called making data visual. It's been a couple of years since Danyel was here in episode number nine.",
+      "gist": "Making Data Visualation: Episode 9",
+      "headline": "Danyel Fisher and Miriah Meyer are talking about making data visual",
+      "start": 90746,
+      "end": 140470,
+      "id": "ep_118_ch_1"
+    },
+    {
+      "summary": "Danielle Fisher: My passion in this world is about making data accessible to people. Working with Miriah on this project has really brought a lot of those interests together. Fisher: Do we really need a new data visualization book?",
+      "gist": "In the Elevator With Data Visualization Authors",
+      "headline": "Danielle Fisher: I'm excited to talk to Miriah about her new book",
+      "start": 140622,
+      "end": 235324,
+      "id": "ep_118_ch_2"
+    },
+    {
+      "summary": "The book is a new data visualization book from O'Reilly Strata. Authors say there's a gap in the literature about how to make data visual. It's not a technical process, it's a social process that involves getting to know data.",
+      "gist": "Data Visualization: The Book Review",
+      "headline": "You write a book about what it takes to build a data visualization",
+      "start": 238424,
+      "end": 361732,
+      "id": "ep_118_ch_3"
+    },
+    {
+      "summary": "Maria Cardona: The notion of proxy is this idea that we have these questions in the world that we want to answer with data. She says you infer things based upon the knowledge that you bring to bear to the visualization. Cardona says the book made a number of things implicitly and made them explicit.",
+      "gist": "Top Five: Proxies in Data Visualization",
+      "headline": "Maria and Danyel discuss the notion of proxies in their new book",
+      "start": 361788,
+      "end": 519036,
+      "id": "ep_118_ch_4"
+    },
+    {
+      "summary": "Another one is this idea of going from questions to tasks and the primacy of questions. What you should actually ask back is like, what are you trying to solve? What are your questions? And how do you translate these questions into specific tasks?",
+      "gist": "On Data Visualization: Going From Questions to Tasks",
+      "headline": "Another one is going from questions to tasks and the primacy of questions",
+      "start": 519140,
+      "end": 591042,
+      "id": "ep_118_ch_5"
+    },
+    {
+      "summary": "The book is about how to make data more actionable. It's kind of what you might call the art of visualization. The framework is task, action, object, measure, grouping. It can help you hone in on the things that need to be more refined.",
+      "gist": "The Art of Valuing the Best",
+      "headline": "Danielle and I write a book about how to visualize data",
+      "start": 591218,
+      "end": 929474,
+      "id": "ep_118_ch_6"
+    },
+    {
+      "summary": "Danielle: You always need to familiarize with your data before you are able to do something meaningful with it. We call data counseling, this whole process of working together with the person who understands what the visualization techniques are. But understanding the breakdown of the tasks is still going to be something that you really have to do.",
+      "gist": "Data Counselor: The Process of Visualization",
+      "headline": "Danielle: There are two things that happen in every single data visualization project",
+      "start": 929854,
+      "end": 1211796,
+      "id": "ep_118_ch_7"
+    },
+    {
+      "summary": "Author: We're not just designing with people, we're also designing with data. The notion of rapid prototyping, which we do is user centered. But when you throw data into the rapid prototypeing process, it rapidly becomes complex. How can we better support that when it comes to data?",
+      "gist": "Data and User Centered Design",
+      "headline": "Danyel Ly: User centered design involves working with data",
+      "start": 1211860,
+      "end": 1537732,
+      "id": "ep_118_ch_8"
+    },
+    {
+      "summary": "Maria Moritz: Who do you expect to use this book? She says it's for people who are trying to design for real problems. It's written very concisely. Both sides can take something from it, she says. Moritz will be giving a talk at the Openviz comp year.",
+      "gist": "Data & Design: A Book for Practical Users",
+      "headline": "Who do you expect to use this book for? For what reason",
+      "start": 1537908,
+      "end": 1885006,
+      "id": "ep_118_ch_9"
+    },
+    {
+      "summary": "Great. Two great chances to catch the two of you in person and ask all the questions we didn't manage to squeeze in. I would really like to encourage our listeners to buy this book. I think it's really, really valuable if you want to become a better data visualizer.",
+      "gist": "Data Visualizer",
+      "headline": "I would really like to encourage our listeners to buy this book",
+      "start": 1885110,
+      "end": 1934344,
+      "id": "ep_118_ch_10"
+    },
+    {
+      "summary": "This show is now completely crowdfunded. You can support us by going on patreon. com Datastories. We love to get in touch with our listeners, especially if you want to suggest a way to improve the show. See you next time.",
+      "gist": "How to Subscribe to Data Stories",
+      "headline": "This show is now completely crowdfunded and can be supported on Patreon",
+      "start": 1938664,
+      "end": 2022144,
+      "id": "ep_118_ch_11"
+    }
+  ],
+  "disfluencies": false,
+  "entity_detection": false,
+  "sentiment_analysis": false,
+  "sentiment_analysis_results": null,
+  "entities": null,
+  "speakers_expected": null,
+  "summary": null,
+  "custom_topics_results": null,
+  "episode_num": 118,
+  "episode_metadata": {
+    "speakers": [
+      "Danyel Fisher",
+      "Enrico Bertini",
+      "Moritz Stefaner",
+      "Miriah Meyer"
+    ],
+    "WPid": "1162",
+    "url": "https://datastori.es/podlove/file/4978/s/feed/c/mp3/ds117-making-data-visual-with-miriah-meyer-and-danyel-fisher.mp3",
+    "episode_title": "Making Data Visual with Miriah Meyer and Danyel Fisher"
+  }
+}
