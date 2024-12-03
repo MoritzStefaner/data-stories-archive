@@ -4,20 +4,27 @@ This is the data and code behind the [Data Stories Podcast Archive](https://arch
 
 It is based on automatic audio transcriptions of the 170 episodes we recorded since February 2012. 
 
+# [data](data/)
+
 We used <https://www.assemblyai.com/> to transcribe the audio files. 
 
+The data folder contains both the unprocessed output of the automatic transcription, as well as the revised versions:
 The automatic transcription works very well for known English words, but has its limitations for proper names or domain specific terms. 
 So we used custom word replacement lists to fix some of the most apparent misspellings. 
 
-Another nice feature of the automatic transcription is that each utterance (in fact, every simgle work) is exactly timestamped, so we can jump to arbitrary audio snippets based on e.g. a text search
+# [www](www/)
+The web application is a custom frontend for this dataset.
 
-# Data
-tbd.
+It is accessible online at
+<https://archive.datastori.es/>
 
-# Web application
-tbd.
+<img width="1912" alt="image" src="https://github.com/user-attachments/assets/72741d1f-7685-494e-b2f1-211009055458">
+
+It allows browsing and search of the transcripts, and also the playback of the corresponding audio files.
 
 # Authors
-Miska Knapek (Data processing)
-Moritz Stefaner (Concept, design and web code)
+
+- Miska Knapek (Data processing)
+- Moritz Stefaner (Concept, design and web code)
+
 
