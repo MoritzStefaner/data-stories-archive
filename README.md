@@ -23,7 +23,7 @@ It is accessible online at
 It allows browsing and search of the transcripts, and also the playback of the corresponding audio files.
 
 ## Observable Notebook
-You can also explore and download the data (along with some additional download statistics) in an [https://observablehq.com/@moritzstefaner/data-stories-archive](Observable Notebook).
+You can also explore and download the data (along with some additional download statistics) in an [Observable Notebook](https://observablehq.com/@moritzstefaner/data-stories-archive).
 
 ## Authors
 
