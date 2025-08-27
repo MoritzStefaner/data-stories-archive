@@ -1,59 +1,44 @@
 <script>
 	import { find, throttle } from 'lodash-es';
 	import { page } from '$app/stores';
+	import { createClient } from '@libsql/client';
 
-	const url = 'https://datastories-archive-moritzstefaner.turso.io/v2/pipeline';
+	const url = 'libsql://datastories-archive-moritzstefaner.aws-eu-west-1.turso.io';
 	const authToken = import.meta.env.VITE_TURSO_KEY;
+	const turso = createClient({
+		url,
+		authToken
+	});
+
 	let searchTerm = '';
 	let limit = 50;
 	let results = null;
 	export let active = false;
 
-	const doSearch = async () => {
-		const response = await fetch(url, {
-			method: 'POST',
-			mode: 'cors',
-			headers: {
-				Authorization: `Bearer ${authToken}`,
-				'Content-Type': 'application/json',
-				'Access-Control-Allow-Origin': '*'
-			},
-			body: JSON.stringify({
-				requests: [
-					{
-						type: 'execute',
-						stmt: {
-							sql: `
-              SELECT
-                *
-              FROM
-                search
-              WHERE
-                text MATCH "${searchTerm}"
-              ORDER BY
-                RANK
-              LIMIT
-                ${limit};`
-						}
-					},
-					{ type: 'close' }
-				]
-			})
-		});
+	let resultsObject = null;
 
-		const resultsList = await response.json();
-		results = find(resultsList.results, { response: { type: 'execute' } })?.response?.result;
+	const doSearch = async () => {
+		const response = await turso.execute(`
+			SELECT
+				*
+			FROM
+				search
+			WHERE
+				text MATCH "${searchTerm}"
+			ORDER BY
+				RANK
+			LIMIT
+				${limit};
+		`);
+
+		console.log('response', response);
+
+		resultsObject = response.rows;
+
 		searched = searchTerm;
 	};
 
 	let searched = null;
-
-	$: resultsObject =
-		searchTerm && results?.cols
-			? results.rows.map((row) =>
-					Object.fromEntries(row.map((col, i) => [results.cols[i].name, col.value]))
-				)
-			: null;
 
 	const throttledSearch = throttle(doSearch, 1000);
 
