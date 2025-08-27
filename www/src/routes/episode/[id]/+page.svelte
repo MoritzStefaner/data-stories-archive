@@ -27,6 +27,7 @@
 	import Episodes from '$lib/Episodes.svelte';
 	import Logo from '$lib/Logo.svelte';
 	import Search from '$lib/Search.svelte';
+	import { tick } from 'svelte';
 
 	export let data = {};
 
@@ -79,20 +80,28 @@
 	let duration;
 	let paused = true;
 
+	$: console.log(episode);
+
+	$: episodeURL = `https://datastori.es/?redirect_to=latest&s="${encodeURIComponent(episode.title)}"&post_type=podcast`;
+
 	$: autoplay = player && duration && !paused;
 
 	$: isActive = ({ start, end }) => currentTime >= start / 1000 && currentTime <= end / 1000;
 
 	let targetCurrentTime = null;
+
 	afterNavigate(() => {
 		if (hash) {
 			// if we have a hash, jump to the corresponding utterance after episode is loaded
 			duration = null;
 			targetCurrentTime =
 				find(utterances.concat(chapters), (d) => d.id === hash.replace('#', ''))?.start / 1000;
+			player.load();
 		} else {
 			// just jump to start
 			targetCurrentTime = 0;
+			player.load();
+			console.log('no hash!');
 		}
 	});
 
@@ -120,22 +129,24 @@
 		{/if}
 	</div>
 
-	<div class="h-full" style:grid-area="audio">
+	<div class="flex h-full flex-col p-4" style:grid-area="audio">
 		<h3 class="mb-4 text-sm uppercase tracking-wider text-purple-500">Audio</h3>
-		<div class="border-1 mr-4 flex items-center rounded-lg border border-purple-500 shadow-sm">
-			{#key audio_url}
-				<audio
-					class=" grow border-white"
-					controls
-					{autoplay}
-					bind:currentTime
-					bind:duration
-					bind:paused
-					bind:this={player}
-				>
+		<div
+			class="border-1 flex w-full grow items-center self-end rounded-lg border border-purple-500 px-4 shadow-sm"
+		>
+			<audio
+				class=" grow border-white"
+				controls
+				{autoplay}
+				bind:currentTime
+				bind:duration
+				bind:paused
+				bind:this={player}
+			>
+				{#key audio_url}
 					<source src={audio_url} type="audio/mpeg" />
-				</audio>
-			{/key}
+				{/key}
+			</audio>
 		</div>
 	</div>
 
@@ -190,10 +201,12 @@
 		<div class="flex h-0 grow justify-center overflow-y-auto scroll-smooth">
 			<div class="min-w-[20em] max-w-[40em]">
 				{#if episode}
-					<div class="flex flex-col gap-2 p-2 text-sm">
-						<div class="flex gap-2">
-							<div>Data Stories: Episode #{episode.number}</div>
+					<div class="flex flex-col gap-6 p-2 text-sm">
+						<div class="flex grow justify-between gap-2">
+							<span>Data Stories: Episode #{episode.number}</span>
+							<a class="text-gray-500" href={episodeURL}>→ View on datastori.es</a>
 						</div>
+
 						<h1>{episode.title}</h1>
 					</div>
 				{/if}
